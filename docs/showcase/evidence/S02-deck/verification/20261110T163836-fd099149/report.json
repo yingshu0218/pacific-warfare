@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T163836-fd099149",
+  "owner": "S02-deck-web-build",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s02-deck-web-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 46974,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s02-deck-web-project",
+      "pid": 47028,
+      "process_group": 47028,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.3194,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163836-fd099149/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s02-deck-web-project",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s02-deck-web-project",
+      "pid": 47029,
+      "process_group": 47029,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": true,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 4.0036,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163836-fd099149/01-output.log",
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S02-deck-web-build",
+    "pid": 46974,
+    "process_identity": "Wed Nov 11 00:38:36 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S02-deck-web-build --timeout 180 --lock-timeout 50 --project /Users/infinity/Desktop/Dev/game-pacific/.local/s02-deck-web-project import",
+    "token": "3872eff392004c4680570026ebc09336",
+    "acquired_utc": "2026-11-10T16:39:00.140432+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 1
+}

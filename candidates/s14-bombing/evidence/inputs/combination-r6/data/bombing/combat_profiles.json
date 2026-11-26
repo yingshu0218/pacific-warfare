@@ -1,0 +1,542 @@
+{
+	"ammo_profiles": {
+		"jp_type97_no6": {
+			"blast_radius_m": 45.0,
+			"burst_radius_m": 0.0,
+			"damage_scale": 0.08,
+			"explosive_kg": 22.6796,
+			"kind": "he",
+			"release_mode": "gravity_release",
+			"visual_radius_m": 16.0
+		},
+		"jp_type98_no25_land": {
+			"blast_radius_m": 75.0,
+			"burst_radius_m": 0.0,
+			"damage_scale": 0.08,
+			"explosive_kg": 95.70799007,
+			"kind": "he",
+			"release_mode": "gravity_release",
+			"visual_radius_m": 28.0
+		},
+		"us_an_m64_tnt_tm1950": {
+			"blast_radius_m": 75.0,
+			"burst_radius_m": 0.0,
+			"damage_scale": 0.08,
+			"explosive_kg": 118.705123,
+			"kind": "he",
+			"release_mode": "gravity_release",
+			"visual_radius_m": 28.0
+		}
+	},
+	"unit_profiles": {
+		"jp_d4y2_model12_1944_10": {
+			"aircraft_damage": {
+				"anchors_m": {
+					"tail": [
+						0.0,
+						0.0149999996647239,
+						2.79999995231628
+					],
+					"wing_left": [
+						-0.5,
+						-0.239999994635582,
+						-0.800000011920929
+					],
+					"wing_right": [
+						0.5,
+						-0.239999994635582,
+						-0.800000011920929
+					]
+				},
+				"engine_structure_transfer": 0.3,
+				"source_note": "DM01 coarse game damage thresholds and precut pivots; not historical fracture/penetration data.",
+				"tail_durability": 28.0,
+				"tail_structure_transfer": 0.4,
+				"wing_durability": 30.0,
+				"wing_structure_transfer": 0.35,
+				"wreck_lifetime_s": 12.0
+			},
+			"boxes": [
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						0,
+						0,
+						0
+					],
+					"half_extents_m": [
+						0.5,
+						0.6,
+						3.5
+					],
+					"part": "control"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						0,
+						0,
+						-3.4
+					],
+					"half_extents_m": [
+						0.9,
+						0.9,
+						1.3
+					],
+					"part": "engine"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						0,
+						0,
+						-3.4
+					],
+					"half_extents_m": [
+						0.9,
+						0.9,
+						1.3
+					],
+					"part": "engine"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						-3.0,
+						0,
+						-0.5
+					],
+					"half_extents_m": [
+						2.7,
+						0.15,
+						1.2
+					],
+					"part": "wing_left"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						3.0,
+						0,
+						-0.5
+					],
+					"half_extents_m": [
+						2.7,
+						0.15,
+						1.2
+					],
+					"part": "wing_right"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						0,
+						0.4,
+						4.1
+					],
+					"half_extents_m": [
+						2.2,
+						1.0,
+						0.8
+					],
+					"part": "tail"
+				}
+			],
+			"damage_effects": {
+				"fire_anchor_m": [
+					0.0,
+					0.370000004768372,
+					-2.45000004768372
+				],
+				"smoke_anchor_m": [
+					0.0,
+					0.370000004768372,
+					-2.45000004768372
+				]
+			},
+			"fire_decay_per_s": 0.004,
+			"fire_loss_per_s": 3.0,
+			"flood_loss_per_s": 0.0,
+			"loss_duration_s": 30.0,
+			"part_durability": 55.0,
+			"radar_aircraft_m": 0.0,
+			"radar_ship_m": 0.0,
+			"sensor_height_m": 0.0,
+			"structure": 85.0,
+			"visual_m": 15000.0,
+			"weapon_durability": 10.0
+		},
+		"jp_g4m1_1942_07": {
+			"aircraft_damage": {
+				"anchors_m": {
+					"tail": [
+						0.0,
+						0.0399999991059303,
+						5.90000009536743
+					],
+					"wing_left": [
+						-1.10000002384186,
+						0.0399999991059303,
+						-1.0
+					],
+					"wing_right": [
+						1.10000002384186,
+						0.0399999991059303,
+						-1.0
+					]
+				},
+				"engine_structure_transfer": 0.3,
+				"source_note": "DM01 coarse game damage thresholds and precut pivots; not historical fracture/penetration data.",
+				"tail_durability": 28.0,
+				"tail_structure_transfer": 0.4,
+				"wing_durability": 30.0,
+				"wing_structure_transfer": 0.35,
+				"wreck_lifetime_s": 12.0
+			},
+			"boxes": [
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						0,
+						0,
+						0
+					],
+					"half_extents_m": [
+						1.25,
+						1.0,
+						7.8
+					],
+					"part": "control"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						-3.85,
+						0,
+						-4.8
+					],
+					"half_extents_m": [
+						0.9,
+						0.9,
+						1.3
+					],
+					"part": "engine"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						3.85,
+						0,
+						-4.8
+					],
+					"half_extents_m": [
+						0.9,
+						0.9,
+						1.3
+					],
+					"part": "engine"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						-6.6,
+						0,
+						-2.0
+					],
+					"half_extents_m": [
+						5.8,
+						0.2,
+						1.8
+					],
+					"part": "wing_left"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						6.6,
+						0,
+						-2.0
+					],
+					"half_extents_m": [
+						5.8,
+						0.2,
+						1.8
+					],
+					"part": "wing_right"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						0,
+						0.4,
+						8.0
+					],
+					"half_extents_m": [
+						4.6,
+						1.2,
+						1.5
+					],
+					"part": "tail"
+				}
+			],
+			"damage_effects": {
+				"fire_anchor_m": [
+					0.0,
+					0.450000017881393,
+					-4.40000009536743
+				],
+				"smoke_anchor_m": [
+					0.0,
+					0.450000017881393,
+					-4.40000009536743
+				]
+			},
+			"fire_decay_per_s": 0.004,
+			"fire_loss_per_s": 3.0,
+			"flood_loss_per_s": 0.0,
+			"loss_duration_s": 30.0,
+			"part_durability": 55.0,
+			"radar_aircraft_m": 0.0,
+			"radar_ship_m": 0.0,
+			"sensor_height_m": 0.0,
+			"structure": 160.0,
+			"visual_m": 15000.0,
+			"weapon_durability": 10.0
+		},
+		"us_b25j_1944_07": {
+			"aircraft_damage": {
+				"anchors_m": {
+					"tail": [
+						0.0,
+						0.100000001490116,
+						5.65000009536743
+					],
+					"wing_left": [
+						-0.649999976158142,
+						0.140000000596046,
+						-0.600000023841858
+					],
+					"wing_right": [
+						0.649999976158142,
+						0.140000000596046,
+						-0.600000023841858
+					]
+				},
+				"engine_structure_transfer": 0.3,
+				"source_note": "DM01 coarse game damage thresholds and precut pivots; not historical fracture/penetration data.",
+				"tail_durability": 28.0,
+				"tail_structure_transfer": 0.4,
+				"wing_durability": 30.0,
+				"wing_structure_transfer": 0.35,
+				"wreck_lifetime_s": 12.0
+			},
+			"boxes": [
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						0,
+						0,
+						-1.4
+					],
+					"half_extents_m": [
+						0.7,
+						0.8,
+						6.4
+					],
+					"part": "control"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						-3.12,
+						0.12,
+						-3.1
+					],
+					"half_extents_m": [
+						0.75,
+						0.8,
+						1.1
+					],
+					"part": "engine"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						3.12,
+						0.12,
+						-3.1
+					],
+					"half_extents_m": [
+						0.75,
+						0.8,
+						1.1
+					],
+					"part": "engine"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						-5.4,
+						0.2,
+						-0.6
+					],
+					"half_extents_m": [
+						4.85,
+						0.18,
+						1.45
+					],
+					"part": "wing_left"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						5.4,
+						0.2,
+						-0.6
+					],
+					"half_extents_m": [
+						4.85,
+						0.18,
+						1.45
+					],
+					"part": "wing_right"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						0,
+						0.6,
+						7.1
+					],
+					"half_extents_m": [
+						3.8,
+						1.3,
+						1.45
+					],
+					"part": "tail"
+				}
+			],
+			"damage_effects": {
+				"fire_anchor_m": [
+					0.0,
+					0.469999998807907,
+					-2.59999990463257
+				],
+				"smoke_anchor_m": [
+					0.0,
+					0.469999998807907,
+					-2.59999990463257
+				]
+			},
+			"fire_decay_per_s": 0.004,
+			"fire_loss_per_s": 3.0,
+			"flood_loss_per_s": 0.0,
+			"loss_duration_s": 30.0,
+			"part_durability": 55.0,
+			"radar_aircraft_m": 0.0,
+			"radar_ship_m": 0.0,
+			"sensor_height_m": 0.0,
+			"structure": 160.0,
+			"visual_m": 15000.0,
+			"weapon_durability": 10.0
+		},
+		"us_sb2c4_1944": {
+			"boxes": [
+				{
+					"armor_mm": 1.0,
+					"center_m": [
+						0.0,
+						0.0,
+						-3.6
+					],
+					"half_extents_m": [
+						0.9,
+						0.9,
+						1.2
+					],
+					"part": "engine"
+				},
+				{
+					"armor_mm": 1.0,
+					"center_m": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"half_extents_m": [
+						0.8,
+						0.8,
+						3.0
+					],
+					"part": "structure"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						0.0,
+						0.2,
+						4.1
+					],
+					"half_extents_m": [
+						2.9,
+						0.35,
+						1.2
+					],
+					"part": "control"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						-4.0,
+						0.0,
+						0.0
+					],
+					"half_extents_m": [
+						3.5,
+						0.15,
+						1.4
+					],
+					"part": "structure"
+				},
+				{
+					"armor_mm": 0.0,
+					"center_m": [
+						4.0,
+						0.0,
+						0.0
+					],
+					"half_extents_m": [
+						3.5,
+						0.15,
+						1.4
+					],
+					"part": "structure"
+				}
+			],
+			"damage_effects": {
+				"fire_anchor_m": [
+					0.0,
+					0.6,
+					-3.6
+				],
+				"smoke_anchor_m": [
+					0.0,
+					0.8,
+					-3.6
+				]
+			},
+			"fire_decay_per_s": 0.004,
+			"fire_loss_per_s": 3.0,
+			"flood_loss_per_s": 0.0,
+			"loss_duration_s": 30.0,
+			"part_durability": 65.0,
+			"radar_aircraft_m": 0.0,
+			"radar_ship_m": 0.0,
+			"sensor_height_m": 0.0,
+			"source_note": "S14 coarse approximate collision/survivability profile. No precut DM01 for this model; uses existing generic damage path.",
+			"structure": 110.0,
+			"visual_m": 8000.0,
+			"weapon_durability": 10.0
+		}
+	}
+}

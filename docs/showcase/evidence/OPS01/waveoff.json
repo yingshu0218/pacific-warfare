@@ -1,0 +1,190 @@
+{
+	"ammo_delivered": 0,
+	"ammo_stock_rounds": 4800,
+	"available": false,
+	"carrier_id": "essex",
+	"elevators": {
+		"elevator_aft": 15.85,
+		"elevator_forward": 15.85,
+		"elevator_port": 15.85
+	},
+	"external_block": false,
+	"fuel_delivered_kg": 0.0,
+	"fuel_stock_kg": 2000.0,
+	"history": [
+		{
+			"from": "standby",
+			"order_id": "carrier_patrol",
+			"phase": "preparing",
+			"reason": "sortie_order_received",
+			"tick": 1,
+			"time_s": 0.0166666666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "preparing",
+			"order_id": "carrier_patrol",
+			"phase": "queued",
+			"reason": "awaiting_clear_launch_deck",
+			"tick": 301,
+			"time_s": 5.01666666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "queued",
+			"order_id": "carrier_patrol",
+			"phase": "taxi_out",
+			"reason": "exclusive_launch_clearance",
+			"tick": 302,
+			"time_s": 5.03333333333333,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "taxi_out",
+			"order_id": "carrier_patrol",
+			"phase": "takeoff_roll",
+			"reason": "roll_length_and_wind_cleared",
+			"tick": 801,
+			"time_s": 13.35,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "takeoff_roll",
+			"order_id": "carrier_patrol",
+			"phase": "climb",
+			"reason": "airspeed_and_deck_run_complete",
+			"tick": 1365,
+			"time_s": 22.75,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "climb",
+			"order_id": "carrier_patrol",
+			"phase": "mission",
+			"reason": "climb_and_assembly_complete",
+			"tick": 3517,
+			"time_s": 58.6166666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "mission",
+			"order_id": "carrier_patrol",
+			"phase": "return",
+			"reason": "patrol_complete_return",
+			"tick": 10117,
+			"time_s": 168.616666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "return",
+			"order_id": "carrier_patrol",
+			"phase": "approach",
+			"reason": "exclusive_recovery_clearance",
+			"tick": 20869,
+			"time_s": 347.816666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "approach",
+			"order_id": "carrier_patrol",
+			"phase": "go_around",
+			"reason": "approach_deck_occupied",
+			"tick": 20870,
+			"time_s": 347.833333333333,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "go_around",
+			"order_id": "carrier_patrol",
+			"phase": "return",
+			"reason": "go_around_rejoin_queue",
+			"tick": 26727,
+			"time_s": 445.45,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "return",
+			"order_id": "carrier_patrol",
+			"phase": "approach",
+			"reason": "exclusive_recovery_clearance",
+			"tick": 32856,
+			"time_s": 547.6,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "approach",
+			"order_id": "carrier_patrol",
+			"phase": "go_around",
+			"reason": "carrier_turning",
+			"tick": 34058,
+			"time_s": 567.633333333333,
+			"unit_id": "hellcat_1"
+		}
+	],
+	"launch_queue": [],
+	"parking": {},
+	"recovery_queue": [],
+	"roster": {
+		"hellcat_1": {
+			"cancelled": false,
+			"flaps_down": false,
+			"gear_down": true,
+			"go_arounds": 2,
+			"hook_down": false,
+			"last_local_m": [
+				-770.239135742188,
+				417.760528564453,
+				2361.46826171875
+			],
+			"local_m": [
+				-770.239135742188,
+				417.760528564453,
+				2361.46826171875
+			],
+			"local_rotation_rad": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"local_yaw_rad": 0.0,
+			"on_deck": false,
+			"order_id": "carrier_patrol",
+			"parking_slot": "",
+			"phase": "go_around",
+			"pre_flight_position_m": [
+				-51.7128982543945,
+				417.760528564453,
+				-6472.111328125
+			],
+			"pre_flight_rotation_rad": [
+				0.00812704395502806,
+				0.16001170873642,
+				0.0547968298196793
+			],
+			"pre_flight_velocity_mps": [
+				-12.3296136856079,
+				0.628919005393982,
+				-76.3956985473633
+			],
+			"pre_ship_rotation_rad": [
+				0.0,
+				0.327140212059021,
+				0.0
+			],
+			"reason": "carrier_turning",
+			"recoveries": 0,
+			"relative_velocity_mps": [
+				-18.0324764251709,
+				0.628919005393982,
+				-71.3864440917969
+			],
+			"route_index": 2,
+			"service_done": false,
+			"since_s": 567.633333333333,
+			"sorties": 1,
+			"touchdown_count": 0
+		}
+	},
+	"strip_owner": "",
+	"strip_use": ""
+}

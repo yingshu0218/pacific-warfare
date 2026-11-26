@@ -1,0 +1,1197 @@
+{
+  "scope": "Ten genuine BattleOrder native training sequences using production AircraftMotion. 15fps recording cadence is not a performance benchmark. Camera follows position with fixed world up; aircraft transforms are simulation output.",
+  "clips": [
+    {
+      "name": "a6m-axial_roll",
+      "definition_id": "jp_a6m5a_1944",
+      "maneuver": "axial_roll",
+      "direction": -1,
+      "fps": 15,
+      "frames": 187,
+      "seconds": 12.466666666666667,
+      "resolution": [
+        1100,
+        700
+      ],
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-framerate",
+        "15",
+        "-i",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-axial_roll/frame_%04d.png",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "21",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S04-training/native/a6m-axial_roll.mp4"
+      ],
+      "event_counts": {
+        "order_issued": 1,
+        "order_status_changed": 3,
+        "order_assignments_changed": 2,
+        "command_applied": 1,
+        "order_execution_changed": 7
+      },
+      "final_order_status": "completed",
+      "completed_time_s": 9.45,
+      "actual_training_at_completion": {
+        "bend_rad": 0.0865581631660461,
+        "direction": -1.0,
+        "elapsed_s": 9.43333333333333,
+        "heading_change_rad": 0.000835104623056942,
+        "height_change_m": -285.72998046875,
+        "maneuver": "axial_roll",
+        "min_agl_m": 2114.27001953125,
+        "order_id": "drill",
+        "peak_height_m": 2400.0,
+        "peak_roll_rad": 6.34915795002356,
+        "phase": "completed",
+        "phase_history": [
+          {
+            "heading_change_rad": 0.00196915953800958,
+            "height_change_m": -177.205322265625,
+            "phase": "roll",
+            "roll_accum_rad": -6.34688910437602,
+            "until_s": 6.08333333333333
+          },
+          {
+            "heading_change_rad": 0.000835104623056942,
+            "height_change_m": -285.72998046875,
+            "phase": "recover",
+            "roll_accum_rad": -6.26628107290647,
+            "until_s": 9.43333333333333
+          }
+        ],
+        "reason": "training_geometry_complete",
+        "roll_accum_rad": -6.26628107290647,
+        "status": "completed",
+        "target_climb_m": 100.0,
+        "target_turn_rad": 1.5707963267949
+      },
+      "keyframes": [
+        {
+          "label": "roll",
+          "frame": 45,
+          "time_s": 3.06666666666667,
+          "file": "a6m-axial_roll-roll.png"
+        },
+        {
+          "label": "recover",
+          "frame": 117,
+          "time_s": 7.86666666666667,
+          "file": "a6m-axial_roll-recover.png"
+        },
+        {
+          "label": "completed",
+          "frame": 141,
+          "time_s": 9.46666666666667,
+          "file": "a6m-axial_roll-completed.png"
+        },
+        {
+          "label": "inverted",
+          "frame": 45,
+          "time_s": 3.06666666666667,
+          "file": "a6m-axial_roll-inverted.png"
+        },
+        {
+          "label": "full-roll",
+          "frame": 90,
+          "time_s": 6.06666666666667,
+          "file": "a6m-axial_roll-full-roll.png"
+        }
+      ],
+      "bytes": 564308,
+      "sha256": "907dac5e89122d6f166e52283b0ea2a897499dbb9445b3889e735e8aaa9fe10d"
+    },
+    {
+      "name": "a6m-bank_turn",
+      "definition_id": "jp_a6m5a_1944",
+      "maneuver": "bank_turn",
+      "direction": -1,
+      "fps": 15,
+      "frames": 252,
+      "seconds": 16.8,
+      "resolution": [
+        1100,
+        700
+      ],
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-framerate",
+        "15",
+        "-i",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-bank_turn/frame_%04d.png",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "21",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S04-training/native/a6m-bank_turn.mp4"
+      ],
+      "event_counts": {
+        "order_issued": 1,
+        "order_status_changed": 3,
+        "order_assignments_changed": 2,
+        "command_applied": 1,
+        "order_execution_changed": 9
+      },
+      "final_order_status": "completed",
+      "completed_time_s": 13.783333333333333,
+      "actual_training_at_completion": {
+        "bend_rad": 1.5859123468399,
+        "direction": -1.0,
+        "elapsed_s": 13.7666666666667,
+        "heading_change_rad": 1.58592145427698,
+        "height_change_m": -119.38134765625,
+        "maneuver": "bank_turn",
+        "min_agl_m": 2280.61865234375,
+        "order_id": "drill",
+        "peak_height_m": 2400.0,
+        "peak_roll_rad": 1.24851405200864,
+        "phase": "completed",
+        "phase_history": [
+          {
+            "heading_change_rad": 0.0322613443466695,
+            "height_change_m": -5.0244140625,
+            "phase": "roll_in",
+            "roll_accum_rad": -1.15070158261734,
+            "until_s": 1.45
+          },
+          {
+            "heading_change_rad": 1.57281819002477,
+            "height_change_m": -89.786376953125,
+            "phase": "pull_turn",
+            "roll_accum_rad": -1.24851405200864,
+            "until_s": 10.6
+          },
+          {
+            "heading_change_rad": 1.58592145427698,
+            "height_change_m": -119.38134765625,
+            "phase": "recover",
+            "roll_accum_rad": 0.00292304131306046,
+            "until_s": 13.7666666666667
+          }
+        ],
+        "reason": "training_geometry_complete",
+        "roll_accum_rad": 0.00292304131306046,
+        "status": "completed",
+        "target_climb_m": 100.0,
+        "target_turn_rad": 1.5707963267949
+      },
+      "keyframes": [
+        {
+          "label": "roll_in",
+          "frame": 9,
+          "time_s": 0.666666666666667,
+          "file": "a6m-bank_turn-roll_in.png"
+        },
+        {
+          "label": "pull_turn",
+          "frame": 90,
+          "time_s": 6.06666666666667,
+          "file": "a6m-bank_turn-pull_turn.png"
+        },
+        {
+          "label": "recover",
+          "frame": 183,
+          "time_s": 12.2666666666667,
+          "file": "a6m-bank_turn-recover.png"
+        },
+        {
+          "label": "completed",
+          "frame": 207,
+          "time_s": 13.8666666666667,
+          "file": "a6m-bank_turn-completed.png"
+        }
+      ],
+      "bytes": 683081,
+      "sha256": "476010e4ed023b6ea99210c801dec073cbf36e6a992ccde815a40e3e791ca6b7"
+    },
+    {
+      "name": "a6m-climb_dive",
+      "definition_id": "jp_a6m5a_1944",
+      "maneuver": "climb_dive",
+      "direction": -1,
+      "fps": 15,
+      "frames": 290,
+      "seconds": 19.333333333333332,
+      "resolution": [
+        1100,
+        700
+      ],
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-framerate",
+        "15",
+        "-i",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-climb_dive/frame_%04d.png",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "21",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S04-training/native/a6m-climb_dive.mp4"
+      ],
+      "event_counts": {
+        "order_issued": 1,
+        "order_status_changed": 3,
+        "order_assignments_changed": 2,
+        "command_applied": 1,
+        "order_execution_changed": 11
+      },
+      "final_order_status": "completed",
+      "completed_time_s": 16.316666666666666,
+      "actual_training_at_completion": {
+        "bend_rad": 0.0866090357303619,
+        "direction": -1.0,
+        "elapsed_s": 16.3,
+        "heading_change_rad": 0.0,
+        "height_change_m": 21.675048828125,
+        "maneuver": "climb_dive",
+        "min_agl_m": 2400.0,
+        "order_id": "drill",
+        "peak_height_m": 2531.2353515625,
+        "peak_roll_rad": 0.0,
+        "phase": "completed",
+        "phase_history": [
+          {
+            "heading_change_rad": 0.0,
+            "height_change_m": 100.142333984375,
+            "phase": "climb",
+            "roll_accum_rad": 0.0,
+            "until_s": 6.03333333333333
+          },
+          {
+            "heading_change_rad": 0.0,
+            "height_change_m": 44.805908203125,
+            "phase": "dive",
+            "roll_accum_rad": 0.0,
+            "until_s": 14.6833333333333
+          },
+          {
+            "heading_change_rad": 0.0,
+            "height_change_m": 21.675048828125,
+            "phase": "recover",
+            "roll_accum_rad": 0.0,
+            "until_s": 16.3
+          }
+        ],
+        "reason": "training_geometry_complete",
+        "roll_accum_rad": 0.0,
+        "status": "completed",
+        "target_climb_m": 100.0,
+        "target_turn_rad": 1.5707963267949
+      },
+      "keyframes": [
+        {
+          "label": "climb",
+          "frame": 45,
+          "time_s": 3.06666666666667,
+          "file": "a6m-climb_dive-climb.png"
+        },
+        {
+          "label": "dive",
+          "frame": 156,
+          "time_s": 10.4666666666667,
+          "file": "a6m-climb_dive-dive.png"
+        },
+        {
+          "label": "recover",
+          "frame": 234,
+          "time_s": 15.6666666666667,
+          "file": "a6m-climb_dive-recover.png"
+        },
+        {
+          "label": "completed",
+          "frame": 246,
+          "time_s": 16.4666666666667,
+          "file": "a6m-climb_dive-completed.png"
+        }
+      ],
+      "bytes": 616650,
+      "sha256": "f9ca3113df8bc8038d70462b24f6bafdae4e0fb3ccd2da78644367b870192250"
+    },
+    {
+      "name": "a6m-roll_reversal",
+      "definition_id": "jp_a6m5a_1944",
+      "maneuver": "roll_reversal",
+      "direction": -1,
+      "fps": 15,
+      "frames": 274,
+      "seconds": 18.266666666666666,
+      "resolution": [
+        1100,
+        700
+      ],
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-framerate",
+        "15",
+        "-i",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-roll_reversal/frame_%04d.png",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "21",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S04-training/native/a6m-roll_reversal.mp4"
+      ],
+      "event_counts": {
+        "order_issued": 1,
+        "order_status_changed": 3,
+        "order_assignments_changed": 2,
+        "command_applied": 1,
+        "order_execution_changed": 11
+      },
+      "final_order_status": "completed",
+      "completed_time_s": 15.216666666666667,
+      "actual_training_at_completion": {
+        "bend_rad": 0.190231591463089,
+        "direction": -1.0,
+        "elapsed_s": 15.2,
+        "heading_change_rad": -0.172016728792094,
+        "height_change_m": -259.364013671875,
+        "maneuver": "roll_reversal",
+        "min_agl_m": 2140.63598632812,
+        "order_id": "drill",
+        "peak_height_m": 2400.0,
+        "peak_roll_rad": 1.22573737612819,
+        "phase": "completed",
+        "phase_history": [
+          {
+            "heading_change_rad": 0.0322613443466695,
+            "height_change_m": -5.0244140625,
+            "phase": "roll_in",
+            "roll_accum_rad": -1.15070158261734,
+            "until_s": 1.45
+          },
+          {
+            "heading_change_rad": 0.611357347341405,
+            "height_change_m": -36.325927734375,
+            "phase": "pull_turn",
+            "roll_accum_rad": -1.17715676598703,
+            "until_s": 4.85
+          },
+          {
+            "heading_change_rad": 0.633675064484257,
+            "height_change_m": -74.89599609375,
+            "phase": "roll_reverse",
+            "roll_accum_rad": 1.10239357722433,
+            "until_s": 7.31666666666667
+          },
+          {
+            "heading_change_rad": -0.152527348247821,
+            "height_change_m": -197.996337890625,
+            "phase": "pull_reverse",
+            "roll_accum_rad": 1.22573737612819,
+            "until_s": 12.35
+          },
+          {
+            "heading_change_rad": -0.172016728792094,
+            "height_change_m": -259.364013671875,
+            "phase": "recover",
+            "roll_accum_rad": -0.0173942283831008,
+            "until_s": 15.2
+          }
+        ],
+        "reason": "training_geometry_complete",
+        "roll_accum_rad": -0.0173942283831008,
+        "status": "completed",
+        "target_climb_m": 100.0,
+        "target_turn_rad": 1.5707963267949
+      },
+      "keyframes": [
+        {
+          "label": "roll_in",
+          "frame": 9,
+          "time_s": 0.666666666666667,
+          "file": "a6m-roll_reversal-roll_in.png"
+        },
+        {
+          "label": "pull_turn",
+          "frame": 45,
+          "time_s": 3.06666666666667,
+          "file": "a6m-roll_reversal-pull_turn.png"
+        },
+        {
+          "label": "roll_reverse",
+          "frame": 90,
+          "time_s": 6.06666666666667,
+          "file": "a6m-roll_reversal-roll_reverse.png"
+        },
+        {
+          "label": "pull_reverse",
+          "frame": 147,
+          "time_s": 9.86666666666667,
+          "file": "a6m-roll_reversal-pull_reverse.png"
+        },
+        {
+          "label": "recover",
+          "frame": 207,
+          "time_s": 13.8666666666667,
+          "file": "a6m-roll_reversal-recover.png"
+        },
+        {
+          "label": "completed",
+          "frame": 228,
+          "time_s": 15.2666666666667,
+          "file": "a6m-roll_reversal-completed.png"
+        }
+      ],
+      "bytes": 787913,
+      "sha256": "86c1f92d7483f99b51eb231125e0abe2b3228afb8988bcfc9523681321688555"
+    },
+    {
+      "name": "a6m-split_s",
+      "definition_id": "jp_a6m5a_1944",
+      "maneuver": "split_s",
+      "direction": -1,
+      "fps": 15,
+      "frames": 237,
+      "seconds": 15.8,
+      "resolution": [
+        1100,
+        700
+      ],
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-framerate",
+        "15",
+        "-i",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-split_s/frame_%04d.png",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "21",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S04-training/native/a6m-split_s.mp4"
+      ],
+      "event_counts": {
+        "order_issued": 1,
+        "order_status_changed": 3,
+        "order_assignments_changed": 2,
+        "command_applied": 1,
+        "order_execution_changed": 9
+      },
+      "final_order_status": "completed",
+      "completed_time_s": 12.766666666666667,
+      "actual_training_at_completion": {
+        "bend_rad": 3.05455923080444,
+        "direction": -1.0,
+        "elapsed_s": 12.75,
+        "heading_change_rad": 3.1319435006763,
+        "height_change_m": -716.537719726562,
+        "maneuver": "split_s",
+        "min_agl_m": 1683.46228027344,
+        "order_id": "drill",
+        "peak_height_m": 2400.0,
+        "peak_roll_rad": 3.15759156062566,
+        "phase": "completed",
+        "phase_history": [
+          {
+            "heading_change_rad": 0.0871714159813137,
+            "height_change_m": -36.528564453125,
+            "phase": "roll",
+            "roll_accum_rad": -3.14333762493818,
+            "until_s": 3.2
+          },
+          {
+            "heading_change_rad": 3.09662696527733,
+            "height_change_m": -659.822875976562,
+            "phase": "pull",
+            "roll_accum_rad": -2.97529483388237,
+            "until_s": 10.3
+          },
+          {
+            "heading_change_rad": 3.1319435006763,
+            "height_change_m": -716.537719726562,
+            "phase": "recover",
+            "roll_accum_rad": -3.02100649861078,
+            "until_s": 12.75
+          }
+        ],
+        "reason": "training_geometry_complete",
+        "roll_accum_rad": -3.02100649861078,
+        "status": "completed",
+        "target_climb_m": 100.0,
+        "target_turn_rad": 1.5707963267949
+      },
+      "keyframes": [
+        {
+          "label": "roll",
+          "frame": 24,
+          "time_s": 1.66666666666667,
+          "file": "a6m-split_s-roll.png"
+        },
+        {
+          "label": "pull",
+          "frame": 102,
+          "time_s": 6.86666666666667,
+          "file": "a6m-split_s-pull.png"
+        },
+        {
+          "label": "recover",
+          "frame": 174,
+          "time_s": 11.6666666666667,
+          "file": "a6m-split_s-recover.png"
+        },
+        {
+          "label": "completed",
+          "frame": 192,
+          "time_s": 12.8666666666667,
+          "file": "a6m-split_s-completed.png"
+        },
+        {
+          "label": "inverted",
+          "frame": 51,
+          "time_s": 3.46666666666667,
+          "file": "a6m-split_s-inverted.png"
+        }
+      ],
+      "bytes": 778737,
+      "sha256": "7022472181730c64e0da7f832f7c5197785b6de8358ddcaa6f2ad3731166f89a"
+    },
+    {
+      "name": "f6f-axial_roll",
+      "definition_id": "us_f6f5_1944",
+      "maneuver": "axial_roll",
+      "direction": 1,
+      "fps": 15,
+      "frames": 195,
+      "seconds": 13.0,
+      "resolution": [
+        1100,
+        700
+      ],
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-framerate",
+        "15",
+        "-i",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/f6f-axial_roll/frame_%04d.png",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "21",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S04-training/native/f6f-axial_roll.mp4"
+      ],
+      "event_counts": {
+        "order_issued": 1,
+        "order_status_changed": 3,
+        "order_assignments_changed": 2,
+        "command_applied": 1,
+        "order_execution_changed": 7
+      },
+      "final_order_status": "completed",
+      "completed_time_s": 9.983333333333333,
+      "actual_training_at_completion": {
+        "bend_rad": 0.0867619514465332,
+        "direction": 1.0,
+        "elapsed_s": 9.96666666666667,
+        "heading_change_rad": -0.000543199975494266,
+        "height_change_m": -327.2685546875,
+        "maneuver": "axial_roll",
+        "min_agl_m": 2072.7314453125,
+        "order_id": "drill",
+        "peak_height_m": 2400.0,
+        "peak_roll_rad": 6.31809259509275,
+        "phase": "completed",
+        "phase_history": [
+          {
+            "heading_change_rad": -0.00209659197478105,
+            "height_change_m": -201.888916015625,
+            "phase": "roll",
+            "roll_accum_rad": 6.31460191190355,
+            "until_s": 6.46666666666667
+          },
+          {
+            "heading_change_rad": -0.000543199975494266,
+            "height_change_m": -327.2685546875,
+            "phase": "recover",
+            "roll_accum_rad": 6.26567811659672,
+            "until_s": 9.96666666666667
+          }
+        ],
+        "reason": "training_geometry_complete",
+        "roll_accum_rad": 6.26567811659672,
+        "status": "completed",
+        "target_climb_m": 100.0,
+        "target_turn_rad": 1.5707963267949
+      },
+      "keyframes": [
+        {
+          "label": "roll",
+          "frame": 48,
+          "time_s": 3.26666666666667,
+          "file": "f6f-axial_roll-roll.png"
+        },
+        {
+          "label": "recover",
+          "frame": 123,
+          "time_s": 8.26666666666667,
+          "file": "f6f-axial_roll-recover.png"
+        },
+        {
+          "label": "completed",
+          "frame": 150,
+          "time_s": 10.0666666666667,
+          "file": "f6f-axial_roll-completed.png"
+        },
+        {
+          "label": "inverted",
+          "frame": 48,
+          "time_s": 3.26666666666667,
+          "file": "f6f-axial_roll-inverted.png"
+        },
+        {
+          "label": "full-roll",
+          "frame": 96,
+          "time_s": 6.46666666666667,
+          "file": "f6f-axial_roll-full-roll.png"
+        }
+      ],
+      "bytes": 563078,
+      "sha256": "31967e2db950a2ae7b0c874b2b1bac7fd42e139c3331bc6dc8b31336260f6731"
+    },
+    {
+      "name": "f6f-bank_turn",
+      "definition_id": "us_f6f5_1944",
+      "maneuver": "bank_turn",
+      "direction": 1,
+      "fps": 15,
+      "frames": 256,
+      "seconds": 17.066666666666666,
+      "resolution": [
+        1100,
+        700
+      ],
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-framerate",
+        "15",
+        "-i",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/f6f-bank_turn/frame_%04d.png",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "21",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S04-training/native/f6f-bank_turn.mp4"
+      ],
+      "event_counts": {
+        "order_issued": 1,
+        "order_status_changed": 3,
+        "order_assignments_changed": 2,
+        "command_applied": 1,
+        "order_execution_changed": 9
+      },
+      "final_order_status": "completed",
+      "completed_time_s": 14.05,
+      "actual_training_at_completion": {
+        "bend_rad": 1.58498382568359,
+        "direction": 1.0,
+        "elapsed_s": 14.0333333333333,
+        "heading_change_rad": -1.58499050726594,
+        "height_change_m": -119.9990234375,
+        "maneuver": "bank_turn",
+        "min_agl_m": 2280.0009765625,
+        "order_id": "drill",
+        "peak_height_m": 2400.0,
+        "peak_roll_rad": 1.24661385262928,
+        "phase": "completed",
+        "phase_history": [
+          {
+            "heading_change_rad": -0.0320747934541783,
+            "height_change_m": -5.119384765625,
+            "phase": "roll_in",
+            "roll_accum_rad": 1.12303446148885,
+            "until_s": 1.46666666666667
+          },
+          {
+            "heading_change_rad": -1.57178067753523,
+            "height_change_m": -88.239501953125,
+            "phase": "pull_turn",
+            "roll_accum_rad": 1.24661385262928,
+            "until_s": 10.6
+          },
+          {
+            "heading_change_rad": -1.58499050726594,
+            "height_change_m": -119.9990234375,
+            "phase": "recover",
+            "roll_accum_rad": -0.00475631031349248,
+            "until_s": 14.0333333333333
+          }
+        ],
+        "reason": "training_geometry_complete",
+        "roll_accum_rad": -0.00475631031349248,
+        "status": "completed",
+        "target_climb_m": 100.0,
+        "target_turn_rad": 1.5707963267949
+      },
+      "keyframes": [
+        {
+          "label": "roll_in",
+          "frame": 12,
+          "time_s": 0.866666666666667,
+          "file": "f6f-bank_turn-roll_in.png"
+        },
+        {
+          "label": "pull_turn",
+          "frame": 90,
+          "time_s": 6.06666666666667,
+          "file": "f6f-bank_turn-pull_turn.png"
+        },
+        {
+          "label": "recover",
+          "frame": 183,
+          "time_s": 12.2666666666667,
+          "file": "f6f-bank_turn-recover.png"
+        },
+        {
+          "label": "completed",
+          "frame": 210,
+          "time_s": 14.0666666666667,
+          "file": "f6f-bank_turn-completed.png"
+        }
+      ],
+      "bytes": 652914,
+      "sha256": "57798d32d07d59c7c707aea7f2de82542865dc408959fb5d263df612ab2adb07"
+    },
+    {
+      "name": "f6f-climb_dive",
+      "definition_id": "us_f6f5_1944",
+      "maneuver": "climb_dive",
+      "direction": 1,
+      "fps": 15,
+      "frames": 289,
+      "seconds": 19.266666666666666,
+      "resolution": [
+        1100,
+        700
+      ],
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-framerate",
+        "15",
+        "-i",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/f6f-climb_dive/frame_%04d.png",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "21",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S04-training/native/f6f-climb_dive.mp4"
+      ],
+      "event_counts": {
+        "order_issued": 1,
+        "order_status_changed": 3,
+        "order_assignments_changed": 2,
+        "command_applied": 1,
+        "order_execution_changed": 11
+      },
+      "final_order_status": "completed",
+      "completed_time_s": 16.266666666666666,
+      "actual_training_at_completion": {
+        "bend_rad": 0.0865962505340576,
+        "direction": 1.0,
+        "elapsed_s": 16.25,
+        "heading_change_rad": 0.0,
+        "height_change_m": 20.923828125,
+        "maneuver": "climb_dive",
+        "min_agl_m": 2400.0,
+        "order_id": "drill",
+        "peak_height_m": 2532.03173828125,
+        "peak_roll_rad": 0.0,
+        "phase": "completed",
+        "phase_history": [
+          {
+            "heading_change_rad": 0.0,
+            "height_change_m": 100.36376953125,
+            "phase": "climb",
+            "roll_accum_rad": 0.0,
+            "until_s": 6.03333333333333
+          },
+          {
+            "heading_change_rad": 0.0,
+            "height_change_m": 44.907958984375,
+            "phase": "dive",
+            "roll_accum_rad": 0.0,
+            "until_s": 14.6333333333333
+          },
+          {
+            "heading_change_rad": 0.0,
+            "height_change_m": 20.923828125,
+            "phase": "recover",
+            "roll_accum_rad": 0.0,
+            "until_s": 16.25
+          }
+        ],
+        "reason": "training_geometry_complete",
+        "roll_accum_rad": 0.0,
+        "status": "completed",
+        "target_climb_m": 100.0,
+        "target_turn_rad": 1.5707963267949
+      },
+      "keyframes": [
+        {
+          "label": "climb",
+          "frame": 45,
+          "time_s": 3.06666666666667,
+          "file": "f6f-climb_dive-climb.png"
+        },
+        {
+          "label": "dive",
+          "frame": 153,
+          "time_s": 10.2666666666667,
+          "file": "f6f-climb_dive-dive.png"
+        },
+        {
+          "label": "recover",
+          "frame": 231,
+          "time_s": 15.4666666666667,
+          "file": "f6f-climb_dive-recover.png"
+        },
+        {
+          "label": "completed",
+          "frame": 243,
+          "time_s": 16.2666666666667,
+          "file": "f6f-climb_dive-completed.png"
+        }
+      ],
+      "bytes": 616907,
+      "sha256": "d65fd6612c46ad9da8b3c38c42672df1cb50a00756b50ef1508e0251c6b184db"
+    },
+    {
+      "name": "f6f-roll_reversal",
+      "definition_id": "us_f6f5_1944",
+      "maneuver": "roll_reversal",
+      "direction": 1,
+      "fps": 15,
+      "frames": 280,
+      "seconds": 18.666666666666668,
+      "resolution": [
+        1100,
+        700
+      ],
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-framerate",
+        "15",
+        "-i",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/f6f-roll_reversal/frame_%04d.png",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "21",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S04-training/native/f6f-roll_reversal.mp4"
+      ],
+      "event_counts": {
+        "order_issued": 1,
+        "order_status_changed": 3,
+        "order_assignments_changed": 2,
+        "command_applied": 1,
+        "order_execution_changed": 11
+      },
+      "final_order_status": "completed",
+      "completed_time_s": 15.65,
+      "actual_training_at_completion": {
+        "bend_rad": 0.182068392634392,
+        "direction": 1.0,
+        "elapsed_s": 15.6333333333333,
+        "heading_change_rad": 0.167257467707903,
+        "height_change_m": -269.716064453125,
+        "maneuver": "roll_reversal",
+        "min_agl_m": 2130.28393554688,
+        "order_id": "drill",
+        "peak_height_m": 2400.0,
+        "peak_roll_rad": 1.22674786392805,
+        "phase": "completed",
+        "phase_history": [
+          {
+            "heading_change_rad": -0.0320747934541783,
+            "height_change_m": -5.119384765625,
+            "phase": "roll_in",
+            "roll_accum_rad": 1.12303446148885,
+            "until_s": 1.46666666666667
+          },
+          {
+            "heading_change_rad": -0.612934689998945,
+            "height_change_m": -36.1357421875,
+            "phase": "pull_turn",
+            "roll_accum_rad": 1.17664387825149,
+            "until_s": 4.88333333333333
+          },
+          {
+            "heading_change_rad": -0.636424691788514,
+            "height_change_m": -76.545654296875,
+            "phase": "roll_reverse",
+            "roll_accum_rad": -1.0751101157225,
+            "until_s": 7.45
+          },
+          {
+            "heading_change_rad": 0.149448043837787,
+            "height_change_m": -201.711669921875,
+            "phase": "pull_reverse",
+            "roll_accum_rad": -1.22674786392805,
+            "until_s": 12.5166666666667
+          },
+          {
+            "heading_change_rad": 0.167257467707903,
+            "height_change_m": -269.716064453125,
+            "phase": "recover",
+            "roll_accum_rad": 0.0167570522389867,
+            "until_s": 15.6333333333333
+          }
+        ],
+        "reason": "training_geometry_complete",
+        "roll_accum_rad": 0.0167570522389867,
+        "status": "completed",
+        "target_climb_m": 100.0,
+        "target_turn_rad": 1.5707963267949
+      },
+      "keyframes": [
+        {
+          "label": "roll_in",
+          "frame": 12,
+          "time_s": 0.866666666666667,
+          "file": "f6f-roll_reversal-roll_in.png"
+        },
+        {
+          "label": "pull_turn",
+          "frame": 48,
+          "time_s": 3.26666666666667,
+          "file": "f6f-roll_reversal-pull_turn.png"
+        },
+        {
+          "label": "roll_reverse",
+          "frame": 93,
+          "time_s": 6.26666666666667,
+          "file": "f6f-roll_reversal-roll_reverse.png"
+        },
+        {
+          "label": "pull_reverse",
+          "frame": 150,
+          "time_s": 10.0666666666667,
+          "file": "f6f-roll_reversal-pull_reverse.png"
+        },
+        {
+          "label": "recover",
+          "frame": 210,
+          "time_s": 14.0666666666667,
+          "file": "f6f-roll_reversal-recover.png"
+        },
+        {
+          "label": "completed",
+          "frame": 234,
+          "time_s": 15.6666666666667,
+          "file": "f6f-roll_reversal-completed.png"
+        }
+      ],
+      "bytes": 765280,
+      "sha256": "b72bd51273ed8d2b07fa208373ee1225808a87ff160d7fb6321f75bc19ba1e37"
+    },
+    {
+      "name": "f6f-split_s",
+      "definition_id": "us_f6f5_1944",
+      "maneuver": "split_s",
+      "direction": 1,
+      "fps": 15,
+      "frames": 246,
+      "seconds": 16.4,
+      "resolution": [
+        1100,
+        700
+      ],
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-y",
+        "-framerate",
+        "15",
+        "-i",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/f6f-split_s/frame_%04d.png",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "21",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S04-training/native/f6f-split_s.mp4"
+      ],
+      "event_counts": {
+        "order_issued": 1,
+        "order_status_changed": 3,
+        "order_assignments_changed": 2,
+        "command_applied": 1,
+        "order_execution_changed": 9
+      },
+      "final_order_status": "completed",
+      "completed_time_s": 13.333333333333334,
+      "actual_training_at_completion": {
+        "bend_rad": 3.05380892753601,
+        "direction": 1.0,
+        "elapsed_s": 13.3166666666667,
+        "heading_change_rad": -3.13092013113741,
+        "height_change_m": -772.842041015625,
+        "maneuver": "split_s",
+        "min_agl_m": 1627.15795898438,
+        "order_id": "drill",
+        "peak_height_m": 2400.0,
+        "peak_roll_rad": 3.13475205951237,
+        "phase": "completed",
+        "phase_history": [
+          {
+            "heading_change_rad": -0.0936863640977799,
+            "height_change_m": -41.074951171875,
+            "phase": "roll",
+            "roll_accum_rad": 3.12390235229898,
+            "until_s": 3.38333333333333
+          },
+          {
+            "heading_change_rad": -3.09238183059735,
+            "height_change_m": -714.129028320312,
+            "phase": "pull",
+            "roll_accum_rad": 2.96102772586599,
+            "until_s": 10.8666666666667
+          },
+          {
+            "heading_change_rad": -3.13092013113741,
+            "height_change_m": -772.842041015625,
+            "phase": "recover",
+            "roll_accum_rad": 3.01307982955815,
+            "until_s": 13.3166666666667
+          }
+        ],
+        "reason": "training_geometry_complete",
+        "roll_accum_rad": 3.01307982955815,
+        "status": "completed",
+        "target_climb_m": 100.0,
+        "target_turn_rad": 1.5707963267949
+      },
+      "keyframes": [
+        {
+          "label": "roll",
+          "frame": 24,
+          "time_s": 1.66666666666667,
+          "file": "f6f-split_s-roll.png"
+        },
+        {
+          "label": "pull",
+          "frame": 108,
+          "time_s": 7.26666666666667,
+          "file": "f6f-split_s-pull.png"
+        },
+        {
+          "label": "recover",
+          "frame": 183,
+          "time_s": 12.2666666666667,
+          "file": "f6f-split_s-recover.png"
+        },
+        {
+          "label": "completed",
+          "frame": 201,
+          "time_s": 13.4666666666667,
+          "file": "f6f-split_s-completed.png"
+        },
+        {
+          "label": "inverted",
+          "frame": 51,
+          "time_s": 3.46666666666667,
+          "file": "f6f-split_s-inverted.png"
+        }
+      ],
+      "bytes": 799270,
+      "sha256": "a6db4019aa8145be5346b131af5bbd80b76261551aa9b11915562d6f88380b14"
+    }
+  ]
+}

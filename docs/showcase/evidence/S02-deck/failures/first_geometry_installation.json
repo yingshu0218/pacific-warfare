@@ -1,0 +1,112 @@
+{
+	"all_host_contacts_checked": 39,
+	"failures": [
+		"Tessellated deck differs from the smooth profile by more than 1.5cm",
+		"Barbette skirt does not meet the actual deck at main_01",
+		"Barbette skirt does not meet the actual deck at main_02",
+		"Barbette skirt does not meet the actual deck at main_03"
+	],
+	"main_foundations": [
+		{
+			"deck_contact_points": 17,
+			"fixed_seat_m": [
+				0.0,
+				7.19999980926514,
+				-50.2540016174316
+			],
+			"host_y_m": 6.50008630752563,
+			"id": "main_01",
+			"max_contact_error_m": 0.0000402273368287354,
+			"worst_contact_xyz_and_expected_y_m": [
+				2.49699997901917,
+				6.72768640518188,
+				-44.225700378418,
+				6.72764617784506
+			]
+		},
+		{
+			"deck_contact_points": 17,
+			"fixed_seat_m": [
+				0.0,
+				11.3999996185303,
+				-30.4979991912842
+			],
+			"host_y_m": 7.82530069351196,
+			"id": "main_02",
+			"max_contact_error_m": 0.0000469905339794963,
+			"worst_contact_xyz_and_expected_y_m": [
+				6.0282998085022,
+				7.95280075073242,
+				-28.0009994506836,
+				7.9528477412664
+			]
+		},
+		{
+			"deck_contact_points": 17,
+			"fixed_seat_m": [
+				0.0,
+				8.69999980926514,
+				64.5770034790039
+			],
+			"host_y_m": 8.30773162841797,
+			"id": "main_03",
+			"max_contact_error_m": 0.0000479190623394743,
+			"worst_contact_xyz_and_expected_y_m": [
+				0.0,
+				8.15693187713623,
+				71.1020050048828,
+				8.15688395807389
+			]
+		}
+	],
+	"max_curve_to_mesh_error_m": 0.0210131660130717,
+	"max_tangent_jump_m_per_m": 0.0000247536497965939,
+	"scope": "Yamato deck continuity, real shared edge and installation only",
+	"shared_boundary_vertices": 272,
+	"source_ordinates": [
+		[
+			-131.5,
+			10.0
+		],
+		[
+			-110.0,
+			8.3
+		],
+		[
+			-85.0,
+			6.7
+		],
+		[
+			-50.0,
+			6.5
+		],
+		[
+			-31.0,
+			7.8
+		],
+		[
+			-10.0,
+			8.6
+		],
+		[
+			40.0,
+			8.6
+		],
+		[
+			65.0,
+			8.3
+		],
+		[
+			80.0,
+			7.8
+		],
+		[
+			92.0,
+			6.4
+		],
+		[
+			131.5,
+			6.4
+		]
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"checks": 17,
+	"failures": 0,
+	"meshes": [
+		{
+			"after_sha256": "3b44b73efeb69f282ababff3f6d6d67521354c61daaf169c7c1f6aed907b27b3",
+			"before_sha256": "3b44b73efeb69f282ababff3f6d6d67521354c61daaf169c7c1f6aed907b27b3",
+			"mesh": "Wide Grumman fuselage",
+			"same_transform": true
+		},
+		{
+			"after_sha256": "e04edf14405d09f4c55677565484e41f3bbfbba61a3e5dc4265f7e6a7df1634a",
+			"before_sha256": "e04edf14405d09f4c55677565484e41f3bbfbba61a3e5dc4265f7e6a7df1634a",
+			"mesh": "Port folding wing",
+			"same_transform": true
+		},
+		{
+			"after_sha256": "c18537c766653345a32db97cb7dff8fab3c4e4ade84e7e800647ded171ec11a3",
+			"before_sha256": "c18537c766653345a32db97cb7dff8fab3c4e4ade84e7e800647ded171ec11a3",
+			"mesh": "Starboard folding wing",
+			"same_transform": true
+		},
+		{
+			"after_sha256": "73bdfc027765640ca50d34ea563b838201bb9a32c260bce4f5ad48a81a661bff",
+			"before_sha256": "73bdfc027765640ca50d34ea563b838201bb9a32c260bce4f5ad48a81a661bff",
+			"mesh": "Port horizontal stabilizer",
+			"same_transform": true
+		},
+		{
+			"after_sha256": "d2ce49da87d8928b87e25ee85542e224db830da12652ef9842090c19548adfb5",
+			"before_sha256": "d2ce49da87d8928b87e25ee85542e224db830da12652ef9842090c19548adfb5",
+			"mesh": "Starboard horizontal stabilizer",
+			"same_transform": true
+		},
+		{
+			"after_sha256": "85cd6959f44700934e2334d63adce1fa64a79918477e4a97c65f12264c2f87e5",
+			"before_sha256": "85cd6959f44700934e2334d63adce1fa64a79918477e4a97c65f12264c2f87e5",
+			"mesh": "Vertical stabilizer",
+			"same_transform": true
+		},
+		{
+			"after_sha256": "659bcac80c251e830091821ea5426395142e84679b5069a49aa1eae58dada83e",
+			"before_sha256": "659bcac80c251e830091821ea5426395142e84679b5069a49aa1eae58dada83e",
+			"mesh": "R-2800 cowling",
+			"same_transform": true
+		},
+		{
+			"after_sha256": "78f062c38f26e1b710425cfadf00b29fbfe530ccaae5085d8cec56a354960e54",
+			"before_sha256": "78f062c38f26e1b710425cfadf00b29fbfe530ccaae5085d8cec56a354960e54",
+			"mesh": "R-2800 cowling closed front",
+			"same_transform": true
+		}
+	],
+	"scope": "Saved admitted F6F script vs candidate, unbatched actual core mesh arrays and transforms; wheel and hook changes excluded intentionally."
+}

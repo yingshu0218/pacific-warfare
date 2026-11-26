@@ -1,0 +1,601 @@
+--- before/aircraft/sb2c4/sb2c4.gd
++++ after/aircraft/sb2c4/sb2c4.gd
+@@ -5,8 +5,13 @@
+ const MODEL_HEIGHT_M: float = 4.496
+ const ENGINE_NAME: String = "Wright R-2600-20 Twin Cyclone"
+ const COCKPIT_SILL_INSET_M: float = 0.17
+-const GUNNER_OPENING_START_M: float = 1.24
++const GUNNER_OPENING_START_M: float = 1.18
+ const GUNNER_OPENING_END_M: float = 2.02
++const MAIN_WHEEL_CENTER_M: Vector3 = Vector3(2.10, 1.00, -0.58)
++const MAIN_WHEEL_RADIUS_M: float = 0.44
++const TAIL_WHEEL_CENTER_M: Vector3 = Vector3(0.0, 1.40, 3.90)
++const TAIL_WHEEL_RADIUS_M: float = 0.15
++const FLIGHT_REFERENCE_M: Vector3 = Vector3(0.0, 2.38, 0.0)
+ 
+ var fuselage_module: Node3D
+ var wing_module: Node3D
+@@ -52,8 +57,9 @@
+ 		Vector4(0.22, 3.62, -1.90, 2.16), Vector4(0.85, 3.62, -1.90, 2.17),
+ 		Vector4(3.35, 3.58, -1.88, 2.25), Vector4(4.18, 3.10, -1.64, 2.32),
+ 		Vector4(5.25, 2.48, -1.31, 2.40), Vector4(6.45, 1.62, -0.80, 2.50),
+-		Vector4(7.27, 0.70, -0.30, 2.60), Vector4(7.48, 0.38, -0.20, 2.64),
+-		Vector4(7.582, 0.18, -0.12, 2.66)
++		Vector4(6.90, 1.32, -0.58, 2.56), Vector4(7.20, 0.99, -0.40, 2.59),
++		Vector4(7.42, 0.65, -0.23, 2.63), Vector4(7.54, 0.34, -0.075, 2.65),
++		Vector4(7.582, 0.03, 0.08, 2.66)
+ 	]
+ 	wing_thickness_profile = [
+ 		Vector2(0.22, 0.17), Vector2(1.70, 0.17), Vector2(4.05, 0.145),
+@@ -68,6 +74,7 @@
+ 
+ func _create_materials() -> void:
+ 	super._create_materials()
++	materials["glass"] = _material(Color("566d7a"), 0.02, 0.58)
+ 	materials["dive_brake"] = _material(Color("903b36"), 0.24, 0.56)
+ 	materials["dive_brake_frame"] = _material(Color("5a302e"), 0.45, 0.48)
+ 	materials["interior"] = _material(Color("66734e"), 0.08, 0.72)
+@@ -109,26 +116,62 @@
+ 	_build_gear_and_tail_hook()
+ 	_build_dive_brakes()
+ 	_build_armament_and_stores()
+-	_build_surface_details()
+ 	_add_aircraft_markings()
+ 	set_showcase_configuration(false)
+ 
+ 
+ func set_showcase_configuration(clean: bool) -> void:
+-	for surface in deployed_wing_surfaces:
+-		surface.visible = not clean
+-	for surface in folded_wing_surfaces:
+-		surface.visible = clean
++	set_dive_brakes_deployed(not clean)
++	set_external_stores_visible(not clean)
++	set_bomb_bay_open(not clean)
++	set_arrestor_hook_deployed(not clean)
++
++
++func set_dive_brakes_deployed(deployed: bool) -> void:
++	for surface: MeshInstance3D in deployed_wing_surfaces:
++		surface.visible = deployed
++	for surface: MeshInstance3D in folded_wing_surfaces:
++		surface.visible = not deployed
+ 	if dive_brakes_module != null:
+-		dive_brakes_module.visible = not clean
++		dive_brakes_module.visible = deployed
++
++
++func set_external_stores_visible(show_stores: bool) -> void:
+ 	if external_stores_module != null:
+-		external_stores_module.visible = not clean
++		external_stores_module.visible = show_stores
++
++
++func set_bomb_bay_open(open: bool) -> void:
+ 	if bay_open_group != null:
+-		bay_open_group.visible = not clean
++		bay_open_group.visible = open
+ 	if bay_closed_group != null:
+-		bay_closed_group.visible = clean
++		bay_closed_group.visible = not open
++
++
++func set_landing_gear_deployed(deployed: bool) -> void:
++	if landing_gear != null:
++		landing_gear.visible = deployed
++
++
++func set_arrestor_hook_deployed(deployed: bool) -> void:
+ 	if arrestor_hook != null:
+-		arrestor_hook.visible = not clean
++		arrestor_hook.visible = deployed
++
++
++func set_flight_configuration() -> void:
++	set_showcase_configuration(true)
++	set_landing_gear_deployed(false)
++
++
++func get_parked_transform() -> Transform3D:
++	# Display-only three-point stance. The pure model origin never moves.
++	var delta_y: float = TAIL_WHEEL_CENTER_M.y - MAIN_WHEEL_CENTER_M.y
++	var delta_z: float = TAIL_WHEEL_CENTER_M.z - MAIN_WHEEL_CENTER_M.z
++	var radius_delta: float = MAIN_WHEEL_RADIUS_M - TAIL_WHEEL_RADIUS_M
++	var pitch: float = atan2(delta_y, delta_z) + asin(radius_delta / Vector2(delta_y, delta_z).length())
++	var parked_basis: Basis = Basis(Vector3.RIGHT, pitch)
++	var main_center: Vector3 = parked_basis * MAIN_WHEEL_CENTER_M
++	return Transform3D(parked_basis, Vector3(0.0, MAIN_WHEEL_RADIUS_M - main_center.y, 0.0))
+ 
+ 
+ func _build_sb2c_fuselage(stations: Array[Vector4]) -> void:
+@@ -200,17 +243,19 @@
+ 
+ func _build_airframe() -> void:
+ 	fuselage_profile = [
+-		Vector4(2.34, 0.04, 0.06, -5.15), Vector4(2.36, 0.39, 0.42, -4.96),
+-		Vector4(2.36, 0.66, 0.66, -4.48), Vector4(2.34, 0.73, 0.69, -3.73),
+-		Vector4(2.30, 0.70, 0.65, -2.73), Vector4(2.27, 0.64, 0.62, -1.54),
+-		Vector4(2.24, 0.60, 0.57, -0.28), Vector4(2.22, 0.56, 0.55, 0.98),
+-		Vector4(2.22, 0.55, 0.57, 2.07), Vector4(2.18, 0.50, 0.55, 3.10),
+-		Vector4(2.06, 0.40, 0.47, 4.08), Vector4(1.90, 0.27, 0.36, 4.94),
+-		Vector4(1.90, 0.015, 0.018, 5.55)
++		Vector4(2.38, 0.045, 0.045, -5.15), Vector4(2.38, 0.62, 0.60, -5.02),
++		Vector4(2.38, 0.80, 0.78, -4.82), Vector4(2.38, 0.84, 0.82, -4.52),
++		Vector4(2.35, 0.82, 0.78, -3.82), Vector4(2.32, 0.75, 0.70, -3.40),
++		Vector4(2.26, 0.73, 0.71, -2.73), Vector4(2.20, 0.68, 0.70, -1.54),
++		Vector4(2.20, 0.65, 0.68, -0.28), Vector4(2.18, 0.60, 0.65, 0.98),
++		Vector4(2.16, 0.58, 0.63, 2.07), Vector4(2.23, 0.47, 0.52, 3.10),
++		Vector4(2.32, 0.34, 0.38, 4.08), Vector4(2.40, 0.18, 0.20, 4.94),
++		Vector4(2.44, 0.015, 0.018, 5.55)
+ 	]
+ 	var first_child: int = get_child_count()
+ 	_build_sb2c_fuselage(fuselage_profile)
+ 	_move_new_children(fuselage_module, first_child)
++	_add_marker(fuselage_module, "AIRCRAFT_FLIGHT_REFERENCE", FLIGHT_REFERENCE_M, "fuselage_module", "presentation reference, not measured center of gravity", 0.5)
+ 
+ 	for side in [-1.0, 1.0]:
+ 		deployed_wing_surfaces.append(_build_helldiver_wing(side, "%s wing skin with dive-brake bays" % ("Port" if side < 0.0 else "Starboard"), true))
+@@ -219,11 +264,11 @@
+ 	_build_wing(tail_profile, -1.0, empennage_module, materials["top"], "Port horizontal stabilizer", 40)
+ 	_build_wing(tail_profile, 1.0, empennage_module, materials["top"], "Starboard horizontal stabilizer", 40)
+ 	_add_extruded_side_shape(empennage_module, "Curtiss rounded vertical stabilizer", PackedVector2Array([
+-		Vector2(2.30, 2.48), Vector2(4.50, 2.48), Vector2(4.54, 2.86),
+-		Vector2(4.55, 3.34), Vector2(4.53, 3.78), Vector2(4.43, 4.10),
+-		Vector2(4.25, 4.34), Vector2(4.00, 4.46), Vector2(3.74, 4.45),
+-		Vector2(3.48, 4.31), Vector2(3.19, 4.05), Vector2(2.92, 3.69),
+-		Vector2(2.68, 3.27), Vector2(2.48, 2.83)
++		Vector2(2.65, 2.60), Vector2(5.38, 2.44), Vector2(5.45, 2.82),
++		Vector2(5.46, 3.28), Vector2(5.42, 3.68), Vector2(5.30, 3.98),
++		Vector2(5.10, 4.23), Vector2(4.80, 4.42), Vector2(4.50, 4.46),
++		Vector2(4.21, 4.35), Vector2(3.92, 4.12), Vector2(3.60, 3.80),
++		Vector2(3.26, 3.36), Vector2(2.92, 2.93)
+ 	]), 0.30, materials["top"])
+ 	_add_marker(fuselage_module, "CONTROL_TAILPLANE_ROOT", Vector3(0.0, 2.48, 3.48), "fuselage_module", "tailplane structural attachment; photo-based estimate", 0.6)
+ 	_add_marker(wing_module, "GEAR_MAIN_PORT", Vector3(-1.92, 2.00, -0.84), "wing_module", "main gear trunnion; photo-based estimate", 0.6)
+@@ -248,11 +293,11 @@
+ 		var elevator_hinge := Vector3(side * 0.22, tail_root.w, tail_root.z + tail_root.y * 0.70)
+ 		_add_marker(empennage_module, "CONTROL_ELEVATOR_HINGE_%s" % side_name.to_upper(), elevator_hinge, "empennage_module", "elevator hinge; photo-based estimate", 0.5)
+ 	var rudder_outline := PackedVector2Array([
+-		Vector2(4.50, 2.53), Vector2(4.58, 2.53), Vector2(4.67, 2.80),
+-		Vector2(4.67, 3.42), Vector2(4.58, 3.72), Vector2(4.49, 3.84)
++		Vector2(5.23, 2.53), Vector2(5.48, 2.53), Vector2(5.55, 2.82),
++		Vector2(5.55, 3.34), Vector2(5.43, 3.68), Vector2(5.26, 3.95)
+ 	])
+-	_add_hinged_fin_rudder("Movable rudder", rudder_outline, 4.50, 2.50, materials["control"], 0.12)
+-	_add_marker(empennage_module, "CONTROL_RUDDER_HINGE", Vector3(0.0, 2.50, 4.50), "fuselage_module", "rudder hinge; photo-based estimate", 0.5)
++	_add_hinged_fin_rudder("Movable rudder", rudder_outline, 5.23, 2.50, materials["control"], 0.12)
++	_add_marker(empennage_module, "CONTROL_RUDDER_HINGE", Vector3(0.0, 2.50, 5.23), "fuselage_module", "rudder hinge; photo-based estimate", 0.5)
+ 
+ 
+ func _build_helldiver_wing(side: float, part_name: String, cut_for_brakes: bool) -> MeshInstance3D:
+@@ -350,50 +395,58 @@
+ 
+ 
+ func _build_engine() -> void:
++	# The rounded engine envelope is part of the continuous fuselage skin.
+ 	var first_child: int = get_child_count()
+-	_add_cowling(-4.95, -3.74, 2.38, 0.84, 0.82, materials["top"], "R-2600-20 NACA cowling")
+-	_move_new_children(powerplant_module, first_child)
+-	first_child = get_child_count()
+-	_add_radial_engine(ENGINE_NAME, 14, 0.58, 0.64, -4.88)
+-	_move_new_children(powerplant_module, first_child)
+-	first_child = get_child_count()
+ 	_add_propeller(4, 4.02, Vector3(0.0, 2.38, -5.12), materials["dark_steel"])
+ 	_move_new_children(powerplant_module, first_child)
+-	_add_cowl_flaps()
+-	_add_exhausts()
+-	_add_lower_intake()
++	var spinner: MeshInstance3D = propeller.get_node("Spinner") as MeshInstance3D
++	spinner.material_override = materials["top"]
+ 
+ 
+ func _build_cockpit() -> void:
+ 	var main_greenhouse: Array[Vector4] = _get_main_greenhouse_profile()
+ 	var first_child: int = get_child_count()
+-	_add_canopy(main_greenhouse, "Continuous pilot and observer greenhouse", materials["frame"], 11)
++	_add_canopy(main_greenhouse, "Continuous pilot and observer greenhouse", materials["frame"], 1)
++	_move_new_children(cockpit_module, first_child)
+ 	_add_windscreen_closed_pane(main_greenhouse)
+ 	_build_cockpit_sills(main_greenhouse)
+-	_add_windscreen_side_frames(main_greenhouse)
+-	_move_new_children(cockpit_module, first_child)
+-
+-	_add_box(cockpit_module, "Cockpit floor pan", Vector3(0.72, 0.06, 3.28), Vector3(0.0, 2.10, -0.34), materials["interior"])
++	for z: float in [-1.85, -0.35, 0.80]:
++		_add_canopy_section_band(main_greenhouse, z)
+ 	_add_box(cockpit_module, "Aft gunner footwell pan", Vector3(0.62, 0.05, 0.82), Vector3(0.0, 2.16, 1.63), materials["interior"])
+-	for side in [-1.0, 1.0]:
+-		_add_box(cockpit_module, "Cockpit inner side wall", Vector3(0.035, 0.22, 2.55), Vector3(side * 0.28, 2.21, -0.30), materials["interior"])
+-	_add_box(cockpit_module, "Pilot instrument bulkhead", Vector3(0.66, 0.22, 0.06), Vector3(0.0, 2.22, -1.72), materials["interior"])
+-	_add_box(cockpit_module, "Observer rear bulkhead", Vector3(0.66, 0.22, 0.06), Vector3(0.0, 2.22, 1.05), materials["interior"])
+-	_add_seat_and_instruments("Pilot", Vector3(0.0, 2.22, -1.46))
+-	_add_seat_and_instruments("Observer and radio operator", Vector3(0.0, 2.18, 0.76))
+ 	_build_gunner_ring()
+-	_add_beam(cockpit_module, "Aerial mast", Vector3(0.0, 3.05, 2.22), Vector3(0.0, 3.62, 2.30), 0.026, materials["frame"], 0.022, 10)
+-	_add_beam(cockpit_module, "Aerial wire to fin", Vector3(0.0, 3.59, 2.30), Vector3(0.0, 4.08, 4.68), 0.006, materials["dark_steel"], 0.006, 6)
++
++
++func _add_canopy_section_band(stations: Array[Vector4], z: float) -> void:
++	var surface := SurfaceTool.new()
++	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
++	var sections: int = 24
++	for longitudinal: int in range(2):
++		var band_z: float = z + (-0.009 if longitudinal == 0 else 0.009)
++		var section: Vector4 = _sample_station(stations, band_z)
++		for index: int in range(sections + 1):
++			var angle: float = PI_F * float(index) / float(sections)
++			surface.add_vertex(Vector3(cos(angle) * (section.y + 0.004), section.x + sin(angle) * (section.z + 0.004), band_z))
++	for index: int in range(sections):
++		var a: int = index
++		var b: int = sections + 1 + index
++		surface.add_index(a)
++		surface.add_index(a + 1)
++		surface.add_index(b + 1)
++		surface.add_index(a)
++		surface.add_index(b + 1)
++		surface.add_index(b)
++	surface.generate_normals()
++	_part(cockpit_module, "Flat canopy division %.2f" % z, surface.commit(), materials["frame"])
+ 
+ 
+ func _get_main_greenhouse_profile() -> Array[Vector4]:
+ 	return [
+-		Vector4(2.96, 0.16, 0.20, -2.40), Vector4(2.92, 0.31, 0.39, -2.08),
+-		Vector4(2.89, 0.43, 0.50, -1.78), Vector4(2.87, 0.45, 0.50, -1.23),
+-		Vector4(2.80, 0.36, 0.39, -0.43), Vector4(2.82, 0.37, 0.40, -0.18),
+-		Vector4(2.83, 0.39, 0.43, 0.08), Vector4(2.85, 0.41, 0.45, 0.53),
+-		Vector4(2.85, 0.39, 0.42, 0.88), Vector4(2.81, 0.29, 0.32, 1.10),
+-		Vector4(2.76, 0.10, 0.13, 1.24)
++		Vector4(2.96, 0.22, 0.025, -2.55), Vector4(2.90, 0.37, 0.39, -2.18),
++		Vector4(2.89, 0.43, 0.50, -2.02), Vector4(2.88, 0.45, 0.50, -1.60),
++		Vector4(2.86, 0.44, 0.49, -1.00),
++		Vector4(2.84, 0.39, 0.44, -0.43), Vector4(2.84, 0.39, 0.43, -0.18),
++		Vector4(2.84, 0.40, 0.44, 0.08), Vector4(2.84, 0.41, 0.44, 0.53),
++		Vector4(2.84, 0.40, 0.44, 0.88), Vector4(2.82, 0.38, 0.41, 1.18)
+ 	]
+ 
+ 
+@@ -470,11 +523,6 @@
+ 	surface.generate_normals()
+ 	var pane := _part(cockpit_module, "Closed curved forward windscreen pane", surface.commit(), materials["glass"])
+ 	pane.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+-	var arch := PackedVector3Array()
+-	for index in range(segments + 1):
+-		var angle: float = PI_F * float(index) / float(segments)
+-		arch.append(Vector3(cos(angle) * section.y, section.x + sin(angle) * section.z, section.w + 0.008))
+-	_add_tube_line(cockpit_module, "Windscreen outer arch frame", arch, 0.028, materials["frame"])
+ 
+ 
+ func _build_gunner_ring() -> void:
+@@ -496,10 +544,14 @@
+ 	for side in [-1.0, 1.0]:
+ 		_add_beam(mount, "Ring support strut", Vector3(side * 0.23, -0.04, -0.04), Vector3(side * 0.29, -0.18, 0.13), 0.026, materials["steel"], 0.022, 8)
+ 	for side in [-1.0, 1.0]:
+-		var offset: Vector3 = Vector3(side * 0.115, 0.13, 0.14)
+-		_add_box(mount, "M1919 receiver %s" % ("port" if side < 0.0 else "starboard"), Vector3(0.095, 0.13, 0.36), offset + Vector3(0.0, 0.0, 0.10), materials["dark_steel"])
+-		_add_beam(mount, ".30 in barrel %s" % ("port" if side < 0.0 else "starboard"), offset + Vector3(0.0, 0.015, 0.24), offset + Vector3(0.0, 0.015, 0.92), 0.021, materials["steel"], 0.018, 10)
+-		_add_cylinder(mount, "Muzzle %s" % ("port" if side < 0.0 else "starboard"), 0.027, 0.024, offset + Vector3(0.0, 0.015, 0.94), materials["black"], "z", 12)
++		var side_name: String = "port" if side < 0.0 else "starboard"
++		var gun: Node3D = _new_group(mount, "M1919 flexible gun %s" % side_name, Vector3(side * 0.115, 0.13, 0.14))
++		gun.rotation.x = deg_to_rad(-24.0)
++		_add_box(gun, "M1919 receiver", Vector3(0.095, 0.13, 0.36), Vector3(0.0, 0.0, 0.10), materials["dark_steel"])
++		_add_beam(gun, ".30 in barrel", Vector3(0.0, 0.015, 0.24), Vector3(0.0, 0.015, 0.92), 0.021, materials["steel"], 0.018, 10)
++		_add_cylinder(gun, "Muzzle", 0.027, 0.024, Vector3(0.0, 0.015, 0.94), materials["black"], "z", 12)
++		var muzzle: Marker3D = _add_marker(gun, "MUZZLE_AFT_M1919_%s" % side_name.to_upper(), Vector3(0.0, 0.015, 0.94), "armament_module", "presentation muzzle; aft/up displayed pose, no fire-control logic", 0.6)
++		muzzle.rotation.y = PI_F
+ 	_add_beam(mount, "Flexible mount pivot post", Vector3(0.0, -0.16, 0.0), Vector3(0.0, -0.015, 0.0), 0.048, materials["steel"], 0.048, 10)
+ 
+ 
+@@ -517,40 +569,39 @@
+ 
+ 
+ func _build_gear_and_tail_hook() -> void:
+-	for side in [-1.0, 1.0]:
++	for side: float in [-1.0, 1.0]:
++		var side_name: String = "Port" if side < 0.0 else "Starboard"
+ 		var root: Vector3 = Vector3(side * 1.92, 2.00, -0.84)
+-		var wheel: Vector3 = Vector3(side * 2.10, 0.44, -0.58)
+-		_add_gear(side, root, wheel, 0.44, "Port main oleo and wheel" if side < 0.0 else "Starboard main oleo and wheel")
+-		var door_outline := PackedVector2Array([
+-			Vector2(side * 1.70, -1.30), Vector2(side * 2.17, -1.18),
+-			Vector2(side * 2.20, -0.42), Vector2(side * 1.73, -0.46)
+-		])
+-		_add_horizontal_panel(landing_gear, "Main gear bay inner door %s" % ("port" if side < 0.0 else "starboard"), door_outline, 1.82, materials["bottom"])
+-		_add_box(landing_gear, "Main gear bay outer door %s" % ("port" if side < 0.0 else "starboard"), Vector3(0.28, 0.028, 0.68), Vector3(side * 2.23, 1.52, -0.64), materials["bottom"], Vector3(0.0, 0.0, side * deg_to_rad(9.0)))
+-	_add_sb2c_tailwheel(Vector3(0.0, 0.15, 5.02))
++		var wheel: Vector3 = Vector3(side * MAIN_WHEEL_CENTER_M.x, MAIN_WHEEL_CENTER_M.y, MAIN_WHEEL_CENTER_M.z)
++		var gear: Node3D = _new_group(landing_gear, "%s main oleo and wheel" % side_name, root)
++		_add_beam(gear, "Simple main strut", Vector3.ZERO, wheel - root, 0.065, materials["steel"], 0.065, 12)
++		_add_cylinder(gear, "Tyre", MAIN_WHEEL_RADIUS_M, 0.16, wheel - root, materials["rubber"], "x", 28)
++		_add_cylinder(gear, "Hub cap", 0.18, 0.17, wheel - root, materials["steel"], "x", 18)
++		var wheel_marker: Marker3D = _add_marker(landing_gear, "GEAR_WHEEL_%s" % side_name.to_upper(), wheel, "landing_gear_module", "deployed wheel center; photo-based estimate", 0.55)
++		wheel_marker.set_meta("wheel_radius_m", MAIN_WHEEL_RADIUS_M)
++	_add_sb2c_tailwheel(TAIL_WHEEL_CENTER_M)
+ 	arrestor_hook = _new_group(small_equipment_module, "Retractable arrestor hook")
+-	_add_beam(arrestor_hook, "Hook pivot lug", Vector3(0.0, 1.72, 2.52), Vector3(0.0, 1.56, 2.83), 0.074, materials["dark_steel"], 0.060, 12)
+-	_add_beam(arrestor_hook, "Arrestor shank", Vector3(0.0, 1.57, 2.82), Vector3(0.0, 0.27, 4.24), 0.058, materials["steel"], 0.045, 12)
+-	_add_beam(arrestor_hook, "Arrestor hook terminal", Vector3(0.0, 0.27, 4.24), Vector3(0.0, 0.19, 4.56), 0.047, materials["steel"], 0.035, 12)
+-	_add_beam(arrestor_hook, "Hook beak", Vector3(0.0, 0.19, 4.56), Vector3(0.0, 0.31, 4.70), 0.035, materials["dark_steel"], 0.018, 10)
++	_add_marker(small_equipment_module, "ARRESTOR_HOOK_PIVOT", Vector3(0.0, 1.72, 2.52), "fuselage_module", "simplified hook root; photo-based estimate", 0.55)
++	_add_beam(arrestor_hook, "Hook pivot lug", Vector3(0.0, 1.72, 2.52), Vector3(0.0, 1.56, 2.83), 0.064, materials["dark_steel"], 0.050, 10)
++	_add_beam(arrestor_hook, "Arrestor shank", Vector3(0.0, 1.57, 2.82), Vector3(0.0, 1.50, 4.50), 0.048, materials["steel"], 0.038, 10)
++	_add_beam(arrestor_hook, "Hook terminal", Vector3(0.0, 1.50, 4.50), Vector3(0.0, 1.42, 4.72), 0.038, materials["steel"], 0.030, 10)
++	_add_beam(arrestor_hook, "Hook beak", Vector3(0.0, 1.42, 4.72), Vector3(0.0, 1.50, 4.82), 0.030, materials["dark_steel"], 0.018, 8)
++	var hook_tip: Marker3D = _add_marker(small_equipment_module, "ARRESTOR_HOOK_TIP_DEPLOYED", Vector3(0.0, 1.42, 4.72), "fuselage_module", "displayed deployed hook tip, not cable dynamics", 0.55)
++	hook_tip.rotation.y = PI_F
+ 
+ 
+ func _add_sb2c_tailwheel(position: Vector3) -> void:
+ 	var tail_gear: Node3D = _new_group(landing_gear, "Tail wheel assembly", position)
+-	var attachment: Vector3 = Vector3(0.0, 1.20, -0.25)
+-	var oleo_knee: Vector3 = Vector3(0.0, 0.63, -0.14)
+-	var fork_root: Vector3 = Vector3(0.0, 0.20, -0.05)
+-	_add_extruded_side_shape(tail_gear, "Tapered tailwheel keel fairing", PackedVector2Array([
+-		Vector2(-0.42, 1.20), Vector2(-0.22, 0.82), Vector2(-0.04, 0.64),
+-		Vector2(0.08, 0.90), Vector2(0.02, 1.72), Vector2(-0.32, 1.68),
+-		Vector2(-0.55, 1.48)
+-	]), 0.24, materials["top"])
+-	_add_beam(tail_gear, "Tailwheel oleo upper sleeve", attachment, oleo_knee, 0.085, materials["steel"], 0.069, 14)
+-	_add_beam(tail_gear, "Tailwheel exposed piston", oleo_knee, fork_root, 0.052, materials["dark_steel"], 0.043, 12)
+-	for side in [-1.0, 1.0]:
+-		_add_beam(tail_gear, "Tailwheel fork cheek", Vector3(side * 0.07, fork_root.y, fork_root.z), Vector3(side * 0.065, 0.03, 0.07), 0.032, materials["steel"], 0.024, 10)
+-	_add_cylinder(tail_gear, "Tail tyre", 0.15, 0.11, Vector3.ZERO, materials["rubber"], "x", 24)
+-	_add_cylinder(tail_gear, "Tail hub", 0.068, 0.115, Vector3.ZERO, materials["steel"], "x", 18)
++	var attachment: Vector3 = Vector3(0.0, 0.65, -0.12)
++	var fork_root: Vector3 = Vector3(0.0, 0.14, 0.03)
++	_add_beam(tail_gear, "Simple tailwheel strut", attachment, fork_root, 0.047, materials["steel"], 0.040, 10)
++	for side: float in [-1.0, 1.0]:
++		_add_beam(tail_gear, "Tailwheel fork cheek", Vector3(side * 0.065, fork_root.y, fork_root.z), Vector3(side * 0.065, 0.02, 0.03), 0.025, materials["steel"], 0.022, 8)
++	_add_cylinder(tail_gear, "Tail tyre", TAIL_WHEEL_RADIUS_M, 0.11, Vector3.ZERO, materials["rubber"], "x", 24)
++	_add_cylinder(tail_gear, "Tail hub", 0.068, 0.115, Vector3.ZERO, materials["steel"], "x", 16)
++	var marker: Marker3D = _add_marker(landing_gear, "GEAR_WHEEL_TAIL", position, "landing_gear_module", "deployed wheel center; short support under aft shell", 0.55)
++	marker.set_meta("wheel_radius_m", TAIL_WHEEL_RADIUS_M)
++	_add_marker(fuselage_module, "GEAR_TAIL_ATTACHMENT", position + attachment, "fuselage_module", "tail gear root intersects aft belly", 0.55)
+ 
+ 
+ func _build_dive_brakes() -> void:
+@@ -653,6 +704,7 @@
+ 	_add_box(gun, "Cannon receiver", Vector3(0.10, 0.085, 0.74), Vector3(0.0, 0.02, 0.02), materials["dark_steel"])
+ 	_add_cylinder(gun, "AN/M2 barrel", 0.034, 0.66, Vector3(0.0, 0.012, -0.27), materials["steel"], "z", 12)
+ 	_add_cylinder(gun, "20 mm muzzle", 0.050, 0.035, Vector3(0.0, 0.012, -0.62), materials["black"], "z", 14)
++	_add_marker(gun, "MUZZLE_CANNON_ANM2_%s" % side_name.to_upper(), Vector3(0.0, 0.012, -0.62), "wing_module", "presentation muzzle; fixed forward cannon", 0.65)
+ 	_add_flat_patch(gun, "Spent case chute", PackedVector2Array([
+ 		Vector2(-0.06, -0.10), Vector2(0.05, -0.10), Vector2(0.07, -0.03), Vector2(-0.05, -0.03)
+ 	]), 0.01, materials["dark_steel"])
+@@ -671,6 +723,7 @@
+ 	for side in [-1.0, 1.0]:
+ 		_add_beam(bay_open_group, "Bomb bay door hinge rail", Vector3(side * 0.37, 1.86, -0.22), Vector3(side * 0.37, 1.86, 1.40), 0.022, materials["steel"], 0.022, 10)
+ 	_add_marker(fuselage_module, "WEAPON_INTERNAL_BOMB_BAY", Vector3(0.0, 2.15, 0.59), "fuselage_module", "internal displacement gear / bomb carrier", 0.55)
++	_add_marker(fuselage_module, "STORE_RELEASE_INTERNAL_BOMB", Vector3(0.0, 1.93, 0.59), "fuselage_module", "displayed store center; release motion owned by future bombing system", 0.55)
+ 	_add_500lb_bomb(bay_open_group, Vector3(0.0, 1.93, 0.59))
+ 	bay_closed_group = _new_group(armament_module, "Bomb bay doors shown closed")
+ 	_add_bomb_bay_door(bay_closed_group, -1.0, port_door_mesh, false)
+@@ -703,13 +756,13 @@
+ 	var transverse_sections: int = 12
+ 	var stride: int = transverse_sections + 1
+ 	for z_index in range(longitudinal_sections + 1):
+-		var z: float = lerpf(-0.22, 1.40, float(z_index) / float(longitudinal_sections))
++		var z: float = lerpf(-0.25, 1.43, float(z_index) / float(longitudinal_sections))
+ 		var station: Vector4 = _sample_station(fuselage_profile, z)
+ 		for x_index in range(transverse_sections + 1):
+-			var x: float = lerpf(0.0, side * 0.37, float(x_index) / float(transverse_sections))
++			var x: float = lerpf(0.0, side * 0.40, float(x_index) / float(transverse_sections))
+ 			var radial_ratio: float = clampf(x / station.y, -0.98, 0.98)
+ 			var y: float = station.x - station.z * sqrt(1.0 - radial_ratio * radial_ratio) - 0.006
+-			surface.add_vertex(Vector3(x - side * 0.37, y - 1.77, z))
++			surface.add_vertex(Vector3(x - side * 0.37, y - 1.86, z))
+ 	for z_index in range(longitudinal_sections):
+ 		for x_index in range(transverse_sections):
+ 			var a: int = z_index * stride + x_index
+@@ -808,7 +861,7 @@
+ func _add_aircraft_markings() -> void:
+ 	for side in [-1.0, 1.0]:
+ 		_add_late_war_wing_insignia(side, 5.88, -0.32)
+-		_add_late_war_fuselage_insignia(side, 1.18, 2.33, 0.34)
++		_add_late_war_fuselage_insignia(side, 2.42, 2.14, 0.34)
+ 
+ 
+ func _add_late_war_wing_insignia(side: float, center_x: float, center_z: float) -> void:
+@@ -833,17 +886,45 @@
+ 
+ 
+ func _add_late_war_fuselage_insignia(side: float, z: float, y: float, radius: float) -> void:
+-	var first_child: int = get_child_count()
+-	var x: float = side * 0.69
+-	_add_cylinder(self, "Fuselage insignia blue field", radius, 0.013, Vector3(x, y, z), materials["insignia_blue"], "x", 40)
+-	_add_side_polygon(self, "Fuselage white star", side, x + side * 0.012, z, y, _star_outline(radius * 0.58), materials["insignia_white"])
+-	for bar_side in [-1.0, 1.0]:
++	var circle := PackedVector2Array()
++	for index: int in range(32):
++		var angle: float = PI_F * 0.5 + TAU * float(index) / 32.0
++		circle.append(Vector2(cos(angle), sin(angle)) * radius)
++	_add_fuselage_marking_patch("Fuselage insignia blue field", side, z, y, circle, 0.008, materials["insignia_blue"])
++	var star := PackedVector2Array()
++	for index: int in range(10):
++		var star_radius: float = radius * (0.78 if index % 2 == 0 else 0.34)
++		var angle: float = PI_F * 0.5 + TAU * float(index) / 10.0
++		star.append(Vector2(cos(angle), sin(angle)) * star_radius)
++	_add_fuselage_marking_patch("Fuselage white star", side, z, y, star, 0.014, materials["insignia_white"])
++	for bar_side: float in [-1.0, 1.0]:
+ 		var outline := PackedVector2Array([
+-			Vector2(bar_side * radius * 0.64, -radius * 0.12), Vector2(bar_side * radius * 1.19, -radius * 0.12),
+-			Vector2(bar_side * radius * 1.19, radius * 0.12), Vector2(bar_side * radius * 0.64, radius * 0.12)
++			Vector2(-radius * 0.45, -radius * 0.18), Vector2(radius * 0.45, -radius * 0.18),
++			Vector2(radius * 0.45, radius * 0.18), Vector2(-radius * 0.45, radius * 0.18)
+ 		])
+-		_add_side_polygon(self, "Fuselage white insignia bar", side, x + side * 0.018, z, y, outline, materials["insignia_white"])
+-	_move_new_children(fuselage_module, first_child)
++		_add_fuselage_marking_patch("Fuselage white insignia bar", side, z + bar_side * radius * 1.20, y, outline, 0.014, materials["insignia_white"])
++
++
++func _add_fuselage_marking_patch(part_name: String, side: float, z: float, y: float, outline: PackedVector2Array, offset: float, material: Material) -> void:
++	var surface := SurfaceTool.new()
++	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
++	surface.add_vertex(_fuselage_marking_point(side, z, y, offset))
++	for point: Vector2 in outline:
++		surface.add_vertex(_fuselage_marking_point(side, z + point.x, y + point.y, offset))
++	for index: int in range(outline.size()):
++		var next: int = (index + 1) % outline.size()
++		surface.add_index(0)
++		surface.add_index(index + 1 if side < 0.0 else next + 1)
++		surface.add_index(next + 1 if side < 0.0 else index + 1)
++	surface.generate_normals()
++	_part(fuselage_module, part_name, surface.commit(), material)
++
++
++func _fuselage_marking_point(side: float, z: float, y: float, offset: float) -> Vector3:
++	var station: Vector4 = _sample_station(fuselage_profile, z)
++	var vertical: float = clampf((y - station.x) / station.z, -0.98, 0.98)
++	var x: float = station.y * sqrt(1.0 - vertical * vertical)
++	return Vector3(side * (x + offset), y, z)
+ 
+ 
+ func _wing_point(span: float, chord_fraction: float, upper: bool) -> Vector3:
+--- before/aircraft/sb2c4/showcase.gd
++++ after/aircraft/sb2c4/showcase.gd
+@@ -6,7 +6,9 @@
+ var ground: MeshInstance3D
+ var selected_view: String = "quarter"
+ var capture_path: String = ""
+-var clean_configuration: bool = false
++var clean_configuration: bool = true
++var flight_configuration: bool = false
++var inspection_pose: String = "parked"
+ 
+ 
+ func _ready() -> void:
+@@ -69,7 +71,11 @@
+ 			capture_path = arguments[index + 1]
+ 			index += 2
+ 		elif arguments[index] == "--mode" and index + 1 < arguments.size():
+-			clean_configuration = arguments[index + 1] == "clean"
++			flight_configuration = arguments[index + 1] == "flight"
++			clean_configuration = flight_configuration or arguments[index + 1] == "clean"
++			index += 2
++		elif arguments[index] == "--pose" and index + 1 < arguments.size():
++			inspection_pose = arguments[index + 1]
+ 			index += 2
+ 		else:
+ 			index += 1
+@@ -133,7 +139,7 @@
+ 	ground.name = "Neutral floor for standing views"
+ 	ground.mesh = floor_mesh
+ 	ground.material_override = floor_material
+-	ground.position.y = -0.055
++	ground.position.y = 0.0
+ 	ground.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+ 	add_child(ground)
+ 
+@@ -152,8 +158,33 @@
+ 	selected_view = view_name
+ 	var up_axis: Vector3 = Vector3.UP
+ 	var target: Vector3 = INSPECTION_TARGET
+-	ground.visible = view_name != "underside" and view_name != "underside_quarter" and view_name != "bomb_bay" and view_name != "wing_detail" and view_name != "wing_root_detail" and view_name != "cockpit_detail" and view_name != "tailwheel_detail"
++	camera.projection = Camera3D.PROJECTION_ORTHOGONAL
++	ground.visible = inspection_pose == "parked" and view_name != "underside" and view_name != "underside_quarter" and view_name != "bomb_bay" and view_name != "wing_detail" and view_name != "wing_root_detail" and view_name != "cockpit_detail" and view_name != "tailwheel_detail"
+ 	match view_name:
++		"observer_follow":
++			camera.projection = Camera3D.PROJECTION_PERSPECTIVE
++			camera.fov = 50.0
++			camera.position = Vector3(18.0, 8.0, -24.0)
++		"reference_side":
++			camera.size = 7.8
++			camera.position = Vector3(-25.0, 3.30, -2.5)
++			target = Vector3(0.0, 2.30, 0.0)
++		"reference_front":
++			camera.projection = Camera3D.PROJECTION_PERSPECTIVE
++			camera.fov = 22.0
++			camera.position = Vector3(-13.0, 13.0, -16.0)
++		"reference_rear":
++			camera.projection = Camera3D.PROJECTION_PERSPECTIVE
++			camera.fov = 22.0
++			camera.position = Vector3(13.0, 13.0, 16.0)
++		"gunner_detail":
++			camera.size = 2.3
++			camera.position = Vector3(-3.4, 3.4, 2.9)
++			target = Vector3(0.0, 2.85, 1.70)
++		"stores_detail":
++			camera.size = 3.8
++			camera.position = Vector3(8.5, 0.0, -5.5)
++			target = Vector3(5.3, 2.2, -0.5)
+ 		"front":
+ 			camera.size = 11.4
+ 			camera.position = Vector3(0.0, 2.25, -20.0)
+@@ -189,9 +220,9 @@
+ 			camera.position = Vector3(-10.0, 3.5, -0.45)
+ 			target = Vector3(0.0, 2.80, -0.45)
+ 		"tailwheel_detail":
+-			camera.size = 2.2
+-			camera.position = Vector3(-3.2, 1.8, 6.2)
+-			target = Vector3(0.0, 1.05, 4.92)
++			camera.size = 1.8
++			camera.position = Vector3(-3.2, 2.2, 5.1)
++			target = Vector3(0.0, 1.83, 3.90)
+ 		"wing_detail":
+ 			camera.size = 2.45
+ 			camera.position = Vector3(8.35, 6.65, 2.55)
+@@ -207,6 +238,10 @@
+ 			selected_view = "quarter"
+ 			camera.size = 11.0
+ 			camera.position = Vector3(13.0, 9.0, -16.0)
++	$SB2C_4.transform = Transform3D.IDENTITY
++	if inspection_pose == "parked":
++		$SB2C_4.transform = $SB2C_4.get_parked_transform()
++	$SB2C_4.armament_module.visible = true
+ 	$SB2C_4.set_showcase_configuration(clean_configuration)
+ 	$SB2C_4.landing_gear.visible = view_name != "bomb_bay"
+ 	if view_name == "cockpit_detail" or view_name == "wing_detail" or view_name == "wing_root_detail":
+@@ -218,6 +253,7 @@
+ 	if view_name == "cockpit_detail":
+ 		$SB2C_4.wing_module.visible = false
+ 		$SB2C_4.control_surfaces.visible = false
++		$SB2C_4.armament_module.visible = false
+ 	if view_name == "bomb_bay":
+ 		$SB2C_4.dive_brakes_module.visible = false
+ 		$SB2C_4.external_stores_module.visible = false
+@@ -226,6 +262,13 @@
+ 		$SB2C_4.arrestor_hook.visible = false
+ 	if view_name == "tailwheel_detail":
+ 		$SB2C_4.arrestor_hook.visible = false
++	if view_name in ["gunner_detail", "stores_detail"]:
++		ground.visible = false
++		$SB2C_4.landing_gear.visible = false
++	if flight_configuration:
++		$SB2C_4.set_flight_configuration()
++		ground.visible = false
++	target = $SB2C_4.transform * target
+ 	camera.look_at(target, up_axis)
+ 
+ 
+@@ -233,5 +276,31 @@
+ 	await get_tree().create_timer(1.2).timeout
+ 	var screenshot: Image = get_viewport().get_texture().get_image()
+ 	var result: Error = screenshot.save_png(capture_path)
++	var model: Node3D = $SB2C_4
++	var metadata: Dictionary = {
++		"engine": Engine.get_version_info()["string"],
++		"renderer": ProjectSettings.get_setting("rendering/renderer/rendering_method"),
++		"view": selected_view,
++		"mode": "flight" if flight_configuration else ("clean" if clean_configuration else "detail"),
++		"pose": inspection_pose,
++		"viewport_px": [screenshot.get_width(), screenshot.get_height()],
++		"camera_projection": "perspective" if camera.projection == Camera3D.PROJECTION_PERSPECTIVE else "orthographic",
++		"camera_position_m": [camera.position.x, camera.position.y, camera.position.z],
++		"camera_rotation_rad": [camera.rotation.x, camera.rotation.y, camera.rotation.z],
++		"camera_size_m": camera.size,
++		"camera_fov_degrees": camera.fov,
++		"model_position_m": [model.position.x, model.position.y, model.position.z],
++		"model_rotation_rad": [model.rotation.x, model.rotation.y, model.rotation.z],
++		"model_source_sha256": FileAccess.get_sha256("res://aircraft/sb2c4/sb2c4.gd"),
++		"showcase_source_sha256": FileAccess.get_sha256("res://aircraft/sb2c4/showcase.gd"),
++		"shared_builder_sha256": FileAccess.get_sha256("res://aircraft/scripts/aircraft_builder.gd"),
++	}
++	var metadata_file: FileAccess = FileAccess.open(capture_path + ".json", FileAccess.WRITE)
++	if metadata_file == null:
++		push_error("SB2C capture metadata could not be saved.")
++		get_tree().quit(1)
++		return
++	metadata_file.store_string(JSON.stringify(metadata, "\t") + "\n")
++	metadata_file.close()
+ 	print("SB2C-4 capture %s: %s" % [capture_path, error_string(result)])
+ 	get_tree().quit(0 if result == OK else 1)

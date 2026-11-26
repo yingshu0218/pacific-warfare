@@ -1,0 +1,612 @@
+{
+	"allocation": [
+		{
+			"area": {
+				"center_m": [
+					6000.0,
+					0.0,
+					-2000.0
+				],
+				"radius_m": 1800.0
+			},
+			"assigned_unit_ids": [
+				"core"
+			],
+			"changed_tick": 2,
+			"execution": {
+				"core": {
+					"changed_tick": 2,
+					"module_id": "fleet_tasks",
+					"progress": "broadside",
+					"reason": "maintain_gunnery_range",
+					"replacement_order_id": "",
+					"status": "executing"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 2
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 2
+				},
+				{
+					"progress": "forming",
+					"reason": "ship_task_received",
+					"status": "executing",
+					"tick": 2
+				}
+			],
+			"intent": "surface_contact",
+			"issued_tick": 2,
+			"issuer_id": "jp_commander",
+			"order_id": "fleet_ai:jp:0001",
+			"order_type": "engage",
+			"progress": "forming",
+			"reason": "ship_task_received",
+			"received_tick": 2,
+			"recipient_ids": [
+				"core"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "executing",
+			"target_id": "enemy_ship",
+			"waypoints_m": []
+		},
+		{
+			"area": {
+				"center_m": [
+					-1000.0,
+					0.0,
+					0.0
+				],
+				"radius_m": 3500.0
+			},
+			"assigned_unit_ids": [
+				"screen"
+			],
+			"changed_tick": 2,
+			"execution": {
+				"screen": {
+					"changed_tick": 2,
+					"module_id": "fleet_tasks",
+					"progress": "air_defence",
+					"reason": "air_defence_screen",
+					"replacement_order_id": "",
+					"status": "executing"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 2
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 2
+				},
+				{
+					"progress": "forming",
+					"reason": "ship_task_received",
+					"status": "executing",
+					"tick": 2
+				}
+			],
+			"intent": "air_defence_cover",
+			"issued_tick": 2,
+			"issuer_id": "jp_commander",
+			"order_id": "fleet_ai:jp:0002",
+			"order_type": "escort",
+			"progress": "forming",
+			"reason": "ship_task_received",
+			"received_tick": 2,
+			"recipient_ids": [
+				"screen"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "executing",
+			"target_id": "core",
+			"waypoints_m": []
+		},
+		{
+			"area": {
+				"center_m": [
+					1500.0,
+					1600.0,
+					-2000.0
+				],
+				"radius_m": 2500.0
+			},
+			"assigned_unit_ids": [
+				"fighter_0",
+				"fighter_1"
+			],
+			"changed_tick": 2,
+			"execution": {
+				"fighter_0": {
+					"changed_tick": 2,
+					"module_id": "aircraft_tasks",
+					"progress": "approach: 2820 m",
+					"reason": "align_fixed_guns",
+					"replacement_order_id": "",
+					"status": "executing"
+				},
+				"fighter_1": {
+					"changed_tick": 2,
+					"module_id": "aircraft_tasks",
+					"progress": "cover: 299 m",
+					"reason": "wingman_station",
+					"replacement_order_id": "",
+					"status": "executing"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 2
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 2
+				},
+				{
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"status": "executing",
+					"tick": 2
+				}
+			],
+			"intent": "intercept_air_threat",
+			"issued_tick": 2,
+			"issuer_id": "jp_commander",
+			"order_id": "fleet_ai:jp:0003",
+			"order_type": "intercept",
+			"progress": "forming",
+			"reason": "flight_task_received",
+			"received_tick": 2,
+			"recipient_ids": [
+				"jp_pair_1"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "executing",
+			"target_id": "enemy_air",
+			"waypoints_m": []
+		},
+		{
+			"area": {
+				"center_m": [
+					-1000.0,
+					1500.0,
+					0.0
+				],
+				"radius_m": 3000.0
+			},
+			"assigned_unit_ids": [
+				"fighter_2",
+				"fighter_3"
+			],
+			"changed_tick": 2,
+			"execution": {
+				"fighter_2": {
+					"changed_tick": 2,
+					"module_id": "aircraft_tasks",
+					"progress": "guard: 1603 m",
+					"reason": "escort_protection_area",
+					"replacement_order_id": "",
+					"status": "executing"
+				},
+				"fighter_3": {
+					"changed_tick": 2,
+					"module_id": "aircraft_tasks",
+					"progress": "formation: 299 m",
+					"reason": "wingman_station",
+					"replacement_order_id": "",
+					"status": "executing"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 2
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 2
+				},
+				{
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"status": "executing",
+					"tick": 2
+				}
+			],
+			"intent": "reserve_air_cover",
+			"issued_tick": 2,
+			"issuer_id": "jp_commander",
+			"order_id": "fleet_ai:jp:0004",
+			"order_type": "escort",
+			"progress": "forming",
+			"reason": "flight_task_received",
+			"received_tick": 2,
+			"recipient_ids": [
+				"jp_pair_2"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "executing",
+			"target_id": "core",
+			"waypoints_m": []
+		}
+	],
+	"checks": 19,
+	"emergency_reasons": [
+		"low_fuel",
+		"severe_damage",
+		"no_ammunition",
+		"low_fuel"
+	],
+	"failures": 0,
+	"flagship_replacement": {
+		"area": {
+			"center_m": [
+				-4000.0,
+				0.0,
+				-2000.0
+			],
+			"radius_m": 1800.0
+		},
+		"assigned_unit_ids": [
+			"screen"
+		],
+		"changed_tick": 362,
+		"execution": {
+			"screen": {
+				"changed_tick": 362,
+				"module_id": "fleet_tasks",
+				"progress": "cruise",
+				"reason": "following_route",
+				"replacement_order_id": "",
+				"status": "executing"
+			}
+		},
+		"faction_id": "jp",
+		"history": [
+			{
+				"reason": "dispatched",
+				"status": "issued",
+				"tick": 362
+			},
+			{
+				"progress": "",
+				"reason": "domain_executors_accepted",
+				"status": "received",
+				"tick": 362
+			},
+			{
+				"progress": "forming",
+				"reason": "ship_task_received",
+				"status": "executing",
+				"tick": 362
+			}
+		],
+		"intent": "flagship_replacement",
+		"issued_tick": 362,
+		"issuer_id": "jp_commander",
+		"order_id": "fleet_ai:jp:0003",
+		"order_type": "patrol",
+		"progress": "forming",
+		"reason": "ship_task_received",
+		"received_tick": 362,
+		"recipient_ids": [
+			"screen"
+		],
+		"replacement_order_id": "",
+		"source": "ai",
+		"status": "executing",
+		"target_id": "",
+		"waypoints_m": []
+	},
+	"fog": {
+		"orders_after_60s": [
+			{
+				"area": {
+					"center_m": [
+						-4000.0,
+						0.0,
+						-2000.0
+					],
+					"radius_m": 1800.0
+				},
+				"assigned_unit_ids": [
+					"core"
+				],
+				"changed_tick": 2,
+				"execution": {
+					"core": {
+						"changed_tick": 2,
+						"module_id": "fleet_tasks",
+						"progress": "cruise",
+						"reason": "following_route",
+						"replacement_order_id": "",
+						"status": "executing"
+					}
+				},
+				"faction_id": "jp",
+				"history": [
+					{
+						"reason": "dispatched",
+						"status": "issued",
+						"tick": 2
+					},
+					{
+						"progress": "",
+						"reason": "domain_executors_accepted",
+						"status": "received",
+						"tick": 2
+					},
+					{
+						"progress": "forming",
+						"reason": "ship_task_received",
+						"status": "executing",
+						"tick": 2
+					}
+				],
+				"intent": "search_no_contact",
+				"issued_tick": 2,
+				"issuer_id": "jp_commander",
+				"order_id": "fleet_ai:jp:0001",
+				"order_type": "patrol",
+				"progress": "forming",
+				"reason": "ship_task_received",
+				"received_tick": 2,
+				"recipient_ids": [
+					"core"
+				],
+				"replacement_order_id": "",
+				"source": "ai",
+				"status": "executing",
+				"target_id": "",
+				"waypoints_m": []
+			},
+			{
+				"area": {
+					"center_m": [
+						-1000.0,
+						0.0,
+						0.0
+					],
+					"radius_m": 3500.0
+				},
+				"assigned_unit_ids": [
+					"screen"
+				],
+				"changed_tick": 2579,
+				"execution": {
+					"screen": {
+						"changed_tick": 2579,
+						"module_id": "fleet_tasks",
+						"progress": "guard",
+						"reason": "neighbor_starboard",
+						"replacement_order_id": "",
+						"status": "executing"
+					}
+				},
+				"faction_id": "jp",
+				"history": [
+					{
+						"reason": "dispatched",
+						"status": "issued",
+						"tick": 2
+					},
+					{
+						"progress": "",
+						"reason": "domain_executors_accepted",
+						"status": "received",
+						"tick": 2
+					},
+					{
+						"progress": "forming",
+						"reason": "ship_task_received",
+						"status": "executing",
+						"tick": 2
+					}
+				],
+				"intent": "protect_core",
+				"issued_tick": 2,
+				"issuer_id": "jp_commander",
+				"order_id": "fleet_ai:jp:0002",
+				"order_type": "escort",
+				"progress": "forming",
+				"reason": "ship_task_received",
+				"received_tick": 2,
+				"recipient_ids": [
+					"screen"
+				],
+				"replacement_order_id": "",
+				"source": "ai",
+				"status": "executing",
+				"target_id": "core",
+				"waypoints_m": []
+			},
+			{
+				"area": {
+					"center_m": [
+						-1000.0,
+						1500.0,
+						0.0
+					],
+					"radius_m": 3000.0
+				},
+				"assigned_unit_ids": [
+					"fighter_0",
+					"fighter_1",
+					"fighter_2",
+					"fighter_3"
+				],
+				"changed_tick": 3522,
+				"execution": {
+					"fighter_0": {
+						"changed_tick": 3482,
+						"module_id": "aircraft_tasks",
+						"progress": "guard: 2185 m",
+						"reason": "escort_protection_area",
+						"replacement_order_id": "",
+						"status": "executing"
+					},
+					"fighter_1": {
+						"changed_tick": 3522,
+						"module_id": "aircraft_tasks",
+						"progress": "formation: 356 m",
+						"reason": "wingman_station",
+						"replacement_order_id": "",
+						"status": "executing"
+					},
+					"fighter_2": {
+						"changed_tick": 3482,
+						"module_id": "aircraft_tasks",
+						"progress": "support: 1158 m",
+						"reason": "support_pair_station",
+						"replacement_order_id": "",
+						"status": "executing"
+					},
+					"fighter_3": {
+						"changed_tick": 3510,
+						"module_id": "aircraft_tasks",
+						"progress": "formation: 499 m",
+						"reason": "wingman_station",
+						"replacement_order_id": "",
+						"status": "executing"
+					}
+				},
+				"faction_id": "jp",
+				"history": [
+					{
+						"reason": "dispatched",
+						"status": "issued",
+						"tick": 2
+					},
+					{
+						"progress": "",
+						"reason": "domain_executors_accepted",
+						"status": "received",
+						"tick": 2
+					},
+					{
+						"progress": "forming",
+						"reason": "flight_task_received",
+						"status": "executing",
+						"tick": 2
+					}
+				],
+				"intent": "protect_core",
+				"issued_tick": 2,
+				"issuer_id": "jp_commander",
+				"order_id": "fleet_ai:jp:0003",
+				"order_type": "escort",
+				"progress": "forming",
+				"reason": "flight_task_received",
+				"received_tick": 2,
+				"recipient_ids": [
+					"fighter_0",
+					"fighter_1",
+					"fighter_2",
+					"fighter_3"
+				],
+				"replacement_order_id": "",
+				"source": "ai",
+				"status": "executing",
+				"target_id": "core",
+				"waypoints_m": []
+			}
+		],
+		"same_decisions": [
+			{
+				"area": {
+					"center_m": [
+						-4000.0,
+						0.0,
+						-2000.0
+					],
+					"radius_m": 1800.0
+				},
+				"faction_id": "jp",
+				"intent": "search_no_contact",
+				"issuer_id": "jp_commander",
+				"order_id": "fleet_ai:jp:0001",
+				"order_type": "patrol",
+				"recipient_ids": [
+					"core"
+				],
+				"source": "ai",
+				"target_id": "",
+				"waypoints_m": []
+			},
+			{
+				"area": {
+					"center_m": [
+						-1000.0,
+						0.0,
+						0.0
+					],
+					"radius_m": 3500.0
+				},
+				"faction_id": "jp",
+				"intent": "protect_core",
+				"issuer_id": "jp_commander",
+				"order_id": "fleet_ai:jp:0002",
+				"order_type": "escort",
+				"recipient_ids": [
+					"screen"
+				],
+				"source": "ai",
+				"target_id": "core",
+				"waypoints_m": []
+			},
+			{
+				"area": {
+					"center_m": [
+						-1000.0,
+						1500.0,
+						0.0
+					],
+					"radius_m": 3000.0
+				},
+				"faction_id": "jp",
+				"intent": "protect_core",
+				"issuer_id": "jp_commander",
+				"order_id": "fleet_ai:jp:0003",
+				"order_type": "escort",
+				"recipient_ids": [
+					"fighter_0",
+					"fighter_1",
+					"fighter_2",
+					"fighter_3"
+				],
+				"source": "ai",
+				"target_id": "core",
+				"waypoints_m": []
+			}
+		]
+	}
+}

@@ -1,0 +1,66 @@
+{
+  "run_id": "20261111T114111-d15a1f1e",
+  "owner": "OPS01",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/ops01-model/r03",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 72813,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/ops01-model/r03",
+      "pid": 72815,
+      "process_group": 72815,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1825,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T114111-d15a1f1e/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/ops01-model/r03",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/ops01-model/r03",
+      "pid": 72816,
+      "process_group": 72816,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 5.4766,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T114111-d15a1f1e/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "OPS01",
+    "pid": 72813,
+    "process_identity": "Wed Nov 11 19:41:11 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner OPS01 --project .local/ops01-model/r03 --timeout 55 --lock-timeout 10 import",
+    "token": "4bf2dcb6118944f9a29ddf06aae863e0",
+    "acquired_utc": "2026-11-11T11:41:11.608311+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

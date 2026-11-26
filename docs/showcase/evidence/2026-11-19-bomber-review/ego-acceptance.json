@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-19",
+  "browser": "Ego Lite",
+  "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+  "device": "Apple M5, 16 GB",
+  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+  "ordinary_export": "showcase/carrier_harbor.tscn",
+  "default_roster": 27,
+  "visited": [
+    [
+      "harbor",
+      1,
+      27
+    ],
+    [
+      "intercept_b25",
+      2,
+      4
+    ],
+    [
+      "attack_d4y",
+      3,
+      2
+    ],
+    [
+      "attack_g4m",
+      4,
+      3
+    ],
+    [
+      "inspect_d4y2",
+      5,
+      23
+    ],
+    [
+      "inspect_g4m1",
+      6,
+      23
+    ],
+    [
+      "harbor",
+      7,
+      27
+    ]
+  ],
+  "both_directions": {
+    "harbor": {
+      "generation": 7,
+      "dorsal_events_seen": 120,
+      "interceptor_events_seen": 72,
+      "first_dorsal_event": [
+        7,
+        "harbor",
+        9.91666666666667,
+        "us_b25_2",
+        "us_b25_2/dorsal",
+        "jp_air_1"
+      ],
+      "first_interceptor_event": [
+        7,
+        "harbor",
+        15.1,
+        "jp_air_2",
+        "jp_air_2/cowl_port_01",
+        "us_b25_2"
+      ]
+    },
+    "intercept_b25": {
+      "generation": 2,
+      "dorsal_events_seen": 76,
+      "interceptor_events_seen": 54,
+      "first_dorsal_event": [
+        2,
+        "intercept_b25",
+        25.4333333333333,
+        "wing",
+        "wing/dorsal",
+        "fighter"
+      ],
+      "first_interceptor_event": [
+        2,
+        "intercept_b25",
+        26.7166666666667,
+        "fighter",
+        "fighter/cowl_port_01",
+        "wing"
+      ]
+    }
+  },
+  "dedicated_web_captures": {
+    "approach": {
+      "name": "approach",
+      "t": 1.53333333333333,
+      "gen": 2,
+      "subject": "wing"
+    },
+    "defending": {
+      "name": "defending",
+      "t": 25.8666666666667,
+      "gen": 2,
+      "subject": "wing",
+      "shot": [
+        2,
+        "intercept_b25",
+        25.6833333333333,
+        "wing",
+        "wing/dorsal",
+        "fighter"
+      ]
+    }
+  },
+  "japanese_model_scenes": [
+    {
+      "title": "D4Y2 · 俯冲轰炸",
+      "mode": "attack_d4y",
+      "id": "jp_d4y2_model12_1944_10",
+      "subject": "bomber",
+      "s": 1.98333333333333,
+      "gen": 3
+    },
+    {
+      "title": "G4M1 · 水平轰炸",
+      "mode": "attack_g4m",
+      "id": "jp_g4m1_1942_07",
+      "subject": "bomber",
+      "s": 1.9,
+      "gen": 4
+    },
+    {
+      "title": "D4Y2 · 模型展示",
+      "mode": "inspect_d4y2",
+      "s": 0.383333333333333,
+      "gen": 5
+    },
+    {
+      "title": "G4M1 · 模型展示",
+      "mode": "inspect_g4m1",
+      "s": 0.383333333333333,
+      "gen": 6
+    }
+  ],
+  "default_frame_samples": {
+    "speed": 1,
+    "backing_canvas": [
+      1280,
+      720
+    ],
+    "viewport_groups": {
+      "1280x720": {
+        "samples": 34,
+        "median_ms": 134.3,
+        "p95_ms": 142.866666666664
+      },
+      "1440x900": {
+        "samples": 65,
+        "median_ms": 133.459259259227,
+        "p95_ms": 142.133333333366
+      }
+    },
+    "probes": "S08 and S14X read-only observers enabled, FPS samples on running frames after simulation time 2s"
+  },
+  "diagnostic_drawing_buffer": {
+    "samples": 70,
+    "median_ms": 133.333333333333,
+    "p95_ms": 141.199999999959,
+    "backing": [
+      1440,
+      900
+    ],
+    "drawing": [
+      1440,
+      900
+    ],
+    "engine": "(1280.0, 720.0)",
+    "scope": "Temporary page-local 1440x900 WebGL backing buffer, fixed 1280x720 game logical viewport"
+  },
+  "console_errors_or_warnings": [],
+  "cleanup": {
+    "space_id": 9,
+    "kept_pages": [],
+    "closed": true,
+    "time": "2026-11-19T10:16:00.788Z",
+    "preview_port_closed": true,
+    "server_run": "20261119T100332-c9412ff2"
+  }
+}

@@ -1,0 +1,25 @@
+沃莱艾环礁机场：飞行航线与浏览器性能验证
+
+环境
+- Godot 4.7.2 Stable，Compatibility 渲染器；M5，16 GB 内存。
+- 浏览器验证使用 Web Release 导出；镜头 2（跑道与设施）、3×演示速度、F8 性能显示。
+- 记录日期：2026-11-05。
+
+航线验证
+- A6M5a 从机坪出发，完成滑出、起飞、空中环岛航线、进近、着陆滑跑和滑回机坪。
+- 自动演示完整通过 500 秒模拟航程；航路几何以米为单位，模拟时间不依赖渲染帧率。
+- 可复现命令：
+  `/Applications/Godot.app/Contents/MacOS/Godot --path island_airfield -- --fast-demo --auto-verify`
+- 原生窗口本轮记录约 145 FPS、452 draw calls、1093 个对象。
+
+浏览器性能与场景优化
+- 为棕榈树树干、叶片和灌木网格减少细分；保留棕榈树与灌木的实例生成逻辑和数量上限。
+- Safari：多次观察约 60 FPS；两个截图时刻分别显示 143 draw calls / 798 个对象，以及 373 draw calls / 1040 个对象。
+- Chrome：约 10 秒内的三个截图为 64、56、61 FPS；对应计数随画面阶段变化，约 177–391 draw calls、813–1037 个对象。
+- 优化前上一轮观察值约为 Safari 52–53 FPS、Chrome 39–42 FPS。优化前后没有固定相机时刻和窗口尺寸的严格配对，因此只作参考，不作为标准化性能基准。
+- 浏览器中的对象数和绘制调用会随镜头可见范围及飞机航线阶段变化；上述数值是截图采样，不是长时间平均值。
+- Safari 与 Chrome 保留各自窗口尺寸，未做尺寸归一。场景使用程序几何；目前记录的是单机 M5 16 GB 实测，不代表所有设备表现。
+
+网页导出与预览
+- 导出命令：`/Applications/Godot.app/Contents/MacOS/Godot --path island_airfield --export-release Web build/web/index.html`
+- 预览地址：`http://127.0.0.1:8008/build/web/`（本轮检查返回 HTTP 200）。

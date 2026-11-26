@@ -1,0 +1,24 @@
+{
+	"checks": [
+		{
+			"label": "receipt/queued order cannot announce completion",
+			"passed": true
+		},
+		{
+			"label": "stale completed training cannot satisfy new order",
+			"passed": true
+		},
+		{
+			"label": "matched actual per-unit state can announce completion",
+			"passed": true
+		},
+		{
+			"label": "qualified rejection reason is readable Chinese",
+			"passed": true
+		},
+		{
+			"label": "safety reason is readable Chinese",
+			"passed": true
+		}
+	]
+}

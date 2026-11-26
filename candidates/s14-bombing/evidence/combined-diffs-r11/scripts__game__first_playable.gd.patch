@@ -1,0 +1,37 @@
+--- S14_R8/scripts/game/first_playable.gd
++++ combined/scripts/game/first_playable.gd
+@@ -24,7 +24,7 @@
+ 	_build_environment()
+ 	camera = ObserverCamera.new()
+ 	add_child(camera)
+-	effects = CombatEffects.new()
++	effects = _create_effects()
+ 	effects.sound_enabled = false
+ 	effects.effect_capacity = 384
+ 	add_child(effects)
+@@ -60,6 +60,7 @@
+ 		add_child(model)
+ 		models[id] = model
+ 		metadata[id] = ObserverCamera.describe_unit(definition)
++		metadata[id]["definition_id"] = definition.id
+ 		metadata[id]["name"] = session.scenario.presentation.names[id]
+ 		if definition.domain in ["ship","ground"]:
+ 			var recoil: VisualRecoil = VisualRecoil.new()
+@@ -159,8 +160,8 @@
+ 	hud.reset_hud(session)
+ 	apply_presentation([])
+ 	camera.views = session.units
+-	camera.followed_id = "jp_bb"
+-	camera.fit_unit("jp_bb")
++	camera.followed_id = "jp_bb" if session.units.has("jp_bb") else str(session.world.unit_ids()[0])
++	camera.fit_unit(camera.followed_id)
+ 	camera.shot_label = "舰队跟随"
+ 	camera.hold_s = 10.0
+ 	camera.update_view(0.0, 0.0, session.units, true)
+@@ -212,3 +213,6 @@
+ 	wake.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+ 	add_child(wake)
+ 	wakes[id] = wake
++
++func _create_effects() -> CombatEffects:
++	return CombatEffects.new()

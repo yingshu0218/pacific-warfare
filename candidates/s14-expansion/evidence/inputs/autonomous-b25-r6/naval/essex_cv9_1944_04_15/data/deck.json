@@ -1,0 +1,671 @@
+{
+  "schema_version": "0.1",
+  "ship_id": "us_essex_cv9_1944_04_15",
+  "configuration_date": "1944-04-15",
+  "source_status": "CV9 photos E01-E05 plus CV17 1946 class plans P01-P06; metric envelope from NHC; positions/height photo and plan-ratio reconstruction, not shipyard surveyed CV9 coordinates",
+  "axes": {
+    "right": "+X",
+    "up": "+Y",
+    "forward": "-Z",
+    "origin": "overall-length midpoint at full-load design waterline",
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "flight_deck": {
+    "height_m": 15.85,
+    "thickness_m": 0.38,
+    "boundary_xz_m": [
+      [
+        -14.4,
+        -131.3688
+      ],
+      [
+        10.7,
+        -131.3688
+      ],
+      [
+        13.7092,
+        -121
+      ],
+      [
+        13.7092,
+        122.0
+      ],
+      [
+        10.7,
+        131.3688
+      ],
+      [
+        -15.0,
+        131.3688
+      ],
+      [
+        -16.7,
+        126
+      ],
+      [
+        -16.7,
+        91
+      ],
+      [
+        -19.2092,
+        85
+      ],
+      [
+        -19.2092,
+        -70
+      ],
+      [
+        -18.1,
+        -81
+      ],
+      [
+        -14.4,
+        -91
+      ]
+    ],
+    "nominal_length_m": 262.7376,
+    "nominal_max_width_m": 32.9184
+  },
+  "obstacles": [
+    {
+      "id": "island_and_twin_battery",
+      "polygon_xz_m": [
+        [
+          11.7,
+          -56
+        ],
+        [
+          22,
+          -56
+        ],
+        [
+          22,
+          39
+        ],
+        [
+          11.7,
+          39
+        ]
+      ],
+      "bottom_m": 15.85,
+      "top_m": 40.5,
+      "host_id": "island"
+    },
+    {
+      "id": "port_forward_battery_edge",
+      "polygon_xz_m": [
+        [
+          -22.0,
+          -110
+        ],
+        [
+          -18.1,
+          -110
+        ],
+        [
+          -18.1,
+          -74
+        ],
+        [
+          -22.0,
+          -74
+        ]
+      ],
+      "bottom_m": 13.55,
+      "top_m": 17.5,
+      "host_id": "port_forward_sponson"
+    },
+    {
+      "id": "port_aft_battery_edge",
+      "polygon_xz_m": [
+        [
+          -22.0,
+          76
+        ],
+        [
+          -16.7,
+          76
+        ],
+        [
+          -16.7,
+          116
+        ],
+        [
+          -22.0,
+          116
+        ]
+      ],
+      "bottom_m": 13.55,
+      "top_m": 17.5,
+      "host_id": "port_aft_sponson"
+    }
+  ],
+  "reference_lines": [
+    {
+      "id": "takeoff_axial",
+      "kind": "takeoff",
+      "points_m": [
+        [
+          -3,
+          15.85,
+          -40
+        ],
+        [
+          -3,
+          15.85,
+          -130
+        ]
+      ],
+      "half_width_m": 8.0,
+      "source_status": "axial propeller-carrier geometry reference; OPS01 must choose run length for aircraft/wind"
+    },
+    {
+      "id": "landing_axial",
+      "kind": "landing",
+      "points_m": [
+        [
+          -3,
+          15.85,
+          129
+        ],
+        [
+          -3,
+          15.85,
+          90
+        ],
+        [
+          -3,
+          15.85,
+          15
+        ],
+        [
+          -3,
+          15.85,
+          -40
+        ]
+      ],
+      "half_width_m": 9.0,
+      "source_status": "straight axial landing reference; not angled or simultaneous operations"
+    }
+  ],
+  "zones": [
+    {
+      "id": "forward_park",
+      "kind": "parking",
+      "polygon_xz_m": [
+        [
+          -12,
+          -78
+        ],
+        [
+          8,
+          -78
+        ],
+        [
+          8,
+          -42
+        ],
+        [
+          -12,
+          -42
+        ]
+      ],
+      "height_m": 15.85,
+      "requires_folded_wings": false
+    },
+    {
+      "id": "aft_park",
+      "kind": "parking",
+      "polygon_xz_m": [
+        [
+          -12,
+          64
+        ],
+        [
+          8,
+          64
+        ],
+        [
+          8,
+          112
+        ],
+        [
+          -12,
+          112
+        ]
+      ],
+      "height_m": 15.85,
+      "requires_folded_wings": false
+    },
+    {
+      "id": "port_fold",
+      "kind": "folding",
+      "polygon_xz_m": [
+        [
+          -17,
+          -65
+        ],
+        [
+          -7,
+          -65
+        ],
+        [
+          -7,
+          -40
+        ],
+        [
+          -17,
+          -40
+        ]
+      ],
+      "height_m": 15.85,
+      "requires_folded_wings": true
+    },
+    {
+      "id": "bow_hold",
+      "kind": "holding",
+      "polygon_xz_m": [
+        [
+          -11,
+          -122
+        ],
+        [
+          5,
+          -122
+        ],
+        [
+          5,
+          -105
+        ],
+        [
+          -11,
+          -105
+        ]
+      ],
+      "height_m": 15.85,
+      "requires_folded_wings": false
+    },
+    {
+      "id": "landing_exit",
+      "kind": "exit",
+      "polygon_xz_m": [
+        [
+          -13,
+          -40
+        ],
+        [
+          6,
+          -40
+        ],
+        [
+          6,
+          -2
+        ],
+        [
+          -13,
+          -2
+        ]
+      ],
+      "height_m": 15.85,
+      "requires_folded_wings": false
+    }
+  ],
+  "elevators": [
+    {
+      "id": "elevator_forward",
+      "center_xz_m": [
+        0,
+        -89.0
+      ],
+      "size_xz_m": [
+        13.4874,
+        14.7066
+      ],
+      "upper_height_m": 15.85,
+      "lower_height_m": 7.926,
+      "translation_axis": [
+        0,
+        1,
+        0
+      ],
+      "node_path": "FlightDeck/Elevators/elevator_forward",
+      "opening": "inboard",
+      "corner_radius_m": 0.0
+    },
+    {
+      "id": "elevator_aft",
+      "center_xz_m": [
+        0,
+        45.0
+      ],
+      "size_xz_m": [
+        13.4874,
+        14.7066
+      ],
+      "upper_height_m": 15.85,
+      "lower_height_m": 7.926,
+      "translation_axis": [
+        0,
+        1,
+        0
+      ],
+      "node_path": "FlightDeck/Elevators/elevator_aft",
+      "opening": "inboard",
+      "corner_radius_m": 0.0
+    },
+    {
+      "id": "elevator_port",
+      "center_xz_m": [
+        -19.6,
+        -20
+      ],
+      "size_xz_m": [
+        10.3632,
+        18.288
+      ],
+      "upper_height_m": 15.85,
+      "lower_height_m": 7.926,
+      "translation_axis": [
+        0,
+        1,
+        0
+      ],
+      "node_path": "FlightDeck/Elevators/elevator_port",
+      "opening": "deck_edge",
+      "corner_radius_m": 0.0
+    }
+  ],
+  "paths": [
+    {
+      "id": "forward_hold_to_run",
+      "kind": "holding",
+      "points_m": [
+        [
+          -3,
+          15.85,
+          -60
+        ],
+        [
+          -3,
+          15.85,
+          -105
+        ]
+      ],
+      "half_width_m": 7.8
+    },
+    {
+      "id": "landing_exit_reference",
+      "kind": "exit",
+      "points_m": [
+        [
+          -3,
+          15.85,
+          10
+        ],
+        [
+          -3,
+          15.85,
+          -7
+        ],
+        [
+          -3,
+          15.85,
+          -40
+        ]
+      ],
+      "half_width_m": 7.8
+    }
+  ],
+  "arresting_wires": [
+    {
+      "id": "wire_01",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          117
+        ],
+        [
+          10,
+          15.87,
+          117
+        ]
+      ]
+    },
+    {
+      "id": "wire_02",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          111
+        ],
+        [
+          10,
+          15.87,
+          111
+        ]
+      ]
+    },
+    {
+      "id": "wire_03",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          105
+        ],
+        [
+          10,
+          15.87,
+          105
+        ]
+      ]
+    },
+    {
+      "id": "wire_04",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          99
+        ],
+        [
+          10,
+          15.87,
+          99
+        ]
+      ]
+    },
+    {
+      "id": "wire_05",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          93
+        ],
+        [
+          10,
+          15.87,
+          93
+        ]
+      ]
+    },
+    {
+      "id": "wire_06",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          87
+        ],
+        [
+          10,
+          15.87,
+          87
+        ]
+      ]
+    },
+    {
+      "id": "wire_07",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          81
+        ],
+        [
+          10,
+          15.87,
+          81
+        ]
+      ]
+    },
+    {
+      "id": "wire_08",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          75
+        ],
+        [
+          10,
+          15.87,
+          75
+        ]
+      ]
+    },
+    {
+      "id": "wire_09",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          69
+        ],
+        [
+          10,
+          15.87,
+          69
+        ]
+      ]
+    },
+    {
+      "id": "wire_10",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          63
+        ],
+        [
+          10,
+          15.87,
+          63
+        ]
+      ]
+    },
+    {
+      "id": "wire_11",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          57
+        ],
+        [
+          10,
+          15.87,
+          57
+        ]
+      ]
+    },
+    {
+      "id": "wire_12",
+      "points_m": [
+        [
+          -14,
+          15.87,
+          51
+        ],
+        [
+          10,
+          15.87,
+          51
+        ]
+      ]
+    }
+  ],
+  "barriers": [
+    {
+      "id": "barrier_1",
+      "points_m": [
+        [
+          -15,
+          15.88,
+          28
+        ],
+        [
+          10,
+          15.88,
+          28
+        ]
+      ]
+    },
+    {
+      "id": "barrier_2",
+      "points_m": [
+        [
+          -15,
+          15.88,
+          23
+        ],
+        [
+          10,
+          15.88,
+          23
+        ]
+      ]
+    }
+  ],
+  "catapults": [
+    {
+      "id": "hydraulic_port",
+      "points_m": [
+        [
+          -10,
+          15.87,
+          -128
+        ],
+        [
+          -10,
+          15.87,
+          -96
+        ]
+      ],
+      "source_status": "two visible tracks for April refit; hydraulic type/performance not approved here"
+    },
+    {
+      "id": "hydraulic_starboard",
+      "points_m": [
+        [
+          9,
+          15.87,
+          -128
+        ],
+        [
+          9,
+          15.87,
+          -96
+        ]
+      ],
+      "source_status": "two visible tracks for April refit; no launch behaviour"
+    }
+  ]
+}

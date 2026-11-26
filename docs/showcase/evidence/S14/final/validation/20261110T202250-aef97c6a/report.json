@@ -1,0 +1,67 @@
+{
+  "run_id": "20261110T202250-aef97c6a",
+  "owner": "S14-integrate-train_us_axial_roll",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 74862,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+      "pid": 74866,
+      "process_group": 74866,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.0244,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T202250-aef97c6a/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+        "--script",
+        "res://tests/s14_integration.gd",
+        "--",
+        "--mode=train_us_axial_roll"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+      "pid": 74867,
+      "process_group": 74867,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 5.1876,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T202250-aef97c6a/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S14-integrate-train_us_axial_roll",
+    "pid": 74862,
+    "process_identity": "Wed Nov 11 04:22:50 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S14-integrate-train_us_axial_roll --timeout 145 --lock-timeout 60 --project .local/s14-final-dev-1 godot -- --script res://tests/s14_integration.gd -- --mode=train_us_axial_roll",
+    "token": "11eb1c9176a94ed08dc39132edb7082b",
+    "acquired_utc": "2026-11-10T20:22:50.286919+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

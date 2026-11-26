@@ -1,0 +1,68 @@
+{
+  "id": "us_40mm_m1_m2a1_1944",
+  "display_name": "40-mm M1 · M2A1 · M3 sights",
+  "country_id": "us",
+  "domain": "ground",
+  "service_entry_year": 0,
+  "configuration_date": "1944-01-17",
+  "dimensions_m": [
+    4.04,
+    4.191,
+    5.7
+  ],
+  "model_scene": "res://scenes/ground/us_40mm_m1_m2a1_1944.tscn",
+  "mounts": [
+    {
+      "id": "gun_01",
+      "host_id": "m2a1_carriage",
+      "weapon_definition_id": "us_40mm_m1_m2a1_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        0,
+        0.8,
+        0
+      ],
+      "base_yaw_deg": 0,
+      "elevation_pivot_m": [
+        0,
+        0.69,
+        0
+      ],
+      "muzzle_positions_m": [
+        [
+          0,
+          0,
+          -2.701
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "TM9-252 figs1,4,89,161; 3.2004m wheelbase and 1.406525m tread fixed; pivot, outriggers and small shapes estimated from original photographs, vertical muzzle height constrained to 4.191m"
+      }
+    }
+  ],
+  "weapon_definitions": [],
+  "historical_fixed_armament": [],
+  "dedicated_aa_game": [
+    {
+      "weapon_definition_id": "us_40mm_m1_m2a1_single",
+      "mount_count": 1,
+      "barrels_per_mount": 1
+    }
+  ],
+  "dedicated_aa_historical": [
+    {
+      "description": "One M1 single barrel on M2A1 carriage, not naval quadruple Bofors",
+      "mount_count": 1,
+      "barrels_per_mount": 1
+    }
+  ],
+  "source": {
+    "status": "provisional",
+    "basis": "TM9-252 (1944-01-17), figs1,4,89,161 and ammunition table row9",
+    "reference_pack": "docs/references/weapons/us_40mm_m1_m2a1_1944",
+    "service_entry_year_status": "unknown",
+    "documented_by_year": 1944,
+    "limitations": "Exact first-service year of this variant is unconfirmed (0=unknown); configuration date is documentary. Small model dimensions, crew train/elevation rates, durability and finite inventory are explicit simulation estimates, not balance changes."
+  }
+}

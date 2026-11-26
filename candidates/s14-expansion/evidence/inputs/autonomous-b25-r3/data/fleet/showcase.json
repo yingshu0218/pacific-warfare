@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "profiles": {
+    "jp_yamato_1944_04": {"historical_max_knots": 27.0, "cruise_mps": 10.0, "acceleration_mps2": 0.055, "braking_mps2": 0.12, "coast_drag_mps2": 0.065, "turn_radius_m": 420.0, "yaw_acceleration_degps2": 0.09, "engagement_range_m": 10000.0, "flag_rank": 100},
+    "us_iowa_bb61_1944_12_28": {"historical_max_knots": 33.0, "cruise_mps": 11.0, "acceleration_mps2": 0.065, "braking_mps2": 0.14, "coast_drag_mps2": 0.07, "turn_radius_m": 520.0, "yaw_acceleration_degps2": 0.08, "engagement_range_m": 10000.0, "flag_rank": 100},
+    "us_fletcher_dd445_1942_07_18": {"historical_max_knots": 36.0, "cruise_mps": 12.0, "acceleration_mps2": 0.12, "braking_mps2": 0.22, "coast_drag_mps2": 0.10, "turn_radius_m": 260.0, "yaw_acceleration_degps2": 0.18, "engagement_range_m": 6000.0, "flag_rank": 40},
+    "jp_yukikaze_1942_06": {"historical_max_knots": 35.0, "cruise_mps": 12.0, "acceleration_mps2": 0.115, "braking_mps2": 0.21, "coast_drag_mps2": 0.10, "turn_radius_m": 250.0, "yaw_acceleration_degps2": 0.18, "engagement_range_m": 5500.0, "flag_rank": 40}
+  },
+  "navigation": {"clearance_m": 45.0, "prediction_s": 140.0, "station_spacing_m": 620.0, "reform_distance_m": 1500.0, "search_timeout_s": 32.0, "solids": []},
+  "policy": {"decision_period_s": 6.0, "order_cooldown_s": 24.0, "contact_hysteresis_s": 18.0, "air_threat_radius_m": 6500.0, "ship_retreat_radius_m": 700.0, "air_retreat_radius_m": 600.0},
+  "commanders": {
+    "jp": {"patrol_center_m": [-4000, 0, -2000], "patrol_radius_m": 1800.0, "retreat_center_m": [-10000, 0, 6500], "air_retreat_center_m": [-10000, 1500, 6500]},
+    "us": {"patrol_center_m": [4000, 0, -2000], "patrol_radius_m": 1800.0, "retreat_center_m": [10000, 0, 6500], "air_retreat_center_m": [10000, 1500, 6500]}
+  },
+  "source": {"status": "provisional", "historical": "Maximum knots only: NHHC DANFS Iowa/Fletcher; NHHC H-044-3 Yamato; Tamiya Kagero primary product manual. See docs/references/fleet/s06-sources.md.", "approximation": "Acceleration, braking, coast drag, yaw acceleration, turn radius, cruise speed, combat distances, fuel and doctrine are explicit gameplay approximations, not measured sea trials. No win-rate adjustment."}
+}

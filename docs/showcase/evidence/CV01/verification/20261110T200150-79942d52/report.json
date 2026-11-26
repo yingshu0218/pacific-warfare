@@ -1,0 +1,65 @@
+{
+  "run_id": "20261110T200150-79942d52",
+  "owner": "CV01",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 73528,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 73530,
+      "process_group": 73530,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2463,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T200150-79942d52/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://naval/essex_cv9_1944_04_15/inspection/test_essex.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 73531,
+      "process_group": 73531,
+      "returncode": 1,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": true,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 1.0269,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T200150-79942d52/01-output.log",
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "lock_identity": {
+    "status": "held",
+    "owner": "CV01",
+    "pid": 73528,
+    "process_identity": "Wed Nov 11 04:01:50 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner CV01 --timeout 55 --lock-timeout 5 test res://naval/essex_cv9_1944_04_15/inspection/test_essex.gd",
+    "token": "ffabd937e242458194671e35385507a6",
+    "acquired_utc": "2026-11-10T20:01:50.809624+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 1
+}

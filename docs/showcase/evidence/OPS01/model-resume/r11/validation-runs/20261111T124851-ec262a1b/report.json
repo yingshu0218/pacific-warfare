@@ -1,0 +1,68 @@
+{
+  "run_id": "20261111T124851-ec262a1b",
+  "owner": "OPS01",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/ops01-model/r11",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 82080,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/ops01-model/r11",
+      "pid": 82083,
+      "process_group": 82083,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2102,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T124851-ec262a1b/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/ops01-model/r11",
+        "--script",
+        "res://tests/air_operations/capture.gd",
+        "--",
+        "--fps=15",
+        "--segment=launch",
+        "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/ops01-model-captures/r11-launch"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/ops01-model/r11",
+      "pid": 82084,
+      "process_group": 82084,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 21.2169,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T124851-ec262a1b/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "OPS01",
+    "pid": 82080,
+    "process_identity": "Wed Nov 11 20:48:51 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner OPS01 --project .local/ops01-model/r11 --timeout 100 --lock-timeout 15 godot --render -- --script res://tests/air_operations/capture.gd -- --fps=15 --segment=launch --output=/Users/infinity/Desktop/Dev/game-pacific/.local/ops01-model-captures/r11-launch",
+    "token": "d83e432835984c9683b0bed3c5bd8cae",
+    "acquired_utc": "2026-11-11T12:48:51.892426+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

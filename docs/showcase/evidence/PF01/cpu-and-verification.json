@@ -1,0 +1,2658 @@
+{
+  "device": {
+    "chip": "Apple M5",
+    "memory_gb": 16,
+    "basis": "system_profiler SPHardwareDataType"
+  },
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "method": {
+    "CPU": "headless synchronous calls to real harbor game; timing is not rendered frame timing",
+    "warmup_frames": 180,
+    "percentiles": "nearest rank",
+    "wall_s_including_digest": "from sample start through sampling and digests, not process startup",
+    "seed": 707,
+    "units": 27,
+    "camera": "fighter",
+    "speed": 1
+  },
+  "cpu": {
+    "base_paused": {
+      "camera": "fighter",
+      "checkpoints": [
+        {
+          "effects": "29242ed73827788480642a8736e2492c1d97a00507f3056379c27149f5779ff5",
+          "events": 216,
+          "tick": 60,
+          "world": "38e449c7433d0cceeb1667a4a054038e9eb533b785ce8b92dc4a3125c23a504f"
+        },
+        {
+          "effects": "72df9baca496f2c1df449f95fea11d233372df8cf9af92df6625c56146c99727",
+          "events": 216,
+          "tick": 120,
+          "world": "8043e8fc7206a956f81d3cc30520e6699237bc6210119dcbc7d686c2bfa3804d"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        }
+      ],
+      "counts": {
+        "command_applied": 32,
+        "fired": 13,
+        "fleet_flagship_changed": 6,
+        "order_assignments_changed": 27,
+        "order_execution_changed": 76,
+        "order_issued": 21,
+        "order_status_changed": 46,
+        "salvo": 2,
+        "target_changed": 11
+      },
+      "display_server": "headless",
+      "end_reason": "",
+      "event_count": 234,
+      "events_sha256": "a8e43822aa40c94c063734bae9b21d853d230127d13d26b50ca9a77d29cd7387",
+      "measured_cpu_wall_s": 1.392069,
+      "mode": "paused",
+      "paused": true,
+      "pending_s": 0.0,
+      "restart": {
+        "effects": "3f3050b0d3647c82090b6da37db724f5832ca59c69756cebc6ca334ab01c5daf",
+        "events": {
+          "command_applied": 31,
+          "fired": 10,
+          "fleet_flagship_changed": 6,
+          "order_assignments_changed": 27,
+          "order_execution_changed": 65,
+          "order_issued": 21,
+          "order_status_changed": 46,
+          "ship_support_fire": 10,
+          "target_changed": 10
+        },
+        "generation": 2,
+        "tick": 60,
+        "units": 27,
+        "view": "946af986c810ff33c3a20b9b366e529d5e310aea1fea953a36eb19f064ca008f",
+        "world": "bc5ad0c935d46e3d7aca026e72c188855ca08d12fc4a29d64fcf40da63d21570"
+      },
+      "samples": {
+        "advance_nonzero_tick": {
+          "n": 0
+        },
+        "advance_or_world": {
+          "n": 600,
+          "p50": 0.559,
+          "p95": 0.759,
+          "p99": 1.0
+        },
+        "advance_zero_tick": {
+          "n": 600,
+          "p50": 0.559,
+          "p95": 0.759,
+          "p99": 1.0
+        },
+        "camera": {
+          "n": 600,
+          "p50": 0.007,
+          "p95": 0.013,
+          "p99": 0.017
+        },
+        "hud": {
+          "n": 600,
+          "p50": 0.0,
+          "p95": 0.285,
+          "p99": 0.345
+        },
+        "hud_at_least_20us": {
+          "n": 37,
+          "p50": 0.304,
+          "p95": 0.375,
+          "p99": 0.41
+        },
+        "presentation": {
+          "n": 600,
+          "p50": 1.591,
+          "p95": 2.33,
+          "p99": 2.956
+        },
+        "total": {
+          "n": 600,
+          "p50": 2.2,
+          "p95": 3.194,
+          "p99": 3.816
+        }
+      },
+      "seed": 707,
+      "sim_delta_s": 0.0,
+      "speed": 1.0,
+      "start_tick": 180,
+      "tick": 180,
+      "units": 27,
+      "views_sha256": "4c3bd33f922ae96ed57a49bcc94c1aa4f53f67e5320ade11b9a262f0c315ef44",
+      "wall_s_including_digest": 2.379079,
+      "verify_run": "20261121T155623-29cb3371"
+    },
+    "base_world": {
+      "camera": "fighter",
+      "checkpoints": [
+        {
+          "effects": "",
+          "events": 216,
+          "tick": 60,
+          "world": "38e449c7433d0cceeb1667a4a054038e9eb533b785ce8b92dc4a3125c23a504f"
+        },
+        {
+          "effects": "",
+          "events": 216,
+          "tick": 120,
+          "world": "8043e8fc7206a956f81d3cc30520e6699237bc6210119dcbc7d686c2bfa3804d"
+        },
+        {
+          "effects": "",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "",
+          "events": 242,
+          "tick": 240,
+          "world": "fd4668e0c61e2473867929ba8b89b0cc5794ecf2c222697ab9b3e1910c6943bc"
+        },
+        {
+          "effects": "",
+          "events": 273,
+          "tick": 300,
+          "world": "4026b8719409b72e54dc730bbadcd2b53910cd8dbecc89a9cecaa38fdcd27a18"
+        },
+        {
+          "effects": "",
+          "events": 284,
+          "tick": 360,
+          "world": "11b9222e1d410862c14b9f8791412c2c03f203ca3fded3931faa8dd29e4d94ce"
+        },
+        {
+          "effects": "",
+          "events": 306,
+          "tick": 420,
+          "world": "d24414c8add1d5bbfeef1c11da317ecedbb2d06a93ff581fd1a67a9a86757ff1"
+        },
+        {
+          "effects": "",
+          "events": 371,
+          "tick": 480,
+          "world": "02b8733f4a6f3601bb9f2efe73e6eb7cd68562ea19bf899417cd91b1be35f3d1"
+        },
+        {
+          "effects": "",
+          "events": 450,
+          "tick": 540,
+          "world": "14f50f6121a8ae59e21f4839694c902e0a8ea254df7499864adc65e1fa15b604"
+        },
+        {
+          "effects": "",
+          "events": 496,
+          "tick": 600,
+          "world": "eed9c625079badbbe07f03f737be7dde122e143899053730ec915aef305ddb88"
+        },
+        {
+          "effects": "",
+          "events": 544,
+          "tick": 660,
+          "world": "82705437e04e370a91dbc5c330a6adbdb4450081903d44b2959b1b3100f94e00"
+        },
+        {
+          "effects": "",
+          "events": 593,
+          "tick": 720,
+          "world": "59d41f7e99714de29ce033c2405ed70d30c85640ebfc02537206560b291e0cd3"
+        },
+        {
+          "effects": "",
+          "events": 682,
+          "tick": 780,
+          "world": "45689cdc6baa91e8189fc76d114b0783e12a6118d52320883488e5af3648993b"
+        },
+        {
+          "effects": "",
+          "events": 752,
+          "tick": 840,
+          "world": "d0c3dd6c773d24a0c3d3f5dd5cba0a98ecc1d4f381c62fb1d4fb663638aac5c5"
+        },
+        {
+          "effects": "",
+          "events": 811,
+          "tick": 900,
+          "world": "de9dc6db395a5aa162113cf9ae8fa408021eb839dfe24a8b628d22973e58a563"
+        },
+        {
+          "effects": "",
+          "events": 880,
+          "tick": 960,
+          "world": "3a19308d25706a4f7de2921964bbc6ed8805ec8dc48b142c879b8fc33e049417"
+        },
+        {
+          "effects": "",
+          "events": 986,
+          "tick": 1020,
+          "world": "f1e3d5cfe0d669be62dbbee7951422c9c772a0c3b40bf188c30e01e62e836c3f"
+        },
+        {
+          "effects": "",
+          "events": 1082,
+          "tick": 1080,
+          "world": "9384a0a30f1f90e135659e26c6551043753ece414e50be76d83bca7cfa447aec"
+        },
+        {
+          "effects": "",
+          "events": 1198,
+          "tick": 1140,
+          "world": "a1d2beea91b8668b15f526d20a6f040eec48965264a439eb0a5f3e77c4c417b0"
+        },
+        {
+          "effects": "",
+          "events": 1270,
+          "tick": 1200,
+          "world": "f7683dd53f7ec003a9674055cf33ad231029559f3b5ca4e65ef5c139df481129"
+        },
+        {
+          "effects": "",
+          "events": 1329,
+          "tick": 1260,
+          "world": "9d0a640e7b804a33f0ecac83ef6a96c2fba0b621ccd7b068c42b65d82deab96f"
+        },
+        {
+          "effects": "",
+          "events": 1391,
+          "tick": 1320,
+          "world": "32e01d59ee90af316649d73dc5da083e3bb32a341c6909febfa8b4566ce0c4d1"
+        },
+        {
+          "effects": "",
+          "events": 1469,
+          "tick": 1380,
+          "world": "a4512c7ac0ed630b8098497d0d8de0cab20b81665825da187ad428dc3ad5f3db"
+        },
+        {
+          "effects": "",
+          "events": 1545,
+          "tick": 1440,
+          "world": "e98b90e587e1d056b00517e0afc8db0d045623ddcd1996faf31d47fa2378b005"
+        },
+        {
+          "effects": "",
+          "events": 1607,
+          "tick": 1500,
+          "world": "5838a0b19334869d72efa88810b1129f8c4f578865964a54070e9dd29724ad13"
+        },
+        {
+          "effects": "",
+          "events": 1617,
+          "tick": 1560,
+          "world": "0fd516cb0b5f60c1ef1c2d697ad66528351462d032be71b5e7e96958667f86e1"
+        },
+        {
+          "effects": "",
+          "events": 1637,
+          "tick": 1620,
+          "world": "1b005f0d3f10c5aeb261ca1509c86729dc0bb877a7b41252c6616ef042c7cfc3"
+        },
+        {
+          "effects": "",
+          "events": 1659,
+          "tick": 1680,
+          "world": "c70fce25557212a0af1723c425387af383e9313640a5c4a909022a84391bde7b"
+        },
+        {
+          "effects": "",
+          "events": 1698,
+          "tick": 1740,
+          "world": "397e817afb19e544e859a67826d2d17df64115582c316db7f82f9bd57c41a61a"
+        },
+        {
+          "effects": "",
+          "events": 1719,
+          "tick": 1800,
+          "world": "de763f9e99f3687bd4c58ba85bc91eb19e7c336a302dce058df50ac16f5cbf84"
+        },
+        {
+          "effects": "",
+          "events": 1753,
+          "tick": 1860,
+          "world": "f0077a07c8facbad44747697e40e173ffd962c194a8a89f34b88ed6fd75f83ee"
+        },
+        {
+          "effects": "",
+          "events": 1774,
+          "tick": 1920,
+          "world": "08f23ec586e9c21a908b5bb9b874eb13170f821368b77a27f4c6da8104be689e"
+        },
+        {
+          "effects": "",
+          "events": 1809,
+          "tick": 1980,
+          "world": "b586369f723f84fcfdfce9c6d71f4d88dd6b8c60c76de26316fd5f653017550b"
+        },
+        {
+          "effects": "",
+          "events": 1821,
+          "tick": 2040,
+          "world": "422a63df6278f0fdbfdb066f9a95089c00ce2c85b906304cbbfac86bd98adf6a"
+        },
+        {
+          "effects": "",
+          "events": 1833,
+          "tick": 2100,
+          "world": "7615a5f561b775a362e50ca2113cc000d6d11a8d4ead837db7bce446df810b48"
+        },
+        {
+          "effects": "",
+          "events": 1858,
+          "tick": 2160,
+          "world": "ecd5b063312d8f6c6b956de9b5f873db65383a837cf38d08bf85eacd94a3d975"
+        },
+        {
+          "effects": "",
+          "events": 1904,
+          "tick": 2220,
+          "world": "520d330f111c47d5cf28a6ef95f8eeb8ac9e83da239fc27008c9690082e5ef08"
+        },
+        {
+          "effects": "",
+          "events": 1916,
+          "tick": 2280,
+          "world": "e7ba3bc1c9f5475ab886e4e08202228db71aaf822e41cc30b528c3ceb0500d7e"
+        },
+        {
+          "effects": "",
+          "events": 1936,
+          "tick": 2340,
+          "world": "f3ae218c66ecc60aca6877c7e379f7cf6cfb5f6e1919497edf16f31a63a029aa"
+        },
+        {
+          "effects": "",
+          "events": 1962,
+          "tick": 2400,
+          "world": "d98dd5bc149b2f6c02101166d2ddd694fc84979725b9058aa295f391115f3989"
+        },
+        {
+          "effects": "",
+          "events": 2003,
+          "tick": 2460,
+          "world": "2f60d14d1d7c0bd0fcfad19f3af2151070c4390e1897d030c5b28aa2f18076c3"
+        },
+        {
+          "effects": "",
+          "events": 2026,
+          "tick": 2520,
+          "world": "fd163f7bc6c0d5d4a9f5cfcf55ff2d9619b5297e958b3657edc768cb8ebf1ec8"
+        },
+        {
+          "effects": "",
+          "events": 2071,
+          "tick": 2580,
+          "world": "e6c6fec7b06c9bda0e559cd32136d9f7381a2f7dcfba5313910980d4ac543f64"
+        },
+        {
+          "effects": "",
+          "events": 2108,
+          "tick": 2640,
+          "world": "cff88884a3903caa4bcdf6062aa193fa5789bc30919a945b58070877baefd5cb"
+        },
+        {
+          "effects": "",
+          "events": 2160,
+          "tick": 2700,
+          "world": "32da242cc12e80e87499ab5f6a49bde0ba6a8f7de26d37c7f3151bc6212fc291"
+        },
+        {
+          "effects": "",
+          "events": 2184,
+          "tick": 2760,
+          "world": "34dd60bf1cadfe3ddcf8000c285a4957db3248c7e031771adf1cd14d65e381b4"
+        },
+        {
+          "effects": "",
+          "events": 2197,
+          "tick": 2820,
+          "world": "213c7c5482084fe9dcb523a6709848a6405dd8de9aab1cb2503b4be1d1d4dcd8"
+        },
+        {
+          "effects": "",
+          "events": 2218,
+          "tick": 2880,
+          "world": "220bb117db6a55fe6cf9708b50f335984addbc36c3969172408c09ee79f85798"
+        },
+        {
+          "effects": "",
+          "events": 2275,
+          "tick": 2940,
+          "world": "8c92ee8b8f0139e0866c0f928095b599137f28a09c3708200584d577bb045f0f"
+        },
+        {
+          "effects": "",
+          "events": 2294,
+          "tick": 3000,
+          "world": "3b9e5df667de70b769ff2bc24acfa2e31919705af55ad8f4d327858a38caa943"
+        },
+        {
+          "effects": "",
+          "events": 2310,
+          "tick": 3060,
+          "world": "173512584799cb548b7403ccf07f670fed5b6674fa05d96ee6e80c14b9a25035"
+        },
+        {
+          "effects": "",
+          "events": 2338,
+          "tick": 3120,
+          "world": "dc9034dcc02ed5742e3431ee7f6e9f26699206328203c895dc51f834218234cd"
+        },
+        {
+          "effects": "",
+          "events": 2392,
+          "tick": 3180,
+          "world": "115824e00bdfd94bd63060fae1c30c551515650b3f7a39887e75e15e995b2215"
+        },
+        {
+          "effects": "",
+          "events": 2407,
+          "tick": 3240,
+          "world": "33eba4abd0fc645478881ac86af286d8359e773944387a7785fecec337f782d4"
+        },
+        {
+          "effects": "",
+          "events": 2419,
+          "tick": 3300,
+          "world": "14a5c9289227550b7e0bd2fc0acded277702666979849fa20bf7346674919747"
+        },
+        {
+          "effects": "",
+          "events": 2434,
+          "tick": 3360,
+          "world": "8048bdd6c6d27c082447011a72c825c896eade15ba35d5b1afcefb712dd40650"
+        },
+        {
+          "effects": "",
+          "events": 2461,
+          "tick": 3420,
+          "world": "81846438f993973af04150ddb70bcc10a22e5bdcc736e6a1230cfab931b12bf1"
+        },
+        {
+          "effects": "",
+          "events": 2482,
+          "tick": 3480,
+          "world": "e62783f8bda494d6e736c4bdb3912cd4176a9e3f7073301334dec5ea657cc69a"
+        },
+        {
+          "effects": "",
+          "events": 2503,
+          "tick": 3540,
+          "world": "f0d71ec23cb915aa292a87943e7630ca69c899d640bd0c85576f9f6a9b326a8b"
+        },
+        {
+          "effects": "",
+          "events": 2548,
+          "tick": 3600,
+          "world": "c1ba2b52307d51438dd261d3675a2b8634cc4b923fd5a7601b81f5c0d5acabf3"
+        }
+      ],
+      "counts": {
+        "airburst": 126,
+        "aircraft_breakup": 4,
+        "aircraft_part_detached": 12,
+        "bomb_contact": 24,
+        "bomb_explosion": 24,
+        "bomb_released": 24,
+        "bomb_source_cleared": 24,
+        "bombing_phase": 19,
+        "command_applied": 68,
+        "damage_phase": 11,
+        "damaged": 119,
+        "disabled": 6,
+        "fired": 780,
+        "fleet_flagship_changed": 7,
+        "hit": 164,
+        "order_assignments_changed": 41,
+        "order_execution_changed": 412,
+        "order_issued": 25,
+        "order_status_changed": 61,
+        "projectile_expired": 315,
+        "salvo": 75,
+        "surface_impact": 156,
+        "target_changed": 43,
+        "unit_impact": 4,
+        "unit_surface_contact": 4
+      },
+      "display_server": "headless",
+      "end_reason": "",
+      "event_count": 2548,
+      "events_sha256": "f804c2f5f9175aab907cc8f4bfd491a65d84703702b9f9366772767a8e3337ef",
+      "measured_cpu_wall_s": 26.968239,
+      "mode": "world",
+      "paused": false,
+      "pending_s": 0.0,
+      "samples": {
+        "advance_nonzero_tick": {
+          "n": 3420,
+          "p50": 5.923,
+          "p95": 10.873,
+          "p99": 58.529
+        },
+        "advance_or_world": {
+          "n": 3420,
+          "p50": 5.923,
+          "p95": 10.873,
+          "p99": 58.529
+        },
+        "advance_zero_tick": {
+          "n": 0
+        },
+        "camera": {
+          "n": 0
+        },
+        "hud": {
+          "n": 0
+        },
+        "hud_at_least_20us": {
+          "n": 0
+        },
+        "presentation": {
+          "n": 0
+        },
+        "total": {
+          "n": 3420,
+          "p50": 5.923,
+          "p95": 10.873,
+          "p99": 58.529
+        }
+      },
+      "seed": 707,
+      "sim_delta_s": 57.0,
+      "speed": 1.0,
+      "start_tick": 180,
+      "tick": 3600,
+      "units": 27,
+      "views_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "wall_s_including_digest": 28.531289,
+      "verify_run": "20261121T155645-869c17c7"
+    },
+    "base_mixed": {
+      "camera": "fighter",
+      "checkpoints": [
+        {
+          "effects": "29242ed73827788480642a8736e2492c1d97a00507f3056379c27149f5779ff5",
+          "events": 216,
+          "tick": 60,
+          "world": "38e449c7433d0cceeb1667a4a054038e9eb533b785ce8b92dc4a3125c23a504f"
+        },
+        {
+          "effects": "72df9baca496f2c1df449f95fea11d233372df8cf9af92df6625c56146c99727",
+          "events": 216,
+          "tick": 120,
+          "world": "8043e8fc7206a956f81d3cc30520e6699237bc6210119dcbc7d686c2bfa3804d"
+        },
+        {
+          "effects": "1e93bc547c36c11d872ab8a34fd95a3d4e78433cd2a5fb7ff16ff99ed8eeb297",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "3a4ee7503dd8164988e77c446d67ed130e45ece1cdbea407d890b3e139bdc18b",
+          "events": 242,
+          "tick": 240,
+          "world": "fd4668e0c61e2473867929ba8b89b0cc5794ecf2c222697ab9b3e1910c6943bc"
+        },
+        {
+          "effects": "bcd80a2b41d1fe6f4a66f914a800e6c3a23944dcc8fab9f02d950f1f55cd9306",
+          "events": 273,
+          "tick": 300,
+          "world": "4026b8719409b72e54dc730bbadcd2b53910cd8dbecc89a9cecaa38fdcd27a18"
+        },
+        {
+          "effects": "58a8127b5edb6be8a655d70bcde5b87aed4d0223b5e951e15b39389167a2ee3d",
+          "events": 284,
+          "tick": 360,
+          "world": "11b9222e1d410862c14b9f8791412c2c03f203ca3fded3931faa8dd29e4d94ce"
+        },
+        {
+          "effects": "611eba86e8731b9ce65372c1ccd70000fc7bb4ecd517c10cd35aa3f558b942c0",
+          "events": 306,
+          "tick": 420,
+          "world": "d24414c8add1d5bbfeef1c11da317ecedbb2d06a93ff581fd1a67a9a86757ff1"
+        },
+        {
+          "effects": "2ffd27e9e77ec2b4385f0499bcdb02f77a57d9aa74e75f75a66cf119c1365fd7",
+          "events": 371,
+          "tick": 480,
+          "world": "02b8733f4a6f3601bb9f2efe73e6eb7cd68562ea19bf899417cd91b1be35f3d1"
+        },
+        {
+          "effects": "1c522343396be7a423e770d51268445098d8ac81ca853d9031d57e35d3e8472c",
+          "events": 450,
+          "tick": 540,
+          "world": "14f50f6121a8ae59e21f4839694c902e0a8ea254df7499864adc65e1fa15b604"
+        },
+        {
+          "effects": "c5aafd8ba3290bcb6ef6444e419a7f5281d2cbec1c45fca8ffe76e410d21dc2c",
+          "events": 496,
+          "tick": 600,
+          "world": "eed9c625079badbbe07f03f737be7dde122e143899053730ec915aef305ddb88"
+        },
+        {
+          "effects": "90af3ed6e94f34ce9c3df89de8ba73c355d9ad55e5392e56fad4643d0ba821d4",
+          "events": 544,
+          "tick": 660,
+          "world": "82705437e04e370a91dbc5c330a6adbdb4450081903d44b2959b1b3100f94e00"
+        },
+        {
+          "effects": "c9ac3b4b9f1820e943073a3e0248cfb60560938cdf7222234a7548ec011ab0ab",
+          "events": 593,
+          "tick": 720,
+          "world": "59d41f7e99714de29ce033c2405ed70d30c85640ebfc02537206560b291e0cd3"
+        },
+        {
+          "effects": "6c294e0630ef9bc2bb3531c5ff647c10b46ce3cdbb4391b12fc8e32c2a7d50d7",
+          "events": 682,
+          "tick": 780,
+          "world": "45689cdc6baa91e8189fc76d114b0783e12a6118d52320883488e5af3648993b"
+        },
+        {
+          "effects": "d1a77d2fc8bb4e19ea1c056c8c08e35997c71007aea818d915e212cf582b57c8",
+          "events": 752,
+          "tick": 840,
+          "world": "d0c3dd6c773d24a0c3d3f5dd5cba0a98ecc1d4f381c62fb1d4fb663638aac5c5"
+        },
+        {
+          "effects": "f2fef61b4345fde6dff89a5259f9b6572e1987b91615b7617513245dcf4a902e",
+          "events": 811,
+          "tick": 900,
+          "world": "de9dc6db395a5aa162113cf9ae8fa408021eb839dfe24a8b628d22973e58a563"
+        },
+        {
+          "effects": "8d0a8f3c473ba9e701da41043914ae90fa4e79b27f04b6acae51f4f952d57991",
+          "events": 880,
+          "tick": 960,
+          "world": "3a19308d25706a4f7de2921964bbc6ed8805ec8dc48b142c879b8fc33e049417"
+        },
+        {
+          "effects": "33bad4faeb9e03a5a4f89864d5d730429f1ca401db5b83c29141eadcee0a4e8f",
+          "events": 986,
+          "tick": 1020,
+          "world": "f1e3d5cfe0d669be62dbbee7951422c9c772a0c3b40bf188c30e01e62e836c3f"
+        },
+        {
+          "effects": "00c964aa2cdb89f03a3f77a8089b4f4ba69785dbeb3ffc77a83922661f7e4181",
+          "events": 1082,
+          "tick": 1080,
+          "world": "9384a0a30f1f90e135659e26c6551043753ece414e50be76d83bca7cfa447aec"
+        },
+        {
+          "effects": "ff9347fde1d2870d43b2dca8f7f844b32629d2aee880d3240f0076269242b68d",
+          "events": 1198,
+          "tick": 1140,
+          "world": "a1d2beea91b8668b15f526d20a6f040eec48965264a439eb0a5f3e77c4c417b0"
+        },
+        {
+          "effects": "077f4fe6582a3c2f95b8542a90a66234bf11d2221f7f58c20b220fa588079d0c",
+          "events": 1270,
+          "tick": 1200,
+          "world": "f7683dd53f7ec003a9674055cf33ad231029559f3b5ca4e65ef5c139df481129"
+        },
+        {
+          "effects": "0859e7754f4971222b23ec26c62ffd966b2e7f075e201d6959f0e9611c183549",
+          "events": 1329,
+          "tick": 1260,
+          "world": "9d0a640e7b804a33f0ecac83ef6a96c2fba0b621ccd7b068c42b65d82deab96f"
+        },
+        {
+          "effects": "0eade6461f5ab57968f96b1bc45e4433d48a7c8bb23c885f36b2616914ffadf2",
+          "events": 1391,
+          "tick": 1320,
+          "world": "32e01d59ee90af316649d73dc5da083e3bb32a341c6909febfa8b4566ce0c4d1"
+        },
+        {
+          "effects": "5d8684dea5707dc96d841086c0504c232d3265f199702f416fbbdb20c23e2bb0",
+          "events": 1469,
+          "tick": 1380,
+          "world": "a4512c7ac0ed630b8098497d0d8de0cab20b81665825da187ad428dc3ad5f3db"
+        },
+        {
+          "effects": "1948cab85e2040c90a779eb5918e841122c3136f58d156d651427001ff5cf934",
+          "events": 1545,
+          "tick": 1440,
+          "world": "e98b90e587e1d056b00517e0afc8db0d045623ddcd1996faf31d47fa2378b005"
+        },
+        {
+          "effects": "391b650867c56ee14f4174dda47243c180acafa0216abd5a5198a92e4b017164",
+          "events": 1607,
+          "tick": 1500,
+          "world": "5838a0b19334869d72efa88810b1129f8c4f578865964a54070e9dd29724ad13"
+        },
+        {
+          "effects": "b07d272296568497e1f197e1a745aebc3b28531dc5628945d8ef3b879e411d42",
+          "events": 1617,
+          "tick": 1560,
+          "world": "0fd516cb0b5f60c1ef1c2d697ad66528351462d032be71b5e7e96958667f86e1"
+        },
+        {
+          "effects": "60ac4891ea2563c2a63d73856b623cd51dc1f25c7ab109181f1e0c3fd22f8df4",
+          "events": 1637,
+          "tick": 1620,
+          "world": "1b005f0d3f10c5aeb261ca1509c86729dc0bb877a7b41252c6616ef042c7cfc3"
+        },
+        {
+          "effects": "8c19052ffb8a8efe8f40b677ee431989d067e954d31a3565e32aee07061d5135",
+          "events": 1659,
+          "tick": 1680,
+          "world": "c70fce25557212a0af1723c425387af383e9313640a5c4a909022a84391bde7b"
+        },
+        {
+          "effects": "c26dbcab4d878a3f6022c0ae401b6f97e784fc94fc6def295177bde71134e052",
+          "events": 1698,
+          "tick": 1740,
+          "world": "397e817afb19e544e859a67826d2d17df64115582c316db7f82f9bd57c41a61a"
+        },
+        {
+          "effects": "e4182a5c0e6b18e7478968825137c3844d0d45b042b73103148c018d43a26ef3",
+          "events": 1719,
+          "tick": 1800,
+          "world": "de763f9e99f3687bd4c58ba85bc91eb19e7c336a302dce058df50ac16f5cbf84"
+        },
+        {
+          "effects": "fc15e2330a8b7cf32cd9757080c0c7072b03de26dd8eb83819f337ca116068e7",
+          "events": 1753,
+          "tick": 1860,
+          "world": "f0077a07c8facbad44747697e40e173ffd962c194a8a89f34b88ed6fd75f83ee"
+        },
+        {
+          "effects": "2012b4533006b747381982b018e9444e7d247a69010b63c51a1a2e45bbd710ef",
+          "events": 1774,
+          "tick": 1920,
+          "world": "08f23ec586e9c21a908b5bb9b874eb13170f821368b77a27f4c6da8104be689e"
+        },
+        {
+          "effects": "87ed759c2f6d36b6aaecb7293c11bea1cb94d67db9d88b56b1ce7a24b5a766df",
+          "events": 1809,
+          "tick": 1980,
+          "world": "b586369f723f84fcfdfce9c6d71f4d88dd6b8c60c76de26316fd5f653017550b"
+        },
+        {
+          "effects": "19d2dd4f1bb747ca42a624096ce893e65184b11e3e676523f49342ffe561dff6",
+          "events": 1821,
+          "tick": 2040,
+          "world": "422a63df6278f0fdbfdb066f9a95089c00ce2c85b906304cbbfac86bd98adf6a"
+        },
+        {
+          "effects": "f9bbb52ee86b2a98a0019123be13fae110ec60116d45cd455a4984d81976c44d",
+          "events": 1833,
+          "tick": 2100,
+          "world": "7615a5f561b775a362e50ca2113cc000d6d11a8d4ead837db7bce446df810b48"
+        },
+        {
+          "effects": "86329115254be19ad6ecc03c6da04e992687759dbbdd98fe36e089cee7e91811",
+          "events": 1858,
+          "tick": 2160,
+          "world": "ecd5b063312d8f6c6b956de9b5f873db65383a837cf38d08bf85eacd94a3d975"
+        },
+        {
+          "effects": "c20926b09f74ac82b9a5ef14739ad09f9477492749966f4f964085b20f92f139",
+          "events": 1904,
+          "tick": 2220,
+          "world": "520d330f111c47d5cf28a6ef95f8eeb8ac9e83da239fc27008c9690082e5ef08"
+        },
+        {
+          "effects": "0b3bcadf43dc288f121b0a714aeabd70b45836f831ab90feb5888eed295e5367",
+          "events": 1916,
+          "tick": 2280,
+          "world": "e7ba3bc1c9f5475ab886e4e08202228db71aaf822e41cc30b528c3ceb0500d7e"
+        },
+        {
+          "effects": "a8d77df93a95b23bffe0586bf2214b1b1118688f7880c100b15e1ccfbaaeadd0",
+          "events": 1936,
+          "tick": 2340,
+          "world": "f3ae218c66ecc60aca6877c7e379f7cf6cfb5f6e1919497edf16f31a63a029aa"
+        },
+        {
+          "effects": "b172f369b182cbbc24db0f3b6702e861cf15845fddf3b1c49d8434122bfb927c",
+          "events": 1962,
+          "tick": 2400,
+          "world": "d98dd5bc149b2f6c02101166d2ddd694fc84979725b9058aa295f391115f3989"
+        },
+        {
+          "effects": "e9772e4c4f8f15d4be7698b512983a767707177e90862684b40e88a95c2c5ff0",
+          "events": 2003,
+          "tick": 2460,
+          "world": "2f60d14d1d7c0bd0fcfad19f3af2151070c4390e1897d030c5b28aa2f18076c3"
+        },
+        {
+          "effects": "8a90a3d3c619403de28eca7d5cb19d0a1f37798a77c445d0a55cbfcc5ec80f6b",
+          "events": 2026,
+          "tick": 2520,
+          "world": "fd163f7bc6c0d5d4a9f5cfcf55ff2d9619b5297e958b3657edc768cb8ebf1ec8"
+        },
+        {
+          "effects": "337567e01730a16dbe0d3b37fa74bfb6754f4558686a3357c14f614d819900a0",
+          "events": 2071,
+          "tick": 2580,
+          "world": "e6c6fec7b06c9bda0e559cd32136d9f7381a2f7dcfba5313910980d4ac543f64"
+        },
+        {
+          "effects": "f82e81af31c779f457973acc0e32e4e02a7463a5934f0cff002e0c3540eec028",
+          "events": 2108,
+          "tick": 2640,
+          "world": "cff88884a3903caa4bcdf6062aa193fa5789bc30919a945b58070877baefd5cb"
+        },
+        {
+          "effects": "e0ed975f0b2898eba030cc30e8e566d422d9b5a88425b225a37a296d9f922600",
+          "events": 2160,
+          "tick": 2700,
+          "world": "32da242cc12e80e87499ab5f6a49bde0ba6a8f7de26d37c7f3151bc6212fc291"
+        },
+        {
+          "effects": "da44254ae8a67073f015152e814489631f8d92fc275b9339229e1edd110d1482",
+          "events": 2184,
+          "tick": 2760,
+          "world": "34dd60bf1cadfe3ddcf8000c285a4957db3248c7e031771adf1cd14d65e381b4"
+        },
+        {
+          "effects": "641d0103c0129da6f580090d289b573db9eba69c45619bda853c5a6a7440f5cc",
+          "events": 2197,
+          "tick": 2820,
+          "world": "213c7c5482084fe9dcb523a6709848a6405dd8de9aab1cb2503b4be1d1d4dcd8"
+        },
+        {
+          "effects": "324951731d1aa4330742de0e1123c46bf69891ea40c521af1ce015d26db7a1d2",
+          "events": 2218,
+          "tick": 2880,
+          "world": "220bb117db6a55fe6cf9708b50f335984addbc36c3969172408c09ee79f85798"
+        },
+        {
+          "effects": "cb34d0e1194d482cb84f6a7a490ea671d19791a33965193f2a1995f235f9ff73",
+          "events": 2275,
+          "tick": 2940,
+          "world": "8c92ee8b8f0139e0866c0f928095b599137f28a09c3708200584d577bb045f0f"
+        },
+        {
+          "effects": "56fa04c852d3617142548c435f471553419573ff89144b90ac39ec1d570ed2bc",
+          "events": 2294,
+          "tick": 3000,
+          "world": "3b9e5df667de70b769ff2bc24acfa2e31919705af55ad8f4d327858a38caa943"
+        },
+        {
+          "effects": "dc2339f24a1eaafb541d0632e9567b18792ba42f48c6d8a3c1ac133eb30c33fc",
+          "events": 2310,
+          "tick": 3060,
+          "world": "173512584799cb548b7403ccf07f670fed5b6674fa05d96ee6e80c14b9a25035"
+        },
+        {
+          "effects": "5dd609b34cf0c91ae7e3038fc9ab76e02055a4c45c4e51265e6cf05685e74cf7",
+          "events": 2338,
+          "tick": 3120,
+          "world": "dc9034dcc02ed5742e3431ee7f6e9f26699206328203c895dc51f834218234cd"
+        },
+        {
+          "effects": "f7a85e51a081b838826df5e904a9cd7f9ff24829b947caf977157a6966da32ea",
+          "events": 2392,
+          "tick": 3180,
+          "world": "115824e00bdfd94bd63060fae1c30c551515650b3f7a39887e75e15e995b2215"
+        },
+        {
+          "effects": "0d2bd99ebce8000c015804402c5511d548abe548abbe4593f04b6c82874905b1",
+          "events": 2407,
+          "tick": 3240,
+          "world": "33eba4abd0fc645478881ac86af286d8359e773944387a7785fecec337f782d4"
+        },
+        {
+          "effects": "0fb81edc5004e449ca1b58b26429f64e32841c911459e20b85802501d82d2f0e",
+          "events": 2419,
+          "tick": 3300,
+          "world": "14a5c9289227550b7e0bd2fc0acded277702666979849fa20bf7346674919747"
+        },
+        {
+          "effects": "54c1bda732cdcc1f1c683ed4e215e5394d8d16d42ee3132175351f2859522126",
+          "events": 2434,
+          "tick": 3360,
+          "world": "8048bdd6c6d27c082447011a72c825c896eade15ba35d5b1afcefb712dd40650"
+        },
+        {
+          "effects": "a568a1bdb7e0dd344c8ebd161e4b678ce1db75dae521a932b1fffe2e92149be9",
+          "events": 2461,
+          "tick": 3420,
+          "world": "81846438f993973af04150ddb70bcc10a22e5bdcc736e6a1230cfab931b12bf1"
+        },
+        {
+          "effects": "68bf226f55ddf963c19524d924e288314841b0d2e5f7dc18c3fd333188d254db",
+          "events": 2482,
+          "tick": 3480,
+          "world": "e62783f8bda494d6e736c4bdb3912cd4176a9e3f7073301334dec5ea657cc69a"
+        },
+        {
+          "effects": "83d79a53b089ab0236c67985e9fad4792b238d93e9ee9b252c041d274e211b41",
+          "events": 2503,
+          "tick": 3540,
+          "world": "f0d71ec23cb915aa292a87943e7630ca69c899d640bd0c85576f9f6a9b326a8b"
+        },
+        {
+          "effects": "940d622de0ecc01f2f7f29ba91a2bd6aaea7e49e4ebd3aa14fa38af986bd9671",
+          "events": 2548,
+          "tick": 3600,
+          "world": "c1ba2b52307d51438dd261d3675a2b8634cc4b923fd5a7601b81f5c0d5acabf3"
+        }
+      ],
+      "counts": {
+        "airburst": 126,
+        "aircraft_breakup": 4,
+        "aircraft_part_detached": 12,
+        "bomb_contact": 24,
+        "bomb_explosion": 24,
+        "bomb_released": 24,
+        "bomb_source_cleared": 24,
+        "bombing_phase": 19,
+        "command_applied": 68,
+        "damage_phase": 11,
+        "damaged": 119,
+        "disabled": 6,
+        "fired": 780,
+        "fleet_flagship_changed": 7,
+        "hit": 164,
+        "order_assignments_changed": 41,
+        "order_execution_changed": 412,
+        "order_issued": 25,
+        "order_status_changed": 61,
+        "projectile_expired": 315,
+        "salvo": 75,
+        "surface_impact": 156,
+        "target_changed": 43,
+        "unit_impact": 4,
+        "unit_surface_contact": 4
+      },
+      "display_server": "headless",
+      "end_reason": "",
+      "event_count": 2548,
+      "events_sha256": "f804c2f5f9175aab907cc8f4bfd491a65d84703702b9f9366772767a8e3337ef",
+      "measured_cpu_wall_s": 44.640762,
+      "mode": "mixed",
+      "paused": false,
+      "pending_s": 0.0,
+      "restart": {
+        "effects": "655b8b262b6ba9e45a49e9a26005487919d8259a399a782575f747ac93ae6058",
+        "events": {
+          "command_applied": 31,
+          "fired": 10,
+          "fleet_flagship_changed": 6,
+          "order_assignments_changed": 27,
+          "order_execution_changed": 65,
+          "order_issued": 21,
+          "order_status_changed": 46,
+          "ship_support_fire": 10,
+          "target_changed": 10
+        },
+        "generation": 2,
+        "tick": 60,
+        "units": 27,
+        "view": "946af986c810ff33c3a20b9b366e529d5e310aea1fea953a36eb19f064ca008f",
+        "world": "bc5ad0c935d46e3d7aca026e72c188855ca08d12fc4a29d64fcf40da63d21570"
+      },
+      "samples": {
+        "advance_nonzero_tick": {
+          "n": 2565,
+          "p50": 7.912,
+          "p95": 21.524,
+          "p99": 57.791
+        },
+        "advance_or_world": {
+          "n": 3420,
+          "p50": 7.136,
+          "p95": 16.014,
+          "p99": 55.183
+        },
+        "advance_zero_tick": {
+          "n": 855,
+          "p50": 1.126,
+          "p95": 1.78,
+          "p99": 2.497
+        },
+        "camera": {
+          "n": 3420,
+          "p50": 0.225,
+          "p95": 0.527,
+          "p99": 0.802
+        },
+        "hud": {
+          "n": 3420,
+          "p50": 0.001,
+          "p95": 0.311,
+          "p99": 6.983
+        },
+        "hud_at_least_20us": {
+          "n": 215,
+          "p50": 0.538,
+          "p95": 7.9,
+          "p99": 10.749
+        },
+        "presentation": {
+          "n": 3420,
+          "p50": 3.349,
+          "p95": 5.412,
+          "p99": 7.533
+        },
+        "total": {
+          "n": 3420,
+          "p50": 10.809,
+          "p95": 22.753,
+          "p99": 59.61
+        }
+      },
+      "seed": 707,
+      "sim_delta_s": 57.0,
+      "speed": 1.0,
+      "start_tick": 180,
+      "tick": 3600,
+      "units": 27,
+      "views_sha256": "504e052e88736c33471c53a1942ed18b23fa7b8e1f11e58d83b46c9f38ec8687",
+      "wall_s_including_digest": 51.938844,
+      "verify_run": "20261121T155722-7f4ed823"
+    },
+    "after_mixed": {
+      "camera": "fighter",
+      "checkpoints": [
+        {
+          "effects": "29242ed73827788480642a8736e2492c1d97a00507f3056379c27149f5779ff5",
+          "events": 216,
+          "tick": 60,
+          "world": "38e449c7433d0cceeb1667a4a054038e9eb533b785ce8b92dc4a3125c23a504f"
+        },
+        {
+          "effects": "72df9baca496f2c1df449f95fea11d233372df8cf9af92df6625c56146c99727",
+          "events": 216,
+          "tick": 120,
+          "world": "8043e8fc7206a956f81d3cc30520e6699237bc6210119dcbc7d686c2bfa3804d"
+        },
+        {
+          "effects": "1e93bc547c36c11d872ab8a34fd95a3d4e78433cd2a5fb7ff16ff99ed8eeb297",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "3a4ee7503dd8164988e77c446d67ed130e45ece1cdbea407d890b3e139bdc18b",
+          "events": 242,
+          "tick": 240,
+          "world": "fd4668e0c61e2473867929ba8b89b0cc5794ecf2c222697ab9b3e1910c6943bc"
+        },
+        {
+          "effects": "bcd80a2b41d1fe6f4a66f914a800e6c3a23944dcc8fab9f02d950f1f55cd9306",
+          "events": 273,
+          "tick": 300,
+          "world": "4026b8719409b72e54dc730bbadcd2b53910cd8dbecc89a9cecaa38fdcd27a18"
+        },
+        {
+          "effects": "58a8127b5edb6be8a655d70bcde5b87aed4d0223b5e951e15b39389167a2ee3d",
+          "events": 284,
+          "tick": 360,
+          "world": "11b9222e1d410862c14b9f8791412c2c03f203ca3fded3931faa8dd29e4d94ce"
+        },
+        {
+          "effects": "611eba86e8731b9ce65372c1ccd70000fc7bb4ecd517c10cd35aa3f558b942c0",
+          "events": 306,
+          "tick": 420,
+          "world": "d24414c8add1d5bbfeef1c11da317ecedbb2d06a93ff581fd1a67a9a86757ff1"
+        },
+        {
+          "effects": "2ffd27e9e77ec2b4385f0499bcdb02f77a57d9aa74e75f75a66cf119c1365fd7",
+          "events": 371,
+          "tick": 480,
+          "world": "02b8733f4a6f3601bb9f2efe73e6eb7cd68562ea19bf899417cd91b1be35f3d1"
+        },
+        {
+          "effects": "1c522343396be7a423e770d51268445098d8ac81ca853d9031d57e35d3e8472c",
+          "events": 450,
+          "tick": 540,
+          "world": "14f50f6121a8ae59e21f4839694c902e0a8ea254df7499864adc65e1fa15b604"
+        },
+        {
+          "effects": "c5aafd8ba3290bcb6ef6444e419a7f5281d2cbec1c45fca8ffe76e410d21dc2c",
+          "events": 496,
+          "tick": 600,
+          "world": "eed9c625079badbbe07f03f737be7dde122e143899053730ec915aef305ddb88"
+        },
+        {
+          "effects": "90af3ed6e94f34ce9c3df89de8ba73c355d9ad55e5392e56fad4643d0ba821d4",
+          "events": 544,
+          "tick": 660,
+          "world": "82705437e04e370a91dbc5c330a6adbdb4450081903d44b2959b1b3100f94e00"
+        },
+        {
+          "effects": "c9ac3b4b9f1820e943073a3e0248cfb60560938cdf7222234a7548ec011ab0ab",
+          "events": 593,
+          "tick": 720,
+          "world": "59d41f7e99714de29ce033c2405ed70d30c85640ebfc02537206560b291e0cd3"
+        },
+        {
+          "effects": "6c294e0630ef9bc2bb3531c5ff647c10b46ce3cdbb4391b12fc8e32c2a7d50d7",
+          "events": 682,
+          "tick": 780,
+          "world": "45689cdc6baa91e8189fc76d114b0783e12a6118d52320883488e5af3648993b"
+        },
+        {
+          "effects": "d1a77d2fc8bb4e19ea1c056c8c08e35997c71007aea818d915e212cf582b57c8",
+          "events": 752,
+          "tick": 840,
+          "world": "d0c3dd6c773d24a0c3d3f5dd5cba0a98ecc1d4f381c62fb1d4fb663638aac5c5"
+        },
+        {
+          "effects": "f2fef61b4345fde6dff89a5259f9b6572e1987b91615b7617513245dcf4a902e",
+          "events": 811,
+          "tick": 900,
+          "world": "de9dc6db395a5aa162113cf9ae8fa408021eb839dfe24a8b628d22973e58a563"
+        },
+        {
+          "effects": "8d0a8f3c473ba9e701da41043914ae90fa4e79b27f04b6acae51f4f952d57991",
+          "events": 880,
+          "tick": 960,
+          "world": "3a19308d25706a4f7de2921964bbc6ed8805ec8dc48b142c879b8fc33e049417"
+        },
+        {
+          "effects": "33bad4faeb9e03a5a4f89864d5d730429f1ca401db5b83c29141eadcee0a4e8f",
+          "events": 986,
+          "tick": 1020,
+          "world": "f1e3d5cfe0d669be62dbbee7951422c9c772a0c3b40bf188c30e01e62e836c3f"
+        },
+        {
+          "effects": "00c964aa2cdb89f03a3f77a8089b4f4ba69785dbeb3ffc77a83922661f7e4181",
+          "events": 1082,
+          "tick": 1080,
+          "world": "9384a0a30f1f90e135659e26c6551043753ece414e50be76d83bca7cfa447aec"
+        },
+        {
+          "effects": "ff9347fde1d2870d43b2dca8f7f844b32629d2aee880d3240f0076269242b68d",
+          "events": 1198,
+          "tick": 1140,
+          "world": "a1d2beea91b8668b15f526d20a6f040eec48965264a439eb0a5f3e77c4c417b0"
+        },
+        {
+          "effects": "077f4fe6582a3c2f95b8542a90a66234bf11d2221f7f58c20b220fa588079d0c",
+          "events": 1270,
+          "tick": 1200,
+          "world": "f7683dd53f7ec003a9674055cf33ad231029559f3b5ca4e65ef5c139df481129"
+        },
+        {
+          "effects": "0859e7754f4971222b23ec26c62ffd966b2e7f075e201d6959f0e9611c183549",
+          "events": 1329,
+          "tick": 1260,
+          "world": "9d0a640e7b804a33f0ecac83ef6a96c2fba0b621ccd7b068c42b65d82deab96f"
+        },
+        {
+          "effects": "0eade6461f5ab57968f96b1bc45e4433d48a7c8bb23c885f36b2616914ffadf2",
+          "events": 1391,
+          "tick": 1320,
+          "world": "32e01d59ee90af316649d73dc5da083e3bb32a341c6909febfa8b4566ce0c4d1"
+        },
+        {
+          "effects": "5d8684dea5707dc96d841086c0504c232d3265f199702f416fbbdb20c23e2bb0",
+          "events": 1469,
+          "tick": 1380,
+          "world": "a4512c7ac0ed630b8098497d0d8de0cab20b81665825da187ad428dc3ad5f3db"
+        },
+        {
+          "effects": "1948cab85e2040c90a779eb5918e841122c3136f58d156d651427001ff5cf934",
+          "events": 1545,
+          "tick": 1440,
+          "world": "e98b90e587e1d056b00517e0afc8db0d045623ddcd1996faf31d47fa2378b005"
+        },
+        {
+          "effects": "391b650867c56ee14f4174dda47243c180acafa0216abd5a5198a92e4b017164",
+          "events": 1607,
+          "tick": 1500,
+          "world": "5838a0b19334869d72efa88810b1129f8c4f578865964a54070e9dd29724ad13"
+        },
+        {
+          "effects": "b07d272296568497e1f197e1a745aebc3b28531dc5628945d8ef3b879e411d42",
+          "events": 1617,
+          "tick": 1560,
+          "world": "0fd516cb0b5f60c1ef1c2d697ad66528351462d032be71b5e7e96958667f86e1"
+        },
+        {
+          "effects": "60ac4891ea2563c2a63d73856b623cd51dc1f25c7ab109181f1e0c3fd22f8df4",
+          "events": 1637,
+          "tick": 1620,
+          "world": "1b005f0d3f10c5aeb261ca1509c86729dc0bb877a7b41252c6616ef042c7cfc3"
+        },
+        {
+          "effects": "8c19052ffb8a8efe8f40b677ee431989d067e954d31a3565e32aee07061d5135",
+          "events": 1659,
+          "tick": 1680,
+          "world": "c70fce25557212a0af1723c425387af383e9313640a5c4a909022a84391bde7b"
+        },
+        {
+          "effects": "c26dbcab4d878a3f6022c0ae401b6f97e784fc94fc6def295177bde71134e052",
+          "events": 1698,
+          "tick": 1740,
+          "world": "397e817afb19e544e859a67826d2d17df64115582c316db7f82f9bd57c41a61a"
+        },
+        {
+          "effects": "e4182a5c0e6b18e7478968825137c3844d0d45b042b73103148c018d43a26ef3",
+          "events": 1719,
+          "tick": 1800,
+          "world": "de763f9e99f3687bd4c58ba85bc91eb19e7c336a302dce058df50ac16f5cbf84"
+        },
+        {
+          "effects": "fc15e2330a8b7cf32cd9757080c0c7072b03de26dd8eb83819f337ca116068e7",
+          "events": 1753,
+          "tick": 1860,
+          "world": "f0077a07c8facbad44747697e40e173ffd962c194a8a89f34b88ed6fd75f83ee"
+        },
+        {
+          "effects": "2012b4533006b747381982b018e9444e7d247a69010b63c51a1a2e45bbd710ef",
+          "events": 1774,
+          "tick": 1920,
+          "world": "08f23ec586e9c21a908b5bb9b874eb13170f821368b77a27f4c6da8104be689e"
+        },
+        {
+          "effects": "87ed759c2f6d36b6aaecb7293c11bea1cb94d67db9d88b56b1ce7a24b5a766df",
+          "events": 1809,
+          "tick": 1980,
+          "world": "b586369f723f84fcfdfce9c6d71f4d88dd6b8c60c76de26316fd5f653017550b"
+        },
+        {
+          "effects": "19d2dd4f1bb747ca42a624096ce893e65184b11e3e676523f49342ffe561dff6",
+          "events": 1821,
+          "tick": 2040,
+          "world": "422a63df6278f0fdbfdb066f9a95089c00ce2c85b906304cbbfac86bd98adf6a"
+        },
+        {
+          "effects": "f9bbb52ee86b2a98a0019123be13fae110ec60116d45cd455a4984d81976c44d",
+          "events": 1833,
+          "tick": 2100,
+          "world": "7615a5f561b775a362e50ca2113cc000d6d11a8d4ead837db7bce446df810b48"
+        },
+        {
+          "effects": "86329115254be19ad6ecc03c6da04e992687759dbbdd98fe36e089cee7e91811",
+          "events": 1858,
+          "tick": 2160,
+          "world": "ecd5b063312d8f6c6b956de9b5f873db65383a837cf38d08bf85eacd94a3d975"
+        },
+        {
+          "effects": "c20926b09f74ac82b9a5ef14739ad09f9477492749966f4f964085b20f92f139",
+          "events": 1904,
+          "tick": 2220,
+          "world": "520d330f111c47d5cf28a6ef95f8eeb8ac9e83da239fc27008c9690082e5ef08"
+        },
+        {
+          "effects": "0b3bcadf43dc288f121b0a714aeabd70b45836f831ab90feb5888eed295e5367",
+          "events": 1916,
+          "tick": 2280,
+          "world": "e7ba3bc1c9f5475ab886e4e08202228db71aaf822e41cc30b528c3ceb0500d7e"
+        },
+        {
+          "effects": "a8d77df93a95b23bffe0586bf2214b1b1118688f7880c100b15e1ccfbaaeadd0",
+          "events": 1936,
+          "tick": 2340,
+          "world": "f3ae218c66ecc60aca6877c7e379f7cf6cfb5f6e1919497edf16f31a63a029aa"
+        },
+        {
+          "effects": "b172f369b182cbbc24db0f3b6702e861cf15845fddf3b1c49d8434122bfb927c",
+          "events": 1962,
+          "tick": 2400,
+          "world": "d98dd5bc149b2f6c02101166d2ddd694fc84979725b9058aa295f391115f3989"
+        },
+        {
+          "effects": "e9772e4c4f8f15d4be7698b512983a767707177e90862684b40e88a95c2c5ff0",
+          "events": 2003,
+          "tick": 2460,
+          "world": "2f60d14d1d7c0bd0fcfad19f3af2151070c4390e1897d030c5b28aa2f18076c3"
+        },
+        {
+          "effects": "8a90a3d3c619403de28eca7d5cb19d0a1f37798a77c445d0a55cbfcc5ec80f6b",
+          "events": 2026,
+          "tick": 2520,
+          "world": "fd163f7bc6c0d5d4a9f5cfcf55ff2d9619b5297e958b3657edc768cb8ebf1ec8"
+        },
+        {
+          "effects": "337567e01730a16dbe0d3b37fa74bfb6754f4558686a3357c14f614d819900a0",
+          "events": 2071,
+          "tick": 2580,
+          "world": "e6c6fec7b06c9bda0e559cd32136d9f7381a2f7dcfba5313910980d4ac543f64"
+        },
+        {
+          "effects": "f82e81af31c779f457973acc0e32e4e02a7463a5934f0cff002e0c3540eec028",
+          "events": 2108,
+          "tick": 2640,
+          "world": "cff88884a3903caa4bcdf6062aa193fa5789bc30919a945b58070877baefd5cb"
+        },
+        {
+          "effects": "e0ed975f0b2898eba030cc30e8e566d422d9b5a88425b225a37a296d9f922600",
+          "events": 2160,
+          "tick": 2700,
+          "world": "32da242cc12e80e87499ab5f6a49bde0ba6a8f7de26d37c7f3151bc6212fc291"
+        },
+        {
+          "effects": "da44254ae8a67073f015152e814489631f8d92fc275b9339229e1edd110d1482",
+          "events": 2184,
+          "tick": 2760,
+          "world": "34dd60bf1cadfe3ddcf8000c285a4957db3248c7e031771adf1cd14d65e381b4"
+        },
+        {
+          "effects": "641d0103c0129da6f580090d289b573db9eba69c45619bda853c5a6a7440f5cc",
+          "events": 2197,
+          "tick": 2820,
+          "world": "213c7c5482084fe9dcb523a6709848a6405dd8de9aab1cb2503b4be1d1d4dcd8"
+        },
+        {
+          "effects": "324951731d1aa4330742de0e1123c46bf69891ea40c521af1ce015d26db7a1d2",
+          "events": 2218,
+          "tick": 2880,
+          "world": "220bb117db6a55fe6cf9708b50f335984addbc36c3969172408c09ee79f85798"
+        },
+        {
+          "effects": "cb34d0e1194d482cb84f6a7a490ea671d19791a33965193f2a1995f235f9ff73",
+          "events": 2275,
+          "tick": 2940,
+          "world": "8c92ee8b8f0139e0866c0f928095b599137f28a09c3708200584d577bb045f0f"
+        },
+        {
+          "effects": "56fa04c852d3617142548c435f471553419573ff89144b90ac39ec1d570ed2bc",
+          "events": 2294,
+          "tick": 3000,
+          "world": "3b9e5df667de70b769ff2bc24acfa2e31919705af55ad8f4d327858a38caa943"
+        },
+        {
+          "effects": "dc2339f24a1eaafb541d0632e9567b18792ba42f48c6d8a3c1ac133eb30c33fc",
+          "events": 2310,
+          "tick": 3060,
+          "world": "173512584799cb548b7403ccf07f670fed5b6674fa05d96ee6e80c14b9a25035"
+        },
+        {
+          "effects": "5dd609b34cf0c91ae7e3038fc9ab76e02055a4c45c4e51265e6cf05685e74cf7",
+          "events": 2338,
+          "tick": 3120,
+          "world": "dc9034dcc02ed5742e3431ee7f6e9f26699206328203c895dc51f834218234cd"
+        },
+        {
+          "effects": "f7a85e51a081b838826df5e904a9cd7f9ff24829b947caf977157a6966da32ea",
+          "events": 2392,
+          "tick": 3180,
+          "world": "115824e00bdfd94bd63060fae1c30c551515650b3f7a39887e75e15e995b2215"
+        },
+        {
+          "effects": "0d2bd99ebce8000c015804402c5511d548abe548abbe4593f04b6c82874905b1",
+          "events": 2407,
+          "tick": 3240,
+          "world": "33eba4abd0fc645478881ac86af286d8359e773944387a7785fecec337f782d4"
+        },
+        {
+          "effects": "0fb81edc5004e449ca1b58b26429f64e32841c911459e20b85802501d82d2f0e",
+          "events": 2419,
+          "tick": 3300,
+          "world": "14a5c9289227550b7e0bd2fc0acded277702666979849fa20bf7346674919747"
+        },
+        {
+          "effects": "54c1bda732cdcc1f1c683ed4e215e5394d8d16d42ee3132175351f2859522126",
+          "events": 2434,
+          "tick": 3360,
+          "world": "8048bdd6c6d27c082447011a72c825c896eade15ba35d5b1afcefb712dd40650"
+        },
+        {
+          "effects": "a568a1bdb7e0dd344c8ebd161e4b678ce1db75dae521a932b1fffe2e92149be9",
+          "events": 2461,
+          "tick": 3420,
+          "world": "81846438f993973af04150ddb70bcc10a22e5bdcc736e6a1230cfab931b12bf1"
+        },
+        {
+          "effects": "68bf226f55ddf963c19524d924e288314841b0d2e5f7dc18c3fd333188d254db",
+          "events": 2482,
+          "tick": 3480,
+          "world": "e62783f8bda494d6e736c4bdb3912cd4176a9e3f7073301334dec5ea657cc69a"
+        },
+        {
+          "effects": "83d79a53b089ab0236c67985e9fad4792b238d93e9ee9b252c041d274e211b41",
+          "events": 2503,
+          "tick": 3540,
+          "world": "f0d71ec23cb915aa292a87943e7630ca69c899d640bd0c85576f9f6a9b326a8b"
+        },
+        {
+          "effects": "940d622de0ecc01f2f7f29ba91a2bd6aaea7e49e4ebd3aa14fa38af986bd9671",
+          "events": 2548,
+          "tick": 3600,
+          "world": "c1ba2b52307d51438dd261d3675a2b8634cc4b923fd5a7601b81f5c0d5acabf3"
+        }
+      ],
+      "counts": {
+        "airburst": 126,
+        "aircraft_breakup": 4,
+        "aircraft_part_detached": 12,
+        "bomb_contact": 24,
+        "bomb_explosion": 24,
+        "bomb_released": 24,
+        "bomb_source_cleared": 24,
+        "bombing_phase": 19,
+        "command_applied": 68,
+        "damage_phase": 11,
+        "damaged": 119,
+        "disabled": 6,
+        "fired": 780,
+        "fleet_flagship_changed": 7,
+        "hit": 164,
+        "order_assignments_changed": 41,
+        "order_execution_changed": 412,
+        "order_issued": 25,
+        "order_status_changed": 61,
+        "projectile_expired": 315,
+        "salvo": 75,
+        "surface_impact": 156,
+        "target_changed": 43,
+        "unit_impact": 4,
+        "unit_surface_contact": 4
+      },
+      "display_server": "headless",
+      "end_reason": "",
+      "event_count": 2548,
+      "events_sha256": "f804c2f5f9175aab907cc8f4bfd491a65d84703702b9f9366772767a8e3337ef",
+      "measured_cpu_wall_s": 40.999128,
+      "mode": "mixed",
+      "paused": false,
+      "pending_s": 0.0,
+      "restart": {
+        "effects": "655b8b262b6ba9e45a49e9a26005487919d8259a399a782575f747ac93ae6058",
+        "events": {
+          "command_applied": 31,
+          "fired": 10,
+          "fleet_flagship_changed": 6,
+          "order_assignments_changed": 27,
+          "order_execution_changed": 65,
+          "order_issued": 21,
+          "order_status_changed": 46,
+          "ship_support_fire": 10,
+          "target_changed": 10
+        },
+        "generation": 2,
+        "tick": 60,
+        "units": 27,
+        "view": "946af986c810ff33c3a20b9b366e529d5e310aea1fea953a36eb19f064ca008f",
+        "world": "bc5ad0c935d46e3d7aca026e72c188855ca08d12fc4a29d64fcf40da63d21570"
+      },
+      "samples": {
+        "advance_nonzero_tick": {
+          "n": 2565,
+          "p50": 7.808,
+          "p95": 20.289,
+          "p99": 61.03
+        },
+        "advance_or_world": {
+          "n": 3420,
+          "p50": 7.083,
+          "p95": 15.725,
+          "p99": 55.848
+        },
+        "advance_zero_tick": {
+          "n": 855,
+          "p50": 1.119,
+          "p95": 1.8,
+          "p99": 2.829
+        },
+        "camera": {
+          "n": 3420,
+          "p50": 0.255,
+          "p95": 0.479,
+          "p99": 0.81
+        },
+        "hud": {
+          "n": 3420,
+          "p50": 0.001,
+          "p95": 0.316,
+          "p99": 6.96
+        },
+        "hud_at_least_20us": {
+          "n": 214,
+          "p50": 0.504,
+          "p95": 8.319,
+          "p99": 10.117
+        },
+        "presentation": {
+          "n": 3420,
+          "p50": 2.569,
+          "p95": 4.125,
+          "p99": 5.212
+        },
+        "total": {
+          "n": 3420,
+          "p50": 9.912,
+          "p95": 20.722,
+          "p99": 61.195
+        }
+      },
+      "seed": 707,
+      "sim_delta_s": 57.0,
+      "speed": 1.0,
+      "start_tick": 180,
+      "tick": 3600,
+      "units": 27,
+      "views_sha256": "504e052e88736c33471c53a1942ed18b23fa7b8e1f11e58d83b46c9f38ec8687",
+      "wall_s_including_digest": 48.184424,
+      "verify_run": "20261121T155824-675022d2"
+    },
+    "base_full": {
+      "camera": "fighter",
+      "checkpoints": [
+        {
+          "effects": "29242ed73827788480642a8736e2492c1d97a00507f3056379c27149f5779ff5",
+          "events": 216,
+          "tick": 60,
+          "world": "38e449c7433d0cceeb1667a4a054038e9eb533b785ce8b92dc4a3125c23a504f"
+        },
+        {
+          "effects": "72df9baca496f2c1df449f95fea11d233372df8cf9af92df6625c56146c99727",
+          "events": 216,
+          "tick": 120,
+          "world": "8043e8fc7206a956f81d3cc30520e6699237bc6210119dcbc7d686c2bfa3804d"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "af72fef516ed30fe135128c81145a7f98a055aa8b3b6efaeebdced2756649777",
+          "events": 242,
+          "tick": 240,
+          "world": "fd4668e0c61e2473867929ba8b89b0cc5794ecf2c222697ab9b3e1910c6943bc"
+        },
+        {
+          "effects": "263972e98fe47ef2958db5edd976464284a60e14e1c053adf2f9c3d2149200ba",
+          "events": 273,
+          "tick": 300,
+          "world": "4026b8719409b72e54dc730bbadcd2b53910cd8dbecc89a9cecaa38fdcd27a18"
+        },
+        {
+          "effects": "99dddb4973b0bd32aaa11a08bd2d74427461e82b5799c52d5a7aa8e4854755fa",
+          "events": 284,
+          "tick": 360,
+          "world": "11b9222e1d410862c14b9f8791412c2c03f203ca3fded3931faa8dd29e4d94ce"
+        },
+        {
+          "effects": "c7e816097f50095b5acb43dcc6697fc82ebcdfad90de608e75361da233636be3",
+          "events": 306,
+          "tick": 420,
+          "world": "d24414c8add1d5bbfeef1c11da317ecedbb2d06a93ff581fd1a67a9a86757ff1"
+        },
+        {
+          "effects": "67ae1eb079a0274ab13b03fa2452b6a8fb3a1aa701bef9df6645f931252968d5",
+          "events": 371,
+          "tick": 480,
+          "world": "02b8733f4a6f3601bb9f2efe73e6eb7cd68562ea19bf899417cd91b1be35f3d1"
+        },
+        {
+          "effects": "27d860805914b90dba50ac838282ae50d0640e22df681143e6e62a873ae751bb",
+          "events": 450,
+          "tick": 540,
+          "world": "14f50f6121a8ae59e21f4839694c902e0a8ea254df7499864adc65e1fa15b604"
+        },
+        {
+          "effects": "9134500abec0e20809058c6a2d9afb7c5c2ddacd27fbb08afd5453dcc78490a4",
+          "events": 496,
+          "tick": 600,
+          "world": "eed9c625079badbbe07f03f737be7dde122e143899053730ec915aef305ddb88"
+        },
+        {
+          "effects": "59306558719b92a2efd2ea04aff5f3db6c2e279eeb83489edfdadaa2c96d007e",
+          "events": 544,
+          "tick": 660,
+          "world": "82705437e04e370a91dbc5c330a6adbdb4450081903d44b2959b1b3100f94e00"
+        },
+        {
+          "effects": "b2f4381cfde7921e583297e20c2cabb6f8073c2e7ca145e2a87f35104436bf14",
+          "events": 593,
+          "tick": 720,
+          "world": "59d41f7e99714de29ce033c2405ed70d30c85640ebfc02537206560b291e0cd3"
+        },
+        {
+          "effects": "86d943eb84d707862afae1ea34044b7d5595de8c3b47f72eb0e976d1ff705214",
+          "events": 682,
+          "tick": 780,
+          "world": "45689cdc6baa91e8189fc76d114b0783e12a6118d52320883488e5af3648993b"
+        },
+        {
+          "effects": "bfa07e702f8c65573bd66f7e3eec1756b20573e7473b8748fb998ceea2e60611",
+          "events": 752,
+          "tick": 840,
+          "world": "d0c3dd6c773d24a0c3d3f5dd5cba0a98ecc1d4f381c62fb1d4fb663638aac5c5"
+        },
+        {
+          "effects": "2785264fb04283587e934c51217e5fd2c0b5be579daa175ec6e505bb8fc6dd96",
+          "events": 811,
+          "tick": 900,
+          "world": "de9dc6db395a5aa162113cf9ae8fa408021eb839dfe24a8b628d22973e58a563"
+        },
+        {
+          "effects": "77d147a749496dc04f1fa6f0891fd011426c9dd0570d21a816b88e25489725f2",
+          "events": 880,
+          "tick": 960,
+          "world": "3a19308d25706a4f7de2921964bbc6ed8805ec8dc48b142c879b8fc33e049417"
+        },
+        {
+          "effects": "8e6a76e76b9f64acaa6b85e15ac1735a8fd379fe899c43c6051ebb9896ab498b",
+          "events": 986,
+          "tick": 1020,
+          "world": "f1e3d5cfe0d669be62dbbee7951422c9c772a0c3b40bf188c30e01e62e836c3f"
+        },
+        {
+          "effects": "b5a0ef150db193657e94fdc3f9ce2abf9e6bdfa16329b1e4091ef6d343f3c37c",
+          "events": 1082,
+          "tick": 1080,
+          "world": "9384a0a30f1f90e135659e26c6551043753ece414e50be76d83bca7cfa447aec"
+        },
+        {
+          "effects": "f50fed7e595f6cd0e3b608ec81bd12357470ccc1ac9c92fbbb6e8b773d3966c5",
+          "events": 1198,
+          "tick": 1140,
+          "world": "a1d2beea91b8668b15f526d20a6f040eec48965264a439eb0a5f3e77c4c417b0"
+        },
+        {
+          "effects": "8be1e210733a3841a53355e4aecdfaecef3f6d67d08bbe1f02e2ecd76f5166da",
+          "events": 1270,
+          "tick": 1200,
+          "world": "f7683dd53f7ec003a9674055cf33ad231029559f3b5ca4e65ef5c139df481129"
+        },
+        {
+          "effects": "c23c2ac842c7f8501fcb8206e96dd6f2c525817c23c3cda013c4fcf6f7c414bb",
+          "events": 1329,
+          "tick": 1260,
+          "world": "9d0a640e7b804a33f0ecac83ef6a96c2fba0b621ccd7b068c42b65d82deab96f"
+        },
+        {
+          "effects": "1f04a018e71a558d1b16c3d2c3dee7ea4630379ad2cc4d04fcc806235d450404",
+          "events": 1391,
+          "tick": 1320,
+          "world": "32e01d59ee90af316649d73dc5da083e3bb32a341c6909febfa8b4566ce0c4d1"
+        },
+        {
+          "effects": "c00ee7520eb22b4455f7771075ea15c7f396740a8b2f65ab85c3ff76e470daed",
+          "events": 1469,
+          "tick": 1380,
+          "world": "a4512c7ac0ed630b8098497d0d8de0cab20b81665825da187ad428dc3ad5f3db"
+        },
+        {
+          "effects": "4adeded4a1b5f8d35e5122219bd842ec23e20c6cb2d49083cb437701c7bcf582",
+          "events": 1545,
+          "tick": 1440,
+          "world": "e98b90e587e1d056b00517e0afc8db0d045623ddcd1996faf31d47fa2378b005"
+        },
+        {
+          "effects": "cacebab8a60bcac78009433fd7cabb31937ac473f1ebb23b6bafc83f3ca6d887",
+          "events": 1607,
+          "tick": 1500,
+          "world": "5838a0b19334869d72efa88810b1129f8c4f578865964a54070e9dd29724ad13"
+        },
+        {
+          "effects": "eb63982ea3522caf7e5ccabbbd56d69ec9d44c722a8a454bc3df4013f06d5039",
+          "events": 1617,
+          "tick": 1560,
+          "world": "0fd516cb0b5f60c1ef1c2d697ad66528351462d032be71b5e7e96958667f86e1"
+        },
+        {
+          "effects": "0c61e18f689f338a6f1589ef0a1a0c2ca37ac1b1be2b3daac945767ddd2e1d83",
+          "events": 1637,
+          "tick": 1620,
+          "world": "1b005f0d3f10c5aeb261ca1509c86729dc0bb877a7b41252c6616ef042c7cfc3"
+        },
+        {
+          "effects": "4891dd00d6eab09138c04bda5e1e73f82f28d10f74d9d794ad4f5becf4729444",
+          "events": 1659,
+          "tick": 1680,
+          "world": "c70fce25557212a0af1723c425387af383e9313640a5c4a909022a84391bde7b"
+        },
+        {
+          "effects": "b4232955fdf35cb794f845297f71c0aa4877888ee577cde244146ef2ebf7b0cf",
+          "events": 1698,
+          "tick": 1740,
+          "world": "397e817afb19e544e859a67826d2d17df64115582c316db7f82f9bd57c41a61a"
+        },
+        {
+          "effects": "d18d45776d1bc7896b3f4e3052b3ded6bbc37894ce02151a7c8e7d298537cf64",
+          "events": 1719,
+          "tick": 1800,
+          "world": "de763f9e99f3687bd4c58ba85bc91eb19e7c336a302dce058df50ac16f5cbf84"
+        },
+        {
+          "effects": "8c367f6c3f9e725f0d86637caa2b6c4f99e46157fbf548749c3ff61d04ade02c",
+          "events": 1753,
+          "tick": 1860,
+          "world": "f0077a07c8facbad44747697e40e173ffd962c194a8a89f34b88ed6fd75f83ee"
+        },
+        {
+          "effects": "7c1a0c0c3a3ea21cbdf41efdbde52c6fd3ec1c060371c39d2d3eab2f5e199f53",
+          "events": 1774,
+          "tick": 1920,
+          "world": "08f23ec586e9c21a908b5bb9b874eb13170f821368b77a27f4c6da8104be689e"
+        },
+        {
+          "effects": "d929c88ef5125c18bb1e823626cc1ea357ec888efc2cb02d62c0300e52ef1894",
+          "events": 1809,
+          "tick": 1980,
+          "world": "b586369f723f84fcfdfce9c6d71f4d88dd6b8c60c76de26316fd5f653017550b"
+        },
+        {
+          "effects": "8d16c20ff77a66ff80c80c4767caeec97587e4b35a672827fc98dae2d4e3d588",
+          "events": 1821,
+          "tick": 2040,
+          "world": "422a63df6278f0fdbfdb066f9a95089c00ce2c85b906304cbbfac86bd98adf6a"
+        },
+        {
+          "effects": "89b1449075166b589e042a389f4193d893da8de982470411da81492bba90e3a7",
+          "events": 1833,
+          "tick": 2100,
+          "world": "7615a5f561b775a362e50ca2113cc000d6d11a8d4ead837db7bce446df810b48"
+        },
+        {
+          "effects": "a1b0424cbf50d0a6ae7c12abc27feadb06dfeca10d061e780c1d889b4d44e65a",
+          "events": 1858,
+          "tick": 2160,
+          "world": "ecd5b063312d8f6c6b956de9b5f873db65383a837cf38d08bf85eacd94a3d975"
+        },
+        {
+          "effects": "70c88807d7ac3b39c72228963ea6acf6d4a469b5b2af03b84ca09ecf4b0ea906",
+          "events": 1904,
+          "tick": 2220,
+          "world": "520d330f111c47d5cf28a6ef95f8eeb8ac9e83da239fc27008c9690082e5ef08"
+        },
+        {
+          "effects": "8ad15ee3d97c631cdaa0eaa4e186b217d8823ac749f508d135f83c87651dcb3c",
+          "events": 1916,
+          "tick": 2280,
+          "world": "e7ba3bc1c9f5475ab886e4e08202228db71aaf822e41cc30b528c3ceb0500d7e"
+        },
+        {
+          "effects": "ba48ec0745d2c31e14b677fecffa83f98ba84a9a68f9c17393d5d8372c3d4052",
+          "events": 1936,
+          "tick": 2340,
+          "world": "f3ae218c66ecc60aca6877c7e379f7cf6cfb5f6e1919497edf16f31a63a029aa"
+        },
+        {
+          "effects": "40b867efe12fab3631d2d976b7eef044890932a7e8d9a464b4c964e69986f775",
+          "events": 1962,
+          "tick": 2400,
+          "world": "d98dd5bc149b2f6c02101166d2ddd694fc84979725b9058aa295f391115f3989"
+        },
+        {
+          "effects": "a45016817be48d7b405f74837ef39c41e15583fc2a425ea4817954c9e4acf2ab",
+          "events": 2003,
+          "tick": 2460,
+          "world": "2f60d14d1d7c0bd0fcfad19f3af2151070c4390e1897d030c5b28aa2f18076c3"
+        },
+        {
+          "effects": "05dac1405535a902ebc3d0eaaf63a307b126b7bc5608fee582fb0e1b80fd77a7",
+          "events": 2026,
+          "tick": 2520,
+          "world": "fd163f7bc6c0d5d4a9f5cfcf55ff2d9619b5297e958b3657edc768cb8ebf1ec8"
+        },
+        {
+          "effects": "95a33ddc6a9bea8a9534b3192f9e7799e07e5d254b5f0c056ce53625a74d8428",
+          "events": 2071,
+          "tick": 2580,
+          "world": "e6c6fec7b06c9bda0e559cd32136d9f7381a2f7dcfba5313910980d4ac543f64"
+        },
+        {
+          "effects": "9eccbc4cd640498fca5baff8f7d08612b1d9af8f4b203b62b2e2557d188bd37b",
+          "events": 2108,
+          "tick": 2640,
+          "world": "cff88884a3903caa4bcdf6062aa193fa5789bc30919a945b58070877baefd5cb"
+        },
+        {
+          "effects": "d44be327114218c1747954537a59d960b1fc7ddd98d6dde14ccd432aaeb0d00e",
+          "events": 2160,
+          "tick": 2700,
+          "world": "32da242cc12e80e87499ab5f6a49bde0ba6a8f7de26d37c7f3151bc6212fc291"
+        },
+        {
+          "effects": "4dae698c3a2ce87876158d71d265599329ffae61b38db1c920d9c711a8afc807",
+          "events": 2184,
+          "tick": 2760,
+          "world": "34dd60bf1cadfe3ddcf8000c285a4957db3248c7e031771adf1cd14d65e381b4"
+        },
+        {
+          "effects": "1a9130ed1e71447e81f039d558710bc336f6d4136f042b69518bc0a83233f26b",
+          "events": 2197,
+          "tick": 2820,
+          "world": "213c7c5482084fe9dcb523a6709848a6405dd8de9aab1cb2503b4be1d1d4dcd8"
+        },
+        {
+          "effects": "deec883693ee483b85ee03717a00c36b141313166d91105c8ffcce1884294188",
+          "events": 2218,
+          "tick": 2880,
+          "world": "220bb117db6a55fe6cf9708b50f335984addbc36c3969172408c09ee79f85798"
+        },
+        {
+          "effects": "5836b18a5fc7e39e6b492118cfa5c17438246e15494720ff73ca1f9ea48155e1",
+          "events": 2275,
+          "tick": 2940,
+          "world": "8c92ee8b8f0139e0866c0f928095b599137f28a09c3708200584d577bb045f0f"
+        },
+        {
+          "effects": "a73c11b653a3bede37250e192a213b6707cbda9f67a26ffe2bfbd503285b254f",
+          "events": 2294,
+          "tick": 3000,
+          "world": "3b9e5df667de70b769ff2bc24acfa2e31919705af55ad8f4d327858a38caa943"
+        },
+        {
+          "effects": "640366e33c578a9c490a0c43d26da350135d2960c99fe42f8295d7c05554f6f1",
+          "events": 2310,
+          "tick": 3060,
+          "world": "173512584799cb548b7403ccf07f670fed5b6674fa05d96ee6e80c14b9a25035"
+        },
+        {
+          "effects": "8b8b26e4d140f34c6de68fea7956e1de32b0eaa09da4c6005ba2e07b822425f7",
+          "events": 2338,
+          "tick": 3120,
+          "world": "dc9034dcc02ed5742e3431ee7f6e9f26699206328203c895dc51f834218234cd"
+        },
+        {
+          "effects": "5830f9e4c707c83b1cab835158d3797b3c701ff268b9f4163be05c58cf317c96",
+          "events": 2392,
+          "tick": 3180,
+          "world": "115824e00bdfd94bd63060fae1c30c551515650b3f7a39887e75e15e995b2215"
+        },
+        {
+          "effects": "902aa5e30efe8a1e1fee225ca4355e81c4276b4a52b711a97ccdb6d438485481",
+          "events": 2407,
+          "tick": 3240,
+          "world": "33eba4abd0fc645478881ac86af286d8359e773944387a7785fecec337f782d4"
+        },
+        {
+          "effects": "8e38d421ef6c3f9ad19b444832b6a59c8bd5e68794e28c14f93df60fe147eb26",
+          "events": 2419,
+          "tick": 3300,
+          "world": "14a5c9289227550b7e0bd2fc0acded277702666979849fa20bf7346674919747"
+        },
+        {
+          "effects": "c724eaacc58737ce86576b532505498ca7017ac19b74f213b43fa661f0705cf1",
+          "events": 2434,
+          "tick": 3360,
+          "world": "8048bdd6c6d27c082447011a72c825c896eade15ba35d5b1afcefb712dd40650"
+        },
+        {
+          "effects": "fe1352bbe9afac5368f10220d5e75a99a9eed4f1d602abcc0718371c81fd0727",
+          "events": 2461,
+          "tick": 3420,
+          "world": "81846438f993973af04150ddb70bcc10a22e5bdcc736e6a1230cfab931b12bf1"
+        },
+        {
+          "effects": "dbf232a64835215b2d36e3a06ea4dcf72152d7f6d4be588afb0aae5ad4a86c2f",
+          "events": 2482,
+          "tick": 3480,
+          "world": "e62783f8bda494d6e736c4bdb3912cd4176a9e3f7073301334dec5ea657cc69a"
+        },
+        {
+          "effects": "941ef5a98b95e73c33cfc08f8babfd1e7be5531982ee063a6a7bb8eef8a515e7",
+          "events": 2503,
+          "tick": 3540,
+          "world": "f0d71ec23cb915aa292a87943e7630ca69c899d640bd0c85576f9f6a9b326a8b"
+        },
+        {
+          "effects": "f4624ad7f05dd4f30d028eaa8b1d0934b05e1cd7952275fd690ca96423b34303",
+          "events": 2548,
+          "tick": 3600,
+          "world": "c1ba2b52307d51438dd261d3675a2b8634cc4b923fd5a7601b81f5c0d5acabf3"
+        }
+      ],
+      "counts": {
+        "airburst": 126,
+        "aircraft_breakup": 4,
+        "aircraft_part_detached": 12,
+        "bomb_contact": 24,
+        "bomb_explosion": 24,
+        "bomb_released": 24,
+        "bomb_source_cleared": 24,
+        "bombing_phase": 19,
+        "command_applied": 68,
+        "damage_phase": 11,
+        "damaged": 119,
+        "disabled": 6,
+        "fired": 780,
+        "fleet_flagship_changed": 7,
+        "hit": 164,
+        "order_assignments_changed": 41,
+        "order_execution_changed": 412,
+        "order_issued": 25,
+        "order_status_changed": 61,
+        "projectile_expired": 315,
+        "salvo": 75,
+        "surface_impact": 156,
+        "target_changed": 43,
+        "unit_impact": 4,
+        "unit_surface_contact": 4
+      },
+      "display_server": "headless",
+      "end_reason": "",
+      "event_count": 2548,
+      "events_sha256": "f804c2f5f9175aab907cc8f4bfd491a65d84703702b9f9366772767a8e3337ef",
+      "measured_cpu_wall_s": 46.477328,
+      "mode": "full",
+      "paused": false,
+      "pending_s": 0.0,
+      "restart": {
+        "effects": "655b8b262b6ba9e45a49e9a26005487919d8259a399a782575f747ac93ae6058",
+        "events": {
+          "command_applied": 31,
+          "fired": 10,
+          "fleet_flagship_changed": 6,
+          "order_assignments_changed": 27,
+          "order_execution_changed": 65,
+          "order_issued": 21,
+          "order_status_changed": 46,
+          "ship_support_fire": 10,
+          "target_changed": 10
+        },
+        "generation": 2,
+        "tick": 60,
+        "units": 27,
+        "view": "946af986c810ff33c3a20b9b366e529d5e310aea1fea953a36eb19f064ca008f",
+        "world": "bc5ad0c935d46e3d7aca026e72c188855ca08d12fc4a29d64fcf40da63d21570"
+      },
+      "samples": {
+        "advance_nonzero_tick": {
+          "n": 3420,
+          "p50": 7.194,
+          "p95": 15.948,
+          "p99": 54.986
+        },
+        "advance_or_world": {
+          "n": 3420,
+          "p50": 7.194,
+          "p95": 15.948,
+          "p99": 54.986
+        },
+        "advance_zero_tick": {
+          "n": 0
+        },
+        "camera": {
+          "n": 3420,
+          "p50": 0.265,
+          "p95": 0.553,
+          "p99": 1.055
+        },
+        "hud": {
+          "n": 3420,
+          "p50": 0.001,
+          "p95": 0.33,
+          "p99": 7.18
+        },
+        "hud_at_least_20us": {
+          "n": 214,
+          "p50": 0.543,
+          "p95": 8.704,
+          "p99": 17.855
+        },
+        "presentation": {
+          "n": 3420,
+          "p50": 3.512,
+          "p95": 5.849,
+          "p99": 11.505
+        },
+        "total": {
+          "n": 3420,
+          "p50": 11.116,
+          "p95": 25.863,
+          "p99": 59.987
+        }
+      },
+      "seed": 707,
+      "sim_delta_s": 57.0,
+      "speed": 1.0,
+      "start_tick": 180,
+      "tick": 3600,
+      "units": 27,
+      "views_sha256": "672293d25ad3e0ea61dc3410e17306d53389a6340cb885d4d327bc59ce4268cc",
+      "wall_s_including_digest": 54.2754,
+      "verify_run": "20261121T155922-d23df679"
+    },
+    "after_full": {
+      "camera": "fighter",
+      "checkpoints": [
+        {
+          "effects": "29242ed73827788480642a8736e2492c1d97a00507f3056379c27149f5779ff5",
+          "events": 216,
+          "tick": 60,
+          "world": "38e449c7433d0cceeb1667a4a054038e9eb533b785ce8b92dc4a3125c23a504f"
+        },
+        {
+          "effects": "72df9baca496f2c1df449f95fea11d233372df8cf9af92df6625c56146c99727",
+          "events": 216,
+          "tick": 120,
+          "world": "8043e8fc7206a956f81d3cc30520e6699237bc6210119dcbc7d686c2bfa3804d"
+        },
+        {
+          "effects": "ea005d11e2a736d380e3b8c85c0c7ae46c035b0971d18444c71fb9cd20fb0a83",
+          "events": 234,
+          "tick": 180,
+          "world": "be869c285980021979751d5533d7d6041c6a5c0192952816c497f785eb3dc856"
+        },
+        {
+          "effects": "af72fef516ed30fe135128c81145a7f98a055aa8b3b6efaeebdced2756649777",
+          "events": 242,
+          "tick": 240,
+          "world": "fd4668e0c61e2473867929ba8b89b0cc5794ecf2c222697ab9b3e1910c6943bc"
+        },
+        {
+          "effects": "263972e98fe47ef2958db5edd976464284a60e14e1c053adf2f9c3d2149200ba",
+          "events": 273,
+          "tick": 300,
+          "world": "4026b8719409b72e54dc730bbadcd2b53910cd8dbecc89a9cecaa38fdcd27a18"
+        },
+        {
+          "effects": "99dddb4973b0bd32aaa11a08bd2d74427461e82b5799c52d5a7aa8e4854755fa",
+          "events": 284,
+          "tick": 360,
+          "world": "11b9222e1d410862c14b9f8791412c2c03f203ca3fded3931faa8dd29e4d94ce"
+        },
+        {
+          "effects": "c7e816097f50095b5acb43dcc6697fc82ebcdfad90de608e75361da233636be3",
+          "events": 306,
+          "tick": 420,
+          "world": "d24414c8add1d5bbfeef1c11da317ecedbb2d06a93ff581fd1a67a9a86757ff1"
+        },
+        {
+          "effects": "67ae1eb079a0274ab13b03fa2452b6a8fb3a1aa701bef9df6645f931252968d5",
+          "events": 371,
+          "tick": 480,
+          "world": "02b8733f4a6f3601bb9f2efe73e6eb7cd68562ea19bf899417cd91b1be35f3d1"
+        },
+        {
+          "effects": "27d860805914b90dba50ac838282ae50d0640e22df681143e6e62a873ae751bb",
+          "events": 450,
+          "tick": 540,
+          "world": "14f50f6121a8ae59e21f4839694c902e0a8ea254df7499864adc65e1fa15b604"
+        },
+        {
+          "effects": "9134500abec0e20809058c6a2d9afb7c5c2ddacd27fbb08afd5453dcc78490a4",
+          "events": 496,
+          "tick": 600,
+          "world": "eed9c625079badbbe07f03f737be7dde122e143899053730ec915aef305ddb88"
+        },
+        {
+          "effects": "59306558719b92a2efd2ea04aff5f3db6c2e279eeb83489edfdadaa2c96d007e",
+          "events": 544,
+          "tick": 660,
+          "world": "82705437e04e370a91dbc5c330a6adbdb4450081903d44b2959b1b3100f94e00"
+        },
+        {
+          "effects": "b2f4381cfde7921e583297e20c2cabb6f8073c2e7ca145e2a87f35104436bf14",
+          "events": 593,
+          "tick": 720,
+          "world": "59d41f7e99714de29ce033c2405ed70d30c85640ebfc02537206560b291e0cd3"
+        },
+        {
+          "effects": "86d943eb84d707862afae1ea34044b7d5595de8c3b47f72eb0e976d1ff705214",
+          "events": 682,
+          "tick": 780,
+          "world": "45689cdc6baa91e8189fc76d114b0783e12a6118d52320883488e5af3648993b"
+        },
+        {
+          "effects": "bfa07e702f8c65573bd66f7e3eec1756b20573e7473b8748fb998ceea2e60611",
+          "events": 752,
+          "tick": 840,
+          "world": "d0c3dd6c773d24a0c3d3f5dd5cba0a98ecc1d4f381c62fb1d4fb663638aac5c5"
+        },
+        {
+          "effects": "2785264fb04283587e934c51217e5fd2c0b5be579daa175ec6e505bb8fc6dd96",
+          "events": 811,
+          "tick": 900,
+          "world": "de9dc6db395a5aa162113cf9ae8fa408021eb839dfe24a8b628d22973e58a563"
+        },
+        {
+          "effects": "77d147a749496dc04f1fa6f0891fd011426c9dd0570d21a816b88e25489725f2",
+          "events": 880,
+          "tick": 960,
+          "world": "3a19308d25706a4f7de2921964bbc6ed8805ec8dc48b142c879b8fc33e049417"
+        },
+        {
+          "effects": "8e6a76e76b9f64acaa6b85e15ac1735a8fd379fe899c43c6051ebb9896ab498b",
+          "events": 986,
+          "tick": 1020,
+          "world": "f1e3d5cfe0d669be62dbbee7951422c9c772a0c3b40bf188c30e01e62e836c3f"
+        },
+        {
+          "effects": "b5a0ef150db193657e94fdc3f9ce2abf9e6bdfa16329b1e4091ef6d343f3c37c",
+          "events": 1082,
+          "tick": 1080,
+          "world": "9384a0a30f1f90e135659e26c6551043753ece414e50be76d83bca7cfa447aec"
+        },
+        {
+          "effects": "f50fed7e595f6cd0e3b608ec81bd12357470ccc1ac9c92fbbb6e8b773d3966c5",
+          "events": 1198,
+          "tick": 1140,
+          "world": "a1d2beea91b8668b15f526d20a6f040eec48965264a439eb0a5f3e77c4c417b0"
+        },
+        {
+          "effects": "8be1e210733a3841a53355e4aecdfaecef3f6d67d08bbe1f02e2ecd76f5166da",
+          "events": 1270,
+          "tick": 1200,
+          "world": "f7683dd53f7ec003a9674055cf33ad231029559f3b5ca4e65ef5c139df481129"
+        },
+        {
+          "effects": "c23c2ac842c7f8501fcb8206e96dd6f2c525817c23c3cda013c4fcf6f7c414bb",
+          "events": 1329,
+          "tick": 1260,
+          "world": "9d0a640e7b804a33f0ecac83ef6a96c2fba0b621ccd7b068c42b65d82deab96f"
+        },
+        {
+          "effects": "1f04a018e71a558d1b16c3d2c3dee7ea4630379ad2cc4d04fcc806235d450404",
+          "events": 1391,
+          "tick": 1320,
+          "world": "32e01d59ee90af316649d73dc5da083e3bb32a341c6909febfa8b4566ce0c4d1"
+        },
+        {
+          "effects": "c00ee7520eb22b4455f7771075ea15c7f396740a8b2f65ab85c3ff76e470daed",
+          "events": 1469,
+          "tick": 1380,
+          "world": "a4512c7ac0ed630b8098497d0d8de0cab20b81665825da187ad428dc3ad5f3db"
+        },
+        {
+          "effects": "4adeded4a1b5f8d35e5122219bd842ec23e20c6cb2d49083cb437701c7bcf582",
+          "events": 1545,
+          "tick": 1440,
+          "world": "e98b90e587e1d056b00517e0afc8db0d045623ddcd1996faf31d47fa2378b005"
+        },
+        {
+          "effects": "cacebab8a60bcac78009433fd7cabb31937ac473f1ebb23b6bafc83f3ca6d887",
+          "events": 1607,
+          "tick": 1500,
+          "world": "5838a0b19334869d72efa88810b1129f8c4f578865964a54070e9dd29724ad13"
+        },
+        {
+          "effects": "eb63982ea3522caf7e5ccabbbd56d69ec9d44c722a8a454bc3df4013f06d5039",
+          "events": 1617,
+          "tick": 1560,
+          "world": "0fd516cb0b5f60c1ef1c2d697ad66528351462d032be71b5e7e96958667f86e1"
+        },
+        {
+          "effects": "0c61e18f689f338a6f1589ef0a1a0c2ca37ac1b1be2b3daac945767ddd2e1d83",
+          "events": 1637,
+          "tick": 1620,
+          "world": "1b005f0d3f10c5aeb261ca1509c86729dc0bb877a7b41252c6616ef042c7cfc3"
+        },
+        {
+          "effects": "4891dd00d6eab09138c04bda5e1e73f82f28d10f74d9d794ad4f5becf4729444",
+          "events": 1659,
+          "tick": 1680,
+          "world": "c70fce25557212a0af1723c425387af383e9313640a5c4a909022a84391bde7b"
+        },
+        {
+          "effects": "b4232955fdf35cb794f845297f71c0aa4877888ee577cde244146ef2ebf7b0cf",
+          "events": 1698,
+          "tick": 1740,
+          "world": "397e817afb19e544e859a67826d2d17df64115582c316db7f82f9bd57c41a61a"
+        },
+        {
+          "effects": "d18d45776d1bc7896b3f4e3052b3ded6bbc37894ce02151a7c8e7d298537cf64",
+          "events": 1719,
+          "tick": 1800,
+          "world": "de763f9e99f3687bd4c58ba85bc91eb19e7c336a302dce058df50ac16f5cbf84"
+        },
+        {
+          "effects": "8c367f6c3f9e725f0d86637caa2b6c4f99e46157fbf548749c3ff61d04ade02c",
+          "events": 1753,
+          "tick": 1860,
+          "world": "f0077a07c8facbad44747697e40e173ffd962c194a8a89f34b88ed6fd75f83ee"
+        },
+        {
+          "effects": "7c1a0c0c3a3ea21cbdf41efdbde52c6fd3ec1c060371c39d2d3eab2f5e199f53",
+          "events": 1774,
+          "tick": 1920,
+          "world": "08f23ec586e9c21a908b5bb9b874eb13170f821368b77a27f4c6da8104be689e"
+        },
+        {
+          "effects": "d929c88ef5125c18bb1e823626cc1ea357ec888efc2cb02d62c0300e52ef1894",
+          "events": 1809,
+          "tick": 1980,
+          "world": "b586369f723f84fcfdfce9c6d71f4d88dd6b8c60c76de26316fd5f653017550b"
+        },
+        {
+          "effects": "8d16c20ff77a66ff80c80c4767caeec97587e4b35a672827fc98dae2d4e3d588",
+          "events": 1821,
+          "tick": 2040,
+          "world": "422a63df6278f0fdbfdb066f9a95089c00ce2c85b906304cbbfac86bd98adf6a"
+        },
+        {
+          "effects": "89b1449075166b589e042a389f4193d893da8de982470411da81492bba90e3a7",
+          "events": 1833,
+          "tick": 2100,
+          "world": "7615a5f561b775a362e50ca2113cc000d6d11a8d4ead837db7bce446df810b48"
+        },
+        {
+          "effects": "a1b0424cbf50d0a6ae7c12abc27feadb06dfeca10d061e780c1d889b4d44e65a",
+          "events": 1858,
+          "tick": 2160,
+          "world": "ecd5b063312d8f6c6b956de9b5f873db65383a837cf38d08bf85eacd94a3d975"
+        },
+        {
+          "effects": "70c88807d7ac3b39c72228963ea6acf6d4a469b5b2af03b84ca09ecf4b0ea906",
+          "events": 1904,
+          "tick": 2220,
+          "world": "520d330f111c47d5cf28a6ef95f8eeb8ac9e83da239fc27008c9690082e5ef08"
+        },
+        {
+          "effects": "8ad15ee3d97c631cdaa0eaa4e186b217d8823ac749f508d135f83c87651dcb3c",
+          "events": 1916,
+          "tick": 2280,
+          "world": "e7ba3bc1c9f5475ab886e4e08202228db71aaf822e41cc30b528c3ceb0500d7e"
+        },
+        {
+          "effects": "ba48ec0745d2c31e14b677fecffa83f98ba84a9a68f9c17393d5d8372c3d4052",
+          "events": 1936,
+          "tick": 2340,
+          "world": "f3ae218c66ecc60aca6877c7e379f7cf6cfb5f6e1919497edf16f31a63a029aa"
+        },
+        {
+          "effects": "40b867efe12fab3631d2d976b7eef044890932a7e8d9a464b4c964e69986f775",
+          "events": 1962,
+          "tick": 2400,
+          "world": "d98dd5bc149b2f6c02101166d2ddd694fc84979725b9058aa295f391115f3989"
+        },
+        {
+          "effects": "a45016817be48d7b405f74837ef39c41e15583fc2a425ea4817954c9e4acf2ab",
+          "events": 2003,
+          "tick": 2460,
+          "world": "2f60d14d1d7c0bd0fcfad19f3af2151070c4390e1897d030c5b28aa2f18076c3"
+        },
+        {
+          "effects": "05dac1405535a902ebc3d0eaaf63a307b126b7bc5608fee582fb0e1b80fd77a7",
+          "events": 2026,
+          "tick": 2520,
+          "world": "fd163f7bc6c0d5d4a9f5cfcf55ff2d9619b5297e958b3657edc768cb8ebf1ec8"
+        },
+        {
+          "effects": "95a33ddc6a9bea8a9534b3192f9e7799e07e5d254b5f0c056ce53625a74d8428",
+          "events": 2071,
+          "tick": 2580,
+          "world": "e6c6fec7b06c9bda0e559cd32136d9f7381a2f7dcfba5313910980d4ac543f64"
+        },
+        {
+          "effects": "9eccbc4cd640498fca5baff8f7d08612b1d9af8f4b203b62b2e2557d188bd37b",
+          "events": 2108,
+          "tick": 2640,
+          "world": "cff88884a3903caa4bcdf6062aa193fa5789bc30919a945b58070877baefd5cb"
+        },
+        {
+          "effects": "d44be327114218c1747954537a59d960b1fc7ddd98d6dde14ccd432aaeb0d00e",
+          "events": 2160,
+          "tick": 2700,
+          "world": "32da242cc12e80e87499ab5f6a49bde0ba6a8f7de26d37c7f3151bc6212fc291"
+        },
+        {
+          "effects": "4dae698c3a2ce87876158d71d265599329ffae61b38db1c920d9c711a8afc807",
+          "events": 2184,
+          "tick": 2760,
+          "world": "34dd60bf1cadfe3ddcf8000c285a4957db3248c7e031771adf1cd14d65e381b4"
+        },
+        {
+          "effects": "1a9130ed1e71447e81f039d558710bc336f6d4136f042b69518bc0a83233f26b",
+          "events": 2197,
+          "tick": 2820,
+          "world": "213c7c5482084fe9dcb523a6709848a6405dd8de9aab1cb2503b4be1d1d4dcd8"
+        },
+        {
+          "effects": "deec883693ee483b85ee03717a00c36b141313166d91105c8ffcce1884294188",
+          "events": 2218,
+          "tick": 2880,
+          "world": "220bb117db6a55fe6cf9708b50f335984addbc36c3969172408c09ee79f85798"
+        },
+        {
+          "effects": "5836b18a5fc7e39e6b492118cfa5c17438246e15494720ff73ca1f9ea48155e1",
+          "events": 2275,
+          "tick": 2940,
+          "world": "8c92ee8b8f0139e0866c0f928095b599137f28a09c3708200584d577bb045f0f"
+        },
+        {
+          "effects": "a73c11b653a3bede37250e192a213b6707cbda9f67a26ffe2bfbd503285b254f",
+          "events": 2294,
+          "tick": 3000,
+          "world": "3b9e5df667de70b769ff2bc24acfa2e31919705af55ad8f4d327858a38caa943"
+        },
+        {
+          "effects": "640366e33c578a9c490a0c43d26da350135d2960c99fe42f8295d7c05554f6f1",
+          "events": 2310,
+          "tick": 3060,
+          "world": "173512584799cb548b7403ccf07f670fed5b6674fa05d96ee6e80c14b9a25035"
+        },
+        {
+          "effects": "8b8b26e4d140f34c6de68fea7956e1de32b0eaa09da4c6005ba2e07b822425f7",
+          "events": 2338,
+          "tick": 3120,
+          "world": "dc9034dcc02ed5742e3431ee7f6e9f26699206328203c895dc51f834218234cd"
+        },
+        {
+          "effects": "5830f9e4c707c83b1cab835158d3797b3c701ff268b9f4163be05c58cf317c96",
+          "events": 2392,
+          "tick": 3180,
+          "world": "115824e00bdfd94bd63060fae1c30c551515650b3f7a39887e75e15e995b2215"
+        },
+        {
+          "effects": "902aa5e30efe8a1e1fee225ca4355e81c4276b4a52b711a97ccdb6d438485481",
+          "events": 2407,
+          "tick": 3240,
+          "world": "33eba4abd0fc645478881ac86af286d8359e773944387a7785fecec337f782d4"
+        },
+        {
+          "effects": "8e38d421ef6c3f9ad19b444832b6a59c8bd5e68794e28c14f93df60fe147eb26",
+          "events": 2419,
+          "tick": 3300,
+          "world": "14a5c9289227550b7e0bd2fc0acded277702666979849fa20bf7346674919747"
+        },
+        {
+          "effects": "c724eaacc58737ce86576b532505498ca7017ac19b74f213b43fa661f0705cf1",
+          "events": 2434,
+          "tick": 3360,
+          "world": "8048bdd6c6d27c082447011a72c825c896eade15ba35d5b1afcefb712dd40650"
+        },
+        {
+          "effects": "fe1352bbe9afac5368f10220d5e75a99a9eed4f1d602abcc0718371c81fd0727",
+          "events": 2461,
+          "tick": 3420,
+          "world": "81846438f993973af04150ddb70bcc10a22e5bdcc736e6a1230cfab931b12bf1"
+        },
+        {
+          "effects": "dbf232a64835215b2d36e3a06ea4dcf72152d7f6d4be588afb0aae5ad4a86c2f",
+          "events": 2482,
+          "tick": 3480,
+          "world": "e62783f8bda494d6e736c4bdb3912cd4176a9e3f7073301334dec5ea657cc69a"
+        },
+        {
+          "effects": "941ef5a98b95e73c33cfc08f8babfd1e7be5531982ee063a6a7bb8eef8a515e7",
+          "events": 2503,
+          "tick": 3540,
+          "world": "f0d71ec23cb915aa292a87943e7630ca69c899d640bd0c85576f9f6a9b326a8b"
+        },
+        {
+          "effects": "f4624ad7f05dd4f30d028eaa8b1d0934b05e1cd7952275fd690ca96423b34303",
+          "events": 2548,
+          "tick": 3600,
+          "world": "c1ba2b52307d51438dd261d3675a2b8634cc4b923fd5a7601b81f5c0d5acabf3"
+        }
+      ],
+      "counts": {
+        "airburst": 126,
+        "aircraft_breakup": 4,
+        "aircraft_part_detached": 12,
+        "bomb_contact": 24,
+        "bomb_explosion": 24,
+        "bomb_released": 24,
+        "bomb_source_cleared": 24,
+        "bombing_phase": 19,
+        "command_applied": 68,
+        "damage_phase": 11,
+        "damaged": 119,
+        "disabled": 6,
+        "fired": 780,
+        "fleet_flagship_changed": 7,
+        "hit": 164,
+        "order_assignments_changed": 41,
+        "order_execution_changed": 412,
+        "order_issued": 25,
+        "order_status_changed": 61,
+        "projectile_expired": 315,
+        "salvo": 75,
+        "surface_impact": 156,
+        "target_changed": 43,
+        "unit_impact": 4,
+        "unit_surface_contact": 4
+      },
+      "display_server": "headless",
+      "end_reason": "",
+      "event_count": 2548,
+      "events_sha256": "f804c2f5f9175aab907cc8f4bfd491a65d84703702b9f9366772767a8e3337ef",
+      "measured_cpu_wall_s": 36.332194,
+      "mode": "full",
+      "paused": false,
+      "pending_s": 0.0,
+      "restart": {
+        "effects": "655b8b262b6ba9e45a49e9a26005487919d8259a399a782575f747ac93ae6058",
+        "events": {
+          "command_applied": 31,
+          "fired": 10,
+          "fleet_flagship_changed": 6,
+          "order_assignments_changed": 27,
+          "order_execution_changed": 65,
+          "order_issued": 21,
+          "order_status_changed": 46,
+          "ship_support_fire": 10,
+          "target_changed": 10
+        },
+        "generation": 2,
+        "tick": 60,
+        "units": 27,
+        "view": "946af986c810ff33c3a20b9b366e529d5e310aea1fea953a36eb19f064ca008f",
+        "world": "bc5ad0c935d46e3d7aca026e72c188855ca08d12fc4a29d64fcf40da63d21570"
+      },
+      "samples": {
+        "advance_nonzero_tick": {
+          "n": 3420,
+          "p50": 6.508,
+          "p95": 8.482,
+          "p99": 44.73
+        },
+        "advance_or_world": {
+          "n": 3420,
+          "p50": 6.508,
+          "p95": 8.482,
+          "p99": 44.73
+        },
+        "advance_zero_tick": {
+          "n": 0
+        },
+        "camera": {
+          "n": 3420,
+          "p50": 0.216,
+          "p95": 0.358,
+          "p99": 0.471
+        },
+        "hud": {
+          "n": 3420,
+          "p50": 0.001,
+          "p95": 0.293,
+          "p99": 6.353
+        },
+        "hud_at_least_20us": {
+          "n": 213,
+          "p50": 0.393,
+          "p95": 7.13,
+          "p99": 8.26
+        },
+        "presentation": {
+          "n": 3420,
+          "p50": 2.355,
+          "p95": 3.238,
+          "p99": 3.888
+        },
+        "total": {
+          "n": 3420,
+          "p50": 9.052,
+          "p95": 15.122,
+          "p99": 47.849
+        }
+      },
+      "seed": 707,
+      "sim_delta_s": 57.0,
+      "speed": 1.0,
+      "start_tick": 180,
+      "tick": 3600,
+      "units": 27,
+      "views_sha256": "672293d25ad3e0ea61dc3410e17306d53389a6340cb885d4d327bc59ce4268cc",
+      "wall_s_including_digest": 43.023385,
+      "verify_run": "20261121T160026-3155c33e"
+    }
+  },
+  "exact_match": {
+    "modes": [
+      "full",
+      "mixed"
+    ],
+    "fields": [
+      "checkpoints",
+      "counts",
+      "event_count",
+      "events_sha256",
+      "views_sha256",
+      "restart",
+      "tick",
+      "pending_s",
+      "start_tick",
+      "sim_delta_s"
+    ]
+  },
+  "pack": {
+    "runtime_source_count": 543,
+    "runtime_changes": [
+      "scripts/game/first_playable.gd",
+      "scripts/presentation/effects/combat_effects.gd"
+    ],
+    "baseline_pck_sha256": "b55235b77558bd93f6f95f3452aef433a393c15a77b7ded82e429c2d4fd51f9c",
+    "candidate_pck_sha256": "06b55fa4401bfdc34f0477c11c62bf0945aee542ff24b0cea8cd4d8a0952de91",
+    "staged_candidate_directory": "/private/tmp/game-pacific-pf01.jPvPuQ/candidate-web",
+    "same_entry_names": true,
+    "entry_count": 672,
+    "payload_md5_verified": true,
+    "changed_payloads_by_suffix": {
+      ".scn": 77,
+      ".gdc": 2
+    },
+    "same_project_binary": true,
+    "wasm_byte_equal": true
+  },
+  "verification": {
+    "first_browser_attempt": {
+      "run": "20261121T154439-3383d663",
+      "passed": false,
+      "returncode": 4,
+      "cleanup_ok": true,
+      "diagnostics": [
+        "PermissionError: [Errno 1] Operation not permitted"
+      ]
+    },
+    "native_window_attempt": {
+      "run": "20261121T154659-cbfb4a09",
+      "passed": false,
+      "returncode": -6,
+      "cleanup_ok": true,
+      "diagnostics": []
+    },
+    "isolated_export": {
+      "run": "20261121T160310-3c9f1011",
+      "passed": false,
+      "returncode": 0,
+      "cleanup_ok": true,
+      "diagnostics": [
+        "ERROR: Condition \"ret != noErr\" is true. Returning: \"\"",
+        "ERROR: Cannot save file '/Users/infinity/Library/Application Support/Godot/editor_settings-4.7.tres'.",
+        "ERROR: Error saving editor settings to /Users/infinity/Library/Application Support/Godot/editor_settings-4.7.tres"
+      ]
+    },
+    "isolated_export_headless_smoke": {
+      "run": "20261121T160558-686d986b",
+      "passed": false,
+      "returncode": 0,
+      "cleanup_ok": true,
+      "diagnostics": [
+        "ERROR: Condition \"ret != noErr\" is true. Returning: \"\""
+      ]
+    },
+    "browser_harness_attempt": {
+      "run": "20261121T160450-cdb21812",
+      "passed": false,
+      "returncode": 1,
+      "cleanup_ok": true,
+      "diagnostics": [
+        "PermissionError: [Errno 1] Operation not permitted"
+      ]
+    },
+    "combat_effects": {
+      "run": "20261121T160314-f8eb5266",
+      "passed": true,
+      "returncode": 0,
+      "cleanup_ok": true,
+      "diagnostics": [
+        "S05 effects isolation: 6 checks, 0 failures"
+      ]
+    },
+    "default_harbor": {
+      "run": "20261121T160315-5b52f3aa",
+      "passed": true,
+      "returncode": 0,
+      "cleanup_ok": true,
+      "diagnostics": [
+        "AIR01 headless PASS, 24 matching bomb chains, { \"us_surface\": { \"count\": 116, \"first_s\": 2.85, \"pairs\": { \"us_dd>jp_dd\": 25, \"us_bb>jp_bb\": 27, \"us_dd>jp_bb\": 64 } }, \"fighter_fighter\": { \"count\": 110, \"first_s\": 7.2, \"pairs\": { \"us_air_3>jp_air_3\": 104, \"jp_air_4>us_air_3\": 6 } }, \"jp_surface\": { \"count\": 18, \"first_s\": 10.5666666666667, \"pairs\": { \"jp_bb>us_bb\": 18 } }, \"fighter_bomber\": { \"count\": 144, \"first_s\": 15.1, \"pairs\": { \"jp_air_2>us_b25_2\": 90, \"jp_air_1>us_b25_1\": 54 } } }"
+      ]
+    },
+    "aircraft_damage_emitters": {
+      "run": "20261121T160719-9b8ed022",
+      "passed": true,
+      "returncode": 0,
+      "cleanup_ok": true,
+      "diagnostics": [
+        "S05 DM01 current engine source: 8 checks, 0 failures"
+      ]
+    }
+  }
+}

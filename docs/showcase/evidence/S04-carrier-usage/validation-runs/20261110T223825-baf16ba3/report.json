@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T223825-baf16ba3",
+  "owner": "S04-carrier-usage",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r1",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 86515,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r1",
+      "pid": 86517,
+      "process_group": 86517,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2032,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T223825-baf16ba3/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r1",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r1",
+      "pid": 86518,
+      "process_group": 86518,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 3.9562,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T223825-baf16ba3/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S04-carrier-usage",
+    "pid": 86515,
+    "process_identity": "Wed Nov 11 06:38:25 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S04-carrier-usage --lock-timeout 45 --timeout 60 --project .local/s04-carrier-usage/r1 import",
+    "token": "70c50a7bd4334e27887f30a9698b0f63",
+    "acquired_utc": "2026-11-10T22:38:25.567345+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

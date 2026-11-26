@@ -1,0 +1,2205 @@
+{
+  "schema_version": 1.0,
+  "id": "us_iowa_bb61_1944_12_28",
+  "display_name": "USS Iowa (BB-61) — 28 December 1944",
+  "country_id": "us",
+  "domain": "ship",
+  "service_entry_year": 1943.0,
+  "configuration_date": "1944-12-28",
+  "dimensions_m": [
+    33.0,
+    55.7,
+    270.4
+  ],
+  "model_scene": "res://scenes/ships/iowa_bb61_1944_12_28.tscn",
+  "weapon_definitions": [
+    {
+      "id": "us_16in50_mk7_triple",
+      "ammo_id": "us_406mm_mk8_ap",
+      "barrel_count": 3.0,
+      "cycle_s": 30.0,
+      "initial_rounds_per_barrel": 100.0,
+      "train_limits_deg": [
+        -150.0,
+        150.0
+      ],
+      "elevation_limits_deg": [
+        -2.0,
+        45.0
+      ],
+      "train_rate_degps": 4.0,
+      "elevation_rate_degps": 12.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "iowa/data/weapon_profiles.json"
+        ],
+        "note": "Model type, barrel count and motion interface. Exact fire-control rates, cyclic fire and ammunition allocations remain S05 research and implementation; these integration defaults do not balance factions."
+      }
+    },
+    {
+      "id": "us_5in38_mk28_twin",
+      "ammo_id": "us_127mm_5in38_shell",
+      "barrel_count": 2.0,
+      "cycle_s": 4.0,
+      "initial_rounds_per_barrel": 300.0,
+      "train_limits_deg": [
+        -90.0,
+        90.0
+      ],
+      "elevation_limits_deg": [
+        -15.0,
+        85.0
+      ],
+      "train_rate_degps": 25.0,
+      "elevation_rate_degps": 15.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "iowa/data/weapon_profiles.json"
+        ],
+        "note": "Model type, barrel count and motion interface. Exact fire-control rates, cyclic fire and ammunition allocations remain S05 research and implementation; these integration defaults do not balance factions."
+      }
+    },
+    {
+      "id": "us_bofors_40mm_quad",
+      "ammo_id": "us_40mm_bofors_shell",
+      "barrel_count": 4.0,
+      "cycle_s": 0.5,
+      "initial_rounds_per_barrel": 800.0,
+      "train_limits_deg": [
+        -180.0,
+        180.0
+      ],
+      "elevation_limits_deg": [
+        -15.0,
+        90.0
+      ],
+      "train_rate_degps": 24.0,
+      "elevation_rate_degps": 20.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "iowa/data/weapon_profiles.json"
+        ],
+        "note": "Model type, barrel count and motion interface. Exact fire-control rates, cyclic fire and ammunition allocations remain S05 research and implementation; these integration defaults do not balance factions."
+      }
+    },
+    {
+      "id": "us_oerlikon_20mm_single",
+      "ammo_id": "us_20mm_oerlikon_shell",
+      "barrel_count": 1.0,
+      "cycle_s": 0.15,
+      "initial_rounds_per_barrel": 1000.0,
+      "train_limits_deg": [
+        -180.0,
+        180.0
+      ],
+      "elevation_limits_deg": [
+        -5.0,
+        85.0
+      ],
+      "train_rate_degps": 20.0,
+      "elevation_rate_degps": 15.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "iowa/data/weapon_profiles.json"
+        ],
+        "note": "Model type, barrel count and motion interface. Exact fire-control rates, cyclic fire and ammunition allocations remain S05 research and implementation; these integration defaults do not balance factions."
+      }
+    }
+  ],
+  "mounts": [
+    {
+      "id": "main_01",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_16in50_mk7_triple",
+      "role": "main",
+      "position_m": [
+        0.0,
+        7.814984321594238,
+        -58.79800033569336
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        2.049999952316284,
+        -3.352799892425537
+      ],
+      "muzzle_positions_m": [
+        [
+          -3.09879994392395,
+          0.19999980926513672,
+          -19.256397247314453
+        ],
+        [
+          0.0,
+          0.19999980926513672,
+          -19.256397247314453
+        ],
+        [
+          3.09879994392395,
+          0.19999980926513672,
+          -19.256397247314453
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "plan_digitized_photo_cross_checked; absolute elevation image-proportioned"
+      }
+    },
+    {
+      "id": "main_02",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_16in50_mk7_triple",
+      "role": "main",
+      "position_m": [
+        0.0,
+        11.691780090332031,
+        -33.09600067138672
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        2.049999952316284,
+        -3.352799892425537
+      ],
+      "muzzle_positions_m": [
+        [
+          -3.09879994392395,
+          0.19999980926513672,
+          -19.25640106201172
+        ],
+        [
+          0.0,
+          0.19999980926513672,
+          -19.25640106201172
+        ],
+        [
+          3.09879994392395,
+          0.19999980926513672,
+          -19.25640106201172
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "plan_digitized_photo_cross_checked; absolute elevation image-proportioned"
+      }
+    },
+    {
+      "id": "main_03",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_16in50_mk7_triple",
+      "role": "main",
+      "position_m": [
+        0.0,
+        6.815000057220459,
+        66.89600372314453
+      ],
+      "base_yaw_deg": 180.0,
+      "elevation_pivot_m": [
+        0.0,
+        2.049999952316284,
+        -3.352799892425537
+      ],
+      "muzzle_positions_m": [
+        [
+          -3.09879994392395,
+          0.19999980926513672,
+          -19.25640106201172
+        ],
+        [
+          0.0,
+          0.19999980926513672,
+          -19.25640106201172
+        ],
+        [
+          3.09879994392395,
+          0.19999980926513672,
+          -19.25640106201172
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "plan_digitized_photo_cross_checked; absolute elevation image-proportioned"
+      }
+    },
+    {
+      "id": "secondary_01_port",
+      "host_id": "battery_deck",
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "role": "secondary",
+      "position_m": [
+        -7.570000171661377,
+        11.140000343322754,
+        -8.27400016784668
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.350000023841858,
+        -1.6799999475479126
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.6299996376037598,
+          0.10000038146972656,
+          -5.2960004806518555
+        ],
+        [
+          0.630000114440918,
+          0.10000038146972656,
+          -5.2960004806518555
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check"
+      }
+    },
+    {
+      "id": "secondary_01_starboard",
+      "host_id": "battery_deck",
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "role": "secondary",
+      "position_m": [
+        7.570000171661377,
+        11.140000343322754,
+        -8.27400016784668
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.350000023841858,
+        -1.6799999475479126
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.10000038146972656,
+          -5.2960004806518555
+        ],
+        [
+          0.6299996376037598,
+          0.10000038146972656,
+          -5.2960004806518555
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check"
+      }
+    },
+    {
+      "id": "secondary_02_port",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "role": "secondary",
+      "position_m": [
+        -12.322999954223633,
+        5.954999923706055,
+        0.7039999961853027
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.350000023841858,
+        -1.6799999475479126
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.09999990463256836,
+          -5.296000003814697
+        ],
+        [
+          0.630000114440918,
+          0.09999990463256836,
+          -5.296000003814697
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check"
+      }
+    },
+    {
+      "id": "secondary_02_starboard",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "role": "secondary",
+      "position_m": [
+        12.322999954223633,
+        5.954999923706055,
+        0.7039999961853027
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.350000023841858,
+        -1.6799999475479126
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.09999990463256836,
+          -5.296000003814697
+        ],
+        [
+          0.630000114440918,
+          0.09999990463256836,
+          -5.296000003814697
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check"
+      }
+    },
+    {
+      "id": "secondary_03_port",
+      "host_id": "battery_deck",
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "role": "secondary",
+      "position_m": [
+        -7.745999813079834,
+        11.140000343322754,
+        12.49899959564209
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.350000023841858,
+        -1.6799999475479126
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.6299996376037598,
+          0.10000038146972656,
+          -5.296000003814697
+        ],
+        [
+          0.630000114440918,
+          0.10000038146972656,
+          -5.296000003814697
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check"
+      }
+    },
+    {
+      "id": "secondary_03_starboard",
+      "host_id": "battery_deck",
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "role": "secondary",
+      "position_m": [
+        7.745999813079834,
+        11.140000343322754,
+        12.49899959564209
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.350000023841858,
+        -1.6799999475479126
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.10000038146972656,
+          -5.296000003814697
+        ],
+        [
+          0.6299996376037598,
+          0.10000038146972656,
+          -5.296000003814697
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check"
+      }
+    },
+    {
+      "id": "secondary_04_port",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "role": "secondary",
+      "position_m": [
+        -12.322999954223633,
+        5.919900417327881,
+        29.575000762939453
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.350000023841858,
+        -1.6799999475479126
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.09999990463256836,
+          -5.296001434326172
+        ],
+        [
+          0.630000114440918,
+          0.09999990463256836,
+          -5.296001434326172
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check"
+      }
+    },
+    {
+      "id": "secondary_04_starboard",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "role": "secondary",
+      "position_m": [
+        12.322999954223633,
+        5.919900417327881,
+        29.575000762939453
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.350000023841858,
+        -1.6799999475479126
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.09999990463256836,
+          -5.296001434326172
+        ],
+        [
+          0.630000114440918,
+          0.09999990463256836,
+          -5.296001434326172
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check"
+      }
+    },
+    {
+      "id": "secondary_05_port",
+      "host_id": "battery_deck",
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "role": "secondary",
+      "position_m": [
+        -7.745999813079834,
+        11.140000343322754,
+        39.60900115966797
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.350000023841858,
+        -1.6799999475479126
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.6299996376037598,
+          0.10000038146972656,
+          -5.295997619628906
+        ],
+        [
+          0.630000114440918,
+          0.10000038146972656,
+          -5.295997619628906
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check"
+      }
+    },
+    {
+      "id": "secondary_05_starboard",
+      "host_id": "battery_deck",
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "role": "secondary",
+      "position_m": [
+        7.745999813079834,
+        11.140000343322754,
+        39.60900115966797
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.350000023841858,
+        -1.6799999475479126
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.10000038146972656,
+          -5.295997619628906
+        ],
+        [
+          0.6299996376037598,
+          0.10000038146972656,
+          -5.295997619628906
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check"
+      }
+    },
+    {
+      "id": "bofors_01",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        -6.300000190734863,
+        6.306600093841553,
+        -82.80000305175781
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_02",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        6.300000190734863,
+        6.306600093841553,
+        -82.80000305175781
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_03",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        -13.0,
+        5.635091304779053,
+        -19.799999237060547
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_04",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        13.0,
+        5.635091304779053,
+        -19.799999237060547
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_05",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        -14.5,
+        5.595000267028809,
+        0.800000011920929
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.359999895095825
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.359999895095825
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.359999895095825
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.359999895095825
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_06",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        14.5,
+        5.595000267028809,
+        0.800000011920929
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.359999895095825
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.359999895095825
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.359999895095825
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.359999895095825
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_07",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        -14.5,
+        5.566187858581543,
+        27.399999618530273
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_08",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        14.5,
+        5.566187858581543,
+        27.399999618530273
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_09",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        -13.800000190734863,
+        5.505273818969727,
+        49.5
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_10",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        13.800000190734863,
+        5.505273818969727,
+        49.5
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_11",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        -5.0,
+        5.49500036239624,
+        119.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_12",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        5.0,
+        5.49500036239624,
+        119.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_13",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        0.0,
+        6.476402282714844,
+        -87.5
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.6299999952316284,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.20999999344348907,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.20999999344348907,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.6299999952316284,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_14",
+      "host_id": "battery_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        -3.5999999046325684,
+        10.779999732971191,
+        18.0
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.359999656677246
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.359999656677246
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.359999656677246
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.359999656677246
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_15",
+      "host_id": "battery_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        3.5999999046325684,
+        10.779999732971191,
+        18.0
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.359999656677246
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.359999656677246
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.359999656677246
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.359999656677246
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_16",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        -12.0,
+        5.49500036239624,
+        60.0
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_17",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        12.0,
+        5.49500036239624,
+        60.0
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_18",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        0.0,
+        7.194699287414551,
+        -103.0
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.6299999952316284,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.20999999344348907,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.20999999344348907,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.6299999952316284,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "bofors_19",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "role": "dedicated_aa",
+      "position_m": [
+        6.800000190734863,
+        5.49500036239624,
+        82.0
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.4199999570846558,
+        -0.18000000715255737
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          -0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.21000003814697266,
+          0.19999980926513672,
+          -2.3600006103515625
+        ],
+        [
+          0.630000114440918,
+          0.19999980926513672,
+          -2.3600006103515625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_01",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        -2.0999999046325684,
+        8.141730308532715,
+        -122.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_02",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        2.0999999046325684,
+        8.141730308532715,
+        -122.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_03",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        -4.199999809265137,
+        7.46552038192749,
+        -109.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_04",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        4.199999809265137,
+        7.46552038192749,
+        -109.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_05",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        -6.199999809265137,
+        6.809152603149414,
+        -96.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_06",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        6.199999809265137,
+        6.809152603149414,
+        -96.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_07",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        -9.100000381469727,
+        6.115837574005127,
+        -78.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_08",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        9.100000381469727,
+        6.115837574005127,
+        -78.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_09",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        -12.199999809265137,
+        5.706902980804443,
+        -52.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799995422363281
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_10",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        12.199999809265137,
+        5.706902980804443,
+        -52.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799995422363281
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_11",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        -14.5,
+        5.62333345413208,
+        -30.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.980001449584961
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_12",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        14.5,
+        5.62333345413208,
+        -30.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.980001449584961
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_13",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        -15.0,
+        5.554999828338623,
+        14.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799995422363281
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_14",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        15.0,
+        5.554999828338623,
+        14.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799995422363281
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_15",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        -14.800000190734863,
+        5.488437175750732,
+        41.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799995422363281
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_16",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        14.800000190734863,
+        5.488437175750732,
+        41.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799995422363281
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_17",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        -12.5,
+        5.454999923706055,
+        79.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_18",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        12.5,
+        5.454999923706055,
+        79.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_19",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        -8.5,
+        5.454999923706055,
+        100.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_20",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        8.5,
+        5.454999923706055,
+        100.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_21",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        -5.0,
+        5.454999923706055,
+        116.0
+      ],
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_22",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        5.0,
+        5.454999923706055,
+        116.0
+      ],
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_23",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        0.0,
+        8.413095474243164,
+        -129.0
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_24",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        0.0,
+        7.850228786468506,
+        -116.0
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_25",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        3.5,
+        5.454999923706055,
+        116.0
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    },
+    {
+      "id": "oerlikon_26",
+      "host_id": "weather_deck",
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        3.5,
+        5.454999923706055,
+        92.0
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.9800000190734863,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.15999984741210938,
+          -1.9799957275390625
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "source_matched_image_proportions",
+        "note": "game_aa_supported_station"
+      }
+    }
+  ],
+  "historical_fixed_armament": [
+    {
+      "weapon_definition_id": "us_16in50_mk7_triple",
+      "mount_count": 3.0,
+      "barrels_per_mount": 3.0
+    },
+    {
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "mount_count": 10.0,
+      "barrels_per_mount": 2.0
+    }
+  ],
+  "dedicated_aa_historical": [
+    {
+      "description": "40mm quad Bofors working historical baseline; exact-date inventory not proven",
+      "mount_count": 19.0,
+      "barrels_per_mount": 4.0
+    },
+    {
+      "description": "20mm single Oerlikon earlier working fit; exact-date inventory not proven",
+      "mount_count": 52.0,
+      "barrels_per_mount": 1.0
+    }
+  ],
+  "dedicated_aa_game": [
+    {
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "mount_count": 19.0,
+      "barrels_per_mount": 4.0
+    },
+    {
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "mount_count": 26.0,
+      "barrels_per_mount": 1.0
+    }
+  ],
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "docs/references/ships/iowa_bb61_1944_12_28/modeling-brief.md"
+    ],
+    "note": "S02 source-matched main/secondary stations and real model muzzle markers. Numeric image proportions are not shipyard offsets. Dedicated AA is the separately declared game fit; exact ammunition performance awaits S05. This is a passive model scene with no camera, UI, automatic aim or simulation clock."
+  }
+}

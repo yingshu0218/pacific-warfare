@@ -1,0 +1,33 @@
+{
+  "date_cn": "2026-11-11",
+  "updated_utc": "2026-11-10T19:19:21.265137+00:00",
+  "status": "accepted_model_assembly_existing_flight_interface",
+  "accepted_by": "coordinator",
+  "acceptance": "../../acceptance/SB2C-admission-review.md",
+  "audit": "../../acceptance/SB2C-admission-root-audit.json",
+  "audited_manifest_sha256": "ec8fec31ce30d36680e64d8847e01750381ff306dc613117fd294bef130c944d",
+  "frozen_model_sha256": "6da0e7cfbb45027217bc5eda90551c3b75cacaf1151eaf8b60c30d97be18cb61",
+  "snapshot_policy": "manifest.json and interfaces.json retain their pre-acceptance generated status; frozen source hashes/capture metadata were not rewritten after review",
+  "model_frozen": true,
+  "post_acceptance_changes": [
+    "delivery and reference documents",
+    "comparison dependency clarification",
+    "reference .gdignore",
+    "this status record"
+  ],
+  "remaining_scope": [
+    "S14/S08 final scene and Chrome",
+    "OPS01 carrier operations",
+    "BOMB01 bombing/fire control",
+    "later SB2C damage/continuous-motion interfaces"
+  ],
+  "new_aircraft_started": false,
+  "execution_slot_released": true,
+  "no_additional_model_or_browser_runs_after_acceptance": true,
+  "final_packaging_run": "20261110T191232-5f42c38d",
+  "final_packaging_exit_code": 0,
+  "final_packaging_cleanup_ok": true,
+  "shared_lock_last_read_status": "released",
+  "shared_lock_last_read_owner": "DM01",
+  "shared_lock_last_release_utc": "2026-11-10T19:15:17.332379+00:00"
+}

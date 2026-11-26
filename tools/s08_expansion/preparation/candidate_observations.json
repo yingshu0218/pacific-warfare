@@ -1,0 +1,25 @@
+{
+  "observed_utc": "2026-11-11T16:25:37.023235+00:00",
+  "status": "Read-only observations of provisional candidates, not final public admission",
+  "files": {
+    "AGENTS.md": "aed51838145456e504e705d8bd889447527d2da8324e63739057a7bd2e6c8961",
+    "docs/project-plan.md": "ebccb0a488bc298cf06c5469a944a8b34f9023d383b884e7e46916fa36fe2001",
+    "docs/development-tasks.md": "04f26a9a69d7d51037256806c8bd15ab6dda52d31401e5bbab9ae1a95fc13c7e",
+    "docs/showcase/expansion-plan.md": "c9a9e681c98258344dc0883137da6995f2a27d6d6f69469a2fe0b1a9d6e63f44",
+    "docs/showcase/briefs/S14-bombing-integration.md": "8377f84658c7f84e444a6d25e611b2ea7450bc8be2b48f48278187391fad45c9",
+    "docs/showcase/acceptance/S14-expansion-phase-review.md": "56103e8842c91eaf31e54828eace52502984d9e5d3ca7e76b7d1610d2489c849",
+    "docs/showcase/acceptance/BOMB01-review.md": "8738ba2851400d4051c9ca39314149f99deb91f73106acbb001d4cbb8646a4a1",
+    "docs/showcase/S14-BOMB-integration-inputs.md": "1ac47edfae082dd062814676d3d86fb453a7ea35dfd351593c8e5f43ddd36158",
+    "candidates/s14-expansion/overrides/scripts/showcase/expansion/web_probe.gd": "898379fe97bbbde513fe3a922c2038f1e6dd7154c12a1bbdd5883917e7b592a4",
+    "candidates/s14-expansion/overrides/scripts/showcase/expansion/carrier_harbor.gd": "3212b0108a018258e655c2826271a205a4d33a132819642ecf9eddb9bdfe2ea1",
+    "tools/s14_expansion/measure.js": "f6982bc0bf684e7576a9db01b9807397649b0c9f47e066572e8e6e65cec85053",
+    "tools/s14_expansion/chrome_check.mjs": "06200a83a5b814d88f232e404a1e5cbcaebe155770118d02097ab45bdd07a7f4",
+    "candidates/bomb01/final-manifest.json": "45af9ef0475b7b27972171176f413e6c7089f7a301e1d79248cb79beec4fb5d1"
+  },
+  "observed_interfaces": {
+    "scene": "S14X.receive(state), S14X.events(rows)",
+    "metrics": "S08.ui(state), S08.accept(metrics)",
+    "warning": "Globals and field paths are replaceable; final bombing integration labels/IDs and counts remain unbound"
+  },
+  "large_history_risk": "Stage probe serializes complete orders/journal every0.25s; old measure.js retains arrays. Coordinator has assigned runtime probe compaction to S14. New collector is bounded NDJSON; it does not claim to fix producer serialization CPU."
+}

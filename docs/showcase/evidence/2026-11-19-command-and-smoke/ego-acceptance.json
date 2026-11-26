@@ -1,0 +1,522 @@
+{
+  "checks": {
+    "ordinary": true,
+    "fourIssuers": true,
+    "fourStatuses": true,
+    "selectedOrder": true,
+    "visibleShip": true,
+    "bothFighters": true,
+    "intercept": true,
+    "bombChain": true,
+    "separateFire": true,
+    "actualAirburst": true,
+    "actualGroundImpact": true,
+    "actualShipImpact": true,
+    "actualSeaImpact": true,
+    "effectTypes": true,
+    "bounded": true,
+    "realShotsCaptured": true,
+    "restart": true,
+    "clean": true
+  },
+  "evidence": {
+    "yamato-before": {
+      "name": "yamato-before",
+      "gen": 1,
+      "t": 4.18333333333333,
+      "camera": {
+        "distance_m": 407.65,
+        "focus": "(-1859.255, 10.0, -1800.214)",
+        "id": "jp_bb",
+        "label": "舰队跟随",
+        "mode": "follow",
+        "pitch": 0.32,
+        "position": "(-2099.446, 138.233, -1496.829)",
+        "shot": 1,
+        "yaw": -0.669660902023315
+      },
+      "fx": {
+        "muzzle_smoke": 24,
+        "shell": 3,
+        "tracer": 18
+      }
+    },
+    "yamato-firing": {
+      "name": "yamato-firing",
+      "gen": 1,
+      "t": 10.5833333333333,
+      "camera": {
+        "distance_m": 407.65,
+        "focus": "(-1800.992, 10.0, -1802.875)",
+        "id": "jp_bb",
+        "label": "舰队跟随",
+        "mode": "follow",
+        "pitch": 0.32,
+        "position": "(-2041.183, 138.233, -1499.489)",
+        "shot": 1,
+        "yaw": -0.669660902023315
+      },
+      "fx": {
+        "fire": 2,
+        "foam": 8,
+        "impact_dust": 1,
+        "impact_smoke": 5,
+        "mist": 4,
+        "muzzle_flash": 3,
+        "muzzle_smoke": 40,
+        "shell": 14,
+        "smoke": 187,
+        "tracer": 93,
+        "water": 10
+      },
+      "first": {
+        "gen": 1,
+        "t": 10.5666666666667,
+        "id": "jp_bb",
+        "weapon": "jp_bb/main_02",
+        "target": "us_bb",
+        "p": "projectile_00000246"
+      }
+    },
+    "yamato-drifting": {
+      "name": "yamato-drifting",
+      "gen": 1,
+      "t": 12.7333333333333,
+      "camera": {
+        "distance_m": 407.65,
+        "focus": "(-1782.683, 10.0, -1804.85)",
+        "id": "jp_bb",
+        "label": "舰队跟随",
+        "mode": "follow",
+        "pitch": 0.32,
+        "position": "(-2022.875, 138.233, -1501.464)",
+        "shot": 1,
+        "yaw": -0.669660902023315
+      },
+      "fx": {
+        "blast_sparks": 3,
+        "burst": 24,
+        "fire": 5,
+        "foam": 13,
+        "impact_dust": 1,
+        "impact_smoke": 15,
+        "mist": 10,
+        "muzzle_flash": 2,
+        "muzzle_smoke": 66,
+        "shell": 20,
+        "smoke": 121,
+        "tracer": 86,
+        "water": 18
+      },
+      "first": {
+        "gen": 1,
+        "t": 10.5666666666667,
+        "id": "jp_bb",
+        "weapon": "jp_bb/main_02",
+        "target": "us_bb",
+        "p": "projectile_00000246"
+      }
+    },
+    "yamato-dispersing": {
+      "name": "yamato-dispersing",
+      "gen": 1,
+      "t": 14.85,
+      "camera": {
+        "distance_m": 407.65,
+        "focus": "(-1765.132, 10.0, -1807.482)",
+        "id": "jp_bb",
+        "label": "舰队跟随",
+        "mode": "follow",
+        "pitch": 0.32,
+        "position": "(-2005.324, 138.233, -1504.096)",
+        "shot": 1,
+        "yaw": -0.669660902023315
+      },
+      "fx": {
+        "burst": 24,
+        "fire": 5,
+        "foam": 10,
+        "impact_dust": 4,
+        "impact_smoke": 15,
+        "mist": 6,
+        "muzzle_flash": 6,
+        "muzzle_smoke": 63,
+        "shell": 19,
+        "smoke": 156,
+        "tracer": 67,
+        "water": 9
+      },
+      "first": {
+        "gen": 1,
+        "t": 10.5666666666667,
+        "id": "jp_bb",
+        "weapon": "jp_bb/main_02",
+        "target": "us_bb",
+        "p": "projectile_00000246"
+      }
+    }
+  },
+  "ui": {
+    "gen": 1,
+    "orderDetail": "美方岸防指令 · 执行中\n港口 Mk13 岸炮 → 集中接敌 · 大和\n下达 00:00 · 接收 00:00 · 最近变化 00:00\n港口 Mk13 岸炮：执行中 · 根据己方接触追踪目标",
+    "paused_s": 0.666666666666667,
+    "paused_unchanged": true,
+    "postures": {
+      "jp": {
+        "air": {
+          "changed_s": 0.0166666666666667,
+          "changed_tick": 1,
+          "issuer_id": "jp_air_commander",
+          "posture": "offensive",
+          "reason": "posture_contact_ready"
+        },
+        "fleet": {
+          "changed_s": 12.0166666666667,
+          "changed_tick": 721,
+          "issuer_id": "jp_fleet_commander",
+          "posture": "balanced",
+          "reason": "posture_limited_force"
+        }
+      },
+      "us": {
+        "air": {
+          "changed_s": 0.0166666666666667,
+          "changed_tick": 1,
+          "issuer_id": "us_air_commander",
+          "posture": "balanced",
+          "reason": "posture_limited_force"
+        },
+        "fleet": {
+          "changed_s": 0.0166666666666667,
+          "changed_tick": 1,
+          "issuer_id": "us_fleet_commander",
+          "posture": "offensive",
+          "reason": "posture_contact_ready"
+        }
+      }
+    },
+    "ship": "大和 · 可战 · 航速15节\n转向展开 · 正在转向舷侧展开 · 余弹106962\n浮力100% · 结构100% · 火情1% / 进水0%\n动力100% · 操舵100% · 火控100% · 炮位0降效/1失效\n主炮 衣阿华×2  |  副炮 弗莱彻×2  |  防空炮 地狱猫 3 号×3、地狱猫 4 号×1、共3目标",
+    "follow": "jp_bb",
+    "shots": {
+      "yamato-before": {
+        "name": "yamato-before",
+        "gen": 1,
+        "t": 4.18333333333333,
+        "camera": {
+          "distance_m": 407.65,
+          "focus": "(-1859.255, 10.0, -1800.214)",
+          "id": "jp_bb",
+          "label": "舰队跟随",
+          "mode": "follow",
+          "pitch": 0.32,
+          "position": "(-2099.446, 138.233, -1496.829)",
+          "shot": 1,
+          "yaw": -0.669660902023315
+        },
+        "fx": {
+          "muzzle_smoke": 24,
+          "shell": 3,
+          "tracer": 18
+        }
+      },
+      "yamato-firing": {
+        "name": "yamato-firing",
+        "gen": 1,
+        "t": 10.5833333333333,
+        "camera": {
+          "distance_m": 407.65,
+          "focus": "(-1800.992, 10.0, -1802.875)",
+          "id": "jp_bb",
+          "label": "舰队跟随",
+          "mode": "follow",
+          "pitch": 0.32,
+          "position": "(-2041.183, 138.233, -1499.489)",
+          "shot": 1,
+          "yaw": -0.669660902023315
+        },
+        "fx": {
+          "fire": 2,
+          "foam": 8,
+          "impact_dust": 1,
+          "impact_smoke": 5,
+          "mist": 4,
+          "muzzle_flash": 3,
+          "muzzle_smoke": 40,
+          "shell": 14,
+          "smoke": 187,
+          "tracer": 93,
+          "water": 10
+        },
+        "first": {
+          "gen": 1,
+          "t": 10.5666666666667,
+          "id": "jp_bb",
+          "weapon": "jp_bb/main_02",
+          "target": "us_bb",
+          "p": "projectile_00000246"
+        }
+      },
+      "yamato-drifting": {
+        "name": "yamato-drifting",
+        "gen": 1,
+        "t": 12.7333333333333,
+        "camera": {
+          "distance_m": 407.65,
+          "focus": "(-1782.683, 10.0, -1804.85)",
+          "id": "jp_bb",
+          "label": "舰队跟随",
+          "mode": "follow",
+          "pitch": 0.32,
+          "position": "(-2022.875, 138.233, -1501.464)",
+          "shot": 1,
+          "yaw": -0.669660902023315
+        },
+        "fx": {
+          "blast_sparks": 3,
+          "burst": 24,
+          "fire": 5,
+          "foam": 13,
+          "impact_dust": 1,
+          "impact_smoke": 15,
+          "mist": 10,
+          "muzzle_flash": 2,
+          "muzzle_smoke": 66,
+          "shell": 20,
+          "smoke": 121,
+          "tracer": 86,
+          "water": 18
+        },
+        "first": {
+          "gen": 1,
+          "t": 10.5666666666667,
+          "id": "jp_bb",
+          "weapon": "jp_bb/main_02",
+          "target": "us_bb",
+          "p": "projectile_00000246"
+        }
+      },
+      "yamato-dispersing": {
+        "name": "yamato-dispersing",
+        "gen": 1,
+        "t": 14.85,
+        "camera": {
+          "distance_m": 407.65,
+          "focus": "(-1765.132, 10.0, -1807.482)",
+          "id": "jp_bb",
+          "label": "舰队跟随",
+          "mode": "follow",
+          "pitch": 0.32,
+          "position": "(-2005.324, 138.233, -1504.096)",
+          "shot": 1,
+          "yaw": -0.669660902023315
+        },
+        "fx": {
+          "burst": 24,
+          "fire": 5,
+          "foam": 10,
+          "impact_dust": 4,
+          "impact_smoke": 15,
+          "mist": 6,
+          "muzzle_flash": 6,
+          "muzzle_smoke": 63,
+          "shell": 19,
+          "smoke": 156,
+          "tracer": 67,
+          "water": 9
+        },
+        "first": {
+          "gen": 1,
+          "t": 10.5666666666667,
+          "id": "jp_bb",
+          "weapon": "jp_bb/main_02",
+          "target": "us_bb",
+          "p": "projectile_00000246"
+        }
+      }
+    }
+  },
+  "fleetDetail": "日方舰队指挥官 · 执行中\n大和 → 集中接敌 · 衣阿华\n下达 00:00 · 接收 00:00 · 最近变化 00:00\n大和：执行中 · 正在转向舷侧展开",
+  "observedTime": 90.3666666666667,
+  "issued": [
+    "scenario_us_command",
+    "scenario_jp_command",
+    "jp_fleet_commander",
+    "jp_air_commander",
+    "us_fleet_commander",
+    "us_air_commander",
+    "us_commander"
+  ],
+  "guns": {
+    "yamato_main": 21,
+    "iowa_main": 18,
+    "iowa_secondary_ship": 36,
+    "iowa_secondary_air": 158
+  },
+  "dogf": {
+    "us": 206,
+    "jp": 23
+  },
+  "intercept": 194,
+  "completeBombs": 24,
+  "fx": {
+    "muzzle_smoke": {
+      "requested": 741,
+      "peak_seen": 74,
+      "samples": 211
+    },
+    "muzzle_flash": {
+      "requested": 437,
+      "peak_seen": 8,
+      "samples": 85
+    },
+    "blast_flash": {
+      "requested": 343,
+      "peak_seen": 7,
+      "samples": 84
+    },
+    "impact_smoke": {
+      "requested": 78,
+      "peak_seen": 26,
+      "samples": 177
+    },
+    "impact_dust": {
+      "requested": 32,
+      "peak_seen": 25,
+      "samples": 103
+    },
+    "burst": {
+      "requested": 1035,
+      "peak_seen": 172,
+      "samples": 165
+    },
+    "shell": {
+      "requested": 144,
+      "peak_seen": 24,
+      "samples": 195
+    },
+    "tracer": {
+      "requested": 604,
+      "peak_seen": 100,
+      "samples": 211
+    },
+    "foam": {
+      "requested": 133,
+      "peak_seen": 25,
+      "samples": 176
+    },
+    "water": {
+      "requested": 399,
+      "peak_seen": 42,
+      "samples": 164
+    }
+  },
+  "realKinds": {
+    "flak": 345,
+    "sea": 130
+  },
+  "peak": 384,
+  "allocated": 384,
+  "capacity": 384,
+  "requested": [
+    "blast_flash",
+    "blast_sparks",
+    "burst",
+    "dust",
+    "fire",
+    "flash",
+    "foam",
+    "impact_dust",
+    "impact_smoke",
+    "mist",
+    "muzzle_flash",
+    "muzzle_smoke",
+    "self_destruct",
+    "shell",
+    "smoke",
+    "spark",
+    "tracer",
+    "water"
+  ],
+  "performance": {
+    "1": {
+      "samples": 131,
+      "median_ms": 133.333333333333,
+      "p95_ms": 142
+    },
+    "4": {
+      "samples": 264,
+      "median_ms": 133.333333333333,
+      "p95_ms": 142.566666666667
+    }
+  },
+  "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+  "canvas": [
+    1280,
+    720
+  ],
+  "errors": [],
+  "restart": {
+    "s": 0.116666666666667,
+    "gen": 2,
+    "priorGen": 1
+  },
+  "visual_test_pack_sha256": "338e2bd3977a2fe198fb7794e587f70b394abf8b65c6a2e83ffbc8c973f3dade",
+  "restart_stale_order_discovered": {
+    "generation": 2,
+    "simulation_s": 0.116666666666667,
+    "last_order_change_label": "01:05",
+    "fixed_by": "CMD02 verified in final package, see fresh-order-regression.json"
+  },
+  "machine": {
+    "cpu": "Apple M5",
+    "memory_bytes": 17179869184
+  },
+  "browser": "Ego Lite",
+  "visual_qa_cleanup": {
+    "server_closed": true,
+    "port_closed": true,
+    "task_space_finished": true,
+    "task_space": 6,
+    "report": ".local/validation/runs/20261119T083516-24262fb1/report.json"
+  },
+  "fresh_qa_cleanup": {
+    "server_closed": true,
+    "port_closed": true,
+    "task_space_finished": true,
+    "space": 7,
+    "receipt": {
+      "spaceId": 7,
+      "closedSpace": true,
+      "keptManagedLabels": [],
+      "closedManagedLabels": [
+        "p1"
+      ],
+      "preservedUnmanagedCount": 0
+    },
+    "reports": [
+      ".local/validation/runs/20261119T085140-f264550e/report.json",
+      ".local/validation/runs/20261119T090230-04534ff9/report.json"
+    ]
+  },
+  "normal_entry": "python3 tools/run_first_playable.py web",
+  "native_figure": "native-sequences.jpg",
+  "movie": "harbor-smoke.mp4",
+  "pck_sha256": "35ee6b83afce7b7dd3169b05cfe9ba77933ea1677cfd4033f4a6aef2494f5e0c",
+  "visual_measurement_pck_sha256": "338e2bd3977a2fe198fb7794e587f70b394abf8b65c6a2e83ffbc8c973f3dade",
+  "delta_after_full_visual_test": [
+    "ui/observer_hud.gd"
+  ],
+  "fresh_order_checks": {
+    "ordinary": true,
+    "newGeneration": true,
+    "previousAdvanced": true,
+    "clickedEarly": true,
+    "currentOrder": true,
+    "uiTimeCurrent": true,
+    "noStaleButton": true,
+    "smokeInFinal": true,
+    "clean": true
+  },
+  "fresh_order_report": "fresh-order-regression.json",
+  "initial_run_fleet_detail": "日方舰队指挥官 · 执行中\n大和 → 集中接敌 · 衣阿华\n下达 00:00 · 接收 00:00 · 最近变化 01:05\n大和：执行中 · 维持炮战距离"
+}

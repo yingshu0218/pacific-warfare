@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T154145-252a7648",
+  "owner": "S13-web-build",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-web-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 41547,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-web-project",
+      "pid": 41555,
+      "process_group": 41555,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2401,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T154145-252a7648/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-web-project",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-web-project",
+      "pid": 41556,
+      "process_group": 41556,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 3.6847,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T154145-252a7648/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S13-web-build",
+    "pid": 41547,
+    "process_identity": "Tue Nov 10 23:41:45 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S13-web-build --timeout 180 --project /Users/infinity/Desktop/Dev/game-pacific/.local/s13-web-project import",
+    "token": "81fd7485b7bd4d9fb8fdd6d656c91c93",
+    "acquired_utc": "2026-11-10T15:41:52.487776+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

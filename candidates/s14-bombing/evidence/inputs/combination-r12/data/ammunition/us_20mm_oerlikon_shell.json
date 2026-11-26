@@ -1,0 +1,15 @@
+{
+  "id": "us_20mm_oerlikon_shell",
+  "caliber_m": 0.02,
+  "projectile_mass_kg": 0.123,
+  "muzzle_speed_mps": 820.0,
+  "gravity_mps2": 9.80665,
+  "max_lifetime_s": 10.0,
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "docs/showcase/deliveries/S02.md"
+    ],
+    "note": "Descriptive integration values for the model catalog only. Ammunition subtype, exact historical ballistics, cycle, fuze and damage are S05 work; lifetime is a safety bound. No firing mechanism is implemented in S02."
+  }
+}

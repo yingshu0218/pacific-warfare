@@ -1,0 +1,180 @@
+{
+  "run_id": "20261111T152901-fa1ac8cf",
+  "owner": "BOMB01",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 4001,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+      "pid": 4003,
+      "process_group": 4003,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2363,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T152901-fa1ac8cf/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+        "--script",
+        "res://tests/bombing/test_mechanisms.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+      "pid": 4004,
+      "process_group": 4004,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.8382,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T152901-fa1ac8cf/01-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+        "--script",
+        "res://tests/bombing/test_tasks.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+      "pid": 4006,
+      "process_group": 4006,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 4.9091,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T152901-fa1ac8cf/02-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+        "--script",
+        "res://tests/bombing/test_commander.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+      "pid": 4013,
+      "process_group": 4013,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.5682,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T152901-fa1ac8cf/03-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+        "--script",
+        "res://tests/bombing/test_attacks.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+      "pid": 4014,
+      "process_group": 4014,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 3.2477,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T152901-fa1ac8cf/04-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+        "--script",
+        "res://tests/bombing/test_visual_contract.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+      "pid": 4017,
+      "process_group": 4017,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.8872,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T152901-fa1ac8cf/05-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+        "--script",
+        "res://tests/bombing/export_integration.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+      "pid": 4018,
+      "process_group": 4018,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.243,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T152901-fa1ac8cf/06-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "BOMB01",
+    "pid": 4001,
+    "process_identity": "Wed Nov 11 23:29:01 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner BOMB01 --timeout 55 --lock-timeout 55 --project .local/bomb01/r17 test res://tests/bombing/test_mechanisms.gd res://tests/bombing/test_tasks.gd res://tests/bombing/test_commander.gd res://tests/bombing/test_attacks.gd res://tests/bombing/test_visual_contract.gd res://tests/bombing/export_integration.gd",
+    "token": "65de6a9a397545ba9ed25ded9c286a33",
+    "acquired_utc": "2026-11-11T15:29:01.884252+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

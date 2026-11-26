@@ -1,0 +1,66 @@
+[
+  {
+    "destination": "scripts/simulation/state/ammo_definition.gd",
+    "S14_before_sha256": "badbb84917501ce4613c718dc53a65154e59ced89ed598895da4cbf3fb7d6cea",
+    "BOMB_patch": "docs/showcase/evidence/BOMB01/final/patches/ammo_definition.gd.patch",
+    "BOMB_patch_sha256": "de018a2fe2f24094edd7e53d65b8ad8eefb9079816193d4eefc909f91dcc139c",
+    "combined_sha256": "2a8b1bbdc0fd7938959e5fc70ed27cfaf40277c02f258da1a2a6ed408da604c2",
+    "patrol_duration_preserved": false
+  },
+  {
+    "destination": "scripts/simulation/state/definition_catalog.gd",
+    "S14_before_sha256": "b9e467756796528ca7c9883a22342bd0926034e86710728d66dc32a67903735f",
+    "BOMB_patch": "docs/showcase/evidence/BOMB01/final/patches/definition_catalog.gd.patch",
+    "BOMB_patch_sha256": "01368facbf34aedb9b5763a8630080c63febb0f1c4eb0fe97501f836093b7e26",
+    "combined_sha256": "0ea764c9e78ae1910149ccd1c4aee46e5d216e2b13f5e550e9f8906becd93ee8",
+    "patrol_duration_preserved": false
+  },
+  {
+    "destination": "scripts/simulation/state/battle_order.gd",
+    "S14_before_sha256": "bdcbba5681e0bb9d7116844dfa5974df421a1f2fab39ec7b1f4af51308cfb795",
+    "BOMB_patch": "docs/showcase/evidence/BOMB01/final/patches/battle_order.gd.patch",
+    "BOMB_patch_sha256": "d33a325095a4b30c6eadd70cf09d0c5cbb9f54c0ac8aa53ec9969c43838f61cd",
+    "combined_sha256": "d4b00f71ac039b3dd40de9ab7b4cd7f53f056fdb1758a5eacd1c1beb9c1b4770",
+    "patrol_duration_preserved": false
+  },
+  {
+    "destination": "scripts/simulation/simulation_world.gd",
+    "S14_before_sha256": "671889fa4d7b06b0cad1e5eb3cdd5ac66015e37d8b762e466e42268f8aeb6e67",
+    "BOMB_patch": "docs/showcase/evidence/BOMB01/final/patches/simulation_world.gd.patch",
+    "BOMB_patch_sha256": "a05d83784142aa01a73f675ea686eaeb7a389c6aadf7c47ef87f522b07590cdf",
+    "combined_sha256": "8c78d2db1b084593c23e22ccdcb4bc22f1b65b3e39e86ae122a21ab7f81dd9e9",
+    "patrol_duration_preserved": true
+  },
+  {
+    "destination": "scripts/simulation/projectiles/combat_projectiles.gd",
+    "S14_before_sha256": "ad3741f755823d14d602b14b12e1b72b50752c88aa04a1143cb459c21b5cde64",
+    "BOMB_patch": "docs/showcase/evidence/BOMB01/final/patches/combat_projectiles.gd.patch",
+    "BOMB_patch_sha256": "1d3987ec9a75736c54131d14ead509589fc57472aef54088a6d006474a4d2c81",
+    "combined_sha256": "50aad091f85cb7635862d6173d222470c596ea4b8cfcda98a69ed9ae0e50ef46",
+    "patrol_duration_preserved": false
+  },
+  {
+    "destination": "scripts/simulation/damage/combat_damage.gd",
+    "S14_before_sha256": "10e7c121f1fa0ec50cc6fe7c98cc7cd8f8c3817a8cc12be8c0ad1ec14e511641",
+    "BOMB_patch": "docs/showcase/evidence/BOMB01/final/patches/combat_damage.gd.patch",
+    "BOMB_patch_sha256": "c710028378046f0ecbb044ab8710c9b278435d980a2ae2f07c0b5b41468e8065",
+    "combined_sha256": "195117faec87a0c7137644a6db7941bde257e6fe18821bed2175c88215912edf",
+    "patrol_duration_preserved": false
+  },
+  {
+    "destination": "scripts/simulation/aircraft_motion/aircraft_motion.gd",
+    "S14_before_sha256": "92f6cbe23a808ba28e124b2deff9b301e785168fcb7dbc83aaafe9fe08af8c2a",
+    "BOMB_patch": "docs/showcase/evidence/BOMB01/final/patches/aircraft_motion.gd.patch",
+    "BOMB_patch_sha256": "5879ad317e753e5350e3c24500140ed5ca15b59c23c6fe767fbd67c1992b931c",
+    "combined_sha256": "4a87d6df9b1ba14c81c71cf7e064efc834919196bb8dd8948ca4a3d9a0ffd772",
+    "patrol_duration_preserved": false
+  },
+  {
+    "destination": "scripts/behaviors/aircraft/aircraft_tasks.gd",
+    "S14_before_sha256": "e0e8ebf6f6fe25653072fb766105dea56a4f61eb926ff17f22e263889595e0ff",
+    "BOMB_patch": "docs/showcase/evidence/BOMB01/final/patches/aircraft_tasks.gd.patch",
+    "BOMB_patch_sha256": "bb9dae94ef6a91b4c24052fec3fbfe7c7150b8a6d134b2822ec52ab5c6f6ec29",
+    "combined_sha256": "b580d3dc4b573ac62b4833cf8fdf1408ded1ecc63080de3ce8d6f011aa09c1b1",
+    "patrol_duration_preserved": false
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "source": "docs/showcase/evidence/S08/chrome-audio/chrome-audio-fixed/audio-1.webm",
+  "sha256": "11bfb6cff49035ed41ab9cb037314b4a795461ecc63a8618406361a693e2d52f",
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "opus",
+        "sample_rate": "48000",
+        "channels": 2
+      }
+    ],
+    "format": {
+      "duration": "7.919943"
+    }
+  },
+  "levels": {
+    "Peak level dB": [
+      -33.83681,
+      -37.701446,
+      -33.83681
+    ],
+    "RMS level dB": [
+      -54.56089,
+      -56.345829,
+      -55.362297
+    ]
+  },
+  "ffmpeg_returncode": 0,
+  "scope": "Actual Web Audio output captured in Chrome. No microphone capture or source-file substitution."
+}

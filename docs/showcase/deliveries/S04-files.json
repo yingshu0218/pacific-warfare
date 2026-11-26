@@ -1,0 +1,290 @@
+{
+  "owner": "S04",
+  "files": {
+    "aircraft/models/a6m5_52ko.gd": {
+      "bytes": 11000,
+      "sha256": "4d1860229384835232ba9b1b2b72fecb8ad859623e6a9dfaa69a998b4eb8ad64"
+    },
+    "aircraft/models/f6f5.gd": {
+      "bytes": 13026,
+      "sha256": "4f275e9627cda4cbe7a261b2e37ff50da8e11e2740a16540e960418e674f0144"
+    },
+    "aircraft/scripts/aircraft_builder.gd": {
+      "bytes": 54822,
+      "sha256": "b8f926d719e0cf8a6819da01678c23974005a9b79471643d5fb5c1a43ee4871c"
+    },
+    "data/aircraft/performance.json": {
+      "bytes": 2008,
+      "sha256": "061c57ffdace592374bbf5e4f1c27de96ab8fb68725480d30601bffaee9511d3"
+    },
+    "data/units/jp_a6m5a_1944.json": {
+      "bytes": 4274,
+      "sha256": "c54709cc15211cdc43cdb25b7215ccabffb169a9c62176c2880f5d74a62b9f8f"
+    },
+    "data/units/us_f6f5_1944.json": {
+      "bytes": 6347,
+      "sha256": "74eacb1d1ec2ece8b1ef2a6fbc585556876915d0bf678c96a1ffb0d48444d734"
+    },
+    "data/units/weapons/jp_type97_77mm_single.json": {
+      "bytes": 587,
+      "sha256": "202105eaf426289880ab5e79121791853f8c821d9b51b5ea0cfce4311dbdf713"
+    },
+    "data/units/weapons/jp_type99_2_model4_20mm_single.json": {
+      "bytes": 600,
+      "sha256": "6da133cdcf55fded5825ac4ca90c780dc6b21efbc3f5d40033957000291b3f4a"
+    },
+    "docs/aircraft-contracts.md": {
+      "bytes": 9655,
+      "sha256": "6a2044bf9f59c2b28557eec09b7d948036e29292aab366cfc1565f9b9728f7a5"
+    },
+    "docs/references/aircraft/.gdignore": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/references/aircraft/a6m5a_1944/modeling-brief.md": {
+      "bytes": 4659,
+      "sha256": "673fd4dc8db590c65e38a08b37cc986eb30ac7e5b7e4b6440bff40dbd434e650"
+    },
+    "docs/references/aircraft/a6m5a_1944/original/A2A-2006-05-19_A6M5_Zero_01.jpg": {
+      "bytes": 123099,
+      "sha256": "e87d4b7afcc2513224a920eaac85a8cf8f77b19935b34c9085c0b9e935f34f42"
+    },
+    "docs/references/aircraft/a6m5a_1944/original/A2A-2006-05-19_Spitfire_MkIXe_-_A6M5_Zero_02.jpg": {
+      "bytes": 119816,
+      "sha256": "ebe1358a8fbee9ffd203cf560a633675c6e2c160a7c0d0d3f6a341f968df4353"
+    },
+    "docs/references/aircraft/a6m5a_1944/original/manual-page-01.png": {
+      "bytes": 682577,
+      "sha256": "78170e68af3210877514f1184e2df2bbe119cee79aaa0ef4b4a806c5e075d541"
+    },
+    "docs/references/aircraft/a6m5a_1944/original/manual-page-11.png": {
+      "bytes": 814870,
+      "sha256": "73f506bdea1f50b4a54cd4021e745a51fb67832ef02a088fb57df9d0e3f9daac"
+    },
+    "docs/references/aircraft/a6m5a_1944/original/manual-page-14.png": {
+      "bytes": 495330,
+      "sha256": "f231bff77287d94462ae92ca3415a695a00dbea3793e7f89f9a082b43b47964a"
+    },
+    "docs/references/aircraft/a6m5a_1944/original/pof-a6m5.jpg": {
+      "bytes": 198523,
+      "sha256": "aeb55d96dec78a31ce467633bdb9810d4660980be07a51685ed7346ad8b48e2d"
+    },
+    "docs/references/aircraft/a6m5a_1944/original/pof-aslito.jpg": {
+      "bytes": 62580,
+      "sha256": "48bd9784bf7cd46972d7b96b8667cc2273080e79a82e82ac6c8fc875f6ccbc25"
+    },
+    "docs/references/aircraft/a6m5a_1944/original/tamiya-61103.pdf": {
+      "bytes": 3820261,
+      "sha256": "e1125c5fae1ac6ef1b53441fe33eb9b3be97ce6299765e328c07bee1994b2f8f"
+    },
+    "docs/references/aircraft/a6m5a_1944/sources.json": {
+      "bytes": 2431,
+      "sha256": "3be0e3a96397252af441afd6c21625ca44eaf586409ba4e499cfed4a2f1775e3"
+    },
+    "docs/references/aircraft/f6f5_1944/modeling-brief.md": {
+      "bytes": 4438,
+      "sha256": "ad1d371b17940bbae8e4cb772437985dc4944bd54a510ad7b60fc62f68e2d78d"
+    },
+    "docs/references/aircraft/f6f5_1944/original/EVG_5707.jpg": {
+      "bytes": 127504,
+      "sha256": "24b1021e204f20fe23d07480617f2a11313cd90d2646dff0aae0331f8b3ba687"
+    },
+    "docs/references/aircraft/f6f5_1944/original/EVG_5740.jpg": {
+      "bytes": 120914,
+      "sha256": "d3665eedd42270adc84ce8ff418f26794515af5d361f595e26f0247ba5b87c11"
+    },
+    "docs/references/aircraft/f6f5_1944/original/EVG_7417.jpg": {
+      "bytes": 119298,
+      "sha256": "2b0868709f3fd4f1dd141bfd29ab49f7903e6fc0799762bd729bc55a397a1eea"
+    },
+    "docs/references/aircraft/f6f5_1944/original/f6f-pilot-handbook.pdf": {
+      "bytes": 3003339,
+      "sha256": "2750c8db9dddabb150de59c533ab13696d48d30e3c3cad53dbb65dd2f71ae9c3"
+    },
+    "docs/references/aircraft/f6f5_1944/original/f6f5-performance-plate-iii.png": {
+      "bytes": 395379,
+      "sha256": "6edce4df6a24b2cfdf40aecf141ea24c35a566985773a115876774a62a60826b"
+    },
+    "docs/references/aircraft/f6f5_1944/original/manual-page-090.png": {
+      "bytes": 235785,
+      "sha256": "435739188b464ecab04659ca8c18a64690b41a5e94ea5a082bd534b68ac67181"
+    },
+    "docs/references/aircraft/f6f5_1944/original/manual-page-091.png": {
+      "bytes": 235113,
+      "sha256": "08b3733ef8deb145152f69518ec33c3ed2417545719f5482db6bf4f6ccba75f9"
+    },
+    "docs/references/aircraft/f6f5_1944/original/manual-page-092.png": {
+      "bytes": 171736,
+      "sha256": "bf518c7689e943eb5bd18cef8c34cb643e9c6cfbcd439f5d5441fca7f5544c0d"
+    },
+    "docs/references/aircraft/f6f5_1944/original/manual-page-099.png": {
+      "bytes": 114616,
+      "sha256": "437a2fb6495788c3fedbc37d456cd8d6a663ce79c69bffc73de34ad075656c9c"
+    },
+    "docs/references/aircraft/f6f5_1944/sources.json": {
+      "bytes": 2275,
+      "sha256": "17205233feb599a077d04df7b9b09910a8a49420fa6173acc28f13201d772605"
+    },
+    "docs/showcase/evidence/S04/.gdignore": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "docs/showcase/evidence/S04/capture-metrics.json": {
+      "bytes": 42240,
+      "sha256": "515e22c2c9a9c4aaed9f8a68264bfcab9f38efb8de2738ab095bc194f7f1f930"
+    },
+    "docs/showcase/evidence/S04/jp_a6m5a_1944_front.png": {
+      "bytes": 25722,
+      "sha256": "49d2819c70d02bff5c8ff4f09be1678d03b02f1178ab9c67774bcfe1a8e67ffb"
+    },
+    "docs/showcase/evidence/S04/jp_a6m5a_1944_quarter.png": {
+      "bytes": 81877,
+      "sha256": "824ca4f08ad3609f513cd08a19b4021d20831c3b792f8908ac6d93ce9e2c294b"
+    },
+    "docs/showcase/evidence/S04/jp_a6m5a_1944_side.png": {
+      "bytes": 49878,
+      "sha256": "052ad8a7efa0fdcc9e1b8cf8f7ea22eac5a0e0a3e3f9e1575bca0b8528ae8f77"
+    },
+    "docs/showcase/evidence/S04/jp_a6m5a_1944_top.png": {
+      "bytes": 85876,
+      "sha256": "9bd5227a5ae3beadb95e9221fa082fceba173b6e0b1a16f1f79f45885960b49b"
+    },
+    "docs/showcase/evidence/S04/jp_a6m5a_1944_underside.png": {
+      "bytes": 22054,
+      "sha256": "bb23e4860f4b4f70511cae9028b24e18608288238271c820951cacf6a877d080"
+    },
+    "docs/showcase/evidence/S04/motion_00.png": {
+      "bytes": 69504,
+      "sha256": "4fdf416d2d56fbcedaf1b86490918db0b7f4e036f1bbc5f72ddb1eb9e4ac3993"
+    },
+    "docs/showcase/evidence/S04/motion_01.png": {
+      "bytes": 81290,
+      "sha256": "bd5d0af8fad93df542a435eccfb57ee7ccd8244dd54a922eea5bd3e4164c15d3"
+    },
+    "docs/showcase/evidence/S04/motion_02.png": {
+      "bytes": 59322,
+      "sha256": "1a1b75dae4ef2b5ee7a9348b44aad4c401732b63d8af2c14e4b28f3615bd5655"
+    },
+    "docs/showcase/evidence/S04/motion_03.png": {
+      "bytes": 51678,
+      "sha256": "0469163005daa468296d5804a717addb564e564237681f4ff0226ed0e79eaf0c"
+    },
+    "docs/showcase/evidence/S04/motion_04.png": {
+      "bytes": 46858,
+      "sha256": "832e43cf6a9f8c64367dc4dadea26412b6764d6d3e2c8271b8605ef2754c8c04"
+    },
+    "docs/showcase/evidence/S04/motion_05.png": {
+      "bytes": 44742,
+      "sha256": "f44956bb6a7cc2eeeb0e88cc2f63e818a1473e8b00993234e00874fc5ceac175"
+    },
+    "docs/showcase/evidence/S04/motion_06.png": {
+      "bytes": 45378,
+      "sha256": "a7715f29be61108af652ba3d92b540172c943ce769ff832f308ee4845322193d"
+    },
+    "docs/showcase/evidence/S04/us_f6f5_1944_front.png": {
+      "bytes": 35107,
+      "sha256": "4cd6d1d1361dc5c384e926fde9b25504cb526dcb0d8c37b7decc3915f4f58c3e"
+    },
+    "docs/showcase/evidence/S04/us_f6f5_1944_quarter.png": {
+      "bytes": 107411,
+      "sha256": "b706e753a7bb1fff493fd057088132e9b30b8464429604e8c601a4a51c54658d"
+    },
+    "docs/showcase/evidence/S04/us_f6f5_1944_side.png": {
+      "bytes": 67944,
+      "sha256": "25fcc8aeba6f85b0f0c49b70c075cfea3cf40de5b1257eb9e6663cbee56f32b3"
+    },
+    "docs/showcase/evidence/S04/us_f6f5_1944_top.png": {
+      "bytes": 121629,
+      "sha256": "084ddd674ed4ccfecbbd26fed25257a9042bfe3e386a9c216492b53a8e4c551b"
+    },
+    "docs/showcase/evidence/S04/us_f6f5_1944_underside.png": {
+      "bytes": 21808,
+      "sha256": "c621eef9d54ff04d7ce2b405909d0664261a3ec8c76abb004316c42aaa419ba6"
+    },
+    "scenes/units/aircraft/a6m5a_flight.tscn": {
+      "bytes": 223,
+      "sha256": "b6a9138c45e7f3f273bc879acd8b66f40a28abfe9bd10c6d98e8e8fee63f141d"
+    },
+    "scenes/units/aircraft/f6f5_flight.tscn": {
+      "bytes": 221,
+      "sha256": "94da620a3b1710339b03d5eb9e1d0ebcc1f011b0e7e5a6478bd2c42b8241fff2"
+    },
+    "scripts/behaviors/aircraft/air_formations.gd": {
+      "bytes": 2389,
+      "sha256": "2f30b0104c273e043e1f353fd2aabdfe7747060a642dfe5400b67974d178b0c4"
+    },
+    "scripts/behaviors/aircraft/air_formations.gd.uid": {
+      "bytes": 20,
+      "sha256": "9ae87bab54ee2a87088e27b6d5520fa00de6ec45b024806dd79a20040705d92f"
+    },
+    "scripts/behaviors/aircraft/aircraft_suite.gd": {
+      "bytes": 405,
+      "sha256": "8bcfdb5b16bfb6f2dbbf50083b74960c1631592b9a945df9103cca067caa6b1e"
+    },
+    "scripts/behaviors/aircraft/aircraft_suite.gd.uid": {
+      "bytes": 19,
+      "sha256": "f3d6fb0d8fc18ff8caaabe220b2db41dda923d8710295aa572bc94b19ecb4a12"
+    },
+    "scripts/behaviors/aircraft/aircraft_tasks.gd": {
+      "bytes": 20459,
+      "sha256": "03486697696eaa7b95ee0697aeac014951370b7c5795ccc66db66a02bfb903a4"
+    },
+    "scripts/behaviors/aircraft/aircraft_tasks.gd.uid": {
+      "bytes": 20,
+      "sha256": "d26cd2fd783577c3c66fcbf50c5d0857dba27bf30c6d383333c836ec90c98e20"
+    },
+    "scripts/presentation/models/aircraft_adapter.gd": {
+      "bytes": 2793,
+      "sha256": "69528d1e200f73095d5b11579bde8a9f531e016e20df708159a30e825e1b655c"
+    },
+    "scripts/simulation/aircraft_motion/aircraft_motion.gd": {
+      "bytes": 6843,
+      "sha256": "58d306a95f43986dc3229a7ebe170e7fb93bd154e57d9747063d05a77b010354"
+    },
+    "scripts/simulation/aircraft_motion/aircraft_motion.gd.uid": {
+      "bytes": 20,
+      "sha256": "a571ddd5668a2a05ae284098a0c49b16998633f6e91454209242fb8ceec492fe"
+    },
+    "scripts/simulation/aircraft_motion/aircraft_performance.gd": {
+      "bytes": 404,
+      "sha256": "29294a4d57e1382e6f755c66988808e5db192d296dd00305bebc5deecab77713"
+    },
+    "scripts/simulation/aircraft_motion/aircraft_performance.gd.uid": {
+      "bytes": 20,
+      "sha256": "396c521b2acc1b678405c7332a7fee85989c4ec0453fe2b7b07541ac037e7ecd"
+    },
+    "tests/aircraft_capture.gd": {
+      "bytes": 3867,
+      "sha256": "0b836da9823d3815d87048a54e68d3d590da2407202b426fcf4789077e1261e4"
+    },
+    "tests/fixtures/aircraft_fixture.gd": {
+      "bytes": 4014,
+      "sha256": "cd37095603c113d8ae51b8c06013f71f56a615e67c32b29001b278868d79a959"
+    },
+    "tests/test_aircraft_combat.gd": {
+      "bytes": 6672,
+      "sha256": "426046d18cc409fa5211dc801d09fcab0719e33effcfac832c9f0553d2ca9f91"
+    },
+    "tests/test_aircraft_models.gd": {
+      "bytes": 3113,
+      "sha256": "d1181d88f1e11b3cb4f4b306936428a64af6261c3497fe4045244c94b9c490ed"
+    },
+    "tests/test_aircraft_motion.gd": {
+      "bytes": 4106,
+      "sha256": "ddac148caac1aa6f2285ecc49f23d2a91930088be69ad9c174275a4c3c638545"
+    },
+    "tests/test_aircraft_replay.gd": {
+      "bytes": 1616,
+      "sha256": "ee28b817923e8a28e0b8cdb289bbd49c54a56fd592f2585d2e86413aa3d15be5"
+    },
+    "tests/test_aircraft_tasks.gd": {
+      "bytes": 8718,
+      "sha256": "c83e9fd48f2d2ff861a5778d4fcacb72f11bf0f547d096b46dc804e1bfc231ff"
+    },
+    "tools/audit_aircraft_cleanup.py": {
+      "bytes": 1990,
+      "sha256": "a1846be6ad2e5768eacaa5ea452a6901ccbfaf39945ac548429cf21640ac0e55"
+    }
+  },
+  "combat_parameters_owner": "S05; ammunition/combat data are integration dependencies, not S04-owned final files"
+}

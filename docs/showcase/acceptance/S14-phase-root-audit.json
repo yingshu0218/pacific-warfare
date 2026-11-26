@@ -1,0 +1,30 @@
+{
+  "task": "S14",
+  "reviewed_utc": "2026-11-10T18:27:22.404885+00:00",
+  "status": "phase_only_final_dependencies_pending",
+  "sources_checked": 25,
+  "mismatches": [],
+  "groups_checked": 26,
+  "remaining_groups": [],
+  "chrome_started": false,
+  "actual_viewed": [
+    "native/normal_ui.png",
+    "native/weapon_2.png (failed)",
+    "native/weapon_4.png (failed)",
+    "gallery-final/weapon_2_plate_on.png",
+    "gallery-final/weapon_4_plate_on.png",
+    "native/pair/frame_0120.png",
+    "native/four/frame_0000.png",
+    "native/maneuver/frame_0120.png",
+    "native/escort/frame_0120.png"
+  ],
+  "pending": [
+    "SB2C actual model admission",
+    "both fighter real 360 training",
+    "escort close views",
+    "full four/escort continuous loop",
+    "Chrome and final user launcher"
+  ],
+  "evidence_files_checked": 1075,
+  "evidence_mismatches": []
+}

@@ -1,0 +1,62 @@
+--- a/scripts/simulation/damage/combat_damage.gd
++++ b/scripts/simulation/damage/combat_damage.gd
+@@ -26,8 +26,10 @@
+ func fixed_update(world_ref: RefCounted, delta_s: float) -> void:
+ 	var world: SimulationWorld = world_ref as SimulationWorld
+ 	for event: BattleEvent in world.events_for_tick(world.tick):
+-		if event.kind == "hit" and bool(event.data.damage_allowed):
++		if event.kind == "hit" and event.data.get("release_mode", "gun") != "gravity_release" and bool(event.data.damage_allowed):
+ 			_apply(world, event.target_id, str(event.data.part_id), float(event.data.armor_mm), event, 1.0)
++		elif event.kind == "bomb_explosion":
++			_bomb_blast(world,event)
+ 		elif event.kind == "airburst":
+ 			_blast(world, event)
+ 		elif event.kind == "unit_surface_contact":
+@@ -222,6 +224,47 @@
+ 		if not blocked:
+ 			_apply(world, id, "control", 0.0, event, pow(1.0 - distance / radius, 2) * 0.03)
+ 
++## One exposure per entity, nearest real proxy; every domain uses the same _apply.
++## A decorative MAP02 solid can block a blast but has no invented health/statistic.
++func _bomb_blast(world: SimulationWorld, event: BattleEvent) -> void:
++	var profile: Dictionary = config.data.ammo_profiles[event.data.ammo_id]
++	var radius: float = float(profile.blast_radius_m)
++	var origin: Vector3 = event.position_m + (event.data.get("normal",Vector3.UP) as Vector3)*0.25
++	for id: String in world.unit_ids():
++		var unit: UnitState = world.get_unit(id)
++		if not CombatPresence.is_present(unit.module_data): continue
++		if unit.faction_id == event.data.source_faction_id and not bool(config.data.environment.friendly_fire): continue
++		var transform: Transform3D = unit.world_transform()
++		var local: Vector3 = transform.affine_inverse()*event.position_m
++		var distance: float = INF
++		var selected: Dictionary = {}
++		var point: Vector3 = unit.position_m
++		for box: Dictionary in frame.proxies[id]:
++			var center: Vector3 = SimData.vec3(box.center_m)
++			var half: Vector3 = SimData.vec3(box.half_extents_m)
++			var candidate: Vector3 = transform*local.clamp(center-half,center+half)
++			var d: float = candidate.distance_to(event.position_m)
++			if d < distance:
++				distance = d
++				selected = box
++				point = candidate
++		if distance >= radius or selected.is_empty(): continue
++		if id != event.target_id:
++			var end: Vector3 = point+(origin-point).normalized()*0.05
++			if world.shared_state.has("terrain") and not TerrainQueries.segment_hit(world,origin,end,false).is_empty(): continue
++			if CombatGeometry.masked(origin,end,config.data.environment.get("solids",[])): continue
++			var blocked: bool = false
++			for blocker_id: String in frame.proxies:
++				if blocker_id == id or not CombatPresence.is_present(world.get_unit(blocker_id).module_data): continue
++				var inverse: Transform3D = world.get_unit(blocker_id).world_transform().affine_inverse()
++				if CombatGeometry.masked(inverse*origin,inverse*end,frame.proxies[blocker_id]):
++					blocked = true
++					break
++			if blocked: continue
++		var blast: BattleEvent = event.copy()
++		blast.data["energy_j"] = float(profile.explosive_kg)*4184000.0
++		_apply(world,id,str(selected.part),float(selected.get("armor_mm",0)),blast,pow(1.0-distance/radius,2))
++
+ func _disable(world: SimulationWorld, unit: UnitState, reason: String) -> void:
+ 	if unit.module_data.damage.has("aircraft"):
+ 		AircraftDamageMotion.begin_terminal(unit)

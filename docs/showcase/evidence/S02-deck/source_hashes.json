@@ -1,0 +1,91 @@
+{
+  "utc": "2026-11-10T16:50:05.290426+00:00",
+  "runtime_at_native_after_and_chrome": {
+    "scenes/inspection/yamato_deck_capture.tscn": "4a2c8bb9ef67c121c8ff8084844b4e0db61a64f55f9ac6f00cee3ba0705607bf",
+    "scripts/presentation/models/yamato_deck_capture.gd": "6766d5e73ddcf05d9539b98ccae380e5b3a4dfd0626c7deac01385ae5c7fa72a",
+    "scripts/presentation/models/capital_ship_adapter.gd": "a873e4985d2fcf4d20275cd085609ac16ca9d96df6808c645cce4a67c485ef45",
+    "scripts/weapon_mount.gd": "d6ed136f431571e8015b2d6d0679bdd704e8c65a61697cac64e7771bf6eb27eb",
+    "data/weapon_profiles.json": "ccd5d113456c1049e33ba77b5ae2bca984f0c95c817ff3d62c966756f1951448",
+    "data/yamato_1944_mounts.json": "dce0e5b9bbb16cacd43ec85e29031346c77ac897a1a0867c1171a52aa00f6c14",
+    "assets/naval/models/us_iowa_1944/scenes/iowa_bb61.tscn": "a7f87e23375582b8fcff3c3478031cec5a9d022b237a67d96cc3b0ab43081c07",
+    "assets/naval/models/us_iowa_1944/scripts/iowa_ship.gd": "9b4e9605ba14b725ce9fa4c088c4c7993f35a7b077d3cdbb1b293377b088718f",
+    "assets/naval/models/us_iowa_1944/data/december_1944.json": "de403bf3adfc03a27d6126df0becd2f00f6812013236587813e80cfe4c84235f",
+    "assets/naval/models/us_iowa_1944/scripts/iowa_simulation.gd": "0dce149c126163dc1502a1f6c7a1abbbc023541e6250f678c63e8ecf7b512ff3",
+    "assets/naval/models/us_iowa_1944/scripts/iowa_camouflage_mask.gd": "14bf701f63201dd0045de83d716c7a77c28267a400caf8175bd89d0edc8ec07b",
+    "assets/naval/models/us_iowa_1944/shaders/iowa_measure32_1b.gdshader": "d4401f784371d48899a2082b0a3bb0d8deec5a0f87472d1d0c86701132af333f",
+    "assets/naval/models/us_iowa_1944/scenes/equipment/aircraft_crane_lattice.tscn": "b4c8ad3989622bfb76323d444a938afcf779dad8342aede0fe3daf59720ea1e1",
+    "assets/naval/models/us_iowa_1944/scripts/iowa_equipment_module.gd": "89c18bac9d6df620f11fc8c228f8456da2acdae51d261ee1e8add0de0005832d",
+    "assets/naval/models/us_iowa_1944/scripts/iowa_geometry.gd": "1a1b4793f22deaa80d14265276de73d504fab0253cc4138a3ebfdf28b210bbb3",
+    "assets/naval/models/us_iowa_1944/scenes/equipment/aircraft_catapult_turntable.tscn": "57959c289bbc958d256cc2f78e289869b2c0b4f8354a64b178ef76da53804567",
+    "assets/naval/models/us_iowa_1944/scenes/weapons/oerlikon_20mm_single.tscn": "02bde3d4216ec4ec570baddb84598fa91a37e8e6b8a46ad777df834e72e0652b",
+    "assets/naval/models/us_iowa_1944/scripts/iowa_weapon_mount.gd": "2fe6c8870735fe18f135f9a09bb8fb293338230eb122bb076f890e784e4d1ee2",
+    "assets/naval/models/us_iowa_1944/scenes/weapons/bofors_40mm_quad.tscn": "82025c71ca9222beb1d2a5aad4596a642dba5a73fc42960a0a05a66b3008c558",
+    "assets/naval/models/us_iowa_1944/scenes/weapons/secondary_5in38_twin.tscn": "c0b65619ee9887a7460343a148142c69b5fa02efc0313af162a03a1304fc5d5c",
+    "assets/naval/models/us_iowa_1944/scenes/weapons/main_16in_three_gun.tscn": "0173e51333e93320f17a2be11a8bc5939a8ff5e8e23bb88fa8fe71a0316fa1bd",
+    "assets/naval/models/us_iowa_1944/scripts/iowa_mount_foundation.gd": "a0eae07096eb4b1a585a333a12b86d1500dfb07b3d540069549d43d9068f4c7c",
+    "scripts/ship_geometry.gd": "851e631f6492523385336522c02e32addee6ef7640663ac905fb72e160369d6f",
+    "scripts/naval/weapons/turret_housing_module.gd": "d92a0272baba449df0548e7d62e4f35071e356e19cdce4a4986d19eecb03dc18",
+    "data/funnel_geometry.json": "ccadf830ba0788dfbf8126b4f077f7902464547852f57c64b6f8e18145847688",
+    "data/bridge_geometry.json": "05006ed80f29529207b0c78858616566015a143a937f37f5e7e4d6631b192bb5",
+    "data/shelter_deck.json": "733965e366cc01c44597f9c5d6c0291e201b0a6df2ecb676e24a993731de72d8",
+    "data/aft_bridge_geometry.json": "381317c097c8c9f99459a669125cd032867234f12db90ce460645df9745448de",
+    "assets/naval/hulls/yamato_simple_hull.gdshader": "678843b8648262aec47d888838eeb071cee64bbf8b71899a9ae9de1087befa6b",
+    "data/hull_stations.json": "df5cab4bae464735d45e1e19b6a2bc9dbddc45b75951222a74df767d8e56e4dc",
+    "assets/naval/weapons/jp_type3_155mm_triple/turret_housing.tscn": "74ec3a06c275a8e861c5861274d34df3f3042b5896258e38597bdc4987875906",
+    "assets/naval/weapons/jp_type94_46cm_triple/turret_housing.tscn": "8acf8cc7448930095e194e98b3082a083950d67fd4948a9f11d78d32870f8d4c"
+  },
+  "owned_existing_changes": {
+    "scripts/ship_geometry.gd": {
+      "before": "e26f1c1dd88f9e91c738b0c2a43bb7a49f91d4869abce496aba8d0cf7ef667c6",
+      "after": "851e631f6492523385336522c02e32addee6ef7640663ac905fb72e160369d6f"
+    },
+    "data/hull_stations.json": {
+      "before": "54f60fad4f81b4d4ee003dcf4a2bba9a4582b79ed4d8489a8f1e180bdb2edaca",
+      "after": "df5cab4bae464735d45e1e19b6a2bc9dbddc45b75951222a74df767d8e56e4dc"
+    },
+    "data/yamato_1944_mounts.json": {
+      "before": "4c4829f0b3a05bad99cc3e3d91e2c26773901d089c09793f94eda6fa934caeec",
+      "after": "dce0e5b9bbb16cacd43ec85e29031346c77ac897a1a0867c1171a52aa00f6c14"
+    }
+  },
+  "helpers": {
+    "tests/test_yamato_deck.gd": "eb8e4c3435fffd78e040b8195c5fbcba8568af88df7e082ca1ca5787e1880d6d",
+    "scenes/inspection/yamato_deck_capture.tscn": "4a2c8bb9ef67c121c8ff8084844b4e0db61a64f55f9ac6f00cee3ba0705607bf",
+    "scripts/presentation/models/yamato_deck_capture.gd": "6766d5e73ddcf05d9539b98ccae380e5b3a4dfd0626c7deac01385ae5c7fa72a",
+    "tools/s02_deck/build_web.py": "32ab940c216b27afe8b35fbbb2b0b67c69fbc6b6782385c4d305d1027a56729a",
+    "tools/s02_deck/chrome_check.mjs": "df3830e9d89a4e52df00f7a998d7498aef242ee9e31a4af513663d3ea4d88fee",
+    "tools/s02_deck/finalize_evidence.py": "b02458882ccb2dd57388d7fed6232a66dbe8abe09e19948a4d83addf2e832bc3",
+    "tools/s02_deck/sync_contacts.gd": "b3e33602a885ef2e88241d17eec4bbe5f05b942d631f91f33d2fe3b664d4c4f6"
+  },
+  "concurrent_other_changes_read_only": {
+    "scripts/command/air_defence/combat_targeting.gd": {
+      "before": "361a47c01125bc262919831e316494b7ae761e302de11737a5076d365a01536d",
+      "after": "5d7829a6a765484a527ad77a366c7bd97aa2b760db9ed6282acd8aa5b1474539"
+    },
+    "scripts/ground/ground_tasks.gd": {
+      "before": "23481e53bc3d8121c4003688ee90697f2d566412bd1c490f9e58c0475e9e69ac",
+      "after": "d8cf995903bc24281c29aa68b94547bfcbadf642e344b3c387ed4fc81524bf91"
+    },
+    "scripts/presentation/cameras/observer_camera.gd": {
+      "before": "34ebf7d17fa18e00239311e38002a7ecd47841ce761c1ce88b618daad52870b4",
+      "after": "4338c76d65918af277d7486672a366a7c3821bbe50833c760e524a59ce6f8873"
+    },
+    "scripts/simulation/weapons/combat_weapons.gd": {
+      "before": "d7c39d59d598dbdf2d4616e5ca2ff58de87dbd0618330d96c0b91972b0b5dcc7",
+      "after": "beabd0771b357b84bf006898a3aba59acbc08fdf5d82a8d57cfbbfba9c5533b0"
+    },
+    "tests/ground_battle_probe.gd": {
+      "before": "c01e72bb3cc44ab1d7338a575aa6fa3d868183f985a3ea36c500ff75806dbb5d",
+      "after": "17eadbe93b8482456acb1a43c0d32b93f5a420b2bf5a725832aef4ddd08b0457"
+    },
+    "tests/test_first_playable_ui.gd": {
+      "before": "449248834568664d4af257534fe0498295e9bc5179d3bd5c97deed123a900ba4",
+      "after": "3329b3992f9c1626d5fda388ee091199af5674034c74bca023dbf1d1bb9d82fe"
+    },
+    "tests/test_terrain_observer.gd": {
+      "before": "bd173bef9c402c4729279f6f969f445486e290e017effd54d5d658d2b564f901",
+      "after": "4d6a3e4f94ba39d3c79a406c920528a31531933ef8dd6ec7ac5f692b224fecb4"
+    }
+  },
+  "boundary": "No writes to Iowa, first_playable, clouds/ocean, aircraft, ground, combat or shared batching. Other source deltas are recorded for concurrent S10 review, not rolled back."
+}

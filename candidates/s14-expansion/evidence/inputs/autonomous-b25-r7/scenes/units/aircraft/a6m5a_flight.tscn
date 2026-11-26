@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/presentation/models/aircraft_adapter.gd" id="1"]
+[node name="A6M5aFlight" type="Node3D"]
+script = ExtResource("1")
+model_id = "jp_a6m5a_1944"

@@ -1,0 +1,36 @@
+--- S14_R8/ui/observer_text.gd
++++ combined/ui/observer_text.gd
+@@ -1,11 +1,12 @@
+ class_name ObserverText
+ extends RefCounted
+ 
++const BOMB: Script = preload("res://scripts/showcase/bombing/labels.gd")
+ const OPS: Script = preload("res://scripts/showcase/expansion/operations_labels.gd")
+ 
+ const TRAINING: Script = preload("res://scripts/showcase/training_labels.gd")
+ 
+-const TYPES: Dictionary = {"patrol":"区域巡逻", "escort":"护航警戒", "intercept":"拦截敌机", "engage":"集中接敌", "regroup":"重新集结", "retreat":"脱离撤退"}
++const TYPES: Dictionary = {"bombing":"轰炸任务", "patrol":"区域巡逻", "escort":"护航警戒", "intercept":"拦截敌机", "engage":"集中接敌", "regroup":"重新集结", "retreat":"脱离撤退"}
+ const STATUSES: Dictionary = {"issued":"已下达", "received":"已接收", "executing":"执行中", "completed":"已完成", "failed":"失败", "cancelled":"已取消", "superseded":"已被替代", "rejected":"已拒绝"}
+ const PHASES: Dictionary = {"cruise":"巡航", "forming":"编队集合", "regroup":"重新集结", "guard":"护航警戒", "air_defence":"防空掩护", "approach":"接近目标", "deploy":"转向展开", "broadside":"舷侧交战", "search":"搜索目标", "withdraw":"正在脱离", "aim":"调整射向", "burst":"短点射", "evade":"规避威胁", "extend":"拉开距离", "return":"回到站位", "patrol":"巡逻", "support":"支援僚机", "assembled":"集结完成", "exited_combat_area":"已离开战区"}
+ const REASONS: Dictionary = {
+@@ -18,6 +19,8 @@
+ 	return "日方指挥官" if id == "jp" else "美方指挥官"
+ 
+ static func reason(code: String, phase_code: String = "") -> String:
++	if BOMB.REASONS.has(code) or code.begins_with("flight_safety:"): return BOMB.reason(code)
++	if code.begins_with("bomber_role_forbids_fighter_task"): return "轰炸机无法执行战斗机任务"
+ 	if OPS.REASONS.has(code): return OPS.reason(code)
+ 	if code.is_empty(): return "等待执行回报"
+ 	var training_reason: String = TRAINING.reason(code)
+@@ -86,6 +89,10 @@
+ 	return title + "\n" + STATUSES.get(order.get("status", ""), "已下达") + " · " + reason(order.get("intent", "") if entry.kind == "order_issued" else order.get("reason", ""))
+ 
+ static func maneuver(task: Dictionary, motion: Dictionary) -> String:
++	if task.has("bombing"):
++		var state: Dictionary = task.bombing
++		var bomb_reason: String = str(state.get("abort_reason",""))
++		return BOMB.phase(str(state.phase))+" · "+BOMB.reason(bomb_reason if not bomb_reason.is_empty() else str(state.reason))
+ 	if task.has("training"):
+ 		var training: Dictionary = task.training
+ 		return TRAINING.name_of(str(training.maneuver))+" · "+TRAINING.phase(str(training.phase))+" · 滚转 %.0f° / 高度变化 %+.0f 米" % [rad_to_deg(float(training.peak_roll_rad)),float(training.height_change_m)]

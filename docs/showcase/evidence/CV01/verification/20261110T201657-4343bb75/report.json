@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T201657-4343bb75",
+  "owner": "CV01",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/cv01-web-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 74413,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/cv01-web-project",
+      "pid": 74415,
+      "process_group": 74415,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2488,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T201657-4343bb75/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/cv01-web-project",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/cv01-web-project",
+      "pid": 74416,
+      "process_group": 74416,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": true,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 2.3718,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T201657-4343bb75/01-output.log",
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "lock_identity": {
+    "status": "held",
+    "owner": "CV01",
+    "pid": 74413,
+    "process_identity": "Wed Nov 11 04:16:57 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner CV01 --timeout 160 --lock-timeout 5 --project /Users/infinity/Desktop/Dev/game-pacific/.local/cv01-web-project import",
+    "token": "833fc69db42a48f88d5d41ba93be5c40",
+    "acquired_utc": "2026-11-10T20:16:57.553394+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 1
+}

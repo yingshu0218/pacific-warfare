@@ -1,0 +1,140 @@
+{
+  "verification_report": ".local/validation/runs/20261119T105558-5e92c2ff/report.json",
+  "rx02_checks": 50,
+  "gunfire": {
+    "fighter_bomber": {
+      "count": 144,
+      "first_s": 15.1,
+      "pairs": {
+        "jp_air_1>us_b25_1": 54,
+        "jp_air_2>us_b25_2": 90
+      }
+    },
+    "fighter_fighter": {
+      "count": 158,
+      "first_s": 7.2,
+      "pairs": {
+        "jp_air_4>us_air_3": 54,
+        "us_air_3>jp_air_3": 104
+      }
+    },
+    "jp_surface": {
+      "count": 18,
+      "first_s": 10.5666666666667,
+      "pairs": {
+        "jp_bb>us_bb": 18
+      }
+    },
+    "us_surface": {
+      "count": 72,
+      "first_s": 2.85,
+      "pairs": {
+        "us_bb>jp_bb": 27,
+        "us_dd>jp_bb": 20,
+        "us_dd>jp_dd": 25
+      }
+    }
+  },
+  "matching_bomb_contacts": 24,
+  "observed_cuts": {
+    "bomb_explosion": {
+      "kind": "bomb_explosion",
+      "label": "炸弹弹着",
+      "s": 41.65,
+      "sequence": 1987,
+      "source": "",
+      "subject": "",
+      "target": "",
+      "visible_opponent": false,
+      "visible_subject": false
+    },
+    "bomb_released": {
+      "kind": "bomb_released",
+      "label": "炸弹离架",
+      "s": 23.6166666666667,
+      "sequence": 1507,
+      "source": "jp_g4m_1",
+      "subject": "jp_g4m_1",
+      "target": "",
+      "visible_opponent": false,
+      "visible_subject": true
+    },
+    "bomber_defense": {
+      "kind": "bomber_defense",
+      "label": "轰炸机背部炮塔还击",
+      "s": 10.05,
+      "sequence": 492,
+      "source": "us_b25_2",
+      "subject": "us_b25_2",
+      "target": "jp_air_1",
+      "visible_opponent": false,
+      "visible_subject": true
+    },
+    "bomber_intercept": {
+      "kind": "bomber_intercept",
+      "label": "战斗机拦截轰炸机",
+      "s": 0.0166666666666667,
+      "sequence": 0,
+      "source": "jp_air_1",
+      "subject": "us_b25_1",
+      "target": "us_b25_1",
+      "visible_opponent": false,
+      "visible_subject": true
+    },
+    "bomber_intercept_fire": {
+      "kind": "bomber_intercept",
+      "label": "战斗机拦截轰炸机",
+      "s": 15.5833333333333,
+      "sequence": 854,
+      "source": "jp_air_2",
+      "subject": "jp_air_2",
+      "target": "us_b25_2",
+      "visible_opponent": true,
+      "visible_subject": true
+    },
+    "bombing_run": {
+      "kind": "bombing_run",
+      "label": "轰炸编队",
+      "s": 2.51666666666667,
+      "sequence": 0,
+      "source": "jp_g4m_1",
+      "subject": "jp_g4m_1",
+      "target": "",
+      "visible_opponent": false,
+      "visible_subject": true
+    },
+    "fighter_dogfight": {
+      "kind": "fighter_dogfight",
+      "label": "战斗机狗斗",
+      "s": 5.01666666666667,
+      "sequence": 0,
+      "source": "jp_air_3",
+      "subject": "jp_air_3",
+      "target": "us_air_3",
+      "visible_opponent": false,
+      "visible_subject": true
+    },
+    "fighter_dogfight_fire": {
+      "kind": "fighter_dogfight",
+      "label": "战斗机狗斗",
+      "s": 7.51666666666667,
+      "sequence": 338,
+      "source": "us_air_3",
+      "subject": "us_air_3",
+      "target": "jp_air_3",
+      "visible_opponent": true,
+      "visible_subject": true
+    },
+    "surface_gunnery": {
+      "kind": "surface_gunnery",
+      "label": "主炮射击",
+      "s": 13.0833333333333,
+      "sequence": 517,
+      "source": "jp_bb",
+      "subject": "jp_bb",
+      "target": "us_bb",
+      "visible_opponent": false,
+      "visible_subject": true
+    }
+  }
+}

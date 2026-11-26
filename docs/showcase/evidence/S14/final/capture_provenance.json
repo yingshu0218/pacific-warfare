@@ -1,0 +1,112 @@
+{
+  "created_utc": "2026-11-10T21:13:30.726234+00:00",
+  "native_source_stage": ".local/s14-final-r3",
+  "native_captures_share_source_hashes": true,
+  "native_source_files": 402,
+  "final_runtime_stage": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-runtime",
+  "native_to_runtime_differences": {
+    "data/units/us_sb2c4_1944.json": {
+      "before": "66419d752f3394d38f30e6e33448f6fc720f6835d66df2da7a572dab3abcc014",
+      "after": "03d2340ec91f4ef65fc0e2d6bf76c8200b5d32c92b2e0797b8d6bd6bd3c9733a"
+    },
+    "scripts/showcase/all_units_showcase.gd": {
+      "before": "b77eca6744826ad3514f9f92d724b49aee7d46636ed1984347f379c0a0dae44a",
+      "after": "dba1d67092e0fdd12eec0611fd12f31a4455fa9e2be6e7234a29efcc54c0448a"
+    },
+    "tests/s14_web_probe.gd": {
+      "before": "5beba5fc7909ed9ea14a086a3a61e67a427382bd6da5ac35e08d2891c229bb40",
+      "after": "7b5b9d60eec4fbd4e7f0b3c1ac97fbcd8fc268a5153b41ed27694339b431a379"
+    }
+  },
+  "difference_explanations": {
+    "data/units/us_sb2c4_1944.json": "configuration_date historical description only; flight/model values unchanged",
+    "scripts/showcase/all_units_showcase.gd": "show training text only when guide.current is training and guide.active; UI visibility only",
+    "tests/s14_web_probe.gd": "read-only generation/exercise/tooltip/gallery/event fields; no simulation or rendering behavior overrides"
+  },
+  "all_other_files_identical": true,
+  "root_to_runtime_differences": {
+    "project.godot": {
+      "runtime": "896903d070177623c2a8f50e8ee34854d222cc25c232beab1b37fb9394b31f0f",
+      "root": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95"
+    }
+  },
+  "root_difference_explanation": "Isolated runtime explicitly selects S14 and1280x720; root retains Yamato entry and original viewport",
+  "early_integration_stage": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+  "early_integration_to_runtime_differences": {
+    "data/scenarios/s14_train_jp_axial_roll.json": {
+      "before": "4d19c2429136152e4afe3c50f04a0b4a40b93dd2e98135cdafb88ae8fd530ac0",
+      "after": "e2309d3a0ac2d2dd75e10efa06591d2237989cc6512fd35df0f076eb496680fc"
+    },
+    "data/scenarios/s14_train_jp_bank_turn.json": {
+      "before": "e1d535fa45bb0a532a9a38d195d5d2dcc7bb3e7f9457b652ba1af422c06afdbf",
+      "after": "7b12869d738e452bb5e26a0608eda7b354d1f0194149d8e51b34b4c68fbc0936"
+    },
+    "data/scenarios/s14_train_jp_climb_dive.json": {
+      "before": "81998b568637546f7a09519ea1bd5e25de0ae3a33bd71119a80fce320be5fde0",
+      "after": "ae403d3c3316ae312781e5f7920c5fb5f0d06dfe4e9dd612acad78b09b87ed2b"
+    },
+    "data/scenarios/s14_train_jp_roll_reversal.json": {
+      "before": "93529334bcaaea87ecbb878bfd8729cf020e4c88c4adf157add9f939e76c16b2",
+      "after": "d7d7ed3bed60c56785a674391d0f3485d2c2b4e34e317e9a9b8eeb239752f435"
+    },
+    "data/scenarios/s14_train_jp_split_s.json": {
+      "before": "b86bae98bb2befed65f06e2433dbe561b533ed099076b5db676551ffe3d51778",
+      "after": "1fca4127cd161e147fcce27293565ff1c3b90caee39e2537826ea5efe724f142"
+    },
+    "data/scenarios/s14_train_us_axial_roll.json": {
+      "before": "3cc3ec82e7fc0af91d5a2dd6a6f285d3ecc9f65ff80d0e2b1837e3ab331a1587",
+      "after": "69b68e6824a1ccdf8504046fe93d71d5f1acc665d04539ad042907759185cc4a"
+    },
+    "data/scenarios/s14_train_us_bank_turn.json": {
+      "before": "bd5019e0089383270397dc44a4c5b182345b70f1640d236bb5ad2662e93619cc",
+      "after": "12cb66b7569ac3008dd88611b1d0bc3b917a5b90a8625fcb5c6960f655a0388e"
+    },
+    "data/scenarios/s14_train_us_climb_dive.json": {
+      "before": "e00916a95fbac23e02ac1ea3b0829c5feff632505af10f7a072fd31961712c21",
+      "after": "5807c643cf40a37044bb440a251c91c34a0d28569570d061d6d73455ee7926c2"
+    },
+    "data/scenarios/s14_train_us_roll_reversal.json": {
+      "before": "ff9dc74e80cff2a352c64d0e64fd72355744136057f3a3129f7094bbbdab86f7",
+      "after": "72fe9a475dcffd2682cfb9cda9a0480d56604356e390b8b965da7690b1b62e8b"
+    },
+    "data/scenarios/s14_train_us_split_s.json": {
+      "before": "4e5d14ad650ab53cb8f882051b310fec27e4479c75b46838399dfd521e801c77",
+      "after": "a5c61ed35047f1ddf8c6b0f53e788849e3fbc418ae6dd4b1e3efde88d0111af9"
+    },
+    "data/units/us_sb2c4_1944.json": {
+      "before": "66419d752f3394d38f30e6e33448f6fc720f6835d66df2da7a572dab3abcc014",
+      "after": "03d2340ec91f4ef65fc0e2d6bf76c8200b5d32c92b2e0797b8d6bd6bd3c9733a"
+    },
+    "scripts/showcase/all_units_showcase.gd": {
+      "before": "8b95bfeb7634ef9cbbbcc894b75cef5887e2028f5f159fcdf8118317d5bed993",
+      "after": "dba1d67092e0fdd12eec0611fd12f31a4455fa9e2be6e7234a29efcc54c0448a"
+    },
+    "scripts/showcase/showcase_guide.gd": {
+      "before": "a8ba17b8592db47e5dcc2a66a5655604713ef082dc2311b33a5da5e05f56ac18",
+      "after": "0705163a124c82ff539f42730322b6124d9830ec134a90ed7d827ae50e00aed3"
+    },
+    "scripts/showcase/showcase_missions.gd": {
+      "before": "254167bf539aa0feabd85932d62fc93eb586875a8593345a524568bfa8526dc7",
+      "after": "88e8e506db9cbd751d5adc287b827aea0bd610b794eeb4aafe3973a1186956e6"
+    },
+    "scripts/showcase/training_labels.gd": {
+      "before": "321444cf0687c29695ca5aa409543ec7dc61b3f8d7c1196f8bd3c64e56d91be5",
+      "after": "9ef61c1af237202a3aa778cfa8f6ebaa340deb9f4516f4932e771d62a01993c7"
+    },
+    "tests/s14_final_capture.gd": {
+      "before": null,
+      "after": "6765a90ffa43262956142441a8eef922096a7b1c58e7263cfd6a7d0876e440ce"
+    },
+    "tests/s14_web_probe.gd": {
+      "before": null,
+      "after": "7b5b9d60eec4fbd4e7f0b3c1ac97fbcd8fc268a5153b41ed27694339b431a379"
+    },
+    "tests/scenes/s14_web.tscn": {
+      "before": null,
+      "after": "0141d290077b3cbf87aaf5cd84e59e3f078b7507f8949c97e581a1d56d29e1fe"
+    }
+  },
+  "early_integration_note": "Early non-escort mission history has a guarding initialization label from indentation; corrected before final r3 captures. No physical state or training result change. Camera and UI were subsequently improved.",
+  "prior_camera52_is_final_evidence": false,
+  "original_native_manifests_preserved": true
+}

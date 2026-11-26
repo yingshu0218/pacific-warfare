@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T185040-02562d51",
+  "owner": "DM01",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-patch2-web-r2",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 68577,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-patch2-web-r2",
+      "pid": 68582,
+      "process_group": 68582,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.0844,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T185040-02562d51/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-patch2-web-r2",
+        "--export-release",
+        "Web",
+        "/Users/infinity/Desktop/Dev/game-pacific/build/dm01-patch2-web/index.html"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-patch2-web-r2",
+      "pid": 68583,
+      "process_group": 68583,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 4.1452,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T185040-02562d51/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "DM01",
+    "pid": 68577,
+    "process_identity": "Wed Nov 11 02:50:40 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner DM01 --timeout 120 --lock-timeout 45 --project /Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-patch2-web-r2 godot -- --export-release Web /Users/infinity/Desktop/Dev/game-pacific/build/dm01-patch2-web/index.html",
+    "token": "100bffdc4fe140b0aa555e9c135610e6",
+    "acquired_utc": "2026-11-10T18:50:40.095915+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

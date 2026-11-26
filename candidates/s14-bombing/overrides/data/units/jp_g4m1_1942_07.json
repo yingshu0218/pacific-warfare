@@ -1,0 +1,23 @@
+{
+  "id": "jp_g4m1_1942_07",
+  "display_name": "G4M1 Model11 1942-07",
+  "domain": "aircraft",
+  "country_id": "jp",
+  "configuration_date": "1942-07",
+  "service_entry_year": 1941,
+  "model_scene": "res://scenes/units/aircraft/jp_g4m1_1942_07.tscn",
+  "dimensions_m": [
+    24.88,
+    5.0,
+    20.135
+  ],
+  "mounts": [],
+  "weapon_definitions": [],
+  "historical_fixed_armament": [],
+  "dedicated_aa_historical": [],
+  "dedicated_aa_game": [],
+  "source": {
+    "status": "provisional",
+    "notes": "BOMB01: primary ordnance basis and separately marked operating approximations; docs/references/bomb01/sources.md"
+  }
+}

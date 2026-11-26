@@ -1,0 +1,88 @@
+{
+  "run_id": "20261110T163126-e2734a83",
+  "owner": "S02-deck-checks",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 46011,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 46013,
+      "process_group": 46013,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2377,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163126-e2734a83/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_hull_geometry.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 46014,
+      "process_group": 46014,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.4029,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163126-e2734a83/01-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_yamato_deck.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 46015,
+      "process_group": 46015,
+      "returncode": 1,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": true,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.455,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163126-e2734a83/02-output.log",
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S02-deck-checks",
+    "pid": 46011,
+    "process_identity": "Wed Nov 11 00:31:25 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S02-deck-checks --lock-timeout 45 --timeout 90 test res://tests/test_hull_geometry.gd res://tests/test_yamato_deck.gd res://tests/test_capital_ship_models.gd res://tests/test_mesh_batching.gd",
+    "token": "581365ea45eb446b8b6e4df794182d77",
+    "acquired_utc": "2026-11-10T16:31:26.056844+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 1
+}

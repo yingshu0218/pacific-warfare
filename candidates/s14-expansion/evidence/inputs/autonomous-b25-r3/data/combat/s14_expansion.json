@@ -1,0 +1,383 @@
+{
+  "unit_profiles": {
+    "us_sb2c4_1944": {
+      "structure": 110,
+      "sensor_height_m": 0,
+      "visual_m": 8000,
+      "radar_ship_m": 0,
+      "radar_aircraft_m": 0,
+      "part_durability": 65,
+      "weapon_durability": 10,
+      "fire_loss_per_s": 3,
+      "fire_decay_per_s": 0.004,
+      "flood_loss_per_s": 0,
+      "loss_duration_s": 30,
+      "boxes": [
+        {
+          "part": "engine",
+          "center_m": [
+            0,
+            0,
+            -3.6
+          ],
+          "half_extents_m": [
+            0.9,
+            0.9,
+            1.2
+          ],
+          "armor_mm": 1
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            0,
+            0,
+            0
+          ],
+          "half_extents_m": [
+            0.8,
+            0.8,
+            3.0
+          ],
+          "armor_mm": 1
+        },
+        {
+          "part": "control",
+          "center_m": [
+            0,
+            0.2,
+            4.1
+          ],
+          "half_extents_m": [
+            2.9,
+            0.35,
+            1.2
+          ],
+          "armor_mm": 0
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            -4,
+            0,
+            0
+          ],
+          "half_extents_m": [
+            3.5,
+            0.15,
+            1.4
+          ],
+          "armor_mm": 0
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            4,
+            0,
+            0
+          ],
+          "half_extents_m": [
+            3.5,
+            0.15,
+            1.4
+          ],
+          "armor_mm": 0
+        }
+      ],
+      "damage_effects": {
+        "fire_anchor_m": [
+          0,
+          0.6,
+          -3.6
+        ],
+        "smoke_anchor_m": [
+          0,
+          0.8,
+          -3.6
+        ]
+      },
+      "source_note": "S14 coarse approximate collision/survivability profile. No precut DM01 for this model; uses existing generic damage path."
+    },
+    "us_essex_cv9_1944_04_15": {
+      "structure": 2200,
+      "sensor_height_m": 25,
+      "visual_m": 18000,
+      "radar_ship_m": 25000,
+      "radar_aircraft_m": 45000,
+      "part_durability": 480,
+      "weapon_durability": 45,
+      "weapon_armor_mm": 1.2000000000000002,
+      "fire_loss_per_s": 1.2,
+      "flood_loss_per_s": 4.0,
+      "fire_decay_per_s": 0.001,
+      "flood_growth_per_s": 0.0003,
+      "sink_mps": 0.4,
+      "loss_duration_s": 45.0,
+      "boxes": [
+        {
+          "part": "structure",
+          "center_m": [
+            0,
+            1,
+            -82.17
+          ],
+          "half_extents_m": [
+            14.15,
+            8.0,
+            41.5
+          ],
+          "armor_mm": 10
+        },
+        {
+          "part": "engine",
+          "center_m": [
+            0,
+            1,
+            0
+          ],
+          "half_extents_m": [
+            14.15,
+            8.0,
+            41.5
+          ],
+          "armor_mm": 10
+        },
+        {
+          "part": "steering",
+          "center_m": [
+            0,
+            1,
+            82.17
+          ],
+          "half_extents_m": [
+            14.15,
+            8.0,
+            41.5
+          ],
+          "armor_mm": 10
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            0,
+            12,
+            0
+          ],
+          "half_extents_m": [
+            12.0,
+            4.0,
+            101.5
+          ],
+          "armor_mm": 10
+        },
+        {
+          "part": "control",
+          "center_m": [
+            16.5,
+            25,
+            -12
+          ],
+          "half_extents_m": [
+            5.0,
+            8.0,
+            32.5
+          ],
+          "armor_mm": 10
+        }
+      ],
+      "damage_effects": {
+        "fire_anchor_m": [
+          5,
+          15,
+          10
+        ],
+        "smoke_anchor_m": [
+          5,
+          17,
+          10
+        ]
+      },
+      "source_note": "Declared coarse model AABBs,10mm equivalent structural resistance and abstract hit points. Not a historical belt/deck armor map; no faction balancing."
+    },
+    "jp_shokaku_1941_08_23": {
+      "structure": 2050,
+      "sensor_height_m": 20,
+      "visual_m": 18000,
+      "radar_ship_m": 0,
+      "radar_aircraft_m": 0,
+      "part_durability": 480,
+      "weapon_durability": 45,
+      "weapon_armor_mm": 1.2000000000000002,
+      "fire_loss_per_s": 1.2,
+      "flood_loss_per_s": 4.0,
+      "fire_decay_per_s": 0.001,
+      "flood_growth_per_s": 0.0003,
+      "sink_mps": 0.4,
+      "loss_duration_s": 45.0,
+      "boxes": [
+        {
+          "part": "structure",
+          "center_m": [
+            0,
+            3.0,
+            -80.85000000000001
+          ],
+          "half_extents_m": [
+            13.0,
+            6.0,
+            40.83333333333333
+          ],
+          "armor_mm": 10
+        },
+        {
+          "part": "engine",
+          "center_m": [
+            0,
+            3.0,
+            0.0
+          ],
+          "half_extents_m": [
+            13.0,
+            6.0,
+            40.83333333333333
+          ],
+          "armor_mm": 10
+        },
+        {
+          "part": "steering",
+          "center_m": [
+            0,
+            3.0,
+            80.85000000000001
+          ],
+          "half_extents_m": [
+            13.0,
+            6.0,
+            40.83333333333333
+          ],
+          "armor_mm": 10
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            0,
+            11.2,
+            4
+          ],
+          "half_extents_m": [
+            11.5,
+            2.7,
+            102.5
+          ],
+          "armor_mm": 10
+        },
+        {
+          "part": "control",
+          "center_m": [
+            14.6,
+            18.4,
+            -40
+          ],
+          "half_extents_m": [
+            3.5,
+            4.5,
+            8.5
+          ],
+          "armor_mm": 10
+        }
+      ],
+      "damage_effects": {
+        "fire_anchor_m": [
+          5,
+          15,
+          10
+        ],
+        "smoke_anchor_m": [
+          5,
+          17,
+          10
+        ]
+      },
+      "source_note": "Declared coarse model AABBs,10mm equivalent structural resistance and abstract hit points. Not a historical belt/deck armor map; no faction balancing."
+    }
+  },
+  "weapon_profiles": {
+    "cv01_5in38_mk32_twin": {
+      "cycle_s": 4,
+      "range_m": 10000,
+      "dispersion_rad": 0.003,
+      "domains": [
+        "ship",
+        "aircraft",
+        "ground"
+      ],
+      "dual_purpose": true,
+      "aim_tolerance_rad": 0.0025,
+      "fuze_error_s": 0.18,
+      "reload_track_interval_s": 0.1,
+      "train_rate_degps": 25,
+      "elevation_rate_degps": 15,
+      "initial_rounds_per_barrel": 450,
+      "proxy_half_extents_m": [
+        2.25,
+        1.4,
+        2.5
+      ]
+    },
+    "cv01_5in38_mk24_single": {
+      "cycle_s": 4,
+      "range_m": 10000,
+      "dispersion_rad": 0.003,
+      "domains": [
+        "ship",
+        "aircraft",
+        "ground"
+      ],
+      "dual_purpose": true,
+      "aim_tolerance_rad": 0.0025,
+      "fuze_error_s": 0.18,
+      "reload_track_interval_s": 0.1,
+      "train_rate_degps": 25,
+      "elevation_rate_degps": 15,
+      "initial_rounds_per_barrel": 450,
+      "proxy_half_extents_m": [
+        2.25,
+        1.4,
+        2.5
+      ]
+    },
+    "cv02_type89_127mm_twin": {
+      "cycle_s": 7.5,
+      "range_m": 9000,
+      "dispersion_rad": 0.004,
+      "domains": [
+        "ship",
+        "aircraft",
+        "ground"
+      ],
+      "dual_purpose": true,
+      "aim_tolerance_rad": 0.0025,
+      "fuze_error_s": 0.18,
+      "reload_track_interval_s": 0.1,
+      "train_rate_degps": 6,
+      "elevation_rate_degps": 12,
+      "initial_rounds_per_barrel": 300
+    },
+    "cv02_type96_25mm_triple": {
+      "cycle_s": 0.5,
+      "range_m": 2500,
+      "dispersion_rad": 0.009,
+      "domains": [
+        "aircraft"
+      ],
+      "dual_purpose": false,
+      "aim_tolerance_rad": 0.0025,
+      "fuze_error_s": 0.18,
+      "reload_track_interval_s": 0.1,
+      "train_rate_degps": 18,
+      "elevation_rate_degps": 12,
+      "initial_rounds_per_barrel": 2000
+    }
+  },
+  "ammo_profiles": {}
+}

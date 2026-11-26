@@ -1,0 +1,48 @@
+{
+  "run_id": "20261110T221225-6ca8e3b2",
+  "owner": "S08-audio-output",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 84305,
+  "checks": [
+    {
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-nostdin",
+        "-i",
+        "docs/showcase/evidence/S08/final-20261111/chrome/actual-output.webm",
+        "-af",
+        "astats=metadata=1:reset=0",
+        "-f",
+        "null",
+        "-"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 84307,
+      "process_group": 84307,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.133,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T221225-6ca8e3b2/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S08-audio-output",
+    "pid": 84305,
+    "process_identity": "Wed Nov 11 06:12:25 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S08-audio-output --timeout 30 --lock-timeout 60 exec -- ffmpeg -hide_banner -nostdin -i docs/showcase/evidence/S08/final-20261111/chrome/actual-output.webm -af astats=metadata=1:reset=0 -f null -",
+    "token": "50952c296c694c3892a88c49335df8a0",
+    "acquired_utc": "2026-11-10T22:12:25.349187+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

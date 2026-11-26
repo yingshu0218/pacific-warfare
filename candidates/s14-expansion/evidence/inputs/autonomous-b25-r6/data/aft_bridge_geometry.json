@@ -1,0 +1,21 @@
+{
+  "units": "meters",
+  "reference": "Tamiya 78030 printed p12 assembly 21 and p14 assembly 29; common aft-bridge form only",
+  "status": "image-proportioned faceted sections and connected platforms; no shipyard elevations or measured cross-sections",
+  "center_z": 32,
+  "local_z_offset": 7,
+  "sections": [
+    {"y": 11.5, "half_width": 3.8, "front_z": 26.5, "rear_z": 37.5},
+    {"y": 13.2, "half_width": 4.3, "front_z": 25.7, "rear_z": 38.3},
+    {"y": 17.7, "half_width": 4.0, "front_z": 26.4, "rear_z": 37.6},
+    {"y": 18.5, "half_width": 3.4, "front_z": 27.2, "rear_z": 36.8},
+    {"y": 20.5, "half_width": 2.7, "front_z": 28.4, "rear_z": 35.6},
+    {"y": 21.4, "half_width": 2.2, "front_z": 29.0, "rear_z": 35.0},
+    {"y": 22.7, "half_width": 1.8, "front_z": 29.5, "rear_z": 34.5}
+  ],
+  "platforms": [
+    {"y": 18.0, "width": 10.0, "depth": 12.4, "thickness": 0.4, "z_offset": 0},
+    {"y": 21.0, "width": 8.0, "depth": 9.0, "thickness": 0.4, "z_offset": 0},
+    {"y": 22.8, "width": 10.4, "depth": 10.0, "thickness": 0.4, "z_offset": 0}
+  ]
+}

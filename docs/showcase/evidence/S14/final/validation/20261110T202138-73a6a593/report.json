@@ -1,0 +1,67 @@
+{
+  "run_id": "20261110T202138-73a6a593",
+  "owner": "S14-integrate-escort",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 74791,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+      "pid": 74795,
+      "process_group": 74795,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1476,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T202138-73a6a593/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+        "--script",
+        "res://tests/s14_integration.gd",
+        "--",
+        "--mode=escort"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+      "pid": 74796,
+      "process_group": 74796,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 33.2901,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T202138-73a6a593/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S14-integrate-escort",
+    "pid": 74791,
+    "process_identity": "Wed Nov 11 04:21:38 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S14-integrate-escort --timeout 145 --lock-timeout 60 --project .local/s14-final-dev-1 godot -- --script res://tests/s14_integration.gd -- --mode=escort",
+    "token": "d1878457635c49cb8b048215fb0105a3",
+    "acquired_utc": "2026-11-10T20:21:38.076695+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

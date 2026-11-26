@@ -1,0 +1,146 @@
+[
+  {
+    "count": {
+      "bomb/jp_g4m_1": 12,
+      "bomb/jp_g4m_2": 12,
+      "dogfight": 229,
+      "jp_air_2->us_b25_2": 72,
+      "us_b25_1->jp_air_1": 72,
+      "us_b25_2->jp_air_1": 50,
+      "us_b25_2->jp_air_2": 18
+    },
+    "damage": {
+      "jp_air_3": [
+        9.66666666666667,
+        "crashing"
+      ],
+      "jp_air_3_detach": 9.66666666666667,
+      "jp_dd": [
+        18.0,
+        "disabled"
+      ],
+      "jp_g4m_1": [
+        33.3333333333333,
+        "crashing"
+      ],
+      "jp_g4m_1_detach": 33.3333333333333,
+      "us_aa_01": [
+        42.1666666666667,
+        "wreck"
+      ],
+      "us_b25_1": [
+        45.1,
+        "crashing"
+      ],
+      "us_b25_1_detach": 45.1,
+      "us_b25_2": [
+        38.3,
+        "wreck"
+      ],
+      "us_b25_2_detach": 38.3,
+      "us_bb": [
+        123.083333333333,
+        "disabled"
+      ],
+      "us_dd": [
+        59.0666666666667,
+        "disabled"
+      ]
+    },
+    "duration_s": 125,
+    "first": {
+      "bomb/jp_g4m_1": 21.2833333333333,
+      "bomb/jp_g4m_2": 22.2,
+      "dogfight": 7.2,
+      "jp_air_2->us_b25_2": 15.1,
+      "us_b25_1->jp_air_1": 10.8666666666667,
+      "us_b25_2->jp_air_1": 9.91666666666667,
+      "us_b25_2->jp_air_2": 36.2333333333333
+    },
+    "first_track": {
+      "us_b25_1": [
+        9.25,
+        "jp_air_1"
+      ],
+      "us_b25_2": [
+        8.4,
+        "jp_air_1"
+      ]
+    },
+    "intercepts": {
+      "jp_air_commander": [
+        0.0333333333333333,
+        "us_air_3"
+      ],
+      "us_air_commander": [
+        54.0333333333333,
+        "jp_g4m_2"
+      ]
+    },
+    "last": {
+      "bomb/jp_g4m_1": 24.0333333333333,
+      "bomb/jp_g4m_2": 24.95,
+      "dogfight": 78.4833333333333,
+      "jp_air_2->us_b25_2": 18.8166666666667,
+      "us_b25_1->jp_air_1": 19.2666666666667,
+      "us_b25_2->jp_air_1": 30.8333333333333,
+      "us_b25_2->jp_air_2": 38.1666666666667
+    },
+    "scenario": "s14_expansion_harbor",
+    "variant": "stock",
+    "run_id": "20261119T095633-64a9243e",
+    "scenario_sha256": "ae4069f51a81e0a695b04fbc16405e9c83a459d1641b1739731e48b039327645"
+  },
+  {
+    "count": {
+      "bomb/bomber": 6,
+      "bomber->fighter": 46,
+      "fighter->wing": 54,
+      "wing->fighter": 30
+    },
+    "damage": {
+      "target": [
+        68.15,
+        "sinking"
+      ],
+      "wing": [
+        28.9166666666667,
+        "crashing"
+      ],
+      "wing_detach": 28.9166666666667
+    },
+    "duration_s": 125,
+    "first": {
+      "bomb/bomber": 47.8166666666667,
+      "bomber->fighter": 34.0833333333333,
+      "fighter->wing": 26.7166666666667,
+      "wing->fighter": 25.4333333333333
+    },
+    "first_track": {
+      "bomber": [
+        32.55,
+        "fighter"
+      ],
+      "wing": [
+        23.8,
+        "fighter"
+      ]
+    },
+    "intercepts": {
+      "jp_air_commander": [
+        48.0333333333333,
+        "bomber"
+      ]
+    },
+    "last": {
+      "bomb/bomber": 49.0666666666667,
+      "bomber->fighter": 39.3666666666667,
+      "fighter->wing": 29.35,
+      "wing->fighter": 28.8
+    },
+    "scenario": "s14_intercept_b25",
+    "variant": "stock",
+    "run_id": "20261119T095745-67ea2dd6",
+    "scenario_sha256": "36286523c2aa4f615851711a493024862d043732af8b83447033d8d265c40a9a"
+  }
+]

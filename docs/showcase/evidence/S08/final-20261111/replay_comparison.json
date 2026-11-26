@@ -1,0 +1,1153 @@
+{
+  "all_identical": true,
+  "before": [
+    {
+      "checkpoints": [
+        {
+          "rng_state": 2996165421462687021,
+          "state_sha256": "788adc897c9e57391a6d70a5822662651dfd804e8b09088c8bf09b330fe5e697",
+          "tick": 600
+        },
+        {
+          "rng_state": 2797491715811578935,
+          "state_sha256": "1abfbbce8463e9092e23ae68e4638b291e1779b1130f4b72846c8fb8d7b79eea",
+          "tick": 1200
+        },
+        {
+          "rng_state": -16352669838449549,
+          "state_sha256": "bce9b43e9cd63430e3d40ba75879009cc3c03ff9926c260adfcce4421c10e47b",
+          "tick": 1800
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "da795c95309f5ff3995c4703ced1ccf598d241203abc05c6aa4dcca8be796b16",
+          "tick": 2400
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "15c126f5728af0c158053d0afffcb13101cdd316781aefe86755a42fab1bdb76",
+          "tick": 3000
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "6d1a30182dc903cc214bfbb0b41b5c7483a84a6a24bb647bfddca3985636d3e4",
+          "tick": 3600
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "928d1ae0c41f25fdb65f7dbbc52de38ca1f3a77bafb7851a3044693460eb8bf7",
+          "tick": 4200
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "ddb54069a39fe522feca1f628e5a87f40abef62489abb42c31d3f2876ac6aa2c",
+          "tick": 4800
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "6116c277b6574d4f54169da6a0af707ae5e6bf65c9f3343b60138322c20d12b9",
+          "tick": 5400
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "aff25f26213feff4181470c8bbe294e09199572e43fa59f014e1a0c5b97fd622",
+          "tick": 6000
+        },
+        {
+          "rng_state": -6045378907424384449,
+          "state_sha256": "8f54a7f0e3fb5b3834d65bb39ba81a83989f27b90810adb9e42d102e1b01abea",
+          "tick": 6600
+        },
+        {
+          "rng_state": 2326726687039907279,
+          "state_sha256": "da06c1259087c4605b8dc09fdf9a0216027603835787688b9f3fde3cf038ec96",
+          "tick": 7200
+        }
+      ],
+      "counts": {
+        "airburst": 35,
+        "coastal_gun_fire": 1,
+        "command_applied": 58,
+        "damage_phase": 9,
+        "damaged": 20,
+        "disabled": 4,
+        "fired": 228,
+        "fleet_flagship_changed": 7,
+        "hit": 54,
+        "main_gun_fire": 67,
+        "order_assignments_changed": 25,
+        "order_execution_changed": 769,
+        "order_issued": 16,
+        "order_status_changed": 41,
+        "salvo": 49,
+        "ship_support_fire": 160,
+        "surface_impact": 103,
+        "target_changed": 42
+      },
+      "events_sha256": "754e02a0445b82cf155c11678b4421aff77695db40436dc5473e7d8fbf039c9f",
+      "profile_calls": {
+        "aircraft_motion": 7200,
+        "aircraft_tasks": 7200,
+        "battlefield_terrain": 7200,
+        "combat_contacts": 7200,
+        "combat_damage": 7200,
+        "combat_frame": 7200,
+        "combat_projectiles": 7200,
+        "combat_targeting": 7200,
+        "combat_weapons": 7200,
+        "fleet_commander": 7200,
+        "fleet_tasks": 7200,
+        "ground_commander": 7200,
+        "ground_tasks": 7200,
+        "orders_snapshot": 21932,
+        "s14_missions": 7200,
+        "ship_motion": 7200
+      },
+      "profile_us": {
+        "aircraft_motion": 2034154,
+        "aircraft_tasks": 6845029,
+        "battlefield_terrain": 5667,
+        "combat_contacts": 4735896,
+        "combat_damage": 544701,
+        "combat_frame": 62322,
+        "combat_projectiles": 1141841,
+        "combat_targeting": 2480141,
+        "combat_weapons": 3401975,
+        "fleet_commander": 21284,
+        "fleet_tasks": 3811254,
+        "ground_commander": 16637,
+        "ground_tasks": 3551445,
+        "orders_snapshot": 1406592,
+        "owned_order_unit_ids": 8272962,
+        "s14_missions": 12387,
+        "ship_motion": 335356
+      },
+      "report": {
+        "jp": {
+          "aircraft": 4,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 42.1839359182794,
+          "ground": 0,
+          "ground_destroyed": 0,
+          "ground_disabled": 0,
+          "rounds_left": 120863,
+          "rounds_used": 37,
+          "ships": 0,
+          "sunk": 2,
+          "withdrawn": 0
+        },
+        "us": {
+          "aircraft": 8,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 139.657498672178,
+          "ground": 1,
+          "ground_destroyed": 1,
+          "ground_disabled": 1,
+          "rounds_left": 226619,
+          "rounds_used": 191,
+          "ships": 2,
+          "sunk": 0,
+          "withdrawn": 0
+        }
+      },
+      "scenario": "guided"
+    },
+    {
+      "checkpoints": [
+        {
+          "rng_state": 2996165421462687021,
+          "state_sha256": "87148887da648946fad7259470d3735395a7cd85fe0c9e29bebe76fbce94d4cc",
+          "tick": 600
+        },
+        {
+          "rng_state": 2154867393413709847,
+          "state_sha256": "70ee3b6b334bce2d085c42625de86e94bc22d7efdf082c0fe0a08db19ea0aae2",
+          "tick": 1200
+        },
+        {
+          "rng_state": -3384566408104492461,
+          "state_sha256": "94df98bee22b4df6087fe5bc688c4cfa26b3a81ebe8a99f88c645a93e47d1dd0",
+          "tick": 1800
+        },
+        {
+          "rng_state": 8041212660976885499,
+          "state_sha256": "fd697dbb654f53ed35549a8d5e69595761d9ace4ee3769325057bc4b9ed0f9e2",
+          "tick": 2400
+        },
+        {
+          "rng_state": 8041212660976885499,
+          "state_sha256": "ed590f0032af172bb03036ff8058a308d0f6cc7ddb88fd2da1b2fcf1277fc11b",
+          "tick": 3000
+        },
+        {
+          "rng_state": 8041212660976885499,
+          "state_sha256": "951a49dc8ddee33c84757a2cc58d460bd615f3dac32dfc1a6010da35bc6d3d60",
+          "tick": 3600
+        },
+        {
+          "rng_state": -9026781673073559565,
+          "state_sha256": "64a4f4ff9e246fa8e237e95640ae5e97e686e1e10fcbc361b0a19c95a720f81a",
+          "tick": 4200
+        },
+        {
+          "rng_state": -7608897891834119609,
+          "state_sha256": "ed6a4d75bdc39dc7cbdcf49739ed4bccd02ed0016b857e8406198356438e9196",
+          "tick": 4800
+        },
+        {
+          "rng_state": 6320657545484278909,
+          "state_sha256": "dbe84006091549573b7f439e7065be57b18c3bb840ec930e63217237cbee39fb",
+          "tick": 5400
+        },
+        {
+          "rng_state": 3772482820196879089,
+          "state_sha256": "6fd3786624d2abb5bc26e2d4ebcb982cee5c3a36f3fe53cc6a9079dda915893b",
+          "tick": 6000
+        },
+        {
+          "rng_state": 9043696291984942615,
+          "state_sha256": "3839a1c9ab2f3bb879ad68f82de2fd05e5824dca2918e894ea7191f8642e3535",
+          "tick": 6600
+        },
+        {
+          "rng_state": 4894570791679098283,
+          "state_sha256": "faff4140db68c9b89e8d5f619fef079a0ad8f87f2fa0f7a687ab70c1ebc5f197",
+          "tick": 7200
+        },
+        {
+          "rng_state": 8578443391319583553,
+          "state_sha256": "5284a7d461a1b7f25a9cc423bfde7b765499c508d4ad22d3189d4b7baebae15d",
+          "tick": 7800
+        },
+        {
+          "rng_state": 3605077382784315637,
+          "state_sha256": "f58f591ec7bffcdd08cf68d730f5e373878b85adf5dc60b6965c8458f97b60fe",
+          "tick": 8400
+        },
+        {
+          "rng_state": -3134163404114359433,
+          "state_sha256": "ea7dfff73a7c3f1f3ea50365ae57cad66378d22208efb788869269f3e08dadde",
+          "tick": 9000
+        },
+        {
+          "rng_state": 5727148009190827271,
+          "state_sha256": "f7a1b3bea4fee79aa6c9eabadaa3aa453113becf132e124b7c0fa3700902af87",
+          "tick": 9600
+        }
+      ],
+      "counts": {
+        "airburst": 339,
+        "aircraft_exit": 2,
+        "aircraft_fire": 120,
+        "coastal_gun_fire": 1,
+        "command_applied": 92,
+        "damage_phase": 7,
+        "damaged": 36,
+        "disabled": 3,
+        "fired": 667,
+        "fleet_flagship_changed": 7,
+        "hit": 72,
+        "main_gun_fire": 169,
+        "order_assignments_changed": 38,
+        "order_execution_changed": 1048,
+        "order_issued": 20,
+        "order_status_changed": 52,
+        "projectile_expired": 108,
+        "salvo": 134,
+        "ship_support_fire": 377,
+        "surface_impact": 115,
+        "target_changed": 72
+      },
+      "events_sha256": "800a54c1cd98187f7f1d67f9c7bd180b21309af607ffd761d751899a68a13237",
+      "profile_calls": {
+        "aircraft_motion": 9600,
+        "aircraft_tasks": 9600,
+        "battlefield_terrain": 9600,
+        "combat_contacts": 9600,
+        "combat_damage": 9600,
+        "combat_frame": 9600,
+        "combat_projectiles": 9600,
+        "combat_targeting": 9600,
+        "combat_weapons": 9600,
+        "fleet_commander": 9600,
+        "fleet_tasks": 9600,
+        "ground_commander": 9600,
+        "ground_tasks": 9600,
+        "orders_snapshot": 41256,
+        "s14_missions": 9600,
+        "ship_motion": 9600
+      },
+      "profile_us": {
+        "aircraft_motion": 2554477,
+        "aircraft_tasks": 9597158,
+        "battlefield_terrain": 8636,
+        "combat_contacts": 5400283,
+        "combat_damage": 776370,
+        "combat_frame": 88990,
+        "combat_projectiles": 2363606,
+        "combat_targeting": 3467975,
+        "combat_weapons": 4974736,
+        "fleet_commander": 33159,
+        "fleet_tasks": 5466376,
+        "ground_commander": 25217,
+        "ground_tasks": 5112306,
+        "orders_snapshot": 3514400,
+        "owned_order_unit_ids": 11419610,
+        "s14_missions": 1431671,
+        "ship_motion": 439023
+      },
+      "report": {
+        "jp": {
+          "aircraft": 3,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 55.369895743707,
+          "ground": 0,
+          "ground_destroyed": 0,
+          "ground_disabled": 0,
+          "rounds_left": 120810,
+          "rounds_used": 90,
+          "ships": 0,
+          "sunk": 2,
+          "withdrawn": 1
+        },
+        "us": {
+          "aircraft": 7,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 201.141604709756,
+          "ground": 2,
+          "ground_destroyed": 0,
+          "ground_disabled": 1,
+          "rounds_left": 226233,
+          "rounds_used": 577,
+          "ships": 2,
+          "sunk": 0,
+          "withdrawn": 1
+        }
+      },
+      "scenario": "four"
+    },
+    {
+      "checkpoints": [
+        {
+          "rng_state": 2996165421462687021,
+          "state_sha256": "d205d0b5cfab702bdb9cb4ab72854e09134f162315c969b15244e1fd6ff34324",
+          "tick": 600
+        }
+      ],
+      "counts": {
+        "coastal_gun_fire": 1,
+        "command_applied": 23,
+        "command_rejected": 1,
+        "damage_phase": 2,
+        "damaged": 8,
+        "disabled": 2,
+        "fired": 75,
+        "fleet_flagship_changed": 4,
+        "hit": 19,
+        "main_gun_fire": 19,
+        "order_assignments_changed": 16,
+        "order_execution_changed": 144,
+        "order_issued": 13,
+        "order_status_changed": 29,
+        "salvo": 12,
+        "ship_support_fire": 55,
+        "surface_impact": 43,
+        "target_changed": 10
+      },
+      "events_sha256": "06d8221611545e7fc4b859a1ebdd828bededf8aefd3b489e71d3c2fd117be864",
+      "profile_calls": {
+        "aircraft_motion": 1080,
+        "aircraft_tasks": 1080,
+        "battlefield_terrain": 1080,
+        "combat_contacts": 1080,
+        "combat_damage": 1080,
+        "combat_frame": 1080,
+        "combat_projectiles": 1080,
+        "combat_targeting": 1080,
+        "combat_weapons": 1080,
+        "fleet_commander": 1080,
+        "fleet_tasks": 1080,
+        "ground_commander": 1080,
+        "ground_tasks": 1080,
+        "orders_snapshot": 3289,
+        "s14_missions": 1080,
+        "ship_motion": 1080
+      },
+      "profile_us": {
+        "aircraft_motion": 286232,
+        "aircraft_tasks": 1342933,
+        "battlefield_terrain": 1059,
+        "combat_contacts": 579458,
+        "combat_damage": 88949,
+        "combat_frame": 10030,
+        "combat_projectiles": 248594,
+        "combat_targeting": 508750,
+        "combat_weapons": 720262,
+        "fleet_commander": 3855,
+        "fleet_tasks": 706727,
+        "ground_commander": 2700,
+        "ground_tasks": 648597,
+        "orders_snapshot": 184291,
+        "owned_order_unit_ids": 1571561,
+        "s14_missions": 1286,
+        "ship_motion": 73469
+      },
+      "report": {
+        "jp": {
+          "aircraft": 4,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 8.13922182067704,
+          "ground": 0,
+          "ground_destroyed": 0,
+          "ground_disabled": 0,
+          "rounds_left": 120881,
+          "rounds_used": 19,
+          "ships": 1,
+          "sunk": 1,
+          "withdrawn": 0
+        },
+        "us": {
+          "aircraft": 8,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 26.6022058926361,
+          "ground": 2,
+          "ground_destroyed": 0,
+          "ground_disabled": 1,
+          "rounds_left": 226754,
+          "rounds_used": 56,
+          "ships": 2,
+          "sunk": 0,
+          "withdrawn": 0
+        }
+      },
+      "scenario": "train_us_axial_roll"
+    },
+    {
+      "checkpoints": [
+        {
+          "rng_state": -882121952513992651,
+          "state_sha256": "f03a6bb1804553f7ca0f7ed353d7365fb012edd0efdc4b00f1108fd41d43260a",
+          "tick": 600
+        },
+        {
+          "rng_state": -4209330902352689883,
+          "state_sha256": "31d9d08ef408d4caa5eb06aea074fc516103e8887f9fbf5e61d6e31de7f990b8",
+          "tick": 1200
+        },
+        {
+          "rng_state": 2326726687039907279,
+          "state_sha256": "0672de6640baf24007b72efa99f46adb1798008fe17e9cef54ce08915eca2236",
+          "tick": 1800
+        },
+        {
+          "rng_state": 6984870239166791399,
+          "state_sha256": "bb2b8a66b125a304f7721afbbeefe1fd6097e16747b2b7e4fc0df56c55304e7d",
+          "tick": 2400
+        },
+        {
+          "rng_state": -5097142892040211785,
+          "state_sha256": "58b92aeecf7f2ea09367f1a854e5343e9e799d48cdd5e7647c781e60e00425bc",
+          "tick": 3000
+        },
+        {
+          "rng_state": -327862474054390835,
+          "state_sha256": "d8f60263726e664f277f240e04a812bedfb86762dbf0d1808a5bba51bb229558",
+          "tick": 3600
+        },
+        {
+          "rng_state": 8578443391319583553,
+          "state_sha256": "af29cd0af3b7c8d3679b9b2256f2dd13bdaa45572603ad576e434af3e8e0b528",
+          "tick": 4200
+        },
+        {
+          "rng_state": 4279703886493867915,
+          "state_sha256": "d1519abeaaf8991f3cbb62d2c852f230b3455b88146761f14ac455776d7af00d",
+          "tick": 4800
+        }
+      ],
+      "counts": {
+        "airburst": 154,
+        "aircraft_breakup": 1,
+        "aircraft_part_detached": 5,
+        "coastal_gun_fire": 4,
+        "command_applied": 35,
+        "damage_phase": 9,
+        "damaged": 55,
+        "disabled": 6,
+        "fired": 675,
+        "fleet_flagship_changed": 10,
+        "hit": 95,
+        "main_gun_fire": 111,
+        "order_assignments_changed": 29,
+        "order_execution_changed": 475,
+        "order_issued": 17,
+        "order_status_changed": 43,
+        "projectile_expired": 224,
+        "salvo": 77,
+        "ship_support_fire": 560,
+        "surface_impact": 176,
+        "target_changed": 18,
+        "unit_impact": 1,
+        "unit_surface_contact": 1
+      },
+      "events_sha256": "32a62dda985e12995d52bc382bbfdb9ed92c0d44ad9ee14c3b51a6034665696c",
+      "profile_calls": {
+        "aircraft_motion": 4800,
+        "aircraft_tasks": 4800,
+        "battlefield_terrain": 4800,
+        "combat_contacts": 4800,
+        "combat_damage": 4800,
+        "combat_frame": 4800,
+        "combat_projectiles": 4800,
+        "combat_targeting": 4800,
+        "combat_weapons": 4800,
+        "fleet_commander": 4800,
+        "fleet_tasks": 4800,
+        "ground_commander": 4800,
+        "ground_tasks": 4800,
+        "orders_snapshot": 14624,
+        "s14_missions": 4800,
+        "ship_motion": 4800
+      },
+      "profile_us": {
+        "aircraft_motion": 1182523,
+        "aircraft_tasks": 4753886,
+        "battlefield_terrain": 4426,
+        "combat_contacts": 3585933,
+        "combat_damage": 464281,
+        "combat_frame": 45017,
+        "combat_projectiles": 1981026,
+        "combat_targeting": 2186430,
+        "combat_weapons": 3097099,
+        "fleet_commander": 17161,
+        "fleet_tasks": 2930775,
+        "ground_commander": 12783,
+        "ground_tasks": 2701536,
+        "orders_snapshot": 977794,
+        "owned_order_unit_ids": 6430777,
+        "s14_missions": 8601,
+        "ship_motion": 269171
+      },
+      "report": {
+        "jp": {
+          "aircraft": 2,
+          "crashed": 2,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 21.3612596049266,
+          "ground": 0,
+          "ground_destroyed": 0,
+          "ground_disabled": 0,
+          "rounds_left": 120523,
+          "rounds_used": 377,
+          "ships": 0,
+          "sunk": 2,
+          "withdrawn": 0
+        },
+        "us": {
+          "aircraft": 7,
+          "crashed": 1,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 81.5137994550836,
+          "ground": 2,
+          "ground_destroyed": 0,
+          "ground_disabled": 1,
+          "rounds_left": 226512,
+          "rounds_used": 298,
+          "ships": 2,
+          "sunk": 0,
+          "withdrawn": 0
+        }
+      },
+      "scenario": "fire"
+    }
+  ],
+  "after": [
+    {
+      "checkpoints": [
+        {
+          "rng_state": 2996165421462687021,
+          "state_sha256": "788adc897c9e57391a6d70a5822662651dfd804e8b09088c8bf09b330fe5e697",
+          "tick": 600
+        },
+        {
+          "rng_state": 2797491715811578935,
+          "state_sha256": "1abfbbce8463e9092e23ae68e4638b291e1779b1130f4b72846c8fb8d7b79eea",
+          "tick": 1200
+        },
+        {
+          "rng_state": -16352669838449549,
+          "state_sha256": "bce9b43e9cd63430e3d40ba75879009cc3c03ff9926c260adfcce4421c10e47b",
+          "tick": 1800
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "da795c95309f5ff3995c4703ced1ccf598d241203abc05c6aa4dcca8be796b16",
+          "tick": 2400
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "15c126f5728af0c158053d0afffcb13101cdd316781aefe86755a42fab1bdb76",
+          "tick": 3000
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "6d1a30182dc903cc214bfbb0b41b5c7483a84a6a24bb647bfddca3985636d3e4",
+          "tick": 3600
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "928d1ae0c41f25fdb65f7dbbc52de38ca1f3a77bafb7851a3044693460eb8bf7",
+          "tick": 4200
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "ddb54069a39fe522feca1f628e5a87f40abef62489abb42c31d3f2876ac6aa2c",
+          "tick": 4800
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "6116c277b6574d4f54169da6a0af707ae5e6bf65c9f3343b60138322c20d12b9",
+          "tick": 5400
+        },
+        {
+          "rng_state": 244034756127398391,
+          "state_sha256": "aff25f26213feff4181470c8bbe294e09199572e43fa59f014e1a0c5b97fd622",
+          "tick": 6000
+        },
+        {
+          "rng_state": -6045378907424384449,
+          "state_sha256": "8f54a7f0e3fb5b3834d65bb39ba81a83989f27b90810adb9e42d102e1b01abea",
+          "tick": 6600
+        },
+        {
+          "rng_state": 2326726687039907279,
+          "state_sha256": "da06c1259087c4605b8dc09fdf9a0216027603835787688b9f3fde3cf038ec96",
+          "tick": 7200
+        }
+      ],
+      "counts": {
+        "airburst": 35,
+        "coastal_gun_fire": 1,
+        "command_applied": 58,
+        "damage_phase": 9,
+        "damaged": 20,
+        "disabled": 4,
+        "fired": 228,
+        "fleet_flagship_changed": 7,
+        "hit": 54,
+        "main_gun_fire": 67,
+        "order_assignments_changed": 25,
+        "order_execution_changed": 769,
+        "order_issued": 16,
+        "order_status_changed": 41,
+        "salvo": 49,
+        "ship_support_fire": 160,
+        "surface_impact": 103,
+        "target_changed": 42
+      },
+      "events_sha256": "754e02a0445b82cf155c11678b4421aff77695db40436dc5473e7d8fbf039c9f",
+      "profile_calls": {
+        "aircraft_motion": 7200,
+        "aircraft_tasks": 7200,
+        "battlefield_terrain": 7200,
+        "combat_contacts": 7200,
+        "combat_damage": 7200,
+        "combat_frame": 7200,
+        "combat_projectiles": 7200,
+        "combat_targeting": 7200,
+        "combat_weapons": 7200,
+        "fleet_commander": 7200,
+        "fleet_tasks": 7200,
+        "ground_commander": 7200,
+        "ground_tasks": 7200,
+        "orders_snapshot": 21932,
+        "s14_missions": 7200,
+        "ship_motion": 7200
+      },
+      "profile_us": {
+        "aircraft_motion": 1972134,
+        "aircraft_tasks": 3726088,
+        "battlefield_terrain": 5682,
+        "combat_contacts": 4648602,
+        "combat_damage": 521598,
+        "combat_frame": 60713,
+        "combat_projectiles": 1062196,
+        "combat_targeting": 2397572,
+        "combat_weapons": 3326050,
+        "fleet_commander": 20701,
+        "fleet_tasks": 962665,
+        "ground_commander": 15348,
+        "ground_tasks": 743457,
+        "orders_snapshot": 1363643,
+        "owned_order_unit_ids": 320619,
+        "s14_missions": 10015,
+        "ship_motion": 309296
+      },
+      "report": {
+        "jp": {
+          "aircraft": 4,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 42.1839359182794,
+          "ground": 0,
+          "ground_destroyed": 0,
+          "ground_disabled": 0,
+          "rounds_left": 120863,
+          "rounds_used": 37,
+          "ships": 0,
+          "sunk": 2,
+          "withdrawn": 0
+        },
+        "us": {
+          "aircraft": 8,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 139.657498672178,
+          "ground": 1,
+          "ground_destroyed": 1,
+          "ground_disabled": 1,
+          "rounds_left": 226619,
+          "rounds_used": 191,
+          "ships": 2,
+          "sunk": 0,
+          "withdrawn": 0
+        }
+      },
+      "scenario": "guided"
+    },
+    {
+      "checkpoints": [
+        {
+          "rng_state": 2996165421462687021,
+          "state_sha256": "87148887da648946fad7259470d3735395a7cd85fe0c9e29bebe76fbce94d4cc",
+          "tick": 600
+        },
+        {
+          "rng_state": 2154867393413709847,
+          "state_sha256": "70ee3b6b334bce2d085c42625de86e94bc22d7efdf082c0fe0a08db19ea0aae2",
+          "tick": 1200
+        },
+        {
+          "rng_state": -3384566408104492461,
+          "state_sha256": "94df98bee22b4df6087fe5bc688c4cfa26b3a81ebe8a99f88c645a93e47d1dd0",
+          "tick": 1800
+        },
+        {
+          "rng_state": 8041212660976885499,
+          "state_sha256": "fd697dbb654f53ed35549a8d5e69595761d9ace4ee3769325057bc4b9ed0f9e2",
+          "tick": 2400
+        },
+        {
+          "rng_state": 8041212660976885499,
+          "state_sha256": "ed590f0032af172bb03036ff8058a308d0f6cc7ddb88fd2da1b2fcf1277fc11b",
+          "tick": 3000
+        },
+        {
+          "rng_state": 8041212660976885499,
+          "state_sha256": "951a49dc8ddee33c84757a2cc58d460bd615f3dac32dfc1a6010da35bc6d3d60",
+          "tick": 3600
+        },
+        {
+          "rng_state": -9026781673073559565,
+          "state_sha256": "64a4f4ff9e246fa8e237e95640ae5e97e686e1e10fcbc361b0a19c95a720f81a",
+          "tick": 4200
+        },
+        {
+          "rng_state": -7608897891834119609,
+          "state_sha256": "ed6a4d75bdc39dc7cbdcf49739ed4bccd02ed0016b857e8406198356438e9196",
+          "tick": 4800
+        },
+        {
+          "rng_state": 6320657545484278909,
+          "state_sha256": "dbe84006091549573b7f439e7065be57b18c3bb840ec930e63217237cbee39fb",
+          "tick": 5400
+        },
+        {
+          "rng_state": 3772482820196879089,
+          "state_sha256": "6fd3786624d2abb5bc26e2d4ebcb982cee5c3a36f3fe53cc6a9079dda915893b",
+          "tick": 6000
+        },
+        {
+          "rng_state": 9043696291984942615,
+          "state_sha256": "3839a1c9ab2f3bb879ad68f82de2fd05e5824dca2918e894ea7191f8642e3535",
+          "tick": 6600
+        },
+        {
+          "rng_state": 4894570791679098283,
+          "state_sha256": "faff4140db68c9b89e8d5f619fef079a0ad8f87f2fa0f7a687ab70c1ebc5f197",
+          "tick": 7200
+        },
+        {
+          "rng_state": 8578443391319583553,
+          "state_sha256": "5284a7d461a1b7f25a9cc423bfde7b765499c508d4ad22d3189d4b7baebae15d",
+          "tick": 7800
+        },
+        {
+          "rng_state": 3605077382784315637,
+          "state_sha256": "f58f591ec7bffcdd08cf68d730f5e373878b85adf5dc60b6965c8458f97b60fe",
+          "tick": 8400
+        },
+        {
+          "rng_state": -3134163404114359433,
+          "state_sha256": "ea7dfff73a7c3f1f3ea50365ae57cad66378d22208efb788869269f3e08dadde",
+          "tick": 9000
+        },
+        {
+          "rng_state": 5727148009190827271,
+          "state_sha256": "f7a1b3bea4fee79aa6c9eabadaa3aa453113becf132e124b7c0fa3700902af87",
+          "tick": 9600
+        }
+      ],
+      "counts": {
+        "airburst": 339,
+        "aircraft_exit": 2,
+        "aircraft_fire": 120,
+        "coastal_gun_fire": 1,
+        "command_applied": 92,
+        "damage_phase": 7,
+        "damaged": 36,
+        "disabled": 3,
+        "fired": 667,
+        "fleet_flagship_changed": 7,
+        "hit": 72,
+        "main_gun_fire": 169,
+        "order_assignments_changed": 38,
+        "order_execution_changed": 1048,
+        "order_issued": 20,
+        "order_status_changed": 52,
+        "projectile_expired": 108,
+        "salvo": 134,
+        "ship_support_fire": 377,
+        "surface_impact": 115,
+        "target_changed": 72
+      },
+      "events_sha256": "800a54c1cd98187f7f1d67f9c7bd180b21309af607ffd761d751899a68a13237",
+      "profile_calls": {
+        "aircraft_motion": 9600,
+        "aircraft_tasks": 9600,
+        "battlefield_terrain": 9600,
+        "combat_contacts": 9600,
+        "combat_damage": 9600,
+        "combat_frame": 9600,
+        "combat_projectiles": 9600,
+        "combat_targeting": 9600,
+        "combat_weapons": 9600,
+        "fleet_commander": 9600,
+        "fleet_tasks": 9600,
+        "ground_commander": 9600,
+        "ground_tasks": 9600,
+        "orders_snapshot": 41256,
+        "s14_missions": 9600,
+        "ship_motion": 9600
+      },
+      "profile_us": {
+        "aircraft_motion": 2435581,
+        "aircraft_tasks": 5135167,
+        "battlefield_terrain": 7456,
+        "combat_contacts": 5208370,
+        "combat_damage": 739295,
+        "combat_frame": 83991,
+        "combat_projectiles": 2244511,
+        "combat_targeting": 3290071,
+        "combat_weapons": 4751820,
+        "fleet_commander": 29225,
+        "fleet_tasks": 1547245,
+        "ground_commander": 22027,
+        "ground_tasks": 1298372,
+        "orders_snapshot": 3408953,
+        "owned_order_unit_ids": 478880,
+        "s14_missions": 1395142,
+        "ship_motion": 409118
+      },
+      "report": {
+        "jp": {
+          "aircraft": 3,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 55.369895743707,
+          "ground": 0,
+          "ground_destroyed": 0,
+          "ground_disabled": 0,
+          "rounds_left": 120810,
+          "rounds_used": 90,
+          "ships": 0,
+          "sunk": 2,
+          "withdrawn": 1
+        },
+        "us": {
+          "aircraft": 7,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 201.141604709756,
+          "ground": 2,
+          "ground_destroyed": 0,
+          "ground_disabled": 1,
+          "rounds_left": 226233,
+          "rounds_used": 577,
+          "ships": 2,
+          "sunk": 0,
+          "withdrawn": 1
+        }
+      },
+      "scenario": "four"
+    },
+    {
+      "checkpoints": [
+        {
+          "rng_state": 2996165421462687021,
+          "state_sha256": "d205d0b5cfab702bdb9cb4ab72854e09134f162315c969b15244e1fd6ff34324",
+          "tick": 600
+        }
+      ],
+      "counts": {
+        "coastal_gun_fire": 1,
+        "command_applied": 23,
+        "command_rejected": 1,
+        "damage_phase": 2,
+        "damaged": 8,
+        "disabled": 2,
+        "fired": 75,
+        "fleet_flagship_changed": 4,
+        "hit": 19,
+        "main_gun_fire": 19,
+        "order_assignments_changed": 16,
+        "order_execution_changed": 144,
+        "order_issued": 13,
+        "order_status_changed": 29,
+        "salvo": 12,
+        "ship_support_fire": 55,
+        "surface_impact": 43,
+        "target_changed": 10
+      },
+      "events_sha256": "06d8221611545e7fc4b859a1ebdd828bededf8aefd3b489e71d3c2fd117be864",
+      "profile_calls": {
+        "aircraft_motion": 1080,
+        "aircraft_tasks": 1080,
+        "battlefield_terrain": 1080,
+        "combat_contacts": 1080,
+        "combat_damage": 1080,
+        "combat_frame": 1080,
+        "combat_projectiles": 1080,
+        "combat_targeting": 1080,
+        "combat_weapons": 1080,
+        "fleet_commander": 1080,
+        "fleet_tasks": 1080,
+        "ground_commander": 1080,
+        "ground_tasks": 1080,
+        "orders_snapshot": 3289,
+        "s14_missions": 1080,
+        "ship_motion": 1080
+      },
+      "profile_us": {
+        "aircraft_motion": 270537,
+        "aircraft_tasks": 734481,
+        "battlefield_terrain": 947,
+        "combat_contacts": 572817,
+        "combat_damage": 84203,
+        "combat_frame": 9495,
+        "combat_projectiles": 238408,
+        "combat_targeting": 485626,
+        "combat_weapons": 691230,
+        "fleet_commander": 3645,
+        "fleet_tasks": 158189,
+        "ground_commander": 2306,
+        "ground_tasks": 109771,
+        "orders_snapshot": 177502,
+        "owned_order_unit_ids": 53144,
+        "s14_missions": 1098,
+        "ship_motion": 69203
+      },
+      "report": {
+        "jp": {
+          "aircraft": 4,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 8.13922182067704,
+          "ground": 0,
+          "ground_destroyed": 0,
+          "ground_disabled": 0,
+          "rounds_left": 120881,
+          "rounds_used": 19,
+          "ships": 1,
+          "sunk": 1,
+          "withdrawn": 0
+        },
+        "us": {
+          "aircraft": 8,
+          "crashed": 0,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 26.6022058926361,
+          "ground": 2,
+          "ground_destroyed": 0,
+          "ground_disabled": 1,
+          "rounds_left": 226754,
+          "rounds_used": 56,
+          "ships": 2,
+          "sunk": 0,
+          "withdrawn": 0
+        }
+      },
+      "scenario": "train_us_axial_roll"
+    },
+    {
+      "checkpoints": [
+        {
+          "rng_state": -882121952513992651,
+          "state_sha256": "f03a6bb1804553f7ca0f7ed353d7365fb012edd0efdc4b00f1108fd41d43260a",
+          "tick": 600
+        },
+        {
+          "rng_state": -4209330902352689883,
+          "state_sha256": "31d9d08ef408d4caa5eb06aea074fc516103e8887f9fbf5e61d6e31de7f990b8",
+          "tick": 1200
+        },
+        {
+          "rng_state": 2326726687039907279,
+          "state_sha256": "0672de6640baf24007b72efa99f46adb1798008fe17e9cef54ce08915eca2236",
+          "tick": 1800
+        },
+        {
+          "rng_state": 6984870239166791399,
+          "state_sha256": "bb2b8a66b125a304f7721afbbeefe1fd6097e16747b2b7e4fc0df56c55304e7d",
+          "tick": 2400
+        },
+        {
+          "rng_state": -5097142892040211785,
+          "state_sha256": "58b92aeecf7f2ea09367f1a854e5343e9e799d48cdd5e7647c781e60e00425bc",
+          "tick": 3000
+        },
+        {
+          "rng_state": -327862474054390835,
+          "state_sha256": "d8f60263726e664f277f240e04a812bedfb86762dbf0d1808a5bba51bb229558",
+          "tick": 3600
+        },
+        {
+          "rng_state": 8578443391319583553,
+          "state_sha256": "af29cd0af3b7c8d3679b9b2256f2dd13bdaa45572603ad576e434af3e8e0b528",
+          "tick": 4200
+        },
+        {
+          "rng_state": 4279703886493867915,
+          "state_sha256": "d1519abeaaf8991f3cbb62d2c852f230b3455b88146761f14ac455776d7af00d",
+          "tick": 4800
+        }
+      ],
+      "counts": {
+        "airburst": 154,
+        "aircraft_breakup": 1,
+        "aircraft_part_detached": 5,
+        "coastal_gun_fire": 4,
+        "command_applied": 35,
+        "damage_phase": 9,
+        "damaged": 55,
+        "disabled": 6,
+        "fired": 675,
+        "fleet_flagship_changed": 10,
+        "hit": 95,
+        "main_gun_fire": 111,
+        "order_assignments_changed": 29,
+        "order_execution_changed": 475,
+        "order_issued": 17,
+        "order_status_changed": 43,
+        "projectile_expired": 224,
+        "salvo": 77,
+        "ship_support_fire": 560,
+        "surface_impact": 176,
+        "target_changed": 18,
+        "unit_impact": 1,
+        "unit_surface_contact": 1
+      },
+      "events_sha256": "32a62dda985e12995d52bc382bbfdb9ed92c0d44ad9ee14c3b51a6034665696c",
+      "profile_calls": {
+        "aircraft_motion": 4800,
+        "aircraft_tasks": 4800,
+        "battlefield_terrain": 4800,
+        "combat_contacts": 4800,
+        "combat_damage": 4800,
+        "combat_frame": 4800,
+        "combat_projectiles": 4800,
+        "combat_targeting": 4800,
+        "combat_weapons": 4800,
+        "fleet_commander": 4800,
+        "fleet_tasks": 4800,
+        "ground_commander": 4800,
+        "ground_tasks": 4800,
+        "orders_snapshot": 14624,
+        "s14_missions": 4800,
+        "ship_motion": 4800
+      },
+      "profile_us": {
+        "aircraft_motion": 1100617,
+        "aircraft_tasks": 2191937,
+        "battlefield_terrain": 4054,
+        "combat_contacts": 3451323,
+        "combat_damage": 432465,
+        "combat_frame": 42867,
+        "combat_projectiles": 1881488,
+        "combat_targeting": 2064940,
+        "combat_weapons": 2911603,
+        "fleet_commander": 16435,
+        "fleet_tasks": 703241,
+        "ground_commander": 10901,
+        "ground_tasks": 533162,
+        "orders_snapshot": 916776,
+        "owned_order_unit_ids": 227556,
+        "s14_missions": 7341,
+        "ship_motion": 245232
+      },
+      "report": {
+        "jp": {
+          "aircraft": 2,
+          "crashed": 2,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 21.3612596049266,
+          "ground": 0,
+          "ground_destroyed": 0,
+          "ground_disabled": 0,
+          "rounds_left": 120523,
+          "rounds_used": 377,
+          "ships": 0,
+          "sunk": 2,
+          "withdrawn": 0
+        },
+        "us": {
+          "aircraft": 7,
+          "crashed": 1,
+          "disabled": 0,
+          "ditched": 0,
+          "fuel_used_kg": 81.5137994550836,
+          "ground": 2,
+          "ground_destroyed": 0,
+          "ground_disabled": 1,
+          "rounds_left": 226512,
+          "rounds_used": 298,
+          "ships": 2,
+          "sunk": 0,
+          "withdrawn": 0
+        }
+      },
+      "scenario": "fire"
+    }
+  ]
+}

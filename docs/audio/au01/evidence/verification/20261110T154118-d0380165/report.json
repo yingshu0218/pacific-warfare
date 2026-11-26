@@ -1,0 +1,40 @@
+{
+  "run_id": "20261110T154118-d0380165",
+  "owner": "AU01-audio-build",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 41497,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "tools/audio/build_au01.py"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 41499,
+      "process_group": 41499,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 34.1768,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T154118-d0380165/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "AU01-audio-build",
+    "pid": 41497,
+    "process_identity": "pid=41497 started_utc=2026-11-10T15:41:18.255910+00:00 argv=['tools/verify.py', '--owner', 'AU01-audio-build', '--timeout', '180', '--lock-timeout', '10', 'exec', '--', 'python3', 'tools/audio/build_au01.py'] (ps unavailable)",
+    "token": "ab49750e2d7e4222a1c9b4ccbbb5d713",
+    "acquired_utc": "2026-11-10T15:41:18.263362+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

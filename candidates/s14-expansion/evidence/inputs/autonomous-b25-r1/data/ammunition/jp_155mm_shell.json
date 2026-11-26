@@ -1,0 +1,13 @@
+{
+  "id": "jp_155mm_shell",
+  "caliber_m": 0.155,
+  "projectile_mass_kg": 55.87,
+  "muzzle_speed_mps": 920.0,
+  "gravity_mps2": 9.80665,
+  "max_lifetime_s": 100.0,
+  "source": {
+    "status": "provisional",
+    "paths": [],
+    "note": "Provisional integration values; external historical verification and ammunition subtype/fuze remain S05 work. Lifetime is a simulation safety bound, not a historical range claim."
+  }
+}

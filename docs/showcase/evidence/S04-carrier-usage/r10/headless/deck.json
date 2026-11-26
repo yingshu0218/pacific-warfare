@@ -1,0 +1,155 @@
+{
+	"checks": 31,
+	"contacts": [
+		{
+			"aircraft_local_m": [
+				-1.92999267578125,
+				-1.42391836643219,
+				-1.19794321060181
+			],
+			"contact_id": "main_left",
+			"deck_local_m": [
+				-5.12046813964844,
+				15.8500003814697,
+				73.8847351074219
+			],
+			"surface": {
+				"height_m": 15.85,
+				"supported": true,
+				"surface_id": "flight_deck"
+			}
+		},
+		{
+			"aircraft_local_m": [
+				1.93000793457031,
+				-1.42392027378082,
+				-1.19797372817993
+			],
+			"contact_id": "main_right",
+			"deck_local_m": [
+				-1.30380249023438,
+				15.850004196167,
+				73.3078842163086
+			],
+			"surface": {
+				"height_m": 15.85,
+				"supported": true,
+				"surface_id": "flight_deck"
+			}
+		},
+		{
+			"aircraft_local_m": [
+				0.00000000661073240593169,
+				-0.447877645492554,
+				4.54513645172119
+			],
+			"contact_id": "tail",
+			"deck_local_m": [
+				-2.34159851074219,
+				15.8500003814697,
+				79.3563385009766
+			],
+			"surface": {
+				"height_m": 15.85,
+				"supported": true,
+				"surface_id": "flight_deck"
+			}
+		}
+	],
+	"failures": 0,
+	"flap_clearances_m_by_degrees": {
+		"35.0": {
+			"Port inboard flap": 0.255594635009766,
+			"Port outboard flap": 0.432312393188477,
+			"Starboard inboard flap": 0.255594635009766,
+			"Starboard outboard flap": 0.432312393188477
+		},
+		"50.0": {
+			"Port inboard flap": 0.109421157836914,
+			"Port outboard flap": 0.306526565551758,
+			"Starboard inboard flap": 0.109420204162598,
+			"Starboard outboard flap": 0.306526565551758
+		}
+	},
+	"hook_contact_deck_m": [
+		-2.18791198730469,
+		15.8699989318848,
+		80.3732757568359
+	],
+	"hook_contact_flight": {
+		"coordinate_space": "aircraft_local",
+		"definition_id": "us_f6f5_1944",
+		"flap_angle_rad": 0.610865238198015,
+		"gear_down": true,
+		"hook_available": true,
+		"hook_deflection_limit_rad": 0.698131700797732,
+		"hook_deflection_rad": 0.522782841166911,
+		"hook_down": true,
+		"hook_free_angle_rad": 0.20943951023932,
+		"hook_host_part_id": "tail",
+		"hook_pivot_m": [
+			0.0,
+			0.130000352859497,
+			4.79998779296875
+		],
+		"hook_tip_m": [
+			0.0,
+			-0.255841016769409,
+			5.55572509765625
+		],
+		"schema_version": 1,
+		"wheel_contacts": {
+			"main_left": {
+				"available": true,
+				"centre_m": [
+					-1.92999267578125,
+					-0.999996900558472,
+					-1.26998901367188
+				],
+				"host_part_id": "wing_left",
+				"position_m": [
+					-1.92999267578125,
+					-1.42391836643219,
+					-1.19794321060181
+				],
+				"radius_m": 0.43
+			},
+			"main_right": {
+				"available": true,
+				"centre_m": [
+					1.93000793457031,
+					-0.999998807907104,
+					-1.27001953125
+				],
+				"host_part_id": "wing_right",
+				"position_m": [
+					1.93000793457031,
+					-1.42392027378082,
+					-1.19797372817993
+				],
+				"radius_m": 0.43
+			},
+			"tail": {
+				"available": true,
+				"centre_m": [
+					0.0,
+					-0.299998044967651,
+					4.52000427246094
+				],
+				"host_part_id": "tail",
+				"position_m": [
+					0.00000000661073240593169,
+					-0.447877645492554,
+					4.54513645172119
+				],
+				"radius_m": 0.15
+			}
+		}
+	},
+	"lowered_surface": {
+		"height_m": 7.92600011825562,
+		"supported": true,
+		"surface_id": "elevator_forward"
+	},
+	"scope": "Static actual CV01 installation and contact geometry; no claim of carrier operation execution."
+}

@@ -1,0 +1,80 @@
+{
+  "task": "FX01",
+  "reviewed_utc": "2026-11-10T18:34:39.851019+00:00",
+  "scope": "FX-only on frozen S10/S13; not DM full physical flight or S14/S08 long-run",
+  "status": "passed_scoped_review",
+  "source_files_checked": 28,
+  "source_mismatches": [],
+  "evidence_files_checked": 1199,
+  "evidence_mismatches": [],
+  "process_groups_checked": 89,
+  "remaining_groups": [],
+  "chrome_port_still_listening": false,
+  "browser_checks": 21,
+  "browser_failures": [],
+  "browser_console": [],
+  "page_errors": [],
+  "metrics_recomputed": [
+    {
+      "phase": "production_live",
+      "frames": 733,
+      "p95_ms": 21.159999999999844,
+      "matches_worker": true,
+      "all_visible_focused": true
+    },
+    {
+      "phase": "water_effects_disabled",
+      "frames": 961,
+      "p95_ms": 12.899999999997817,
+      "matches_worker": true,
+      "all_visible_focused": true
+    },
+    {
+      "phase": "water_effects_enabled",
+      "frames": 967,
+      "p95_ms": 12.700000000003275,
+      "matches_worker": true,
+      "all_visible_focused": true
+    },
+    {
+      "phase": "flak_controlled",
+      "frames": 971,
+      "p95_ms": 12.900000000001455,
+      "matches_worker": true,
+      "all_visible_focused": true
+    },
+    {
+      "phase": "tracer_controlled",
+      "frames": 473,
+      "p95_ms": 11.5,
+      "matches_worker": true,
+      "all_visible_focused": true
+    },
+    {
+      "phase": "smoke_controlled",
+      "frames": 592,
+      "p95_ms": 12.244999999996429,
+      "matches_worker": true,
+      "all_visible_focused": true
+    }
+  ],
+  "actual_views": [
+    "native/water_close.png",
+    "native/smoke_engine.png",
+    "surface-debug-fixed/all.png (prior review)",
+    "chrome/water.png",
+    "chrome/flak.png",
+    "chrome/tracer.png",
+    "chrome/smoke_150mps.png"
+  ],
+  "old_chrome_invalid_fixture_excluded": true,
+  "all_checks_passed": true,
+  "native_web_common_runtime_comparison": {
+    "count": 236,
+    "drift": []
+  },
+  "build_outputs": {
+    "checked": 10,
+    "mismatches": []
+  }
+}

@@ -1,0 +1,412 @@
+{
+	"checks": [
+		{
+			"label": "guided assembles: []",
+			"passed": true
+		},
+		{
+			"label": "guided installs high-level missions",
+			"passed": true
+		},
+		{
+			"label": "guided has all 19 units",
+			"passed": true
+		},
+		{
+			"label": "guided SB2C really integrates flight",
+			"passed": true
+		},
+		{
+			"label": "guided unarmed ward does not withdraw for no ammunition",
+			"passed": true
+		},
+		{
+			"label": "guided active aircraft speed bounded",
+			"passed": true
+		},
+		{
+			"label": "guided no command rejections []",
+			"passed": true
+		},
+		{
+			"label": "guided normal reset/generation",
+			"passed": true
+		},
+		{
+			"label": "pair assembles: []",
+			"passed": true
+		},
+		{
+			"label": "pair installs high-level missions",
+			"passed": true
+		},
+		{
+			"label": "pair has all 19 units",
+			"passed": true
+		},
+		{
+			"label": "pair SB2C really integrates flight",
+			"passed": true
+		},
+		{
+			"label": "pair unarmed ward does not withdraw for no ammunition",
+			"passed": true
+		},
+		{
+			"label": "pair active aircraft speed bounded",
+			"passed": true
+		},
+		{
+			"label": "pair no command rejections []",
+			"passed": true
+		},
+		{
+			"label": "pair normal reset/generation",
+			"passed": true
+		},
+		{
+			"label": "four assembles: []",
+			"passed": true
+		},
+		{
+			"label": "four installs high-level missions",
+			"passed": true
+		},
+		{
+			"label": "four has all 19 units",
+			"passed": true
+		},
+		{
+			"label": "four SB2C really integrates flight",
+			"passed": true
+		},
+		{
+			"label": "four unarmed ward does not withdraw for no ammunition",
+			"passed": true
+		},
+		{
+			"label": "four active aircraft speed bounded",
+			"passed": true
+		},
+		{
+			"label": "four no command rejections []",
+			"passed": true
+		},
+		{
+			"label": "four normal reset/generation",
+			"passed": true
+		},
+		{
+			"label": "maneuver assembles: []",
+			"passed": true
+		},
+		{
+			"label": "maneuver installs high-level missions",
+			"passed": true
+		},
+		{
+			"label": "maneuver has all 19 units",
+			"passed": true
+		},
+		{
+			"label": "maneuver SB2C really integrates flight",
+			"passed": true
+		},
+		{
+			"label": "maneuver unarmed ward does not withdraw for no ammunition",
+			"passed": true
+		},
+		{
+			"label": "maneuver active aircraft speed bounded",
+			"passed": true
+		},
+		{
+			"label": "maneuver no command rejections []",
+			"passed": true
+		},
+		{
+			"label": "maneuver normal reset/generation",
+			"passed": true
+		},
+		{
+			"label": "escort assembles: []",
+			"passed": true
+		},
+		{
+			"label": "escort installs high-level missions",
+			"passed": true
+		},
+		{
+			"label": "escort has all 19 units",
+			"passed": true
+		},
+		{
+			"label": "escort SB2C really integrates flight",
+			"passed": true
+		},
+		{
+			"label": "escort unarmed ward does not withdraw for no ammunition",
+			"passed": true
+		},
+		{
+			"label": "escort active aircraft speed bounded",
+			"passed": true
+		},
+		{
+			"label": "escort no command rejections []",
+			"passed": true
+		},
+		{
+			"label": "escort normal reset/generation",
+			"passed": true
+		},
+		{
+			"label": "fire assembles: []",
+			"passed": true
+		},
+		{
+			"label": "fire installs high-level missions",
+			"passed": true
+		},
+		{
+			"label": "fire has all 19 units",
+			"passed": true
+		},
+		{
+			"label": "fire SB2C really integrates flight",
+			"passed": true
+		},
+		{
+			"label": "fire unarmed ward does not withdraw for no ammunition",
+			"passed": true
+		},
+		{
+			"label": "fire active aircraft speed bounded",
+			"passed": true
+		},
+		{
+			"label": "fire no command rejections []",
+			"passed": true
+		},
+		{
+			"label": "fire normal reset/generation",
+			"passed": true
+		},
+		{
+			"label": "pair assembles: []",
+			"passed": true
+		},
+		{
+			"label": "pair installs high-level missions",
+			"passed": true
+		},
+		{
+			"label": "same orders reset deterministically",
+			"passed": true
+		}
+	],
+	"failures": 0,
+	"samples": {
+		"escort": {
+			"counts": {
+				"command_applied": 22,
+				"fired": 13,
+				"fleet_flagship_changed": 4,
+				"order_assignments_changed": 15,
+				"order_execution_changed": 46,
+				"order_issued": 13,
+				"order_status_changed": 26,
+				"salvo": 2,
+				"target_changed": 9
+			},
+			"max_bank_deg": 66.4009923998441,
+			"max_path_pitch_deg": 6.80584911309831,
+			"max_wingman_goal_distance_m": 400.0,
+			"min_speed_mps": 78.4291534423828,
+			"minimum_pair_distance_m": 232.308166503906,
+			"phases": [
+				"jp_air_1:approach:track",
+				"jp_air_2:cover:high_cover",
+				"jp_air_3:approach:track",
+				"jp_air_4:cover:high_cover",
+				"us_air_1:guard:track",
+				"us_air_2:formation:track",
+				"us_air_3:support:high_cover",
+				"us_air_4:formation:track",
+				"us_pair_demo_1:patrol:track",
+				"us_pair_demo_2:formation:track",
+				"us_sb2c_1:patrol:track",
+				"us_sb2c_2:formation:track"
+			],
+			"seconds": 4
+		},
+		"fire": {
+			"counts": {
+				"command_applied": 18,
+				"fired": 25,
+				"fleet_flagship_changed": 4,
+				"order_assignments_changed": 11,
+				"order_execution_changed": 47,
+				"order_issued": 11,
+				"order_status_changed": 22,
+				"salvo": 2,
+				"target_changed": 7
+			},
+			"max_bank_deg": 0.0000455585445354193,
+			"max_path_pitch_deg": 0.0,
+			"max_wingman_goal_distance_m": 400.0,
+			"min_speed_mps": 78.4298095703125,
+			"minimum_pair_distance_m": 232.306304931641,
+			"phases": [
+				"jp_air_1:patrol:track",
+				"jp_air_2:formation:track",
+				"jp_air_3:support:high_cover",
+				"jp_air_4:formation:track",
+				"us_air_1:patrol:track",
+				"us_air_2:formation:track",
+				"us_air_3:support:high_cover",
+				"us_air_4:formation:track",
+				"us_pair_demo_1:patrol:track",
+				"us_pair_demo_2:formation:track",
+				"us_sb2c_1:patrol:track",
+				"us_sb2c_2:formation:track"
+			],
+			"seconds": 4
+		},
+		"four": {
+			"counts": {
+				"command_applied": 18,
+				"fired": 13,
+				"fleet_flagship_changed": 4,
+				"order_assignments_changed": 11,
+				"order_execution_changed": 47,
+				"order_issued": 11,
+				"order_status_changed": 22,
+				"salvo": 2,
+				"target_changed": 7
+			},
+			"max_bank_deg": 0.0000455584272874515,
+			"max_path_pitch_deg": 0.0,
+			"max_wingman_goal_distance_m": 400.0,
+			"min_speed_mps": 78.4291534423828,
+			"minimum_pair_distance_m": 232.308166503906,
+			"phases": [
+				"jp_air_1:patrol:track",
+				"jp_air_2:formation:track",
+				"jp_air_3:support:high_cover",
+				"jp_air_4:formation:track",
+				"us_air_1:patrol:track",
+				"us_air_2:formation:track",
+				"us_air_3:support:high_cover",
+				"us_air_4:formation:track",
+				"us_pair_demo_1:patrol:track",
+				"us_pair_demo_2:formation:track",
+				"us_sb2c_1:patrol:track",
+				"us_sb2c_2:formation:track"
+			],
+			"seconds": 4
+		},
+		"guided": {
+			"counts": {
+				"command_applied": 18,
+				"fired": 13,
+				"fleet_flagship_changed": 4,
+				"order_assignments_changed": 11,
+				"order_execution_changed": 47,
+				"order_issued": 11,
+				"order_status_changed": 22,
+				"salvo": 2,
+				"target_changed": 7
+			},
+			"max_bank_deg": 0.0000455584272874515,
+			"max_path_pitch_deg": 0.0,
+			"max_wingman_goal_distance_m": 400.0,
+			"min_speed_mps": 78.4291534423828,
+			"minimum_pair_distance_m": 232.308166503906,
+			"phases": [
+				"jp_air_1:patrol:track",
+				"jp_air_2:formation:track",
+				"jp_air_3:support:high_cover",
+				"jp_air_4:formation:track",
+				"us_air_1:patrol:track",
+				"us_air_2:formation:track",
+				"us_air_3:support:high_cover",
+				"us_air_4:formation:track",
+				"us_pair_demo_1:patrol:track",
+				"us_pair_demo_2:formation:track",
+				"us_sb2c_1:patrol:track",
+				"us_sb2c_2:formation:track"
+			],
+			"seconds": 4
+		},
+		"maneuver": {
+			"counts": {
+				"command_applied": 22,
+				"fired": 13,
+				"fleet_flagship_changed": 4,
+				"order_assignments_changed": 15,
+				"order_execution_changed": 50,
+				"order_issued": 13,
+				"order_status_changed": 26,
+				"salvo": 2,
+				"target_changed": 9
+			},
+			"max_bank_deg": 80.8417934007105,
+			"max_path_pitch_deg": 10.4072442359918,
+			"max_wingman_goal_distance_m": 696.030090332031,
+			"min_speed_mps": 78.4291534423828,
+			"minimum_pair_distance_m": 233.746368408203,
+			"phases": [
+				"jp_air_1:aim:track",
+				"jp_air_2:aim:track",
+				"jp_air_3:patrol:track",
+				"jp_air_4:formation:track",
+				"us_air_1:patrol:track",
+				"us_air_2:formation:track",
+				"us_air_3:support:high_cover",
+				"us_air_4:formation:track",
+				"us_pair_demo_1:evade:break_turn_roll",
+				"us_pair_demo_2:evade:break_turn_roll",
+				"us_sb2c_1:patrol:track",
+				"us_sb2c_2:formation:track",
+				"jp_air_1:burst:track",
+				"us_pair_demo_1:evade:break_turn_pull",
+				"us_pair_demo_2:evade:break_turn_pull"
+			],
+			"seconds": 4
+		},
+		"pair": {
+			"counts": {
+				"command_applied": 18,
+				"fired": 13,
+				"fleet_flagship_changed": 4,
+				"order_assignments_changed": 11,
+				"order_execution_changed": 47,
+				"order_issued": 11,
+				"order_status_changed": 22,
+				"salvo": 2,
+				"target_changed": 7
+			},
+			"max_bank_deg": 0.0000455584272874515,
+			"max_path_pitch_deg": 0.0,
+			"max_wingman_goal_distance_m": 400.0,
+			"min_speed_mps": 78.4291534423828,
+			"minimum_pair_distance_m": 232.308166503906,
+			"phases": [
+				"jp_air_1:patrol:track",
+				"jp_air_2:formation:track",
+				"jp_air_3:support:high_cover",
+				"jp_air_4:formation:track",
+				"us_air_1:patrol:track",
+				"us_air_2:formation:track",
+				"us_air_3:support:high_cover",
+				"us_air_4:formation:track",
+				"us_pair_demo_1:patrol:track",
+				"us_pair_demo_2:formation:track",
+				"us_sb2c_1:patrol:track",
+				"us_sb2c_2:formation:track"
+			],
+			"seconds": 4
+		}
+	}
+}

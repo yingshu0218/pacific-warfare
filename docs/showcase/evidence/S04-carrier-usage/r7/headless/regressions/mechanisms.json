@@ -1,0 +1,7896 @@
+{
+	"cases": [
+		{
+			"case": "engine",
+			"continuity": true,
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"events": [
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000001",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000001",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 1,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000002",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000002",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 2,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000003",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000003",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 3,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000004",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000004",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 4,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000005",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000005",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 5,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000006",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000006",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 6,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000007",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000007",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 7,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000008",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000008",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 8,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000009",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000009",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 9,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000010",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000010",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 10,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000011",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000011",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 11,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000012",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000012",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 12,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000013",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000013",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 13,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000014",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000014",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.0566177368164
+					],
+					"sequence": 14,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000001",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000015",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 15,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000002",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000016",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 16,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000003",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000017",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 17,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000004",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000018",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 18,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000005",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000019",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 19,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000006",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000020",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 20,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000007",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000021",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 21,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000008",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000022",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 22,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000009",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000023",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 23,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000010",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000024",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 24,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000011",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000025",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 25,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000012",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000026",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 26,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000013",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000027",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 27,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 3.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46009.108,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0332991629838943,
+							-4.3100004196167
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000014",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55065536499023,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000028",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 28,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000001",
+						"propulsion_factor": 0.89275133101059,
+						"structure": 88.2303969616747
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000029",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 29,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000002",
+						"propulsion_factor": 0.78550266202118,
+						"structure": 86.4607939233495
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000030",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 30,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000003",
+						"propulsion_factor": 0.67825399303177,
+						"structure": 84.6911908850242
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000031",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 31,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000004",
+						"propulsion_factor": 0.57100532404236,
+						"structure": 82.921587846699
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000032",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 32,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000005",
+						"propulsion_factor": 0.463756655052951,
+						"structure": 81.1519848083737
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000033",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 33,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000006",
+						"propulsion_factor": 0.356507986063541,
+						"structure": 79.3823817700485
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000034",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 34,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000007",
+						"propulsion_factor": 0.249259317074131,
+						"structure": 77.6127787317232
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000035",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 35,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000008",
+						"propulsion_factor": 0.142010648084721,
+						"structure": 75.8431756933979
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000036",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 36,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000009",
+						"propulsion_factor": 0.0347619790953112,
+						"structure": 74.0735726550727
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000037",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 37,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000010",
+						"propulsion_factor": 0.0,
+						"structure": 72.3039696167474
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000038",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 38,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000011",
+						"propulsion_factor": 0.0,
+						"structure": 70.5343665784222
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000039",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 39,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000012",
+						"propulsion_factor": 0.0,
+						"structure": 68.7647635400969
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000040",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 40,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000013",
+						"propulsion_factor": 0.0,
+						"structure": 66.9951605017717
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000041",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 41,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 5.89867679441754,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000014",
+						"propulsion_factor": 0.0,
+						"structure": 65.2255574634464
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000042",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.966674804688,
+						-56.2682266235352
+					],
+					"sequence": 42,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				}
+			],
+			"launch_note": "Existing ammo, production CombatProjectiles.launch; precise test launch is not commander AI or natural combat.",
+			"maximum_acceleration_mps2": 6.07922717928886,
+			"maximum_attitude_step_rad": 0.0009765625,
+			"maximum_pieces": 0,
+			"samples": [
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						600.0,
+						-51.4563980102539
+					],
+					"propeller_speed_radps": 18.0,
+					"rotation_rad": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"time_s": 0.516666666666667,
+					"velocity_mps": [
+						0.0,
+						0.0,
+						-99.1882400512695
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						599.891418457031,
+						-76.2051162719727
+					],
+					"propeller_speed_radps": 13.8,
+					"rotation_rad": [
+						-0.0110323233529925,
+						0.0,
+						0.0
+					],
+					"time_s": 0.766666666666667,
+					"velocity_mps": [
+						0.0,
+						-1.0900821685791,
+						-98.8040237426758
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						599.45849609375,
+						-100.860046386719
+					],
+					"propeller_speed_radps": 11.8160138829258,
+					"rotation_rad": [
+						-0.0238036680966616,
+						0.0,
+						0.0
+					],
+					"time_s": 1.01666666666667,
+					"velocity_mps": [
+						0.0,
+						-2.34364938735962,
+						-98.4388885498047
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						598.733764648438,
+						-125.426391601562
+					],
+					"propeller_speed_radps": 11.778657268776,
+					"rotation_rad": [
+						-0.0349268354475498,
+						0.0,
+						0.0
+					],
+					"time_s": 1.26666666666667,
+					"velocity_mps": [
+						0.0,
+						-3.42756342887878,
+						-98.0956192016602
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						597.756896972656,
+						-149.909729003906
+					],
+					"propeller_speed_radps": 11.7446477266727,
+					"rotation_rad": [
+						-0.0446145609021187,
+						0.0,
+						0.0
+					],
+					"time_s": 1.51666666666667,
+					"velocity_mps": [
+						0.0,
+						-4.36507081985474,
+						-97.7746734619141
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						596.561645507812,
+						-174.31559753418
+					],
+					"propeller_speed_radps": 11.7135561304633,
+					"rotation_rad": [
+						-0.0530520714819431,
+						0.0,
+						0.0
+					],
+					"time_s": 1.76666666666667,
+					"velocity_mps": [
+						0.0,
+						-5.17614126205444,
+						-97.4756393432617
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						595.177795410156,
+						-198.649368286133
+					],
+					"propeller_speed_radps": 11.6850242550443,
+					"rotation_rad": [
+						-0.060400728136301,
+						0.0,
+						0.0
+					],
+					"time_s": 2.01666666666667,
+					"velocity_mps": [
+						0.0,
+						-5.87795782089233,
+						-97.1976318359375
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						593.630554199219,
+						-222.916107177734
+					],
+					"propeller_speed_radps": 11.6587254875649,
+					"rotation_rad": [
+						-0.0668010786175728,
+						0.0,
+						0.0
+					],
+					"time_s": 2.26666666666667,
+					"velocity_mps": [
+						0.0,
+						-6.48530244827271,
+						-96.9393539428711
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						591.941955566406,
+						-247.12060546875
+					],
+					"propeller_speed_radps": 11.6343822637804,
+					"rotation_rad": [
+						-0.0723754689097404,
+						0.0,
+						0.0
+					],
+					"time_s": 2.51666666666667,
+					"velocity_mps": [
+						0.0,
+						-7.0109076499939,
+						-96.6993637084961
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						590.131042480469,
+						-271.267333984375
+					],
+					"propeller_speed_radps": 11.6117496462581,
+					"rotation_rad": [
+						-0.0772305130958557,
+						0.0,
+						0.0
+					],
+					"time_s": 2.76666666666667,
+					"velocity_mps": [
+						0.0,
+						-7.46575164794922,
+						-96.4761505126953
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						588.21435546875,
+						-295.360107421875
+					],
+					"propeller_speed_radps": 11.590617192833,
+					"rotation_rad": [
+						-0.0814590603113174,
+						0.0,
+						0.0
+					],
+					"time_s": 3.01666666666667,
+					"velocity_mps": [
+						0.0,
+						-7.85930824279785,
+						-96.268196105957
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						586.205932617188,
+						-319.402587890625
+					],
+					"propeller_speed_radps": 11.5708007577693,
+					"rotation_rad": [
+						-0.0851419717073441,
+						0.0,
+						0.0
+					],
+					"time_s": 3.26666666666667,
+					"velocity_mps": [
+						0.0,
+						-8.19975757598877,
+						-96.0740509033203
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						584.118286132812,
+						-343.398162841797
+					],
+					"propeller_speed_radps": 11.5521406930057,
+					"rotation_rad": [
+						-0.0883496552705765,
+						0.0,
+						0.0
+					],
+					"time_s": 3.51666666666667,
+					"velocity_mps": [
+						0.0,
+						-8.49417018890381,
+						-95.8923721313477
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						581.962158203125,
+						-367.349700927734
+					],
+					"propeller_speed_radps": 11.534501873817,
+					"rotation_rad": [
+						-0.091143436729908,
+						0.0,
+						0.0
+					],
+					"time_s": 3.76666666666667,
+					"velocity_mps": [
+						0.0,
+						-8.74866008758545,
+						-95.7218856811523
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						579.746826171875,
+						-391.259918212891
+					],
+					"propeller_speed_radps": 11.5177590828224,
+					"rotation_rad": [
+						-0.0935766696929932,
+						0.0,
+						0.0
+					],
+					"time_s": 4.01666666666667,
+					"velocity_mps": [
+						0.0,
+						-8.96851062774658,
+						-95.561393737793
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						577.480407714844,
+						-415.131134033203
+					],
+					"propeller_speed_radps": 11.5018025226823,
+					"rotation_rad": [
+						-0.0956959426403046,
+						0.0,
+						0.0
+					],
+					"time_s": 4.26666666666667,
+					"velocity_mps": [
+						0.0,
+						-9.15830612182617,
+						-95.4098129272461
+					]
+				}
+			]
+		},
+		{
+			"case": "wing_left",
+			"continuity": true,
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"events": [
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000001",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000001",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 1,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000002",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000002",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 2,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000003",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000003",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 3,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000004",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000004",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 4,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000005",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000005",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 5,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000006",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000006",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 6,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000001",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000007",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 7,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000002",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000008",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 8,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000003",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000009",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 9,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000004",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000010",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 10,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000005",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000011",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 11,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000006",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000012",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 12,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000001",
+						"propulsion_factor": 1.0,
+						"structure": 87.635849906256
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000013",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 13,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000002",
+						"propulsion_factor": 1.0,
+						"structure": 85.2716998125119
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000014",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 14,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000003",
+						"propulsion_factor": 1.0,
+						"structure": 82.9075497187679
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000015",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 15,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000004",
+						"propulsion_factor": 1.0,
+						"structure": 80.5433996250238
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000016",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 16,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000005",
+						"propulsion_factor": 1.0,
+						"structure": 78.1792495312798
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000017",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 17,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"age_s": 0.0,
+						"angular_velocity_body_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"born_tick": 32,
+						"born_time_s": 0.533333333333333,
+						"lifetime_s": 12.0,
+						"local_anchor_m": [
+							-3.09999990463257,
+							-0.170000001788139,
+							-0.100000001490116
+						],
+						"part_id": "wing_left",
+						"position_m": [
+							-3.09999990463257,
+							599.830017089844,
+							-53.2093162536621
+						],
+						"projectile_id": "projectile_00000005",
+						"reason": "part_failure",
+						"rotation_rad": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"surface": "",
+						"velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						]
+					},
+					"entity_id": "target",
+					"event_id": "event_00000018",
+					"kind": "aircraft_part_detached",
+					"position_m": [
+						-3.09999990463257,
+						599.830017089844,
+						-53.2093162536621
+					],
+					"sequence": 18,
+					"target_id": "",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"phase": "crashing",
+						"reason": "wing_left"
+					},
+					"entity_id": "target",
+					"event_id": "event_00000020",
+					"kind": "disabled",
+					"position_m": [
+						0.0,
+						600.0,
+						-53.109317779541
+					],
+					"sequence": 20,
+					"target_id": "",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000006",
+						"propulsion_factor": 1.0,
+						"structure": 75.8150994375357
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000021",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 21,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							-0.925792992115021,
+							-0.377161979675293,
+							-0.0256160795688629
+						],
+						"projectile_id": "projectile_00000007",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							-694.3447265625,
+							-341.964141845703,
+							-27.6149005889893
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000022",
+					"kind": "fired",
+					"position_m": [
+						-13.5878744125366,
+						547.312255859375,
+						-425.587219238281
+					],
+					"sequence": 22,
+					"target_id": "",
+					"tick": 271,
+					"time_s": 4.51666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				}
+			],
+			"launch_note": "Existing ammo, production CombatProjectiles.launch; precise test launch is not commander AI or natural combat.",
+			"maximum_acceleration_mps2": 14.3417608737946,
+			"maximum_attitude_step_rad": 0.0290198810398579,
+			"maximum_pieces": 1,
+			"samples": [
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						600.0,
+						-51.4563980102539
+					],
+					"propeller_speed_radps": 18.0,
+					"rotation_rad": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"time_s": 0.516666666666667,
+					"velocity_mps": [
+						0.0,
+						0.0,
+						-99.1882400512695
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-0.00138532719574869,
+						599.894409179688,
+						-76.1703033447266
+					],
+					"propeller_speed_radps": 13.8,
+					"rotation_rad": [
+						-0.00730797415599227,
+						0.00669044116511941,
+						0.0411508455872536
+					],
+					"time_s": 0.766666666666667,
+					"velocity_mps": [
+						-0.0218863543123007,
+						-0.905350029468536,
+						-98.5068359375
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-0.0211343783885241,
+						599.544799804688,
+						-100.711647033691
+					],
+					"propeller_speed_radps": 11.7415502929687,
+					"rotation_rad": [
+						-0.0296932514756918,
+						0.0239152200520039,
+						0.159082740545273
+					],
+					"time_s": 1.01666666666667,
+					"velocity_mps": [
+						-0.164755493402481,
+						-1.89645755290985,
+						-97.8277282714844
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-0.101595133543015,
+						598.94189453125,
+						-125.085983276367
+					],
+					"propeller_speed_radps": 11.6659140014648,
+					"rotation_rad": [
+						-0.0668087229132652,
+						0.0442010052502155,
+						0.338593453168869
+					],
+					"time_s": 1.26666666666667,
+					"velocity_mps": [
+						-0.519950747489929,
+						-2.94115686416626,
+						-97.1700592041016
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-0.303545385599136,
+						598.064575195312,
+						-149.297973632812
+					],
+					"propeller_speed_radps": 11.5945495605469,
+					"rotation_rad": [
+						-0.117148168385029,
+						0.0590476840734482,
+						0.567977428436279
+					],
+					"time_s": 1.51666666666667,
+					"velocity_mps": [
+						-1.14223825931549,
+						-4.10512208938599,
+						-96.5272445678711
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-0.695882499217987,
+						596.871887207031,
+						-173.34992980957
+					],
+					"propeller_speed_radps": 11.5278149414063,
+					"rotation_rad": [
+						-0.176482066512108,
+						0.0603372976183891,
+						0.8391193151474
+					],
+					"time_s": 1.76666666666667,
+					"velocity_mps": [
+						-2.04010033607483,
+						-5.48033857345581,
+						-95.8869705200195
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-1.34294545650482,
+						595.298583984375,
+						-197.240234375
+					],
+					"propeller_speed_radps": 11.4663711547852,
+					"rotation_rad": [
+						-0.237434461712837,
+						0.0418657884001732,
+						1.1470137834549
+					],
+					"time_s": 2.01666666666667,
+					"velocity_mps": [
+						-3.16782784461975,
+						-7.16597032546997,
+						-95.231330871582
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-2.29082298278809,
+						593.256225585938,
+						-220.962539672852
+					],
+					"propeller_speed_radps": 11.4111904907227,
+					"rotation_rad": [
+						-0.290169537067413,
+						0.00107653881423175,
+						1.48820471763611
+					],
+					"time_s": 2.26666666666667,
+					"velocity_mps": [
+						-4.42617130279541,
+						-9.24312782287598,
+						-94.5394134521484
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-3.55524778366089,
+						590.640991210938,
+						-244.505279541016
+					],
+					"propeller_speed_radps": 11.3634494018555,
+					"rotation_rad": [
+						-0.324203759431839,
+						-0.0590938627719879,
+						1.85831129550934
+					],
+					"time_s": 2.51666666666667,
+					"velocity_mps": [
+						-5.67447710037231,
+						-11.7505712509155,
+						-93.7920303344727
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-5.11386871337891,
+						587.346496582031,
+						-267.852996826172
+					],
+					"propeller_speed_radps": 11.3243508911133,
+					"rotation_rad": [
+						-0.331261217594147,
+						-0.129232421517372,
+						2.25004124641418
+					],
+					"time_s": 2.76666666666667,
+					"velocity_mps": [
+						-6.75317287445068,
+						-14.6676540374756,
+						-92.9778137207031
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-6.90507030487061,
+						583.279907226562,
+						-290.98876953125
+					],
+					"propeller_speed_radps": 11.2949166870117,
+					"rotation_rad": [
+						-0.308336228132248,
+						-0.195100739598274,
+						2.65381741523743
+					],
+					"time_s": 3.01666666666667,
+					"velocity_mps": [
+						-7.51277494430542,
+						-17.9090881347656,
+						-92.0988998413086
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-8.83426475524902,
+						578.376708984375,
+						-313.898376464844
+					],
+					"propeller_speed_radps": 11.27578125,
+					"rotation_rad": [
+						-0.259317129850388,
+						-0.242124453186989,
+						3.06128931045532
+					],
+					"time_s": 3.26666666666667,
+					"velocity_mps": [
+						-7.84357595443726,
+						-21.3338661193848,
+						-91.1742095947266
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-10.7869253158569,
+						572.612548828125,
+						-336.574768066406
+					],
+					"propeller_speed_radps": 11.2670837402344,
+					"rotation_rad": [
+						-0.194189265370369,
+						-0.259893208742142,
+						-2.81452655792236
+					],
+					"time_s": 3.51666666666667,
+					"velocity_mps": [
+						-7.69870376586914,
+						-24.7674465179443,
+						-90.239013671875
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-12.6458559036255,
+						566.007385253906,
+						-359.020843505859
+					],
+					"propeller_speed_radps": 11.2684387207031,
+					"rotation_rad": [
+						-0.126631453633308,
+						-0.244098141789436,
+						-2.40634655952454
+					],
+					"time_s": 3.76666666666667,
+					"velocity_mps": [
+						-7.10399627685547,
+						-28.0315208435059,
+						-89.3401565551758
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-14.3090353012085,
+						558.623962402344,
+						-381.252075195312
+					],
+					"propeller_speed_radps": 11.2790167236328,
+					"rotation_rad": [
+						-0.0713555216789246,
+						-0.196476548910141,
+						-1.9944258928299
+					],
+					"time_s": 4.01666666666667,
+					"velocity_mps": [
+						-6.15323305130005,
+						-30.9723739624023,
+						-88.5285797119141
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-15.7049608230591,
+						550.557373046875,
+						-403.296325683594
+					],
+					"propeller_speed_radps": 11.2976916503906,
+					"rotation_rad": [
+						-0.0415791310369968,
+						-0.124420560896397,
+						-1.57707130908966
+					],
+					"time_s": 4.26666666666667,
+					"velocity_mps": [
+						-4.99406719207764,
+						-33.4810066223145,
+						-87.8511276245117
+					]
+				}
+			]
+		},
+		{
+			"case": "wing_right",
+			"continuity": true,
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"events": [
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000001",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000001",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 1,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000002",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000002",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 2,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000003",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000003",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 3,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000004",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000004",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 4,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000005",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000005",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 5,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000006",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000006",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-51.7566146850586
+					],
+					"sequence": 6,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000001",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000007",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 7,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000002",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000008",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 8,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000003",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000009",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 9,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000004",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000010",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 10,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000005",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000011",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 11,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37245.852,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.0,
+							0.34652704000473
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000006",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						],
+						"velocity_mps": [
+							0.0,
+							-756.565856933594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000012",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 12,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000001",
+						"propulsion_factor": 1.0,
+						"structure": 87.635849906256
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000013",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 13,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000002",
+						"propulsion_factor": 1.0,
+						"structure": 85.2716998125119
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000014",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 14,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000003",
+						"propulsion_factor": 1.0,
+						"structure": 82.9075497187679
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000015",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 15,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000004",
+						"propulsion_factor": 1.0,
+						"structure": 80.5433996250238
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000016",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 16,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000005",
+						"propulsion_factor": 1.0,
+						"structure": 78.1792495312798
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000017",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 17,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"age_s": 0.0,
+						"angular_velocity_body_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"born_tick": 32,
+						"born_time_s": 0.533333333333333,
+						"lifetime_s": 12.0,
+						"local_anchor_m": [
+							3.09999990463257,
+							-0.170000001788139,
+							-0.100000001490116
+						],
+						"part_id": "wing_right",
+						"position_m": [
+							3.09999990463257,
+							599.830017089844,
+							-53.2093162536621
+						],
+						"projectile_id": "projectile_00000005",
+						"reason": "part_failure",
+						"rotation_rad": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"surface": "",
+						"velocity_mps": [
+							0.0,
+							0.0,
+							-99.1622772216797
+						]
+					},
+					"entity_id": "target",
+					"event_id": "event_00000018",
+					"kind": "aircraft_part_detached",
+					"position_m": [
+						3.09999990463257,
+						599.830017089844,
+						-53.2093162536621
+					],
+					"sequence": 18,
+					"target_id": "",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"phase": "crashing",
+						"reason": "wing_right"
+					},
+					"entity_id": "target",
+					"event_id": "event_00000020",
+					"kind": "disabled",
+					"position_m": [
+						0.0,
+						600.0,
+						-53.109317779541
+					],
+					"sequence": 20,
+					"target_id": "",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.75471455355443,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000006",
+						"propulsion_factor": 1.0,
+						"structure": 75.8150994375357
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000021",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.0,
+						-51.7652893066406
+					],
+					"sequence": 21,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.925792992115021,
+							-0.377161979675293,
+							-0.0256160795688629
+						],
+						"projectile_id": "projectile_00000007",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							694.3447265625,
+							-341.964141845703,
+							-27.6149005889893
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000022",
+					"kind": "fired",
+					"position_m": [
+						13.5878744125366,
+						547.312255859375,
+						-425.587219238281
+					],
+					"sequence": 22,
+					"target_id": "",
+					"tick": 271,
+					"time_s": 4.51666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				}
+			],
+			"launch_note": "Existing ammo, production CombatProjectiles.launch; precise test launch is not commander AI or natural combat.",
+			"maximum_acceleration_mps2": 14.3417608737946,
+			"maximum_attitude_step_rad": 0.0290198810398579,
+			"maximum_pieces": 1,
+			"samples": [
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						600.0,
+						-51.4563980102539
+					],
+					"propeller_speed_radps": 18.0,
+					"rotation_rad": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"time_s": 0.516666666666667,
+					"velocity_mps": [
+						0.0,
+						0.0,
+						-99.1882400512695
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						0.00138532719574869,
+						599.894409179688,
+						-76.1703033447266
+					],
+					"propeller_speed_radps": 13.8,
+					"rotation_rad": [
+						-0.00730797415599227,
+						-0.00669044116511941,
+						-0.0411508455872536
+					],
+					"time_s": 0.766666666666667,
+					"velocity_mps": [
+						0.0218863543123007,
+						-0.905350029468536,
+						-98.5068359375
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						0.0211343783885241,
+						599.544799804688,
+						-100.711647033691
+					],
+					"propeller_speed_radps": 11.7415502929687,
+					"rotation_rad": [
+						-0.0296932514756918,
+						-0.0239152200520039,
+						-0.159082740545273
+					],
+					"time_s": 1.01666666666667,
+					"velocity_mps": [
+						0.164755493402481,
+						-1.89645755290985,
+						-97.8277282714844
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						0.101595133543015,
+						598.94189453125,
+						-125.085983276367
+					],
+					"propeller_speed_radps": 11.6659140014648,
+					"rotation_rad": [
+						-0.0668087229132652,
+						-0.0442010052502155,
+						-0.338593453168869
+					],
+					"time_s": 1.26666666666667,
+					"velocity_mps": [
+						0.519950747489929,
+						-2.94115686416626,
+						-97.1700592041016
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						0.303545385599136,
+						598.064575195312,
+						-149.297973632812
+					],
+					"propeller_speed_radps": 11.5945495605469,
+					"rotation_rad": [
+						-0.117148168385029,
+						-0.0590476840734482,
+						-0.567977428436279
+					],
+					"time_s": 1.51666666666667,
+					"velocity_mps": [
+						1.14223825931549,
+						-4.10512208938599,
+						-96.5272445678711
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						0.695882499217987,
+						596.871887207031,
+						-173.34992980957
+					],
+					"propeller_speed_radps": 11.5278149414063,
+					"rotation_rad": [
+						-0.176482066512108,
+						-0.0603372976183891,
+						-0.8391193151474
+					],
+					"time_s": 1.76666666666667,
+					"velocity_mps": [
+						2.04010033607483,
+						-5.48033857345581,
+						-95.8869705200195
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						1.34294545650482,
+						595.298583984375,
+						-197.240234375
+					],
+					"propeller_speed_radps": 11.4663711547852,
+					"rotation_rad": [
+						-0.237434461712837,
+						-0.0418657884001732,
+						-1.1470137834549
+					],
+					"time_s": 2.01666666666667,
+					"velocity_mps": [
+						3.16782784461975,
+						-7.16597032546997,
+						-95.231330871582
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						2.29082298278809,
+						593.256225585938,
+						-220.962539672852
+					],
+					"propeller_speed_radps": 11.4111904907227,
+					"rotation_rad": [
+						-0.290169537067413,
+						-0.00107653881423175,
+						-1.48820471763611
+					],
+					"time_s": 2.26666666666667,
+					"velocity_mps": [
+						4.42617130279541,
+						-9.24312782287598,
+						-94.5394134521484
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						3.55524778366089,
+						590.640991210938,
+						-244.505279541016
+					],
+					"propeller_speed_radps": 11.3634494018555,
+					"rotation_rad": [
+						-0.324203759431839,
+						0.0590938627719879,
+						-1.85831129550934
+					],
+					"time_s": 2.51666666666667,
+					"velocity_mps": [
+						5.67447710037231,
+						-11.7505712509155,
+						-93.7920303344727
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						5.11386871337891,
+						587.346496582031,
+						-267.852996826172
+					],
+					"propeller_speed_radps": 11.3243508911133,
+					"rotation_rad": [
+						-0.331261217594147,
+						0.129232421517372,
+						-2.25004124641418
+					],
+					"time_s": 2.76666666666667,
+					"velocity_mps": [
+						6.75317287445068,
+						-14.6676540374756,
+						-92.9778137207031
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						6.90507030487061,
+						583.279907226562,
+						-290.98876953125
+					],
+					"propeller_speed_radps": 11.2949166870117,
+					"rotation_rad": [
+						-0.308336228132248,
+						0.195100739598274,
+						-2.65381741523743
+					],
+					"time_s": 3.01666666666667,
+					"velocity_mps": [
+						7.51277494430542,
+						-17.9090881347656,
+						-92.0988998413086
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						8.83426475524902,
+						578.376708984375,
+						-313.898376464844
+					],
+					"propeller_speed_radps": 11.27578125,
+					"rotation_rad": [
+						-0.259317129850388,
+						0.242124453186989,
+						-3.06128931045532
+					],
+					"time_s": 3.26666666666667,
+					"velocity_mps": [
+						7.84357595443726,
+						-21.3338661193848,
+						-91.1742095947266
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						10.7869253158569,
+						572.612548828125,
+						-336.574768066406
+					],
+					"propeller_speed_radps": 11.2670837402344,
+					"rotation_rad": [
+						-0.194189265370369,
+						0.259893208742142,
+						2.81452655792236
+					],
+					"time_s": 3.51666666666667,
+					"velocity_mps": [
+						7.69870376586914,
+						-24.7674465179443,
+						-90.239013671875
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						12.6458559036255,
+						566.007385253906,
+						-359.020843505859
+					],
+					"propeller_speed_radps": 11.2684387207031,
+					"rotation_rad": [
+						-0.126631453633308,
+						0.244098141789436,
+						2.40634655952454
+					],
+					"time_s": 3.76666666666667,
+					"velocity_mps": [
+						7.10399627685547,
+						-28.0315208435059,
+						-89.3401565551758
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						14.3090353012085,
+						558.623962402344,
+						-381.252075195312
+					],
+					"propeller_speed_radps": 11.2790167236328,
+					"rotation_rad": [
+						-0.0713555216789246,
+						0.196476548910141,
+						1.9944258928299
+					],
+					"time_s": 4.01666666666667,
+					"velocity_mps": [
+						6.15323305130005,
+						-30.9723739624023,
+						-88.5285797119141
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						15.7049608230591,
+						550.557373046875,
+						-403.296325683594
+					],
+					"propeller_speed_radps": 11.2976916503906,
+					"rotation_rad": [
+						-0.0415791310369968,
+						0.124420560896397,
+						1.57707130908966
+					],
+					"time_s": 4.26666666666667,
+					"velocity_mps": [
+						4.99406719207764,
+						-33.4810066223145,
+						-87.8511276245117
+					]
+				}
+			]
+		},
+		{
+			"case": "breakup_and_water",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"impact": {
+				"data": {
+					"destroyed": true,
+					"reason": "crash",
+					"size_m": 13.0559997558594,
+					"surface": "sea",
+					"velocity_mps": [
+						0.0,
+						-46.4178428649902,
+						-78.1219253540039
+					]
+				},
+				"entity_id": "target",
+				"event_id": "event_00000012",
+				"kind": "unit_impact",
+				"position_m": [
+					0.0,
+					-0.0000000298023223876953,
+					-480.278717041016
+				],
+				"sequence": 12,
+				"target_id": "",
+				"tick": 324,
+				"time_s": 5.4,
+				"weapon_id": ""
+			},
+			"impacts": 1,
+			"maximum_pieces": 3,
+			"surface_contacts": 1
+		},
+		{
+			"airbursts": 200,
+			"case": "control_distinct_from_tail",
+			"control_health_after_blast": 0.0,
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"structure_after_blast": 34.0963277031319,
+			"tail_health_after_blast": 1.0
+		},
+		{
+			"case": "rotating_inheritance",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"measured_body_omega_radps": [
+				0.20080004632473,
+				-0.0692856535315514,
+				0.0349842831492424
+			],
+			"omega_error_radps": 0.00000309714823742979,
+			"tangential_velocity_error_mps": 0.00000875356636242941
+		},
+		{
+			"case": "engine",
+			"continuity": true,
+			"controlled": true,
+			"definition_id": "jp_a6m5a_1944",
+			"events": [
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000001",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000001",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 1,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000002",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000002",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 2,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000003",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000003",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 3,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000004",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000004",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 4,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000005",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000005",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 5,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000006",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000006",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 6,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000007",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000007",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 7,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000008",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000008",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 8,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000009",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000009",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 9,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000010",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000010",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 10,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000011",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000011",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 11,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000012",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000012",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 12,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000013",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000013",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 13,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							0.0,
+							1.0
+						],
+						"projectile_id": "projectile_00000014",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-6.50103330612183,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000014",
+					"kind": "fired",
+					"position_m": [
+						0.0,
+						600.0,
+						-60.3994331359863
+					],
+					"sequence": 14,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000001",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000015",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 15,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000002",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000016",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 16,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000003",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000017",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 17,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000004",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000018",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 18,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000005",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000019",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 19,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000006",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000020",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 20,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000007",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000021",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 21,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000008",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000022",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 22,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000009",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000023",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 23,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000010",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000024",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 24,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000011",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000025",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 25,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000012",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000026",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 26,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000013",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000027",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 27,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 1.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 46155.776,
+						"friendly": false,
+						"local_position_m": [
+							0.0,
+							-0.0344067960977554,
+							-4.15999984741211
+						],
+						"part_id": "engine",
+						"projectile_id": "projectile_00000014",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-6.55230569839478,
+							748.687561035156
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000028",
+					"kind": "hit",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 28,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000001",
+						"propulsion_factor": 0.800506685908156,
+						"structure": 62.9053202020356
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000029",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 29,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000002",
+						"propulsion_factor": 0.601013371816313,
+						"structure": 60.8106404040713
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000030",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 30,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000003",
+						"propulsion_factor": 0.401520057724469,
+						"structure": 58.7159606061069
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000031",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 31,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000004",
+						"propulsion_factor": 0.202026743632626,
+						"structure": 56.6212808081426
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000032",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 32,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000005",
+						"propulsion_factor": 0.00253342954078217,
+						"structure": 54.5266010101782
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000033",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 33,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000006",
+						"propulsion_factor": 0.0,
+						"structure": 52.4319212122138
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000034",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 34,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000007",
+						"propulsion_factor": 0.0,
+						"structure": 50.3372414142495
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000035",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 35,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000008",
+						"propulsion_factor": 0.0,
+						"structure": 48.2425616162851
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000036",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 36,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000009",
+						"propulsion_factor": 0.0,
+						"structure": 46.1478818183208
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000037",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 37,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000010",
+						"propulsion_factor": 0.0,
+						"structure": 44.0532020203564
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000038",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 38,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000011",
+						"propulsion_factor": 0.0,
+						"structure": 41.958522222392
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000039",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 39,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000012",
+						"propulsion_factor": 0.0,
+						"structure": 39.8638424244277
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000040",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 40,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000013",
+						"propulsion_factor": 0.0,
+						"structure": 37.7691626264633
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000041",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 41,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.98226599321452,
+						"control_factor": 1.0,
+						"part_id": "engine",
+						"projectile_id": "projectile_00000014",
+						"propulsion_factor": 0.0,
+						"structure": 35.674482828499
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000042",
+					"kind": "damaged",
+					"position_m": [
+						0.0,
+						599.965576171875,
+						-56.4850311279297
+					],
+					"sequence": 42,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				}
+			],
+			"launch_note": "Existing ammo, production CombatProjectiles.launch; precise test launch is not commander AI or natural combat.",
+			"maximum_acceleration_mps2": 6.21849462389946,
+			"maximum_attitude_step_rad": 0.00119603995699435,
+			"maximum_pieces": 0,
+			"samples": [
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						600.0,
+						-51.7995529174805
+					],
+					"propeller_speed_radps": 83.1303016664909,
+					"rotation_rad": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"time_s": 0.516666666666667,
+					"velocity_mps": [
+						0.0,
+						0.0,
+						-100.498176574707
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						599.890747070312,
+						-76.8725891113281
+					],
+					"propeller_speed_radps": 78.7895581299491,
+					"rotation_rad": [
+						-0.0109921433031559,
+						0.0,
+						0.0
+					],
+					"time_s": 0.766666666666667,
+					"velocity_mps": [
+						0.0,
+						-1.099738240242,
+						-100.04362487793
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						599.453369140625,
+						-101.822784423828
+					],
+					"propeller_speed_radps": 74.2895581299491,
+					"rotation_rad": [
+						-0.0237690526992083,
+						0.0,
+						0.0
+					],
+					"time_s": 1.01666666666667,
+					"velocity_mps": [
+						0.0,
+						-2.36693000793457,
+						-99.5615768432617
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						598.7216796875,
+						-126.655372619629
+					],
+					"propeller_speed_radps": 69.7895581299491,
+					"rotation_rad": [
+						-0.0348970182240009,
+						0.0,
+						0.0
+					],
+					"time_s": 1.26666666666667,
+					"velocity_mps": [
+						0.0,
+						-3.45981073379517,
+						-99.1032028198242
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						597.736083984375,
+						-151.376373291016
+					],
+					"propeller_speed_radps": 65.2895581299492,
+					"rotation_rad": [
+						-0.0445888713002205,
+						0.0,
+						0.0
+					],
+					"time_s": 1.51666666666667,
+					"velocity_mps": [
+						0.0,
+						-4.40245485305786,
+						-98.6689453125
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						596.531494140625,
+						-175.991790771484
+					],
+					"propeller_speed_radps": 60.7895581299492,
+					"rotation_rad": [
+						-0.0530299544334412,
+						0.0,
+						0.0
+					],
+					"time_s": 1.76666666666667,
+					"velocity_mps": [
+						0.0,
+						-5.21553039550781,
+						-98.258430480957
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						595.137756347656,
+						-200.507461547852
+					],
+					"propeller_speed_radps": 56.2895581299493,
+					"rotation_rad": [
+						-0.0603816844522953,
+						0.0,
+						0.0
+					],
+					"time_s": 2.01666666666667,
+					"velocity_mps": [
+						0.0,
+						-5.91678619384766,
+						-97.8706283569336
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						593.581176757812,
+						-224.928894042969
+					],
+					"propeller_speed_radps": 51.7895581299493,
+					"rotation_rad": [
+						-0.0667846873402596,
+						0.0,
+						0.0
+					],
+					"time_s": 2.26666666666667,
+					"velocity_mps": [
+						0.0,
+						-6.52148914337158,
+						-97.5042419433594
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						591.883972167969,
+						-249.261260986328
+					],
+					"propeller_speed_radps": 47.2895581299494,
+					"rotation_rad": [
+						-0.0723613575100899,
+						0.0,
+						0.0
+					],
+					"time_s": 2.51666666666667,
+					"velocity_mps": [
+						0.0,
+						-7.04276323318481,
+						-97.1577529907227
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						590.065673828125,
+						-273.50927734375
+					],
+					"propeller_speed_radps": 42.7895581299494,
+					"rotation_rad": [
+						-0.0772183611989021,
+						0.0,
+						0.0
+					],
+					"time_s": 2.76666666666667,
+					"velocity_mps": [
+						0.0,
+						-7.49191617965698,
+						-96.8295516967773
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						588.143005371094,
+						-297.677368164062
+					],
+					"propeller_speed_radps": 38.2895581299494,
+					"rotation_rad": [
+						-0.0814486145973206,
+						0.0,
+						0.0
+					],
+					"time_s": 3.01666666666667,
+					"velocity_mps": [
+						0.0,
+						-7.87869930267334,
+						-96.5181503295898
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						586.130676269531,
+						-321.76953125
+					],
+					"propeller_speed_radps": 33.7895581299495,
+					"rotation_rad": [
+						-0.0851329490542412,
+						0.0,
+						0.0
+					],
+					"time_s": 3.26666666666667,
+					"velocity_mps": [
+						0.0,
+						-8.21150970458984,
+						-96.2220001220703
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						584.041137695312,
+						-345.789459228516
+					],
+					"propeller_speed_radps": 29.2895581299495,
+					"rotation_rad": [
+						-0.0883418694138527,
+						0.0,
+						0.0
+					],
+					"time_s": 3.51666666666667,
+					"velocity_mps": [
+						0.0,
+						-8.49760913848877,
+						-95.9396896362305
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						581.88525390625,
+						-369.740417480469
+					],
+					"propeller_speed_radps": 24.7895581299495,
+					"rotation_rad": [
+						-0.0911367163062096,
+						0.0,
+						0.0
+					],
+					"time_s": 3.76666666666667,
+					"velocity_mps": [
+						0.0,
+						-8.74325942993164,
+						-95.6698837280273
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						579.672302246094,
+						-393.625366210938
+					],
+					"propeller_speed_radps": 20.2895581299495,
+					"rotation_rad": [
+						-0.0935708731412888,
+						0.0,
+						0.0
+					],
+					"time_s": 4.01666666666667,
+					"velocity_mps": [
+						0.0,
+						-8.95387172698975,
+						-95.4113616943359
+					]
+				},
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						577.41064453125,
+						-417.446990966797
+					],
+					"propeller_speed_radps": 15.7895581299495,
+					"rotation_rad": [
+						-0.0956909358501434,
+						0.0,
+						0.0
+					],
+					"time_s": 4.26666666666667,
+					"velocity_mps": [
+						0.0,
+						-9.13413906097412,
+						-95.1630630493164
+					]
+				}
+			]
+		},
+		{
+			"case": "wing_left",
+			"continuity": true,
+			"controlled": true,
+			"definition_id": "jp_a6m5a_1944",
+			"events": [
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000001",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000001",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 1,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000002",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000002",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 2,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000003",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000003",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 3,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000004",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000004",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 4,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000005",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000005",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 5,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000006",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000006",
+					"kind": "fired",
+					"position_m": [
+						-3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 6,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000001",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000007",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 7,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000002",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000008",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 8,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000003",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000009",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 9,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000004",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000010",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 10,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000005",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000011",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 11,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							-3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000006",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000012",
+					"kind": "hit",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 12,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000001",
+						"propulsion_factor": 1.0,
+						"structure": 62.635315387097
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000013",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 13,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000002",
+						"propulsion_factor": 1.0,
+						"structure": 60.2706307741941
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000014",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 14,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000003",
+						"propulsion_factor": 1.0,
+						"structure": 57.9059461612911
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000015",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 15,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"age_s": 0.0,
+						"angular_velocity_body_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"born_tick": 32,
+						"born_time_s": 0.533333333333333,
+						"lifetime_s": 12.0,
+						"local_anchor_m": [
+							-2.79999995231628,
+							0.0199999995529652,
+							-0.100000001490116
+						],
+						"part_id": "wing_left",
+						"position_m": [
+							-2.79999995231628,
+							600.02001953125,
+							-53.5746421813965
+						],
+						"projectile_id": "projectile_00000003",
+						"reason": "part_failure",
+						"rotation_rad": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"surface": "",
+						"velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						]
+					},
+					"entity_id": "target",
+					"event_id": "event_00000016",
+					"kind": "aircraft_part_detached",
+					"position_m": [
+						-2.79999995231628,
+						600.02001953125,
+						-53.5746421813965
+					],
+					"sequence": 16,
+					"target_id": "",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"phase": "crashing",
+						"reason": "wing_left"
+					},
+					"entity_id": "target",
+					"event_id": "event_00000018",
+					"kind": "disabled",
+					"position_m": [
+						0.0,
+						600.0,
+						-53.4746437072754
+					],
+					"sequence": 18,
+					"target_id": "",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000004",
+						"propulsion_factor": 1.0,
+						"structure": 55.5412615483882
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000019",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 19,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000005",
+						"propulsion_factor": 1.0,
+						"structure": 53.1765769354852
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000020",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 20,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000006",
+						"propulsion_factor": 1.0,
+						"structure": 50.8118923225823
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000021",
+					"kind": "damaged",
+					"position_m": [
+						-3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 21,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							-0.925976276397705,
+							-0.376799255609512,
+							-0.0242970678955317
+						],
+						"projectile_id": "projectile_00000007",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							-694.482177734375,
+							-341.692108154297,
+							-26.6256427764893
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000022",
+					"kind": "fired",
+					"position_m": [
+						-14.000189781189,
+						547.799194335938,
+						-430.722045898438
+					],
+					"sequence": 22,
+					"target_id": "",
+					"tick": 271,
+					"time_s": 4.51666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				}
+			],
+			"launch_note": "Existing ammo, production CombatProjectiles.launch; precise test launch is not commander AI or natural combat.",
+			"maximum_acceleration_mps2": 14.4662895798683,
+			"maximum_attitude_step_rad": 0.0290116630494595,
+			"maximum_pieces": 1,
+			"samples": [
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						600.0,
+						-51.7995529174805
+					],
+					"propeller_speed_radps": 83.1303016664909,
+					"rotation_rad": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"time_s": 0.516666666666667,
+					"velocity_mps": [
+						0.0,
+						0.0,
+						-100.498176574707
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-0.00142314552795142,
+						599.899230957031,
+						-76.8486022949219
+					],
+					"propeller_speed_radps": 78.7895581299491,
+					"rotation_rad": [
+						-0.00730485981330276,
+						0.00669048679992557,
+						0.0411508493125439
+					],
+					"time_s": 0.766666666666667,
+					"velocity_mps": [
+						-0.0224830079823732,
+						-0.867709875106812,
+						-99.838981628418
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-0.0217079259455204,
+						599.563720703125,
+						-101.720542907715
+					],
+					"propeller_speed_radps": 74.2895581299491,
+					"rotation_rad": [
+						-0.0296671204268932,
+						0.0239165965467691,
+						0.159082934260368
+					],
+					"time_s": 1.01666666666667,
+					"velocity_mps": [
+						-0.169212132692337,
+						-1.8197546005249,
+						-99.1403350830078
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-0.104333333671093,
+						598.984619140625,
+						-126.420593261719
+					],
+					"propeller_speed_radps": 69.7895581299491,
+					"rotation_rad": [
+						-0.06672353297472,
+						0.0442102253437042,
+						0.338594108819962
+					],
+					"time_s": 1.26666666666667,
+					"velocity_mps": [
+						-0.533882915973663,
+						-2.82762050628662,
+						-98.4631195068359
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-0.311660647392273,
+						598.139831542969,
+						-150.953384399414
+					],
+					"propeller_speed_radps": 65.2895581299492,
+					"rotation_rad": [
+						-0.116958454251289,
+						0.0590812489390373,
+						0.567977845668793
+					],
+					"time_s": 1.51666666666667,
+					"velocity_mps": [
+						-1.17249131202698,
+						-3.95879697799683,
+						-97.8007354736328
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-0.714312195777893,
+						596.987182617188,
+						-175.321228027344
+					],
+					"propeller_speed_radps": 60.7895581299492,
+					"rotation_rad": [
+						-0.176141560077667,
+						0.0604258701205254,
+						0.83911144733429
+					],
+					"time_s": 1.76666666666667,
+					"velocity_mps": [
+						-2.0933849811554,
+						-5.30766487121582,
+						-97.1408233642578
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-1.37813413143158,
+						595.459350585938,
+						-199.522583007812
+					],
+					"propeller_speed_radps": 56.2895581299493,
+					"rotation_rad": [
+						-0.236904546618462,
+						0.0420559048652649,
+						1.14697659015656
+					],
+					"time_s": 2.01666666666667,
+					"velocity_mps": [
+						-3.24926424026489,
+						-6.97572803497314,
+						-96.4654846191406
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-2.3501672744751,
+						593.465454101562,
+						-223.550964355469
+					],
+					"propeller_speed_radps": 51.7895581299493,
+					"rotation_rad": [
+						-0.289429008960724,
+						0.00142965745180845,
+						1.48809945583344
+					],
+					"time_s": 2.26666666666667,
+					"velocity_mps": [
+						-4.53808832168579,
+						-9.04571056365967,
+						-95.7538452148438
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-3.64630103111267,
+						590.899353027344,
+						-247.394866943359
+					],
+					"propeller_speed_radps": 47.2895581299494,
+					"rotation_rad": [
+						-0.323255807161331,
+						-0.0585107393562794,
+						1.85808753967285
+					],
+					"time_s": 2.51666666666667,
+					"velocity_mps": [
+						-5.81575775146484,
+						-11.5567855834961,
+						-94.9868469238281
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-5.24346780776978,
+						587.651916503906,
+						-271.038787841797
+					],
+					"propeller_speed_radps": 42.7895581299494,
+					"rotation_rad": [
+						-0.330131441354752,
+						-0.128366827964783,
+						2.24965667724609
+					],
+					"time_s": 2.76666666666667,
+					"velocity_mps": [
+						-6.91922426223755,
+						-14.4874258041382,
+						-94.1533126831055
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-7.07851314544678,
+						583.627807617188,
+						-294.466125488281
+					],
+					"propeller_speed_radps": 38.2895581299494,
+					"rotation_rad": [
+						-0.307060301303864,
+						-0.193936467170715,
+						2.65326333045959
+					],
+					"time_s": 3.01666666666667,
+					"velocity_mps": [
+						-7.69596815109253,
+						-17.7502841949463,
+						-93.2555389404297
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-9.05463218688965,
+						578.760986328125,
+						-317.662780761719
+					],
+					"propeller_speed_radps": 33.7895581299495,
+					"rotation_rad": [
+						-0.257923245429993,
+						-0.240684241056442,
+						3.06059765815735
+					],
+					"time_s": 3.26666666666667,
+					"velocity_mps": [
+						-8.03400325775146,
+						-21.2012901306152,
+						-92.3126525878906
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-11.0546493530273,
+						573.026306152344,
+						-340.621765136719
+					],
+					"propeller_speed_radps": 29.2895581299495,
+					"rotation_rad": [
+						-0.19268524646759,
+						-0.258220165967941,
+						-2.81529498100281
+					],
+					"time_s": 3.51666666666667,
+					"velocity_mps": [
+						-7.88525438308716,
+						-24.6620063781738,
+						-91.3601684570312
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-12.9585914611816,
+						566.444458007812,
+						-363.346130371094
+					],
+					"propeller_speed_radps": 24.7895581299495,
+					"rotation_rad": [
+						-0.125005915760994,
+						-0.242232799530029,
+						-2.40712070465088
+					],
+					"time_s": 3.76666666666667,
+					"velocity_mps": [
+						-7.27585744857788,
+						-27.94970703125,
+						-90.4452285766602
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-14.6619625091553,
+						559.079284667969,
+						-385.851806640625
+					],
+					"propeller_speed_radps": 20.2895581299495,
+					"rotation_rad": [
+						-0.0695879459381104,
+						-0.194445744156837,
+						-1.9951343536377
+					],
+					"time_s": 4.01666666666667,
+					"velocity_mps": [
+						-6.30174207687378,
+						-30.9063949584961,
+						-89.6191482543945
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						-16.0915565490723,
+						551.028503417969,
+						-408.167083740234
+					],
+					"propeller_speed_radps": 15.7895581299495,
+					"rotation_rad": [
+						-0.0396490916609764,
+						-0.122240297496319,
+						-1.57765436172485
+					],
+					"time_s": 4.26666666666667,
+					"velocity_mps": [
+						-5.11453580856323,
+						-33.4199180603027,
+						-88.9291381835938
+					]
+				}
+			]
+		},
+		{
+			"case": "wing_right",
+			"continuity": true,
+			"controlled": true,
+			"definition_id": "jp_a6m5a_1944",
+			"events": [
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000001",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000001",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 1,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000002",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000002",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 2,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000003",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000003",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 3,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000004",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000004",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 4,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000005",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000005",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 5,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.0,
+							-1.0,
+							0.0
+						],
+						"projectile_id": "projectile_00000006",
+						"tracer": true,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							0.0,
+							-756.501037597656,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000006",
+					"kind": "fired",
+					"position_m": [
+						3.79999995231628,
+						605.0,
+						-52.0994300842285
+					],
+					"sequence": 6,
+					"target_id": "",
+					"tick": 31,
+					"time_s": 0.516666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000001",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000007",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 7,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000002",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000008",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 8,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000003",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000009",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 9,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000004",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000010",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 10,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000005",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000011",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 11,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"armor_mm": 0.0,
+						"caliber_m": 0.02,
+						"damage_allowed": true,
+						"energy_j": 37262.696,
+						"friendly": false,
+						"local_position_m": [
+							3.79999995231628,
+							0.150000095367432,
+							0.335991740226746
+						],
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000006",
+						"source_faction_id": "us",
+						"surface": "aircraft",
+						"target_id": "target",
+						"target_velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						],
+						"velocity_mps": [
+							0.0,
+							-756.563903808594,
+							-1.31243062019348
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000012",
+					"kind": "hit",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 12,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000001",
+						"propulsion_factor": 1.0,
+						"structure": 62.635315387097
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000013",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 13,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000002",
+						"propulsion_factor": 1.0,
+						"structure": 60.2706307741941
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000014",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 14,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000003",
+						"propulsion_factor": 1.0,
+						"structure": 57.9059461612911
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000015",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 15,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"age_s": 0.0,
+						"angular_velocity_body_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"born_tick": 32,
+						"born_time_s": 0.533333333333333,
+						"lifetime_s": 12.0,
+						"local_anchor_m": [
+							2.79999995231628,
+							0.0199999995529652,
+							-0.100000001490116
+						],
+						"part_id": "wing_right",
+						"position_m": [
+							2.79999995231628,
+							600.02001953125,
+							-53.5746421813965
+						],
+						"projectile_id": "projectile_00000003",
+						"reason": "part_failure",
+						"rotation_rad": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"surface": "",
+						"velocity_mps": [
+							0.0,
+							0.0,
+							-100.512680053711
+						]
+					},
+					"entity_id": "target",
+					"event_id": "event_00000016",
+					"kind": "aircraft_part_detached",
+					"position_m": [
+						2.79999995231628,
+						600.02001953125,
+						-53.5746421813965
+					],
+					"sequence": 16,
+					"target_id": "",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"phase": "crashing",
+						"reason": "wing_right"
+					},
+					"entity_id": "target",
+					"event_id": "event_00000018",
+					"kind": "disabled",
+					"position_m": [
+						0.0,
+						600.0,
+						-53.4746437072754
+					],
+					"sequence": 18,
+					"target_id": "",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000004",
+						"propulsion_factor": 1.0,
+						"structure": 55.5412615483882
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000019",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 19,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000005",
+						"propulsion_factor": 1.0,
+						"structure": 53.1765769354852
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000020",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 20,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"amount": 6.7562417511513,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000006",
+						"propulsion_factor": 1.0,
+						"structure": 50.8118923225823
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000021",
+					"kind": "damaged",
+					"position_m": [
+						3.79999995231628,
+						600.150024414062,
+						-52.1078414916992
+					],
+					"sequence": 21,
+					"target_id": "target",
+					"tick": 32,
+					"time_s": 0.533333333333333,
+					"weapon_id": "shooter/wing_port_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_20mm_type99_2_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.02,
+						"elevation_rad": 0.0,
+						"flight_time_s": 0.0,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": [
+							0.925976276397705,
+							-0.376799255609512,
+							-0.0242970678955317
+						],
+						"projectile_id": "projectile_00000007",
+						"tracer": false,
+						"train_rad": 0.0,
+						"velocity_mps": [
+							694.482177734375,
+							-341.692108154297,
+							-26.6256427764893
+						]
+					},
+					"entity_id": "shooter",
+					"event_id": "event_00000022",
+					"kind": "fired",
+					"position_m": [
+						14.000189781189,
+						547.799194335938,
+						-430.722045898438
+					],
+					"sequence": 22,
+					"target_id": "",
+					"tick": 271,
+					"time_s": 4.51666666666667,
+					"weapon_id": "shooter/wing_port_01"
+				}
+			],
+			"launch_note": "Existing ammo, production CombatProjectiles.launch; precise test launch is not commander AI or natural combat.",
+			"maximum_acceleration_mps2": 14.4662895798683,
+			"maximum_attitude_step_rad": 0.0290116630494595,
+			"maximum_pieces": 1,
+			"samples": [
+				{
+					"phase": "operational",
+					"position_m": [
+						0.0,
+						600.0,
+						-51.7995529174805
+					],
+					"propeller_speed_radps": 83.1303016664909,
+					"rotation_rad": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"time_s": 0.516666666666667,
+					"velocity_mps": [
+						0.0,
+						0.0,
+						-100.498176574707
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						0.00142314552795142,
+						599.899230957031,
+						-76.8486022949219
+					],
+					"propeller_speed_radps": 78.7895581299491,
+					"rotation_rad": [
+						-0.00730485981330276,
+						-0.00669048679992557,
+						-0.0411508493125439
+					],
+					"time_s": 0.766666666666667,
+					"velocity_mps": [
+						0.0224830079823732,
+						-0.867709875106812,
+						-99.838981628418
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						0.0217079259455204,
+						599.563720703125,
+						-101.720542907715
+					],
+					"propeller_speed_radps": 74.2895581299491,
+					"rotation_rad": [
+						-0.0296671204268932,
+						-0.0239165965467691,
+						-0.159082934260368
+					],
+					"time_s": 1.01666666666667,
+					"velocity_mps": [
+						0.169212132692337,
+						-1.8197546005249,
+						-99.1403350830078
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						0.104333333671093,
+						598.984619140625,
+						-126.420593261719
+					],
+					"propeller_speed_radps": 69.7895581299491,
+					"rotation_rad": [
+						-0.06672353297472,
+						-0.0442102253437042,
+						-0.338594108819962
+					],
+					"time_s": 1.26666666666667,
+					"velocity_mps": [
+						0.533882915973663,
+						-2.82762050628662,
+						-98.4631195068359
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						0.311660647392273,
+						598.139831542969,
+						-150.953384399414
+					],
+					"propeller_speed_radps": 65.2895581299492,
+					"rotation_rad": [
+						-0.116958454251289,
+						-0.0590812489390373,
+						-0.567977845668793
+					],
+					"time_s": 1.51666666666667,
+					"velocity_mps": [
+						1.17249131202698,
+						-3.95879697799683,
+						-97.8007354736328
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						0.714312195777893,
+						596.987182617188,
+						-175.321228027344
+					],
+					"propeller_speed_radps": 60.7895581299492,
+					"rotation_rad": [
+						-0.176141560077667,
+						-0.0604258701205254,
+						-0.83911144733429
+					],
+					"time_s": 1.76666666666667,
+					"velocity_mps": [
+						2.0933849811554,
+						-5.30766487121582,
+						-97.1408233642578
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						1.37813413143158,
+						595.459350585938,
+						-199.522583007812
+					],
+					"propeller_speed_radps": 56.2895581299493,
+					"rotation_rad": [
+						-0.236904546618462,
+						-0.0420559048652649,
+						-1.14697659015656
+					],
+					"time_s": 2.01666666666667,
+					"velocity_mps": [
+						3.24926424026489,
+						-6.97572803497314,
+						-96.4654846191406
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						2.3501672744751,
+						593.465454101562,
+						-223.550964355469
+					],
+					"propeller_speed_radps": 51.7895581299493,
+					"rotation_rad": [
+						-0.289429008960724,
+						-0.00142965745180845,
+						-1.48809945583344
+					],
+					"time_s": 2.26666666666667,
+					"velocity_mps": [
+						4.53808832168579,
+						-9.04571056365967,
+						-95.7538452148438
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						3.64630103111267,
+						590.899353027344,
+						-247.394866943359
+					],
+					"propeller_speed_radps": 47.2895581299494,
+					"rotation_rad": [
+						-0.323255807161331,
+						0.0585107393562794,
+						-1.85808753967285
+					],
+					"time_s": 2.51666666666667,
+					"velocity_mps": [
+						5.81575775146484,
+						-11.5567855834961,
+						-94.9868469238281
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						5.24346780776978,
+						587.651916503906,
+						-271.038787841797
+					],
+					"propeller_speed_radps": 42.7895581299494,
+					"rotation_rad": [
+						-0.330131441354752,
+						0.128366827964783,
+						-2.24965667724609
+					],
+					"time_s": 2.76666666666667,
+					"velocity_mps": [
+						6.91922426223755,
+						-14.4874258041382,
+						-94.1533126831055
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						7.07851314544678,
+						583.627807617188,
+						-294.466125488281
+					],
+					"propeller_speed_radps": 38.2895581299494,
+					"rotation_rad": [
+						-0.307060301303864,
+						0.193936467170715,
+						-2.65326333045959
+					],
+					"time_s": 3.01666666666667,
+					"velocity_mps": [
+						7.69596815109253,
+						-17.7502841949463,
+						-93.2555389404297
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						9.05463218688965,
+						578.760986328125,
+						-317.662780761719
+					],
+					"propeller_speed_radps": 33.7895581299495,
+					"rotation_rad": [
+						-0.257923245429993,
+						0.240684241056442,
+						-3.06059765815735
+					],
+					"time_s": 3.26666666666667,
+					"velocity_mps": [
+						8.03400325775146,
+						-21.2012901306152,
+						-92.3126525878906
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						11.0546493530273,
+						573.026306152344,
+						-340.621765136719
+					],
+					"propeller_speed_radps": 29.2895581299495,
+					"rotation_rad": [
+						-0.19268524646759,
+						0.258220165967941,
+						2.81529498100281
+					],
+					"time_s": 3.51666666666667,
+					"velocity_mps": [
+						7.88525438308716,
+						-24.6620063781738,
+						-91.3601684570312
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						12.9585914611816,
+						566.444458007812,
+						-363.346130371094
+					],
+					"propeller_speed_radps": 24.7895581299495,
+					"rotation_rad": [
+						-0.125005915760994,
+						0.242232799530029,
+						2.40712070465088
+					],
+					"time_s": 3.76666666666667,
+					"velocity_mps": [
+						7.27585744857788,
+						-27.94970703125,
+						-90.4452285766602
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						14.6619625091553,
+						559.079284667969,
+						-385.851806640625
+					],
+					"propeller_speed_radps": 20.2895581299495,
+					"rotation_rad": [
+						-0.0695879459381104,
+						0.194445744156837,
+						1.9951343536377
+					],
+					"time_s": 4.01666666666667,
+					"velocity_mps": [
+						6.30174207687378,
+						-30.9063949584961,
+						-89.6191482543945
+					]
+				},
+				{
+					"phase": "crashing",
+					"position_m": [
+						16.0915565490723,
+						551.028503417969,
+						-408.167083740234
+					],
+					"propeller_speed_radps": 15.7895581299495,
+					"rotation_rad": [
+						-0.0396490916609764,
+						0.122240297496319,
+						1.57765436172485
+					],
+					"time_s": 4.26666666666667,
+					"velocity_mps": [
+						5.11453580856323,
+						-33.4199180603027,
+						-88.9291381835938
+					]
+				}
+			]
+		},
+		{
+			"case": "breakup_and_water",
+			"controlled": true,
+			"definition_id": "jp_a6m5a_1944",
+			"impact": {
+				"data": {
+					"destroyed": true,
+					"reason": "crash",
+					"size_m": 11.0,
+					"surface": "sea",
+					"velocity_mps": [
+						0.0,
+						-46.413688659668,
+						-78.1771469116211
+					]
+				},
+				"entity_id": "target",
+				"event_id": "event_00000012",
+				"kind": "unit_impact",
+				"position_m": [
+					0.0,
+					-0.0000000298023223876953,
+					-480.677124023438
+				],
+				"sequence": 12,
+				"target_id": "",
+				"tick": 324,
+				"time_s": 5.4,
+				"weapon_id": ""
+			},
+			"impacts": 1,
+			"maximum_pieces": 3,
+			"surface_contacts": 1
+		},
+		{
+			"airbursts": 200,
+			"case": "control_distinct_from_tail",
+			"control_health_after_blast": 0.0,
+			"controlled": true,
+			"definition_id": "jp_a6m5a_1944",
+			"structure_after_blast": 28.8283953810771,
+			"tail_health_after_blast": 1.0
+		},
+		{
+			"case": "rotating_inheritance",
+			"controlled": true,
+			"definition_id": "jp_a6m5a_1944",
+			"measured_body_omega_radps": [
+				0.200767859816551,
+				-0.0692677721381187,
+				0.0349954105913639
+			],
+			"omega_error_radps": 0.00000134110450744629,
+			"tangential_velocity_error_mps": 0.00000506884862261359
+		}
+	],
+	"checks": 90,
+	"failures": 0
+}

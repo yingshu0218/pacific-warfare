@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/naval/us_browning_50cal_m2hb.gd" id="1_weapon"]
+
+[node name="Browning_M2HB_WeaponBody" type="Node3D"]
+script = ExtResource("1_weapon")

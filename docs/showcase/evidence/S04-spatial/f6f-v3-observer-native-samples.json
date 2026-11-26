@@ -1,0 +1,2498 @@
+{
+	"camera_view": "actual public observer follow, default distance42m",
+	"case": "current",
+	"follow": "us_air_2",
+	"fps": 15,
+	"samples": [
+		{
+			"camera_m": [
+				-498.196258544922,
+				1427.80700683594,
+				-499.8876953125
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.0320097745001673,
+				"bank_rad": -0.774827031719144,
+				"body_roll_rate_radps": -0.266748120834728,
+				"distance_m": 6146.36671805382,
+				"elevator_rad": 0.0103681362301398,
+				"energy_height_m": 1946.29222385503,
+				"exited": false,
+				"forward_m": "(0.990815, -0.102427, 0.088291)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 147.768970790297,
+				"fuel_used_kg": 17.2310292097159,
+				"heading_rate_radps": 0.0905501971374134,
+				"height_agl_m": 1418.28771972656,
+				"induced_drag_mps2": 0.185346696799737,
+				"kinetic_margin_m": 282.345837209844,
+				"lift_up_m": "(0.134994, 0.710784, -0.690335)",
+				"load_factor": 1.33558082832267,
+				"load_limit": 4.52326482084128,
+				"path_pitch_rad": -0.102607182664248,
+				"path_pitch_rate_radps": -0.00390310385036313,
+				"path_turn_rate_radps": 0.0901588384483859,
+				"propeller_phase_rad": 4.89949608013668,
+				"requested_load_g": 1.33558082832267,
+				"roll_error_rad": -0.0666870302086819,
+				"roll_velocity_radps": -0.266748120834728,
+				"safety_state": "normal",
+				"speed_mps": 101.763995306901,
+				"stall_margin": 1.84106588536997,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1418.46130371094,
+				"terrain_lookahead_s": 5.67988858108545,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.0901588384483859,
+				"vertical_speed_mps": -10.4234046936035
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-469.560760498047,
+				1418.28771972656,
+				-529.678100585938
+			],
+			"rotation_rad": [
+				-0.102607190608978,
+				-1.65967154502869,
+				0.774827003479004
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 577.97119140625,
+					"maneuver_phase": "track",
+					"maneuver_reason": "lead_solution",
+					"pair_index": 0,
+					"phase": "aim",
+					"reason": "align_fixed_guns",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": 148.313064575195,
+						"energy_margin_m": 225.275994600192,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 64.1605224609375
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 66.0666666666667,
+			"velocity_mps": [
+				100.829238891602,
+				-10.4234046936035,
+				8.98488330841064
+			]
+		},
+		{
+			"camera_m": [
+				-413.159271240234,
+				1418.900390625,
+				-496.298645019531
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.0239004220077683,
+				"bank_rad": -1.00553922287133,
+				"body_roll_rate_radps": -0.199170183398069,
+				"distance_m": 6249.33874332905,
+				"elevator_rad": 0.0228744377860885,
+				"energy_height_m": 1960.38681788106,
+				"exited": false,
+				"forward_m": "(0.993983, -0.106075, -0.027305)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 147.493970790298,
+				"fuel_used_kg": 17.5060292097158,
+				"heading_rate_radps": 0.142033282894891,
+				"height_agl_m": 1407.552734375,
+				"induced_drag_mps2": 0.485285492721564,
+				"kinetic_margin_m": 307.528018463573,
+				"lift_up_m": "(0.033607, 0.532611, -0.845693)",
+				"load_factor": 1.7752721876003,
+				"load_limit": 4.74249957999875,
+				"path_pitch_rad": -0.106275306086375,
+				"path_pitch_rate_radps": -0.00411268342799975,
+				"path_turn_rate_radps": 0.141292369127112,
+				"propeller_phase_rad": 5.51897524372454,
+				"requested_load_g": 1.7752721876003,
+				"roll_error_rad": -0.0497925458495172,
+				"roll_velocity_radps": -0.199170183398069,
+				"safety_state": "normal",
+				"speed_mps": 104.129250117483,
+				"stall_margin": 1.635025440551,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1407.73669433594,
+				"terrain_lookahead_s": 5.79348970815216,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.141292369127112,
+				"vertical_speed_mps": -11.0455484390259
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-367.269714355469,
+				1407.552734375,
+				-526.117004394531
+			],
+			"rotation_rad": [
+				-0.10627531260252,
+				-1.54333281517029,
+				1.00553929805756
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 425.9677734375,
+					"maneuver_phase": "track",
+					"maneuver_reason": "lead_solution",
+					"pair_index": 0,
+					"phase": "aim",
+					"reason": "align_fixed_guns",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": 151.916000366211,
+						"energy_margin_m": 250.148965946195,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 48.602294921875
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 67.0666666666667,
+			"velocity_mps": [
+				103.502716064453,
+				-11.0455484390259,
+				-2.843266248703
+			]
+		},
+		{
+			"camera_m": [
+				-309.61083984375,
+				1407.66394042969,
+				-504.940704345703
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.0241492779767976,
+				"bank_rad": -1.19358187957492,
+				"body_roll_rate_radps": -0.20124398313998,
+				"distance_m": 6354.47406041622,
+				"elevator_rad": 0.0453861344352974,
+				"energy_height_m": 1969.26190701042,
+				"exited": false,
+				"forward_m": "(0.972693, -0.109708, -0.20453)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 147.218970790298,
+				"fuel_used_kg": 17.7810292097158,
+				"heading_rate_radps": 0.224574717718018,
+				"height_agl_m": 1396.203125,
+				"induced_drag_mps2": 1.24558883499113,
+				"kinetic_margin_m": 328.207944182167,
+				"lift_up_m": "(-0.151761, 0.366109, -0.918114)",
+				"load_factor": 2.59492311886236,
+				"load_limit": 4.92378947464992,
+				"path_pitch_rad": -0.109928797584526,
+				"path_pitch_rate_radps": -0.00357829906334511,
+				"path_turn_rate_radps": 0.223248068765543,
+				"propeller_phase_rad": 6.1384544073124,
+				"requested_load_g": 2.59492311886236,
+				"roll_error_rad": -0.050310995784995,
+				"roll_velocity_radps": -0.20124398313998,
+				"safety_state": "normal",
+				"speed_mps": 106.016856250338,
+				"stall_margin": 1.37780138968397,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1396.39685058594,
+				"terrain_lookahead_s": 5.89151805829529,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.223248068765543,
+				"vertical_speed_mps": -11.6308469772339
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-263.527923583984,
+				1396.203125,
+				-537.651428222656
+			],
+			"rotation_rad": [
+				-0.109928794205189,
+				-1.36354386806488,
+				1.19358193874359
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 275.935943603516,
+					"maneuver_phase": "track",
+					"maneuver_reason": "lead_solution",
+					"pair_index": 0,
+					"phase": "aim",
+					"reason": "align_fixed_guns",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": 141.900192260742,
+						"energy_margin_m": 270.502367507235,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 32.3885498046875
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 68.0666666666667,
+			"velocity_mps": [
+				103.121856689453,
+				-11.6308469772339,
+				-21.6836128234863
+			]
+		},
+		{
+			"camera_m": [
+				-209.142959594727,
+				1395.97155761719,
+				-535.962341308594
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.0354988907988372,
+				"bank_rad": -1.2629031452467,
+				"body_roll_rate_radps": 0.29582408999031,
+				"distance_m": 6460.87691354752,
+				"elevator_rad": 0.0564330469798092,
+				"energy_height_m": 1963.21280675104,
+				"exited": false,
+				"forward_m": "(0.872428, -0.109721, -0.476267)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 146.943970790298,
+				"fuel_used_kg": 18.0560292097158,
+				"heading_rate_radps": 0.265084527021093,
+				"height_agl_m": 1384.48266601562,
+				"induced_drag_mps2": 1.72222013771069,
+				"kinetic_margin_m": 334.302785867274,
+				"lift_up_m": "(-0.427441, 0.301222, -0.852384)",
+				"load_factor": 3.00305952307316,
+				"load_limit": 4.98014585016153,
+				"path_pitch_rad": -0.109942513324555,
+				"path_pitch_rate_radps": -0.00778656801854904,
+				"path_turn_rate_radps": 0.263599627433621,
+				"propeller_phase_rad": 0.474748263720675,
+				"requested_load_g": 0.8,
+				"roll_error_rad": 0.585255188402337,
+				"roll_velocity_radps": 0.29582408999031,
+				"safety_state": "normal",
+				"speed_mps": 106.540170214272,
+				"stall_margin": 1.28796705679089,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1384.67736816406,
+				"terrain_lookahead_s": 5.94030834360221,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.263599627433621,
+				"vertical_speed_mps": -11.6897106170654
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-164.379913330078,
+				1384.48266601562,
+				-573.290222167969
+			],
+			"rotation_rad": [
+				-0.109942510724068,
+				-1.07109916210175,
+				1.26290309429169
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 156.423263549805,
+					"maneuver_phase": "zoom_climb",
+					"maneuver_reason": "pass_separation",
+					"pair_index": 0,
+					"phase": "extend",
+					"reason": "pass_separation",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": 76.9233093261719,
+						"energy_margin_m": 276.260210984894,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 15.8441162109375
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 69.0666666666667,
+			"velocity_mps": [
+				92.9486618041992,
+				-11.6897106170654,
+				-50.7415428161621
+			]
+		},
+		{
+			"camera_m": [
+				-119.23063659668,
+				1385.34899902344,
+				-592.417419433594
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.00260123634533183,
+				"bank_rad": -0.686132817184164,
+				"body_roll_rate_radps": -0.0216769695444319,
+				"distance_m": 6568.05196678638,
+				"elevator_rad": 0.0836252196088705,
+				"energy_height_m": 1959.66884325067,
+				"exited": false,
+				"forward_m": "(0.759199, -0.021522, -0.650503)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 146.668970790298,
+				"fuel_used_kg": 18.3310292097157,
+				"heading_rate_radps": 0.232196788644514,
+				"height_agl_m": 1374.81311035156,
+				"induced_drag_mps2": 3.1851155001468,
+				"kinetic_margin_m": 341.128939574805,
+				"lift_up_m": "(-0.399577, 0.773523, -0.491936)",
+				"load_factor": 4.00180423314778,
+				"load_limit": 5.04230012540012,
+				"path_pitch_rad": -0.0215238937274961,
+				"path_pitch_rate_radps": 0.191933022947169,
+				"path_turn_rate_radps": 0.301206922958142,
+				"propeller_phase_rad": 1.09422742730854,
+				"requested_load_g": 4.00180423314778,
+				"roll_error_rad": -0.00541924238610798,
+				"roll_velocity_radps": -0.0216769695444319,
+				"safety_state": "normal",
+				"speed_mps": 107.102525395389,
+				"stall_margin": 1.12226669811971,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1374.85437011719,
+				"terrain_lookahead_s": 5.35729417158625,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.301206922958142,
+				"vertical_speed_mps": -2.30508542060852
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-76.3791275024414,
+				1374.81311035156,
+				-633.283996582031
+			],
+			"rotation_rad": [
+				-0.0215238947421312,
+				-0.862351179122925,
+				0.686132788658142
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 168.164047241211,
+					"maneuver_phase": "zoom_climb",
+					"maneuver_reason": "pass_separation",
+					"pair_index": 0,
+					"phase": "extend",
+					"reason": "pass_separation",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -95.7836227416992,
+						"energy_margin_m": 282.804258339592,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 1.295654296875
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 70.0666666666667,
+			"velocity_mps": [
+				81.3120880126953,
+				-2.30508542060852,
+				-69.6705322265625
+			]
+		},
+		{
+			"camera_m": [
+				-44.2084503173828,
+				1389.86328125,
+				-667.026977539062
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.034793061817309,
+				"bank_rad": -0.540340963777194,
+				"body_roll_rate_radps": 0.289942181810909,
+				"distance_m": 6674.21031498909,
+				"elevator_rad": 0.0740737905256951,
+				"energy_height_m": 1945.03222015463,
+				"exited": false,
+				"forward_m": "(0.595532, 0.170133, -0.785109)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 146.393970790299,
+				"fuel_used_kg": 18.6060292097157,
+				"heading_rate_radps": 0.173250467544552,
+				"height_agl_m": 1382.68115234375,
+				"induced_drag_mps2": 2.5730742275621,
+				"kinetic_margin_m": 318.624045203129,
+				"lift_up_m": "(-0.498028, 0.845031, -0.194653)",
+				"load_factor": 3.55765763689124,
+				"load_limit": 4.84592419389,
+				"path_pitch_rad": 0.170964269913658,
+				"path_pitch_rate_radps": 0.19281264171205,
+				"path_turn_rate_radps": 0.25756274429646,
+				"propeller_phase_rad": 1.7137065908964,
+				"requested_load_g": 3.55765763689124,
+				"roll_error_rad": 0.0724855454527271,
+				"roll_velocity_radps": 0.289942181810909,
+				"safety_state": "normal",
+				"speed_mps": 105.021712984959,
+				"stall_margin": 1.16661859502804,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1382.38610839844,
+				"terrain_lookahead_s": 5.3058419781889,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.25756274429646,
+				"vertical_speed_mps": 17.8676223754883
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-4.40248394012451,
+				1382.68115234375,
+				-710.413452148438
+			],
+			"rotation_rad": [
+				0.170964285731316,
+				-0.648940324783325,
+				0.540340960025787
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 295.291625976562,
+					"maneuver_phase": "zoom_climb",
+					"maneuver_reason": "pass_separation",
+					"pair_index": 0,
+					"phase": "extend",
+					"reason": "pass_separation",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -144.664260864258,
+						"energy_margin_m": 260.515638551655,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 4.2293701171875
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 71.0666666666667,
+			"velocity_mps": [
+				62.5437774658203,
+				17.8676223754883,
+				-82.4535369873047
+			]
+		},
+		{
+			"camera_m": [
+				13.0257740020752,
+				1413.95288085938,
+				-750.04052734375
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.0290629389422084,
+				"bank_rad": -0.295189919604654,
+				"body_roll_rate_radps": 0.242191157851737,
+				"distance_m": 6777.7638283968,
+				"elevator_rad": 0.0635917464826093,
+				"energy_height_m": 1939.23143724967,
+				"exited": false,
+				"forward_m": "(0.464494, 0.355595, -0.811047)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 146.118970790299,
+				"fuel_used_kg": 18.8810292097157,
+				"heading_rate_radps": 0.091709117780725,
+				"height_agl_m": 1409.94140625,
+				"induced_drag_mps2": 1.97765299500243,
+				"kinetic_margin_m": 284.977488518137,
+				"lift_up_m": "(-0.42153, 0.894214, 0.150645)",
+				"load_factor": 3.06748654996256,
+				"load_limit": 4.54845130079635,
+				"path_pitch_rad": 0.363550554678733,
+				"path_pitch_rate_radps": 0.192372026204481,
+				"path_turn_rate_radps": 0.210622979628864,
+				"propeller_phase_rad": 2.33318575448426,
+				"requested_load_g": 3.06748654996256,
+				"roll_error_rad": 0.0605477894629342,
+				"roll_velocity_radps": 0.242191157851737,
+				"safety_state": "normal",
+				"speed_mps": 101.887801845981,
+				"stall_margin": 1.21695396255457,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1409.33996582031,
+				"terrain_lookahead_s": 5.21496255558494,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.210622979628864,
+				"vertical_speed_mps": 36.2307891845703
+			},
+			"id": "us_air_2",
+			"position_m": [
+				50.1021385192871,
+				1409.94140625,
+				-793.85595703125
+			],
+			"rotation_rad": [
+				0.363550573587418,
+				-0.520110964775085,
+				0.295189887285233
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 445.682312011719,
+					"maneuver_phase": "zoom_climb",
+					"maneuver_reason": "pass_separation",
+					"pair_index": 0,
+					"phase": "extend",
+					"reason": "pass_separation",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -154.292190551758,
+						"energy_margin_m": 227.644636422303,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 26.7265625
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 72.0666666666667,
+			"velocity_mps": [
+				47.326286315918,
+				36.2307891845703,
+				-82.6358108520508
+			]
+		},
+		{
+			"camera_m": [
+				56.8425140380859,
+				1454.85119628906,
+				-830.553405761719
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.0117944517784337,
+				"bank_rad": -0.171306303885721,
+				"body_roll_rate_radps": 0.0982870981536144,
+				"distance_m": 6877.70786273479,
+				"elevator_rad": 0.0359578891467058,
+				"energy_height_m": 1942.73308587307,
+				"exited": false,
+				"forward_m": "(0.383985, 0.49699, -0.778175)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 145.843970790299,
+				"fuel_used_kg": 19.1560292097156,
+				"heading_rate_radps": 0.040827007560662,
+				"height_agl_m": 1453.2099609375,
+				"induced_drag_mps2": 0.851449539349369,
+				"kinetic_margin_m": 243.976242445821,
+				"lift_up_m": "(-0.369572, 0.855055, 0.363727)",
+				"load_factor": 2.0813530136302,
+				"load_limit": 4.18595791799322,
+				"path_pitch_rad": 0.520126203133991,
+				"path_pitch_rate_radps": 0.118277151914226,
+				"path_turn_rate_radps": 0.123477088376857,
+				"propeller_phase_rad": 2.95266491807212,
+				"requested_load_g": 2.0813530136302,
+				"roll_error_rad": 0.0245717745384036,
+				"roll_velocity_radps": 0.0982870981536144,
+				"safety_state": "normal",
+				"speed_mps": 97.9855290657696,
+				"stall_margin": 1.41720387295054,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1452.3994140625,
+				"terrain_lookahead_s": 5.30312013014176,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.123477088376857,
+				"vertical_speed_mps": 48.6977958679199
+			},
+			"id": "us_air_2",
+			"position_m": [
+				92.0923309326172,
+				1453.2099609375,
+				-873.420166015625
+			],
+			"rotation_rad": [
+				0.520126223564148,
+				-0.458387672901154,
+				0.171306282281876
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 601.483276367188,
+					"maneuver_phase": "zoom_climb",
+					"maneuver_reason": "pass_separation",
+					"pair_index": 0,
+					"phase": "extend",
+					"reason": "pass_separation",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -157.080963134766,
+						"energy_margin_m": 187.887471703251,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 65.47705078125
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 73.0666666666667,
+			"velocity_mps": [
+				37.6249389648438,
+				48.6977958679199,
+				-76.2499313354492
+			]
+		},
+		{
+			"camera_m": [
+				92.5837020874023,
+				1505.28601074219,
+				-904.811401367188
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.0050318483695901,
+				"bank_rad": -0.123730200838623,
+				"body_roll_rate_radps": 0.0419320697465841,
+				"distance_m": 6973.72934424877,
+				"elevator_rad": 0.00784308468070041,
+				"energy_height_m": 1955.93744905923,
+				"exited": false,
+				"forward_m": "(0.345111, 0.561909, -0.751769)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 145.568970790299,
+				"fuel_used_kg": 19.4310292097156,
+				"heading_rate_radps": 0.0188984218249999,
+				"height_agl_m": 1504.60522460938,
+				"induced_drag_mps2": 0.134458726530115,
+				"kinetic_margin_m": 204.245675732576,
+				"lift_up_m": "(-0.344799, 0.820875, 0.455277)",
+				"load_factor": 1.2174633794382,
+				"load_limit": 3.83617505964881,
+				"path_pitch_rad": 0.596691675390932,
+				"path_pitch_rate_radps": 0.0396577892571925,
+				"path_turn_rate_radps": 0.0426283871142194,
+				"propeller_phase_rad": 3.57214408165998,
+				"requested_load_g": 1.2174633794382,
+				"roll_error_rad": 0.010483017436646,
+				"roll_velocity_radps": 0.0419320697465841,
+				"safety_state": "normal",
+				"speed_mps": 94.0856754123725,
+				"stall_margin": 1.77389387211815,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1503.72424316406,
+				"terrain_lookahead_s": 5.50368907332525,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.0426283871142194,
+				"vertical_speed_mps": 52.8675804138184
+			},
+			"id": "us_air_2",
+			"position_m": [
+				126.830360412598,
+				1504.60522460938,
+				-946.68017578125
+			],
+			"rotation_rad": [
+				0.5966916680336,
+				-0.43036624789238,
+				0.123730204999447
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 759.165405273438,
+					"maneuver_phase": "zoom_climb",
+					"maneuver_reason": "pass_separation",
+					"pair_index": 0,
+					"phase": "extend",
+					"reason": "pass_separation",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -158.666259765625,
+						"energy_margin_m": 149.648047796077,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 112.609130859375
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 74.0666666666667,
+			"velocity_mps": [
+				32.4699554443359,
+				52.8675804138184,
+				-70.7307281494141
+			]
+		},
+		{
+			"camera_m": [
+				124.149742126465,
+				1557.94018554688,
+				-974.443969726562
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.0292676119417802,
+				"bank_rad": -0.11460494970531,
+				"body_roll_rate_radps": -0.243896766181501,
+				"distance_m": 7065.92903995514,
+				"elevator_rad": -0.0332245069480844,
+				"energy_height_m": 1973.19342729472,
+				"exited": false,
+				"forward_m": "(0.333546, 0.568532, -0.752009)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 145.2939707903,
+				"fuel_used_kg": 19.7060292097155,
+				"heading_rate_radps": 0.00227513490172138,
+				"height_agl_m": 1557.20349121094,
+				"induced_drag_mps2": 0.0,
+				"kinetic_margin_m": 167.321160141684,
+				"lift_up_m": "(-0.333531, 0.817264, 0.469932)",
+				"load_factor": 0.150920751358632,
+				"load_limit": 3.51398751702855,
+				"path_pitch_rad": 0.604720762947262,
+				"path_pitch_rate_radps": -0.0729361127480832,
+				"path_turn_rate_radps": 0.0729613925692916,
+				"propeller_phase_rad": 4.19162324524785,
+				"requested_load_g": 0.150920751358632,
+				"roll_error_rad": -1.25083839253379,
+				"roll_velocity_radps": -0.243896766181501,
+				"safety_state": "normal",
+				"speed_mps": 90.3268255469659,
+				"stall_margin": 1.87328777636569,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1556.34655761719,
+				"terrain_lookahead_s": 5.77184214729453,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.0729613925692916,
+				"vertical_speed_mps": 51.3537292480469
+			},
+			"id": "us_air_2",
+			"position_m": [
+				157.908447265625,
+				1557.20349121094,
+				-1015.73187255859
+			],
+			"rotation_rad": [
+				0.604720771312714,
+				-0.41746860742569,
+				0.114604949951172
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 918.773193359375,
+					"maneuver_phase": "track",
+					"maneuver_reason": "lead_solution",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "align_fixed_guns",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -160.754547119141,
+						"energy_margin_m": 114.261747817491,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 161.148681640625
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 75.0666666666667,
+			"velocity_mps": [
+				30.12815284729,
+				51.3537292480469,
+				-67.9266204833984
+			]
+		},
+		{
+			"camera_m": [
+				154.265426635742,
+				1606.67126464844,
+				-1042.7626953125
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.125663706143592,
+				"bank_rad": -1.02098386652176,
+				"body_roll_rate_radps": -1.0471975511966,
+				"distance_m": 7154.52766752243,
+				"elevator_rad": -0.0304247590672147,
+				"energy_height_m": 1990.59717616444,
+				"exited": false,
+				"forward_m": "(0.340398, 0.503646, -0.794021)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 145.0189707903,
+				"fuel_used_kg": 19.9810292097155,
+				"heading_rate_radps": 0.0310308099935364,
+				"height_agl_m": 1604.79125976562,
+				"induced_drag_mps2": 0.0,
+				"kinetic_margin_m": 135.608881107929,
+				"lift_up_m": "(-0.887341, 0.451417, -0.094071)",
+				"load_factor": 0.279044814249725,
+				"load_limit": 3.24006562204742,
+				"path_pitch_rad": 0.527814199166314,
+				"path_pitch_rate_radps": -0.0808501093615166,
+				"path_turn_rate_radps": 0.0851781498830813,
+				"propeller_phase_rad": 4.81110240883571,
+				"requested_load_g": 0.279044814249725,
+				"roll_error_rad": -0.358087121652798,
+				"roll_velocity_radps": -1.0471975511966,
+				"safety_state": "normal",
+				"speed_mps": 86.9880864262736,
+				"stall_margin": 1.79898940163136,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1604.06005859375,
+				"terrain_lookahead_s": 6.92016321025124,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.0851781498830813,
+				"vertical_speed_mps": 43.811222076416
+			},
+			"id": "us_air_2",
+			"position_m": [
+				187.930145263672,
+				1604.79125976562,
+				-1084.14196777344
+			],
+			"rotation_rad": [
+				0.527814269065857,
+				-0.40500146150589,
+				1.02098381519318
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 1081.10192871094,
+					"maneuver_phase": "track",
+					"maneuver_reason": "lead_solution",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "align_fixed_guns",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -163.511077880859,
+						"energy_margin_m": 83.9524494381787,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 204.927001953125
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 76.0666666666667,
+			"velocity_mps": [
+				29.6105632781982,
+				43.811222076416,
+				-69.0703887939453
+			]
+		},
+		{
+			"camera_m": [
+				182.430725097656,
+				1647.96069335938,
+				-1112.79223632812
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.00562321757462777,
+				"bank_rad": -1.37296788386583,
+				"body_roll_rate_radps": 0.0468601464552315,
+				"distance_m": 7240.15495896339,
+				"elevator_rad": -0.011210663140376,
+				"energy_height_m": 2007.9765938142,
+				"exited": false,
+				"forward_m": "(0.290407, 0.428925, -0.855387)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 144.7439707903,
+				"fuel_used_kg": 20.2560292097155,
+				"heading_rate_radps": 0.094555389133576,
+				"height_agl_m": 1644.80102539062,
+				"induced_drag_mps2": 0.0,
+				"kinetic_margin_m": 111.665757616655,
+				"lift_up_m": "(-0.955548, 0.177543, -0.235384)",
+				"load_factor": 0.75,
+				"load_limit": 3.03480416658812,
+				"path_pitch_rad": 0.443302314181285,
+				"path_pitch_rate_radps": -0.0877145604552398,
+				"path_turn_rate_radps": 0.122412295750291,
+				"propeller_phase_rad": 5.43058157242357,
+				"requested_load_g": 0.75,
+				"roll_error_rad": 0.0117150366138079,
+				"roll_velocity_radps": 0.0468601464552315,
+				"safety_state": "normal",
+				"speed_mps": 84.3982901258206,
+				"stall_margin": 1.74131409987214,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1644.19665527344,
+				"terrain_lookahead_s": 7.58613586735094,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.122412295750291,
+				"vertical_speed_mps": 36.2005310058594
+			},
+			"id": "us_air_2",
+			"position_m": [
+				215.40869140625,
+				1644.80102539062,
+				-1154.63012695312
+			],
+			"rotation_rad": [
+				0.44330233335495,
+				-0.327292889356613,
+				1.37296783924103
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 1244.42236328125,
+					"maneuver_phase": "track",
+					"maneuver_reason": "lead_solution",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "align_fixed_guns",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -162.463348388672,
+						"energy_margin_m": 61.1956273916963,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 241.28759765625
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 77.0666666666667,
+			"velocity_mps": [
+				24.5098152160645,
+				36.2005310058594,
+				-72.193229675293
+			]
+		},
+		{
+			"camera_m": [
+				204.772369384766,
+				1681.62438964844,
+				-1186.08605957031
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.00412455230862277,
+				"bank_rad": -1.36991265659857,
+				"body_roll_rate_radps": 0.0343712692385231,
+				"distance_m": 7323.59995770454,
+				"elevator_rad": -0.0116979675695604,
+				"energy_height_m": 2025.33621837864,
+				"exited": false,
+				"forward_m": "(0.217208, 0.345294, -0.913013)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 144.4689707903,
+				"fuel_used_kg": 20.5310292097154,
+				"heading_rate_radps": 0.0929085843358446,
+				"height_agl_m": 1677.17517089844,
+				"induced_drag_mps2": 0.0,
+				"kinetic_margin_m": 95.5590088642481,
+				"lift_up_m": "(-0.969231, 0.187263, -0.159762)",
+				"load_factor": 0.75,
+				"load_limit": 2.89728308134597,
+				"path_pitch_rad": 0.352551721624167,
+				"path_pitch_rate_radps": -0.0935136656599,
+				"path_turn_rate_radps": 0.127841966994086,
+				"propeller_phase_rad": 6.05006073601143,
+				"requested_load_g": 0.75,
+				"roll_error_rad": 0.00859281730963077,
+				"roll_velocity_radps": 0.0343712692385231,
+				"safety_state": "normal",
+				"speed_mps": 82.6352653081205,
+				"stall_margin": 1.70168268044289,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1676.69848632812,
+				"terrain_lookahead_s": 7.82593794281917,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.127841966994086,
+				"vertical_speed_mps": 28.5334377288818
+			},
+			"id": "us_air_2",
+			"position_m": [
+				236.658111572266,
+				1677.17517089844,
+				-1228.48413085938
+			],
+			"rotation_rad": [
+				0.352551758289337,
+				-0.233561113476753,
+				1.36991262435913
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 1405.73425292969,
+					"maneuver_phase": "dive_attack",
+					"maneuver_reason": "height_advantage",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "height_advantage",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -160.059753417969,
+						"energy_margin_m": 46.0536355077408,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 270.167236328125
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 78.0666666666667,
+			"velocity_mps": [
+				17.9490737915039,
+				28.5334377288818,
+				-75.4470748901367
+			]
+		},
+		{
+			"camera_m": [
+				220.484832763672,
+				1707.58666992188,
+				-1262.4970703125
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.00303719096483715,
+				"bank_rad": -1.36764580027813,
+				"body_roll_rate_radps": 0.0253099247069763,
+				"distance_m": 7405.72256076336,
+				"elevator_rad": -0.0122587771135282,
+				"energy_height_m": 2042.67992963387,
+				"exited": false,
+				"forward_m": "(0.136767, 0.253839, -0.957528)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 144.193970790301,
+				"fuel_used_kg": 20.8060292097154,
+				"heading_rate_radps": 0.090301091508076,
+				"height_agl_m": 1701.83081054688,
+				"induced_drag_mps2": 0.0,
+				"kinetic_margin_m": 87.3794981481672,
+				"lift_up_m": "(-0.976837, 0.195148, -0.087792)",
+				"load_factor": 0.743611261685122,
+				"load_limit": 2.82713641920833,
+				"path_pitch_rad": 0.256647014508268,
+				"path_pitch_rate_radps": -0.0979481602450505,
+				"path_turn_rate_radps": 0.13122200863173,
+				"propeller_phase_rad": 0.386354592419705,
+				"requested_load_g": 0.743611261685122,
+				"roll_error_rad": 0.00632748117674407,
+				"roll_velocity_radps": 0.0253099247069763,
+				"safety_state": "normal",
+				"speed_mps": 81.7629257511549,
+				"stall_margin": 1.68126585742817,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1701.48376464844,
+				"terrain_lookahead_s": 7.961697407694,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.13122200863173,
+				"vertical_speed_mps": 20.7546062469482
+			},
+			"id": "us_air_2",
+			"position_m": [
+				251.236373901367,
+				1701.83081054688,
+				-1305.38818359375
+			],
+			"rotation_rad": [
+				0.256647020578384,
+				-0.141873672604561,
+				1.36764574050903
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 1564.44311523438,
+					"maneuver_phase": "dive_attack",
+					"maneuver_reason": "height_advantage",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "height_advantage",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -157.285675048828,
+						"energy_margin_m": 38.6123132294246,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 291.475830078125
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 79.0666666666667,
+			"velocity_mps": [
+				11.1824645996094,
+				20.7546062469482,
+				-78.2903289794922
+			]
+		},
+		{
+			"camera_m": [
+				229.387023925781,
+				1725.71911621094,
+				-1341.60888671875
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.00192622037626221,
+				"bank_rad": -1.36533152816081,
+				"body_roll_rate_radps": 0.0160518364688517,
+				"distance_m": 7487.43809497356,
+				"elevator_rad": -0.0126390173105097,
+				"energy_height_m": 2060.01199745198,
+				"exited": false,
+				"forward_m": "(0.052387, 0.156643, -0.986265)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 143.918970790301,
+				"fuel_used_kg": 21.0810292097154,
+				"heading_rate_radps": 0.0873542560604584,
+				"height_agl_m": 1718.63146972656,
+				"induced_drag_mps2": 0.0,
+				"kinetic_margin_m": 87.2732422622545,
+				"lift_up_m": "(-0.979283, 0.201504, -0.020012)",
+				"load_factor": 0.735349026596614,
+				"load_limit": 2.82481487227784,
+				"path_pitch_rad": 0.15729063312535,
+				"path_pitch_rate_radps": -0.100350020622412,
+				"path_turn_rate_radps": 0.132332400169866,
+				"propeller_phase_rad": 1.00583375600757,
+				"requested_load_g": 0.735349026596614,
+				"roll_error_rad": 0.00401295911721293,
+				"roll_velocity_radps": 0.0160518364688517,
+				"safety_state": "normal",
+				"speed_mps": 81.8266381103176,
+				"stall_margin": 1.6809008464527,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1718.41674804688,
+				"terrain_lookahead_s": 7.96838570586987,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.132332400169866,
+				"vertical_speed_mps": 12.8175592422485
+			},
+			"id": "us_air_2",
+			"position_m": [
+				258.980621337891,
+				1718.63146972656,
+				-1384.92126464844
+			],
+			"rotation_rad": [
+				0.157290637493134,
+				-0.0530666671693325,
+				1.36533153057098
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 1720.25,
+					"maneuver_phase": "dive_attack",
+					"maneuver_reason": "height_advantage",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "height_advantage",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -154.27458190918,
+						"energy_margin_m": 39.0116172261674,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 305.069213867188
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 80.0666666666667,
+			"velocity_mps": [
+				4.28665065765381,
+				12.8175592422485,
+				-80.702751159668
+			]
+		},
+		{
+			"camera_m": [
+				231.35807800293,
+				1735.85424804688,
+				-1422.98583984375
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.000845593426207391,
+				"bank_rad": -1.363082016762,
+				"body_roll_rate_radps": 0.00704661188506159,
+				"distance_m": 7569.69444978237,
+				"elevator_rad": -0.0127010671012116,
+				"energy_height_m": 2077.3374343253,
+				"exited": false,
+				"forward_m": "(-0.032729, 0.056675, -0.997856)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 143.643970790301,
+				"fuel_used_kg": 21.3560292097153,
+				"heading_rate_radps": 0.0844113476944271,
+				"height_agl_m": 1727.404296875,
+				"induced_drag_mps2": 0.0,
+				"kinetic_margin_m": 95.424205549152,
+				"lift_up_m": "(-0.977596, 0.205892, 0.043758)",
+				"load_factor": 0.727490860951389,
+				"load_limit": 2.89144885150024,
+				"path_pitch_rad": 0.0567057791885173,
+				"path_pitch_rate_radps": -0.100423637241765,
+				"path_turn_rate_radps": 0.131097797612166,
+				"propeller_phase_rad": 1.62531291959543,
+				"requested_load_g": 0.727490860951389,
+				"roll_error_rad": 0.0017616529712654,
+				"roll_velocity_radps": 0.00704661188506159,
+				"safety_state": "normal",
+				"speed_mps": 82.8452992314828,
+				"stall_margin": 1.70093486410163,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1727.32495117188,
+				"terrain_lookahead_s": 7.84291887390443,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.131097797612166,
+				"vertical_speed_mps": 4.69529008865356
+			},
+			"id": "us_air_2",
+			"position_m": [
+				259.775512695312,
+				1727.404296875,
+				-1466.64489746094
+			],
+			"rotation_rad": [
+				0.0567057766020298,
+				0.0327873304486275,
+				1.36308205127716
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 1872.95751953125,
+					"maneuver_phase": "dive_attack",
+					"maneuver_reason": "height_advantage",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "height_advantage",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -151.102127075195,
+						"energy_margin_m": 47.4289529838125,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 310.767211914062
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 81.0666666666667,
+			"velocity_mps": [
+				-2.71142435073853,
+				4.69529008865356,
+				-82.6676864624023
+			]
+		},
+		{
+			"camera_m": [
+				223.917343139648,
+				1738.31164550781,
+				-1505.69946289062
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.0110932613528455,
+				"bank_rad": -1.34826463819461,
+				"body_roll_rate_radps": 0.0924438446070459,
+				"distance_m": 7653.15382480621,
+				"elevator_rad": 0.0619216499901003,
+				"energy_height_m": 2087.08958972236,
+				"exited": false,
+				"forward_m": "(-0.234344, -0.017293, -0.972)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 143.368970790301,
+				"fuel_used_kg": 21.6310292097153,
+				"heading_rate_radps": 0.269432127494138,
+				"height_agl_m": 1728.72290039062,
+				"induced_drag_mps2": 1.6522189670998,
+				"kinetic_margin_m": 103.947259467247,
+				"lift_up_m": "(-0.949068, 0.220667, 0.22489)",
+				"load_factor": 2.3611065825748,
+				"load_limit": 2.96177209718183,
+				"path_pitch_rad": -0.0172939716882502,
+				"path_pitch_rate_radps": -0.0560160509636764,
+				"path_turn_rate_radps": 0.275156368279958,
+				"propeller_phase_rad": 2.24479208318329,
+				"requested_load_g": 2.3611065825748,
+				"roll_error_rad": 0.0231109611517615,
+				"roll_velocity_radps": 0.0924438446070459,
+				"safety_state": "normal",
+				"speed_mps": 83.837660916023,
+				"stall_margin": 1.12012077982333,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1728.74645996094,
+				"terrain_lookahead_s": 7.70558502954689,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.275156368279958,
+				"vertical_speed_mps": -1.44981396198273
+			},
+			"id": "us_air_2",
+			"position_m": [
+				249.962249755859,
+				1728.72290039062,
+				-1549.34069824219
+			],
+			"rotation_rad": [
+				-0.0172939728945494,
+				0.236579865217209,
+				1.34826457500458
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2019.5703125,
+					"maneuver_phase": "dive_attack",
+					"maneuver_reason": "height_advantage",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "height_advantage",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -139.426498413086,
+						"energy_margin_m": 55.9945385927177,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 309.101318359375
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 82.0666666666667,
+			"velocity_mps": [
+				-19.6468601226807,
+				-1.44981396198273,
+				-81.4902038574219
+			]
+		},
+		{
+			"camera_m": [
+				197.128173828125,
+				1735.61352539062,
+				-1584.94384765625
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.0078517358379862,
+				"bank_rad": -1.24172815389489,
+				"body_roll_rate_radps": 0.0654311319832183,
+				"distance_m": 7737.3341960907,
+				"elevator_rad": 0.0627510846243462,
+				"energy_height_m": 2090.09869665698,
+				"exited": false,
+				"forward_m": "(-0.481523, -0.057148, -0.874568)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 143.093970790302,
+				"fuel_used_kg": 21.9060292097153,
+				"heading_rate_radps": 0.264219155893057,
+				"height_agl_m": 1725.36962890625,
+				"induced_drag_mps2": 1.69488299786607,
+				"kinetic_margin_m": 110.359342680947,
+				"lift_up_m": "(-0.837904, 0.322633, 0.440254)",
+				"load_factor": 2.40364395687635,
+				"load_limit": 3.01513097950569,
+				"path_pitch_rad": -0.0571786796876913,
+				"path_pitch_rate_radps": -0.0257322305615852,
+				"path_turn_rate_radps": 0.265042699484083,
+				"propeller_phase_rad": 2.86427124677115,
+				"requested_load_g": 2.40364395687635,
+				"roll_error_rad": 0.0163577829958046,
+				"roll_velocity_radps": 0.0654311319832183,
+				"safety_state": "normal",
+				"speed_mps": 84.5786061868805,
+				"stall_margin": 1.12019381491792,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1725.44982910156,
+				"terrain_lookahead_s": 7.50970147603537,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.265042699484083,
+				"vertical_speed_mps": -4.8334584236145
+			},
+			"id": "us_air_2",
+			"position_m": [
+				219.594329833984,
+				1725.36962890625,
+				-1627.50817871094
+			],
+			"rotation_rad": [
+				-0.0571786798536777,
+				0.503291130065918,
+				1.24172818660736
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2150.00341796875,
+					"maneuver_phase": "dive_attack",
+					"maneuver_reason": "height_advantage",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "height_advantage",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -121.226715087891,
+						"energy_margin_m": 62.3079971467701,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 302.833984375
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 83.0666666666667,
+			"velocity_mps": [
+				-40.7265434265137,
+				-4.8334584236145,
+				-73.9697723388672
+			]
+		},
+		{
+			"camera_m": [
+				150.13606262207,
+				1730.2431640625,
+				-1654.99560546875
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.00147673314781237,
+				"bank_rad": -1.18854535720373,
+				"body_roll_rate_radps": 0.0123061095651031,
+				"distance_m": 7822.37357807159,
+				"elevator_rad": 0.0637940680622589,
+				"energy_height_m": 2092.54536312816,
+				"exited": false,
+				"forward_m": "(-0.691559, -0.073413, -0.718579)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 142.818970790302,
+				"fuel_used_kg": 22.1810292097152,
+				"heading_rate_radps": 0.262375065746312,
+				"height_agl_m": 1719.70227050781,
+				"induced_drag_mps2": 1.74975096290819,
+				"kinetic_margin_m": 118.62826623868,
+				"lift_up_m": "(-0.68751, 0.372003, 0.623653)",
+				"load_factor": 2.45867619727757,
+				"load_limit": 3.08416342186499,
+				"path_pitch_rad": -0.0734788566364238,
+				"path_pitch_rate_radps": -0.00923993152335323,
+				"path_turn_rate_radps": 0.261830759568969,
+				"propeller_phase_rad": 3.48375041035901,
+				"requested_load_g": 2.45867619727757,
+				"roll_error_rad": 0.00307652739127578,
+				"roll_velocity_radps": 0.0123061095651031,
+				"safety_state": "normal",
+				"speed_mps": 85.5142293919013,
+				"stall_margin": 1.12021038696385,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1719.80676269531,
+				"terrain_lookahead_s": 7.34697153467195,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.261830759568969,
+				"vertical_speed_mps": -6.27783489227295
+			},
+			"id": "us_air_2",
+			"position_m": [
+				169.399169921875,
+				1719.70227050781,
+				-1695.61511230469
+			],
+			"rotation_rad": [
+				-0.0734788551926613,
+				0.76623922586441,
+				1.18854534626007
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2261.66918945312,
+					"maneuver_phase": "dive_attack",
+					"maneuver_reason": "height_advantage",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "height_advantage",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -101.9296875,
+						"energy_margin_m": 70.4081869446345,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 294.332275390625
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 84.0666666666667,
+			"velocity_mps": [
+				-59.1381607055664,
+				-6.27783489227295,
+				-61.4487609863281
+			]
+		},
+		{
+			"camera_m": [
+				85.9032974243164,
+				1723.77124023438,
+				-1711.013671875
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.00135102696339804,
+				"bank_rad": -1.16984395099521,
+				"body_roll_rate_radps": -0.011258558028317,
+				"distance_m": 7908.36967039108,
+				"elevator_rad": 0.0641324153527424,
+				"energy_height_m": 2094.42132267835,
+				"exited": false,
+				"forward_m": "(-0.853872, -0.078585, -0.514516)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 142.543970790302,
+				"fuel_used_kg": 22.4560292097152,
+				"heading_rate_radps": 0.26185140244972,
+				"height_agl_m": 1713.11901855469,
+				"induced_drag_mps2": 1.77851343998101,
+				"kinetic_margin_m": 127.282170067116,
+				"lift_up_m": "(-0.50145, 0.389088, 0.77276)",
+				"load_factor": 2.49968880487463,
+				"load_limit": 3.15659052337559,
+				"path_pitch_rad": -0.0786658004996603,
+				"path_pitch_rate_radps": -0.00245974405135851,
+				"path_turn_rate_radps": 0.261055791502713,
+				"propeller_phase_rad": 4.10322957394687,
+				"requested_load_g": 2.49968880487463,
+				"roll_error_rad": -0.00281463950707924,
+				"roll_velocity_radps": -0.011258558028317,
+				"safety_state": "normal",
+				"speed_mps": 86.4788788171343,
+				"stall_margin": 1.12394979158416,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1713.23229980469,
+				"terrain_lookahead_s": 7.22021471880291,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.261055791502713,
+				"vertical_speed_mps": -6.79591655731201
+			},
+			"id": "us_air_2",
+			"position_m": [
+				102.550636291504,
+				1713.11901855469,
+				-1748.91845703125
+			],
+			"rotation_rad": [
+				-0.0786658003926277,
+				1.0284903049469,
+				1.16984391212463
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2353.62231445312,
+					"maneuver_phase": "dive_attack",
+					"maneuver_reason": "height_advantage",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "height_advantage",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -81.915901184082,
+						"energy_margin_m": 78.8656484839868,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 285.005737304688
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 85.0666666666667,
+			"velocity_mps": [
+				-73.8418884277344,
+				-6.79591655731201,
+				-44.4948081970215
+			]
+		},
+		{
+			"camera_m": [
+				8.51112842559814,
+				1716.91662597656,
+				-1748.88146972656
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.00259837326633011,
+				"bank_rad": -1.16611621919803,
+				"body_roll_rate_radps": -0.0216531105527509,
+				"distance_m": 7995.32522189617,
+				"elevator_rad": 0.0644940431024101,
+				"energy_height_m": 2095.92467035215,
+				"exited": false,
+				"forward_m": "(-0.958007, -0.079401, -0.275532)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 142.268970790302,
+				"fuel_used_kg": 22.7310292097151,
+				"heading_rate_radps": 0.262937442840658,
+				"height_agl_m": 1706.23010253906,
+				"induced_drag_mps2": 1.8083777635665,
+				"kinetic_margin_m": 135.884784344426,
+				"lift_up_m": "(-0.284124, 0.392482, 0.874775)",
+				"load_factor": 2.54136982072705,
+				"load_limit": 3.22874537656847,
+				"path_pitch_rad": -0.0794849706988703,
+				"path_pitch_rate_radps": 0.000376433694477263,
+				"path_turn_rate_radps": 0.262106453260392,
+				"propeller_phase_rad": 4.72270873753474,
+				"requested_load_g": 2.54136982072705,
+				"roll_error_rad": -0.00541327763818772,
+				"roll_velocity_radps": -0.0216531105527509,
+				"safety_state": "normal",
+				"speed_mps": 87.4253765613193,
+				"stall_margin": 1.12735147570953,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1706.34582519531,
+				"terrain_lookahead_s": 7.11474908405481,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.262106453260392,
+				"vertical_speed_mps": -6.94168901443481
+			},
+			"id": "us_air_2",
+			"position_m": [
+				23.3157901763916,
+				1706.23010253906,
+				-1783.45422363281
+			],
+			"rotation_rad": [
+				-0.0794849768280983,
+				1.29074513912201,
+				1.16611611843109
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2425.556640625,
+					"maneuver_phase": "track",
+					"maneuver_reason": "lead_solution",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "align_fixed_guns",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -62.0448913574219,
+						"energy_margin_m": 87.262660552277,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 275.4697265625
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 86.0666666666667,
+			"velocity_mps": [
+				-83.7541351318359,
+				-6.94168901443481,
+				-24.0885047912598
+			]
+		},
+		{
+			"camera_m": [
+				-76.9609298706055,
+				1709.9794921875,
+				-1765.51721191406
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.00311274974661998,
+				"bank_rad": -1.16929323373469,
+				"body_roll_rate_radps": -0.0259395812218332,
+				"distance_m": 8083.20010185242,
+				"elevator_rad": 0.0651344704721432,
+				"energy_height_m": 2096.94022609699,
+				"exited": false,
+				"forward_m": "(-0.996803, -0.078313, -0.015833)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 141.993970790303,
+				"fuel_used_kg": 23.0060292097151,
+				"heading_rate_radps": 0.265454220195687,
+				"height_agl_m": 1699.29272460938,
+				"induced_drag_mps2": 1.84912686690828,
+				"kinetic_margin_m": 144.053876663172,
+				"lift_up_m": "(-0.045219, 0.389602, 0.919873)",
+				"load_factor": 2.58849238436569,
+				"load_limit": 3.29742767995168,
+				"path_pitch_rad": -0.0783929515801917,
+				"path_pitch_rate_radps": 0.00158254339282821,
+				"path_turn_rate_radps": 0.264643372295835,
+				"propeller_phase_rad": 5.3421879011226,
+				"requested_load_g": 2.58849238436569,
+				"roll_error_rad": -0.00648489530545829,
+				"roll_velocity_radps": -0.0259395812218332,
+				"safety_state": "normal",
+				"speed_mps": 88.3129647386327,
+				"stall_margin": 1.12884423369087,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1699.40795898438,
+				"terrain_lookahead_s": 7.03566288997171,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.264643372295835,
+				"vertical_speed_mps": -6.91602516174316
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-63.0760955810547,
+				1699.29272460938,
+				-1796.330078125
+			],
+			"rotation_rad": [
+				-0.0783929452300072,
+				1.55491435527802,
+				1.1692932844162
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2478.10302734375,
+					"maneuver_phase": "track",
+					"maneuver_reason": "lead_solution",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "align_fixed_guns",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -43.3381996154785,
+						"energy_margin_m": 95.2247846913306,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 265.980834960938
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 87.0666666666667,
+			"velocity_mps": [
+				-88.0306396484375,
+				-6.91602516174316,
+				-1.39822149276733
+			]
+		},
+		{
+			"camera_m": [
+				-164.661865234375,
+				1703.09521484375,
+				-1759.11804199219
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.00323641000620917,
+				"bank_rad": -1.17512134812643,
+				"body_roll_rate_radps": -0.0269700833850765,
+				"distance_m": 8171.92520403862,
+				"elevator_rad": 0.0658712402369698,
+				"energy_height_m": 2097.41212655228,
+				"exited": false,
+				"forward_m": "(-0.965799, -0.076453, 0.247766)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 141.718970790303,
+				"fuel_used_kg": 23.2810292097151,
+				"heading_rate_radps": 0.268497920640796,
+				"height_agl_m": 1692.42370605469,
+				"induced_drag_mps2": 1.89335855266956,
+				"kinetic_margin_m": 151.610484968494,
+				"lift_up_m": "(0.200751, 0.384303, 0.901116)",
+				"load_factor": 2.63617085533859,
+				"load_limit": 3.36112674961396,
+				"path_pitch_rad": -0.0765279172019545,
+				"path_pitch_rate_radps": 0.0020443706772455,
+				"path_turn_rate_radps": 0.26772000990659,
+				"propeller_phase_rad": 5.96166706471046,
+				"requested_load_g": 2.63617085533859,
+				"roll_error_rad": -0.00674252084626911,
+				"roll_velocity_radps": -0.0269700833850765,
+				"safety_state": "normal",
+				"speed_mps": 89.1244039965785,
+				"stall_margin": 1.12932355385001,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1692.53723144531,
+				"terrain_lookahead_s": 6.97057747721083,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.26772000990659,
+				"vertical_speed_mps": -6.81384992599487
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-150.663513183594,
+				1692.42370605469,
+				-1785.98425292969
+			],
+			"rotation_rad": [
+				-0.0765279233455658,
+				1.8219211101532,
+				1.17512130737305
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2513.06909179688,
+					"maneuver_phase": "track",
+					"maneuver_reason": "lead_solution",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "align_fixed_guns",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -27.1285228729248,
+						"energy_margin_m": 102.57659409583,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 256.653686523438
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 88.0666666666667,
+			"velocity_mps": [
+				-86.0762252807617,
+				-6.81384992599487,
+				22.0820274353027
+			]
+		},
+		{
+			"camera_m": [
+				-248.279022216797,
+				1696.32348632812,
+				-1729.46606445312
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.0324584366812662,
+				"bank_rad": -1.19792992627934,
+				"body_roll_rate_radps": -0.270486972343885,
+				"distance_m": 8261.42454791069,
+				"elevator_rad": 0.038662961856915,
+				"energy_height_m": 2097.9861553439,
+				"exited": false,
+				"forward_m": "(-0.866989, -0.076405, 0.492435)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 141.443970790303,
+				"fuel_used_kg": 23.556029209715,
+				"heading_rate_radps": 0.201458896445921,
+				"height_agl_m": 1685.66870117188,
+				"induced_drag_mps2": 0.909236724446242,
+				"kinetic_margin_m": 158.992648278521,
+				"lift_up_m": "(0.435741, 0.363222, 0.823529)",
+				"load_factor": 1.97737960703264,
+				"load_limit": 3.42346061562464,
+				"path_pitch_rad": -0.0764791396348506,
+				"path_pitch_rate_radps": -0.0302137597754995,
+				"path_turn_rate_radps": 0.203133998248662,
+				"propeller_phase_rad": 0.297960921118735,
+				"requested_load_g": 0.407339478052785,
+				"roll_error_rad": -0.167679281725215,
+				"roll_velocity_radps": -0.270486972343885,
+				"safety_state": "normal",
+				"speed_mps": 89.9272257100832,
+				"stall_margin": 1.31621624735519,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1685.78283691406,
+				"terrain_lookahead_s": 6.92251757033819,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.203133998248662,
+				"vertical_speed_mps": -6.87085437774658
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-233.095016479492,
+				1685.66870117188,
+				-1752.49340820312
+			],
+			"rotation_rad": [
+				-0.0764791443943977,
+				2.08734107017517,
+				1.19792997837067
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2533.7177734375,
+					"maneuver_phase": "low_yoyo",
+					"maneuver_reason": "target_pulling_away",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "target_pulling_away",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -15.0339012145996,
+						"energy_margin_m": 109.757587394017,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 247.533813476562
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 89.0666666666667,
+			"velocity_mps": [
+				-77.9659271240234,
+				-6.87085437774658,
+				44.2833099365234
+			]
+		},
+		{
+			"camera_m": [
+				-325.561370849609,
+				1686.79614257812,
+				-1682.82312011719
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.00272804762298403,
+				"bank_rad": -1.35585732118546,
+				"body_roll_rate_radps": -0.0227337301915336,
+				"distance_m": 8352.73020756245,
+				"elevator_rad": -0.011034108678076,
+				"energy_height_m": 2114.80277672559,
+				"exited": false,
+				"forward_m": "(-0.815514, -0.160033, 0.556171)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 141.168970790303,
+				"fuel_used_kg": 23.831029209715,
+				"heading_rate_radps": 0.0734641075401044,
+				"height_agl_m": 1675.06274414062,
+				"induced_drag_mps2": 0.0,
+				"kinetic_margin_m": 186.456159043269,
+				"lift_up_m": "(0.522269, 0.210539, 0.826383)",
+				"load_factor": 0.702683148163143,
+				"load_limit": 3.65354605657741,
+				"path_pitch_rad": -0.160723837660582,
+				"path_pitch_rate_radps": -0.0884688806579587,
+				"path_turn_rate_radps": 0.1143971189876,
+				"propeller_phase_rad": 0.917440084706596,
+				"requested_load_g": 0.702683148163143,
+				"roll_error_rad": -0.0056834325478834,
+				"roll_velocity_radps": -0.0227337301915336,
+				"safety_state": "normal",
+				"speed_mps": 92.8695492672308,
+				"stall_margin": 1.91259044717996,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1675.30920410156,
+				"terrain_lookahead_s": 6.86122975789975,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.1143971189876,
+				"vertical_speed_mps": -14.8621711730957
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-309.756988525391,
+				1675.06274414062,
+				-1704.13891601562
+			],
+			"rotation_rad": [
+				-0.160723850131035,
+				2.16933155059814,
+				1.35585725307465
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2546.02905273438,
+					"maneuver_phase": "low_yoyo",
+					"maneuver_reason": "target_pulling_away",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "target_pulling_away",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -9.96610355377197,
+						"energy_margin_m": 136.909471891754,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 234.782348632812
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 90.0666666666667,
+			"velocity_mps": [
+				-75.7364273071289,
+				-14.8621711730957,
+				51.6513671875
+			]
+		},
+		{
+			"camera_m": [
+				-400.535491943359,
+				1669.04455566406,
+				-1628.94897460938
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.00197137847724149,
+				"bank_rad": -1.35722989824245,
+				"body_roll_rate_radps": -0.0164281539770124,
+				"distance_m": 8447.4293320179,
+				"elevator_rad": -0.0100140002828096,
+				"energy_height_m": 2132.16166304453,
+				"exited": false,
+				"forward_m": "(-0.759053, -0.244116, 0.603528)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 140.893970790304,
+				"fuel_used_kg": 24.106029209715,
+				"heading_rate_radps": 0.0724070011503741,
+				"height_agl_m": 1655.84814453125,
+				"induced_drag_mps2": 0.0,
+				"kinetic_margin_m": 223.450303122613,
+				"lift_up_m": "(0.567719, 0.205534, 0.797152)",
+				"load_factor": 0.707790453354262,
+				"load_limit": 3.9654586457726,
+				"path_pitch_rad": -0.246608244482139,
+				"path_pitch_rate_radps": -0.0832446168401996,
+				"path_turn_rate_radps": 0.108908596139316,
+				"propeller_phase_rad": 1.53691924829446,
+				"requested_load_g": 0.707790453354262,
+				"roll_error_rad": -0.00410703849425311,
+				"roll_velocity_radps": -0.0164281539770124,
+				"safety_state": "normal",
+				"speed_mps": 96.6544356595006,
+				"stall_margin": 1.99277188339172,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1656.24011230469,
+				"terrain_lookahead_s": 6.6173037093333,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.108908596139316,
+				"vertical_speed_mps": -23.5949172973633
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-384.348754882812,
+				1655.84814453125,
+				-1649.13488769531
+			],
+			"rotation_rad": [
+				-0.246608257293701,
+				2.24254584312439,
+				1.35722994804382
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2553.79248046875,
+					"maneuver_phase": "low_yoyo",
+					"maneuver_reason": "target_pulling_away",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "target_pulling_away",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -5.65713214874268,
+						"energy_margin_m": 173.337230550066,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 213.51953125
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 91.0666666666667,
+			"velocity_mps": [
+				-73.365852355957,
+				-23.5949172973633,
+				58.333625793457
+			]
+		},
+		{
+			"camera_m": [
+				-472.986511230469,
+				1642.51086425781,
+				-1568.4541015625
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": 0.00256661909598198,
+				"bank_rad": -1.35599004594265,
+				"body_roll_rate_radps": -0.0213884924665165,
+				"distance_m": 8546.2779301405,
+				"elevator_rad": -0.00926997749640436,
+				"energy_height_m": 2149.53431827506,
+				"exited": false,
+				"forward_m": "(-0.697356, -0.321106, 0.64077)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 140.618970790304,
+				"fuel_used_kg": 24.3810292097149,
+				"heading_rate_radps": 0.0704229527950861,
+				"height_agl_m": 1627.82165527344,
+				"induced_drag_mps2": 0.0,
+				"kinetic_margin_m": 269.52682862287,
+				"lift_up_m": "(0.61065, 0.20187, 0.765738)",
+				"load_factor": 0.703766341005366,
+				"load_limit": 4.35699183295022,
+				"path_pitch_rad": -0.326896963684464,
+				"path_pitch_rate_radps": -0.077352243875709,
+				"path_turn_rate_radps": 0.102142183035562,
+				"propeller_phase_rad": 2.15639841188232,
+				"requested_load_g": 0.703766341005366,
+				"roll_error_rad": -0.00534712311662912,
+				"roll_velocity_radps": -0.0213884924665165,
+				"safety_state": "normal",
+				"speed_mps": 101.155854863917,
+				"stall_margin": 2.08900279765415,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1628.36181640625,
+				"terrain_lookahead_s": 6.36514872568978,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.102142183035562,
+				"vertical_speed_mps": -32.4817390441895
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-456.3388671875,
+				1627.82165527344,
+				-1587.53979492188
+			],
+			"rotation_rad": [
+				-0.326896965503693,
+				2.31393218040466,
+				1.35599005222321
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2557.58349609375,
+					"maneuver_phase": "low_yoyo",
+					"maneuver_reason": "target_pulling_away",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "target_pulling_away",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": -2.05184364318848,
+						"energy_margin_m": 218.588005197268,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 183.528564453125
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 92.0666666666667,
+			"velocity_mps": [
+				-70.541618347168,
+				-32.4817390441895,
+				64.8176116943359
+			]
+		},
+		{
+			"camera_m": [
+				-542.230651855469,
+				1607.13488769531,
+				-1501.28210449219
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.0541282882791998,
+				"bank_rad": -1.22092011614716,
+				"body_roll_rate_radps": 0.451069068993332,
+				"distance_m": 8649.94483590126,
+				"elevator_rad": 0.00163466434820796,
+				"energy_height_m": 2166.62323469976,
+				"exited": false,
+				"forward_m": "(-0.619952, -0.384046, 0.684228)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 140.343970790304,
+				"fuel_used_kg": 24.6560292097149,
+				"heading_rate_radps": 0.09938056846992,
+				"height_agl_m": 1590.99780273438,
+				"induced_drag_mps2": 0.0262745637350896,
+				"kinetic_margin_m": 324.387225082717,
+				"lift_up_m": "(0.607769, 0.316495, 0.728318)",
+				"load_factor": 1.05763095259813,
+				"load_limit": 4.8276145870199,
+				"path_pitch_rad": -0.394174780160454,
+				"path_pitch_rate_radps": -0.0518373663653482,
+				"path_turn_rate_radps": 0.105403811112218,
+				"propeller_phase_rad": 2.77587757547018,
+				"requested_load_g": 1.05763095259813,
+				"roll_error_rad": 0.112767267248333,
+				"roll_velocity_radps": 0.451069068993332,
+				"safety_state": "normal",
+				"speed_mps": 106.254008323295,
+				"stall_margin": 2.13827433572407,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1591.67687988281,
+				"terrain_lookahead_s": 6.0020226140002,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.105403811112218,
+				"vertical_speed_mps": -40.806468963623
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-524.888488769531,
+				1590.99780273438,
+				-1519.1240234375
+			],
+			"rotation_rad": [
+				-0.394174814224243,
+				2.40543985366821,
+				1.22092008590698
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2558.09936523438,
+					"maneuver_phase": "low_yoyo",
+					"maneuver_reason": "target_pulling_away",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "target_pulling_away",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": 1.02624082565308,
+						"energy_margin_m": 272.36591801496,
+						"last_exit": "maneuver_timeout",
+						"relative_height_m": 144.808837890625
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 93.0666666666667,
+			"velocity_mps": [
+				-65.8723449707031,
+				-40.806468963623,
+				72.7020034790039
+			]
+		},
+		{
+			"camera_m": [
+				-607.096618652344,
+				1564.26342773438,
+				-1426.27795410156
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.125663706143592,
+				"bank_rad": -0.301153149111576,
+				"body_roll_rate_radps": 1.0471975511966,
+				"distance_m": 8758.93892085552,
+				"elevator_rad": 0.00256322416925316,
+				"energy_height_m": 2184.04863699147,
+				"exited": false,
+				"forward_m": "(-0.570922, -0.413872, 0.709054)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 140.068970790304,
+				"fuel_used_kg": 24.9310292097148,
+				"heading_rate_radps": 0.0314815550651737,
+				"height_agl_m": 1547.08117675781,
+				"induced_drag_mps2": 0.0418317622246268,
+				"kinetic_margin_m": 386.926585860684,
+				"lift_up_m": "(-0.016844, 0.869365, 0.493883)",
+				"load_factor": 1.1,
+				"load_limit": 5.36979809543581,
+				"path_pitch_rad": -0.426703709137193,
+				"path_pitch_rate_radps": 0.0123057504015123,
+				"path_turn_rate_radps": 0.0311886975717998,
+				"propeller_phase_rad": 3.39535673905804,
+				"requested_load_g": 3.26095581972453,
+				"roll_error_rad": 0.393053304224243,
+				"roll_velocity_radps": 1.0471975511966,
+				"safety_state": "normal",
+				"speed_mps": 111.772241132585,
+				"stall_margin": 2.21127306022742,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1547.85205078125,
+				"terrain_lookahead_s": 4.91056067661535,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.0311886975717998,
+				"vertical_speed_mps": -46.2594375610352
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-589.222045898438,
+				1547.08117675781,
+				-1442.91149902344
+			],
+			"rotation_rad": [
+				-0.426703721284866,
+				2.46369624137878,
+				0.301153093576431
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2555.64892578125,
+					"maneuver_phase": "track",
+					"maneuver_reason": "lead_solution",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "align_fixed_guns",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": 4.02285385131836,
+						"energy_margin_m": 333.618223562303,
+						"last_exit": "speed_recovered",
+						"relative_height_m": 99.0245361328125
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 94.0666666666667,
+			"velocity_mps": [
+				-63.8132247924805,
+				-46.2594375610352,
+				79.252571105957
+			]
+		},
+		{
+			"camera_m": [
+				-672.914794921875,
+				1522.72351074219,
+				-1344.38562011719
+			],
+			"distance_m": 42.0,
+			"flight": {
+				"aileron_rad": -0.000181615702523052,
+				"bank_rad": 0.0903043567371316,
+				"body_roll_rate_radps": 0.0015134641876921,
+				"distance_m": 8872.7374894619,
+				"elevator_rad": 0.0460204936730828,
+				"energy_height_m": 2185.79019596033,
+				"exited": false,
+				"forward_m": "(-0.61096, -0.264254, 0.746256)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 139.793970790305,
+				"fuel_used_kg": 25.2060292097148,
+				"heading_rate_radps": -0.0231956803952649,
+				"height_agl_m": 1507.4423828125,
+				"induced_drag_mps2": 1.39316639766618,
+				"kinetic_margin_m": 429.995860013361,
+				"lift_up_m": "(-0.236496, 0.960523, 0.146508)",
+				"load_factor": 2.91372249777716,
+				"load_limit": 5.5,
+				"path_pitch_rad": -0.26743078781129,
+				"path_pitch_rate_radps": 0.164809054377069,
+				"path_turn_rate_radps": 0.16631999191011,
+				"propeller_phase_rad": 4.0148359026459,
+				"requested_load_g": 2.91372249777716,
+				"roll_error_rad": 0.000378366046923026,
+				"roll_velocity_radps": 0.0015134641876921,
+				"safety_state": "normal",
+				"speed_mps": 115.345737518177,
+				"stall_margin": 1.40540504642606,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1507.95288085938,
+				"terrain_lookahead_s": 4.69906014447466,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.16631999191011,
+				"vertical_speed_mps": -30.4806213378906
+			},
+			"id": "us_air_2",
+			"position_m": [
+				-655.901428222656,
+				1507.4423828125,
+				-1359.84814453125
+			],
+			"rotation_rad": [
+				-0.267430782318115,
+				2.45555305480957,
+				-0.0903043523430824
+			],
+			"task": {
+				"aircraft": {
+					"distance_m": 2547.64453125,
+					"maneuver_phase": "track",
+					"maneuver_reason": "lead_solution",
+					"pair_index": 0,
+					"phase": "approach",
+					"reason": "align_fixed_guns",
+					"role": "leader",
+					"section_role": "attack",
+					"spatial_geometry": {
+						"closing_mps": 12.1045169830322,
+						"energy_margin_m": 375.521488839563,
+						"last_exit": "speed_recovered",
+						"relative_height_m": 57.238037109375
+					},
+					"target_id": "jp_air_1"
+				},
+				"order_id": "fleet_ai:us:0007",
+				"order_type": "intercept"
+			},
+			"time_s": 95.0666666666667,
+			"velocity_mps": [
+				-70.4715881347656,
+				-30.4806213378906,
+				86.0774536132812
+			]
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+  "type96_twin_ship_mount": {
+    "label": "Type 96 25 mm twin naval mount",
+    "mount_weight_kg": 1100,
+    "elevation_min_degrees": -10,
+    "elevation_max_degrees": 85,
+    "model_2_train_sweep_degrees": 720,
+    "recoil_equilibrator_count": 2,
+    "equilibrator_length_m": 0.4953,
+    "equilibrator_outer_diameter_m": 0.065024,
+    "variant_status": "mount model unresolved; dimensions other than cited weight and limits are estimates",
+    "source": "USNTMJ O-47(N)-2, pp. 12-14, 43-44, Figs. 1(B)-4(B)"
+  },
+  "japanese_92_model_f_tripod": {
+    "label": "Japanese 92 Model F tripod for Vickers 7.7 mm",
+    "mount_weight_lb": 57.3,
+    "height_min_m": 0.3048,
+    "height_max_m": 0.762,
+    "train_status": "unlimited, free swinging",
+    "elevation_min_degrees": -25,
+    "elevation_max_degrees": 85,
+    "working_circle_diameter_m": 2.00152,
+    "tripod_footprint_radius_estimate_m": 0.48,
+    "geometry_status": "78.8-inch working circle is retained as a reported parameter, not used as leg spread; tripod foot radius and yoke remain proportional estimates",
+    "source": "USNTMJ O-47(N)-2, p. 19"
+  }
+}

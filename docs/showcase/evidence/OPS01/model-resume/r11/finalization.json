@@ -1,0 +1,64 @@
+{
+  "finalized_utc": "2026-11-11T12:55:14.075061+00:00",
+  "audit_sha256": "27e4b89cd1b7a0e2ae40e2f98b94b93521a08dc9d71d5a786a4810c81b4dde84",
+  "audit_outer_report": "validation-runs/20261111T125356-dac17458/report.json",
+  "audit_outer_report_sha256": "4b4001895b5ad91ebc2ee3a947fd8f120a7139e629a3bad8883ae9014607668c",
+  "audit_outer_cleanup_passed": true,
+  "registered_process_groups_checked_including_audit": 103,
+  "live_registered_groups": [],
+  "cleanup_passed": true,
+  "source_count": 476,
+  "checks": {
+    "retained_mechanisms": 89,
+    "accepted_model_and_composition": 31,
+    "failures": 0,
+    "one_cycle_s": 550.316666666667
+  },
+  "movies": {
+    "launch": {
+      "sha256": "56ba574267380dc0755d8b0401bbb139d51dd21828d3cb31533c5b7c60730381",
+      "bytes": 1838241,
+      "width": 960,
+      "height": 640,
+      "r_frame_rate": "15/1",
+      "avg_frame_rate": "15/1",
+      "duration": "22.000000",
+      "nb_frames": "330"
+    },
+    "recovery": {
+      "sha256": "4e01f1fcf3e36a1004b4a643caf28a6cfe5deafe763b2edb585e6bf7266d1548",
+      "bytes": 1688590,
+      "width": 960,
+      "height": 640,
+      "r_frame_rate": "15/1",
+      "avg_frame_rate": "15/1",
+      "duration": "24.000000",
+      "nb_frames": "360"
+    },
+    "waveoff": {
+      "sha256": "fec7b9f0b235394f9a3102779e5c52a98833901291800b556e7480bfea64d0fc",
+      "bytes": 764344,
+      "width": 960,
+      "height": 640,
+      "r_frame_rate": "15/1",
+      "avg_frame_rate": "15/1",
+      "duration": "12.000000",
+      "nb_frames": "180"
+    },
+    "hard_contact": {
+      "sha256": "aafe6fba21445552d8c43cb18a1b0121e8b51f35c721371ea53d8f91b0d4a03f",
+      "bytes": 1178518,
+      "width": 960,
+      "height": 640,
+      "r_frame_rate": "15/1",
+      "avg_frame_rate": "15/1",
+      "duration": "20.000000",
+      "nb_frames": "300"
+    }
+  },
+  "total_recorded_frames": 1170,
+  "total_recorded_seconds": 78.0,
+  "chrome_tabs_created": 0,
+  "http_services_created": 0,
+  "status": "Independent OPS01 actual-model phase ready for coordinating review; no production S14 or Chrome acceptance"
+}

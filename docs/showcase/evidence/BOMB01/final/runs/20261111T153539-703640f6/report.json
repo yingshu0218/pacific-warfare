@@ -1,0 +1,111 @@
+{
+  "run_id": "20261111T153539-703640f6",
+  "owner": "BOMB01",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 4903,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "pid": 4907,
+      "process_group": 4907,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2367,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T153539-703640f6/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+        "--script",
+        "res://tests/bombing/test_transitions.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "pid": 4911,
+      "process_group": 4911,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 3.5066,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T153539-703640f6/01-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+        "--script",
+        "res://tests/test_simulation_commands.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "pid": 4986,
+      "process_group": 4986,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2818,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T153539-703640f6/02-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+        "--script",
+        "res://tests/test_aircraft_motion.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "pid": 4996,
+      "process_group": 4996,
+      "returncode": -15,
+      "timed_out": true,
+      "interrupted": false,
+      "diagnostic_error": true,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 55.0369,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T153539-703640f6/03-output.log",
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "lock_identity": {
+    "status": "held",
+    "owner": "BOMB01",
+    "pid": 4903,
+    "process_identity": "Wed Nov 11 23:35:39 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner BOMB01 --timeout 55 --lock-timeout 55 --project .local/bomb01/r18 test res://tests/bombing/test_transitions.gd res://tests/test_simulation_commands.gd res://tests/test_aircraft_motion.gd res://tests/bombing/test_mechanisms.gd res://tests/bombing/test_tasks.gd res://tests/bombing/test_visual_contract.gd res://tests/bombing/export_integration.gd",
+    "token": "9f421777bcd24eb9b55215f771b034cd",
+    "acquired_utc": "2026-11-11T15:35:39.740422+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 1
+}

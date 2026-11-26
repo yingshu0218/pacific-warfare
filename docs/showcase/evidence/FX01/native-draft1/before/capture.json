@@ -1,0 +1,2628 @@
+{
+	"frames": [
+		{
+			"age_s": 0.4,
+			"case": "water",
+			"draw_calls": 739.0,
+			"effects": {
+				"active": 6,
+				"allocated": 6,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 4,
+				"shown_events": 4,
+				"sound_sources": 0
+			},
+			"file": "water_03.png",
+			"primitives": 562697.0
+		},
+		{
+			"age_s": 1.1,
+			"case": "water",
+			"draw_calls": 739.0,
+			"effects": {
+				"active": 4,
+				"allocated": 6,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 4,
+				"shown_events": 4,
+				"sound_sources": 0
+			},
+			"file": "water_10.png",
+			"primitives": 562697.0
+		},
+		{
+			"age_s": 2.1,
+			"case": "water",
+			"draw_calls": 735.0,
+			"effects": {
+				"active": 0,
+				"allocated": 6,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 4,
+				"shown_events": 4,
+				"sound_sources": 0
+			},
+			"file": "water_20.png",
+			"primitives": 562345.0
+		},
+		{
+			"age_s": 0.4,
+			"case": "flak",
+			"draw_calls": 605.0,
+			"effects": {
+				"active": 6,
+				"allocated": 7,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 5,
+				"shown_events": 5,
+				"sound_sources": 0
+			},
+			"file": "flak_03.png",
+			"primitives": 392585.0
+		},
+		{
+			"age_s": 1.1,
+			"case": "flak",
+			"draw_calls": 607.0,
+			"effects": {
+				"active": 5,
+				"allocated": 8,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 8,
+				"shown_events": 8,
+				"sound_sources": 0
+			},
+			"file": "flak_10.png",
+			"primitives": 392745.0
+		},
+		{
+			"age_s": 2.1,
+			"case": "flak",
+			"draw_calls": 603.0,
+			"effects": {
+				"active": 0,
+				"allocated": 8,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 8,
+				"shown_events": 8,
+				"sound_sources": 0
+			},
+			"file": "flak_20.png",
+			"primitives": 392425.0
+		},
+		{
+			"age_s": 0.4,
+			"case": "tracer",
+			"draw_calls": 560.0,
+			"effects": {
+				"active": 34,
+				"allocated": 36,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 24,
+				"shown_events": 24,
+				"sound_sources": 0
+			},
+			"file": "tracer_03.png",
+			"primitives": 333977.0
+		},
+		{
+			"age_s": 1.1,
+			"case": "tracer",
+			"draw_calls": 560.0,
+			"effects": {
+				"active": 52,
+				"allocated": 54,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 66,
+				"shown_events": 66,
+				"sound_sources": 0
+			},
+			"file": "tracer_10.png",
+			"primitives": 333977.0
+		},
+		{
+			"age_s": 2.1,
+			"case": "tracer",
+			"draw_calls": 560.0,
+			"effects": {
+				"active": 52,
+				"allocated": 54,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 126,
+				"shown_events": 126,
+				"sound_sources": 0
+			},
+			"file": "tracer_20.png",
+			"primitives": 333977.0
+		},
+		{
+			"age_s": 0.4,
+			"case": "smoke",
+			"draw_calls": 917.0,
+			"effects": {
+				"active": 13,
+				"allocated": 54,
+				"dropped": 0,
+				"engine_sources": 1,
+				"last_sequence": 12,
+				"shown_events": 12,
+				"sound_sources": 0
+			},
+			"file": "smoke_03.png",
+			"primitives": 789657.0
+		},
+		{
+			"age_s": 1.1,
+			"case": "smoke",
+			"draw_calls": 918.0,
+			"effects": {
+				"active": 14,
+				"allocated": 54,
+				"dropped": 0,
+				"engine_sources": 1,
+				"last_sequence": 24,
+				"shown_events": 24,
+				"sound_sources": 0
+			},
+			"file": "smoke_10.png",
+			"primitives": 789737.0
+		},
+		{
+			"age_s": 2.1,
+			"case": "smoke",
+			"draw_calls": 912.0,
+			"effects": {
+				"active": 8,
+				"allocated": 54,
+				"dropped": 0,
+				"engine_sources": 1,
+				"last_sequence": 24,
+				"shown_events": 24,
+				"sound_sources": 0
+			},
+			"file": "smoke_20.png",
+			"primitives": 789257.0
+		}
+	],
+	"scope": "Controlled real projectile witness in frozen S10/S13 environment; not natural AI battle",
+	"views": [
+		{
+			"age_s": 1.1,
+			"case": "water",
+			"effects": {
+				"active": 4,
+				"allocated": 6,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 4,
+				"shown_events": 4,
+				"sound_sources": 0
+			},
+			"event_counts": {
+				"fired": 2,
+				"surface_impact": 2
+			},
+			"world_state": {
+				"groups": {},
+				"modules": {
+					"combat_contacts": {
+						"next_scan_s": 1.5,
+						"records": {
+							"us": {}
+						}
+					},
+					"combat_damage": {},
+					"combat_frame": {
+						"start_positions_m": {
+							"shooter": "(500.0, 700.0, 500.0)"
+						}
+					},
+					"combat_projectiles": {
+						"capacity_rejections": 0,
+						"launched": 2,
+						"peak_active": 2,
+						"rounds": {},
+						"terminated": 2
+					},
+					"combat_targeting": {
+						"changed_time_s": {}
+					},
+					"combat_weapons": {
+						"aim_cache": {},
+						"fired_per_weapon": {}
+					},
+					"test_combat_launcher": {},
+					"test_combat_linear_motion": {}
+				},
+				"orders": [],
+				"rng_state": -4175261625077319337,
+				"seed": 505,
+				"shared_state": {
+					"combat_contacts": {
+						"us": {}
+					}
+				},
+				"tick": 66,
+				"time_s": 1.1,
+				"units": {
+					"shooter": {
+						"active": true,
+						"active_order_id": "",
+						"cease_fire": false,
+						"definition_id": "us_f6f5_1944",
+						"faction_id": "us",
+						"id": "shooter",
+						"module_data": {
+							"combat_runtime": {
+								"mount_reasons": {
+									"wing_port_01": "no_contact",
+									"wing_port_02": "no_contact",
+									"wing_port_03": "no_contact",
+									"wing_starboard_01": "no_contact",
+									"wing_starboard_02": "no_contact",
+									"wing_starboard_03": "no_contact"
+								},
+								"mount_status": {
+									"wing_port_01": "no_contact",
+									"wing_port_02": "no_contact",
+									"wing_port_03": "no_contact",
+									"wing_starboard_01": "no_contact",
+									"wing_starboard_02": "no_contact",
+									"wing_starboard_03": "no_contact"
+								},
+								"mount_targets": {
+									"wing_port_01": "",
+									"wing_port_02": "",
+									"wing_port_03": "",
+									"wing_starboard_01": "",
+									"wing_starboard_02": "",
+									"wing_starboard_03": ""
+								}
+							},
+							"damage": {
+								"control_factor": 1.0,
+								"disabled_mounts": [],
+								"fire": 0.0,
+								"flooding": 0.0,
+								"list_rad": 0.0,
+								"parts": {
+									"control": 1.0,
+									"engine": 1.0,
+									"steering": 1.0,
+									"weapon:wing_port_01": 1.0,
+									"weapon:wing_port_02": 1.0,
+									"weapon:wing_port_03": 1.0,
+									"weapon:wing_starboard_01": 1.0,
+									"weapon:wing_starboard_02": 1.0,
+									"weapon:wing_starboard_03": 1.0
+								},
+								"phase": "operational",
+								"phase_time_s": 0.0,
+								"propulsion_factor": 1.0,
+								"structure": 90.0,
+								"structure_max": 90.0
+							}
+						},
+						"position_m": "(500.0, 700.0, 500.0)",
+						"rotation_rad": "(0.0, 0.0, 0.0)",
+						"target_id": "",
+						"task": {},
+						"velocity_mps": "(0.0, 0.0, 0.0)",
+						"weapons": {
+							"wing_port_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_01",
+								"mount_id": "wing_port_01",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_port_02": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_02",
+								"mount_id": "wing_port_02",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_port_03": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_03",
+								"mount_id": "wing_port_03",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_01",
+								"mount_id": "wing_starboard_01",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_02": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_02",
+								"mount_id": "wing_starboard_02",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_03": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_03",
+								"mount_id": "wing_starboard_03",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							}
+						}
+					}
+				}
+			},
+			"world_tick": 66
+		},
+		{
+			"age_s": 1.1,
+			"case": "flak",
+			"effects": {
+				"active": 5,
+				"allocated": 8,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 8,
+				"shown_events": 8,
+				"sound_sources": 0
+			},
+			"event_counts": {
+				"airburst": 4,
+				"fired": 4
+			},
+			"world_state": {
+				"groups": {},
+				"modules": {
+					"combat_contacts": {
+						"next_scan_s": 9.5,
+						"records": {
+							"us": {}
+						}
+					},
+					"combat_damage": {},
+					"combat_frame": {
+						"start_positions_m": {
+							"shooter": "(500.0, 700.0, 500.0)"
+						}
+					},
+					"combat_projectiles": {
+						"capacity_rejections": 0,
+						"launched": 4,
+						"peak_active": 2,
+						"rounds": {},
+						"terminated": 4
+					},
+					"combat_targeting": {
+						"changed_time_s": {}
+					},
+					"combat_weapons": {
+						"aim_cache": {},
+						"fired_per_weapon": {}
+					},
+					"test_combat_launcher": {},
+					"test_combat_linear_motion": {}
+				},
+				"orders": [],
+				"rng_state": -4175261625077319337,
+				"seed": 505,
+				"shared_state": {
+					"combat_contacts": {
+						"us": {}
+					}
+				},
+				"tick": 564,
+				"time_s": 9.4,
+				"units": {
+					"shooter": {
+						"active": true,
+						"active_order_id": "",
+						"cease_fire": false,
+						"definition_id": "us_f6f5_1944",
+						"faction_id": "us",
+						"id": "shooter",
+						"module_data": {
+							"combat_runtime": {
+								"mount_reasons": {
+									"wing_port_01": "no_contact",
+									"wing_port_02": "no_contact",
+									"wing_port_03": "no_contact",
+									"wing_starboard_01": "no_contact",
+									"wing_starboard_02": "no_contact",
+									"wing_starboard_03": "no_contact"
+								},
+								"mount_status": {
+									"wing_port_01": "no_contact",
+									"wing_port_02": "no_contact",
+									"wing_port_03": "no_contact",
+									"wing_starboard_01": "no_contact",
+									"wing_starboard_02": "no_contact",
+									"wing_starboard_03": "no_contact"
+								},
+								"mount_targets": {
+									"wing_port_01": "",
+									"wing_port_02": "",
+									"wing_port_03": "",
+									"wing_starboard_01": "",
+									"wing_starboard_02": "",
+									"wing_starboard_03": ""
+								}
+							},
+							"damage": {
+								"control_factor": 1.0,
+								"disabled_mounts": [],
+								"fire": 0.0,
+								"flooding": 0.0,
+								"list_rad": 0.0,
+								"parts": {
+									"control": 1.0,
+									"engine": 1.0,
+									"steering": 1.0,
+									"weapon:wing_port_01": 1.0,
+									"weapon:wing_port_02": 1.0,
+									"weapon:wing_port_03": 1.0,
+									"weapon:wing_starboard_01": 1.0,
+									"weapon:wing_starboard_02": 1.0,
+									"weapon:wing_starboard_03": 1.0
+								},
+								"phase": "operational",
+								"phase_time_s": 0.0,
+								"propulsion_factor": 1.0,
+								"structure": 90.0,
+								"structure_max": 90.0
+							}
+						},
+						"position_m": "(500.0, 700.0, 500.0)",
+						"rotation_rad": "(0.0, 0.0, 0.0)",
+						"target_id": "",
+						"task": {},
+						"velocity_mps": "(0.0, 0.0, 0.0)",
+						"weapons": {
+							"wing_port_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_01",
+								"mount_id": "wing_port_01",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_port_02": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_02",
+								"mount_id": "wing_port_02",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_port_03": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_03",
+								"mount_id": "wing_port_03",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_01",
+								"mount_id": "wing_starboard_01",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_02": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_02",
+								"mount_id": "wing_starboard_02",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_03": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_03",
+								"mount_id": "wing_starboard_03",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							}
+						}
+					}
+				}
+			},
+			"world_tick": 564
+		},
+		{
+			"age_s": 1.1,
+			"case": "tracer",
+			"effects": {
+				"active": 52,
+				"allocated": 54,
+				"dropped": 0,
+				"engine_sources": 0,
+				"last_sequence": 66,
+				"shown_events": 66,
+				"sound_sources": 0
+			},
+			"event_counts": {
+				"fired": 66
+			},
+			"world_state": {
+				"groups": {},
+				"modules": {
+					"combat_contacts": {
+						"next_scan_s": 1.5,
+						"records": {
+							"jp": {
+								"shooter": {
+									"aim_offset_m": "(0.0, 0.0, 0.0)",
+									"classification": "aircraft",
+									"domain": "aircraft",
+									"entity_id": "shooter",
+									"fresh": true,
+									"observed_tick": 60,
+									"observed_time_s": 1.0,
+									"position_m": "(0.0, 70.0, 80.0)",
+									"sensor": "visual",
+									"uncertainty_m": 0.800000000000001,
+									"valid": true,
+									"velocity_mps": "(0.0, 0.0, 0.0)"
+								}
+							},
+							"us": {
+								"target": {
+									"aim_offset_m": "(0.0, 0.0, 0.0)",
+									"classification": "aircraft",
+									"domain": "aircraft",
+									"entity_id": "target",
+									"fresh": true,
+									"observed_tick": 60,
+									"observed_time_s": 1.0,
+									"position_m": "(0.0, 70.0, -120.0)",
+									"sensor": "visual",
+									"uncertainty_m": 0.800000000000001,
+									"valid": true,
+									"velocity_mps": "(0.0, 0.0, 0.0)"
+								}
+							}
+						}
+					},
+					"combat_damage": {},
+					"combat_frame": {
+						"start_positions_m": {
+							"shooter": "(0.0, 70.0, 80.0)",
+							"target": "(0.0, 70.0, -120.0)"
+						}
+					},
+					"combat_projectiles": {
+						"capacity_rejections": 0,
+						"launched": 66,
+						"peak_active": 66,
+						"rounds": {
+							"projectile_00000001": {
+								"age_s": 1.08333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 1,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000001",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.35, 64.09017, -886.1006)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -10.62387, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000002": {
+								"age_s": 1.08333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 1,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000002",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.73, 64.09017, -886.0632)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -10.62387, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000003": {
+								"age_s": 1.08333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 1,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000003",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-3.11, 64.09017, -886.0262)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -10.62387, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000004": {
+								"age_s": 1.08333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 1,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000004",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.35, 64.09017, -886.1006)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -10.62387, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000005": {
+								"age_s": 1.08333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 1,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000005",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.73, 64.09017, -886.0632)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -10.62387, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000006": {
+								"age_s": 1.08333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 1,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000006",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(3.11, 64.09017, -886.0262)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -10.62387, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000007": {
+								"age_s": 0.983333333333335,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 7,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000007",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.35, 65.10355, -797.1008)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -9.643208, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000008": {
+								"age_s": 0.983333333333335,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 7,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000008",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.73, 65.10355, -797.0633)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -9.643208, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000009": {
+								"age_s": 0.983333333333335,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 7,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000009",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-3.11, 65.10355, -797.0263)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -9.643208, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000010": {
+								"age_s": 0.983333333333335,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 7,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000010",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.35, 65.10355, -797.1008)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -9.643208, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000011": {
+								"age_s": 0.983333333333335,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 7,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000011",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.73, 65.10355, -797.0633)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -9.643208, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000012": {
+								"age_s": 0.983333333333335,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 7,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000012",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(3.11, 65.10355, -797.0263)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -9.643208, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000013": {
+								"age_s": 0.883333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 13,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000013",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.35, 66.01887, -708.1009)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -8.66254, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000014": {
+								"age_s": 0.883333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 13,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000014",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.73, 66.01887, -708.0634)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -8.66254, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000015": {
+								"age_s": 0.883333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 13,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000015",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-3.11, 66.01887, -708.0264)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -8.66254, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000016": {
+								"age_s": 0.883333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 13,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000016",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.35, 66.01887, -708.1009)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -8.66254, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000017": {
+								"age_s": 0.883333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 13,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000017",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.73, 66.01887, -708.0634)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -8.66254, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000018": {
+								"age_s": 0.883333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 13,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000018",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(3.11, 66.01887, -708.0264)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -8.66254, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000019": {
+								"age_s": 0.783333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 19,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000019",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.35, 66.83611, -619.101)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -7.681874, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000020": {
+								"age_s": 0.783333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 19,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000020",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.73, 66.83611, -619.0635)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -7.681874, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000021": {
+								"age_s": 0.783333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 19,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000021",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-3.11, 66.83611, -619.0266)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -7.681874, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000022": {
+								"age_s": 0.783333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 19,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000022",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.35, 66.83611, -619.101)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -7.681874, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000023": {
+								"age_s": 0.783333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 19,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000023",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.73, 66.83611, -619.0635)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -7.681874, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000024": {
+								"age_s": 0.783333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 19,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000024",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(3.11, 66.83611, -619.0266)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -7.681874, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000025": {
+								"age_s": 0.683333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 25,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000025",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.35, 67.55527, -530.1011)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -6.70121, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000026": {
+								"age_s": 0.683333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 25,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000026",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.73, 67.55527, -530.0637)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -6.70121, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000027": {
+								"age_s": 0.683333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 25,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000027",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-3.11, 67.55527, -530.0267)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -6.70121, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000028": {
+								"age_s": 0.683333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 25,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000028",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.35, 67.55527, -530.1011)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -6.70121, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000029": {
+								"age_s": 0.683333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 25,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000029",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.73, 67.55527, -530.0637)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -6.70121, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000030": {
+								"age_s": 0.683333333333334,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 25,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000030",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(3.11, 67.55527, -530.0267)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -6.70121, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000031": {
+								"age_s": 0.583333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 31,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000031",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.35, 68.17639, -441.1011)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -5.720546, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000032": {
+								"age_s": 0.583333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 31,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000032",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.73, 68.17639, -441.0637)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -5.720546, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000033": {
+								"age_s": 0.583333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 31,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000033",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-3.11, 68.17639, -441.0266)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -5.720546, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000034": {
+								"age_s": 0.583333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 31,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000034",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.35, 68.17639, -441.1011)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -5.720546, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000035": {
+								"age_s": 0.583333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 31,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000035",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.73, 68.17639, -441.0637)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -5.720546, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000036": {
+								"age_s": 0.583333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 31,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000036",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(3.11, 68.17639, -441.0266)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -5.720546, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000037": {
+								"age_s": 0.483333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 37,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000037",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.35, 68.69944, -352.101)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -4.739882, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000038": {
+								"age_s": 0.483333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 37,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000038",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.73, 68.69944, -352.0636)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -4.739882, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000039": {
+								"age_s": 0.483333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 37,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000039",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-3.11, 68.69944, -352.0266)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -4.739882, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000040": {
+								"age_s": 0.483333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 37,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000040",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.35, 68.69944, -352.101)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -4.739882, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000041": {
+								"age_s": 0.483333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 37,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000041",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.73, 68.69944, -352.0636)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -4.739882, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000042": {
+								"age_s": 0.483333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 37,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000042",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(3.11, 68.69944, -352.0266)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -4.739882, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000043": {
+								"age_s": 0.383333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 43,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000043",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.35, 69.1244, -263.101)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -3.759217, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000044": {
+								"age_s": 0.383333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 43,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000044",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.73, 69.1244, -263.0635)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -3.759217, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000045": {
+								"age_s": 0.383333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 43,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000045",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-3.11, 69.1244, -263.0265)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -3.759217, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000046": {
+								"age_s": 0.383333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 43,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000046",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.35, 69.1244, -263.101)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -3.759217, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000047": {
+								"age_s": 0.383333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 43,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000047",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.73, 69.1244, -263.0635)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -3.759217, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000048": {
+								"age_s": 0.383333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 43,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000048",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(3.11, 69.1244, -263.0265)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -3.759217, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000049": {
+								"age_s": 0.283333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 49,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000049",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.35, 69.45132, -174.101)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -2.778551, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000050": {
+								"age_s": 0.283333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 49,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000050",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.73, 69.45132, -174.0636)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -2.778551, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000051": {
+								"age_s": 0.283333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 49,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000051",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-3.11, 69.45132, -174.0265)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -2.778551, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000052": {
+								"age_s": 0.283333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 49,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000052",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.35, 69.45132, -174.101)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -2.778551, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000053": {
+								"age_s": 0.283333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 49,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000053",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.73, 69.45132, -174.0636)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -2.778551, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000054": {
+								"age_s": 0.283333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 49,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000054",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(3.11, 69.45132, -174.0265)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -2.778551, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000055": {
+								"age_s": 0.183333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 55,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000055",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.35, 69.68018, -85.10101)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -1.797886, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000056": {
+								"age_s": 0.183333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 55,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000056",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.73, 69.68018, -85.06358)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -1.797886, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000057": {
+								"age_s": 0.183333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 55,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000057",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-3.11, 69.68018, -85.02655)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -1.797886, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000058": {
+								"age_s": 0.183333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 55,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000058",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.35, 69.68018, -85.10101)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -1.797886, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000059": {
+								"age_s": 0.183333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 55,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000059",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.73, 69.68018, -85.06358)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -1.797886, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000060": {
+								"age_s": 0.183333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 55,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000060",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(3.11, 69.68018, -85.02655)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -1.797886, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000061": {
+								"age_s": 0.0833333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 61,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000061",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.35, 69.81094, 3.899006)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -0.817221, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000062": {
+								"age_s": 0.0833333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 61,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000062",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-2.73, 69.81094, 3.936428)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -0.817221, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000063": {
+								"age_s": 0.0833333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 61,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000063",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(-3.11, 69.81094, 3.973461)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -0.817221, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000064": {
+								"age_s": 0.0833333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 61,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000064",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.35, 69.81094, 3.899006)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -0.817221, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000065": {
+								"age_s": 0.0833333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 61,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000065",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(2.73, 69.81094, 3.936428)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -0.817221, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							},
+							"projectile_00000066": {
+								"age_s": 0.0833333333333333,
+								"ammo_id": "us_127mm_m2_ball",
+								"born_tick": 61,
+								"caliber_m": 0.0127,
+								"cleared_self": true,
+								"entity_id": "shooter",
+								"faction_id": "us",
+								"fuze_s": -1.0,
+								"gravity": 9.80665,
+								"id": "projectile_00000066",
+								"lifetime_s": 5.0,
+								"mass_kg": 0.046,
+								"position_m": "(3.11, 69.81094, 3.973461)",
+								"self_destruct": false,
+								"target_id": "",
+								"velocity_mps": "(0.0, -0.817221, -890.0)",
+								"weapon_id": "shooter/wing_port_01"
+							}
+						},
+						"terminated": 0
+					},
+					"combat_targeting": {
+						"changed_time_s": {}
+					},
+					"combat_weapons": {
+						"aim_cache": {},
+						"fired_per_weapon": {}
+					},
+					"test_combat_launcher": {},
+					"test_combat_linear_motion": {}
+				},
+				"orders": [],
+				"rng_state": -4175261625077319337,
+				"seed": 505,
+				"shared_state": {
+					"combat_contacts": {
+						"jp": {
+							"shooter": {
+								"aim_offset_m": "(0.0, 0.0, 0.0)",
+								"classification": "aircraft",
+								"domain": "aircraft",
+								"entity_id": "shooter",
+								"fresh": true,
+								"observed_tick": 60,
+								"observed_time_s": 1.0,
+								"position_m": "(0.0, 70.0, 80.0)",
+								"sensor": "visual",
+								"uncertainty_m": 0.800000000000001,
+								"valid": true,
+								"velocity_mps": "(0.0, 0.0, 0.0)"
+							}
+						},
+						"us": {
+							"target": {
+								"aim_offset_m": "(0.0, 0.0, 0.0)",
+								"classification": "aircraft",
+								"domain": "aircraft",
+								"entity_id": "target",
+								"fresh": true,
+								"observed_tick": 60,
+								"observed_time_s": 1.0,
+								"position_m": "(0.0, 70.0, -120.0)",
+								"sensor": "visual",
+								"uncertainty_m": 0.800000000000001,
+								"valid": true,
+								"velocity_mps": "(0.0, 0.0, 0.0)"
+							}
+						}
+					}
+				},
+				"tick": 66,
+				"time_s": 1.1,
+				"units": {
+					"shooter": {
+						"active": true,
+						"active_order_id": "",
+						"cease_fire": false,
+						"definition_id": "us_f6f5_1944",
+						"faction_id": "us",
+						"id": "shooter",
+						"module_data": {
+							"combat_runtime": {
+								"mount_reasons": {
+									"wing_port_01": "no_contact",
+									"wing_port_02": "no_contact",
+									"wing_port_03": "no_contact",
+									"wing_starboard_01": "no_contact",
+									"wing_starboard_02": "no_contact",
+									"wing_starboard_03": "no_contact"
+								},
+								"mount_status": {
+									"wing_port_01": "no_contact",
+									"wing_port_02": "no_contact",
+									"wing_port_03": "no_contact",
+									"wing_starboard_01": "no_contact",
+									"wing_starboard_02": "no_contact",
+									"wing_starboard_03": "no_contact"
+								},
+								"mount_targets": {
+									"wing_port_01": "",
+									"wing_port_02": "",
+									"wing_port_03": "",
+									"wing_starboard_01": "",
+									"wing_starboard_02": "",
+									"wing_starboard_03": ""
+								}
+							},
+							"damage": {
+								"control_factor": 1.0,
+								"disabled_mounts": [],
+								"fire": 0.0,
+								"flooding": 0.0,
+								"list_rad": 0.0,
+								"parts": {
+									"control": 1.0,
+									"engine": 1.0,
+									"steering": 1.0,
+									"weapon:wing_port_01": 1.0,
+									"weapon:wing_port_02": 1.0,
+									"weapon:wing_port_03": 1.0,
+									"weapon:wing_starboard_01": 1.0,
+									"weapon:wing_starboard_02": 1.0,
+									"weapon:wing_starboard_03": 1.0
+								},
+								"phase": "operational",
+								"phase_time_s": 0.0,
+								"propulsion_factor": 1.0,
+								"structure": 90.0,
+								"structure_max": 90.0
+							}
+						},
+						"position_m": "(0.0, 70.0, 80.0)",
+						"rotation_rad": "(0.0, 0.0, 0.0)",
+						"target_id": "",
+						"task": {},
+						"velocity_mps": "(0.0, 0.0, 0.0)",
+						"weapons": {
+							"wing_port_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_01",
+								"mount_id": "wing_port_01",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_port_02": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_02",
+								"mount_id": "wing_port_02",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_port_03": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_03",
+								"mount_id": "wing_port_03",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_01",
+								"mount_id": "wing_starboard_01",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_02": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_02",
+								"mount_id": "wing_starboard_02",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_03": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_03",
+								"mount_id": "wing_starboard_03",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							}
+						}
+					},
+					"target": {
+						"active": true,
+						"active_order_id": "",
+						"cease_fire": false,
+						"definition_id": "jp_a6m5a_1944",
+						"faction_id": "jp",
+						"id": "target",
+						"module_data": {
+							"combat_runtime": {
+								"mount_reasons": {
+									"cowl_port_01": "no_contact",
+									"cowl_starboard_01": "no_contact",
+									"wing_port_01": "no_contact",
+									"wing_starboard_01": "no_contact"
+								},
+								"mount_status": {
+									"cowl_port_01": "no_contact",
+									"cowl_starboard_01": "no_contact",
+									"wing_port_01": "no_contact",
+									"wing_starboard_01": "no_contact"
+								},
+								"mount_targets": {
+									"cowl_port_01": "",
+									"cowl_starboard_01": "",
+									"wing_port_01": "",
+									"wing_starboard_01": ""
+								}
+							},
+							"damage": {
+								"control_factor": 1.0,
+								"disabled_mounts": [],
+								"fire": 0.0,
+								"flooding": 0.0,
+								"list_rad": 0.0,
+								"parts": {
+									"control": 1.0,
+									"engine": 1.0,
+									"steering": 1.0,
+									"weapon:cowl_port_01": 1.0,
+									"weapon:cowl_starboard_01": 1.0,
+									"weapon:wing_port_01": 1.0,
+									"weapon:wing_starboard_01": 1.0
+								},
+								"phase": "operational",
+								"phase_time_s": 0.0,
+								"propulsion_factor": 1.0,
+								"structure": 65.0,
+								"structure_max": 65.0
+							}
+						},
+						"position_m": "(0.0, 70.0, -120.0)",
+						"rotation_rad": "(0.0, 0.0, 0.0)",
+						"target_id": "",
+						"task": {},
+						"velocity_mps": "(0.0, 0.0, 0.0)",
+						"weapons": {
+							"cowl_port_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "jp_type97_77mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "target/cowl_port_01",
+								"mount_id": "cowl_port_01",
+								"remaining_rounds": [
+									500
+								],
+								"train_rad": 0.0
+							},
+							"cowl_starboard_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "jp_type97_77mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "target/cowl_starboard_01",
+								"mount_id": "cowl_starboard_01",
+								"remaining_rounds": [
+									500
+								],
+								"train_rad": 0.0
+							},
+							"wing_port_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "jp_type99_2_model4_20mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "target/wing_port_01",
+								"mount_id": "wing_port_01",
+								"remaining_rounds": [
+									125
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "jp_type99_2_model4_20mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "target/wing_starboard_01",
+								"mount_id": "wing_starboard_01",
+								"remaining_rounds": [
+									125
+								],
+								"train_rad": 0.0
+							}
+						}
+					}
+				}
+			},
+			"world_tick": 66
+		},
+		{
+			"age_s": 1.1,
+			"case": "smoke",
+			"effects": {
+				"active": 14,
+				"allocated": 54,
+				"dropped": 0,
+				"engine_sources": 1,
+				"last_sequence": 24,
+				"shown_events": 24,
+				"sound_sources": 0
+			},
+			"event_counts": {
+				"damaged": 8,
+				"fired": 8,
+				"hit": 8
+			},
+			"world_state": {
+				"groups": {},
+				"modules": {
+					"combat_contacts": {
+						"next_scan_s": 1.5,
+						"records": {
+							"jp": {
+								"plane": {
+									"aim_offset_m": "(0.0, 0.0, 0.0)",
+									"classification": "aircraft",
+									"domain": "aircraft",
+									"entity_id": "plane",
+									"fresh": true,
+									"observed_tick": 60,
+									"observed_time_s": 1.0,
+									"position_m": "(147.5, 120.0, 0.0)",
+									"sensor": "visual",
+									"uncertainty_m": 0.800000000000001,
+									"valid": true,
+									"velocity_mps": "(150.0, 0.0, 0.0)"
+								}
+							},
+							"us": {
+								"shooter": {
+									"aim_offset_m": "(0.0, 0.0, 0.0)",
+									"classification": "aircraft",
+									"domain": "aircraft",
+									"entity_id": "shooter",
+									"fresh": true,
+									"observed_tick": 60,
+									"observed_time_s": 1.0,
+									"position_m": "(500.0, 700.0, 500.0)",
+									"sensor": "visual",
+									"uncertainty_m": 0.800000000000001,
+									"valid": true,
+									"velocity_mps": "(0.0, 0.0, 0.0)"
+								}
+							}
+						}
+					},
+					"combat_damage": {},
+					"combat_frame": {
+						"start_positions_m": {
+							"plane": "(162.5, 120.0, 0.0)",
+							"shooter": "(500.0, 700.0, 500.0)"
+						}
+					},
+					"combat_projectiles": {
+						"capacity_rejections": 0,
+						"launched": 8,
+						"peak_active": 1,
+						"rounds": {},
+						"terminated": 8
+					},
+					"combat_targeting": {
+						"changed_time_s": {}
+					},
+					"combat_weapons": {
+						"aim_cache": {},
+						"fired_per_weapon": {}
+					},
+					"test_combat_launcher": {},
+					"test_combat_linear_motion": {}
+				},
+				"orders": [],
+				"rng_state": -4175261625077319337,
+				"seed": 505,
+				"shared_state": {
+					"combat_contacts": {
+						"jp": {
+							"plane": {
+								"aim_offset_m": "(0.0, 0.0, 0.0)",
+								"classification": "aircraft",
+								"domain": "aircraft",
+								"entity_id": "plane",
+								"fresh": true,
+								"observed_tick": 60,
+								"observed_time_s": 1.0,
+								"position_m": "(147.5, 120.0, 0.0)",
+								"sensor": "visual",
+								"uncertainty_m": 0.800000000000001,
+								"valid": true,
+								"velocity_mps": "(150.0, 0.0, 0.0)"
+							}
+						},
+						"us": {
+							"shooter": {
+								"aim_offset_m": "(0.0, 0.0, 0.0)",
+								"classification": "aircraft",
+								"domain": "aircraft",
+								"entity_id": "shooter",
+								"fresh": true,
+								"observed_tick": 60,
+								"observed_time_s": 1.0,
+								"position_m": "(500.0, 700.0, 500.0)",
+								"sensor": "visual",
+								"uncertainty_m": 0.800000000000001,
+								"valid": true,
+								"velocity_mps": "(0.0, 0.0, 0.0)"
+							}
+						}
+					}
+				},
+				"tick": 66,
+				"time_s": 1.1,
+				"units": {
+					"plane": {
+						"active": true,
+						"active_order_id": "",
+						"cease_fire": false,
+						"definition_id": "us_f6f5_1944",
+						"faction_id": "us",
+						"id": "plane",
+						"module_data": {
+							"combat_runtime": {
+								"mount_reasons": {
+									"wing_port_01": "no_contact",
+									"wing_port_02": "no_contact",
+									"wing_port_03": "no_contact",
+									"wing_starboard_01": "no_contact",
+									"wing_starboard_02": "no_contact",
+									"wing_starboard_03": "no_contact"
+								},
+								"mount_status": {
+									"wing_port_01": "no_contact",
+									"wing_port_02": "no_contact",
+									"wing_port_03": "no_contact",
+									"wing_starboard_01": "no_contact",
+									"wing_starboard_02": "no_contact",
+									"wing_starboard_03": "no_contact"
+								},
+								"mount_targets": {
+									"wing_port_01": "",
+									"wing_port_02": "",
+									"wing_port_03": "",
+									"wing_starboard_01": "",
+									"wing_starboard_02": "",
+									"wing_starboard_03": ""
+								}
+							},
+							"damage": {
+								"control_factor": 1.0,
+								"disabled_mounts": [],
+								"fire": 0.468785838432849,
+								"flooding": 0.0,
+								"list_rad": 0.0,
+								"parts": {
+									"control": 1.0,
+									"engine": 0.226023173473521,
+									"steering": 1.0,
+									"weapon:wing_port_01": 1.0,
+									"weapon:wing_port_02": 1.0,
+									"weapon:wing_port_03": 1.0,
+									"weapon:wing_starboard_01": 1.0,
+									"weapon:wing_starboard_02": 1.0,
+									"weapon:wing_starboard_03": 1.0
+								},
+								"phase": "operational",
+								"phase_time_s": 0.0,
+								"propulsion_factor": 0.226023173473521,
+								"structure": 46.4445142803347,
+								"structure_max": 90.0
+							}
+						},
+						"position_m": "(165.0, 120.0, 0.0)",
+						"rotation_rad": "(0.0, 0.0, 0.0)",
+						"target_id": "",
+						"task": {},
+						"velocity_mps": "(150.0, 0.0, 0.0)",
+						"weapons": {
+							"wing_port_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "plane/wing_port_01",
+								"mount_id": "wing_port_01",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_port_02": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "plane/wing_port_02",
+								"mount_id": "wing_port_02",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_port_03": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "plane/wing_port_03",
+								"mount_id": "wing_port_03",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "plane/wing_starboard_01",
+								"mount_id": "wing_starboard_01",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_02": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "plane/wing_starboard_02",
+								"mount_id": "wing_starboard_02",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_03": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "plane/wing_starboard_03",
+								"mount_id": "wing_starboard_03",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							}
+						}
+					},
+					"shooter": {
+						"active": true,
+						"active_order_id": "",
+						"cease_fire": false,
+						"definition_id": "us_f6f5_1944",
+						"faction_id": "jp",
+						"id": "shooter",
+						"module_data": {
+							"combat_runtime": {
+								"mount_reasons": {
+									"wing_port_01": "no_contact",
+									"wing_port_02": "no_contact",
+									"wing_port_03": "no_contact",
+									"wing_starboard_01": "no_contact",
+									"wing_starboard_02": "no_contact",
+									"wing_starboard_03": "no_contact"
+								},
+								"mount_status": {
+									"wing_port_01": "no_contact",
+									"wing_port_02": "no_contact",
+									"wing_port_03": "no_contact",
+									"wing_starboard_01": "no_contact",
+									"wing_starboard_02": "no_contact",
+									"wing_starboard_03": "no_contact"
+								},
+								"mount_targets": {
+									"wing_port_01": "",
+									"wing_port_02": "",
+									"wing_port_03": "",
+									"wing_starboard_01": "",
+									"wing_starboard_02": "",
+									"wing_starboard_03": ""
+								}
+							},
+							"damage": {
+								"control_factor": 1.0,
+								"disabled_mounts": [],
+								"fire": 0.0,
+								"flooding": 0.0,
+								"list_rad": 0.0,
+								"parts": {
+									"control": 1.0,
+									"engine": 1.0,
+									"steering": 1.0,
+									"weapon:wing_port_01": 1.0,
+									"weapon:wing_port_02": 1.0,
+									"weapon:wing_port_03": 1.0,
+									"weapon:wing_starboard_01": 1.0,
+									"weapon:wing_starboard_02": 1.0,
+									"weapon:wing_starboard_03": 1.0
+								},
+								"phase": "operational",
+								"phase_time_s": 0.0,
+								"propulsion_factor": 1.0,
+								"structure": 90.0,
+								"structure_max": 90.0
+							}
+						},
+						"position_m": "(500.0, 700.0, 500.0)",
+						"rotation_rad": "(0.0, 0.0, 0.0)",
+						"target_id": "",
+						"task": {},
+						"velocity_mps": "(0.0, 0.0, 0.0)",
+						"weapons": {
+							"wing_port_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_01",
+								"mount_id": "wing_port_01",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_port_02": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_02",
+								"mount_id": "wing_port_02",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_port_03": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_port_03",
+								"mount_id": "wing_port_03",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_01": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_01",
+								"mount_id": "wing_starboard_01",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_02": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_02",
+								"mount_id": "wing_starboard_02",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							},
+							"wing_starboard_03": {
+								"cycle_remaining_s": 0.0,
+								"definition_id": "us_an_m2_127mm_single",
+								"elevation_rad": 0.0,
+								"enabled": true,
+								"id": "shooter/wing_starboard_03",
+								"mount_id": "wing_starboard_03",
+								"remaining_rounds": [
+									400
+								],
+								"train_rad": 0.0
+							}
+						}
+					}
+				}
+			},
+			"world_tick": 66
+		}
+	]
+}

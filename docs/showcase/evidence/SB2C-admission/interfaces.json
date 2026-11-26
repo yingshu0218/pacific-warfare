@@ -1,0 +1,1027 @@
+{
+	"animated_surfaces": [
+		"10 Movable control surface modules/Port aileron",
+		"10 Movable control surface modules/Port elevator",
+		"10 Movable control surface modules/Starboard aileron",
+		"10 Movable control surface modules/Starboard elevator",
+		"10 Movable control surface modules/Movable rudder"
+	],
+	"arrestor_hook_path": "11 Small equipment module/Retractable arrestor hook",
+	"display_load": {
+		"hvar": 8,
+		"internal_500lb": 1,
+		"not_a_verified_sortie_load": true
+	},
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"flight_bounds_m": {
+		"position": [
+			-7.58199977874756,
+			0.390100121498108,
+			-5.55999994277954
+		],
+		"size": [
+			15.1639995574951,
+			4.06990003585815,
+			11.1100006103516
+		]
+	},
+	"landing_gear_path": "06 Landing gear module",
+	"markers": [
+		{
+			"confidence": 0.5,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "fuselage_module",
+			"id": "AIRCRAFT_FLIGHT_REFERENCE",
+			"path": "01 Fuselage module/AIRCRAFT_FLIGHT_REFERENCE",
+			"position_m": [
+				0.0,
+				2.38000011444092,
+				0.0
+			],
+			"source_status": "presentation reference, not measured center of gravity",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.6,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "fuselage_module",
+			"id": "CONTROL_TAILPLANE_ROOT",
+			"path": "01 Fuselage module/CONTROL_TAILPLANE_ROOT",
+			"position_m": [
+				0.0,
+				2.48000001907349,
+				3.48000001907349
+			],
+			"source_status": "tailplane structural attachment; photo-based estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.75,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "fuselage_module",
+			"id": "COCKPIT_PILOT_SEAT",
+			"path": "01 Fuselage module/COCKPIT_PILOT_SEAT",
+			"position_m": [
+				0.0,
+				2.22000002861023,
+				-1.48000001907349
+			],
+			"source_status": "front tandem cockpit station",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.75,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "fuselage_module",
+			"id": "COCKPIT_REAR_SEAT",
+			"path": "01 Fuselage module/COCKPIT_REAR_SEAT",
+			"position_m": [
+				0.0,
+				2.1800000667572,
+				0.759999990463257
+			],
+			"source_status": "rear tandem cockpit station",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "fuselage_module",
+			"id": "BOMB_BAY_CARRIER",
+			"path": "01 Fuselage module/BOMB_BAY_CARRIER",
+			"position_m": [
+				0.0,
+				1.72000002861023,
+				0.5
+			],
+			"source_status": "internal bay carrier; model load is display fit",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.6,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "fuselage_module",
+			"id": "GUN_MOUNT_AFT_FLEXIBLE",
+			"path": "01 Fuselage module/GUN_MOUNT_AFT_FLEXIBLE",
+			"position_m": [
+				0.0,
+				2.91000008583069,
+				1.62000000476837
+			],
+			"source_status": "aft flexible gun ring; photo-based estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "fuselage_module",
+			"id": "GEAR_TAIL_ATTACHMENT",
+			"path": "01 Fuselage module/GEAR_TAIL_ATTACHMENT",
+			"position_m": [
+				0.0,
+				2.04999995231628,
+				3.78000020980835
+			],
+			"source_status": "tail gear root intersects aft belly",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "fuselage_module",
+			"id": "WEAPON_INTERNAL_BOMB_BAY",
+			"path": "01 Fuselage module/WEAPON_INTERNAL_BOMB_BAY",
+			"position_m": [
+				0.0,
+				2.15000009536743,
+				0.589999973773956
+			],
+			"source_status": "internal displacement gear / bomb carrier",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "fuselage_module",
+			"id": "STORE_RELEASE_INTERNAL_BOMB",
+			"path": "01 Fuselage module/STORE_RELEASE_INTERNAL_BOMB",
+			"position_m": [
+				0.0,
+				1.92999994754791,
+				0.589999973773956
+			],
+			"source_status": "displayed store center; release motion owned by future bombing system",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.6,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "GEAR_MAIN_PORT",
+			"path": "02 Main wing module/GEAR_MAIN_PORT",
+			"position_m": [
+				-1.91999995708466,
+				2.0,
+				-0.839999973773956
+			],
+			"source_status": "main gear trunnion; photo-based estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.6,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "GEAR_MAIN_STARBOARD",
+			"path": "02 Main wing module/GEAR_MAIN_STARBOARD",
+			"position_m": [
+				1.91999995708466,
+				2.0,
+				-0.839999973773956
+			],
+			"source_status": "main gear trunnion; photo-based estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "CONTROL_AILERON_HINGE_PORT",
+			"path": "02 Main wing module/CONTROL_AILERON_HINGE_PORT",
+			"position_m": [
+				-5.09999990463257,
+				2.51479697227478,
+				0.517587065696716
+			],
+			"source_status": "aileron hinge; photo-based estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "CONTROL_AILERON_HINGE_STARBOARD",
+			"path": "02 Main wing module/CONTROL_AILERON_HINGE_STARBOARD",
+			"position_m": [
+				5.09999990463257,
+				2.51479697227478,
+				0.517587065696716
+			],
+			"source_status": "aileron hinge; photo-based estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.65,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "WEAPON_CANNON_ANM2_PORT",
+			"path": "02 Main wing module/WEAPON_CANNON_ANM2_PORT",
+			"position_m": [
+				-4.42999982833862,
+				2.47471141815186,
+				-1.34126162528992
+			],
+			"source_status": "fixed wing cannon; location estimated from SB2C-3/-4 views",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.65,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "WEAPON_CANNON_ANM2_STARBOARD",
+			"path": "02 Main wing module/WEAPON_CANNON_ANM2_STARBOARD",
+			"position_m": [
+				4.42999982833862,
+				2.47471141815186,
+				-1.34126162528992
+			],
+			"source_status": "fixed wing cannon; location estimated from SB2C-3/-4 views",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "HVAR_PORT_01",
+			"path": "02 Main wing module/HVAR_PORT_01",
+			"position_m": [
+				-2.42000007629395,
+				2.04530167579651,
+				0.197590351104736
+			],
+			"source_status": "5 in HVAR launcher shoe; station estimated from model / store views",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "HVAR_PORT_02",
+			"path": "02 Main wing module/HVAR_PORT_02",
+			"position_m": [
+				-3.25,
+				2.10041213035583,
+				0.375607967376709
+			],
+			"source_status": "5 in HVAR launcher shoe; station estimated from model / store views",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "HVAR_PORT_03",
+			"path": "02 Main wing module/HVAR_PORT_03",
+			"position_m": [
+				-5.30000019073486,
+				2.31517100334167,
+				0.0799833983182907
+			],
+			"source_status": "5 in HVAR launcher shoe; station estimated from model / store views",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "HVAR_PORT_04",
+			"path": "02 Main wing module/HVAR_PORT_04",
+			"position_m": [
+				-6.32999992370605,
+				2.44388914108276,
+				0.223779961466789
+			],
+			"source_status": "5 in HVAR launcher shoe; station estimated from model / store views",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "HVAR_STARBOARD_01",
+			"path": "02 Main wing module/HVAR_STARBOARD_01",
+			"position_m": [
+				2.42000007629395,
+				2.04530167579651,
+				0.197590351104736
+			],
+			"source_status": "5 in HVAR launcher shoe; station estimated from model / store views",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "HVAR_STARBOARD_02",
+			"path": "02 Main wing module/HVAR_STARBOARD_02",
+			"position_m": [
+				3.25,
+				2.10041213035583,
+				0.375607967376709
+			],
+			"source_status": "5 in HVAR launcher shoe; station estimated from model / store views",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "HVAR_STARBOARD_03",
+			"path": "02 Main wing module/HVAR_STARBOARD_03",
+			"position_m": [
+				5.30000019073486,
+				2.31517100334167,
+				0.0799833983182907
+			],
+			"source_status": "5 in HVAR launcher shoe; station estimated from model / store views",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "HVAR_STARBOARD_04",
+			"path": "02 Main wing module/HVAR_STARBOARD_04",
+			"position_m": [
+				6.32999992370605,
+				2.44388914108276,
+				0.223779961466789
+			],
+			"source_status": "5 in HVAR launcher shoe; station estimated from model / store views",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.5,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "empennage_module",
+			"id": "CONTROL_ELEVATOR_HINGE_PORT",
+			"path": "03 Empennage module/CONTROL_ELEVATOR_HINGE_PORT",
+			"position_m": [
+				-0.219999998807907,
+				2.48137927055359,
+				4.68206882476807
+			],
+			"source_status": "elevator hinge; photo-based estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.5,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "empennage_module",
+			"id": "CONTROL_ELEVATOR_HINGE_STARBOARD",
+			"path": "03 Empennage module/CONTROL_ELEVATOR_HINGE_STARBOARD",
+			"position_m": [
+				0.219999998807907,
+				2.48137927055359,
+				4.68206882476807
+			],
+			"source_status": "elevator hinge; photo-based estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.5,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "fuselage_module",
+			"id": "CONTROL_RUDDER_HINGE",
+			"path": "03 Empennage module/CONTROL_RUDDER_HINGE",
+			"position_m": [
+				0.0,
+				2.5,
+				5.23000001907349
+			],
+			"source_status": "rudder hinge; photo-based estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "landing_gear_module",
+			"id": "GEAR_WHEEL_PORT",
+			"path": "06 Landing gear module/GEAR_WHEEL_PORT",
+			"position_m": [
+				-2.09999990463257,
+				1.0,
+				-0.579999983310699
+			],
+			"source_status": "deployed wheel center; photo-based estimate",
+			"wheel_radius_m": 0.44
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "landing_gear_module",
+			"id": "GEAR_WHEEL_STARBOARD",
+			"path": "06 Landing gear module/GEAR_WHEEL_STARBOARD",
+			"position_m": [
+				2.09999990463257,
+				1.0,
+				-0.579999983310699
+			],
+			"source_status": "deployed wheel center; photo-based estimate",
+			"wheel_radius_m": 0.44
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "landing_gear_module",
+			"id": "GEAR_WHEEL_TAIL",
+			"path": "06 Landing gear module/GEAR_WHEEL_TAIL",
+			"position_m": [
+				0.0,
+				1.39999997615814,
+				3.90000009536743
+			],
+			"source_status": "deployed wheel center; short support under aft shell",
+			"wheel_radius_m": 0.15
+		},
+		{
+			"confidence": 0.7,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "DIVE_BRAKE_HINGE_PORT_UPPER",
+			"path": "07 Split dive brake modules/DIVE_BRAKE_HINGE_PORT_UPPER",
+			"position_m": [
+				-1.17999994754791,
+				2.40564370155334,
+				0.705238342285156
+			],
+			"source_status": "upper split flap hinge; photo estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.7,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "DIVE_BRAKE_HINGE_PORT_LOWER",
+			"path": "07 Split dive brake modules/DIVE_BRAKE_HINGE_PORT_LOWER",
+			"position_m": [
+				-1.17999994754791,
+				2.05079174041748,
+				0.705238342285156
+			],
+			"source_status": "lower split flap hinge; photo estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.7,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "DIVE_BRAKE_HINGE_STARBOARD_UPPER",
+			"path": "07 Split dive brake modules/DIVE_BRAKE_HINGE_STARBOARD_UPPER",
+			"position_m": [
+				1.17999994754791,
+				2.40564370155334,
+				0.705238342285156
+			],
+			"source_status": "upper split flap hinge; photo estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.7,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "DIVE_BRAKE_HINGE_STARBOARD_LOWER",
+			"path": "07 Split dive brake modules/DIVE_BRAKE_HINGE_STARBOARD_LOWER",
+			"position_m": [
+				1.17999994754791,
+				2.05079174041748,
+				0.705238342285156
+			],
+			"source_status": "lower split flap hinge; photo estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.6,
+			"forward": [
+				0.0000000874227765734759,
+				0.406736642122269,
+				0.913545429706573
+			],
+			"host": "armament_module",
+			"id": "MUZZLE_AFT_M1919_PORT",
+			"path": "08 Fixed and flexible armament module/Twin _30 in flexible gun ring mount/M1919 flexible gun port/MUZZLE_AFT_M1919_PORT",
+			"position_m": [
+				-0.115000002086163,
+				3.43603563308716,
+				2.61263155937195
+			],
+			"source_status": "presentation muzzle; aft/up displayed pose, no fire-control logic",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.6,
+			"forward": [
+				0.0000000874227765734759,
+				0.406736642122269,
+				0.913545429706573
+			],
+			"host": "armament_module",
+			"id": "MUZZLE_AFT_M1919_STARBOARD",
+			"path": "08 Fixed and flexible armament module/Twin _30 in flexible gun ring mount/M1919 flexible gun starboard/MUZZLE_AFT_M1919_STARBOARD",
+			"position_m": [
+				0.115000002086163,
+				3.43603563308716,
+				2.61263155937195
+			],
+			"source_status": "presentation muzzle; aft/up displayed pose, no fire-control logic",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.65,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "MUZZLE_CANNON_ANM2_PORT",
+			"path": "08 Fixed and flexible armament module/20 mm AN_M2 wing cannon port/MUZZLE_CANNON_ANM2_PORT",
+			"position_m": [
+				-4.42999982833862,
+				2.4867115020752,
+				-1.96126163005829
+			],
+			"source_status": "presentation muzzle; fixed forward cannon",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.65,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "wing_module",
+			"id": "MUZZLE_CANNON_ANM2_STARBOARD",
+			"path": "08 Fixed and flexible armament module/20 mm AN_M2 wing cannon starboard/MUZZLE_CANNON_ANM2_STARBOARD",
+			"position_m": [
+				4.42999982833862,
+				2.4867115020752,
+				-1.96126163005829
+			],
+			"source_status": "presentation muzzle; fixed forward cannon",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host": "fuselage_module",
+			"id": "ARRESTOR_HOOK_PIVOT",
+			"path": "11 Small equipment module/ARRESTOR_HOOK_PIVOT",
+			"position_m": [
+				0.0,
+				1.72000002861023,
+				2.51999998092651
+			],
+			"source_status": "simplified hook root; photo-based estimate",
+			"wheel_radius_m": 0.0
+		},
+		{
+			"confidence": 0.55,
+			"forward": [
+				0.0000000874227765734759,
+				0.0,
+				1.0
+			],
+			"host": "fuselage_module",
+			"id": "ARRESTOR_HOOK_TIP_DEPLOYED",
+			"path": "11 Small equipment module/ARRESTOR_HOOK_TIP_DEPLOYED",
+			"position_m": [
+				0.0,
+				1.41999995708466,
+				4.71999979019165
+			],
+			"source_status": "displayed deployed hook tip, not cable dynamics",
+			"wheel_radius_m": 0.0
+		}
+	],
+	"model_source_sha256": "6da0e7cfbb45027217bc5eda90551c3b75cacaf1151eaf8b60c30d97be18cb61",
+	"modules": [
+		{
+			"id": "fuselage_module",
+			"path": "01 Fuselage module"
+		},
+		{
+			"id": "wing_module",
+			"path": "02 Main wing module"
+		},
+		{
+			"id": "empennage_module",
+			"path": "03 Empennage module"
+		},
+		{
+			"id": "cockpit_module",
+			"path": "04 Cockpit and glazing module"
+		},
+		{
+			"id": "powerplant_module",
+			"path": "05 Engine and propeller module"
+		},
+		{
+			"id": "landing_gear_module",
+			"path": "06 Landing gear module"
+		},
+		{
+			"id": "dive_brake_module",
+			"path": "07 Split dive brake modules"
+		},
+		{
+			"id": "armament_module",
+			"path": "08 Fixed and flexible armament module"
+		},
+		{
+			"id": "external_stores_module",
+			"path": "09 External stores modules"
+		},
+		{
+			"id": "control_surfaces_module",
+			"path": "10 Movable control surface modules"
+		},
+		{
+			"id": "small_equipment_module",
+			"path": "11 Small equipment module"
+		}
+	],
+	"nominal_dimensions_m": {
+		"height_estimate": 4.496,
+		"length": 11.049,
+		"span": 15.164
+	},
+	"origin": {
+		"axes": "+X right, +Y up, -Z forward",
+		"flight_reference_m": [
+			0,
+			2.38,
+			0
+		],
+		"s14_translation_m": [
+			0,
+			-2.38,
+			0
+		],
+		"scale": [
+			1,
+			1,
+			1
+		],
+		"source_m": [
+			0,
+			0,
+			0
+		]
+	},
+	"parked_transform": {
+		"pitch_rad": 0.153569981455803,
+		"position_m": [
+			0.0,
+			-0.636952221393585,
+			0.0
+		],
+		"wheel_contacts": [
+			{
+				"contact_error_m": -0.00000000238418579323607,
+				"id": "GEAR_WHEEL_PORT",
+				"parked_center_m": [
+					-2.09999990463257,
+					0.439999997615814,
+					-0.420207053422928
+				],
+				"radius_m": 0.44
+			},
+			{
+				"contact_error_m": -0.00000000238418579323607,
+				"id": "GEAR_WHEEL_STARBOARD",
+				"parked_center_m": [
+					2.09999990463257,
+					0.439999997615814,
+					-0.420207053422928
+				],
+				"radius_m": 0.44
+			},
+			{
+				"contact_error_m": 0.0000000357627868707855,
+				"id": "GEAR_WHEEL_TAIL",
+				"parked_center_m": [
+					0.0,
+					0.150000035762787,
+					4.06825590133667
+				],
+				"radius_m": 0.15
+			}
+		]
+	},
+	"propeller_path": "05 Engine and propeller module/Propeller",
+	"renderer": "gl_compatibility",
+	"s14_adapter_sha256": "959aa7c3039be1fc34cbb2caa4c086fe2b0981857a7b9b911b19de90789d32b9",
+	"s14_existing_adapter_smoke": true,
+	"shared_builder_sha256": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+	"state_isolation": true,
+	"status": "checks_passed_pending_coordinator_visual_acceptance",
+	"store_noses": [
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"path": "08 Fixed and flexible armament module/Bomb bay shown open/One 500 lb general purpose bomb/Bomb nose",
+			"root_m": [
+				0.0,
+				1.92999994754791,
+				0.0999999940395355
+			],
+			"tip_m": [
+				0.0,
+				1.92999994754791,
+				-0.200000017881393
+			]
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"path": "09 External stores modules/5 in HVAR rocket port 01/HVAR warhead nose",
+			"root_m": [
+				-2.42000007629395,
+				1.85530161857605,
+				-0.192409634590149
+			],
+			"tip_m": [
+				-2.42000007629395,
+				1.85530161857605,
+				-0.452409625053406
+			]
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"path": "09 External stores modules/5 in HVAR rocket port 02/HVAR warhead nose",
+			"root_m": [
+				-3.25,
+				1.91041207313538,
+				-0.0143920183181763
+			],
+			"tip_m": [
+				-3.25,
+				1.91041207313538,
+				-0.274392008781433
+			]
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"path": "09 External stores modules/5 in HVAR rocket port 03/HVAR warhead nose",
+			"root_m": [
+				-5.30000019073486,
+				2.12517094612122,
+				-0.310016572475433
+			],
+			"tip_m": [
+				-5.30000019073486,
+				2.12517094612122,
+				-0.57001656293869
+			]
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"path": "09 External stores modules/5 in HVAR rocket port 04/HVAR warhead nose",
+			"root_m": [
+				-6.32999992370605,
+				2.2538890838623,
+				-0.166220009326935
+			],
+			"tip_m": [
+				-6.32999992370605,
+				2.2538890838623,
+				-0.426219999790192
+			]
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"path": "09 External stores modules/5 in HVAR rocket starboard 01/HVAR warhead nose",
+			"root_m": [
+				2.42000007629395,
+				1.85530161857605,
+				-0.192409634590149
+			],
+			"tip_m": [
+				2.42000007629395,
+				1.85530161857605,
+				-0.452409625053406
+			]
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"path": "09 External stores modules/5 in HVAR rocket starboard 02/HVAR warhead nose",
+			"root_m": [
+				3.25,
+				1.91041207313538,
+				-0.0143920183181763
+			],
+			"tip_m": [
+				3.25,
+				1.91041207313538,
+				-0.274392008781433
+			]
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"path": "09 External stores modules/5 in HVAR rocket starboard 03/HVAR warhead nose",
+			"root_m": [
+				5.30000019073486,
+				2.12517094612122,
+				-0.310016572475433
+			],
+			"tip_m": [
+				5.30000019073486,
+				2.12517094612122,
+				-0.57001656293869
+			]
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"path": "09 External stores modules/5 in HVAR rocket starboard 04/HVAR warhead nose",
+			"root_m": [
+				6.32999992370605,
+				2.2538890838623,
+				-0.166220009326935
+			],
+			"tip_m": [
+				6.32999992370605,
+				2.2538890838623,
+				-0.426219999790192
+			]
+		}
+	],
+	"unimplemented": [
+		"carrier takeoff/landing logic",
+		"bomb release/fire control/ammunition",
+		"aft gun traverse/fire control",
+		"continuous gear/hook/brake animation",
+		"SB2C pre-cut damage modules"
+	]
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-11",
+  "git": "No .git; git status failed with not a repository",
+  "new_scope": [
+    "aircraft/d4y2",
+    "tests/av02",
+    "tools/av02",
+    "docs/references/aircraft/d4y2_1944",
+    "docs/showcase/deliveries/AV02.md"
+  ],
+  "shared_files_edited": false,
+  "existing_inputs": {
+    "tools/verify.py": "599949a47abcff74f45f1909b6e8571b2c2050539a28dd0bce6d43b8b8c28f7d",
+    "docs/carrier-deck-contracts.md": "68cec6ef49f5624ac16f38e2313848d83343329e56dda5ff66d58b918f6ea761",
+    "aircraft/scripts/aircraft_builder.gd": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+    "naval/shokaku_1941_08_23/shokaku.gd": "bb037e5a6a9afad14cb1dfab41fcbb882d6b1f7aaa6b625890fe7767a7c53361",
+    "naval/shokaku_1941_08_23/data/deck.json": "5e02881d24f0700e8710128aee65875fdcc0301714c0d5aedde0a087ffb00cd3",
+    "project.godot": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95"
+  },
+  "reference_files_downloaded_before_model": true
+}

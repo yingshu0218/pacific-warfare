@@ -1,0 +1,332 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="../../scripts/iowa_weapon_mount.gd" id="1_dgb2t"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vfhka"]
+cull_mode = 2
+albedo_color = Color(0.627451, 0.6509804, 0.654902, 1)
+metallic = 0.12
+roughness = 0.68
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_j01va"]
+rings = 0
+top_radius = 0.32
+bottom_radius = 0.32
+height = 0.68
+radial_segments = 16
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e7ph5"]
+cull_mode = 2
+albedo_color = Color(0.33333334, 0.37254903, 0.39607844, 1)
+roughness = 0.78
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_nol17"]
+rings = 0
+top_radius = 1.05
+bottom_radius = 1.05
+height = 0.2
+radial_segments = 20
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dpp52"]
+cull_mode = 2
+albedo_color = Color(0.4392157, 0.47843137, 0.49803922, 1)
+roughness = 0.78
+
+[sub_resource type="BoxMesh" id="BoxMesh_bm5mi"]
+size = Vector3(2.05, 1.18, 0.16)
+
+[sub_resource type="BoxMesh" id="BoxMesh_7dpa6"]
+size = Vector3(0.16, 1, 1.38)
+
+[sub_resource type="BoxMesh" id="BoxMesh_8whbs"]
+size = Vector3(0.16, 1, 1.38)
+
+[sub_resource type="BoxMesh" id="BoxMesh_p6bkh"]
+size = Vector3(0.36, 0.35, 1.16)
+
+[sub_resource type="BoxMesh" id="BoxMesh_yn2ha"]
+size = Vector3(0.36, 0.35, 1.16)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r3bx4"]
+cull_mode = 2
+albedo_color = Color(0.25490198, 0.2901961, 0.3137255, 1)
+metallic = 0.18
+roughness = 0.68
+
+[sub_resource type="BoxMesh" id="BoxMesh_3vls4"]
+size = Vector3(0.62, 0.52, 0.68)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q5nhs"]
+cull_mode = 2
+albedo_color = Color(0.27450982, 0.3137255, 0.3372549, 1)
+roughness = 0.86
+
+[sub_resource type="BoxMesh" id="BoxMesh_q3ybf"]
+size = Vector3(0.72, 0.18, 0.48)
+
+[sub_resource type="BoxMesh" id="BoxMesh_3ney5"]
+size = Vector3(0.58, 0.28, 0.42)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sjk2q"]
+cull_mode = 2
+albedo_color = Color(0.1254902, 0.1764706, 0.20392157, 1)
+metallic = 0.16
+roughness = 0.32
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_dhts4"]
+rings = 0
+top_radius = 0.09
+bottom_radius = 0.09
+height = 0.08
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_4bpxf"]
+rings = 0
+top_radius = 0.035
+bottom_radius = 0.035
+height = 0.82000005
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_tcysm"]
+rings = 0
+top_radius = 0.035
+bottom_radius = 0.035
+height = 0.82000005
+radial_segments = 8
+
+[sub_resource type="BoxMesh" id="BoxMesh_hb6nu"]
+size = Vector3(0.28, 0.38, 0.84)
+
+[sub_resource type="BoxMesh" id="BoxMesh_jtg0y"]
+size = Vector3(0.38, 0.34, 0.42)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ee6mg"]
+rings = 0
+top_radius = 0.041
+bottom_radius = 0.041
+height = 2.1699998
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_knuio"]
+rings = 0
+top_radius = 0.054
+bottom_radius = 0.054
+height = 0.15999985
+radial_segments = 12
+
+[sub_resource type="BoxMesh" id="BoxMesh_cf7w1"]
+size = Vector3(0.28, 0.38, 0.84)
+
+[sub_resource type="BoxMesh" id="BoxMesh_lte6m"]
+size = Vector3(0.38, 0.34, 0.42)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_nmy2p"]
+rings = 0
+top_radius = 0.041
+bottom_radius = 0.041
+height = 2.1699998
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_b2atw"]
+rings = 0
+top_radius = 0.054
+bottom_radius = 0.054
+height = 0.15999985
+radial_segments = 12
+
+[sub_resource type="BoxMesh" id="BoxMesh_plu56"]
+size = Vector3(0.28, 0.38, 0.84)
+
+[sub_resource type="BoxMesh" id="BoxMesh_5ofyg"]
+size = Vector3(0.38, 0.34, 0.42)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_5gggv"]
+rings = 0
+top_radius = 0.041
+bottom_radius = 0.041
+height = 2.1699998
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_imrl0"]
+rings = 0
+top_radius = 0.054
+bottom_radius = 0.054
+height = 0.15999985
+radial_segments = 12
+
+[sub_resource type="BoxMesh" id="BoxMesh_xhkda"]
+size = Vector3(0.28, 0.38, 0.84)
+
+[sub_resource type="BoxMesh" id="BoxMesh_hqsjl"]
+size = Vector3(0.38, 0.34, 0.42)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_kmcva"]
+rings = 0
+top_radius = 0.041
+bottom_radius = 0.041
+height = 2.1699998
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_b1ol8"]
+rings = 0
+top_radius = 0.054
+bottom_radius = 0.054
+height = 0.15999985
+radial_segments = 12
+
+[node name="WeaponInstance" type="Node3D" unique_id=1229065919]
+script = ExtResource("1_dgb2t")
+
+[node name="TrainPivot" type="Node3D" parent="." unique_id=1523677263]
+
+[node name="HousingAndControls" type="Node3D" parent="TrainPivot" unique_id=1031342983]
+
+[node name="TurntablePedestal" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=1969423041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.34, 0)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_j01va")
+
+[node name="CrewPlatform" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=1350080351]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.64, 0)
+material_override = SubResource("StandardMaterial3D_e7ph5")
+mesh = SubResource("CylinderMesh_nol17")
+
+[node name="Shield_Front" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=936108471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.34, -0.78)
+material_override = SubResource("StandardMaterial3D_dpp52")
+mesh = SubResource("BoxMesh_bm5mi")
+
+[node name="Shield_PortCheek" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=1625429202]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 1.25, -0.05)
+material_override = SubResource("StandardMaterial3D_dpp52")
+mesh = SubResource("BoxMesh_7dpa6")
+
+[node name="Shield_StarboardCheek" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=2100008726]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1.25, -0.05)
+material_override = SubResource("StandardMaterial3D_dpp52")
+mesh = SubResource("BoxMesh_8whbs")
+
+[node name="AmmunitionTray_Port" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=1195331085]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.78, 1.62, 0.28)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("BoxMesh_p6bkh")
+
+[node name="AmmunitionTray_Starboard" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=1537495514]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.78, 1.62, 0.28)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("BoxMesh_yn2ha")
+
+[node name="SightAndControlBody" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=16603506]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.84, 0.15)
+material_override = SubResource("StandardMaterial3D_r3bx4")
+mesh = SubResource("BoxMesh_3vls4")
+
+[node name="GunnerSeat" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=169508516]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0.92)
+material_override = SubResource("StandardMaterial3D_q5nhs")
+mesh = SubResource("BoxMesh_q3ybf")
+
+[node name="DirectorSight" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=641567494]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.02, 0.76)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("BoxMesh_3ney5")
+
+[node name="SightLens" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=1463330889]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.03, 0.96)
+material_override = SubResource("StandardMaterial3D_sjk2q")
+mesh = SubResource("CylinderMesh_dhts4")
+
+[node name="HandwheelSupport_Port" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=1081079287]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, -0.88, 1.31, 0.7)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_4bpxf")
+
+[node name="HandwheelSupport_Starboard" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=1390781259]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 0.88, 1.31, 0.7)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_tcysm")
+
+[node name="ElevationPivot" type="Node3D" parent="TrainPivot" unique_id=108171081]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.42, -0.18)
+
+[node name="GunsAndCradle" type="Node3D" parent="TrainPivot/ElevationPivot" unique_id=1933691435]
+
+[node name="Bofors_Receiver_-0_63" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1553007648]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.63, 0.18, 0.2)
+material_override = SubResource("StandardMaterial3D_r3bx4")
+mesh = SubResource("BoxMesh_hb6nu")
+
+[node name="Bofors_Breech_-0_63" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=430169316]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.63, 0.16, 0.57)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("BoxMesh_jtg0y")
+
+[node name="Bofors_Barrel_-0_63" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1393085085]
+transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, -0.63, 0.2, -1.265)
+material_override = SubResource("StandardMaterial3D_r3bx4")
+mesh = SubResource("CylinderMesh_ee6mg")
+
+[node name="Bofors_MuzzleCollar_-0_63" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=835563242]
+transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, -0.63, 0.2, -2.28)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_knuio")
+
+[node name="Bofors_Receiver_-0_21" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=139971093]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21, 0.18, 0.2)
+material_override = SubResource("StandardMaterial3D_r3bx4")
+mesh = SubResource("BoxMesh_cf7w1")
+
+[node name="Bofors_Breech_-0_21" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=53170341]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.21, 0.16, 0.57)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("BoxMesh_lte6m")
+
+[node name="Bofors_Barrel_-0_21" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=2078677311]
+transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, -0.21, 0.2, -1.265)
+material_override = SubResource("StandardMaterial3D_r3bx4")
+mesh = SubResource("CylinderMesh_nmy2p")
+
+[node name="Bofors_MuzzleCollar_-0_21" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1636741902]
+transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, -0.21, 0.2, -2.28)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_b2atw")
+
+[node name="Bofors_Receiver_0_21" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=917471572]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.21, 0.18, 0.2)
+material_override = SubResource("StandardMaterial3D_r3bx4")
+mesh = SubResource("BoxMesh_plu56")
+
+[node name="Bofors_Breech_0_21" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1539999956]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.21, 0.16, 0.57)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("BoxMesh_5ofyg")
+
+[node name="Bofors_Barrel_0_21" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1909377707]
+transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, 0.21, 0.2, -1.265)
+material_override = SubResource("StandardMaterial3D_r3bx4")
+mesh = SubResource("CylinderMesh_5gggv")
+
+[node name="Bofors_MuzzleCollar_0_21" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=257283823]
+transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, 0.21, 0.2, -2.28)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_imrl0")
+
+[node name="Bofors_Receiver_0_63" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1260645158]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.63, 0.18, 0.2)
+material_override = SubResource("StandardMaterial3D_r3bx4")
+mesh = SubResource("BoxMesh_xhkda")
+
+[node name="Bofors_Breech_0_63" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=158780466]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.63, 0.16, 0.57)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("BoxMesh_hqsjl")
+
+[node name="Bofors_Barrel_0_63" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1035251169]
+transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, 0.63, 0.2, -1.265)
+material_override = SubResource("StandardMaterial3D_r3bx4")
+mesh = SubResource("CylinderMesh_kmcva")
+
+[node name="Bofors_MuzzleCollar_0_63" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1158331898]
+transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, 0.63, 0.2, -2.28)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_b1ol8")

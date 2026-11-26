@@ -1,0 +1,745 @@
+{
+  "created_utc": "2026-11-10T21:13:30.726234+00:00",
+  "groups": [
+    {
+      "pgid": 63494,
+      "owner": "S14-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 63495,
+      "owner": "S14-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 63750,
+      "owner": "S14-mechanisms",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 63756,
+      "owner": "S14-mechanisms",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 64015,
+      "owner": "S14-assembly",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 64016,
+      "owner": "S14-assembly",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 64100,
+      "owner": "S14-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 64101,
+      "owner": "S14-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 64148,
+      "owner": "S14-native-layout",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 64152,
+      "owner": "S14-native-layout",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 64271,
+      "owner": "S14-guided-mechanisms",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 64272,
+      "owner": "S14-guided-mechanisms",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 65142,
+      "owner": "S14-native-continuous",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 65143,
+      "owner": "S14-native-continuous",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 65568,
+      "owner": "S14-native-final-phase",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 65569,
+      "owner": "S14-native-final-phase",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 65832,
+      "owner": "S14-final-assembly-ui",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 65833,
+      "owner": "S14-final-assembly-ui",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 65878,
+      "owner": "S14-encode",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 65957,
+      "owner": "S14-air-evidence-freeze",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 65958,
+      "owner": "S14-air-evidence-freeze",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 66373,
+      "owner": "S14-gallery-isolation",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 66374,
+      "owner": "S14-gallery-isolation",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 66452,
+      "owner": "S14-gallery-fixed",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 66453,
+      "owner": "S14-gallery-fixed",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 66605,
+      "owner": "S14-encode-final-phase",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74467,
+      "owner": "S14-final-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74468,
+      "owner": "S14-final-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74554,
+      "owner": "S14-training-integration",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74555,
+      "owner": "S14-training-integration",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74722,
+      "owner": "S14-integrate-four",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74723,
+      "owner": "S14-integrate-four",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74795,
+      "owner": "S14-integrate-escort",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74796,
+      "owner": "S14-integrate-escort",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74846,
+      "owner": "S14-integrate-train_us_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74847,
+      "owner": "S14-integrate-train_us_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74858,
+      "owner": "S14-integrate-train_us_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74859,
+      "owner": "S14-integrate-train_us_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74866,
+      "owner": "S14-integrate-train_us_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74867,
+      "owner": "S14-integrate-train_us_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74884,
+      "owner": "S14-integrate-train_us_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74885,
+      "owner": "S14-integrate-train_us_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74895,
+      "owner": "S14-integrate-train_us_split_s",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74896,
+      "owner": "S14-integrate-train_us_split_s",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74905,
+      "owner": "S14-integrate-train_jp_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74906,
+      "owner": "S14-integrate-train_jp_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74917,
+      "owner": "S14-integrate-train_jp_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74918,
+      "owner": "S14-integrate-train_jp_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74929,
+      "owner": "S14-integrate-train_jp_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74930,
+      "owner": "S14-integrate-train_jp_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74945,
+      "owner": "S14-integrate-train_jp_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74946,
+      "owner": "S14-integrate-train_jp_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74955,
+      "owner": "S14-integrate-train_jp_split_s",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 74956,
+      "owner": "S14-integrate-train_jp_split_s",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75048,
+      "owner": "S14-final-runtime-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75049,
+      "owner": "S14-final-runtime-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75130,
+      "owner": "S14-native-inventory",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75131,
+      "owner": "S14-native-inventory",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75160,
+      "owner": "S14-native-train_us_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75161,
+      "owner": "S14-native-train_us_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75383,
+      "owner": "S14-final-r2-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75384,
+      "owner": "S14-final-r2-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75450,
+      "owner": "S14-native-train_us_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75451,
+      "owner": "S14-native-train_us_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75514,
+      "owner": "S14-native-train_us_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75515,
+      "owner": "S14-native-train_us_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75598,
+      "owner": "S14-native-train_us_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75599,
+      "owner": "S14-native-train_us_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75738,
+      "owner": "S14-native-train_us_split_s",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75739,
+      "owner": "S14-native-train_us_split_s",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75799,
+      "owner": "S14-native-train_jp_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75800,
+      "owner": "S14-native-train_jp_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75845,
+      "owner": "S14-native-train_jp_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75846,
+      "owner": "S14-native-train_jp_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75890,
+      "owner": "S14-native-train_jp_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75891,
+      "owner": "S14-native-train_jp_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75936,
+      "owner": "S14-native-train_jp_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 75937,
+      "owner": "S14-native-train_jp_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76120,
+      "owner": "S14-final-r3-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76121,
+      "owner": "S14-final-r3-import",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76164,
+      "owner": "S14-native-train_us_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76166,
+      "owner": "S14-native-train_us_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76206,
+      "owner": "S14-native-train_us_split_s",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76208,
+      "owner": "S14-native-train_us_split_s",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76301,
+      "owner": "S14-native-inventory",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76303,
+      "owner": "S14-native-inventory",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76320,
+      "owner": "S14-native-train_us_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76321,
+      "owner": "S14-native-train_us_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76357,
+      "owner": "S14-native-train_us_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76358,
+      "owner": "S14-native-train_us_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76399,
+      "owner": "S14-native-train_us_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76400,
+      "owner": "S14-native-train_us_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76460,
+      "owner": "S14-ui-state-contract",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76478,
+      "owner": "S14-ui-state-contract",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76481,
+      "owner": "S14-native-train_jp_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76482,
+      "owner": "S14-native-train_jp_bank_turn",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76533,
+      "owner": "S14-native-train_jp_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76534,
+      "owner": "S14-native-train_jp_climb_dive",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76576,
+      "owner": "S14-native-train_jp_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76577,
+      "owner": "S14-native-train_jp_axial_roll",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76615,
+      "owner": "S14-native-train_jp_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76616,
+      "owner": "S14-native-train_jp_roll_reversal",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76669,
+      "owner": "S14-native-train_jp_split_s",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76671,
+      "owner": "S14-native-train_jp_split_s",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76738,
+      "owner": "S14-native-four",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76739,
+      "owner": "S14-native-four",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76971,
+      "owner": "S14-native-escort",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 76972,
+      "owner": "S14-native-escort",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 77303,
+      "owner": "S14-web-build",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 77304,
+      "owner": "S14-web-build",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 77310,
+      "owner": "S14-web-build",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 77311,
+      "owner": "S14-web-build",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 77476,
+      "owner": "S14-final-chrome",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 77814,
+      "owner": "S14-chrome-selections",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 78266,
+      "owner": "S14-chrome-selections-final",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 78363,
+      "owner": "S14-chrome-selections-final",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "pgid": 78603,
+      "owner": "S14-final-encode",
+      "status": "absent",
+      "wrapper_cleanup_ok": true
+    }
+  ],
+  "all_absent": true,
+  "all_wrapper_cleanup_ok": true,
+  "chrome_runs": [
+    {
+      "run": "docs/showcase/evidence/S14/final/chrome/run.json",
+      "port": 50262,
+      "port_closed": true,
+      "cleanup": {
+        "chromeClosed": true,
+        "serverClosed": true,
+        "profileRemoved": true
+      }
+    },
+    {
+      "run": "docs/showcase/evidence/S14/final/chrome-attempt1-same-selection/run.json",
+      "port": 49292,
+      "port_closed": true,
+      "cleanup": {
+        "chromeClosed": true,
+        "serverClosed": true,
+        "profileRemoved": true
+      }
+    },
+    {
+      "run": "docs/showcase/evidence/S14/final/chrome-attempt2-ui-refresh/run.json",
+      "port": 49690,
+      "port_closed": true,
+      "cleanup": {
+        "chromeClosed": true,
+        "serverClosed": true,
+        "profileRemoved": true
+      }
+    }
+  ],
+  "remaining_s14_chrome_profiles": [],
+  "sandbox_listen_failure_empty_profile_removed": ".local/s14-chrome-pLk0c5",
+  "user_windows_or_unrelated_processes_closed": false,
+  "native_camera52_interruption": "Only owned outer batch stopped, verify cleaned owned Godot; retained interrupted report and partial recording"
+}

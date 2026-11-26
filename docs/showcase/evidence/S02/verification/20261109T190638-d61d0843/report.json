@@ -1,0 +1,85 @@
+{
+  "run_id": "20261109T190638-d61d0843",
+  "owner": "S02",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 84064,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 84066,
+      "process_group": 84066,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.0412,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190638-d61d0843/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_mesh_batching.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 84067,
+      "process_group": 84067,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.2489,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190638-d61d0843/01-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_hull_geometry.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 84069,
+      "process_group": 84069,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.2481,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190638-d61d0843/02-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S02",
+    "pid": 84064,
+    "process_identity": "Tue Nov 10 03:06:38 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S02 --timeout 60 test res://tests/test_mesh_batching.gd res://tests/test_hull_geometry.gd",
+    "token": "b7b1b228768b42d0a7e0cc6b0a3b83fe",
+    "acquired_utc": "2026-11-09T19:06:38.460014+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

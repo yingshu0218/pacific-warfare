@@ -1,0 +1,127 @@
+{
+  "cases": 12,
+  "checks": 64,
+  "all_passed": true,
+  "ui_contract_checks": 5,
+  "training": [
+    {
+      "mode": "train_jp_axial_roll",
+      "completed_s": 9.43333333333333,
+      "peak_roll_deg": 363.77995399828364,
+      "height_change_m": -285.72998046875,
+      "min_agl_m": 2114.27001953125,
+      "min_friendly_m": 5844.96240234375,
+      "frames": 189,
+      "fps": 15
+    },
+    {
+      "mode": "train_jp_bank_turn",
+      "completed_s": 13.7666666666667,
+      "peak_roll_deg": 71.53458584287203,
+      "height_change_m": -119.38134765625,
+      "min_agl_m": 2280.61865234375,
+      "min_friendly_m": 5969.11767578125,
+      "frames": 253,
+      "fps": 15
+    },
+    {
+      "mode": "train_jp_climb_dive",
+      "completed_s": 16.3,
+      "peak_roll_deg": 0.0,
+      "height_change_m": 21.675048828125,
+      "min_agl_m": 2400.0,
+      "min_friendly_m": 5600.333984375,
+      "frames": 293,
+      "fps": 15
+    },
+    {
+      "mode": "train_jp_roll_reversal",
+      "completed_s": 15.2,
+      "peak_roll_deg": 70.22957844358483,
+      "height_change_m": -259.364013671875,
+      "min_agl_m": 2140.63598632812,
+      "min_friendly_m": 5969.11767578125,
+      "frames": 278,
+      "fps": 15
+    },
+    {
+      "mode": "train_jp_split_s",
+      "completed_s": 12.75,
+      "peak_roll_deg": 180.91666984997732,
+      "height_change_m": -716.537719726562,
+      "min_agl_m": 1683.46228027344,
+      "min_friendly_m": 4718.73876953125,
+      "frames": 237,
+      "fps": 15
+    },
+    {
+      "mode": "train_us_axial_roll",
+      "completed_s": 9.96666666666667,
+      "peak_roll_deg": 362.00004027167233,
+      "height_change_m": -327.2685546875,
+      "min_agl_m": 2072.7314453125,
+      "min_friendly_m": 6329.92236328125,
+      "frames": 197,
+      "fps": 15
+    },
+    {
+      "mode": "train_us_bank_turn",
+      "completed_s": 14.0333333333333,
+      "peak_roll_deg": 71.42571243820133,
+      "height_change_m": -119.9990234375,
+      "min_agl_m": 2280.0009765625,
+      "min_friendly_m": 4421.5703125,
+      "frames": 261,
+      "fps": 15
+    },
+    {
+      "mode": "train_us_climb_dive",
+      "completed_s": 16.25,
+      "peak_roll_deg": 0.0,
+      "height_change_m": 20.923828125,
+      "min_agl_m": 2400.0,
+      "min_friendly_m": 6209.833984375,
+      "frames": 293,
+      "fps": 15
+    },
+    {
+      "mode": "train_us_roll_reversal",
+      "completed_s": 15.6333333333333,
+      "peak_roll_deg": 70.28747512976626,
+      "height_change_m": -269.716064453125,
+      "min_agl_m": 2130.28393554688,
+      "min_friendly_m": 5890.0263671875,
+      "frames": 285,
+      "fps": 15
+    },
+    {
+      "mode": "train_us_split_s",
+      "completed_s": 13.3166666666667,
+      "peak_roll_deg": 179.60806283000147,
+      "height_change_m": -772.842041015625,
+      "min_agl_m": 1627.15795898438,
+      "min_friendly_m": 6058.35791015625,
+      "frames": 246,
+      "fps": 15
+    }
+  ],
+  "four": {
+    "cycle_status": "regrouped",
+    "cycle_completed_s": 152.1,
+    "aviation_fired_events": 120,
+    "aviation_fired_by_id": {
+      "jp_air_1": 36,
+      "us_air_1": 84
+    }
+  },
+  "escort": {
+    "cycle_status": "guard_restored",
+    "cycle_completed_s": 94.0166666666667,
+    "aviation_fired_events": 0,
+    "scope": "Actual threat response, limited pursuit and guard restoration; no escort aircraft gunfire in this seed"
+  },
+  "clips": 12,
+  "frames": 5154,
+  "duration_s": 431.0,
+  "capture_cadence_is_not_performance": true
+}

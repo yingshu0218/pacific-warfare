@@ -1,0 +1,228 @@
+{
+  "plan": {
+    "port": 56594,
+    "url": "http://127.0.0.1:56594/index.html",
+    "pck_sha256": "35ee6b83afce7b7dd3169b05cfe9ba77933ea1677cfd4033f4a6aef2494f5e0c"
+  },
+  "previous": {
+    "g": 2,
+    "s": 65.1833333333333,
+    "sim": 65.1833333333333,
+    "detail": "日方舰队指挥官 · 执行中\n大和 → 集中接敌 · 衣阿华\n下达 00:00 · 接收 00:00 · 最近变化 01:05\n大和：执行中 · 维持炮战距离",
+    "expanded": true,
+    "order": {
+      "assigned_unit_ids": [
+        "jp_bb"
+      ],
+      "changed_tick": 3904,
+      "execution": {
+        "jp_bb": {
+          "progress": "broadside",
+          "reason": "maintain_gunnery_range",
+          "status": "executing"
+        }
+      },
+      "faction_id": "jp",
+      "intent": "surface_threat",
+      "issued_tick": 2,
+      "issuer_id": "jp_fleet_commander",
+      "order_id": "fleet_ai:jp:0001",
+      "order_type": "engage",
+      "progress": "forming",
+      "reason": "ship_task_received",
+      "recipient_ids": [
+        "jp_bb"
+      ],
+      "source": "ai",
+      "status": "executing",
+      "target_id": "us_bb"
+    },
+    "errors": [],
+    "shown": 65
+  },
+  "afterReset": {
+    "g": 3,
+    "s": 0.116666666666667,
+    "sim": 0.116666666666667,
+    "detail": "选择一条指令查看各成员执行进度。",
+    "expanded": true,
+    "errors": []
+  },
+  "chosen": {
+    "g": 3,
+    "s": 0.666666666666667,
+    "row": [
+      "舰队指挥官 · 执行中\n大和 → 集中接敌 · 衣阿华\n正在转向舷侧展开",
+      [
+        143.5,
+        234
+      ]
+    ]
+  },
+  "result": {
+    "g": 3,
+    "s": 0.933333333333333,
+    "sim": 0.933333333333333,
+    "detail": "日方舰队指挥官 · 执行中\n大和 → 集中接敌 · 衣阿华\n下达 00:00 · 接收 00:00 · 最近变化 00:00\n大和：执行中 · 正在转向舷侧展开",
+    "expanded": true,
+    "order": {
+      "assigned_unit_ids": [
+        "jp_bb"
+      ],
+      "changed_tick": 2,
+      "execution": {
+        "jp_bb": {
+          "progress": "deploy",
+          "reason": "turning_to_broadside",
+          "status": "executing"
+        }
+      },
+      "faction_id": "jp",
+      "intent": "surface_threat",
+      "issued_tick": 2,
+      "issuer_id": "jp_fleet_commander",
+      "order_id": "fleet_ai:jp:0001",
+      "order_type": "engage",
+      "progress": "forming",
+      "reason": "ship_task_received",
+      "recipient_ids": [
+        "jp_bb"
+      ],
+      "source": "ai",
+      "status": "executing",
+      "target_id": "us_bb"
+    },
+    "errors": []
+  },
+  "displayedChangedSeconds": 0,
+  "checks": {
+    "ordinary": true,
+    "newGeneration": true,
+    "previousAdvanced": true,
+    "clickedEarly": true,
+    "currentOrder": true,
+    "uiTimeCurrent": true,
+    "noStaleButton": true,
+    "smokeInFinal": true,
+    "clean": true
+  },
+  "transition": [
+    {
+      "g": 3,
+      "s": 0.116666666666667,
+      "expanded": true,
+      "detail": "选择一条指令查看各成员执行进度。",
+      "rows": []
+    },
+    {
+      "g": 3,
+      "s": 0.266666666666667,
+      "expanded": true,
+      "detail": "选择一条指令查看各成员执行进度。",
+      "rows": []
+    },
+    {
+      "g": 3,
+      "s": 0.4,
+      "expanded": true,
+      "detail": "选择一条指令查看各成员执行进度。",
+      "rows": []
+    },
+    {
+      "g": 3,
+      "s": 0.533333333333333,
+      "expanded": true,
+      "detail": "选择一条指令查看各成员执行进度。",
+      "rows": []
+    },
+    {
+      "g": 3,
+      "s": 0.666666666666667,
+      "expanded": true,
+      "detail": "选择一条指令查看各成员执行进度。",
+      "rows": [
+        "舰队指挥官 · 执行中\n大和 → 集中接敌 · 衣阿华\n正在转向舷侧展开"
+      ]
+    },
+    {
+      "g": 3,
+      "s": 0.8,
+      "expanded": true,
+      "detail": "选择一条指令查看各成员执行进度。",
+      "rows": [
+        "舰队指挥官 · 执行中\n大和 → 集中接敌 · 衣阿华\n正在转向舷侧展开"
+      ]
+    },
+    {
+      "g": 3,
+      "s": 0.933333333333333,
+      "expanded": true,
+      "detail": "日方舰队指挥官 · 执行中\n大和 → 集中接敌 · 衣阿华\n下达 00:00 · 接收 00:00 · 最近变化 00:00\n大和：执行中 · 正在转向舷侧展开",
+      "rows": [
+        "舰队指挥官 · 执行中\n大和 → 集中接敌 · 衣阿华\n正在转向舷侧展开"
+      ]
+    }
+  ],
+  "terms": {
+    "order_issued": 81,
+    "order_status_changed": 198,
+    "fired": 1709,
+    "bombing_phase": 38,
+    "surface_impact": 299,
+    "hit": 194,
+    "damaged": 170,
+    "aircraft_part_detached": 24,
+    "damage_phase": 28,
+    "airburst": 448,
+    "bomb_released": 48,
+    "bomb_source_cleared": 48,
+    "unit_surface_contact": 8,
+    "unit_impact": 8,
+    "bomb_contact": 48,
+    "bomb_explosion": 48
+  },
+  "firstShot": {
+    "data": {
+      "ammo_id": "jp_460mm_ap",
+      "projectile_id": "projectile_00000246",
+      "velocity_mps": [
+        757.371398925781,
+        36.1281661987305,
+        215.060684204102
+      ]
+    },
+    "entity_id": "jp_bb",
+    "exercise": "harbor",
+    "generation": 1,
+    "kind": "fired",
+    "position_m": [
+      -1749.83386230469,
+      16.5963382720947,
+      -1803.20434570312
+    ],
+    "sequence": 587,
+    "target_id": "us_bb",
+    "time_s": 10.5666666666667,
+    "weapon_id": "jp_bb/main_02"
+  },
+  "visibleSmoke": 74,
+  "photo": {
+    "s": 11.7333333333333,
+    "kinds": {
+      "blast_flash": 8,
+      "blast_sparks": 7,
+      "burst": 21,
+      "fire": 1,
+      "foam": 9,
+      "impact_dust": 1,
+      "impact_smoke": 12,
+      "mist": 6,
+      "muzzle_smoke": 60,
+      "shell": 18,
+      "smoke": 139,
+      "tracer": 93,
+      "water": 9
+    }
+  },
+  "space": 7
+}

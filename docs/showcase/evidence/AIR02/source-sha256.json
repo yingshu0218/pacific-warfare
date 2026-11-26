@@ -1,0 +1,13 @@
+{
+  "runtime": {
+    "scripts/behaviors/aircraft/aircraft_tasks.gd": "79b0bd6dcfee07030764f1739747f04c0175ec2779a898ff68e2526edc71e5f5",
+    "scripts/behaviors/aircraft/aircraft_tasks.gd.uid": "d26cd2fd783577c3c66fcbf50c5d0857dba27bf30c6d383333c836ec90c98e20",
+    "scripts/behaviors/aircraft/autonomous_fighter_motion.gd": "e3f0f99899ec7c77b365d32500288662a4065a355561c6ba590a7423fc8ab463",
+    "scripts/behaviors/aircraft/autonomous_fighter_motion.gd.uid": "fd659fb79621d5b27ec476b9417261a285f771f969f87b2cc1cf53a739629419",
+    "data/scenarios/s14_maneuver.json": "87b8857d9de7fbfb25cb1e8a4e02a10ceff3344dcb965b6247eb122f4d5b2b4e"
+  },
+  "verification": {
+    "tests/test_air02_autonomous_motion.gd": "c85cf828af869cfbbab0c01ed4bc405c15341eb1ac8590d828cc55fcac8b1128",
+    "tests/test_air02_autonomous_motion.gd.uid": "9d66132b39bb67b994e55c55243748f9e3b2a34ee203ac7195ef79652fae3090"
+  }
+}

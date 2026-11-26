@@ -1,0 +1,66 @@
+{
+  "run_id": "20261111T141234-fb535e01",
+  "owner": "BOMB01",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/gun-baseline",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 92457,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/gun-baseline",
+      "pid": 92461,
+      "process_group": 92461,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2898,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T141234-fb535e01/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/gun-baseline",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/gun-baseline",
+      "pid": 92463,
+      "process_group": 92463,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 3.6194,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T141234-fb535e01/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "BOMB01",
+    "pid": 92457,
+    "process_identity": "Wed Nov 11 22:12:34 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner BOMB01 --timeout 55 --lock-timeout 55 --project .local/bomb01/gun-baseline import",
+    "token": "e00a5619ef6443a9a1618e5523d3b970",
+    "acquired_utc": "2026-11-11T14:12:34.543839+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

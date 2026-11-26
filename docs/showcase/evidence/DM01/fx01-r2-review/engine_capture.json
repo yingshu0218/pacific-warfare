@@ -1,0 +1,7021 @@
+{
+	"events": [
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000001",
+				"tracer": false,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000001",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 1,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000002",
+				"tracer": false,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000002",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 2,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000003",
+				"tracer": true,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000003",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 3,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000004",
+				"tracer": false,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000004",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 4,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000005",
+				"tracer": false,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000005",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 5,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000006",
+				"tracer": true,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000006",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 6,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000007",
+				"tracer": false,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000007",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 7,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000008",
+				"tracer": false,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000008",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 8,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000009",
+				"tracer": true,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000009",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 9,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000010",
+				"tracer": false,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000010",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 10,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000011",
+				"tracer": false,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000011",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 11,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000012",
+				"tracer": true,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000012",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 12,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000013",
+				"tracer": false,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000013",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 13,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"barrel_index": 0,
+				"caliber_m": 0.02,
+				"elevation_rad": 0.0,
+				"flight_time_s": 0.0,
+				"gravity_mps2": 9.80665,
+				"muzzle_direction": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"projectile_id": "projectile_00000014",
+				"tracer": false,
+				"train_rad": 0.0,
+				"velocity_mps": [
+					0.0,
+					-13.0176286697388,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000014",
+			"kind": "fired",
+			"position_m": [
+				0.0,
+				380.0,
+				-107.809463500977
+			],
+			"sequence": 14,
+			"target_id": "",
+			"tick": 60,
+			"time_s": 1.0,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000001",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000015",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 15,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000002",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000016",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 16,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000003",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000017",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 17,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000004",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000018",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 18,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000005",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000019",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 19,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000006",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000020",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 20,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000007",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000021",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 21,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000008",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000022",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 22,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000009",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000023",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 23,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000010",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000024",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 24,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000011",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000025",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 25,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000012",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000026",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 26,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000013",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000027",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 27,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"armor_mm": 3.0,
+				"caliber_m": 0.02,
+				"damage_allowed": true,
+				"energy_j": 45883.212,
+				"friendly": false,
+				"local_position_m": [
+					0.0,
+					-0.0663800090551376,
+					-4.3100004196167
+				],
+				"part_id": "engine",
+				"projectile_id": "projectile_00000014",
+				"source_faction_id": "us",
+				"surface": "aircraft",
+				"target_id": "target",
+				"target_velocity_mps": [
+					0.0,
+					0.0,
+					-98.4009475708008
+				],
+				"velocity_mps": [
+					0.0,
+					-13.0673227310181,
+					748.212585449219
+				]
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000028",
+			"kind": "hit",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 28,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000001",
+				"propulsion_factor": 0.892898165281822,
+				"structure": 88.2328197271501
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000029",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 29,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000002",
+				"propulsion_factor": 0.785796330563643,
+				"structure": 86.4656394543001
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000030",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 30,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000003",
+				"propulsion_factor": 0.678694495845465,
+				"structure": 84.6984591814502
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000031",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 31,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000004",
+				"propulsion_factor": 0.571592661127287,
+				"structure": 82.9312789086002
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000032",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 32,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000005",
+				"propulsion_factor": 0.464490826409108,
+				"structure": 81.1640986357503
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000033",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 33,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000006",
+				"propulsion_factor": 0.35738899169093,
+				"structure": 79.3969183629004
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000034",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 34,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000007",
+				"propulsion_factor": 0.250287156972752,
+				"structure": 77.6297380900504
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000035",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 35,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000008",
+				"propulsion_factor": 0.143185322254573,
+				"structure": 75.8625578172005
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000036",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 36,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000009",
+				"propulsion_factor": 0.0360834875363947,
+				"structure": 74.0953775443505
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000037",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 37,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000010",
+				"propulsion_factor": 0.0,
+				"structure": 72.3281972715006
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000038",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 38,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000011",
+				"propulsion_factor": 0.0,
+				"structure": 70.5610169986506
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000039",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 39,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000012",
+				"propulsion_factor": 0.0,
+				"structure": 68.7938367258007
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000040",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 40,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000013",
+				"propulsion_factor": 0.0,
+				"structure": 67.0266564529508
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000041",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 41,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		},
+		{
+			"data": {
+				"ammo_id": "jp_20mm_type99_2_shell",
+				"amount": 5.89060090949981,
+				"control_factor": 1.0,
+				"part_id": "engine",
+				"projectile_id": "projectile_00000014",
+				"propulsion_factor": 0.0,
+				"structure": 65.2594761801008
+			},
+			"entity_id": "shooter",
+			"event_id": "event_00000042",
+			"kind": "damaged",
+			"position_m": [
+				0.0,
+				379.933624267578,
+				-104.017951965332
+			],
+			"sequence": 42,
+			"target_id": "target",
+			"tick": 61,
+			"time_s": 1.01666666666667,
+			"weapon_id": "shooter/wing_port_01"
+		}
+	],
+	"fps": 15,
+	"frames": 60,
+	"include_fx": true,
+	"resolution": [
+		1100,
+		700
+	],
+	"samples": [
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 0,
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 0,
+				"materials": 0,
+				"peak_visible": 0,
+				"preempted": 0,
+				"render_instances": 0,
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 0.0666666666666667,
+				"time_s": 0.0666666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 0.0666666666666667
+			},
+			"event_count": 0,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 6.66311728954315,
+						"elevator_rad": 0.0,
+						"energy_height_m": 888.773221853684,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.997783333333,
+						"fuel_used_kg": 0.00221666666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 380.0,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 292.020897484189,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 1.0,
+						"load_limit": 4.93157024908621,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.0,
+						"propeller_phase_rad": 1.2,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 1.0,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "normal",
+						"speed_mps": 99.8935525055689,
+						"stall_margin": 2.22012293170557,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 380.0,
+						"terrain_lookahead_s": 4.5915902170083,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": 0.0
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [],
+						"fire": 0.0,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 1.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 1.0,
+						"structure": 90.0,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					380.0,
+					-6.66311740875244
+				],
+				"rotation_rad": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-99.8935546875
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 4,
+			"time_s": 0.0666666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 0,
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 0,
+				"materials": 0,
+				"peak_visible": 0,
+				"preempted": 0,
+				"render_instances": 0,
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 0.266666666666667,
+				"time_s": 0.266666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 0.266666666666667
+			},
+			"event_count": 0,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 26.6099970340729,
+						"elevator_rad": 0.0,
+						"energy_height_m": 885.539291191201,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.991133333333,
+						"fuel_used_kg": 0.00886666666666666,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 380.0,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 288.784387502319,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 1.0,
+						"load_limit": 4.90021525299017,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.0,
+						"propeller_phase_rad": 4.8,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 1.0,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "normal",
+						"speed_mps": 99.5755681877858,
+						"stall_margin": 2.21305576612656,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 380.0,
+						"terrain_lookahead_s": 4.6041066249122,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": 0.0
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [],
+						"fire": 0.0,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 1.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 1.0,
+						"structure": 90.0,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					380.0,
+					-26.6099967956543
+				],
+				"rotation_rad": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-99.575569152832
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 16,
+			"time_s": 0.266666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 0,
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 0,
+				"materials": 0,
+				"peak_visible": 0,
+				"preempted": 0,
+				"render_instances": 0,
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 0.466666666666667,
+				"time_s": 0.466666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 0.466666666666667
+			},
+			"event_count": 0,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 46.493482708931,
+						"elevator_rad": 0.0,
+						"energy_height_m": 882.336118674151,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.984483333333,
+						"fuel_used_kg": 0.0155166666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 380.0,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 285.57866832473,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 1.0,
+						"load_limit": 4.86915855523198,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.0,
+						"propeller_phase_rad": 2.11681469282041,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 1.0,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "normal",
+						"speed_mps": 99.2596040511533,
+						"stall_margin": 2.20603349884564,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 380.0,
+						"terrain_lookahead_s": 4.61667744637808,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": 0.0
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [],
+						"fire": 0.0,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 1.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 1.0,
+						"structure": 90.0,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					380.0,
+					-46.4934883117676
+				],
+				"rotation_rad": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-99.2596054077148
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 28,
+			"time_s": 0.466666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 0,
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 0,
+				"materials": 0,
+				"peak_visible": 0,
+				"preempted": 0,
+				"render_instances": 0,
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 0.666666666666667,
+				"time_s": 0.666666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 0.666666666666667
+			},
+			"event_count": 0,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 66.313974738121,
+						"elevator_rad": 0.0,
+						"energy_height_m": 879.163278326687,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.977833333332,
+						"fuel_used_kg": 0.0221666666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 380.0,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 282.403313430854,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 1.0,
+						"load_limit": 4.83839602372157,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.0,
+						"propeller_phase_rad": 5.71681469282041,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 1.0,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "normal",
+						"speed_mps": 98.9456372297677,
+						"stall_margin": 2.1990556216707,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 380.0,
+						"terrain_lookahead_s": 4.62930329382882,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": 0.0
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [],
+						"fire": 0.0,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 1.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 1.0,
+						"structure": 90.0,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					380.0,
+					-66.3139877319336
+				],
+				"rotation_rad": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-98.9456405639648
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 40,
+			"time_s": 0.666666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 0,
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 0,
+				"materials": 0,
+				"peak_visible": 0,
+				"preempted": 0,
+				"render_instances": 0,
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 0.866666666666667,
+				"time_s": 0.866666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 0.866666666666667
+			},
+			"event_count": 0,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 86.0718718767166,
+						"elevator_rad": 0.0,
+						"energy_height_m": 876.020425023637,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.971183333332,
+						"fuel_used_kg": 0.0288166666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 380.0,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 279.25797721984,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 1.0,
+						"load_limit": 4.80792431031129,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.0,
+						"propeller_phase_rad": 3.03362938564082,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 1.0,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "normal",
+						"speed_mps": 98.633652482893,
+						"stall_margin": 2.19212179587808,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 380.0,
+						"terrain_lookahead_s": 4.64198448914868,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": 0.0
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [],
+						"fire": 0.0,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 1.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 1.0,
+						"structure": 90.0,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					380.0,
+					-86.071891784668
+				],
+				"rotation_rad": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-98.6336517333984
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 52,
+			"time_s": 0.866666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 56,
+				"allocated": 56,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 56,
+				"peak_visible": 56,
+				"preempted": 0,
+				"render_instances": 56,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 56
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 1.06666666666667,
+				"time_s": 1.06666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 1.06666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0299175903201103,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 105.767569899559,
+						"elevator_rad": -0.00991545902656291,
+						"energy_height_m": 872.906217971482,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.000997079303488135,
+							-0.999999582767487
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 379.998107910156,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 276.142410899509,
+						"lift_up_m": [
+							0.0,
+							0.999999582767487,
+							-0.000997079303488135
+						],
+						"load_factor": 0.7,
+						"load_limit": 4.77774121603491,
+						"path_pitch_rad": -0.000997079389080837,
+						"path_pitch_rate_radps": -0.0299175852068918,
+						"path_turn_rate_radps": 0.0299175900879593,
+						"propeller_phase_rad": 0.320444078461236,
+						"propeller_speed_radps": 17.1,
+						"requested_load_g": 0.322181769977729,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 98.3237236635483,
+						"stall_margin": 2.18523374914498,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 379.999328613281,
+						"terrain_lookahead_s": 4.65472078232845,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -0.0980365499854088
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.954938941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.274694709109991,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.274628042443325,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 65.2045172382788,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					379.998107910156,
+					-105.767593383789
+				],
+				"rotation_rad": [
+					-0.000997079419903457,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-0.0980365499854088,
+					-98.3236846923828
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 64,
+			"time_s": 1.06666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 37,
+				"allocated": 56,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 56,
+				"peak_visible": 56,
+				"preempted": 0,
+				"render_instances": 56,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 37
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 1.26666666666667,
+				"time_s": 1.26666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 1.26666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0544317550957203,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 125.402271866798,
+						"elevator_rad": -0.0180971626308747,
+						"energy_height_m": 869.813156537384,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.011963015422225,
+							-0.99992847442627
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 379.873077392578,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 273.157534904785,
+						"lift_up_m": [
+							0.0,
+							0.99992847442627,
+							-0.011963015422225
+						],
+						"load_factor": 0.455773177285834,
+						"load_limit": 4.74885747702274,
+						"path_pitch_rad": -0.0119633003808967,
+						"path_pitch_rate_radps": -0.0544317660269346,
+						"path_turn_rate_radps": 0.0544317549938298,
+						"propeller_phase_rad": 3.35044407846123,
+						"propeller_speed_radps": 13.5,
+						"requested_load_g": 0.455773177285834,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 98.0272500598218,
+						"stall_margin": 2.17865842716415,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 379.891876220703,
+						"terrain_lookahead_s": 4.66705907712416,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -1.17270147800446
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.954778941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.273894709109991,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.273828042443325,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 65.0399604128128,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					379.873077392578,
+					-125.401786804199
+				],
+				"rotation_rad": [
+					-0.0119633004069328,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-1.17270147800446,
+					-98.0202407836914
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 76,
+			"time_s": 1.26666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 50,
+				"allocated": 56,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 56,
+				"peak_visible": 56,
+				"preempted": 0,
+				"render_instances": 56,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 50
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 1.46666666666667,
+				"time_s": 1.46666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 1.46666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0487356334924698,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 144.980020403862,
+						"elevator_rad": -0.016254897938946,
+						"energy_height_m": 866.747638791494,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.0222203079611063,
+							-0.99975311756134
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 379.536682128906,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 270.417611554395,
+						"lift_up_m": [
+							0.0,
+							0.99975311756134,
+							-0.0222203079611063
+						],
+						"load_factor": 0.513915172763829,
+						"load_limit": 4.72241154608692,
+						"path_pitch_rad": -0.0222221364602971,
+						"path_pitch_rate_radps": -0.0487355797342652,
+						"path_turn_rate_radps": 0.0487354815957805,
+						"propeller_phase_rad": 5.76993058125326,
+						"propeller_speed_radps": 11.7304616725374,
+						"requested_load_g": 0.513915172763829,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 97.7538472711449,
+						"stall_margin": 2.17262289257225,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 379.572235107422,
+						"terrain_lookahead_s": 4.67846737809861,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -2.17212057113647
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.954618941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.273094709109991,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.273028042443325,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 64.8758835873468,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					379.536682128906,
+					-144.976577758789
+				],
+				"rotation_rad": [
+					-0.0222221370786428,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-2.17212057113647,
+					-97.7297134399414
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 88,
+			"time_s": 1.46666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 48,
+				"allocated": 58,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 58,
+				"peak_visible": 58,
+				"preempted": 0,
+				"render_instances": 58,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 48
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 1.66666666666667,
+				"time_s": 1.66666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 1.66666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0436352975666523,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 164.505196690559,
+						"elevator_rad": -0.0146008644387545,
+						"energy_height_m": 863.707252006439,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.031402226537466,
+							-0.999506831169128
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 379.011627197266,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 267.89836571986,
+						"lift_up_m": [
+							0.0,
+							0.999506831169128,
+							-0.031402226537466
+						],
+						"load_factor": 0.565645543364462,
+						"load_limit": 4.6981598919874,
+						"path_pitch_rad": -0.0314073896994121,
+						"path_pitch_rate_radps": -0.0436353417494293,
+						"path_turn_rate_radps": 0.0436354131076915,
+						"propeller_phase_rad": 1.82951375497675,
+						"propeller_speed_radps": 11.7001419671816,
+						"requested_load_g": 0.565645543364462,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 97.5011830598469,
+						"stall_margin": 2.16707234957842,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 379.062072753906,
+						"terrain_lookahead_s": 4.68901986920458,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -3.06175422668457
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.954458941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.272294709109991,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.272228042443325,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 64.7122867618808,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					379.011627197266,
+					-164.494613647461
+				],
+				"rotation_rad": [
+					-0.0314073897898197,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-3.06175422668457,
+					-97.4530944824219
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 100,
+			"time_s": 1.66666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 61,
+				"allocated": 61,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 61,
+				"peak_visible": 61,
+				"preempted": 0,
+				"render_instances": 61,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 61
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 1.86666666666667,
+				"time_s": 1.86666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 1.86666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0390695035457611,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 183.981740355492,
+						"elevator_rad": -0.0131161219333487,
+						"energy_height_m": 860.690332983243,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.0396210812032223,
+							-0.999214828014374
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 378.318542480469,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 265.576745803453,
+						"lift_up_m": [
+							0.0,
+							0.999214828014374,
+							-0.0396210812032223
+						],
+						"load_factor": 0.611696587613281,
+						"load_limit": 4.67587158436047,
+						"path_pitch_rad": -0.0396314528931393,
+						"path_pitch_rate_radps": -0.039069239786102,
+						"path_turn_rate_radps": 0.0390690692800876,
+						"propeller_phase_rad": 4.16646489925761,
+						"propeller_speed_radps": 11.6720605720164,
+						"requested_load_g": 0.611696587613281,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 97.2671714334701,
+						"stall_margin": 2.16195763299688,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 378.382263183594,
+						"terrain_lookahead_s": 4.69879184223496,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -3.85383057594299
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.954298941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.271494709109992,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.271428042443325,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 64.5491699364148,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					378.318542480469,
+					-183.958801269531
+				],
+				"rotation_rad": [
+					-0.0396314524114132,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-3.85383057594299,
+					-97.190803527832
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 112,
+			"time_s": 1.86666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 73,
+				"allocated": 73,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 73,
+				"peak_visible": 73,
+				"preempted": 0,
+				"render_instances": 73,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 73
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 2.06666666666667,
+				"time_s": 2.06666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 2.06666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0349807068705559,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 203.413185477257,
+						"elevator_rad": -0.0117836157211575,
+						"energy_height_m": 857.694900843061,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.0469775795936584,
+							-0.998895943164825
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 377.475860595703,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 263.431663533393,
+						"lift_up_m": [
+							0.0,
+							0.998895943164825,
+							-0.0469775795936584
+						],
+						"load_factor": 0.652711566783484,
+						"load_limit": 4.65533580547121,
+						"path_pitch_rad": -0.0469948758989461,
+						"path_pitch_rate_radps": -0.0349806790271699,
+						"path_turn_rate_radps": 0.0349806711060886,
+						"propeller_phase_rad": 0.214835630536869,
+						"propeller_speed_radps": 11.6459861527482,
+						"requested_load_g": 0.652711566783484,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 97.0498846062348,
+						"stall_margin": 2.15723342998454,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 377.551391601562,
+						"terrain_lookahead_s": 4.70785516933146,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -4.55916833877563
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.954138941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.270694709109992,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.270628042443325,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 64.3865331109488,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					377.475860595703,
+					-203.371948242188
+				],
+				"rotation_rad": [
+					-0.0469948761165142,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-4.55916833877563,
+					-96.9427337646484
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 124,
+			"time_s": 2.06666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 71,
+				"allocated": 81,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 81,
+				"peak_visible": 81,
+				"preempted": 0,
+				"render_instances": 81,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 71
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 2.26666666666667,
+				"time_s": 2.26666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 2.26666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0313201583921909,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 222.802699565887,
+						"elevator_rad": -0.0105879336499012,
+						"energy_height_m": 854.719315509205,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.0535621158778667,
+							-0.998564541339874
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 376.5,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 261.444459724012,
+						"lift_up_m": [
+							0.0,
+							0.998564541339874,
+							-0.0535621158778667
+						],
+						"load_factor": 0.689257717974947,
+						"load_limit": 4.63636618027215,
+						"path_pitch_rad": -0.0535877585599466,
+						"path_pitch_rate_radps": -0.0313202682435092,
+						"path_turn_rate_radps": 0.0313201323777196,
+						"propeller_phase_rad": 2.54137495979998,
+						"propeller_speed_radps": 11.6217127899731,
+						"requested_load_g": 0.689257717974947,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 96.8476065831092,
+						"stall_margin": 2.15285942504608,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 376.586029052734,
+						"terrain_lookahead_s": 4.71627538923882,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -5.18736267089844
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.953978941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.269894709109992,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.269828042443325,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 64.2243762854828,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					376.5,
+					-222.736877441406
+				],
+				"rotation_rad": [
+					-0.0535877570509911,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-5.18736267089844,
+					-96.7085800170898
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 136,
+			"time_s": 2.26666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 83,
+				"allocated": 83,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 83,
+				"peak_visible": 83,
+				"preempted": 0,
+				"render_instances": 83,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 83
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 2.46666666666667,
+				"time_s": 2.46666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 2.46666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0280427187681198,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 242.15313076973,
+						"elevator_rad": -0.0095151677765762,
+						"energy_height_m": 851.761974139133,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.059455644339323,
+							-0.998230934143066
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 375.405487060547,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 259.598471322519,
+						"lift_up_m": [
+							0.0,
+							0.998230934143066,
+							-0.059455644339323
+						],
+						"load_factor": 0.721835795639444,
+						"load_limit": 4.61879644954388,
+						"path_pitch_rad": -0.0594907300495062,
+						"path_pitch_rate_radps": -0.0280426730999847,
+						"path_turn_rate_radps": 0.0280426413701331,
+						"propeller_phase_rad": 4.86323782205457,
+						"propeller_speed_radps": 11.5990554230707,
+						"requested_load_g": 0.721835795639444,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 96.6587951922557,
+						"stall_margin": 2.14879942433116,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 375.500915527344,
+						"terrain_lookahead_s": 4.72411275126654,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -5.74691104888916
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.953818941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.269094709109992,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.269028042443325,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 64.0626994600168,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					375.405487060547,
+					-242.056289672852
+				],
+				"rotation_rad": [
+					-0.059490729123354,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-5.74691104888916,
+					-96.4878005981445
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 148,
+			"time_s": 2.46666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 95,
+				"allocated": 95,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 95,
+				"peak_visible": 95,
+				"preempted": 0,
+				"render_instances": 95,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 95
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 2.66666666666667,
+				"time_s": 2.66666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 2.66666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0251081604510546,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 261.467033147812,
+						"elevator_rad": -0.0085528498866346,
+						"energy_height_m": 848.82201349476,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.064730703830719,
+							-0.997902750968933
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 374.205322265625,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 257.879362543288,
+						"lift_up_m": [
+							0.0,
+							0.997902750968933,
+							-0.064730703830719
+						],
+						"load_factor": 0.750885979356674,
+						"load_limit": 4.60248358446427,
+						"path_pitch_rad": -0.0647759947310611,
+						"path_pitch_rate_radps": -0.0251083921183839,
+						"path_turn_rate_radps": 0.025108202204638,
+						"propeller_phase_rad": 0.897544058536036,
+						"propeller_speed_radps": 11.5778544437739,
+						"requested_load_g": 0.750885979356674,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 96.4821203647826,
+						"stall_margin": 2.14502218454148,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 374.30908203125,
+						"terrain_lookahead_s": 4.73142002541208,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -6.24535512924194
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.953658941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.268294709109992,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.268228042443325,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 63.9015026345509,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					374.205322265625,
+					-261.332855224609
+				],
+				"rotation_rad": [
+					-0.0647759959101677,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-6.24535512924194,
+					-96.2797698974609
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 160,
+			"time_s": 2.66666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 107,
+				"allocated": 107,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 107,
+				"peak_visible": 107,
+				"preempted": 0,
+				"render_instances": 107,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 107
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 2.86666666666667,
+				"time_s": 2.86666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 2.86666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0224809348583221,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 280.74670791626,
+						"elevator_rad": -0.00768970193599978,
+						"energy_height_m": 845.89788108188,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.069452203810215,
+							-0.997585296630859
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 372.911010742188,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 256.273653114692,
+						"lift_up_m": [
+							0.0,
+							0.997585296630859,
+							-0.069452203810215
+						],
+						"load_factor": 0.776799406928023,
+						"load_limit": 4.58729336718156,
+						"path_pitch_rad": -0.0695081592604589,
+						"path_pitch_rate_radps": -0.0224807352957074,
+						"path_turn_rate_radps": 0.0224808567639909,
+						"propeller_phase_rad": 3.21093901882315,
+						"propeller_speed_radps": 11.5579583287916,
+						"requested_load_g": 0.776799406928023,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 96.3163194065964,
+						"stall_margin": 2.14149814408492,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 373.022216796875,
+						"terrain_lookahead_s": 4.73824853099553,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -6.68938064575195
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.953498941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.267494709109992,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.267428042443325,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 63.7407858090849,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					372.911010742188,
+					-280.569061279297
+				],
+				"rotation_rad": [
+					-0.0695081576704979,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-6.68938064575195,
+					-96.0837478637695
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 172,
+			"time_s": 2.86666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 119,
+				"allocated": 119,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 119,
+				"peak_visible": 119,
+				"preempted": 0,
+				"render_instances": 119,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 119
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 3.06666666666667,
+				"time_s": 3.06666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 3.06666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0201281905174255,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 299.994221568108,
+						"elevator_rad": -0.00691556008654407,
+						"energy_height_m": 842.988861211148,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.0736783072352409,
+							-0.997282087802887
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 371.532836914062,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 254.769968898757,
+						"lift_up_m": [
+							0.0,
+							0.997282087802887,
+							-0.0736783072352409
+						],
+						"load_factor": 0.799922391344416,
+						"load_limit": 4.57311247949913,
+						"path_pitch_rad": -0.0737451289105486,
+						"path_pitch_rate_radps": -0.0201281006040838,
+						"path_turn_rate_radps": 0.0201283899553034,
+						"propeller_phase_rad": 5.52048449549556,
+						"propeller_speed_radps": 11.5392392104238,
+						"requested_load_g": 0.799922391344416,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 96.1603267535319,
+						"stall_margin": 2.13820230379344,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 371.650665283203,
+						"terrain_lookahead_s": 4.74464206783779,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -7.08492994308472
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.953338941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.266694709109992,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.266628042443325,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 63.5805489836189,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					371.532836914062,
+					-299.767181396484
+				],
+				"rotation_rad": [
+					-0.0737451314926147,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-7.08492994308472,
+					-95.8989715576172
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 184,
+			"time_s": 3.06666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 131,
+				"allocated": 131,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 131,
+				"peak_visible": 131,
+				"preempted": 0,
+				"render_instances": 131,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 131
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 3.26666666666667,
+				"time_s": 3.26666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 3.26666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.018022209405899,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 319.21142745018,
+						"elevator_rad": -0.00622135941762297,
+						"energy_height_m": 840.093497332732,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.0774610936641693,
+							-0.996995389461517
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 370.079956054688,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 253.357363729715,
+						"lift_up_m": [
+							0.0,
+							0.996995389461517,
+							-0.0774610936641693
+						],
+						"load_factor": 0.82055991736148,
+						"load_limit": 4.55983213429266,
+						"path_pitch_rad": -0.0775387664481413,
+						"path_pitch_rate_radps": -0.0180223388447928,
+						"path_turn_rate_radps": 0.0180221321697579,
+						"propeller_phase_rad": 1.54321655713307,
+						"propeller_speed_radps": 11.5215727608578,
+						"requested_load_g": 0.82055991736148,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 96.0131063404818,
+						"stall_margin": 2.1351104660623,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 370.203674316406,
+						"terrain_lookahead_s": 4.75064411612105,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -7.43728017807007
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.953178941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.265894709109992,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.265828042443326,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 63.4207921581529,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					370.079956054688,
+					-318.929321289062
+				],
+				"rotation_rad": [
+					-0.0775387659668922,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-7.43728017807007,
+					-95.7246246337891
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 196,
+			"time_s": 3.26666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 143,
+				"allocated": 143,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 143,
+				"peak_visible": 143,
+				"preempted": 0,
+				"render_instances": 143,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 143
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 3.46666666666667,
+				"time_s": 3.46666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 3.46666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0161361675709486,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 338.39999461174,
+						"elevator_rad": -0.00559890610722517,
+						"energy_height_m": 837.211298770496,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.0808470845222473,
+							-0.996726512908936
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 368.560546875,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 252.026870389203,
+						"lift_up_m": [
+							0.0,
+							0.996726512908936,
+							-0.0808470845222473
+						],
+						"load_factor": 0.83898335839721,
+						"load_limit": 4.547363059805,
+						"path_pitch_rad": -0.0809354176911618,
+						"path_pitch_rate_radps": -0.0161364604607844,
+						"path_turn_rate_radps": 0.0161363549093324,
+						"propeller_phase_rad": 3.84570521374401,
+						"propeller_speed_radps": 11.5048574179339,
+						"requested_load_g": 0.83898335839721,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 95.8738118161155,
+						"stall_margin": 2.13220277959289,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 368.689514160156,
+						"terrain_lookahead_s": 4.75629050785187,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -7.75111818313599
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.953018941821999,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.265094709109992,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.265028042443326,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 63.2615153326869,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					368.560546875,
+					-338.057647705078
+				],
+				"rotation_rad": [
+					-0.0809354186058044,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-7.75111818313599,
+					-95.5599670410156
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 208,
+			"time_s": 3.46666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 155,
+				"allocated": 155,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 155,
+				"peak_visible": 155,
+				"preempted": 0,
+				"render_instances": 155,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 155
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 3.66666666666667,
+				"time_s": 3.66666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 3.66666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0144481658935547,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 357.56142783165,
+						"elevator_rad": -0.00504078154908395,
+						"energy_height_m": 834.3412924982,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.0838779881596565,
+							-0.996476054191589
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 366.981872558594,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 250.769987366365,
+						"lift_up_m": [
+							0.0,
+							0.996476054191589,
+							-0.0838779881596565
+						],
+						"load_factor": 0.855435338108953,
+						"load_limit": 4.53562079275018,
+						"path_pitch_rad": -0.0839766531949767,
+						"path_pitch_rate_radps": -0.0144478590103167,
+						"path_turn_rate_radps": 0.0144478083104381,
+						"propeller_phase_rad": 6.14494491701867,
+						"propeller_speed_radps": 11.4889960988705,
+						"requested_load_g": 0.855435338108953,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 95.7416341572541,
+						"stall_margin": 2.12946034158376,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 367.115539550781,
+						"terrain_lookahead_s": 4.76161602102467,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -8.03061580657959
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.952858941821998,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.264294709109992,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.264228042443326,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 63.1027185072209,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					366.981872558594,
+					-357.153961181641
+				],
+				"rotation_rad": [
+					-0.0839766561985016,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-8.03061580657959,
+					-95.4042434692383
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 220,
+			"time_s": 3.66666666666667
+		},
+		{
+			"case": "engine",
+			"controlled": true,
+			"definition_id": "us_f6f5_1944",
+			"effects": {
+				"active": 167,
+				"allocated": 167,
+				"dropped": 0,
+				"engine_sources": 2,
+				"last_sequence": 42,
+				"materials": 167,
+				"peak_visible": 167,
+				"preempted": 0,
+				"render_instances": 167,
+				"shown_events": 42,
+				"sound_sources": 0,
+				"visible_instances": 167
+			},
+			"environment": {
+				"children": 3,
+				"clouds_enabled": true,
+				"sky_id": -9223371989291366920,
+				"sky_time_s": 3.86666666666667,
+				"time_s": 3.86666666666667,
+				"water_id": -9223371989224258038,
+				"water_time_s": 3.86666666666667
+			},
+			"event_count": 42,
+			"maximum_fragments": 0,
+			"model": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 50,
+				"suppressed_fragments": 0
+			},
+			"target": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							-0.0129362922161818,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 376.69708096981,
+						"elevator_rad": -0.00454039723263222,
+						"energy_height_m": 831.482893829996,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.0865911245346069,
+							-0.996244013309479
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.966195833332,
+						"fuel_used_kg": 0.0338041666666667,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 365.350341796875,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 249.579488924487,
+						"lift_up_m": [
+							0.0,
+							0.996244013309479,
+							-0.0865911245346069
+						],
+						"load_factor": 0.870129042240817,
+						"load_limit": 4.52453353268932,
+						"path_pitch_rad": -0.0866996948391189,
+						"path_pitch_rate_radps": -0.0129357787421877,
+						"path_turn_rate_radps": 0.0129359399169663,
+						"propeller_phase_rad": 2.15791209564988,
+						"propeller_speed_radps": 11.4739062743337,
+						"requested_load_g": 0.870129042240817,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "glide",
+						"speed_mps": 95.6158856194472,
+						"stall_margin": 2.12686706708591,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 365.488159179688,
+						"terrain_lookahead_s": 4.76665042776279,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": -8.27948665618896
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [],
+							"fragments": [],
+							"terminal_started": false
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.800000011920929,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_smoke",
+								"intensity": 0.952698941821999,
+								"kind": "smoke",
+								"part_id": "engine",
+								"size_m": 2.4
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.649999976158142,
+									-2.79999995231628
+								],
+								"enabled": true,
+								"id": "engine_fire",
+								"intensity": 0.263494709109992,
+								"kind": "fire",
+								"part_id": "engine",
+								"size_m": 1.3
+							}
+						],
+						"fire": 0.263428042443326,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 0.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 1.0,
+							"wing_right": 1.0
+						},
+						"phase": "operational",
+						"phase_time_s": 0.0,
+						"propulsion_factor": 0.0,
+						"structure": 62.9444016817549,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					365.350341796875,
+					-376.219940185547
+				],
+				"rotation_rad": [
+					-0.0866996943950653,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-8.27948665618896,
+					-95.2567520141602
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"tick": 232,
+			"time_s": 3.86666666666667
+		}
+	],
+	"scope": "Controlled existing-ammo projectile review, not default/natural AI battle or performance benchmark."
+}

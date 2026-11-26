@@ -1,0 +1,168 @@
+{
+  "id": "s14_autonomy_low_fuel",
+  "seed": 707,
+  "tick_hz": 60,
+  "factions": [
+    "jp",
+    "us"
+  ],
+  "spawns": [
+    {
+      "id": "us_air_1",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        0,
+        1500,
+        9700
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        -0.0,
+        0,
+        -100.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650,
+          "fuel_kg": 5
+        }
+      }
+    },
+    {
+      "id": "jp_air_1",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        0,
+        1500,
+        5900
+      ],
+      "rotation_rad": [
+        0,
+        3.141592653589793,
+        0
+      ],
+      "velocity_mps": [
+        -1.2246467991473532e-14,
+        0,
+        100.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "us_air",
+      "faction_id": "us",
+      "member_ids": [
+        "us_air_1"
+      ]
+    },
+    {
+      "id": "jp_air",
+      "faction_id": "jp",
+      "member_ids": [
+        "jp_air_1"
+      ]
+    }
+  ],
+  "presentation": {
+    "title": "\u9752\u5cac\u7fa4\u5c9b \u00b7 \u5168\u5355\u4f4d",
+    "subtitle": "\u56db\u8230 \u00b7 \u4e09\u578b\u673a \u00b7 \u5cb8\u9632 \u00b7 \u771f\u5b9e\u7f16\u961f\u4e0e\u7acb\u4f53\u98de\u884c",
+    "names": {
+      "jp_bb": "\u5927\u548c",
+      "jp_dd": "\u96ea\u98ce",
+      "us_bb": "\u8863\u963f\u534e",
+      "us_dd": "\u5f17\u83b1\u5f7b",
+      "jp_fleet": "\u65e5\u65b9\u8230\u961f",
+      "us_fleet": "\u7f8e\u65b9\u8230\u961f",
+      "jp_air": "\u96f6\u6218\u56db\u673a\u961f",
+      "us_air": "\u5730\u72f1\u732b\u56db\u673a\u961f",
+      "jp_air_1": "\u96f6\u6218 1 \u53f7",
+      "jp_air_2": "\u96f6\u6218 2 \u53f7",
+      "jp_air_3": "\u96f6\u6218 3 \u53f7",
+      "jp_air_4": "\u96f6\u6218 4 \u53f7",
+      "us_air_1": "\u5730\u72f1\u732b 1 \u53f7",
+      "us_air_2": "\u5730\u72f1\u732b 2 \u53f7",
+      "us_air_3": "\u5730\u72f1\u732b 3 \u53f7",
+      "us_air_4": "\u5730\u72f1\u732b 4 \u53f7",
+      "jp_pair_1": "\u96f6\u6218\u7b2c1\u53cc\u673a\u7ec4",
+      "jp_pair_2": "\u96f6\u6218\u7b2c2\u53cc\u673a\u7ec4",
+      "us_pair_1": "\u5730\u72f1\u732b\u7b2c1\u53cc\u673a\u7ec4",
+      "us_pair_2": "\u5730\u72f1\u732b\u7b2c2\u53cc\u673a\u7ec4",
+      "us_coast_01": "\u6e2f\u53e3 Mk13 \u5cb8\u70ae",
+      "us_aa_01": "\u6e2f\u533a M1 \u9632\u7a7a\u4e00\u7ec4",
+      "us_aa_02": "\u6e2f\u533a M1 \u9632\u7a7a\u4e8c\u7ec4",
+      "us_garrison": "\u7f8e\u65b9\u5cb8\u9632\u9a7b\u519b",
+      "us_pair_demo_1": "\u5de1\u822a\u53cc\u673a 1",
+      "us_sb2c_1": "SB2C-4 1 \u00b7 \u53d7\u62a4\u822a",
+      "us_pair_demo_2": "\u5de1\u822a\u53cc\u673a 2",
+      "us_sb2c_2": "SB2C-4 2 \u00b7 \u53d7\u62a4\u822a",
+      "us_cruise_pair": "\u5de1\u822a\u53cc\u673a\u7ec4",
+      "us_strike": "SB2C \u5de1\u822a\u53cc\u673a\u7ec4"
+    },
+    "duration_s": 600,
+    "disengaged_after_s": 120,
+    "minimum_duration_s": 600
+  },
+  "environment": {
+    "sea_level_m": 0,
+    "friendly_fire": false,
+    "solids": []
+  },
+  "ground_deployments": [],
+  "fleet_overrides": {
+    "commanders": {
+      "us": {
+        "patrol_center_m": [
+          0,
+          0,
+          8000
+        ],
+        "patrol_radius_m": 1200,
+        "air_retreat_center_m": [
+          10000,
+          1500,
+          8500
+        ]
+      },
+      "jp": {
+        "patrol_center_m": [
+          0,
+          0,
+          8000
+        ],
+        "patrol_radius_m": 1200,
+        "air_retreat_center_m": [
+          -10000,
+          1500,
+          8500
+        ]
+      }
+    }
+  },
+  "aircraft_tasks_script": "res://scripts/showcase/sb2c_showcase_tasks.gd",
+  "combat_overlay_path": "res://data/combat/s14_sb2c.json",
+  "showcase": {
+    "mode": "guided"
+  }
+}

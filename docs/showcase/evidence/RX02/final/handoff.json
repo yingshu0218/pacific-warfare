@@ -1,0 +1,45 @@
+{
+  "task": "RX02",
+  "created_utc": "2026-11-12T12:20:05.152088+00:00",
+  "status": "source_and_native_evidence_complete; final ordinary build and Chrome pending root",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "source_manifest": "docs/showcase/evidence/RX02/final/source-manifest.json",
+  "source_manifest_sha256": "c0cd8cb732826e4ddc08d41d1944f07a9070111bbdf923ba4be0994cb150925d",
+  "runtime_source_count": 11,
+  "current_and_frozen_sources_match": true,
+  "new_whitelist_paths": [
+    "scripts/presentation/state/pose_history.gd",
+    "scripts/presentation/environment/chart_water_mesh.gd"
+  ],
+  "delivery": "docs/deliveries/RX02.md",
+  "interface": "docs/showcase/RX02-presentation-contract.md",
+  "evidence": {
+    "mechanisms": "docs/showcase/evidence/RX02/mechanisms-r7.json",
+    "metrics": "docs/showcase/evidence/RX02/derived.json",
+    "sequence_hashes": "docs/showcase/evidence/RX02/sequences.json",
+    "cleanup": "docs/showcase/evidence/RX02/final/cleanup-audit.json",
+    "map_before": "docs/showcase/evidence/RX02/map-before",
+    "map_after": "docs/showcase/evidence/RX02/map-after-r1",
+    "fire_clip": "docs/showcase/evidence/RX02/fire-heavy-r3/continuous.mp4",
+    "follow_clip": "docs/showcase/evidence/RX02/follow-sequence/continuous.mp4"
+  },
+  "final_validation_reports": {
+    "mechanisms_50_checks": ".local/validation/runs/20261112T115221-7c00efd0/report.json",
+    "final_heavy_camera": ".local/validation/runs/20261112T120400-e2fec680/report.json",
+    "final_follow": ".local/validation/runs/20261112T120649-b17b0566/report.json",
+    "encoding": ".local/validation/runs/20261112T121233-2657d3f4/report.json"
+  },
+  "validation_binding": "Mechanism r7 precedes only final heavy-main-gun camera priority adjustment; final heavy-camera native sequence validates that adjustment. Map r1 precedes removal of sub-2mm collinear sea slivers; r7 validates final 417-triangle mesh. Neither native clip is a real-time browser FPS result.",
+  "cleanup_summary": {
+    "runs": 23,
+    "all_recorded_cleanup_ok": true,
+    "live_owned_processes": []
+  },
+  "ownership": "RX01/root owns effects, projectiles, damage and final combined ordinary build/Chrome. RX02 did not overwrite those modules.",
+  "pending_root": [
+    "Add two new runtime paths to ordinary whitelist",
+    "Build combined RX01/RX02 ordinary export",
+    "Chrome controls, focus, coast, follow, real combat and ship damage presentation verification",
+    "M5 16GB browser performance acceptance"
+  ]
+}

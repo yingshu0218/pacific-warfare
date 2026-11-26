@@ -1,0 +1,195 @@
+{
+	"counts": {
+		"airburst": 197,
+		"aircraft_fire": 92,
+		"command_applied": 86,
+		"command_rejected": 1,
+		"damage_phase": 6,
+		"damaged": 53,
+		"disabled": 3,
+		"fired": 2548,
+		"fleet_flagship_changed": 8,
+		"hit": 78,
+		"main_gun_fire": 78,
+		"order_assignments_changed": 31,
+		"order_execution_changed": 559,
+		"order_issued": 17,
+		"order_status_changed": 47,
+		"projectile_expired": 2133,
+		"salvo": 64,
+		"ship_support_fire": 2378,
+		"surface_impact": 122,
+		"target_changed": 69
+	},
+	"manual_camera_calls": false,
+	"scope": "Actual first_playable.tscn and automatic camera; only normal cinema UI is collapsed",
+	"source_sha256": {
+		"res://data/combat/showcase.json": "b9da40fadec7a1157460b5a7a1c295083497c2a3b062c755034fd1b57a9c0191",
+		"res://data/scenarios/first_playable.json": "9d54380fcc11038a662617809b1c8705b6ec27d8cd3f0f872db7e410a79bff03",
+		"res://scripts/game/first_playable.gd": "732888ddb495a4cb33c82f2b61e78dcf1b0ff3bcc2dced978bef4ef310a21a6a",
+		"res://scripts/game/first_playable_session.gd": "03fc6b050f17e79ef2e53566e7d85012398388b55c16463d4fb20c1c2758ddb7",
+		"res://scripts/presentation/cameras/observer_camera.gd": "635354fd844e29e44996574d5214e00a7fb450f162b430b46b9a47feb2bc3e83",
+		"res://scripts/presentation/effects/combat_effects.gd": "4e42150774b254d7a484d935c56d93e070f937437272942bca9d2222659b2b3a",
+		"res://tests/first_playable_auto_capture.gd": "1e9cd3835618cd228269574b768b2fcd7827022bb89255a8233cbc786c1824f1"
+	},
+	"time_s": 115.0,
+	"views": [
+		{
+			"camera_focus_m": "(-371.2968, 920.7106, -101.2735)",
+			"camera_label": "近距空战",
+			"camera_mode": "auto",
+			"camera_position_m": "(-420.0432, 928.1563, -68.65166)",
+			"effects": {
+				"active": 86,
+				"allocated": 86,
+				"dropped": 0,
+				"engine_sources": 4,
+				"last_sequence": 268,
+				"shown_events": 268,
+				"sound_sources": 0
+			},
+			"followed_id": "jp_air_1",
+			"shot_serial": 1,
+			"shot_trigger": {
+				"id": "jp_air_1",
+				"importance": 5,
+				"kind": "air_engagement",
+				"phase": "approach",
+				"position_m": "(-798.7722, 916.1901, -100.0853)",
+				"target_id": "us_air_1",
+				"time_s": 9.25
+			},
+			"source_age_s": 0.0333333333333332,
+			"source_event": {
+				"data": {
+					"ammo_id": "jp_77mm_type97_ball",
+					"barrel_index": 0,
+					"caliber_m": 0.0077,
+					"elevation_rad": 0.0,
+					"flight_time_s": 0.746163495409691,
+					"gravity_mps2": 9.80665,
+					"muzzle_direction": "(0.999937, 0.002424, -0.010996)",
+					"projectile_id": "projectile_00000080",
+					"tracer": false,
+					"train_rad": 0.0,
+					"velocity_mps": "(870.4976, 2.169687, -9.716224)"
+				},
+				"entity_id": "jp_air_1",
+				"event_id": "event_00000258",
+				"kind": "fired",
+				"position_m": "(-371.3804, 919.2411, -101.5116)",
+				"sequence": 258,
+				"target_id": "us_air_1",
+				"tick": 770,
+				"time_s": 12.8333333333333,
+				"weapon_id": "jp_air_1/cowl_port_01"
+			},
+			"time_s": 12.8666666666667,
+			"view": "auto_air_combat"
+		},
+		{
+			"camera_focus_m": "(-4046.941, 10.0, -369.2896)",
+			"camera_label": "主炮跟拍",
+			"camera_mode": "auto",
+			"camera_position_m": "(-3806.224, 99.76315, -242.8341)",
+			"effects": {
+				"active": 137,
+				"allocated": 311,
+				"dropped": 0,
+				"engine_sources": 4,
+				"last_sequence": 2001,
+				"shown_events": 2001,
+				"sound_sources": 0
+			},
+			"followed_id": "jp_bb",
+			"shot_serial": 4,
+			"shot_trigger": {
+				"alignment_rad": 0.156659349799156,
+				"id": "jp_bb",
+				"importance": 5,
+				"kind": "gunnery_ready",
+				"mount_id": "main_03",
+				"mount_status": "traversing",
+				"position_m": "(-4042.68, 0.0, -347.2971)",
+				"remaining_s": 0.0,
+				"target_id": "us_bb",
+				"time_s": 35.1833333333333
+			},
+			"source_age_s": 0.0333333333333385,
+			"source_event": {
+				"data": {
+					"ammo_id": "jp_460mm_ap",
+					"barrel_index": 0,
+					"caliber_m": 0.46,
+					"elevation_rad": 0.0622561310883131,
+					"flight_time_s": 10.1224707535852,
+					"gravity_mps2": 9.80665,
+					"muzzle_direction": "(0.995581, 0.063628, 0.069071)",
+					"projectile_id": "projectile_00001331",
+					"tracer": true,
+					"train_rad": 1.30957871541313,
+					"velocity_mps": "(774.7917, 49.62953, 44.85185)"
+				},
+				"entity_id": "jp_bb",
+				"event_id": "event_00001998",
+				"kind": "fired",
+				"position_m": "(-4013.606, 14.18878, -307.6821)",
+				"sequence": 1998,
+				"target_id": "us_dd",
+				"tick": 2253,
+				"time_s": 37.55,
+				"weapon_id": "jp_bb/main_03"
+			},
+			"time_s": 37.5833333333333,
+			"view": "auto_bb_gunnery"
+		},
+		{
+			"camera_focus_m": "(-3453.179, 1400.173, 1130.999)",
+			"camera_label": "防空空爆",
+			"camera_mode": "auto",
+			"camera_position_m": "(-3451.786, 1429.725, 1035.475)",
+			"effects": {
+				"active": 31,
+				"allocated": 311,
+				"dropped": 0,
+				"engine_sources": 4,
+				"last_sequence": 6022,
+				"shown_events": 6022,
+				"sound_sources": 0
+			},
+			"followed_id": "",
+			"shot_serial": 11,
+			"shot_trigger": {
+				"id": "",
+				"importance": 2,
+				"kind": "airburst",
+				"position_m": "(-3453.179, 1400.173, 1130.999)",
+				"sequence": 6021,
+				"time_s": 114.75
+			},
+			"source_age_s": 0.25,
+			"source_event": {
+				"data": {
+					"ammo_id": "us_127mm_5in38_shell",
+					"caliber_m": 0.127,
+					"energy_j": 7537164.0625,
+					"projectile_id": "projectile_00002531",
+					"radius_m": 24.0,
+					"source_faction_id": "us",
+					"velocity_mps": "(-739.568, 87.95345, 219.7192)"
+				},
+				"entity_id": "us_bb",
+				"event_id": "event_00006021",
+				"kind": "airburst",
+				"position_m": "(-3453.179, 1400.173, 1130.999)",
+				"sequence": 6021,
+				"target_id": "",
+				"tick": 6885,
+				"time_s": 114.75,
+				"weapon_id": "us_bb/secondary_02_port"
+			},
+			"time_s": 115.0,
+			"view": "auto_airburst"
+		}
+	]
+}

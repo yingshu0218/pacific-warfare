@@ -1,0 +1,43 @@
+{
+	"airburst": {
+		"heavy_life_s": 7.2,
+		"heavy_size_m": 8.0645,
+		"self_destruct_age_s": 8.5,
+		"self_destruct_life_s": 1.8,
+		"self_destruct_size_m": 0.684
+	},
+	"current_pose": {
+		"attached_fire_samples": 82,
+		"frames": 46,
+		"maximum_fire_anchor_error_m": 0.0,
+		"maximum_smoke_source_error_m": 0.0,
+		"presentation_ticks": 4,
+		"speed_mps": 96.2
+	},
+	"pool": {
+		"active": 7,
+		"allocated": 24,
+		"dropped": 0,
+		"engine_sources": 0,
+		"last_sequence": 2,
+		"materials": 24,
+		"peak_visible": 7,
+		"preempted": 0,
+		"render_instances": 24,
+		"shown_events": 2,
+		"sound_sources": 0,
+		"visible_instances": 7
+	},
+	"release_safe_fixture": {
+		"events": 2,
+		"identical_events": true,
+		"identical_state": true
+	},
+	"scope": "Controlled real projectile tests and explicit read-model/stress fixtures; not natural battle",
+	"trail": {
+		"active_smoke": 144,
+		"max_subsamples_per_emitter": 16,
+		"maximum_source_gap_m": 2.14288330078125,
+		"speed_mps": 150
+	}
+}

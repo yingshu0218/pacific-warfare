@@ -1,0 +1,21 @@
+{
+  "applied_utc": "2026-11-11T17:24:12.741008+00:00",
+  "approval": "docs/showcase/acceptance/S14-bombing-preview-admission.json",
+  "plan_sha256": "a41c00a4a17306a80acb6aca51b2536e0778476d885c0eea60291b33f8bc9e34",
+  "source_manifest_sha256": "dea38bbf6559714c6f778b8e21ea76e060497b92a0f0430b224c78057593d514",
+  "applied_paths": 77,
+  "runtime_paths": 535,
+  "root_project_sha256": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+  "root_export_presets_sha256": "506fdf4cbeb9ad1d089d98d7944125aa4cfea75a8d49c4677fdcc55b6cf773fc",
+  "previous_ordinary_backup": "candidates/s14-bombing/evidence/public-before/build/first-playable",
+  "public_paths_match_frozen_candidate": true,
+  "scope": "User preview admission; final performance/long test pending",
+  "runtime_enablement": {
+    "path": "scripts/bombing/.gdignore",
+    "operation": "remove obsolete isolation marker",
+    "before_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backup": "candidates/s14-bombing/evidence/public-before/scripts/bombing/.gdignore",
+    "reason": "Ordinary builder correctly rejects admitted resources under .gdignore; directory contains exactly the8 reviewed bomber scripts and no unadmitted files",
+    "runtime_files_unchanged": true
+  }
+}

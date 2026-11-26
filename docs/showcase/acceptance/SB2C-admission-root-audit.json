@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-11-10T19:14:07.723201+00:00",
+  "source_manifest_sha256": "ec8fec31ce30d36680e64d8847e01750381ff306dc613117fd294bef130c944d",
+  "source_count": 9,
+  "reference_count": 6,
+  "captures": 14,
+  "mismatches": [],
+  "verification_runs": 48,
+  "failed_or_lock_wait_runs": [
+    {
+      "run_id": "20261110T184327-162140df",
+      "error": ""
+    },
+    {
+      "run_id": "20261110T184337-0277e346",
+      "error": "lock_timeout"
+    },
+    {
+      "run_id": "20261110T184640-5f88d71d",
+      "error": "lock_timeout"
+    },
+    {
+      "run_id": "20261110T190053-419c68bb",
+      "error": "lock_timeout"
+    },
+    {
+      "run_id": "20261110T190608-3f3a71c0",
+      "error": "lock_timeout"
+    }
+  ],
+  "process_groups_checked": 75,
+  "remaining_groups": [],
+  "unknown_groups": [],
+  "passed": true,
+  "scope": "Model/interface/recorded native evidence audit only; S14 final integration and Chrome pending. R2 source silhouette, canopy and gear reviewed visually; not measured historical 1:1 reproduction."
+}

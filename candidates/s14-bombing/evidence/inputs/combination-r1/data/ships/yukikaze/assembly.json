@@ -1,0 +1,899 @@
+{
+  "id": "jp_yukikaze_1942_06",
+  "country_id": "jp",
+  "unit_definition": "res://data/units/jp_yukikaze_1942_06.json",
+  "hull": {
+    "source_ids": [
+      "Y01",
+      "Y02",
+      "Y07",
+      "T05"
+    ],
+    "linoleum_spans_m": [
+      [
+        -45,
+        -24
+      ],
+      [
+        18,
+        44
+      ]
+    ],
+    "stations": [
+      [
+        -59.25,
+        0.015,
+        5.8,
+        -0.03,
+        2.8
+      ],
+      [
+        -57.0,
+        0.75,
+        5.55,
+        -1.6,
+        2.0
+      ],
+      [
+        -53.0,
+        1.95,
+        5.35,
+        -2.8,
+        1.2
+      ],
+      [
+        -48.0,
+        3.0,
+        5.2,
+        -3.5,
+        0.45
+      ],
+      [
+        -40.9,
+        4.05,
+        5.1,
+        -3.76,
+        0
+      ],
+      [
+        -33,
+        4.78,
+        5.1,
+        -3.76,
+        0
+      ],
+      [
+        -26,
+        5.18,
+        5.1,
+        -3.76,
+        0
+      ],
+      [
+        -20.5,
+        5.32,
+        5.1,
+        -3.76,
+        0
+      ],
+      [
+        -20.49,
+        5.32,
+        3.0,
+        -3.76,
+        0
+      ],
+      [
+        -10,
+        5.4,
+        3.0,
+        -3.76,
+        0
+      ],
+      [
+        0,
+        5.4,
+        3.0,
+        -3.76,
+        0
+      ],
+      [
+        10,
+        5.35,
+        3.0,
+        -3.76,
+        0
+      ],
+      [
+        20,
+        5.12,
+        3.0,
+        -3.76,
+        0
+      ],
+      [
+        30,
+        4.7,
+        3.0,
+        -3.76,
+        0
+      ],
+      [
+        40,
+        4.1,
+        3.0,
+        -3.5,
+        0
+      ],
+      [
+        49,
+        3.6,
+        3.0,
+        -2.8,
+        -0.15
+      ],
+      [
+        55,
+        2.85,
+        3.0,
+        -1.7,
+        -0.35
+      ],
+      [
+        58,
+        1.7,
+        3.0,
+        -0.7,
+        -0.5
+      ],
+      [
+        59.25,
+        0.015,
+        3.0,
+        -0.03,
+        -0.5
+      ]
+    ],
+    "surfaces": [
+      {
+        "id": "main_a_deck",
+        "position_m": [
+          0,
+          5.196,
+          -40.9
+        ],
+        "radius_m": 2.8
+      },
+      {
+        "id": "main_y_deck",
+        "position_m": [
+          0,
+          3.096,
+          35.75
+        ],
+        "radius_m": 2.8
+      }
+    ]
+  },
+  "structures": {
+    "bridge": [
+      {
+        "id": "bridge_lower",
+        "position_m": [
+          0,
+          5.196,
+          -27.05
+        ],
+        "shape": "round_front",
+        "width_m": 5.1,
+        "length_m": 6.25,
+        "height_m": 3.5,
+        "source_ids": [
+          "Y01",
+          "Y02",
+          "Y05"
+        ],
+        "top_scale": 0.96
+      },
+      {
+        "id": "pilot_house",
+        "position_m": [
+          0,
+          8.756,
+          -27.05
+        ],
+        "shape": "round_front",
+        "width_m": 6.0,
+        "length_m": 6.6,
+        "height_m": 1.75,
+        "source_ids": [
+          "Y01",
+          "Y02",
+          "Y04",
+          "Y05"
+        ],
+        "windows": [
+          [
+            [
+              -2.8977774788672046,
+              0.68,
+              -1.256457135307563
+            ],
+            [
+              0.7,
+              0.6,
+              0.065
+            ],
+            75
+          ],
+          [
+            [
+              -2.2981333293569337,
+              0.68,
+              -2.4083628290596186
+            ],
+            [
+              0.7,
+              0.6,
+              0.065
+            ],
+            50
+          ],
+          [
+            [
+              -1.267854785222098,
+              0.68,
+              -3.19892336110995
+            ],
+            [
+              0.7,
+              0.6,
+              0.065
+            ],
+            25
+          ],
+          [
+            [
+              1.8369701987210297e-16,
+              0.68,
+              -3.48
+            ],
+            [
+              0.7,
+              0.6,
+              0.065
+            ],
+            0
+          ],
+          [
+            [
+              1.2678547852220983,
+              0.68,
+              -3.1989233611099497
+            ],
+            [
+              0.7,
+              0.6,
+              0.065
+            ],
+            -25
+          ],
+          [
+            [
+              2.298133329356934,
+              0.68,
+              -2.4083628290596177
+            ],
+            [
+              0.7,
+              0.6,
+              0.065
+            ],
+            -50
+          ],
+          [
+            [
+              2.897777478867205,
+              0.68,
+              -1.2564571353075622
+            ],
+            [
+              0.7,
+              0.6,
+              0.065
+            ],
+            -75
+          ]
+        ]
+      },
+      {
+        "id": "bridge_roof",
+        "position_m": [
+          0,
+          10.566,
+          -27.05
+        ],
+        "shape": "round_front",
+        "width_m": 6.1,
+        "length_m": 6.6,
+        "height_m": 0.12,
+        "source_ids": [
+          "Y01",
+          "Y02",
+          "Y05"
+        ]
+      },
+      {
+        "id": "director_pedestal",
+        "position_m": [
+          0,
+          10.746,
+          -27.05
+        ],
+        "shape": "ellipse",
+        "width_m": 2.4,
+        "length_m": 2.4,
+        "height_m": 0.35,
+        "source_ids": [
+          "Y01",
+          "Y02",
+          "Y05"
+        ]
+      }
+    ],
+    "funnels": [
+      {
+        "id": "forward_funnel",
+        "position_m": [
+          0,
+          5.256,
+          -14.6
+        ],
+        "shape": "ellipse",
+        "width_m": 3.5,
+        "length_m": 5.2,
+        "height_m": 6.95,
+        "source_ids": [
+          "Y01",
+          "Y02",
+          "T03"
+        ],
+        "funnel": true,
+        "rake_m": 0.65
+      },
+      {
+        "id": "aft_funnel",
+        "position_m": [
+          0,
+          5.256,
+          2.0
+        ],
+        "shape": "ellipse",
+        "width_m": 2.7,
+        "length_m": 3.8,
+        "height_m": 5.6,
+        "source_ids": [
+          "Y01",
+          "Y02",
+          "T01"
+        ],
+        "funnel": true,
+        "rake_m": 0.35
+      }
+    ],
+    "platforms": [
+      {
+        "id": "forward_boiler_house",
+        "position_m": [
+          0,
+          3.096,
+          -14.55
+        ],
+        "shape": "beveled",
+        "width_m": 6.3,
+        "length_m": 10.5,
+        "height_m": 2.1,
+        "source_ids": [
+          "Y01",
+          "Y02",
+          "T03"
+        ]
+      },
+      {
+        "id": "aft_boiler_house",
+        "position_m": [
+          0,
+          3.096,
+          2.4
+        ],
+        "shape": "beveled",
+        "width_m": 3.8,
+        "length_m": 5.0,
+        "height_m": 2.1,
+        "source_ids": [
+          "Y01",
+          "Y02",
+          "T01"
+        ]
+      },
+      {
+        "id": "aa_platform_port",
+        "position_m": [
+          -2.55,
+          5.196,
+          2.0
+        ],
+        "shape": "ellipse",
+        "width_m": 2.15,
+        "length_m": 2.65,
+        "height_m": 0.14,
+        "source_ids": [
+          "Y01",
+          "Y02",
+          "T01"
+        ],
+        "surfaces": [
+          {
+            "id": "floor",
+            "position_m": [
+              0,
+              0.2,
+              0
+            ],
+            "radius_m": 1.075
+          }
+        ]
+      },
+      {
+        "id": "aa_platform_starboard",
+        "position_m": [
+          2.55,
+          5.196,
+          2.0
+        ],
+        "shape": "ellipse",
+        "width_m": 2.15,
+        "length_m": 2.65,
+        "height_m": 0.14,
+        "source_ids": [
+          "Y01",
+          "Y02",
+          "T01"
+        ],
+        "surfaces": [
+          {
+            "id": "floor",
+            "position_m": [
+              0,
+              0.2,
+              0
+            ],
+            "radius_m": 1.075
+          }
+        ]
+      },
+      {
+        "id": "aft_deckhouse",
+        "position_m": [
+          0,
+          3.096,
+          25.7
+        ],
+        "shape": "beveled",
+        "width_m": 5.7,
+        "length_m": 13.8,
+        "height_m": 2.1,
+        "source_ids": [
+          "Y01",
+          "Y02",
+          "T02",
+          "T04"
+        ],
+        "surfaces": [
+          {
+            "id": "roof",
+            "position_m": [
+              0,
+              2.16,
+              0
+            ],
+            "radius_m": 2.85
+          }
+        ]
+      },
+      {
+        "id": "searchlight_stand",
+        "position_m": [
+          0,
+          3.096,
+          6.8
+        ],
+        "shape": "ellipse",
+        "width_m": 1.8,
+        "length_m": 1.8,
+        "height_m": 2.1,
+        "source_ids": [
+          "Y02",
+          "T01"
+        ]
+      }
+    ]
+  },
+  "equipment": [
+    {
+      "id": "foremast",
+      "kind": "mast",
+      "position_m": [
+        0,
+        3.096,
+        -21.4
+      ],
+      "height_m": 19.5,
+      "tripod": true,
+      "radar": false,
+      "source_ids": [
+        "Y01",
+        "Y02"
+      ]
+    },
+    {
+      "id": "aft_mast",
+      "kind": "mast",
+      "position_m": [
+        0,
+        5.256,
+        20.8
+      ],
+      "height_m": 12.6,
+      "tripod": true,
+      "radar": false,
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "T02"
+      ]
+    },
+    {
+      "id": "type94_director",
+      "kind": "director",
+      "position_m": [
+        0,
+        11.156,
+        -27.05
+      ],
+      "usn": false,
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "Y05"
+      ]
+    },
+    {
+      "id": "torpedo_01",
+      "kind": "torpedo",
+      "position_m": [
+        0,
+        3.096,
+        -4.6
+      ],
+      "tube_count": 4,
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "T01",
+        "T05"
+      ]
+    },
+    {
+      "id": "torpedo_02",
+      "kind": "torpedo",
+      "position_m": [
+        0,
+        3.096,
+        12.7
+      ],
+      "tube_count": 4,
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "T02",
+        "T05"
+      ]
+    },
+    {
+      "id": "fore_boat_port",
+      "kind": "boat",
+      "position_m": [
+        -4.0,
+        5.12,
+        -26.0
+      ],
+      "length_m": 6.2,
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "T03"
+      ],
+      "deck_y_m": 5.15
+    },
+    {
+      "id": "fore_boat_starboard",
+      "kind": "boat",
+      "position_m": [
+        4.0,
+        5.12,
+        -26.0
+      ],
+      "length_m": 6.2,
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "T03"
+      ],
+      "deck_y_m": 5.15
+    },
+    {
+      "id": "waist_boat_port",
+      "kind": "boat",
+      "position_m": [
+        -4.05,
+        3.11,
+        5.9
+      ],
+      "length_m": 6.5,
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "T01",
+        "T02"
+      ],
+      "deck_y_m": 3.1
+    },
+    {
+      "id": "waist_boat_starboard",
+      "kind": "boat",
+      "position_m": [
+        4.05,
+        3.11,
+        5.9
+      ],
+      "length_m": 6.5,
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "T01",
+        "T02"
+      ],
+      "deck_y_m": 3.1
+    },
+    {
+      "id": "depth_rack_port",
+      "kind": "depth_rack",
+      "position_m": [
+        -1.0,
+        3.1,
+        52.7
+      ],
+      "source_ids": [
+        "Y02",
+        "T02"
+      ]
+    },
+    {
+      "id": "depth_rack_starboard",
+      "kind": "depth_rack",
+      "position_m": [
+        1.0,
+        3.1,
+        52.7
+      ],
+      "source_ids": [
+        "Y02",
+        "T02"
+      ]
+    },
+    {
+      "id": "searchlight",
+      "kind": "searchlight",
+      "position_m": [
+        0,
+        5.256,
+        6.8
+      ],
+      "source_ids": [
+        "Y02",
+        "T01"
+      ]
+    },
+    {
+      "id": "fore_reload_port",
+      "kind": "reload",
+      "position_m": [
+        -2.3,
+        3.1,
+        -14.7
+      ],
+      "size_m": [
+        1.1,
+        1.5,
+        8.6
+      ],
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "T03"
+      ]
+    },
+    {
+      "id": "aft_reload_port",
+      "kind": "reload",
+      "position_m": [
+        -2.3,
+        3.1,
+        7.3
+      ],
+      "size_m": [
+        1.1,
+        0.95,
+        7.2
+      ],
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "T01"
+      ]
+    },
+    {
+      "id": "fore_reload_starboard",
+      "kind": "reload",
+      "position_m": [
+        2.3,
+        3.1,
+        -14.7
+      ],
+      "size_m": [
+        1.1,
+        1.5,
+        8.6
+      ],
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "T03"
+      ]
+    },
+    {
+      "id": "aft_reload_starboard",
+      "kind": "reload",
+      "position_m": [
+        2.3,
+        3.1,
+        7.3
+      ],
+      "size_m": [
+        1.1,
+        0.95,
+        7.2
+      ],
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "T01"
+      ]
+    },
+    {
+      "id": "anchor_-3_12",
+      "kind": "anchor",
+      "position_m": [
+        -3.12,
+        3.5,
+        -47.0
+      ],
+      "yaw_deg": 90,
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "Y07"
+      ]
+    },
+    {
+      "id": "anchor_3_12",
+      "kind": "anchor",
+      "position_m": [
+        3.12,
+        3.5,
+        -47.0
+      ],
+      "yaw_deg": 90,
+      "source_ids": [
+        "Y01",
+        "Y02",
+        "Y07"
+      ]
+    }
+  ],
+  "module_scenes": [
+    {
+      "id": "Hull",
+      "scene": "res://scenes/ships/yukikaze/hull.tscn"
+    },
+    {
+      "id": "Bridge",
+      "scene": "res://scenes/ships/yukikaze/bridge.tscn"
+    },
+    {
+      "id": "Funnels",
+      "scene": "res://scenes/ships/yukikaze/funnels.tscn"
+    },
+    {
+      "id": "Platforms",
+      "scene": "res://scenes/ships/yukikaze/platforms.tscn"
+    },
+    {
+      "id": "Equipment",
+      "scene": "res://scenes/ships/yukikaze/equipment.tscn"
+    }
+  ],
+  "installations": {
+    "main_a": {
+      "surface_id": "main_a_deck",
+      "surface_offset_m": [
+        0,
+        0,
+        0
+      ],
+      "foundation_height_m": 0.18,
+      "foundation_radius_m": 1.96,
+      "interface_id": "jp_127mm_type_c",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/jp_127mm_type_c.tscn"
+    },
+    "main_x": {
+      "surface_id": "roof",
+      "surface_offset_m": [
+        0,
+        0,
+        1.85
+      ],
+      "foundation_height_m": 0.18,
+      "foundation_radius_m": 1.96,
+      "interface_id": "jp_127mm_type_c",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/jp_127mm_type_c.tscn"
+    },
+    "main_y": {
+      "surface_id": "main_y_deck",
+      "surface_offset_m": [
+        0,
+        0,
+        0
+      ],
+      "foundation_height_m": 0.18,
+      "foundation_radius_m": 1.96,
+      "interface_id": "jp_127mm_type_c",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/jp_127mm_type_c.tscn"
+    },
+    "aa_25_port": {
+      "surface_id": "floor",
+      "surface_offset_m": [
+        0,
+        0,
+        0
+      ],
+      "foundation_height_m": 0.12,
+      "foundation_radius_m": 0.84,
+      "interface_id": "jp_type96_twin",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/jp_type96_twin.tscn"
+    },
+    "aa_25_starboard": {
+      "surface_id": "floor",
+      "surface_offset_m": [
+        0,
+        0,
+        0
+      ],
+      "foundation_height_m": 0.12,
+      "foundation_radius_m": 0.84,
+      "interface_id": "jp_type96_twin",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/jp_type96_twin.tscn"
+    }
+  }
+}

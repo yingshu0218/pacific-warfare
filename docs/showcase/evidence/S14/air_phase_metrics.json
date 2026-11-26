@@ -1,0 +1,137 @@
+{
+  "pair": {
+    "frames": 240,
+    "duration_s": 24,
+    "min_active_speed_mps": 73.0518419584415,
+    "max_active_bank_deg": 65.28319154511837,
+    "max_active_path_pitch_deg": 23.387446134840992,
+    "sampled_phases": {
+      "jp_air_1:track": 240,
+      "jp_air_2:track": 240,
+      "jp_air_3:high_cover": 240,
+      "jp_air_4:track": 240,
+      "us_air_1:track": 240,
+      "us_air_2:track": 240,
+      "us_air_3:vertical_rejoin": 57,
+      "us_air_4:track": 153,
+      "us_pair_demo_1:track": 240,
+      "us_pair_demo_2:track": 239,
+      "us_sb2c_1:track": 240,
+      "us_sb2c_2:track": 240,
+      "us_air_4:vertical_rejoin": 87,
+      "us_air_3:high_cover": 183,
+      "us_pair_demo_2:vertical_rejoin": 1
+    },
+    "guide_group_sizes": {
+      "2": 240
+    }
+  },
+  "four": {
+    "frames": 240,
+    "duration_s": 24,
+    "min_active_speed_mps": 73.0518419584415,
+    "max_active_bank_deg": 65.28319154511837,
+    "max_active_path_pitch_deg": 23.387446134840992,
+    "sampled_phases": {
+      "jp_air_1:track": 240,
+      "jp_air_2:track": 240,
+      "jp_air_3:high_cover": 240,
+      "jp_air_4:track": 240,
+      "us_air_1:track": 240,
+      "us_air_2:track": 240,
+      "us_air_3:vertical_rejoin": 57,
+      "us_air_4:track": 153,
+      "us_pair_demo_1:track": 240,
+      "us_pair_demo_2:track": 239,
+      "us_sb2c_1:track": 240,
+      "us_sb2c_2:track": 240,
+      "us_air_4:vertical_rejoin": 87,
+      "us_air_3:high_cover": 183,
+      "us_pair_demo_2:vertical_rejoin": 1
+    },
+    "guide_group_sizes": {
+      "4": 80,
+      "2": 160
+    }
+  },
+  "maneuver": {
+    "frames": 240,
+    "duration_s": 24,
+    "min_active_speed_mps": 73.0518419584415,
+    "max_active_bank_deg": 104.49411353452783,
+    "max_active_path_pitch_deg": 38.384424604296704,
+    "sampled_phases": {
+      "jp_air_1:track": 127,
+      "jp_air_2:track": 145,
+      "jp_air_3:track": 240,
+      "jp_air_4:track": 217,
+      "us_air_1:track": 240,
+      "us_air_2:track": 240,
+      "us_air_3:vertical_rejoin": 57,
+      "us_air_4:track": 153,
+      "us_pair_demo_1:break_turn_roll": 44,
+      "us_pair_demo_2:break_turn_roll": 43,
+      "us_sb2c_1:track": 240,
+      "us_sb2c_2:track": 240,
+      "us_air_4:vertical_rejoin": 87,
+      "us_pair_demo_1:break_turn_pull": 72,
+      "us_pair_demo_2:break_turn_pull": 70,
+      "us_pair_demo_1:track": 66,
+      "us_pair_demo_2:track": 69,
+      "us_air_3:high_cover": 183,
+      "us_pair_demo_1:separation": 58,
+      "us_pair_demo_2:separation": 58,
+      "jp_air_4:vertical_rejoin": 23,
+      "jp_air_1:separation": 69,
+      "jp_air_2:separation": 69,
+      "jp_air_1:zoom_climb": 44,
+      "jp_air_2:low_yoyo": 26
+    },
+    "guide_group_sizes": {
+      "1": 240
+    }
+  },
+  "escort": {
+    "frames": 240,
+    "duration_s": 24,
+    "min_active_speed_mps": 77.793772911499,
+    "max_active_bank_deg": 78.3192042848756,
+    "max_active_path_pitch_deg": 34.46080572595784,
+    "sampled_phases": {
+      "jp_air_1:track": 105,
+      "jp_air_2:high_cover": 83,
+      "jp_air_3:track": 230,
+      "jp_air_4:high_cover": 141,
+      "us_air_1:track": 144,
+      "us_air_2:track": 84,
+      "us_air_3:high_cover": 141,
+      "us_air_4:track": 154,
+      "us_pair_demo_1:track": 240,
+      "us_pair_demo_2:track": 239,
+      "us_sb2c_1:track": 240,
+      "us_sb2c_2:track": 185,
+      "jp_air_1:dive_attack": 80,
+      "us_air_3:vertical_rejoin": 13,
+      "us_air_2:vertical_rejoin": 7,
+      "us_air_2:dive_attack": 80,
+      "jp_air_2:vertical_rejoin": 38,
+      "jp_air_2:dive_attack": 72,
+      "jp_air_4:dive_attack": 76,
+      "us_air_1:dive_attack": 27,
+      "us_air_3:dive_attack": 86,
+      "us_air_4:dive_attack": 86,
+      "us_air_1:separation": 69,
+      "us_air_2:separation": 69,
+      "jp_air_1:zoom_climb": 55,
+      "us_sb2c_2:separation": 55,
+      "jp_air_2:track": 17,
+      "jp_air_2:zoom_climb": 30,
+      "jp_air_4:track": 23,
+      "jp_air_3:zoom_climb": 10,
+      "us_pair_demo_2:vertical_rejoin": 1
+    },
+    "guide_group_sizes": {
+      "3": 240
+    }
+  }
+}

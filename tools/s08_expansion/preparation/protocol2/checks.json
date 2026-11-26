@@ -1,0 +1,29 @@
+{
+  "scope": "Protocol2 offline adaptation only; old full suites not rerun",
+  "checks": [
+    {
+      "check": 0,
+      "chunk_id": "86f4a5",
+      "wall_time_seconds": 0.020300709,
+      "exit_code": 0,
+      "original_token_count": 269,
+      "output": "PASS Protocol2 numeric handshake, required callbacks and bounded order additions/removals\nPASS A full order-window replacement is atomic and repeated receive never resends history\nPASS Reset clears old state/caches once; duplicate and stale resets cannot erase current data\nPASS Event identities merge metrics/scene overlap, retain out-of-order unique sequences and reject conflicting kinds\nPASS Auxiliary metrics/UI may arrive before reset acknowledgement, without leaking previous-generation orders\nPASS A valid burst of 64 real sequence events uses one binding call and retains every event\nPASS Malformed order envelopes, missing reset and invalid event sequence fail closed\nPASS Protocol2 retains slow frames across reset and still stops on record/wire/backpressure limits\nPASS NDJSON batch writing preserves one event per line and rejects an oversized batch atomically\nPASS Legacy receive/events and original S08 metrics/ui remain supported\n{\"protocol2_synthetic_tests_passed\":10,\"Godot_started\":false,\"HTTP_started\":false,\"Chrome_started\":false,\"export_started\":false}\n"
+    },
+    {
+      "check": 1,
+      "chunk_id": "ba82c3",
+      "wall_time_seconds": 0.000006708,
+      "exit_code": 0,
+      "original_token_count": 95,
+      "output": "test_numeric_protocol2_accepted_only_with_other_final_bindings (__main__.Protocol2ContractTests) ... ok\ntest_protocol2_does_not_relax_input_or_performance_gates (__main__.Protocol2ContractTests) ... ok\ntest_unbound_template_still_rejects (__main__.Protocol2ContractTests) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "check": 2,
+      "chunk_id": "8e856d",
+      "wall_time_seconds": 0.000006,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    }
+  ]
+}

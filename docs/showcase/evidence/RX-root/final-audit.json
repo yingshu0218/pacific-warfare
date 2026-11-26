@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "frozen_sources_match": true,
+    "root_source_hashes_match": true,
+    "all_output_hashes_match": true,
+    "admission_manifest_hash_matches": true,
+    "normal_launcher_serves_game": true,
+    "normal_launcher_clean_exit": true,
+    "after-r1_cleanup_reported": true,
+    "after-r2_cleanup_reported": true,
+    "aa-view-r1_cleanup_reported": true,
+    "owned_ports_closed": true,
+    "own_profiles_removed": true,
+    "own_chrome_processes_gone": true,
+    "shared_lock_released": true
+  },
+  "startup": {
+    "http_status": 200,
+    "command": [
+      "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+      "tools/run_first_playable.py",
+      "web",
+      "--scene",
+      "expanded",
+      "--seconds",
+      "4",
+      "--port",
+      "53055",
+      "--owner",
+      "RX-root-launch-smoke"
+    ],
+    "port": 53055,
+    "returncode": 0,
+    "output": "{\"passed\": true, \"exit_code\": 0, \"report\": \"/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261112T123350-d5b760df/report.json\"}\n"
+  },
+  "cleanup": {
+    "owned_ports_closed": {
+      "53055": true,
+      "51496": true,
+      "52276": true,
+      "52630": true
+    },
+    "remaining_own_profiles": [],
+    "remaining_own_chrome_processes": [],
+    "lock_status": "released"
+  },
+  "passed": true
+}

@@ -1,0 +1,400 @@
+{
+  "checked_utc": "2026-11-10T21:08:14.197516+00:00",
+  "status": "in_progress_static_review_not_final_acceptance",
+  "reviewed": [
+    "scripts/showcase/showcase_missions.gd",
+    "scripts/showcase/showcase_guide.gd",
+    "scripts/showcase/training_labels.gd",
+    "scripts/showcase/all_units_showcase.gd"
+  ],
+  "observations": [
+    "Exercise director only submits BattleOrders, does not mutate physical attitude/positions to perform maneuvers.",
+    "Four-plane regroup completion reads both actual completed orders; attack and recall are scripted high-level demonstration orders.",
+    "Escort restores guard only when surviving escorts remain in the actual escort task and within 2500m for three simulation seconds.",
+    "Training labels match current order_id plus actual per-unit execution/training completion, not submit receipt.",
+    "Guide camera is read-only and keeps world-up; close-up pairs may fall back to single subject if actual separation exceeds650m."
+  ],
+  "pending": [
+    "Final source/evidence freeze and process cleanup audit; S08 ordinary startup/long session remains a subsequent gate."
+  ],
+  "native_training_framing_review": {
+    "checked_utc": "2026-11-10T20:42:04.271559+00:00",
+    "viewed": [
+      {
+        "path": "docs/showcase/evidence/S14/final/native/train_us_axial_roll/frame_0045.png",
+        "sha256": "fb79bf8930912257dfd142ecda602ae10d23cd3dcc15cb19bef10340bf98c1f0"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/train_us_split_s/frame_0120.png",
+        "sha256": "1f5c43c59b5e30dda840f25617ff4d015868e57b9455d1c08166b3d62a3243cd"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/train_us_split_s/frame_0200.png",
+        "sha256": "7535513323fdc59c628283f3a215339d690e1513c0242ec84863333e9c344799"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/train_jp_axial_roll/frame_0045.png",
+        "sha256": "0d4ed6fe00786416fa4c6d0fc7d58643cd6bf6ea6d4ffa05bc59dc29a28170f9"
+      }
+    ],
+    "observation": "Closer single-training framing keeps the full aircraft in view and makes inverted attitude, vertical pull and recovery readable. F6F split-S recovery is visibly larger; stable world-up maintained. No further camera enlargement requested.",
+    "status": "framing_passed_full_sequences_and_chrome_pending"
+  },
+  "final_native_visual_review": {
+    "viewed": [
+      {
+        "path": "docs/showcase/evidence/S14/final/native/four/frame_0100.png",
+        "sha256": "c94eda767781023fe63cbef469b55bf10438b29e4bc034e2208745a4ce3af534"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/four/frame_0330.png",
+        "sha256": "f71d295930d93f6543154addbb07cacf6c64184067d0d78441f0a24dd3aab71f"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/four/frame_0680.png",
+        "sha256": "201e2209caa3f829a3916a65c8fae628c1c92a1c08381275e0aa172b27e33013"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/four/frame_1500.png",
+        "sha256": "46e5debfb56f3eb3fb1499020e55b7a8b8f515648d10d8f5f72b80ff268acaee"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/escort/frame_0030.png",
+        "sha256": "2b94ddd02f35a3e9d867987314e299dd710b17749812d4226adccf53d3d51078"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/escort/frame_0150.png",
+        "sha256": "c17eb8cfbed0bb6b1a2e3c514d21fc4e2466b5600a85538e147e721d57653aa9"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/escort/frame_0250.png",
+        "sha256": "c2844c11adf6a09a4cbdbd76bb10ee17a5dda206b9255954e54e71d7485fa0aa"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/escort/frame_0950.png",
+        "sha256": "02d42d512843ea2e255aeb3e0b7b493af0db1e563b0c9e21ffa1565c7ba88eb6"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/train_us_bank_turn/frame_0120.png",
+        "sha256": "8f61f4a7ee3e12fb5c3c33c0231b8e0432fd36e51a2a3f9b0b5602979ac6753b"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/train_jp_climb_dive/frame_0120.png",
+        "sha256": "8e5f19a5ea2165887e2b4d998832dc93a5294f25af7cd112679b521531af5b4d"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/train_us_roll_reversal/frame_0140.png",
+        "sha256": "dd3b5c771800736f056e3c05e87ad5e27cb1eb7a9db6db48d848399b8eb80477"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/jp_bb.png",
+        "sha256": "2aa71984136e635e79c1087ea9ff5cd7e7ceec33118d36ccc23489f184dba084"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/us_bb.png",
+        "sha256": "6633ef398f1e0affea61db7621025a1a70c0b032f6f506d34232b22798a627f7"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/us_dd.png",
+        "sha256": "3ef81a294734418c1f83a27daa3db0005567d5ca27fe8838acde6571042cb30e"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/jp_dd.png",
+        "sha256": "8b637deb9fbbaab6710b14cdfa12a7ff7b28a28e9660a1bb61d753678e7bd434"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/us_coast_01.png",
+        "sha256": "f10afd558357d79e021481be5f4aa4e8b18dd2ba5227285afebb92c1688f57df"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/us_aa_01.png",
+        "sha256": "1684c1e90a00f356afddafe1a7ba89bbc60a4cb64f42a19162c1496c2ebac82f"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/us_pair_demo_1.png",
+        "sha256": "04cef8cb10d195c9dadd67acf6d701822959fc7def6a533dcd7ce35aced44094"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/jp_air_1.png",
+        "sha256": "4d2edc4648d3f8591b4ba7b6616c2ecf427775c785fffd67b7cff30229007921"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/us_sb2c_1.png",
+        "sha256": "1fa9c60c7cc799c36119a1697a713ead158296ffc42ce4a01917bce1868ccd58"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/weapon_0.png",
+        "sha256": "16492320db9b0bce71c14edebed56ffe1733ce35a51475d69f8a6cefe938a691"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/weapon_1.png",
+        "sha256": "f6759d6b9e59641af66f31acb7a401d7870a1574a88b245cd8a111c0995673a8"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/weapon_2.png",
+        "sha256": "13cf29e669f70c0c5528e2b5c2191d1bc34b41863bf35eb11e153df4822a4a26"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/weapon_3.png",
+        "sha256": "69d34f474ba61393dbd17919596faeebfe274fd9e797b1c45b426471d9b68456"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/weapon_4.png",
+        "sha256": "7d9df8b4156b659c5c83b435660d3dba72164e631d8a9ba63d364c759e0ea559"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/native/inventory/real_orders.png",
+        "sha256": "0b4265caf8e7275957831be604a9212ef49891be88fdf4b2a0d26d2ee9520a0e"
+      }
+    ],
+    "observations": [
+      "Nine model types and five independent weapon exhibits are actually visible; correct ship/aircraft/ground categories present. This is integration visibility, not repeating model history validation.",
+      "Four/escort alternate real position context and readable aircraft closeups. Wide shots necessarily contain small aircraft; actual damaged F6F smoke remains visible in closeup.",
+      "Sampled bank turn, reversal and climb/dive frames plus earlier roll/Split-S views keep full aircraft in frame with world-up. No physical attitude changes requested.",
+      "Expanded commander cards and timeline show real recipients, execution labels and localization controls. Current HUD is not S12 redesigned UI."
+    ]
+  },
+  "final_native_cycle_data_review": {
+    "four": {
+      "capture_sha256": "52dd7b99bead1f72af5d1a79591273e8947a12655c539f4cd808bcb413c81eaf",
+      "frame_count": 1601,
+      "actual_frame_files": 1601,
+      "last_time_s": 160.1,
+      "cycle_completed_s": 152.1,
+      "cycle_status": "regrouped",
+      "actual_order_completed_events": [
+        {
+          "time_s": 142.533333333333,
+          "order_id": "s14:jp:008",
+          "reason": "all_assignments_released:regroup_area_reached"
+        },
+        {
+          "time_s": 152.083333333333,
+          "order_id": "s14:us:007",
+          "reason": "all_assignments_released:regroup_area_reached"
+        }
+      ],
+      "snapshot_cadence_note": "Capture includes session.orders only once per second; session UI snapshots can lag current world events. Completion event times are142.533333s and152.083333s; director changes to regrouped152.1s, after both."
+    },
+    "escort": {
+      "capture_sha256": "67919ae6ffc8811b640410a6156af9bbe320e45ee084d7c3301cfe6534e418cf",
+      "frame_count": 1021,
+      "actual_frame_files": 1021,
+      "last_time_s": 102.1,
+      "cycle_completed_s": 94.0166666666667,
+      "cycle_status": "guard_restored",
+      "guard_restoration_independent_check": {
+        "sample_count": 30,
+        "max_distance_m": 2318.558590952918,
+        "phases": [
+          "formation",
+          "guard",
+          "support"
+        ],
+        "all_valid": true
+      }
+    }
+  },
+  "final_native_training_data_review": [
+    {
+      "mode": "train_jp_axial_roll",
+      "capture_sha256": "c1d7a707de9cc1a569239a494d7670defd435058681ea4ef9df89482fd3cf6e0",
+      "frames": 189,
+      "actual_frames": 189,
+      "same_source_manifest": false,
+      "completed_with_matching_execution": true,
+      "elapsed_s": 9.43333333333333,
+      "peak_roll_rad": 6.34915795002356,
+      "height_change_m": -285.72998046875,
+      "min_agl_m": 2114.27001953125,
+      "monotonic_samples": true,
+      "same_original_native_manifest": true
+    },
+    {
+      "mode": "train_jp_bank_turn",
+      "capture_sha256": "6ded7519b170de278cae544a1b0a2feea0a8e4629b2b116f4fa0b253538fce6c",
+      "frames": 253,
+      "actual_frames": 253,
+      "same_source_manifest": false,
+      "completed_with_matching_execution": true,
+      "elapsed_s": 13.7666666666667,
+      "peak_roll_rad": 1.24851405200864,
+      "height_change_m": -119.38134765625,
+      "min_agl_m": 2280.61865234375,
+      "monotonic_samples": true,
+      "same_original_native_manifest": true
+    },
+    {
+      "mode": "train_jp_climb_dive",
+      "capture_sha256": "8aee234c8dce01f89701a40b17c6077fdc6d7c86b0f10e373bac48cdd93a5342",
+      "frames": 293,
+      "actual_frames": 293,
+      "same_source_manifest": false,
+      "completed_with_matching_execution": true,
+      "elapsed_s": 16.3,
+      "peak_roll_rad": 0.0,
+      "height_change_m": 21.675048828125,
+      "min_agl_m": 2400.0,
+      "monotonic_samples": true,
+      "same_original_native_manifest": true
+    },
+    {
+      "mode": "train_jp_roll_reversal",
+      "capture_sha256": "61023ac5135a7d16abdffe77f8e26f33963b9463ee0ccfc3afb322e103d33000",
+      "frames": 278,
+      "actual_frames": 278,
+      "same_source_manifest": false,
+      "completed_with_matching_execution": true,
+      "elapsed_s": 15.2,
+      "peak_roll_rad": 1.22573737612819,
+      "height_change_m": -259.364013671875,
+      "min_agl_m": 2140.63598632812,
+      "monotonic_samples": true,
+      "same_original_native_manifest": true
+    },
+    {
+      "mode": "train_jp_split_s",
+      "capture_sha256": "6a9425f64a03e2ca25ca6a6af3d4ebdcc4fd05ea4fcc4a79b8b9bebc2c13e0a8",
+      "frames": 237,
+      "actual_frames": 237,
+      "same_source_manifest": false,
+      "completed_with_matching_execution": true,
+      "elapsed_s": 12.75,
+      "peak_roll_rad": 3.15759156062566,
+      "height_change_m": -716.537719726562,
+      "min_agl_m": 1683.46228027344,
+      "monotonic_samples": true,
+      "same_original_native_manifest": true
+    },
+    {
+      "mode": "train_us_axial_roll",
+      "capture_sha256": "aef236bc10934be7cf1d9d7fccae06fce956efe854b4e33a737541283430e963",
+      "frames": 197,
+      "actual_frames": 197,
+      "same_source_manifest": false,
+      "completed_with_matching_execution": true,
+      "elapsed_s": 9.96666666666667,
+      "peak_roll_rad": 6.31809259509275,
+      "height_change_m": -327.2685546875,
+      "min_agl_m": 2072.7314453125,
+      "monotonic_samples": true,
+      "same_original_native_manifest": true
+    },
+    {
+      "mode": "train_us_bank_turn",
+      "capture_sha256": "4805c41864f21dcb98baa1620778091fbd3da63be8bcd14f4d702a2faef51cdc",
+      "frames": 261,
+      "actual_frames": 261,
+      "same_source_manifest": false,
+      "completed_with_matching_execution": true,
+      "elapsed_s": 14.0333333333333,
+      "peak_roll_rad": 1.24661385262928,
+      "height_change_m": -119.9990234375,
+      "min_agl_m": 2280.0009765625,
+      "monotonic_samples": true,
+      "same_original_native_manifest": true
+    },
+    {
+      "mode": "train_us_climb_dive",
+      "capture_sha256": "e3c3a190f1127789e035ef0ab30f0e97c892f89fe8022ebe953944892babf344",
+      "frames": 293,
+      "actual_frames": 293,
+      "same_source_manifest": false,
+      "completed_with_matching_execution": true,
+      "elapsed_s": 16.25,
+      "peak_roll_rad": 0.0,
+      "height_change_m": 20.923828125,
+      "min_agl_m": 2400.0,
+      "monotonic_samples": true,
+      "same_original_native_manifest": true
+    },
+    {
+      "mode": "train_us_roll_reversal",
+      "capture_sha256": "e8c7fff9ed9f89f8b7126975e6ade5095c153acf34a1e6f89d77c6d81cb84cca",
+      "frames": 285,
+      "actual_frames": 285,
+      "same_source_manifest": false,
+      "completed_with_matching_execution": true,
+      "elapsed_s": 15.6333333333333,
+      "peak_roll_rad": 1.22674786392805,
+      "height_change_m": -269.716064453125,
+      "min_agl_m": 2130.28393554688,
+      "monotonic_samples": true,
+      "same_original_native_manifest": true
+    },
+    {
+      "mode": "train_us_split_s",
+      "capture_sha256": "8348524a3c65d6032a54c284943ab761bea66b83cefaa68f8b10febd3c06ab97",
+      "frames": 246,
+      "actual_frames": 246,
+      "same_source_manifest": false,
+      "completed_with_matching_execution": true,
+      "elapsed_s": 13.3166666666667,
+      "peak_roll_rad": 3.13475205951237,
+      "height_change_m": -772.842041015625,
+      "min_agl_m": 1627.15795898438,
+      "monotonic_samples": true,
+      "same_original_native_manifest": true
+    }
+  ],
+  "native_vs_chrome_provenance": {
+    "source_differences": [
+      {
+        "path": "data/units/us_sb2c4_1944.json",
+        "native": "66419d752f3394d38f30e6e33448f6fc720f6835d66df2da7a572dab3abcc014",
+        "runtime": "03d2340ec91f4ef65fc0e2d6bf76c8200b5d32c92b2e0797b8d6bd6bd3c9733a"
+      },
+      {
+        "path": "scripts/showcase/all_units_showcase.gd",
+        "native": "b77eca6744826ad3514f9f92d724b49aee7d46636ed1984347f379c0a0dae44a",
+        "runtime": "dba1d67092e0fdd12eec0611fd12f31a4455fa9e2be6e7234a29efcc54c0448a"
+      },
+      {
+        "path": "tests/s14_web_probe.gd",
+        "native": "5beba5fc7909ed9ea14a086a3a61e67a427382bd6da5ac35e08d2891c229bb40",
+        "runtime": "7b5b9d60eec4fbd4e7f0b3c1ac97fbcd8fc268a5153b41ed27694339b431a379"
+      }
+    ],
+    "actual_diff_review": "SB2C configuration_date wording only; ordinary training text gated on active training guide to clear text after user leaves training; web probe adds generation/exercise metadata and tooltip measurement. No changed simulation, aircraft model/motion, scenario or camera math. Native original r3 hashes preserved, final UI contract and real Chrome cover UI gating.",
+    "not_identical_manifests": true
+  },
+  "final_chrome_visual_review": {
+    "viewed": [
+      {
+        "path": "docs/showcase/evidence/S14/final/chrome/train_us_axial_roll_completed.png",
+        "sha256": "4e525a742ee955fef8132d3bfb00e56e401dcc077975d19e980f5c641e690608"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/chrome/train_jp_split_s_completed.png",
+        "sha256": "bb3ab722e931818eabc855b1252baf5a5970c4ef802c1669db390ac30122aa36"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/chrome/normal_ui.png",
+        "sha256": "44a567f8f05052e2462c3f3a745ea05ae038ee995c47df9c8f3ac1bb59856e9f"
+      },
+      {
+        "path": "docs/showcase/evidence/S14/final/chrome/escort_sb2c_close.png",
+        "sha256": "aad3c0a65dc876b0febe12c5a02d4b37fadbb65dde2eb999f20854b8fc38806c"
+      }
+    ],
+    "actual_chrome_checks": 74,
+    "all_checks_passed": true,
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "cssWidth": 1280,
+      "cssHeight": 720
+    },
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "cleanup": {
+      "chromeClosed": true,
+      "serverClosed": true,
+      "profileRemoved": true
+    },
+    "observations": [
+      "Two complete maneuvers show actual Chinese completed labels and full aircraft at stable center.",
+      "SB2C escort closeup is legible; normal guided pair has both members in context.",
+      "This is instrumented basic integration, not ordinary-launcher/10min/three-restart/4x performance acceptance."
+    ]
+  }
+}

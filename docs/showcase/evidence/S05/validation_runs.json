@@ -1,0 +1,1630 @@
+[
+  {
+    "run_id": "20261109T192423-50f44979",
+    "action": "import",
+    "passed": false,
+    "exit_code": 1,
+    "report": "verification/20261109T192423-50f44979/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1999,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--editor",
+          "--import",
+          "--quit"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 2.2493,
+        "diagnostic_error": true
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T192452-65a53b7d",
+    "action": "import",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T192452-65a53b7d/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1985,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--editor",
+          "--import",
+          "--quit"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 3.0586,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T192610-c6eaaa0f",
+    "action": "test",
+    "passed": false,
+    "exit_code": 1,
+    "report": "verification/20261109T192610-c6eaaa0f/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0769,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_contacts.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2563,
+        "diagnostic_error": true
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T192741-f722fe5b",
+    "action": "test",
+    "passed": false,
+    "exit_code": 1,
+    "report": "verification/20261109T192741-f722fe5b/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2053,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_contacts.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.5218,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_projectile_impact.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.249,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_weapon_cycle.gd"
+        ],
+        "returncode": 1,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 2.2217,
+        "diagnostic_error": true
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T192919-cd23e088",
+    "action": "test",
+    "passed": false,
+    "exit_code": 1,
+    "report": "verification/20261109T192919-cd23e088/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1841,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_weapon_cycle.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 2.5115,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_gunnery.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3713,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_damage_states.gd"
+        ],
+        "returncode": 1,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3703,
+        "diagnostic_error": true
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T193157-16203153",
+    "action": "import",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T193157-16203153/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2395,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--editor",
+          "--import",
+          "--quit"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 3.2934,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T193212-281434c7",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T193212-281434c7/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0217,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_damage_states.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3631,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_air_defence.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 8.5615,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_effects.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.26,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T193615-fe5a5753",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T193615-fe5a5753/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.192,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_damage_states.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 1.0915,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T193635-6641d817",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T193635-6641d817/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1965,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "res://tests/scenes/combat_capture.tscn"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 4.6343,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T193952-14ed405f",
+    "action": "test",
+    "passed": false,
+    "exit_code": 1,
+    "report": "verification/20261109T193952-14ed405f/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2438,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_integration.gd"
+        ],
+        "returncode": -15,
+        "timed_out": true,
+        "cleanup_ok": true,
+        "duration_s": 120.0394,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T194414-8171c4e7",
+    "action": "test",
+    "passed": false,
+    "exit_code": 1,
+    "report": "verification/20261109T194414-8171c4e7/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1934,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_projectile_impact.gd"
+        ],
+        "returncode": -15,
+        "timed_out": true,
+        "cleanup_ok": true,
+        "duration_s": 90.0403,
+        "diagnostic_error": true
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T195130-debf4e78",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T195130-debf4e78/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0457,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_geometry.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.255,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T195216-e3eda76d",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T195216-e3eda76d/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0415,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_contacts.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3617,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_projectile_impact.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2601,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_weapon_cycle.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 2.4194,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_gunnery.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3667,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_damage_states.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 1.0584,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_air_defence.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 6.1239,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_effects.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3004,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_unit_surface_contact.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2613,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_integration.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 49.2095,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T195718-c3ab8328",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T195718-c3ab8328/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1926,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_projectile_impact.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.4784,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_damage_states.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 1.1395,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_gunnery.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3657,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_weapon_cycle.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 2.1452,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T200114-aa900ad5",
+    "action": "test",
+    "passed": false,
+    "exit_code": 1,
+    "report": "verification/20261109T200114-aa900ad5/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1965,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_mount_clearance.gd"
+        ],
+        "returncode": 1,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.714,
+        "diagnostic_error": true
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T200303-eb624766",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T200303-eb624766/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1953,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_mount_clearance.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.7187,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_damage_states.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 1.1461,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_gunnery.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3746,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T200421-f500d986",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T200421-f500d986/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0456,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_geometry.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2616,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_mount_clearance.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.5935,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_contacts.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3602,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_projectile_impact.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3636,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_weapon_cycle.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 2.0564,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_gunnery.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3556,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_damage_states.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 1.1825,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_air_defence.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 6.2601,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_effects.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2518,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_unit_surface_contact.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.256,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_integration.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 46.168,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_simulation_definitions.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3036,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_simulation_clock.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.252,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_simulation_commands.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2652,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T200634-c90bddc2",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T200634-c90bddc2/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1917,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "res://tests/scenes/combat_capture.tscn"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 3.7689,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T200816-50ce4915",
+    "action": "test",
+    "passed": false,
+    "exit_code": 2,
+    "report": "verification/20261109T200816-50ce4915/report.json",
+    "checks": []
+  },
+  {
+    "run_id": "20261109T201009-e83b524a",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T201009-e83b524a/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1918,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_contacts.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.5067,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_projectile_impact.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3701,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_weapon_cycle.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 2.1482,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_gunnery.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3601,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_damage_states.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 1.155,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_air_defence.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 6.2057,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_unit_surface_contact.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2515,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_integration.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 45.9493,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T205820-326009dc",
+    "action": "test",
+    "passed": false,
+    "exit_code": 1,
+    "report": "verification/20261109T205820-326009dc/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2575,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://.local/validation/probes/departed_collision.gd"
+        ],
+        "returncode": 1,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.4381,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T210343-b55e6039",
+    "action": "import",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T210343-b55e6039/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1839,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--editor",
+          "--import",
+          "--quit"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 3.727,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T210605-950870bf",
+    "action": "test",
+    "passed": false,
+    "exit_code": 1,
+    "report": "verification/20261109T210605-950870bf/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0247,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_presence.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.7552,
+        "diagnostic_error": true
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T210816-81e4f1b7",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T210816-81e4f1b7/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2025,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_presence.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.8954,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://.local/validation/probes/departed_collision.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2494,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_damage_effects.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.5813,
+        "diagnostic_error": false
+      }
+    ]
+  },
+  {
+    "run_id": "20261109T211050-726655cc",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "report": "verification/20261109T211050-726655cc/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.193,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_contacts.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.5235,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_projectile_impact.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3588,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_weapon_cycle.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 2.3672,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_gunnery.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3554,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_damage_states.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 1.2716,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_air_defence.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 6.485,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_effects.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2556,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_unit_surface_contact.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3032,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_combat.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 20.2505,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_replay.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 2.0616,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_fleet_replay.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 3.3603,
+        "diagnostic_error": false
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_combat_integration.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "cleanup_ok": true,
+        "duration_s": 50.1852,
+        "diagnostic_error": false
+      }
+    ]
+  }
+]

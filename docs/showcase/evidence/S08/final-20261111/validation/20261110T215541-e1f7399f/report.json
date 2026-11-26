@@ -1,0 +1,65 @@
+{
+  "run_id": "20261110T215541-e1f7399f",
+  "owner": "S08-follow-input",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 83026,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 83028,
+      "process_group": 83028,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2474,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T215541-e1f7399f/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_first_playable_ui.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 83029,
+      "process_group": 83029,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 4.2678,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T215541-e1f7399f/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S08-follow-input",
+    "pid": 83026,
+    "process_identity": "Wed Nov 11 05:55:41 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S08-follow-input --timeout 90 --lock-timeout 60 test res://tests/test_first_playable_ui.gd",
+    "token": "776078aab7c2478cab08d0ea60e4547b",
+    "acquired_utc": "2026-11-10T21:55:41.705385+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

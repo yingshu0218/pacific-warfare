@@ -1,0 +1,238 @@
+{
+  "runs": [
+    {
+      "run_id": "20261110T222317-813e9fdc",
+      "action": "exec",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261110T222317-813e9fdc/report.json",
+      "report_sha256": "d657221b98b1c53207d6bbe3170187ade6ebccd323bccfae156a5a35e9414352"
+    },
+    {
+      "run_id": "20261110T222355-8a663496",
+      "action": "exec",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261110T222355-8a663496/report.json",
+      "report_sha256": "d47783e68e1b06de56d088f7b1d7749dfc6b842aff95b29200bd5031fbc8a901"
+    },
+    {
+      "run_id": "20261110T222451-18c3efe3",
+      "action": "exec",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261110T222451-18c3efe3/report.json",
+      "report_sha256": "7808bc4894173c659263acebf274ab3010ccec6a82bdbffb5411ccd9911066ba"
+    },
+    {
+      "run_id": "20261110T222532-eab16e1f",
+      "action": "exec",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261110T222532-eab16e1f/report.json",
+      "report_sha256": "1d6c36d1b7bdb3d112d87790009f408fa7e6410458154b1223a74babe6259362"
+    },
+    {
+      "run_id": "20261110T223825-baf16ba3",
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r1",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261110T223825-baf16ba3/report.json",
+      "report_sha256": "c6681297486b73abba793026f7de7575c2f69dd0ff4c89ff911cbb9da25fccea"
+    },
+    {
+      "run_id": "20261110T223953-e3bd4d59",
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r1",
+      "passed": false,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261110T223953-e3bd4d59/report.json",
+      "report_sha256": "6cced4d99a0e03e41a5cfc5b9b80460b615fba798bce43329ad90e7ab8954ac5"
+    },
+    {
+      "run_id": "20261110T224050-cc8caa6e",
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r2",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261110T224050-cc8caa6e/report.json",
+      "report_sha256": "73924229ba21c12a03b1ce8fb3bb347fc71c7f319affd53c11b80e10d20bacff"
+    },
+    {
+      "run_id": "20261111T093304-94be8830",
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r2",
+      "passed": false,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T093304-94be8830/report.json",
+      "report_sha256": "1d0e9f6312c127f8286eeba2cd2908922b029f145bf1fbaa2e66c2265b354e10"
+    },
+    {
+      "run_id": "20261111T093422-4ac78a0a",
+      "action": "exec",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T093422-4ac78a0a/report.json",
+      "report_sha256": "77e47989871221ca7549031556168bd7b4396648d71f809150738bda118ab2d8"
+    },
+    {
+      "run_id": "20261111T094202-1df95312",
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r3",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T094202-1df95312/report.json",
+      "report_sha256": "319bddd8fadf2d55551c618145ad5473f44e3364d42f723d22118ad3a1ee4936"
+    },
+    {
+      "run_id": "20261111T094225-c9e0a7d9",
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r3",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T094225-c9e0a7d9/report.json",
+      "report_sha256": "be348c8049c746212c2bfb1f2e67d77ed2ce1d903f03d68c414112e18b7fbeaf"
+    },
+    {
+      "run_id": "20261111T094349-0841dd98",
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r3",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T094349-0841dd98/report.json",
+      "report_sha256": "88567904a86679eaf4a589b10b545da9cf175ed2680d3a523b2b7e013a732696"
+    },
+    {
+      "run_id": "20261111T095039-9e52fa4b",
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r4",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T095039-9e52fa4b/report.json",
+      "report_sha256": "8a3cf329ce6e6b09fa3102fa96f36c4809330f22773e44b5f9e6f3c019838fe3"
+    },
+    {
+      "run_id": "20261111T100757-bca94ad7",
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r5",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T100757-bca94ad7/report.json",
+      "report_sha256": "e0cad5f47ebecd14fb5bec1a9e5598b849a4d7538e879a2568accf31cc6dd438"
+    },
+    {
+      "run_id": "20261111T100908-94257062",
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r5",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T100908-94257062/report.json",
+      "report_sha256": "72445125802f9b503ae4b91169fce27ea468bb894446ac5649d93faa3da3f596"
+    },
+    {
+      "run_id": "20261111T101136-eac6b7da",
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r5",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T101136-eac6b7da/report.json",
+      "report_sha256": "eb69dd49c6666c8d8487e946de210b9145e47d84dd36d8a1fbcf32cd587c81da"
+    },
+    {
+      "run_id": "20261111T101529-8b411aed",
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r6",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T101529-8b411aed/report.json",
+      "report_sha256": "c6731efe4bf84dfdb27799bf2e5317753a98e0651758a0a5e1ae64b2fa0b1b20"
+    },
+    {
+      "run_id": "20261111T101647-bd304c93",
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r6",
+      "passed": false,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T101647-bd304c93/report.json",
+      "report_sha256": "3e64e1c206f24d9cde53d575bdb0cac2419bf63af2c1581156f851dec4a623f7"
+    },
+    {
+      "run_id": "20261111T102034-100e7af6",
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r7",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T102034-100e7af6/report.json",
+      "report_sha256": "7e83bf81e6fc915050a8455000862e99eee82ceb46b4277e18c4ab0f2ef82056"
+    },
+    {
+      "run_id": "20261111T102435-5da247f5",
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r7",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T102435-5da247f5/report.json",
+      "report_sha256": "5134f2accb10f766600b3d9d3ca5798293023d98e16611ccaf078762abcde197"
+    },
+    {
+      "run_id": "20261111T102550-528701bd",
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r8",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T102550-528701bd/report.json",
+      "report_sha256": "848b03c1e1189320b76130f2b3f3e50aebcce716cd648d271692e79562283c9b"
+    },
+    {
+      "run_id": "20261111T102922-8bd7ed0d",
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r8",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T102922-8bd7ed0d/report.json",
+      "report_sha256": "1072ae6d7aae76b8bea143ed629d6215bdad69268b0d23b17310471ad8e257e8"
+    },
+    {
+      "run_id": "20261111T102954-06a1a0b9",
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r8",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T102954-06a1a0b9/report.json",
+      "report_sha256": "1364db56ed078c6e29db842606987187b79c1c845940060436992017325d8361"
+    },
+    {
+      "run_id": "20261111T103348-06d226b2",
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r9",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T103348-06d226b2/report.json",
+      "report_sha256": "7d90b242ffa3174c255a95f6e7ff46fa2ab1e38c3e5e12c871166036f37f11b0"
+    },
+    {
+      "run_id": "20261111T103409-6adb220f",
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r9",
+      "passed": false,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T103409-6adb220f/report.json",
+      "report_sha256": "ea5d6e81d9d97372a262e0570b105a1e7e12c2f02bc840dfb55adcfdedbb1d12"
+    },
+    {
+      "run_id": "20261111T103711-3684cb58",
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r10",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T103711-3684cb58/report.json",
+      "report_sha256": "b5033db806182bc4d0b393313245e9d282a18d2f28f93b6a66e6017545e315ba"
+    },
+    {
+      "run_id": "20261111T103757-7a528408",
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r10",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T103757-7a528408/report.json",
+      "report_sha256": "2f8e98bc5743ab04a724ec4464c90884a4f82f4447b07b9729131a43f5d70d6e"
+    },
+    {
+      "run_id": "20261111T103828-4abcabfc",
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r10",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T103828-4abcabfc/report.json",
+      "report_sha256": "351133405b31432f5cc0da2a05eb590a68adae7280600092e8942d984a6ca93e"
+    },
+    {
+      "run_id": "20261111T111148-cfb90c9d",
+      "action": "exec",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-carrier-usage/r10",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T111148-cfb90c9d/report.json",
+      "report_sha256": "4a8d8752ace1a16604d918afea3ad37c2f52a378cfec3c44f8633119e9514435"
+    }
+  ],
+  "historical_failures_retained": true,
+  "count": 29
+}

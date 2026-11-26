@@ -1,0 +1,675 @@
+{
+  "utc": "2026-11-10T04:45:42.395219+00:00",
+  "scope": "All S08-owned validation reports only; server exit success does not mean browser/product acceptance. Process-group probes use signal 0 only; no unrelated process is terminated.",
+  "reports": [
+    {
+      "path": ".local/validation/runs/20261109T214245-0848b3d5/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "3a2a68bbf164b125f8dbf14b693c42999e586bac23488739bca0dba7b0da0894",
+      "checks": [
+        {
+          "pid": 94267,
+          "process_group": 94267,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 94268,
+          "process_group": 94268,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T214249-c149f8b1/report.json",
+      "owner": "S08",
+      "passed": false,
+      "exit_code": 1,
+      "error": null,
+      "sha256": "5b3d865a7e724afdb53133df6ba6a102801806c5d147e90cf295e3435c58365d",
+      "checks": [
+        {
+          "pid": 94274,
+          "process_group": 94274,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 94275,
+          "process_group": 94275,
+          "returncode": 0,
+          "passed": false,
+          "timed_out": false,
+          "diagnostic_error": true,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T214327-992c4958/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "b3ce2eab30f58cc32ecf76c1153977a00c0d3be2579ea10729018b57383de8da",
+      "checks": [
+        {
+          "pid": 94335,
+          "process_group": 94335,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 94336,
+          "process_group": 94336,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T214331-edc3a142/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "106a3d664963dae54c080be7843a89e3f71b2112a055e03625b46e65f3a582e7",
+      "checks": [
+        {
+          "pid": 94342,
+          "process_group": 94342,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 94343,
+          "process_group": 94343,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T214352-cf61adba/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "f7318cfc73f9a1fa6823692825e736eb5b1319c4f2cdf312da91ceb3d8a2e165",
+      "checks": [
+        {
+          "pid": 94377,
+          "process_group": 94377,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T231620-480aa420/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "b6e71b9a6c1861f15a726ea0fd8fe198d7267bc2c60f31a25e0b55c4c84bd78f",
+      "checks": [
+        {
+          "pid": 98439,
+          "process_group": 98439,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T232539-53992f9b/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "3d52c2581f93e96c6700de046435cfaad8ab1689dca2e7bb2985850da1ea8af3",
+      "checks": [
+        {
+          "pid": 99537,
+          "process_group": 99537,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T232852-a5a72d19/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "1da016f93609896a0bc6e317d1555b7aa7916716365801a6e427cd440d98cf5e",
+      "checks": [
+        {
+          "pid": 170,
+          "process_group": 170,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T233107-dc935391/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "ccc54f9a6f333b6fab351aa1cbf014c412d6cea02b13225fda325a37f549b4e8",
+      "checks": [
+        {
+          "pid": 530,
+          "process_group": 530,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 533,
+          "process_group": 533,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T233125-a5b21166/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "963c33300e453c97bb7b883e688ef37c0b418321f4c81d956937c38811899628",
+      "checks": [
+        {
+          "pid": 625,
+          "process_group": 625,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 626,
+          "process_group": 626,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 630,
+          "process_group": 630,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 669,
+          "process_group": 669,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 676,
+          "process_group": 676,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T233212-81fac5bb/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "71d033c006f2f52810c3cf9c34892702fa935d7e1973388655dc4d5eba77745b",
+      "checks": [
+        {
+          "pid": 715,
+          "process_group": 715,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 719,
+          "process_group": 719,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T233216-15be7a9e/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "f801e439a65dc3ac03718fe444e644c66698e2c3f973d749e7b6523195a5be3b",
+      "checks": [
+        {
+          "pid": 732,
+          "process_group": 732,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 733,
+          "process_group": 733,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T233333-4afe6438/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "b611f72fd7a84cbb8a678017c412ee64658d9d0da5c7a94c7be96dc15a8ff6b7",
+      "checks": [
+        {
+          "pid": 901,
+          "process_group": 901,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 902,
+          "process_group": 902,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T233338-bf987f84/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "942ebb75e895aa33e134994e576055e391548c55e9c4080f5aaeb670021f6c4e",
+      "checks": [
+        {
+          "pid": 929,
+          "process_group": 929,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 930,
+          "process_group": 930,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T233401-f4e9bf5e/report.json",
+      "owner": "S08",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "ccc11ec8e47f5d11c0cc5c91cd6c4b54fc10c38d05ef6c0c272a384250bd152f",
+      "checks": [
+        {
+          "pid": 1045,
+          "process_group": 1045,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T234129-10f28311/report.json",
+      "owner": "S08-audio-before",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "5ab10849147536b2fe7c86a2bb1cac0c8a8563d3afbbf77d7f9acb4669ec26bc",
+      "checks": [
+        {
+          "pid": 2411,
+          "process_group": 2411,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T234304-cf05b238/report.json",
+      "owner": "S08-audio-fix",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "8edec7971da611c251859514fe84a1943384289522c97fdc6130634a23c0b8e5",
+      "checks": [
+        {
+          "pid": 2631,
+          "process_group": 2631,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 2632,
+          "process_group": 2632,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T234337-557dea44/report.json",
+      "owner": "S08-audio-after",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "3b425490b90988305045398b51ca462d0fc1c859fabbb870981f892750c9282b",
+      "checks": [
+        {
+          "pid": 2693,
+          "process_group": 2693,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T234600-9c2d7f8b/report.json",
+      "owner": "S08-audio-stream",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "9073c5691411f1d911263e89a02d932342fe9e04e41b2e2da5e5de31dd4be53a",
+      "checks": [
+        {
+          "pid": 2919,
+          "process_group": 2919,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 2920,
+          "process_group": 2920,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T234641-84e6918a/report.json",
+      "owner": "S08-audio-stream",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "0b5008888ca1177d361b4997f89207e67e415e2050b9829838adb2981e3ecf97",
+      "checks": [
+        {
+          "pid": 2985,
+          "process_group": 2985,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T234950-9e04871d/report.json",
+      "owner": "S08-chrome-audio",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "4ee483be83909f370a7566668615f7c96a150930aef5085c7402b5181a3a676f",
+      "checks": [
+        {
+          "pid": 3687,
+          "process_group": 3687,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261109T235521-7a1d24d7/report.json",
+      "owner": "S08-handoff",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "sha256": "6508c1814c45d36e1558046da07788570eb01a716401106b553fa2c37eb1fe66",
+      "checks": [
+        {
+          "pid": 5014,
+          "process_group": 5014,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 5015,
+          "process_group": 5015,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        },
+        {
+          "pid": 5018,
+          "process_group": 5018,
+          "returncode": 0,
+          "passed": true,
+          "timed_out": false,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "cleanup_error": ""
+        }
+      ]
+    }
+  ],
+  "process_groups": {
+    "94267": "absent",
+    "94268": "absent",
+    "94274": "absent",
+    "94275": "absent",
+    "94335": "absent",
+    "94336": "absent",
+    "94342": "absent",
+    "94343": "absent",
+    "94377": "absent",
+    "98439": "absent",
+    "99537": "absent",
+    "170": "absent",
+    "530": "absent",
+    "533": "absent",
+    "625": "absent",
+    "626": "absent",
+    "630": "absent",
+    "669": "absent",
+    "676": "absent",
+    "715": "absent",
+    "719": "absent",
+    "732": "absent",
+    "733": "absent",
+    "901": "absent",
+    "902": "absent",
+    "929": "absent",
+    "930": "absent",
+    "1045": "absent",
+    "2411": "absent",
+    "2631": "absent",
+    "2632": "absent",
+    "2693": "absent",
+    "2919": "absent",
+    "2920": "absent",
+    "2985": "absent",
+    "3687": "absent",
+    "5014": "absent",
+    "5015": "absent",
+    "5018": "absent"
+  },
+  "all_recorded_groups_absent": true,
+  "browser_cleanup": {
+    "safari_test_tabs_closed": true,
+    "safari_original_tabs_preserved": 2,
+    "chrome_test_url_closed": true,
+    "chrome_page_timeout_to_blank_observed": true,
+    "unattributed_empty_chrome_window_preserved": true
+  },
+  "services": [
+    "docs/showcase/evidence/S08/clean-baseline/server_cleanup.json",
+    "docs/showcase/evidence/S08/chrome-audio/server_cleanup.json",
+    "docs/showcase/evidence/S08/candidate-before-spatial/server_cleanup.json",
+    "docs/showcase/evidence/S08/audio-after/server_cleanup.json",
+    "docs/showcase/evidence/S08/baseline/server_cleanup.json",
+    "docs/showcase/evidence/S08/baseline-chrome/server_cleanup.json",
+    "docs/showcase/evidence/S08/audio-before/server_cleanup.json",
+    "docs/showcase/evidence/S08/audio-stream/server_cleanup.json"
+  ]
+}

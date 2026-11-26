@@ -1,0 +1,41 @@
+{
+  "run_id": "20261110T222317-813e9fdc",
+  "owner": "S04-carrier-usage",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 85136,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-c",
+        "import fitz,pathlib; d=fitz.open(\"docs/references/aircraft/f6f5_1944/original/f6f-pilot-handbook.pdf\"); o=pathlib.Path(\".local/s04-carrier-references\"); o.mkdir(parents=True,exist_ok=True); [(d[i].get_pixmap(matrix=fitz.Matrix(1.3,1.3)).save(o/(\"manual-%03d.png\"%(i+1))))for i in range(6)]; print(\"Rendered manual cover and contents pages 1-6\")"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 85138,
+      "process_group": 85138,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.3109,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T222317-813e9fdc/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S04-carrier-usage",
+    "pid": 85136,
+    "process_identity": "Wed Nov 11 06:23:17 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S04-carrier-usage --lock-timeout 45 --timeout 40 exec -- python3 -c import fitz,pathlib; d=fitz.open(\"docs/references/aircraft/f6f5_1944/original/f6f-pilot-handbook.pdf\"); o=pathlib.Path(\".local/s04-carrier-references\"); o.mkdir(parents=True,exist_ok=True); [(d[i].get_pixmap(matrix=fitz.Matrix(1.3,1.3)).save(o/(\"manual-%03d.png\"%(i+1))))for i in range(6)]; print(\"Rendered manual cover and contents pages 1-6\")",
+    "token": "317a2e901a634f41bfcc5185eac7c95c",
+    "acquired_utc": "2026-11-10T22:23:17.509992+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

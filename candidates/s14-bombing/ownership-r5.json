@@ -1,0 +1,384 @@
+{
+	"checks": [
+		{
+			"label": "actual cancellation goes through shared command validation",
+			"passed": false
+		},
+		{
+			"label": "actual wave order reaches cancelled terminal status",
+			"passed": false
+		},
+		{
+			"label": "us_cv actual cancelled operation releases manager assignment",
+			"passed": false
+		},
+		{
+			"label": "us_deck_1 actual cancelled operation releases manager assignment",
+			"passed": false
+		},
+		{
+			"label": "us_deck_2 actual cancelled operation releases manager assignment",
+			"passed": false
+		},
+		{
+			"label": "cancellation does not fake a completed second wave",
+			"passed": false
+		}
+	],
+	"failed": 6,
+	"manager": {
+		"cycle_completed_s": -1.0,
+		"cycle_status": "guarding",
+		"deck_ids": [
+			"us_deck_1",
+			"us_deck_2"
+		],
+		"escort_order_id": "",
+		"exercise": "carrier_pair",
+		"goal_phase": "active",
+		"history": [],
+		"operation_mode": "carrier_pair",
+		"receipts": [
+			{
+				"receipt": {
+					"accepted": true,
+					"command_id": "issue:s14:us:001",
+					"duplicate": false,
+					"execute_tick": 1,
+					"reason": "queued"
+				},
+				"request": {
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"bombing": {},
+					"faction_id": "us",
+					"intent": "scenario_initial_carrier_pair",
+					"issuer_id": "scenario_us_command",
+					"order_id": "s14:us:001",
+					"order_type": "patrol",
+					"recipient_ids": [
+						"us_pair_demo_1",
+						"us_pair_demo_2"
+					],
+					"source": "ai",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							-1500,
+							1600,
+							9600
+						],
+						[
+							-3400,
+							1900,
+							7900
+						],
+						[
+							-1000,
+							1250,
+							5300
+						],
+						[
+							1500,
+							1600,
+							8500
+						]
+					]
+				},
+				"time_s": 0.0
+			},
+			{
+				"receipt": {
+					"accepted": true,
+					"command_id": "issue:s14:us:002",
+					"duplicate": false,
+					"execute_tick": 1,
+					"reason": "queued"
+				},
+				"request": {
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"bombing": {},
+					"faction_id": "us",
+					"intent": "scenario_initial_carrier_pair",
+					"issuer_id": "scenario_us_command",
+					"order_id": "s14:us:002",
+					"order_type": "patrol",
+					"recipient_ids": [
+						"us_sb2c_1",
+						"us_sb2c_2"
+					],
+					"source": "ai",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							1300,
+							1100,
+							7300
+						],
+						[
+							3400,
+							1350,
+							6000
+						],
+						[
+							4500,
+							1100,
+							8800
+						],
+						[
+							1300,
+							1100,
+							10300
+						]
+					]
+				},
+				"time_s": 0.0
+			},
+			{
+				"receipt": {
+					"accepted": true,
+					"command_id": "issue:s14:us:003",
+					"duplicate": false,
+					"execute_tick": 1,
+					"reason": "queued"
+				},
+				"request": {
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"bombing": {},
+					"faction_id": "us",
+					"intent": "scenario_initial_carrier_pair",
+					"issuer_id": "scenario_us_command",
+					"order_id": "s14:us:003",
+					"order_type": "patrol",
+					"recipient_ids": [
+						"us_air_1",
+						"us_air_2",
+						"us_air_3",
+						"us_air_4"
+					],
+					"source": "ai",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							0,
+							1500,
+							7400
+						],
+						[
+							-1900,
+							1950,
+							5600
+						],
+						[
+							1000,
+							1300,
+							3900
+						],
+						[
+							1800,
+							1500,
+							7900
+						]
+					]
+				},
+				"time_s": 0.0
+			},
+			{
+				"receipt": {
+					"accepted": true,
+					"command_id": "issue:s14:jp:004",
+					"duplicate": false,
+					"execute_tick": 1,
+					"reason": "queued"
+				},
+				"request": {
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"bombing": {},
+					"faction_id": "jp",
+					"intent": "scenario_initial_carrier_pair",
+					"issuer_id": "scenario_jp_command",
+					"order_id": "s14:jp:004",
+					"order_type": "patrol",
+					"recipient_ids": [
+						"jp_air_1",
+						"jp_air_2",
+						"jp_air_3",
+						"jp_air_4"
+					],
+					"source": "ai",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							0,
+							1500,
+							8300
+						],
+						[
+							-1400,
+							1900,
+							9700
+						],
+						[
+							1800,
+							1500,
+							10800
+						],
+						[
+							2000,
+							1500,
+							6600
+						]
+					]
+				},
+				"time_s": 0.0
+			},
+			{
+				"receipt": {
+					"accepted": true,
+					"command_id": "issue:s14:us:005",
+					"duplicate": false,
+					"execute_tick": 1,
+					"reason": "queued"
+				},
+				"request": {
+					"area": {},
+					"bombing": {},
+					"faction_id": "us",
+					"intent": "flight_operations_course",
+					"issuer_id": "carrier_course_command",
+					"order_id": "s14:us:005",
+					"order_type": "patrol",
+					"recipient_ids": [
+						"us_cv"
+					],
+					"source": "ai",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							1010500.0,
+							0.0,
+							9500.0439453125
+						]
+					]
+				},
+				"time_s": 0.0
+			},
+			{
+				"receipt": {
+					"accepted": true,
+					"command_id": "issue:s14:jp:006",
+					"duplicate": false,
+					"execute_tick": 1,
+					"reason": "queued"
+				},
+				"request": {
+					"area": {
+						"center_m": [
+							-9500.0,
+							0.0,
+							9500.0
+						],
+						"radius_m": 700.0
+					},
+					"bombing": {},
+					"faction_id": "jp",
+					"intent": "scenario_initial_carrier_pair",
+					"issuer_id": "scenario_jp_command",
+					"order_id": "s14:jp:006",
+					"order_type": "patrol",
+					"recipient_ids": [
+						"jp_cv"
+					],
+					"source": "ai",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							-9500.0,
+							0.0,
+							-990500.0
+						]
+					]
+				},
+				"time_s": 0.0
+			},
+			{
+				"receipt": {
+					"accepted": true,
+					"command_id": "issue:s14:us:007",
+					"duplicate": false,
+					"execute_tick": 1,
+					"reason": "queued"
+				},
+				"request": {
+					"area": {
+						"center_m": [
+							14000.0,
+							700.0,
+							8500.0
+						],
+						"on_station_duration_s": 110.0,
+						"radius_m": 1200.0
+					},
+					"bombing": {},
+					"faction_id": "us",
+					"intent": "carrier_patrol_with_visible_duration",
+					"issuer_id": "carrier_patrol_command",
+					"order_id": "s14:us:007",
+					"order_type": "patrol",
+					"recipient_ids": [
+						"us_deck_1",
+						"us_deck_2"
+					],
+					"source": "ai",
+					"target_id": "us_cv",
+					"training": {},
+					"waypoints_m": []
+				},
+				"time_s": 0.0
+			}
+		],
+		"recovery_order_id": "",
+		"regroup_orders": [],
+		"serial": 7,
+		"stage": 0,
+		"training_order_id": "",
+		"training_subject": "",
+		"wave": 1,
+		"wave_orders": [
+			"s14:us:007"
+		]
+	}
+}

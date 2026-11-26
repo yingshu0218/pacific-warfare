@@ -1,0 +1,41 @@
+{
+  "source": "combination-r12",
+  "scope": "Observed key PNG frames and full fixed-step sample/event continuity; no real-time performance claim",
+  "frames": [
+    {
+      "image": "candidates/s14-bombing/native/b25-release-r12/frame_0250.png",
+      "sha256": "9f635164a5b2cfba4bea17635768720c468e15d091909d9b0a4aac6ba45225cb",
+      "observed": "实际有限弹列离架"
+    },
+    {
+      "image": "candidates/s14-bombing/native/b25-release-r12/frame_0536.png",
+      "sha256": "48648957eb2a500018674764cb97b424ec13bf559caaba95a2890fc05fbb4ebc",
+      "observed": "实际弹丸落水与目标舰艇"
+    },
+    {
+      "image": "candidates/s14-bombing/native/d4y-release-r12/frame_0148.png",
+      "sha256": "e982a8d709ea54965b8819270849bda99cb85b12ae43afe974d61436cd5feff3",
+      "observed": "实际俯冲投放后的拉起"
+    },
+    {
+      "image": "candidates/s14-bombing/native/d4y-release-r12/frame_0345.png",
+      "sha256": "21c9019db1d80492717b94f08fc20b6b3662ab1672b0bfdbf5a0fd28946b0b8e",
+      "observed": "实际岸炮附近爆炸"
+    },
+    {
+      "image": "candidates/s14-bombing/native/b25-intercept-r12/frame_0000.png",
+      "sha256": "6f73bdaded4229637f840d1d1a2827816647242605f70563593ff2b8772e3f35",
+      "observed": "单侧翼已脱落后的真实终端运动；首帧晚于断翼事件0.4秒"
+    },
+    {
+      "image": "candidates/s14-bombing/native/b25-intercept-r12/frame_0347.png",
+      "sha256": "b5eb331be7ff072d288f0285e93a5f7013a12101dce011b2907ceaa1f24c55d1",
+      "observed": "同一僚机真实落海与烟火水花"
+    },
+    {
+      "image": "candidates/s14-bombing/native/sb2c-sea-r12/frame_0090.png",
+      "sha256": "d2aa87e1b3c9512acef6eae494d5d8ac7cce1ae2a75d280972e6b4293633ca74",
+      "observed": "SB2C整机真实落海，无预切翼宣称"
+    }
+  ]
+}

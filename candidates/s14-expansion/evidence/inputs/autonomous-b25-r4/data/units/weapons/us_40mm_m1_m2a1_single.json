@@ -1,0 +1,22 @@
+{
+  "id": "us_40mm_m1_m2a1_single",
+  "ammo_id": "s10_us_40mm_mkii_het_sd",
+  "barrel_count": 1,
+  "cycle_s": 0.5,
+  "initial_rounds_per_barrel": 240,
+  "train_limits_deg": [
+    -180,
+    180
+  ],
+  "elevation_limits_deg": [
+    -6,
+    90
+  ],
+  "train_rate_degps": 20.0,
+  "elevation_rate_degps": 8.0,
+  "source": {
+    "status": "provisional",
+    "basis": "TM9-252 (1944-01-17), figs1,4,89,161 and ammunition table row9",
+    "note": "Coast8s crew cycle and all angular speeds are explicit crew-operation estimates. M1 rapid120rpm (.5s) is manual data; no invented continuous powered traverse."
+  }
+}

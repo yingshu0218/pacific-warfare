@@ -1,0 +1,69 @@
+{
+  "run_id": "20261110T195109-743892f2",
+  "owner": "S04-training",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 72847,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+      "pid": 72849,
+      "process_group": 72849,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1331,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T195109-743892f2/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+        "--script",
+        "res://tests/aircraft_training_capture.gd",
+        "--",
+        "--definition=jp_a6m5a_1944",
+        "--maneuver=split_s",
+        "--direction=-1",
+        "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-split_s"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+      "pid": 72850,
+      "process_group": 72850,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 18.9986,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T195109-743892f2/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S04-training",
+    "pid": 72847,
+    "process_identity": "Wed Nov 11 03:51:09 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S04-training --lock-timeout 45 --timeout 75 --project .local/s04-training-final godot --render -- --script res://tests/aircraft_training_capture.gd -- --definition=jp_a6m5a_1944 --maneuver=split_s --direction=-1 --output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-split_s",
+    "token": "4b885c9b8c4e4399920f04d0a2ab4157",
+    "acquired_utc": "2026-11-10T19:51:09.916588+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

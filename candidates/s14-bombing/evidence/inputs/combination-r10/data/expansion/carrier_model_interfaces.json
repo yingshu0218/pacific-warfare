@@ -1,0 +1,1196 @@
+{
+  "f6f_parked": {
+    "position_m": [
+      0.0,
+      1.20307743549347,
+      0.0
+    ],
+    "rotation_rad": [
+      0.168342307209969,
+      0.0,
+      0.0
+    ]
+  },
+  "jp_shokaku_1941_08_23": {
+    "model_scene": "res://naval/shokaku_1941_08_23/shokaku.tscn",
+    "mounts": [
+      {
+        "base_yaw_deg": -90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.41999995708466,
+          -0.150000005960464
+        ],
+        "host_id": "sponson_dp_starboard_01",
+        "id": "dp_starboard_01",
+        "muzzle_positions_m": [
+          [
+            -0.379997432231903,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ],
+          [
+            0.379997074604034,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ]
+        ],
+        "position_m": [
+          15.1499996185303,
+          10.5699996948242,
+          -76.5
+        ],
+        "role": "dual_purpose",
+        "source_status": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate",
+        "weapon_definition_id": "cv02_type89_127mm_twin"
+      },
+      {
+        "base_yaw_deg": -90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.41999995708466,
+          -0.150000005960464
+        ],
+        "host_id": "sponson_dp_starboard_02",
+        "id": "dp_starboard_02",
+        "muzzle_positions_m": [
+          [
+            -0.380001246929169,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ],
+          [
+            0.3800008893013,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ]
+        ],
+        "position_m": [
+          15.1499996185303,
+          10.5699996948242,
+          -58.0
+        ],
+        "role": "dual_purpose",
+        "source_status": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate",
+        "weapon_definition_id": "cv02_type89_127mm_twin"
+      },
+      {
+        "base_yaw_deg": -90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.41999995708466,
+          -0.150000005960464
+        ],
+        "host_id": "sponson_dp_starboard_03",
+        "id": "dp_starboard_03",
+        "muzzle_positions_m": [
+          [
+            -0.380001246929169,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ],
+          [
+            0.3800008893013,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ]
+        ],
+        "position_m": [
+          15.1499996185303,
+          10.9700002670288,
+          50.5
+        ],
+        "role": "dual_purpose",
+        "source_status": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate",
+        "weapon_definition_id": "cv02_type89_127mm_twin"
+      },
+      {
+        "base_yaw_deg": -90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.41999995708466,
+          -0.150000005960464
+        ],
+        "host_id": "sponson_dp_starboard_04",
+        "id": "dp_starboard_04",
+        "muzzle_positions_m": [
+          [
+            -0.379997432231903,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ],
+          [
+            0.379997074604034,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ]
+        ],
+        "position_m": [
+          15.1499996185303,
+          10.9700002670288,
+          68.5
+        ],
+        "role": "dual_purpose",
+        "source_status": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate",
+        "weapon_definition_id": "cv02_type89_127mm_twin"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.41999995708466,
+          -0.150000005960464
+        ],
+        "host_id": "sponson_dp_port_01",
+        "id": "dp_port_01",
+        "muzzle_positions_m": [
+          [
+            -0.379997074604034,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ],
+          [
+            0.379997432231903,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ]
+        ],
+        "position_m": [
+          -15.1499996185303,
+          10.5699996948242,
+          -76.5
+        ],
+        "role": "dual_purpose",
+        "source_status": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate",
+        "weapon_definition_id": "cv02_type89_127mm_twin"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.41999995708466,
+          -0.150000005960464
+        ],
+        "host_id": "sponson_dp_port_02",
+        "id": "dp_port_02",
+        "muzzle_positions_m": [
+          [
+            -0.3800008893013,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ],
+          [
+            0.380001246929169,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ]
+        ],
+        "position_m": [
+          -15.1499996185303,
+          10.5699996948242,
+          -58.0
+        ],
+        "role": "dual_purpose",
+        "source_status": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate",
+        "weapon_definition_id": "cv02_type89_127mm_twin"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.41999995708466,
+          -0.150000005960464
+        ],
+        "host_id": "sponson_dp_port_03",
+        "id": "dp_port_03",
+        "muzzle_positions_m": [
+          [
+            -0.3800008893013,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ],
+          [
+            0.380001246929169,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ]
+        ],
+        "position_m": [
+          -15.1499996185303,
+          10.9700002670288,
+          50.5
+        ],
+        "role": "dual_purpose",
+        "source_status": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate",
+        "weapon_definition_id": "cv02_type89_127mm_twin"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.41999995708466,
+          -0.150000005960464
+        ],
+        "host_id": "sponson_dp_port_04",
+        "id": "dp_port_04",
+        "muzzle_positions_m": [
+          [
+            -0.379997074604034,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ],
+          [
+            0.379997432231903,
+            1.19209289550781e-07,
+            -3.79999876022339
+          ]
+        ],
+        "position_m": [
+          -15.1499996185303,
+          10.9700002670288,
+          68.5
+        ],
+        "role": "dual_purpose",
+        "source_status": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate",
+        "weapon_definition_id": "cv02_type89_127mm_twin"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          0.949999988079071,
+          -0.150000005960464
+        ],
+        "host_id": "gallery_aa25_port_01",
+        "id": "aa25_port_01",
+        "muzzle_positions_m": [
+          [
+            -0.240000173449516,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            7.43093551136553e-08,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            0.23999984562397,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ]
+        ],
+        "position_m": [
+          -15.4499998092651,
+          12.3299999237061,
+          5.0
+        ],
+        "role": "light_aa",
+        "source_status": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed",
+        "weapon_definition_id": "cv02_type96_25mm_triple"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          0.949999988079071,
+          -0.150000005960464
+        ],
+        "host_id": "gallery_aa25_port_02",
+        "id": "aa25_port_02",
+        "muzzle_positions_m": [
+          [
+            -0.239999696612358,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            7.43093551136553e-08,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            0.23999984562397,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ]
+        ],
+        "position_m": [
+          -15.4499998092651,
+          12.3299999237061,
+          18.0
+        ],
+        "role": "light_aa",
+        "source_status": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed",
+        "weapon_definition_id": "cv02_type96_25mm_triple"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          0.949999988079071,
+          -0.150000005960464
+        ],
+        "host_id": "gallery_aa25_port_03",
+        "id": "aa25_port_03",
+        "muzzle_positions_m": [
+          [
+            -0.239999696612358,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            7.43093551136553e-08,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            0.23999984562397,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ]
+        ],
+        "position_m": [
+          -15.4499998092651,
+          12.3299999237061,
+          31.0
+        ],
+        "role": "light_aa",
+        "source_status": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed",
+        "weapon_definition_id": "cv02_type96_25mm_triple"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          0.949999988079071,
+          -0.150000005960464
+        ],
+        "host_id": "gallery_aa25_port_04",
+        "id": "aa25_port_04",
+        "muzzle_positions_m": [
+          [
+            -0.240001603960991,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            7.43093551136553e-08,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            0.240001752972603,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ]
+        ],
+        "position_m": [
+          -15.4499998092651,
+          12.3299999237061,
+          44.0
+        ],
+        "role": "light_aa",
+        "source_status": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed",
+        "weapon_definition_id": "cv02_type96_25mm_triple"
+      },
+      {
+        "base_yaw_deg": -90.0,
+        "elevation_pivot_m": [
+          0.0,
+          0.949999988079071,
+          -0.150000005960464
+        ],
+        "host_id": "gallery_aa25_starboard_05",
+        "id": "aa25_starboard_05",
+        "muzzle_positions_m": [
+          [
+            -0.23999984562397,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            -7.43093551136553e-08,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            0.239999696612358,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ]
+        ],
+        "position_m": [
+          15.4499998092651,
+          12.3299999237061,
+          15.0
+        ],
+        "role": "light_aa",
+        "source_status": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed",
+        "weapon_definition_id": "cv02_type96_25mm_triple"
+      },
+      {
+        "base_yaw_deg": -90.0,
+        "elevation_pivot_m": [
+          0.0,
+          0.949999988079071,
+          -0.150000005960464
+        ],
+        "host_id": "gallery_aa25_starboard_06",
+        "id": "aa25_starboard_06",
+        "muzzle_positions_m": [
+          [
+            -0.23999984562397,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            -7.43093551136553e-08,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ],
+          [
+            0.239999696612358,
+            -1.78813934326172e-07,
+            -1.54999983310699
+          ]
+        ],
+        "position_m": [
+          15.4499998092651,
+          12.3299999237061,
+          28.0
+        ],
+        "role": "light_aa",
+        "source_status": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed",
+        "weapon_definition_id": "cv02_type96_25mm_triple"
+      }
+    ],
+    "muzzle_basis": "Actual zero train/elevation markers, removing original default15deg Bofors bake; no geometry changes"
+  },
+  "us_essex_cv9_1944_04_15": {
+    "model_scene": "res://naval/essex_cv9_1944_04_15/essex.tscn",
+    "mounts": [
+      {
+        "base_yaw_deg": 0.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.64999997615814,
+          -0.349999994039536
+        ],
+        "host_id": "stbd_51",
+        "id": "dp_51",
+        "muzzle_positions_m": [
+          [
+            -0.720000267028809,
+            5.96046447753906e-07,
+            -3.99999856948853
+          ],
+          [
+            0.719999313354492,
+            5.96046447753906e-07,
+            -3.99999856948853
+          ]
+        ],
+        "position_m": [
+          16.3999996185303,
+          15.9700002670288,
+          -50.5
+        ],
+        "role": "main_dual_purpose",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "cv01_5in38_mk32_twin"
+      },
+      {
+        "base_yaw_deg": 0.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.64999997615814,
+          -0.349999994039536
+        ],
+        "host_id": "stbd_53",
+        "id": "dp_53",
+        "muzzle_positions_m": [
+          [
+            -0.720000267028809,
+            -3.57627868652344e-07,
+            -3.99999856948853
+          ],
+          [
+            0.719999313354492,
+            -3.57627868652344e-07,
+            -3.99999856948853
+          ]
+        ],
+        "position_m": [
+          16.3999996185303,
+          18.2000007629395,
+          -38.0
+        ],
+        "role": "main_dual_purpose",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "cv01_5in38_mk32_twin"
+      },
+      {
+        "base_yaw_deg": 180.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.64999997615814,
+          -0.349999994039536
+        ],
+        "host_id": "stbd_55",
+        "id": "dp_55",
+        "muzzle_positions_m": [
+          [
+            -0.719998955726624,
+            -3.57627868652344e-07,
+            -4.00000047683716
+          ],
+          [
+            0.720000624656677,
+            -3.57627868652344e-07,
+            -4.00000047683716
+          ]
+        ],
+        "position_m": [
+          16.3999996185303,
+          18.2000007629395,
+          22.0
+        ],
+        "role": "main_dual_purpose",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "cv01_5in38_mk32_twin"
+      },
+      {
+        "base_yaw_deg": 180.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.64999997615814,
+          -0.349999994039536
+        ],
+        "host_id": "stbd_57",
+        "id": "dp_57",
+        "muzzle_positions_m": [
+          [
+            -0.719998955726624,
+            5.96046447753906e-07,
+            -3.99999856948853
+          ],
+          [
+            0.720000624656677,
+            5.96046447753906e-07,
+            -3.99999856948853
+          ]
+        ],
+        "position_m": [
+          16.3999996185303,
+          15.9700002670288,
+          34.5
+        ],
+        "role": "main_dual_purpose",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "cv01_5in38_mk32_twin"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.79999995231628,
+          -0.100000001490116
+        ],
+        "host_id": "port_forward_sponson",
+        "id": "dp_52",
+        "muzzle_positions_m": [
+          [
+            1.77031168391295e-07,
+            2.38418579101562e-07,
+            -3.95000123977661
+          ]
+        ],
+        "position_m": [
+          -20.3500003814697,
+          13.6700000762939,
+          -104.0
+        ],
+        "role": "main_dual_purpose",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "cv01_5in38_mk24_single"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.79999995231628,
+          -0.100000001490116
+        ],
+        "host_id": "port_forward_sponson",
+        "id": "dp_54",
+        "muzzle_positions_m": [
+          [
+            1.77031168391295e-07,
+            2.38418579101562e-07,
+            -3.95000123977661
+          ]
+        ],
+        "position_m": [
+          -20.3500003814697,
+          13.6700000762939,
+          -92.0
+        ],
+        "role": "main_dual_purpose",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "cv01_5in38_mk24_single"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.79999995231628,
+          -0.100000001490116
+        ],
+        "host_id": "port_aft_sponson",
+        "id": "dp_56",
+        "muzzle_positions_m": [
+          [
+            1.77031168391295e-07,
+            2.38418579101562e-07,
+            -3.95000123977661
+          ]
+        ],
+        "position_m": [
+          -20.3500003814697,
+          13.6700000762939,
+          94.0
+        ],
+        "role": "main_dual_purpose",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "cv01_5in38_mk24_single"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.79999995231628,
+          -0.100000001490116
+        ],
+        "host_id": "port_aft_sponson",
+        "id": "dp_58",
+        "muzzle_positions_m": [
+          [
+            1.77031168391295e-07,
+            2.38418579101562e-07,
+            -3.95000123977661
+          ]
+        ],
+        "position_m": [
+          -20.3500003814697,
+          13.6700000762939,
+          106.0
+        ],
+        "role": "main_dual_purpose",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "cv01_5in38_mk24_single"
+      },
+      {
+        "base_yaw_deg": 0.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.5,
+          -0.0199999995529652
+        ],
+        "host_id": "bow_bofors",
+        "id": "aa40_bow",
+        "muzzle_positions_m": [
+          [
+            -1.12000000476837,
+            0.0,
+            -2.69999361038208
+          ],
+          [
+            -0.389999985694885,
+            0.0,
+            -2.69999361038208
+          ],
+          [
+            0.389999985694885,
+            0.0,
+            -2.69999361038208
+          ],
+          [
+            1.12000000476837,
+            0.0,
+            -2.69999361038208
+          ]
+        ],
+        "position_m": [
+          0.0,
+          10.1999998092651,
+          -124.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "us_bofors_40mm_quad"
+      },
+      {
+        "base_yaw_deg": 180.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.5,
+          -0.0199999995529652
+        ],
+        "host_id": "stern_bofors",
+        "id": "aa40_stern",
+        "muzzle_positions_m": [
+          [
+            -1.12000000476837,
+            0.0,
+            -2.69999361038208
+          ],
+          [
+            -0.390000104904175,
+            0.0,
+            -2.69999361038208
+          ],
+          [
+            0.390000104904175,
+            0.0,
+            -2.69999361038208
+          ],
+          [
+            1.12000012397766,
+            0.0,
+            -2.69999361038208
+          ]
+        ],
+        "position_m": [
+          -3.0,
+          9.09999942779541,
+          124.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "us_bofors_40mm_quad"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.5,
+          -0.0199999995529652
+        ],
+        "host_id": "port_forward_sponson",
+        "id": "aa40_port_fore",
+        "muzzle_positions_m": [
+          [
+            -1.12000262737274,
+            0.0,
+            -2.70000123977661
+          ],
+          [
+            -0.389999270439148,
+            0.0,
+            -2.70000123977661
+          ],
+          [
+            0.389999508857727,
+            0.0,
+            -2.70000123977661
+          ],
+          [
+            1.12000286579132,
+            0.0,
+            -2.70000123977661
+          ]
+        ],
+        "position_m": [
+          -20.5,
+          13.5500001907349,
+          -79.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "us_bofors_40mm_quad"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.5,
+          -0.0199999995529652
+        ],
+        "host_id": "port_aft_sponson",
+        "id": "aa40_port_aft",
+        "muzzle_positions_m": [
+          [
+            -1.12000262737274,
+            0.0,
+            -2.70000123977661
+          ],
+          [
+            -0.389999270439148,
+            0.0,
+            -2.70000123977661
+          ],
+          [
+            0.389999508857727,
+            0.0,
+            -2.70000123977661
+          ],
+          [
+            1.12000286579132,
+            0.0,
+            -2.70000123977661
+          ]
+        ],
+        "position_m": [
+          -20.5,
+          13.5500001907349,
+          81.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "us_bofors_40mm_quad"
+      },
+      {
+        "base_yaw_deg": 180.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.5,
+          -0.0199999995529652
+        ],
+        "host_id": "island_aft_bofors",
+        "id": "aa40_island_aft",
+        "muzzle_positions_m": [
+          [
+            -1.12000060081482,
+            0.0,
+            -2.70000028610229
+          ],
+          [
+            -0.389999151229858,
+            0.0,
+            -2.70000028610229
+          ],
+          [
+            0.389999628067017,
+            0.0,
+            -2.70000028610229
+          ],
+          [
+            1.12000012397766,
+            0.0,
+            -2.70000028610229
+          ]
+        ],
+        "position_m": [
+          16.3999996185303,
+          22.0,
+          11.3000001907349
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "us_bofors_40mm_quad"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_01",
+        "id": "aa20_01",
+        "muzzle_positions_m": [
+          [
+            5.24536574175727e-08,
+            -7.15255737304688e-07,
+            -1.19999980926514
+          ]
+        ],
+        "position_m": [
+          -14.0,
+          16.0,
+          -119.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      },
+      {
+        "base_yaw_deg": -90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_02",
+        "id": "aa20_02",
+        "muzzle_positions_m": [
+          [
+            -5.24536574175727e-08,
+            -7.15255737304688e-07,
+            -1.19999980926514
+          ]
+        ],
+        "position_m": [
+          11.0,
+          16.0,
+          -119.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_03",
+        "id": "aa20_03",
+        "muzzle_positions_m": [
+          [
+            5.24537000501368e-08,
+            -7.15255737304688e-07,
+            -1.20000076293945
+          ]
+        ],
+        "position_m": [
+          -18.0,
+          16.0,
+          -61.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_04",
+        "id": "aa20_04",
+        "muzzle_positions_m": [
+          [
+            5.24537000501368e-08,
+            -7.15255737304688e-07,
+            -1.20000076293945
+          ]
+        ],
+        "position_m": [
+          -18.0,
+          16.0,
+          -47.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_05",
+        "id": "aa20_05",
+        "muzzle_positions_m": [
+          [
+            5.24537000501368e-08,
+            -7.15255737304688e-07,
+            -1.20000076293945
+          ]
+        ],
+        "position_m": [
+          -18.0,
+          16.0,
+          1.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_06",
+        "id": "aa20_06",
+        "muzzle_positions_m": [
+          [
+            5.24537000501368e-08,
+            -7.15255737304688e-07,
+            -1.20000076293945
+          ]
+        ],
+        "position_m": [
+          -18.0,
+          16.0,
+          18.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_07",
+        "id": "aa20_07",
+        "muzzle_positions_m": [
+          [
+            5.24537000501368e-08,
+            -7.15255737304688e-07,
+            -1.20000076293945
+          ]
+        ],
+        "position_m": [
+          -16.0,
+          16.0,
+          64.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      },
+      {
+        "base_yaw_deg": 90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_08",
+        "id": "aa20_08",
+        "muzzle_positions_m": [
+          [
+            5.24537000501368e-08,
+            -7.15255737304688e-07,
+            -1.20000076293945
+          ]
+        ],
+        "position_m": [
+          -16.0,
+          16.0,
+          119.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      },
+      {
+        "base_yaw_deg": -90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_09",
+        "id": "aa20_09",
+        "muzzle_positions_m": [
+          [
+            -5.24536574175727e-08,
+            -7.15255737304688e-07,
+            -1.19999980926514
+          ]
+        ],
+        "position_m": [
+          12.0,
+          16.0,
+          119.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      },
+      {
+        "base_yaw_deg": -90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_10",
+        "id": "aa20_10",
+        "muzzle_positions_m": [
+          [
+            -5.24536574175727e-08,
+            -7.15255737304688e-07,
+            -1.19999980926514
+          ]
+        ],
+        "position_m": [
+          14.0,
+          16.0,
+          77.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      },
+      {
+        "base_yaw_deg": -90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_11",
+        "id": "aa20_11",
+        "muzzle_positions_m": [
+          [
+            -5.24536574175727e-08,
+            -7.15255737304688e-07,
+            -1.19999980926514
+          ]
+        ],
+        "position_m": [
+          14.0,
+          16.0,
+          93.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      },
+      {
+        "base_yaw_deg": -90.0,
+        "elevation_pivot_m": [
+          0.0,
+          1.04999995231628,
+          0.0
+        ],
+        "host_id": "aa_gallery_12",
+        "id": "aa20_12",
+        "muzzle_positions_m": [
+          [
+            -5.24536574175727e-08,
+            -7.15255737304688e-07,
+            -1.19999980926514
+          ]
+        ],
+        "position_m": [
+          14.0,
+          16.0,
+          -70.0
+        ],
+        "role": "dedicated_aa",
+        "source_status": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m",
+        "weapon_definition_id": "s03_us_oerlikon_20mm_single"
+      }
+    ],
+    "muzzle_basis": "Actual zero train/elevation markers, removing original default15deg Bofors bake; no geometry changes"
+  }
+}

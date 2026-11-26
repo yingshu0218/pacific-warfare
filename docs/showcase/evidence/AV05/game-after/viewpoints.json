@@ -1,0 +1,186 @@
+[
+	{
+		"camera_m": [
+			-5280.59375,
+			1809.08117675781,
+			1564.01928710938
+		],
+		"definition": "jp_g4m1_1942_07",
+		"focus_m": [
+			-5300.0,
+			1800.62194824219,
+			1586.66003417969
+		],
+		"mesh_nodes": 69,
+		"pose": "front",
+		"scene": "s14_attack_g4m",
+		"simulation_time_s": 0.4,
+		"size": [
+			960,
+			540
+		],
+		"span": 24.8799991607666,
+		"subject": "bomber"
+	},
+	{
+		"camera_m": [
+			-5267.158203125,
+			1802.6123046875,
+			1586.16247558594
+		],
+		"definition": "jp_g4m1_1942_07",
+		"focus_m": [
+			-5300.0,
+			1800.62194824219,
+			1586.66003417969
+		],
+		"mesh_nodes": 69,
+		"pose": "side",
+		"scene": "s14_attack_g4m",
+		"simulation_time_s": 0.4,
+		"size": [
+			960,
+			540
+		],
+		"span": 24.8799991607666,
+		"subject": "bomber"
+	},
+	{
+		"camera_m": [
+			-5320.8994140625,
+			1807.58837890625,
+			1612.03759765625
+		],
+		"definition": "jp_g4m1_1942_07",
+		"focus_m": [
+			-5300.0,
+			1800.62194824219,
+			1586.66003417969
+		],
+		"mesh_nodes": 69,
+		"pose": "rear",
+		"scene": "s14_attack_g4m",
+		"simulation_time_s": 0.4,
+		"size": [
+			960,
+			540
+		],
+		"span": 24.8799991607666,
+		"subject": "bomber"
+	},
+	{
+		"camera_m": [
+			-5328.61181640625,
+			1814.30590820312,
+			1626.96557617188
+		],
+		"definition": "jp_g4m1_1942_07",
+		"focus_m": [
+			-5300.0,
+			1800.62194824219,
+			1586.66003417969
+		],
+		"mesh_nodes": 69,
+		"pose": "follow",
+		"scene": "s14_attack_g4m",
+		"simulation_time_s": 0.4,
+		"size": [
+			960,
+			540
+		],
+		"span": 24.8799991607666,
+		"subject": "bomber"
+	},
+	{
+		"camera_m": [
+			-5291.02978515625,
+			2404.19750976562,
+			1576.95324707031
+		],
+		"definition": "jp_d4y2_model12_1944_10",
+		"focus_m": [
+			-5300.0,
+			2400.28759765625,
+			1587.41821289062
+		],
+		"mesh_nodes": 58,
+		"pose": "front",
+		"scene": "s14_attack_d4y",
+		"simulation_time_s": 0.4,
+		"size": [
+			960,
+			540
+		],
+		"span": 11.5,
+		"subject": "bomber"
+	},
+	{
+		"camera_m": [
+			-5284.81982421875,
+			2401.20751953125,
+			1587.18823242188
+		],
+		"definition": "jp_d4y2_model12_1944_10",
+		"focus_m": [
+			-5300.0,
+			2400.28759765625,
+			1587.41821289062
+		],
+		"mesh_nodes": 58,
+		"pose": "side",
+		"scene": "s14_attack_d4y",
+		"simulation_time_s": 0.4,
+		"size": [
+			960,
+			540
+		],
+		"span": 11.5,
+		"subject": "bomber"
+	},
+	{
+		"camera_m": [
+			-5309.66015625,
+			2403.50756835938,
+			1599.14819335938
+		],
+		"definition": "jp_d4y2_model12_1944_10",
+		"focus_m": [
+			-5300.0,
+			2400.28759765625,
+			1587.41821289062
+		],
+		"mesh_nodes": 58,
+		"pose": "rear",
+		"scene": "s14_attack_d4y",
+		"simulation_time_s": 0.4,
+		"size": [
+			960,
+			540
+		],
+		"span": 11.5,
+		"subject": "bomber"
+	},
+	{
+		"camera_m": [
+			-5313.22509765625,
+			2406.61254882812,
+			1606.04821777344
+		],
+		"definition": "jp_d4y2_model12_1944_10",
+		"focus_m": [
+			-5300.0,
+			2400.28759765625,
+			1587.41821289062
+		],
+		"mesh_nodes": 58,
+		"pose": "follow",
+		"scene": "s14_attack_d4y",
+		"simulation_time_s": 0.4,
+		"size": [
+			960,
+			540
+		],
+		"span": 11.5,
+		"subject": "bomber"
+	}
+]

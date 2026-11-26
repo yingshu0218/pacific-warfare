@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "before": {
+    "two-after.json": "6633aaf4c164c7cbe95eaa199646884a897100b7dda737c85e23aac184b84e4c",
+    "four-after.json": "a6a9b80293ba405711c814ec122d7b77fcd046f8ad59946108ca7f0ebe96788c",
+    "standard-after.json": "b8bdca82e00a66ea5bba35c624de1c20dfb4387a3204218e8e91a7f8c6639d84",
+    "current-after.json": "c61511d0b12db74f3af8c2c32cfcae8789880f8b26335ee79634e8b45323731e"
+  },
+  "after": {
+    "two-after.json": "6633aaf4c164c7cbe95eaa199646884a897100b7dda737c85e23aac184b84e4c",
+    "four-after.json": "a6a9b80293ba405711c814ec122d7b77fcd046f8ad59946108ca7f0ebe96788c",
+    "standard-after.json": "b8bdca82e00a66ea5bba35c624de1c20dfb4387a3204218e8e91a7f8c6639d84",
+    "current-after.json": "c61511d0b12db74f3af8c2c32cfcae8789880f8b26335ee79634e8b45323731e"
+  },
+  "scope": "Repeat all2v2/4v4/standard/current cases on frozen final production source; compare full recorded samples and summaries."
+}

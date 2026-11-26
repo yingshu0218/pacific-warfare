@@ -1,0 +1,66 @@
+{
+	"camera_basis": [
+		[
+			-0.789352297782898,
+			0.0,
+			-0.613940536975861
+		],
+		[
+			-0.106072768568993,
+			0.984961569309235,
+			0.136379301548004
+		],
+		[
+			0.604707837104797,
+			0.172773689031601,
+			-0.77748167514801
+		]
+	],
+	"camera_position_m": [
+		7.0,
+		2.9407844543457,
+		-7.42829418182373
+	],
+	"camera_size_m": 4.0,
+	"engine": "4.7.2-stable (official)",
+	"model_origin_m": [
+		0.0,
+		1.24035167694092,
+		0.0
+	],
+	"model_rotation_rad": [
+		0.188341036438942,
+		0.0,
+		0.0
+	],
+	"model_scale": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"model_state": {
+		"bay": 0.0,
+		"bomb_visible": true,
+		"brake": 0.0,
+		"crutch": 0.0,
+		"flap": 0.0,
+		"gear": 1.0,
+		"hook": 0.0,
+		"propeller_rad": 0.0,
+		"rear_gun": false
+	},
+	"native": true,
+	"renderer": "gl_compatibility",
+	"size_px": [
+		1440,
+		900
+	],
+	"source_hashes": {
+		"aircraft/d4y2/d4y2.gd": "9a0117529544fe4fb898671b517c93331b09fc93bd5112f467ab3b26f253c024",
+		"aircraft/d4y2/geometry.gd": "2cc47571421744c2fe8f49d18b810f3d4b76ee20a5c18428c57408ce539a74be",
+		"aircraft/d4y2/inspection.gd": "2808b906cb6ca4e0f3725b1ca244cf7225bcf7b1f30b2cc52eda295439257dc4",
+		"naval/shokaku_1941_08_23/data/deck.json": "5e02881d24f0700e8710128aee65875fdcc0301714c0d5aedde0a087ffb00cd3",
+		"naval/shokaku_1941_08_23/shokaku.gd": "bb037e5a6a9afad14cb1dfab41fcbb882d6b1f7aaa6b625890fe7767a7c53361"
+	},
+	"view": "paint_debug"
+}

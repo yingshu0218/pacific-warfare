@@ -1,0 +1,150 @@
+{
+  "task": "AV04",
+  "status": "passed_independent_model_and_MAP02_static_usage",
+  "manifest_sha256": "d14d6bb2842d753d5f16e656ccf494090b8f424c4370fc81262e3e1073ddb660",
+  "hash_checks": 936,
+  "hash_failures": [],
+  "verified_counts": {
+    "source_hashes": 17,
+    "readonly_dependency_hashes": 25,
+    "reference_hashes": 51,
+    "other_evidence_hashes": 7,
+    "captures": 23
+  },
+  "verification_runs": 15,
+  "failed_historical_runs": [
+    "20261111T132703-78f72390",
+    "20261111T132754-9e8e729b",
+    "20261111T133020-6a2715c9",
+    "20261111T133137-d7ac4246"
+  ],
+  "process_groups": [
+    {
+      "process_group": 85999,
+      "state": "gone"
+    },
+    {
+      "process_group": 86101,
+      "state": "gone"
+    },
+    {
+      "process_group": 86747,
+      "state": "gone"
+    },
+    {
+      "process_group": 87676,
+      "state": "gone"
+    },
+    {
+      "process_group": 87677,
+      "state": "gone"
+    },
+    {
+      "process_group": 87796,
+      "state": "gone"
+    },
+    {
+      "process_group": 87797,
+      "state": "gone"
+    },
+    {
+      "process_group": 88237,
+      "state": "gone"
+    },
+    {
+      "process_group": 88430,
+      "state": "gone"
+    },
+    {
+      "process_group": 88431,
+      "state": "gone"
+    },
+    {
+      "process_group": 88474,
+      "state": "gone"
+    },
+    {
+      "process_group": 88475,
+      "state": "gone"
+    },
+    {
+      "process_group": 88963,
+      "state": "gone"
+    },
+    {
+      "process_group": 88964,
+      "state": "gone"
+    },
+    {
+      "process_group": 89021,
+      "state": "gone"
+    },
+    {
+      "process_group": 89022,
+      "state": "gone"
+    },
+    {
+      "process_group": 89238,
+      "state": "gone"
+    },
+    {
+      "process_group": 89239,
+      "state": "gone"
+    },
+    {
+      "process_group": 89450,
+      "state": "gone"
+    },
+    {
+      "process_group": 89451,
+      "state": "gone"
+    }
+  ],
+  "contracts_checks": 235,
+  "contract_failures": [],
+  "public_baseline_count": 9,
+  "public_baseline_changed": [],
+  "final_images_actually_viewed": [
+    {
+      "path": "docs/showcase/evidence/AV04/final/quarter.png",
+      "sha256": "12b9aebaaa56a11c462c3602de520de6417b838201da5aed478aeb8efd85727f"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/final/side.png",
+      "sha256": "2995d80d4224ceee8388c15c953f593bb8c98c5226f0727922b2acbe5c3e39ef"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/final/front.png",
+      "sha256": "c0617c5a39553fe077e2b61b194158c898af61f51fea70dd884e1163053b3c92"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/final/top_flight.png",
+      "sha256": "cc20acc492907ea67762cdc678155b8efe9f990a3dba1bd9e763367427583f76"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/final/landing.png",
+      "sha256": "1001151cf40736c1e317055af4209835975ef81fea290efc4c3cdfaa6155b672"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/final/bay.png",
+      "sha256": "8522e5e3c31d7a74df32158f2a8fa2de38223b909fb620f9e6622de5a77a482e"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/final/damage.png",
+      "sha256": "c2309bb3325d447a3d63a27639185291108b7c37200e5a9adabc1059a0887be6"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/final/airport_apron.png",
+      "sha256": "744ca3ae0e9898bff077d17dd338d4d9add3f315eec084aadbd7d570d028b12a"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/final/airport_overview.png",
+      "sha256": "910b50e13c13abbb969d485309563edbdaa10b8b938b0d438150275c6d25b107"
+    }
+  ],
+  "scope_limits": [
+    "production Showcase entry pending S14",
+    "flight/bombing/ground operations/combat/DM integration not qualified",
+    "Chrome fleet performance pending"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "validated_run": "20261109T201258-a98ea459",
+  "files": {
+    "data/aircraft/performance.json": "061c57ffdace592374bbf5e4f1c27de96ab8fb68725480d30601bffaee9511d3",
+    "data/ammunition/jp_127mm_type89_shell.json": "c2ba8b0f8d6878161fb9563c68a33230a668d7ef3af260dbb249611a092e6420",
+    "data/ammunition/jp_13mm_type93_ball.json": "24a90ca338939f9f7abf2913c2c69dcb9c11b84f4075fb01a28dd38f18fb38c7",
+    "data/ammunition/jp_155mm_shell.json": "cf7a8ddb8eb0f4283d72b96ace59197ebbc52125fa8f55ac769f01695b65c71d",
+    "data/ammunition/jp_20mm_type99_2_shell.json": "a3a7c1f25b1b748c223d7e27da9a56c9bb298b014a21164abf287db514e4a019",
+    "data/ammunition/jp_25mm_type96_shell.json": "c4c94a80b884ebc10968536b9fc4670998c3be306acdf333696d10045f3e7ea5",
+    "data/ammunition/jp_460mm_ap.json": "aba8d10aaacef37994c89669c7b93e5f098579eab8c6fd27fa51b361f7d2375c",
+    "data/ammunition/jp_77mm_type97_ball.json": "231edffe52a5a1ab9a3502750167767b3f2512c2c4984d2c9e58bfb884f7f739",
+    "data/ammunition/s03_jp_127mm_type1_common.json": "e35ef0b05f6319837e161789c111d3466cd03d47ef589929683345b53c58a43c",
+    "data/ammunition/s03_jp_25mm_type96_he.json": "b347866af0527266050f2311f2f32be4ea84b718a8f26af2dddf6cd6ee719adb",
+    "data/ammunition/s03_us_127mm_mk32_common.json": "4583172dec93f7df46b09b4f63fb19bb381622bc19fed23c7c6140c9e08c2002",
+    "data/ammunition/s03_us_20mm_mk3_he.json": "c8b57e5d6c262b1b60b36c8129f15ca870ff93f23864a0b7ba281ac632f45a3f",
+    "data/ammunition/s03_us_28mm_mk1_he.json": "76d5621df249de79671db2bb04b6528fbbdd23377451e5ccaf6b13392be3d78c",
+    "data/ammunition/us_127mm_5in38_shell.json": "de7e6b5e81e2e1d7bd6532fc6b9dce4db4fb3aadf0938c27d55b4258543c2c9e",
+    "data/ammunition/us_127mm_m2_ball.json": "6304064c6d140e10c389bbddd251580ef4a89dd6d2f5adb45d5ffc1881a50fb2",
+    "data/ammunition/us_20mm_oerlikon_shell.json": "67a72a77690406d008e33fa1035fdef3be7c809e20bfd04ce7c266d3cfb3d541",
+    "data/ammunition/us_406mm_mk8_ap.json": "f1541e5e53a4f5bc7d623d877cc4fa90db4b581ae4f853e910707dd3a385fd11",
+    "data/ammunition/us_40mm_bofors_shell.json": "d096f091606e794ea439c5eabb91dd69624ba245acc70ef4390269d6990a0a94",
+    "data/combat/showcase.json": "932d50609e9d8c6012c23ffc1e659e0333f97e2c40a57de134cdbe4dfb70ecc7",
+    "data/units/jp_a6m5a_1944.json": "c54709cc15211cdc43cdb25b7215ccabffb169a9c62176c2880f5d74a62b9f8f",
+    "data/units/jp_yamato_1944_04.json": "251d67eeb4c5abf4cece3cc2ea75f3523ab81e78a35447f34e1197630022b44d",
+    "data/units/jp_yukikaze_1942_06.json": "7521baa56e70a267c8a16372e3cf236af0292c7dbd146ca0e3c613372baac617",
+    "data/units/us_f6f5_1944.json": "74eacb1d1ec2ece8b1ef2a6fbc585556876915d0bf678c96a1ffb0d48444d734",
+    "data/units/us_fletcher_dd445_1942_07_18.json": "780ee4afd859fc318e38b5833d500e46694dff233b2a7927088d63c672af3048",
+    "data/units/us_iowa_bb61_1944_12_28.json": "6f786350a51d3e41a7ed4306fdb2acd334ccdbc902b109a82ddef147a9f0962f",
+    "data/units/weapons/jp_type97_77mm_single.json": "202105eaf426289880ab5e79121791853f8c821d9b51b5ea0cfce4311dbdf713",
+    "data/units/weapons/jp_type99_2_model4_20mm_single.json": "6da133cdcf55fded5825ac4ca90c780dc6b21efbc3f5d40033957000291b3f4a",
+    "data/units/weapons/us_an_m2_127mm_single.json": "d03be2a1ebced436d243addb66a3db043e3cea086c7b94fe168b1b6fcff5da65"
+  },
+  "notes": [
+    "Final index hashes match the delivered files. After validation 20261109T201258-a98ea459, only the F6F performance source paragraph was clarified; no numerical or behavioral parameters changed."
+  ],
+  "metadata_only_updates": [
+    {
+      "file": "data/aircraft/performance.json",
+      "validated_sha256": "ecc53539c7d7ece48af557cab7d107b4893e55a370e6bea4feba9ad70b4b97d7",
+      "delivered_sha256": "061c57ffdace592374bbf5e4f1c27de96ab8fb68725480d30601bffaee9511d3",
+      "change": "F6F source prose only; no numerical or behavioral changes."
+    }
+  ]
+}

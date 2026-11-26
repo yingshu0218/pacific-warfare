@@ -1,0 +1,159 @@
+{
+  "date_cn": "2026-11-11",
+  "generated_utc": "2026-11-10T19:12:32.300868+00:00",
+  "status": "native_checks_complete_pending_coordinator_final_admission",
+  "source_hashes": {
+    "aircraft/sb2c4/sb2c4.gd": "6da0e7cfbb45027217bc5eda90551c3b75cacaf1151eaf8b60c30d97be18cb61",
+    "aircraft/sb2c4/showcase.gd": "08136aff97aa2f5b4984b3e6463ba88a9671569294e74ebd4487ea7cc9c31bce",
+    "aircraft/sb2c4/sb2c4.tscn": "2f848e2e37c3cab9d685989e0760901f7577b97e9f4de3ebb20dd31ca481cf89",
+    "aircraft/sb2c4/showcase.tscn": "b981e03c879eb9fe88c53c588de565742c35b10f2852f4c7fe14664114610ec5",
+    "aircraft/sb2c4/validation/test_sb2c4_admission.gd": "668f16f6659ec00180786a6a0078fdbea4d05993e998da43c683acfe0f72e845",
+    "aircraft/sb2c4/validation/package_admission.py": "ad3222f6955a7034b79f6d6988e69717226c8f641b3bbe87881a05a276c96aeb",
+    "aircraft/scripts/aircraft_builder.gd": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+    "scripts/showcase/sb2c_flight_adapter.gd": "959aa7c3039be1fc34cbb2caa4c086fe2b0981857a7b9b911b19de90789d32b9",
+    "project.godot": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95"
+  },
+  "reference_hashes": {
+    "extra_09.jpg": "2582ad586300f89e5bf6f6fe08315e634a89b3ad436228a72b5e480a2ee841f9",
+    "extra_10.jpg": "a00d99f41915b40608bd1ace8fc5df0c5524fdec5202019aa76a31c67ce554b0",
+    "05.jpg": "ad4b9a3771ad8a53a5e782d27194aed63f4e55d9874e9f37863ce7dadc0205b3",
+    "extra_11.jpg": "c231c7ce463293917c33fb64b6702e2ea18e70e456d4458d907a5a98e92c3977",
+    "wright-state-sb2c4-side-preview.jpg": "d10a2b5c5d90a2e9120d92eb245ae7388db7bb47bb63bb8864b5412d270aea19",
+    "target/sb2c4-outer-form-candidate-v04.png": "838372e9f708d0b33a79a51f5c50fef190bb50139be1b14f13a190a313ffcffd"
+  },
+  "captures": [
+    {
+      "file": "final/bomb-nose-and-bay.png",
+      "sha256": "832d4904cea7035f23d936a9e304d156d603338ea0335abc1c4c26bac293d38f",
+      "metadata": "final/bomb-nose-and-bay.png.json",
+      "metadata_sha256": "0b9acf7505d9869e89cf08f60806eeeb25493ee86b454b819ec0717e1e1aab01",
+      "view": "bomb_bay",
+      "mode": "detail",
+      "pose": "level"
+    },
+    {
+      "file": "final/cockpit-root.png",
+      "sha256": "99d1dc62978401c15fe7c530a0bde1e0657331551bbcd409160996ee27b44948",
+      "metadata": "final/cockpit-root.png.json",
+      "metadata_sha256": "ca77a89028f629042d94f5efb29a5d1e37768b82b4eeeda2a1271d3e23b8db50",
+      "view": "cockpit_detail",
+      "mode": "clean",
+      "pose": "level"
+    },
+    {
+      "file": "final/display-load-assembly.png",
+      "sha256": "e0d89ff26d4f3bfebf13d23fa4a812a35b69f26889bc57bead025027622c04ca",
+      "metadata": "final/display-load-assembly.png.json",
+      "metadata_sha256": "699d51e331abd4282fb15078cd1f7c5ea0d64e8bf1850f4e62b803449c99b6e3",
+      "view": "underside_quarter",
+      "mode": "detail",
+      "pose": "level"
+    },
+    {
+      "file": "final/front-flight.png",
+      "sha256": "bf3e8aad8cfb43f30cd3afbcd39c243a6d62d9043e5a97fd1fb6a898cc07b3dd",
+      "metadata": "final/front-flight.png.json",
+      "metadata_sha256": "8d5febb87faeb1a0763fbe45cf397a02e06944c19ffefeed459ffe44af3ea3cd",
+      "view": "front",
+      "mode": "flight",
+      "pose": "level"
+    },
+    {
+      "file": "final/gunner-support.png",
+      "sha256": "6848ef82249baa8668dc25395d215e7be43a01da62cbfc907e44f17277b8395c",
+      "metadata": "final/gunner-support.png.json",
+      "metadata_sha256": "a089c7b341d987336115e18dd29eed8da7d202c7a2166129adb1f81a359ced55",
+      "view": "gunner_detail",
+      "mode": "clean",
+      "pose": "level"
+    },
+    {
+      "file": "final/hvar-direction-and-mount.png",
+      "sha256": "be875a313ec4f8582d2cd6835619f57a26870cf30f02b30c429828047423f591",
+      "metadata": "final/hvar-direction-and-mount.png.json",
+      "metadata_sha256": "2f17aeafc3dadfd3f499171a273ce995a25cb8ca10282f3431524f77a31f78ec",
+      "view": "stores_detail",
+      "mode": "detail",
+      "pose": "level"
+    },
+    {
+      "file": "final/observer-distance-flight.png",
+      "sha256": "d91a2339b311afb8e3f39d0489e564d980f003b60cf97446cef1e3c1fe43eea7",
+      "metadata": "final/observer-distance-flight.png.json",
+      "metadata_sha256": "baabcda310fddeeb589e5ee685a3c5de5898d689d43c60a0b67fa7e232c03fa2",
+      "view": "observer_follow",
+      "mode": "flight",
+      "pose": "level"
+    },
+    {
+      "file": "final/reference-front-parked.png",
+      "sha256": "94b8aad1c293b94a0336a5e402ec7f9d2dbe0aab517393674c5f40023c337a38",
+      "metadata": "final/reference-front-parked.png.json",
+      "metadata_sha256": "8fdf1185c951c623ff78aa793b865e7c4230c04e550478f16c7e428325a16b47",
+      "view": "reference_front",
+      "mode": "clean",
+      "pose": "parked"
+    },
+    {
+      "file": "final/reference-rear-parked.png",
+      "sha256": "df6d051c5b5cbcb56a55425f1cae32685c9f60a6b4d7d148109f5667ae7e64ed",
+      "metadata": "final/reference-rear-parked.png.json",
+      "metadata_sha256": "8cfd823f5b83520e87efe589296511677f7b6bb6857d424bc111ef4156ea68e4",
+      "view": "reference_rear",
+      "mode": "clean",
+      "pose": "parked"
+    },
+    {
+      "file": "final/side-flight.png",
+      "sha256": "e986e6267e55d62c987062a46bf58f002cbea1b9a34b9fc907da00e8c87662d4",
+      "metadata": "final/side-flight.png.json",
+      "metadata_sha256": "f3230ba2a07abfdde467bddf94af4626b5f80dd68158ea61ea346bec7de0e4c2",
+      "view": "reference_side",
+      "mode": "flight",
+      "pose": "level"
+    },
+    {
+      "file": "final/side-parked.png",
+      "sha256": "489ee52566f60b4d549bb51d55ffba85822d846ea78fbb19b8660106701fbedf",
+      "metadata": "final/side-parked.png.json",
+      "metadata_sha256": "c06150759fd08b0b2716b2d87d4ed2c98a4df20b48e3b3a167aa0d7b183eb9d0",
+      "view": "side",
+      "mode": "clean",
+      "pose": "parked"
+    },
+    {
+      "file": "final/tailwheel-attachment.png",
+      "sha256": "76f6a7f73d7c10604bc0915b77aa081fea71b628e9d93eb2f5dc795900635ac2",
+      "metadata": "final/tailwheel-attachment.png.json",
+      "metadata_sha256": "adbce4f0fbc1daaa0a1894e64930c19d86c0d17bb06bbf2f4d7150aebb0447d2",
+      "view": "tailwheel_detail",
+      "mode": "clean",
+      "pose": "level"
+    },
+    {
+      "file": "final/top-flight.png",
+      "sha256": "2f2ace240a8cceed0ba0601836cfd3aea62105aadb0c6a03d665b92e2af4496a",
+      "metadata": "final/top-flight.png.json",
+      "metadata_sha256": "c45bcc191941f68d449e2c4df1c2da64b6a416062c7ab62dea7372bc20b9f74e",
+      "view": "top",
+      "mode": "flight",
+      "pose": "level"
+    },
+    {
+      "file": "final/underside-flight-closed.png",
+      "sha256": "29b3bcbe790a3dc8110b966b6f36bf3575fc5f12fc23c8d98207fbf348e0bb3f",
+      "metadata": "final/underside-flight-closed.png.json",
+      "metadata_sha256": "a66aeaee357875d6b24afd8181b0db7b229059e7ae1170902e28024816800d01",
+      "view": "underside",
+      "mode": "flight",
+      "pose": "level"
+    }
+  ],
+  "same_before_after_side_camera": true,
+  "same_before_after_side_shared_builder": false,
+  "restore": "/Users/infinity/Desktop/Dev/game-pacific/.local/restores/SB2C-admission/20261110T183132Z",
+  "baseline_manifest": "sources-before.json",
+  "interface": "interfaces.json",
+  "verification": "verification-index.json",
+  "cleanup": "cleanup.json"
+}

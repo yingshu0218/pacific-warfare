@@ -1,0 +1,66 @@
+{
+  "run_id": "20261111T130131-0341d282",
+  "owner": "BOMB01",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r02",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 83582,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r02",
+      "pid": 83590,
+      "process_group": 83590,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1486,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T130131-0341d282/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r02",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r02",
+      "pid": 83591,
+      "process_group": 83591,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 3.0709,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T130131-0341d282/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "BOMB01",
+    "pid": 83582,
+    "process_identity": "Wed Nov 11 21:01:31 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner BOMB01 --timeout 55 --project .local/bomb01/r02 import",
+    "token": "3a084ea69db64f9b98eb15d70254e7d8",
+    "acquired_utc": "2026-11-11T13:01:31.640673+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

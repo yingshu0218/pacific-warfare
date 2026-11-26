@@ -1,0 +1,310 @@
+{
+  "status": "Ego Lite feature acceptance passed",
+  "accepted_utc": "2026-11-19T07:43:03.679325+00:00",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "package": {
+    "scene": "expanded",
+    "pck_sha256": "474dcfe5c079ae0aa7228e679f57927045ce1e355f6848e84710bc3c3b8bbbe5"
+  },
+  "browser": "Ego Lite",
+  "browser_sdk": "2.2.1",
+  "machine": {
+    "cpu": "Apple M5",
+    "ram_bytes": 17179869184
+  },
+  "canvas_1x": {
+    "width": 1280,
+    "height": 720,
+    "viewport": [
+      1788,
+      962
+    ],
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+  },
+  "canvas_4x": {
+    "width": 1280,
+    "height": 720,
+    "viewport": [
+      1280,
+      720
+    ],
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+  },
+  "identity": {
+    "url": "http://127.0.0.1:49449/index.html",
+    "title": "海空交锋 · 全单位 Showcase",
+    "visibility": "visible",
+    "focused": false
+  },
+  "checks": {
+    "live_bomber_roster": true,
+    "both_fleet_orders_at_sea": true,
+    "both_fleets_fire_at_ships": true,
+    "default_camera_coverage": true,
+    "air_observer_keeps_battle": true,
+    "two_commanders_in_regular_hud": true,
+    "real_restart": true,
+    "independent_b25_scenario": true,
+    "default_90_sim_seconds": true,
+    "release_contact_and_explosion": true,
+    "fighter_dogfight_both_factions": true,
+    "fighter_intercepts_bomber": true,
+    "stale_contact_retry_reduced": true,
+    "default_entry": true,
+    "console_clean": true,
+    "cleanup": true
+  },
+  "flight_opening": {
+    "bomber": [
+      {
+        "file": "bomber-1.png",
+        "time_s": 3.06666666666667,
+        "label": "实际交战 · 轰炸编队",
+        "subject": "jp_g4m_1"
+      }
+    ],
+    "intercept": [
+      {
+        "file": "intercept-1.png",
+        "time_s": 0.4,
+        "label": "实际交战 · 战斗机拦截轰炸机",
+        "subject": "us_b25_1"
+      },
+      {
+        "file": "intercept-2.png",
+        "time_s": 10.2,
+        "label": "实际交战 · 战斗机拦截轰炸机",
+        "subject": "jp_air_1"
+      }
+    ],
+    "dogfight": [
+      {
+        "file": "dogfight-1.png",
+        "time_s": 5.15,
+        "label": "实际交战 · 战斗机狗斗",
+        "subject": "jp_air_3"
+      },
+      {
+        "file": "dogfight-2.png",
+        "time_s": 7.76666666666667,
+        "label": "实际交战 · 战斗机狗斗",
+        "subject": "us_air_3"
+      }
+    ],
+    "flagship": [
+      {
+        "file": "flagship-1.png",
+        "time_s": 13.4,
+        "label": "实际交战 · 主炮射击",
+        "subject": "jp_bb"
+      },
+      {
+        "file": "flagship-2.png",
+        "time_s": 22.4666666666667,
+        "label": "实际交战 · 主炮射击",
+        "subject": "us_bb"
+      }
+    ]
+  },
+  "initial_orders": [
+    {
+      "data": {
+        "assigned_unit_ids": [],
+        "faction_id": "jp",
+        "intent": "surface_threat",
+        "issuer_id": "jp_commander",
+        "order_id": "fleet_ai:jp:0001",
+        "order_type": "engage",
+        "reason": "dispatched",
+        "recipient_ids": [
+          "jp_bb"
+        ],
+        "source": "ai",
+        "status": "issued"
+      },
+      "entity_id": "",
+      "exercise": "harbor",
+      "generation": 1,
+      "kind": "order_issued",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 45,
+      "target_id": "us_bb",
+      "time_s": 0.0333333333333333,
+      "weapon_id": ""
+    },
+    {
+      "data": {
+        "assigned_unit_ids": [],
+        "faction_id": "us",
+        "intent": "surface_threat",
+        "issuer_id": "us_commander",
+        "order_id": "fleet_ai:us:0006",
+        "order_type": "engage",
+        "reason": "dispatched",
+        "recipient_ids": [
+          "us_bb"
+        ],
+        "source": "ai",
+        "status": "issued"
+      },
+      "entity_id": "",
+      "exercise": "harbor",
+      "generation": 1,
+      "kind": "order_issued",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "sequence": 68,
+      "target_id": "jp_bb",
+      "time_s": 0.0333333333333333,
+      "weapon_id": ""
+    }
+  ],
+  "observed": {
+    "checks": {
+      "default_90_sim_seconds": true,
+      "release_contact_and_explosion": true,
+      "fighter_dogfight_both_factions": true,
+      "fighter_intercepts_bomber": true,
+      "stale_contact_retry_reduced": true
+    },
+    "first_shots_s": {
+      "ship>ship": 0.7,
+      "ship>fighter": 3.4,
+      "ground>ship": 6.03333333333333,
+      "fighter>fighter": 7.2,
+      "fighter>bomber": 9.63333333333333,
+      "ship>ground": 10.3333333333333,
+      "ship>bomber": 14.7166666666667,
+      "ground>bomber": 48.6333333333333
+    },
+    "gunfire_by_pair": {
+      "ship>ship": 393,
+      "ship>fighter": 90,
+      "ground>ship": 11,
+      "fighter>fighter": 196,
+      "fighter>bomber": 208,
+      "ship>ground": 10,
+      "ship>bomber": 10,
+      "ground>bomber": 32
+    },
+    "fighter_fighter_by_faction": {
+      "us": 183,
+      "jp": 13
+    },
+    "bomb_counts": {
+      "bomb_released": 24,
+      "bomb_contact": 24,
+      "bomb_explosion": 24
+    },
+    "matched_bomb_ids": [
+      "projectile_00000613",
+      "projectile_00000616",
+      "projectile_00000617",
+      "projectile_00000618",
+      "projectile_00000625",
+      "projectile_00000626",
+      "projectile_00000627",
+      "projectile_00000628",
+      "projectile_00000630",
+      "projectile_00000631",
+      "projectile_00000632",
+      "projectile_00000633",
+      "projectile_00000634",
+      "projectile_00000635",
+      "projectile_00000639",
+      "projectile_00000640",
+      "projectile_00000641",
+      "projectile_00000642",
+      "projectile_00000643",
+      "projectile_00000644",
+      "projectile_00000645",
+      "projectile_00000648",
+      "projectile_00000649",
+      "projectile_00000650"
+    ],
+    "first_bomb_release_s": 44.7166666666667,
+    "first_bomb_contact_s": 64.6,
+    "invalid_target_receipts": [
+      {
+        "data": {
+          "faction_id": "us",
+          "issuer_id": "aircraft_tasks",
+          "reason": "invalid_enemy_target",
+          "source": "ai"
+        },
+        "entity_id": "",
+        "exercise": "harbor",
+        "generation": 1,
+        "kind": "command_rejected",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "sequence": 2226,
+        "target_id": "",
+        "time_s": 56.0166666666667,
+        "weapon_id": ""
+      }
+    ]
+  },
+  "performance": [
+    {
+      "scope": "1× 自动采图及只读探针，约 5–30 秒仿真，内部 1280×720",
+      "samples": 285,
+      "median_ms": 128.2,
+      "p95_ms": 142.4
+    },
+    {
+      "scope": "4× 补验，5–90 秒仿真，内部及页面 1280×720，记录一次取景截图",
+      "samples": 315,
+      "median_ms": 133.333333333333,
+      "p95_ms": 142.625925925926
+    }
+  ],
+  "performance_target_passed": false,
+  "images": {
+    "dogfight-bank.png": "4248b488491d2d720640cfe2b8c425ca8e51227b3179995742221bad8047d668",
+    "dogfight-tracers.png": "dc2b4c32b5e8a13c308ae0cecd7f186edd65184680f193a5463ba58a150eace5",
+    "b25j-opening.png": "8e9cc3d54e5edb29d4377e0941c2896de895e7f003677a9f956ef2b9935d6da1",
+    "bomber-intercept-tracers.png": "28a81552dbf94a33c0e22cc716ef74806ea1e0b1bc3fdb19f9d5d651b0a0fa26",
+    "commander-cards.png": "a095d047e41c866897d89d91f128cc32c649a2b390b77fcd578b7274fd63e22b",
+    "g4m1-bomb-release.png": "f220ef254fa08523d27fa5901d353e31354a9c95b2179c86b51fe72ed883989c"
+  },
+  "raw_reports": [
+    ".local/repairs/20261119_showcase_command/ego-final/run.json",
+    ".local/repairs/20261119_showcase_command/ego-impact/run.json",
+    ".local/repairs/20261119_showcase_command/ego-impact/complete.json",
+    ".local/repairs/20261119_showcase_command/ego-impact/final-page.json"
+  ],
+  "operator_notes": {
+    "initial_window": "1× captured approximately 30 simulation seconds and completed UI interactions. Ego SDK Page.title did not reflect the expected title in this first check. The continuation verified document.title and location on the same build.",
+    "event_recount": "The continuation captured raw events to simulation 90 s before its roster summary variable error. The event summary is recomputed from those raw events using the same build roster and projectile IDs."
+  },
+  "export_reports": [
+    ".local/validation/runs/20261119T072319-2aee7c9d/report.json",
+    ".local/validation/runs/20261119T072323-29c39e0e/report.json"
+  ],
+  "cleanup": {
+    "ego_task_space": 5,
+    "ego_finish_keep": [],
+    "server_ports_closed": [
+      49449,
+      49201
+    ],
+    "ego_server_reports": [
+      ".local/validation/runs/20261119T072711-60aefa67/report.json",
+      ".local/validation/runs/20261119T073424-d6e967e6/report.json"
+    ],
+    "chrome_transition_cleanup": ".local/repairs/20261119_showcase_command/chrome-final/run.json"
+  }
+}

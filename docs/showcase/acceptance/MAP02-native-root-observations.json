@@ -1,0 +1,76 @@
+{
+  "checked_utc": "2026-11-10T21:19:36.296640+00:00",
+  "status": "final_native_static_map_and_references_reviewed",
+  "viewed": [
+    {
+      "path": "docs/showcase/evidence/MAP02/modules/dock_crane.png",
+      "sha256": "3157794e776bf271f5e706297bb29f274ae4a3cc0eec82225a8a0cdd956c0b2a"
+    },
+    {
+      "path": "docs/showcase/evidence/MAP02/modules/public_hall.png",
+      "sha256": "9b61c181a26d68213a08015109eec6a7f20f28169dbd806814f56a7963295f9a"
+    },
+    {
+      "path": "docs/showcase/evidence/MAP02/modules/repair_shed.png",
+      "sha256": "aafe2ffe044cc217923b8e19e4c2970d72d234eb2534c047d635f83fc931dd8d"
+    },
+    {
+      "path": "docs/showcase/evidence/MAP02/map/map02_civil_low.png",
+      "sha256": "0870623cee2cfb2ceef8b2e378519f310895a24841727f68f63d575eba54bdbd"
+    },
+    {
+      "path": "docs/showcase/evidence/MAP02/map/map02_naval_low.png",
+      "sha256": "79b9e59ee6191d6f3c6727134dc4c886ce45ee247df427ffdba908d2696d9fd4"
+    },
+    {
+      "path": "docs/showcase/evidence/MAP02/map/map02_airfield.png",
+      "sha256": "586c0359b76645ec7cd58b9e06b30c72f43e8e4ed1058d6544538dc4aa851d18"
+    },
+    {
+      "path": "docs/showcase/evidence/MAP02/map/map02_civil.png",
+      "sha256": "d0927b176f5d823e5428762501c62f4b5a496a4c0c4f9988645a53f554e44de5"
+    },
+    {
+      "path": "docs/showcase/evidence/MAP02/map/map02_fuel.png",
+      "sha256": "affeb3fceaf54782b3abf684330c7aa741392420e4409918af5d5e6bd876761e"
+    },
+    {
+      "path": "docs/showcase/evidence/MAP02/map/map02_ridge.png",
+      "sha256": "684026afe950996c5043b1af771557166fedbf03c1fcb5d05de7d1e1abe2f026"
+    }
+  ],
+  "observations": [
+    "Reviewed actual simple facility modules (crane, public hall/clocktower, repair shed) and assembled civil/navaI port, town, oil tank area, airfield and high-ground empty AA platform. Forms distinguish the functions without surface-detail expansion.",
+    "Pier top surfaces and shore approaches are visibly contiguous at inspection distance; no floating whole facility visible in the sampled views. Tank area shifted inland from the earlier draft.",
+    "Airfield currently shows static runway/taxi/apron/hangars. Empty circles are deployment sites, not implemented weapons or aircraft operations.",
+    "Independent inspector uses its own simple water; these views do not claim final S13 water/sky or Chrome acceptance.",
+    "Inspected layout plan and shared-query-only data adapter. Component boxes/cylinders/gables use data-driven conservative solid proxies; small painted/details are non-solid. Final proxy precision contract pending.",
+    "Actual Apra photo has dispersed floating docks and open basin; used for zoning only. Original airfield screenshot is an internal model reference. No historical identity or exact geometry inferred from either."
+  ],
+  "sources_read": [
+    "scripts/map02/expanded_map_data.gd",
+    "scripts/map02/expanded_map_view.gd",
+    "data/map02/facility_modules.json",
+    "tests/map02/test_map02_terrain.gd",
+    "docs/maps/MAP02/layout.md",
+    "docs/maps/MAP02/boundary.md"
+  ],
+  "pending": [
+    "S14 expanded scene integration and actual Chrome remain later gates, along with actual AA/air operations/building damage."
+  ],
+  "final_module_recheck": "Explicitly re-opened final hard-edge repair_shed, dock_crane, public_hall after freeze; their current hashes match entries. Earlier smooth-normal images were preliminary only.",
+  "additional_viewed": [
+    {
+      "path": "docs/showcase/evidence/MAP02/sequence_contact_sheet.png",
+      "sha256": "63dcb0618a35d0d01feccb843f760d16a3b1e44f6bc9ee01e5f5d468f490602d"
+    },
+    {
+      "path": ".local/map02/references/apra_1945_original.jpg",
+      "sha256": "837968e8dcfdc4c7db2ae641d5d465d74c77c5f75d6e37fdbd9bf2426154a42f"
+    },
+    {
+      "path": "island_airfield/screenshots/runway_neutral.png",
+      "sha256": "d698f4c762249f4bcd0254ca1ff907c0931273bd6c3d271c04d67b95a7dab0fd"
+    }
+  ]
+}

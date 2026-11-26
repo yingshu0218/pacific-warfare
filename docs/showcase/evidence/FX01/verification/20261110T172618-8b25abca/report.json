@@ -1,0 +1,157 @@
+{
+  "run_id": "20261110T172618-8b25abca",
+  "owner": "FX01",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 55107,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 55123,
+      "process_group": 55123,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1267,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T172618-8b25abca/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+        "--script",
+        "res://tests/test_fx01_effects.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 55125,
+      "process_group": 55125,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.5571,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T172618-8b25abca/01-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+        "--script",
+        "res://tests/test_combat_effects.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 55127,
+      "process_group": 55127,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.3421,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T172618-8b25abca/02-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+        "--script",
+        "res://tests/test_combat_presence.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 55128,
+      "process_group": 55128,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.9238,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T172618-8b25abca/03-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+        "--script",
+        "res://tests/test_combat_damage_effects.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 55129,
+      "process_group": 55129,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.6475,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T172618-8b25abca/04-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+        "--script",
+        "res://tests/test_unit_surface_contact.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 55130,
+      "process_group": 55130,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.341,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T172618-8b25abca/05-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "FX01",
+    "pid": 55107,
+    "process_identity": "Wed Nov 11 01:26:18 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner FX01 --timeout 60 --lock-timeout 45 --project .local/fx01-project test res://tests/test_fx01_effects.gd res://tests/test_combat_effects.gd res://tests/test_combat_presence.gd res://tests/test_combat_damage_effects.gd res://tests/test_unit_surface_contact.gd",
+    "token": "32aa93dd34ed457bbb3ab7340737f0c7",
+    "acquired_utc": "2026-11-10T17:26:29.503542+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

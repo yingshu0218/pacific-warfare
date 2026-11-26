@@ -1,0 +1,40 @@
+{
+  "run_id": "20261110T142914-ad8d10df",
+  "owner": "S04",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 36309,
+  "checks": [
+    {
+      "command": [
+        ".local/S04-spatial-plot-env/bin/python",
+        "-"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 36311,
+      "process_group": 36311,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 5.8431,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T142914-ad8d10df/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S04",
+    "pid": 36309,
+    "process_identity": "Tue Nov 10 22:29:14 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S04 --lock-timeout 45 --timeout 60 exec -- .local/S04-spatial-plot-env/bin/python -",
+    "token": "edede7b13d19409eb7d74d334ad31636",
+    "acquired_utc": "2026-11-10T14:29:14.711501+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

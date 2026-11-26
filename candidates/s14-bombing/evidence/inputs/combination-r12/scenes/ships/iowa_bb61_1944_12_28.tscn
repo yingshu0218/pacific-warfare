@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/presentation/models/capital_ship_adapter.gd" id="1"]
+
+[node name="iowa_bb61_1944_12_28" type="Node3D"]
+script = ExtResource("1")
+model_id = "us_iowa_bb61_1944_12_28"

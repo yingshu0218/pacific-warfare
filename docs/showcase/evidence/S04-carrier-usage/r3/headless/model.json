@@ -1,0 +1,450 @@
+{
+	"checks": 56,
+	"clean": {
+		"coordinate_space": "aircraft_local",
+		"definition_id": "us_f6f5_1944",
+		"flap_angle_rad": 0.0,
+		"gear_down": false,
+		"hook_available": false,
+		"hook_deflection_limit_rad": 0.349065850398866,
+		"hook_deflection_rad": 0.0,
+		"hook_down": false,
+		"hook_free_angle_rad": 0.20943951023932,
+		"hook_host_part_id": "tail",
+		"hook_pivot_m": [
+			0.0,
+			0.130000114440918,
+			4.80000019073486
+		],
+		"hook_tip_m": [
+			0.0,
+			0.382372379302979,
+			2.16287899017334
+		],
+		"schema_version": 1,
+		"wheel_contacts": {
+			"main_left": {
+				"available": false,
+				"host_part_id": "wing_left",
+				"position_m": [
+					-1.92999994754791,
+					-2.29999995231628,
+					-0.0900000035762787
+				]
+			},
+			"main_right": {
+				"available": false,
+				"host_part_id": "wing_right",
+				"position_m": [
+					1.92999994754791,
+					-2.29999995231628,
+					-0.0900000035762787
+				]
+			},
+			"tail": {
+				"available": false,
+				"host_part_id": "tail",
+				"position_m": [
+					0.0,
+					-2.29999995231628,
+					4.51999998092651
+				]
+			}
+		}
+	},
+	"constrained": {
+		"coordinate_space": "aircraft_local",
+		"definition_id": "us_f6f5_1944",
+		"flap_angle_rad": 0.610865238198015,
+		"gear_down": true,
+		"hook_available": true,
+		"hook_deflection_limit_rad": 0.349065850398866,
+		"hook_deflection_rad": 0.190877365736701,
+		"hook_down": true,
+		"hook_free_angle_rad": 0.20943951023932,
+		"hook_host_part_id": "tail",
+		"hook_pivot_m": [
+			0.0,
+			0.13000226020813,
+			4.80000019073486
+		],
+		"hook_tip_m": [
+			0.000000476837158203125,
+			-2.29999995231628,
+			5.85507822036743
+		],
+		"schema_version": 1,
+		"wheel_contacts": {
+			"main_left": {
+				"available": true,
+				"host_part_id": "wing_left",
+				"position_m": [
+					-1.93000030517578,
+					-2.29999995231628,
+					-0.0900001525878906
+				]
+			},
+			"main_right": {
+				"available": true,
+				"host_part_id": "wing_right",
+				"position_m": [
+					1.93000030517578,
+					-2.29999899864197,
+					-0.0900003910064697
+				]
+			},
+			"tail": {
+				"available": true,
+				"host_part_id": "tail",
+				"position_m": [
+					-0.000000476837158203125,
+					-2.29999995231628,
+					4.51999950408936
+				]
+			}
+		}
+	},
+	"cpu_geometry": {
+		"axes": "+X right, +Y up, -Z forward",
+		"definition_id": "us_f6f5_1944",
+		"gear_up_contact_proxy": {
+			"center_flight_m": [
+				0.0,
+				0.219999998807907,
+				-4.67999982833862
+			],
+			"kind": "rotating_propeller_disc",
+			"normal_flight": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"radius_m": 1.995,
+			"sample_points_flight_m": [
+				[
+					0.0,
+					-1.77499997615814,
+					-4.67999982833862
+				],
+				[
+					-1.99500000476837,
+					0.219999998807907,
+					-4.67999982833862
+				],
+				[
+					1.99500000476837,
+					0.219999998807907,
+					-4.67999982833862
+				]
+			],
+			"scope": "Conservative swept propeller disc; not a complete aircraft collision mesh. Visible airframe bounds are measured separately."
+		},
+		"geometry_id": "f6f5_carrier_usage_v1",
+		"hook_contact_edge_local_m": [
+			[
+				0.0,
+				-2.41000008583069,
+				1.04999995231628
+			],
+			[
+				0.0,
+				-2.41000008583069,
+				1.14999997615814
+			]
+		],
+		"hook_deflection_limit_rad": 0.349065850398866,
+		"hook_free": {
+			"definition_id": "us_f6f5_1944",
+			"gear_down": true,
+			"geometry_id": "f6f5_carrier_usage_v1",
+			"hook_angle_rad": 0.20943951023932,
+			"hook_available": true,
+			"hook_contact_edge_flight_m": [
+				[
+					0.0,
+					-2.44564294815063,
+					5.32598781585693
+				],
+				[
+					0.0,
+					-2.46643424034119,
+					5.42380285263062
+				]
+			],
+			"hook_contact_edge_model_m": [
+				[
+					0.0,
+					-0.145642995834351,
+					5.32598781585693
+				],
+				[
+					0.0,
+					-0.166434288024902,
+					5.42380285263062
+				]
+			],
+			"hook_deflection_rad": 0.0,
+			"hook_down": true,
+			"hook_host_part_id": "tail",
+			"hook_pivot_flight_m": [
+				0.0,
+				0.130000114440918,
+				4.80000019073486
+			],
+			"hook_pivot_model_m": [
+				0.0,
+				2.4300000667572,
+				4.80000019073486
+			],
+			"hook_tip_flight_m": [
+				0.0,
+				-2.45603847503662,
+				5.37489557266235
+			],
+			"hook_tip_model_m": [
+				0.0,
+				-0.156038522720337,
+				5.37489557266235
+			],
+			"schema_version": 1,
+			"wheel_contacts_flight": {
+				"main_left": {
+					"available": true,
+					"host_part_id": "wing_left",
+					"position_m": [
+						-1.92999994754791,
+						-2.29999995231628,
+						-0.0900000035762787
+					]
+				},
+				"main_right": {
+					"available": true,
+					"host_part_id": "wing_right",
+					"position_m": [
+						1.92999994754791,
+						-2.29999995231628,
+						-0.0900000035762787
+					]
+				},
+				"tail": {
+					"available": true,
+					"host_part_id": "tail",
+					"position_m": [
+						0.0,
+						-2.29999995231628,
+						4.51999998092651
+					]
+				}
+			},
+			"wheel_contacts_model": {
+				"main_left": {
+					"available": true,
+					"host_part_id": "wing_left",
+					"position_m": [
+						-1.92999994754791,
+						0.0,
+						-0.0900000035762787
+					]
+				},
+				"main_right": {
+					"available": true,
+					"host_part_id": "wing_right",
+					"position_m": [
+						1.92999994754791,
+						0.0,
+						-0.0900000035762787
+					]
+				},
+				"tail": {
+					"available": true,
+					"host_part_id": "tail",
+					"position_m": [
+						0.0,
+						0.0,
+						4.51999998092651
+					]
+				}
+			}
+		},
+		"hook_stowed": {
+			"definition_id": "us_f6f5_1944",
+			"gear_down": false,
+			"geometry_id": "f6f5_carrier_usage_v1",
+			"hook_angle_rad": 2.0943951023932,
+			"hook_available": false,
+			"hook_contact_edge_flight_m": [
+				[
+					0.0,
+					0.425673723220825,
+					2.18787884712219
+				],
+				[
+					0.0,
+					0.339071035385132,
+					2.13787889480591
+				]
+			],
+			"hook_contact_edge_model_m": [
+				[
+					0.0,
+					2.72567367553711,
+					2.18787884712219
+				],
+				[
+					0.0,
+					2.63907098770142,
+					2.13787889480591
+				]
+			],
+			"hook_deflection_rad": 0.0,
+			"hook_down": false,
+			"hook_host_part_id": "tail",
+			"hook_pivot_flight_m": [
+				0.0,
+				0.130000114440918,
+				4.80000019073486
+			],
+			"hook_pivot_model_m": [
+				0.0,
+				2.4300000667572,
+				4.80000019073486
+			],
+			"hook_tip_flight_m": [
+				0.0,
+				0.382372379302979,
+				2.16287899017334
+			],
+			"hook_tip_model_m": [
+				0.0,
+				2.68237233161926,
+				2.16287899017334
+			],
+			"schema_version": 1,
+			"wheel_contacts_flight": {
+				"main_left": {
+					"available": false,
+					"host_part_id": "wing_left",
+					"position_m": [
+						-1.92999994754791,
+						-2.29999995231628,
+						-0.0900000035762787
+					]
+				},
+				"main_right": {
+					"available": false,
+					"host_part_id": "wing_right",
+					"position_m": [
+						1.92999994754791,
+						-2.29999995231628,
+						-0.0900000035762787
+					]
+				},
+				"tail": {
+					"available": false,
+					"host_part_id": "tail",
+					"position_m": [
+						0.0,
+						-2.29999995231628,
+						4.51999998092651
+					]
+				}
+			},
+			"wheel_contacts_model": {
+				"main_left": {
+					"available": false,
+					"host_part_id": "wing_left",
+					"position_m": [
+						-1.92999994754791,
+						0.0,
+						-0.0900000035762787
+					]
+				},
+				"main_right": {
+					"available": false,
+					"host_part_id": "wing_right",
+					"position_m": [
+						1.92999994754791,
+						0.0,
+						-0.0900000035762787
+					]
+				},
+				"tail": {
+					"available": false,
+					"host_part_id": "tail",
+					"position_m": [
+						0.0,
+						0.0,
+						4.51999998092651
+					]
+				}
+			}
+		},
+		"model_to_flight_translation_m": [
+			0.0,
+			-2.29999995231628,
+			0.0
+		],
+		"schema_version": 1,
+		"source_status": "Existing admitted tyres and origin; new hook length/angle/shape are explicit engineering approximations constrained by original photographs, not factory measurements.",
+		"units": "metres_radians_seconds",
+		"wheel_contact_basis": "Tyre bottoms in the existing level model; rotate and sweep with the actual aircraft/ship attitude, not a fixed root height.",
+		"wheel_radii_m": {
+			"main_left": 0.43,
+			"main_right": 0.43,
+			"tail": 0.15
+		}
+	},
+	"failures": 0,
+	"free": {
+		"coordinate_space": "aircraft_local",
+		"definition_id": "us_f6f5_1944",
+		"flap_angle_rad": 0.610865238198015,
+		"gear_down": true,
+		"hook_available": true,
+		"hook_deflection_limit_rad": 0.349065850398866,
+		"hook_deflection_rad": 0.0,
+		"hook_down": true,
+		"hook_free_angle_rad": 0.20943951023932,
+		"hook_host_part_id": "tail",
+		"hook_pivot_m": [
+			0.0,
+			0.13000226020813,
+			4.80000019073486
+		],
+		"hook_tip_m": [
+			0.0,
+			-2.45603728294373,
+			5.3748950958252
+		],
+		"schema_version": 1,
+		"wheel_contacts": {
+			"main_left": {
+				"available": true,
+				"host_part_id": "wing_left",
+				"position_m": [
+					-1.93000030517578,
+					-2.29999995231628,
+					-0.0900001525878906
+				]
+			},
+			"main_right": {
+				"available": true,
+				"host_part_id": "wing_right",
+				"position_m": [
+					1.93000030517578,
+					-2.29999899864197,
+					-0.0900003910064697
+				]
+			},
+			"tail": {
+				"available": true,
+				"host_part_id": "tail",
+				"position_m": [
+					-0.000000476837158203125,
+					-2.29999995231628,
+					4.51999950408936
+				]
+			}
+		}
+	}
+}

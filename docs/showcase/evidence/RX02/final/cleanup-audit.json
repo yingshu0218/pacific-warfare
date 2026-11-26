@@ -1,0 +1,599 @@
+{
+  "created_utc": "2026-11-12T12:19:18.338617+00:00",
+  "scope": "RX02 validation process groups and wrapper PIDs only; no unrelated process actions",
+  "run_count": 23,
+  "all_recorded_cleanup_ok": true,
+  "live_owned_processes": [],
+  "chrome_http_started_by_RX02": false,
+  "reports": [
+    {
+      "path": ".local/validation/runs/20261112T105526-cdc11d77/report.json",
+      "owner": "RX02-before-follow",
+      "passed": false,
+      "exit_code": 1,
+      "checks": [
+        {
+          "pid": 51247,
+          "process_group": 51247,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 51248,
+          "process_group": 51248,
+          "passed": false,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": true,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T105749-965556d9/report.json",
+      "owner": "RX02-before-map",
+      "passed": false,
+      "exit_code": 1,
+      "checks": [
+        {
+          "pid": 51502,
+          "process_group": 51502,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 51504,
+          "process_group": 51504,
+          "passed": false,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": true,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T105842-075ae0e4/report.json",
+      "owner": "RX02-import-baseline",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 51583,
+          "process_group": 51583,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 51585,
+          "process_group": 51585,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T110442-f386ae1d/report.json",
+      "owner": "RX02-isolated-before-import",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 51962,
+          "process_group": 51962,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 51965,
+          "process_group": 51965,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T110603-963bea40/report.json",
+      "owner": "RX02-before-follow-isolated",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 52120,
+          "process_group": 52120,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 52121,
+          "process_group": 52121,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T110642-e6782842/report.json",
+      "owner": "RX02-isolated-before-map",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 52153,
+          "process_group": 52153,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 52155,
+          "process_group": 52155,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T111212-7df6d5dd/report.json",
+      "owner": "RX02-current-import",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 53332,
+          "process_group": 53332,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 53334,
+          "process_group": 53334,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T111314-6b4786d9/report.json",
+      "owner": "RX02-after-follow-r1",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 53561,
+          "process_group": 53561,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 53562,
+          "process_group": 53562,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T111529-3ca922d2/report.json",
+      "owner": "RX02-after-map-r1",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 53740,
+          "process_group": 53740,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 53741,
+          "process_group": 53741,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T112151-9670e786/report.json",
+      "owner": "RX02-mechanisms-r1",
+      "passed": false,
+      "exit_code": 1,
+      "checks": [
+        {
+          "pid": 54599,
+          "process_group": 54599,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 54600,
+          "process_group": 54600,
+          "passed": false,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T112245-15bcf71b/report.json",
+      "owner": "RX02-mechanisms-r2",
+      "passed": false,
+      "exit_code": 1,
+      "checks": [
+        {
+          "pid": 55073,
+          "process_group": 55073,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 55074,
+          "process_group": 55074,
+          "passed": false,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T112451-a8fc6409/report.json",
+      "owner": "RX02-mechanisms-r3-diagnostic",
+      "passed": false,
+      "exit_code": 1,
+      "checks": [
+        {
+          "pid": 55408,
+          "process_group": 55408,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 55409,
+          "process_group": 55409,
+          "passed": false,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T112644-b9ab0a7c/report.json",
+      "owner": "RX02-mechanisms-r4",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 56084,
+          "process_group": 56084,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 56085,
+          "process_group": 56085,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T113655-ab33b658/report.json",
+      "owner": "RX02-mechanisms-r5",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 57809,
+          "process_group": 57809,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 57810,
+          "process_group": 57810,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T114005-f6bea1b9/report.json",
+      "owner": "RX02-combat-view-native-r1",
+      "passed": false,
+      "exit_code": 1,
+      "checks": [
+        {
+          "pid": 58930,
+          "process_group": 58930,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 58931,
+          "process_group": 58931,
+          "passed": false,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T114526-9e1d1952/report.json",
+      "owner": "RX02-combat-view-native-r2",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 60527,
+          "process_group": 60527,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 60536,
+          "process_group": 60536,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T114757-e13d04d8/report.json",
+      "owner": "RX02-mechanisms-r6",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 61514,
+          "process_group": 61514,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 61515,
+          "process_group": 61515,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T115221-7c00efd0/report.json",
+      "owner": "RX02-final-mechanisms-r7",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 62852,
+          "process_group": 62852,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 62853,
+          "process_group": 62853,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T115445-c3a1c8c6/report.json",
+      "owner": "RX02-native-fire-sequence",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 63511,
+          "process_group": 63511,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 63512,
+          "process_group": 63512,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T115831-8e72c6ec/report.json",
+      "owner": "RX02-native-heavy-fire-final",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 64850,
+          "process_group": 64850,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 64852,
+          "process_group": 64852,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T120400-e2fec680/report.json",
+      "owner": "RX02-native-heavy-fire-r3",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 66220,
+          "process_group": 66220,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 66221,
+          "process_group": 66221,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T120649-b17b0566/report.json",
+      "owner": "RX02-native-follow-final",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 66736,
+          "process_group": 66736,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        },
+        {
+          "pid": 66737,
+          "process_group": 66737,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    },
+    {
+      "path": ".local/validation/runs/20261112T121233-2657d3f4/report.json",
+      "owner": "RX02-encode",
+      "passed": true,
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 67925,
+          "process_group": 67925,
+          "passed": true,
+          "cleanup_ok": true,
+          "cleanup_error": "",
+          "timed_out": false,
+          "interrupted": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+	{
+		"anchors": {
+			"fire": {
+				"actual_mesh_gap_below_m": 0.610140800476074,
+				"clear_upward": true,
+				"size_m": 1.48,
+				"world_position_m": [
+					127.831169128418,
+					9.0,
+					-21.8400802612305
+				]
+			},
+			"smoke": {
+				"actual_mesh_gap_below_m": 1.61014080047607,
+				"clear_upward": true,
+				"size_m": 2.6,
+				"world_position_m": [
+					127.831169128418,
+					10.0,
+					-21.8400802612305
+				]
+			}
+		},
+		"definition_id": "jp_yamato_1944_04",
+		"fire_severity": 0.12
+	},
+	{
+		"anchors": {
+			"fire": {
+				"actual_mesh_gap_below_m": 0.808247089385986,
+				"clear_upward": true,
+				"size_m": 1.48,
+				"world_position_m": [
+					93.9345855712891,
+					4.25,
+					-49.5101318359375
+				]
+			},
+			"smoke": {
+				"actual_mesh_gap_below_m": 1.55824708938599,
+				"clear_upward": true,
+				"size_m": 2.6,
+				"world_position_m": [
+					93.9345855712891,
+					5.0,
+					-49.5101318359375
+				]
+			}
+		},
+		"definition_id": "us_fletcher_dd445_1942_07_18",
+		"fire_severity": 0.12
+	}
+]

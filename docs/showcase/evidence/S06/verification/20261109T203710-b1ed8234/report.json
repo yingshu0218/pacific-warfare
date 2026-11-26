@@ -1,0 +1,85 @@
+{
+  "run_id": "20261109T203710-b1ed8234",
+  "owner": "S06",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 90086,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 90088,
+      "process_group": 90088,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.1393,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T203710-b1ed8234/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_ship_motion.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 90089,
+      "process_group": 90089,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 1.6736,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T203710-b1ed8234/01-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_fleet_formation.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 90093,
+      "process_group": 90093,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 13.055,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T203710-b1ed8234/02-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S06",
+    "pid": 90086,
+    "process_identity": "Tue Nov 10 04:37:10 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S06 --timeout 60 --lock-timeout 10 test res://tests/test_ship_motion.gd res://tests/test_fleet_formation.gd",
+    "token": "64c07cf23b0f498db90eee149c832789",
+    "acquired_utc": "2026-11-09T20:37:10.815926+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,24 @@
+{
+  "id": "jp_type97_77mm_single",
+  "ammo_id": "jp_77mm_type97_ball",
+  "barrel_count": 1,
+  "cycle_s": 0.1,
+  "initial_rounds_per_barrel": 500,
+  "train_limits_deg": [
+    0.0,
+    0.0
+  ],
+  "elevation_limits_deg": [
+    0.0,
+    0.0
+  ],
+  "train_rate_degps": 0.0,
+  "elevation_rate_degps": 0.0,
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "docs/aircraft-contracts.md"
+    ],
+    "note": "125/20mm verified by Tamiya subtype manual; 500/7.7 and cycle integration estimates for S05 calibration. Evidence scope: S04_structural_reference_S05_ballistics_owner"
+  }
+}

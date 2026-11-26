@@ -1,0 +1,1015 @@
+[
+  {
+    "run_id": "20261110T161018-dd3ca1bd",
+    "owner": "S10-model-import",
+    "passed": false,
+    "report": ".local/validation/runs/20261110T161018-dd3ca1bd/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 43793,
+        "process_group": 43793,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161018-dd3ca1bd/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--editor",
+          "--import",
+          "--quit"
+        ],
+        "passed": false,
+        "returncode": 0,
+        "diagnostic_error": true,
+        "cleanup_ok": true,
+        "pid": 43794,
+        "process_group": 43794,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161018-dd3ca1bd/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T161340-64776373",
+    "owner": "S10-model-import",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T161340-64776373/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44066,
+        "process_group": 44066,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161340-64776373/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--editor",
+          "--import",
+          "--quit"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44067,
+        "process_group": 44067,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161340-64776373/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T161404-3cedcb81",
+    "owner": "S10-coast-model",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T161404-3cedcb81/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44102,
+        "process_group": 44102,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161404-3cedcb81/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_ground_models.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44103,
+        "process_group": 44103,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161404-3cedcb81/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T161416-886ef4a3",
+    "owner": "S10-coast-capture",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T161416-886ef4a3/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44115,
+        "process_group": 44115,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161416-886ef4a3/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/ground_model_capture.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44116,
+        "process_group": 44116,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161416-886ef4a3/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T161552-feeb5574",
+    "owner": "S10-AA-model",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T161552-feeb5574/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44252,
+        "process_group": 44252,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161552-feeb5574/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_ground_models.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44254,
+        "process_group": 44254,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161552-feeb5574/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T161620-058166b0",
+    "owner": "S10-AA-capture",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T161620-058166b0/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44281,
+        "process_group": 44281,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161620-058166b0/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/ground_model_capture.gd",
+          "--",
+          "--model",
+          "us_40mm_m1_m2a1_1944"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44282,
+        "process_group": 44282,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161620-058166b0/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T162143-c5148b00",
+    "owner": "S10-ground-import",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T162143-c5148b00/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44713,
+        "process_group": 44713,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162143-c5148b00/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--editor",
+          "--import",
+          "--quit"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44714,
+        "process_group": 44714,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162143-c5148b00/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T162235-3e1dc8a2",
+    "owner": "S10-ground-assembly",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T162235-3e1dc8a2/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44803,
+        "process_group": 44803,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162235-3e1dc8a2/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/ground_battle_probe.gd",
+          "--",
+          "--seconds=30"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44804,
+        "process_group": 44804,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162235-3e1dc8a2/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T162312-a97aefaa",
+    "owner": "S10-default-battle",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T162312-a97aefaa/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44910,
+        "process_group": 44910,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162312-a97aefaa/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/ground_battle_probe.gd",
+          "--",
+          "--seconds=180"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 44911,
+        "process_group": 44911,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162312-a97aefaa/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T162545-b5c37069",
+    "owner": "S10-ground-mechanisms",
+    "passed": false,
+    "report": ".local/validation/runs/20261110T162545-b5c37069/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 45285,
+        "process_group": 45285,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162545-b5c37069/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_ground_models.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 45286,
+        "process_group": 45286,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162545-b5c37069/01-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_ground_combat.gd"
+        ],
+        "passed": false,
+        "returncode": 1,
+        "diagnostic_error": true,
+        "cleanup_ok": true,
+        "pid": 45287,
+        "process_group": 45287,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162545-b5c37069/02-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T162634-d57786a5",
+    "owner": "S10-ground-mechanisms-v2",
+    "passed": false,
+    "report": ".local/validation/runs/20261110T162634-d57786a5/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 45361,
+        "process_group": 45361,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162634-d57786a5/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_ground_combat.gd"
+        ],
+        "passed": false,
+        "returncode": 1,
+        "diagnostic_error": true,
+        "cleanup_ok": true,
+        "pid": 45362,
+        "process_group": 45362,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162634-d57786a5/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T162731-95b6dd40",
+    "owner": "S10-ground-mechanisms-v3",
+    "passed": false,
+    "report": ".local/validation/runs/20261110T162731-95b6dd40/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 45436,
+        "process_group": 45436,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162731-95b6dd40/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_ground_combat.gd"
+        ],
+        "passed": false,
+        "returncode": 1,
+        "diagnostic_error": true,
+        "cleanup_ok": true,
+        "pid": 45437,
+        "process_group": 45437,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162731-95b6dd40/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T162834-b4731d9c",
+    "owner": "S10-ground-mechanisms-v4",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T162834-b4731d9c/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 45513,
+        "process_group": 45513,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162834-b4731d9c/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_ground_combat.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 45514,
+        "process_group": 45514,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T162834-b4731d9c/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T163010-5ae978af",
+    "owner": "S10-native-capture",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T163010-5ae978af/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 45769,
+        "process_group": 45769,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163010-5ae978af/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/ground_native_capture.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 45770,
+        "process_group": 45770,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163010-5ae978af/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T163145-77bafd9f",
+    "owner": "S10-native-final",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T163145-77bafd9f/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46142,
+        "process_group": 46142,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163145-77bafd9f/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/ground_native_capture.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46143,
+        "process_group": 46143,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163145-77bafd9f/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T163313-e0419323",
+    "owner": "S10-domain-regression",
+    "passed": false,
+    "report": ".local/validation/runs/20261110T163313-e0419323/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46319,
+        "process_group": 46319,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_simulation_definitions.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46320,
+        "process_group": 46320,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/01-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_simulation_commands.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46322,
+        "process_group": 46322,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/02-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_contacts.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46323,
+        "process_group": 46323,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/03-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_air_defence.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46326,
+        "process_group": 46326,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/04-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_projectile_impact.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46343,
+        "process_group": 46343,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/05-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_damage_states.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46345,
+        "process_group": 46345,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/06-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_first_playable.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46353,
+        "process_group": 46353,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/07-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_first_playable_report.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46428,
+        "process_group": 46428,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/08-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_cloud_sea_environment.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46431,
+        "process_group": 46431,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/09-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_terrain_observer.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46438,
+        "process_group": 46438,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/10-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_first_playable_ui.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46444,
+        "process_group": 46444,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/11-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_replay.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46453,
+        "process_group": 46453,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/12-output.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_ground_replay.gd"
+        ],
+        "passed": false,
+        "returncode": -15,
+        "diagnostic_error": true,
+        "cleanup_ok": true,
+        "pid": 46455,
+        "process_group": 46455,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163313-e0419323/13-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T163606-268ea938",
+    "owner": "S10-replay-final",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T163606-268ea938/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46683,
+        "process_group": 46683,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163606-268ea938/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_ground_replay.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46687,
+        "process_group": 46687,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163606-268ea938/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T163727-ffc53789",
+    "owner": "S10-ui-final",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T163727-ffc53789/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46786,
+        "process_group": 46786,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163727-ffc53789/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/ground_ui_check.gd"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46788,
+        "process_group": 46788,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163727-ffc53789/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T163813-f02574c0",
+    "owner": "S10-default-final",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T163813-f02574c0/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46866,
+        "process_group": 46866,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163813-f02574c0/00-version.log"
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/ground_battle_probe.gd",
+          "--",
+          "--seconds=180"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 46867,
+        "process_group": 46867,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163813-f02574c0/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T163938-b023867f",
+    "owner": "S10-video-encode",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T163938-b023867f/report.json",
+    "checks": [
+      {
+        "command": [
+          "/opt/homebrew/bin/ffmpeg",
+          "-y",
+          "-framerate",
+          "10",
+          "-i",
+          "docs/showcase/evidence/S10/sequence/frame_%03d.png",
+          "-c:v",
+          "libx264",
+          "-preset",
+          "fast",
+          "-crf",
+          "21",
+          "-pix_fmt",
+          "yuv420p",
+          "-movflags",
+          "+faststart",
+          "docs/showcase/evidence/S10/ground_continuous.mp4"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 47079,
+        "process_group": 47079,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T163938-b023867f/01-output.log"
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T164152-8f5629ca",
+    "owner": "S10-video-inspect",
+    "passed": true,
+    "report": ".local/validation/runs/20261110T164152-8f5629ca/report.json",
+    "checks": [
+      {
+        "command": [
+          "/opt/homebrew/bin/ffprobe",
+          "-v",
+          "error",
+          "-show_entries",
+          "format=duration,size:stream=width,height,avg_frame_rate,nb_frames",
+          "-of",
+          "json",
+          "docs/showcase/evidence/S10/ground_continuous.mp4"
+        ],
+        "passed": true,
+        "returncode": 0,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "pid": 47210,
+        "process_group": 47210,
+        "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T164152-8f5629ca/01-output.log"
+      }
+    ]
+  }
+]

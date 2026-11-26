@@ -1,0 +1,1720 @@
+{
+	"airport_static_installations": [
+		{
+			"bay_doors_fully_open": true,
+			"building_intersections": [],
+			"flaps_fully_down": true,
+			"full_prop_swept_disc_checked": true,
+			"heading_rad": 0.0,
+			"id": "runway_center",
+			"static_only": true,
+			"station_m": [
+				6900.0,
+				8.03999996185303,
+				-2400.0
+			],
+			"wheel_error_max_m": 0.00000042796134991363
+		},
+		{
+			"bay_doors_fully_open": true,
+			"building_intersections": [],
+			"flaps_fully_down": true,
+			"full_prop_swept_disc_checked": true,
+			"heading_rad": 0.0,
+			"id": "taxi_center",
+			"static_only": true,
+			"station_m": [
+				6650.0,
+				8.03999996185303,
+				-2400.0
+			],
+			"wheel_error_max_m": 0.00000042796134991363
+		},
+		{
+			"bay_doors_fully_open": true,
+			"building_intersections": [],
+			"flaps_fully_down": true,
+			"full_prop_swept_disc_checked": true,
+			"heading_rad": -1.5707963267949,
+			"id": "park_1",
+			"static_only": true,
+			"station_m": [
+				6420.0,
+				8.03999996185303,
+				-2600.0
+			],
+			"wheel_error_max_m": 0.00000042796134991363
+		},
+		{
+			"bay_doors_fully_open": true,
+			"building_intersections": [],
+			"flaps_fully_down": true,
+			"full_prop_swept_disc_checked": true,
+			"heading_rad": -1.5707963267949,
+			"id": "park_2",
+			"static_only": true,
+			"station_m": [
+				6500.0,
+				8.03999996185303,
+				-2600.0
+			],
+			"wheel_error_max_m": 0.00000042796134991363
+		},
+		{
+			"bay_doors_fully_open": true,
+			"building_intersections": [],
+			"flaps_fully_down": true,
+			"full_prop_swept_disc_checked": true,
+			"heading_rad": -1.5707963267949,
+			"id": "park_3",
+			"static_only": true,
+			"station_m": [
+				6420.0,
+				8.03999996185303,
+				-2510.0
+			],
+			"wheel_error_max_m": 0.00000042796134991363
+		},
+		{
+			"bay_doors_fully_open": true,
+			"building_intersections": [],
+			"flaps_fully_down": true,
+			"full_prop_swept_disc_checked": true,
+			"heading_rad": -1.5707963267949,
+			"id": "park_4",
+			"static_only": true,
+			"station_m": [
+				6500.0,
+				8.03999996185303,
+				-2510.0
+			],
+			"wheel_error_max_m": 0.00000042796134991363
+		},
+		{
+			"bay_doors_fully_open": true,
+			"building_intersections": [],
+			"flaps_fully_down": true,
+			"full_prop_swept_disc_checked": true,
+			"heading_rad": -1.5707963267949,
+			"id": "park_5",
+			"static_only": true,
+			"station_m": [
+				6420.0,
+				8.03999996185303,
+				-2420.0
+			],
+			"wheel_error_max_m": 0.00000042796134991363
+		},
+		{
+			"bay_doors_fully_open": true,
+			"building_intersections": [],
+			"flaps_fully_down": true,
+			"full_prop_swept_disc_checked": true,
+			"heading_rad": -1.5707963267949,
+			"id": "park_6",
+			"static_only": true,
+			"station_m": [
+				6500.0,
+				8.03999996185303,
+				-2420.0
+			],
+			"wheel_error_max_m": 0.00000042796134991363
+		},
+		{
+			"bay_doors_fully_open": true,
+			"building_intersections": [],
+			"flaps_fully_down": true,
+			"full_prop_swept_disc_checked": true,
+			"heading_rad": -1.5707963267949,
+			"id": "park_7",
+			"static_only": true,
+			"station_m": [
+				6420.0,
+				8.03999996185303,
+				-2330.0
+			],
+			"wheel_error_max_m": 0.00000042796134991363
+		},
+		{
+			"bay_doors_fully_open": true,
+			"building_intersections": [],
+			"flaps_fully_down": true,
+			"full_prop_swept_disc_checked": true,
+			"heading_rad": -1.5707963267949,
+			"id": "park_8",
+			"static_only": true,
+			"station_m": [
+				6500.0,
+				8.03999996185303,
+				-2330.0
+			],
+			"wheel_error_max_m": 0.00000042796134991363
+		}
+	],
+	"axes": "+X right/+Y up/-Z forward",
+	"bomb_slots": [
+		{
+			"clear_before_release_indices": [],
+			"index": 0,
+			"position_status": "conservative fit estimate, not factory station drawing",
+			"release_m": [
+				-0.360000014305115,
+				-0.769999980926514,
+				-1.25999999046326
+			],
+			"release_marker": "BOMB_00_RELEASE"
+		},
+		{
+			"clear_before_release_indices": [],
+			"index": 1,
+			"position_status": "conservative fit estimate, not factory station drawing",
+			"release_m": [
+				0.360000014305115,
+				-0.769999980926514,
+				-1.25999999046326
+			],
+			"release_marker": "BOMB_01_RELEASE"
+		},
+		{
+			"clear_before_release_indices": [
+				0
+			],
+			"index": 2,
+			"position_status": "conservative fit estimate, not factory station drawing",
+			"release_m": [
+				-0.360000014305115,
+				-0.300000011920929,
+				-1.25999999046326
+			],
+			"release_marker": "BOMB_02_RELEASE"
+		},
+		{
+			"clear_before_release_indices": [
+				1
+			],
+			"index": 3,
+			"position_status": "conservative fit estimate, not factory station drawing",
+			"release_m": [
+				0.360000014305115,
+				-0.300000011920929,
+				-1.25999999046326
+			],
+			"release_marker": "BOMB_03_RELEASE"
+		},
+		{
+			"clear_before_release_indices": [
+				2
+			],
+			"index": 4,
+			"position_status": "conservative fit estimate, not factory station drawing",
+			"release_m": [
+				-0.360000014305115,
+				0.170000001788139,
+				-1.25999999046326
+			],
+			"release_marker": "BOMB_04_RELEASE"
+		},
+		{
+			"clear_before_release_indices": [
+				3
+			],
+			"index": 5,
+			"position_status": "conservative fit estimate, not factory station drawing",
+			"release_m": [
+				0.360000014305115,
+				0.170000001788139,
+				-1.25999999046326
+			],
+			"release_marker": "BOMB_05_RELEASE"
+		}
+	],
+	"checks": 235,
+	"damage_modules": [
+		{
+			"bounds_body_m": {
+				"position": [
+					-1.52474355697632,
+					-1.08000004291534,
+					-8.5
+				],
+				"size": [
+					3.04948711395264,
+					2.86999988555908,
+					14.1499996185303
+				]
+			},
+			"collision_proxy": "proposal; not registered; nested boxes must not double count",
+			"id": "center",
+			"parent_path": ".",
+			"path": "Center"
+		},
+		{
+			"bounds_body_m": {
+				"position": [
+					-10.2996997833252,
+					-0.99954491853714,
+					-4.74803161621094
+				],
+				"size": [
+					9.64970016479492,
+					3.02954506874084,
+					7.18803119659424
+				]
+			},
+			"collision_proxy": "proposal; not registered; nested boxes must not double count",
+			"id": "left_wing",
+			"parent_path": ".",
+			"path": "LeftWing"
+		},
+		{
+			"bounds_body_m": {
+				"position": [
+					0.649999976158142,
+					-0.99954491853714,
+					-4.74803161621094
+				],
+				"size": [
+					9.64970016479492,
+					3.02954506874084,
+					7.18803119659424
+				]
+			},
+			"collision_proxy": "proposal; not registered; nested boxes must not double count",
+			"id": "right_wing",
+			"parent_path": ".",
+			"path": "RightWing"
+		},
+		{
+			"bounds_body_m": {
+				"position": [
+					-4.03000020980835,
+					-0.639999985694885,
+					5.65000009536743
+				],
+				"size": [
+					8.0600004196167,
+					3.44999980926514,
+					3.31999921798706
+				]
+			},
+			"collision_proxy": "proposal; not registered; nested boxes must not double count",
+			"id": "tail",
+			"parent_path": ".",
+			"path": "Tail"
+		},
+		{
+			"bounds_body_m": {
+				"position": [
+					-4.84410858154297,
+					-0.99954491853714,
+					-4.74803161621094
+				],
+				"size": [
+					3.47321724891663,
+					3.02954506874084,
+					7.18803119659424
+				]
+			},
+			"collision_proxy": "proposal; not registered; nested boxes must not double count",
+			"id": "engine_left",
+			"parent_path": "LeftWing",
+			"path": "LeftWing/EngineLeft"
+		},
+		{
+			"bounds_body_m": {
+				"position": [
+					1.39589142799377,
+					-0.99954491853714,
+					-4.74803161621094
+				],
+				"size": [
+					3.47321677207947,
+					3.02954506874084,
+					7.18803119659424
+				]
+			},
+			"collision_proxy": "proposal; not registered; nested boxes must not double count",
+			"id": "engine_right",
+			"parent_path": "RightWing",
+			"path": "RightWing/EngineRight"
+		}
+	],
+	"failures": [],
+	"flight_visible_bounds_m": {
+		"configuration": "gear/flaps/doors stowed; neutral gun yaw, dorsal12deg, other guns0deg",
+		"position": [
+			-10.2996997833252,
+			-1.08000004291534,
+			-8.5
+		],
+		"size": [
+			20.5993995666504,
+			3.8899998664856,
+			17.4699993133545
+		]
+	},
+	"ground_clearances_m": {
+		"body_and_payload": 0.505085945129395,
+		"flap_inner_left": 1.6631406545639,
+		"flap_inner_right": 1.6631406545639,
+		"flap_outer_left": 2.00573396682739,
+		"flap_outer_right": 2.00573396682739,
+		"full_prop_disc_left": 0.378121913943627,
+		"full_prop_disc_right": 0.378121892512081,
+		"open_bay_door_left": 0.746262550354004,
+		"open_bay_door_right": 0.746262669563293
+	},
+	"gun_specs": {
+		"cheek_left_lower": {
+			"barrels": 1,
+			"base_path": "Center/GunCheekLeftLower",
+			"elevation_path": "Center/GunCheekLeftLower/Yaw/Elevation",
+			"historical_firing_arcs_qualified": false,
+			"host_self_occlusion_required": true,
+			"muzzle_paths": [
+				"Center/GunCheekLeftLower/Yaw/Elevation/MUZZLE_CHEEK_LEFT_LOWER_0"
+			],
+			"visual_limits_deg": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"weapon": "AN_M2_50_aircraft",
+			"yaw_path": "Center/GunCheekLeftLower/Yaw"
+		},
+		"cheek_left_upper": {
+			"barrels": 1,
+			"base_path": "Center/GunCheekLeftUpper",
+			"elevation_path": "Center/GunCheekLeftUpper/Yaw/Elevation",
+			"historical_firing_arcs_qualified": false,
+			"host_self_occlusion_required": true,
+			"muzzle_paths": [
+				"Center/GunCheekLeftUpper/Yaw/Elevation/MUZZLE_CHEEK_LEFT_UPPER_0"
+			],
+			"visual_limits_deg": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"weapon": "AN_M2_50_aircraft",
+			"yaw_path": "Center/GunCheekLeftUpper/Yaw"
+		},
+		"cheek_right_lower": {
+			"barrels": 1,
+			"base_path": "Center/GunCheekRightLower",
+			"elevation_path": "Center/GunCheekRightLower/Yaw/Elevation",
+			"historical_firing_arcs_qualified": false,
+			"host_self_occlusion_required": true,
+			"muzzle_paths": [
+				"Center/GunCheekRightLower/Yaw/Elevation/MUZZLE_CHEEK_RIGHT_LOWER_0"
+			],
+			"visual_limits_deg": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"weapon": "AN_M2_50_aircraft",
+			"yaw_path": "Center/GunCheekRightLower/Yaw"
+		},
+		"cheek_right_upper": {
+			"barrels": 1,
+			"base_path": "Center/GunCheekRightUpper",
+			"elevation_path": "Center/GunCheekRightUpper/Yaw/Elevation",
+			"historical_firing_arcs_qualified": false,
+			"host_self_occlusion_required": true,
+			"muzzle_paths": [
+				"Center/GunCheekRightUpper/Yaw/Elevation/MUZZLE_CHEEK_RIGHT_UPPER_0"
+			],
+			"visual_limits_deg": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"weapon": "AN_M2_50_aircraft",
+			"yaw_path": "Center/GunCheekRightUpper/Yaw"
+		},
+		"dorsal": {
+			"barrels": 2,
+			"base_path": "Center/GunDorsal",
+			"elevation_path": "Center/GunDorsal/Yaw/Elevation",
+			"historical_firing_arcs_qualified": false,
+			"host_self_occlusion_required": true,
+			"muzzle_paths": [
+				"Center/GunDorsal/Yaw/Elevation/MUZZLE_DORSAL_0",
+				"Center/GunDorsal/Yaw/Elevation/MUZZLE_DORSAL_1"
+			],
+			"visual_limits_deg": [
+				-180.0,
+				180.0,
+				10.0,
+				80.0
+			],
+			"weapon": "AN_M2_50_aircraft",
+			"yaw_path": "Center/GunDorsal/Yaw"
+		},
+		"nose_fixed": {
+			"barrels": 1,
+			"base_path": "Center/GunNoseFixed",
+			"elevation_path": "Center/GunNoseFixed/Yaw/Elevation",
+			"historical_firing_arcs_qualified": false,
+			"host_self_occlusion_required": true,
+			"muzzle_paths": [
+				"Center/GunNoseFixed/Yaw/Elevation/MUZZLE_NOSE_FIXED_0"
+			],
+			"visual_limits_deg": [
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"weapon": "AN_M2_50_aircraft",
+			"yaw_path": "Center/GunNoseFixed/Yaw"
+		},
+		"nose_flexible": {
+			"barrels": 1,
+			"base_path": "Center/GunNoseFlexible",
+			"elevation_path": "Center/GunNoseFlexible/Yaw/Elevation",
+			"historical_firing_arcs_qualified": false,
+			"host_self_occlusion_required": true,
+			"muzzle_paths": [
+				"Center/GunNoseFlexible/Yaw/Elevation/MUZZLE_NOSE_FLEXIBLE_0"
+			],
+			"visual_limits_deg": [
+				-22.0,
+				22.0,
+				-25.0,
+				25.0
+			],
+			"weapon": "AN_M2_50_aircraft",
+			"yaw_path": "Center/GunNoseFlexible/Yaw"
+		},
+		"tail": {
+			"barrels": 2,
+			"base_path": "Tail/GunTail",
+			"elevation_path": "Tail/GunTail/Yaw/Elevation",
+			"historical_firing_arcs_qualified": false,
+			"host_self_occlusion_required": true,
+			"muzzle_paths": [
+				"Tail/GunTail/Yaw/Elevation/MUZZLE_TAIL_0",
+				"Tail/GunTail/Yaw/Elevation/MUZZLE_TAIL_1"
+			],
+			"visual_limits_deg": [
+				-25.0,
+				25.0,
+				-25.0,
+				35.0
+			],
+			"weapon": "AN_M2_50_aircraft",
+			"yaw_path": "Tail/GunTail/Yaw"
+		},
+		"waist_left": {
+			"barrels": 1,
+			"base_path": "Center/GunWaistLeft",
+			"elevation_path": "Center/GunWaistLeft/Yaw/Elevation",
+			"historical_firing_arcs_qualified": false,
+			"host_self_occlusion_required": true,
+			"muzzle_paths": [
+				"Center/GunWaistLeft/Yaw/Elevation/MUZZLE_WAIST_LEFT_0"
+			],
+			"visual_limits_deg": [
+				-30.0,
+				30.0,
+				-30.0,
+				40.0
+			],
+			"weapon": "AN_M2_50_aircraft",
+			"yaw_path": "Center/GunWaistLeft/Yaw"
+		},
+		"waist_right": {
+			"barrels": 1,
+			"base_path": "Center/GunWaistRight",
+			"elevation_path": "Center/GunWaistRight/Yaw/Elevation",
+			"historical_firing_arcs_qualified": false,
+			"host_self_occlusion_required": true,
+			"muzzle_paths": [
+				"Center/GunWaistRight/Yaw/Elevation/MUZZLE_WAIST_RIGHT_0"
+			],
+			"visual_limits_deg": [
+				-30.0,
+				30.0,
+				-30.0,
+				40.0
+			],
+			"weapon": "AN_M2_50_aircraft",
+			"yaw_path": "Center/GunWaistRight/Yaw"
+		}
+	},
+	"identity": "B-25J-1-NC representative early glazed bomber / 1944-07",
+	"markers": [
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "FLAP_INNER_LEFT_HINGE",
+			"path": "LeftWing/FlapInner/FLAP_INNER_LEFT_HINGE",
+			"position_m": [
+				-0.879999995231628,
+				0.393738061189651,
+				0.638028025627136
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated finite +X control hinge; no aerodynamic authority"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "FLAP_OUTER_LEFT_HINGE",
+			"path": "LeftWing/FlapOuter/FLAP_OUTER_LEFT_HINGE",
+			"position_m": [
+				-3.83999991416931,
+				0.593122661113739,
+				0.534253060817719
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated finite +X control hinge; no aerodynamic authority"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "AILERON_LEFT_HINGE",
+			"path": "LeftWing/Aileron/AILERON_LEFT_HINGE",
+			"position_m": [
+				-5.90000009536743,
+				0.563261806964874,
+				0.658548414707184
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated finite +X control hinge; no aerodynamic authority"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "DAMAGE_WING_LEFT_CUT",
+			"path": "LeftWing/DAMAGE_WING_LEFT_CUT",
+			"position_m": [
+				-0.649999976158142,
+				0.140000000596046,
+				-0.600000023841858
+			],
+			"radius_m": 0.0,
+			"source_status": "whole wing carries its engine, propeller and main landing gear"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "FLAP_INNER_RIGHT_HINGE",
+			"path": "RightWing/FlapInner/FLAP_INNER_RIGHT_HINGE",
+			"position_m": [
+				0.879999995231628,
+				0.393738061189651,
+				0.638028025627136
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated finite +X control hinge; no aerodynamic authority"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "FLAP_OUTER_RIGHT_HINGE",
+			"path": "RightWing/FlapOuter/FLAP_OUTER_RIGHT_HINGE",
+			"position_m": [
+				3.83999991416931,
+				0.593122661113739,
+				0.534253060817719
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated finite +X control hinge; no aerodynamic authority"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "AILERON_RIGHT_HINGE",
+			"path": "RightWing/Aileron/AILERON_RIGHT_HINGE",
+			"position_m": [
+				5.90000009536743,
+				0.563261806964874,
+				0.658548414707184
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated finite +X control hinge; no aerodynamic authority"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "DAMAGE_WING_RIGHT_CUT",
+			"path": "RightWing/DAMAGE_WING_RIGHT_CUT",
+			"position_m": [
+				0.649999976158142,
+				0.140000000596046,
+				-0.600000023841858
+			],
+			"radius_m": 0.0,
+			"source_status": "whole wing carries its engine, propeller and main landing gear"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "ELEVATOR_LEFT_HINGE",
+			"path": "Tail/ElevatorLeft/ELEVATOR_LEFT_HINGE",
+			"position_m": [
+				-0.5,
+				0.595066666603088,
+				7.18400001525879
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated +X finite hinge"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "RUDDER_LEFT_HINGE",
+			"path": "Tail/RudderLeft/RUDDER_LEFT_HINGE",
+			"position_m": [
+				-3.8199999332428,
+				0.449999988079071,
+				7.44000005722046
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y hinge; no common centre fin"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "ELEVATOR_RIGHT_HINGE",
+			"path": "Tail/ElevatorRight/ELEVATOR_RIGHT_HINGE",
+			"position_m": [
+				0.5,
+				0.595066666603088,
+				7.18400001525879
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated +X finite hinge"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "RUDDER_RIGHT_HINGE",
+			"path": "Tail/RudderRight/RUDDER_RIGHT_HINGE",
+			"position_m": [
+				3.8199999332428,
+				0.449999988079071,
+				7.44000005722046
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y hinge; no common centre fin"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "PROP_CENTER_LEFT",
+			"path": "LeftWing/EngineLeft/Propeller/PROP_CENTER_LEFT",
+			"position_m": [
+				-3.11999988555908,
+				0.119999997317791,
+				-4.44000005722046
+			],
+			"radius_m": 0.0,
+			"source_status": "full swept radius photo estimate 1.91m"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "ENGINE_LEFT_SMOKE",
+			"path": "LeftWing/EngineLeft/ENGINE_LEFT_SMOKE",
+			"position_m": [
+				-3.11999988555908,
+				0.469999998807907,
+				-2.59999990463257
+			],
+			"radius_m": 0.0,
+			"source_status": "simulation requested smoke only"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "ENGINE_LEFT_CUT",
+			"path": "LeftWing/EngineLeft/ENGINE_LEFT_CUT",
+			"position_m": [
+				-3.11999988555908,
+				0.119999997317791,
+				-2.79999995231628
+			],
+			"radius_m": 0.0,
+			"source_status": "engine subhost inherits entire corresponding wing"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "PROP_CENTER_RIGHT",
+			"path": "RightWing/EngineRight/Propeller/PROP_CENTER_RIGHT",
+			"position_m": [
+				3.11999988555908,
+				0.119999997317791,
+				-4.44000005722046
+			],
+			"radius_m": 0.0,
+			"source_status": "full swept radius photo estimate 1.91m"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "ENGINE_RIGHT_SMOKE",
+			"path": "RightWing/EngineRight/ENGINE_RIGHT_SMOKE",
+			"position_m": [
+				3.11999988555908,
+				0.469999998807907,
+				-2.59999990463257
+			],
+			"radius_m": 0.0,
+			"source_status": "simulation requested smoke only"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "ENGINE_RIGHT_CUT",
+			"path": "RightWing/EngineRight/ENGINE_RIGHT_CUT",
+			"position_m": [
+				3.11999988555908,
+				0.119999997317791,
+				-2.79999995231628
+			],
+			"radius_m": 0.0,
+			"source_status": "engine subhost inherits entire corresponding wing"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "WHEEL_LEFT",
+			"path": "LeftWing/EngineLeft/GearLeft/WHEEL_LEFT",
+			"position_m": [
+				-3.11999988555908,
+				-1.64999985694885,
+				0.299999952316284
+			],
+			"radius_m": 0.52,
+			"source_status": "photo-estimated actual wheel cylinder center; circle radius below"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "GEAR_LEFT_HINGE",
+			"path": "LeftWing/EngineLeft/GearLeft/GEAR_LEFT_HINGE",
+			"position_m": [
+				-3.11999988555908,
+				-0.310000002384186,
+				-0.450000047683716
+			],
+			"radius_m": 0.0,
+			"source_status": "simplified finite aft retraction +X; not precise multi-link mechanics"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "WHEEL_RIGHT",
+			"path": "RightWing/EngineRight/GearRight/WHEEL_RIGHT",
+			"position_m": [
+				3.11999988555908,
+				-1.64999985694885,
+				0.299999952316284
+			],
+			"radius_m": 0.52,
+			"source_status": "photo-estimated actual wheel cylinder center; circle radius below"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "GEAR_RIGHT_HINGE",
+			"path": "RightWing/EngineRight/GearRight/GEAR_RIGHT_HINGE",
+			"position_m": [
+				3.11999988555908,
+				-0.310000002384186,
+				-0.450000047683716
+			],
+			"radius_m": 0.0,
+			"source_status": "simplified finite aft retraction +X; not precise multi-link mechanics"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "WHEEL_NOSE",
+			"path": "Center/GearNose/WHEEL_NOSE",
+			"position_m": [
+				0.0,
+				-1.85000014305115,
+				-5.84999990463257
+			],
+			"radius_m": 0.35,
+			"source_status": "photo-estimated actual wheel cylinder center; circle radius below"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "GEAR_NOSE_HINGE",
+			"path": "Center/GearNose/GEAR_NOSE_HINGE",
+			"position_m": [
+				0.0,
+				-0.660000026226044,
+				-5.90000009536743
+			],
+			"radius_m": 0.0,
+			"source_status": "simplified finite aft retraction +X; not precise multi-link mechanics"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BAY_DOOR_LEFT_HINGE",
+			"path": "Center/BayDoorLeft/BAY_DOOR_LEFT_HINGE",
+			"position_m": [
+				-0.644590198993683,
+				-0.757727384567261,
+				-1.26999998092651
+			],
+			"radius_m": 0.0,
+			"source_status": "outer longitudinal +Z hinge; simplified outward/down 0-85deg"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BAY_DOOR_RIGHT_HINGE",
+			"path": "Center/BayDoorRight/BAY_DOOR_RIGHT_HINGE",
+			"position_m": [
+				0.644590198993683,
+				-0.757727324962616,
+				-1.26999998092651
+			],
+			"radius_m": 0.0,
+			"source_status": "outer longitudinal +Z hinge; simplified outward/down 0-85deg"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_00_RELEASE",
+			"path": "Center/AN_M64_00/BOMB_00_RELEASE",
+			"position_m": [
+				-0.360000014305115,
+				-0.769999980926514,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "actual displayed store centre; nominal 500lb AN-M64-class; BOMB owns inventory"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_00_NOSE",
+			"path": "Center/AN_M64_00/BOMB_00_NOSE",
+			"position_m": [
+				-0.360000014305115,
+				-0.769999980926514,
+				-2.0113000869751
+			],
+			"radius_m": 0.0,
+			"source_status": "actual nose; -Z forward, fins aft"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_00_RACK",
+			"path": "Center/BOMB_00_RACK",
+			"position_m": [
+				-0.540000021457672,
+				-0.719999969005585,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "approximate side suspension to ladder rack; not top-hung extra deck"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_01_RELEASE",
+			"path": "Center/AN_M64_01/BOMB_01_RELEASE",
+			"position_m": [
+				0.360000014305115,
+				-0.769999980926514,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "actual displayed store centre; nominal 500lb AN-M64-class; BOMB owns inventory"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_01_NOSE",
+			"path": "Center/AN_M64_01/BOMB_01_NOSE",
+			"position_m": [
+				0.360000014305115,
+				-0.769999980926514,
+				-2.0113000869751
+			],
+			"radius_m": 0.0,
+			"source_status": "actual nose; -Z forward, fins aft"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_01_RACK",
+			"path": "Center/BOMB_01_RACK",
+			"position_m": [
+				0.540000021457672,
+				-0.719999969005585,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "approximate side suspension to ladder rack; not top-hung extra deck"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_02_RELEASE",
+			"path": "Center/AN_M64_02/BOMB_02_RELEASE",
+			"position_m": [
+				-0.360000014305115,
+				-0.300000011920929,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "actual displayed store centre; nominal 500lb AN-M64-class; BOMB owns inventory"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_02_NOSE",
+			"path": "Center/AN_M64_02/BOMB_02_NOSE",
+			"position_m": [
+				-0.360000014305115,
+				-0.300000011920929,
+				-2.0113000869751
+			],
+			"radius_m": 0.0,
+			"source_status": "actual nose; -Z forward, fins aft"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_02_RACK",
+			"path": "Center/BOMB_02_RACK",
+			"position_m": [
+				-0.540000021457672,
+				-0.25,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "approximate side suspension to ladder rack; not top-hung extra deck"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_03_RELEASE",
+			"path": "Center/AN_M64_03/BOMB_03_RELEASE",
+			"position_m": [
+				0.360000014305115,
+				-0.300000011920929,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "actual displayed store centre; nominal 500lb AN-M64-class; BOMB owns inventory"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_03_NOSE",
+			"path": "Center/AN_M64_03/BOMB_03_NOSE",
+			"position_m": [
+				0.360000014305115,
+				-0.300000011920929,
+				-2.0113000869751
+			],
+			"radius_m": 0.0,
+			"source_status": "actual nose; -Z forward, fins aft"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_03_RACK",
+			"path": "Center/BOMB_03_RACK",
+			"position_m": [
+				0.540000021457672,
+				-0.25,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "approximate side suspension to ladder rack; not top-hung extra deck"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_04_RELEASE",
+			"path": "Center/AN_M64_04/BOMB_04_RELEASE",
+			"position_m": [
+				-0.360000014305115,
+				0.170000001788139,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "actual displayed store centre; nominal 500lb AN-M64-class; BOMB owns inventory"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_04_NOSE",
+			"path": "Center/AN_M64_04/BOMB_04_NOSE",
+			"position_m": [
+				-0.360000014305115,
+				0.170000001788139,
+				-2.0113000869751
+			],
+			"radius_m": 0.0,
+			"source_status": "actual nose; -Z forward, fins aft"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_04_RACK",
+			"path": "Center/BOMB_04_RACK",
+			"position_m": [
+				-0.540000021457672,
+				0.219999998807907,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "approximate side suspension to ladder rack; not top-hung extra deck"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_05_RELEASE",
+			"path": "Center/AN_M64_05/BOMB_05_RELEASE",
+			"position_m": [
+				0.360000014305115,
+				0.170000001788139,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "actual displayed store centre; nominal 500lb AN-M64-class; BOMB owns inventory"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_05_NOSE",
+			"path": "Center/AN_M64_05/BOMB_05_NOSE",
+			"position_m": [
+				0.360000014305115,
+				0.170000001788139,
+				-2.0113000869751
+			],
+			"radius_m": 0.0,
+			"source_status": "actual nose; -Z forward, fins aft"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "BOMB_05_RACK",
+			"path": "Center/BOMB_05_RACK",
+			"position_m": [
+				0.540000021457672,
+				0.219999998807907,
+				-1.25999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "approximate side suspension to ladder rack; not top-hung extra deck"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "MUZZLE_NOSE_FLEXIBLE_0",
+			"path": "Center/GunNoseFlexible/Yaw/Elevation/MUZZLE_NOSE_FLEXIBLE_0",
+			"position_m": [
+				0.0,
+				0.0700000002980232,
+				-8.5
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "GUN_NOSE_FLEXIBLE_PIVOT",
+			"path": "Center/GunNoseFlexible/GUN_NOSE_FLEXIBLE_PIVOT",
+			"position_m": [
+				0.0,
+				0.0700000002980232,
+				-7.90999984741211
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y yaw / +X elevation; fixed mounts have zero travel"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "MUZZLE_NOSE_FIXED_0",
+			"path": "Center/GunNoseFixed/Yaw/Elevation/MUZZLE_NOSE_FIXED_0",
+			"position_m": [
+				0.550000011920929,
+				0.0299999993294477,
+				-8.36999988555908
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "GUN_NOSE_FIXED_PIVOT",
+			"path": "Center/GunNoseFixed/GUN_NOSE_FIXED_PIVOT",
+			"position_m": [
+				0.550000011920929,
+				0.0299999993294477,
+				-7.32000017166138
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y yaw / +X elevation; fixed mounts have zero travel"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "MUZZLE_CHEEK_LEFT_UPPER_0",
+			"path": "Center/GunCheekLeftUpper/Yaw/Elevation/MUZZLE_CHEEK_LEFT_UPPER_0",
+			"position_m": [
+				-1.04999995231628,
+				-0.0399999991059303,
+				-5.60999965667725
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "GUN_CHEEK_LEFT_UPPER_PIVOT",
+			"path": "Center/GunCheekLeftUpper/GUN_CHEEK_LEFT_UPPER_PIVOT",
+			"position_m": [
+				-1.04999995231628,
+				-0.0399999991059303,
+				-4.48999977111816
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y yaw / +X elevation; fixed mounts have zero travel"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "MUZZLE_CHEEK_LEFT_LOWER_0",
+			"path": "Center/GunCheekLeftLower/Yaw/Elevation/MUZZLE_CHEEK_LEFT_LOWER_0",
+			"position_m": [
+				-1.04999995231628,
+				-0.46000000834465,
+				-5.60999965667725
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "GUN_CHEEK_LEFT_LOWER_PIVOT",
+			"path": "Center/GunCheekLeftLower/GUN_CHEEK_LEFT_LOWER_PIVOT",
+			"position_m": [
+				-1.04999995231628,
+				-0.46000000834465,
+				-4.48999977111816
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y yaw / +X elevation; fixed mounts have zero travel"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "MUZZLE_CHEEK_RIGHT_UPPER_0",
+			"path": "Center/GunCheekRightUpper/Yaw/Elevation/MUZZLE_CHEEK_RIGHT_UPPER_0",
+			"position_m": [
+				1.04999995231628,
+				-0.0399999991059303,
+				-5.60999965667725
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "GUN_CHEEK_RIGHT_UPPER_PIVOT",
+			"path": "Center/GunCheekRightUpper/GUN_CHEEK_RIGHT_UPPER_PIVOT",
+			"position_m": [
+				1.04999995231628,
+				-0.0399999991059303,
+				-4.48999977111816
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y yaw / +X elevation; fixed mounts have zero travel"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "MUZZLE_CHEEK_RIGHT_LOWER_0",
+			"path": "Center/GunCheekRightLower/Yaw/Elevation/MUZZLE_CHEEK_RIGHT_LOWER_0",
+			"position_m": [
+				1.04999995231628,
+				-0.46000000834465,
+				-5.60999965667725
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "GUN_CHEEK_RIGHT_LOWER_PIVOT",
+			"path": "Center/GunCheekRightLower/GUN_CHEEK_RIGHT_LOWER_PIVOT",
+			"position_m": [
+				1.04999995231628,
+				-0.46000000834465,
+				-4.48999977111816
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y yaw / +X elevation; fixed mounts have zero travel"
+		},
+		{
+			"forward": [
+				0.0,
+				0.2079117000103,
+				-0.978147625923157
+			],
+			"id": "MUZZLE_DORSAL_0",
+			"path": "Center/GunDorsal/Yaw/Elevation/MUZZLE_DORSAL_0",
+			"position_m": [
+				-0.109999999403954,
+				1.66533577442169,
+				-3.91421413421631
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				0.0,
+				0.2079117000103,
+				-0.978147625923157
+			],
+			"id": "MUZZLE_DORSAL_1",
+			"path": "Center/GunDorsal/Yaw/Elevation/MUZZLE_DORSAL_1",
+			"position_m": [
+				0.109999999403954,
+				1.66533577442169,
+				-3.91421413421631
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "GUN_DORSAL_PIVOT",
+			"path": "Center/GunDorsal/GUN_DORSAL_PIVOT",
+			"position_m": [
+				0.0,
+				1.41999995708466,
+				-2.75999999046326
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y yaw / +X elevation; fixed mounts have zero travel"
+		},
+		{
+			"forward": [
+				-0.972387313842773,
+				0.0,
+				0.233372956514359
+			],
+			"id": "MUZZLE_WAIST_LEFT_0",
+			"path": "Center/GunWaistLeft/Yaw/Elevation/MUZZLE_WAIST_LEFT_0",
+			"position_m": [
+				-1.5198427438736,
+				0.25,
+				2.28036212921143
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				-0.972387313842773,
+				0.0,
+				0.233372956514359
+			],
+			"id": "GUN_WAIST_LEFT_PIVOT",
+			"path": "Center/GunWaistLeft/GUN_WAIST_LEFT_PIVOT",
+			"position_m": [
+				-0.810000002384186,
+				0.25,
+				2.10999989509583
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y yaw / +X elevation; fixed mounts have zero travel"
+		},
+		{
+			"forward": [
+				0.972387313842773,
+				0.0,
+				0.233372956514359
+			],
+			"id": "MUZZLE_WAIST_RIGHT_0",
+			"path": "Center/GunWaistRight/Yaw/Elevation/MUZZLE_WAIST_RIGHT_0",
+			"position_m": [
+				1.5198427438736,
+				0.25,
+				2.77036213874817
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				0.972387313842773,
+				0.0,
+				0.233372956514359
+			],
+			"id": "GUN_WAIST_RIGHT_PIVOT",
+			"path": "Center/GunWaistRight/GUN_WAIST_RIGHT_PIVOT",
+			"position_m": [
+				0.810000002384186,
+				0.25,
+				2.59999990463257
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y yaw / +X elevation; fixed mounts have zero travel"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				1.0
+			],
+			"id": "MUZZLE_TAIL_0",
+			"path": "Tail/GunTail/Yaw/Elevation/MUZZLE_TAIL_0",
+			"position_m": [
+				0.109999999403954,
+				0.150000005960464,
+				8.96999931335449
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				1.0
+			],
+			"id": "MUZZLE_TAIL_1",
+			"path": "Tail/GunTail/Yaw/Elevation/MUZZLE_TAIL_1",
+			"position_m": [
+				-0.109999999403954,
+				0.150000005960464,
+				8.96999931335449
+			],
+			"radius_m": 0.0,
+			"source_status": "real moving .50 muzzle; conservative view limit is not historical firing clearance"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				1.0
+			],
+			"id": "GUN_TAIL_PIVOT",
+			"path": "Tail/GunTail/GUN_TAIL_PIVOT",
+			"position_m": [
+				0.0,
+				0.150000005960464,
+				8.02999973297119
+			],
+			"radius_m": 0.0,
+			"source_status": "photo-estimated local +Y yaw / +X elevation; fixed mounts have zero travel"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "FLIGHT_DATUM",
+			"path": "Center/FLIGHT_DATUM",
+			"position_m": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"radius_m": 0.0,
+			"source_status": "immutable geometric datum; NOT measured CG"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"id": "DAMAGE_TAIL_CUT",
+			"path": "Tail/DAMAGE_TAIL_CUT",
+			"position_m": [
+				0.0,
+				0.100000001490116,
+				5.65000009536743
+			],
+			"radius_m": 0.0,
+			"source_status": "tail assembly includes fins, rudders, elevators and tail guns"
+		}
+	],
+	"not_implemented": [
+		"flight performance registration",
+		"BOMB inventory/release",
+		"fire control/occlusion",
+		"OPS taxi/takeoff/landing",
+		"DM terminal motion/fragments",
+		"Chrome fleet performance"
+	],
+	"origin_is_measured_cg": false,
+	"parked_transform": {
+		"contacts": [
+			{
+				"center_m": [
+					-3.11999988555908,
+					0.520000100135803,
+					0.29194837808609
+				],
+				"contact_error_m": 0.000000100135803204893,
+				"id": "WHEEL_LEFT",
+				"radius_m": 0.52
+			},
+			{
+				"center_m": [
+					3.11999988555908,
+					0.520000100135803,
+					0.29194837808609
+				],
+				"contact_error_m": 0.000000100135803204893,
+				"id": "WHEEL_RIGHT",
+				"radius_m": 0.52
+			},
+			{
+				"center_m": [
+					0.0,
+					0.350000023841858,
+					-5.85895347595215
+				],
+				"contact_error_m": 0.0000000238418579323607,
+				"id": "WHEEL_NOSE",
+				"radius_m": 0.35
+			}
+		],
+		"pitch_rad": 0.00487769162282348,
+		"position_m": [
+			0.0,
+			2.17144370079041,
+			0.0
+		]
+	},
+	"scale": [
+		1,
+		1,
+		1
+	],
+	"source_hashes": {
+		"aircraft/b25j/b25j.gd": "c44cd0cd2fd35ae7a56c803a824549612229701ee463c466525e0f12f76c627f",
+		"aircraft/b25j/b25j.tscn": "7ca962678e2767188c5b029c98da318efee26847ed3dfdb93683737817dd4ed7",
+		"aircraft/b25j/geometry.gd": "8f391745185c8d0e07951352da6e808e06bc92222c0474cc67e61fdcdc309965",
+		"data/map02/regions.json": "9001179a2e2c48774c4c62d8afecc2e10d131d5a717a045b42742d77056d5816",
+		"data/maps/island_harbor_expanded.json": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
+		"scripts/map02/expanded_map_data.gd": "26addcec3d15a79f11936c0cb2fbaad6373466575b32e617b739a1bdad58433e",
+		"scripts/map02/expanded_map_view.gd": "32096520c098a56c81ec9d9f1a29189539fbad075e01a64d6e1354d2f45d9b25",
+		"scripts/presentation/maps/island_harbor_view.gd": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+		"scripts/simulation/terrain/terrain_queries.gd": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868",
+		"tests/av04/test_b25j.gd": "ec703fef11e097d2ce4f422111b0bd88e01aeab1112a98c4cb0ad4961f745b75"
+	},
+	"stats": {
+		"mesh_nodes_after_fixed_merge": 125,
+		"raw_mesh_nodes": 225,
+		"triangles_all_configurations": 51108
+	},
+	"status": "native_contract_passed_pending_coordinator",
+	"taxiway": {
+		"dynamic_traffic_qualified": false,
+		"overhang_each_side_m": 2.2997,
+		"width_m": 16.0,
+		"wingspan_m": 20.5994
+	}
+}

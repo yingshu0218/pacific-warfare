@@ -1,0 +1,66 @@
+{
+  "task": "BOMB01",
+  "status": "ready_for_independent_review_not_production_admitted",
+  "accepted": false,
+  "complete": false,
+  "public_files_changed": [],
+  "baseline_manifest": "candidates/bomb01/baseline-manifest.json",
+  "checkpoint_manifest": "candidates/bomb01/checkpoint-manifest.json",
+  "checkpoint_manifest_sha256": "d92dc4ad77869d1f4d1ad1b2432f7d1ed216d3c825a7e4ae195f4369fa6bc922",
+  "last_stage": ".local/bomb01/r18",
+  "last_test_passed": true,
+  "natural_attack_probe": {
+    "SB2C4": {
+      "released": 0,
+      "outcome": "too_low abort, survives"
+    },
+    "G4M1": {
+      "released": 12,
+      "outcome": "finite train and airborne return, no visual acceptance"
+    },
+    "D4Y2": {
+      "released": 0,
+      "outcome": "too_low abort, survives"
+    }
+  },
+  "all_verifier_children_cleanup_ok": true,
+  "remaining": [
+    "Coordinating independent final acceptance",
+    "S14 ordinary Session/registration/model adapters/observer UI integration and Chrome/M5 checks; separate owner",
+    "Deferred capabilities remain explicitly listed in delivery; not claimed complete"
+  ],
+  "next_owner": "Coordinating chat reviews final manifest; S14 merges admitted deltas and performs ordinary Chrome verification",
+  "no_browser_or_native_capture_started": false,
+  "cleanup_audit": "docs/showcase/evidence/BOMB01/final/verification-and-cleanup.json",
+  "actual_group_probe_all_exited": true,
+  "checkpoint_doc_sha256": "2c5b92c68b5d131a818245e2f161d9766e8a93306d7e07f3dd40212494d5eabf",
+  "completed_since_checkpoint": [
+    "Four accepted aircraft model dependencies frozen explicitly, including AV04 B25 final glass nose",
+    "Four normal natural attacks armed external first impacts passed r10, not merely released counts",
+    "Typed OPS sole lifecycle, finite trains, bomber role rejection, on_deck release guard passed r12",
+    "Original gun same-input JSON identical to frozen baseline r06",
+    "Own-contact interception ran through original gun/DM chain r15:172 fired/32 damaged/bombs24 to0; original failed geometry retained"
+  ],
+  "validation_reports": [
+    "20261111T153458-485b6221",
+    "20261111T153818-98e775ae",
+    "20261111T154505-f0e8310b",
+    "20261111T154926-8537488c"
+  ],
+  "near_window_and_delayed_contact": "13checks passed:cancel/fuel before natural release, same-aircraft reassignment, too-short stable run, realcontact@0.0167 vs22.0s, release@39.4 vs161.4667s, contact expiry abort",
+  "private_implementation_complete": true,
+  "final_manifest": "candidates/bomb01/final-manifest.json",
+  "final_manifest_sha256": "45af9ef0475b7b27972171176f413e6c7089f7a301e1d79248cb79beec4fb5d1",
+  "delivery": "docs/showcase/deliveries/BOMB01.md",
+  "native": {
+    "clips": 6,
+    "frames": 2760,
+    "fps": 15,
+    "actual_ticks_per_frame": 4,
+    "interpolation": false,
+    "manifest": "docs/showcase/evidence/BOMB01/r18/native-manifest.json"
+  },
+  "independently_absent_groups": 134,
+  "final_audit_child_absent": true,
+  "archived_reports": 59
+}

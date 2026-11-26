@@ -1,0 +1,64 @@
+{
+  "run_id": "20261110T171518-1b8f6912",
+  "owner": "FX01-native",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 52658,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 52660,
+      "process_group": 52660,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.3905,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T171518-1b8f6912/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+        "--script",
+        "res://tests/fx01_capture.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 52661,
+      "process_group": 52661,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 46.5268,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T171518-1b8f6912/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "FX01-native",
+    "pid": 52658,
+    "process_identity": "Wed Nov 11 01:15:18 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner FX01-native --timeout 180 --lock-timeout 15 --project .local/fx01-project godot --render -- --script res://tests/fx01_capture.gd",
+    "token": "f50007416043412787220f8e58e57bb6",
+    "acquired_utc": "2026-11-10T17:15:18.448756+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

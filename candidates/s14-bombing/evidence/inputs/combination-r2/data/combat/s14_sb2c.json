@@ -1,0 +1,102 @@
+{
+  "unit_profiles": {
+    "us_sb2c4_1944": {
+      "structure": 110,
+      "sensor_height_m": 0,
+      "visual_m": 8000,
+      "radar_ship_m": 0,
+      "radar_aircraft_m": 0,
+      "part_durability": 65,
+      "weapon_durability": 10,
+      "fire_loss_per_s": 3,
+      "fire_decay_per_s": 0.004,
+      "flood_loss_per_s": 0,
+      "loss_duration_s": 30,
+      "boxes": [
+        {
+          "part": "engine",
+          "center_m": [
+            0,
+            0,
+            -3.6
+          ],
+          "half_extents_m": [
+            0.9,
+            0.9,
+            1.2
+          ],
+          "armor_mm": 1
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            0,
+            0,
+            0
+          ],
+          "half_extents_m": [
+            0.8,
+            0.8,
+            3.0
+          ],
+          "armor_mm": 1
+        },
+        {
+          "part": "control",
+          "center_m": [
+            0,
+            0.2,
+            4.1
+          ],
+          "half_extents_m": [
+            2.9,
+            0.35,
+            1.2
+          ],
+          "armor_mm": 0
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            -4,
+            0,
+            0
+          ],
+          "half_extents_m": [
+            3.5,
+            0.15,
+            1.4
+          ],
+          "armor_mm": 0
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            4,
+            0,
+            0
+          ],
+          "half_extents_m": [
+            3.5,
+            0.15,
+            1.4
+          ],
+          "armor_mm": 0
+        }
+      ],
+      "damage_effects": {
+        "fire_anchor_m": [
+          0,
+          0.6,
+          -3.6
+        ],
+        "smoke_anchor_m": [
+          0,
+          0.8,
+          -3.6
+        ]
+      },
+      "source_note": "S14 coarse approximate collision/survivability profile. No precut DM01 for this model; uses existing generic damage path."
+    }
+  }
+}

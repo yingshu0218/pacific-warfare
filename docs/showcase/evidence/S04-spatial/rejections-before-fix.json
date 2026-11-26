@@ -1,0 +1,155 @@
+{
+  "case": "standard",
+  "time_s": 240.0,
+  "map_id": "flat_sea",
+  "rejected_samples": [
+    {
+      "data": {
+        "command_id": "air_target:10:us_air_1",
+        "faction_id": "us",
+        "issuer_id": "aircraft_tasks",
+        "kind": "set_target",
+        "reason": "unknown_or_inactive_entity",
+        "request": {
+          "command_id": "air_target:10:us_air_1",
+          "entity_id": "us_air_1",
+          "execute_tick": -1,
+          "faction_id": "us",
+          "issuer_id": "aircraft_tasks",
+          "kind": "set_target",
+          "payload": {
+            "target_id": ""
+          },
+          "source": "ai"
+        },
+        "source": "ai"
+      },
+      "entity_id": "",
+      "event_id": "event_00000637",
+      "kind": "command_rejected",
+      "position_m": "(0.0, 0.0, 0.0)",
+      "sequence": 637,
+      "target_id": "",
+      "tick": 1318,
+      "time_s": 21.9666666666667,
+      "weapon_id": ""
+    },
+    {
+      "data": {
+        "command_id": "issue:fleet_ai:jp:0010",
+        "faction_id": "jp",
+        "issuer_id": "jp_commander",
+        "kind": "issue_order",
+        "reason": "invalid_order_target",
+        "request": {
+          "command_id": "issue:fleet_ai:jp:0010",
+          "entity_id": "",
+          "execute_tick": -1,
+          "faction_id": "jp",
+          "issuer_id": "jp_commander",
+          "kind": "issue_order",
+          "payload": {
+            "area": {
+              "center_m": [
+                37.4797248840332,
+                1167.03625488281,
+                -0.889478623867035
+              ],
+              "radius_m": 2500.0
+            },
+            "faction_id": "jp",
+            "intent": "intercept_air_threat",
+            "issuer_id": "jp_commander",
+            "order_id": "fleet_ai:jp:0010",
+            "order_type": "intercept",
+            "recipient_ids": [
+              "jp_pair_2"
+            ],
+            "source": "ai",
+            "target_id": "us_air_1",
+            "waypoints_m": []
+          },
+          "source": "ai"
+        },
+        "source": "ai"
+      },
+      "entity_id": "",
+      "event_id": "event_00000700",
+      "kind": "command_rejected",
+      "position_m": "(0.0, 0.0, 0.0)",
+      "sequence": 700,
+      "target_id": "",
+      "tick": 1442,
+      "time_s": 24.0333333333333,
+      "weapon_id": ""
+    },
+    {
+      "data": {
+        "command_id": "ship_target:3:jp_bb",
+        "faction_id": "jp",
+        "issuer_id": "fleet_tasks",
+        "kind": "set_target",
+        "reason": "unknown_or_inactive_entity",
+        "request": {
+          "command_id": "ship_target:3:jp_bb",
+          "entity_id": "jp_bb",
+          "execute_tick": -1,
+          "faction_id": "jp",
+          "issuer_id": "fleet_tasks",
+          "kind": "set_target",
+          "payload": {
+            "target_id": ""
+          },
+          "source": "ai"
+        },
+        "source": "ai"
+      },
+      "entity_id": "",
+      "event_id": "event_00001101",
+      "kind": "command_rejected",
+      "position_m": "(0.0, 0.0, 0.0)",
+      "sequence": 1101,
+      "target_id": "",
+      "tick": 2148,
+      "time_s": 35.8,
+      "weapon_id": ""
+    }
+  ],
+  "summary": {
+    "air_fired": 180,
+    "air_hits": 14,
+    "command_rejected": 3,
+    "rejection_groups": {
+      "issue_order|invalid_order_target|jp_commander": {
+        "actor": "jp_commander",
+        "count": 1,
+        "first_tick": 1442,
+        "issuer": "jp_commander",
+        "kind": "issue_order",
+        "last_tick": 1442,
+        "reason": "invalid_order_target"
+      },
+      "set_target|unknown_or_inactive_entity|jp_bb": {
+        "actor": "jp_bb",
+        "count": 1,
+        "first_tick": 2148,
+        "issuer": "fleet_tasks",
+        "kind": "set_target",
+        "last_tick": 2148,
+        "reason": "unknown_or_inactive_entity"
+      },
+      "set_target|unknown_or_inactive_entity|us_air_1": {
+        "actor": "us_air_1",
+        "count": 1,
+        "first_tick": 1318,
+        "issuer": "aircraft_tasks",
+        "kind": "set_target",
+        "last_tick": 1318,
+        "reason": "unknown_or_inactive_entity"
+      }
+    }
+  },
+  "input_trace_sha256": "2f05047287321e2faa87038e70252d1ec8425741b675e2b08cdfafeb47d58c13",
+  "validation_run": "20261110T064727-6514b206",
+  "purpose": "Before inactive-release guard; full original rejection requests retained. Earlier mid-iteration count 24 is superseded and not reconstructed from this run."
+}

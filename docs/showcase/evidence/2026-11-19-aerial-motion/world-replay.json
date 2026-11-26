@@ -1,0 +1,497 @@
+{
+  "method": "Same ordinary entry and 105 s, seed 707 at 60 Hz. Physical samples every 10 ticks. Same healthy friendly and hostile fighter pair in a continuous active engagement. Within each 8 s window sampled every 0.5 s: max altitude minus min altitude. Dedicated scenario initial conditions are documented separately.",
+  "old_sources": "previous admitted Web package",
+  "scenarios": {
+    "harbor": {
+      "initial_state_modified": false,
+      "samples_by_type": {
+        "jp_a6m5a_1944": {
+          "before": {
+            "samples": 502,
+            "windows_8s": 136,
+            "height_8s_p90_m": 280.25,
+            "height_8s_max": {
+              "height_m": 365.67,
+              "unit": "jp_air_4",
+              "from_s": 57.33,
+              "until_s": 65.33
+            },
+            "abs_bank_p95_deg": 78.42,
+            "abs_bank_max_deg": 80.78,
+            "path_pitch_p05_deg": -8.75,
+            "path_pitch_p95_deg": 29.78
+          },
+          "after": {
+            "samples": 608,
+            "windows_8s": 171,
+            "height_8s_p90_m": 273.77,
+            "height_8s_max": {
+              "height_m": 322.18,
+              "unit": "jp_air_4",
+              "from_s": 36.83,
+              "until_s": 44.83
+            },
+            "abs_bank_p95_deg": 92.55,
+            "abs_bank_max_deg": 178.9,
+            "path_pitch_p05_deg": -17.91,
+            "path_pitch_p95_deg": 27.57
+          }
+        },
+        "us_f6f5_1944": {
+          "before": {
+            "samples": 727,
+            "windows_8s": 158,
+            "height_8s_p90_m": 220.38,
+            "height_8s_max": {
+              "height_m": 436.89,
+              "unit": "us_air_4",
+              "from_s": 14.17,
+              "until_s": 22.17
+            },
+            "abs_bank_p95_deg": 78.58,
+            "abs_bank_max_deg": 90.56,
+            "path_pitch_p05_deg": -16.6,
+            "path_pitch_p95_deg": 23.4
+          },
+          "after": {
+            "samples": 675,
+            "windows_8s": 137,
+            "height_8s_p90_m": 247.61,
+            "height_8s_max": {
+              "height_m": 323.26,
+              "unit": "us_air_3",
+              "from_s": 64.67,
+              "until_s": 72.67
+            },
+            "abs_bank_p95_deg": 78.12,
+            "abs_bank_max_deg": 179.51,
+            "path_pitch_p05_deg": -22.72,
+            "path_pitch_p95_deg": 24.12
+          }
+        }
+      },
+      "natural_events": {
+        "fighter_duel": 120,
+        "b25_dorsal": 108,
+        "fighter_bomber": 144,
+        "bombs": 24
+      },
+      "motion_results": {
+        "jp_a6m5a_1944": {
+          "oblique_roll_arc": {
+            "completed": 2
+          }
+        },
+        "us_f6f5_1944": {
+          "oblique_roll_arc": {
+            "aborted": 1
+          },
+          "rising_arc": {
+            "completed": 1
+          },
+          "axial_roll": {
+            "completed": 1
+          }
+        }
+      },
+      "verified_completed": [
+        {
+          "arc_turn_deg": 0.0,
+          "body_roll_deg": -317.744634986605,
+          "definition": "jp_a6m5a_1944",
+          "ended_s": 51.4666666666667,
+          "entry_xz": [
+            -887.997985839844,
+            1704.91357421875
+          ],
+          "exit": "geometry_complete",
+          "first_s": 40.5,
+          "height_span_m": 206.504638671875,
+          "id": "jp_air_4",
+          "kind": "oblique_roll_arc",
+          "max_y": 2445.54223632812,
+          "min_y": 2244.42846679688,
+          "observed_lateral_m": 462.012894014461,
+          "path_length_m": 1116.83870649338,
+          "peak_gain_m": 206.504638671875,
+          "peak_lateral_m": 469.881591796875,
+          "peak_roll_in_rotation_phase_deg": 348.943847061214,
+          "side_at_first_sample": [
+            0.213526263833046,
+            -0.976937294006348
+          ],
+          "stages": [
+            "enter",
+            "rotate",
+            "recover"
+          ],
+          "started_s": 40.4,
+          "status": "completed",
+          "tracked_enemy": true
+        },
+        {
+          "arc_turn_deg": 0.0,
+          "body_roll_deg": -301.564532524813,
+          "definition": "jp_a6m5a_1944",
+          "ended_s": 76.6,
+          "entry_xz": [
+            -1440.64624023438,
+            2759.02490234375
+          ],
+          "exit": "geometry_complete",
+          "first_s": 65.8333333333333,
+          "height_span_m": 234.321044921875,
+          "id": "jp_air_4",
+          "kind": "oblique_roll_arc",
+          "max_y": 2410.66284179688,
+          "min_y": 2176.36645507812,
+          "observed_lateral_m": 522.187787524737,
+          "path_length_m": 1229.62530863285,
+          "peak_gain_m": 229.973388671875,
+          "peak_lateral_m": 547.264221191406,
+          "peak_roll_in_rotation_phase_deg": 348.107939001728,
+          "side_at_first_sample": [
+            0.315703630447388,
+            0.948857843875885
+          ],
+          "stages": [
+            "enter",
+            "rotate",
+            "recover"
+          ],
+          "started_s": 65.75,
+          "status": "completed",
+          "tracked_enemy": true
+        },
+        {
+          "arc_turn_deg": 125.204639367542,
+          "body_roll_deg": -67.0443608275935,
+          "definition": "us_f6f5_1944",
+          "ended_s": 75.2833333333333,
+          "entry_xz": [
+            -1148.34411621094,
+            2761.73852539062
+          ],
+          "exit": "geometry_complete",
+          "first_s": 60.6666666666667,
+          "height_span_m": 403.85791015625,
+          "id": "us_air_3",
+          "kind": "rising_arc",
+          "max_y": 2541.23950195312,
+          "min_y": 2138.76196289062,
+          "observed_lateral_m": 949.870006448741,
+          "path_length_m": 1457.34800732136,
+          "peak_gain_m": 325.045654296875,
+          "peak_lateral_m": 957.846252441406,
+          "peak_roll_in_rotation_phase_deg": 0.0,
+          "side_at_first_sample": [
+            0.0441800877451897,
+            -0.99902355670929
+          ],
+          "stages": [
+            "enter",
+            "sweep",
+            "recover"
+          ],
+          "started_s": 60.5666666666667,
+          "status": "completed",
+          "tracked_enemy": true
+        },
+        {
+          "arc_turn_deg": 0.0,
+          "body_roll_deg": -295.049639421188,
+          "definition": "us_f6f5_1944",
+          "ended_s": 15.25,
+          "entry_xz": [
+            836.520690917969,
+            3345.12133789062
+          ],
+          "exit": "geometry_complete",
+          "first_s": 5.5,
+          "height_span_m": 449.168212890625,
+          "id": "us_air_4",
+          "kind": "axial_roll",
+          "max_y": 2010.39135742188,
+          "min_y": 1563.39733886719,
+          "observed_lateral_m": 41.571000428683,
+          "path_length_m": 1405.30988073349,
+          "peak_gain_m": 0.0,
+          "peak_lateral_m": 57.7125854492188,
+          "peak_roll_in_rotation_phase_deg": 348.299999999998,
+          "side_at_first_sample": [
+            0.582162976264954,
+            -0.813072025775909
+          ],
+          "stages": [
+            "rotate",
+            "recover"
+          ],
+          "started_s": 5.38333333333333,
+          "status": "completed",
+          "tracked_enemy": true
+        }
+      ],
+      "abort_reasons": [
+        "fighter_assignment_lost"
+      ]
+    },
+    "maneuver": {
+      "initial_state_modified": true,
+      "samples_by_type": {
+        "jp_a6m5a_1944": {
+          "before": {
+            "samples": 405,
+            "windows_8s": 89,
+            "height_8s_p90_m": 305.57,
+            "height_8s_max": {
+              "height_m": 345.8,
+              "unit": "jp_air_3",
+              "from_s": 58.67,
+              "until_s": 66.67
+            },
+            "abs_bank_p95_deg": 78.35,
+            "abs_bank_max_deg": 80.71,
+            "path_pitch_p05_deg": -5.47,
+            "path_pitch_p95_deg": 31.4
+          },
+          "after": {
+            "samples": 674,
+            "windows_8s": 169,
+            "height_8s_p90_m": 374.43,
+            "height_8s_max": {
+              "height_m": 469.81,
+              "unit": "jp_air_3",
+              "from_s": 22.17,
+              "until_s": 30.17
+            },
+            "abs_bank_p95_deg": 119.15,
+            "abs_bank_max_deg": 177.77,
+            "path_pitch_p05_deg": -31.23,
+            "path_pitch_p95_deg": 19.56
+          }
+        },
+        "us_f6f5_1944": {
+          "before": {
+            "samples": 648,
+            "windows_8s": 154,
+            "height_8s_p90_m": 271.01,
+            "height_8s_max": {
+              "height_m": 351.06,
+              "unit": "us_pair_demo_2",
+              "from_s": 46.0,
+              "until_s": 54.0
+            },
+            "abs_bank_p95_deg": 79.8,
+            "abs_bank_max_deg": 83.36,
+            "path_pitch_p05_deg": -16.96,
+            "path_pitch_p95_deg": 18.66
+          },
+          "after": {
+            "samples": 249,
+            "windows_8s": 32,
+            "height_8s_p90_m": 473.78,
+            "height_8s_max": {
+              "height_m": 492.23,
+              "unit": "us_pair_demo_1",
+              "from_s": 3.17,
+              "until_s": 11.17
+            },
+            "abs_bank_p95_deg": 147.09,
+            "abs_bank_max_deg": 179.53,
+            "path_pitch_p05_deg": -29.8,
+            "path_pitch_p95_deg": 25.74
+          }
+        }
+      },
+      "natural_events": {
+        "fighter_duel": 64
+      },
+      "motion_results": {
+        "jp_a6m5a_1944": {
+          "axial_roll": {
+            "completed": 3
+          }
+        },
+        "us_f6f5_1944": {
+          "axial_roll": {
+            "completed": 2
+          },
+          "oblique_roll_arc": {
+            "aborted": 1
+          }
+        }
+      },
+      "verified_completed": [
+        {
+          "arc_turn_deg": 0.0,
+          "body_roll_deg": -302.591392782236,
+          "definition": "jp_a6m5a_1944",
+          "ended_s": 30.8666666666667,
+          "entry_xz": [
+            664.030090332031,
+            3163.20361328125
+          ],
+          "exit": "geometry_complete",
+          "first_s": 20.5,
+          "height_span_m": 520.220947265625,
+          "id": "jp_air_3",
+          "kind": "axial_roll",
+          "max_y": 2085.5810546875,
+          "min_y": 1567.33740234375,
+          "observed_lateral_m": 82.3487616667335,
+          "path_length_m": 1325.28164672852,
+          "peak_gain_m": 0.0,
+          "peak_lateral_m": 98.8545989990234,
+          "peak_roll_in_rotation_phase_deg": 349.006687674875,
+          "side_at_first_sample": [
+            0.991777956485748,
+            0.127970457077026
+          ],
+          "stages": [
+            "rotate",
+            "recover"
+          ],
+          "started_s": 20.4,
+          "status": "completed",
+          "tracked_enemy": true
+        },
+        {
+          "arc_turn_deg": 0.0,
+          "body_roll_deg": -303.205450856554,
+          "definition": "jp_a6m5a_1944",
+          "ended_s": 21.5833333333333,
+          "entry_xz": [
+            -172.320175170898,
+            2971.74438476562
+          ],
+          "exit": "geometry_complete",
+          "first_s": 11.0,
+          "height_span_m": 459.151123046875,
+          "id": "jp_air_4",
+          "kind": "axial_roll",
+          "max_y": 2283.45971679688,
+          "min_y": 1826.32373046875,
+          "observed_lateral_m": 93.4510055749888,
+          "path_length_m": 1252.86134421825,
+          "peak_gain_m": 0.0,
+          "peak_lateral_m": 103.091827392578,
+          "peak_roll_in_rotation_phase_deg": 348.833333333334,
+          "side_at_first_sample": [
+            -0.828411817550659,
+            0.560119450092316
+          ],
+          "stages": [
+            "rotate",
+            "recover"
+          ],
+          "started_s": 10.8833333333333,
+          "status": "completed",
+          "tracked_enemy": true
+        },
+        {
+          "arc_turn_deg": 0.0,
+          "body_roll_deg": 304.377509157685,
+          "definition": "jp_a6m5a_1944",
+          "ended_s": 52.8666666666667,
+          "entry_xz": [
+            1784.91259765625,
+            2889.1572265625
+          ],
+          "exit": "geometry_complete",
+          "first_s": 43.5,
+          "height_span_m": 389.539916992188,
+          "id": "jp_air_4",
+          "kind": "axial_roll",
+          "max_y": 1816.12353515625,
+          "min_y": 1427.49255371094,
+          "observed_lateral_m": 49.1888170536658,
+          "path_length_m": 1234.91537213326,
+          "peak_gain_m": 0.0,
+          "peak_lateral_m": 54.9413452148438,
+          "peak_roll_in_rotation_phase_deg": 348.500000000002,
+          "side_at_first_sample": [
+            0.947668015956879,
+            -0.319257467985153
+          ],
+          "stages": [
+            "rotate",
+            "recover"
+          ],
+          "started_s": 43.4166666666667,
+          "status": "completed",
+          "tracked_enemy": true
+        },
+        {
+          "arc_turn_deg": 0.0,
+          "body_roll_deg": -287.273222999808,
+          "definition": "us_f6f5_1944",
+          "ended_s": 11.6833333333333,
+          "entry_xz": [
+            392.524230957031,
+            4575.0810546875
+          ],
+          "exit": "geometry_complete",
+          "first_s": 1.5,
+          "height_span_m": 542.133544921875,
+          "id": "us_pair_demo_1",
+          "kind": "axial_roll",
+          "max_y": 2391.53588867188,
+          "min_y": 1850.48974609375,
+          "observed_lateral_m": 32.0142159505758,
+          "path_length_m": 1429.63221383095,
+          "peak_gain_m": 0.0,
+          "peak_lateral_m": 40.5276489257812,
+          "peak_roll_in_rotation_phase_deg": 348.158447040112,
+          "side_at_first_sample": [
+            0.983842015266418,
+            -0.179038941860199
+          ],
+          "stages": [
+            "rotate",
+            "recover"
+          ],
+          "started_s": 1.41666666666667,
+          "status": "completed",
+          "tracked_enemy": true
+        },
+        {
+          "arc_turn_deg": 0.0,
+          "body_roll_deg": 312.675380635788,
+          "definition": "us_f6f5_1944",
+          "ended_s": 21.9666666666667,
+          "entry_xz": [
+            150.091781616211,
+            3509.00732421875
+          ],
+          "exit": "geometry_complete",
+          "first_s": 12.0,
+          "height_span_m": 454.826416015625,
+          "id": "us_pair_demo_2",
+          "kind": "axial_roll",
+          "max_y": 2305.40234375,
+          "min_y": 1854.57202148438,
+          "observed_lateral_m": 69.4953221809546,
+          "path_length_m": 1487.13051986694,
+          "peak_gain_m": 0.0,
+          "peak_lateral_m": 72.536376953125,
+          "peak_roll_in_rotation_phase_deg": 348.817590818434,
+          "side_at_first_sample": [
+            0.926472008228302,
+            -0.376363664865494
+          ],
+          "stages": [
+            "enter",
+            "rotate",
+            "recover"
+          ],
+          "started_s": 11.9666666666667,
+          "status": "completed",
+          "tracked_enemy": true
+        }
+      ],
+      "abort_reasons": [
+        "replacement_order_received"
+      ]
+    }
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "owner": "S03",
+  "files": [
+    {
+      "path": "data/ammunition/s03_jp_127mm_type1_common.json",
+      "bytes": 667,
+      "sha256": "e35ef0b05f6319837e161789c111d3466cd03d47ef589929683345b53c58a43c"
+    },
+    {
+      "path": "data/ammunition/s03_jp_25mm_type96_he.json",
+      "bytes": 662,
+      "sha256": "b347866af0527266050f2311f2f32be4ea84b718a8f26af2dddf6cd6ee719adb"
+    },
+    {
+      "path": "data/ammunition/s03_us_127mm_mk32_common.json",
+      "bytes": 666,
+      "sha256": "4583172dec93f7df46b09b4f63fb19bb381622bc19fed23c7c6140c9e08c2002"
+    },
+    {
+      "path": "data/ammunition/s03_us_20mm_mk3_he.json",
+      "bytes": 659,
+      "sha256": "c8b57e5d6c262b1b60b36c8129f15ca870ff93f23864a0b7ba281ac632f45a3f"
+    },
+    {
+      "path": "data/ammunition/s03_us_28mm_mk1_he.json",
+      "bytes": 662,
+      "sha256": "76d5621df249de79671db2bb04b6528fbbdd23377451e5ccaf6b13392be3d78c"
+    },
+    {
+      "path": "data/ships/fletcher_dd445/assembly.json",
+      "bytes": 16074,
+      "sha256": "55db7b2bab2f8dd67888ba7dca445a2406f7597d22d0349617ad58693a066246"
+    },
+    {
+      "path": "data/ships/yukikaze/assembly.json",
+      "bytes": 15332,
+      "sha256": "7f7b8cb1077a9d544d355ad0c710d33dd3f1fc25d1c66dd8b198a1dc6a4ce94b"
+    },
+    {
+      "path": "data/units/jp_yukikaze_1942_06.json",
+      "bytes": 8667,
+      "sha256": "7521baa56e70a267c8a16372e3cf236af0292c7dbd146ca0e3c613372baac617"
+    },
+    {
+      "path": "data/units/us_fletcher_dd445_1942_07_18.json",
+      "bytes": 13422,
+      "sha256": "780ee4afd859fc318e38b5833d500e46694dff233b2a7927088d63c672af3048"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/checks/fletcher_dd445_aft_battery.png",
+      "bytes": 196626,
+      "sha256": "06ffcba525b9a0a05d7d36733eac038b29748cc1f4a6428e02a2bb52a3812cc6"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/checks/fletcher_dd445_bow_quarter.png",
+      "bytes": 54375,
+      "sha256": "2f108cc28020fecc1ee376ed94b5b6c5d6e574b4c2e922d8c20ab91b26e159d4"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/checks/fletcher_dd445_fore_battery.png",
+      "bytes": 93483,
+      "sha256": "c6af1b121dafbce71317ddaba783e7ed213e348b618a5242ed6913db1eabe7a8"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/checks/fletcher_dd445_side.png",
+      "bytes": 31549,
+      "sha256": "1c40600eb61f765351dd04426eed9692c75e28fdad47c80cc95b3011bbc3df84"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/checks/fletcher_dd445_stern_quarter.png",
+      "bytes": 96945,
+      "sha256": "7b4fc0e7021d6958d14ce8d227f04309330021a5d16e13056ac8dc24f7ba7a8c"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/checks/fletcher_dd445_top.png",
+      "bytes": 39283,
+      "sha256": "bbd0bc39e802f9da8ec663a9f64f68c6e302a6b946c9266d9e823a3ddd9273a0"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/images/F01.jpg",
+      "bytes": 4304208,
+      "sha256": "33c59bb12f1ff460367773aca36aab00b8b5593d21d162e9f13f03b3f909798b"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/images/F02.jpg",
+      "bytes": 8832377,
+      "sha256": "8e618468ee3c5f66306b9b0ffb165a111002c6ee9f987d899069e445baff2a59"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/images/F03.jpg",
+      "bytes": 94145,
+      "sha256": "4c11bfd9f8d729d67468feb8dcedc6059f3c90e02b276927d0360f6bde08fb09"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/images/F04.jpg",
+      "bytes": 121455,
+      "sha256": "b8ae143def6ff800a83a195baa3325e6c81ef157003123f159868ec620a3b4fc"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/images/F05.jpg",
+      "bytes": 89389,
+      "sha256": "e63d7c8867c853c744f4a2bf6317f44ce0718a4fe9e2f4fa00a96589e8ccea38"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/modeling-brief.md",
+      "bytes": 6510,
+      "sha256": "7ee3714c03502253ee5e7e06fb81adb1f8db49b18a8d70e4efae49413207707e"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/sources.json",
+      "bytes": 6878,
+      "sha256": "64186fa575239ba626d994321ae2da55b76a20c381187b0add1a60fc1c9711a1"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/target/style-candidate-v01-prompt.md",
+      "bytes": 2711,
+      "sha256": "f53c0611f2cbd07240732e096c2e3c2905cd0853b1a419d05f1dffe125ada20a"
+    },
+    {
+      "path": "docs/references/ships/fletcher_dd445_1942_07_18/target/style-candidate-v01.png",
+      "bytes": 1524878,
+      "sha256": "514107e5acf001db93eeaf504dc6f9ef3077dbe3123dc67db0620c9d99d4e701"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/checks/yukikaze_aft_battery.png",
+      "bytes": 164577,
+      "sha256": "1abfdcc09c6739fb51369c13da539c63fddd6fa4a7fe937fbb65f5dee2c51b80"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/checks/yukikaze_bow_quarter.png",
+      "bytes": 46825,
+      "sha256": "767f8c95ec5946aa7e087d13456eed0fa4fca8eb50e2c652e8c09c7753f2230a"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/checks/yukikaze_fore_battery.png",
+      "bytes": 77255,
+      "sha256": "d957f2b4677bae3ba07be223e334c03a40cebcce235714ee41299a36e7a31ad9"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/checks/yukikaze_side.png",
+      "bytes": 23711,
+      "sha256": "e8052fd834f4cf475033d4fa97551f3db55f88116e55caf7e4fef05b0ea27514"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/checks/yukikaze_stern_quarter.png",
+      "bytes": 89476,
+      "sha256": "fe509fdc755e43347fac677ef56b3292ed2a07f304873b191f43ce5350e604ba"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/checks/yukikaze_top.png",
+      "bytes": 39352,
+      "sha256": "26b5276ae9bd7540cf3c2aeac9907ce7108958ca8462f67d82bb2392ef3765dc"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/images/Y01.jpg",
+      "bytes": 5118091,
+      "sha256": "59a3ec4ecd608cd2e6e4d13a065af372d5ffd1efa73308673fe864845cf579ba"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/images/Y02.jpg",
+      "bytes": 640921,
+      "sha256": "91f1b0afbef9d6f7a99b8ec8b916c961bb2bf8d3a580a8d50cb9496d9d634876"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/images/Y06.jpg",
+      "bytes": 218546,
+      "sha256": "6dd7a74d45019e3a7f0901da82e2d667e89ae9147f0037f0f5fee3aefbaddf56"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/images/s286588.jpg",
+      "bytes": 55300,
+      "sha256": "a8bcb50bf2839f4e52cc971bd359ba71a914245b72433f9b0957153e102b10c2"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/images/s286589.jpg",
+      "bytes": 84409,
+      "sha256": "554fb7ec1b46982daed7d7d364312d85a1af1a1a84db897e1e60f2217467e9e5"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/images/s286590.jpg",
+      "bytes": 53699,
+      "sha256": "a8841e01c19f89f782c93eb4a553bda35610ab29b36417caa70b6dc5412ab90e"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/modeling-brief.md",
+      "bytes": 7888,
+      "sha256": "87a61f83d0cb7c330571114c89237a3dd40be5a0c59dc48518cbd9ebae3ebdcc"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/sources.json",
+      "bytes": 13271,
+      "sha256": "8c389c0469dc8c82b9835cfdd3b0bbd4f5f740da03294eff0ab0401d17ff3a15"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/target/style-candidate-v01-prompt.md",
+      "bytes": 2611,
+      "sha256": "80cff07d954d7dfe5338248ed1e6b70f418a7d03c9fae18b8dd87552fd3604ee"
+    },
+    {
+      "path": "docs/references/ships/yukikaze_1942_06/target/style-candidate-v01.png",
+      "bytes": 1335728,
+      "sha256": "c599de9c61ed5e4b6a55853393b9028e35ba8229cee6d31b85de9930f53fe2d7"
+    },
+    {
+      "path": "docs/showcase/deliveries/S03-cleanup.json",
+      "bytes": 6991,
+      "sha256": "6da2a32547fe7c551ea2a73aeac8e114bf473d6aeb6744b590efb60b687f8cd1"
+    },
+    {
+      "path": "docs/showcase/deliveries/S03-validation.json",
+      "bytes": 30906,
+      "sha256": "a7152162ddeb0edf188768161fe048b032ac2f6a382870a1a9212080e3a8e389"
+    },
+    {
+      "path": "docs/showcase/deliveries/S03.md",
+      "bytes": 14295,
+      "sha256": "00c27bcaa273892211ad43a9121f3ba398ba919668191f2b8d18b65edda52fb1"
+    },
+    {
+      "path": "scenes/ships/destroyer_modules/jp_127mm_type_c.tscn",
+      "bytes": 227,
+      "sha256": "1cee2caa827684c2f89e6cf36e09b453c050b27f1bb1e63c503588594a95da10"
+    },
+    {
+      "path": "scenes/ships/destroyer_modules/jp_type96_twin.tscn",
+      "bytes": 225,
+      "sha256": "050263e5dc63a768123c6d7d089c43a26a81f391abfcbcd7f41c330f4121c379"
+    },
+    {
+      "path": "scenes/ships/destroyer_modules/us_11in_quad.tscn",
+      "bytes": 221,
+      "sha256": "1f489a175f40842107aac2c0b657ab940b84bca4df3e4767a4596e83d30de34c"
+    },
+    {
+      "path": "scenes/ships/destroyer_modules/us_5in38_mk30.tscn",
+      "bytes": 223,
+      "sha256": "f3b3776faf4972fe81b342b6fe4ab28c2aa24bd29a40c1637fc2b386581bc9cb"
+    },
+    {
+      "path": "scenes/ships/destroyer_modules/us_oerlikon_single.tscn",
+      "bytes": 233,
+      "sha256": "5ea812079fe0cc4a81b4b437b23434b89954ae46f13ea0bdae3bc5c5cf1cbfa1"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/bridge.tscn",
+      "bytes": 274,
+      "sha256": "afdd6ddf28bf9af647af67cafb646ed7e88a5cc4a4cee5541d94990da79e017a"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/equipment.tscn",
+      "bytes": 257,
+      "sha256": "c0e260804dc6f5e233922ce664b61fa259029f82b8b3630cff60c32082c4c150"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/fletcher_dd445.tscn",
+      "bytes": 263,
+      "sha256": "ca95644007552231581584c47ce2ed4ebf6f60a351cea7000931855a3561d1d7"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/funnels.tscn",
+      "bytes": 276,
+      "sha256": "d2f6315f9d2c286f6a6a88875b7287cba2bafbfa6e5637b8b2b70a2eeeff240a"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/hull.tscn",
+      "bytes": 247,
+      "sha256": "5e41cebe4a49b8edd648f2af4fe86c78afa1357662d12b69e6384c21083fb1ed"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/platforms.tscn",
+      "bytes": 280,
+      "sha256": "cffd2ed9e58ee036860a2c877f62b22121807db906fe38f7fea86184b5ab7cb7"
+    },
+    {
+      "path": "scenes/ships/yukikaze/bridge.tscn",
+      "bytes": 268,
+      "sha256": "8c544f93b368f2c3a7d5250717e9a40a292cd317632863b835be2a1e66d82c0e"
+    },
+    {
+      "path": "scenes/ships/yukikaze/equipment.tscn",
+      "bytes": 251,
+      "sha256": "d73ebfe1d99ad154d9aed04835accf9466be75e47a75f66a26e839e379b66024"
+    },
+    {
+      "path": "scenes/ships/yukikaze/funnels.tscn",
+      "bytes": 270,
+      "sha256": "01b1296c7610d55f5cf1073865f06b105dfe2c0593010b6268eeba60a69d4f3b"
+    },
+    {
+      "path": "scenes/ships/yukikaze/hull.tscn",
+      "bytes": 241,
+      "sha256": "60378e9bfdb68311141c98ac12484cb235dc3ac50dfda4d94fc219cad5bae7fa"
+    },
+    {
+      "path": "scenes/ships/yukikaze/platforms.tscn",
+      "bytes": 274,
+      "sha256": "dac2b368d3ddd8c23ce603465ad813b9a754494c14fb257bd15fb2db3d9d3995"
+    },
+    {
+      "path": "scenes/ships/yukikaze/yukikaze.tscn",
+      "bytes": 251,
+      "sha256": "bae57b81b79dab5e972506a078c7d96465493ae9393121bf8adf78ac2fe7c3b9"
+    },
+    {
+      "path": "scripts/naval/destroyers/README.md",
+      "bytes": 4912,
+      "sha256": "51b04b8518e5a01a9527847c55c916c2b1f3484d59c60a05010e18c54ddc8ca7"
+    },
+    {
+      "path": "scripts/naval/destroyers/destroyer_adapter.gd",
+      "bytes": 6712,
+      "sha256": "89bd07255ef237a91b77eaa8ed61dba89fbe1c8437839e7a7df08baa795d6770"
+    },
+    {
+      "path": "scripts/naval/destroyers/destroyer_adapter.gd.uid",
+      "bytes": 20,
+      "sha256": "af8716f6512af2e8836b859946a8ae1052214f271900a4b8b82910d708081a7c"
+    },
+    {
+      "path": "scripts/naval/destroyers/equipment_module.gd",
+      "bytes": 4957,
+      "sha256": "c132ba0f7257f7b9ab24c398f8c7549ce816f9cae8201846198d6fd6fbc69f34"
+    },
+    {
+      "path": "scripts/naval/destroyers/equipment_module.gd.uid",
+      "bytes": 20,
+      "sha256": "48f43b2f48281af28db8349dfd44eb8e260a54c922180c5ca54fc3c38b1ae828"
+    },
+    {
+      "path": "scripts/naval/destroyers/hull_module.gd",
+      "bytes": 3296,
+      "sha256": "2db0881939615f250a7416b009f5010ef2eb67709827cd2b08a38c71f5bcde7b"
+    },
+    {
+      "path": "scripts/naval/destroyers/hull_module.gd.uid",
+      "bytes": 20,
+      "sha256": "2b76de1e60130f90bfffc8c5177c9d1ef9099e4d891a72c78e11b691324b0663"
+    },
+    {
+      "path": "scripts/naval/destroyers/measure12.gdshader",
+      "bytes": 792,
+      "sha256": "e3e13d384071d914537ef0459780c995419b2bf66b0aeedb9345b6338472a8da"
+    },
+    {
+      "path": "scripts/naval/destroyers/measure12.gdshader.uid",
+      "bytes": 20,
+      "sha256": "d8398b8f61402256e5aba3779dffe5b38ce50754052a7c32e32ea3e9a41b09eb"
+    },
+    {
+      "path": "scripts/naval/destroyers/mesh_tools.gd",
+      "bytes": 7463,
+      "sha256": "ef447fdeb122230cbfd676da4b1e0d790744fdfb2210deb28d83d21bf8f70a45"
+    },
+    {
+      "path": "scripts/naval/destroyers/mesh_tools.gd.uid",
+      "bytes": 19,
+      "sha256": "b9517e83bb1264acac426e45834f38407cee519984afd6a7572dae1f0f7da892"
+    },
+    {
+      "path": "scripts/naval/destroyers/structure_module.gd",
+      "bytes": 2331,
+      "sha256": "6b8b5b400fbe9f505e4216ac83f81c724b82bfc577a4a100d2d9c9e929dd8e93"
+    },
+    {
+      "path": "scripts/naval/destroyers/structure_module.gd.uid",
+      "bytes": 20,
+      "sha256": "2d0d6b7e703a2245f401bd950af5d4faca1362ad574aabaceb4f8055bfc11cf2"
+    },
+    {
+      "path": "scripts/naval/destroyers/weapon_module.gd",
+      "bytes": 6244,
+      "sha256": "f5a13cec8dfac2144696f94fc8732f782e6eb7e9520396026439458b5aaf6d22"
+    },
+    {
+      "path": "scripts/naval/destroyers/weapon_module.gd.uid",
+      "bytes": 20,
+      "sha256": "950201e9a16e9961917a8716d45485a280bd15b4e0c099da9574c59727101803"
+    },
+    {
+      "path": "tests/destroyer_capture.gd",
+      "bytes": 3448,
+      "sha256": "fb25cc19916228955c16c54b31e3b2659b4199791fb8dbe2bd1c84da4314166f"
+    },
+    {
+      "path": "tests/destroyer_capture.gd.uid",
+      "bytes": 19,
+      "sha256": "55dc476a05731fd8745e3ed2f72fd46ff36f97bf11941c2c24ce0553ca862b71"
+    },
+    {
+      "path": "tests/scenes/destroyer_capture.tscn",
+      "bytes": 185,
+      "sha256": "d0a8cf6bcd8d48e4b8c06260712c392b0131c484bef7e6eee38331b49fa7afcb"
+    },
+    {
+      "path": "tests/test_destroyer_models.gd",
+      "bytes": 14236,
+      "sha256": "73656bd58343a2ae8078560570031faff53332249769ca5e93d0e4a0e8cfd01d"
+    },
+    {
+      "path": "tests/test_destroyer_models.gd.uid",
+      "bytes": 20,
+      "sha256": "7e8f8ac1169fee9623ecffcfa87d558d983a3a51a7a8cc1ad0193ee80ec19fd0"
+    },
+    {
+      "path": "tools/s03/build_destroyer_data.py",
+      "bytes": 18890,
+      "sha256": "26e2176a71defb51d285b7b2dc50d48ae722ff697fcbda5653f91e5d21bf92cc"
+    }
+  ]
+}

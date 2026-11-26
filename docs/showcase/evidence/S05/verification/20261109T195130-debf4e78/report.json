@@ -1,0 +1,63 @@
+{
+  "run_id": "20261109T195130-debf4e78",
+  "owner": "S05",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 87066,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 87069,
+      "process_group": 87069,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.0457,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T195130-debf4e78/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_combat_geometry.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 87070,
+      "process_group": 87070,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.255,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T195130-debf4e78/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S05",
+    "pid": 87066,
+    "process_identity": "Tue Nov 10 03:51:30 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S05 --timeout 30 --lock-timeout 15 test res://tests/test_combat_geometry.gd",
+    "token": "66bd9fbc037644eb9e18829d96a53a20",
+    "acquired_utc": "2026-11-09T19:51:30.467462+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

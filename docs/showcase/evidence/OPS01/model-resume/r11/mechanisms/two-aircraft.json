@@ -1,0 +1,1852 @@
+{
+	"events": [
+		{
+			"data": {
+				"accepted": true,
+				"air_speed_mps": 50.1041297912598,
+				"bank_rad": 0.0000000000000132917392641364,
+				"heading_error_rad": 0.0000000547795624814519,
+				"local_m": [
+					-3.00000596046448,
+					17.0690174102783,
+					111.508750915527
+				],
+				"reason": "",
+				"relative_velocity_mps": [
+					0.00000274264789368317,
+					-1.92873978614807,
+					-35.0669937133789
+				]
+			},
+			"entity_id": "hellcat_1",
+			"event_id": "event_00000155",
+			"kind": "carrier_touchdown",
+			"position_m": [
+				-3.00000596046448,
+				17.0690174102783,
+				-7079.2412109375
+			],
+			"sequence": 155,
+			"target_id": "essex",
+			"tick": 28763,
+			"time_s": 479.383333333333,
+			"weapon_id": ""
+		},
+		{
+			"data": {
+				"distance_m": 0.00125029112678021,
+				"geometry_id": "f6f5_carrier_usage_v2",
+				"hook_deflection_rad": 0.412513665999186,
+				"relative_velocity_mps": [
+					0.0,
+					-0.0492691695690155,
+					-35.0669937133789
+				],
+				"shoe_sweep_end_m": [
+					-3.00000596046448,
+					15.8722810745239,
+					116.531326293945
+				],
+				"shoe_sweep_start_m": [
+					-3.00000619888306,
+					15.8710260391235,
+					117.101448059082
+				],
+				"wire_a_m": [
+					-14.0,
+					15.8699998855591,
+					117.0
+				],
+				"wire_b_m": [
+					10.0,
+					15.8699998855591,
+					117.0
+				],
+				"wire_id": "wire_01"
+			},
+			"entity_id": "hellcat_1",
+			"event_id": "event_00000158",
+			"kind": "carrier_wire_caught",
+			"position_m": [
+				-3.00000619888306,
+				15.8712501525879,
+				-7073.75
+			],
+			"sequence": 158,
+			"target_id": "essex",
+			"tick": 28763,
+			"time_s": 479.383333333333,
+			"weapon_id": ""
+		},
+		{
+			"data": {
+				"ammo_rounds": 78,
+				"fuel_kg": 47.5458725599128
+			},
+			"entity_id": "hellcat_1",
+			"event_id": "event_00000167",
+			"kind": "carrier_service_completed",
+			"position_m": [
+				-3.00000023841858,
+				17.0530776977539,
+				-8326.5498046875
+			],
+			"sequence": 167,
+			"target_id": "essex",
+			"tick": 33019,
+			"time_s": 550.316666666667,
+			"weapon_id": ""
+		},
+		{
+			"data": {
+				"accepted": true,
+				"air_speed_mps": 50.1032409667969,
+				"bank_rad": 0.000000000000000289042449363344,
+				"heading_error_rad": 0.00000000438235920734838,
+				"local_m": [
+					-2.99999952316284,
+					17.0690174102783,
+					111.631408691406
+				],
+				"reason": "",
+				"relative_velocity_mps": [
+					-0.000000219407937152027,
+					-1.92714095115662,
+					-35.0661659240723
+				]
+			},
+			"entity_id": "hellcat_2",
+			"event_id": "event_00000171",
+			"kind": "carrier_touchdown",
+			"position_m": [
+				-2.99999952316284,
+				17.0690174102783,
+				-10147.1181640625
+			],
+			"sequence": 171,
+			"target_id": "essex",
+			"tick": 41035,
+			"time_s": 683.916666666667,
+			"weapon_id": ""
+		},
+		{
+			"data": {
+				"distance_m": 0.00203609466552734,
+				"geometry_id": "f6f5_carrier_usage_v2",
+				"hook_deflection_rad": 0.408751950959449,
+				"relative_velocity_mps": [
+					-0.000000219392745748337,
+					-0.050268929451704,
+					-35.0637359619141
+				],
+				"shoe_sweep_end_m": [
+					-2.99999952316284,
+					15.872109413147,
+					116.974822998047
+				],
+				"shoe_sweep_start_m": [
+					-2.99999952316284,
+					15.8704881668091,
+					117.528213500977
+				],
+				"wire_a_m": [
+					-14.0,
+					15.8699998855591,
+					117.0
+				],
+				"wire_b_m": [
+					10.0,
+					15.8699998855591,
+					117.0
+				],
+				"wire_id": "wire_01"
+			},
+			"entity_id": "hellcat_2",
+			"event_id": "event_00000174",
+			"kind": "carrier_wire_caught",
+			"position_m": [
+				-2.99999952316284,
+				15.8720359802246,
+				-10141.75
+			],
+			"sequence": 174,
+			"target_id": "essex",
+			"tick": 41035,
+			"time_s": 683.916666666667,
+			"weapon_id": ""
+		},
+		{
+			"data": {
+				"ammo_rounds": 78,
+				"fuel_kg": 64.8144156376454
+			},
+			"entity_id": "hellcat_2",
+			"event_id": "event_00000181",
+			"kind": "carrier_service_completed",
+			"position_m": [
+				-2.99999952316284,
+				17.0530776977539,
+				-11276.7998046875
+			],
+			"sequence": 181,
+			"target_id": "essex",
+			"tick": 44900,
+			"time_s": 748.333333333333,
+			"weapon_id": ""
+		},
+		{
+			"data": {
+				"accepted": true,
+				"air_speed_mps": 50.1032409667969,
+				"bank_rad": 0.000000000000410534047078429,
+				"heading_error_rad": 0.0000000635442611126562,
+				"local_m": [
+					-3.00000691413879,
+					17.0690174102783,
+					111.630783081055
+				],
+				"reason": "",
+				"relative_velocity_mps": [
+					0.00000318142133437505,
+					-1.92714059352875,
+					-35.0661659240723
+				]
+			},
+			"entity_id": "hellcat_1",
+			"event_id": "event_00000348",
+			"kind": "carrier_touchdown",
+			"position_m": [
+				-3.00000691413879,
+				17.0690174102783,
+				-24570.869140625
+			],
+			"sequence": 348,
+			"target_id": "essex",
+			"tick": 98730,
+			"time_s": 1645.5,
+			"weapon_id": ""
+		},
+		{
+			"data": {
+				"distance_m": 0.00154685974121094,
+				"geometry_id": "f6f5_carrier_usage_v2",
+				"hook_deflection_rad": 0.410605511078145,
+				"relative_velocity_mps": [
+					0.0,
+					-0.0495189651846886,
+					-35.0661659240723
+				],
+				"shoe_sweep_end_m": [
+					-3.00000691413879,
+					15.8721942901611,
+					116.816398620605
+				],
+				"shoe_sweep_start_m": [
+					-3.00000715255737,
+					15.8702192306519,
+					117.377532958984
+				],
+				"wire_a_m": [
+					-14.0,
+					15.8699998855591,
+					117.0
+				],
+				"wire_b_m": [
+					10.0,
+					15.8699998855591,
+					117.0
+				],
+				"wire_id": "wire_01"
+			},
+			"entity_id": "hellcat_1",
+			"event_id": "event_00000351",
+			"kind": "carrier_wire_caught",
+			"position_m": [
+				-3.00000691413879,
+				15.8715476989746,
+				-24565.5
+			],
+			"sequence": 351,
+			"target_id": "essex",
+			"tick": 98730,
+			"time_s": 1645.5,
+			"weapon_id": ""
+		},
+		{
+			"data": {
+				"ammo_rounds": 0,
+				"fuel_kg": 56.1006721765198
+			},
+			"entity_id": "hellcat_1",
+			"event_id": "event_00000360",
+			"kind": "carrier_service_completed",
+			"position_m": [
+				-3.00000023841858,
+				17.0530776977539,
+				-25819.80078125
+			],
+			"sequence": 360,
+			"target_id": "essex",
+			"tick": 102992,
+			"time_s": 1716.53333333333,
+			"weapon_id": ""
+		},
+		{
+			"data": {
+				"accepted": true,
+				"air_speed_mps": 50.1032409667969,
+				"bank_rad": 0.0000000000000163180219662183,
+				"heading_error_rad": 0.00000000438236100584769,
+				"local_m": [
+					-2.99999952316284,
+					17.0690174102783,
+					111.630790710449
+				],
+				"reason": "",
+				"relative_velocity_mps": [
+					-0.000000219408178736558,
+					-1.92714071273804,
+					-35.0661659240723
+				]
+			},
+			"entity_id": "hellcat_2",
+			"event_id": "event_00000364",
+			"kind": "carrier_touchdown",
+			"position_m": [
+				-2.99999952316284,
+				17.0690174102783,
+				-27459.619140625
+			],
+			"sequence": 364,
+			"target_id": "essex",
+			"tick": 110285,
+			"time_s": 1838.08333333333,
+			"weapon_id": ""
+		},
+		{
+			"data": {
+				"distance_m": 0.00164604198653251,
+				"geometry_id": "f6f5_carrier_usage_v2",
+				"hook_deflection_rad": 0.413427796043356,
+				"relative_velocity_mps": [
+					-0.000000219249855604176,
+					-0.0492998026311398,
+					-35.0408630371094
+				],
+				"shoe_sweep_end_m": [
+					-2.99999952316284,
+					15.8723230361938,
+					116.57551574707
+				],
+				"shoe_sweep_start_m": [
+					-2.99999952316284,
+					15.8714094161987,
+					117.149391174316
+				],
+				"wire_a_m": [
+					-14.0,
+					15.8699998855591,
+					117.0
+				],
+				"wire_b_m": [
+					10.0,
+					15.8699998855591,
+					117.0
+				],
+				"wire_id": "wire_01"
+			},
+			"entity_id": "hellcat_2",
+			"event_id": "event_00000367",
+			"kind": "carrier_wire_caught",
+			"position_m": [
+				-2.99999952316284,
+				15.8716468811035,
+				-27454.25
+			],
+			"sequence": 367,
+			"target_id": "essex",
+			"tick": 110285,
+			"time_s": 1838.08333333333,
+			"weapon_id": ""
+		},
+		{
+			"data": {
+				"ammo_rounds": 0,
+				"fuel_kg": 76.9880951489896
+			},
+			"entity_id": "hellcat_2",
+			"event_id": "event_00000374",
+			"kind": "carrier_service_completed",
+			"position_m": [
+				-2.99999952316284,
+				17.0530776977539,
+				-28588.55078125
+			],
+			"sequence": 374,
+			"target_id": "essex",
+			"tick": 114147,
+			"time_s": 1902.45,
+			"weapon_id": ""
+		}
+	],
+	"final": {
+		"ammo_delivered": 156,
+		"ammo_stock_rounds": 4644,
+		"available": true,
+		"carrier_id": "essex",
+		"elevators": {
+			"elevator_aft": 15.85,
+			"elevator_forward": 15.85,
+			"elevator_port": 15.85
+		},
+		"external_block": false,
+		"fuel_delivered_kg": 245.449055523068,
+		"fuel_stock_kg": 1754.55094447693,
+		"history": [
+			{
+				"from": "standby",
+				"order_id": "carrier_patrol",
+				"phase": "preparing",
+				"reason": "sortie_order_received",
+				"tick": 1,
+				"time_s": 0.0166666666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "standby",
+				"order_id": "carrier_patrol",
+				"phase": "preparing",
+				"reason": "sortie_order_received",
+				"tick": 1,
+				"time_s": 0.0166666666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "preparing",
+				"order_id": "carrier_patrol",
+				"phase": "queued",
+				"reason": "awaiting_clear_launch_deck",
+				"tick": 301,
+				"time_s": 5.01666666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "preparing",
+				"order_id": "carrier_patrol",
+				"phase": "queued",
+				"reason": "awaiting_clear_launch_deck",
+				"tick": 301,
+				"time_s": 5.01666666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "queued",
+				"order_id": "carrier_patrol",
+				"phase": "taxi_out",
+				"reason": "exclusive_launch_clearance",
+				"tick": 302,
+				"time_s": 5.03333333333333,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "queued",
+				"order_id": "carrier_patrol",
+				"phase": "queued",
+				"reason": "launch_deck_or_queue_occupied",
+				"tick": 302,
+				"time_s": 5.03333333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "taxi_out",
+				"order_id": "carrier_patrol",
+				"phase": "takeoff_roll",
+				"reason": "roll_length_and_wind_cleared",
+				"tick": 801,
+				"time_s": 13.35,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "takeoff_roll",
+				"order_id": "carrier_patrol",
+				"phase": "climb",
+				"reason": "airspeed_and_deck_run_complete",
+				"tick": 1365,
+				"time_s": 22.75,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "queued",
+				"order_id": "carrier_patrol",
+				"phase": "taxi_out",
+				"reason": "exclusive_launch_clearance",
+				"tick": 1470,
+				"time_s": 24.5,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "taxi_out",
+				"order_id": "carrier_patrol",
+				"phase": "takeoff_roll",
+				"reason": "roll_length_and_wind_cleared",
+				"tick": 2569,
+				"time_s": 42.8166666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "takeoff_roll",
+				"order_id": "carrier_patrol",
+				"phase": "climb",
+				"reason": "airspeed_and_deck_run_complete",
+				"tick": 3133,
+				"time_s": 52.2166666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "climb",
+				"order_id": "carrier_patrol",
+				"phase": "mission",
+				"reason": "climb_and_assembly_complete",
+				"tick": 3522,
+				"time_s": 58.7,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "climb",
+				"order_id": "carrier_patrol",
+				"phase": "mission",
+				"reason": "climb_and_assembly_complete",
+				"tick": 5290,
+				"time_s": 88.1666666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "mission",
+				"order_id": "carrier_patrol",
+				"phase": "return",
+				"reason": "patrol_complete_return",
+				"tick": 10123,
+				"time_s": 168.716666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "mission",
+				"order_id": "carrier_patrol",
+				"phase": "return",
+				"reason": "patrol_complete_return",
+				"tick": 11891,
+				"time_s": 198.183333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "return",
+				"order_id": "carrier_patrol",
+				"phase": "approach",
+				"reason": "exclusive_recovery_clearance",
+				"tick": 20882,
+				"time_s": 348.033333333333,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "return",
+				"order_id": "carrier_patrol",
+				"phase": "holding",
+				"reason": "awaiting_recovery_deck",
+				"tick": 21434,
+				"time_s": 357.233333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "approach",
+				"order_id": "carrier_patrol",
+				"phase": "touchdown",
+				"reason": "wheel_contact_in_envelope",
+				"tick": 28763,
+				"time_s": 479.383333333333,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "touchdown",
+				"order_id": "carrier_patrol",
+				"phase": "arresting",
+				"reason": "actual_hook_shoe_swept_wire_segment",
+				"tick": 28763,
+				"time_s": 479.383333333333,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "arresting",
+				"order_id": "carrier_patrol",
+				"phase": "taxi_clear",
+				"reason": "arrest_complete_clear_landing_area",
+				"tick": 29063,
+				"time_s": 484.383333333333,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "taxi_clear",
+				"order_id": "carrier_patrol",
+				"phase": "servicing",
+				"reason": "recovered_and_parked",
+				"tick": 31219,
+				"time_s": 520.316666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "holding",
+				"order_id": "carrier_patrol",
+				"phase": "approach",
+				"reason": "exclusive_recovery_clearance",
+				"tick": 32835,
+				"time_s": 547.25,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "servicing",
+				"order_id": "carrier_patrol",
+				"phase": "standby",
+				"reason": "service_complete",
+				"tick": 33019,
+				"time_s": 550.316666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "approach",
+				"order_id": "carrier_patrol",
+				"phase": "touchdown",
+				"reason": "wheel_contact_in_envelope",
+				"tick": 41035,
+				"time_s": 683.916666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "touchdown",
+				"order_id": "carrier_patrol",
+				"phase": "arresting",
+				"reason": "actual_hook_shoe_swept_wire_segment",
+				"tick": 41035,
+				"time_s": 683.916666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "arresting",
+				"order_id": "carrier_patrol",
+				"phase": "taxi_clear",
+				"reason": "arrest_complete_clear_landing_area",
+				"tick": 41335,
+				"time_s": 688.916666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "taxi_clear",
+				"order_id": "carrier_patrol",
+				"phase": "servicing",
+				"reason": "recovered_and_parked",
+				"tick": 43100,
+				"time_s": 718.333333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "servicing",
+				"order_id": "carrier_patrol",
+				"phase": "standby",
+				"reason": "service_complete",
+				"tick": 44900,
+				"time_s": 748.333333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "standby",
+				"order_id": "second_sortie",
+				"phase": "preparing",
+				"reason": "sortie_order_received",
+				"tick": 47301,
+				"time_s": 788.35,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "standby",
+				"order_id": "second_sortie",
+				"phase": "preparing",
+				"reason": "sortie_order_received",
+				"tick": 47301,
+				"time_s": 788.35,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "preparing",
+				"order_id": "second_sortie",
+				"phase": "queued",
+				"reason": "awaiting_clear_launch_deck",
+				"tick": 47601,
+				"time_s": 793.35,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "preparing",
+				"order_id": "second_sortie",
+				"phase": "queued",
+				"reason": "awaiting_clear_launch_deck",
+				"tick": 47601,
+				"time_s": 793.35,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "queued",
+				"order_id": "second_sortie",
+				"phase": "respotting",
+				"reason": "deck_handling_force_clears_forward_parking",
+				"tick": 47602,
+				"time_s": 793.366666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "queued",
+				"order_id": "second_sortie",
+				"phase": "queued",
+				"reason": "awaiting_continuous_deck_respot",
+				"tick": 47602,
+				"time_s": 793.366666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "respotting",
+				"order_id": "second_sortie",
+				"phase": "queued",
+				"reason": "deck_respot_physically_complete",
+				"tick": 55653,
+				"time_s": 927.55,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "queued",
+				"order_id": "second_sortie",
+				"phase": "respotting",
+				"reason": "deck_handling_force_clears_forward_parking",
+				"tick": 55654,
+				"time_s": 927.566666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "queued",
+				"order_id": "second_sortie",
+				"phase": "queued",
+				"reason": "launch_deck_or_queue_occupied",
+				"tick": 55654,
+				"time_s": 927.566666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "respotting",
+				"order_id": "second_sortie",
+				"phase": "queued",
+				"reason": "deck_respot_physically_complete",
+				"tick": 63205,
+				"time_s": 1053.41666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "queued",
+				"order_id": "second_sortie",
+				"phase": "taxi_out",
+				"reason": "exclusive_launch_clearance",
+				"tick": 63206,
+				"time_s": 1053.43333333333,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "taxi_out",
+				"order_id": "second_sortie",
+				"phase": "takeoff_roll",
+				"reason": "roll_length_and_wind_cleared",
+				"tick": 63709,
+				"time_s": 1061.81666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "takeoff_roll",
+				"order_id": "second_sortie",
+				"phase": "climb",
+				"reason": "airspeed_and_deck_run_complete",
+				"tick": 64273,
+				"time_s": 1071.21666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "queued",
+				"order_id": "second_sortie",
+				"phase": "taxi_out",
+				"reason": "exclusive_launch_clearance",
+				"tick": 64378,
+				"time_s": 1072.96666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "taxi_out",
+				"order_id": "second_sortie",
+				"phase": "takeoff_roll",
+				"reason": "roll_length_and_wind_cleared",
+				"tick": 65477,
+				"time_s": 1091.28333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "takeoff_roll",
+				"order_id": "second_sortie",
+				"phase": "climb",
+				"reason": "airspeed_and_deck_run_complete",
+				"tick": 66041,
+				"time_s": 1100.68333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "climb",
+				"order_id": "second_sortie",
+				"phase": "mission",
+				"reason": "climb_and_assembly_complete",
+				"tick": 66430,
+				"time_s": 1107.16666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "climb",
+				"order_id": "second_sortie",
+				"phase": "mission",
+				"reason": "climb_and_assembly_complete",
+				"tick": 68198,
+				"time_s": 1136.63333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "mission",
+				"order_id": "second_sortie",
+				"phase": "return",
+				"reason": "patrol_complete_return",
+				"tick": 73030,
+				"time_s": 1217.16666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "mission",
+				"order_id": "second_sortie",
+				"phase": "return",
+				"reason": "patrol_complete_return",
+				"tick": 74798,
+				"time_s": 1246.63333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "return",
+				"order_id": "second_sortie",
+				"phase": "holding",
+				"reason": "awaiting_recovery_deck",
+				"tick": 90687,
+				"time_s": 1511.45,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "return",
+				"order_id": "second_sortie",
+				"phase": "approach",
+				"reason": "exclusive_recovery_clearance",
+				"tick": 90850,
+				"time_s": 1514.16666666667,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "approach",
+				"order_id": "second_sortie",
+				"phase": "touchdown",
+				"reason": "wheel_contact_in_envelope",
+				"tick": 98730,
+				"time_s": 1645.5,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "touchdown",
+				"order_id": "second_sortie",
+				"phase": "arresting",
+				"reason": "actual_hook_shoe_swept_wire_segment",
+				"tick": 98730,
+				"time_s": 1645.5,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "arresting",
+				"order_id": "second_sortie",
+				"phase": "taxi_clear",
+				"reason": "arrest_complete_clear_landing_area",
+				"tick": 99030,
+				"time_s": 1650.5,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "taxi_clear",
+				"order_id": "second_sortie",
+				"phase": "servicing",
+				"reason": "recovered_and_parked",
+				"tick": 101192,
+				"time_s": 1686.53333333333,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "holding",
+				"order_id": "second_sortie",
+				"phase": "approach",
+				"reason": "exclusive_recovery_clearance",
+				"tick": 102082,
+				"time_s": 1701.36666666667,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "servicing",
+				"order_id": "second_sortie",
+				"phase": "standby",
+				"reason": "service_complete",
+				"tick": 102992,
+				"time_s": 1716.53333333333,
+				"unit_id": "hellcat_1"
+			},
+			{
+				"from": "approach",
+				"order_id": "second_sortie",
+				"phase": "touchdown",
+				"reason": "wheel_contact_in_envelope",
+				"tick": 110285,
+				"time_s": 1838.08333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "touchdown",
+				"order_id": "second_sortie",
+				"phase": "arresting",
+				"reason": "actual_hook_shoe_swept_wire_segment",
+				"tick": 110285,
+				"time_s": 1838.08333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "arresting",
+				"order_id": "second_sortie",
+				"phase": "taxi_clear",
+				"reason": "arrest_complete_clear_landing_area",
+				"tick": 110585,
+				"time_s": 1843.08333333333,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "taxi_clear",
+				"order_id": "second_sortie",
+				"phase": "servicing",
+				"reason": "recovered_and_parked",
+				"tick": 112347,
+				"time_s": 1872.45,
+				"unit_id": "hellcat_2"
+			},
+			{
+				"from": "servicing",
+				"order_id": "second_sortie",
+				"phase": "standby",
+				"reason": "service_complete",
+				"tick": 114147,
+				"time_s": 1902.45,
+				"unit_id": "hellcat_2"
+			}
+		],
+		"launch_queue": [],
+		"parking": {
+			"forward_1": "hellcat_1",
+			"forward_2": "hellcat_2"
+		},
+		"recovery_queue": [],
+		"roster": {
+			"hellcat_1": {
+				"angle_of_attack_rad": 0.168342307209969,
+				"cancelled": false,
+				"configuration_transition_active": true,
+				"flaps_down": false,
+				"gear_down": true,
+				"go_arounds": 0,
+				"hook_deflection_rad": 0.0,
+				"hook_down": false,
+				"hook_pose": {
+					"available": false,
+					"deflection_rad": 0.0
+				},
+				"last_local_m": [
+					-3.00000691413879,
+					17.0900764465332,
+					112.013671875
+				],
+				"local_m": [
+					-3.00000023841858,
+					17.0530776977539,
+					-72.049934387207
+				],
+				"local_rotation_rad": [
+					0.168342307209969,
+					0.0,
+					0.0
+				],
+				"local_yaw_rad": 0.0,
+				"on_deck": true,
+				"order_id": "second_sortie",
+				"parking_slot": "forward_1",
+				"phase": "standby",
+				"pre_flight_position_m": [
+					-3.00000691413879,
+					17.0900764465332,
+					-24570.236328125
+				],
+				"pre_flight_rotation_rad": [
+					0.157079637050629,
+					-0.0000000635442631846672,
+					0.000000000000410534047078429
+				],
+				"pre_flight_velocity_mps": [
+					0.00000318142133437505,
+					-1.92714059352875,
+					-50.0661659240723
+				],
+				"pre_ship_rotation_rad": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"reason": "service_complete",
+				"recoveries": 2,
+				"relative_velocity_mps": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"respot_return_phase": "queued",
+				"respot_target_z": 75.0,
+				"route_index": 2,
+				"service_done": true,
+				"since_s": 1716.53333333333,
+				"sorties": 2,
+				"touchdown_count": 2,
+				"wheel_clearance_m": 0.0,
+				"wire_id": "wire_01"
+			},
+			"hellcat_2": {
+				"angle_of_attack_rad": 0.168342307209969,
+				"cancelled": false,
+				"configuration_transition_active": true,
+				"flaps_down": false,
+				"gear_down": true,
+				"go_arounds": 0,
+				"hook_deflection_rad": 0.0,
+				"hook_down": false,
+				"hook_pose": {
+					"available": false,
+					"deflection_rad": 0.0
+				},
+				"last_local_m": [
+					-2.99999952316284,
+					17.0767555236816,
+					111.771484375
+				],
+				"local_m": [
+					-2.99999952316284,
+					17.0530776977539,
+					-52.0499114990234
+				],
+				"local_rotation_rad": [
+					0.168342307209969,
+					0.0,
+					0.0
+				],
+				"local_yaw_rad": 0.0,
+				"on_deck": true,
+				"order_id": "second_sortie",
+				"parking_slot": "forward_2",
+				"phase": "standby",
+				"pre_flight_position_m": [
+					-2.99999952316284,
+					17.0767555236816,
+					-27459.228515625
+				],
+				"pre_flight_rotation_rad": [
+					0.157079637050629,
+					0.00000000438236114064239,
+					-0.0000000000000163180219662183
+				],
+				"pre_flight_velocity_mps": [
+					-0.000000219408178736558,
+					-1.92714071273804,
+					-50.0661659240723
+				],
+				"pre_ship_rotation_rad": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"reason": "service_complete",
+				"recoveries": 2,
+				"relative_velocity_mps": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"respot_return_phase": "queued",
+				"respot_target_z": 105.0,
+				"route_index": 2,
+				"service_done": true,
+				"since_s": 1902.45,
+				"sorties": 2,
+				"touchdown_count": 2,
+				"wheel_clearance_m": 0.0,
+				"wire_id": "wire_01"
+			}
+		},
+		"strip_owner": "",
+		"strip_use": ""
+	},
+	"history": [
+		{
+			"from": "standby",
+			"order_id": "carrier_patrol",
+			"phase": "preparing",
+			"reason": "sortie_order_received",
+			"tick": 1,
+			"time_s": 0.0166666666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "standby",
+			"order_id": "carrier_patrol",
+			"phase": "preparing",
+			"reason": "sortie_order_received",
+			"tick": 1,
+			"time_s": 0.0166666666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "preparing",
+			"order_id": "carrier_patrol",
+			"phase": "queued",
+			"reason": "awaiting_clear_launch_deck",
+			"tick": 301,
+			"time_s": 5.01666666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "preparing",
+			"order_id": "carrier_patrol",
+			"phase": "queued",
+			"reason": "awaiting_clear_launch_deck",
+			"tick": 301,
+			"time_s": 5.01666666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "queued",
+			"order_id": "carrier_patrol",
+			"phase": "taxi_out",
+			"reason": "exclusive_launch_clearance",
+			"tick": 302,
+			"time_s": 5.03333333333333,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "queued",
+			"order_id": "carrier_patrol",
+			"phase": "queued",
+			"reason": "launch_deck_or_queue_occupied",
+			"tick": 302,
+			"time_s": 5.03333333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "taxi_out",
+			"order_id": "carrier_patrol",
+			"phase": "takeoff_roll",
+			"reason": "roll_length_and_wind_cleared",
+			"tick": 801,
+			"time_s": 13.35,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "takeoff_roll",
+			"order_id": "carrier_patrol",
+			"phase": "climb",
+			"reason": "airspeed_and_deck_run_complete",
+			"tick": 1365,
+			"time_s": 22.75,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "queued",
+			"order_id": "carrier_patrol",
+			"phase": "taxi_out",
+			"reason": "exclusive_launch_clearance",
+			"tick": 1470,
+			"time_s": 24.5,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "taxi_out",
+			"order_id": "carrier_patrol",
+			"phase": "takeoff_roll",
+			"reason": "roll_length_and_wind_cleared",
+			"tick": 2569,
+			"time_s": 42.8166666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "takeoff_roll",
+			"order_id": "carrier_patrol",
+			"phase": "climb",
+			"reason": "airspeed_and_deck_run_complete",
+			"tick": 3133,
+			"time_s": 52.2166666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "climb",
+			"order_id": "carrier_patrol",
+			"phase": "mission",
+			"reason": "climb_and_assembly_complete",
+			"tick": 3522,
+			"time_s": 58.7,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "climb",
+			"order_id": "carrier_patrol",
+			"phase": "mission",
+			"reason": "climb_and_assembly_complete",
+			"tick": 5290,
+			"time_s": 88.1666666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "mission",
+			"order_id": "carrier_patrol",
+			"phase": "return",
+			"reason": "patrol_complete_return",
+			"tick": 10123,
+			"time_s": 168.716666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "mission",
+			"order_id": "carrier_patrol",
+			"phase": "return",
+			"reason": "patrol_complete_return",
+			"tick": 11891,
+			"time_s": 198.183333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "return",
+			"order_id": "carrier_patrol",
+			"phase": "approach",
+			"reason": "exclusive_recovery_clearance",
+			"tick": 20882,
+			"time_s": 348.033333333333,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "return",
+			"order_id": "carrier_patrol",
+			"phase": "holding",
+			"reason": "awaiting_recovery_deck",
+			"tick": 21434,
+			"time_s": 357.233333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "approach",
+			"order_id": "carrier_patrol",
+			"phase": "touchdown",
+			"reason": "wheel_contact_in_envelope",
+			"tick": 28763,
+			"time_s": 479.383333333333,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "touchdown",
+			"order_id": "carrier_patrol",
+			"phase": "arresting",
+			"reason": "actual_hook_shoe_swept_wire_segment",
+			"tick": 28763,
+			"time_s": 479.383333333333,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "arresting",
+			"order_id": "carrier_patrol",
+			"phase": "taxi_clear",
+			"reason": "arrest_complete_clear_landing_area",
+			"tick": 29063,
+			"time_s": 484.383333333333,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "taxi_clear",
+			"order_id": "carrier_patrol",
+			"phase": "servicing",
+			"reason": "recovered_and_parked",
+			"tick": 31219,
+			"time_s": 520.316666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "holding",
+			"order_id": "carrier_patrol",
+			"phase": "approach",
+			"reason": "exclusive_recovery_clearance",
+			"tick": 32835,
+			"time_s": 547.25,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "servicing",
+			"order_id": "carrier_patrol",
+			"phase": "standby",
+			"reason": "service_complete",
+			"tick": 33019,
+			"time_s": 550.316666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "approach",
+			"order_id": "carrier_patrol",
+			"phase": "touchdown",
+			"reason": "wheel_contact_in_envelope",
+			"tick": 41035,
+			"time_s": 683.916666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "touchdown",
+			"order_id": "carrier_patrol",
+			"phase": "arresting",
+			"reason": "actual_hook_shoe_swept_wire_segment",
+			"tick": 41035,
+			"time_s": 683.916666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "arresting",
+			"order_id": "carrier_patrol",
+			"phase": "taxi_clear",
+			"reason": "arrest_complete_clear_landing_area",
+			"tick": 41335,
+			"time_s": 688.916666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "taxi_clear",
+			"order_id": "carrier_patrol",
+			"phase": "servicing",
+			"reason": "recovered_and_parked",
+			"tick": 43100,
+			"time_s": 718.333333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "servicing",
+			"order_id": "carrier_patrol",
+			"phase": "standby",
+			"reason": "service_complete",
+			"tick": 44900,
+			"time_s": 748.333333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "standby",
+			"order_id": "second_sortie",
+			"phase": "preparing",
+			"reason": "sortie_order_received",
+			"tick": 47301,
+			"time_s": 788.35,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "standby",
+			"order_id": "second_sortie",
+			"phase": "preparing",
+			"reason": "sortie_order_received",
+			"tick": 47301,
+			"time_s": 788.35,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "preparing",
+			"order_id": "second_sortie",
+			"phase": "queued",
+			"reason": "awaiting_clear_launch_deck",
+			"tick": 47601,
+			"time_s": 793.35,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "preparing",
+			"order_id": "second_sortie",
+			"phase": "queued",
+			"reason": "awaiting_clear_launch_deck",
+			"tick": 47601,
+			"time_s": 793.35,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "queued",
+			"order_id": "second_sortie",
+			"phase": "respotting",
+			"reason": "deck_handling_force_clears_forward_parking",
+			"tick": 47602,
+			"time_s": 793.366666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "queued",
+			"order_id": "second_sortie",
+			"phase": "queued",
+			"reason": "awaiting_continuous_deck_respot",
+			"tick": 47602,
+			"time_s": 793.366666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "respotting",
+			"order_id": "second_sortie",
+			"phase": "queued",
+			"reason": "deck_respot_physically_complete",
+			"tick": 55653,
+			"time_s": 927.55,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "queued",
+			"order_id": "second_sortie",
+			"phase": "respotting",
+			"reason": "deck_handling_force_clears_forward_parking",
+			"tick": 55654,
+			"time_s": 927.566666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "queued",
+			"order_id": "second_sortie",
+			"phase": "queued",
+			"reason": "launch_deck_or_queue_occupied",
+			"tick": 55654,
+			"time_s": 927.566666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "respotting",
+			"order_id": "second_sortie",
+			"phase": "queued",
+			"reason": "deck_respot_physically_complete",
+			"tick": 63205,
+			"time_s": 1053.41666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "queued",
+			"order_id": "second_sortie",
+			"phase": "taxi_out",
+			"reason": "exclusive_launch_clearance",
+			"tick": 63206,
+			"time_s": 1053.43333333333,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "taxi_out",
+			"order_id": "second_sortie",
+			"phase": "takeoff_roll",
+			"reason": "roll_length_and_wind_cleared",
+			"tick": 63709,
+			"time_s": 1061.81666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "takeoff_roll",
+			"order_id": "second_sortie",
+			"phase": "climb",
+			"reason": "airspeed_and_deck_run_complete",
+			"tick": 64273,
+			"time_s": 1071.21666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "queued",
+			"order_id": "second_sortie",
+			"phase": "taxi_out",
+			"reason": "exclusive_launch_clearance",
+			"tick": 64378,
+			"time_s": 1072.96666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "taxi_out",
+			"order_id": "second_sortie",
+			"phase": "takeoff_roll",
+			"reason": "roll_length_and_wind_cleared",
+			"tick": 65477,
+			"time_s": 1091.28333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "takeoff_roll",
+			"order_id": "second_sortie",
+			"phase": "climb",
+			"reason": "airspeed_and_deck_run_complete",
+			"tick": 66041,
+			"time_s": 1100.68333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "climb",
+			"order_id": "second_sortie",
+			"phase": "mission",
+			"reason": "climb_and_assembly_complete",
+			"tick": 66430,
+			"time_s": 1107.16666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "climb",
+			"order_id": "second_sortie",
+			"phase": "mission",
+			"reason": "climb_and_assembly_complete",
+			"tick": 68198,
+			"time_s": 1136.63333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "mission",
+			"order_id": "second_sortie",
+			"phase": "return",
+			"reason": "patrol_complete_return",
+			"tick": 73030,
+			"time_s": 1217.16666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "mission",
+			"order_id": "second_sortie",
+			"phase": "return",
+			"reason": "patrol_complete_return",
+			"tick": 74798,
+			"time_s": 1246.63333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "return",
+			"order_id": "second_sortie",
+			"phase": "holding",
+			"reason": "awaiting_recovery_deck",
+			"tick": 90687,
+			"time_s": 1511.45,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "return",
+			"order_id": "second_sortie",
+			"phase": "approach",
+			"reason": "exclusive_recovery_clearance",
+			"tick": 90850,
+			"time_s": 1514.16666666667,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "approach",
+			"order_id": "second_sortie",
+			"phase": "touchdown",
+			"reason": "wheel_contact_in_envelope",
+			"tick": 98730,
+			"time_s": 1645.5,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "touchdown",
+			"order_id": "second_sortie",
+			"phase": "arresting",
+			"reason": "actual_hook_shoe_swept_wire_segment",
+			"tick": 98730,
+			"time_s": 1645.5,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "arresting",
+			"order_id": "second_sortie",
+			"phase": "taxi_clear",
+			"reason": "arrest_complete_clear_landing_area",
+			"tick": 99030,
+			"time_s": 1650.5,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "taxi_clear",
+			"order_id": "second_sortie",
+			"phase": "servicing",
+			"reason": "recovered_and_parked",
+			"tick": 101192,
+			"time_s": 1686.53333333333,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "holding",
+			"order_id": "second_sortie",
+			"phase": "approach",
+			"reason": "exclusive_recovery_clearance",
+			"tick": 102082,
+			"time_s": 1701.36666666667,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "servicing",
+			"order_id": "second_sortie",
+			"phase": "standby",
+			"reason": "service_complete",
+			"tick": 102992,
+			"time_s": 1716.53333333333,
+			"unit_id": "hellcat_1"
+		},
+		{
+			"from": "approach",
+			"order_id": "second_sortie",
+			"phase": "touchdown",
+			"reason": "wheel_contact_in_envelope",
+			"tick": 110285,
+			"time_s": 1838.08333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "touchdown",
+			"order_id": "second_sortie",
+			"phase": "arresting",
+			"reason": "actual_hook_shoe_swept_wire_segment",
+			"tick": 110285,
+			"time_s": 1838.08333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "arresting",
+			"order_id": "second_sortie",
+			"phase": "taxi_clear",
+			"reason": "arrest_complete_clear_landing_area",
+			"tick": 110585,
+			"time_s": 1843.08333333333,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "taxi_clear",
+			"order_id": "second_sortie",
+			"phase": "servicing",
+			"reason": "recovered_and_parked",
+			"tick": 112347,
+			"time_s": 1872.45,
+			"unit_id": "hellcat_2"
+		},
+		{
+			"from": "servicing",
+			"order_id": "second_sortie",
+			"phase": "standby",
+			"reason": "service_complete",
+			"tick": 114147,
+			"time_s": 1902.45,
+			"unit_id": "hellcat_2"
+		}
+	],
+	"orders": [
+		{
+			"area": {
+				"center_m": [
+					-1000,
+					700,
+					-3500
+				],
+				"radius_m": 1200.0
+			},
+			"assigned_unit_ids": [],
+			"changed_tick": 44900,
+			"execution": {
+				"hellcat_1": {
+					"changed_tick": 33019,
+					"module_id": "aircraft_tasks",
+					"progress": "standby",
+					"reason": "sortie_recovered_and_serviced",
+					"replacement_order_id": "",
+					"status": "completed"
+				},
+				"hellcat_2": {
+					"changed_tick": 44900,
+					"module_id": "aircraft_tasks",
+					"progress": "standby",
+					"reason": "sortie_recovered_and_serviced",
+					"replacement_order_id": "",
+					"status": "completed"
+				}
+			},
+			"faction_id": "us",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 1
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 1
+				},
+				{
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"status": "executing",
+					"tick": 1
+				},
+				{
+					"kind": "units_released",
+					"reason": "sortie_recovered_and_serviced",
+					"replacement_order_id": "",
+					"status": "executing",
+					"tick": 33019,
+					"unit_ids": [
+						"hellcat_1"
+					],
+					"unit_status": "completed"
+				},
+				{
+					"kind": "units_released",
+					"reason": "sortie_recovered_and_serviced",
+					"replacement_order_id": "",
+					"status": "executing",
+					"tick": 44900,
+					"unit_ids": [
+						"hellcat_2"
+					],
+					"unit_status": "completed"
+				},
+				{
+					"progress": "",
+					"reason": "all_assignments_released:sortie_recovered_and_serviced",
+					"status": "completed",
+					"tick": 44900
+				}
+			],
+			"intent": "carrier_sortie_patrol_return",
+			"issued_tick": 1,
+			"issuer_id": "carrier_commander",
+			"order_id": "carrier_patrol",
+			"order_type": "patrol",
+			"progress": "",
+			"reason": "all_assignments_released:sortie_recovered_and_serviced",
+			"received_tick": 1,
+			"recipient_ids": [
+				"hellcat_1",
+				"hellcat_2"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "completed",
+			"target_id": "essex",
+			"training": {},
+			"waypoints_m": []
+		},
+		{
+			"area": {
+				"center_m": [
+					-1000,
+					700,
+					-3500
+				],
+				"radius_m": 1200.0
+			},
+			"assigned_unit_ids": [],
+			"changed_tick": 114147,
+			"execution": {
+				"hellcat_1": {
+					"changed_tick": 102992,
+					"module_id": "aircraft_tasks",
+					"progress": "standby",
+					"reason": "sortie_recovered_and_serviced",
+					"replacement_order_id": "",
+					"status": "completed"
+				},
+				"hellcat_2": {
+					"changed_tick": 114147,
+					"module_id": "aircraft_tasks",
+					"progress": "standby",
+					"reason": "sortie_recovered_and_serviced",
+					"replacement_order_id": "",
+					"status": "completed"
+				}
+			},
+			"faction_id": "us",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 47301
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 47301
+				},
+				{
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"status": "executing",
+					"tick": 47301
+				},
+				{
+					"kind": "units_released",
+					"reason": "sortie_recovered_and_serviced",
+					"replacement_order_id": "",
+					"status": "executing",
+					"tick": 102992,
+					"unit_ids": [
+						"hellcat_1"
+					],
+					"unit_status": "completed"
+				},
+				{
+					"kind": "units_released",
+					"reason": "sortie_recovered_and_serviced",
+					"replacement_order_id": "",
+					"status": "executing",
+					"tick": 114147,
+					"unit_ids": [
+						"hellcat_2"
+					],
+					"unit_status": "completed"
+				},
+				{
+					"progress": "",
+					"reason": "all_assignments_released:sortie_recovered_and_serviced",
+					"status": "completed",
+					"tick": 114147
+				}
+			],
+			"intent": "carrier_sortie_patrol_return",
+			"issued_tick": 47301,
+			"issuer_id": "carrier_commander",
+			"order_id": "second_sortie",
+			"order_type": "patrol",
+			"progress": "",
+			"reason": "all_assignments_released:sortie_recovered_and_serviced",
+			"received_tick": 47301,
+			"recipient_ids": [
+				"hellcat_1",
+				"hellcat_2"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "completed",
+			"target_id": "essex",
+			"training": {},
+			"waypoints_m": []
+		}
+	]
+}

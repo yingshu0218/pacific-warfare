@@ -1,0 +1,65 @@
+{
+  "run_id": "20261110T172357-a6c96ec1",
+  "owner": "DM01",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 54550,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 54553,
+      "process_group": 54553,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2928,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T172357-a6c96ec1/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_aircraft_damage_models.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 54554,
+      "process_group": 54554,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 1.7733,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T172357-a6c96ec1/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "DM01",
+    "pid": 54550,
+    "process_identity": "Wed Nov 11 01:23:57 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner DM01 --lock-timeout 45 --timeout 55 test res://tests/test_aircraft_damage_models.gd",
+    "token": "9857ba4115d347a7a17fb84e6294fe33",
+    "acquired_utc": "2026-11-10T17:23:57.263502+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

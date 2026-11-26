@@ -1,0 +1,549 @@
+{
+	"vessel": "USS Iowa (BB-61)",
+	"configuration_date": "1944-12-28",
+	"length_overall_m": 270.4,
+	"beam_max_m": 33.0,
+	"draft_max_m": 11.3,
+	"source_status": "Dimensions rounded from wartime USN identification data. Coordinates and absolute heights are visual estimates from public dated photographs and class plans, not shipyard offsets.",
+	"camouflage": {
+		"scheme": "measure_32_design_1b",
+		"source_status": "visible in U.S. Navy photo 80-G-421124, 28 December 1944",
+		"confidence": "high for scheme; low for reconstructed patch geometry and colors",
+		"pattern_note": "The Iowa-specific Design 1B drawing has not been located. The side mask is an authored approximation based on dated photographs and is applied identically to port and starboard.",
+		"color_note": "NHHC captions name 5-N and 5-L; the Naval Historical Center index lists BK, 5-L, and 20-B as probable colors. The values below are visual estimates.",
+		"horizontal_surface_note": "Deck Blue is used for upward-facing exterior surfaces as a provisional Measure 32 interpretation.",
+		"colors": {
+			"navy_blue_5_n": "40515b",
+			"light_gray_5_l": "a5acad",
+			"deck_blue_20_b": "35434d",
+			"anti_fouling_red": "70463d"
+		}
+	},
+	"mount_position_status": "S02: main/secondary stations digitized from Tamiya 31616 1944 plan, checked against USN 80-G-421124 and 80-G-304057/58. Image readings are not shipyard station measurements. AA remains a separate game fit.",
+	"mount_motion_status": "Training/elevation ranges and rates are viewer demonstration values. The APIs are independent per mount; verify exact mount-specific limits and drive rates before fire-control use.",
+	"foundation_interfaces": {
+		"secondary_5in": {
+			"foundation_type": "5in_twin_mount_ring",
+			"foundation_height_m": 0.64,
+			"foundation_interface_diameter_m": 4.0,
+			"source_status": "provisional visual estimate",
+			"confidence": "low"
+		},
+		"bofors_40mm": {
+			"foundation_type": "40mm_quad_mount_ring",
+			"foundation_height_m": 0.28,
+			"foundation_interface_diameter_m": 2.1,
+			"source_status": "provisional visual estimate",
+			"confidence": "low"
+		},
+		"oerlikon_20mm": {
+			"foundation_type": "20mm_single_mount_foot",
+			"foundation_height_m": 0.24,
+			"foundation_interface_diameter_m": 0.76,
+			"source_status": "provisional visual estimate",
+			"confidence": "low"
+		}
+	},
+	"main_batteries": [
+		{
+			"id": "main_01",
+			"name": "16-inch Turret I",
+			"x": 0.0,
+			"z": -58.798,
+			"barbette_height": 2.3,
+			"foundation_type": "16in_barbette",
+			"foundation_interface_diameter_m": 14.0,
+			"surface": "weather_deck",
+			"train_limits": [
+				-150.0,
+				150.0
+			],
+			"elevation_limits": [
+				-2.0,
+				45.0
+			],
+			"train_rate_deg_s": 4.0,
+			"elevation_rate_deg_s": 12.0,
+			"rate_status": "display estimate; verify against Iowa-class machinery data",
+			"source_pixel": [
+				1144,
+				459
+			],
+			"barrels": 3,
+			"placement_status": "plan_digitized_photo_cross_checked; absolute elevation image-proportioned",
+			"source_status": "Tamiya 31616 plan + USN 80-G-421124; main ordinal and fore/aft direction verified"
+		},
+		{
+			"id": "main_02",
+			"name": "16-inch Turret II",
+			"x": 0.0,
+			"z": -33.096,
+			"barbette_height": 6.3,
+			"foundation_type": "16in_barbette",
+			"foundation_interface_diameter_m": 14.0,
+			"surface": "weather_deck",
+			"train_limits": [
+				-150.0,
+				150.0
+			],
+			"elevation_limits": [
+				-2.0,
+				45.0
+			],
+			"train_rate_deg_s": 4.0,
+			"elevation_rate_deg_s": 12.0,
+			"rate_status": "display estimate; verify against Iowa-class machinery data",
+			"source_pixel": [
+				998,
+				459
+			],
+			"barrels": 3,
+			"placement_status": "plan_digitized_photo_cross_checked; absolute elevation image-proportioned",
+			"source_status": "Tamiya 31616 plan + USN 80-G-421124; main ordinal and fore/aft direction verified"
+		},
+		{
+			"id": "main_03",
+			"name": "16-inch Turret III",
+			"x": 0.0,
+			"z": 66.896,
+			"barbette_height": 1.6,
+			"foundation_type": "16in_barbette",
+			"foundation_interface_diameter_m": 14.0,
+			"surface": "weather_deck",
+			"train_limits": [
+				-150.0,
+				150.0
+			],
+			"elevation_limits": [
+				-2.0,
+				45.0
+			],
+			"train_rate_deg_s": 4.0,
+			"elevation_rate_deg_s": 12.0,
+			"rate_status": "display estimate; verify against Iowa-class machinery data",
+			"source_pixel": [
+				430,
+				459
+			],
+			"barrels": 3,
+			"placement_status": "plan_digitized_photo_cross_checked; absolute elevation image-proportioned",
+			"source_status": "Tamiya 31616 plan + USN 80-G-421124; main ordinal and fore/aft direction verified"
+		}
+	],
+	"secondary_batteries": [
+		{
+			"id": "secondary_01_port",
+			"x": -7.57,
+			"z": -8.274,
+			"surface": "battery_deck",
+			"source_pixel": [
+				857,
+				416
+			],
+			"barrels": 2,
+			"historical_station": "5-inch pair 1 port",
+			"placement_status": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check",
+			"train_limits": [
+				-90,
+				90
+			],
+			"elevation_limits": [
+				-15,
+				85
+			]
+		},
+		{
+			"id": "secondary_01_starboard",
+			"x": 7.57,
+			"z": -8.274,
+			"surface": "battery_deck",
+			"source_pixel": [
+				857,
+				502
+			],
+			"barrels": 2,
+			"historical_station": "5-inch pair 1 starboard",
+			"placement_status": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check",
+			"train_limits": [
+				-90,
+				90
+			],
+			"elevation_limits": [
+				-15,
+				85
+			]
+		},
+		{
+			"id": "secondary_02_port",
+			"x": -12.323,
+			"z": 0.704,
+			"surface": "weather_deck",
+			"source_pixel": [
+				806,
+				389
+			],
+			"barrels": 2,
+			"historical_station": "5-inch pair 2 port",
+			"placement_status": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check",
+			"train_limits": [
+				-90,
+				90
+			],
+			"elevation_limits": [
+				-15,
+				85
+			]
+		},
+		{
+			"id": "secondary_02_starboard",
+			"x": 12.323,
+			"z": 0.704,
+			"surface": "weather_deck",
+			"source_pixel": [
+				806,
+				529
+			],
+			"barrels": 2,
+			"historical_station": "5-inch pair 2 starboard",
+			"placement_status": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check",
+			"train_limits": [
+				-90,
+				90
+			],
+			"elevation_limits": [
+				-15,
+				85
+			]
+		},
+		{
+			"id": "secondary_03_port",
+			"x": -7.746,
+			"z": 12.499,
+			"surface": "battery_deck",
+			"source_pixel": [
+				739,
+				415
+			],
+			"barrels": 2,
+			"historical_station": "5-inch pair 3 port",
+			"placement_status": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check",
+			"train_limits": [
+				-90,
+				90
+			],
+			"elevation_limits": [
+				-15,
+				85
+			]
+		},
+		{
+			"id": "secondary_03_starboard",
+			"x": 7.746,
+			"z": 12.499,
+			"surface": "battery_deck",
+			"source_pixel": [
+				739,
+				503
+			],
+			"barrels": 2,
+			"historical_station": "5-inch pair 3 starboard",
+			"placement_status": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check",
+			"train_limits": [
+				-90,
+				90
+			],
+			"elevation_limits": [
+				-15,
+				85
+			]
+		},
+		{
+			"id": "secondary_04_port",
+			"x": -12.323,
+			"z": 29.575,
+			"surface": "weather_deck",
+			"source_pixel": [
+				642,
+				389
+			],
+			"barrels": 2,
+			"historical_station": "5-inch pair 4 port",
+			"placement_status": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check",
+			"train_limits": [
+				-90,
+				90
+			],
+			"elevation_limits": [
+				-15,
+				85
+			]
+		},
+		{
+			"id": "secondary_04_starboard",
+			"x": 12.323,
+			"z": 29.575,
+			"surface": "weather_deck",
+			"source_pixel": [
+				642,
+				529
+			],
+			"barrels": 2,
+			"historical_station": "5-inch pair 4 starboard",
+			"placement_status": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check",
+			"train_limits": [
+				-90,
+				90
+			],
+			"elevation_limits": [
+				-15,
+				85
+			]
+		},
+		{
+			"id": "secondary_05_port",
+			"x": -7.746,
+			"z": 39.609,
+			"surface": "battery_deck",
+			"source_pixel": [
+				585,
+				415
+			],
+			"barrels": 2,
+			"historical_station": "5-inch pair 5 port",
+			"placement_status": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check",
+			"train_limits": [
+				-90,
+				90
+			],
+			"elevation_limits": [
+				-15,
+				85
+			]
+		},
+		{
+			"id": "secondary_05_starboard",
+			"x": 7.746,
+			"z": 39.609,
+			"surface": "battery_deck",
+			"source_pixel": [
+				585,
+				503
+			],
+			"barrels": 2,
+			"historical_station": "5-inch pair 5 starboard",
+			"placement_status": "1944 plan digitized; 3 elevated inner + 2 lower outer mounts per side; photo cross-check",
+			"train_limits": [
+				-90,
+				90
+			],
+			"elevation_limits": [
+				-15,
+				85
+			]
+		}
+	],
+	"bofors_40mm_pairs": [
+		{
+			"z": -82.8,
+			"half_x": 6.3,
+			"surface": "weather_deck"
+		},
+		{
+			"z": -19.8,
+			"half_x": 13.0,
+			"surface": "weather_deck"
+		},
+		{
+			"z": 0.8,
+			"half_x": 14.5,
+			"surface": "weather_deck"
+		},
+		{
+			"z": 27.4,
+			"half_x": 14.5,
+			"surface": "weather_deck"
+		},
+		{
+			"z": 49.5,
+			"half_x": 13.8,
+			"surface": "weather_deck"
+		},
+		{
+			"z": 119.0,
+			"half_x": 5.0,
+			"surface": "weather_deck"
+		}
+	],
+	"bofors_40mm_singles": [
+		{
+			"x": 0,
+			"z": -87.5,
+			"surface": "weather_deck"
+		},
+		{
+			"x": -3.6,
+			"z": 18,
+			"surface": "battery_deck"
+		},
+		{
+			"x": 3.6,
+			"z": 18,
+			"surface": "battery_deck"
+		},
+		{
+			"x": -12.0,
+			"z": 60.0,
+			"surface": "weather_deck"
+		},
+		{
+			"x": 12.0,
+			"z": 60.0,
+			"surface": "weather_deck"
+		},
+		{
+			"x": 0.0,
+			"z": -103.0,
+			"surface": "weather_deck"
+		},
+		{
+			"x": 6.8,
+			"z": 82.0,
+			"surface": "weather_deck"
+		}
+	],
+	"bofors_40mm_turret_roofs": [],
+	"oerlikon_20mm_pairs": [
+		{
+			"z": -122,
+			"half_x": 2.1,
+			"surface": "weather_deck"
+		},
+		{
+			"z": -109,
+			"half_x": 4.2,
+			"surface": "weather_deck"
+		},
+		{
+			"z": -96,
+			"half_x": 6.2,
+			"surface": "weather_deck"
+		},
+		{
+			"z": -78,
+			"half_x": 9.1,
+			"surface": "weather_deck"
+		},
+		{
+			"z": -52,
+			"half_x": 12.2,
+			"surface": "weather_deck"
+		},
+		{
+			"z": -30,
+			"half_x": 14.5,
+			"surface": "weather_deck"
+		},
+		{
+			"z": 14,
+			"half_x": 15,
+			"surface": "weather_deck"
+		},
+		{
+			"z": 41,
+			"half_x": 14.8,
+			"surface": "weather_deck"
+		},
+		{
+			"z": 79,
+			"half_x": 12.5,
+			"surface": "weather_deck"
+		},
+		{
+			"z": 100,
+			"half_x": 8.5,
+			"surface": "weather_deck"
+		},
+		{
+			"z": 116,
+			"half_x": 5.0,
+			"surface": "weather_deck"
+		}
+	],
+	"oerlikon_20mm_singles": [
+		{
+			"x": 0,
+			"z": -129,
+			"surface": "weather_deck"
+		},
+		{
+			"x": 0.0,
+			"z": -116.0,
+			"surface": "weather_deck"
+		},
+		{
+			"x": 3.5,
+			"z": 116.0,
+			"surface": "weather_deck"
+		},
+		{
+			"x": 3.5,
+			"z": 92.0,
+			"surface": "weather_deck"
+		}
+	],
+	"oerlikon_20mm_turret_ii": [],
+	"aircraft_catapults": [
+		{
+			"id": "aircraft_catapult_port",
+			"x": -7.2,
+			"z": 108.0,
+			"surface": "weather_deck",
+			"initial_train_deg": 0.0,
+			"source_status": "two rotating aft catapults shown in Iowa photographs; station centers and stored parallel heading are visual estimates",
+			"confidence": "low"
+		},
+		{
+			"id": "aircraft_catapult_starboard",
+			"x": 7.2,
+			"z": 108.0,
+			"surface": "weather_deck",
+			"initial_train_deg": 0.0,
+			"source_status": "two rotating aft catapults shown in Iowa photographs; station centers and stored parallel heading are visual estimates",
+			"confidence": "low"
+		}
+	],
+	"aircraft_cranes": [
+		{
+			"id": "aircraft_crane_stern",
+			"x": 0.0,
+			"z": 114.0,
+			"surface": "weather_deck",
+			"initial_train_deg": -90.0,
+			"source_status": "single centerline stern crane visible in Iowa aircraft-handling photographs; station and stored heading are visual estimates",
+			"confidence": "low"
+		}
+	],
+	"station_digitization": {
+		"source": "Tamiya 31616 painting sheet, PDF page 3",
+		"source_url": "https://cdn.simba-dickie-group.de/downloads/300031616/300031616_Anleitung_Instruction_BB-61_Iowa.pdf",
+		"image": "docs/references/ships/iowa_bb61_1944_12_28/original/tamiya-31616-1944-profile-and-plan.png",
+		"image_dimensions_px": [
+			1618,
+			1069
+		],
+		"stern_pixel_x": 42,
+		"bow_pixel_x": 1578,
+		"centerline_pixel_y": 459,
+		"scale_m_per_pixel": 0.17604166666666665,
+		"uncertainty_m": 0.8,
+		"datum": "LOA midpoint, +X starboard, -Z bow; photo verifies station order and tiers"
+	},
+	"aa_game_configuration": {
+		"status": "S02 game fit; not an exact dated inventory",
+		"historical_baseline": "19 quad 40mm / 52 single 20mm previously assumed, not proven on exact date. ONI 1945 is class-level only.",
+		"bofors_quad_count": 19,
+		"oerlikon_single_count": 26,
+		"reason": "retain major AA silhouette and usable deck stations; remove dense / unsupported old estimated stations; 5-inch battery is retained in full",
+		"station_policy": "All dedicated AA on explicit fixed hull / continuous battery deck hosts. Turret-roof AA omitted for this game fit; 19 quad / 26 single actual mounts retained. Main and secondary unchanged."
+	}
+}

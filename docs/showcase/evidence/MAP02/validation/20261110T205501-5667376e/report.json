@@ -1,0 +1,65 @@
+{
+  "run_id": "20261110T205501-5667376e",
+  "owner": "MAP02",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 77711,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 77715,
+      "process_group": 77715,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2541,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T205501-5667376e/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/map02/test_map02_terrain.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 77716,
+      "process_group": 77716,
+      "returncode": 1,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": true,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.6084,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T205501-5667376e/01-output.log",
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "lock_identity": {
+    "status": "held",
+    "owner": "MAP02",
+    "pid": 77711,
+    "process_identity": "pid=77711 started_utc=2026-11-10T20:55:01.217901+00:00 argv=['tools/verify.py', '--owner', 'MAP02', '--timeout', '50', '--lock-timeout', '2', 'test', 'res://tests/map02/test_map02_terrain.gd'] (ps unavailable)",
+    "token": "b1fe90f60b82472c863f0cf172774343",
+    "acquired_utc": "2026-11-10T20:55:01.226597+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 1
+}

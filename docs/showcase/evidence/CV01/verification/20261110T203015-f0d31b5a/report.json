@@ -1,0 +1,13 @@
+{
+  "run_id": "20261110T203015-f0d31b5a",
+  "owner": "CV01",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 75557,
+  "checks": [],
+  "passed": false,
+  "error": "lock_timeout",
+  "lock_owner": "{\n  \"status\": \"held\",\n  \"owner\": \"S14-native-train_us_climb_dive\",\n  \"pid\": 75512,\n  \"process_identity\": \"Wed Nov 11 04:29:59 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S14-native-train_us_climb_dive --timeout 220 --lock-timeout 60 --project .local/s14-final-r2 godot --render -- --minimized --resolution 1280x720 --script res://tests/s14_final_capture.gd -- --mode=train_us_climb_dive --fps=15 --limit=65 --output=/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S14/final/native/train_us_climb_dive\",\n  \"token\": \"573ef47a5d1a487f8c1e551ad292f9ad\",\n  \"acquired_utc\": \"2026-11-10T20:29:59.748817+00:00\",\n  \"project\": \"/Users/infinity/Desktop/Dev/game-pacific\"\n}",
+  "exit_code": 2
+}

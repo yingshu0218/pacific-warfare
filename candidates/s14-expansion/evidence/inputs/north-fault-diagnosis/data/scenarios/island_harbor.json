@@ -1,0 +1,465 @@
+{
+  "id": "island_harbor",
+  "seed": 707,
+  "tick_hz": 60,
+  "factions": [
+    "jp",
+    "us"
+  ],
+  "spawns": [
+    {
+      "id": "jp_bb",
+      "unit_definition_id": "jp_yamato_1944_04",
+      "faction_id": "jp",
+      "position_m": [
+        -4000,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -10
+      ]
+    },
+    {
+      "id": "jp_dd",
+      "unit_definition_id": "jp_yukikaze_1942_06",
+      "faction_id": "jp",
+      "position_m": [
+        -4000,
+        0,
+        700
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -10
+      ]
+    },
+    {
+      "id": "jp_air_1",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        -1800,
+        900,
+        -100
+      ],
+      "rotation_rad": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "velocity_mps": [
+        100,
+        0,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "fuel_kg": 95,
+          "withdrawal_center_m": [
+            -10000,
+            1500,
+            6500
+          ],
+          "withdrawal_radius_m": 600
+        }
+      }
+    },
+    {
+      "id": "jp_air_2",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        -1800,
+        925,
+        80
+      ],
+      "rotation_rad": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "velocity_mps": [
+        100,
+        0,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "fuel_kg": 95,
+          "withdrawal_center_m": [
+            -10000,
+            1500,
+            6500
+          ],
+          "withdrawal_radius_m": 600
+        }
+      }
+    },
+    {
+      "id": "jp_air_3",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        -2600,
+        1020,
+        550
+      ],
+      "rotation_rad": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "velocity_mps": [
+        100,
+        0,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "fuel_kg": 95,
+          "withdrawal_center_m": [
+            -10000,
+            1500,
+            6500
+          ],
+          "withdrawal_radius_m": 600
+        }
+      }
+    },
+    {
+      "id": "jp_air_4",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        -2600,
+        1045,
+        730
+      ],
+      "rotation_rad": [
+        0,
+        -1.5707963267948966,
+        0
+      ],
+      "velocity_mps": [
+        100,
+        0,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "fuel_kg": 95,
+          "withdrawal_center_m": [
+            -10000,
+            1500,
+            6500
+          ],
+          "withdrawal_radius_m": 600
+        }
+      }
+    },
+    {
+      "id": "us_bb",
+      "unit_definition_id": "us_iowa_bb61_1944_12_28",
+      "faction_id": "us",
+      "position_m": [
+        4000,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -10
+      ]
+    },
+    {
+      "id": "us_dd",
+      "unit_definition_id": "us_fletcher_dd445_1942_07_18",
+      "faction_id": "us",
+      "position_m": [
+        4000,
+        0,
+        700
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -10
+      ]
+    },
+    {
+      "id": "us_air_1",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        1800,
+        900,
+        -100
+      ],
+      "rotation_rad": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "velocity_mps": [
+        -100,
+        0,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "fuel_kg": 165,
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            6500
+          ],
+          "withdrawal_radius_m": 600
+        }
+      }
+    },
+    {
+      "id": "us_air_2",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        1800,
+        925,
+        80
+      ],
+      "rotation_rad": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "velocity_mps": [
+        -100,
+        0,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "fuel_kg": 165,
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            6500
+          ],
+          "withdrawal_radius_m": 600
+        }
+      }
+    },
+    {
+      "id": "us_air_3",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        2600,
+        1020,
+        550
+      ],
+      "rotation_rad": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "velocity_mps": [
+        -100,
+        0,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "fuel_kg": 165,
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            6500
+          ],
+          "withdrawal_radius_m": 600
+        }
+      }
+    },
+    {
+      "id": "us_air_4",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        2600,
+        1045,
+        730
+      ],
+      "rotation_rad": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "velocity_mps": [
+        -100,
+        0,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "fuel_kg": 165,
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            6500
+          ],
+          "withdrawal_radius_m": 600
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "jp_fleet",
+      "faction_id": "jp",
+      "member_ids": [
+        "jp_bb",
+        "jp_dd"
+      ]
+    },
+    {
+      "id": "jp_air",
+      "faction_id": "jp",
+      "member_ids": [
+        "jp_air_1",
+        "jp_air_2",
+        "jp_air_3",
+        "jp_air_4"
+      ]
+    },
+    {
+      "id": "us_fleet",
+      "faction_id": "us",
+      "member_ids": [
+        "us_bb",
+        "us_dd"
+      ]
+    },
+    {
+      "id": "us_air",
+      "faction_id": "us",
+      "member_ids": [
+        "us_air_1",
+        "us_air_2",
+        "us_air_3",
+        "us_air_4"
+      ]
+    },
+    {
+      "id": "jp_pair_1",
+      "faction_id": "jp",
+      "member_ids": [
+        "jp_air_1",
+        "jp_air_2"
+      ]
+    },
+    {
+      "id": "jp_pair_2",
+      "faction_id": "jp",
+      "member_ids": [
+        "jp_air_3",
+        "jp_air_4"
+      ]
+    },
+    {
+      "id": "us_pair_1",
+      "faction_id": "us",
+      "member_ids": [
+        "us_air_1",
+        "us_air_2"
+      ]
+    },
+    {
+      "id": "us_pair_2",
+      "faction_id": "us",
+      "member_ids": [
+        "us_air_3",
+        "us_air_4"
+      ]
+    }
+  ],
+  "presentation": {
+    "title": "青岬群岛",
+    "subtitle": "群岛 · 港湾 · 四舰八机",
+    "names": {
+      "jp_bb": "大和",
+      "jp_dd": "雪风",
+      "us_bb": "衣阿华",
+      "us_dd": "弗莱彻",
+      "jp_fleet": "日方舰队",
+      "us_fleet": "美方舰队",
+      "jp_air": "零战四机队",
+      "us_air": "地狱猫四机队",
+      "jp_air_1": "零战 1 号",
+      "jp_air_2": "零战 2 号",
+      "jp_air_3": "零战 3 号",
+      "jp_air_4": "零战 4 号",
+      "us_air_1": "地狱猫 1 号",
+      "us_air_2": "地狱猫 2 号",
+      "us_air_3": "地狱猫 3 号",
+      "us_air_4": "地狱猫 4 号",
+      "jp_pair_1": "零战第1双机组",
+      "jp_pair_2": "零战第2双机组",
+      "us_pair_1": "地狱猫第1双机组",
+      "us_pair_2": "地狱猫第2双机组"
+    },
+    "duration_s": 900,
+    "disengaged_after_s": 120,
+    "minimum_duration_s": 120
+  },
+  "environment": {
+    "sea_level_m": 0,
+    "friendly_fire": false,
+    "solids": [],
+    "terrain_path": "res://data/maps/island_harbor.json"
+  },
+  "ground_deployments": [],
+  "fleet_overrides": {
+    "commanders": {
+      "jp": {
+        "patrol_center_m": [
+          -3700,
+          0,
+          -900
+        ],
+        "patrol_radius_m": 900.0
+      },
+      "us": {
+        "patrol_center_m": [
+          3500,
+          0,
+          -900
+        ],
+        "patrol_radius_m": 1400.0
+      }
+    }
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "ammunition": {
+    "jp_type97_no6": {
+      "id": "jp_type97_no6",
+      "name": "Type 97 No.6 land",
+      "caliber_m": 0.20002499999999998,
+      "projectile_mass_kg": 56.2454,
+      "muzzle_speed_mps": 0.0,
+      "gravity_mps2": 9.80665,
+      "max_lifetime_s": 90.0,
+      "release_mode": "gravity_release",
+      "drag_per_m": 0.00012,
+      "arming_s": 1.5,
+      "arming_distance_m": 45.0,
+      "impact_delay_s": 0.0,
+      "source": {
+        "status": "provisional",
+        "original_page": "OP1667 (1946) printed45 Figure35;124lb total,50lb filling,7 7/8in body,40in overall,A-3(a)",
+        "note": "Original page opened; Picric acid selected without claiming Type98 TNT-equivalence factor. Arming/drag/blast are approximations",
+        "collision_envelope_note": "Conservative axial envelope covers simplified accepted display body/fins; not a measured aerodynamic reference or exact rigid-body collision hull."
+      },
+      "collision_length_m": 1.14,
+      "collision_span_m": 0.31
+    },
+    "us_an_m64_tnt_tm1950": {
+      "id": "us_an_m64_tnt_tm1950",
+      "name": "AN-M64 GP TNT / TM9-1980 1950 table",
+      "caliber_m": 0.36068,
+      "projectile_mass_kg": 232.148575,
+      "muzzle_speed_mps": 0.0,
+      "gravity_mps2": 9.80665,
+      "max_lifetime_s": 90.0,
+      "release_mode": "gravity_release",
+      "drag_per_m": 8e-05,
+      "arming_s": 2.0,
+      "arming_distance_m": 60.0,
+      "impact_delay_s": 0.1,
+      "source": {
+        "status": "provisional",
+        "primary_table": "TM9-1980 (1950) printed296 TableXXVII TNT row; 511.8lb complete,261.7lb TNT",
+        "original_page": "docs/references/aircraft/b25j_1944_07/manual-pages/tm9-p299.png",
+        "limits": "Postwar table selected as engineering ammunition identity; not proof of1944 lot/fuze mass or exact simplified model dimensions; arming/drag are estimates",
+        "collision_envelope_note": "Conservative axial envelope covers simplified accepted display body/fins; not a measured aerodynamic reference or exact rigid-body collision hull."
+      },
+      "collision_length_m": 1.68,
+      "collision_span_m": 0.5
+    },
+    "jp_type98_no25_land": {
+      "id": "jp_type98_no25_land",
+      "name": "Type98 No25 land / OP1667",
+      "caliber_m": 0.30479999999999996,
+      "projectile_mass_kg": 241.31114084,
+      "muzzle_speed_mps": 0.0,
+      "gravity_mps2": 9.80665,
+      "max_lifetime_s": 90.0,
+      "release_mode": "gravity_release",
+      "drag_per_m": 8e-05,
+      "arming_s": 1.5,
+      "arming_distance_m": 45.0,
+      "impact_delay_s": 0.0,
+      "source": {
+        "status": "provisional",
+        "original_page": "OP1667 (1946) printed47-48 Figure37; 532lb total,211lb filling,12in body; Type98 explosive selected",
+        "note": "Original pages opened 2026-11-11; no proof of specific D4Y2 sortie/lot; model is accepted250kg-class simplified shape; fuze arming and blast model are engineering estimates",
+        "collision_envelope_note": "Conservative axial envelope covers simplified accepted display body/fins; not a measured aerodynamic reference or exact rigid-body collision hull."
+      },
+      "collision_length_m": 1.84,
+      "collision_span_m": 0.43
+    }
+  },
+  "ammo_profiles": {
+    "jp_type97_no6": {
+      "kind": "he",
+      "release_mode": "gravity_release",
+      "damage_scale": 0.08,
+      "burst_radius_m": 0.0,
+      "blast_radius_m": 45.0,
+      "visual_radius_m": 16.0,
+      "explosive_kg": 22.6796
+    },
+    "us_an_m64_tnt_tm1950": {
+      "kind": "he",
+      "release_mode": "gravity_release",
+      "damage_scale": 0.08,
+      "burst_radius_m": 0.0,
+      "blast_radius_m": 75.0,
+      "visual_radius_m": 28.0,
+      "explosive_kg": 118.705123
+    },
+    "jp_type98_no25_land": {
+      "kind": "he",
+      "release_mode": "gravity_release",
+      "damage_scale": 0.08,
+      "burst_radius_m": 0.0,
+      "blast_radius_m": 75.0,
+      "visual_radius_m": 28.0,
+      "explosive_kg": 95.70799007000001
+    }
+  },
+  "aircraft": {
+    "us_sb2c4_1944": {
+      "mode": "dive",
+      "ammo_id": "us_an_m64_tnt_tm1950",
+      "slots_m": [
+        [
+          0,
+          -0.45,
+          0.59
+        ]
+      ],
+      "interval_s": 0.25,
+      "min_release_agl_m": 600.0,
+      "min_release_mps": 65.0,
+      "max_release_mps": 145.0,
+      "release_bank_deg": 12.0,
+      "release_pitch_deg": [
+        -70.0,
+        -42.0
+      ],
+      "entry_altitude_m": 2400.0,
+      "entry_distance_m": 1600.0,
+      "attack_mps": 85.0,
+      "dive_pitch_deg": -60.0,
+      "release_window_m": 30.0,
+      "cross_window_m": 100.0,
+      "stable_s": 0.8,
+      "max_bank_deg": 35.0,
+      "return_altitude_m": 1300.0,
+      "fuel_reserve_kg": 120.0,
+      "formation_spacing_m": 180.0,
+      "bay_clear_y_m": -1.25,
+      "bay_center_boxes": [
+        {
+          "part": "structure",
+          "center_m": [
+            0,
+            0,
+            -1.6
+          ],
+          "half_extents_m": [
+            0.8,
+            0.8,
+            0.85
+          ],
+          "armor_mm": 1
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            0,
+            0,
+            2.4
+          ],
+          "half_extents_m": [
+            0.8,
+            0.8,
+            0.6
+          ],
+          "armor_mm": 1
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            0,
+            0.32,
+            0.6
+          ],
+          "half_extents_m": [
+            0.8,
+            0.5,
+            1.2
+          ],
+          "armor_mm": 1
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            -0.62,
+            -0.49,
+            0.6
+          ],
+          "half_extents_m": [
+            0.22,
+            0.31,
+            1.2
+          ],
+          "armor_mm": 1
+        },
+        {
+          "part": "structure",
+          "center_m": [
+            0.62,
+            -0.49,
+            0.6
+          ],
+          "half_extents_m": [
+            0.22,
+            0.31,
+            1.2
+          ],
+          "armor_mm": 1
+        }
+      ],
+      "bay_center_part": "structure",
+      "carrier_eligible": true
+    },
+    "jp_d4y2_model12_1944_10": {
+      "mode": "dive",
+      "ammo_id": "jp_type98_no25_land",
+      "slots_m": [
+        [
+          0,
+          -0.57,
+          0.23
+        ]
+      ],
+      "interval_s": 0.25,
+      "min_release_agl_m": 600.0,
+      "min_release_mps": 65.0,
+      "max_release_mps": 145.0,
+      "release_bank_deg": 12.0,
+      "release_pitch_deg": [
+        -70.0,
+        -42.0
+      ],
+      "entry_altitude_m": 2400.0,
+      "entry_distance_m": 1600.0,
+      "attack_mps": 85.0,
+      "dive_pitch_deg": -60.0,
+      "release_window_m": 30.0,
+      "cross_window_m": 100.0,
+      "stable_s": 0.8,
+      "max_bank_deg": 35.0,
+      "return_altitude_m": 1300.0,
+      "fuel_reserve_kg": 120.0,
+      "formation_spacing_m": 180.0,
+      "crutch_kind": "d4y",
+      "required_crutch": 1.0,
+      "carrier_eligible": true
+    },
+    "jp_g4m1_1942_07": {
+      "mode": "level",
+      "ammo_id": "jp_type97_no6",
+      "slots_m": [
+        [
+          -0.349999994039536,
+          -1.12000000476837,
+          -3.03999996185303
+        ],
+        [
+          0.0,
+          -1.12000000476837,
+          -3.03999996185303
+        ],
+        [
+          0.349999994039536,
+          -1.12000000476837,
+          -3.03999996185303
+        ],
+        [
+          -0.349999994039536,
+          -1.12000000476837,
+          -1.74000000953674
+        ],
+        [
+          0.0,
+          -1.12000000476837,
+          -1.74000000953674
+        ],
+        [
+          0.349999994039536,
+          -1.12000000476837,
+          -1.74000000953674
+        ],
+        [
+          -0.349999994039536,
+          -1.12000000476837,
+          -0.439999997615814
+        ],
+        [
+          0.0,
+          -1.12000000476837,
+          -0.439999997615814
+        ],
+        [
+          0.349999994039536,
+          -1.12000000476837,
+          -0.439999997615814
+        ],
+        [
+          -0.349999994039536,
+          -1.12000000476837,
+          0.860000014305115
+        ],
+        [
+          0.0,
+          -1.12000000476837,
+          0.860000014305115
+        ],
+        [
+          0.349999994039536,
+          -1.12000000476837,
+          0.860000014305115
+        ]
+      ],
+      "interval_s": 0.25,
+      "min_release_agl_m": 900.0,
+      "min_release_mps": 65.0,
+      "max_release_mps": 115.0,
+      "release_bank_deg": 5.0,
+      "release_pitch_deg": [
+        -3.0,
+        3.0
+      ],
+      "entry_altitude_m": 1800.0,
+      "entry_distance_m": 3000.0,
+      "attack_mps": 87.0,
+      "dive_pitch_deg": -60.0,
+      "release_window_m": 110.0,
+      "cross_window_m": 550.0,
+      "stable_s": 4.0,
+      "max_bank_deg": 22.0,
+      "return_altitude_m": 1800.0,
+      "fuel_reserve_kg": 400.0,
+      "formation_spacing_m": 220.0,
+      "carrier_eligible": false
+    },
+    "us_b25j_1944_07": {
+      "mode": "level",
+      "ammo_id": "us_an_m64_tnt_tm1950",
+      "slots_m": [
+        [
+          -0.360000014305115,
+          -0.769999980926514,
+          -1.25999999046326
+        ],
+        [
+          0.360000014305115,
+          -0.769999980926514,
+          -1.25999999046326
+        ],
+        [
+          -0.360000014305115,
+          -0.300000011920929,
+          -1.25999999046326
+        ],
+        [
+          0.360000014305115,
+          -0.300000011920929,
+          -1.25999999046326
+        ],
+        [
+          -0.360000014305115,
+          0.170000001788139,
+          -1.25999999046326
+        ],
+        [
+          0.360000014305115,
+          0.170000001788139,
+          -1.25999999046326
+        ]
+      ],
+      "interval_s": 0.25,
+      "min_release_agl_m": 900.0,
+      "min_release_mps": 70.0,
+      "max_release_mps": 122.0,
+      "release_bank_deg": 5.0,
+      "release_pitch_deg": [
+        -3.0,
+        3.0
+      ],
+      "entry_altitude_m": 1800.0,
+      "entry_distance_m": 3000.0,
+      "attack_mps": 95.0,
+      "dive_pitch_deg": -60.0,
+      "release_window_m": 110.0,
+      "cross_window_m": 550.0,
+      "stable_s": 4.0,
+      "max_bank_deg": 22.0,
+      "return_altitude_m": 1800.0,
+      "fuel_reserve_kg": 400.0,
+      "formation_spacing_m": 240.0,
+      "slot_predecessors": [
+        [],
+        [],
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "bay_clear_y_m": -1.5,
+      "bay_center_boxes": [
+        {
+          "part": "control",
+          "center_m": [
+            0,
+            0,
+            -5.1
+          ],
+          "half_extents_m": [
+            0.7,
+            0.8,
+            2.7
+          ],
+          "armor_mm": 0
+        },
+        {
+          "part": "control",
+          "center_m": [
+            0,
+            0,
+            2.65
+          ],
+          "half_extents_m": [
+            0.7,
+            0.8,
+            2.35
+          ],
+          "armor_mm": 0
+        },
+        {
+          "part": "control",
+          "center_m": [
+            0,
+            0.62,
+            -1.2
+          ],
+          "half_extents_m": [
+            0.7,
+            0.18,
+            1.2
+          ],
+          "armor_mm": 0
+        },
+        {
+          "part": "control",
+          "center_m": [
+            -0.67,
+            -0.22,
+            -1.2
+          ],
+          "half_extents_m": [
+            0.07,
+            0.58,
+            1.2
+          ],
+          "armor_mm": 0
+        },
+        {
+          "part": "control",
+          "center_m": [
+            0.67,
+            -0.22,
+            -1.2
+          ],
+          "half_extents_m": [
+            0.07,
+            0.58,
+            1.2
+          ],
+          "armor_mm": 0
+        }
+      ],
+      "bay_center_part": "control",
+      "carrier_eligible": false
+    }
+  }
+}

@@ -1,0 +1,1420 @@
+{
+	"checks": 21,
+	"failures": 0,
+	"human_regroup": {
+		"order": {
+			"area": {
+				"center_m": [
+					0.0,
+					0.0,
+					-650.0
+				],
+				"radius_m": 220.0
+			},
+			"assigned_unit_ids": [],
+			"changed_tick": 6110,
+			"execution": {
+				"ship": {
+					"changed_tick": 6110,
+					"module_id": "fleet_tasks",
+					"progress": "assembled",
+					"reason": "regroup_area_reached",
+					"replacement_order_id": "",
+					"status": "completed"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 1
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 1
+				},
+				{
+					"progress": "forming",
+					"reason": "ship_task_received",
+					"status": "executing",
+					"tick": 1
+				},
+				{
+					"kind": "units_released",
+					"reason": "regroup_area_reached",
+					"replacement_order_id": "",
+					"status": "executing",
+					"tick": 6110,
+					"unit_ids": [
+						"ship"
+					],
+					"unit_status": "completed"
+				},
+				{
+					"progress": "",
+					"reason": "all_assignments_released:regroup_area_reached",
+					"status": "completed",
+					"tick": 6110
+				}
+			],
+			"intent": "test_mission",
+			"issued_tick": 1,
+			"issuer_id": "fleet_test_commander",
+			"order_id": "regroup",
+			"order_type": "regroup",
+			"progress": "",
+			"reason": "all_assignments_released:regroup_area_reached",
+			"received_tick": 1,
+			"recipient_ids": [
+				"ship"
+			],
+			"replacement_order_id": "",
+			"source": "human",
+			"status": "completed",
+			"target_id": "",
+			"waypoints_m": []
+		},
+		"position_m": [
+			0.0,
+			0.0,
+			-595.16259765625
+		]
+	},
+	"ownership": {
+		"b_position_m": [
+			499.925140380859,
+			0.0,
+			-728.172119140625
+		],
+		"new": {
+			"area": {
+				"center_m": [
+					500.0,
+					0.0,
+					-800.0
+				],
+				"radius_m": 250.0
+			},
+			"assigned_unit_ids": [],
+			"changed_tick": 6187,
+			"execution": {
+				"b": {
+					"changed_tick": 6187,
+					"module_id": "fleet_tasks",
+					"progress": "withdrawn",
+					"reason": "withdrawal_area_reached",
+					"replacement_order_id": "",
+					"status": "completed"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 121
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 121
+				},
+				{
+					"progress": "forming",
+					"reason": "ship_task_received",
+					"status": "executing",
+					"tick": 121
+				},
+				{
+					"kind": "units_released",
+					"reason": "withdrawal_area_reached",
+					"replacement_order_id": "",
+					"status": "executing",
+					"tick": 6187,
+					"unit_ids": [
+						"b"
+					],
+					"unit_status": "completed"
+				},
+				{
+					"progress": "",
+					"reason": "all_assignments_released:withdrawal_area_reached",
+					"status": "completed",
+					"tick": 6187
+				}
+			],
+			"intent": "test_mission",
+			"issued_tick": 121,
+			"issuer_id": "fleet_test_commander",
+			"order_id": "new",
+			"order_type": "retreat",
+			"progress": "",
+			"reason": "all_assignments_released:withdrawal_area_reached",
+			"received_tick": 121,
+			"recipient_ids": [
+				"b"
+			],
+			"replacement_order_id": "",
+			"source": "human",
+			"status": "completed",
+			"target_id": "",
+			"waypoints_m": []
+		},
+		"old": {
+			"area": {
+				"center_m": [
+					0.0,
+					0.0,
+					-3000.0
+				],
+				"radius_m": 600.0
+			},
+			"assigned_unit_ids": [],
+			"changed_tick": 122,
+			"execution": {
+				"a": {
+					"changed_tick": 122,
+					"module_id": "fleet_tasks",
+					"progress": "cruise",
+					"reason": "observer_test_cancel",
+					"replacement_order_id": "",
+					"status": "cancelled"
+				},
+				"b": {
+					"changed_tick": 121,
+					"module_id": "fleet_tasks",
+					"progress": "forming",
+					"reason": "replacement_order_received",
+					"replacement_order_id": "new",
+					"status": "superseded"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 1
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 1
+				},
+				{
+					"progress": "forming",
+					"reason": "ship_task_received",
+					"status": "executing",
+					"tick": 1
+				},
+				{
+					"kind": "units_released",
+					"reason": "replacement_order_received",
+					"replacement_order_id": "new",
+					"status": "executing",
+					"tick": 121,
+					"unit_ids": [
+						"b"
+					],
+					"unit_status": "superseded"
+				},
+				{
+					"progress": "",
+					"reason": "observer_test_cancel",
+					"status": "cancelled",
+					"tick": 122
+				},
+				{
+					"kind": "units_released",
+					"reason": "observer_test_cancel",
+					"replacement_order_id": "",
+					"status": "cancelled",
+					"tick": 122,
+					"unit_ids": [
+						"a"
+					],
+					"unit_status": "cancelled"
+				}
+			],
+			"intent": "test_mission",
+			"issued_tick": 1,
+			"issuer_id": "fleet_test_commander",
+			"order_id": "old",
+			"order_type": "patrol",
+			"progress": "",
+			"reason": "observer_test_cancel",
+			"received_tick": 1,
+			"recipient_ids": [
+				"a",
+				"b"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "cancelled",
+			"target_id": "",
+			"waypoints_m": []
+		}
+	},
+	"slow_reform": {
+		"final_gap_m": 1420.30480957031,
+		"order": {
+			"area": {
+				"center_m": [
+					0.0,
+					0.0,
+					-15000.0
+				],
+				"radius_m": 1200.0
+			},
+			"assigned_unit_ids": [
+				"slow"
+			],
+			"changed_tick": 30002,
+			"execution": {
+				"core": {
+					"changed_tick": 30002,
+					"module_id": "fleet_tasks",
+					"progress": "cruise",
+					"reason": "recipient_inactive",
+					"replacement_order_id": "",
+					"status": "failed"
+				},
+				"slow": {
+					"changed_tick": 30002,
+					"module_id": "fleet_tasks",
+					"progress": "cruise",
+					"reason": "following_route",
+					"replacement_order_id": "",
+					"status": "executing"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 1
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 1
+				},
+				{
+					"progress": "forming",
+					"reason": "ship_task_received",
+					"status": "executing",
+					"tick": 1
+				},
+				{
+					"kind": "units_released",
+					"reason": "recipient_inactive",
+					"replacement_order_id": "",
+					"status": "executing",
+					"tick": 30002,
+					"unit_ids": [
+						"core"
+					],
+					"unit_status": "failed"
+				}
+			],
+			"intent": "test_mission",
+			"issued_tick": 1,
+			"issuer_id": "fleet_test_commander",
+			"order_id": "cruise",
+			"order_type": "patrol",
+			"progress": "forming",
+			"reason": "ship_task_received",
+			"received_tick": 1,
+			"recipient_ids": [
+				"fleet"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "executing",
+			"target_id": "",
+			"waypoints_m": []
+		},
+		"track_10s": [
+			{
+				"core_m": [
+					-0.669523596763611,
+					0.0,
+					-44.0559883117676
+				],
+				"core_speed": 3.79806423187256,
+				"slow_m": [
+					300.219818115234,
+					0.0,
+					2378.52514648438
+				],
+				"slow_speed": 2.28801155090332,
+				"time_s": 10.0166666666667
+			},
+			{
+				"core_m": [
+					-1.983602643013,
+					0.0,
+					-76.0091018676758
+				],
+				"core_speed": 2.59801244735718,
+				"slow_m": [
+					300.833740234375,
+					0.0,
+					2354.21533203125
+				],
+				"slow_speed": 2.57554244995117,
+				"time_s": 20.0166666666667
+			},
+			{
+				"core_m": [
+					-3.00901508331299,
+					0.0,
+					-96.7158889770508
+				],
+				"core_speed": 1.82306241989136,
+				"slow_m": [
+					301.71044921875,
+					0.0,
+					2327.03662109375
+				],
+				"slow_speed": 2.86306762695312,
+				"time_s": 30.0166666666667
+			},
+			{
+				"core_m": [
+					-3.95776653289795,
+					0.0,
+					-114.92115020752
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					302.757598876953,
+					0.0,
+					2296.986328125
+				],
+				"slow_speed": 3.15060424804688,
+				"time_s": 40.0166666666667
+			},
+			{
+				"core_m": [
+					-4.9198956489563,
+					0.0,
+					-133.125122070312
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					303.92041015625,
+					0.0,
+					2264.06372070312
+				],
+				"slow_speed": 3.43813371658325,
+				"time_s": 50.0166666666667
+			},
+			{
+				"core_m": [
+					-5.88605785369873,
+					0.0,
+					-151.325805664062
+				],
+				"core_speed": 1.82306241989136,
+				"slow_m": [
+					305.170135498047,
+					0.0,
+					2228.26611328125
+				],
+				"slow_speed": 3.7256646156311,
+				"time_s": 60.0166666666667
+			},
+			{
+				"core_m": [
+					-6.85343503952026,
+					0.0,
+					-169.526489257812
+				],
+				"core_speed": 1.82306241989136,
+				"slow_m": [
+					306.493103027344,
+					0.0,
+					2189.59423828125
+				],
+				"slow_speed": 4.01319789886475,
+				"time_s": 70.0166666666667
+			},
+			{
+				"core_m": [
+					-7.82118463516235,
+					0.0,
+					-187.727172851562
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					307.879180908203,
+					0.0,
+					2148.04809570312
+				],
+				"slow_speed": 4.30073976516724,
+				"time_s": 80.0166666666667
+			},
+			{
+				"core_m": [
+					-8.7888355255127,
+					0.0,
+					-205.927856445312
+				],
+				"core_speed": 1.82306241989136,
+				"slow_m": [
+					309.317596435547,
+					0.0,
+					2103.76293945312
+				],
+				"slow_speed": 4.50138854980469,
+				"time_s": 90.0166666666667
+			},
+			{
+				"core_m": [
+					-9.75643348693848,
+					0.0,
+					-224.128540039062
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					310.739898681641,
+					0.0,
+					2058.79223632812
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 100.016666666667
+			},
+			{
+				"core_m": [
+					-10.7240314483643,
+					0.0,
+					-242.329223632812
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					312.120300292969,
+					0.0,
+					2013.82153320312
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 110.016666666667
+			},
+			{
+				"core_m": [
+					-11.69162940979,
+					0.0,
+					-260.529907226562
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					313.459808349609,
+					0.0,
+					1968.85083007812
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 120.016666666667
+			},
+			{
+				"core_m": [
+					-12.6592273712158,
+					0.0,
+					-278.730590820312
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					314.758575439453,
+					0.0,
+					1923.88012695312
+				],
+				"slow_speed": 4.50138854980469,
+				"time_s": 130.016666666667
+			},
+			{
+				"core_m": [
+					-13.6268253326416,
+					0.0,
+					-296.931274414062
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					316.016387939453,
+					0.0,
+					1878.90942382812
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 140.016666666667
+			},
+			{
+				"core_m": [
+					-14.5944232940674,
+					0.0,
+					-315.131958007812
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					317.230987548828,
+					0.0,
+					1833.93872070312
+				],
+				"slow_speed": 4.50138854980469,
+				"time_s": 150.016666666667
+			},
+			{
+				"core_m": [
+					-15.5620212554932,
+					0.0,
+					-333.332641601562
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					318.404174804688,
+					0.0,
+					1788.96801757812
+				],
+				"slow_speed": 4.50138854980469,
+				"time_s": 160.016666666667
+			},
+			{
+				"core_m": [
+					-16.5299320220947,
+					0.0,
+					-351.533325195312
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					319.535858154297,
+					0.0,
+					1743.99731445312
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 170.016666666667
+			},
+			{
+				"core_m": [
+					-17.4981021881104,
+					0.0,
+					-369.734008789062
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					320.624267578125,
+					0.0,
+					1699.02661132812
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 180.016666666667
+			},
+			{
+				"core_m": [
+					-18.466272354126,
+					0.0,
+					-387.934692382812
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					321.669891357422,
+					0.0,
+					1654.05590820312
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 190.016666666667
+			},
+			{
+				"core_m": [
+					-19.4344425201416,
+					0.0,
+					-406.135375976562
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					322.673461914062,
+					0.0,
+					1609.08520507812
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 200.016666666667
+			},
+			{
+				"core_m": [
+					-20.4026126861572,
+					0.0,
+					-424.336059570312
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					323.6328125,
+					0.0,
+					1564.11450195312
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 210.016666666667
+			},
+			{
+				"core_m": [
+					-21.3707828521729,
+					0.0,
+					-442.536743164062
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					324.548950195312,
+					0.0,
+					1519.14379882812
+				],
+				"slow_speed": 4.50138854980469,
+				"time_s": 220.016666666667
+			},
+			{
+				"core_m": [
+					-22.3389530181885,
+					0.0,
+					-460.737426757812
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					325.422088623047,
+					0.0,
+					1474.17309570312
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 230.016666666667
+			},
+			{
+				"core_m": [
+					-23.3071231842041,
+					0.0,
+					-478.938110351562
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					326.249725341797,
+					0.0,
+					1429.20239257812
+				],
+				"slow_speed": 4.50138854980469,
+				"time_s": 240.016666666667
+			},
+			{
+				"core_m": [
+					-24.2752933502197,
+					0.0,
+					-497.138793945312
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					327.034362792969,
+					0.0,
+					1384.2197265625
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 250.016666666667
+			},
+			{
+				"core_m": [
+					-25.2434635162354,
+					0.0,
+					-515.339477539062
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					327.773315429688,
+					0.0,
+					1339.17578125
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 260.016666666667
+			},
+			{
+				"core_m": [
+					-26.211633682251,
+					0.0,
+					-533.540161132812
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					328.468078613281,
+					0.0,
+					1294.1318359375
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 270.016666666667
+			},
+			{
+				"core_m": [
+					-27.1798038482666,
+					0.0,
+					-551.740844726562
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					329.117218017578,
+					0.0,
+					1249.087890625
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 280.016666666667
+			},
+			{
+				"core_m": [
+					-28.1479740142822,
+					0.0,
+					-569.941528320312
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					329.721099853516,
+					0.0,
+					1204.0439453125
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 290.016666666667
+			},
+			{
+				"core_m": [
+					-29.1161441802979,
+					0.0,
+					-588.142211914062
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					330.278900146484,
+					0.0,
+					1159.0
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 300.016666666667
+			},
+			{
+				"core_m": [
+					-30.0843143463135,
+					0.0,
+					-606.342895507812
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					330.790771484375,
+					0.0,
+					1113.9560546875
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 310.016666666667
+			},
+			{
+				"core_m": [
+					-31.0524845123291,
+					0.0,
+					-624.543579101562
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					331.255523681641,
+					0.0,
+					1068.912109375
+				],
+				"slow_speed": 4.50138854980469,
+				"time_s": 320.016666666667
+			},
+			{
+				"core_m": [
+					-32.0206527709961,
+					0.0,
+					-642.744262695312
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					331.674346923828,
+					0.0,
+					1023.86828613281
+				],
+				"slow_speed": 4.50138854980469,
+				"time_s": 330.016666666667
+			},
+			{
+				"core_m": [
+					-32.9888229370117,
+					0.0,
+					-660.944946289062
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					332.044464111328,
+					0.0,
+					978.860961914062
+				],
+				"slow_speed": 4.50138854980469,
+				"time_s": 340.016666666667
+			},
+			{
+				"core_m": [
+					-33.9569931030273,
+					0.0,
+					-679.145629882812
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					332.367980957031,
+					0.0,
+					933.853637695312
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 350.016666666667
+			},
+			{
+				"core_m": [
+					-34.925163269043,
+					0.0,
+					-697.346313476562
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					332.642913818359,
+					0.0,
+					888.846313476562
+				],
+				"slow_speed": 4.501389503479,
+				"time_s": 360.016666666667
+			},
+			{
+				"core_m": [
+					-35.8933334350586,
+					0.0,
+					-715.546997070312
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					332.869049072266,
+					0.0,
+					843.838989257812
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 370.016666666667
+			},
+			{
+				"core_m": [
+					-36.8615036010742,
+					0.0,
+					-733.747680664062
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					333.046936035156,
+					0.0,
+					798.831665039062
+				],
+				"slow_speed": 4.50138854980469,
+				"time_s": 380.016666666667
+			},
+			{
+				"core_m": [
+					-37.8296737670898,
+					0.0,
+					-751.948364257812
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					333.175048828125,
+					0.0,
+					753.824340820312
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 390.016666666667
+			},
+			{
+				"core_m": [
+					-38.7978439331055,
+					0.0,
+					-770.149047851562
+				],
+				"core_speed": 1.82306253910065,
+				"slow_m": [
+					333.252838134766,
+					0.0,
+					708.817016601562
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 400.016666666667
+			},
+			{
+				"core_m": [
+					-39.7661094665527,
+					0.0,
+					-788.351684570312
+				],
+				"core_speed": 1.83773016929626,
+				"slow_m": [
+					333.280731201172,
+					0.0,
+					663.809692382812
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 410.016666666667
+			},
+			{
+				"core_m": [
+					-40.8877906799316,
+					0.0,
+					-809.445434570312
+				],
+				"core_speed": 2.38776659965515,
+				"slow_m": [
+					333.254302978516,
+					0.0,
+					618.802368164062
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 420.016666666667
+			},
+			{
+				"core_m": [
+					-42.3014755249023,
+					0.0,
+					-836.032348632812
+				],
+				"core_speed": 2.93780446052551,
+				"slow_m": [
+					333.158264160156,
+					0.0,
+					573.795043945312
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 430.016666666667
+			},
+			{
+				"core_m": [
+					-44.0071868896484,
+					0.0,
+					-868.112426757812
+				],
+				"core_speed": 3.4878454208374,
+				"slow_m": [
+					332.976745605469,
+					0.0,
+					528.787719726562
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 440.016666666667
+			},
+			{
+				"core_m": [
+					-46.0049171447754,
+					0.0,
+					-905.685668945312
+				],
+				"core_speed": 4.03787803649902,
+				"slow_m": [
+					332.697113037109,
+					0.0,
+					483.780395507812
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 450.016666666667
+			},
+			{
+				"core_m": [
+					-48.1563034057617,
+					0.0,
+					-946.150024414062
+				],
+				"core_speed": 4.05124998092651,
+				"slow_m": [
+					332.312683105469,
+					0.0,
+					438.773071289062
+				],
+				"slow_speed": 4.50138854980469,
+				"time_s": 460.016666666667
+			},
+			{
+				"core_m": [
+					-50.3077926635742,
+					0.0,
+					-986.616333007812
+				],
+				"core_speed": 4.05124998092651,
+				"slow_m": [
+					331.827331542969,
+					0.0,
+					393.765747070312
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 470.016666666667
+			},
+			{
+				"core_m": [
+					-52.4592819213867,
+					0.0,
+					-1027.07983398438
+				],
+				"core_speed": 4.05124998092651,
+				"slow_m": [
+					331.246643066406,
+					0.0,
+					348.758422851562
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 480.016666666667
+			},
+			{
+				"core_m": [
+					-54.6107711791992,
+					0.0,
+					-1067.50952148438
+				],
+				"core_speed": 4.05124998092651,
+				"slow_m": [
+					330.574981689453,
+					0.0,
+					303.751098632812
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 490.016666666667
+			},
+			{
+				"core_m": [
+					-56.7622604370117,
+					0.0,
+					-1107.93920898438
+				],
+				"core_speed": 4.05124998092651,
+				"slow_m": [
+					329.81689453125,
+					0.0,
+					258.743774414062
+				],
+				"slow_speed": 4.50138902664185,
+				"time_s": 500.016666666667
+			}
+		]
+	},
+	"surface": {
+		"order": {
+			"area": {
+				"center_m": [
+					0.0,
+					0.0,
+					-6000.0
+				],
+				"radius_m": 600.0
+			},
+			"assigned_unit_ids": [],
+			"changed_tick": 9120,
+			"execution": {
+				"core": {
+					"changed_tick": 9120,
+					"module_id": "fleet_tasks",
+					"progress": "search_exhausted",
+					"reason": "contact_not_reacquired",
+					"replacement_order_id": "",
+					"status": "failed"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 1
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 1
+				},
+				{
+					"progress": "forming",
+					"reason": "ship_task_received",
+					"status": "executing",
+					"tick": 1
+				},
+				{
+					"kind": "units_released",
+					"reason": "contact_not_reacquired",
+					"replacement_order_id": "",
+					"status": "executing",
+					"tick": 9120,
+					"unit_ids": [
+						"core"
+					],
+					"unit_status": "failed"
+				},
+				{
+					"progress": "",
+					"reason": "all_assignments_released:contact_not_reacquired",
+					"status": "failed",
+					"tick": 9120
+				}
+			],
+			"intent": "test_mission",
+			"issued_tick": 1,
+			"issuer_id": "fleet_test_commander",
+			"order_id": "fight",
+			"order_type": "engage",
+			"progress": "",
+			"reason": "all_assignments_released:contact_not_reacquired",
+			"received_tick": 1,
+			"recipient_ids": [
+				"core"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "failed",
+			"target_id": "enemy",
+			"waypoints_m": []
+		},
+		"phases": {
+			"broadside": true,
+			"deploy": true
+		},
+		"track_5s": [
+			{
+				"phase": "deploy",
+				"position_m": [
+					0.00242646550759673,
+					0.0,
+					-9.02749156951904
+				],
+				"time_s": 1.0,
+				"yaw_rad": -0.000798488152213395
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					0.525075674057007,
+					0.0,
+					-54.9853630065918
+				],
+				"time_s": 6.0,
+				"yaw_rad": -0.0283528733998537
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					3.29947400093079,
+					0.0,
+					-102.232162475586
+				],
+				"time_s": 11.0,
+				"yaw_rad": -0.095177173614502
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					10.3409824371338,
+					0.0,
+					-150.409301757812
+				],
+				"time_s": 16.0,
+				"yaw_rad": -0.20035608112812
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					23.140308380127,
+					0.0,
+					-198.577239990234
+				],
+				"time_s": 21.0,
+				"yaw_rad": -0.319087386131287
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					41.6108779907227,
+					0.0,
+					-245.008804321289
+				],
+				"time_s": 26.0,
+				"yaw_rad": -0.438132762908936
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					65.4651641845703,
+					0.0,
+					-288.91796875
+				],
+				"time_s": 31.0,
+				"yaw_rad": -0.557182431221008
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					94.3657989501953,
+					0.0,
+					-329.683166503906
+				],
+				"time_s": 36.0,
+				"yaw_rad": -0.676236748695374
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					127.903678894043,
+					0.0,
+					-366.726989746094
+				],
+				"time_s": 41.0,
+				"yaw_rad": -0.795291066169739
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					165.603820800781,
+					0.0,
+					-399.525451660156
+				],
+				"time_s": 46.0,
+				"yaw_rad": -0.914345383644104
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					206.93278503418,
+					0.0,
+					-427.613861083984
+				],
+				"time_s": 51.0,
+				"yaw_rad": -1.03339970111847
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					251.305404663086,
+					0.0,
+					-450.594665527344
+				],
+				"time_s": 56.0,
+				"yaw_rad": -1.15245401859283
+			},
+			{
+				"phase": "broadside",
+				"position_m": [
+					298.093444824219,
+					0.0,
+					-468.142456054688
+				],
+				"time_s": 61.0,
+				"yaw_rad": -1.2715083360672
+			},
+			{
+				"phase": "broadside",
+				"position_m": [
+					346.634307861328,
+					0.0,
+					-480.008941650391
+				],
+				"time_s": 66.0,
+				"yaw_rad": -1.39056265354156
+			},
+			{
+				"phase": "broadside",
+				"position_m": [
+					396.241180419922,
+					0.0,
+					-486.026031494141
+				],
+				"time_s": 71.0,
+				"yaw_rad": -1.50961697101593
+			},
+			{
+				"phase": "broadside",
+				"position_m": [
+					446.211273193359,
+					0.0,
+					-486.108459472656
+				],
+				"time_s": 76.0,
+				"yaw_rad": -1.6286712884903
+			},
+			{
+				"phase": "broadside",
+				"position_m": [
+					495.838043212891,
+					0.0,
+					-480.25634765625
+				],
+				"time_s": 81.0,
+				"yaw_rad": -1.74729430675507
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					544.542358398438,
+					0.0,
+					-469.028686523438
+				],
+				"time_s": 86.0,
+				"yaw_rad": -1.84089243412018
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					592.295288085938,
+					0.0,
+					-454.229278564453
+				],
+				"time_s": 91.0,
+				"yaw_rad": -1.89522063732147
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					639.513000488281,
+					0.0,
+					-437.780090332031
+				],
+				"time_s": 96.0,
+				"yaw_rad": -1.91027879714966
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					686.728271484375,
+					0.0,
+					-421.327301025391
+				],
+				"time_s": 101.0,
+				"yaw_rad": -1.90160930156708
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					734.092895507812,
+					0.0,
+					-405.308837890625
+				],
+				"time_s": 106.0,
+				"yaw_rad": -1.89214944839478
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					781.609497070312,
+					0.0,
+					-389.747436523438
+				],
+				"time_s": 111.0,
+				"yaw_rad": -1.88237607479095
+			},
+			{
+				"phase": "deploy",
+				"position_m": [
+					829.277099609375,
+					0.0,
+					-374.655426025391
+				],
+				"time_s": 116.0,
+				"yaw_rad": -1.87244498729706
+			}
+		]
+	}
+}

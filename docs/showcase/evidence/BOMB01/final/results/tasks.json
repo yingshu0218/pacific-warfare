@@ -1,0 +1,142 @@
+{
+	"checks": 34,
+	"evidence": [
+		{
+			"label": "formation command accepted",
+			"passed": true
+		},
+		{
+			"label": "wing finite six-bomb train",
+			"passed": true
+		},
+		{
+			"label": "formation keeps physical clearance, min 159.11m",
+			"passed": true
+		},
+		{
+			"label": "actual straight bomb train with finite .25s intervals",
+			"passed": true
+		},
+		{
+			"label": "inventory consumed once, no refill on leader change",
+			"passed": true
+		},
+		{
+			"label": "formation command accepted",
+			"passed": true
+		},
+		{
+			"label": "wing finite six-bomb train after leader loss",
+			"passed": true
+		},
+		{
+			"label": "formation keeps physical clearance, min 252.98m",
+			"passed": true
+		},
+		{
+			"label": "actual straight bomb train with finite .25s intervals",
+			"passed": true
+		},
+		{
+			"label": "inventory consumed once, no refill on leader change",
+			"passed": true
+		},
+		{
+			"label": "typed OPS bridge reset once, parent delegate null",
+			"passed": true
+		},
+		{
+			"label": "actual CarrierMissionDelegate accepts bombing on OPS bridge",
+			"passed": true
+		},
+		{
+			"label": "OPS accept once and exactly one pilot step per mission tick",
+			"passed": true
+		},
+		{
+			"label": "actual OPS-published carrier_ops.on_deck blocks release even at1800m",
+			"passed": true
+		},
+		{
+			"label": "cancel through unified command",
+			"passed": true
+		},
+		{
+			"label": "OPS cancel releases delegate and pending bomb requests exactly once",
+			"passed": true
+		},
+		{
+			"label": "cancel clears delegated OPS ownership flag",
+			"passed": true
+		},
+		{
+			"label": "same aircraft accepts fresh attack after cancel",
+			"passed": true
+		},
+		{
+			"label": "reassignment has a fresh task identity",
+			"passed": true
+		},
+		{
+			"label": "cancel through unified command",
+			"passed": true
+		},
+		{
+			"label": "second cancel releases only the new mission",
+			"passed": true
+		},
+		{
+			"label": "role request enters common command validation",
+			"passed": true
+		},
+		{
+			"label": "actual bomber intercept rejected without dogfight ownership",
+			"passed": true
+		},
+		{
+			"label": "controlled abort order accepted: low",
+			"passed": true
+		},
+		{
+			"label": "actual abort with zero release: low",
+			"passed": true
+		},
+		{
+			"label": "controlled abort order accepted: damage",
+			"passed": true
+		},
+		{
+			"label": "actual abort with zero release: damage",
+			"passed": true
+		},
+		{
+			"label": "controlled abort order accepted: empty",
+			"passed": true
+		},
+		{
+			"label": "actual abort with zero release: empty",
+			"passed": true
+		},
+		{
+			"label": "controlled abort order accepted: fuel",
+			"passed": true
+		},
+		{
+			"label": "actual abort with zero release: fuel",
+			"passed": true
+		},
+		{
+			"label": "long approach accepted for actual240s timeout regression",
+			"passed": true
+		},
+		{
+			"label": "after actual240s timeout, continuous egress reaches return without pullout reset loop",
+			"passed": true
+		},
+		{
+			"label": "timeout cannot manufacture a bomb release",
+			"passed": true
+		}
+	],
+	"failures": 0
+}

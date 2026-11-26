@@ -1,0 +1,206 @@
+{
+	"units": "meters",
+	"status": "image-proportioned 1944.2-6 upper plan envelope; transverse sections estimated, not shipyard body plan",
+	"reference": "Modelkasten 234313-.pdf printed p5 fig3; same crop as weapon digitization",
+	"digitization": {
+		"source_pixels_upper_edge": [
+			[
+				38,
+				194
+			],
+			[
+				55,
+				160
+			],
+			[
+				106,
+				132
+			],
+			[
+				174,
+				104
+			],
+			[
+				235,
+				77
+			],
+			[
+				303,
+				57
+			],
+			[
+				360,
+				47
+			],
+			[
+				522,
+				40
+			],
+			[
+				875,
+				40
+			],
+			[
+				1100,
+				40
+			],
+			[
+				1250,
+				48
+			],
+			[
+				1410,
+				63
+			],
+			[
+				1510,
+				76
+			],
+			[
+				1700,
+				105
+			],
+			[
+				1850,
+				130
+			],
+			[
+				2000,
+				161
+			],
+			[
+				2168,
+				194
+			]
+		],
+		"centerline_y": 194,
+		"stern_x": 38,
+		"bow_x": 2168,
+		"longitudinal_scale": 0.12347417840375587,
+		"lateral_scale": 0.1262987012987013,
+		"note": "independent longitudinal and lateral normalization to published LOA263m and maxbeam38.9m; outline pixels estimated by visual reading"
+	},
+	"stations": [
+		[
+			-131.5,
+			0.15
+		],
+		[
+			-110.75634,
+			4.16786
+		],
+		[
+			-92.23521,
+			8.08312
+		],
+		[
+			-73.71408,
+			11.24058
+		],
+		[
+			-50.25399,
+			14.90325
+		],
+		[
+			-37.90657,
+			16.54513
+		],
+		[
+			-18.1507,
+			18.43961
+		],
+		[
+			0.37042,
+			19.45
+		],
+		[
+			28.15211,
+			19.45
+		],
+		[
+			71.7385,
+			19.45
+		],
+		[
+			91.74131,
+			18.56591
+		],
+		[
+			98.77934,
+			17.30292
+		],
+		[
+			107.17559,
+			14.77695
+		],
+		[
+			114.70751,
+			11.36688
+		],
+		[
+			123.10376,
+			7.83052
+		],
+		[
+			129.40094,
+			4.29416
+		],
+		[
+			131.5,
+			0.15
+		]
+	],
+	"deck_sheer_stations_m": [
+		[
+			-131.5,
+			10
+		],
+		[
+			-110,
+			8.3
+		],
+		[
+			-85,
+			6.7
+		],
+		[
+			-50,
+			6.5
+		],
+		[
+			-31,
+			7.8
+		],
+		[
+			-10,
+			8.6
+		],
+		[
+			40,
+			8.6
+		],
+		[
+			65,
+			8.3
+		],
+		[
+			80,
+			7.8
+		],
+		[
+			92,
+			6.4
+		],
+		[
+			131.5,
+			6.4
+		]
+	],
+	"deck_sheer_reference": "Tamiya 78030 p18 common hull profile: low fore gun deck, raised midbody and lowered aircraft deck; anchored by Skulski p18 10m fore / 8.6m amidships / 6.4m aft. Intermediate ordinates are image proportions.",
+	"deck_sheer_interpolation": {
+		"method": "shape-preserving C1 cubic Hermite; no ordinate changes or overshoot",
+		"geometry": "shared hull/deck rings at every ordinate, maximum longitudinal span 2m, adaptive chord error <=4mm",
+		"contact": "barbette lower skirt follows actual tessellated deck; level weapon seat unchanged",
+		"limitation": "Intermediate ordinates remain image-proportioned, not shipyard offsets; 1941 photo and late-fit drawing used only for common hull profile."
+	}
+}

@@ -1,0 +1,41 @@
+{
+  "checked_utc": "2026-11-11T12:43:35.219568+00:00",
+  "recorded_process_groups": [
+    73573,
+    74703,
+    76142,
+    76143,
+    76164,
+    76165,
+    77779,
+    77780,
+    78171,
+    78172,
+    78536,
+    78538,
+    78543,
+    78544,
+    78772,
+    78773
+  ],
+  "remaining_groups": [],
+  "unknown_groups": [],
+  "all_child_cleanup_ok": true,
+  "all_wrapper_runs_passed": true,
+  "created_browser_tabs": 0,
+  "created_http_services": 0,
+  "started_editor": false,
+  "started_ffmpeg": false,
+  "lock_at_audit": {
+    "status": "released",
+    "owner": "OPS01",
+    "pid": 80288,
+    "process_identity": "Wed Nov 11 20:35:59 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner OPS01 --project .local/ops01-model/r10 --timeout 100 --lock-timeout 15 godot --render -- --script res://tests/air_operations/capture.gd -- --fps=15 --segment=launch --output=/Users/infinity/Desktop/Dev/game-pacific/.local/ops01-model-captures/r10-launch",
+    "token": "bf883ffaa2ea4b1ab2a0e99079b4782d",
+    "acquired_utc": "2026-11-11T12:35:59.183236+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific",
+    "released_utc": "2026-11-11T12:36:19.632764+00:00"
+  },
+  "own_lock_held": false,
+  "scope": "AV03 recorded groups only; no signals sent to user/OPS01 processes"
+}

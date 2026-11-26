@@ -1,0 +1,107 @@
+{
+  "run_id": "20261109T210816-81e4f1b7",
+  "owner": "S05",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 92222,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 92225,
+      "process_group": 92225,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.2025,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T210816-81e4f1b7/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_combat_presence.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 92226,
+      "process_group": 92226,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.8954,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T210816-81e4f1b7/01-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://.local/validation/probes/departed_collision.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 92228,
+      "process_group": 92228,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.2494,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T210816-81e4f1b7/02-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_combat_damage_effects.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 92229,
+      "process_group": 92229,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.5813,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T210816-81e4f1b7/03-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S05",
+    "pid": 92222,
+    "process_identity": "Tue Nov 10 05:08:16 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S05 --timeout 60 --lock-timeout 15 test res://tests/test_combat_presence.gd res://.local/validation/probes/departed_collision.gd res://tests/test_combat_damage_effects.gd",
+    "token": "83d0326299e446c29fa3737ee4d96ecb",
+    "acquired_utc": "2026-11-09T21:08:17.003193+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

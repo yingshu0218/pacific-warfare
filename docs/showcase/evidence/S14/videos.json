@@ -1,0 +1,70 @@
+[
+  {
+    "mode": "pair",
+    "path": "docs/showcase/evidence/S14/pair_phase.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "10/1",
+          "duration": "24.000000",
+          "nb_frames": "240"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "four",
+    "path": "docs/showcase/evidence/S14/four_phase.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "10/1",
+          "duration": "24.000000",
+          "nb_frames": "240"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "maneuver",
+    "path": "docs/showcase/evidence/S14/maneuver_phase.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "10/1",
+          "duration": "24.000000",
+          "nb_frames": "240"
+        }
+      ]
+    }
+  },
+  {
+    "mode": "escort",
+    "path": "docs/showcase/evidence/S14/escort_phase.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "10/1",
+          "duration": "24.000000",
+          "nb_frames": "240"
+        }
+      ]
+    }
+  }
+]

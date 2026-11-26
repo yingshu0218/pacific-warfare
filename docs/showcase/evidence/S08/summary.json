@@ -1,0 +1,1694 @@
+{
+  "clean-baseline/chrome-clean": {
+    "source": "docs/showcase/evidence/S08/clean-baseline/chrome-clean/samples.ndjson",
+    "samples": 75,
+    "serials_contiguous": true,
+    "environment": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "platform": "MacIntel",
+      "dpr": 2,
+      "css": {
+        "width": 1712,
+        "height": 963,
+        "x": 44,
+        "y": 0
+      },
+      "buffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "drawingBuffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "screen": {
+        "width": 1800,
+        "height": 1169
+      },
+      "inner": {
+        "width": 1800,
+        "height": 963
+      },
+      "visibility": "visible",
+      "hasFocus": true,
+      "wall_utc": "2026-11-09T23:30:32.938Z"
+    },
+    "first_utc": "2026-11-09T23:29:18.099963+00:00",
+    "last_utc": "2026-11-09T23:30:32.940589+00:00",
+    "representative_window": "first generation, auto camera, 1x, unpaused, visible, sim 10..60 s; first 10 s warmup excluded",
+    "representative_frames": {
+      "frames": 3533,
+      "p50_ms": 13.599999999998545,
+      "p95_ms": 25.099999999998545,
+      "p99_ms": 33.099999999998545,
+      "mean_ms": 14.266204358901785,
+      "mean_fps": 70.09572937850304,
+      "over_33_333ms_ratio": 0.007642230399094254,
+      "over_50ms_ratio": 0.001415227851684121,
+      "over_100ms_ratio": 0.0002830455703368242,
+      "max_ms": 131.29999999999927
+    },
+    "camera_phases": {
+      "近距空战": {
+        "frames": 2319,
+        "p50_ms": 13.30000000000291,
+        "p95_ms": 24.60999999999839,
+        "p99_ms": 32.26400000000248,
+        "mean_ms": 13.916300129366109,
+        "mean_fps": 71.85818002658658,
+        "over_33_333ms_ratio": 0.00646830530401035,
+        "over_50ms_ratio": 0.00129366106080207,
+        "over_100ms_ratio": 0.00043122035360068997,
+        "max_ms": 131.29999999999927
+      },
+      "命中与伤情": {
+        "frames": 566,
+        "p50_ms": 15.60000000000582,
+        "p95_ms": 30.274999999999636,
+        "p99_ms": 41.47500000000097,
+        "mean_ms": 16.03374558303887,
+        "mean_fps": 62.36845874976584,
+        "over_33_333ms_ratio": 0.02120141342756184,
+        "over_50ms_ratio": 0.0035335689045936395,
+        "over_100ms_ratio": 0.0,
+        "max_ms": 61.299999999995634
+      },
+      "主炮跟拍": {
+        "frames": 648,
+        "p50_ms": 13.5,
+        "p95_ms": 24.5,
+        "p99_ms": 26.859000000002045,
+        "mean_ms": 13.974537037037036,
+        "mean_fps": 71.55872121914858,
+        "over_33_333ms_ratio": 0.0,
+        "over_50ms_ratio": 0.0,
+        "over_100ms_ratio": 0.0,
+        "max_ms": 33.19999999999709
+      }
+    },
+    "cpu_mean_ms": {
+      "advance": 5.597141239739598,
+      "presentation": 1.916586470421738,
+      "camera": 0.05510897254457968,
+      "hud": 0.05171242570053779
+    },
+    "draw_calls_range": [
+      381,
+      2713
+    ],
+    "generations": {
+      "0:1": {
+        "first_utc": "2026-11-09T23:29:18.099963+00:00",
+        "first_sim_s": 1,
+        "first_now_ms": 5206.900000035763,
+        "last_utc": "2026-11-09T23:30:32.940589+00:00",
+        "last_sim_s": 75.7333333333333,
+        "last_now_ms": 80059.30000001192,
+        "ended": "",
+        "counts": {
+          "airburst": 127,
+          "aircraft_fire": 92,
+          "command_applied": 81,
+          "command_rejected": 1,
+          "damage_phase": 3,
+          "damaged": 51,
+          "disabled": 3,
+          "fired": 2370,
+          "fleet_flagship_changed": 7,
+          "hit": 78,
+          "main_gun_fire": 78,
+          "order_assignments_changed": 26,
+          "order_execution_changed": 392,
+          "order_issued": 15,
+          "order_status_changed": 40,
+          "projectile_expired": 1295,
+          "salvo": 64,
+          "ship_support_fire": 2200,
+          "surface_impact": 114,
+          "target_changed": 66
+        },
+        "report": {
+          "jp": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 30.2765752702907,
+            "rounds_left": 120481,
+            "rounds_used": 419,
+            "ships": 0,
+            "sunk": 2,
+            "withdrawn": 0
+          },
+          "us": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 58.7456703645814,
+            "rounds_left": 219519,
+            "rounds_used": 1951,
+            "ships": 1,
+            "sunk": 1,
+            "withdrawn": 0
+          }
+        },
+        "last_sequence": 4733
+      }
+    },
+    "reloads": 0,
+    "restart_transitions": 0,
+    "observed_active_wall_s": 74.85239999997619,
+    "observed_moving_wall_s": 74.85239999997619,
+    "peaks": {
+      "units": 12,
+      "active_units": 12,
+      "mounts": 152,
+      "projectiles": 1169,
+      "projectile_peak": 1174,
+      "pending_s": 0.0166000000000003,
+      "draw_calls": 2713,
+      "primitives": 951642
+    },
+    "effect_peaks": {
+      "allocated": 311,
+      "active": 311,
+      "dropped": 0,
+      "sound_sources": 0,
+      "engine_sources": 4
+    },
+    "wasm_linear_memory_bytes_range": [
+      104726528,
+      104726528
+    ],
+    "js_used_heap_bytes_range": [
+      30149876,
+      58241504
+    ],
+    "audio_peak_max": 0,
+    "nonzero_audio_frames": 0,
+    "audio_sources_created_range": null,
+    "audio_files": [],
+    "operation_evidence": "docs/showcase/evidence/S08/clean-baseline/chrome-clean/actions.ndjson",
+    "screenshots": []
+  },
+  "chrome-audio/chrome-audio-fixed": {
+    "source": "docs/showcase/evidence/S08/chrome-audio/chrome-audio-fixed/samples.ndjson",
+    "samples": 157,
+    "serials_contiguous": true,
+    "environment": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "platform": "MacIntel",
+      "dpr": 2,
+      "css": {
+        "width": 1712,
+        "height": 963,
+        "x": 44,
+        "y": 0
+      },
+      "buffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "drawingBuffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "screen": {
+        "width": 1800,
+        "height": 1169
+      },
+      "inner": {
+        "width": 1800,
+        "height": 963
+      },
+      "visibility": "visible",
+      "hasFocus": true,
+      "wall_utc": "2026-11-09T23:53:10.224Z"
+    },
+    "first_utc": "2026-11-09T23:50:32.693667+00:00",
+    "last_utc": "2026-11-09T23:53:10.226698+00:00",
+    "representative_window": "first generation, auto camera, 1x, unpaused, visible, sim 10..60 s; first 10 s warmup excluded",
+    "representative_frames": {
+      "frames": 4041,
+      "p50_ms": 9.900000000001455,
+      "p95_ms": 24.200000000004366,
+      "p99_ms": 33.35999999999912,
+      "mean_ms": 12.522667656520662,
+      "mean_fps": 79.85518959926172,
+      "over_33_333ms_ratio": 0.010146003464488988,
+      "over_50ms_ratio": 0.0032170254887404106,
+      "over_100ms_ratio": 0.00024746349913387774,
+      "max_ms": 320.39999999999964
+    },
+    "camera_phases": {
+      "近距空战": {
+        "frames": 2881,
+        "p50_ms": 9.199999999998909,
+        "p95_ms": 20.399999999997817,
+        "p99_ms": 26.620000000004783,
+        "mean_ms": 11.25185699409927,
+        "mean_fps": 88.87421876446018,
+        "over_33_333ms_ratio": 0.003471017007983339,
+        "over_50ms_ratio": 0.0010413051023950017,
+        "over_100ms_ratio": 0.0003471017007983339,
+        "max_ms": 320.39999999999964
+      },
+      "命中与伤情": {
+        "frames": 624,
+        "p50_ms": 16.0,
+        "p95_ms": 25.27000000000026,
+        "p99_ms": 33.100000000004144,
+        "mean_ms": 14.548237179487183,
+        "mean_fps": 68.73685022196273,
+        "over_33_333ms_ratio": 0.008012820512820512,
+        "over_50ms_ratio": 0.0,
+        "over_100ms_ratio": 0.0,
+        "max_ms": 41.69999999999709
+      },
+      "主炮跟拍": {
+        "frames": 536,
+        "p50_ms": 16.450000000000728,
+        "p95_ms": 33.22500000000218,
+        "p99_ms": 63.37500000000142,
+        "mean_ms": 16.99514925373133,
+        "mean_fps": 58.84031879157797,
+        "over_33_333ms_ratio": 0.048507462686567165,
+        "over_50ms_ratio": 0.018656716417910446,
+        "over_100ms_ratio": 0.0,
+        "max_ms": 70.80000000000291
+      }
+    },
+    "cpu_mean_ms": {
+      "advance": 5.221083890126207,
+      "presentation": 1.970205394704281,
+      "camera": 0.058277654046028214,
+      "hud": 0.05320465231378372
+    },
+    "draw_calls_range": [
+      151,
+      1153
+    ],
+    "generations": {
+      "0:1": {
+        "first_utc": "2026-11-09T23:50:32.693667+00:00",
+        "first_sim_s": 1.01666666666667,
+        "first_now_ms": 3829.2999999523163,
+        "last_utc": "2026-11-09T23:53:06.193896+00:00",
+        "last_sim_s": 108.383333333333,
+        "last_now_ms": 157330.29999995232,
+        "ended": "",
+        "counts": {
+          "airburst": 183,
+          "aircraft_fire": 92,
+          "command_applied": 84,
+          "command_rejected": 1,
+          "damage_phase": 5,
+          "damaged": 51,
+          "disabled": 3,
+          "fired": 2534,
+          "fleet_flagship_changed": 8,
+          "hit": 78,
+          "main_gun_fire": 78,
+          "order_assignments_changed": 28,
+          "order_execution_changed": 530,
+          "order_issued": 16,
+          "order_status_changed": 43,
+          "projectile_expired": 2133,
+          "salvo": 64,
+          "ship_support_fire": 2364,
+          "surface_impact": 122,
+          "target_changed": 68
+        },
+        "report": {
+          "jp": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 41.6527038185279,
+            "rounds_left": 120481,
+            "rounds_used": 419,
+            "ships": 0,
+            "sunk": 2,
+            "withdrawn": 0
+          },
+          "us": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 85.4378579307045,
+            "rounds_left": 219355,
+            "rounds_used": 2115,
+            "ships": 1,
+            "sunk": 1,
+            "withdrawn": 0
+          }
+        },
+        "last_sequence": 5951
+      },
+      "0:2": {
+        "first_utc": "2026-11-09T23:53:07.210234+00:00",
+        "first_sim_s": 0.5,
+        "first_now_ms": 158346.19999998808,
+        "last_utc": "2026-11-09T23:53:10.226698+00:00",
+        "last_sim_s": 3.51666666666667,
+        "last_now_ms": 161362.59999996424,
+        "ended": "",
+        "counts": {
+          "command_applied": 12,
+          "fired": 24,
+          "fleet_flagship_changed": 4,
+          "main_gun_fire": 2,
+          "order_assignments_changed": 8,
+          "order_execution_changed": 32,
+          "order_issued": 8,
+          "order_status_changed": 16,
+          "salvo": 2,
+          "ship_support_fire": 22,
+          "target_changed": 4
+        },
+        "report": {
+          "jp": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 1.56189606612523,
+            "rounds_left": 120888,
+            "rounds_used": 12,
+            "ships": 2,
+            "sunk": 0,
+            "withdrawn": 0
+          },
+          "us": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 2.75545550294778,
+            "rounds_left": 221458,
+            "rounds_used": 12,
+            "ships": 2,
+            "sunk": 0,
+            "withdrawn": 0
+          }
+        },
+        "last_sequence": 110
+      }
+    },
+    "reloads": 0,
+    "restart_transitions": 1,
+    "observed_active_wall_s": 111.3103000000119,
+    "observed_moving_wall_s": 111.3103000000119,
+    "peaks": {
+      "units": 12,
+      "active_units": 12,
+      "mounts": 152,
+      "projectiles": 1171,
+      "projectile_peak": 1174,
+      "pending_s": 0.0165555555555571,
+      "draw_calls": 1692,
+      "primitives": 975386
+    },
+    "effect_peaks": {
+      "allocated": 311,
+      "active": 296,
+      "dropped": 0,
+      "sound_sources": 8,
+      "engine_sources": 4
+    },
+    "wasm_linear_memory_bytes_range": [
+      125698048,
+      125698048
+    ],
+    "js_used_heap_bytes_range": [
+      29417841,
+      53030642
+    ],
+    "audio_peak_max": 0.1934051513671875,
+    "nonzero_audio_frames": 3401,
+    "audio_sources_created_range": [
+      0,
+      0
+    ],
+    "audio_files": [
+      "audio-1.webm"
+    ],
+    "operation_evidence": "docs/showcase/evidence/S08/chrome-audio/chrome-audio-fixed/actions.ndjson",
+    "screenshots": [
+      "capture-001.png"
+    ]
+  },
+  "candidate-before-spatial/safari-final": {
+    "source": "docs/showcase/evidence/S08/candidate-before-spatial/safari-final/samples.ndjson",
+    "samples": 237,
+    "serials_contiguous": false,
+    "environment": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "platform": "MacIntel",
+      "dpr": 2,
+      "css": {
+        "width": 1341,
+        "height": 754.3125,
+        "x": 0,
+        "y": 86.84375
+      },
+      "buffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "drawingBuffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "screen": {
+        "width": 1800,
+        "height": 1169
+      },
+      "inner": {
+        "width": 1341,
+        "height": 928
+      },
+      "visibility": "visible",
+      "hasFocus": true,
+      "wall_utc": "2026-11-09T23:38:19.196Z"
+    },
+    "first_utc": "2026-11-09T23:34:15.905794+00:00",
+    "last_utc": "2026-11-09T23:38:19.198830+00:00",
+    "representative_window": "first generation, auto camera, 1x, unpaused, visible, sim 10..60 s; first 10 s warmup excluded",
+    "representative_frames": {
+      "frames": 2571,
+      "p50_ms": 18.0,
+      "p95_ms": 32.0,
+      "p99_ms": 40.30000000000018,
+      "mean_ms": 19.892259821081293,
+      "mean_fps": 50.27080929941536,
+      "over_33_333ms_ratio": 0.030338389731621937,
+      "over_50ms_ratio": 0.0054453520031116295,
+      "over_100ms_ratio": 0.0011668611435239206,
+      "max_ms": 630
+    },
+    "camera_phases": {
+      "近距空战": {
+        "frames": 1739,
+        "p50_ms": 17.0,
+        "p95_ms": 27.09999999999991,
+        "p99_ms": 34.0,
+        "mean_ms": 18.901092581943647,
+        "mean_fps": 52.90699443244394,
+        "over_33_333ms_ratio": 0.012650948821161587,
+        "over_50ms_ratio": 0.002875215641173088,
+        "over_100ms_ratio": 0.0011500862564692352,
+        "max_ms": 630
+      },
+      "命中与伤情": {
+        "frames": 385,
+        "p50_ms": 21.0,
+        "p95_ms": 39.0,
+        "p99_ms": 59.5199999999993,
+        "mean_ms": 23.812987012987012,
+        "mean_fps": 41.99389179755672,
+        "over_33_333ms_ratio": 0.11428571428571428,
+        "over_50ms_ratio": 0.023376623376623377,
+        "over_100ms_ratio": 0.0025974025974025974,
+        "max_ms": 119
+      },
+      "主炮跟拍": {
+        "frames": 447,
+        "p50_ms": 19.0,
+        "p95_ms": 31.69999999999999,
+        "p99_ms": 37.0,
+        "mean_ms": 20.371364653243848,
+        "mean_fps": 49.08851306830661,
+        "over_33_333ms_ratio": 0.026845637583892617,
+        "over_50ms_ratio": 0.0,
+        "over_100ms_ratio": 0.0,
+        "max_ms": 43
+      }
+    },
+    "cpu_mean_ms": {
+      "advance": 7.170361726954493,
+      "presentation": 1.7300661221314664,
+      "camera": 0.046285492026448855,
+      "hud": 0.06884480746791131
+    },
+    "draw_calls_range": [
+      151,
+      1159
+    ],
+    "generations": {
+      "0:1": {
+        "first_utc": "2026-11-09T23:34:15.905794+00:00",
+        "first_sim_s": 1,
+        "first_now_ms": 4323,
+        "last_utc": "2026-11-09T23:35:25.214495+00:00",
+        "last_sim_s": 69.7666666666667,
+        "last_now_ms": 73649,
+        "ended": "",
+        "counts": {
+          "airburst": 127,
+          "aircraft_fire": 92,
+          "command_applied": 74,
+          "command_rejected": 1,
+          "damage_phase": 3,
+          "damaged": 51,
+          "disabled": 3,
+          "fired": 1901,
+          "fleet_flagship_changed": 7,
+          "hit": 77,
+          "main_gun_fire": 78,
+          "order_assignments_changed": 21,
+          "order_execution_changed": 363,
+          "order_issued": 13,
+          "order_status_changed": 33,
+          "projectile_expired": 1295,
+          "salvo": 64,
+          "ship_support_fire": 1731,
+          "surface_impact": 98,
+          "target_changed": 61
+        },
+        "report": {
+          "jp": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 28.8558735748915,
+            "rounds_left": 120481,
+            "rounds_used": 419,
+            "ships": 0,
+            "sunk": 2,
+            "withdrawn": 0
+          },
+          "us": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 53.681872200038,
+            "rounds_left": 219988,
+            "rounds_used": 1482,
+            "ships": 1,
+            "sunk": 1,
+            "withdrawn": 0
+          }
+        },
+        "last_sequence": 4192
+      },
+      "0:2": {
+        "first_utc": "2026-11-09T23:35:26.235377+00:00",
+        "first_sim_s": 0.4,
+        "first_now_ms": 74671,
+        "last_utc": "2026-11-09T23:37:10.965191+00:00",
+        "last_sim_s": 104.783333333333,
+        "last_now_ms": 179400,
+        "ended": "",
+        "counts": {
+          "airburst": 179,
+          "aircraft_fire": 92,
+          "command_applied": 84,
+          "command_rejected": 1,
+          "damage_phase": 5,
+          "damaged": 51,
+          "disabled": 3,
+          "fired": 2532,
+          "fleet_flagship_changed": 8,
+          "hit": 78,
+          "main_gun_fire": 78,
+          "order_assignments_changed": 28,
+          "order_execution_changed": 515,
+          "order_issued": 16,
+          "order_status_changed": 43,
+          "projectile_expired": 2133,
+          "salvo": 64,
+          "ship_support_fire": 2362,
+          "surface_impact": 122,
+          "target_changed": 68
+        },
+        "report": {
+          "jp": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 40.5793878502921,
+            "rounds_left": 120481,
+            "rounds_used": 419,
+            "ships": 0,
+            "sunk": 2,
+            "withdrawn": 0
+          },
+          "us": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 82.5658343198218,
+            "rounds_left": 219357,
+            "rounds_used": 2113,
+            "ships": 1,
+            "sunk": 1,
+            "withdrawn": 0
+          }
+        },
+        "last_sequence": 5930
+      },
+      "1:1": {
+        "first_utc": "2026-11-09T23:37:15.469393+00:00",
+        "first_sim_s": 1,
+        "first_now_ms": 3420,
+        "last_utc": "2026-11-09T23:38:19.198830+00:00",
+        "last_sim_s": 64.75,
+        "last_now_ms": 67148,
+        "ended": "",
+        "counts": {
+          "airburst": 127,
+          "aircraft_fire": 92,
+          "command_applied": 73,
+          "command_rejected": 1,
+          "damage_phase": 2,
+          "damaged": 49,
+          "disabled": 2,
+          "fired": 1613,
+          "fleet_flagship_changed": 7,
+          "hit": 75,
+          "main_gun_fire": 78,
+          "order_assignments_changed": 20,
+          "order_execution_changed": 342,
+          "order_issued": 13,
+          "order_status_changed": 32,
+          "projectile_expired": 1295,
+          "salvo": 64,
+          "ship_support_fire": 1443,
+          "surface_impact": 83,
+          "target_changed": 60
+        },
+        "report": {
+          "jp": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 26.8369008402221,
+            "rounds_left": 120481,
+            "rounds_used": 419,
+            "ships": 1,
+            "sunk": 1,
+            "withdrawn": 0
+          },
+          "us": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 49.8650393871554,
+            "rounds_left": 220276,
+            "rounds_used": 1194,
+            "ships": 1,
+            "sunk": 1,
+            "withdrawn": 0
+          }
+        },
+        "last_sequence": 3858
+      }
+    },
+    "reloads": 1,
+    "restart_transitions": 1,
+    "observed_active_wall_s": 237.783,
+    "observed_moving_wall_s": 237.783,
+    "peaks": {
+      "units": 12,
+      "active_units": 12,
+      "mounts": 152,
+      "projectiles": 1172,
+      "projectile_peak": 1174,
+      "pending_s": 0.0165555555555562,
+      "draw_calls": 1882,
+      "primitives": 1078270
+    },
+    "effect_peaks": {
+      "allocated": 319,
+      "active": 309,
+      "dropped": 0,
+      "sound_sources": 8,
+      "engine_sources": 4
+    },
+    "wasm_linear_memory_bytes_range": [
+      125698048,
+      125698048
+    ],
+    "js_used_heap_bytes_range": null,
+    "audio_peak_max": 0.060219574719667435,
+    "nonzero_audio_frames": 2542,
+    "audio_sources_created_range": null,
+    "audio_files": [
+      "audio-1.mp4"
+    ],
+    "operation_evidence": "docs/showcase/evidence/S08/candidate-before-spatial/safari-final/actions.ndjson",
+    "screenshots": [
+      "capture-001.png",
+      "capture-003.png",
+      "capture-002.png"
+    ]
+  },
+  "audio-after/safari-audio-after": {
+    "source": "docs/showcase/evidence/S08/audio-after/safari-audio-after/samples.ndjson",
+    "samples": 79,
+    "serials_contiguous": true,
+    "environment": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "platform": "MacIntel",
+      "dpr": 2,
+      "css": {
+        "width": 1341,
+        "height": 754.3125,
+        "x": 0,
+        "y": 102.84375
+      },
+      "buffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "drawingBuffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "screen": {
+        "width": 1800,
+        "height": 1169
+      },
+      "inner": {
+        "width": 1341,
+        "height": 960
+      },
+      "visibility": "visible",
+      "hasFocus": true,
+      "wall_utc": "2026-11-09T23:45:13.360Z"
+    },
+    "first_utc": "2026-11-09T23:43:54.544164+00:00",
+    "last_utc": "2026-11-09T23:45:13.364169+00:00",
+    "representative_window": "first generation, auto camera, 1x, unpaused, visible, sim 10..60 s; first 10 s warmup excluded",
+    "representative_frames": {
+      "frames": 2637,
+      "p50_ms": 17.0,
+      "p95_ms": 30.0,
+      "p99_ms": 40.0,
+      "mean_ms": 19.159271899886235,
+      "mean_fps": 52.19405023454664,
+      "over_33_333ms_ratio": 0.026924535456958665,
+      "over_50ms_ratio": 0.0030337504740235114,
+      "over_100ms_ratio": 0.0011376564277588168,
+      "max_ms": 182
+    },
+    "camera_phases": {
+      "近距空战": {
+        "frames": 1735,
+        "p50_ms": 17.0,
+        "p95_ms": 27.0,
+        "p99_ms": 35.66000000000008,
+        "mean_ms": 18.646109510086454,
+        "mean_fps": 53.630490556706135,
+        "over_33_333ms_ratio": 0.014985590778097982,
+        "over_50ms_ratio": 0.00345821325648415,
+        "over_100ms_ratio": 0.001729106628242075,
+        "max_ms": 182
+      },
+      "命中与伤情": {
+        "frames": 431,
+        "p50_ms": 18.0,
+        "p95_ms": 37.0,
+        "p99_ms": 48.099999999999966,
+        "mean_ms": 21.190255220417633,
+        "mean_fps": 47.19150333953794,
+        "over_33_333ms_ratio": 0.08120649651972157,
+        "over_50ms_ratio": 0.004640371229698376,
+        "over_100ms_ratio": 0.0,
+        "max_ms": 57
+      },
+      "主炮跟拍": {
+        "frames": 471,
+        "p50_ms": 18.0,
+        "p95_ms": 28.5,
+        "p99_ms": 35.30000000000001,
+        "mean_ms": 19.191082802547772,
+        "mean_fps": 52.10753401924991,
+        "over_33_333ms_ratio": 0.021231422505307854,
+        "over_50ms_ratio": 0.0,
+        "over_100ms_ratio": 0.0,
+        "max_ms": 42
+      }
+    },
+    "cpu_mean_ms": {
+      "advance": 6.8217671596511185,
+      "presentation": 1.733788395904437,
+      "camera": 0.0515737580583997,
+      "hud": 0.05309063329541145
+    },
+    "draw_calls_range": [
+      149,
+      1162
+    ],
+    "generations": {
+      "0:1": {
+        "first_utc": "2026-11-09T23:43:54.544164+00:00",
+        "first_sim_s": 1,
+        "first_now_ms": 3488,
+        "last_utc": "2026-11-09T23:45:13.364169+00:00",
+        "last_sim_s": 79.7833333333333,
+        "last_now_ms": 82306,
+        "ended": "",
+        "counts": {
+          "airburst": 135,
+          "aircraft_fire": 92,
+          "command_applied": 84,
+          "command_rejected": 1,
+          "damage_phase": 3,
+          "damaged": 51,
+          "disabled": 3,
+          "fired": 2476,
+          "fleet_flagship_changed": 8,
+          "hit": 78,
+          "main_gun_fire": 78,
+          "order_assignments_changed": 28,
+          "order_execution_changed": 411,
+          "order_issued": 16,
+          "order_status_changed": 43,
+          "projectile_expired": 1295,
+          "salvo": 64,
+          "ship_support_fire": 2306,
+          "surface_impact": 122,
+          "target_changed": 68
+        },
+        "report": {
+          "jp": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 31.7809795556375,
+            "rounds_left": 120481,
+            "rounds_used": 419,
+            "ships": 0,
+            "sunk": 2,
+            "withdrawn": 0
+          },
+          "us": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 62.1849010241326,
+            "rounds_left": 219413,
+            "rounds_used": 2057,
+            "ships": 1,
+            "sunk": 1,
+            "withdrawn": 0
+          }
+        },
+        "last_sequence": 4886
+      }
+    },
+    "reloads": 0,
+    "restart_transitions": 0,
+    "observed_active_wall_s": 78.81800000000004,
+    "observed_moving_wall_s": 78.81800000000004,
+    "peaks": {
+      "units": 12,
+      "active_units": 12,
+      "mounts": 152,
+      "projectiles": 1164,
+      "projectile_peak": 1174,
+      "pending_s": 0.0163577777777801,
+      "draw_calls": 1704,
+      "primitives": 974750
+    },
+    "effect_peaks": {
+      "allocated": 309,
+      "active": 305,
+      "dropped": 0,
+      "sound_sources": 8,
+      "engine_sources": 4
+    },
+    "wasm_linear_memory_bytes_range": [
+      125698048,
+      125698048
+    ],
+    "js_used_heap_bytes_range": null,
+    "audio_peak_max": 0.2705119848251343,
+    "nonzero_audio_frames": 3182,
+    "audio_sources_created_range": [
+      0,
+      959
+    ],
+    "audio_files": [
+      "audio-1.mp4"
+    ],
+    "operation_evidence": "docs/showcase/evidence/S08/audio-after/safari-audio-after/actions.ndjson",
+    "screenshots": []
+  },
+  "baseline/safari-baseline": {
+    "source": "docs/showcase/evidence/S08/baseline/safari-baseline/samples.ndjson",
+    "samples": 99,
+    "serials_contiguous": true,
+    "environment": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "platform": "MacIntel",
+      "dpr": 2,
+      "css": {
+        "width": 1341,
+        "height": 754.3125,
+        "x": 0,
+        "y": 102.84375
+      },
+      "buffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "drawingBuffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "screen": {
+        "width": 1800,
+        "height": 1169
+      },
+      "inner": {
+        "width": 1341,
+        "height": 960
+      },
+      "visibility": "visible",
+      "hasFocus": true,
+      "wall_utc": "2026-11-09T23:18:19.211Z"
+    },
+    "first_utc": "2026-11-09T23:16:36.169829+00:00",
+    "last_utc": "2026-11-09T23:18:19.213899+00:00",
+    "representative_window": "first generation, auto camera, 1x, unpaused, visible, sim 10..60 s; first 10 s warmup excluded",
+    "representative_frames": {
+      "frames": 1944,
+      "p50_ms": 23.0,
+      "p95_ms": 46.0,
+      "p99_ms": 97.56999999999994,
+      "mean_ms": 27.382716049382715,
+      "mean_fps": 36.51938683498648,
+      "over_33_333ms_ratio": 0.14814814814814814,
+      "over_50ms_ratio": 0.037037037037037035,
+      "over_100ms_ratio": 0.00977366255144033,
+      "max_ms": 862
+    },
+    "camera_phases": {
+      "近距空战": {
+        "frames": 1284,
+        "p50_ms": 24.0,
+        "p95_ms": 41.0,
+        "p99_ms": 63.340000000000146,
+        "mean_ms": 26.98442367601246,
+        "mean_fps": 37.05841607019164,
+        "over_33_333ms_ratio": 0.13317757009345793,
+        "over_50ms_ratio": 0.02102803738317757,
+        "over_100ms_ratio": 0.006230529595015576,
+        "max_ms": 862
+      },
+      "命中与伤情": {
+        "frames": 244,
+        "p50_ms": 30.5,
+        "p95_ms": 92.49999999999994,
+        "p99_ms": 157.26999999999992,
+        "mean_ms": 38.59426229508197,
+        "mean_fps": 25.91058723585006,
+        "over_33_333ms_ratio": 0.4180327868852459,
+        "over_50ms_ratio": 0.1721311475409836,
+        "over_100ms_ratio": 0.040983606557377046,
+        "max_ms": 200
+      },
+      "主炮跟拍": {
+        "frames": 416,
+        "p50_ms": 20.0,
+        "p95_ms": 33.0,
+        "p99_ms": 39.0,
+        "mean_ms": 22.036057692307693,
+        "mean_fps": 45.38016799389113,
+        "over_33_333ms_ratio": 0.036057692307692304,
+        "over_50ms_ratio": 0.007211538461538462,
+        "over_100ms_ratio": 0.002403846153846154,
+        "max_ms": 118
+      }
+    },
+    "cpu_mean_ms": {
+      "advance": 10.723765432098766,
+      "presentation": 1.9670781893004115,
+      "camera": 0.06378600823045268,
+      "hud": 0.1095679012345679
+    },
+    "draw_calls_range": [
+      383,
+      2707
+    ],
+    "generations": {
+      "0:1": {
+        "first_utc": "2026-11-09T23:16:36.169829+00:00",
+        "first_sim_s": 1.06666666666667,
+        "first_now_ms": 6013,
+        "last_utc": "2026-11-09T23:18:19.213899+00:00",
+        "last_sim_s": 80.35,
+        "last_now_ms": 109068,
+        "ended": "",
+        "counts": {
+          "airburst": 135,
+          "aircraft_fire": 92,
+          "command_applied": 84,
+          "command_rejected": 1,
+          "damage_phase": 3,
+          "damaged": 51,
+          "disabled": 3,
+          "fired": 2478,
+          "fleet_flagship_changed": 8,
+          "hit": 78,
+          "main_gun_fire": 78,
+          "order_assignments_changed": 28,
+          "order_execution_changed": 418,
+          "order_issued": 16,
+          "order_status_changed": 43,
+          "projectile_expired": 1295,
+          "salvo": 64,
+          "ship_support_fire": 2308,
+          "surface_impact": 122,
+          "target_changed": 68
+        },
+        "report": {
+          "jp": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 32.0223997214428,
+            "rounds_left": 120481,
+            "rounds_used": 419,
+            "ships": 0,
+            "sunk": 2,
+            "withdrawn": 0
+          },
+          "us": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 62.6441860753183,
+            "rounds_left": 219411,
+            "rounds_used": 2059,
+            "ships": 1,
+            "sunk": 1,
+            "withdrawn": 0
+          }
+        },
+        "last_sequence": 4895
+      }
+    },
+    "reloads": 0,
+    "restart_transitions": 0,
+    "observed_active_wall_s": 83.74600000000002,
+    "observed_moving_wall_s": 83.74600000000002,
+    "peaks": {
+      "units": 12,
+      "active_units": 12,
+      "mounts": 152,
+      "projectiles": 1156,
+      "projectile_peak": 1174,
+      "pending_s": 0.0161980000000017,
+      "draw_calls": 2707,
+      "primitives": 940902
+    },
+    "effect_peaks": {
+      "allocated": 356,
+      "active": 286,
+      "dropped": 0,
+      "sound_sources": 0,
+      "engine_sources": 4
+    },
+    "wasm_linear_memory_bytes_range": null,
+    "js_used_heap_bytes_range": null,
+    "audio_peak_max": 0,
+    "nonzero_audio_frames": 0,
+    "audio_sources_created_range": null,
+    "audio_files": [],
+    "operation_evidence": "docs/showcase/evidence/S08/baseline/safari-baseline/actions.ndjson",
+    "screenshots": [
+      "capture-001.png",
+      "capture-002.png"
+    ]
+  },
+  "baseline-chrome/chrome-baseline": {
+    "source": "docs/showcase/evidence/S08/baseline-chrome/chrome-baseline/samples.ndjson",
+    "samples": 4,
+    "serials_contiguous": false,
+    "environment": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "platform": "MacIntel",
+      "dpr": 2,
+      "css": {
+        "width": 1712,
+        "height": 963,
+        "x": 44,
+        "y": 0
+      },
+      "buffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "drawingBuffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "screen": {
+        "width": 1800,
+        "height": 1169
+      },
+      "inner": {
+        "width": 1800,
+        "height": 963
+      },
+      "visibility": "visible",
+      "hasFocus": true,
+      "wall_utc": "2026-11-09T23:26:05.765Z"
+    },
+    "first_utc": "2026-11-09T23:25:54.404957+00:00",
+    "last_utc": "2026-11-09T23:26:05.775123+00:00",
+    "representative_window": "first generation, auto camera, 1x, unpaused, visible, sim 10..60 s; first 10 s warmup excluded",
+    "representative_frames": {
+      "frames": 48,
+      "p50_ms": 16.700000000000728,
+      "p95_ms": 47.11500000000048,
+      "p99_ms": 408.85000000000053,
+      "mean_ms": 33.07083333333329,
+      "mean_fps": 30.238125236235394,
+      "over_33_333ms_ratio": 0.10416666666666667,
+      "over_50ms_ratio": 0.0625,
+      "over_100ms_ratio": 0.020833333333333332,
+      "max_ms": 716.6999999999989
+    },
+    "camera_phases": {
+      "近距空战": {
+        "frames": 48,
+        "p50_ms": 16.700000000000728,
+        "p95_ms": 47.11500000000048,
+        "p99_ms": 408.85000000000053,
+        "mean_ms": 33.07083333333329,
+        "mean_fps": 30.238125236235394,
+        "over_33_333ms_ratio": 0.10416666666666667,
+        "over_50ms_ratio": 0.0625,
+        "over_100ms_ratio": 0.020833333333333332,
+        "max_ms": 716.6999999999989
+      }
+    },
+    "cpu_mean_ms": {
+      "advance": 6.675,
+      "presentation": 1.6708333333333334,
+      "camera": 0.04791666666666667,
+      "hud": 0.06458333333333333
+    },
+    "draw_calls_range": [
+      2319,
+      2319
+    ],
+    "generations": {
+      "0:1": {
+        "first_utc": "2026-11-09T23:25:54.404957+00:00",
+        "first_sim_s": 1,
+        "first_now_ms": 5625.699999988079,
+        "last_utc": "2026-11-09T23:26:05.775123+00:00",
+        "last_sim_s": 11.15,
+        "last_now_ms": 16994.5,
+        "ended": "",
+        "counts": {
+          "airburst": 16,
+          "command_applied": 14,
+          "damaged": 2,
+          "fired": 64,
+          "fleet_flagship_changed": 4,
+          "hit": 2,
+          "main_gun_fire": 10,
+          "order_assignments_changed": 8,
+          "order_execution_changed": 64,
+          "order_issued": 8,
+          "order_status_changed": 16,
+          "salvo": 10,
+          "ship_support_fire": 54,
+          "surface_impact": 8,
+          "target_changed": 6
+        },
+        "report": {
+          "jp": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 5.19421996851832,
+            "rounds_left": 120876,
+            "rounds_used": 24,
+            "ships": 2,
+            "sunk": 0,
+            "withdrawn": 0
+          },
+          "us": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 8.51506437753955,
+            "rounds_left": 221430,
+            "rounds_used": 40,
+            "ships": 2,
+            "sunk": 0,
+            "withdrawn": 0
+          }
+        },
+        "last_sequence": 222
+      }
+    },
+    "reloads": 0,
+    "restart_transitions": 0,
+    "observed_active_wall_s": 11.368800000011921,
+    "observed_moving_wall_s": 11.368800000011921,
+    "peaks": {
+      "units": 12,
+      "active_units": 12,
+      "mounts": 152,
+      "projectiles": 38,
+      "projectile_peak": 56,
+      "pending_s": 0.0138333333333336,
+      "draw_calls": 2319,
+      "primitives": 812842
+    },
+    "effect_peaks": {
+      "allocated": 83,
+      "active": 59,
+      "dropped": 0,
+      "sound_sources": 0,
+      "engine_sources": 4
+    },
+    "wasm_linear_memory_bytes_range": [
+      104726528,
+      104726528
+    ],
+    "js_used_heap_bytes_range": [
+      32210870,
+      52003418
+    ],
+    "audio_peak_max": 0,
+    "nonzero_audio_frames": 0,
+    "audio_sources_created_range": null,
+    "audio_files": [],
+    "operation_evidence": "docs/showcase/evidence/S08/baseline-chrome/chrome-baseline/actions.ndjson",
+    "screenshots": []
+  },
+  "audio-before/safari-audio-before": {
+    "source": "docs/showcase/evidence/S08/audio-before/safari-audio-before/samples.ndjson",
+    "samples": 39,
+    "serials_contiguous": true,
+    "environment": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "platform": "MacIntel",
+      "dpr": 2,
+      "css": {
+        "width": 1341,
+        "height": 754.3125,
+        "x": 0,
+        "y": 102.84375
+      },
+      "buffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "drawingBuffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "screen": {
+        "width": 1800,
+        "height": 1169
+      },
+      "inner": {
+        "width": 1341,
+        "height": 960
+      },
+      "visibility": "visible",
+      "hasFocus": true,
+      "wall_utc": "2026-11-09T23:42:24.266Z"
+    },
+    "first_utc": "2026-11-09T23:41:45.637513+00:00",
+    "last_utc": "2026-11-09T23:42:24.270154+00:00",
+    "representative_window": "first generation, auto camera, 1x, unpaused, visible, sim 10..60 s; first 10 s warmup excluded",
+    "representative_frames": {
+      "frames": 1395,
+      "p50_ms": 20.0,
+      "p95_ms": 35.299999999999955,
+      "p99_ms": 55.059999999999945,
+      "mean_ms": 21.89677419354839,
+      "mean_fps": 45.668827342368886,
+      "over_33_333ms_ratio": 0.06666666666666667,
+      "over_50ms_ratio": 0.012903225806451613,
+      "over_100ms_ratio": 0.0035842293906810036,
+      "max_ms": 210
+    },
+    "camera_phases": {
+      "近距空战": {
+        "frames": 900,
+        "p50_ms": 18.0,
+        "p95_ms": 31.049999999999955,
+        "p99_ms": 62.02999999999997,
+        "mean_ms": 20.32777777777778,
+        "mean_fps": 49.193768789286686,
+        "over_33_333ms_ratio": 0.03666666666666667,
+        "over_50ms_ratio": 0.012222222222222223,
+        "over_100ms_ratio": 0.005555555555555556,
+        "max_ms": 210
+      },
+      "命中与伤情": {
+        "frames": 367,
+        "p50_ms": 24.0,
+        "p95_ms": 41.0,
+        "p99_ms": 55.339999999999975,
+        "mean_ms": 25.049046321525886,
+        "mean_fps": 39.92167953877951,
+        "over_33_333ms_ratio": 0.13896457765667575,
+        "over_50ms_ratio": 0.01634877384196185,
+        "over_100ms_ratio": 0.0,
+        "max_ms": 63
+      },
+      "主炮跟拍": {
+        "frames": 128,
+        "p50_ms": 24.0,
+        "p95_ms": 34.0,
+        "p99_ms": 42.920000000000016,
+        "mean_ms": 23.890625,
+        "mean_fps": 41.857423152387184,
+        "over_33_333ms_ratio": 0.0703125,
+        "over_50ms_ratio": 0.0078125,
+        "over_100ms_ratio": 0.0,
+        "max_ms": 52
+      }
+    },
+    "cpu_mean_ms": {
+      "advance": 8.506810035842294,
+      "presentation": 2.542652329749104,
+      "camera": 0.06738351254480286,
+      "hud": 0.08243727598566308
+    },
+    "draw_calls_range": [
+      151,
+      1156
+    ],
+    "generations": {
+      "0:1": {
+        "first_utc": "2026-11-09T23:41:45.637513+00:00",
+        "first_sim_s": 1,
+        "first_now_ms": 4002,
+        "last_utc": "2026-11-09T23:42:24.270154+00:00",
+        "last_sim_s": 39.5666666666667,
+        "last_now_ms": 42640,
+        "ended": "",
+        "counts": {
+          "airburst": 90,
+          "aircraft_fire": 92,
+          "command_applied": 33,
+          "damaged": 43,
+          "fired": 1415,
+          "fleet_flagship_changed": 6,
+          "hit": 61,
+          "main_gun_fire": 59,
+          "order_assignments_changed": 16,
+          "order_execution_changed": 204,
+          "order_issued": 12,
+          "order_status_changed": 27,
+          "projectile_expired": 82,
+          "salvo": 51,
+          "ship_support_fire": 1264,
+          "surface_impact": 47,
+          "target_changed": 21
+        },
+        "report": {
+          "jp": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 16.3015160866385,
+            "rounds_left": 120604,
+            "rounds_used": 296,
+            "ships": 2,
+            "sunk": 0,
+            "withdrawn": 0
+          },
+          "us": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 29.5907921336892,
+            "rounds_left": 220351,
+            "rounds_used": 1119,
+            "ships": 2,
+            "sunk": 0,
+            "withdrawn": 0
+          }
+        },
+        "last_sequence": 2108
+      }
+    },
+    "reloads": 0,
+    "restart_transitions": 0,
+    "observed_active_wall_s": 38.63800000000001,
+    "observed_moving_wall_s": 38.63800000000001,
+    "peaks": {
+      "units": 12,
+      "active_units": 12,
+      "mounts": 152,
+      "projectiles": 1135,
+      "projectile_peak": 1135,
+      "pending_s": 0.0163636363636375,
+      "draw_calls": 1156,
+      "primitives": 973062
+    },
+    "effect_peaks": {
+      "allocated": 309,
+      "active": 272,
+      "dropped": 0,
+      "sound_sources": 8,
+      "engine_sources": 4
+    },
+    "wasm_linear_memory_bytes_range": [
+      125698048,
+      125698048
+    ],
+    "js_used_heap_bytes_range": null,
+    "audio_peak_max": 2.6771275997161865,
+    "nonzero_audio_frames": 1230,
+    "audio_sources_created_range": [
+      0,
+      14668
+    ],
+    "audio_files": [
+      "audio-1.mp4"
+    ],
+    "operation_evidence": "docs/showcase/evidence/S08/audio-before/safari-audio-before/actions.ndjson",
+    "screenshots": []
+  },
+  "audio-stream/safari-audio-stream": {
+    "source": "docs/showcase/evidence/S08/audio-stream/safari-audio-stream/samples.ndjson",
+    "samples": 113,
+    "serials_contiguous": true,
+    "environment": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.6.2 Safari/605.1.15",
+      "platform": "MacIntel",
+      "dpr": 2,
+      "css": {
+        "width": 1341,
+        "height": 754.3125,
+        "x": 0,
+        "y": 102.84375
+      },
+      "buffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "drawingBuffer": {
+        "width": 1280,
+        "height": 720
+      },
+      "screen": {
+        "width": 1800,
+        "height": 1169
+      },
+      "inner": {
+        "width": 1341,
+        "height": 960
+      },
+      "visibility": "visible",
+      "hasFocus": true,
+      "wall_utc": "2026-11-09T23:48:49.348Z"
+    },
+    "first_utc": "2026-11-09T23:46:56.388208+00:00",
+    "last_utc": "2026-11-09T23:48:49.351684+00:00",
+    "representative_window": "first generation, auto camera, 1x, unpaused, visible, sim 10..60 s; first 10 s warmup excluded",
+    "representative_frames": {
+      "frames": 2629,
+      "p50_ms": 17.0,
+      "p95_ms": 30.0,
+      "p99_ms": 40.7199999999998,
+      "mean_ms": 19.252187143400533,
+      "mean_fps": 51.94215039317185,
+      "over_33_333ms_ratio": 0.02814758463294028,
+      "over_50ms_ratio": 0.003423354887790034,
+      "over_100ms_ratio": 0.0007607455306200076,
+      "max_ms": 254
+    },
+    "camera_phases": {
+      "近距空战": {
+        "frames": 1746,
+        "p50_ms": 17.0,
+        "p95_ms": 26.0,
+        "p99_ms": 35.549999999999955,
+        "mean_ms": 18.59163802978236,
+        "mean_fps": 53.7876220695604,
+        "over_33_333ms_ratio": 0.018327605956471937,
+        "over_50ms_ratio": 0.0028636884306987398,
+        "over_100ms_ratio": 0.001145475372279496,
+        "max_ms": 254
+      },
+      "命中与伤情": {
+        "frames": 420,
+        "p50_ms": 18.5,
+        "p95_ms": 35.0,
+        "p99_ms": 50.0,
+        "mean_ms": 21.62857142857143,
+        "mean_fps": 46.23513870541611,
+        "over_33_333ms_ratio": 0.08333333333333333,
+        "over_50ms_ratio": 0.009523809523809525,
+        "over_100ms_ratio": 0.0,
+        "max_ms": 86
+      },
+      "主炮跟拍": {
+        "frames": 463,
+        "p50_ms": 18.0,
+        "p95_ms": 29.0,
+        "p99_ms": 34.0,
+        "mean_ms": 19.58747300215983,
+        "mean_fps": 51.05303782114896,
+        "over_33_333ms_ratio": 0.01511879049676026,
+        "over_50ms_ratio": 0.0,
+        "over_100ms_ratio": 0.0,
+        "max_ms": 42
+      }
+    },
+    "cpu_mean_ms": {
+      "advance": 7.189425637124382,
+      "presentation": 1.7519969570178775,
+      "camera": 0.051350323316850514,
+      "hud": 0.05895777862305059
+    },
+    "draw_calls_range": [
+      151,
+      1162
+    ],
+    "generations": {
+      "0:1": {
+        "first_utc": "2026-11-09T23:46:56.388208+00:00",
+        "first_sim_s": 1,
+        "first_now_ms": 3374,
+        "last_utc": "2026-11-09T23:48:49.351684+00:00",
+        "last_sim_s": 59.9166666666667,
+        "last_now_ms": 116336,
+        "ended": "",
+        "counts": {
+          "airburst": 121,
+          "aircraft_fire": 92,
+          "command_applied": 72,
+          "command_rejected": 1,
+          "damage_phase": 2,
+          "damaged": 49,
+          "disabled": 2,
+          "fired": 1597,
+          "fleet_flagship_changed": 7,
+          "hit": 75,
+          "main_gun_fire": 78,
+          "order_assignments_changed": 20,
+          "order_execution_changed": 320,
+          "order_issued": 13,
+          "order_status_changed": 32,
+          "projectile_expired": 1295,
+          "salvo": 64,
+          "ship_support_fire": 1427,
+          "surface_impact": 83,
+          "target_changed": 59
+        },
+        "report": {
+          "jp": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 24.9160629777935,
+            "rounds_left": 120481,
+            "rounds_used": 419,
+            "ships": 1,
+            "sunk": 1,
+            "withdrawn": 0
+          },
+          "us": {
+            "aircraft": 4,
+            "crashed": 0,
+            "disabled": 0,
+            "ditched": 0,
+            "fuel_used_kg": 46.0346980900661,
+            "rounds_left": 220292,
+            "rounds_used": 1178,
+            "ships": 1,
+            "sunk": 1,
+            "withdrawn": 0
+          }
+        },
+        "last_sequence": 3812
+      }
+    },
+    "reloads": 0,
+    "restart_transitions": 0,
+    "observed_active_wall_s": 59.665,
+    "observed_moving_wall_s": 59.665,
+    "peaks": {
+      "units": 12,
+      "active_units": 12,
+      "mounts": 152,
+      "projectiles": 1164,
+      "projectile_peak": 1174,
+      "pending_s": 0.0164855555555571,
+      "draw_calls": 1162,
+      "primitives": 975410
+    },
+    "effect_peaks": {
+      "allocated": 314,
+      "active": 281,
+      "dropped": 0,
+      "sound_sources": 8,
+      "engine_sources": 4
+    },
+    "wasm_linear_memory_bytes_range": [
+      125698048,
+      125698048
+    ],
+    "js_used_heap_bytes_range": null,
+    "audio_peak_max": 0.8370208740234375,
+    "nonzero_audio_frames": 2592,
+    "audio_sources_created_range": [
+      0,
+      0
+    ],
+    "audio_files": [
+      "audio-1.mp4"
+    ],
+    "operation_evidence": "docs/showcase/evidence/S08/audio-stream/safari-audio-stream/actions.ndjson",
+    "screenshots": [
+      "capture-001.png"
+    ]
+  }
+}

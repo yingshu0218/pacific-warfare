@@ -1,0 +1,467 @@
+{
+  "counts": {
+    "airburst": 169,
+    "aircraft_breakup": 2,
+    "aircraft_exit": 2,
+    "aircraft_part_detached": 6,
+    "bomb_contact": 12,
+    "bomb_explosion": 12,
+    "bomb_released": 12,
+    "bomb_source_cleared": 12,
+    "bombing_phase": 5,
+    "carrier_operation_phase": 27,
+    "carrier_service_completed": 1,
+    "carrier_touchdown": 2,
+    "carrier_wire_caught": 2,
+    "coastal_gun_fire": 47,
+    "command_applied": 34,
+    "damage_phase": 10,
+    "damaged": 64,
+    "disabled": 5,
+    "fired": 383,
+    "fleet_flagship_changed": 9,
+    "ground_aa_fire": 24,
+    "hit": 52,
+    "main_gun_fire": 312,
+    "order_assignments_changed": 38,
+    "order_execution_changed": 712,
+    "order_issued": 20,
+    "order_status_changed": 56,
+    "salvo": 238,
+    "surface_impact": 174,
+    "target_changed": 14,
+    "unit_impact": 2,
+    "unit_surface_contact": 2
+  },
+  "engine": "4.7.2-stable (official)",
+  "events": [
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "preparing",
+      "reason": "sortie_order_received",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 1,
+      "time_s": 0.0166666666666667
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "preparing",
+      "reason": "sortie_order_received",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 1,
+      "time_s": 0.0166666666666667
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "queued",
+      "reason": "awaiting_clear_launch_deck",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 301,
+      "time_s": 5.01666666666667
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "queued",
+      "reason": "awaiting_clear_launch_deck",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 301,
+      "time_s": 5.01666666666667
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "taxi_out",
+      "reason": "exclusive_launch_clearance",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 302,
+      "time_s": 5.03333333333333
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "takeoff_roll",
+      "reason": "roll_length_and_wind_cleared",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 801,
+      "time_s": 13.35
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "climb",
+      "reason": "airspeed_and_deck_run_complete",
+      "sortie_order_id": "qj01:wave:01",
+      "sortie_serial": 1,
+      "target_id": "us_cv",
+      "tick": 1365,
+      "time_s": 22.75
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "taxi_out",
+      "reason": "exclusive_launch_clearance",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 1470,
+      "time_s": 24.5
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "takeoff_roll",
+      "reason": "roll_length_and_wind_cleared",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 2569,
+      "time_s": 42.8166666666667
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "climb",
+      "reason": "airspeed_and_deck_run_complete",
+      "sortie_order_id": "qj01:wave:01",
+      "sortie_serial": 1,
+      "target_id": "us_cv",
+      "tick": 3133,
+      "time_s": 52.2166666666667
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "mission",
+      "reason": "climb_and_assembly_complete",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 3522,
+      "time_s": 58.7
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "mission",
+      "reason": "climb_and_assembly_complete",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 5290,
+      "time_s": 88.1666666666667
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "return",
+      "reason": "on_station_duration_complete",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 6222,
+      "time_s": 103.7
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "return",
+      "reason": "on_station_duration_complete",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 7991,
+      "time_s": 133.183333333333
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "approach",
+      "reason": "exclusive_recovery_clearance",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 13587,
+      "time_s": 226.45
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "holding",
+      "reason": "awaiting_recovery_deck",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 20486,
+      "time_s": 341.433333333333
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_touchdown",
+      "phase": "",
+      "reason": "",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 21757,
+      "time_s": 362.616666666667
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "touchdown",
+      "reason": "wheel_contact_in_envelope",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 21757,
+      "time_s": 362.616666666667
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_wire_caught",
+      "phase": "",
+      "reason": "",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 21757,
+      "time_s": 362.616666666667
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "arresting",
+      "reason": "actual_hook_shoe_swept_wire_segment",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 21757,
+      "time_s": 362.616666666667
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "taxi_clear",
+      "reason": "arrest_complete_clear_landing_area",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 22057,
+      "time_s": 367.616666666667
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "servicing",
+      "reason": "recovered_and_parked",
+      "sortie_order_id": "qj01:wave:01",
+      "sortie_serial": 1,
+      "target_id": "us_cv",
+      "tick": 24214,
+      "time_s": 403.566666666667
+    },
+    {
+      "entity_id": "us_deck_1",
+      "kind": "carrier_operation_phase",
+      "phase": "standby",
+      "reason": "service_complete",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 26014,
+      "time_s": 433.566666666667
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "approach",
+      "reason": "exclusive_recovery_clearance",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 31890,
+      "time_s": 531.5
+    },
+    {
+      "entity_id": "jp_air_2",
+      "kind": "aircraft_exit",
+      "phase": "",
+      "reason": "ordered_retreat",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "",
+      "tick": 35571,
+      "time_s": 592.85
+    },
+    {
+      "entity_id": "jp_air_1",
+      "kind": "aircraft_exit",
+      "phase": "",
+      "reason": "ordered_retreat",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "",
+      "tick": 35763,
+      "time_s": 596.05
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_touchdown",
+      "phase": "",
+      "reason": "",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 40093,
+      "time_s": 668.216666666667
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "touchdown",
+      "reason": "wheel_contact_in_envelope",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 40093,
+      "time_s": 668.216666666667
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_wire_caught",
+      "phase": "",
+      "reason": "",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 40093,
+      "time_s": 668.216666666667
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "arresting",
+      "reason": "actual_hook_shoe_swept_wire_segment",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 40093,
+      "time_s": 668.216666666667
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "taxi_clear",
+      "reason": "arrest_complete_clear_landing_area",
+      "sortie_order_id": "",
+      "sortie_serial": 0,
+      "target_id": "us_cv",
+      "tick": 40393,
+      "time_s": 673.216666666667
+    },
+    {
+      "entity_id": "us_deck_2",
+      "kind": "carrier_operation_phase",
+      "phase": "servicing",
+      "reason": "recovered_and_parked",
+      "sortie_order_id": "qj01:wave:01",
+      "sortie_serial": 1,
+      "target_id": "us_cv",
+      "tick": 42153,
+      "time_s": 702.55
+    }
+  ],
+  "method": "FirstPlayableSession.load_battle; natural advance; no view or fixture",
+  "order_receipts": [
+    {
+      "issuer_id": "scenario_us_command",
+      "order_id": "qj01:wave:01",
+      "received_tick": 1,
+      "recipients": [
+        "us_deck_1",
+        "us_deck_2"
+      ],
+      "status": "executing"
+    },
+    {
+      "issuer_id": "scenario_us_command",
+      "order_id": "qj01:withdraw",
+      "received_tick": 1,
+      "recipients": [
+        "us_cv"
+      ],
+      "status": "executing"
+    }
+  ],
+  "report": {
+    "aboard_count": 2,
+    "airframes": [
+      {
+        "aboard": true,
+        "carrier_id": "us_cv",
+        "last_known": "recovered_aboard",
+        "last_known_tick": 43000,
+        "launch_tick": 1365,
+        "recovery_tick": 24214,
+        "sortie_serial": 1,
+        "status": "recovered_aboard",
+        "unit_id": "us_deck_1",
+        "withdrew": true
+      },
+      {
+        "aboard": true,
+        "carrier_id": "us_cv",
+        "last_known": "recovered_aboard",
+        "last_known_tick": 43000,
+        "launch_tick": 3133,
+        "recovery_tick": 42153,
+        "sortie_serial": 1,
+        "status": "recovered_aboard",
+        "unit_id": "us_deck_2",
+        "withdrew": true
+      }
+    ],
+    "carrier_active": true,
+    "carrier_id": "us_cv",
+    "carrier_phase": "operational",
+    "carrier_position_m": [
+      21250.0,
+      0.0,
+      9500.0
+    ],
+    "deadline_tick": 43200,
+    "exit_center_m": [
+      22550.0,
+      0.0,
+      9500.0
+    ],
+    "exit_radius_m": 1300.0,
+    "reason": "exit_reached",
+    "status": "complete",
+    "tick": 43000,
+    "tick_hz": 60,
+    "wave_order_id": "qj01:wave:01",
+    "withdraw_order_id": "qj01:withdraw",
+    "withdrawn_count": 2
+  },
+  "scenario": "res://data/scenarios/qj01_qingjia.json",
+  "seed": 707,
+  "terminal_tick": 43000
+}

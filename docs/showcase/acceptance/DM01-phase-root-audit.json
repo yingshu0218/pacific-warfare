@@ -1,0 +1,461 @@
+{
+  "checked_utc": "2026-11-10T17:45:48.683973+00:00",
+  "scope": "DM01 phase freeze only; final native and Chrome not accepted",
+  "file_checks": [
+    {
+      "section": "production",
+      "path": "aircraft/scripts/aircraft_builder.gd",
+      "matches": true
+    },
+    {
+      "section": "production",
+      "path": "aircraft/models/f6f5.gd",
+      "matches": true
+    },
+    {
+      "section": "production",
+      "path": "aircraft/models/a6m5_52ko.gd",
+      "matches": true
+    },
+    {
+      "section": "production",
+      "path": "scripts/presentation/models/aircraft_adapter.gd",
+      "matches": true
+    },
+    {
+      "section": "production",
+      "path": "scripts/simulation/damage/aircraft_damage_motion.gd",
+      "matches": true
+    },
+    {
+      "section": "production",
+      "path": "scripts/simulation/damage/combat_damage.gd",
+      "matches": true
+    },
+    {
+      "section": "production",
+      "path": "scripts/simulation/collision/combat_frame.gd",
+      "matches": true
+    },
+    {
+      "section": "production",
+      "path": "scripts/simulation/aircraft_motion/aircraft_motion.gd",
+      "matches": true
+    },
+    {
+      "section": "production",
+      "path": "data/combat/showcase.json",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tests/test_aircraft_damage.gd",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tests/test_aircraft_damage_models.gd",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tests/test_aircraft_damage_natural.gd",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tests/test_aircraft_damage_emitters.gd",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tests/aircraft_damage_capture.gd",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tests/aircraft_damage_web_probe.gd",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tests/fixtures/aircraft_damage_fixture.gd",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tests/fixtures/dm01_review_stage.gd",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tests/scenes/aircraft_damage_web.tscn",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tools/dm01/prepare_project.py",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tools/dm01/build_web.py",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tools/dm01/measure.js",
+      "matches": true
+    },
+    {
+      "section": "harness",
+      "path": "tools/dm01/chrome_check.mjs",
+      "matches": true
+    },
+    {
+      "section": "contracts",
+      "path": "docs/aircraft-damage-contracts.md",
+      "matches": true
+    },
+    {
+      "section": "contracts",
+      "path": "docs/aircraft-contracts.md",
+      "matches": true
+    },
+    {
+      "section": "contracts",
+      "path": "docs/combat-contracts.md",
+      "matches": true
+    },
+    {
+      "section": "retained_dependencies",
+      "path": "scripts/presentation/models/static_model_batch.gd",
+      "matches": true
+    },
+    {
+      "section": "retained_dependencies",
+      "path": "data/aircraft/performance.json",
+      "matches": true
+    },
+    {
+      "section": "retained_dependencies",
+      "path": "data/units/us_f6f5_1944.json",
+      "matches": true
+    },
+    {
+      "section": "retained_dependencies",
+      "path": "data/units/jp_a6m5a_1944.json",
+      "matches": true
+    },
+    {
+      "section": "retained_dependencies",
+      "path": "scripts/game/first_playable.gd",
+      "matches": true
+    },
+    {
+      "section": "retained_dependencies",
+      "path": "scripts/game/first_playable_session.gd",
+      "matches": true
+    },
+    {
+      "section": "retained_dependencies",
+      "path": "scripts/presentation/environment/cloud_sea_environment.gd",
+      "matches": true
+    },
+    {
+      "section": "retained_dependencies",
+      "path": "scripts/presentation/environment/daylight_sky.gdshader",
+      "matches": true
+    },
+    {
+      "section": "retained_dependencies",
+      "path": "scripts/presentation/ocean.gdshader",
+      "matches": true
+    },
+    {
+      "section": "retained_dependencies",
+      "path": "data/scenarios/island_harbor_defence.json",
+      "matches": true
+    },
+    {
+      "section": "uids",
+      "path": "aircraft/scripts/aircraft_builder.gd.uid",
+      "matches": true
+    },
+    {
+      "section": "uids",
+      "path": "aircraft/models/f6f5.gd.uid",
+      "matches": true
+    },
+    {
+      "section": "uids",
+      "path": "aircraft/models/a6m5_52ko.gd.uid",
+      "matches": true
+    },
+    {
+      "section": "uids",
+      "path": "scripts/presentation/models/aircraft_adapter.gd.uid",
+      "matches": true
+    },
+    {
+      "section": "uids",
+      "path": "scripts/simulation/damage/aircraft_damage_motion.gd.uid",
+      "matches": true
+    },
+    {
+      "section": "uids",
+      "path": "scripts/simulation/damage/combat_damage.gd.uid",
+      "matches": true
+    },
+    {
+      "section": "uids",
+      "path": "scripts/simulation/collision/combat_frame.gd.uid",
+      "matches": true
+    },
+    {
+      "section": "uids",
+      "path": "scripts/simulation/aircraft_motion/aircraft_motion.gd.uid",
+      "matches": true
+    },
+    {
+      "section": "uids",
+      "path": "tests/test_aircraft_damage.gd.uid",
+      "matches": true
+    },
+    {
+      "section": "uids",
+      "path": "tests/fixtures/aircraft_damage_fixture.gd.uid",
+      "matches": true
+    }
+  ],
+  "all_hashes_match": true,
+  "groups": [
+    {
+      "process_group": 50625,
+      "state": "absent"
+    },
+    {
+      "process_group": 50626,
+      "state": "absent"
+    },
+    {
+      "process_group": 50716,
+      "state": "absent"
+    },
+    {
+      "process_group": 50718,
+      "state": "absent"
+    },
+    {
+      "process_group": 50720,
+      "state": "absent"
+    },
+    {
+      "process_group": 50723,
+      "state": "absent"
+    },
+    {
+      "process_group": 50728,
+      "state": "absent"
+    },
+    {
+      "process_group": 51548,
+      "state": "absent"
+    },
+    {
+      "process_group": 51549,
+      "state": "absent"
+    },
+    {
+      "process_group": 51680,
+      "state": "absent"
+    },
+    {
+      "process_group": 51681,
+      "state": "absent"
+    },
+    {
+      "process_group": 51760,
+      "state": "absent"
+    },
+    {
+      "process_group": 51761,
+      "state": "absent"
+    },
+    {
+      "process_group": 51977,
+      "state": "absent"
+    },
+    {
+      "process_group": 51980,
+      "state": "absent"
+    },
+    {
+      "process_group": 52249,
+      "state": "absent"
+    },
+    {
+      "process_group": 52250,
+      "state": "absent"
+    },
+    {
+      "process_group": 52272,
+      "state": "absent"
+    },
+    {
+      "process_group": 52278,
+      "state": "absent"
+    },
+    {
+      "process_group": 52280,
+      "state": "absent"
+    },
+    {
+      "process_group": 52288,
+      "state": "absent"
+    },
+    {
+      "process_group": 52298,
+      "state": "absent"
+    },
+    {
+      "process_group": 52306,
+      "state": "absent"
+    },
+    {
+      "process_group": 52596,
+      "state": "absent"
+    },
+    {
+      "process_group": 52603,
+      "state": "absent"
+    },
+    {
+      "process_group": 52612,
+      "state": "absent"
+    },
+    {
+      "process_group": 52617,
+      "state": "absent"
+    },
+    {
+      "process_group": 52618,
+      "state": "absent"
+    },
+    {
+      "process_group": 52947,
+      "state": "absent"
+    },
+    {
+      "process_group": 52949,
+      "state": "absent"
+    },
+    {
+      "process_group": 52951,
+      "state": "absent"
+    },
+    {
+      "process_group": 53432,
+      "state": "absent"
+    },
+    {
+      "process_group": 53433,
+      "state": "absent"
+    },
+    {
+      "process_group": 53818,
+      "state": "absent"
+    },
+    {
+      "process_group": 53819,
+      "state": "absent"
+    },
+    {
+      "process_group": 54039,
+      "state": "absent"
+    },
+    {
+      "process_group": 54040,
+      "state": "absent"
+    },
+    {
+      "process_group": 54053,
+      "state": "absent"
+    },
+    {
+      "process_group": 54055,
+      "state": "absent"
+    },
+    {
+      "process_group": 54553,
+      "state": "absent"
+    },
+    {
+      "process_group": 54554,
+      "state": "absent"
+    },
+    {
+      "process_group": 54940,
+      "state": "absent"
+    },
+    {
+      "process_group": 54941,
+      "state": "absent"
+    },
+    {
+      "process_group": 54978,
+      "state": "absent"
+    },
+    {
+      "process_group": 54988,
+      "state": "absent"
+    },
+    {
+      "process_group": 55086,
+      "state": "absent"
+    },
+    {
+      "process_group": 55087,
+      "state": "absent"
+    },
+    {
+      "process_group": 55454,
+      "state": "absent"
+    },
+    {
+      "process_group": 55455,
+      "state": "absent"
+    },
+    {
+      "process_group": 55462,
+      "state": "absent"
+    },
+    {
+      "process_group": 55463,
+      "state": "absent"
+    },
+    {
+      "process_group": 56681,
+      "state": "absent"
+    },
+    {
+      "process_group": 57086,
+      "state": "absent"
+    },
+    {
+      "process_group": 57089,
+      "state": "absent"
+    }
+  ],
+  "all_recorded_groups_absent": true,
+  "visual_seen": [
+    "fx01-r2-review/engine_source_lag.png",
+    "fx01-r1-review/single_wing_3s.png",
+    "fx01-r1-review/water_close_9s.png"
+  ],
+  "findings": [
+    "Old source pose lag confirmed and returned to FX01",
+    "Hard water-mist quad boundary confirmed and returned to FX01",
+    "Revision3 source timing automated result does not replace visual acceptance"
+  ]
+}

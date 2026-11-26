@@ -1,0 +1,38 @@
+{
+	"samples": [
+		{
+			"camera_m": [
+				1878.42932128906,
+				19721.0859375,
+				6435.5263671875
+			],
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 0,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"followed_id": "",
+			"fov": 48.0,
+			"projectiles": [],
+			"shot_label": "扩展群岛总览",
+			"time_s": 0.0
+		}
+	],
+	"scope": "Unmodified normal harbor entry, normal automatic camera; readonly observer; 1280x720",
+	"simulation_s": 0.4,
+	"wall_s": 65.011
+}

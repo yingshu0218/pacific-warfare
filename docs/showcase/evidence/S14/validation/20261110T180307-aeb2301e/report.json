@@ -1,0 +1,68 @@
+{
+  "run_id": "20261110T180307-aeb2301e",
+  "owner": "S14-guided-mechanisms",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 64269,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 64271,
+      "process_group": 64271,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.0207,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T180307-aeb2301e/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_all_units_showcase.gd",
+        "--",
+        "--mode=guided",
+        "--seconds=211"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 64272,
+      "process_group": 64272,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 76.4092,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T180307-aeb2301e/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S14-guided-mechanisms",
+    "pid": 64269,
+    "process_identity": "Wed Nov 11 02:03:07 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S14-guided-mechanisms --timeout 150 --lock-timeout 10 godot -- --script res://tests/test_all_units_showcase.gd -- --mode=guided --seconds=211",
+    "token": "18c4870a07c74f648cbf6edd9b112828",
+    "acquired_utc": "2026-11-10T18:03:07.464392+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

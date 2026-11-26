@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T190008-7d135f04",
+  "owner": "DM01",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-gearfix",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 69197,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-gearfix",
+      "pid": 69199,
+      "process_group": 69199,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.193,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T190008-7d135f04/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-gearfix",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-gearfix",
+      "pid": 69200,
+      "process_group": 69200,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 3.7318,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T190008-7d135f04/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "DM01",
+    "pid": 69197,
+    "process_identity": "Wed Nov 11 03:00:08 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner DM01 --lock-timeout 45 --timeout 75 --project .local/dm01-final-gearfix import",
+    "token": "814a0745a3974e2cabb94ce4044f52f1",
+    "acquired_utc": "2026-11-10T19:00:08.860315+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

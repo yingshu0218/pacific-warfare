@@ -1,0 +1,17 @@
+{
+  "status": "implemented_and_self_verified_pending_supervisor_acceptance",
+  "source_manifest_sha256": "f6efdca87d6db807accead2847943a854821954a8e26027a7a53f552dea0ae03",
+  "evidence_manifest_sha256": "82ec728775ab91673c1d557eb72d86ce177bb3452d42c245bc255f8d339209c7",
+  "checks": {
+    "accepted_damage_mechanisms": 90,
+    "current_models": 41,
+    "original_models": 38,
+    "final_controlled_chrome": 70
+  },
+  "native_clips": 8,
+  "final_fx_revision": "3 patch2",
+  "acceleration_4x_performance": "NOT PASSED; S08 handoff",
+  "normal_1x_p95_ms": 18.8,
+  "all_owned_groups_gone": true,
+  "evidence_files": 278
+}

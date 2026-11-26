@@ -1,0 +1,4260 @@
+{
+  "baseline": {
+    "source": "docs/showcase/evidence/S08/final-20261111/baseline",
+    "samples": 61,
+    "phases": {
+      "warmup": {
+        "frames": {
+          "frames": 521,
+          "p50_ms": 13.899999999999636,
+          "p95_ms": 28.100000000000364,
+          "p99_ms": 54.879999999999285,
+          "mean_ms": 29.138579654510558,
+          "mean_fps": 34.318762680157036,
+          "over_33_3ms_ratio": 0.044145873320537425,
+          "over_50ms_ratio": 0.01727447216890595,
+          "max_ms": 7272.5
+        },
+        "requested": 1,
+        "actual_scale": 0.9829592684954286,
+        "wall_s": 8.02,
+        "sim_s": [
+          0.783333333333333,
+          8.66666666666667
+        ],
+        "pending_s": [
+          0.00290000000000089,
+          0.0082666666666677
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 21.546134663341647,
+          "aircraft_tasks": 79.5635910224439,
+          "battlefield_terrain": 0.18703241895261846,
+          "combat_contacts": 73.99002493765586,
+          "combat_damage": 6.346633416458853,
+          "combat_frame": 1.4339152119700749,
+          "combat_projectiles": 15.673316708229427,
+          "combat_targeting": 37.44389027431422,
+          "combat_weapons": 56.44638403990025,
+          "fleet_commander": 0.24937655860349128,
+          "fleet_tasks": 44.22693266832918,
+          "ground_commander": 0.2743142144638404,
+          "ground_tasks": 39.052369077306736,
+          "orders_snapshot": 11.932668329177059,
+          "s14_missions": 0.33665835411471323,
+          "ship_motion": 5.399002493765586
+        }
+      },
+      "baseline_1x": {
+        "frames": {
+          "frames": 2392,
+          "p50_ms": 10.900000000001455,
+          "p95_ms": 23.79999999999891,
+          "p99_ms": 42.84500000000233,
+          "mean_ms": 12.61923076923077,
+          "mean_fps": 79.24413288631514,
+          "over_33_3ms_ratio": 0.02048494983277592,
+          "over_50ms_ratio": 0.002508361204013378,
+          "max_ms": 83.69999999999709
+        },
+        "requested": 1,
+        "actual_scale": 0.9989449719584664,
+        "wall_s": 30.015,
+        "sim_s": [
+          8.78333333333333,
+          38.7666666666667
+        ],
+        "pending_s": [
+          0.00277777777777784,
+          0.011475757575759
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 21.425953689821757,
+          "aircraft_tasks": 82.77194735965351,
+          "battlefield_terrain": 0.2232217224720973,
+          "combat_contacts": 68.93886390138263,
+          "combat_damage": 6.503414959187072,
+          "combat_frame": 1.5025820423121772,
+          "combat_projectiles": 23.5015825420623,
+          "combat_targeting": 37.98100949525237,
+          "combat_weapons": 46.01365983674829,
+          "fleet_commander": 0.3364984174579377,
+          "fleet_tasks": 43.4216225220723,
+          "ground_commander": 0.24987506246876562,
+          "ground_tasks": 38.74729302015659,
+          "orders_snapshot": 14.865900383141762,
+          "s14_missions": 0.21655838747293019,
+          "ship_motion": 4.820922871897384
+        }
+      },
+      "baseline_2x": {
+        "frames": {
+          "frames": 672,
+          "p50_ms": 13.900000000001455,
+          "p95_ms": 38.60000000000582,
+          "p99_ms": 49.04499999999627,
+          "mean_ms": 16.54627976190476,
+          "mean_fps": 60.43654612333733,
+          "over_33_3ms_ratio": 0.07738095238095238,
+          "over_50ms_ratio": 0.005952380952380952,
+          "max_ms": 65.70000000000437
+        },
+        "requested": 2,
+        "actual_scale": 1.9941456275155471,
+        "wall_s": 10.021,
+        "sim_s": [
+          39.5166666666667,
+          59.5
+        ],
+        "pending_s": [
+          0.00404444444444593,
+          0.00404444444444383
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 44.606326713900806,
+          "aircraft_tasks": 154.09639756511325,
+          "battlefield_terrain": 0.28939227621993807,
+          "combat_contacts": 117.71280311346172,
+          "combat_damage": 13.202275222033728,
+          "combat_frame": 2.47480291388085,
+          "combat_projectiles": 22.98173834946612,
+          "combat_targeting": 54.42570601736353,
+          "combat_weapons": 69.12483784053488,
+          "fleet_commander": 0.5588264644247081,
+          "fleet_tasks": 77.21784253068554,
+          "ground_commander": 0.41911984831853105,
+          "ground_tasks": 70.56182017762698,
+          "orders_snapshot": 35.82476798722682,
+          "s14_missions": 0.41911984831853105,
+          "ship_motion": 7.763696237900408
+        }
+      },
+      "baseline_4x": {
+        "frames": {
+          "frames": 167,
+          "p50_ms": 78.80000000000291,
+          "p95_ms": 95.89000000000232,
+          "p99_ms": 99.10999999999375,
+          "mean_ms": 74.67425149700603,
+          "mean_fps": 13.39149680047471,
+          "over_33_3ms_ratio": 0.9041916167664671,
+          "over_50ms_ratio": 0.8862275449101796,
+          "max_ms": 102.80000000000291
+        },
+        "requested": 4,
+        "actual_scale": 3.2698149682407873,
+        "wall_s": 12.07,
+        "sim_s": [
+          61.3166666666667,
+          100.783333333333
+        ],
+        "pending_s": [
+          0.0148666666666691,
+          8.77726666666658
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 68.20215410107706,
+          "aircraft_tasks": 241.5741507870754,
+          "battlefield_terrain": 0.3148301574150787,
+          "combat_contacts": 143.97680198840098,
+          "combat_damage": 20.32311516155758,
+          "combat_frame": 2.742336371168186,
+          "combat_projectiles": 18.4009942004971,
+          "combat_targeting": 80.73736536868269,
+          "combat_weapons": 100.27340513670256,
+          "fleet_commander": 0.9279204639602319,
+          "fleet_tasks": 119.86743993371996,
+          "ground_commander": 0.7207953603976801,
+          "ground_tasks": 110.31483015741507,
+          "orders_snapshot": 56.55343827671914,
+          "s14_missions": 0.5965202982601492,
+          "ship_motion": 11.333885666942834
+        }
+      }
+    },
+    "identity": {
+      "url": "http://127.0.0.1:8765/index.html",
+      "title": "海空交锋 · 全单位 Showcase",
+      "dpr": 1,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "cssWidth": 1280,
+        "cssHeight": 720,
+        "bufferWidth": 1280,
+        "bufferHeight": 720
+      },
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "uaData": {
+        "architecture": "arm",
+        "bitness": "64",
+        "brands": [
+          {
+            "brand": "Not-A.Brand",
+            "version": "99"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "157"
+          },
+          {
+            "brand": "Chromium",
+            "version": "157"
+          }
+        ],
+        "fullVersionList": [
+          {
+            "brand": "Not-A.Brand",
+            "version": "99.0.0.0"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "157.0.8103.39"
+          },
+          {
+            "brand": "Chromium",
+            "version": "157.0.8103.39"
+          }
+        ],
+        "mobile": false,
+        "platform": "macOS"
+      },
+      "validationFixture": "undefined"
+    },
+    "passed": true,
+    "failure": null,
+    "cleanup": {
+      "chromeClosed": true,
+      "serverExited": true,
+      "profileRemoved": true
+    },
+    "hardware": {
+      "cpu": "Apple M5",
+      "memoryBytes": 17179869184,
+      "macos": "26.6.2"
+    },
+    "wasm_bytes_range": [
+      173670400,
+      173670400
+    ],
+    "js_heap_bytes_range": [
+      33251435,
+      65090635
+    ],
+    "sample_sources_created_max": 0,
+    "audio_peak": 0,
+    "paused_audio_rms_max_after_300ms": null,
+    "audible_rms_max": null,
+    "peak_fragments": 0,
+    "peaks": {
+      "units": 19,
+      "mounts": 167,
+      "projectile_peak": 64,
+      "draw_calls": 2095,
+      "node_count": 4701
+    },
+    "effects_peak": {
+      "allocated": 228,
+      "active": 218,
+      "render_instances": 228,
+      "visible_instances": 218,
+      "dropped": 0,
+      "sound_sources": 0,
+      "engine_sources": 4
+    },
+    "restarts": [],
+    "natural_active_wall_s": 0,
+    "natural_sim_s": 0,
+    "natural_frames": null,
+    "natural_state": {
+      "samples": 0,
+      "paused_samples": 0,
+      "ended_samples": 0,
+      "moving_units_range": null,
+      "active_units_range": null
+    },
+    "by_generation": {
+      "1": {
+        "sim_s": [
+          1,
+          100.25
+        ],
+        "node_count_range": [
+          4506,
+          4701
+        ],
+        "nodes_at_25_to_40s": [
+          4609,
+          4609,
+          4609,
+          4609,
+          4609,
+          4609,
+          4611,
+          4625,
+          4626,
+          4626,
+          4685,
+          4701,
+          4701,
+          4701,
+          4701
+        ],
+        "fragments_peak": 0,
+        "counts_max": {
+          "surface_impact": 103,
+          "airburst": 35,
+          "fleet_flagship_changed": 7,
+          "target_changed": 26,
+          "main_gun_fire": 61,
+          "damage_phase": 8,
+          "order_execution_changed": 650,
+          "hit": 54,
+          "order_assignments_changed": 25,
+          "order_issued": 16,
+          "salvo": 43,
+          "damaged": 20,
+          "disabled": 4,
+          "coastal_gun_fire": 1,
+          "order_status_changed": 41,
+          "command_applied": 42,
+          "ship_support_fire": 130,
+          "fired": 192
+        }
+      }
+    },
+    "owned_process_memory": {
+      "80547": {
+        "type": "browser",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          70026896,
+          75007608
+        ],
+        "resident_bytes_range": [
+          68911104,
+          126074880
+        ],
+        "first_utc": "2026-11-10T21:30:27.894Z",
+        "last_utc": "2026-11-10T21:31:25.353Z"
+      },
+      "80565": {
+        "type": "renderer",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          12207208,
+          12223592
+        ],
+        "resident_bytes_range": [
+          26050560,
+          35815424
+        ],
+        "first_utc": "2026-11-10T21:30:27.894Z",
+        "last_utc": "2026-11-10T21:31:25.353Z"
+      },
+      "80566": {
+        "type": "renderer",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          426150120,
+          491194600
+        ],
+        "resident_bytes_range": [
+          192380928,
+          354451456
+        ],
+        "first_utc": "2026-11-10T21:30:27.894Z",
+        "last_utc": "2026-11-10T21:31:25.353Z"
+      },
+      "80564": {
+        "type": "renderer",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          25806096,
+          28673296
+        ],
+        "resident_bytes_range": [
+          42549248,
+          61259776
+        ],
+        "first_utc": "2026-11-10T21:30:27.894Z",
+        "last_utc": "2026-11-10T21:31:25.353Z"
+      },
+      "80555": {
+        "type": "GPU",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          390120792,
+          455312728
+        ],
+        "resident_bytes_range": [
+          78872576,
+          158236672
+        ],
+        "first_utc": "2026-11-10T21:30:27.894Z",
+        "last_utc": "2026-11-10T21:31:25.353Z"
+      },
+      "80556": {
+        "type": "network.mojom.NetworkService",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          9159616,
+          9569216
+        ],
+        "resident_bytes_range": [
+          27066368,
+          43384832
+        ],
+        "first_utc": "2026-11-10T21:30:27.894Z",
+        "last_utc": "2026-11-10T21:31:25.353Z"
+      },
+      "80562": {
+        "type": "storage.mojom.StorageService",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          5866360,
+          5981048
+        ],
+        "resident_bytes_range": [
+          19234816,
+          23953408
+        ],
+        "first_utc": "2026-11-10T21:30:27.894Z",
+        "last_utc": "2026-11-10T21:31:25.353Z"
+      },
+      "80574": {
+        "type": "audio.mojom.AudioService",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          12223592,
+          12813416
+        ],
+        "resident_bytes_range": [
+          34979840,
+          50528256
+        ],
+        "first_utc": "2026-11-10T21:30:27.894Z",
+        "last_utc": "2026-11-10T21:31:25.353Z"
+      }
+    },
+    "build_outputs": null,
+    "actual_R_key_presses": 0,
+    "effects_preempted_peak": 0,
+    "effects_unallocated_peak": 0,
+    "final_state": {
+      "buttons": {
+        "4 倍": [
+          127,
+          680
+        ],
+        "启用声音": [
+          839,
+          680
+        ],
+        "大和": [
+          450.5,
+          680
+        ],
+        "恢复信息": [
+          745,
+          680
+        ],
+        "战报": [
+          917,
+          680
+        ],
+        "指挥态势": [
+          651,
+          680
+        ],
+        "暂停": [
+          52,
+          680
+        ],
+        "港口兵器检视（不重置）": [
+          599,
+          104
+        ],
+        "结束": [
+          979,
+          680
+        ],
+        "继续导览": [
+          396,
+          104
+        ],
+        "自动电影": [
+          218,
+          680
+        ],
+        "自由观察": [
+          312,
+          680
+        ],
+        "跟随": [
+          573,
+          680
+        ],
+        "连续导览": [
+          146,
+          104
+        ],
+        "重开": [
+          1041,
+          680
+        ],
+        "重新演示": [
+          304,
+          104
+        ]
+      },
+      "camera_mode": "free",
+      "controls": {
+        "map": [
+          1137,
+          498.5
+        ],
+        "segment": [
+          146,
+          104
+        ],
+        "speed": [
+          127,
+          680
+        ],
+        "unit": [
+          450.5,
+          680
+        ],
+        "weapon": [
+          599,
+          104
+        ]
+      },
+      "effects": {
+        "active": 14,
+        "allocated": 228,
+        "dropped": 0,
+        "engine_sources": 4,
+        "last_sequence": 1269,
+        "materials": 228,
+        "peak_visible": 228,
+        "preempted": 0,
+        "render_instances": 228,
+        "shown_events": 1269,
+        "sound_sources": 0,
+        "visible_instances": 14
+      },
+      "ended": "",
+      "exercise": "guided",
+      "followed_id": "",
+      "fragments": 0,
+      "gallery_index": 0,
+      "generation": 1,
+      "label": "演示模式 · 真实立体飞行 · 地平线固定 / 滚转后拉杆",
+      "models": 19,
+      "modes": [
+        "guided",
+        "pair",
+        "four",
+        "maneuver",
+        "escort",
+        "fire",
+        "train_us_bank_turn",
+        "train_us_climb_dive",
+        "train_us_axial_roll",
+        "train_us_roll_reversal",
+        "train_us_split_s",
+        "train_jp_bank_turn",
+        "train_jp_climb_dive",
+        "train_jp_axial_roll",
+        "train_jp_roll_reversal",
+        "train_jp_split_s"
+      ],
+      "paused": false,
+      "pending_s": 8.92845714285703,
+      "pitch": 0.17,
+      "popups": {
+        "segment": {
+          "count": 16,
+          "metadata": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "position": [
+            0,
+            0
+          ],
+          "size": [
+            152,
+            440
+          ],
+          "visible": false
+        },
+        "speed": {
+          "count": 4,
+          "metadata": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "position": [
+            86,
+            600
+          ],
+          "size": [
+            82,
+            120
+          ],
+          "visible": false
+        },
+        "unit": {
+          "count": 19,
+          "metadata": [
+            "jp_air_1",
+            "jp_air_2",
+            "jp_air_3",
+            "jp_air_4",
+            "jp_bb",
+            "jp_dd",
+            "us_aa_01",
+            "us_aa_02",
+            "us_air_1",
+            "us_air_2",
+            "us_air_3",
+            "us_air_4",
+            "us_bb",
+            "us_coast_01",
+            "us_dd",
+            "us_pair_demo_1",
+            "us_pair_demo_2",
+            "us_sb2c_1",
+            "us_sb2c_2"
+          ],
+          "position": [
+            0,
+            0
+          ],
+          "size": [
+            100,
+            100
+          ],
+          "visible": false
+        },
+        "weapon": {
+          "count": 6,
+          "metadata": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "position": [
+            0,
+            0
+          ],
+          "size": [
+            100,
+            100
+          ],
+          "visible": false
+        }
+      },
+      "sound": false,
+      "speed": 4,
+      "tick": 6079,
+      "time_s": 101.316666666667,
+      "timeline_buttons": [],
+      "ui": {
+        "both_cards": false,
+        "cinema": true,
+        "detail": "选择一条指令查看各成员执行进度。",
+        "expanded": false,
+        "report": false,
+        "report_text": "截至 01:40\n\n日方指挥官\n可战 0 舰 / 4 机 · 沉没 2 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 37 发 · 剩余 120863 发 · 耗油 34.6 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 155 发 · 剩余 226655 发 · 耗油 109.0 千克\n岸防 1 炮组 · 失能 1 · 摧毁 1",
+        "status": "01:40   观战中 · 4.0 倍 · 正在追赶 8.8 秒",
+        "timeline": false
+      },
+      "yaw": -1.32779756108608
+    }
+  },
+  "optimized": {
+    "source": "docs/showcase/evidence/S08/final-20261111/optimized",
+    "samples": 60,
+    "phases": {
+      "warmup": {
+        "frames": {
+          "frames": 641,
+          "p50_ms": 10.699999999998909,
+          "p95_ms": 22.600000000000364,
+          "p99_ms": 48.91999999999936,
+          "mean_ms": 12.506864274570983,
+          "mean_fps": 79.95609275405705,
+          "over_33_3ms_ratio": 0.028081123244929798,
+          "over_50ms_ratio": 0.0093603744149766,
+          "max_ms": 198.89999999999964
+        },
+        "requested": 1,
+        "actual_scale": 1.0009572564198612,
+        "wall_s": 8.009,
+        "sim_s": [
+          0.75,
+          8.76666666666667
+        ],
+        "pending_s": [
+          0.015700000000001,
+          0.00246666666666782
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 21.46335372705706,
+          "aircraft_tasks": 41.340991384692224,
+          "battlefield_terrain": 0.27469097265576226,
+          "combat_contacts": 75.49007366712449,
+          "combat_damage": 6.242976651267324,
+          "combat_frame": 1.2860531901610688,
+          "combat_projectiles": 15.195405169184667,
+          "combat_targeting": 36.64627294293919,
+          "combat_weapons": 55.31277313022849,
+          "fleet_commander": 0.2372331127481583,
+          "fleet_tasks": 12.560869022349856,
+          "ground_commander": 0.1997752528405544,
+          "ground_tasks": 7.803720814084155,
+          "orders_snapshot": 12.610812835559994,
+          "owned_order_unit_ids": 4.257710076164315,
+          "s14_missions": 0.24971906605069297,
+          "ship_motion": 4.944437507803721
+        }
+      },
+      "baseline_1x": {
+        "frames": {
+          "frames": 2810,
+          "p50_ms": 8.700000000000728,
+          "p95_ms": 21.100000000001366,
+          "p99_ms": 37.05500000000211,
+          "mean_ms": 10.659786476868327,
+          "mean_fps": 93.81050944782,
+          "over_33_3ms_ratio": 0.014234875444839857,
+          "over_50ms_ratio": 0.0014234875444839859,
+          "max_ms": 57.5
+        },
+        "requested": 1,
+        "actual_scale": 0.9987557214593596,
+        "wall_s": 30.004,
+        "sim_s": [
+          8.76666666666667,
+          38.7333333333333
+        ],
+        "pending_s": [
+          0.00246666666666782,
+          1.80411241501588e-16
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 20.203972803626183,
+          "aircraft_tasks": 41.85441941074523,
+          "battlefield_terrain": 0.2932942274363418,
+          "combat_contacts": 67.1410478602853,
+          "combat_damage": 6.1858418877483,
+          "combat_frame": 1.4098120250633248,
+          "combat_projectiles": 21.95707239034795,
+          "combat_targeting": 36.81175843220904,
+          "combat_weapons": 43.59752033062258,
+          "fleet_commander": 0.3466204506065858,
+          "fleet_tasks": 11.508465537928275,
+          "ground_commander": 0.2233035595253966,
+          "ground_tasks": 7.615651246500466,
+          "orders_snapshot": 13.99146780429276,
+          "owned_order_unit_ids": 4.279429409412078,
+          "s14_missions": 0.2233035595253966,
+          "ship_motion": 4.469404079456072
+        }
+      },
+      "baseline_2x": {
+        "frames": {
+          "frames": 874,
+          "p50_ms": 8.799999999999272,
+          "p95_ms": 24.334999999997663,
+          "p99_ms": 37.01600000000172,
+          "mean_ms": 11.358695652173912,
+          "mean_fps": 88.03827751196172,
+          "over_33_3ms_ratio": 0.013729977116704805,
+          "over_50ms_ratio": 0.0,
+          "max_ms": 49.900000000001455
+        },
+        "requested": 2,
+        "actual_scale": 1.9908703185392445,
+        "wall_s": 10.004,
+        "sim_s": [
+          39.3666666666667,
+          59.2833333333333
+        ],
+        "pending_s": [
+          0.012777777777778,
+          0.00337777777778134
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 37.64494202319073,
+          "aircraft_tasks": 80.2079168332667,
+          "battlefield_terrain": 0.3398640543782487,
+          "combat_contacts": 102.30907636945223,
+          "combat_damage": 11.355457816873251,
+          "combat_frame": 2.2491003598560577,
+          "combat_projectiles": 20.361855257896842,
+          "combat_targeting": 47.53098760495802,
+          "combat_weapons": 59.41623350659736,
+          "fleet_commander": 0.5397840863654538,
+          "fleet_tasks": 20.611755297880848,
+          "ground_commander": 0.22990803678528587,
+          "ground_tasks": 15.393842463014796,
+          "orders_snapshot": 29.858056777289086,
+          "owned_order_unit_ids": 7.9368252698920445,
+          "s14_missions": 0.429828068772491,
+          "ship_motion": 6.62734906037585
+        }
+      },
+      "baseline_4x": {
+        "frames": {
+          "frames": 403,
+          "p50_ms": 25.099999999998545,
+          "p95_ms": 46.08999999999869,
+          "p99_ms": 49.59399999999864,
+          "mean_ms": 27.638957816377154,
+          "mean_fps": 36.180814292768346,
+          "over_33_3ms_ratio": 0.2704714640198511,
+          "over_50ms_ratio": 0.009925558312655087,
+          "max_ms": 66.30000000000291
+        },
+        "requested": 4,
+        "actual_scale": 3.984543792587693,
+        "wall_s": 12.034,
+        "sim_s": [
+          59.9666666666667,
+          107.916666666667
+        ],
+        "pending_s": [
+          0.00219595959596317,
+          0.00979595959597312
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 69.67758018946319,
+          "aircraft_tasks": 159.90526840618247,
+          "battlefield_terrain": 0.22436430114675088,
+          "combat_contacts": 149.76732590992188,
+          "combat_damage": 20.566727605118828,
+          "combat_frame": 3.099551271397706,
+          "combat_projectiles": 18.6056174173176,
+          "combat_targeting": 82.70732923383746,
+          "combat_weapons": 104.22137277713146,
+          "fleet_commander": 0.9639355160378925,
+          "fleet_tasks": 40.152900116337044,
+          "ground_commander": 0.7645005816852251,
+          "ground_tasks": 31.801562240319093,
+          "orders_snapshot": 59.855409672594305,
+          "owned_order_unit_ids": 15.032408176832307,
+          "s14_missions": 0.5068971248130297,
+          "ship_motion": 11.068638856573042
+        }
+      }
+    },
+    "identity": {
+      "url": "http://127.0.0.1:8765/index.html",
+      "title": "海空交锋 · 全单位 Showcase",
+      "dpr": 1,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "cssWidth": 1280,
+        "cssHeight": 720,
+        "bufferWidth": 1280,
+        "bufferHeight": 720
+      },
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "uaData": {
+        "architecture": "arm",
+        "bitness": "64",
+        "brands": [
+          {
+            "brand": "Not-A.Brand",
+            "version": "99"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "157"
+          },
+          {
+            "brand": "Chromium",
+            "version": "157"
+          }
+        ],
+        "fullVersionList": [
+          {
+            "brand": "Not-A.Brand",
+            "version": "99.0.0.0"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "157.0.8103.39"
+          },
+          {
+            "brand": "Chromium",
+            "version": "157.0.8103.39"
+          }
+        ],
+        "mobile": false,
+        "platform": "macOS"
+      },
+      "validationFixture": "undefined"
+    },
+    "passed": true,
+    "failure": null,
+    "cleanup": {
+      "chromeClosed": true,
+      "serverExited": true,
+      "profileRemoved": true
+    },
+    "hardware": {
+      "cpu": "Apple M5",
+      "memoryBytes": 17179869184,
+      "macos": "26.6.2"
+    },
+    "wasm_bytes_range": [
+      173670400,
+      173670400
+    ],
+    "js_heap_bytes_range": [
+      33496916,
+      63405445
+    ],
+    "sample_sources_created_max": 0,
+    "audio_peak": 0,
+    "paused_audio_rms_max_after_300ms": null,
+    "audible_rms_max": null,
+    "peak_fragments": 0,
+    "peaks": {
+      "units": 19,
+      "mounts": 167,
+      "projectile_peak": 64,
+      "draw_calls": 2097,
+      "node_count": 4701
+    },
+    "effects_peak": {
+      "allocated": 228,
+      "active": 215,
+      "render_instances": 228,
+      "visible_instances": 215,
+      "dropped": 0,
+      "sound_sources": 0,
+      "engine_sources": 4
+    },
+    "restarts": [],
+    "natural_active_wall_s": 0,
+    "natural_sim_s": 0,
+    "natural_frames": null,
+    "natural_state": {
+      "samples": 0,
+      "paused_samples": 0,
+      "ended_samples": 0,
+      "moving_units_range": null,
+      "active_units_range": null
+    },
+    "by_generation": {
+      "1": {
+        "sim_s": [
+          1,
+          104.516666666667
+        ],
+        "node_count_range": [
+          4506,
+          4701
+        ],
+        "nodes_at_25_to_40s": [
+          4609,
+          4609,
+          4609,
+          4609,
+          4609,
+          4609,
+          4609,
+          4625,
+          4626,
+          4626,
+          4685,
+          4701,
+          4701,
+          4701,
+          4701
+        ],
+        "fragments_peak": 0,
+        "counts_max": {
+          "surface_impact": 103,
+          "airburst": 35,
+          "fleet_flagship_changed": 7,
+          "target_changed": 28,
+          "main_gun_fire": 61,
+          "damage_phase": 8,
+          "order_execution_changed": 675,
+          "hit": 54,
+          "order_assignments_changed": 25,
+          "order_issued": 16,
+          "salvo": 43,
+          "damaged": 20,
+          "disabled": 4,
+          "coastal_gun_fire": 1,
+          "order_status_changed": 41,
+          "command_applied": 44,
+          "ship_support_fire": 130,
+          "fired": 192
+        }
+      }
+    },
+    "owned_process_memory": {
+      "82197": {
+        "type": "browser",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          77121408,
+          82790272
+        ],
+        "resident_bytes_range": [
+          78479360,
+          125059072
+        ],
+        "first_utc": "2026-11-10T21:47:55.595Z",
+        "last_utc": "2026-11-10T21:48:52.330Z"
+      },
+      "82224": {
+        "type": "renderer",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          14189840,
+          14206224
+        ],
+        "resident_bytes_range": [
+          27787264,
+          36290560
+        ],
+        "first_utc": "2026-11-10T21:47:55.595Z",
+        "last_utc": "2026-11-10T21:48:52.330Z"
+      },
+      "82225": {
+        "type": "renderer",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          408094976,
+          472484144
+        ],
+        "resident_bytes_range": [
+          156368896,
+          334643200
+        ],
+        "first_utc": "2026-11-10T21:47:55.595Z",
+        "last_utc": "2026-11-10T21:48:52.330Z"
+      },
+      "82222": {
+        "type": "renderer",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          39814560,
+          49038752
+        ],
+        "resident_bytes_range": [
+          51953664,
+          74891264
+        ],
+        "first_utc": "2026-11-10T21:47:55.595Z",
+        "last_utc": "2026-11-10T21:48:52.330Z"
+      },
+      "82209": {
+        "type": "GPU",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          394233200,
+          422184352
+        ],
+        "resident_bytes_range": [
+          95141888,
+          164675584
+        ],
+        "first_utc": "2026-11-10T21:47:55.595Z",
+        "last_utc": "2026-11-10T21:48:52.330Z"
+      },
+      "82210": {
+        "type": "network.mojom.NetworkService",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          9110440,
+          9601960
+        ],
+        "resident_bytes_range": [
+          29032448,
+          42401792
+        ],
+        "first_utc": "2026-11-10T21:47:55.595Z",
+        "last_utc": "2026-11-10T21:48:52.330Z"
+      },
+      "82216": {
+        "type": "storage.mojom.StorageService",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          5915512,
+          6030200
+        ],
+        "resident_bytes_range": [
+          19021824,
+          24969216
+        ],
+        "first_utc": "2026-11-10T21:47:55.595Z",
+        "last_utc": "2026-11-10T21:48:52.330Z"
+      },
+      "82233": {
+        "type": "audio.mojom.AudioService",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 12,
+        "physical_footprint_bytes_range": [
+          11060304,
+          12731496
+        ],
+        "resident_bytes_range": [
+          28524544,
+          40124416
+        ],
+        "first_utc": "2026-11-10T21:47:55.595Z",
+        "last_utc": "2026-11-10T21:48:52.330Z"
+      }
+    },
+    "build_outputs": {
+      "index.apple-touch-icon.png": {
+        "bytes": 11944,
+        "sha256": "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+      },
+      "index.wasm": {
+        "bytes": 39514754,
+        "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+      },
+      "index.icon.png": {
+        "bytes": 5700,
+        "sha256": "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+      },
+      "index.html": {
+        "bytes": 5679,
+        "sha256": "3a47a1ab7b62ce438481a0e0d4069c4025c461e070e81330e0c73df3576d9925"
+      },
+      "index.png": {
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      "index.audio.worklet.js": {
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      "index.js": {
+        "bytes": 279815,
+        "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+      },
+      "index.audio.position.worklet.js": {
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      "index.pck": {
+        "bytes": 16747256,
+        "sha256": "edcbad51ca5ae54126d5cf6565bdd5ff1c1de117a3de78601cb609e4e7f5a2bc"
+      }
+    },
+    "actual_R_key_presses": 0,
+    "effects_preempted_peak": 0,
+    "effects_unallocated_peak": 0,
+    "final_state": {
+      "buttons": {
+        "4 倍": [
+          127,
+          680
+        ],
+        "启用声音": [
+          839,
+          680
+        ],
+        "大和": [
+          450.5,
+          680
+        ],
+        "恢复信息": [
+          745,
+          680
+        ],
+        "战报": [
+          917,
+          680
+        ],
+        "指挥态势": [
+          651,
+          680
+        ],
+        "暂停": [
+          52,
+          680
+        ],
+        "港口兵器检视（不重置）": [
+          599,
+          104
+        ],
+        "结束": [
+          979,
+          680
+        ],
+        "继续导览": [
+          396,
+          104
+        ],
+        "自动电影": [
+          218,
+          680
+        ],
+        "自由观察": [
+          312,
+          680
+        ],
+        "跟随": [
+          573,
+          680
+        ],
+        "连续导览": [
+          146,
+          104
+        ],
+        "重开": [
+          1041,
+          680
+        ],
+        "重新演示": [
+          304,
+          104
+        ]
+      },
+      "camera_mode": "free",
+      "controls": {
+        "map": [
+          1137,
+          498.5
+        ],
+        "segment": [
+          146,
+          104
+        ],
+        "speed": [
+          127,
+          680
+        ],
+        "unit": [
+          450.5,
+          680
+        ],
+        "weapon": [
+          599,
+          104
+        ]
+      },
+      "effects": {
+        "active": 18,
+        "allocated": 228,
+        "dropped": 0,
+        "engine_sources": 4,
+        "last_sequence": 1312,
+        "materials": 228,
+        "peak_visible": 228,
+        "preempted": 0,
+        "render_instances": 228,
+        "shown_events": 1312,
+        "sound_sources": 0,
+        "visible_instances": 18
+      },
+      "ended": "",
+      "exercise": "guided",
+      "followed_id": "",
+      "fragments": 0,
+      "gallery_index": 0,
+      "generation": 1,
+      "label": "演示模式 · 真实立体飞行 · 地平线固定 / 滚转后拉杆",
+      "models": 19,
+      "modes": [
+        "guided",
+        "pair",
+        "four",
+        "maneuver",
+        "escort",
+        "fire",
+        "train_us_bank_turn",
+        "train_us_climb_dive",
+        "train_us_axial_roll",
+        "train_us_roll_reversal",
+        "train_us_split_s",
+        "train_jp_bank_turn",
+        "train_jp_climb_dive",
+        "train_jp_axial_roll",
+        "train_jp_roll_reversal",
+        "train_jp_split_s"
+      ],
+      "paused": false,
+      "pending_s": 0.00979595959597312,
+      "pitch": 0.17,
+      "popups": {
+        "segment": {
+          "count": 16,
+          "metadata": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "position": [
+            0,
+            0
+          ],
+          "size": [
+            152,
+            440
+          ],
+          "visible": false
+        },
+        "speed": {
+          "count": 4,
+          "metadata": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "position": [
+            86,
+            600
+          ],
+          "size": [
+            82,
+            120
+          ],
+          "visible": false
+        },
+        "unit": {
+          "count": 19,
+          "metadata": [
+            "jp_air_1",
+            "jp_air_2",
+            "jp_air_3",
+            "jp_air_4",
+            "jp_bb",
+            "jp_dd",
+            "us_aa_01",
+            "us_aa_02",
+            "us_air_1",
+            "us_air_2",
+            "us_air_3",
+            "us_air_4",
+            "us_bb",
+            "us_coast_01",
+            "us_dd",
+            "us_pair_demo_1",
+            "us_pair_demo_2",
+            "us_sb2c_1",
+            "us_sb2c_2"
+          ],
+          "position": [
+            0,
+            0
+          ],
+          "size": [
+            100,
+            100
+          ],
+          "visible": false
+        },
+        "weapon": {
+          "count": 6,
+          "metadata": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "position": [
+            0,
+            0
+          ],
+          "size": [
+            100,
+            100
+          ],
+          "visible": false
+        }
+      },
+      "sound": false,
+      "speed": 4,
+      "tick": 6475,
+      "time_s": 107.916666666667,
+      "timeline_buttons": [],
+      "ui": {
+        "both_cards": false,
+        "cinema": true,
+        "detail": "选择一条指令查看各成员执行进度。",
+        "expanded": false,
+        "report": false,
+        "report_text": "截至 01:47\n\n日方指挥官\n可战 0 舰 / 4 机 · 沉没 2 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 37 发 · 剩余 120863 发 · 耗油 37.5 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 155 发 · 剩余 226655 发 · 耗油 120.6 千克\n岸防 1 炮组 · 失能 1 · 摧毁 1",
+        "status": "01:47   观战中 · 4.0 倍",
+        "timeline": false
+      },
+      "yaw": -1.51769697769364,
+      "browser_at_ms": 68667.5
+    }
+  },
+  "chrome": {
+    "source": "docs/showcase/evidence/S08/final-20261111/chrome",
+    "samples": 674,
+    "phases": {
+      "warmup": {
+        "frames": {
+          "frames": 560,
+          "p50_ms": 12.799999999999272,
+          "p95_ms": 23.915000000001406,
+          "p99_ms": 48.05099999999973,
+          "mean_ms": 14.188928571428571,
+          "mean_fps": 70.47748496060812,
+          "over_33_3ms_ratio": 0.030357142857142857,
+          "over_50ms_ratio": 0.007142857142857143,
+          "max_ms": 232.6999999999989
+        },
+        "requested": 1,
+        "actual_scale": 0.9853954028711311,
+        "wall_s": 8.033,
+        "sim_s": [
+          0.983333333333333,
+          8.9
+        ],
+        "pending_s": [
+          0.00230000000000051,
+          0.00740000000000069
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 20.851487613593925,
+          "aircraft_tasks": 40.234034607245114,
+          "battlefield_terrain": 0.1991783891447778,
+          "combat_contacts": 69.66264160338604,
+          "combat_damage": 5.813519233163203,
+          "combat_frame": 1.3071081787626044,
+          "combat_projectiles": 14.62716295281962,
+          "combat_targeting": 35.864558695381554,
+          "combat_weapons": 52.84451636997386,
+          "fleet_commander": 0.3112162330387153,
+          "fleet_tasks": 11.651935764969501,
+          "ground_commander": 0.1991783891447778,
+          "ground_tasks": 7.44429229428607,
+          "orders_snapshot": 11.328270882609237,
+          "owned_order_unit_ids": 4.369475911863563,
+          "s14_missions": 0.18672973982322918,
+          "ship_motion": 4.75538404083157
+        }
+      },
+      "audible": {
+        "frames": {
+          "frames": 903,
+          "p50_ms": 8.899999999997817,
+          "p95_ms": 20.470000000000066,
+          "p99_ms": 42.09600000000217,
+          "mean_ms": 11.139756367663345,
+          "mean_fps": 89.76857006521392,
+          "over_33_3ms_ratio": 0.02547065337763012,
+          "over_50ms_ratio": 0.0022148394241417496,
+          "max_ms": 54.29999999999927
+        },
+        "requested": 1,
+        "actual_scale": 1.0036951962448848,
+        "wall_s": 10.013,
+        "sim_s": [
+          9.46666666666667,
+          19.5166666666667
+        ],
+        "pending_s": [
+          3.33333333340444e-05,
+          0.0164666666666675
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 21.272345950264658,
+          "aircraft_tasks": 43.004094676920005,
+          "battlefield_terrain": 0.2496754219514631,
+          "combat_contacts": 72.77539199041247,
+          "combat_damage": 6.621392190152801,
+          "combat_frame": 1.448117447318486,
+          "combat_projectiles": 18.44602017377409,
+          "combat_targeting": 38.879456706281836,
+          "combat_weapons": 43.024068710676126,
+          "fleet_commander": 0.30959752321981426,
+          "fleet_tasks": 11.894537101767702,
+          "ground_commander": 0.2596624388295216,
+          "ground_tasks": 7.6400679117147705,
+          "orders_snapshot": 12.993108958354139,
+          "owned_order_unit_ids": 4.574053730150804,
+          "s14_missions": 0.22970138819534602,
+          "ship_motion": 4.673923898931389
+        }
+      },
+      "sound_enabled_pause": {
+        "frames": {
+          "frames": 369,
+          "p50_ms": 8.0,
+          "p95_ms": 13.860000000000579,
+          "p99_ms": 16.83200000000128,
+          "mean_ms": 8.232791327913274,
+          "mean_fps": 121.46548602653156,
+          "over_33_3ms_ratio": 0.0,
+          "over_50ms_ratio": 0.0,
+          "max_ms": 19.900000000001455
+        },
+        "requested": 1,
+        "actual_scale": 0,
+        "wall_s": 3.041,
+        "sim_s": [
+          19.6,
+          19.6
+        ],
+        "pending_s": [
+          0.00722222222222283,
+          0.00722222222222283
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 2.795133179875041,
+          "aircraft_tasks": 5.425846760933903,
+          "battlefield_terrain": 0.0,
+          "combat_contacts": 10.654390003288391,
+          "combat_damage": 0.8549819138441302,
+          "combat_frame": 0.23018743834265043,
+          "combat_projectiles": 2.1703387043735614,
+          "combat_targeting": 5.557382439986846,
+          "combat_weapons": 4.833936205195659,
+          "fleet_commander": 0.03288391976323578,
+          "fleet_tasks": 1.47977638934561,
+          "ground_commander": 0.03288391976323578,
+          "ground_tasks": 1.019401512660309,
+          "orders_snapshot": 1.7428477474514963,
+          "owned_order_unit_ids": 0.4274909569220651,
+          "s14_missions": 0.03288391976323578,
+          "ship_motion": 0.4274909569220651
+        }
+      },
+      "half_speed": {
+        "frames": {
+          "frames": 291,
+          "p50_ms": 13.400000000001455,
+          "p95_ms": 22.649999999997817,
+          "p99_ms": 30.80999999999781,
+          "mean_ms": 13.6852233676976,
+          "mean_fps": 73.07151466452387,
+          "over_33_3ms_ratio": 0.010309278350515464,
+          "over_50ms_ratio": 0.0,
+          "max_ms": 40.19999999999709
+        },
+        "requested": 0.5,
+        "actual_scale": 0.504173898669313,
+        "wall_s": 4.033,
+        "sim_s": [
+          5.13333333333333,
+          7.16666666666667
+        ],
+        "pending_s": [
+          0.0150537037037042,
+          0.000387037037037508
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 10.63724274733449,
+          "aircraft_tasks": 38.606496404661534,
+          "battlefield_terrain": 0.074386312918423,
+          "combat_contacts": 24.32432432432432,
+          "combat_damage": 3.322588643689561,
+          "combat_frame": 0.8430448797421274,
+          "combat_projectiles": 10.314902058021323,
+          "combat_targeting": 19.365236796429453,
+          "combat_weapons": 29.159434664021816,
+          "fleet_commander": 0.297545251673692,
+          "fleet_tasks": 6.545995536821224,
+          "ground_commander": 0.17356806347632034,
+          "ground_tasks": 4.215224398710637,
+          "orders_snapshot": 7.4386312918423005,
+          "owned_order_unit_ids": 2.0332258864368953,
+          "s14_missions": 0.074386312918423,
+          "ship_motion": 2.6283163897842794
+        }
+      },
+      "natural_fire_until_live_fragment": {
+        "frames": {
+          "frames": 1822,
+          "p50_ms": 10.0,
+          "p95_ms": 22.80000000000291,
+          "p99_ms": 49.66400000000025,
+          "mean_ms": 12.237486278814488,
+          "mean_fps": 81.71612839568188,
+          "over_33_3ms_ratio": 0.02579582875960483,
+          "over_50ms_ratio": 0.009879253567508232,
+          "max_ms": 60.39999999999418
+        },
+        "requested": 1,
+        "actual_scale": 0.9972464091687118,
+        "wall_s": 22.395,
+        "sim_s": [
+          0.35,
+          22.6833333333333
+        ],
+        "pending_s": [
+          0.00713333333333288,
+          0.0158000000000003
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 19.937486045992408,
+          "aircraft_tasks": 44.83143558830096,
+          "battlefield_terrain": 0.20093770931011387,
+          "combat_contacts": 82.17012726054924,
+          "combat_damage": 6.349631614199597,
+          "combat_frame": 1.2681402098682741,
+          "combat_projectiles": 22.634516633177046,
+          "combat_targeting": 43.38914936369726,
+          "combat_weapons": 54.32462603259656,
+          "fleet_commander": 0.28577807546327305,
+          "fleet_tasks": 11.42665773610181,
+          "ground_commander": 0.20093770931011387,
+          "ground_tasks": 7.827640098236214,
+          "orders_snapshot": 12.64121455682072,
+          "owned_order_unit_ids": 4.3536503683858,
+          "s14_missions": 0.19647242688100025,
+          "ship_motion": 4.746595222147801
+        }
+      },
+      "natural_1x_round_0": {
+        "frames": {
+          "frames": 13724,
+          "p50_ms": 9.89999999999418,
+          "p95_ms": 22.0,
+          "p99_ms": 30.39999999999418,
+          "mean_ms": 11.481310113669483,
+          "mean_fps": 87.09807418313824,
+          "over_33_3ms_ratio": 0.007869425823375109,
+          "over_50ms_ratio": 0.001457301078402798,
+          "max_ms": 93.80000000000291
+        },
+        "requested": 1,
+        "actual_scale": 1.0000528680941074,
+        "wall_s": 157.625,
+        "sim_s": [
+          0.0833333333333333,
+          157.716666666667
+        ],
+        "pending_s": [
+          0.00316666666666598,
+          0.00482600000000219
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 18.22870737509913,
+          "aircraft_tasks": 43.08961141950833,
+          "battlefield_terrain": 0.2816812053925456,
+          "combat_contacts": 41.97747819191118,
+          "combat_damage": 7.609833465503568,
+          "combat_frame": 1.504203013481364,
+          "combat_projectiles": 23.7919111816019,
+          "combat_targeting": 31.921966693100714,
+          "combat_weapons": 44.11229183187946,
+          "fleet_commander": 0.38191911181601906,
+          "fleet_tasks": 12.980174464710547,
+          "ground_commander": 0.2588421887390959,
+          "ground_tasks": 10.243298969072164,
+          "orders_snapshot": 23.78049167327518,
+          "owned_order_unit_ids": 4.626169706582078,
+          "s14_missions": 5.715463917525773,
+          "ship_motion": 4.282315622521808
+        }
+      },
+      "natural_1x_round_1": {
+        "frames": {
+          "frames": 19661,
+          "p50_ms": 8.299999999988358,
+          "p95_ms": 16.600000000034925,
+          "p99_ms": 22.20000000001164,
+          "mean_ms": 9.157174101012156,
+          "mean_fps": 109.20399557429715,
+          "over_33_3ms_ratio": 0.0,
+          "over_50ms_ratio": 0.0,
+          "max_ms": 33.09999999997672
+        },
+        "requested": 1,
+        "actual_scale": 1.0005222048153948,
+        "wall_s": 180.006,
+        "sim_s": [
+          158.05,
+          338.15
+        ],
+        "pending_s": [
+          0.000559333333335528,
+          0.0146550000000059
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 16.144461851271625,
+          "aircraft_tasks": 35.24993611324067,
+          "battlefield_terrain": 0.22943679655122606,
+          "combat_contacts": 7.620857082541693,
+          "combat_damage": 5.882581691721388,
+          "combat_frame": 1.5505038720931525,
+          "combat_projectiles": 5.315378376276346,
+          "combat_targeting": 20.253213781762827,
+          "combat_weapons": 29.766785551592722,
+          "fleet_commander": 0.3499883337222093,
+          "fleet_tasks": 17.663855649256135,
+          "ground_commander": 0.25554703732097817,
+          "ground_tasks": 12.186260457984734,
+          "orders_snapshot": 42.41914158416942,
+          "owned_order_unit_ids": 4.789840338655378,
+          "s14_missions": 25.363043454107085,
+          "ship_motion": 3.5604368743264114
+        }
+      },
+      "natural_1x_round_2": {
+        "frames": {
+          "frames": 16245,
+          "p50_ms": 9.400000000023283,
+          "p95_ms": 21.0,
+          "p99_ms": 27.599999999976717,
+          "mean_ms": 11.078645737149891,
+          "mean_fps": 90.26374014711129,
+          "over_33_3ms_ratio": 0.005417051400430902,
+          "over_50ms_ratio": 0.0006771314250538627,
+          "max_ms": 64.5
+        },
+        "requested": 1,
+        "actual_scale": 0.9999166736105343,
+        "wall_s": 180.015,
+        "sim_s": [
+          0.116666666666667,
+          180.116666666667
+        ],
+        "pending_s": [
+          0.00451166666666103,
+          0.00770000000000223
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 18.574563230841875,
+          "aircraft_tasks": 41.707635474821544,
+          "battlefield_terrain": 0.24664611282393134,
+          "combat_contacts": 36.70583006971642,
+          "combat_damage": 6.983862455906453,
+          "combat_frame": 1.4882093158903424,
+          "combat_projectiles": 21.44321306557787,
+          "combat_targeting": 30.643557481321004,
+          "combat_weapons": 41.24378524011888,
+          "fleet_commander": 0.36441407660472735,
+          "fleet_tasks": 12.642279810015834,
+          "ground_commander": 0.24553509429769746,
+          "ground_tasks": 10.066383356942477,
+          "orders_snapshot": 25.88950920756604,
+          "owned_order_unit_ids": 4.559064522400911,
+          "s14_missions": 8.073771630141934,
+          "ship_motion": 4.1674304919034535
+        }
+      },
+      "natural_1x_round_3": {
+        "frames": {
+          "frames": 6314,
+          "p50_ms": 9.900000000023283,
+          "p95_ms": 22.599999999976717,
+          "p99_ms": 39.5,
+          "mean_ms": 11.866534684827357,
+          "mean_fps": 84.27060018445046,
+          "over_33_3ms_ratio": 0.015362686094393412,
+          "over_50ms_ratio": 0.0015837820715869496,
+          "max_ms": 59.699999999953434
+        },
+        "requested": 1,
+        "actual_scale": 0.9989113288453417,
+        "wall_s": 75.015,
+        "sim_s": [
+          0.1,
+          75.0333333333333
+        ],
+        "pending_s": [
+          0.00486611111111943,
+          0.010110555555565
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 19.768046390721857,
+          "aircraft_tasks": 44.99633406652003,
+          "battlefield_terrain": 0.2492834766380057,
+          "combat_contacts": 57.848430313937214,
+          "combat_damage": 7.821102446177432,
+          "combat_frame": 1.4677064587082582,
+          "combat_projectiles": 30.8498300339932,
+          "combat_targeting": 38.229687395854164,
+          "combat_weapons": 49.01419716056789,
+          "fleet_commander": 0.38925548223688594,
+          "fleet_tasks": 11.872292208225021,
+          "ground_commander": 0.2506165433579951,
+          "ground_tasks": 8.624941678331,
+          "orders_snapshot": 17.10857828434313,
+          "owned_order_unit_ids": 4.589748716923282,
+          "s14_missions": 0.3799240151969606,
+          "ship_motion": 4.740385256282077
+        }
+      },
+      "request_2x": {
+        "frames": {
+          "frames": 559,
+          "p50_ms": 17.399999999906868,
+          "p95_ms": 27.29999999993015,
+          "p99_ms": 31.852000000015806,
+          "mean_ms": 17.89016100178887,
+          "mean_fps": 55.89664620122805,
+          "over_33_3ms_ratio": 0.005366726296958855,
+          "over_50ms_ratio": 0.0,
+          "max_ms": 35.5
+        },
+        "requested": 2,
+        "actual_scale": 1.9988682511151084,
+        "wall_s": 10.014,
+        "sim_s": [
+          76.2,
+          96.2166666666667
+        ],
+        "pending_s": [
+          0.0132211111111299,
+          0.00222222222222244
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 30.477331735570203,
+          "aircraft_tasks": 72.24885160774916,
+          "battlefield_terrain": 0.27960854803275415,
+          "combat_contacts": 46.77451567805073,
+          "combat_damage": 14.909127221889356,
+          "combat_frame": 2.0870780906730575,
+          "combat_projectiles": 28.110645096864392,
+          "combat_targeting": 44.64749350908728,
+          "combat_weapons": 68.46415018973438,
+          "fleet_commander": 0.5092869982025164,
+          "fleet_tasks": 23.35729978030757,
+          "ground_commander": 0.35949670461354105,
+          "ground_tasks": 19.44278010784901,
+          "orders_snapshot": 39.90413421210306,
+          "owned_order_unit_ids": 7.6892350709007395,
+          "s14_missions": 0.3794687437587378,
+          "ship_motion": 6.440982624325944
+        }
+      },
+      "request_4x": {
+        "frames": {
+          "frames": 295,
+          "p50_ms": 40.5,
+          "p95_ms": 55.470000000076844,
+          "p99_ms": 59.40599999991245,
+          "mean_ms": 40.68610169491534,
+          "mean_fps": 24.578417649803324,
+          "over_33_3ms_ratio": 0.7593220338983051,
+          "over_50ms_ratio": 0.16271186440677965,
+          "max_ms": 61.800000000046566
+        },
+        "requested": 4,
+        "actual_scale": 3.9894576224163956,
+        "wall_s": 12.015,
+        "sim_s": [
+          98.4,
+          146.333333333333
+        ],
+        "pending_s": [
+          0.00722000000003841,
+          0.013708888888938
+        ],
+        "module_cpu_ms_per_wall_s": {
+          "aircraft_motion": 61.55638784852268,
+          "aircraft_tasks": 137.5031210986267,
+          "battlefield_terrain": 0.3245942571785268,
+          "combat_contacts": 87.08281315022887,
+          "combat_damage": 22.37203495630462,
+          "combat_frame": 3.2292967124427796,
+          "combat_projectiles": 61.223470661672906,
+          "combat_targeting": 88.17311693716188,
+          "combat_weapons": 141.1069496462755,
+          "fleet_commander": 1.0320432792342904,
+          "fleet_tasks": 50.054099042863086,
+          "ground_commander": 0.7823553890969621,
+          "ground_tasks": 43.587182688306285,
+          "orders_snapshot": 110.12900540990428,
+          "owned_order_unit_ids": 18.21057012068248,
+          "s14_missions": 38.50187265917603,
+          "ship_motion": 11.610486891385767
+        }
+      }
+    },
+    "identity": {
+      "url": "http://127.0.0.1:8765/index.html",
+      "title": "海空交锋 · 全单位 Showcase",
+      "dpr": 1,
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "cssWidth": 1280,
+        "cssHeight": 720,
+        "bufferWidth": 1280,
+        "bufferHeight": 720
+      },
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "uaData": {
+        "architecture": "arm",
+        "bitness": "64",
+        "brands": [
+          {
+            "brand": "Not-A.Brand",
+            "version": "99"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "157"
+          },
+          {
+            "brand": "Chromium",
+            "version": "157"
+          }
+        ],
+        "fullVersionList": [
+          {
+            "brand": "Not-A.Brand",
+            "version": "99.0.0.0"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "157.0.8103.39"
+          },
+          {
+            "brand": "Chromium",
+            "version": "157.0.8103.39"
+          }
+        ],
+        "mobile": false,
+        "platform": "macOS"
+      },
+      "validationFixture": "undefined"
+    },
+    "passed": true,
+    "failure": null,
+    "cleanup": {
+      "chromeClosed": true,
+      "serverExited": true,
+      "profileRemoved": true
+    },
+    "hardware": {
+      "cpu": "Apple M5",
+      "memoryBytes": 17179869184,
+      "macos": "26.6.2"
+    },
+    "wasm_bytes_range": [
+      173670400,
+      173670400
+    ],
+    "js_heap_bytes_range": [
+      33717615,
+      88628046
+    ],
+    "sample_sources_created_max": 0,
+    "audio_peak": 0.295135498046875,
+    "paused_audio_rms_max_after_300ms": 0,
+    "audible_rms_max": 0.011846550779434856,
+    "peak_fragments": 3,
+    "peaks": {
+      "units": 19,
+      "mounts": 167,
+      "projectile_peak": 259,
+      "draw_calls": 2819,
+      "node_count": 4901
+    },
+    "effects_peak": {
+      "allocated": 384,
+      "active": 384,
+      "render_instances": 384,
+      "visible_instances": 384,
+      "dropped": 10896,
+      "sound_sources": 8,
+      "engine_sources": 4
+    },
+    "restarts": [
+      {
+        "action": "restart_live_fragment",
+        "before": {
+          "buttons": {
+            "1 倍": [
+              127,
+              680
+            ],
+            "7.7mm Vickers + 九二式F三脚架": [
+              599,
+              104
+            ],
+            "关闭声音": [
+              839,
+              680
+            ],
+            "四舰与岸防火力": [
+              146,
+              104
+            ],
+            "大和": [
+              450.5,
+              680
+            ],
+            "恢复信息": [
+              745,
+              680
+            ],
+            "战报": [
+              917,
+              680
+            ],
+            "指挥态势": [
+              651,
+              680
+            ],
+            "暂停": [
+              52,
+              680
+            ],
+            "结束": [
+              979,
+              680
+            ],
+            "继续导览": [
+              396,
+              104
+            ],
+            "自动电影": [
+              218,
+              680
+            ],
+            "自由观察": [
+              312,
+              680
+            ],
+            "跟随": [
+              573,
+              680
+            ],
+            "重开": [
+              1041,
+              680
+            ],
+            "重新演示": [
+              304,
+              104
+            ]
+          },
+          "camera_mode": "free",
+          "controls": {
+            "map": [
+              1137,
+              498.5
+            ],
+            "segment": [
+              146,
+              104
+            ],
+            "speed": [
+              127,
+              680
+            ],
+            "unit": [
+              450.5,
+              680
+            ],
+            "weapon": [
+              599,
+              104
+            ]
+          },
+          "effects": {
+            "active": 177,
+            "allocated": 192,
+            "dropped": 0,
+            "engine_sources": 4,
+            "last_sequence": 576,
+            "materials": 192,
+            "peak_visible": 192,
+            "preempted": 0,
+            "render_instances": 192,
+            "shown_events": 576,
+            "sound_sources": 8,
+            "visible_instances": 177
+          },
+          "ended": "",
+          "exercise": "fire",
+          "followed_id": "",
+          "fragments": 1,
+          "gallery_index": 0,
+          "generation": 3,
+          "label": "演示模式 · 四型军舰 · 实际航行 / 舰炮交战",
+          "models": 19,
+          "modes": [
+            "guided",
+            "pair",
+            "four",
+            "maneuver",
+            "escort",
+            "fire",
+            "train_us_bank_turn",
+            "train_us_climb_dive",
+            "train_us_axial_roll",
+            "train_us_roll_reversal",
+            "train_us_split_s",
+            "train_jp_bank_turn",
+            "train_jp_climb_dive",
+            "train_jp_axial_roll",
+            "train_jp_roll_reversal",
+            "train_jp_split_s"
+          ],
+          "paused": false,
+          "pending_s": 0.0158000000000003,
+          "pitch": 0.26,
+          "popups": {
+            "segment": {
+              "count": 16,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                36,
+                123
+              ],
+              "size": [
+                220,
+                456
+              ],
+              "visible": false
+            },
+            "speed": {
+              "count": 4,
+              "metadata": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                86,
+                600
+              ],
+              "size": [
+                82,
+                120
+              ],
+              "visible": false
+            },
+            "unit": {
+              "count": 19,
+              "metadata": [
+                "jp_air_1",
+                "jp_air_2",
+                "jp_air_3",
+                "jp_air_4",
+                "jp_bb",
+                "jp_dd",
+                "us_aa_01",
+                "us_aa_02",
+                "us_air_1",
+                "us_air_2",
+                "us_air_3",
+                "us_air_4",
+                "us_bb",
+                "us_coast_01",
+                "us_dd",
+                "us_pair_demo_1",
+                "us_pair_demo_2",
+                "us_sb2c_1",
+                "us_sb2c_2"
+              ],
+              "position": [
+                362,
+                180
+              ],
+              "size": [
+                177,
+                540
+              ],
+              "visible": false
+            },
+            "weapon": {
+              "count": 6,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                444,
+                123
+              ],
+              "size": [
+                310,
+                176
+              ],
+              "visible": false
+            }
+          },
+          "sound": true,
+          "speed": 1,
+          "tick": 1361,
+          "time_s": 22.6833333333333,
+          "timeline_buttons": [],
+          "ui": {
+            "both_cards": false,
+            "cinema": true,
+            "detail": "选择一条指令查看各成员执行进度。",
+            "expanded": false,
+            "report": false,
+            "report_text": "截至 00:22\n\n日方指挥官\n可战 1 舰 / 3 机 · 沉没 1 · 坠毁 1\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 77 发 · 剩余 120823 发 · 耗油 6.9 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 88 发 · 剩余 226722 发 · 耗油 21.4 千克\n岸防 3 炮组 · 失能 0 · 摧毁 0",
+            "status": "00:22   观战中 · 1.0 倍",
+            "timeline": false
+          },
+          "yaw": 0.882000079751015,
+          "browser_at_ms": 67141.30000001192
+        },
+        "after": {
+          "buttons": {
+            "1 倍": [
+              127,
+              680
+            ],
+            "7.7mm Vickers + 九二式F三脚架": [
+              599,
+              104
+            ],
+            "关闭声音": [
+              839,
+              680
+            ],
+            "四舰与岸防火力": [
+              146,
+              104
+            ],
+            "大和": [
+              450.5,
+              680
+            ],
+            "恢复信息": [
+              745,
+              680
+            ],
+            "战报": [
+              917,
+              680
+            ],
+            "指挥态势": [
+              651,
+              680
+            ],
+            "暂停": [
+              52,
+              680
+            ],
+            "结束": [
+              979,
+              680
+            ],
+            "继续导览": [
+              396,
+              104
+            ],
+            "自动电影": [
+              218,
+              680
+            ],
+            "自由观察": [
+              312,
+              680
+            ],
+            "跟随": [
+              573,
+              680
+            ],
+            "重开": [
+              1041,
+              680
+            ],
+            "重新演示": [
+              304,
+              104
+            ]
+          },
+          "camera_mode": "free",
+          "controls": {
+            "map": [
+              1137,
+              498.5
+            ],
+            "segment": [
+              146,
+              104
+            ],
+            "speed": [
+              127,
+              680
+            ],
+            "unit": [
+              450.5,
+              680
+            ],
+            "weapon": [
+              599,
+              104
+            ]
+          },
+          "effects": {
+            "active": 0,
+            "allocated": 208,
+            "dropped": 0,
+            "engine_sources": 4,
+            "last_sequence": 108,
+            "materials": 208,
+            "peak_visible": 0,
+            "preempted": 0,
+            "render_instances": 208,
+            "shown_events": 108,
+            "sound_sources": 8,
+            "visible_instances": 0
+          },
+          "ended": "",
+          "exercise": "fire",
+          "followed_id": "",
+          "fragments": 0,
+          "gallery_index": 0,
+          "generation": 4,
+          "label": "演示模式 · 四型军舰 · 实际航行 / 舰炮交战",
+          "models": 19,
+          "modes": [
+            "guided",
+            "pair",
+            "four",
+            "maneuver",
+            "escort",
+            "fire",
+            "train_us_bank_turn",
+            "train_us_climb_dive",
+            "train_us_axial_roll",
+            "train_us_roll_reversal",
+            "train_us_split_s",
+            "train_jp_bank_turn",
+            "train_jp_climb_dive",
+            "train_jp_axial_roll",
+            "train_jp_roll_reversal",
+            "train_jp_split_s"
+          ],
+          "paused": false,
+          "pending_s": 0.00316666666666598,
+          "pitch": 0.26,
+          "popups": {
+            "segment": {
+              "count": 16,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                36,
+                123
+              ],
+              "size": [
+                220,
+                456
+              ],
+              "visible": false
+            },
+            "speed": {
+              "count": 4,
+              "metadata": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                86,
+                600
+              ],
+              "size": [
+                82,
+                120
+              ],
+              "visible": false
+            },
+            "unit": {
+              "count": 19,
+              "metadata": [
+                "jp_air_1",
+                "jp_air_2",
+                "jp_air_3",
+                "jp_air_4",
+                "jp_bb",
+                "jp_dd",
+                "us_aa_01",
+                "us_aa_02",
+                "us_air_1",
+                "us_air_2",
+                "us_air_3",
+                "us_air_4",
+                "us_bb",
+                "us_coast_01",
+                "us_dd",
+                "us_pair_demo_1",
+                "us_pair_demo_2",
+                "us_sb2c_1",
+                "us_sb2c_2"
+              ],
+              "position": [
+                362,
+                180
+              ],
+              "size": [
+                177,
+                540
+              ],
+              "visible": false
+            },
+            "weapon": {
+              "count": 6,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                444,
+                123
+              ],
+              "size": [
+                310,
+                176
+              ],
+              "visible": false
+            }
+          },
+          "sound": true,
+          "speed": 1,
+          "tick": 5,
+          "time_s": 0.0833333333333333,
+          "timeline_buttons": [],
+          "ui": {
+            "both_cards": false,
+            "cinema": true,
+            "detail": "选择一条指令查看各成员执行进度。",
+            "expanded": false,
+            "report": false,
+            "report_text": "截至 00:00\n\n日方指挥官\n可战 2 舰 / 4 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 0 发 · 剩余 120900 发 · 耗油 0.0 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 0 发 · 剩余 226810 发 · 耗油 0.0 千克\n岸防 3 炮组 · 失能 0 · 摧毁 0",
+            "status": "00:00   观战中 · 1.0 倍",
+            "timeline": false
+          },
+          "yaw": -0.469995641708374,
+          "browser_at_ms": 67611.69999998808
+        }
+      },
+      {
+        "action": "restart",
+        "before": {
+          "buttons": {
+            "1 倍": [
+              127,
+              680
+            ],
+            "7.7mm Vickers + 九二式F三脚架": [
+              599,
+              104
+            ],
+            "关闭声音": [
+              839,
+              680
+            ],
+            "四舰与岸防火力": [
+              146,
+              104
+            ],
+            "大和": [
+              450.5,
+              680
+            ],
+            "恢复信息": [
+              745,
+              680
+            ],
+            "战报": [
+              917,
+              680
+            ],
+            "指挥态势": [
+              651,
+              680
+            ],
+            "暂停": [
+              52,
+              680
+            ],
+            "结束": [
+              979,
+              680
+            ],
+            "继续导览": [
+              396,
+              104
+            ],
+            "自动电影": [
+              218,
+              680
+            ],
+            "自由观察": [
+              312,
+              680
+            ],
+            "跟随": [
+              573,
+              680
+            ],
+            "重开": [
+              1041,
+              680
+            ],
+            "重新演示": [
+              304,
+              104
+            ]
+          },
+          "camera_mode": "free",
+          "controls": {
+            "map": [
+              1137,
+              498.5
+            ],
+            "segment": [
+              146,
+              104
+            ],
+            "speed": [
+              127,
+              680
+            ],
+            "unit": [
+              450.5,
+              680
+            ],
+            "weapon": [
+              599,
+              104
+            ]
+          },
+          "effects": {
+            "active": 180,
+            "allocated": 384,
+            "dropped": 10896,
+            "engine_sources": 4,
+            "last_sequence": 18693,
+            "materials": 384,
+            "peak_visible": 384,
+            "preempted": 10439,
+            "render_instances": 384,
+            "shown_events": 18693,
+            "sound_sources": 8,
+            "visible_instances": 180
+          },
+          "ended": "",
+          "exercise": "fire",
+          "followed_id": "",
+          "fragments": 0,
+          "gallery_index": 0,
+          "generation": 4,
+          "label": "演示模式 · 本段对象已退出 · 暂看 港区 M1 防空一组",
+          "models": 19,
+          "modes": [
+            "guided",
+            "pair",
+            "four",
+            "maneuver",
+            "escort",
+            "fire",
+            "train_us_bank_turn",
+            "train_us_climb_dive",
+            "train_us_axial_roll",
+            "train_us_roll_reversal",
+            "train_us_split_s",
+            "train_jp_bank_turn",
+            "train_jp_climb_dive",
+            "train_jp_axial_roll",
+            "train_jp_roll_reversal",
+            "train_jp_split_s"
+          ],
+          "paused": false,
+          "pending_s": 0.00316666666666689,
+          "pitch": 0.26,
+          "popups": {
+            "segment": {
+              "count": 16,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                36,
+                123
+              ],
+              "size": [
+                220,
+                456
+              ],
+              "visible": false
+            },
+            "speed": {
+              "count": 4,
+              "metadata": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                86,
+                600
+              ],
+              "size": [
+                82,
+                120
+              ],
+              "visible": false
+            },
+            "unit": {
+              "count": 19,
+              "metadata": [
+                "jp_air_1",
+                "jp_air_2",
+                "jp_air_3",
+                "jp_air_4",
+                "jp_bb",
+                "jp_dd",
+                "us_aa_01",
+                "us_aa_02",
+                "us_air_1",
+                "us_air_2",
+                "us_air_3",
+                "us_air_4",
+                "us_bb",
+                "us_coast_01",
+                "us_dd",
+                "us_pair_demo_1",
+                "us_pair_demo_2",
+                "us_sb2c_1",
+                "us_sb2c_2"
+              ],
+              "position": [
+                362,
+                180
+              ],
+              "size": [
+                177,
+                540
+              ],
+              "visible": false
+            },
+            "weapon": {
+              "count": 6,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                444,
+                123
+              ],
+              "size": [
+                310,
+                176
+              ],
+              "visible": false
+            }
+          },
+          "sound": true,
+          "speed": 1,
+          "tick": 20296,
+          "time_s": 338.266666666667,
+          "timeline_buttons": [],
+          "ui": {
+            "both_cards": false,
+            "cinema": true,
+            "detail": "选择一条指令查看各成员执行进度。",
+            "expanded": false,
+            "report": false,
+            "report_text": "截至 05:38\n\n日方指挥官\n可战 0 舰 / 0 机 · 沉没 2 · 坠毁 2\n失能 0 · 迫降退出 0 · 撤离 2\n消耗 377 发 · 剩余 120523 发 · 耗油 47.5 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 7 机 · 沉没 0 · 坠毁 1\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 590 发 · 剩余 226220 发 · 耗油 327.4 千克\n岸防 2 炮组 · 失能 1 · 摧毁 0",
+            "status": "05:38   观战中 · 1.0 倍",
+            "timeline": false
+          },
+          "yaw": 1.1,
+          "browser_at_ms": 405700.09999996424
+        },
+        "after": {
+          "buttons": {
+            "1 倍": [
+              127,
+              680
+            ],
+            "7.7mm Vickers + 九二式F三脚架": [
+              599,
+              104
+            ],
+            "关闭声音": [
+              839,
+              680
+            ],
+            "四舰与岸防火力": [
+              146,
+              104
+            ],
+            "大和": [
+              450.5,
+              680
+            ],
+            "恢复信息": [
+              745,
+              680
+            ],
+            "战报": [
+              917,
+              680
+            ],
+            "指挥态势": [
+              651,
+              680
+            ],
+            "暂停": [
+              52,
+              680
+            ],
+            "结束": [
+              979,
+              680
+            ],
+            "继续导览": [
+              396,
+              104
+            ],
+            "自动电影": [
+              218,
+              680
+            ],
+            "自由观察": [
+              312,
+              680
+            ],
+            "跟随": [
+              573,
+              680
+            ],
+            "重开": [
+              1041,
+              680
+            ],
+            "重新演示": [
+              304,
+              104
+            ]
+          },
+          "camera_mode": "free",
+          "controls": {
+            "map": [
+              1137,
+              498.5
+            ],
+            "segment": [
+              146,
+              104
+            ],
+            "speed": [
+              127,
+              680
+            ],
+            "unit": [
+              450.5,
+              680
+            ],
+            "weapon": [
+              599,
+              104
+            ]
+          },
+          "effects": {
+            "active": 0,
+            "allocated": 384,
+            "dropped": 0,
+            "engine_sources": 4,
+            "last_sequence": 108,
+            "materials": 384,
+            "peak_visible": 0,
+            "preempted": 0,
+            "render_instances": 384,
+            "shown_events": 108,
+            "sound_sources": 8,
+            "visible_instances": 0
+          },
+          "ended": "",
+          "exercise": "fire",
+          "followed_id": "",
+          "fragments": 0,
+          "gallery_index": 0,
+          "generation": 5,
+          "label": "演示模式 · 四型军舰 · 实际航行 / 舰炮交战",
+          "models": 19,
+          "modes": [
+            "guided",
+            "pair",
+            "four",
+            "maneuver",
+            "escort",
+            "fire",
+            "train_us_bank_turn",
+            "train_us_climb_dive",
+            "train_us_axial_roll",
+            "train_us_roll_reversal",
+            "train_us_split_s",
+            "train_jp_bank_turn",
+            "train_jp_climb_dive",
+            "train_jp_axial_roll",
+            "train_jp_roll_reversal",
+            "train_jp_split_s"
+          ],
+          "paused": false,
+          "pending_s": 0.00451166666666103,
+          "pitch": 0.26,
+          "popups": {
+            "segment": {
+              "count": 16,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                36,
+                123
+              ],
+              "size": [
+                220,
+                456
+              ],
+              "visible": false
+            },
+            "speed": {
+              "count": 4,
+              "metadata": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                86,
+                600
+              ],
+              "size": [
+                82,
+                120
+              ],
+              "visible": false
+            },
+            "unit": {
+              "count": 19,
+              "metadata": [
+                "jp_air_1",
+                "jp_air_2",
+                "jp_air_3",
+                "jp_air_4",
+                "jp_bb",
+                "jp_dd",
+                "us_aa_01",
+                "us_aa_02",
+                "us_air_1",
+                "us_air_2",
+                "us_air_3",
+                "us_air_4",
+                "us_bb",
+                "us_coast_01",
+                "us_dd",
+                "us_pair_demo_1",
+                "us_pair_demo_2",
+                "us_sb2c_1",
+                "us_sb2c_2"
+              ],
+              "position": [
+                362,
+                180
+              ],
+              "size": [
+                177,
+                540
+              ],
+              "visible": false
+            },
+            "weapon": {
+              "count": 6,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                444,
+                123
+              ],
+              "size": [
+                310,
+                176
+              ],
+              "visible": false
+            }
+          },
+          "sound": true,
+          "speed": 1,
+          "tick": 7,
+          "time_s": 0.116666666666667,
+          "timeline_buttons": [],
+          "ui": {
+            "both_cards": false,
+            "cinema": true,
+            "detail": "选择一条指令查看各成员执行进度。",
+            "expanded": false,
+            "report": false,
+            "report_text": "截至 00:00\n\n日方指挥官\n可战 2 舰 / 4 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 0 发 · 剩余 120900 发 · 耗油 0.0 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 0 发 · 剩余 226810 发 · 耗油 0.0 千克\n岸防 3 炮组 · 失能 0 · 摧毁 0",
+            "status": "00:00   观战中 · 1.0 倍",
+            "timeline": false
+          },
+          "yaw": -0.469990873336792,
+          "browser_at_ms": 406148.59999996424
+        }
+      },
+      {
+        "action": "restart",
+        "before": {
+          "buttons": {
+            "1 倍": [
+              127,
+              680
+            ],
+            "7.7mm Vickers + 九二式F三脚架": [
+              599,
+              104
+            ],
+            "关闭声音": [
+              839,
+              680
+            ],
+            "四舰与岸防火力": [
+              146,
+              104
+            ],
+            "大和": [
+              450.5,
+              680
+            ],
+            "恢复信息": [
+              745,
+              680
+            ],
+            "战报": [
+              917,
+              680
+            ],
+            "指挥态势": [
+              651,
+              680
+            ],
+            "暂停": [
+              52,
+              680
+            ],
+            "结束": [
+              979,
+              680
+            ],
+            "继续导览": [
+              396,
+              104
+            ],
+            "自动电影": [
+              218,
+              680
+            ],
+            "自由观察": [
+              312,
+              680
+            ],
+            "跟随": [
+              573,
+              680
+            ],
+            "重开": [
+              1041,
+              680
+            ],
+            "重新演示": [
+              304,
+              104
+            ]
+          },
+          "camera_mode": "free",
+          "controls": {
+            "map": [
+              1137,
+              498.5
+            ],
+            "segment": [
+              146,
+              104
+            ],
+            "speed": [
+              127,
+              680
+            ],
+            "unit": [
+              450.5,
+              680
+            ],
+            "weapon": [
+              599,
+              104
+            ]
+          },
+          "effects": {
+            "active": 294,
+            "allocated": 384,
+            "dropped": 10872,
+            "engine_sources": 4,
+            "last_sequence": 3305,
+            "materials": 384,
+            "peak_visible": 384,
+            "preempted": 10411,
+            "render_instances": 384,
+            "shown_events": 3305,
+            "sound_sources": 8,
+            "visible_instances": 294
+          },
+          "ended": "",
+          "exercise": "fire",
+          "followed_id": "",
+          "fragments": 0,
+          "gallery_index": 0,
+          "generation": 5,
+          "label": "演示模式 · 四型军舰 · 实际航行 / 舰炮交战",
+          "models": 19,
+          "modes": [
+            "guided",
+            "pair",
+            "four",
+            "maneuver",
+            "escort",
+            "fire",
+            "train_us_bank_turn",
+            "train_us_climb_dive",
+            "train_us_axial_roll",
+            "train_us_roll_reversal",
+            "train_us_split_s",
+            "train_jp_bank_turn",
+            "train_jp_climb_dive",
+            "train_jp_axial_roll",
+            "train_jp_roll_reversal",
+            "train_jp_split_s"
+          ],
+          "paused": false,
+          "pending_s": 0.0103333333333356,
+          "pitch": 0.26,
+          "popups": {
+            "segment": {
+              "count": 16,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                36,
+                123
+              ],
+              "size": [
+                220,
+                456
+              ],
+              "visible": false
+            },
+            "speed": {
+              "count": 4,
+              "metadata": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                86,
+                600
+              ],
+              "size": [
+                82,
+                120
+              ],
+              "visible": false
+            },
+            "unit": {
+              "count": 19,
+              "metadata": [
+                "jp_air_1",
+                "jp_air_2",
+                "jp_air_3",
+                "jp_air_4",
+                "jp_bb",
+                "jp_dd",
+                "us_aa_01",
+                "us_aa_02",
+                "us_air_1",
+                "us_air_2",
+                "us_air_3",
+                "us_air_4",
+                "us_bb",
+                "us_coast_01",
+                "us_dd",
+                "us_pair_demo_1",
+                "us_pair_demo_2",
+                "us_sb2c_1",
+                "us_sb2c_2"
+              ],
+              "position": [
+                362,
+                180
+              ],
+              "size": [
+                177,
+                540
+              ],
+              "visible": false
+            },
+            "weapon": {
+              "count": 6,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                444,
+                123
+              ],
+              "size": [
+                310,
+                176
+              ],
+              "visible": false
+            }
+          },
+          "sound": true,
+          "speed": 1,
+          "tick": 10813,
+          "time_s": 180.216666666667,
+          "timeline_buttons": [],
+          "ui": {
+            "both_cards": false,
+            "cinema": true,
+            "detail": "选择一条指令查看各成员执行进度。",
+            "expanded": false,
+            "report": false,
+            "report_text": "截至 03:00\n\n日方指挥官\n可战 0 舰 / 2 机 · 沉没 2 · 坠毁 2\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 377 发 · 剩余 120523 发 · 耗油 38.2 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 7 机 · 沉没 0 · 坠毁 1\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 590 发 · 剩余 226220 发 · 耗油 168.9 千克\n岸防 2 炮组 · 失能 1 · 摧毁 0",
+            "status": "03:00   观战中 · 1.0 倍",
+            "timeline": false
+          },
+          "yaw": 0.259708261489868,
+          "browser_at_ms": 586253.3000000119
+        },
+        "after": {
+          "buttons": {
+            "1 倍": [
+              127,
+              680
+            ],
+            "7.7mm Vickers + 九二式F三脚架": [
+              599,
+              104
+            ],
+            "关闭声音": [
+              839,
+              680
+            ],
+            "四舰与岸防火力": [
+              146,
+              104
+            ],
+            "大和": [
+              450.5,
+              680
+            ],
+            "恢复信息": [
+              745,
+              680
+            ],
+            "战报": [
+              917,
+              680
+            ],
+            "指挥态势": [
+              651,
+              680
+            ],
+            "暂停": [
+              52,
+              680
+            ],
+            "结束": [
+              979,
+              680
+            ],
+            "继续导览": [
+              396,
+              104
+            ],
+            "自动电影": [
+              218,
+              680
+            ],
+            "自由观察": [
+              312,
+              680
+            ],
+            "跟随": [
+              573,
+              680
+            ],
+            "重开": [
+              1041,
+              680
+            ],
+            "重新演示": [
+              304,
+              104
+            ]
+          },
+          "camera_mode": "free",
+          "controls": {
+            "map": [
+              1137,
+              498.5
+            ],
+            "segment": [
+              146,
+              104
+            ],
+            "speed": [
+              127,
+              680
+            ],
+            "unit": [
+              450.5,
+              680
+            ],
+            "weapon": [
+              599,
+              104
+            ]
+          },
+          "effects": {
+            "active": 0,
+            "allocated": 384,
+            "dropped": 0,
+            "engine_sources": 4,
+            "last_sequence": 108,
+            "materials": 384,
+            "peak_visible": 0,
+            "preempted": 0,
+            "render_instances": 384,
+            "shown_events": 108,
+            "sound_sources": 8,
+            "visible_instances": 0
+          },
+          "ended": "",
+          "exercise": "fire",
+          "followed_id": "",
+          "fragments": 0,
+          "gallery_index": 0,
+          "generation": 6,
+          "label": "演示模式 · 四型军舰 · 实际航行 / 舰炮交战",
+          "models": 19,
+          "modes": [
+            "guided",
+            "pair",
+            "four",
+            "maneuver",
+            "escort",
+            "fire",
+            "train_us_bank_turn",
+            "train_us_climb_dive",
+            "train_us_axial_roll",
+            "train_us_roll_reversal",
+            "train_us_split_s",
+            "train_jp_bank_turn",
+            "train_jp_climb_dive",
+            "train_jp_axial_roll",
+            "train_jp_roll_reversal",
+            "train_jp_split_s"
+          ],
+          "paused": false,
+          "pending_s": 0.00486611111111943,
+          "pitch": 0.26,
+          "popups": {
+            "segment": {
+              "count": 16,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                36,
+                123
+              ],
+              "size": [
+                220,
+                456
+              ],
+              "visible": false
+            },
+            "speed": {
+              "count": 4,
+              "metadata": [
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                86,
+                600
+              ],
+              "size": [
+                82,
+                120
+              ],
+              "visible": false
+            },
+            "unit": {
+              "count": 19,
+              "metadata": [
+                "jp_air_1",
+                "jp_air_2",
+                "jp_air_3",
+                "jp_air_4",
+                "jp_bb",
+                "jp_dd",
+                "us_aa_01",
+                "us_aa_02",
+                "us_air_1",
+                "us_air_2",
+                "us_air_3",
+                "us_air_4",
+                "us_bb",
+                "us_coast_01",
+                "us_dd",
+                "us_pair_demo_1",
+                "us_pair_demo_2",
+                "us_sb2c_1",
+                "us_sb2c_2"
+              ],
+              "position": [
+                362,
+                180
+              ],
+              "size": [
+                177,
+                540
+              ],
+              "visible": false
+            },
+            "weapon": {
+              "count": 6,
+              "metadata": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+              ],
+              "position": [
+                444,
+                123
+              ],
+              "size": [
+                310,
+                176
+              ],
+              "visible": false
+            }
+          },
+          "sound": true,
+          "speed": 1,
+          "tick": 6,
+          "time_s": 0.1,
+          "timeline_buttons": [],
+          "ui": {
+            "both_cards": false,
+            "cinema": true,
+            "detail": "选择一条指令查看各成员执行进度。",
+            "expanded": false,
+            "report": false,
+            "report_text": "截至 00:00\n\n日方指挥官\n可战 2 舰 / 4 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 0 发 · 剩余 120900 发 · 耗油 0.0 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 0 发 · 剩余 226810 发 · 耗油 0.1 千克\n岸防 3 炮组 · 失能 0 · 摧毁 0",
+            "status": "00:00   观战中 · 1.0 倍",
+            "timeline": false
+          },
+          "yaw": -0.469993495941162,
+          "browser_at_ms": 586685.8999999762
+        }
+      }
+    ],
+    "natural_active_wall_s": 615.0559999999999,
+    "natural_sim_s": 615.0000000000006,
+    "natural_frames": {
+      "frames": 57978,
+      "p50_ms": 8.900000000023283,
+      "p95_ms": 20.29999999998836,
+      "p99_ms": 26.70000000001164,
+      "mean_ms": 10.654274034978785,
+      "mean_fps": 93.85904630544742,
+      "over_33_3ms_ratio": 0.005967780882403671,
+      "over_50ms_ratio": 0.0010693711407775363,
+      "max_ms": 93.80000000000291
+    },
+    "natural_state": {
+      "samples": 614,
+      "paused_samples": 0,
+      "ended_samples": 0,
+      "moving_units_range": [
+        7,
+        16
+      ],
+      "active_units_range": [
+        11,
+        19
+      ]
+    },
+    "by_generation": {
+      "1": {
+        "sim_s": [
+          1,
+          21.95
+        ],
+        "node_count_range": [
+          4500,
+          4685
+        ],
+        "nodes_at_25_to_40s": [],
+        "fragments_peak": 0,
+        "counts_max": {
+          "surface_impact": 55,
+          "fleet_flagship_changed": 4,
+          "target_changed": 11,
+          "main_gun_fire": 29,
+          "damage_phase": 2,
+          "order_execution_changed": 156,
+          "hit": 20,
+          "order_assignments_changed": 13,
+          "order_issued": 11,
+          "salvo": 22,
+          "damaged": 8,
+          "disabled": 2,
+          "coastal_gun_fire": 1,
+          "order_status_changed": 24,
+          "command_applied": 22,
+          "ship_support_fire": 75,
+          "fired": 105
+        }
+      },
+      "2": {
+        "sim_s": [
+          0.1,
+          7.73333333333333
+        ],
+        "node_count_range": [
+          4615,
+          4618
+        ],
+        "nodes_at_25_to_40s": [],
+        "fragments_peak": 0,
+        "counts_max": {
+          "surface_impact": 6,
+          "fleet_flagship_changed": 4,
+          "target_changed": 7,
+          "main_gun_fire": 8,
+          "order_execution_changed": 76,
+          "hit": 2,
+          "order_assignments_changed": 12,
+          "order_issued": 12,
+          "salvo": 6,
+          "damaged": 2,
+          "coastal_gun_fire": 1,
+          "order_status_changed": 24,
+          "command_applied": 19,
+          "ship_support_fire": 32,
+          "fired": 41
+        }
+      },
+      "3": {
+        "sim_s": [
+          0.55,
+          22.75
+        ],
+        "node_count_range": [
+          4617,
+          4689
+        ],
+        "nodes_at_25_to_40s": [],
+        "fragments_peak": 1,
+        "counts_max": {
+          "surface_impact": 73,
+          "damage_phase": 2,
+          "order_execution_changed": 166,
+          "main_gun_fire": 29,
+          "command_applied": 20,
+          "fired": 165,
+          "airburst": 38,
+          "hit": 16,
+          "damaged": 11,
+          "aircraft_part_detached": 1,
+          "ship_support_fire": 133,
+          "order_issued": 11,
+          "coastal_gun_fire": 3,
+          "order_status_changed": 23,
+          "fleet_flagship_changed": 4,
+          "target_changed": 9,
+          "order_assignments_changed": 13,
+          "salvo": 22,
+          "disabled": 2
+        }
+      },
+      "4": {
+        "sim_s": [
+          0.7,
+          337.583333333333
+        ],
+        "node_count_range": [
+          4691,
+          4901
+        ],
+        "nodes_at_25_to_40s": [
+          4860,
+          4881,
+          4881,
+          4881,
+          4881,
+          4881,
+          4881,
+          4880,
+          4880,
+          4866,
+          4866,
+          4866,
+          4866,
+          4866,
+          4866
+        ],
+        "fragments_peak": 3,
+        "counts_max": {
+          "surface_impact": 176,
+          "aircraft_breakup": 3,
+          "unit_impact": 3,
+          "projectile_expired": 224,
+          "damage_phase": 16,
+          "order_execution_changed": 16227,
+          "main_gun_fire": 201,
+          "command_applied": 43,
+          "fired": 967,
+          "airburst": 472,
+          "hit": 95,
+          "damaged": 66,
+          "aircraft_part_detached": 9,
+          "ship_support_fire": 762,
+          "command_rejected": 2,
+          "order_issued": 23,
+          "unit_surface_contact": 3,
+          "coastal_gun_fire": 4,
+          "order_status_changed": 62,
+          "fleet_flagship_changed": 11,
+          "target_changed": 20,
+          "aircraft_exit": 2,
+          "order_assignments_changed": 44,
+          "salvo": 135,
+          "disabled": 6
+        }
+      },
+      "5": {
+        "sim_s": [
+          0.0166666666666667,
+          180.033333333333
+        ],
+        "node_count_range": [
+          4865,
+          4901
+        ],
+        "nodes_at_25_to_40s": [
+          4881,
+          4881,
+          4881,
+          4881,
+          4881,
+          4881,
+          4881,
+          4880,
+          4880,
+          4866,
+          4866,
+          4866,
+          4866,
+          4866,
+          4866
+        ],
+        "fragments_peak": 3,
+        "counts_max": {
+          "surface_impact": 176,
+          "aircraft_breakup": 3,
+          "unit_impact": 3,
+          "projectile_expired": 224,
+          "damage_phase": 16,
+          "order_execution_changed": 946,
+          "command_applied": 39,
+          "main_gun_fire": 201,
+          "fired": 967,
+          "airburst": 472,
+          "hit": 95,
+          "damaged": 66,
+          "aircraft_part_detached": 9,
+          "ship_support_fire": 762,
+          "command_rejected": 2,
+          "order_issued": 21,
+          "unit_surface_contact": 3,
+          "coastal_gun_fire": 4,
+          "order_status_changed": 55,
+          "fleet_flagship_changed": 11,
+          "target_changed": 18,
+          "order_assignments_changed": 38,
+          "salvo": 135,
+          "disabled": 6
+        }
+      },
+      "6": {
+        "sim_s": [
+          0.483333333333333,
+          147.366666666667
+        ],
+        "node_count_range": [
+          4865,
+          4901
+        ],
+        "nodes_at_25_to_40s": [
+          4881,
+          4881,
+          4881,
+          4881,
+          4881,
+          4881,
+          4881,
+          4880,
+          4880,
+          4866,
+          4866,
+          4866,
+          4866,
+          4866,
+          4866
+        ],
+        "fragments_peak": 3,
+        "counts_max": {
+          "surface_impact": 176,
+          "aircraft_breakup": 3,
+          "unit_impact": 3,
+          "projectile_expired": 224,
+          "damage_phase": 16,
+          "order_execution_changed": 788,
+          "main_gun_fire": 193,
+          "command_applied": 38,
+          "fired": 927,
+          "airburst": 390,
+          "hit": 95,
+          "damaged": 64,
+          "aircraft_part_detached": 9,
+          "ship_support_fire": 730,
+          "command_rejected": 2,
+          "order_issued": 20,
+          "unit_surface_contact": 3,
+          "coastal_gun_fire": 4,
+          "order_status_changed": 52,
+          "fleet_flagship_changed": 11,
+          "target_changed": 18,
+          "order_assignments_changed": 35,
+          "salvo": 127,
+          "disabled": 6
+        }
+      }
+    },
+    "owned_process_memory": {
+      "83338": {
+        "type": "browser",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 133,
+        "physical_footprint_bytes_range": [
+          75417472,
+          80758656
+        ],
+        "resident_bytes_range": [
+          69074944,
+          126517248
+        ],
+        "first_utc": "2026-11-10T22:00:14.344Z",
+        "last_utc": "2026-11-10T22:11:29.257Z"
+      },
+      "83361": {
+        "type": "renderer",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 133,
+        "physical_footprint_bytes_range": [
+          12223592,
+          12289128
+        ],
+        "resident_bytes_range": [
+          21053440,
+          29573120
+        ],
+        "first_utc": "2026-11-10T22:00:14.344Z",
+        "last_utc": "2026-11-10T22:11:29.257Z"
+      },
+      "83362": {
+        "type": "renderer",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 133,
+        "physical_footprint_bytes_range": [
+          415582464,
+          602294720
+        ],
+        "resident_bytes_range": [
+          184549376,
+          370638848
+        ],
+        "first_utc": "2026-11-10T22:00:14.344Z",
+        "last_utc": "2026-11-10T22:11:29.257Z"
+      },
+      "83358": {
+        "type": "renderer",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 133,
+        "physical_footprint_bytes_range": [
+          37193168,
+          48776656
+        ],
+        "resident_bytes_range": [
+          36945920,
+          73203712
+        ],
+        "first_utc": "2026-11-10T22:00:14.344Z",
+        "last_utc": "2026-11-10T22:11:29.257Z"
+      },
+      "83348": {
+        "type": "GPU",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 133,
+        "physical_footprint_bytes_range": [
+          404292952,
+          525813176
+        ],
+        "resident_bytes_range": [
+          104431616,
+          159531008
+        ],
+        "first_utc": "2026-11-10T22:00:14.344Z",
+        "last_utc": "2026-11-10T22:11:29.257Z"
+      },
+      "83349": {
+        "type": "network.mojom.NetworkService",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 133,
+        "physical_footprint_bytes_range": [
+          9225152,
+          9700288
+        ],
+        "resident_bytes_range": [
+          22953984,
+          34897920
+        ],
+        "first_utc": "2026-11-10T22:00:14.344Z",
+        "last_utc": "2026-11-10T22:11:29.257Z"
+      },
+      "83356": {
+        "type": "storage.mojom.StorageService",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 133,
+        "physical_footprint_bytes_range": [
+          5833568,
+          5948256
+        ],
+        "resident_bytes_range": [
+          16662528,
+          22528000
+        ],
+        "first_utc": "2026-11-10T22:00:14.344Z",
+        "last_utc": "2026-11-10T22:11:29.257Z"
+      },
+      "83375": {
+        "type": "audio.mojom.AudioService",
+        "scope": "Only PIDs from this isolated Chrome browser CDP session",
+        "samples": 133,
+        "physical_footprint_bytes_range": [
+          12141672,
+          12928104
+        ],
+        "resident_bytes_range": [
+          27639808,
+          39124992
+        ],
+        "first_utc": "2026-11-10T22:00:14.344Z",
+        "last_utc": "2026-11-10T22:11:29.257Z"
+      }
+    },
+    "build_outputs": {
+      "index.apple-touch-icon.png": {
+        "bytes": 11944,
+        "sha256": "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+      },
+      "index.wasm": {
+        "bytes": 39514754,
+        "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+      },
+      "index.icon.png": {
+        "bytes": 5700,
+        "sha256": "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+      },
+      "index.html": {
+        "bytes": 5679,
+        "sha256": "3a47a1ab7b62ce438481a0e0d4069c4025c461e070e81330e0c73df3576d9925"
+      },
+      "index.png": {
+        "bytes": 21443,
+        "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      },
+      "index.audio.worklet.js": {
+        "bytes": 7298,
+        "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+      },
+      "index.js": {
+        "bytes": 279815,
+        "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+      },
+      "index.audio.position.worklet.js": {
+        "bytes": 2973,
+        "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+      },
+      "index.pck": {
+        "bytes": 16747256,
+        "sha256": "edcbad51ca5ae54126d5cf6565bdd5ff1c1de117a3de78601cb609e4e7f5a2bc"
+      }
+    },
+    "actual_R_key_presses": 4,
+    "effects_preempted_peak": 10439,
+    "effects_unallocated_peak": 461,
+    "final_state": {
+      "buttons": {
+        "1 倍": [
+          127,
+          680
+        ],
+        "7.7mm Vickers + 九二式F三脚架": [
+          599,
+          104
+        ],
+        "关闭声音": [
+          839,
+          680
+        ],
+        "四舰与岸防火力": [
+          146,
+          104
+        ],
+        "大和": [
+          450.5,
+          680
+        ],
+        "恢复信息": [
+          745,
+          680
+        ],
+        "战报": [
+          917,
+          680
+        ],
+        "指挥态势": [
+          651,
+          680
+        ],
+        "暂停": [
+          52,
+          680
+        ],
+        "结束": [
+          979,
+          680
+        ],
+        "继续导览": [
+          396,
+          104
+        ],
+        "自动电影": [
+          218,
+          680
+        ],
+        "自由观察": [
+          312,
+          680
+        ],
+        "跟随": [
+          573,
+          680
+        ],
+        "重开": [
+          1041,
+          680
+        ],
+        "重新演示": [
+          304,
+          104
+        ]
+      },
+      "camera_mode": "free",
+      "controls": {
+        "map": [
+          1137,
+          498.5
+        ],
+        "segment": [
+          146,
+          104
+        ],
+        "speed": [
+          127,
+          680
+        ],
+        "unit": [
+          450.5,
+          680
+        ],
+        "weapon": [
+          599,
+          104
+        ]
+      },
+      "effects": {
+        "active": 0,
+        "allocated": 384,
+        "dropped": 0,
+        "engine_sources": 4,
+        "last_sequence": 108,
+        "materials": 384,
+        "peak_visible": 0,
+        "preempted": 0,
+        "render_instances": 384,
+        "shown_events": 108,
+        "sound_sources": 8,
+        "visible_instances": 0
+      },
+      "ended": "",
+      "exercise": "fire",
+      "followed_id": "",
+      "fragments": 0,
+      "gallery_index": 0,
+      "generation": 7,
+      "label": "演示模式 · 四型军舰 · 实际航行 / 舰炮交战",
+      "models": 19,
+      "modes": [
+        "guided",
+        "pair",
+        "four",
+        "maneuver",
+        "escort",
+        "fire",
+        "train_us_bank_turn",
+        "train_us_climb_dive",
+        "train_us_axial_roll",
+        "train_us_roll_reversal",
+        "train_us_split_s",
+        "train_jp_bank_turn",
+        "train_jp_climb_dive",
+        "train_jp_axial_roll",
+        "train_jp_roll_reversal",
+        "train_jp_split_s"
+      ],
+      "paused": false,
+      "pending_s": 0.0137757575757576,
+      "pitch": 0.26,
+      "popups": {
+        "segment": {
+          "count": 16,
+          "metadata": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "position": [
+            36,
+            123
+          ],
+          "size": [
+            220,
+            456
+          ],
+          "visible": false
+        },
+        "speed": {
+          "count": 4,
+          "metadata": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "position": [
+            86,
+            600
+          ],
+          "size": [
+            82,
+            120
+          ],
+          "visible": false
+        },
+        "unit": {
+          "count": 19,
+          "metadata": [
+            "jp_air_1",
+            "jp_air_2",
+            "jp_air_3",
+            "jp_air_4",
+            "jp_bb",
+            "jp_dd",
+            "us_aa_01",
+            "us_aa_02",
+            "us_air_1",
+            "us_air_2",
+            "us_air_3",
+            "us_air_4",
+            "us_bb",
+            "us_coast_01",
+            "us_dd",
+            "us_pair_demo_1",
+            "us_pair_demo_2",
+            "us_sb2c_1",
+            "us_sb2c_2"
+          ],
+          "position": [
+            362,
+            180
+          ],
+          "size": [
+            177,
+            540
+          ],
+          "visible": false
+        },
+        "weapon": {
+          "count": 6,
+          "metadata": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "position": [
+            444,
+            123
+          ],
+          "size": [
+            310,
+            176
+          ],
+          "visible": false
+        }
+      },
+      "sound": true,
+      "speed": 1,
+      "tick": 6,
+      "time_s": 0.1,
+      "timeline_buttons": [],
+      "ui": {
+        "both_cards": false,
+        "cinema": true,
+        "detail": "选择一条指令查看各成员执行进度。",
+        "expanded": false,
+        "report": false,
+        "report_text": "截至 00:00\n\n日方指挥官\n可战 2 舰 / 4 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 0 发 · 剩余 120900 发 · 耗油 0.0 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 0 发 · 剩余 226810 发 · 耗油 0.0 千克\n岸防 3 炮组 · 失能 0 · 摧毁 0",
+        "status": "00:00   观战中 · 1.0 倍",
+        "timeline": false
+      },
+      "yaw": -0.469993495941162,
+      "browser_at_ms": 686130.1999999881
+    }
+  }
+}

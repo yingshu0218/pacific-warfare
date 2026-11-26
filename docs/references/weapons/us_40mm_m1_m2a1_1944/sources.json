@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "task_id": "S10",
+  "reviewed_date": "2026-11-10",
+  "target": {
+    "gun": "40-mm Automatic Gun M1 (AA)",
+    "carriage": "40-mm Antiaircraft Gun Carriage M2A1",
+    "configuration_date": "1944-01-17",
+    "sight": "Sighting System M3; no Computing Sight M7 fitted",
+    "pose": "firing position, outriggers open, chassis lowered, four leveling foot plates on host ground",
+    "identity_status": "primary_manual_confirmed",
+    "geometry_status": "reference_ready_with_explicit_estimated_dimensions; model_not_started",
+    "service_year_status": "M1 documented in superseded manual dated 1942-04-15; exact M2A1 introduction not independently established",
+    "excluded_variants": [
+      "British carriage used as proof of American M2A1 details",
+      "shipboard twin or quadruple Bofors mounting",
+      "postwar 1952 manual dimensions silently merged with 1944 table",
+      "M2 carriage gearbox treated as verified M2A1 gearbox"
+    ]
+  },
+  "primary_publication": {
+    "title": "TM 9-252: 40-mm Automatic Gun M1 (AA) and 40-mm Antiaircraft Gun Carriages M2 and M2A1",
+    "author": "United States War Department",
+    "date": "1944-01-17",
+    "digitization": "Maritime Park Association; original manual provided by Jerry Gilmartin",
+    "page_url": "https://legacy.maritime.org/doc/boforstm252/index.php",
+    "operation_url": "https://legacy.maritime.org/doc/boforstm252/part3a.php",
+    "sights_ammunition_url": "https://legacy.maritime.org/doc/boforstm252/part4a.php",
+    "rights": "Original United States federal government manual photographs; public domain in the United States. Mirror transcription/layout is separate. Images retained only as research, not runtime textures.",
+    "text_sections_read": [
+      "1-4",
+      "37-40",
+      "90-92",
+      "109-112"
+    ],
+    "publication_identity_note": "1944 edition includes M2A1; earlier 1942 edition mentioned by supersession statement is not silently used for M2A1 introduction."
+  },
+  "selected_images": [
+    {
+      "id": "AA-01",
+      "archive_id": "RA PD 71901",
+      "figure": "1",
+      "printed_page": "5",
+      "caption_identity": "40-mm Automatic Gun M1 (AA) and 40-mm Antiaircraft Gun Carriage M2A1 - Firing Position - High Elevation",
+      "original_url": "https://legacy.maritime.org/doc/boforstm252/img/fig001.jpg",
+      "local_file": "images/tm9-252_fig001.jpg",
+      "pixels": [
+        555,
+        639
+      ],
+      "view": "whole weapon, front quarter, high elevation, firing position",
+      "can_reference": [
+        "four-wheel chassis",
+        "outriggers and leveling feet",
+        "top carriage and seats",
+        "single gun and elevation relationship"
+      ],
+      "cannot_reference": [
+        "exact barrel length from perspective",
+        "hidden back surfaces",
+        "wartime paint colors"
+      ],
+      "inspection": "viewed_original_local_file",
+      "role": "main_identity_and_firing_silhouette"
+    },
+    {
+      "id": "AA-02",
+      "archive_id": "RA PD 71904",
+      "figure": "4",
+      "printed_page": "9",
+      "caption_identity": "40-mm Automatic Gun M1 (AA) and 40-mm Antiaircraft Gun Carriage M2A1 - Travelling Positions",
+      "original_url": "https://legacy.maritime.org/doc/boforstm252/img/fig004.jpg",
+      "local_file": "images/tm9-252_fig004.jpg",
+      "pixels": [
+        925,
+        500
+      ],
+      "view": "whole weapon, near side/quarter, traveling, connected to prime mover",
+      "can_reference": [
+        "barrel profile and flash hider",
+        "wheelbase and chassis proportions",
+        "breech body",
+        "seats and carriage layering"
+      ],
+      "cannot_reference": [
+        "deployed outrigger footprint",
+        "firing foot plate height",
+        "prime mover identity or modeling requirements"
+      ],
+      "inspection": "viewed_original_local_file",
+      "role": "main_side_proportion_with_travel_pose_limit"
+    },
+    {
+      "id": "AA-03",
+      "archive_id": "RA PD 71985",
+      "figure": "89",
+      "printed_page": "106",
+      "caption_identity": "Leveling Weapon; common M1 / M2 / M2A1 manual operation section, carriage subtype not separately identified in caption",
+      "original_url": "https://legacy.maritime.org/doc/boforstm252/img/fig089.jpg",
+      "local_file": "images/tm9-252_fig089.jpg",
+      "pixels": [
+        829,
+        526
+      ],
+      "view": "whole weapon, rear/side quarter, mid elevation, crew leveling firing chassis",
+      "can_reference": [
+        "deployed outrigger connection",
+        "foot plate contact",
+        "rotating seats",
+        "drawbar in raised leveling step"
+      ],
+      "cannot_reference": [
+        "M2A1-specific traversing gearbox proof",
+        "final drawbar position from temporary leveling step",
+        "crew-obscured foot plates"
+      ],
+      "inspection": "viewed_original_local_file",
+      "role": "common_installation_auxiliary_with_subtype_limit"
+    },
+    {
+      "id": "AA-04",
+      "archive_id": "RA PD 72063",
+      "figure": "161",
+      "printed_page": "190",
+      "caption_identity": "Sighting Systems M3 - Gun Not Equipped With Computing Sight M7 or M7A1",
+      "original_url": "https://legacy.maritime.org/doc/boforstm252/img/fig161.jpg",
+      "local_file": "images/tm9-252_fig161.jpg",
+      "pixels": [
+        926,
+        512
+      ],
+      "view": "local rear/top view of M3 sight bars and support brackets",
+      "can_reference": [
+        "sight host and bracket location",
+        "front and rear sight positions",
+        "cross support relationship"
+      ],
+      "cannot_reference": [
+        "whole weapon coverage",
+        "carriage model identity",
+        "full mechanical sight simulation"
+      ],
+      "inspection": "viewed_original_local_file",
+      "role": "local_mounting_auxiliary"
+    }
+  ],
+  "estimates_and_gaps": [
+    "Deployed width, trunnion height and seat dimensions require image estimates constrained by 3.2004m wheelbase.",
+    "Figure 89 is shared-structure evidence and does not independently identify the M2A1 gearbox.",
+    "Black-and-white photos do not verify exact wartime paint.",
+    "No AI image, Godot model, installation or browser validation exists in this research phase."
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "task_id": "AV03",
+  "registered": false,
+  "status": "model_and_parameter_proposal_only",
+  "identity": {
+    "variant": "Mitsubishi G4M1 Model 11",
+    "configuration_date": "1942-07",
+    "engine_variant": "Mitsubishi Kasei 11",
+    "role": "land_based_level_bomber",
+    "specific_airframe_claim": false,
+    "crew_nominal": 7
+  },
+  "coordinate_system": {
+    "units": "m,s,kg",
+    "axes": "+X right/+Y up/-Z forward",
+    "body_origin_m": [
+      0,
+      0,
+      0
+    ],
+    "measured_cg_m": null,
+    "flight_adapter_translation_m": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "dimensions": {
+    "span_nominal_m": 24.88,
+    "source": "Tamiya61049 manual p1, producer labelled Model11; not a factory measurement",
+    "height_historical_not_geometry_m": null,
+    "height_note": "4.9m is published in a later summary without clear attitude/load; do not force mesh or gear to this value",
+    "length_nominal_m": 19.97,
+    "actual_neutral_visible_length_including_guns_m": 20.1350002288818,
+    "actual_neutral_visible_span_m": 24.8799991607666
+  },
+  "published_performance_context": [
+    {
+      "parameter": "power_each_engine",
+      "value": 1530,
+      "unit": "hp as printed",
+      "source": "documents/tamiya_61049_manual.pdf p1",
+      "condition": "Kasei11; PS/hp convention not resolved, no kW registration"
+    },
+    {
+      "parameter": "maximum_speed",
+      "value": 420,
+      "unit": "km/h",
+      "qualifier": "more than",
+      "source": "documents/tamiya_61049_manual.pdf p1",
+      "altitude_m": null,
+      "weight_kg": null
+    },
+    {
+      "parameter": "range",
+      "value": 4200,
+      "unit": "km",
+      "source": "documents/tamiya_61049_manual.pdf p1",
+      "load_fuel_condition": null,
+      "usable_as_combat_radius": false
+    },
+    {
+      "parameter": "loaded_weight",
+      "value": 28350,
+      "unit": "lb",
+      "converted_kg": 12859.44375,
+      "source": "documents/airforce_classics_2014.pdf printed p80",
+      "quality": "later compiled historical article, not a recovered weight schedule; condition ambiguous; not relabelled as max_takeoff"
+    },
+    {
+      "parameter": "cruise_speed",
+      "value": 196,
+      "unit": "mph",
+      "converted_mps": 87.61984,
+      "source": "documents/airforce_classics_2014.pdf printed p80",
+      "quality": "later compiled reference; altitude and load absent; not yet used in simulation"
+    }
+  ],
+  "unverified_flight_fields": {
+    "empty_mass_kg": null,
+    "max_takeoff_mass_kg": null,
+    "cg_schedule": null,
+    "fuel_mass_kg": null,
+    "wing_area_factory_m2": null,
+    "stall_speed_by_configuration_mps": null,
+    "climb_by_weight_mps": null,
+    "runway_requirement_m": null,
+    "aerodynamic_coefficients": null
+  },
+  "engines": [
+    {
+      "id": "left",
+      "damage_host": "engine_left",
+      "parent_damage_host": "left_wing",
+      "propeller_key": "propeller_left_rad",
+      "nominal_station_m": [
+        -3.85,
+        0.05,
+        -4.9
+      ],
+      "prop_radius_estimate_m": 1.7
+    },
+    {
+      "id": "right",
+      "damage_host": "engine_right",
+      "parent_damage_host": "right_wing",
+      "propeller_key": "propeller_right_rad",
+      "nominal_station_m": [
+        3.85,
+        0.05,
+        -4.9
+      ],
+      "prop_radius_estimate_m": 1.7
+    }
+  ],
+  "defensive_armament": {
+    "count_and_calibre_evidence": "USAAF AIR FORCE 1944-09 printed p19 and Tamiya61049 p1",
+    "positions": [
+      {
+        "id": "nose",
+        "weapon": "Navy Type92 7.7mm machine gun",
+        "count": 1,
+        "weapon_submark_status": "family identification; precise gun submark and ammunition not recovered for this production block",
+        "ammunition_rounds": null,
+        "fire_permission": "host must validate deployed state, mechanical recommendation and self/terrain/friendly obstruction"
+      },
+      {
+        "id": "dorsal",
+        "weapon": "Navy Type92 7.7mm machine gun",
+        "count": 1,
+        "weapon_submark_status": "family identification; precise gun submark and ammunition not recovered for this production block",
+        "ammunition_rounds": null,
+        "fire_permission": "host must validate deployed state, mechanical recommendation and self/terrain/friendly obstruction"
+      },
+      {
+        "id": "waist_left",
+        "weapon": "Navy Type92 7.7mm machine gun",
+        "count": 1,
+        "weapon_submark_status": "family identification; precise gun submark and ammunition not recovered for this production block",
+        "ammunition_rounds": null,
+        "fire_permission": "host must validate deployed state, mechanical recommendation and self/terrain/friendly obstruction"
+      },
+      {
+        "id": "waist_right",
+        "weapon": "Navy Type92 7.7mm machine gun",
+        "count": 1,
+        "weapon_submark_status": "family identification; precise gun submark and ammunition not recovered for this production block",
+        "ammunition_rounds": null,
+        "fire_permission": "host must validate deployed state, mechanical recommendation and self/terrain/friendly obstruction"
+      },
+      {
+        "id": "tail",
+        "weapon": "Type99 Model1 20mm cannon",
+        "count": 1,
+        "weapon_submark_status": "family identification; precise gun submark and ammunition not recovered for this production block",
+        "ammunition_rounds": null,
+        "fire_permission": "host must validate deployed state, mechanical recommendation and self/terrain/friendly obstruction"
+      }
+    ],
+    "limits_status": "All model angular limits are conservative presentation suggestions, not factory arcs. USAAF hand-rotated360 wording is not unobstructed yaw permission."
+  },
+  "payload": {
+    "default": "bombs_12x60",
+    "configurations": {
+      "bombs_12x60": {
+        "count": 12,
+        "nominal_each_kg": 60,
+        "nominal_total_kg": 720,
+        "bomb_subtype_and_fuze": null,
+        "visual": "simple 60kg-class body; no claim of exact ordnance drawing",
+        "rack_layout": "two six-bomb groups, four longitudinal rows of three; station estimates from Tamiya D01 and steps15-16",
+        "bay_cover": "removed_on_ground",
+        "release_markers": "BOMB_00_RELEASE through BOMB_11_RELEASE"
+      },
+      "empty_open": {
+        "count": 0,
+        "bay_cover": "removed_on_ground"
+      },
+      "ferry": {
+        "count": 0,
+        "bay_cover": "installed_detachable_fairing_no_hinged_door"
+      }
+    },
+    "inventory_owner": "BOMB01 future simulation; model only accepts 12 independent visibility flags",
+    "future_torpedo": {
+      "family": "Type91",
+      "count": 1,
+      "mutually_exclusive_with_bombs": true,
+      "subtype": null,
+      "qualified": false,
+      "visual_mesh_present": false,
+      "reference_marker": "TORPEDO_RESERVED",
+      "note": "requires separate load, carrier, clearance and release validation; not a completed torpedo capability"
+    }
+  },
+  "damage_hosts": [
+    "center",
+    "left_wing",
+    "right_wing",
+    "tail",
+    "engine_left",
+    "engine_right"
+  ],
+  "geometry_estimates": [
+    "body and canopy station profiles",
+    "gear wheel radii/centres and simplified folding axes",
+    "propeller radius",
+    "control surface hinge coordinates and 35deg flap presentation",
+    "gun mount axes/limits and local supports",
+    "bomb body/rack station coordinates"
+  ],
+  "integration_excludes": [
+    "registry",
+    "AircraftMotion",
+    "shared adapters/builders",
+    "BOMB ammunition and projectile spawning",
+    "OPS takeoff/landing",
+    "DM fragment movement",
+    "Chrome fleet performance"
+  ],
+  "references_root": "docs/references/aircraft/g4m1_1942",
+  "interfaces": "aircraft/g4m1/data/interfaces.json"
+}

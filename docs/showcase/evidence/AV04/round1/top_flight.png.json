@@ -1,0 +1,109 @@
+{
+	"camera_position_m": [
+		0.0,
+		40.2000007629395,
+		0.00100000004749745
+	],
+	"camera_rotation_rad": [
+		-1.57079637050629,
+		0.0,
+		0.0
+	],
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"fov_deg": 75.0,
+	"model_position_m": [
+		0.0,
+		0.0,
+		0.0
+	],
+	"model_rotation_rad": [
+		0.0,
+		0.0,
+		0.0
+	],
+	"model_scale": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"projection": 1,
+	"renderer": "gl_compatibility",
+	"size_m": 21.5,
+	"source_hashes": {
+		"aircraft/b25j/b25j.gd": "42ea4aa80433786cdee1b38954923fdfc24c39323eaf855b49e19e1afcf0906c",
+		"aircraft/b25j/b25j.tscn": "7ca962678e2767188c5b029c98da318efee26847ed3dfdb93683737817dd4ed7",
+		"aircraft/b25j/geometry.gd": "8f391745185c8d0e07951352da6e808e06bc92222c0474cc67e61fdcdc309965",
+		"aircraft/b25j/inspection.gd": "b680ff351574dc71736316ca0d03445ef23f94cb22409b77932936d0c9ef6c00",
+		"aircraft/b25j/inspection.tscn": "d7ae52d56f707a47d1cdc353d98cd4310177ee3c229f778bb1068fa8e265e8df",
+		"project.godot": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95"
+	},
+	"view": "top_flight",
+	"viewport_px": [
+		1440,
+		900
+	],
+	"visual_state": {
+		"aileron_left_rad": 0.0,
+		"aileron_right_rad": 0.0,
+		"bay_door": 0.0,
+		"elevator_left_rad": 0.0,
+		"elevator_right_rad": 0.0,
+		"flap": 0.0,
+		"gear": 0.0,
+		"gun_cheek_left_lower": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_cheek_left_upper": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_cheek_right_lower": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_cheek_right_upper": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_dorsal": {
+			"elevation_rad": 0.21,
+			"yaw_rad": 0.0
+		},
+		"gun_nose_fixed": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_nose_flexible": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_tail": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_waist_left": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_waist_right": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"payload_mode": "bombs_6x500",
+		"propeller_left_rad": 0.0,
+		"propeller_right_rad": 0.64,
+		"rudder_left_rad": 0.0,
+		"rudder_right_rad": 0.0
+	}
+}

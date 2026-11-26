@@ -1,0 +1,37 @@
+{
+  "fps": 15,
+  "duration_s": 36.13333333333333,
+  "audio": false,
+  "clips": [
+    {
+      "scenario": "harbor",
+      "camera_control": "fighter",
+      "first_simulation_s": 6.08333333333333,
+      "last_simulation_s": 15.15,
+      "frames": 137,
+      "units": [
+        "us_air_4"
+      ]
+    },
+    {
+      "scenario": "harbor",
+      "camera_control": "fighter",
+      "first_simulation_s": 39.75,
+      "last_simulation_s": 52.0833333333333,
+      "frames": 186,
+      "units": [
+        "jp_air_4"
+      ]
+    },
+    {
+      "scenario": "harbor",
+      "camera_control": "fighter",
+      "first_simulation_s": 60.6166666666667,
+      "last_simulation_s": 75.15,
+      "frames": 219,
+      "units": [
+        "us_air_3"
+      ]
+    }
+  ]
+}

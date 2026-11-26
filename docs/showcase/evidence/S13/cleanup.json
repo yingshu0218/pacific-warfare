@@ -1,0 +1,238 @@
+{
+  "owned_reports": 30,
+  "owned_process_groups": 52,
+  "groups": [
+    {
+      "group": 39850,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 39851,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 39906,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 39907,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40011,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40012,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40122,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40123,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40171,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40172,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40262,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40263,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40452,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40453,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40484,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40487,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40535,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40536,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40541,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40646,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40647,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40789,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40790,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40818,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40819,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40882,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 40883,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41026,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41027,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41288,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41289,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41295,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41296,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41359,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41555,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41556,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41561,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41562,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 41662,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42046,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42049,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42227,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42410,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42411,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42654,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42807,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42808,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42812,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42871,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42929,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 42930,
+      "signal_zero": "absent"
+    },
+    {
+      "group": 43042,
+      "signal_zero": "absent"
+    }
+  ],
+  "matching_ps_rows": [],
+  "browser_cleanup": {
+    "chrome-attempt1": {
+      "chromeClosed": true,
+      "serverClosed": true,
+      "profileRemoved": true
+    },
+    "chrome-attempt2": {
+      "chromeClosed": true,
+      "serverClosed": true,
+      "profileRemoved": true
+    },
+    "chrome-attempt3": {
+      "chromeClosed": true,
+      "serverClosed": true,
+      "profileRemoved": true
+    },
+    "chrome": {
+      "chromeClosed": true,
+      "serverClosed": true,
+      "profileRemoved": true
+    }
+  },
+  "scope": "Only S13 process groups/profiles/servers; unrelated Godot, AU01 or user browser processes were never terminated."
+}

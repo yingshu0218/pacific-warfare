@@ -1,0 +1,106 @@
+{
+  "checked_date": "2026-11-10",
+  "target": "USS Iowa BB-61 1944-12-28",
+  "sources": [
+    {
+      "id": "80-G-421124",
+      "file": "original/80-G-421124.jpg",
+      "date": "1944-12-28",
+      "author_or_publisher": "Official U.S. Navy photo, NARA accession 80-G-421124",
+      "page_url": "https://www.usndazzle.com/ship.php?id=126",
+      "image_url": "https://www.usndazzle.com/Battleships%20Pics/61J.jpg",
+      "view": "high stern quarter, ship in ABSD-2",
+      "inspected": true,
+      "use_for": "exact-date whole deck, 3 main and 5 secondary mounts per side, tier order, bridge/funnel placement",
+      "do_not_infer": "perspective and dock wall hide part of hull; not plan coordinates",
+      "rights": "U.S. Navy original via archive-photo mirror; research reference, no runtime image use."
+    },
+    {
+      "id": "80-G-304057",
+      "file": "original/80-G-304057.jpg",
+      "date": "1944-12-27",
+      "author_or_publisher": "Official U.S. Navy photo, NARA accession 80-G-304057",
+      "page_url": "https://www.usndazzle.com/ship.php?id=126",
+      "image_url": "https://www.usndazzle.com/Battleships%20Pics/61G.jpg",
+      "view": "low starboard bow quarter",
+      "inspected": true,
+      "use_for": "raked bow, fine forward hull, open bridge, conning-tower galleries and superfiring main guns",
+      "do_not_infer": "strong perspective; day before selected date",
+      "rights": "U.S. Navy original via archive-photo mirror; research reference, no runtime image use."
+    },
+    {
+      "id": "80-G-304058",
+      "file": "original/80-G-304058.jpg",
+      "date": "1944-12-27",
+      "author_or_publisher": "Official U.S. Navy photo, NARA accession 80-G-304058",
+      "page_url": "https://www.usndazzle.com/ship.php?id=126",
+      "image_url": "https://www.usndazzle.com/Battleships%20Pics/61H.jpg",
+      "view": "near frontal bow",
+      "inspected": true,
+      "use_for": "hull flare, bridge width, three barrels per main gunhouse, narrow upper tower",
+      "do_not_infer": "dock structures obscure side deck; not a profile",
+      "rights": "U.S. Navy original via archive-photo mirror; research reference, no runtime image use."
+    },
+    {
+      "id": "80-G-358652",
+      "file": "original/80-G-358652.jpg",
+      "date": "1944-08-08",
+      "author_or_publisher": "Official U.S. Navy photo, NARA accession 80-G-358652",
+      "page_url": "https://www.usndazzle.com/ship.php?id=126",
+      "image_url": "https://www.usndazzle.com/Battleships%20Pics/61F.jpg",
+      "view": "port near broadside",
+      "inspected": true,
+      "use_for": "whole-ship length/height proportions, tall forward tower, two separated funnels, aft director",
+      "do_not_infer": "earlier date and distant ship; cannot settle small AA inventory",
+      "rights": "U.S. Navy original via archive-photo mirror; research reference, no runtime image use."
+    },
+    {
+      "id": "80-G-235080",
+      "file": "original/80-G-235080.jpg",
+      "date": "1944-01-24",
+      "author_or_publisher": "Official U.S. Navy photo, NARA accession 80-G-235080",
+      "page_url": "https://www.usndazzle.com/ship.php?id=126",
+      "image_url": "https://www.usndazzle.com/Battleships%20Pics/61A.jpg",
+      "view": "starboard near broadside, slightly elevated",
+      "inspected": true,
+      "use_for": "broad silhouette, long bow, two forward turrets and one aft; camouflage context",
+      "do_not_infer": "earlier in 1944; paint and small equipment can differ",
+      "rights": "U.S. Navy original via archive-photo mirror; research reference, no runtime image use."
+    },
+    {
+      "id": "80-G-235084",
+      "file": "original/80-G-235084.jpg",
+      "date": "1944-01-24",
+      "author_or_publisher": "Official U.S. Navy photo, NARA accession 80-G-235084",
+      "page_url": "https://www.usndazzle.com/ship.php?id=126",
+      "image_url": "https://www.usndazzle.com/Battleships%20Pics/61B.jpg",
+      "view": "high bow quarter",
+      "inspected": true,
+      "use_for": "cross-check continuous battery deck and 3 upper / 2 lower secondary stations on visible side",
+      "do_not_infer": "perspective; distant sister ship excluded; earlier exact fit",
+      "rights": "U.S. Navy original via archive-photo mirror; research reference, no runtime image use."
+    },
+    {
+      "id": "I-PLAN",
+      "file": "original/tamiya-31616-1944-profile-and-plan.png",
+      "page_url": "https://cdn.simba-dickie-group.de/downloads/300031616/300031616_Anleitung_Instruction_BB-61_Iowa.pdf",
+      "type": "manufacturer 1944 model instructions, PDF page 3",
+      "view": "starboard/port profile and overhead plan",
+      "inspected": true,
+      "use_for": "source-matched main and secondary station digitization, hull edge, bridge/funnels and tiers",
+      "do_not_infer": "not a shipyard plan; model fits June 1944 painting context. Absolute precision, exact December AA or paint not established.",
+      "rights": "Tamiya copyright. Public instruction page retained only as private research, excluded from Godot import/export by original/.gdignore."
+    },
+    {
+      "id": "I-ASSEMBLY",
+      "file": "original/tamiya-31616-bridge-and-installation.png",
+      "page_url": "https://cdn.simba-dickie-group.de/downloads/300031616/300031616_Anleitung_Instruction_BB-61_Iowa.pdf",
+      "type": "manufacturer assembly instructions, PDF page 2",
+      "view": "exploded bridge and battery deck, full assembly obliques",
+      "inspected": true,
+      "use_for": "continuous structural decks and genuine gun hosts; separate main turrets and twin 5-inch mounts",
+      "do_not_infer": "not a measured installation drawing or exact-date inventory",
+      "rights": "Tamiya copyright; research only, not runtime assets."
+    }
+  ]
+}

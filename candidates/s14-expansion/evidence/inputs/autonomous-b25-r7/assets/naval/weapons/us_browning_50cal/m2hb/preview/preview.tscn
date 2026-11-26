@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://assets/naval/weapons/us_browning_50cal/m2hb/preview/preview.gd" id="1_preview"]
+[ext_resource type="PackedScene" path="res://assets/naval/weapons/us_browning_50cal/m2hb/us_browning_50cal_m2hb.tscn" id="2_weapon"]
+
+[node name="BrowningM2HBInspection" type="Node3D"]
+script = ExtResource("1_preview")
+
+[node name="Weapon" parent="." instance=ExtResource("2_weapon")]

@@ -1,0 +1,64 @@
+{
+  "run_id": "20261110T175045-eee5bc32",
+  "owner": "FX01-surface-debug",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 62277,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 62286,
+      "process_group": 62286,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.3928,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T175045-eee5bc32/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+        "--script",
+        "res://tests/fx01_surface_debug.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 62288,
+      "process_group": 62288,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 9.8393,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T175045-eee5bc32/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "FX01-surface-debug",
+    "pid": 62277,
+    "process_identity": "Wed Nov 11 01:50:45 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner FX01-surface-debug --timeout 60 --lock-timeout 45 --project .local/fx01-project godot --render -- --script res://tests/fx01_surface_debug.gd",
+    "token": "737c0e04547444af9c0ad727683e8c58",
+    "acquired_utc": "2026-11-10T17:50:45.839864+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "status": "awaiting_final_admission",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "target": {
+    "scene": "expanded",
+    "entry": null,
+    "url": "http://127.0.0.1:8765/index.html",
+    "title_contains": null,
+    "buffer": [1280, 720],
+    "root_main_scene": "res://scenes/main.tscn"
+  },
+  "admission": {
+    "record": null,
+    "record_sha256": null,
+    "runtime_manifest": null,
+    "runtime_manifest_sha256": null
+  },
+  "package": {
+    "directory": "build/first-playable",
+    "manifest": "build/first-playable/build_manifest.json",
+    "manifest_sha256": null,
+    "pck_sha256": null,
+    "stage": null,
+    "required_resources": [],
+    "allowed_generated_payloads": ["project.binary", ".godot/uid_cache.bin", ".godot/global_script_class_cache.cfg"]
+  },
+  "probe": {
+    "protocol": null,
+    "global": null,
+    "metrics_global": null,
+    "serialization": null,
+    "source_paths": []
+  },
+  "runtime": {
+    "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "playwright_module": null,
+    "max_seconds": 1200,
+    "plain_seconds": 45,
+    "warmup_seconds": 8,
+    "max_evidence_bytes": 134217728,
+    "max_queued_bytes": 8388608,
+    "max_wire_bytes": 1048576,
+    "max_record_bytes": 262144
+  },
+  "acceptance": {
+    "minimum_active_wall_s": 600,
+    "minimum_restarts": 3,
+    "p95_target_ms": 33.3,
+    "groups": ["sb2c_bombing", "d4y_bombing", "g4m_bombing", "b25_bombing", "interception_one", "interception_two"],
+    "required_features": ["both_commanders", "execution_detail", "sound_pause", "slow_speed", "request_2x", "request_4x", "restart", "active_1x"]
+  },
+  "bindings": {
+    "generation": "generation",
+    "tick": "tick",
+    "sim_time": "time_s",
+    "speed": "speed",
+    "paused": "paused",
+    "ended": null,
+    "sound": null,
+    "exercise": "exercise",
+    "models": "models"
+  },
+  "cases": []
+}

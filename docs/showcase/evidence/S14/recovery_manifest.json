@@ -1,0 +1,18 @@
+{
+  "note": "Session/performance are actual pre-edit copies. UI only has additive S14 source tags; no pre-edit full UI copy claimed. Revert the three documented S14 hunks if needed.",
+  "pre_edit_copies": {
+    "scripts/game/first_playable_session.gd": {
+      "path": ".local/s14-before/scripts/game/first_playable_session.gd",
+      "sha256": "c83e4a85f27253f5edae74972765934d8d8bedd9e052416f801f52240d7d011c"
+    },
+    "data/aircraft/performance.json": {
+      "path": ".local/s14-before/data/aircraft/performance.json",
+      "sha256": "f21d5397e1db217856f1ecdb6d933d3bc847f298117657e8cd19e92ae3b920b1"
+    }
+  },
+  "ui_additive_hunks": [
+    "reason(): showcase_exercise_ prefix label",
+    "order_title(): s14_exercise_director source_tag",
+    "timeline(): s14_exercise_director origin label"
+  ]
+}

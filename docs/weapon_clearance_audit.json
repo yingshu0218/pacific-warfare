@@ -1,0 +1,75 @@
+{
+	"findings": [
+		{
+			"barrel": 3,
+			"elevation": 10,
+			"mount": "main_01",
+			"target": "main_02",
+			"train": -150
+		},
+		{
+			"barrel": 3,
+			"elevation": 20,
+			"mount": "main_01",
+			"target": "main_02",
+			"train": -150
+		},
+		{
+			"barrel": 3,
+			"elevation": 10,
+			"mount": "main_01",
+			"target": "main_02",
+			"train": -145
+		},
+		{
+			"barrel": 3,
+			"elevation": 20,
+			"mount": "main_01",
+			"target": "main_02",
+			"train": -145
+		},
+		{
+			"barrel": 3,
+			"elevation": 10,
+			"mount": "main_01",
+			"target": "main_02",
+			"train": -140
+		},
+		{
+			"barrel": 1,
+			"elevation": 10,
+			"mount": "main_01",
+			"target": "main_02",
+			"train": 140
+		},
+		{
+			"barrel": 1,
+			"elevation": 10,
+			"mount": "main_01",
+			"target": "main_02",
+			"train": 145
+		},
+		{
+			"barrel": 1,
+			"elevation": 20,
+			"mount": "main_01",
+			"target": "main_02",
+			"train": 145
+		},
+		{
+			"barrel": 1,
+			"elevation": 10,
+			"mount": "main_01",
+			"target": "main_02",
+			"train": 150
+		},
+		{
+			"barrel": 1,
+			"elevation": 20,
+			"mount": "main_01",
+			"target": "main_02",
+			"train": 150
+		}
+	],
+	"method": "barrel centerline versus adjacent train-fixed turret triangles; targets neutral; excludes barrel thickness, gun bodies and ship structures"
+}

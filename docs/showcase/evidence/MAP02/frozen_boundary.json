@@ -1,0 +1,57 @@
+{
+  "data/maps/island_harbor.json": {
+    "before": "6327c444e480e19be73bdbe75cc0b90e31f974c5ec2fcf765a5926d7a70f6678",
+    "after": "6327c444e480e19be73bdbe75cc0b90e31f974c5ec2fcf765a5926d7a70f6678",
+    "unchanged": true
+  },
+  "scripts/simulation/terrain/terrain_queries.gd": {
+    "before": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868",
+    "after": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868",
+    "unchanged": true
+  },
+  "scripts/simulation/terrain/battlefield_terrain.gd": {
+    "before": "e107d851b6dd13b44babe41ade25254ccdcd545e35f826e5bcfeb0e2d05fcb60",
+    "after": "e107d851b6dd13b44babe41ade25254ccdcd545e35f826e5bcfeb0e2d05fcb60",
+    "unchanged": true
+  },
+  "scripts/simulation/terrain/terrain_navigation.gd": {
+    "before": "da7d41539c07eeb51c7772bedef7b366c6755e95c3fc1f7c1455250561cf8a27",
+    "after": "da7d41539c07eeb51c7772bedef7b366c6755e95c3fc1f7c1455250561cf8a27",
+    "unchanged": true
+  },
+  "scripts/presentation/maps/island_harbor_view.gd": {
+    "before": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+    "after": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+    "unchanged": true
+  },
+  "scripts/game/first_playable.gd": {
+    "before": "d72aee3bc8a86e983c526a5b4e0bda7395d1439dbc89aafac2fb95f2ee3eba49",
+    "after": "d72aee3bc8a86e983c526a5b4e0bda7395d1439dbc89aafac2fb95f2ee3eba49",
+    "unchanged": true
+  },
+  "scripts/game/first_playable_session.gd": {
+    "before": "ffbc58e6f7684c201bb2a1c7a4013021ad665a1b86446117c2d50e1d2a235cbf",
+    "after": "ffbc58e6f7684c201bb2a1c7a4013021ad665a1b86446117c2d50e1d2a235cbf",
+    "unchanged": true
+  },
+  "scripts/presentation/ocean.gdshader": {
+    "before": "5afec338285da856563f79f94171dee6d5b974509e29682353d453724fc1e98a",
+    "after": "5afec338285da856563f79f94171dee6d5b974509e29682353d453724fc1e98a",
+    "unchanged": true
+  },
+  "scripts/presentation/maps/shore.gdshader": {
+    "before": "f65ee9c017ef31542b56d24c03a64c4d6d0bd8399ea2790be48b3c791fc2758b",
+    "after": "f65ee9c017ef31542b56d24c03a64c4d6d0bd8399ea2790be48b3c791fc2758b",
+    "unchanged": true
+  },
+  "scripts/ground/ground_deployments.gd": {
+    "before": "4fc2d6acd74a422164f47833282ff6699755cfef7119045629582382cbdf2141",
+    "after": "4fc2d6acd74a422164f47833282ff6699755cfef7119045629582382cbdf2141",
+    "unchanged": true
+  },
+  "project.godot": {
+    "before": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+    "after": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+    "unchanged": true
+  }
+}

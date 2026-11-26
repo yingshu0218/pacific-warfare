@@ -1,0 +1,360 @@
+{
+  "status": "independent_long_Chrome_data_review",
+  "observed_utc": "2026-11-10T22:19:36.608738+00:00",
+  "passed": true,
+  "errors": [],
+  "check_count": 36,
+  "natural_active_wall_s": 615.0559999999999,
+  "natural_samples": 614,
+  "natural_frame_stats": {
+    "frames": 57775,
+    "p50_ms": 8.900000000023283,
+    "p95_ms": 20.299999999947612,
+    "p99_ms": 26.600000000000435,
+    "max_ms": 93.80000000000291,
+    "over_33_333_percent": 0.5867589787970575,
+    "all_visible": true,
+    "all_focused": true
+  },
+  "natural_moving_units_min": 7,
+  "all_natural_samples_1x_running": true,
+  "phases": [
+    {
+      "name": "warmup",
+      "wall_s": 8.033,
+      "actual_scale": 0.9853954028711311,
+      "begin_tick": 59,
+      "end_tick": 534,
+      "begin_generation": 1,
+      "end_generation": 1,
+      "end_pending_s": 0.00740000000000069,
+      "frame_stats": {
+        "frames": 562,
+        "p50_ms": 12.799999999999272,
+        "p95_ms": 24.185000000000745,
+        "p99_ms": 48.8949999999989,
+        "max_ms": 232.6999999999989,
+        "over_33_333_percent": 3.202846975088968,
+        "all_visible": true,
+        "all_focused": true
+      }
+    },
+    {
+      "name": "audible",
+      "wall_s": 10.013,
+      "actual_scale": 1.0036951962448848,
+      "begin_tick": 568,
+      "end_tick": 1171,
+      "begin_generation": 1,
+      "end_generation": 1,
+      "end_pending_s": 0.0164666666666675,
+      "frame_stats": {
+        "frames": 905,
+        "p50_ms": 8.900000000001455,
+        "p95_ms": 20.440000000000133,
+        "p99_ms": 42.09200000000216,
+        "max_ms": 54.29999999999927,
+        "over_33_333_percent": 2.541436464088398,
+        "all_visible": true,
+        "all_focused": true
+      }
+    },
+    {
+      "name": "sound_enabled_pause",
+      "wall_s": 3.041,
+      "actual_scale": 0,
+      "begin_tick": 1176,
+      "end_tick": 1176,
+      "begin_generation": 1,
+      "end_generation": 1,
+      "end_pending_s": 0.00722222222222283,
+      "frame_stats": {
+        "frames": 371,
+        "p50_ms": 8.0,
+        "p95_ms": 13.850000000000364,
+        "p99_ms": 16.830000000001384,
+        "max_ms": 19.900000000001455,
+        "over_33_333_percent": 0.0,
+        "all_visible": true,
+        "all_focused": true
+      }
+    },
+    {
+      "name": "half_speed",
+      "wall_s": 4.033,
+      "actual_scale": 0.504173898669313,
+      "begin_tick": 308,
+      "end_tick": 430,
+      "begin_generation": 2,
+      "end_generation": 2,
+      "end_pending_s": 0.000387037037037508,
+      "frame_stats": {
+        "frames": 296,
+        "p50_ms": 13.450000000000728,
+        "p95_ms": 22.62499999999818,
+        "p99_ms": 30.50499999999745,
+        "max_ms": 40.19999999999709,
+        "over_33_333_percent": 1.0135135135135136,
+        "all_visible": true,
+        "all_focused": true
+      }
+    },
+    {
+      "name": "natural_fire_until_live_fragment",
+      "wall_s": 22.395,
+      "actual_scale": 0.9972464091687118,
+      "begin_tick": 21,
+      "end_tick": 1361,
+      "begin_generation": 3,
+      "end_generation": 3,
+      "end_pending_s": 0.0158000000000003,
+      "frame_stats": {
+        "frames": 1826,
+        "p50_ms": 10.0,
+        "p95_ms": 22.80000000000291,
+        "p99_ms": 49.600000000000364,
+        "max_ms": 60.39999999999418,
+        "over_33_333_percent": 2.573932092004381,
+        "all_visible": true,
+        "all_focused": true
+      }
+    },
+    {
+      "name": "natural_1x_round_0",
+      "wall_s": 157.625,
+      "actual_scale": 1.0000528680941074,
+      "begin_tick": 5,
+      "end_tick": 9463,
+      "begin_generation": 4,
+      "end_generation": 4,
+      "end_pending_s": 0.00482600000000219,
+      "frame_stats": {
+        "frames": 13727,
+        "p50_ms": 9.89999999999418,
+        "p95_ms": 22.0,
+        "p99_ms": 30.39999999999418,
+        "max_ms": 93.80000000000291,
+        "over_33_333_percent": 0.7794856851460625,
+        "all_visible": true,
+        "all_focused": true
+      }
+    },
+    {
+      "name": "natural_1x_round_1",
+      "wall_s": 180.006,
+      "actual_scale": 1.0005222048153948,
+      "begin_tick": 9483,
+      "end_tick": 20289,
+      "begin_generation": 4,
+      "end_generation": 4,
+      "end_pending_s": 0.0146550000000059,
+      "frame_stats": {
+        "frames": 19661,
+        "p50_ms": 8.299999999988358,
+        "p95_ms": 16.600000000034925,
+        "p99_ms": 22.20000000001164,
+        "max_ms": 33.09999999997672,
+        "over_33_333_percent": 0.0,
+        "all_visible": true,
+        "all_focused": true
+      }
+    },
+    {
+      "name": "natural_1x_round_2",
+      "wall_s": 180.015,
+      "actual_scale": 0.9999166736105343,
+      "begin_tick": 7,
+      "end_tick": 10807,
+      "begin_generation": 5,
+      "end_generation": 5,
+      "end_pending_s": 0.00770000000000223,
+      "frame_stats": {
+        "frames": 16246,
+        "p50_ms": 9.400000000023283,
+        "p95_ms": 21.0,
+        "p99_ms": 27.599999999976717,
+        "max_ms": 64.5,
+        "over_33_333_percent": 0.5416717961344331,
+        "all_visible": true,
+        "all_focused": true
+      }
+    },
+    {
+      "name": "natural_1x_round_3",
+      "wall_s": 75.015,
+      "actual_scale": 0.9989113288453417,
+      "begin_tick": 6,
+      "end_tick": 4502,
+      "begin_generation": 6,
+      "end_generation": 6,
+      "end_pending_s": 0.010110555555565,
+      "frame_stats": {
+        "frames": 6315,
+        "p50_ms": 9.900000000023283,
+        "p95_ms": 22.599999999976717,
+        "p99_ms": 39.5,
+        "max_ms": 59.699999999953434,
+        "over_33_333_percent": 1.5360253365003957,
+        "all_visible": true,
+        "all_focused": true
+      }
+    },
+    {
+      "name": "request_2x",
+      "wall_s": 10.014,
+      "actual_scale": 1.9988682511151084,
+      "begin_tick": 4572,
+      "end_tick": 5773,
+      "begin_generation": 6,
+      "end_generation": 6,
+      "end_pending_s": 0.00222222222222244,
+      "frame_stats": {
+        "frames": 559,
+        "p50_ms": 17.399999999906868,
+        "p95_ms": 27.29999999993015,
+        "p99_ms": 31.852000000015806,
+        "max_ms": 35.5,
+        "over_33_333_percent": 0.5366726296958855,
+        "all_visible": true,
+        "all_focused": true
+      }
+    },
+    {
+      "name": "request_4x",
+      "wall_s": 12.015,
+      "actual_scale": 3.9894576224163956,
+      "begin_tick": 5904,
+      "end_tick": 8780,
+      "begin_generation": 6,
+      "end_generation": 6,
+      "end_pending_s": 0.013708888888938,
+      "frame_stats": {
+        "frames": 295,
+        "p50_ms": 40.5,
+        "p95_ms": 55.470000000076844,
+        "p99_ms": 59.40599999991245,
+        "max_ms": 61.800000000046566,
+        "over_33_333_percent": 75.59322033898304,
+        "all_visible": true,
+        "all_focused": true
+      }
+    }
+  ],
+  "actual_key_r_count": 4,
+  "recorded_restart_states": [
+    {
+      "action": "restart_live_fragment",
+      "before_generation": 3,
+      "after_generation": 4,
+      "fragments_before": 1,
+      "fragments_after": 0
+    },
+    {
+      "action": "restart",
+      "before_generation": 4,
+      "after_generation": 5,
+      "fragments_before": 0,
+      "fragments_after": 0
+    },
+    {
+      "action": "restart",
+      "before_generation": 5,
+      "after_generation": 6,
+      "fragments_before": 0,
+      "fragments_after": 0
+    }
+  ],
+  "peak_fragments": 3,
+  "effect_allocated_peak": 384,
+  "wasm_byte_sizes": [
+    173670400
+  ],
+  "audio_sources_created_peak": 0,
+  "enabled_pause_tick": [
+    1176
+  ],
+  "pause_steady_output_peak": 0,
+  "audible_output_peak": 0.0340576171875,
+  "memory_scope": "Sum of physical footprint/resident values for CDP PIDs of this isolated Chrome; not OS total or proof of indefinite leak freedom.",
+  "memory_samples": 133,
+  "owned_footprint_min_max_bytes": [
+    987818880,
+    1236544696
+  ],
+  "owned_resident_min_max_bytes": [
+    506183680,
+    727285760
+  ],
+  "raw_hashes": {
+    "run.json": "574a60bedeb2d5f6a85a2b94edb67f430a81182080a2f910701c140cad859910",
+    "samples.ndjson": "6c5dc81cf4a337f71513a84b0e68df7d1a69c2f0f65d2c35b290eb9d74b0d403",
+    "memory.ndjson": "833d3de5c91bb93ab51c10a50701f0988b643e4f6e0b7d96a0c30323762bcc35",
+    "actual-output.webm": "7cd1802aeebb551ae2e842a223beaf313c8e0f285e5def7e2f9285051ad8a1f6"
+  },
+  "identity": {
+    "url": "http://127.0.0.1:8765/index.html",
+    "title": "海空交锋 · 全单位 Showcase",
+    "dpr": 1,
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "cssWidth": 1280,
+      "cssHeight": 720,
+      "bufferWidth": 1280,
+      "bufferHeight": 720
+    },
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "uaData": {
+      "architecture": "arm",
+      "bitness": "64",
+      "brands": [
+        {
+          "brand": "Not-A.Brand",
+          "version": "99"
+        },
+        {
+          "brand": "Google Chrome",
+          "version": "157"
+        },
+        {
+          "brand": "Chromium",
+          "version": "157"
+        }
+      ],
+      "fullVersionList": [
+        {
+          "brand": "Not-A.Brand",
+          "version": "99.0.0.0"
+        },
+        {
+          "brand": "Google Chrome",
+          "version": "157.0.8103.39"
+        },
+        {
+          "brand": "Chromium",
+          "version": "157.0.8103.39"
+        }
+      ],
+      "mobile": false,
+      "platform": "macOS"
+    },
+    "validationFixture": "undefined"
+  },
+  "cleanup_report": {
+    "chromeClosed": true,
+    "serverExited": true,
+    "profileRemoved": true
+  },
+  "browser_build_manifest_matches_current": true,
+  "method": "Raw rAF/audio filtered by each phase explicit browser_at_ms endpoints, not stale sample.phase labels; type-7 interpolated percentiles.",
+  "enabled_pause_samples": 3,
+  "enabled_pause_sound_on": true,
+  "enabled_pause_all_frozen": true,
+  "pause_steady_rms_peak": 0,
+  "pause_steady_audio_samples": 332,
+  "all_audio_output_peak": 0.295135498046875,
+  "audit_correction": "Earlier root preliminary calculation selected stale phase labels after resume/reset. Corrected to explicit time endpoints; no product change or new run.",
+  "natural_tagged_frames_including_boundary_operations": 57978,
+  "strict_window_vs_worker_scope": "Root strict endpoint window excludes 203 phase-tagged boundary frames; worker aggregate includes them. Both p95=20.3ms; strict p99=26.6, tagged p99=26.7. No frame editing."
+}

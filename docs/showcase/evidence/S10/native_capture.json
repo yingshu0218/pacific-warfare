@@ -1,0 +1,5835 @@
+{
+	"checks": [
+		{
+			"label": "four ships, eight aircraft, three ground model instances",
+			"passed": true
+		},
+		{
+			"label": "ground recoil without fake ship wakes",
+			"passed": true
+		},
+		{
+			"label": "ground order cards do not overlap normal map",
+			"passed": true
+		},
+		{
+			"label": "real ground commander order exists",
+			"passed": true
+		},
+		{
+			"label": "restart reuses exact model instances",
+			"passed": true
+		},
+		{
+			"label": "ground resets as ground, never aircraft",
+			"passed": true
+		},
+		{
+			"label": "restart reuses exact model instances",
+			"passed": true
+		},
+		{
+			"label": "ground resets as ground, never aircraft",
+			"passed": true
+		},
+		{
+			"label": "restart reuses exact model instances",
+			"passed": true
+		},
+		{
+			"label": "ground resets as ground, never aircraft",
+			"passed": true
+		},
+		{
+			"label": "normal ground details show applicable actual fields",
+			"passed": true
+		},
+		{
+			"label": "normal pause handler freezes ground and world",
+			"passed": true
+		}
+	],
+	"counts": {
+		"command_applied": 21,
+		"fired": 10,
+		"fleet_flagship_changed": 4,
+		"order_assignments_changed": 10,
+		"order_execution_changed": 28,
+		"order_issued": 10,
+		"order_status_changed": 20,
+		"ship_support_fire": 10,
+		"target_changed": 11
+	},
+	"effects": {
+		"active": 10,
+		"allocated": 226,
+		"dropped": 0,
+		"engine_sources": 4,
+		"last_sequence": 114,
+		"shown_events": 114,
+		"sound_sources": 0
+	},
+	"frames": [
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 0,
+			"time_s": 0.1
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 1,
+			"time_s": 0.2
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 2,
+			"time_s": 0.3
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 3,
+			"time_s": 0.4
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 4,
+			"time_s": 0.5
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 5,
+			"time_s": 0.6
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 6,
+			"time_s": 0.7
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 7,
+			"time_s": 0.8
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 8,
+			"time_s": 0.9
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 9,
+			"time_s": 1.0
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 10,
+			"time_s": 1.1
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 11,
+			"time_s": 1.2
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 12,
+			"time_s": 1.3
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 13,
+			"time_s": 1.4
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 14,
+			"time_s": 1.5
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 15,
+			"time_s": 1.6
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 16,
+			"time_s": 1.7
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 17,
+			"time_s": 1.8
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 18,
+			"time_s": 1.9
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 19,
+			"time_s": 2.0
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 20,
+			"time_s": 2.1
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 21,
+			"time_s": 2.2
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 22,
+			"time_s": 2.3
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 23,
+			"time_s": 2.4
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 24,
+			"time_s": 2.5
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 25,
+			"time_s": 2.6
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 26,
+			"time_s": 2.7
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 27,
+			"time_s": 2.8
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 28,
+			"time_s": 2.9
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 29,
+			"time_s": 3.0
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 30,
+			"time_s": 3.1
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 31,
+			"time_s": 3.2
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 32,
+			"time_s": 3.3
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 33,
+			"time_s": 3.4
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 34,
+			"time_s": 3.5
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 35,
+			"time_s": 3.6
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 36,
+			"time_s": 3.7
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 37,
+			"time_s": 3.8
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 38,
+			"time_s": 3.9
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 39,
+			"time_s": 4.0
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 40,
+			"time_s": 4.1
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 41,
+			"time_s": 4.2
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 42,
+			"time_s": 4.3
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 43,
+			"time_s": 4.4
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 44,
+			"time_s": 4.5
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				32.0,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 45,
+			"time_s": 4.6
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 46,
+			"time_s": 4.7
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 47,
+			"time_s": 4.8
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 48,
+			"time_s": 4.9
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 49,
+			"time_s": 5.0
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 50,
+			"time_s": 5.1
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 51,
+			"time_s": 5.2
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 52,
+			"time_s": 5.3
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 53,
+			"time_s": 5.4
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 54,
+			"time_s": 5.5
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 55,
+			"time_s": 5.6
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_127mm_51_common_mk15",
+						"barrel_index": 0,
+						"caliber_m": 0.127,
+						"elevation_rad": -0.00676630708784418,
+						"flight_time_s": 1.90506512793845,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.646374, -0.007714, 0.762982)",
+						"projectile_id": "projectile_00000111",
+						"tracer": true,
+						"train_rad": -0.0886102426761375,
+						"velocity_mps": "(620.5967, -7.406045, 732.554)"
+					},
+					"entity_id": "us_coast_01",
+					"event_id": "event_00000255",
+					"kind": "fired",
+					"position_m": "(-3006.942, 33.17161, -3196.391)",
+					"sequence": 255,
+					"target_id": "jp_bb",
+					"tick": 340,
+					"time_s": 5.66666666666667,
+					"weapon_id": "us_coast_01/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 56,
+			"time_s": 5.7
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 57,
+			"time_s": 5.8
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 58,
+			"time_s": 5.9
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.336581258944969,
+						"flight_time_s": 3.03241728697353,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.830464, 0.328356, 0.450014)",
+						"projectile_id": "projectile_00000138",
+						"tracer": true,
+						"train_rad": -2.07112404569993,
+						"velocity_mps": "(726.4695, 287.2379, 393.6616)"
+					},
+					"entity_id": "us_aa_02",
+					"event_id": "event_00000286",
+					"kind": "fired",
+					"position_m": "(-5147.763, 20.38204, -3248.777)",
+					"sequence": 286,
+					"target_id": "jp_air_1",
+					"tick": 358,
+					"time_s": 5.96666666666667,
+					"weapon_id": "us_aa_02/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 59,
+			"time_s": 6.0
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 60,
+			"time_s": 6.1
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 61,
+			"time_s": 6.2
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 62,
+			"time_s": 6.3
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.336737983441935,
+						"flight_time_s": 3.04345669615714,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.760406, 0.330846, 0.55886)",
+						"projectile_id": "projectile_00000149",
+						"tracer": false,
+						"train_rad": -2.20862651199231,
+						"velocity_mps": "(665.1848, 289.416, 488.8769)"
+					},
+					"entity_id": "us_aa_01",
+					"event_id": "event_00000299",
+					"kind": "fired",
+					"position_m": "(-4927.952, 20.38244, -3538.482)",
+					"sequence": 299,
+					"target_id": "jp_air_1",
+					"tick": 382,
+					"time_s": 6.36666666666667,
+					"weapon_id": "us_aa_01/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 63,
+			"time_s": 6.4
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.332643316030983,
+						"flight_time_s": 3.09309411143606,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.833496, 0.329716, 0.443364)",
+						"projectile_id": "projectile_00000157",
+						"tracer": false,
+						"train_rad": -2.063224014665,
+						"velocity_mps": "(729.1226, 288.4275, 387.8439)"
+					},
+					"entity_id": "us_aa_02",
+					"event_id": "event_00000307",
+					"kind": "fired",
+					"position_m": "(-5147.75, 20.37199, -3248.793)",
+					"sequence": 307,
+					"target_id": "jp_air_1",
+					"tick": 388,
+					"time_s": 6.46666666666667,
+					"weapon_id": "us_aa_02/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 64,
+			"time_s": 6.5
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 65,
+			"time_s": 6.6
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 66,
+			"time_s": 6.7
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 67,
+			"time_s": 6.8
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.332324916189078,
+						"flight_time_s": 3.10398419815848,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.767408, 0.32319, 0.553745)",
+						"projectile_id": "projectile_00000167",
+						"tracer": false,
+						"train_rad": -2.20027043241311,
+						"velocity_mps": "(671.3099, 282.7192, 484.4026)"
+					},
+					"entity_id": "us_aa_01",
+					"event_id": "event_00000323",
+					"kind": "fired",
+					"position_m": "(-4927.936, 20.37118, -3538.497)",
+					"sequence": 323,
+					"target_id": "jp_air_1",
+					"tick": 412,
+					"time_s": 6.86666666666667,
+					"weapon_id": "us_aa_01/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 68,
+			"time_s": 6.9
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.328037202770656,
+						"flight_time_s": 3.15680033634198,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.839393, 0.319384, 0.439788)",
+						"projectile_id": "projectile_00000175",
+						"tracer": false,
+						"train_rad": -2.05812888299127,
+						"velocity_mps": "(734.2806, 279.3898, 384.7159)"
+					},
+					"entity_id": "us_aa_02",
+					"event_id": "event_00000332",
+					"kind": "fired",
+					"position_m": "(-5147.741, 20.36022, -3248.803)",
+					"sequence": 332,
+					"target_id": "jp_air_1",
+					"tick": 418,
+					"time_s": 6.96666666666667,
+					"weapon_id": "us_aa_02/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 69,
+			"time_s": 7.0
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 70,
+			"time_s": 7.1
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 71,
+			"time_s": 7.2
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 72,
+			"time_s": 7.3
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.33064398968344,
+						"flight_time_s": 3.18076022240914,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.762419, 0.326174, 0.558863)",
+						"projectile_id": "projectile_00000182",
+						"tracer": false,
+						"train_rad": -2.20378104260345,
+						"velocity_mps": "(666.9456, 285.3291, 488.8802)"
+					},
+					"entity_id": "us_aa_01",
+					"event_id": "event_00000343",
+					"kind": "fired",
+					"position_m": "(-4927.94, 20.36689, -3538.489)",
+					"sequence": 343,
+					"target_id": "jp_air_1",
+					"tick": 442,
+					"time_s": 7.36666666666667,
+					"weapon_id": "us_aa_01/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 73,
+			"time_s": 7.4
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.32676600174023,
+						"flight_time_s": 3.23172493028128,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.836107, 0.318468, 0.446658)",
+						"projectile_id": "projectile_00000188",
+						"tracer": false,
+						"train_rad": -2.06554714999577,
+						"velocity_mps": "(731.4062, 278.588, 390.726)"
+					},
+					"entity_id": "us_aa_02",
+					"event_id": "event_00000351",
+					"kind": "fired",
+					"position_m": "(-5147.749, 20.35697, -3248.785)",
+					"sequence": 351,
+					"target_id": "jp_air_1",
+					"tick": 448,
+					"time_s": 7.46666666666667,
+					"weapon_id": "us_aa_02/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 74,
+			"time_s": 7.5
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 75,
+			"time_s": 7.6
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 76,
+			"time_s": 7.7
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 77,
+			"time_s": 7.8
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.330950980196283,
+						"flight_time_s": 3.26233095297602,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.752707, 0.320655, 0.574989)",
+						"projectile_id": "projectile_00000194",
+						"tracer": false,
+						"train_rad": -2.2213289643833,
+						"velocity_mps": "(658.4499, 280.5015, 502.9868)"
+					},
+					"entity_id": "us_aa_01",
+					"event_id": "event_00000369",
+					"kind": "fired",
+					"position_m": "(-4927.967, 20.36767, -3538.453)",
+					"sequence": 369,
+					"target_id": "jp_air_1",
+					"tick": 472,
+					"time_s": 7.86666666666667,
+					"weapon_id": "us_aa_01/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 78,
+			"time_s": 7.9
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.328041028851047,
+						"flight_time_s": 3.3049835793271,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.820653, 0.327334, 0.468381)",
+						"projectile_id": "projectile_00000200",
+						"tracer": false,
+						"train_rad": -2.08703723848867,
+						"velocity_mps": "(717.8876, 286.3441, 409.7285)"
+					},
+					"entity_id": "us_aa_02",
+					"event_id": "event_00000377",
+					"kind": "fired",
+					"position_m": "(-5147.776, 20.36023, -3248.738)",
+					"sequence": 377,
+					"target_id": "jp_air_1",
+					"tick": 478,
+					"time_s": 7.96666666666667,
+					"weapon_id": "us_aa_02/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 79,
+			"time_s": 8.0
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 80,
+			"time_s": 8.1
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 81,
+			"time_s": 8.2
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 82,
+			"time_s": 8.3
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.331839376642283,
+						"flight_time_s": 3.33261038038395,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.743176, 0.327592, 0.583415)",
+						"projectile_id": "projectile_00000209",
+						"tracer": false,
+						"train_rad": -2.23698234548932,
+						"velocity_mps": "(650.1127, 286.5692, 510.3574)"
+					},
+					"entity_id": "us_aa_01",
+					"event_id": "event_00000391",
+					"kind": "fired",
+					"position_m": "(-4927.992, 20.36994, -3538.422)",
+					"sequence": 391,
+					"target_id": "jp_air_1",
+					"tick": 502,
+					"time_s": 8.36666666666667,
+					"weapon_id": "us_aa_01/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 83,
+			"time_s": 8.4
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.329735885523042,
+						"flight_time_s": 3.36753413985676,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.810735, 0.325993, 0.486248)",
+						"projectile_id": "projectile_00000214",
+						"tracer": false,
+						"train_rad": -2.10578835496115,
+						"velocity_mps": "(709.2119, 285.1711, 425.3577)"
+					},
+					"entity_id": "us_aa_02",
+					"event_id": "event_00000397",
+					"kind": "fired",
+					"position_m": "(-5147.802, 20.36456, -3248.697)",
+					"sequence": 397,
+					"target_id": "jp_air_1",
+					"tick": 508,
+					"time_s": 8.46666666666667,
+					"weapon_id": "us_aa_02/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 84,
+			"time_s": 8.5
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 85,
+			"time_s": 8.6
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 86,
+			"time_s": 8.7
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 87,
+			"time_s": 8.8
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.332892095229623,
+						"flight_time_s": 3.39661679250134,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.737213, 0.323547, 0.593157)",
+						"projectile_id": "projectile_00000232",
+						"tracer": false,
+						"train_rad": -2.24889348839112,
+						"velocity_mps": "(644.8962, 283.031, 518.8791)"
+					},
+					"entity_id": "us_aa_01",
+					"event_id": "event_00000425",
+					"kind": "fired",
+					"position_m": "(-4928.012, 20.37263, -3538.399)",
+					"sequence": 425,
+					"target_id": "jp_air_1",
+					"tick": 532,
+					"time_s": 8.86666666666667,
+					"weapon_id": "us_aa_01/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 88,
+			"time_s": 8.9
+		},
+		{
+			"camera": [
+				-3027.43823242188,
+				40.0,
+				-3197.88330078125
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.331391379782764,
+						"flight_time_s": 3.42545704088557,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.804323, 0.324053, 0.498051)",
+						"projectile_id": "projectile_00000238",
+						"tracer": false,
+						"train_rad": -2.12028110725483,
+						"velocity_mps": "(703.6022, 283.4734, 435.6831)"
+					},
+					"entity_id": "us_aa_02",
+					"event_id": "event_00000431",
+					"kind": "fired",
+					"position_m": "(-5147.822, 20.3688, -3248.666)",
+					"sequence": 431,
+					"target_id": "jp_air_1",
+					"tick": 538,
+					"time_s": 8.96666666666667,
+					"weapon_id": "us_aa_02/gun_01"
+				}
+			],
+			"focus": [
+				-3010.0,
+				33.2999992370605,
+				-3200.0
+			],
+			"followed": "us_coast_01",
+			"frame": 89,
+			"time_s": 9.0
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 90,
+			"time_s": 9.1
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 91,
+			"time_s": 9.2
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 92,
+			"time_s": 9.3
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.33248442162689,
+						"flight_time_s": 3.45803380025079,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.735024, 0.324657, 0.595263)",
+						"projectile_id": "projectile_00000254",
+						"tracer": false,
+						"train_rad": -2.25658537000437,
+						"velocity_mps": "(642.9812, 284.0023, 520.7216)"
+					},
+					"entity_id": "us_aa_01",
+					"event_id": "event_00000449",
+					"kind": "fired",
+					"position_m": "(-4928.024, 20.37159, -3538.383)",
+					"sequence": 449,
+					"target_id": "jp_air_1",
+					"tick": 562,
+					"time_s": 9.36666666666667,
+					"weapon_id": "us_aa_01/gun_01"
+				}
+			],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 93,
+			"time_s": 9.4
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.331355292369601,
+						"flight_time_s": 3.4827373664692,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.802635, 0.321224, 0.502586)",
+						"projectile_id": "projectile_00000257",
+						"tracer": false,
+						"train_rad": -2.13032592646968,
+						"velocity_mps": "(702.1256, 280.9989, 439.6504)"
+					},
+					"entity_id": "us_aa_02",
+					"event_id": "event_00000452",
+					"kind": "fired",
+					"position_m": "(-5147.835, 20.3687, -3248.644)",
+					"sequence": 452,
+					"target_id": "jp_air_1",
+					"tick": 568,
+					"time_s": 9.46666666666667,
+					"weapon_id": "us_aa_02/gun_01"
+				}
+			],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 94,
+			"time_s": 9.5
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 95,
+			"time_s": 9.6
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 96,
+			"time_s": 9.7
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 97,
+			"time_s": 9.8
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.330041535735865,
+						"flight_time_s": 3.51946720619361,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.72908, 0.328295, 0.600554)",
+						"projectile_id": "projectile_00000267",
+						"tracer": true,
+						"train_rad": -2.25956457776367,
+						"velocity_mps": "(637.7816, 287.1842, 525.3504)"
+					},
+					"entity_id": "us_aa_01",
+					"event_id": "event_00000467",
+					"kind": "fired",
+					"position_m": "(-4928.027, 20.36535, -3538.376)",
+					"sequence": 467,
+					"target_id": "jp_air_1",
+					"tick": 592,
+					"time_s": 9.86666666666667,
+					"weapon_id": "us_aa_01/gun_01"
+				}
+			],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 98,
+			"time_s": 9.9
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_40mm_mkii_het_sd",
+						"barrel_index": 0,
+						"caliber_m": 0.04,
+						"elevation_rad": 0.329052687842808,
+						"flight_time_s": 3.54223342671056,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.798971, 0.322317, 0.507698)",
+						"projectile_id": "projectile_00000272",
+						"tracer": false,
+						"train_rad": -2.13558924999117,
+						"velocity_mps": "(698.9208, 281.9549, 444.122)"
+					},
+					"entity_id": "us_aa_02",
+					"event_id": "event_00000473",
+					"kind": "fired",
+					"position_m": "(-5147.841, 20.36282, -3248.632)",
+					"sequence": 473,
+					"target_id": "jp_air_1",
+					"tick": 598,
+					"time_s": 9.96666666666667,
+					"weapon_id": "us_aa_02/gun_01"
+				}
+			],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 99,
+			"time_s": 10.0
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 100,
+			"time_s": 10.1
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 101,
+			"time_s": 10.2
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 102,
+			"time_s": 10.3
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s03_jp_127mm_type1_common",
+						"barrel_index": 0,
+						"caliber_m": 0.127,
+						"elevation_rad": 0.0260077954894408,
+						"flight_time_s": 2.7502891891889,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.61106, 0.028212, -0.791082)",
+						"projectile_id": "projectile_00000281",
+						"tracer": true,
+						"train_rad": -1.08210413623648,
+						"velocity_mps": "(-551.4084, 25.81403, -725.1565)"
+					},
+					"entity_id": "jp_dd",
+					"event_id": "event_00000490",
+					"kind": "fired",
+					"position_m": "(-1496.943, 4.847585, -1202.742)",
+					"sequence": 490,
+					"target_id": "us_coast_01",
+					"tick": 622,
+					"time_s": 10.3666666666667,
+					"weapon_id": "jp_dd/main_y"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_127mm_type1_common",
+						"barrel_index": 1,
+						"caliber_m": 0.127,
+						"elevation_rad": 0.0260077954894408,
+						"flight_time_s": 2.7502891891889,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.612761, 0.024775, -0.78988)",
+						"projectile_id": "projectile_00000282",
+						"tracer": true,
+						"train_rad": -1.08210413623648,
+						"velocity_mps": "(-552.9648, 22.66911, -724.0571)"
+					},
+					"entity_id": "jp_dd",
+					"event_id": "event_00000491",
+					"kind": "fired",
+					"position_m": "(-1495.835, 4.847585, -1203.598)",
+					"sequence": 491,
+					"target_id": "us_coast_01",
+					"tick": 622,
+					"time_s": 10.3666666666667,
+					"weapon_id": "jp_dd/main_y"
+				}
+			],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 103,
+			"time_s": 10.4
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 104,
+			"time_s": 10.5
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 105,
+			"time_s": 10.6
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 106,
+			"time_s": 10.7
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 107,
+			"time_s": 10.8
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 108,
+			"time_s": 10.9
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "jp_155mm_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.155,
+						"elevation_rad": 0.0204448659517275,
+						"flight_time_s": 1.98621314705328,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.648088, 0.021728, -0.761256)",
+						"projectile_id": "projectile_00000298",
+						"tracer": true,
+						"train_rad": -0.952658883380231,
+						"velocity_mps": "(-586.2795, 19.98997, -701.234)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00000520",
+					"kind": "fired",
+					"position_m": "(-1847.569, 15.18719, -1805.4)",
+					"sequence": 520,
+					"target_id": "us_coast_01",
+					"tick": 657,
+					"time_s": 10.95,
+					"weapon_id": "jp_bb/secondary_02"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_155mm_shell",
+						"barrel_index": 1,
+						"caliber_m": 0.155,
+						"elevation_rad": 0.0204448659517275,
+						"flight_time_s": 1.98621314705328,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.648534, 0.020747, -0.760903)",
+						"projectile_id": "projectile_00000299",
+						"tracer": true,
+						"train_rad": -0.952658883380231,
+						"velocity_mps": "(-586.6903, 19.08731, -700.9092)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00000521",
+					"kind": "fired",
+					"position_m": "(-1846.401, 15.18719, -1806.396)",
+					"sequence": 521,
+					"target_id": "us_coast_01",
+					"tick": 657,
+					"time_s": 10.95,
+					"weapon_id": "jp_bb/secondary_02"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_155mm_shell",
+						"barrel_index": 2,
+						"caliber_m": 0.155,
+						"elevation_rad": 0.0204448659517275,
+						"flight_time_s": 1.98621314705328,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.649986, 0.020789, -0.759662)",
+						"projectile_id": "projectile_00000300",
+						"tracer": true,
+						"train_rad": -0.952658883380231,
+						"velocity_mps": "(-588.0256, 19.12575, -699.7679)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00000522",
+					"kind": "fired",
+					"position_m": "(-1845.232, 15.18719, -1807.393)",
+					"sequence": 522,
+					"target_id": "us_coast_01",
+					"tick": 657,
+					"time_s": 10.95,
+					"weapon_id": "jp_bb/secondary_02"
+				}
+			],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 109,
+			"time_s": 11.0
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 110,
+			"time_s": 11.1
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 111,
+			"time_s": 11.2
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 112,
+			"time_s": 11.3
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 113,
+			"time_s": 11.4
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 114,
+			"time_s": 11.5
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 115,
+			"time_s": 11.6
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 116,
+			"time_s": 11.7
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 117,
+			"time_s": 11.8
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 118,
+			"time_s": 11.9
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 119,
+			"time_s": 12.0
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 120,
+			"time_s": 12.1
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 121,
+			"time_s": 12.2
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 122,
+			"time_s": 12.3
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 123,
+			"time_s": 12.4
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 124,
+			"time_s": 12.5
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 125,
+			"time_s": 12.6
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 126,
+			"time_s": 12.7
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 127,
+			"time_s": 12.8
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 128,
+			"time_s": 12.9
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 129,
+			"time_s": 13.0
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 130,
+			"time_s": 13.1
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 131,
+			"time_s": 13.2
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 132,
+			"time_s": 13.3
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 133,
+			"time_s": 13.4
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 134,
+			"time_s": 13.5
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 135,
+			"time_s": 13.6
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_127mm_51_common_mk15",
+						"barrel_index": 0,
+						"caliber_m": 0.127,
+						"elevation_rad": -0.00610028295796782,
+						"flight_time_s": 1.95434969983391,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.674019, -0.006637, 0.738684)",
+						"projectile_id": "projectile_00000397",
+						"tracer": true,
+						"train_rad": -0.0535553791218509,
+						"velocity_mps": "(647.1392, -6.372734, 709.2255)"
+					},
+					"entity_id": "us_coast_01",
+					"event_id": "event_00000702",
+					"kind": "fired",
+					"position_m": "(-3006.817, 33.17476, -3196.5)",
+					"sequence": 702,
+					"target_id": "jp_bb",
+					"tick": 820,
+					"time_s": 13.6666666666667,
+					"weapon_id": "us_coast_01/gun_01"
+				}
+			],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 136,
+			"time_s": 13.7
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 137,
+			"time_s": 13.8
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 138,
+			"time_s": 13.9
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 139,
+			"time_s": 14.0
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 140,
+			"time_s": 14.1
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 141,
+			"time_s": 14.2
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 142,
+			"time_s": 14.3
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 143,
+			"time_s": 14.4
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 144,
+			"time_s": 14.5
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 145,
+			"time_s": 14.6
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 146,
+			"time_s": 14.7
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 147,
+			"time_s": 14.8
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 148,
+			"time_s": 14.9
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 149,
+			"time_s": 15.0
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 150,
+			"time_s": 15.1
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 151,
+			"time_s": 15.2
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 152,
+			"time_s": 15.3
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 153,
+			"time_s": 15.4
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 154,
+			"time_s": 15.5
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 155,
+			"time_s": 15.6
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 156,
+			"time_s": 15.7
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 157,
+			"time_s": 15.8
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 158,
+			"time_s": 15.9
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 159,
+			"time_s": 16.0
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 160,
+			"time_s": 16.1
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 161,
+			"time_s": 16.2
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 162,
+			"time_s": 16.3
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 163,
+			"time_s": 16.4
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 164,
+			"time_s": 16.5
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 165,
+			"time_s": 16.6
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 166,
+			"time_s": 16.7
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 167,
+			"time_s": 16.8
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 168,
+			"time_s": 16.9
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 169,
+			"time_s": 17.0
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 170,
+			"time_s": 17.1
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 171,
+			"time_s": 17.2
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 172,
+			"time_s": 17.3
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 173,
+			"time_s": 17.4
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 174,
+			"time_s": 17.5
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 175,
+			"time_s": 17.6
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 176,
+			"time_s": 17.7
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 177,
+			"time_s": 17.8
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 178,
+			"time_s": 17.9
+		},
+		{
+			"camera": [
+				-4916.23974609375,
+				26.0,
+				-3529.08081054688
+			],
+			"events": [],
+			"focus": [
+				-4930.0,
+				19.2999992370605,
+				-3540.0
+			],
+			"followed": "us_aa_01",
+			"frame": 179,
+			"time_s": 18.0
+		},
+		{
+			"camera": [
+				-1915.32849121094,
+				138.233047485352,
+				-1478.07666015625
+			],
+			"events": [],
+			"focus": [
+				-1719.61059570312,
+				10.0,
+				-1811.88696289062
+			],
+			"followed": "jp_bb",
+			"frame": 180,
+			"time_s": 18.1
+		},
+		{
+			"camera": [
+				-1914.93884277344,
+				138.233047485352,
+				-1478.13195800781
+			],
+			"events": [],
+			"focus": [
+				-1718.62036132812,
+				10.0,
+				-1812.02758789062
+			],
+			"followed": "jp_bb",
+			"frame": 181,
+			"time_s": 18.2
+		},
+		{
+			"camera": [
+				-1914.31286621094,
+				138.233047485352,
+				-1478.22119140625
+			],
+			"events": [],
+			"focus": [
+				-1717.63012695312,
+				10.0,
+				-1812.1689453125
+			],
+			"followed": "jp_bb",
+			"frame": 182,
+			"time_s": 18.3
+		},
+		{
+			"camera": [
+				-1913.54357910156,
+				138.233047485352,
+				-1478.33093261719
+			],
+			"events": [],
+			"focus": [
+				-1716.63989257812,
+				10.0,
+				-1812.310546875
+			],
+			"followed": "jp_bb",
+			"frame": 183,
+			"time_s": 18.4
+		},
+		{
+			"camera": [
+				-1912.68762207031,
+				138.233047485352,
+				-1478.45349121094
+			],
+			"events": [],
+			"focus": [
+				-1715.65026855469,
+				10.0,
+				-1812.45263671875
+			],
+			"followed": "jp_bb",
+			"frame": 184,
+			"time_s": 18.5
+		},
+		{
+			"camera": [
+				-1911.77917480469,
+				138.233047485352,
+				-1478.583984375
+			],
+			"events": [],
+			"focus": [
+				-1714.66076660156,
+				10.0,
+				-1812.59533691406
+			],
+			"followed": "jp_bb",
+			"frame": 185,
+			"time_s": 18.6
+		},
+		{
+			"camera": [
+				-1910.83874511719,
+				138.233047485352,
+				-1478.71936035156
+			],
+			"events": [],
+			"focus": [
+				-1713.67126464844,
+				10.0,
+				-1812.73828125
+			],
+			"followed": "jp_bb",
+			"frame": 186,
+			"time_s": 18.7
+		},
+		{
+			"camera": [
+				-1909.87902832031,
+				138.233047485352,
+				-1478.85791015625
+			],
+			"events": [],
+			"focus": [
+				-1712.68176269531,
+				10.0,
+				-1812.8818359375
+			],
+			"followed": "jp_bb",
+			"frame": 187,
+			"time_s": 18.8
+		},
+		{
+			"camera": [
+				-1908.90759277344,
+				138.233047485352,
+				-1478.99853515625
+			],
+			"events": [],
+			"focus": [
+				-1711.69226074219,
+				10.0,
+				-1813.02575683594
+			],
+			"followed": "jp_bb",
+			"frame": 188,
+			"time_s": 18.9
+		},
+		{
+			"camera": [
+				-1907.92907714844,
+				138.233047485352,
+				-1479.140625
+			],
+			"events": [],
+			"focus": [
+				-1710.70275878906,
+				10.0,
+				-1813.17004394531
+			],
+			"followed": "jp_bb",
+			"frame": 189,
+			"time_s": 19.0
+		},
+		{
+			"camera": [
+				-1906.94616699219,
+				138.233047485352,
+				-1479.28381347656
+			],
+			"events": [],
+			"focus": [
+				-1709.71325683594,
+				10.0,
+				-1813.31494140625
+			],
+			"followed": "jp_bb",
+			"frame": 190,
+			"time_s": 19.1
+		},
+		{
+			"camera": [
+				-1905.96069335938,
+				138.233047485352,
+				-1479.427734375
+			],
+			"events": [],
+			"focus": [
+				-1708.72375488281,
+				10.0,
+				-1813.4599609375
+			],
+			"followed": "jp_bb",
+			"frame": 191,
+			"time_s": 19.2
+		},
+		{
+			"camera": [
+				-1904.9736328125,
+				138.233047485352,
+				-1479.57238769531
+			],
+			"events": [],
+			"focus": [
+				-1707.73425292969,
+				10.0,
+				-1813.60571289062
+			],
+			"followed": "jp_bb",
+			"frame": 192,
+			"time_s": 19.3
+		},
+		{
+			"camera": [
+				-1903.98559570312,
+				138.233047485352,
+				-1479.71752929688
+			],
+			"events": [],
+			"focus": [
+				-1706.74475097656,
+				10.0,
+				-1813.75170898438
+			],
+			"followed": "jp_bb",
+			"frame": 193,
+			"time_s": 19.4
+		},
+		{
+			"camera": [
+				-1902.9970703125,
+				138.233047485352,
+				-1479.86328125
+			],
+			"events": [],
+			"focus": [
+				-1705.75524902344,
+				10.0,
+				-1813.89819335938
+			],
+			"followed": "jp_bb",
+			"frame": 194,
+			"time_s": 19.5
+		},
+		{
+			"camera": [
+				-1902.00805664062,
+				138.233047485352,
+				-1480.00939941406
+			],
+			"events": [],
+			"focus": [
+				-1704.76574707031,
+				10.0,
+				-1814.04504394531
+			],
+			"followed": "jp_bb",
+			"frame": 195,
+			"time_s": 19.6
+		},
+		{
+			"camera": [
+				-1901.01916503906,
+				138.233047485352,
+				-1480.15600585938
+			],
+			"events": [],
+			"focus": [
+				-1703.77697753906,
+				10.0,
+				-1814.19226074219
+			],
+			"followed": "jp_bb",
+			"frame": 196,
+			"time_s": 19.7
+		},
+		{
+			"camera": [
+				-1900.03039550781,
+				138.233047485352,
+				-1480.30297851562
+			],
+			"events": [],
+			"focus": [
+				-1702.78820800781,
+				10.0,
+				-1814.33996582031
+			],
+			"followed": "jp_bb",
+			"frame": 197,
+			"time_s": 19.8
+		},
+		{
+			"camera": [
+				-1899.04162597656,
+				138.233047485352,
+				-1480.45043945312
+			],
+			"events": [],
+			"focus": [
+				-1701.79943847656,
+				10.0,
+				-1814.48791503906
+			],
+			"followed": "jp_bb",
+			"frame": 198,
+			"time_s": 19.9
+		},
+		{
+			"camera": [
+				-1898.05285644531,
+				138.233047485352,
+				-1480.59826660156
+			],
+			"events": [],
+			"focus": [
+				-1700.81066894531,
+				10.0,
+				-1814.63635253906
+			],
+			"followed": "jp_bb",
+			"frame": 199,
+			"time_s": 20.0
+		},
+		{
+			"camera": [
+				-1897.06408691406,
+				138.233047485352,
+				-1480.74633789062
+			],
+			"events": [],
+			"focus": [
+				-1699.82189941406,
+				10.0,
+				-1814.78503417969
+			],
+			"followed": "jp_bb",
+			"frame": 200,
+			"time_s": 20.1
+		},
+		{
+			"camera": [
+				-1896.07531738281,
+				138.233047485352,
+				-1480.89489746094
+			],
+			"events": [],
+			"focus": [
+				-1698.83312988281,
+				10.0,
+				-1814.93432617188
+			],
+			"followed": "jp_bb",
+			"frame": 201,
+			"time_s": 20.2
+		},
+		{
+			"camera": [
+				-1895.08654785156,
+				138.233047485352,
+				-1481.04382324219
+			],
+			"events": [],
+			"focus": [
+				-1697.84436035156,
+				10.0,
+				-1815.08374023438
+			],
+			"followed": "jp_bb",
+			"frame": 202,
+			"time_s": 20.3
+		},
+		{
+			"camera": [
+				-1894.09777832031,
+				138.233047485352,
+				-1481.19323730469
+			],
+			"events": [],
+			"focus": [
+				-1696.85559082031,
+				10.0,
+				-1815.23376464844
+			],
+			"followed": "jp_bb",
+			"frame": 203,
+			"time_s": 20.4
+		},
+		{
+			"camera": [
+				-1893.10900878906,
+				138.233047485352,
+				-1481.34289550781
+			],
+			"events": [],
+			"focus": [
+				-1695.86682128906,
+				10.0,
+				-1815.38391113281
+			],
+			"followed": "jp_bb",
+			"frame": 204,
+			"time_s": 20.5
+		},
+		{
+			"camera": [
+				-1892.12023925781,
+				138.233047485352,
+				-1481.49304199219
+			],
+			"events": [],
+			"focus": [
+				-1694.87805175781,
+				10.0,
+				-1815.53466796875
+			],
+			"followed": "jp_bb",
+			"frame": 205,
+			"time_s": 20.6
+		},
+		{
+			"camera": [
+				-1891.13146972656,
+				138.233047485352,
+				-1481.64343261719
+			],
+			"events": [],
+			"focus": [
+				-1693.88928222656,
+				10.0,
+				-1815.685546875
+			],
+			"followed": "jp_bb",
+			"frame": 206,
+			"time_s": 20.7
+		},
+		{
+			"camera": [
+				-1890.14270019531,
+				138.233047485352,
+				-1481.79431152344
+			],
+			"events": [],
+			"focus": [
+				-1692.90051269531,
+				10.0,
+				-1815.83715820312
+			],
+			"followed": "jp_bb",
+			"frame": 207,
+			"time_s": 20.8
+		},
+		{
+			"camera": [
+				-1889.15405273438,
+				138.233047485352,
+				-1481.94555664062
+			],
+			"events": [],
+			"focus": [
+				-1691.91223144531,
+				10.0,
+				-1815.98901367188
+			],
+			"followed": "jp_bb",
+			"frame": 208,
+			"time_s": 20.9
+		},
+		{
+			"camera": [
+				-1888.16564941406,
+				138.233047485352,
+				-1482.09729003906
+			],
+			"events": [],
+			"focus": [
+				-1690.92419433594,
+				10.0,
+				-1816.14135742188
+			],
+			"followed": "jp_bb",
+			"frame": 209,
+			"time_s": 21.0
+		},
+		{
+			"camera": [
+				-1887.17736816406,
+				138.233047485352,
+				-1482.24938964844
+			],
+			"events": [],
+			"focus": [
+				-1689.93615722656,
+				10.0,
+				-1816.29418945312
+			],
+			"followed": "jp_bb",
+			"frame": 210,
+			"time_s": 21.1
+		},
+		{
+			"camera": [
+				-1886.18920898438,
+				138.233047485352,
+				-1482.40197753906
+			],
+			"events": [],
+			"focus": [
+				-1688.94812011719,
+				10.0,
+				-1816.44738769531
+			],
+			"followed": "jp_bb",
+			"frame": 211,
+			"time_s": 21.2
+		},
+		{
+			"camera": [
+				-1885.201171875,
+				138.233047485352,
+				-1482.55505371094
+			],
+			"events": [],
+			"focus": [
+				-1687.96008300781,
+				10.0,
+				-1816.60119628906
+			],
+			"followed": "jp_bb",
+			"frame": 212,
+			"time_s": 21.3
+		},
+		{
+			"camera": [
+				-1884.21313476562,
+				138.233047485352,
+				-1482.70861816406
+			],
+			"events": [],
+			"focus": [
+				-1686.97204589844,
+				10.0,
+				-1816.75549316406
+			],
+			"followed": "jp_bb",
+			"frame": 213,
+			"time_s": 21.4
+		},
+		{
+			"camera": [
+				-1883.22509765625,
+				138.233047485352,
+				-1482.86254882812
+			],
+			"events": [],
+			"focus": [
+				-1685.98400878906,
+				10.0,
+				-1816.91027832031
+			],
+			"followed": "jp_bb",
+			"frame": 214,
+			"time_s": 21.5
+		},
+		{
+			"camera": [
+				-1882.23706054688,
+				138.233047485352,
+				-1483.01708984375
+			],
+			"events": [],
+			"focus": [
+				-1684.99597167969,
+				10.0,
+				-1817.06555175781
+			],
+			"followed": "jp_bb",
+			"frame": 215,
+			"time_s": 21.6
+		},
+		{
+			"camera": [
+				-1881.2490234375,
+				138.233047485352,
+				-1483.17224121094
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_127mm_51_common_mk15",
+						"barrel_index": 0,
+						"caliber_m": 0.127,
+						"elevation_rad": -0.00547327808012388,
+						"flight_time_s": 2.00218825128768,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.699023, -0.004828, 0.715083)",
+						"projectile_id": "projectile_00000960",
+						"tracer": true,
+						"train_rad": -0.0188454962704292,
+						"velocity_mps": "(671.1459, -4.63545, 686.5654)"
+					},
+					"entity_id": "us_coast_01",
+					"event_id": "event_00001798",
+					"kind": "fired",
+					"position_m": "(-3006.698, 33.17773, -3196.613)",
+					"sequence": 1798,
+					"target_id": "jp_bb",
+					"tick": 1300,
+					"time_s": 21.6666666666667,
+					"weapon_id": "us_coast_01/gun_01"
+				}
+			],
+			"focus": [
+				-1684.00793457031,
+				10.0,
+				-1817.22155761719
+			],
+			"followed": "jp_bb",
+			"frame": 216,
+			"time_s": 21.7
+		},
+		{
+			"camera": [
+				-1880.26098632812,
+				138.233047485352,
+				-1483.32788085938
+			],
+			"events": [],
+			"focus": [
+				-1683.02014160156,
+				10.0,
+				-1817.37805175781
+			],
+			"followed": "jp_bb",
+			"frame": 217,
+			"time_s": 21.8
+		},
+		{
+			"camera": [
+				-1879.27331542969,
+				138.233047485352,
+				-1483.48400878906
+			],
+			"events": [],
+			"focus": [
+				-1682.03283691406,
+				10.0,
+				-1817.53503417969
+			],
+			"followed": "jp_bb",
+			"frame": 218,
+			"time_s": 21.9
+		},
+		{
+			"camera": [
+				-1878.28576660156,
+				138.233047485352,
+				-1483.64074707031
+			],
+			"events": [],
+			"focus": [
+				-1681.04553222656,
+				10.0,
+				-1817.69262695312
+			],
+			"followed": "jp_bb",
+			"frame": 219,
+			"time_s": 22.0
+		},
+		{
+			"camera": [
+				-1877.29833984375,
+				138.233047485352,
+				-1483.79809570312
+			],
+			"events": [],
+			"focus": [
+				-1680.05822753906,
+				10.0,
+				-1817.85083007812
+			],
+			"followed": "jp_bb",
+			"frame": 220,
+			"time_s": 22.1
+		},
+		{
+			"camera": [
+				-1876.31091308594,
+				138.233047485352,
+				-1483.9560546875
+			],
+			"events": [],
+			"focus": [
+				-1679.07092285156,
+				10.0,
+				-1818.009765625
+			],
+			"followed": "jp_bb",
+			"frame": 221,
+			"time_s": 22.2
+		},
+		{
+			"camera": [
+				-1875.32348632812,
+				138.233047485352,
+				-1484.11462402344
+			],
+			"events": [],
+			"focus": [
+				-1678.08361816406,
+				10.0,
+				-1818.16931152344
+			],
+			"followed": "jp_bb",
+			"frame": 222,
+			"time_s": 22.3
+		},
+		{
+			"camera": [
+				-1874.33618164062,
+				138.233047485352,
+				-1484.27380371094
+			],
+			"events": [],
+			"focus": [
+				-1677.09631347656,
+				10.0,
+				-1818.32958984375
+			],
+			"followed": "jp_bb",
+			"frame": 223,
+			"time_s": 22.4
+		},
+		{
+			"camera": [
+				-1873.34887695312,
+				138.233047485352,
+				-1484.43371582031
+			],
+			"events": [],
+			"focus": [
+				-1676.10913085938,
+				10.0,
+				-1818.49047851562
+			],
+			"followed": "jp_bb",
+			"frame": 224,
+			"time_s": 22.5
+		},
+		{
+			"camera": [
+				-1872.36193847656,
+				138.233047485352,
+				-1484.59423828125
+			],
+			"events": [],
+			"focus": [
+				-1675.12255859375,
+				10.0,
+				-1818.65209960938
+			],
+			"followed": "jp_bb",
+			"frame": 225,
+			"time_s": 22.6
+		},
+		{
+			"camera": [
+				-1871.37512207031,
+				138.233047485352,
+				-1484.75549316406
+			],
+			"events": [],
+			"focus": [
+				-1674.13598632812,
+				10.0,
+				-1818.81433105469
+			],
+			"followed": "jp_bb",
+			"frame": 226,
+			"time_s": 22.7
+		},
+		{
+			"camera": [
+				-1870.38842773438,
+				138.233047485352,
+				-1484.91735839844
+			],
+			"events": [],
+			"focus": [
+				-1673.1494140625,
+				10.0,
+				-1818.97729492188
+			],
+			"followed": "jp_bb",
+			"frame": 227,
+			"time_s": 22.8
+		},
+		{
+			"camera": [
+				-1869.40173339844,
+				138.233047485352,
+				-1485.07995605469
+			],
+			"events": [],
+			"focus": [
+				-1672.16284179688,
+				10.0,
+				-1819.14099121094
+			],
+			"followed": "jp_bb",
+			"frame": 228,
+			"time_s": 22.9
+		},
+		{
+			"camera": [
+				-1868.4150390625,
+				138.233047485352,
+				-1485.24340820312
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "jp_155mm_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.155,
+						"elevation_rad": 0.0204865590112117,
+						"flight_time_s": 2.06230711805745,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.686366, 0.018551, -0.72702)",
+						"projectile_id": "projectile_00001047",
+						"tracer": true,
+						"train_rad": -0.979644065494194,
+						"velocity_mps": "(-621.593, 17.06717, -670.5031)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00002049",
+					"kind": "fired",
+					"position_m": "(-1728.456, 15.18749, -1816.964)",
+					"sequence": 2049,
+					"target_id": "us_coast_01",
+					"tick": 1377,
+					"time_s": 22.95,
+					"weapon_id": "jp_bb/secondary_02"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_155mm_shell",
+						"barrel_index": 1,
+						"caliber_m": 0.155,
+						"elevation_rad": 0.0204865590112117,
+						"flight_time_s": 2.06230711805745,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.685624, 0.021268, -0.727645)",
+						"projectile_id": "projectile_00001048",
+						"tracer": true,
+						"train_rad": -0.979644065494194,
+						"velocity_mps": "(-620.9101, 19.56618, -671.0788)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00002050",
+					"kind": "fired",
+					"position_m": "(-1727.339, 15.18749, -1818.018)",
+					"sequence": 2050,
+					"target_id": "us_coast_01",
+					"tick": 1377,
+					"time_s": 22.95,
+					"weapon_id": "jp_bb/secondary_02"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_155mm_shell",
+						"barrel_index": 2,
+						"caliber_m": 0.155,
+						"elevation_rad": 0.0204865590112117,
+						"flight_time_s": 2.06230711805745,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.686054, 0.019999, -0.727276)",
+						"projectile_id": "projectile_00001049",
+						"tracer": true,
+						"train_rad": -0.979644065494194,
+						"velocity_mps": "(-621.3058, 18.39953, -670.7388)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00002051",
+					"kind": "fired",
+					"position_m": "(-1726.222, 15.18749, -1819.073)",
+					"sequence": 2051,
+					"target_id": "us_coast_01",
+					"tick": 1377,
+					"time_s": 22.95,
+					"weapon_id": "jp_bb/secondary_02"
+				}
+			],
+			"focus": [
+				-1671.17626953125,
+				10.0,
+				-1819.30554199219
+			],
+			"followed": "jp_bb",
+			"frame": 229,
+			"time_s": 23.0
+		},
+		{
+			"camera": [
+				-1867.42846679688,
+				138.233047485352,
+				-1485.40747070312
+			],
+			"events": [],
+			"focus": [
+				-1670.18981933594,
+				10.0,
+				-1819.47082519531
+			],
+			"followed": "jp_bb",
+			"frame": 230,
+			"time_s": 23.1
+		},
+		{
+			"camera": [
+				-1866.44226074219,
+				138.233047485352,
+				-1485.57238769531
+			],
+			"events": [],
+			"focus": [
+				-1669.20397949219,
+				10.0,
+				-1819.63684082031
+			],
+			"followed": "jp_bb",
+			"frame": 231,
+			"time_s": 23.2
+		},
+		{
+			"camera": [
+				-1865.45617675781,
+				138.233047485352,
+				-1485.73803710938
+			],
+			"events": [],
+			"focus": [
+				-1668.21813964844,
+				10.0,
+				-1819.8037109375
+			],
+			"followed": "jp_bb",
+			"frame": 232,
+			"time_s": 23.3
+		},
+		{
+			"camera": [
+				-1864.47009277344,
+				138.233047485352,
+				-1485.90441894531
+			],
+			"events": [],
+			"focus": [
+				-1667.23229980469,
+				10.0,
+				-1819.97131347656
+			],
+			"followed": "jp_bb",
+			"frame": 233,
+			"time_s": 23.4
+		},
+		{
+			"camera": [
+				-1863.48413085938,
+				138.233047485352,
+				-1486.07165527344
+			],
+			"events": [],
+			"focus": [
+				-1666.24645996094,
+				10.0,
+				-1820.13989257812
+			],
+			"followed": "jp_bb",
+			"frame": 234,
+			"time_s": 23.5
+		},
+		{
+			"camera": [
+				-1862.49829101562,
+				138.233047485352,
+				-1486.23986816406
+			],
+			"events": [],
+			"focus": [
+				-1665.26062011719,
+				10.0,
+				-1820.30932617188
+			],
+			"followed": "jp_bb",
+			"frame": 235,
+			"time_s": 23.6
+		},
+		{
+			"camera": [
+				-1861.5126953125,
+				138.233047485352,
+				-1486.40881347656
+			],
+			"events": [],
+			"focus": [
+				-1664.27551269531,
+				10.0,
+				-1820.47961425781
+			],
+			"followed": "jp_bb",
+			"frame": 236,
+			"time_s": 23.7
+		},
+		{
+			"camera": [
+				-1860.52734375,
+				138.233047485352,
+				-1486.57861328125
+			],
+			"events": [],
+			"focus": [
+				-1663.29040527344,
+				10.0,
+				-1820.65075683594
+			],
+			"followed": "jp_bb",
+			"frame": 237,
+			"time_s": 23.8
+		},
+		{
+			"camera": [
+				-1859.5419921875,
+				138.233047485352,
+				-1486.74926757812
+			],
+			"events": [],
+			"focus": [
+				-1662.30529785156,
+				10.0,
+				-1820.82275390625
+			],
+			"followed": "jp_bb",
+			"frame": 238,
+			"time_s": 23.9
+		},
+		{
+			"camera": [
+				-1858.55676269531,
+				138.233047485352,
+				-1486.9208984375
+			],
+			"events": [],
+			"focus": [
+				-1661.32019042969,
+				10.0,
+				-1820.99572753906
+			],
+			"followed": "jp_bb",
+			"frame": 239,
+			"time_s": 24.0
+		},
+		{
+			"camera": [
+				-1857.57165527344,
+				138.233047485352,
+				-1487.09338378906
+			],
+			"events": [],
+			"focus": [
+				-1660.33532714844,
+				10.0,
+				-1821.16955566406
+			],
+			"followed": "jp_bb",
+			"frame": 240,
+			"time_s": 24.1
+		},
+		{
+			"camera": [
+				-1856.5869140625,
+				138.233047485352,
+				-1487.26672363281
+			],
+			"events": [],
+			"focus": [
+				-1659.35095214844,
+				10.0,
+				-1821.34436035156
+			],
+			"followed": "jp_bb",
+			"frame": 241,
+			"time_s": 24.2
+		},
+		{
+			"camera": [
+				-1855.60229492188,
+				138.233047485352,
+				-1487.44104003906
+			],
+			"events": [],
+			"focus": [
+				-1658.36657714844,
+				10.0,
+				-1821.52001953125
+			],
+			"followed": "jp_bb",
+			"frame": 242,
+			"time_s": 24.3
+		},
+		{
+			"camera": [
+				-1854.61779785156,
+				138.233047485352,
+				-1487.61633300781
+			],
+			"events": [],
+			"focus": [
+				-1657.38220214844,
+				10.0,
+				-1821.69677734375
+			],
+			"followed": "jp_bb",
+			"frame": 243,
+			"time_s": 24.4
+		},
+		{
+			"camera": [
+				-1853.63330078125,
+				138.233047485352,
+				-1487.79248046875
+			],
+			"events": [],
+			"focus": [
+				-1656.39782714844,
+				10.0,
+				-1821.87438964844
+			],
+			"followed": "jp_bb",
+			"frame": 244,
+			"time_s": 24.5
+		},
+		{
+			"camera": [
+				-1852.64916992188,
+				138.233047485352,
+				-1487.96960449219
+			],
+			"events": [],
+			"focus": [
+				-1655.41418457031,
+				10.0,
+				-1822.05297851562
+			],
+			"followed": "jp_bb",
+			"frame": 245,
+			"time_s": 24.6
+		},
+		{
+			"camera": [
+				-1851.66516113281,
+				138.233047485352,
+				-1488.14770507812
+			],
+			"events": [],
+			"focus": [
+				-1654.43054199219,
+				10.0,
+				-1822.23266601562
+			],
+			"followed": "jp_bb",
+			"frame": 246,
+			"time_s": 24.7
+		},
+		{
+			"camera": [
+				-1850.68139648438,
+				138.233047485352,
+				-1488.32678222656
+			],
+			"events": [],
+			"focus": [
+				-1653.44689941406,
+				10.0,
+				-1822.41320800781
+			],
+			"followed": "jp_bb",
+			"frame": 247,
+			"time_s": 24.8
+		},
+		{
+			"camera": [
+				-1849.69763183594,
+				138.233047485352,
+				-1488.5068359375
+			],
+			"events": [],
+			"focus": [
+				-1652.46325683594,
+				10.0,
+				-1822.59460449219
+			],
+			"followed": "jp_bb",
+			"frame": 248,
+			"time_s": 24.9
+		},
+		{
+			"camera": [
+				-1848.71411132812,
+				138.233047485352,
+				-1488.68774414062
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "jp_155mm_shell",
+						"barrel_index": 0,
+						"caliber_m": 0.155,
+						"elevation_rad": 0.0192959719636461,
+						"flight_time_s": 2.11130689052882,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.710528, 0.018524, -0.703425)",
+						"projectile_id": "projectile_00001175",
+						"tracer": true,
+						"train_rad": 2.1758438008196,
+						"velocity_mps": "(-643.854, 17.04214, -648.9761)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00002288",
+					"kind": "fired",
+					"position_m": "(-1650.351, 17.57892, -1830.127)",
+					"sequence": 2288,
+					"target_id": "us_coast_01",
+					"tick": 1498,
+					"time_s": 24.9666666666667,
+					"weapon_id": "jp_bb/secondary_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_155mm_shell",
+						"barrel_index": 1,
+						"caliber_m": 0.155,
+						"elevation_rad": 0.0192959719636461,
+						"flight_time_s": 2.11130689052882,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.70951, 0.019461, -0.704426)",
+						"projectile_id": "projectile_00001176",
+						"tracer": true,
+						"train_rad": 2.1758438008196,
+						"velocity_mps": "(-642.9176, 17.90427, -649.8975)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00002289",
+					"kind": "fired",
+					"position_m": "(-1649.269, 17.57892, -1831.217)",
+					"sequence": 2289,
+					"target_id": "us_coast_01",
+					"tick": 1498,
+					"time_s": 24.9666666666667,
+					"weapon_id": "jp_bb/secondary_01"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_155mm_shell",
+						"barrel_index": 2,
+						"caliber_m": 0.155,
+						"elevation_rad": 0.0192959719636461,
+						"flight_time_s": 2.11130689052882,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.7098, 0.018499, -0.70416)",
+						"projectile_id": "projectile_00001177",
+						"tracer": true,
+						"train_rad": 2.1758438008196,
+						"velocity_mps": "(-643.184, 17.01875, -649.6529)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00002290",
+					"kind": "fired",
+					"position_m": "(-1648.186, 17.57892, -1832.307)",
+					"sequence": 2290,
+					"target_id": "us_coast_01",
+					"tick": 1498,
+					"time_s": 24.9666666666667,
+					"weapon_id": "jp_bb/secondary_01"
+				}
+			],
+			"focus": [
+				-1651.48022460938,
+				10.0,
+				-1822.77697753906
+			],
+			"followed": "jp_bb",
+			"frame": 249,
+			"time_s": 25.0
+		},
+		{
+			"camera": [
+				-1847.73083496094,
+				138.233047485352,
+				-1488.86962890625
+			],
+			"events": [],
+			"focus": [
+				-1650.49731445312,
+				10.0,
+				-1822.96032714844
+			],
+			"followed": "jp_bb",
+			"frame": 250,
+			"time_s": 25.1
+		},
+		{
+			"camera": [
+				-1846.74768066406,
+				138.233047485352,
+				-1489.05249023438
+			],
+			"events": [],
+			"focus": [
+				-1649.51440429688,
+				10.0,
+				-1823.14453125
+			],
+			"followed": "jp_bb",
+			"frame": 251,
+			"time_s": 25.2
+		},
+		{
+			"camera": [
+				-1845.7646484375,
+				138.233047485352,
+				-1489.23620605469
+			],
+			"events": [],
+			"focus": [
+				-1648.53149414062,
+				10.0,
+				-1823.32958984375
+			],
+			"followed": "jp_bb",
+			"frame": 252,
+			"time_s": 25.3
+		},
+		{
+			"camera": [
+				-1844.78186035156,
+				138.233047485352,
+				-1489.42077636719
+			],
+			"events": [],
+			"focus": [
+				-1647.54895019531,
+				10.0,
+				-1823.51550292969
+			],
+			"followed": "jp_bb",
+			"frame": 253,
+			"time_s": 25.4
+		},
+		{
+			"camera": [
+				-1843.79931640625,
+				138.233047485352,
+				-1489.60620117188
+			],
+			"events": [],
+			"focus": [
+				-1646.56677246094,
+				10.0,
+				-1823.70239257812
+			],
+			"followed": "jp_bb",
+			"frame": 254,
+			"time_s": 25.5
+		},
+		{
+			"camera": [
+				-1842.81689453125,
+				138.233047485352,
+				-1489.79260253906
+			],
+			"events": [],
+			"focus": [
+				-1645.58459472656,
+				10.0,
+				-1823.89013671875
+			],
+			"followed": "jp_bb",
+			"frame": 255,
+			"time_s": 25.6
+		},
+		{
+			"camera": [
+				-1841.83459472656,
+				138.233047485352,
+				-1489.97985839844
+			],
+			"events": [],
+			"focus": [
+				-1644.60241699219,
+				10.0,
+				-1824.07873535156
+			],
+			"followed": "jp_bb",
+			"frame": 256,
+			"time_s": 25.7
+		},
+		{
+			"camera": [
+				-1840.85229492188,
+				138.233047485352,
+				-1490.16784667969
+			],
+			"events": [],
+			"focus": [
+				-1643.62023925781,
+				10.0,
+				-1824.26806640625
+			],
+			"followed": "jp_bb",
+			"frame": 257,
+			"time_s": 25.8
+		},
+		{
+			"camera": [
+				-1839.87036132812,
+				138.233047485352,
+				-1490.35681152344
+			],
+			"events": [],
+			"focus": [
+				-1642.63879394531,
+				10.0,
+				-1824.45825195312
+			],
+			"followed": "jp_bb",
+			"frame": 258,
+			"time_s": 25.9
+		},
+		{
+			"camera": [
+				-1838.88854980469,
+				138.233047485352,
+				-1490.54650878906
+			],
+			"events": [],
+			"focus": [
+				-1641.65734863281,
+				10.0,
+				-1824.64929199219
+			],
+			"followed": "jp_bb",
+			"frame": 259,
+			"time_s": 26.0
+		},
+		{
+			"camera": [
+				-1837.90698242188,
+				138.233047485352,
+				-1490.73706054688
+			],
+			"events": [],
+			"focus": [
+				-1640.67590332031,
+				10.0,
+				-1824.84106445312
+			],
+			"followed": "jp_bb",
+			"frame": 260,
+			"time_s": 26.1
+		},
+		{
+			"camera": [
+				-1836.92541503906,
+				138.233047485352,
+				-1490.92846679688
+			],
+			"events": [],
+			"focus": [
+				-1639.69445800781,
+				10.0,
+				-1825.03369140625
+			],
+			"followed": "jp_bb",
+			"frame": 261,
+			"time_s": 26.2
+		},
+		{
+			"camera": [
+				-1835.94396972656,
+				138.233047485352,
+				-1491.12060546875
+			],
+			"events": [],
+			"focus": [
+				-1638.71325683594,
+				10.0,
+				-1825.22717285156
+			],
+			"followed": "jp_bb",
+			"frame": 262,
+			"time_s": 26.3
+		},
+		{
+			"camera": [
+				-1834.962890625,
+				138.233047485352,
+				-1491.31359863281
+			],
+			"events": [],
+			"focus": [
+				-1637.73254394531,
+				10.0,
+				-1825.42138671875
+			],
+			"followed": "jp_bb",
+			"frame": 263,
+			"time_s": 26.4
+		},
+		{
+			"camera": [
+				-1833.98193359375,
+				138.233047485352,
+				-1491.50732421875
+			],
+			"events": [],
+			"focus": [
+				-1636.75183105469,
+				10.0,
+				-1825.61633300781
+			],
+			"followed": "jp_bb",
+			"frame": 264,
+			"time_s": 26.5
+		},
+		{
+			"camera": [
+				-1833.00109863281,
+				138.233047485352,
+				-1491.70190429688
+			],
+			"events": [],
+			"focus": [
+				-1635.77111816406,
+				10.0,
+				-1825.81213378906
+			],
+			"followed": "jp_bb",
+			"frame": 265,
+			"time_s": 26.6
+		},
+		{
+			"camera": [
+				-1832.02026367188,
+				138.233047485352,
+				-1491.89721679688
+			],
+			"events": [],
+			"focus": [
+				-1634.79040527344,
+				10.0,
+				-1826.00866699219
+			],
+			"followed": "jp_bb",
+			"frame": 266,
+			"time_s": 26.7
+		},
+		{
+			"camera": [
+				-1831.03967285156,
+				138.233047485352,
+				-1492.09338378906
+			],
+			"events": [],
+			"focus": [
+				-1633.81005859375,
+				10.0,
+				-1826.20593261719
+			],
+			"followed": "jp_bb",
+			"frame": 267,
+			"time_s": 26.8
+		},
+		{
+			"camera": [
+				-1830.05932617188,
+				138.233047485352,
+				-1492.29016113281
+			],
+			"events": [],
+			"focus": [
+				-1632.830078125,
+				10.0,
+				-1826.40393066406
+			],
+			"followed": "jp_bb",
+			"frame": 268,
+			"time_s": 26.9
+		},
+		{
+			"camera": [
+				-1829.0791015625,
+				138.233047485352,
+				-1492.48779296875
+			],
+			"events": [],
+			"focus": [
+				-1631.85009765625,
+				10.0,
+				-1826.60266113281
+			],
+			"followed": "jp_bb",
+			"frame": 269,
+			"time_s": 27.0
+		},
+		{
+			"camera": [
+				-1828.09887695312,
+				138.233047485352,
+				-1492.68615722656
+			],
+			"events": [],
+			"focus": [
+				-1630.8701171875,
+				10.0,
+				-1826.80212402344
+			],
+			"followed": "jp_bb",
+			"frame": 270,
+			"time_s": 27.1
+		},
+		{
+			"camera": [
+				-1827.11877441406,
+				138.233047485352,
+				-1492.88525390625
+			],
+			"events": [],
+			"focus": [
+				-1629.89013671875,
+				10.0,
+				-1827.00231933594
+			],
+			"followed": "jp_bb",
+			"frame": 271,
+			"time_s": 27.2
+		},
+		{
+			"camera": [
+				-1826.13891601562,
+				138.233047485352,
+				-1493.0849609375
+			],
+			"events": [],
+			"focus": [
+				-1628.91052246094,
+				10.0,
+				-1827.203125
+			],
+			"followed": "jp_bb",
+			"frame": 272,
+			"time_s": 27.3
+		},
+		{
+			"camera": [
+				-1825.15930175781,
+				138.233047485352,
+				-1493.28540039062
+			],
+			"events": [],
+			"focus": [
+				-1627.93127441406,
+				10.0,
+				-1827.40466308594
+			],
+			"followed": "jp_bb",
+			"frame": 273,
+			"time_s": 27.4
+		},
+		{
+			"camera": [
+				-1824.17980957031,
+				138.233047485352,
+				-1493.48657226562
+			],
+			"events": [],
+			"focus": [
+				-1626.95202636719,
+				10.0,
+				-1827.60693359375
+			],
+			"followed": "jp_bb",
+			"frame": 274,
+			"time_s": 27.5
+		},
+		{
+			"camera": [
+				-1823.20043945312,
+				138.233047485352,
+				-1493.68835449219
+			],
+			"events": [],
+			"focus": [
+				-1625.97277832031,
+				10.0,
+				-1827.80981445312
+			],
+			"followed": "jp_bb",
+			"frame": 275,
+			"time_s": 27.6
+		},
+		{
+			"camera": [
+				-1822.22106933594,
+				138.233047485352,
+				-1493.89086914062
+			],
+			"events": [],
+			"focus": [
+				-1624.99353027344,
+				10.0,
+				-1828.01342773438
+			],
+			"followed": "jp_bb",
+			"frame": 276,
+			"time_s": 27.7
+		},
+		{
+			"camera": [
+				-1821.24182128906,
+				138.233047485352,
+				-1494.09411621094
+			],
+			"events": [],
+			"focus": [
+				-1624.01452636719,
+				10.0,
+				-1828.2177734375
+			],
+			"followed": "jp_bb",
+			"frame": 277,
+			"time_s": 27.8
+		},
+		{
+			"camera": [
+				-1820.26293945312,
+				138.233047485352,
+				-1494.29809570312
+			],
+			"events": [],
+			"focus": [
+				-1623.03601074219,
+				10.0,
+				-1828.42272949219
+			],
+			"followed": "jp_bb",
+			"frame": 278,
+			"time_s": 27.9
+		},
+		{
+			"camera": [
+				-1819.2841796875,
+				138.233047485352,
+				-1494.50268554688
+			],
+			"events": [],
+			"focus": [
+				-1622.05749511719,
+				10.0,
+				-1828.62829589844
+			],
+			"followed": "jp_bb",
+			"frame": 279,
+			"time_s": 28.0
+		},
+		{
+			"camera": [
+				-1818.30554199219,
+				138.233047485352,
+				-1494.70788574219
+			],
+			"events": [],
+			"focus": [
+				-1621.07897949219,
+				10.0,
+				-1828.83447265625
+			],
+			"followed": "jp_bb",
+			"frame": 280,
+			"time_s": 28.1
+		},
+		{
+			"camera": [
+				-1817.32690429688,
+				138.233047485352,
+				-1494.91369628906
+			],
+			"events": [],
+			"focus": [
+				-1620.10046386719,
+				10.0,
+				-1829.04125976562
+			],
+			"followed": "jp_bb",
+			"frame": 281,
+			"time_s": 28.2
+		},
+		{
+			"camera": [
+				-1816.34826660156,
+				138.233047485352,
+				-1495.1201171875
+			],
+			"events": [],
+			"focus": [
+				-1619.12194824219,
+				10.0,
+				-1829.24865722656
+			],
+			"followed": "jp_bb",
+			"frame": 282,
+			"time_s": 28.3
+		},
+		{
+			"camera": [
+				-1815.36999511719,
+				138.233047485352,
+				-1495.3271484375
+			],
+			"events": [],
+			"focus": [
+				-1618.14404296875,
+				10.0,
+				-1829.45666503906
+			],
+			"followed": "jp_bb",
+			"frame": 283,
+			"time_s": 28.4
+		},
+		{
+			"camera": [
+				-1814.39184570312,
+				138.233047485352,
+				-1495.53491210938
+			],
+			"events": [],
+			"focus": [
+				-1617.16625976562,
+				10.0,
+				-1829.66540527344
+			],
+			"followed": "jp_bb",
+			"frame": 284,
+			"time_s": 28.5
+		},
+		{
+			"camera": [
+				-1813.41394042969,
+				138.233047485352,
+				-1495.74328613281
+			],
+			"events": [],
+			"focus": [
+				-1616.1884765625,
+				10.0,
+				-1829.87475585938
+			],
+			"followed": "jp_bb",
+			"frame": 285,
+			"time_s": 28.6
+		},
+		{
+			"camera": [
+				-1812.43603515625,
+				138.233047485352,
+				-1495.95227050781
+			],
+			"events": [],
+			"focus": [
+				-1615.21069335938,
+				10.0,
+				-1830.08471679688
+			],
+			"followed": "jp_bb",
+			"frame": 286,
+			"time_s": 28.7
+		},
+		{
+			"camera": [
+				-1811.45812988281,
+				138.233047485352,
+				-1496.16186523438
+			],
+			"events": [],
+			"focus": [
+				-1614.23291015625,
+				10.0,
+				-1830.29516601562
+			],
+			"followed": "jp_bb",
+			"frame": 287,
+			"time_s": 28.8
+		},
+		{
+			"camera": [
+				-1810.48034667969,
+				138.233047485352,
+				-1496.37194824219
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "jp_460mm_ap",
+						"barrel_index": 0,
+						"caliber_m": 0.46,
+						"elevation_rad": 0.0256949055305337,
+						"flight_time_s": 2.4537378418388,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.702171, 0.027286, -0.711485)",
+						"projectile_id": "projectile_00001363",
+						"tracer": true,
+						"train_rad": -1.00530964914876,
+						"velocity_mps": "(-537.9186, 21.28332, -557.0684)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00002804",
+					"kind": "fired",
+					"position_m": "(-1694.084, 13.54961, -1829.059)",
+					"sequence": 2804,
+					"target_id": "us_coast_01",
+					"tick": 1730,
+					"time_s": 28.8333333333333,
+					"weapon_id": "jp_bb/main_03"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_460mm_ap",
+						"barrel_index": 1,
+						"caliber_m": 0.46,
+						"elevation_rad": 0.0256949055305337,
+						"flight_time_s": 2.4537378418388,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.700807, 0.025125, -0.712909)",
+						"projectile_id": "projectile_00001364",
+						"tracer": true,
+						"train_rad": -1.00530964914876,
+						"velocity_mps": "(-536.8545, 19.59719, -558.1786)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00002805",
+					"kind": "fired",
+					"position_m": "(-1691.591, 13.54961, -1831.515)",
+					"sequence": 2805,
+					"target_id": "us_coast_01",
+					"tick": 1730,
+					"time_s": 28.8333333333333,
+					"weapon_id": "jp_bb/main_03"
+				},
+				{
+					"data": {
+						"ammo_id": "jp_460mm_ap",
+						"barrel_index": 2,
+						"caliber_m": 0.46,
+						"elevation_rad": 0.0256949055305337,
+						"flight_time_s": 2.4537378418388,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(-0.702343, 0.024679, -0.711411)",
+						"projectile_id": "projectile_00001365",
+						"tracer": true,
+						"train_rad": -1.00530964914876,
+						"velocity_mps": "(-538.0527, 19.24963, -557.0104)"
+					},
+					"entity_id": "jp_bb",
+					"event_id": "event_00002806",
+					"kind": "fired",
+					"position_m": "(-1689.098, 13.54961, -1833.972)",
+					"sequence": 2806,
+					"target_id": "us_coast_01",
+					"tick": 1730,
+					"time_s": 28.8333333333333,
+					"weapon_id": "jp_bb/main_03"
+				}
+			],
+			"focus": [
+				-1613.25524902344,
+				10.0,
+				-1830.50622558594
+			],
+			"followed": "jp_bb",
+			"frame": 288,
+			"time_s": 28.9
+		},
+		{
+			"camera": [
+				-1809.5029296875,
+				138.233047485352,
+				-1496.58276367188
+			],
+			"events": [],
+			"focus": [
+				-1612.27819824219,
+				10.0,
+				-1830.71789550781
+			],
+			"followed": "jp_bb",
+			"frame": 289,
+			"time_s": 29.0
+		},
+		{
+			"camera": [
+				-1808.52563476562,
+				138.233047485352,
+				-1496.79406738281
+			],
+			"events": [],
+			"focus": [
+				-1611.30114746094,
+				10.0,
+				-1830.93017578125
+			],
+			"followed": "jp_bb",
+			"frame": 290,
+			"time_s": 29.1
+		},
+		{
+			"camera": [
+				-1807.54833984375,
+				138.233047485352,
+				-1497.00598144531
+			],
+			"events": [],
+			"focus": [
+				-1610.32409667969,
+				10.0,
+				-1831.14294433594
+			],
+			"followed": "jp_bb",
+			"frame": 291,
+			"time_s": 29.2
+		},
+		{
+			"camera": [
+				-1806.57116699219,
+				138.233047485352,
+				-1497.21850585938
+			],
+			"events": [],
+			"focus": [
+				-1609.34704589844,
+				10.0,
+				-1831.35632324219
+			],
+			"followed": "jp_bb",
+			"frame": 292,
+			"time_s": 29.3
+		},
+		{
+			"camera": [
+				-1805.59411621094,
+				138.233047485352,
+				-1497.43151855469
+			],
+			"events": [],
+			"focus": [
+				-1608.36999511719,
+				10.0,
+				-1831.57019042969
+			],
+			"followed": "jp_bb",
+			"frame": 293,
+			"time_s": 29.4
+		},
+		{
+			"camera": [
+				-1804.61706542969,
+				138.233047485352,
+				-1497.64514160156
+			],
+			"events": [],
+			"focus": [
+				-1607.39306640625,
+				10.0,
+				-1831.78479003906
+			],
+			"followed": "jp_bb",
+			"frame": 294,
+			"time_s": 29.5
+		},
+		{
+			"camera": [
+				-1803.64025878906,
+				138.233047485352,
+				-1497.85925292969
+			],
+			"events": [],
+			"focus": [
+				-1606.41674804688,
+				10.0,
+				-1831.99975585938
+			],
+			"followed": "jp_bb",
+			"frame": 295,
+			"time_s": 29.6
+		},
+		{
+			"camera": [
+				-1802.66369628906,
+				138.233047485352,
+				-1498.07397460938
+			],
+			"events": [
+				{
+					"data": {
+						"ammo_id": "s10_us_127mm_51_common_mk15",
+						"barrel_index": 0,
+						"caliber_m": 0.127,
+						"elevation_rad": -0.00488240239318222,
+						"flight_time_s": 2.04856916413165,
+						"gravity_mps2": 9.80665,
+						"muzzle_direction": "(0.721973, -0.004343, 0.691908)",
+						"projectile_id": "projectile_00001384",
+						"tracer": true,
+						"train_rad": 0.0155358074811688,
+						"velocity_mps": "(693.1804, -4.169868, 664.3147)"
+					},
+					"entity_id": "us_coast_01",
+					"event_id": "event_00002891",
+					"kind": "fired",
+					"position_m": "(-3006.583, 33.18052, -3196.728)",
+					"sequence": 2891,
+					"target_id": "jp_bb",
+					"tick": 1780,
+					"time_s": 29.6666666666667,
+					"weapon_id": "us_coast_01/gun_01"
+				}
+			],
+			"focus": [
+				-1605.4404296875,
+				10.0,
+				-1832.21520996094
+			],
+			"followed": "jp_bb",
+			"frame": 296,
+			"time_s": 29.7
+		},
+		{
+			"camera": [
+				-1801.68725585938,
+				138.233047485352,
+				-1498.28918457031
+			],
+			"events": [],
+			"focus": [
+				-1604.46411132812,
+				10.0,
+				-1832.43127441406
+			],
+			"followed": "jp_bb",
+			"frame": 297,
+			"time_s": 29.8
+		},
+		{
+			"camera": [
+				-1800.71081542969,
+				138.233047485352,
+				-1498.50500488281
+			],
+			"events": [],
+			"focus": [
+				-1603.48779296875,
+				10.0,
+				-1832.64794921875
+			],
+			"followed": "jp_bb",
+			"frame": 298,
+			"time_s": 29.9
+		},
+		{
+			"camera": [
+				-1799.73449707031,
+				138.233047485352,
+				-1498.72131347656
+			],
+			"events": [],
+			"focus": [
+				-1602.51147460938,
+				10.0,
+				-1832.86499023438
+			],
+			"followed": "jp_bb",
+			"frame": 299,
+			"time_s": 30.0
+		}
+	],
+	"report": {
+		"jp": {
+			"aircraft": 4,
+			"crashed": 0,
+			"disabled": 0,
+			"ditched": 0,
+			"fuel_used_kg": 1.07790327623277,
+			"ground": 0,
+			"ground_destroyed": 0,
+			"ground_disabled": 0,
+			"rounds_left": 120900,
+			"rounds_used": 0,
+			"ships": 2,
+			"sunk": 0,
+			"withdrawn": 0
+		},
+		"us": {
+			"aircraft": 4,
+			"crashed": 0,
+			"disabled": 0,
+			"ditched": 0,
+			"fuel_used_kg": 0.666226571239567,
+			"ground": 3,
+			"ground_destroyed": 0,
+			"ground_disabled": 0,
+			"rounds_left": 222000,
+			"rounds_used": 10,
+			"ships": 2,
+			"sunk": 0,
+			"withdrawn": 0
+		}
+	},
+	"restarts": [
+		{
+			"generation": 2,
+			"models": 15,
+			"node_count": 3247,
+			"tick": 120
+		},
+		{
+			"generation": 3,
+			"models": 15,
+			"node_count": 3247,
+			"tick": 120
+		},
+		{
+			"generation": 4,
+			"models": 15,
+			"node_count": 3247,
+			"tick": 120
+		}
+	],
+	"scope": "Actual default defence scene, viewer camera selections; continuous 30s at10fps, not performance measurement",
+	"views": [
+		{
+			"draw_calls": 1534,
+			"followed_id": "us_coast_01",
+			"name": "coast_normal_ui",
+			"primitives": 1092831,
+			"time_s": 1.6,
+			"unit_detail": "港口 Mk13 岸炮 · 可战 · 固定阵地\n5-inch/51 Mk8 Mod0 · Mk13 Mod4 · 1945-01-15 · 首服役年待核\n炮组交战 · 炮组正在转向瞄准 · 目标 大和\n弹药 60 发 · 结构 100% · 火情 0% · 转向 -4.7° / 仰角 -0.4° · 可用"
+		},
+		{
+			"draw_calls": 1638,
+			"followed_id": "",
+			"name": "ground_order_timeline",
+			"primitives": 986607,
+			"time_s": 4.6,
+			"unit_detail": "港口 Mk13 岸炮 · 可战 · 固定阵地\n5-inch/51 Mk8 Mod0 · Mk13 Mod4 · 1945-01-15 · 首服役年待核\n炮组交战 · 山体或建筑阻断火线 · 目标 大和\n弹药 60 发 · 结构 100% · 火情 0% · 转向 -5.3° / 仰角 -0.4° · 可用"
+		},
+		{
+			"draw_calls": 231,
+			"followed_id": "us_aa_01",
+			"name": "aa_normal_ui",
+			"primitives": 81583,
+			"time_s": 10.1,
+			"unit_detail": "港区 M1 防空一组 · 可战 · 固定阵地\n40-mm M1 · M2A1 · M3 sights · 1944-01-17 · 首服役年待核\n炮组交战 · 炮组装填中 · 目标 零战 1 号\n弹药 232 发 · 结构 100% · 火情 0% · 转向 -129.4° / 仰角 18.8° · 可用"
+		},
+		{
+			"draw_calls": 1440,
+			"followed_id": "jp_bb",
+			"name": "ship_shore_fire",
+			"primitives": 1132215,
+			"time_s": 21.1,
+			"unit_detail": "大和 · 可战 · 航速 19 节\n转向展开 · 正在转向舷侧展开\n弹药 106216 发 · 结构 100% · 火情 0% / 进水 0%"
+		},
+		{
+			"draw_calls": 285,
+			"followed_id": "us_aa_01",
+			"name": "ground_report",
+			"primitives": 82485,
+			"time_s": 2.0,
+			"unit_detail": "港区 M1 防空一组 · 可战 · 固定阵地\n40-mm M1 · M2A1 · M3 sights · 1944-01-17 · 首服役年待核\n炮组交战 · 炮组正在转向瞄准 · 目标 零战 1 号\n弹药 240 发 · 结构 100% · 火情 0% · 转向 -39.3° / 仰角 15.7° · 可用"
+		}
+	]
+}

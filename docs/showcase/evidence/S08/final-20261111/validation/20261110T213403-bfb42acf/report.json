@@ -1,0 +1,67 @@
+{
+  "run_id": "20261110T213403-bfb42acf",
+  "owner": "S08-profile-replay",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 81059,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 81062,
+      "process_group": 81062,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1865,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T213403-bfb42acf/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/s08_runtime_replay.gd",
+        "--",
+        "--output=res://.local/s08-20261111/replay-before.json"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 81064,
+      "process_group": 81064,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 113.168,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T213403-bfb42acf/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S08-profile-replay",
+    "pid": 81059,
+    "process_identity": "Wed Nov 11 05:34:03 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S08-profile-replay --timeout 180 --lock-timeout 60 godot -- --script res://tests/s08_runtime_replay.gd -- --output=res://.local/s08-20261111/replay-before.json",
+    "token": "1e239121e4864da690c71f14fa71655d",
+    "acquired_utc": "2026-11-10T21:34:03.857065+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

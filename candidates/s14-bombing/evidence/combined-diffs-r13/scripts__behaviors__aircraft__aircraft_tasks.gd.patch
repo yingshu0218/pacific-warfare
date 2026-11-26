@@ -1,0 +1,59 @@
+--- S14_R8/scripts/behaviors/aircraft/aircraft_tasks.gd
++++ combined/scripts/behaviors/aircraft/aircraft_tasks.gd
+@@ -8,22 +8,29 @@
+ var homes: Dictionary = {}
+ var submitted_targets: Dictionary = {}
+ var command_serial: int = 0
++## Optional delegate on the single domain executor. No second aircraft owner.
++var bombing_delegate: RefCounted = null
+ 
+ func _init() -> void:
+ 	module_id = "aircraft_tasks"
+ 	priority = 300
+ 
+ func supported_order_types() -> PackedStringArray:
+-	return ["patrol", "escort", "intercept", "engage", "regroup", "retreat", "aircraft_training"]
++	return ["patrol", "escort", "intercept", "engage", "regroup", "retreat", "aircraft_training", "bombing"] if bombing_delegate != null else ["patrol", "escort", "intercept", "engage", "regroup", "retreat", "aircraft_training"]
+ 
+ func order_domains() -> PackedStringArray:
+ 	return ["aircraft"]
+ 
+ func accept_order(world_ref: RefCounted, order: BattleOrder, unit_ids: Array[String]) -> Dictionary:
+ 	var world: SimulationWorld = world_ref as SimulationWorld
++	if bombing_delegate != null and bombing_delegate.supports(order.order_type): return bombing_delegate.accept(world,order,unit_ids)
+ 	for id: String in unit_ids:
+ 		if not performance.supports(world.get_unit(id).definition_id):
+ 			return {"accepted": false, "reason": "aircraft_performance_missing:" + id}
++	for id: String in unit_ids:
++		var profile: Dictionary = performance.profile(world.get_unit(id).definition_id)
++		if profile.get("role","") in ["dive_bomber","level_bomber","strike_navigation_only"] and order.order_type not in ["patrol","regroup","retreat","bombing"]:
++			return {"accepted":false,"reason":"bomber_role_forbids_fighter_task:"+id}
+ 	if order.order_type == "aircraft_training":
+ 		if not order.target_id.is_empty() or not order.area.is_empty() or not order.waypoints_m.is_empty():
+ 			return {"accepted":false,"reason":"training_uses_explicit_parameters_only"}
+@@ -43,6 +50,7 @@
+ 	homes.clear()
+ 	submitted_targets.clear()
+ 	command_serial = 0
++	if bombing_delegate != null: bombing_delegate.reset(world)
+ 	for id: String in world.unit_ids():
+ 		var unit: UnitState = world.get_unit(id)
+ 		if not performance.supports(unit.definition_id):
+@@ -59,6 +67,7 @@
+ 
+ func on_order_units_released(world_ref: RefCounted, _order: BattleOrder, unit_ids: Array[String], _reason: String) -> void:
+ 	var world: SimulationWorld = world_ref as SimulationWorld
++	if bombing_delegate != null and bombing_delegate.supports(_order.order_type): bombing_delegate.released(world,_order,unit_ids,_reason)
+ 	for id: String in unit_ids:
+ 		var unit: UnitState = world.get_unit(id)
+ 		if tasks.has(id):
+@@ -94,6 +103,9 @@
+ 			_update_unit(world, unit, record, owned, formation)
+ 
+ func _update_unit(world: SimulationWorld, unit: UnitState, order: Dictionary, owned: Array[String], formation: Dictionary) -> void:
++	if bombing_delegate != null and bombing_delegate.supports(str(order.order_type)):
++		bombing_delegate.step(world,unit,order,owned,formation)
++		return
+ 	var task: Dictionary = tasks[unit.id]
+ 	var p: Dictionary = performance.profile(unit.definition_id)
+ 	if order.order_type == "aircraft_training":

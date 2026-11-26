@@ -1,0 +1,41 @@
+{
+  "run_id": "20261110T214932-cc90f5cf",
+  "owner": "S08-final-chrome",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 82438,
+  "checks": [
+    {
+      "command": [
+        "/opt/homebrew/bin/node",
+        "tools/s08/chrome_accept.mjs",
+        "--evidence=docs/showcase/evidence/S08/final-20261111/chrome"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 82440,
+      "process_group": 82440,
+      "returncode": 1,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 40.2591,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214932-cc90f5cf/01-output.log",
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S08-final-chrome",
+    "pid": 82438,
+    "process_identity": "Wed Nov 11 05:49:32 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S08-final-chrome --timeout 1080 --lock-timeout 60 exec -- /opt/homebrew/bin/node tools/s08/chrome_accept.mjs --evidence=docs/showcase/evidence/S08/final-20261111/chrome",
+    "token": "d6f9712e396243d4aefd11bd06f6ce6d",
+    "acquired_utc": "2026-11-10T21:49:32.357359+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 1
+}

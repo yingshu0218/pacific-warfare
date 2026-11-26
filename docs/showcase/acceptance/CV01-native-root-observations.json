@@ -1,0 +1,104 @@
+{
+  "checked_utc": "2026-11-10T20:11:32.008387+00:00",
+  "status": "native_visual_followup_passed_final_freeze_and_chrome_pending",
+  "viewed_final_native": [
+    {
+      "path": "docs/showcase/evidence/CV01/native/starboard_side.png",
+      "sha256": "7b0240bffe3ecf84bad1396655d7686fde27fc6a4da2ba4b332926be667d71c0"
+    },
+    {
+      "path": "docs/showcase/evidence/CV01/native/port_side.png",
+      "sha256": "bcf07d3dcad82f5ea97eef6e3bf2bb9446bd006fab064316540d23344367019d"
+    },
+    {
+      "path": "docs/showcase/evidence/CV01/native/sb2c_low_side.png",
+      "sha256": "1caa9963d7449660ef3faba8f2feb0cf64e2a8f8de8e310542f02a0e0d42af88"
+    },
+    {
+      "path": "docs/showcase/evidence/CV01/native/aft_battery.png",
+      "sha256": "16949e4a2695bacdac76db9cdc16bee253b3c726c2043b1d289f01f09a86eec6"
+    },
+    {
+      "path": "docs/showcase/evidence/CV01/native/bow_quarter.png",
+      "sha256": "f26e8e551fec36f1df9a638989bdf7d5e540efbd8ce3ae6fe1d8a6d6a74f961d"
+    },
+    {
+      "path": "docs/showcase/evidence/CV01/native/stern_quarter.png",
+      "sha256": "760cc50bc624d948dda49f6addaaf3fe24017a0952998bc11dee5375516082a5"
+    },
+    {
+      "path": "docs/showcase/evidence/CV01/native/top.png",
+      "sha256": "58239b6a2c30d933fa6fbd9a65a4ec4308468e5cb42154c4cda9c29b4094d7df"
+    },
+    {
+      "path": "docs/showcase/evidence/CV01/native/forward_battery.png",
+      "sha256": "289edf0617c81c7a17d770605ead467452fe63375068c1a125bfecd3d3472d3b"
+    },
+    {
+      "path": "docs/showcase/evidence/CV01/native/deck_installation.png",
+      "sha256": "1bd9b7b4b0d5befe297db5ec95f1340bdafa2667797f332c681d0e768e7fe1c2"
+    },
+    {
+      "path": "docs/showcase/evidence/CV01/native/elevator_lowered.png",
+      "sha256": "bf9c5f8e21c33bc7a2646b0940dda6950fa6c14f57398c61faa586d2fa0daf0f"
+    },
+    {
+      "path": "docs/showcase/evidence/CV01/native/mk32_module.png",
+      "sha256": "436360e76a6d8a0c804399473498360d20303b07acf024cb73d49423fa035e3f"
+    },
+    {
+      "path": "docs/showcase/evidence/CV01/native/mk24_module.png",
+      "sha256": "f5b1efa23f0ae26e72fe4dfda27f37884b8b5bb352037ccfb90dad73eb302a34"
+    }
+  ],
+  "findings": [
+    "Draft1 aft Mk37 unsupported gap is resolved with island director tower.",
+    "SB2C low-side view shows main and tail wheels on deck; no belly embedding.",
+    "Raked hull ends now have distinct waterline and overall length; ortho waterline extension is the deck shadow on inspection plane.",
+    "Four twin starboard high/low gun groups and four port open singles, deck asymmetry and three lift locations are visibly represented.",
+    "Lift lowering opens actual port deck notch; operational occupancy and aircraft elevator use remain OPS01 scope."
+  ],
+  "reference_images_revisited": [
+    "docs/references/ships/essex_cv9_1944_04_15/images/E04.jpg",
+    ".local/cv01-reference-crops/P07-calibration.png",
+    ".local/cv01-reference-crops/P02-bridge.png"
+  ],
+  "limits": [
+    "No exact shipyard geometry claim; CV17 1946 plans are class-level evidence only.",
+    "No carrier operations or combat integration accepted here.",
+    "No full battlefield performance claim."
+  ],
+  "later_revision": {
+    "checked_utc": "2026-11-10T20:21:37.617705+00:00",
+    "viewed": [
+      {
+        "path": "docs/showcase/evidence/CV01/native/port_side.png",
+        "sha256": "4422104164171da5e3d03dbeb9ee1e8da76ab6b1d624de48116daa553626105f"
+      },
+      {
+        "path": "docs/showcase/evidence/CV01/native/bow_quarter.png",
+        "sha256": "8ee8f0f6f8fb48bd73d81e422677bbe950fb966b23056a1acfa65fb458915db6"
+      },
+      {
+        "path": "docs/showcase/evidence/CV01/native/aft_battery.png",
+        "sha256": "b16c6ae3f896e5fdb807804d0a4b6677721c08745513c14cd4e58fb70c216c85"
+      }
+    ],
+    "finding": "Visible horizontal striping in aft-battery hangar opening; hull top and HangarLowerShell both y7.926 are candidate coplanar surfaces. Sent to CV01 for confirmation and targeted correction.",
+    "scope": "Not historical or small-detail rejection; latest geometry not yet accepted."
+  },
+  "coplanar_fix_review": {
+    "checked_utc": "2026-11-10T20:34:03.001233+00:00",
+    "viewed": [
+      {
+        "path": "docs/showcase/evidence/CV01/native/aft_battery.png",
+        "sha256": "f1591c349e47867c46ffea5a11870494ca6599468cfa47741989f48bc3fd40d2"
+      },
+      {
+        "path": "docs/showcase/evidence/CV01/native/port_side.png",
+        "sha256": "433099eafbc9bfdfa6c1f34c29b82d78d3b0eb2d2b618d81298d406c457baac0"
+      }
+    ],
+    "observation": "Actual aft-battery opening no longer has horizontal z-fighting stripes after shared hull/hangar bearing surface. Whole port profile remains continuous. No further fine-detail changes required."
+  }
+}

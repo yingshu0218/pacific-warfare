@@ -1,0 +1,82 @@
+{
+  "run_id": "20261110T190532-fd7d0e3f",
+  "owner": "SB2C-admission",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 69690,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 69692,
+      "process_group": 69692,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.0429,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T190532-fd7d0e3f/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--rendering-method",
+        "gl_compatibility",
+        "--audio-driver",
+        "Dummy",
+        "--resolution",
+        "1440x900",
+        "--position",
+        "5000,5000",
+        "--quit-after",
+        "600",
+        "res://aircraft/sb2c4/showcase.tscn",
+        "--",
+        "--view",
+        "top",
+        "--mode",
+        "flight",
+        "--pose",
+        "level",
+        "--capture",
+        "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/top-flight.png"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 69693,
+      "process_group": 69693,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 1.7971,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T190532-fd7d0e3f/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "SB2C-admission",
+    "pid": 69690,
+    "process_identity": "Wed Nov 11 03:05:32 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner SB2C-admission --timeout 25 --lock-timeout 45 godot --render -- --rendering-method gl_compatibility --audio-driver Dummy --resolution 1440x900 --position 5000,5000 --quit-after 600 res://aircraft/sb2c4/showcase.tscn -- --view top --mode flight --pose level --capture /Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/top-flight.png",
+    "token": "c9c391a5220f458f8e26a0bd382ba77a",
+    "acquired_utc": "2026-11-10T19:05:32.926443+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

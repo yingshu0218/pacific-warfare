@@ -1,0 +1,81 @@
+{
+  "checked_utc": "2026-11-10T19:28:20.422773+00:00",
+  "source_manifest_sha256": "f6efdca87d6db807accead2847943a854821954a8e26027a7a53f552dea0ae03",
+  "evidence_manifest_sha256": "82ec728775ab91673c1d557eb72d86ce177bb3452d42c245bc255f8d339209c7",
+  "checked_source_dependency_hashes": 53,
+  "checked_evidence_hashes": 278,
+  "checked_build_outputs": 10,
+  "mismatches": [],
+  "recorded_runs": 55,
+  "process_groups_checked": 118,
+  "remaining_groups": [],
+  "unknown_groups": [],
+  "open_owned_http_ports": [],
+  "normal_checks": 65,
+  "controlled_checks": 70,
+  "controlled_checks_all_passed": true,
+  "recomputed_frames": {
+    "normal_1x": {
+      "frames": 453,
+      "p95_ms": 18.799999999999272
+    },
+    "normal_4x": {
+      "frames": 44,
+      "p95_ms": 167.5
+    },
+    "jp_a6m5a_1944_breakup": {
+      "frames": 183,
+      "p95_ms": 10.799999999995634
+    },
+    "jp_a6m5a_1944_engine": {
+      "frames": 183,
+      "p95_ms": 12.200000000004366
+    },
+    "jp_a6m5a_1944_wing_left": {
+      "frames": 175,
+      "p95_ms": 12.30000000000291
+    },
+    "jp_a6m5a_1944_wing_right": {
+      "frames": 184,
+      "p95_ms": 13
+    },
+    "us_f6f5_1944_breakup": {
+      "frames": 181,
+      "p95_ms": 14.799999999999272
+    },
+    "us_f6f5_1944_engine": {
+      "frames": 176,
+      "p95_ms": 13.700000000000728
+    },
+    "us_f6f5_1944_wing_left": {
+      "frames": 185,
+      "p95_ms": 11.800000000001091
+    },
+    "us_f6f5_1944_wing_right": {
+      "frames": 182,
+      "p95_ms": 13.099999999998545
+    }
+  },
+  "scope": "Damage/native/controlled Chrome acceptance; normal 1x valid from earlier run, cropped controlled views excluded. 4x runtime performance NOT PASSED and S08 pending. S14 integrated user path not covered.",
+  "passed": true,
+  "native_web_common_runtime_files": 306,
+  "native_web_runtime_drift": [],
+  "actual_fx_runtime_verified_from_native_web_and_root": [
+    {
+      "path": "scripts/presentation/effects/combat_effects.gd",
+      "native": "d86d2a5c2e06d70154a8748581d438e6e39c67fb4726bb7a475b895cccdd5782",
+      "web": "d86d2a5c2e06d70154a8748581d438e6e39c67fb4726bb7a475b895cccdd5782"
+    },
+    {
+      "path": "scripts/presentation/effects/combat_effect_geometry.gd",
+      "native": "5605f2e511ab13723c20b0e22756814e7402683dc04264a97af03b7827b00ed7",
+      "web": "5605f2e511ab13723c20b0e22756814e7402683dc04264a97af03b7827b00ed7"
+    },
+    {
+      "path": "scripts/presentation/effects/effect_surface.gdshader",
+      "native": "aa49b8331d441a35a6f70f1e7dd7213f0b78c10a9da1146f58a998a7e6bb8300",
+      "web": "aa49b8331d441a35a6f70f1e7dd7213f0b78c10a9da1146f58a998a7e6bb8300"
+    }
+  ],
+  "metadata_issue_resolved": true
+}

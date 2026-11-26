@@ -1,0 +1,24 @@
+{
+  "status": "implemented_and_self_verified_ready_for_root_acceptance_and_S14_integration",
+  "source_manifest_sha256": "6a94dbd9f994a466d51e0987dd6d1126f3152c8d5e05a9d5005432fe79947f07",
+  "evidence_manifest_sha256": "9ef35941d62e84f790372388b0bcacaa44cf987ba22df91c0f6a327981abd587",
+  "frozen_runtime_files": 450,
+  "checks": {
+    "training_mechanisms": 52,
+    "training_safety": 68,
+    "original_aircraft_tasks": 40,
+    "coordinated_flight": 17,
+    "terrain_safety": 27,
+    "simulation_commands": "passed"
+  },
+  "native_clips": 10,
+  "native_frames": 2506,
+  "native_capture_fps_only": 15,
+  "validation_runs": 19,
+  "evidence_files": 144,
+  "prior_preview_groups_gone": true,
+  "audit_checker_final_cleanup_ok": true,
+  "training_chrome": "S14/S08 integration scope; no duplicate browser run",
+  "DM01": "independently frozen and visually accepted by coordinator; production unchanged",
+  "performance_4x": "NOT PASSED in DM01, S08 handoff; not a training acceptance claim"
+}

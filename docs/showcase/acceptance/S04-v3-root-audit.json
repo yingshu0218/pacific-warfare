@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-10",
+  "status": "passed_native_and_mechanisms_chrome_pending",
+  "source_and_evidence_hash_preflight": {
+    "production-inputs.json": {
+      "files": 332,
+      "mismatches": []
+    },
+    "source-hashes.json": {
+      "files": 383,
+      "mismatches": []
+    },
+    "evidence-hashes.json": {
+      "files": 187,
+      "mismatches": []
+    }
+  },
+  "independent_test_copies": [
+    {
+      "source": "tests/test_f6f_coordinated_flight.gd",
+      "source_sha256": "4257fbbb98bf7f308f37dad4d61798943bf2b57a0862fb51c0916e2df1a8ed2e",
+      "copy": ".local/s04-root-review/test_f6f_coordinated_flight.gd",
+      "only_change": "evidence_output_directory"
+    },
+    {
+      "source": "tests/test_aircraft_spatial_replay.gd",
+      "source_sha256": "4d6c6b131db08b2fe981e305eba0362df2c55a257dfc7ac6e6227457c5b7467d",
+      "copy": ".local/s04-root-review/test_aircraft_spatial_replay.gd",
+      "only_change": "evidence_output_directory"
+    },
+    {
+      "source": "tests/test_aircraft_terrain_safety.gd",
+      "source_sha256": "56d4e554551d0dcab192b713d7951351bd72b36b42ca36e987e7a32b85d776c5",
+      "copy": ".local/s04-root-review/test_aircraft_terrain_safety.gd",
+      "only_change": "evidence_output_directory"
+    }
+  ],
+  "successful_report": ".local/validation/runs/20261110T151753-0bbf1335/report.json",
+  "failed_sandbox_report": ".local/validation/runs/20261110T151722-580b0542/report.json",
+  "failed_sandbox_reason": "Godot user-log write and system certificate access; test assertions passed but wrapper correctly rejected diagnostic errors",
+  "repeat_evidence_matches": {
+    "f6f-coordination.json": true,
+    "replay.json": true,
+    "terrain-safety.json": true
+  },
+  "owned_processes": [
+    {
+      "pgid": 39748,
+      "state": "absent"
+    },
+    {
+      "pgid": 39750,
+      "state": "absent"
+    },
+    {
+      "pgid": 39751,
+      "state": "absent"
+    },
+    {
+      "pgid": 39841,
+      "state": "absent"
+    }
+  ],
+  "visual_review": {
+    "method": "opened existing final native keyframes and all four clips' recorded one-second state samples; no new rendering",
+    "split_frames": [
+      60,
+      105,
+      150,
+      210,
+      255
+    ],
+    "reversal_frames": [
+      90
+    ],
+    "observer_frames": [
+      90,
+      270
+    ],
+    "comparison_plot": "f6f-v2-v3-same-window.png",
+    "scope": "roll-first, loaded inverted descent, finite vertical passage, pull-out and actual observer composition; not a claim of viewing every video frame"
+  },
+  "limits": [
+    "Point-mass zero-sideslip flight approximation; historical performance estimates remain disclosed.",
+    "S08 actual final Chrome acceptance remains pending.",
+    "UI is still the previous implementation; S12 is planning only."
+  ]
+}

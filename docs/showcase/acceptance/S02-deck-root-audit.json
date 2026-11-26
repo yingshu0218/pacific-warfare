@@ -1,0 +1,50 @@
+{
+  "reviewed_at": "2026-11-10T16:52:06.523931+00:00",
+  "source_count": 32,
+  "source_mismatches": [],
+  "evidence_count": 72,
+  "evidence_mismatches": [],
+  "build_count": 9,
+  "build_mismatches": [],
+  "camera_count": 7,
+  "same_cameras": true,
+  "same_sockets": true,
+  "socket_count": 39,
+  "mesh_before_after": [
+    216,
+    216
+  ],
+  "triangles_before_after": [
+    127254,
+    131676
+  ],
+  "remaining_owned_pids": [],
+  "loopback_ports": [
+    {
+      "port": 54664,
+      "closed": true
+    },
+    {
+      "port": 54844,
+      "closed": true
+    }
+  ],
+  "process_count": 25,
+  "private_profiles_removed": true,
+  "visual_review": [
+    "before/port_side.png",
+    "after/port_side.png",
+    "before/fore_transition.png",
+    "after/fore_transition.png",
+    "before/aft_transition.png",
+    "after/aft_transition.png",
+    "chrome/port_side.png",
+    "profile_comparison.png"
+  ],
+  "reference_review": [
+    "yamato-late-fit-side-and-plan.png",
+    "skulski-p18-freeboard-and-common-structure.png",
+    "yamato-common-deck-and-barbettes.png"
+  ],
+  "limits": "Root inspected selected before/after/native/Chrome screenshots and source/test evidence; no redundant browser or engine rerun. Shape ordinates remain image estimates, single-ship cadence does not establish battlefield performance."
+}

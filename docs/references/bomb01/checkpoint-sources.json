@@ -1,0 +1,14 @@
+{
+  "status": "partial_research_not_verified_parameter_release",
+  "date": "2026-11-11",
+  "sources": [
+    {"url":"https://www.history.navy.mil/content/dam/nhhc/research/histories/naval-aviation/dictionary-of-american-naval-aviation-squadrons-volume-1/pdfs/app1-3.pdf","kind":"US Navy historical primary institution compilation","read":"web text excerpt","use":"SB2C family configuration context; not a loaded SB2C-4 dive envelope"},
+    {"url":"https://www.awm.gov.au/collection/C285414","kind":"museum primary object record","read":"web text","use":"AN-M64 1943 object; label531lb/240kg and filling262lb","limits":"page's parenthetic 180kg for262lb is inconsistent; do not copy; specific object weight not universal AN-M64 mass"},
+    {"url":"https://www.bulletpicker.com/pdf/AFEO-Bulletin-13.pdf","kind":"February1945 US Navy bomb disposal school bulletin scan","read":"web PDF text; no rendered-page inspection yet","use":"AN-M103 family instantaneous/.10s delay and AN-M101A2 status","limits":"not yet qualified as chosen fuze pair; numeric arming_s/distance remain engineering approximations"},
+    {"url":"https://www.bulletpicker.com/pdf/TM-9-1985-4.pdf","kind":"1953 US Army original ordnance manual scan","read":"web search extracted A-3(a) applicability; full PDF open failed at48MB; not downloaded","use":"next step inspect Type97No6/No25/A-3(a) original pages"},
+    {"url":"https://www.bulletpicker.com/pdf/OP-1667-V1.pdf","kind":"1946 US Navy original ordnance pamphlet scan","read":"full open failed166MB; not downloaded","use":"pending original table confirmation"},
+    {"url":"https://www.bulletpicker.com/bomb_-60-kg-land_-type-97-no_-.html","kind":"secondary index/transcription, source discovery only","read":"opened full web text","use":"locate original sources; do not mark model/parameters verified"},
+    {"url":"https://www.fischer-tropsch.org/primary_documents/gvt_reports/USNAVY/USNTMJ%20Reports/USNTMJ-200A-0560-0608%20Report%20A-11.pdf","kind":"USNTMJ A-11 original report","local":"docs/references/ships/shokaku_1941_08_23/original/P02.pdf","read":"existing AV02 source catalog only this round; relevant performance page not yet independently opened","use":"next step qualify D4Y2 parameters; existing model dimensions already separately accepted"}
+  ],
+  "not_claimed": ["full primary-source performance qualification","historical dive limits","measured bomb Cd","historic fuze arming seconds/distance","historic blast damage radius","exact selected D4Y bomb subtype visual"]
+}

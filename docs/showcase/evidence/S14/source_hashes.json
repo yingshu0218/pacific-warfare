@@ -1,0 +1,31 @@
+{
+  "production": {
+    "scripts/showcase/all_units_showcase.gd": "e3a4a46fdcdcb82cf1c193b9ea8c9d59c411b553a022372f083aa6003ba739ee",
+    "scripts/showcase/weapon_gallery.gd": "a1d8749931399e32ed6a1f886b18b1205f29c69d891af306e33f4f045ac8a26f",
+    "scripts/showcase/sb2c_flight_adapter.gd": "959aa7c3039be1fc34cbb2caa4c086fe2b0981857a7b9b911b19de90789d32b9",
+    "scripts/showcase/sb2c_showcase_tasks.gd": "7834b17cab1c6c10d488b8895fdec5a712c683c33e22a54a9472549ce616f226",
+    "scripts/showcase/showcase_missions.gd": "77b7bf43ed93a47110cee9e190f474eec3eb6da957ed179eaeb3dd80008cdfa8",
+    "scripts/showcase/showcase_guide.gd": "a2dc7187704f06b89ad45ead03c141799330fb094656db563c86546cff4beaa0",
+    "scripts/game/first_playable_session.gd": "ffbc58e6f7684c201bb2a1c7a4013021ad665a1b86446117c2d50e1d2a235cbf",
+    "data/aircraft/performance.json": "58b024812d96856901a90c4a06c941f34349e45adea50e8f7feb36b75aed89cb",
+    "ui/observer_text.gd": "2eaa323ab358bf23b8265a82fbde46f3dc5d95d65b613611dcf4ae9b0abaab2e",
+    "showcase/all_units.tscn": "5c718fff6266aaf7d0c7b148328c2dd2bff5395a780dcfa659b292d1be1f934d",
+    "scenes/units/aircraft/sb2c4_flight.tscn": "e36a445b116669d4132eec1f633926321df273eba7e861782d2b7938cedfba91",
+    "data/units/us_sb2c4_1944.json": "563f3b28f3543261e421e824fe81cb679c16487a5214a9d4c5b522b8867cba81",
+    "data/combat/s14_sb2c.json": "169ca7a8fe9ae36e974adf1d439d33c4dad3f0ad7dd2c8b0960d6536683e502e",
+    "data/scenarios/s14_four.json": "f62c86a7d898d07155a1a2c7c7fc3b6f7a7d703bb81f2b1db30de27e6bb0face",
+    "data/scenarios/s14_pair.json": "16989aab524c86557021e05acea69e891a72593d58c95865899a842e4de0dae4",
+    "data/scenarios/s14_guided.json": "91e1c52ae51722e3d7abdc75e72651603f23993a1e8590c9690a6fc7057bd647",
+    "data/scenarios/s14_escort.json": "7a8f7c094e44958aea7b726f7ad7dff9810dc808a1ef21612fd8fcb5af5fe04e",
+    "data/scenarios/s14_fire.json": "2c483ec80aee25e6fc5e8e271be43385a7d18b41f75abcffcdae2872ee2bca43",
+    "data/scenarios/s14_maneuver.json": "2deeef987e723ba4ac7ac441ebdbca51adfd6f5a706c6cf85c03de9af64adcd2"
+  },
+  "tools": {
+    "tools/s14/encode_phase.py": "5ef7cb194770f94b7195f0066239125e5a5f9cb8c1d0a4c8ce00e8cd842e81b1",
+    "tools/s14/finalize_phase.py": "2f0b2bd6239dde4372d6612c546ed3ee482fd6935c07210a3d263bf09d49b33b",
+    "tools/s14/generate_scenarios.py": "bfcef2eb559b99367d72c01ba479cad8c8fafaa328fe3fef5097f038c15d1edf",
+    "tests/all_units_capture.gd": "4db55972aff2ed21c99256d97c0cc215b39b4cdae3251a7039033859fbb16a35",
+    "tests/all_units_gallery_probe.gd": "f30c72c0ba5a45d5b85fe768eb811f56f2e19bab7f120ddaa0e1a056196cda7e",
+    "tests/test_all_units_showcase.gd": "4a697c920433d2a1e8850269347c6bcdf035fa3c9eadcbbd6cb1673c3c3632b3"
+  }
+}

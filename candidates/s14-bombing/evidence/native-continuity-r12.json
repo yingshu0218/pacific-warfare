@@ -1,0 +1,117 @@
+[
+  {
+    "capture": "b25-release-r12",
+    "capture_sha256": "d95408c95ec20dfacb3e6cfa60a84c2e8d7a988b867754e1b53254d50c0f415f",
+    "frames": 660,
+    "first_time_s": 32.0666666666667,
+    "last_time_s": 76.0,
+    "consecutive_sample_tick_difference": 4,
+    "source_manifest_sha256": "79d715af424449f44426a8a46c5a0fa1e2eb56311ca0ae479492367ed1d64c41",
+    "events": {
+      "bomb_released": 12,
+      "bomb_source_cleared": 12,
+      "bomb_contact": 12,
+      "aircraft_part_detached": 3,
+      "unit_surface_contact": 0,
+      "unit_impact": 0
+    },
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 15,
+    "audio": false
+  },
+  {
+    "capture": "d4y-release-r12",
+    "capture_sha256": "c1bf80a6e7b47e1813f984bed5f7221fbb2b29a52c4e44606042c55858eb19f5",
+    "frames": 480,
+    "first_time_s": 50.0666666666667,
+    "last_time_s": 82.0,
+    "consecutive_sample_tick_difference": 4,
+    "source_manifest_sha256": "79d715af424449f44426a8a46c5a0fa1e2eb56311ca0ae479492367ed1d64c41",
+    "events": {
+      "bomb_released": 1,
+      "bomb_source_cleared": 1,
+      "bomb_contact": 1,
+      "aircraft_part_detached": 0,
+      "unit_surface_contact": 0,
+      "unit_impact": 0
+    },
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 15,
+    "audio": false
+  },
+  {
+    "capture": "g4m-release-r12",
+    "capture_sha256": "63d8a0c8018f6ee14e9718c100a2f5889a1386924904dbdf8eef4ac9c5ef6e88",
+    "frames": 660,
+    "first_time_s": 30.5666666666667,
+    "last_time_s": 74.5,
+    "consecutive_sample_tick_difference": 4,
+    "source_manifest_sha256": "79d715af424449f44426a8a46c5a0fa1e2eb56311ca0ae479492367ed1d64c41",
+    "events": {
+      "bomb_released": 24,
+      "bomb_source_cleared": 24,
+      "bomb_contact": 24,
+      "aircraft_part_detached": 1,
+      "unit_surface_contact": 0,
+      "unit_impact": 0
+    },
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 15,
+    "audio": false
+  },
+  {
+    "capture": "b25-intercept-r12",
+    "capture_sha256": "8ca77e3ed86e52905d7d445dacea7db3661fd5bcc74bcd4534b7dc30c2c34be4",
+    "frames": 480,
+    "first_time_s": 57.0666666666667,
+    "last_time_s": 89.0,
+    "consecutive_sample_tick_difference": 4,
+    "source_manifest_sha256": "79d715af424449f44426a8a46c5a0fa1e2eb56311ca0ae479492367ed1d64c41",
+    "events": {
+      "bomb_released": 0,
+      "bomb_source_cleared": 0,
+      "bomb_contact": 0,
+      "aircraft_part_detached": 3,
+      "unit_surface_contact": 1,
+      "unit_impact": 1
+    },
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 15,
+    "audio": false
+  },
+  {
+    "capture": "sb2c-sea-r12",
+    "capture_sha256": "c04d6655db27a28f72831ec4a7fea92e9e35fb3af034beb4d6d0e32948c21e30",
+    "frames": 180,
+    "first_time_s": 118.066666666667,
+    "last_time_s": 130.0,
+    "consecutive_sample_tick_difference": 4,
+    "source_manifest_sha256": "79d715af424449f44426a8a46c5a0fa1e2eb56311ca0ae479492367ed1d64c41",
+    "events": {
+      "bomb_released": 0,
+      "bomb_source_cleared": 0,
+      "bomb_contact": 0,
+      "aircraft_part_detached": 0,
+      "unit_surface_contact": 1,
+      "unit_impact": 1
+    },
+    "resolution": [
+      1280,
+      720
+    ],
+    "fps": 15,
+    "audio": false
+  }
+]

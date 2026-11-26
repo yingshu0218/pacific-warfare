@@ -1,0 +1,89 @@
+{
+  "reviewed_utc": "2026-11-11T10:04:17.768739+00:00",
+  "status": "native_modules_and_static_assembly_reviewed_chrome_final_freeze_pending",
+  "observed_images": [
+    {
+      "path": "docs/showcase/evidence/CV02/native-r2/top.png",
+      "sha256": "05ffb98964d1735c17b65b2e01adca3f4d891116045942a65ec4d42c81250c47"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r2/starboard_bow_quarter.png",
+      "sha256": "a20c162569f44d07d99bd14c1991aa77526d2740f3e1d9f8f5dc25414d3d0c3e"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r2/three_lifts_and_static_fit.png",
+      "sha256": "3e602510a3a944df90c4e86102940948184f32ede8ee12280c0a44c0cdbfe7f9"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r2/port_stern_quarter.png",
+      "sha256": "d02e57c75382db6c2aad3e4c2bdf71a68e7baadb48bcc84b838a67d4a9a13b48"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r2/downturned_funnels.png",
+      "sha256": "a3618273cb6a1b79bf7254d42d45ef62d6c1b90680c2c052b105b27193634a36"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r3/starboard_side.png",
+      "sha256": "5c86ba5abd48b701a592f72e0f6553b004fe5b619fb991c8dd249784d8ffa048"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r3/port_side.png",
+      "sha256": "635e81a823499f31ec8d338becb76e01048c048200c26ec0870404b946a025cc"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r3/bow_underdeck.png",
+      "sha256": "4b0ace17ff6e9eb586d30e530e6bbb6488a6285382c2e57e7cf627b592ac35ce"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r3/stern_underdeck.png",
+      "sha256": "21314bdc8408b429a2061bac3959be0e759860e557c335914a867972bf72c45d"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r3/starboard_aft_twins.png",
+      "sha256": "59eb024241daf69fb8ad9232a1014e0fb89eb66ecba68e5a10ea217a9d917d49"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r3/forward_elevator_lowered.png",
+      "sha256": "25a5fbea33b8d9db7f13e39099e802586e308ae0c8b598b9c709d798f2c96eef"
+    },
+    {
+      "path": "docs/references/ships/shokaku_1941_08_23/original/P02-page-20.png",
+      "sha256": "2f9bf1a8a2d6e8c9d3b58c731dc2bb05c09bd1ecaca5b4e60e99ffaaaabf2f8c"
+    },
+    {
+      "path": "docs/references/ships/shokaku_1941_08_23/original/P02-page-21.png",
+      "sha256": "90c7cfa27aff116253d31013753d3893e45cb6e73984cef84641dc11cb0b4e86"
+    },
+    {
+      "path": "docs/references/ships/shokaku_1941_08_23/original/P01-page-03.png",
+      "sha256": "80ead642b1c539c2a24500a05c7df9333fec53aab60f64c7aa55cd83145d8516"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-depth/port_side.png",
+      "sha256": "c330523e2208f8ab1026ab2ddded926779f186a2d15f95e11656158ce590f195"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-depth/port_stern_quarter.png",
+      "sha256": "bfa78b9ad6fcc20a7c264c998f45edbf8a859ef8abf2cb0896c2a15b77325d2b"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r4/forward_elevator_lowered.png",
+      "sha256": "361b6ec103c6fea856da4184569a03d1feb06eb3a430171dc842f7bfa4c18306"
+    }
+  ],
+  "resolved": [
+    "Forward flight-deck taper replaces nearly uniform rectangle; query shares outline.",
+    "Flat flight-deck shading corrected.",
+    "Inspection waterline crop removes orthographic underwater exposure; original complete hull retained.",
+    "Eight fore/aft support bases tested against actual hull mesh.",
+    "Repeated diagonal port-hull artifact eliminated by inspection camera depth range correction, without removing actual gun-platform shadows.",
+    "Three lift openings cut through hull weather deck; actual A6M visible on lowered platform; whole-ship surface tests added."
+  ],
+  "pending": [],
+  "limits": [
+    "A6M current static mesh fit only, legacy tailwheel/parked attitude to aviation follow-up.",
+    "A11 p18/19 validates general IJN arrestment equipment; does not identify exact Shokaku1941 wire count/stations.",
+    "P01 p3 historical planned dimensions not all as-built values.",
+    "No flight operation, combat, full fleet or Chrome acceptance at this stage."
+  ]
+}

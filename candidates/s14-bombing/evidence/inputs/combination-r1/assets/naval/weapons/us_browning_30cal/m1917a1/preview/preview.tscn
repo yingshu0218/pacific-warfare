@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://assets/naval/weapons/us_browning_30cal/m1917a1/preview/preview.gd" id="1_preview"]
+[ext_resource type="PackedScene" path="res://assets/naval/weapons/us_browning_30cal/m1917a1/us_browning_30cal_m1917a1.tscn" id="2_weapon"]
+
+[node name="BrowningM1917A1Inspection" type="Node3D"]
+script = ExtResource("1_preview")
+
+[node name="Weapon" parent="." instance=ExtResource("2_weapon")]

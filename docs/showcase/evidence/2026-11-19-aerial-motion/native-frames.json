@@ -1,0 +1,19 @@
+{
+  "based_on": "monotonic wall-time gaps between consecutive Godot process frames after a 2.5 s warmup; actual game handles its own update",
+  "camera": "fighter",
+  "events_and_state_probes": false,
+  "frames": 2432,
+  "mode": "harbor",
+  "observed_motions": [
+    "axial_roll",
+    "oblique_roll_arc"
+  ],
+  "p50_ms": 17.564,
+  "p95_ms": 42.002,
+  "p99_ms": 71.526,
+  "sim_s_at_end": 53.0,
+  "size": [
+    1280,
+    720
+  ]
+}

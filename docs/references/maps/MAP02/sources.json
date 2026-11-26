@@ -1,0 +1,75 @@
+{
+  "updated_local_date": "2026-11-11",
+  "scope": "Original fictional 1944-45 facilities; references guide functional zoning, not exact historical architecture",
+  "references": [
+    {
+      "id": "apra_dry_docks_1945",
+      "url": "https://uogguafak.omeka.net/items/show/1193",
+      "title": "Dry Docks in Apra Harbor",
+      "creator": "United States Navy",
+      "archive_id": "MARC_GC65_583_80_G_3462_60",
+      "catalog_date": "1945-06",
+      "description_date_range": "1945-06-01 to 1945-07-31",
+      "view": "high oblique aerial",
+      "original_viewed": true,
+      "original_local_ignored": ".local/map02/references/apra_1945_original.jpg",
+      "pixels": [
+        3746,
+        3020
+      ],
+      "original_sha256": "837968e8dcfdc4c7db2ae641d5d465d74c77c5f75d6e37fdbd9bf2426154a42f",
+      "uses": [
+        "open basin and separated berth/repair/low-building districts"
+      ],
+      "exclusions": [
+        "exact facility dimensions",
+        "fixed vs floating structure reconstruction",
+        "Japanese base identity"
+      ],
+      "rights_catalog_quote": "Property of National Archives. Fair use is granted for personal and academic purposes. For other purposes contact National Archives.",
+      "asset_use": "Reference only; no pixels in runtime models/textures; original retained in ignored local research directory"
+    },
+    {
+      "id": "existing_airfield_prototype",
+      "path": "island_airfield/screenshots/runway_neutral.png",
+      "image_sha256": "d698f4c762249f4bcd0254ca1ff907c0931273bd6c3d271c04d67b95a7dab0fd",
+      "original_viewed": true,
+      "kind": "Project-owned Godot screenshot, not historical photograph",
+      "supporting_files": [
+        "island_airfield/docs/historical_basis.md",
+        "island_airfield/scripts/woleai_environment.gd",
+        "island_airfield/scenes/woleai_1944.tscn"
+      ],
+      "uses": [
+        "runway/parallel taxiway/apron organisation",
+        "existing 58m and 16m passage width choices"
+      ],
+      "exclusions": [
+        "existing decorative weapon models",
+        "old waypoint flight behavior",
+        "proof that new aircraft can operate"
+      ]
+    },
+    {
+      "id": "nhhc_80g701268",
+      "catalog": "NHHC 80-G-701268 Apra Harbor 1945",
+      "original_viewed": false,
+      "retrieval": "catalog text only; original retrieval failed",
+      "geometry_authority": false
+    },
+    {
+      "id": "nhhc_80g291059",
+      "catalog": "NHHC 80-G-291059 Ulithi 1944-11-06",
+      "original_viewed": false,
+      "retrieval": "catalog text only; original retrieval failed",
+      "geometry_authority": false
+    }
+  ],
+  "runtime_assets": {
+    "facility_geometry": "Original deterministic program geometry authored in tools/map02/build_map.py and scripts/map02/expanded_map_view.gd",
+    "facility_textures": "None",
+    "font": "Existing NotoSansCJKsc-Regular.otf, SIL OFL 1.1",
+    "shaders": "Unchanged project-owned ocean.gdshader and shore.gdshader"
+  },
+  "ai_targets": []
+}

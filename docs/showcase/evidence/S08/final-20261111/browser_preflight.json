@@ -1,0 +1,14 @@
+[
+  {
+    "name": "plain",
+    "exit_code": 0,
+    "stdout": "{\"passed\": true, \"exit_code\": 0, \"report\": \"/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214346-340a6ad0/report.json\"}\n",
+    "stderr": ""
+  },
+  {
+    "name": "optimized",
+    "exit_code": 2,
+    "stdout": "{\"passed\": false, \"exit_code\": 2, \"report\": \"/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214402-ee84bfe9/report.json\"}\n",
+    "stderr": ""
+  }
+]

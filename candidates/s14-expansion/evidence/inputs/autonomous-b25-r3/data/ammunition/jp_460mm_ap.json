@@ -1,0 +1,13 @@
+{
+  "id": "jp_460mm_ap",
+  "caliber_m": 0.46,
+  "projectile_mass_kg": 1460.0,
+  "muzzle_speed_mps": 780.0,
+  "gravity_mps2": 9.80665,
+  "max_lifetime_s": 180.0,
+  "source": {
+    "status": "provisional",
+    "paths": [],
+    "note": "Provisional integration values; external historical verification and ammunition subtype/fuze remain S05 work. Lifetime is a simulation safety bound, not a historical range claim."
+  }
+}

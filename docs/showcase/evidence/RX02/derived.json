@@ -1,0 +1,42 @@
+{
+  "before": {
+    "samples": 432,
+    "stationary_visual_steps": 251,
+    "position_step_max_m": 1.58349609375,
+    "screen_step_mean_px": 0.38123211298293513,
+    "screen_step_sd_px": 0.06625419810548148,
+    "screen_step_max_px": 0.48754884340671123,
+    "scope": "same logical1440x900, 144Hz frame scheduling/60Hz actual simulation; not real-time performance"
+  },
+  "after": {
+    "samples": 432,
+    "stationary_visual_steps": 1,
+    "position_step_max_m": 0.66015625,
+    "screen_step_mean_px": 0.0,
+    "screen_step_sd_px": 0.0,
+    "screen_step_max_px": 0.0,
+    "scope": "same logical1440x900, 144Hz frame scheduling/60Hz actual simulation; not real-time performance"
+  },
+  "actual_event_view": {
+    "shell": {
+      "in_frustum_samples": 201,
+      "distance_min_m": 222.589050292969,
+      "distance_median_m": 2591.59375,
+      "width_median_px": 1.76007387246109
+    },
+    "tracer": {
+      "in_frustum_samples": 562,
+      "distance_min_m": 347.067047119141,
+      "distance_median_m": 3908.9559326171848,
+      "width_median_px": 0.3770253011418375
+    }
+  },
+  "map_native_image_size": [
+    1152,
+    720
+  ],
+  "final_fire_image_size": [
+    1280,
+    720
+  ]
+}

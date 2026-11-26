@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T212802-5eac3087",
+  "owner": "S08-profile-baseline",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/showcase-user-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 80413,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/showcase-user-project",
+      "pid": 80417,
+      "process_group": 80417,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.0842,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T212802-5eac3087/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/showcase-user-project",
+        "--export-release",
+        "Web",
+        "/Users/infinity/Desktop/Dev/game-pacific/build/first-playable/index.html"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/showcase-user-project",
+      "pid": 80418,
+      "process_group": 80418,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 3.9486,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T212802-5eac3087/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S08-profile-baseline",
+    "pid": 80413,
+    "process_identity": "Wed Nov 11 05:28:02 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S08-profile-baseline --timeout 240 --lock-timeout 60 --project /Users/infinity/Desktop/Dev/game-pacific/.local/showcase-user-project godot -- --export-release Web /Users/infinity/Desktop/Dev/game-pacific/build/first-playable/index.html",
+    "token": "6507a16df07f4e57bb584205cd6b6378",
+    "acquired_utc": "2026-11-10T21:28:02.152419+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

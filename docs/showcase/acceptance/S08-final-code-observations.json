@@ -1,0 +1,83 @@
+{
+  "status": "interim_code_and_short_Chrome_review_not_final_acceptance",
+  "created_local": "2026-11-11T05:41:49.627512+08:00",
+  "reader": "root",
+  "observed_images": [
+    "docs/showcase/evidence/S08/final-20261111/baseline/normal.png"
+  ],
+  "code_observations": [
+    "Ordinary build uses explicit all_units entry and a source admission list; cloud/sea PNGs admitted.",
+    "Ordinary web service has no browser-process scan or measure.js injection.",
+    "Optional WebRunProbe is enabled only when external Chrome validation defines window.S08. It observes state and timings; public UI contains no measurement fields.",
+    "owned_order_unit_ids now reads catalog.unit_domain as an immutable scalar instead of reconstructing UnitDefinition. Assignment order, active checks and active_order_id checks unchanged.",
+    "Timers are not decision inputs and are absent from simulation snapshots.",
+    "Chrome test script operates visible controls and records real RAF, game state, output audio, CDP-owned process memory and cleanup."
+  ],
+  "replay_comparison": [
+    {
+      "scenario": "guided",
+      "checkpoints": 12,
+      "states_rng_equal": true,
+      "events_equal": true,
+      "counts_equal": true,
+      "report_equal": true,
+      "before_domain_lookup_us": 8272962,
+      "after_domain_lookup_us": 320619
+    },
+    {
+      "scenario": "four",
+      "checkpoints": 16,
+      "states_rng_equal": true,
+      "events_equal": true,
+      "counts_equal": true,
+      "report_equal": true,
+      "before_domain_lookup_us": 11419610,
+      "after_domain_lookup_us": 478880
+    },
+    {
+      "scenario": "train_us_axial_roll",
+      "checkpoints": 1,
+      "states_rng_equal": true,
+      "events_equal": true,
+      "counts_equal": true,
+      "report_equal": true,
+      "before_domain_lookup_us": 1571561,
+      "after_domain_lookup_us": 53144
+    },
+    {
+      "scenario": "fire",
+      "checkpoints": 8,
+      "states_rng_equal": true,
+      "events_equal": true,
+      "counts_equal": true,
+      "report_equal": true,
+      "before_domain_lookup_us": 6430777,
+      "after_domain_lookup_us": 227556
+    }
+  ],
+  "input_hashes": {
+    "scripts/simulation/simulation_world.gd": "5aa20ac066896ddab57e3dfbf6834b145316b98b6e69be3355604cc198706e58",
+    "scripts/simulation/state/definition_catalog.gd": "b9e467756796528ca7c9883a22342bd0926034e86710728d66dc32a67903735f",
+    "scripts/game/web_run_probe.gd": "f7624e7d1aeb9af46d098003157079e33e6903c7024476b2d6208a18724b288f",
+    "tools/run_first_playable.py": "b18b0368556c3a563d6f7f6e63df40e9325b79ca182df77081336c693ff538a2",
+    "tools/build_first_playable.py": "b535a951120a4e511e0343d6c030d2394a54e29f1787c68d40cf8c7a55510075",
+    "tools/serve_first_playable.py": "afa820374bdf527ae989913e9e1da9be489b36481babe7d568304ffdaab0c2c9",
+    "tools/s08/chrome_accept.mjs": "3f5b1f3356d413ffa0bf5217d85e5136fe0fb3b71c2fd9232dfc8bec91e83fa7",
+    "tests/s08_runtime_replay.gd": "6342189ffdd277e792b576ee1adf5c8e25b5c063e216eaa2f5645cf12d4ea353",
+    ".local/s08-20261111/replay-before.json": "7cc79832bb4cc6b7b325b573396ea95d6444ff3208471624163534530f295325",
+    ".local/s08-20261111/replay-after.json": "fba45378a96c1494b3e470dd73aa973c888f6ce7a6cc5c959fc645c256d70654",
+    "docs/showcase/evidence/S08/final-20261111/baseline/normal.png": "83a5f6a5455374a15d32f2efa41ae6fe5d90821092e04d16d6c8296cd6873ae2"
+  },
+  "pending": [],
+  "camera_input_review": {
+    "observed_failure_image": "docs/showcase/evidence/S08/final-20261111/attempt-follow-mode/failure.png",
+    "finding": "Follow mode keeps target focus and applies user yaw/pitch orbit; auto mode changes to free on first drag. Root initially misread follow as overwriting yaw, corrected after inspecting full update_view.",
+    "required_final_checks": [
+      "Follow retains target and both motion portions change view angles",
+      "Auto switches to free and both motion portions change view angles"
+    ],
+    "product_behavior": "Preserve existing semantics; temporary change directed by root withdrawn; final source equivalence still to audit."
+  },
+  "final_status": "accepted_current_baseline_1x_with_explicit_4x_and_fx_limits",
+  "final_review": "docs/showcase/acceptance/S08-review.md"
+}

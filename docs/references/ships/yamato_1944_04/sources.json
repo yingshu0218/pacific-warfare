@@ -1,0 +1,105 @@
+{
+  "checked_date": "2026-11-10",
+  "target": "Yamato April 1944 (project target; source is late-configuration model)",
+  "sources": [
+    {
+      "id": "R01",
+      "file": "images/tamiya-78030-full-model.jpg",
+      "title": "Tamiya 78030 Yamato painted assembled full model",
+      "author_or_publisher": "Tamiya",
+      "page_url": "https://www.tamiya.com/english/products/78030/index.html",
+      "image_url": "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/78030/78030_1.jpg",
+      "type": "manufacturer scale-model photograph",
+      "view": "complete elevated bow-quarter near-side view; full hull on display stand",
+      "inspected": true,
+      "use_for": [
+        "overall hull envelope",
+        "major superstructure masses",
+        "major turret relationships"
+      ],
+      "do_not_infer": [
+        "April 1944 AA arrangement",
+        "precise dimensions from perspective",
+        "actual Godot rendering or performance"
+      ],
+      "rights": "Copyright remains with source owner; no redistribution/game-asset license established. Retained as project visual research and generation input; not a runtime texture or releasable model asset."
+    },
+    {
+      "id": "Y-PLAN",
+      "file": "original/yamato-1944-02-to-06-plan.png",
+      "page_url": "https://gigaplus.makeshop.jp/modelkasten/book/234313-.pdf",
+      "pdf_page_one_based": 6,
+      "printed_page": 5,
+      "figure": 3,
+      "view": "complete overhead plan, bow to right",
+      "inspected": true,
+      "use_for": "dated 1944.2-6 three main/two centerline secondary stations and primary hull envelope; confirms deleted wing 155mm turrets",
+      "do_not_infer": "publisher reconstruction, not shipyard offsets; absolute heights absent",
+      "rights": "Modelkasten publisher preview; private research only, excluded from import/export."
+    },
+    {
+      "id": "Y-SIDE",
+      "file": "original/yamato-1941-trials-and-context.png",
+      "page_url": "https://gigaplus.makeshop.jp/modelkasten/book/234313-.pdf",
+      "pdf_page_one_based": 5,
+      "printed_page": 4,
+      "view": "complete low port broadside, Yamato trials 1941-10-10",
+      "inspected": true,
+      "use_for": "shared hull sheer, major bridge/funnel silhouette and main-battery relationship",
+      "do_not_infer": "1941 has wing secondary guns and different AA; do not transfer its weapon fit to 1944",
+      "rights": "Historical photograph in publisher preview; research only."
+    },
+    {
+      "id": "Y-PROFILE",
+      "file": "original/yamato-late-fit-side-and-plan.png",
+      "page_url": "https://www.towerhobbies.com/on/demandware.static/-/Sites-horizon-master/default/dwc6976d52/Manuals/TAM78030_Manual_MULTI.pdf",
+      "printed_page": 18,
+      "view": "full side and top, late-configuration model",
+      "inspected": true,
+      "use_for": "common undulating hull deck, raised fore secondary and aft secondary barbette enclosures, bridge/funnel/aft tower tiers",
+      "do_not_infer": "1945 light AA and detailed equipment are not April 1944 evidence. Image-proportioned elevations do not equal survey precision.",
+      "rights": "Tamiya copyright; research-only public manual page."
+    },
+    {
+      "id": "Y-BRIDGE",
+      "file": "original/yamato-common-bridge-assembly.png",
+      "page_url": "https://www.towerhobbies.com/on/demandware.static/-/Sites-horizon-master/default/dwc6976d52/Manuals/TAM78030_Manual_MULTI.pdf",
+      "printed_page": 12,
+      "view": "front/side bridge volume and aft tower exploded obliques",
+      "inspected": true,
+      "use_for": "irregular platforms, narrow bridge core, genuine aft-tower structural shape",
+      "do_not_infer": "late fit and unknown absolute heights; no small-AA inventory transfer",
+      "rights": "Tamiya copyright; research only."
+    },
+    {
+      "id": "Y-HOSTS",
+      "file": "original/yamato-common-deck-and-barbettes.png",
+      "page_url": "https://www.towerhobbies.com/on/demandware.static/-/Sites-horizon-master/default/dwc6976d52/Manuals/TAM78030_Manual_MULTI.pdf",
+      "printed_page": 14,
+      "view": "continuous shelter deck and real secondary barbette attachment oblique",
+      "inspected": true,
+      "use_for": "host geometry: two real secondary gun barbettes, continuous bridge-base and aft shelter-deck relationship, stepped dedicated-AA gallery",
+      "do_not_infer": "late model kit; estimated numeric surface heights",
+      "rights": "Tamiya copyright; research only."
+    },
+    {
+      "id": "Y-SKULSKI",
+      "files": [
+        "original/skulski-p18-freeboard-and-common-structure.png",
+        "original/skulski-p23-secondary-and-type89.png",
+        "original/skulski-p24-light-aa.png"
+      ],
+      "page_url": "https://api.pageplace.de/preview/DT0400.9781472832221_A35506816/preview-9781472832221_A35506816.pdf",
+      "printed_pages": [
+        18,
+        23,
+        24
+      ],
+      "view": "technical text/tables and common-structure photograph",
+      "inspected": true,
+      "use_for": "freeboard anchors, secondary/Type89 identification and baseline AA count interpretation; three relevant pages read and visually inspected",
+      "do_not_infer": "not a complete April1944 station/elevation drawing; Musashi common-structure photograph does not set Yamato April fit",
+      "rights": "Skulski/Draminski publisher preview, retained for private research only; not runtime assets."
+    }
+  ]
+}

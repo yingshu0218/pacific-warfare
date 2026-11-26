@@ -1,0 +1,6351 @@
+{
+	"checks": [
+		{
+			"label": "no_contact actual two-aircraft registration",
+			"passed": true
+		},
+		{
+			"label": "no_contact initial legal mission module",
+			"passed": true
+		},
+		{
+			"label": "no_contact no new director order after initial objectives",
+			"passed": true
+		},
+		{
+			"label": "no_contact no legacy choreography intent",
+			"passed": true
+		},
+		{
+			"label": "no enemy observation over180 seconds",
+			"passed": true
+		},
+		{
+			"label": "old12/52/88/120/160 gates do not force combat/transitions",
+			"passed": true
+		},
+		{
+			"label": "near_contact actual two-aircraft registration",
+			"passed": true
+		},
+		{
+			"label": "near_contact initial legal mission module",
+			"passed": true
+		},
+		{
+			"label": "near_contact no new director order after initial objectives",
+			"passed": true
+		},
+		{
+			"label": "near_contact no legacy choreography intent",
+			"passed": true
+		},
+		{
+			"label": "interception follows own contact near_contact",
+			"passed": true
+		},
+		{
+			"label": "delayed_contact actual two-aircraft registration",
+			"passed": true
+		},
+		{
+			"label": "delayed_contact initial legal mission module",
+			"passed": true
+		},
+		{
+			"label": "delayed_contact no new director order after initial objectives",
+			"passed": true
+		},
+		{
+			"label": "delayed_contact no legacy choreography intent",
+			"passed": true
+		},
+		{
+			"label": "interception follows own contact delayed_contact",
+			"passed": true
+		},
+		{
+			"label": "low_fuel actual two-aircraft registration",
+			"passed": true
+		},
+		{
+			"label": "low_fuel initial legal mission module",
+			"passed": true
+		},
+		{
+			"label": "low_fuel no new director order after initial objectives",
+			"passed": true
+		},
+		{
+			"label": "low_fuel no legacy choreography intent",
+			"passed": true
+		},
+		{
+			"label": "actual initial low fuel changes commander mission",
+			"passed": true
+		},
+		{
+			"label": "different initial approach delays actual contact/interception, not a shared show second",
+			"passed": true
+		},
+		{
+			"label": "fighter and strike aircraft share actual role fixture",
+			"passed": true
+		},
+		{
+			"label": "explicit fighter receives own-contact interception",
+			"passed": true
+		},
+		{
+			"label": "fleet commander never conscripts strike aircraft into fighter combat",
+			"passed": true
+		},
+		{
+			"label": "generic fighter gun-ammunition policy never takes ownership of strike navigation",
+			"passed": true
+		},
+		{
+			"label": "production expanded registration",
+			"passed": true
+		},
+		{
+			"label": "commander excludes parked inventory from airborne mixed orders",
+			"passed": true
+		},
+		{
+			"label": "airborne aircraft still receive actual commander orders beside parked inventory",
+			"passed": true
+		},
+		{
+			"label": "shared validation of explicit patrol duration [\"patrol\", 0]",
+			"passed": true
+		},
+		{
+			"label": "shared validation of explicit patrol duration [\"patrol\", 86401]",
+			"passed": true
+		},
+		{
+			"label": "shared validation of explicit patrol duration [\"escort\", 10]",
+			"passed": true
+		},
+		{
+			"label": "shared validation of explicit patrol duration [\"patrol\", 110]",
+			"passed": true
+		}
+	],
+	"duration_validation": [
+		{
+			"accepted": false,
+			"command_id": "issue:duration_test_0",
+			"duplicate": false,
+			"reason": "invalid_patrol_duration"
+		},
+		{
+			"accepted": false,
+			"command_id": "issue:duration_test_1",
+			"duplicate": false,
+			"reason": "invalid_patrol_duration"
+		},
+		{
+			"accepted": false,
+			"command_id": "issue:duration_test_2",
+			"duplicate": false,
+			"reason": "invalid_patrol_duration"
+		},
+		{
+			"accepted": true,
+			"command_id": "issue:duration_test_3",
+			"duplicate": false,
+			"execute_tick": 41,
+			"reason": "queued"
+		}
+	],
+	"failed": 0,
+	"role_orders": [
+		{
+			"area": {
+				"center_m": [
+					0.0,
+					1500.0,
+					9700.0
+				],
+				"radius_m": 2500.0
+			},
+			"assigned_unit_ids": [
+				"jp_air_1"
+			],
+			"changed_tick": 363,
+			"execution": {
+				"jp_air_1": {
+					"changed_tick": 363,
+					"module_id": "aircraft_tasks",
+					"progress": "approach: 2696 m",
+					"reason": "align_fixed_guns",
+					"replacement_order_id": "",
+					"status": "executing"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 2
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 2
+				},
+				{
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"status": "executing",
+					"tick": 2
+				}
+			],
+			"intent": "intercept_air_threat",
+			"issued_tick": 2,
+			"issuer_id": "jp_commander",
+			"order_id": "fleet_ai:jp:0001",
+			"order_type": "intercept",
+			"progress": "forming",
+			"reason": "flight_task_received",
+			"received_tick": 2,
+			"recipient_ids": [
+				"jp_air"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "executing",
+			"target_id": "us_air_1",
+			"training": {},
+			"waypoints_m": []
+		},
+		{
+			"area": {
+				"center_m": [
+					0.0,
+					1500.0,
+					5900.0
+				],
+				"radius_m": 2500.0
+			},
+			"assigned_unit_ids": [
+				"us_air_1"
+			],
+			"changed_tick": 363,
+			"execution": {
+				"us_air_1": {
+					"changed_tick": 363,
+					"module_id": "aircraft_tasks",
+					"progress": "approach: 2696 m",
+					"reason": "align_fixed_guns",
+					"replacement_order_id": "",
+					"status": "executing"
+				}
+			},
+			"faction_id": "us",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 2
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 2
+				},
+				{
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"status": "executing",
+					"tick": 2
+				}
+			],
+			"intent": "intercept_air_threat",
+			"issued_tick": 2,
+			"issuer_id": "us_commander",
+			"order_id": "fleet_ai:us:0002",
+			"order_type": "intercept",
+			"progress": "forming",
+			"reason": "flight_task_received",
+			"received_tick": 2,
+			"recipient_ids": [
+				"us_air"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "executing",
+			"target_id": "jp_air_1",
+			"training": {},
+			"waypoints_m": []
+		}
+	],
+	"runs": [
+		{
+			"first_contact_s": -1.0,
+			"first_intercept_s": -1.0,
+			"name": "no_contact",
+			"observations": [
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 1,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 1,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2300 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 0.0166666666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 601,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 601,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1363 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 10.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 1201,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 1201,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 467 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 20.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 1801,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 1801,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2250 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 30.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 2401,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 2401,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1400 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 40.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 3001,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 3001,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 547 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 50.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 3601,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 3601,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 3427 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 60.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 4201,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 4201,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2678 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 70.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 4801,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 4801,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1753 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 80.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 5401,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 5401,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 838 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 90.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 6001,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 6001,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 4062 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 100.016666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 6601,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 6601,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 3321 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 110.016666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 7201,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 7201,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2436 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 120.016666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 7801,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 7801,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1548 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 130.016666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 8401,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 8401,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 658 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 140.016666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 9001,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 9001,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1825 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 150.016666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 9601,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 9601,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1060 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 160.016666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 10201,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 10201,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2821 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 170.016666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 10801,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 10801,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1961 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 180.016666666667
+				}
+			],
+			"orders": [
+				{
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"assigned_unit_ids": [
+						"us_air_1"
+					],
+					"changed_tick": 10801,
+					"execution": {
+						"us_air_1": {
+							"changed_tick": 10801,
+							"module_id": "aircraft_tasks",
+							"progress": "patrol: 1961 m",
+							"reason": "following_route",
+							"replacement_order_id": "",
+							"status": "executing"
+						}
+					},
+					"faction_id": "us",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 1
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 1
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 1
+						}
+					],
+					"intent": "scenario_initial_guided",
+					"issued_tick": 1,
+					"issuer_id": "scenario_us_command",
+					"order_id": "s14:us:001",
+					"order_type": "patrol",
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"received_tick": 1,
+					"recipient_ids": [
+						"us_air_1"
+					],
+					"replacement_order_id": "",
+					"source": "ai",
+					"status": "executing",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							0,
+							1500,
+							7400
+						],
+						[
+							-1900,
+							1950,
+							5600
+						],
+						[
+							1000,
+							1300,
+							3900
+						],
+						[
+							1800,
+							1500,
+							7900
+						]
+					]
+				},
+				{
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"assigned_unit_ids": [
+						"jp_air_1"
+					],
+					"changed_tick": 10801,
+					"execution": {
+						"jp_air_1": {
+							"changed_tick": 10801,
+							"module_id": "aircraft_tasks",
+							"progress": "patrol: 89828 m",
+							"reason": "following_route",
+							"replacement_order_id": "",
+							"status": "executing"
+						}
+					},
+					"faction_id": "jp",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 1
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 1
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 1
+						}
+					],
+					"intent": "scenario_initial_guided",
+					"issued_tick": 1,
+					"issuer_id": "scenario_jp_command",
+					"order_id": "s14:jp:002",
+					"order_type": "patrol",
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"received_tick": 1,
+					"recipient_ids": [
+						"jp_air_1"
+					],
+					"replacement_order_id": "",
+					"source": "ai",
+					"status": "executing",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							0,
+							1500,
+							8300
+						],
+						[
+							-1400,
+							1900,
+							9700
+						],
+						[
+							1800,
+							1500,
+							10800
+						],
+						[
+							2000,
+							1500,
+							6600
+						]
+					]
+				}
+			]
+		},
+		{
+			"first_contact_s": 0.0166666666666667,
+			"first_intercept_s": 0.0333333333333333,
+			"name": "near_contact",
+			"observations": [
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 1,
+							"observed_time_s": 0.0166666666666667,
+							"position_m": [
+								0.0,
+								1500.0,
+								5900.0
+							],
+							"sensor": "visual",
+							"uncertainty_m": 0.0,
+							"valid": true,
+							"velocity_mps": [
+								-0.0000000000000122464675729396,
+								0.0,
+								100.0
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 1,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 1,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2300 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 0.0166666666666667
+				},
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 600,
+							"observed_time_s": 10.0,
+							"position_m": [
+								0.0000000000364169076838561,
+								1753.13146972656,
+								6785.5810546875
+							],
+							"sensor": "visual",
+							"uncertainty_m": 0.13333333333334,
+							"valid": true,
+							"velocity_mps": [
+								0.000000000401239430569689,
+								8.78403377532959,
+								86.8483200073242
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [],
+							"changed_tick": 2,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 2,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2300 m",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "superseded"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								},
+								{
+									"kind": "units_released",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "executing",
+									"tick": 2,
+									"unit_ids": [
+										"us_air_1"
+									],
+									"unit_status": "superseded"
+								},
+								{
+									"progress": "",
+									"reason": "all_assignments_released:replacement_order_received",
+									"status": "superseded",
+									"tick": 2
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "fleet_ai:us:0002",
+							"source": "ai",
+							"status": "superseded",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						},
+						{
+							"area": {
+								"center_m": [
+									0.0,
+									1500.0,
+									5900.0
+								],
+								"radius_m": 2500.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 483,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 483,
+									"module_id": "aircraft_tasks",
+									"progress": "approach: 2363 m",
+									"reason": "align_fixed_guns",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 2
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 2
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 2
+								}
+							],
+							"intent": "intercept_air_threat",
+							"issued_tick": 2,
+							"issuer_id": "us_commander",
+							"order_id": "fleet_ai:us:0002",
+							"order_type": "intercept",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 2,
+							"recipient_ids": [
+								"us_air"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "jp_air_1",
+							"training": {},
+							"waypoints_m": []
+						}
+					],
+					"time_s": 10.0166666666667
+				},
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 1110,
+							"observed_time_s": 18.5,
+							"position_m": [
+								0.000000000245734682602361,
+								1775.04858398438,
+								7572.3515625
+							],
+							"sensor": "visual",
+							"uncertainty_m": 12.1333333333333,
+							"valid": true,
+							"velocity_mps": [
+								0.0000000000476797004655971,
+								0.493127554655075,
+								98.6147537231445
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [],
+							"changed_tick": 2,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 2,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2300 m",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "superseded"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								},
+								{
+									"kind": "units_released",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "executing",
+									"tick": 2,
+									"unit_ids": [
+										"us_air_1"
+									],
+									"unit_status": "superseded"
+								},
+								{
+									"progress": "",
+									"reason": "all_assignments_released:replacement_order_received",
+									"status": "superseded",
+									"tick": 2
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "fleet_ai:us:0002",
+							"source": "ai",
+							"status": "superseded",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						},
+						{
+							"area": {
+								"center_m": [
+									0.0,
+									1500.0,
+									5900.0
+								],
+								"radius_m": 2500.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 1190,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 1190,
+									"module_id": "aircraft_tasks",
+									"progress": "extend: 169 m",
+									"reason": "pass_separation",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 2
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 2
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 2
+								}
+							],
+							"intent": "intercept_air_threat",
+							"issued_tick": 2,
+							"issuer_id": "us_commander",
+							"order_id": "fleet_ai:us:0002",
+							"order_type": "intercept",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 2,
+							"recipient_ids": [
+								"us_air"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "jp_air_1",
+							"training": {},
+							"waypoints_m": []
+						}
+					],
+					"time_s": 20.0166666666667
+				}
+			],
+			"orders": [
+				{
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"assigned_unit_ids": [],
+					"changed_tick": 2,
+					"execution": {
+						"us_air_1": {
+							"changed_tick": 2,
+							"module_id": "aircraft_tasks",
+							"progress": "patrol: 2300 m",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:us:0002",
+							"status": "superseded"
+						}
+					},
+					"faction_id": "us",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 1
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 1
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 1
+						},
+						{
+							"kind": "units_released",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:us:0002",
+							"status": "executing",
+							"tick": 2,
+							"unit_ids": [
+								"us_air_1"
+							],
+							"unit_status": "superseded"
+						},
+						{
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"status": "superseded",
+							"tick": 2
+						}
+					],
+					"intent": "scenario_initial_guided",
+					"issued_tick": 1,
+					"issuer_id": "scenario_us_command",
+					"order_id": "s14:us:001",
+					"order_type": "patrol",
+					"progress": "",
+					"reason": "all_assignments_released:replacement_order_received",
+					"received_tick": 1,
+					"recipient_ids": [
+						"us_air_1"
+					],
+					"replacement_order_id": "fleet_ai:us:0002",
+					"source": "ai",
+					"status": "superseded",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							0,
+							1500,
+							7400
+						],
+						[
+							-1900,
+							1950,
+							5600
+						],
+						[
+							1000,
+							1300,
+							3900
+						],
+						[
+							1800,
+							1500,
+							7900
+						]
+					]
+				},
+				{
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"assigned_unit_ids": [],
+					"changed_tick": 2,
+					"execution": {
+						"jp_air_1": {
+							"changed_tick": 2,
+							"module_id": "aircraft_tasks",
+							"progress": "patrol: 2400 m",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:jp:0001",
+							"status": "superseded"
+						}
+					},
+					"faction_id": "jp",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 1
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 1
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 1
+						},
+						{
+							"kind": "units_released",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:jp:0001",
+							"status": "executing",
+							"tick": 2,
+							"unit_ids": [
+								"jp_air_1"
+							],
+							"unit_status": "superseded"
+						},
+						{
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"status": "superseded",
+							"tick": 2
+						}
+					],
+					"intent": "scenario_initial_guided",
+					"issued_tick": 1,
+					"issuer_id": "scenario_jp_command",
+					"order_id": "s14:jp:002",
+					"order_type": "patrol",
+					"progress": "",
+					"reason": "all_assignments_released:replacement_order_received",
+					"received_tick": 1,
+					"recipient_ids": [
+						"jp_air_1"
+					],
+					"replacement_order_id": "fleet_ai:jp:0001",
+					"source": "ai",
+					"status": "superseded",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							0,
+							1500,
+							8300
+						],
+						[
+							-1400,
+							1900,
+							9700
+						],
+						[
+							1800,
+							1500,
+							10800
+						],
+						[
+							2000,
+							1500,
+							6600
+						]
+					]
+				},
+				{
+					"area": {
+						"center_m": [
+							0.0,
+							1500.0,
+							9700.0
+						],
+						"radius_m": 2500.0
+					},
+					"assigned_unit_ids": [],
+					"changed_tick": 1112,
+					"execution": {
+						"jp_air_1": {
+							"changed_tick": 1112,
+							"module_id": "aircraft_tasks",
+							"progress": "aim: 436 m",
+							"reason": "recipient_inactive",
+							"replacement_order_id": "",
+							"status": "failed"
+						}
+					},
+					"faction_id": "jp",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 2
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 2
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 2
+						},
+						{
+							"kind": "units_released",
+							"reason": "recipient_inactive",
+							"replacement_order_id": "",
+							"status": "executing",
+							"tick": 1112,
+							"unit_ids": [
+								"jp_air_1"
+							],
+							"unit_status": "failed"
+						},
+						{
+							"progress": "",
+							"reason": "all_assignments_released:recipient_inactive",
+							"status": "failed",
+							"tick": 1112
+						}
+					],
+					"intent": "intercept_air_threat",
+					"issued_tick": 2,
+					"issuer_id": "jp_commander",
+					"order_id": "fleet_ai:jp:0001",
+					"order_type": "intercept",
+					"progress": "",
+					"reason": "all_assignments_released:recipient_inactive",
+					"received_tick": 2,
+					"recipient_ids": [
+						"jp_air"
+					],
+					"replacement_order_id": "",
+					"source": "ai",
+					"status": "failed",
+					"target_id": "us_air_1",
+					"training": {},
+					"waypoints_m": []
+				},
+				{
+					"area": {
+						"center_m": [
+							0.0,
+							1500.0,
+							5900.0
+						],
+						"radius_m": 2500.0
+					},
+					"assigned_unit_ids": [],
+					"changed_tick": 1442,
+					"execution": {
+						"us_air_1": {
+							"changed_tick": 1442,
+							"module_id": "aircraft_tasks",
+							"progress": "search: 1557 m",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:us:0003",
+							"status": "superseded"
+						}
+					},
+					"faction_id": "us",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 2
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 2
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 2
+						},
+						{
+							"kind": "units_released",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:us:0003",
+							"status": "executing",
+							"tick": 1442,
+							"unit_ids": [
+								"us_air_1"
+							],
+							"unit_status": "superseded"
+						},
+						{
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"status": "superseded",
+							"tick": 1442
+						}
+					],
+					"intent": "intercept_air_threat",
+					"issued_tick": 2,
+					"issuer_id": "us_commander",
+					"order_id": "fleet_ai:us:0002",
+					"order_type": "intercept",
+					"progress": "",
+					"reason": "all_assignments_released:replacement_order_received",
+					"received_tick": 2,
+					"recipient_ids": [
+						"us_air"
+					],
+					"replacement_order_id": "fleet_ai:us:0003",
+					"source": "ai",
+					"status": "superseded",
+					"target_id": "jp_air_1",
+					"training": {},
+					"waypoints_m": []
+				},
+				{
+					"area": {
+						"center_m": [
+							0.0,
+							1500.0,
+							8000.0
+						],
+						"radius_m": 1200.0
+					},
+					"assigned_unit_ids": [
+						"us_air_1"
+					],
+					"changed_tick": 1682,
+					"execution": {
+						"us_air_1": {
+							"changed_tick": 1682,
+							"module_id": "aircraft_tasks",
+							"progress": "patrol: 952 m",
+							"reason": "following_route",
+							"replacement_order_id": "",
+							"status": "executing"
+						}
+					},
+					"faction_id": "us",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 1442
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 1442
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 1442
+						}
+					],
+					"intent": "search_no_contact",
+					"issued_tick": 1442,
+					"issuer_id": "us_commander",
+					"order_id": "fleet_ai:us:0003",
+					"order_type": "patrol",
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"received_tick": 1442,
+					"recipient_ids": [
+						"us_air"
+					],
+					"replacement_order_id": "",
+					"source": "ai",
+					"status": "executing",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": []
+				}
+			]
+		},
+		{
+			"first_contact_s": 82.0166666666667,
+			"first_intercept_s": 132.033333333333,
+			"name": "delayed_contact",
+			"observations": [
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 1,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 1,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2300 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 0.0166666666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 601,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 601,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1363 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 10.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 1201,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 1201,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 467 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 20.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 1801,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 1801,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2250 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 30.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 2401,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 2401,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1400 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 40.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 3001,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 3001,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 547 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 50.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 3601,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 3601,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 3427 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 60.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 4201,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 4201,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2678 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 70.0166666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 4801,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 4801,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1753 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 80.0166666666667
+				},
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 5400,
+							"observed_time_s": 90.0,
+							"position_m": [
+								-4.82220029830933,
+								1669.08288574219,
+								-2809.373046875
+							],
+							"sensor": "visual",
+							"uncertainty_m": 0.133333333333326,
+							"valid": true,
+							"velocity_mps": [
+								1.10236394405365,
+								37.7305450439453,
+								84.8529281616211
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 5401,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 5401,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 838 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 90.0166666666667
+				},
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 6000,
+							"observed_time_s": 100.0,
+							"position_m": [
+								69.0270309448242,
+								1750.68420410156,
+								-1900.19030761719
+							],
+							"sensor": "visual",
+							"uncertainty_m": 0.133333333333326,
+							"valid": true,
+							"velocity_mps": [
+								14.9156646728516,
+								-5.27467441558838,
+								98.8876419067383
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 6001,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 6001,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 4062 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 100.016666666667
+				},
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 6600,
+							"observed_time_s": 110.0,
+							"position_m": [
+								286.112579345703,
+								1690.95886230469,
+								-824.51123046875
+							],
+							"sensor": "visual",
+							"uncertainty_m": 0.133333333333326,
+							"valid": true,
+							"velocity_mps": [
+								25.1309356689453,
+								-5.93102073669434,
+								116.371269226074
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 6601,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 6601,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 3321 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 110.016666666667
+				},
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 7200,
+							"observed_time_s": 120.0,
+							"position_m": [
+								538.429382324219,
+								1636.8671875,
+								390.202209472656
+							],
+							"sensor": "visual",
+							"uncertainty_m": 0.133333333333326,
+							"valid": true,
+							"velocity_mps": [
+								24.5980548858643,
+								-4.76597166061401,
+								123.352813720703
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 7201,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 7201,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 2436 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 120.016666666667
+				},
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 7800,
+							"observed_time_s": 130.0,
+							"position_m": [
+								775.027221679688,
+								1595.39526367188,
+								1625.75927734375
+							],
+							"sensor": "visual",
+							"uncertainty_m": 0.133333333333439,
+							"valid": true,
+							"velocity_mps": [
+								22.7364330291748,
+								-3.57331156730652,
+								123.664741516113
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 7801,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 7801,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1548 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 130.016666666667
+				},
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 8400,
+							"observed_time_s": 140.0,
+							"position_m": [
+								961.419921875,
+								1859.4287109375,
+								2756.64819335938
+							],
+							"sensor": "visual",
+							"uncertainty_m": 0.133333333333439,
+							"valid": true,
+							"velocity_mps": [
+								10.7939186096191,
+								29.2501907348633,
+								104.532424926758
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [],
+							"changed_tick": 7922,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 7922,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1370 m",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "superseded"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								},
+								{
+									"kind": "units_released",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "executing",
+									"tick": 7922,
+									"unit_ids": [
+										"us_air_1"
+									],
+									"unit_status": "superseded"
+								},
+								{
+									"progress": "",
+									"reason": "all_assignments_released:replacement_order_received",
+									"status": "superseded",
+									"tick": 7922
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "fleet_ai:us:0002",
+							"source": "ai",
+							"status": "superseded",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						},
+						{
+							"area": {
+								"center_m": [
+									820.143737792969,
+									1588.45703125,
+									1873.11657714844
+								],
+								"radius_m": 2500.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 8282,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 8282,
+									"module_id": "aircraft_tasks",
+									"progress": "approach: 4463 m",
+									"reason": "align_fixed_guns",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 7922
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 7922
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 7922
+								}
+							],
+							"intent": "intercept_air_threat",
+							"issued_tick": 7922,
+							"issuer_id": "us_commander",
+							"order_id": "fleet_ai:us:0002",
+							"order_type": "intercept",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 7922,
+							"recipient_ids": [
+								"us_air"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "jp_air_1",
+							"training": {},
+							"waypoints_m": []
+						}
+					],
+					"time_s": 140.016666666667
+				},
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 9000,
+							"observed_time_s": 150.0,
+							"position_m": [
+								966.411315917969,
+								1867.76501464844,
+								3875.77270507812
+							],
+							"sensor": "visual",
+							"uncertainty_m": 0.133333333333439,
+							"valid": true,
+							"velocity_mps": [
+								1.45116710662842,
+								-10.3671741485596,
+								120.910438537598
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [],
+							"changed_tick": 7922,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 7922,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1370 m",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "superseded"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								},
+								{
+									"kind": "units_released",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "executing",
+									"tick": 7922,
+									"unit_ids": [
+										"us_air_1"
+									],
+									"unit_status": "superseded"
+								},
+								{
+									"progress": "",
+									"reason": "all_assignments_released:replacement_order_received",
+									"status": "superseded",
+									"tick": 7922
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "fleet_ai:us:0002",
+							"source": "ai",
+							"status": "superseded",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						},
+						{
+							"area": {
+								"center_m": [
+									820.143737792969,
+									1588.45703125,
+									1873.11657714844
+								],
+								"radius_m": 2500.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 8882,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 8882,
+									"module_id": "aircraft_tasks",
+									"progress": "approach: 2812 m",
+									"reason": "align_fixed_guns",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 7922
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 7922
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 7922
+								}
+							],
+							"intent": "intercept_air_threat",
+							"issued_tick": 7922,
+							"issuer_id": "us_commander",
+							"order_id": "fleet_ai:us:0002",
+							"order_type": "intercept",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 7922,
+							"recipient_ids": [
+								"us_air"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "jp_air_1",
+							"training": {},
+							"waypoints_m": []
+						}
+					],
+					"time_s": 150.016666666667
+				},
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 9570,
+							"observed_time_s": 159.5,
+							"position_m": [
+								981.906921386719,
+								1753.40283203125,
+								5064.81298828125
+							],
+							"sensor": "visual",
+							"uncertainty_m": 4.13333333333344,
+							"valid": true,
+							"velocity_mps": [
+								1.66174519062042,
+								-13.3097801208496,
+								125.903366088867
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [],
+							"changed_tick": 7922,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 7922,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1370 m",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "superseded"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								},
+								{
+									"kind": "units_released",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "executing",
+									"tick": 7922,
+									"unit_ids": [
+										"us_air_1"
+									],
+									"unit_status": "superseded"
+								},
+								{
+									"progress": "",
+									"reason": "all_assignments_released:replacement_order_received",
+									"status": "superseded",
+									"tick": 7922
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "fleet_ai:us:0002",
+							"source": "ai",
+							"status": "superseded",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						},
+						{
+							"area": {
+								"center_m": [
+									820.143737792969,
+									1588.45703125,
+									1873.11657714844
+								],
+								"radius_m": 2500.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 9596,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 9596,
+									"module_id": "aircraft_tasks",
+									"progress": "burst: 263 m",
+									"reason": "short_burst_window",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 7922
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 7922
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 7922
+								}
+							],
+							"intent": "intercept_air_threat",
+							"issued_tick": 7922,
+							"issuer_id": "us_commander",
+							"order_id": "fleet_ai:us:0002",
+							"order_type": "intercept",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 7922,
+							"recipient_ids": [
+								"us_air"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "jp_air_1",
+							"training": {},
+							"waypoints_m": []
+						}
+					],
+					"time_s": 160.016666666667
+				},
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": false,
+							"observed_tick": 9570,
+							"observed_time_s": 159.5,
+							"position_m": [
+								981.906921386719,
+								1753.40283203125,
+								5064.81298828125
+							],
+							"sensor": "visual",
+							"uncertainty_m": 84.1333333333334,
+							"valid": true,
+							"velocity_mps": [
+								1.66174519062042,
+								-13.3097801208496,
+								125.903366088867
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [],
+							"changed_tick": 7922,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 7922,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1370 m",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "superseded"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								},
+								{
+									"kind": "units_released",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "executing",
+									"tick": 7922,
+									"unit_ids": [
+										"us_air_1"
+									],
+									"unit_status": "superseded"
+								},
+								{
+									"progress": "",
+									"reason": "all_assignments_released:replacement_order_received",
+									"status": "superseded",
+									"tick": 7922
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "fleet_ai:us:0002",
+							"source": "ai",
+							"status": "superseded",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						},
+						{
+							"area": {
+								"center_m": [
+									820.143737792969,
+									1588.45703125,
+									1873.11657714844
+								],
+								"radius_m": 2500.0
+							},
+							"assigned_unit_ids": [],
+							"changed_tick": 10082,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 10082,
+									"module_id": "aircraft_tasks",
+									"progress": "evade: 298 m",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0003",
+									"status": "superseded"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 7922
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 7922
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 7922
+								},
+								{
+									"kind": "units_released",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0003",
+									"status": "executing",
+									"tick": 10082,
+									"unit_ids": [
+										"us_air_1"
+									],
+									"unit_status": "superseded"
+								},
+								{
+									"progress": "",
+									"reason": "all_assignments_released:replacement_order_received",
+									"status": "superseded",
+									"tick": 10082
+								}
+							],
+							"intent": "intercept_air_threat",
+							"issued_tick": 7922,
+							"issuer_id": "us_commander",
+							"order_id": "fleet_ai:us:0002",
+							"order_type": "intercept",
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"received_tick": 7922,
+							"recipient_ids": [
+								"us_air"
+							],
+							"replacement_order_id": "fleet_ai:us:0003",
+							"source": "ai",
+							"status": "superseded",
+							"target_id": "jp_air_1",
+							"training": {},
+							"waypoints_m": []
+						},
+						{
+							"area": {
+								"center_m": [
+									0.0,
+									1500.0,
+									8000.0
+								],
+								"radius_m": 1200.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 10082,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 10082,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 3020 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 10082
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 10082
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 10082
+								}
+							],
+							"intent": "search_no_contact",
+							"issued_tick": 10082,
+							"issuer_id": "us_commander",
+							"order_id": "fleet_ai:us:0003",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 10082,
+							"recipient_ids": [
+								"us_air"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": []
+						}
+					],
+					"time_s": 170.016666666667
+				},
+				{
+					"contacts": [],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [],
+							"changed_tick": 7922,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 7922,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 1370 m",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "superseded"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								},
+								{
+									"kind": "units_released",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0002",
+									"status": "executing",
+									"tick": 7922,
+									"unit_ids": [
+										"us_air_1"
+									],
+									"unit_status": "superseded"
+								},
+								{
+									"progress": "",
+									"reason": "all_assignments_released:replacement_order_received",
+									"status": "superseded",
+									"tick": 7922
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "fleet_ai:us:0002",
+							"source": "ai",
+							"status": "superseded",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						},
+						{
+							"area": {
+								"center_m": [
+									820.143737792969,
+									1588.45703125,
+									1873.11657714844
+								],
+								"radius_m": 2500.0
+							},
+							"assigned_unit_ids": [],
+							"changed_tick": 10082,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 10082,
+									"module_id": "aircraft_tasks",
+									"progress": "evade: 298 m",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0003",
+									"status": "superseded"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 7922
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 7922
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 7922
+								},
+								{
+									"kind": "units_released",
+									"reason": "replacement_order_received",
+									"replacement_order_id": "fleet_ai:us:0003",
+									"status": "executing",
+									"tick": 10082,
+									"unit_ids": [
+										"us_air_1"
+									],
+									"unit_status": "superseded"
+								},
+								{
+									"progress": "",
+									"reason": "all_assignments_released:replacement_order_received",
+									"status": "superseded",
+									"tick": 10082
+								}
+							],
+							"intent": "intercept_air_threat",
+							"issued_tick": 7922,
+							"issuer_id": "us_commander",
+							"order_id": "fleet_ai:us:0002",
+							"order_type": "intercept",
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"received_tick": 7922,
+							"recipient_ids": [
+								"us_air"
+							],
+							"replacement_order_id": "fleet_ai:us:0003",
+							"source": "ai",
+							"status": "superseded",
+							"target_id": "jp_air_1",
+							"training": {},
+							"waypoints_m": []
+						},
+						{
+							"area": {
+								"center_m": [
+									0.0,
+									1500.0,
+									8000.0
+								],
+								"radius_m": 1200.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 10682,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 10682,
+									"module_id": "aircraft_tasks",
+									"progress": "patrol: 3577 m",
+									"reason": "following_route",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 10082
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 10082
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 10082
+								}
+							],
+							"intent": "search_no_contact",
+							"issued_tick": 10082,
+							"issuer_id": "us_commander",
+							"order_id": "fleet_ai:us:0003",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 10082,
+							"recipient_ids": [
+								"us_air"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": []
+						}
+					],
+					"time_s": 180.016666666667
+				}
+			],
+			"orders": [
+				{
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"assigned_unit_ids": [],
+					"changed_tick": 7922,
+					"execution": {
+						"us_air_1": {
+							"changed_tick": 7922,
+							"module_id": "aircraft_tasks",
+							"progress": "patrol: 1370 m",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:us:0002",
+							"status": "superseded"
+						}
+					},
+					"faction_id": "us",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 1
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 1
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 1
+						},
+						{
+							"kind": "units_released",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:us:0002",
+							"status": "executing",
+							"tick": 7922,
+							"unit_ids": [
+								"us_air_1"
+							],
+							"unit_status": "superseded"
+						},
+						{
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"status": "superseded",
+							"tick": 7922
+						}
+					],
+					"intent": "scenario_initial_guided",
+					"issued_tick": 1,
+					"issuer_id": "scenario_us_command",
+					"order_id": "s14:us:001",
+					"order_type": "patrol",
+					"progress": "",
+					"reason": "all_assignments_released:replacement_order_received",
+					"received_tick": 1,
+					"recipient_ids": [
+						"us_air_1"
+					],
+					"replacement_order_id": "fleet_ai:us:0002",
+					"source": "ai",
+					"status": "superseded",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							0,
+							1500,
+							7400
+						],
+						[
+							-1900,
+							1950,
+							5600
+						],
+						[
+							1000,
+							1300,
+							3900
+						],
+						[
+							1800,
+							1500,
+							7900
+						]
+					]
+				},
+				{
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"assigned_unit_ids": [],
+					"changed_tick": 5042,
+					"execution": {
+						"jp_air_1": {
+							"changed_tick": 5042,
+							"module_id": "aircraft_tasks",
+							"progress": "patrol: 11673 m",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:jp:0001",
+							"status": "superseded"
+						}
+					},
+					"faction_id": "jp",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 1
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 1
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 1
+						},
+						{
+							"kind": "units_released",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:jp:0001",
+							"status": "executing",
+							"tick": 5042,
+							"unit_ids": [
+								"jp_air_1"
+							],
+							"unit_status": "superseded"
+						},
+						{
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"status": "superseded",
+							"tick": 5042
+						}
+					],
+					"intent": "scenario_initial_guided",
+					"issued_tick": 1,
+					"issuer_id": "scenario_jp_command",
+					"order_id": "s14:jp:002",
+					"order_type": "patrol",
+					"progress": "",
+					"reason": "all_assignments_released:replacement_order_received",
+					"received_tick": 1,
+					"recipient_ids": [
+						"jp_air_1"
+					],
+					"replacement_order_id": "fleet_ai:jp:0001",
+					"source": "ai",
+					"status": "superseded",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							0,
+							1500,
+							8300
+						],
+						[
+							-1400,
+							1900,
+							9700
+						],
+						[
+							1800,
+							1500,
+							10800
+						],
+						[
+							2000,
+							1500,
+							6600
+						]
+					]
+				},
+				{
+					"area": {
+						"center_m": [
+							-305.107452392578,
+							1486.34191894531,
+							4331.90673828125
+						],
+						"radius_m": 2500.0
+					},
+					"assigned_unit_ids": [],
+					"changed_tick": 9573,
+					"execution": {
+						"jp_air_1": {
+							"changed_tick": 9573,
+							"module_id": "aircraft_tasks",
+							"progress": "aim: 403 m",
+							"reason": "recipient_inactive",
+							"replacement_order_id": "",
+							"status": "failed"
+						}
+					},
+					"faction_id": "jp",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 5042
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 5042
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 5042
+						},
+						{
+							"kind": "units_released",
+							"reason": "recipient_inactive",
+							"replacement_order_id": "",
+							"status": "executing",
+							"tick": 9573,
+							"unit_ids": [
+								"jp_air_1"
+							],
+							"unit_status": "failed"
+						},
+						{
+							"progress": "",
+							"reason": "all_assignments_released:recipient_inactive",
+							"status": "failed",
+							"tick": 9573
+						}
+					],
+					"intent": "intercept_air_threat",
+					"issued_tick": 5042,
+					"issuer_id": "jp_commander",
+					"order_id": "fleet_ai:jp:0001",
+					"order_type": "intercept",
+					"progress": "",
+					"reason": "all_assignments_released:recipient_inactive",
+					"received_tick": 5042,
+					"recipient_ids": [
+						"jp_air"
+					],
+					"replacement_order_id": "",
+					"source": "ai",
+					"status": "failed",
+					"target_id": "us_air_1",
+					"training": {},
+					"waypoints_m": []
+				},
+				{
+					"area": {
+						"center_m": [
+							820.143737792969,
+							1588.45703125,
+							1873.11657714844
+						],
+						"radius_m": 2500.0
+					},
+					"assigned_unit_ids": [],
+					"changed_tick": 10082,
+					"execution": {
+						"us_air_1": {
+							"changed_tick": 10082,
+							"module_id": "aircraft_tasks",
+							"progress": "evade: 298 m",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:us:0003",
+							"status": "superseded"
+						}
+					},
+					"faction_id": "us",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 7922
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 7922
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 7922
+						},
+						{
+							"kind": "units_released",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:us:0003",
+							"status": "executing",
+							"tick": 10082,
+							"unit_ids": [
+								"us_air_1"
+							],
+							"unit_status": "superseded"
+						},
+						{
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"status": "superseded",
+							"tick": 10082
+						}
+					],
+					"intent": "intercept_air_threat",
+					"issued_tick": 7922,
+					"issuer_id": "us_commander",
+					"order_id": "fleet_ai:us:0002",
+					"order_type": "intercept",
+					"progress": "",
+					"reason": "all_assignments_released:replacement_order_received",
+					"received_tick": 7922,
+					"recipient_ids": [
+						"us_air"
+					],
+					"replacement_order_id": "fleet_ai:us:0003",
+					"source": "ai",
+					"status": "superseded",
+					"target_id": "jp_air_1",
+					"training": {},
+					"waypoints_m": []
+				},
+				{
+					"area": {
+						"center_m": [
+							0.0,
+							1500.0,
+							8000.0
+						],
+						"radius_m": 1200.0
+					},
+					"assigned_unit_ids": [
+						"us_air_1"
+					],
+					"changed_tick": 10802,
+					"execution": {
+						"us_air_1": {
+							"changed_tick": 10802,
+							"module_id": "aircraft_tasks",
+							"progress": "patrol: 3494 m",
+							"reason": "following_route",
+							"replacement_order_id": "",
+							"status": "executing"
+						}
+					},
+					"faction_id": "us",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 10082
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 10082
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 10082
+						}
+					],
+					"intent": "search_no_contact",
+					"issued_tick": 10082,
+					"issuer_id": "us_commander",
+					"order_id": "fleet_ai:us:0003",
+					"order_type": "patrol",
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"received_tick": 10082,
+					"recipient_ids": [
+						"us_air"
+					],
+					"replacement_order_id": "",
+					"source": "ai",
+					"status": "executing",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": []
+				}
+			]
+		},
+		{
+			"first_contact_s": 0.0166666666666667,
+			"first_intercept_s": -1.0,
+			"name": "low_fuel",
+			"observations": [
+				{
+					"contacts": [
+						{
+							"aim_offset_m": [
+								0.0,
+								0.0,
+								0.0
+							],
+							"classification": "aircraft",
+							"domain": "aircraft",
+							"entity_id": "jp_air_1",
+							"fresh": true,
+							"observed_tick": 1,
+							"observed_time_s": 0.0166666666666667,
+							"position_m": [
+								0.0,
+								1500.0,
+								5900.0
+							],
+							"sensor": "visual",
+							"uncertainty_m": 0.0,
+							"valid": true,
+							"velocity_mps": [
+								-0.0000000000000122464675729396,
+								0.0,
+								100.0
+							]
+						}
+					],
+					"orders": [
+						{
+							"area": {
+								"center_m": [
+									0,
+									1600,
+									8000
+								],
+								"radius_m": 1800.0
+							},
+							"assigned_unit_ids": [
+								"us_air_1"
+							],
+							"changed_tick": 1,
+							"execution": {
+								"us_air_1": {
+									"changed_tick": 1,
+									"module_id": "aircraft_tasks",
+									"progress": "withdraw: 10072 m",
+									"reason": "low_fuel",
+									"replacement_order_id": "",
+									"status": "executing"
+								}
+							},
+							"faction_id": "us",
+							"history": [
+								{
+									"reason": "dispatched",
+									"status": "issued",
+									"tick": 1
+								},
+								{
+									"progress": "",
+									"reason": "domain_executors_accepted",
+									"status": "received",
+									"tick": 1
+								},
+								{
+									"progress": "forming",
+									"reason": "flight_task_received",
+									"status": "executing",
+									"tick": 1
+								}
+							],
+							"intent": "scenario_initial_guided",
+							"issued_tick": 1,
+							"issuer_id": "scenario_us_command",
+							"order_id": "s14:us:001",
+							"order_type": "patrol",
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"received_tick": 1,
+							"recipient_ids": [
+								"us_air_1"
+							],
+							"replacement_order_id": "",
+							"source": "ai",
+							"status": "executing",
+							"target_id": "",
+							"training": {},
+							"waypoints_m": [
+								[
+									0,
+									1500,
+									7400
+								],
+								[
+									-1900,
+									1950,
+									5600
+								],
+								[
+									1000,
+									1300,
+									3900
+								],
+								[
+									1800,
+									1500,
+									7900
+								]
+							]
+						}
+					],
+					"time_s": 0.0166666666666667
+				}
+			],
+			"orders": [
+				{
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"assigned_unit_ids": [],
+					"changed_tick": 2,
+					"execution": {
+						"us_air_1": {
+							"changed_tick": 2,
+							"module_id": "aircraft_tasks",
+							"progress": "withdraw: 10072 m",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:us:0002",
+							"status": "superseded"
+						}
+					},
+					"faction_id": "us",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 1
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 1
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 1
+						},
+						{
+							"kind": "units_released",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:us:0002",
+							"status": "executing",
+							"tick": 2,
+							"unit_ids": [
+								"us_air_1"
+							],
+							"unit_status": "superseded"
+						},
+						{
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"status": "superseded",
+							"tick": 2
+						}
+					],
+					"intent": "scenario_initial_guided",
+					"issued_tick": 1,
+					"issuer_id": "scenario_us_command",
+					"order_id": "s14:us:001",
+					"order_type": "patrol",
+					"progress": "",
+					"reason": "all_assignments_released:replacement_order_received",
+					"received_tick": 1,
+					"recipient_ids": [
+						"us_air_1"
+					],
+					"replacement_order_id": "fleet_ai:us:0002",
+					"source": "ai",
+					"status": "superseded",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							0,
+							1500,
+							7400
+						],
+						[
+							-1900,
+							1950,
+							5600
+						],
+						[
+							1000,
+							1300,
+							3900
+						],
+						[
+							1800,
+							1500,
+							7900
+						]
+					]
+				},
+				{
+					"area": {
+						"center_m": [
+							0,
+							1600,
+							8000
+						],
+						"radius_m": 1800.0
+					},
+					"assigned_unit_ids": [],
+					"changed_tick": 2,
+					"execution": {
+						"jp_air_1": {
+							"changed_tick": 2,
+							"module_id": "aircraft_tasks",
+							"progress": "patrol: 2400 m",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:jp:0001",
+							"status": "superseded"
+						}
+					},
+					"faction_id": "jp",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 1
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 1
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 1
+						},
+						{
+							"kind": "units_released",
+							"reason": "replacement_order_received",
+							"replacement_order_id": "fleet_ai:jp:0001",
+							"status": "executing",
+							"tick": 2,
+							"unit_ids": [
+								"jp_air_1"
+							],
+							"unit_status": "superseded"
+						},
+						{
+							"progress": "",
+							"reason": "all_assignments_released:replacement_order_received",
+							"status": "superseded",
+							"tick": 2
+						}
+					],
+					"intent": "scenario_initial_guided",
+					"issued_tick": 1,
+					"issuer_id": "scenario_jp_command",
+					"order_id": "s14:jp:002",
+					"order_type": "patrol",
+					"progress": "",
+					"reason": "all_assignments_released:replacement_order_received",
+					"received_tick": 1,
+					"recipient_ids": [
+						"jp_air_1"
+					],
+					"replacement_order_id": "fleet_ai:jp:0001",
+					"source": "ai",
+					"status": "superseded",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": [
+						[
+							0,
+							1500,
+							8300
+						],
+						[
+							-1400,
+							1900,
+							9700
+						],
+						[
+							1800,
+							1500,
+							10800
+						],
+						[
+							2000,
+							1500,
+							6600
+						]
+					]
+				},
+				{
+					"area": {
+						"center_m": [
+							0.0,
+							1500.0,
+							9700.0
+						],
+						"radius_m": 2500.0
+					},
+					"assigned_unit_ids": [
+						"jp_air_1"
+					],
+					"changed_tick": 122,
+					"execution": {
+						"jp_air_1": {
+							"changed_tick": 122,
+							"module_id": "aircraft_tasks",
+							"progress": "approach: 3405 m",
+							"reason": "convert_speed_to_highside",
+							"replacement_order_id": "",
+							"status": "executing"
+						}
+					},
+					"faction_id": "jp",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 2
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 2
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 2
+						}
+					],
+					"intent": "intercept_air_threat",
+					"issued_tick": 2,
+					"issuer_id": "jp_commander",
+					"order_id": "fleet_ai:jp:0001",
+					"order_type": "intercept",
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"received_tick": 2,
+					"recipient_ids": [
+						"jp_air"
+					],
+					"replacement_order_id": "",
+					"source": "ai",
+					"status": "executing",
+					"target_id": "us_air_1",
+					"training": {},
+					"waypoints_m": []
+				},
+				{
+					"area": {
+						"center_m": [
+							10000.0,
+							1500.0,
+							8500.0
+						],
+						"radius_m": 600.0
+					},
+					"assigned_unit_ids": [
+						"us_air_1"
+					],
+					"changed_tick": 122,
+					"execution": {
+						"us_air_1": {
+							"changed_tick": 122,
+							"module_id": "aircraft_tasks",
+							"progress": "withdraw: 10038 m",
+							"reason": "low_fuel",
+							"replacement_order_id": "",
+							"status": "executing"
+						}
+					},
+					"faction_id": "us",
+					"history": [
+						{
+							"reason": "dispatched",
+							"status": "issued",
+							"tick": 2
+						},
+						{
+							"progress": "",
+							"reason": "domain_executors_accepted",
+							"status": "received",
+							"tick": 2
+						},
+						{
+							"progress": "forming",
+							"reason": "flight_task_received",
+							"status": "executing",
+							"tick": 2
+						}
+					],
+					"intent": "low_fuel",
+					"issued_tick": 2,
+					"issuer_id": "us_commander",
+					"order_id": "fleet_ai:us:0002",
+					"order_type": "retreat",
+					"progress": "forming",
+					"reason": "flight_task_received",
+					"received_tick": 2,
+					"recipient_ids": [
+						"us_air"
+					],
+					"replacement_order_id": "",
+					"source": "ai",
+					"status": "executing",
+					"target_id": "",
+					"training": {},
+					"waypoints_m": []
+				}
+			]
+		}
+	]
+}

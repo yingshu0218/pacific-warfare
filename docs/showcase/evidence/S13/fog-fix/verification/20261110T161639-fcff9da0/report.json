@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T161639-fcff9da0",
+  "owner": "S13-fog-build",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-fog-web-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 44310,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-fog-web-project",
+      "pid": 44312,
+      "process_group": 44312,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1849,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161639-fcff9da0/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-fog-web-project",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-fog-web-project",
+      "pid": 44313,
+      "process_group": 44313,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 4.3186,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T161639-fcff9da0/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S13-fog-build",
+    "pid": 44310,
+    "process_identity": "Wed Nov 11 00:16:39 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S13-fog-build --timeout 180 --lock-timeout 60 --project /Users/infinity/Desktop/Dev/game-pacific/.local/s13-fog-web-project import",
+    "token": "2a97719c1ceb479580f064780c2de9e8",
+    "acquired_utc": "2026-11-10T16:16:39.912287+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

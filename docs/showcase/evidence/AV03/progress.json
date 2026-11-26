@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-11",
+  "status": "geometry_r2_accepted_by_coordinator_final_handoff_in_progress",
+  "model_frozen": true,
+  "native_contract_checks": 167,
+  "contract_failures": 0,
+  "final_captures": 20,
+  "airport_scene_captures": [
+    "final/airport_runway.png",
+    "final/airport_parking.png"
+  ],
+  "normal_scene_browser_run": false,
+  "scope": "standalone pure G4M1 model and static MAP02 fit only; no shared or production registration changes"
+}

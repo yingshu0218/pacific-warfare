@@ -1,0 +1,55 @@
+{
+  "client_date": "2026-11-12",
+  "checked_utc": "2026-11-11T16:54:30.954665+00:00",
+  "status": "protocol2_offline_ready_waiting_final_admission",
+  "targeted_checks": {
+    "node": 10,
+    "python": 3,
+    "observer_syntax": true
+  },
+  "old_full_suite_rerun": false,
+  "protected_files_unchanged": 418,
+  "production_probe_and_manifest_unchanged": true,
+  "changed_existing_tool_files": {
+    "observer.mjs": {
+      "before_sha256": "812a3c78f1d8288f68e9f983dc5d2f14657d137bfebafae5bc0aa397ffbf34f4",
+      "after_sha256": "7872df7e8637b0c48dddd67e714d3861fedbb0b4aa5f063ef768a2b49821b6f2"
+    },
+    "README.md": {
+      "before_sha256": "376619ea187c9fd6c75b23b14ce718605bec70294498a1a41fb9bf7bcedb4720",
+      "after_sha256": "d6020ac459159ae927e3c89aac2a498aa3c96758059360e6dc38e1e69177fcf1"
+    },
+    "test_observer.mjs": {
+      "before_sha256": "4bf213ad670384ad3be1fae1d2a234bf6063446b2c620419637bc1cdd6feae21",
+      "after_sha256": "aedc94e3cda430442c2dd3eed9c64cca223d205b441b708abe796923a1d48dfe"
+    },
+    "contract.py": {
+      "before_sha256": "60f1c0baa741848e05f9edebc1c0ca943ebd9e73c9a8629ef49607081930ea3a",
+      "after_sha256": "935e31706607c416b3ed1d992bbdf5508c6e24febfd6ff96d908cbde49533256"
+    },
+    "preparation/STATUS.md": {
+      "before_sha256": "1ee39ec992d9cce8b92a178c32b74e30daa39cb356886d8888faa3c4e35254ac",
+      "after_sha256": "0e69a22d296c7b99a1579388272af0909a454d5c0d6d965e77d240a44f9bdb31"
+    }
+  },
+  "template_protocol_still_unbound": true,
+  "template_status": "awaiting_final_admission",
+  "Godot_started": false,
+  "export_started": false,
+  "HTTP_started": false,
+  "Chrome_started": false,
+  "long_test_started": false,
+  "threads_or_subagents_created": false,
+  "coordinator_message_attempted": false,
+  "remaining": [
+    "Final public admission and source/package hashes",
+    "Final actual menu/global/field contract and authoritative ended",
+    "Future actual ordinary Chrome controls/performance/long-run/cleanup"
+  ],
+  "source": {
+    "source_manifest": "candidates/s14-bombing/evidence/inputs-combination-r5.json",
+    "source_manifest_sha256": "5b3a4185f01d0ba89571760ba493e625c2ee65b50170cb9f0eadfb1d4770b896",
+    "probe_source": "candidates/s14-bombing/evidence/inputs/combination-r5/scripts/showcase/expansion/web_probe.gd",
+    "probe_source_sha256": "2e82a9eb4da93c05966df9ebcfe39c61f93bddbbdbe8dce0cc245eaaf761e47a"
+  }
+}

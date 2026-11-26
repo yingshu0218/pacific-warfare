@@ -1,0 +1,218 @@
+[
+  {
+    "duration_s": 130.0,
+    "mode": "four",
+    "results": [
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 450.925415039062,
+        "before_turn_deg": 0.0,
+        "ended_s": 52.7666666666667,
+        "id": "us_air_2",
+        "kind": "axial_roll",
+        "lateral_m": 50.6179809570312,
+        "reason": "geometry_complete",
+        "started_s": 43.0666666666667,
+        "status": "completed",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 388.483642578125,
+        "before_turn_deg": 0.0,
+        "ended_s": 76.7833333333333,
+        "id": "us_air_2",
+        "kind": "axial_roll",
+        "lateral_m": 44.0917358398438,
+        "reason": "geometry_complete",
+        "started_s": 67.3166666666667,
+        "status": "completed",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 486.195434570312,
+        "before_turn_deg": 0.0,
+        "ended_s": 94.7666666666667,
+        "id": "us_air_1",
+        "kind": "axial_roll",
+        "lateral_m": 105.114562988281,
+        "reason": "geometry_complete",
+        "started_s": 84.0833333333333,
+        "status": "completed",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 326.027465820312,
+        "before_turn_deg": 0.0,
+        "ended_s": 97.8833333333333,
+        "id": "us_air_2",
+        "kind": "rising_arc",
+        "lateral_m": 597.424865722656,
+        "reason": "fighter_assignment_lost",
+        "started_s": 86.5166666666667,
+        "status": "aborted",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 115.645385742188,
+        "before_turn_deg": 0.0,
+        "ended_s": 114.033333333333,
+        "id": "us_air_1",
+        "kind": "axial_roll",
+        "lateral_m": 42.5365600585938,
+        "reason": "replacement_order_received",
+        "started_s": 108.683333333333,
+        "status": "aborted",
+        "type": "us_f6f5_1944"
+      }
+    ],
+    "seed": 707.0
+  },
+  {
+    "duration_s": 130.0,
+    "mode": "guided",
+    "results": [
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 450.925415039062,
+        "before_turn_deg": 0.0,
+        "ended_s": 52.7666666666667,
+        "id": "us_air_2",
+        "kind": "axial_roll",
+        "lateral_m": 50.6179809570312,
+        "reason": "geometry_complete",
+        "started_s": 43.0666666666667,
+        "status": "completed",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 388.483642578125,
+        "before_turn_deg": 0.0,
+        "ended_s": 76.7833333333333,
+        "id": "us_air_2",
+        "kind": "axial_roll",
+        "lateral_m": 44.0917358398438,
+        "reason": "geometry_complete",
+        "started_s": 67.3166666666667,
+        "status": "completed",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 486.195434570312,
+        "before_turn_deg": 0.0,
+        "ended_s": 94.7666666666667,
+        "id": "us_air_1",
+        "kind": "axial_roll",
+        "lateral_m": 105.114562988281,
+        "reason": "geometry_complete",
+        "started_s": 84.0833333333333,
+        "status": "completed",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 326.027465820312,
+        "before_turn_deg": 0.0,
+        "ended_s": 97.8833333333333,
+        "id": "us_air_2",
+        "kind": "rising_arc",
+        "lateral_m": 597.424865722656,
+        "reason": "fighter_assignment_lost",
+        "started_s": 86.5166666666667,
+        "status": "aborted",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 115.645385742188,
+        "before_turn_deg": 0.0,
+        "ended_s": 114.033333333333,
+        "id": "us_air_1",
+        "kind": "axial_roll",
+        "lateral_m": 42.5365600585938,
+        "reason": "replacement_order_received",
+        "started_s": 108.683333333333,
+        "status": "aborted",
+        "type": "us_f6f5_1944"
+      }
+    ],
+    "seed": 707.0
+  },
+  {
+    "duration_s": 130.0,
+    "mode": "pair",
+    "results": [
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 450.925415039062,
+        "before_turn_deg": 0.0,
+        "ended_s": 52.7666666666667,
+        "id": "us_air_2",
+        "kind": "axial_roll",
+        "lateral_m": 50.6179809570312,
+        "reason": "geometry_complete",
+        "started_s": 43.0666666666667,
+        "status": "completed",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 388.483642578125,
+        "before_turn_deg": 0.0,
+        "ended_s": 76.7833333333333,
+        "id": "us_air_2",
+        "kind": "axial_roll",
+        "lateral_m": 44.0917358398438,
+        "reason": "geometry_complete",
+        "started_s": 67.3166666666667,
+        "status": "completed",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 486.195434570312,
+        "before_turn_deg": 0.0,
+        "ended_s": 94.7666666666667,
+        "id": "us_air_1",
+        "kind": "axial_roll",
+        "lateral_m": 105.114562988281,
+        "reason": "geometry_complete",
+        "started_s": 84.0833333333333,
+        "status": "completed",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 326.027465820312,
+        "before_turn_deg": 0.0,
+        "ended_s": 97.8833333333333,
+        "id": "us_air_2",
+        "kind": "rising_arc",
+        "lateral_m": 597.424865722656,
+        "reason": "fighter_assignment_lost",
+        "started_s": 86.5166666666667,
+        "status": "aborted",
+        "type": "us_f6f5_1944"
+      },
+      {
+        "after_turn_deg": 0.0,
+        "altitude_span_m": 115.645385742188,
+        "before_turn_deg": 0.0,
+        "ended_s": 114.033333333333,
+        "id": "us_air_1",
+        "kind": "axial_roll",
+        "lateral_m": 42.5365600585938,
+        "reason": "replacement_order_received",
+        "started_s": 108.683333333333,
+        "status": "aborted",
+        "type": "us_f6f5_1944"
+      }
+    ],
+    "seed": 707.0
+  }
+]

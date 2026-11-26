@@ -1,0 +1,24 @@
+{
+  "id": "us_an_m2_127mm_single",
+  "ammo_id": "us_127mm_m2_ball",
+  "barrel_count": 1,
+  "cycle_s": 0.08,
+  "initial_rounds_per_barrel": 400,
+  "train_limits_deg": [
+    0.0,
+    0.0
+  ],
+  "elevation_limits_deg": [
+    0.0,
+    0.0
+  ],
+  "train_rate_degps": 0.0,
+  "elevation_rate_degps": 0.0,
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "aircraft/models/f6f5.gd::_configure"
+    ],
+    "note": "Six guns and 400 rounds each copied from current spec; cycle_s provisional, not validated firing rate. Fixed guns cannot train."
+  }
+}

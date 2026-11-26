@@ -1,0 +1,13 @@
+{
+  "run_id": "20261111T151221-16797e7d",
+  "owner": "BOMB01",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r15",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 1912,
+  "checks": [],
+  "passed": false,
+  "error": "lock_timeout",
+  "lock_owner": "{\n  \"status\": \"held\",\n  \"owner\": \"S14-exp-chrome-autonomous-final\",\n  \"pid\": 1870,\n  \"process_identity\": \"Wed Nov 11 23:12:17 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S14-exp-chrome-autonomous-final --timeout 360 --lock-timeout 45 exec -- node tools/s14_expansion/chrome_check.mjs --pack=build/s14-expansion-autonomous-final --evidence=candidates/s14-expansion/chrome-autonomous-final --scope=full\",\n  \"token\": \"a26ccab150d04c9bb2239c26708250cc\",\n  \"acquired_utc\": \"2026-11-11T15:12:17.432288+00:00\",\n  \"project\": \"/Users/infinity/Desktop/Dev/game-pacific\"\n}",
+  "exit_code": 2
+}

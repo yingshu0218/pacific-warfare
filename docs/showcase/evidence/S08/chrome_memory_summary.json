@@ -1,0 +1,196 @@
+{
+  "pid": 3645,
+  "scope": "Timed Chrome page renderer inferred from its launch and large change at this test URL; other extension renderer PIDs kept separately. physical footprint is proc_pid_rusage v2, RSS is ps. WASM is a subset, not an extra allocation. No total browser footprint claim.",
+  "samples": [
+    {
+      "utc": "2026-11-09T23:49:50.971474+00:00",
+      "phys_footprint_bytes": 11781200,
+      "rss_kib": 29120
+    },
+    {
+      "utc": "2026-11-09T23:49:56.086849+00:00",
+      "phys_footprint_bytes": 11781200,
+      "rss_kib": 17360
+    },
+    {
+      "utc": "2026-11-09T23:50:01.141063+00:00",
+      "phys_footprint_bytes": 11781200,
+      "rss_kib": 13696
+    },
+    {
+      "utc": "2026-11-09T23:50:06.251060+00:00",
+      "phys_footprint_bytes": 11781200,
+      "rss_kib": 13072
+    },
+    {
+      "utc": "2026-11-09T23:50:11.296154+00:00",
+      "phys_footprint_bytes": 11781200,
+      "rss_kib": 15968
+    },
+    {
+      "utc": "2026-11-09T23:50:16.341413+00:00",
+      "phys_footprint_bytes": 11781200,
+      "rss_kib": 15968
+    },
+    {
+      "utc": "2026-11-09T23:50:21.391295+00:00",
+      "phys_footprint_bytes": 11781200,
+      "rss_kib": 14320
+    },
+    {
+      "utc": "2026-11-09T23:50:26.434131+00:00",
+      "phys_footprint_bytes": 11781200,
+      "rss_kib": 14304
+    },
+    {
+      "utc": "2026-11-09T23:50:31.554084+00:00",
+      "phys_footprint_bytes": 394610608,
+      "rss_kib": 321792
+    },
+    {
+      "utc": "2026-11-09T23:50:36.751039+00:00",
+      "phys_footprint_bytes": 373033096,
+      "rss_kib": 219504
+    },
+    {
+      "utc": "2026-11-09T23:50:42.066675+00:00",
+      "phys_footprint_bytes": 340445248,
+      "rss_kib": 157952
+    },
+    {
+      "utc": "2026-11-09T23:50:47.576114+00:00",
+      "phys_footprint_bytes": 414025888,
+      "rss_kib": 157968
+    },
+    {
+      "utc": "2026-11-09T23:50:53.083255+00:00",
+      "phys_footprint_bytes": 423184544,
+      "rss_kib": 199120
+    },
+    {
+      "utc": "2026-11-09T23:50:58.266291+00:00",
+      "phys_footprint_bytes": 423053496,
+      "rss_kib": 150544
+    },
+    {
+      "utc": "2026-11-09T23:51:03.646974+00:00",
+      "phys_footprint_bytes": 399329464,
+      "rss_kib": 171952
+    },
+    {
+      "utc": "2026-11-09T23:51:08.693733+00:00",
+      "phys_footprint_bytes": 382453944,
+      "rss_kib": 195200
+    },
+    {
+      "utc": "2026-11-09T23:51:13.812402+00:00",
+      "phys_footprint_bytes": 361220280,
+      "rss_kib": 130080
+    },
+    {
+      "utc": "2026-11-09T23:51:19.332190+00:00",
+      "phys_footprint_bytes": 361105592,
+      "rss_kib": 216080
+    },
+    {
+      "utc": "2026-11-09T23:51:24.868644+00:00",
+      "phys_footprint_bytes": 364628152,
+      "rss_kib": 216816
+    },
+    {
+      "utc": "2026-11-09T23:51:30.372343+00:00",
+      "phys_footprint_bytes": 431081656,
+      "rss_kib": 200960
+    },
+    {
+      "utc": "2026-11-09T23:51:35.663362+00:00",
+      "phys_footprint_bytes": 429836472,
+      "rss_kib": 190592
+    },
+    {
+      "utc": "2026-11-09T23:51:41.173893+00:00",
+      "phys_footprint_bytes": 421988536,
+      "rss_kib": 163136
+    },
+    {
+      "utc": "2026-11-09T23:51:46.299068+00:00",
+      "phys_footprint_bytes": 407390416,
+      "rss_kib": 201456
+    },
+    {
+      "utc": "2026-11-09T23:51:51.881481+00:00",
+      "phys_footprint_bytes": 390465744,
+      "rss_kib": 226384
+    },
+    {
+      "utc": "2026-11-09T23:51:57.418386+00:00",
+      "phys_footprint_bytes": 387401936,
+      "rss_kib": 218128
+    },
+    {
+      "utc": "2026-11-09T23:52:02.919898+00:00",
+      "phys_footprint_bytes": 383551696,
+      "rss_kib": 211088
+    },
+    {
+      "utc": "2026-11-09T23:52:08.449038+00:00",
+      "phys_footprint_bytes": 448809168,
+      "rss_kib": 148736
+    },
+    {
+      "utc": "2026-11-09T23:52:13.986060+00:00",
+      "phys_footprint_bytes": 444532944,
+      "rss_kib": 189952
+    },
+    {
+      "utc": "2026-11-09T23:52:19.509556+00:00",
+      "phys_footprint_bytes": 440387792,
+      "rss_kib": 246080
+    },
+    {
+      "utc": "2026-11-09T23:52:25.024532+00:00",
+      "phys_footprint_bytes": 437602512,
+      "rss_kib": 201936
+    },
+    {
+      "utc": "2026-11-09T23:52:30.541458+00:00",
+      "phys_footprint_bytes": 432310504,
+      "rss_kib": 176784
+    },
+    {
+      "utc": "2026-11-09T23:52:36.090223+00:00",
+      "phys_footprint_bytes": 425674984,
+      "rss_kib": 227952
+    },
+    {
+      "utc": "2026-11-09T23:52:41.631234+00:00",
+      "phys_footprint_bytes": 420825320,
+      "rss_kib": 157424
+    },
+    {
+      "utc": "2026-11-09T23:52:47.139307+00:00",
+      "phys_footprint_bytes": 414222568,
+      "rss_kib": 208400
+    },
+    {
+      "utc": "2026-11-09T23:52:52.663061+00:00",
+      "phys_footprint_bytes": 408848616,
+      "rss_kib": 221344
+    },
+    {
+      "utc": "2026-11-09T23:52:58.187024+00:00",
+      "phys_footprint_bytes": 403835112,
+      "rss_kib": 194656
+    },
+    {
+      "utc": "2026-11-09T23:53:03.229064+00:00",
+      "phys_footprint_bytes": 406227176,
+      "rss_kib": 218592
+    },
+    {
+      "utc": "2026-11-09T23:53:08.760367+00:00",
+      "phys_footprint_bytes": 401934568,
+      "rss_kib": 223136
+    }
+  ]
+}

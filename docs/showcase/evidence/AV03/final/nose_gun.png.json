@@ -1,0 +1,88 @@
+{
+	"camera_position_m": [
+		-7.0,
+		2.0,
+		-17.7000007629395
+	],
+	"camera_rotation_rad": [
+		-0.17364501953125,
+		-2.48054957389832,
+		0.0
+	],
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"fov_deg": 45.0,
+	"model_position_m": [
+		0.0,
+		0.0,
+		0.0
+	],
+	"model_rotation_rad": [
+		0.0,
+		0.0,
+		0.0
+	],
+	"model_scale": [
+		1.0,
+		1.0,
+		1.0
+	],
+	"projection": 1,
+	"renderer": "gl_compatibility",
+	"size_m": 4.5,
+	"source_hashes": {
+		"aircraft/g4m1/g4m1.gd": "4869bd74b9a3c5216ad3266bf8b68ab09751caa663284ad8fe2ebdb2ee1a5937",
+		"aircraft/g4m1/g4m1.tscn": "e5d8f20decb88bb1405d017af2fe06f359a854bb660a7426165d74a81335f724",
+		"aircraft/g4m1/geometry.gd": "fa6a4bef34a564278efe82fa398ccb29d7bc1778d1a98b6f4b6585592102e4a0",
+		"aircraft/g4m1/inspection.gd": "09853ad570d2b3caefd46dd815cb68e5842d2180619e836891d2be50d1d156cc",
+		"aircraft/g4m1/inspection.tscn": "162df747500449c2820b2030b87007898305e60620c8bed6372334a8524a9c0e",
+		"project.godot": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95"
+	},
+	"view": "nose_gun",
+	"viewport_px": [
+		1440,
+		900
+	],
+	"visual_state": {
+		"aileron_left_rad": 0.0,
+		"aileron_right_rad": 0.0,
+		"dorsal_open": false,
+		"elevator_left_rad": 0.0,
+		"elevator_right_rad": 0.0,
+		"flap": 0.0,
+		"gear": 0.0,
+		"gun_dorsal": {
+			"elevation_rad": 0.52,
+			"yaw_rad": 0.0
+		},
+		"gun_nose": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_tail": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_waist_left": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_waist_right": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"payload_mode": "bombs_12x60",
+		"propeller_left_rad": 0.0,
+		"propeller_right_rad": 0.0,
+		"rudder_rad": 0.0
+	}
+}

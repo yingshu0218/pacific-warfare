@@ -1,0 +1,71 @@
+[
+  {
+    "id": "jp_g4m1_1942_07",
+    "display_name": "G4M1 Model11 1942-07",
+    "domain": "aircraft",
+    "country_id": "jp",
+    "configuration_date": "1942-07",
+    "service_entry_year": 1941,
+    "model_scene": "res://aircraft/g4m1/g4m1.tscn",
+    "dimensions_m": [
+      24.88,
+      5.0,
+      20.135
+    ],
+    "mounts": [],
+    "weapon_definitions": [],
+    "historical_fixed_armament": [],
+    "dedicated_aa_historical": [],
+    "dedicated_aa_game": [],
+    "source": {
+      "status": "provisional",
+      "notes": "BOMB01: primary ordnance basis and separately marked operating approximations; docs/references/bomb01/sources.md"
+    }
+  },
+  {
+    "id": "jp_d4y2_model12_1944_10",
+    "display_name": "D4Y2 Model12 1944-10",
+    "domain": "aircraft",
+    "country_id": "jp",
+    "configuration_date": "1944-10",
+    "service_entry_year": 1944,
+    "model_scene": "res://aircraft/d4y2/d4y2.tscn",
+    "dimensions_m": [
+      11.5,
+      3.8,
+      10.22
+    ],
+    "mounts": [],
+    "weapon_definitions": [],
+    "historical_fixed_armament": [],
+    "dedicated_aa_historical": [],
+    "dedicated_aa_game": [],
+    "source": {
+      "status": "provisional",
+      "notes": "BOMB01: primary ordnance basis and separately marked operating approximations; docs/references/bomb01/sources.md"
+    }
+  },
+  {
+    "id": "us_b25j_1944_07",
+    "display_name": "B-25J early glass nose 1944-07",
+    "domain": "aircraft",
+    "country_id": "us",
+    "configuration_date": "1944-07",
+    "service_entry_year": 1944,
+    "model_scene": "res://aircraft/b25j/b25j.tscn",
+    "dimensions_m": [
+      20.5994,
+      5.0,
+      17.47
+    ],
+    "mounts": [],
+    "weapon_definitions": [],
+    "historical_fixed_armament": [],
+    "dedicated_aa_historical": [],
+    "dedicated_aa_game": [],
+    "source": {
+      "status": "provisional",
+      "notes": "BOMB01: primary ordnance basis and separately marked operating approximations; docs/references/bomb01/sources.md"
+    }
+  }
+]

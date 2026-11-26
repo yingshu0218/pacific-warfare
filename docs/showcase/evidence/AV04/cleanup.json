@@ -1,0 +1,62 @@
+{
+  "checked_utc": "2026-11-11T13:49:45.623091+00:00",
+  "recorded_process_groups": [
+    85999,
+    86101,
+    86747,
+    87676,
+    87677,
+    87796,
+    87797,
+    88237,
+    88430,
+    88431,
+    88474,
+    88475,
+    88963,
+    88964,
+    89021,
+    89022,
+    89238,
+    89239,
+    89450,
+    89451
+  ],
+  "remaining_groups": [],
+  "unknown_groups": [],
+  "all_child_cleanup_ok": true,
+  "created_browser_tabs": 0,
+  "created_http_services": 0,
+  "started_editor": false,
+  "started_ffmpeg": false,
+  "lock_at_audit": {
+    "status": "released",
+    "owner": "S14-exp-native-inventory-r2",
+    "pid": 89460,
+    "process_identity": "Wed Nov 11 21:46:30 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S14-exp-native-inventory-r2 --project candidates/s14-expansion/stage --timeout 75 --lock-timeout 45 godot --render -- --minimized --resolution 1280x720 --script res://tests/s14_expansion/capture.gd -- --segment=inventory --output=/Users/infinity/Desktop/Dev/game-pacific/candidates/s14-expansion/native/inventory-r2",
+    "token": "f84aecbb5ef6402fa24e4f33a00f66ad",
+    "acquired_utc": "2026-11-11T13:46:30.330386+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific",
+    "released_utc": "2026-11-11T13:46:48.594507+00:00"
+  },
+  "own_lock_held": false,
+  "scope": "probe only AV04 recorded groups; no signals or changes to S14/user processes",
+  "failed_attempts_preserved": [
+    {
+      "run_id": "20261111T132703-78f72390",
+      "reason": "sandbox user-log/system-CA diagnostics; child returned0 and cleaned"
+    },
+    {
+      "run_id": "20261111T132754-9e8e729b",
+      "reason": "lock_timeout"
+    },
+    {
+      "run_id": "20261111T133020-6a2715c9",
+      "reason": "lock_timeout"
+    },
+    {
+      "run_id": "20261111T133137-d7ac4246",
+      "reason": "lock_timeout"
+    }
+  ]
+}

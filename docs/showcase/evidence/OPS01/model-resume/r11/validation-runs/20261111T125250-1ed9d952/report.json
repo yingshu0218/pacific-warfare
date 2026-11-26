@@ -1,0 +1,42 @@
+{
+  "run_id": "20261111T125250-1ed9d952",
+  "owner": "OPS01",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 82496,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "tests/air_operations/encode.py",
+        ".local/ops01-model-captures/r11-waveoff",
+        "docs/showcase/evidence/OPS01/model-resume/r11/waveoff/waveoff.mp4"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 82498,
+      "process_group": 82498,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.4972,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T125250-1ed9d952/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "OPS01",
+    "pid": 82496,
+    "process_identity": "Wed Nov 11 20:52:50 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner OPS01 --timeout 90 --lock-timeout 15 exec -- python3 tests/air_operations/encode.py .local/ops01-model-captures/r11-waveoff docs/showcase/evidence/OPS01/model-resume/r11/waveoff/waveoff.mp4",
+    "token": "1741397fbd0d4f2d8ae2d6c8427dcbc0",
+    "acquired_utc": "2026-11-11T12:52:50.945814+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

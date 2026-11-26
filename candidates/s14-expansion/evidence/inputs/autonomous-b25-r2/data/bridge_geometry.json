@@ -1,0 +1,98 @@
+{
+	"units": "meters",
+	"reference": "Tamiya 78030 manual, printed page 12, assembly 19/20: common bridge core silhouette only, not 1944 weapon fit",
+	"status": "S02 common-profile proportions checked against Tamiya p12/p18 and 1941 trials photo for shared silhouette; not a surveyed plan",
+	"local_z_offset": 17,
+	"sections": [
+		{
+			"y": 11.5,
+			"half_width": 4.8,
+			"front_z": -21,
+			"rear_z": -9
+		},
+		{
+			"y": 18.5,
+			"half_width": 4.6,
+			"front_z": -21,
+			"rear_z": -9.5
+		},
+		{
+			"y": 25.5,
+			"half_width": 3.7,
+			"front_z": -18,
+			"rear_z": -9.8
+		},
+		{
+			"y": 32.8,
+			"half_width": 3.0,
+			"front_z": -17,
+			"rear_z": -10
+		}
+	],
+	"platform_status": "platform outlines are image-proportioned; level-15 forward edge is set aft of secondary_01's model envelope while retaining the light-AA deck stations",
+	"window_rows_y": [
+		16.5,
+		22.1,
+		27.9
+	],
+	"window_height_m": 0.42,
+	"window_front_width_m": 0.62,
+	"window_side_width_m": 0.46,
+	"window_frame_border_m": 0.09,
+	"window_status": "bridge-core window bands placed between platform levels from 1:350 appearance photos; counts and dimensions are estimates, panes are surface inserts rather than cut openings",
+	"window_appearance_reference": "HIGH-GEARed 1/350 Yamato bridge photo gallery; KitMaker Yamato bridge build photos",
+	"platforms": [
+		{
+			"y": 14.5,
+			"width": 15,
+			"depth": 13.5,
+			"thickness": 0.4,
+			"center_z": 1.75
+		},
+		{
+			"y": 19.0,
+			"width": 12,
+			"depth": 12,
+			"thickness": 0.4,
+			"center_z": 1
+		},
+		{
+			"y": 23.3,
+			"width": 11,
+			"depth": 9,
+			"thickness": 0.4,
+			"center_z": 1
+		},
+		{
+			"y": 29.9,
+			"width": 13,
+			"depth": 10,
+			"thickness": 0.4,
+			"center_z": 1,
+			"upper_platform": {
+				"y": 30.9,
+				"width": 11.7,
+				"depth": 9,
+				"thickness": 1.5,
+				"center_z": 1
+			}
+		},
+		{
+			"y": 32.8,
+			"width": 8,
+			"depth": 7,
+			"thickness": 0.4,
+			"center_z": 1,
+			"upper_platform": {
+				"y": 33.8,
+				"width": 6.7,
+				"depth": 6,
+				"thickness": 1.5,
+				"center_z": 1
+			}
+		}
+	],
+	"plan_reference": "Modelkasten printed p5 fig3 1944.2-6: forward core narrower than projecting platforms; approximate front half-width 2.8m from shared plan scale",
+	"forward_width_ratio": 0.6,
+	"forward_shoulder_fraction": 0.55
+}

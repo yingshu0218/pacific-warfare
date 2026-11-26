@@ -1,0 +1,40 @@
+{
+  "run_id": "20261110T164439-329a69d8",
+  "owner": "S02-deck-chrome",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 47601,
+  "checks": [
+    {
+      "command": [
+        "node",
+        "tools/s02_deck/chrome_check.mjs"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 47603,
+      "process_group": 47603,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 16.0293,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T164439-329a69d8/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S02-deck-chrome",
+    "pid": 47601,
+    "process_identity": "Wed Nov 11 00:44:39 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S02-deck-chrome --lock-timeout 50 --timeout 120 exec -- node tools/s02_deck/chrome_check.mjs",
+    "token": "7f485352ad6b4a2ca00124fc4593b4e6",
+    "acquired_utc": "2026-11-10T16:44:39.300013+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

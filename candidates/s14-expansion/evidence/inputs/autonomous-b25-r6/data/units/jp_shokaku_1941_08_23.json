@@ -1,0 +1,604 @@
+{
+  "schema_version": 1,
+  "id": "jp_shokaku_1941_08_23",
+  "display_name": "翔鹤",
+  "country_id": "jp",
+  "domain": "ship",
+  "service_entry_year": 1941,
+  "configuration_date": "1941-08-23",
+  "dimensions_m": [
+    38.0,
+    40.87,
+    257.5
+  ],
+  "model_scene": "res://scenes/ships/jp_shokaku_1941_08_23.tscn",
+  "mounts": [
+    {
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.41999995708466,
+        -0.150000005960464
+      ],
+      "host_id": "sponson_dp_starboard_01",
+      "id": "dp_starboard_01",
+      "muzzle_positions_m": [
+        [
+          -0.379997432231903,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ],
+        [
+          0.379997074604034,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ]
+      ],
+      "position_m": [
+        15.1499996185303,
+        10.5699996948242,
+        -76.5
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv02_type89_127mm_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate"
+      }
+    },
+    {
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.41999995708466,
+        -0.150000005960464
+      ],
+      "host_id": "sponson_dp_starboard_02",
+      "id": "dp_starboard_02",
+      "muzzle_positions_m": [
+        [
+          -0.380001246929169,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ],
+        [
+          0.3800008893013,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ]
+      ],
+      "position_m": [
+        15.1499996185303,
+        10.5699996948242,
+        -58.0
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv02_type89_127mm_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate"
+      }
+    },
+    {
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.41999995708466,
+        -0.150000005960464
+      ],
+      "host_id": "sponson_dp_starboard_03",
+      "id": "dp_starboard_03",
+      "muzzle_positions_m": [
+        [
+          -0.380001246929169,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ],
+        [
+          0.3800008893013,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ]
+      ],
+      "position_m": [
+        15.1499996185303,
+        10.9700002670288,
+        50.5
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv02_type89_127mm_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate"
+      }
+    },
+    {
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.41999995708466,
+        -0.150000005960464
+      ],
+      "host_id": "sponson_dp_starboard_04",
+      "id": "dp_starboard_04",
+      "muzzle_positions_m": [
+        [
+          -0.379997432231903,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ],
+        [
+          0.379997074604034,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ]
+      ],
+      "position_m": [
+        15.1499996185303,
+        10.9700002670288,
+        68.5
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv02_type89_127mm_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.41999995708466,
+        -0.150000005960464
+      ],
+      "host_id": "sponson_dp_port_01",
+      "id": "dp_port_01",
+      "muzzle_positions_m": [
+        [
+          -0.379997074604034,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ],
+        [
+          0.379997432231903,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ]
+      ],
+      "position_m": [
+        -15.1499996185303,
+        10.5699996948242,
+        -76.5
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv02_type89_127mm_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.41999995708466,
+        -0.150000005960464
+      ],
+      "host_id": "sponson_dp_port_02",
+      "id": "dp_port_02",
+      "muzzle_positions_m": [
+        [
+          -0.3800008893013,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ],
+        [
+          0.380001246929169,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ]
+      ],
+      "position_m": [
+        -15.1499996185303,
+        10.5699996948242,
+        -58.0
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv02_type89_127mm_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.41999995708466,
+        -0.150000005960464
+      ],
+      "host_id": "sponson_dp_port_03",
+      "id": "dp_port_03",
+      "muzzle_positions_m": [
+        [
+          -0.3800008893013,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ],
+        [
+          0.380001246929169,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ]
+      ],
+      "position_m": [
+        -15.1499996185303,
+        10.9700002670288,
+        50.5
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv02_type89_127mm_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.41999995708466,
+        -0.150000005960464
+      ],
+      "host_id": "sponson_dp_port_04",
+      "id": "dp_port_04",
+      "muzzle_positions_m": [
+        [
+          -0.379997074604034,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ],
+        [
+          0.379997432231903,
+          1.19209289550781e-07,
+          -3.79999876022339
+        ]
+      ],
+      "position_m": [
+        -15.1499996185303,
+        10.9700002670288,
+        68.5
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv02_type89_127mm_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "S01/M01 p2-p4 group and side established; centres ratio reconstruction ±1.5m longitudinal / ±0.6m vertical; port hidden face approximate"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.949999988079071,
+        -0.150000005960464
+      ],
+      "host_id": "gallery_aa25_port_01",
+      "id": "aa25_port_01",
+      "muzzle_positions_m": [
+        [
+          -0.240000173449516,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          7.43093551136553e-08,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          0.23999984562397,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ]
+      ],
+      "position_m": [
+        -15.4499998092651,
+        12.3299999237061,
+        5.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "cv02_type96_25mm_triple",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.949999988079071,
+        -0.150000005960464
+      ],
+      "host_id": "gallery_aa25_port_02",
+      "id": "aa25_port_02",
+      "muzzle_positions_m": [
+        [
+          -0.239999696612358,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          7.43093551136553e-08,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          0.23999984562397,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ]
+      ],
+      "position_m": [
+        -15.4499998092651,
+        12.3299999237061,
+        18.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "cv02_type96_25mm_triple",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.949999988079071,
+        -0.150000005960464
+      ],
+      "host_id": "gallery_aa25_port_03",
+      "id": "aa25_port_03",
+      "muzzle_positions_m": [
+        [
+          -0.239999696612358,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          7.43093551136553e-08,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          0.23999984562397,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ]
+      ],
+      "position_m": [
+        -15.4499998092651,
+        12.3299999237061,
+        31.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "cv02_type96_25mm_triple",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.949999988079071,
+        -0.150000005960464
+      ],
+      "host_id": "gallery_aa25_port_04",
+      "id": "aa25_port_04",
+      "muzzle_positions_m": [
+        [
+          -0.240001603960991,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          7.43093551136553e-08,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          0.240001752972603,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ]
+      ],
+      "position_m": [
+        -15.4499998092651,
+        12.3299999237061,
+        44.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "cv02_type96_25mm_triple",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed"
+      }
+    },
+    {
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.949999988079071,
+        -0.150000005960464
+      ],
+      "host_id": "gallery_aa25_starboard_05",
+      "id": "aa25_starboard_05",
+      "muzzle_positions_m": [
+        [
+          -0.23999984562397,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          -7.43093551136553e-08,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          0.239999696612358,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ]
+      ],
+      "position_m": [
+        15.4499998092651,
+        12.3299999237061,
+        15.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "cv02_type96_25mm_triple",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed"
+      }
+    },
+    {
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.949999988079071,
+        -0.150000005960464
+      ],
+      "host_id": "gallery_aa25_starboard_06",
+      "id": "aa25_starboard_06",
+      "muzzle_positions_m": [
+        [
+          -0.23999984562397,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          -7.43093551136553e-08,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ],
+        [
+          0.239999696612358,
+          -1.78813934326172e-07,
+          -1.54999983310699
+        ]
+      ],
+      "position_m": [
+        15.4499998092651,
+        12.3299999237061,
+        28.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "cv02_type96_25mm_triple",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "M01 gallery geometry; reduced dedicated-AA game fit; exact historical individual station centres not claimed"
+      }
+    }
+  ],
+  "weapon_definitions": [
+    {
+      "id": "cv02_type89_127mm_twin",
+      "ammo_id": "jp_127mm_type89_shell",
+      "barrel_count": 2,
+      "cycle_s": 6.0,
+      "initial_rounds_per_barrel": 200.0,
+      "train_limits_deg": [
+        -180,
+        180
+      ],
+      "elevation_limits_deg": [
+        -8,
+        90
+      ],
+      "train_rate_degps": 6.5,
+      "elevation_rate_degps": 12.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "naval/shokaku_1941_08_23/data/assembly.json",
+          "data/combat/showcase.json"
+        ],
+        "note": "Correct admitted mount type/barrels; same gun/ammo ballistics as existing127mm gun. Traverse/rate/cycle/stock are declared game approximations inherited from existing profile, not CV-specific measured trials."
+      }
+    },
+    {
+      "id": "cv02_type96_25mm_triple",
+      "ammo_id": "jp_25mm_type96_shell",
+      "barrel_count": 3,
+      "cycle_s": 0.25,
+      "initial_rounds_per_barrel": 800.0,
+      "train_limits_deg": [
+        -180,
+        180
+      ],
+      "elevation_limits_deg": [
+        -8,
+        90
+      ],
+      "train_rate_degps": 18.0,
+      "elevation_rate_degps": 12.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "naval/shokaku_1941_08_23/data/assembly.json",
+          "data/combat/showcase.json"
+        ],
+        "note": "Correct admitted mount type/barrels; same gun/ammo ballistics as existing127mm gun. Traverse/rate/cycle/stock are declared game approximations inherited from existing profile, not CV-specific measured trials."
+      }
+    }
+  ],
+  "historical_fixed_armament": [
+    {
+      "weapon_definition_id": "cv02_type89_127mm_twin",
+      "mount_count": 8,
+      "barrels_per_mount": 2
+    }
+  ],
+  "dedicated_aa_game": [
+    {
+      "weapon_definition_id": "cv02_type96_25mm_triple",
+      "mount_count": 6,
+      "barrels_per_mount": 3
+    }
+  ],
+  "dedicated_aa_historical": [
+    {
+      "description": "九六式25mm三联",
+      "mount_count": 12,
+      "barrels_per_mount": 3
+    }
+  ],
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "docs/showcase/acceptance/CV02-review.md",
+      "naval/shokaku_1941_08_23/data/assembly.json"
+    ],
+    "note": "Admitted geometry and fixed armament. Live integration candidate; AA count exactly matches model. Coarse protection/damage/firing allocations explicitly gameplay estimates, not historical armor simulation."
+  }
+}

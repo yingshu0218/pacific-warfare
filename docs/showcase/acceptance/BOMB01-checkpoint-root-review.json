@@ -1,0 +1,29 @@
+{
+  "reviewed_utc": "2026-11-11T13:10:48.918581+00:00",
+  "status": "checkpoint_saved_not_accepted",
+  "checkpoint_sha256": "d92dc4ad77869d1f4d1ad1b2432f7d1ed216d3c825a7e4ae195f4369fa6bc922",
+  "hash_counts": {
+    "candidate": 9,
+    "public": 9,
+    "owned": 12,
+    "frozen_evidence": 41
+  },
+  "hash_mismatches": [],
+  "root_probed_process_groups": [
+    83481,
+    83482,
+    83525,
+    83526,
+    83590,
+    83591,
+    83676,
+    83677,
+    84267,
+    84269,
+    84326,
+    84328
+  ],
+  "live_groups": [],
+  "last_mechanism_test_passed": false,
+  "note": "Private work retained for same-chat continuation. Typed-delegate, deck-state, default-home and formation concerns and dive-release failures remain in checkpoint; no production capability admission."
+}

@@ -1,0 +1,41 @@
+{
+  "run_id": "20261111T133254-fd1a3f63",
+  "owner": "AV04",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 88234,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-c",
+        "import fitz; r=fitz.open(\"docs/references/aircraft/b25j_1944_07/originals/TM-9-1980.pdf\"); r[298].get_pixmap(matrix=fitz.Matrix(1.7,1.7)).save(\"docs/references/aircraft/b25j_1944_07/manual-pages/tm9-p299.png\")"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 88237,
+      "process_group": 88237,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2033,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T133254-fd1a3f63/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "AV04",
+    "pid": 88234,
+    "process_identity": "pid=88234 started_utc=2026-11-11T13:32:54.111191+00:00 argv=['tools/verify.py', '--owner', 'AV04', '--timeout', '25', '--lock-timeout', '10', 'exec', '--', 'python3', '-c', 'import fitz; r=fitz.open(\"docs/references/aircraft/b25j_1944_07/originals/TM-9-1980.pdf\"); r[298].get_pixmap(matrix=fitz.Matrix(1.7,1.7)).save(\"docs/references/aircraft/b25j_1944_07/manual-pages/tm9-p299.png\")'] (ps unavailable)",
+    "token": "f8dab9ed0db443fbb0fc8d348e3c79a1",
+    "acquired_utc": "2026-11-11T13:32:54.124087+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

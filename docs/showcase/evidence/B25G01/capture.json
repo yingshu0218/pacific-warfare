@@ -1,0 +1,51 @@
+[
+	{
+		"automatic": false,
+		"camera_label": "实际截击 · 等待己方敌情",
+		"elevation_deg": 9.99999970909292,
+		"name": "wing-neutral",
+		"remaining_rounds": [
+			36,
+			36
+		],
+		"time_s": 0.0,
+		"train_deg": 0.0,
+		"unit": "wing"
+	},
+	{
+		"automatic": false,
+		"camera_label": "轰炸机背部炮塔还击",
+		"elevation_deg": 14.7060478585559,
+		"fired": {
+			"barrel": 0,
+			"round": "projectile_00000003",
+			"s": 25.6833333333333,
+			"sequence": 47,
+			"target": "fighter",
+			"tick": 1541,
+			"tracer": true
+		},
+		"name": "wing-fired-tracer",
+		"remaining_rounds": [
+			34,
+			34
+		],
+		"time_s": 25.7,
+		"train_deg": 177.533008982639,
+		"unit": "wing"
+	},
+	{
+		"automatic": true,
+		"camera_event_sequence": 45,
+		"camera_label": "轰炸机背部炮塔还击",
+		"elevation_deg": 14.6852209042292,
+		"name": "automatic-defense",
+		"remaining_rounds": [
+			34,
+			34
+		],
+		"time_s": 25.7166666666667,
+		"train_deg": 177.537462265978,
+		"unit": "wing"
+	}
+]

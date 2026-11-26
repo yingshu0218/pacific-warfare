@@ -1,0 +1,34 @@
+{
+  "status": "FX01 revision3 patch2 implementation frozen; own native/mechanism/Chrome checks complete; ready for DM01 consumption and root review.",
+  "timestamp": "2026-11-11T01:58:01.587690+08:00",
+  "revision": 3,
+  "sources": {
+    "scripts/presentation/effects/combat_effects.gd": "d86d2a5c2e06d70154a8748581d438e6e39c67fb4726bb7a475b895cccdd5782",
+    "scripts/presentation/effects/combat_effect_geometry.gd": "5605f2e511ab13723c20b0e22756814e7402683dc04264a97af03b7827b00ed7",
+    "scripts/presentation/effects/effect_surface.gdshader": "aa49b8331d441a35a6f70f1e7dd7213f0b78c10a9da1146f58a998a7e6bb8300",
+    "docs/showcase/fx01-effects-contracts.md": "e8d049e6721416e81006184744b5ba750c47abadbb0d4a81e9cd7253c10818c1"
+  },
+  "verified": [
+    "Real engine-hit smoke native draft at 150 m/s",
+    "Bounded 16 subsamples per source, world-space trail, per-slot projected overlap",
+    "Failed engine and ground loop selection tests",
+    "Web STREAM and host idempotent pause preserved",
+    "Final source-distance-triggered trail avoids up-to-45m gap at moving source; targeted FX01 test passed 20261110T172720-142820d0",
+    "Revision3 current-pose scheduling and attached part fire, same production advance/consume/apply order: 4 ticks/frame,96.2m/s,46frames,82 fire samples; source/fire error both0m. Full affected batch passed 20261110T173751-286f8d9f."
+  ],
+  "note": "Revision3 patch2: current-snapshot sources/attached flames, strict UV edges, plus sea-contact height fade. Original failed close-up and isolated no-fog/no-water diagnostics preserved. Native original failed camera now has no rectangular sea-intersection edge; final same-input clips/Web evidence being rebuilt.",
+  "patch": 2,
+  "finalized_at": "2026-11-11T02:30:36.896638+08:00",
+  "final_checks": {
+    "fx01_checks": 33,
+    "affected_regressions": [
+      6,
+      69,
+      24,
+      5
+    ],
+    "chrome_checks": 21,
+    "chrome_report": "20261110T182648-3f3455fa",
+    "chrome_errors": 0
+  }
+}

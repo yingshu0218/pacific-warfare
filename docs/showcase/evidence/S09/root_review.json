@@ -1,0 +1,28 @@
+{
+  "report": ".local/validation/runs/20261110T071223-7a8eb845/report.json",
+  "passed": true,
+  "checks": [
+    {
+      "script": "--version",
+      "passed": true,
+      "cleanup_ok": true,
+      "group_state": "absent",
+      "log": "4.7.2.stable.official.ed1daf0bf\n"
+    },
+    {
+      "script": "res://tests/test_terrain_queries.gd",
+      "passed": true,
+      "cleanup_ok": true,
+      "group_state": "absent",
+      "log": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nS09 terrain: 39 checks, 0 failures\n"
+    },
+    {
+      "script": "res://tests/test_terrain_navigation.gd",
+      "passed": true,
+      "cleanup_ok": true,
+      "group_state": "absent",
+      "log": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nS09 actual navigation: PASS\n"
+    }
+  ],
+  "map_sha256": "6327c444e480e19be73bdbe75cc0b90e31f974c5ec2fcf765a5926d7a70f6678"
+}

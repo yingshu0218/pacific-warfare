@@ -1,0 +1,22 @@
+{
+  "id": "jp_type98_no25_land",
+  "name": "Type98 No25 land / OP1667",
+  "caliber_m": 0.30479999999999996,
+  "projectile_mass_kg": 241.31114084,
+  "muzzle_speed_mps": 0.0,
+  "gravity_mps2": 9.80665,
+  "max_lifetime_s": 90.0,
+  "release_mode": "gravity_release",
+  "drag_per_m": 8e-05,
+  "arming_s": 1.5,
+  "arming_distance_m": 45.0,
+  "impact_delay_s": 0.0,
+  "source": {
+    "status": "provisional",
+    "original_page": "OP1667 (1946) printed47-48 Figure37; 532lb total,211lb filling,12in body; Type98 explosive selected",
+    "note": "Original pages opened 2026-11-11; no proof of specific D4Y2 sortie/lot; model is accepted250kg-class simplified shape; fuze arming and blast model are engineering estimates",
+    "collision_envelope_note": "Conservative axial envelope covers simplified accepted display body/fins; not a measured aerodynamic reference or exact rigid-body collision hull."
+  },
+  "collision_length_m": 1.84,
+  "collision_span_m": 0.43
+}

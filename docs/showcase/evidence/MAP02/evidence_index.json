@@ -1,0 +1,29 @@
+{
+  "scope": "MAP02 independent native static map; S14 integration and Chrome pending",
+  "layout": "../../maps/MAP02/layout.png",
+  "interfaces": "../../maps/MAP02/interfaces.md",
+  "mechanisms": "terrain_checks.json",
+  "captures": {
+    "module_capture": {
+      "report": "module_capture.json",
+      "views": 14,
+      "frames": 0,
+      "sources_match": true,
+      "reclaimed_on_exit": true
+    },
+    "map_capture": {
+      "report": "map_capture.json",
+      "views": 10,
+      "frames": 80,
+      "sources_match": true,
+      "reclaimed_on_exit": true
+    }
+  },
+  "video": "inspection.mp4",
+  "video_metadata": "video_probe.json",
+  "contact_sheet": "sequence_contact_sheet.png",
+  "source_hashes": "source_hashes.json",
+  "frozen_boundary": "frozen_boundary.json",
+  "validation_runs": "validation_runs.json",
+  "cleanup": "cleanup.json"
+}

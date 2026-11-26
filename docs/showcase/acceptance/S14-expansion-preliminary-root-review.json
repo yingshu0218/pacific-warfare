@@ -1,0 +1,15 @@
+{
+  "task": "S14-carrier-harbor",
+  "status": "preliminary_not_accepted",
+  "date": "2026-11-11",
+  "public_baseline_count": 399,
+  "public_baseline_changed": [],
+  "source_review": [
+    "Candidate uses only explicit admitted input manifests plus owned overrides, no BOMB/in-progress B25 sources auto-scanned.",
+    "Candidate replaces aircraft task/motion installation only when carrier_operations is explicitly present, keeping one authoritative task and flight writer.",
+    "Carrier adapter forwards actual model weapons and muzzle transforms; zero-elevation export corrects initial Bofors15-degree baked coordinates.",
+    "Static new bomber models are separately labeled; no unverified bomber flight capability claimed.",
+    "Integration test includes real firing, partial-wave refusal, old16-mode assembly and single/pair two-wave cycle. Test results and browser/restart behavior not yet accepted."
+  ],
+  "next": "After AV04 model acceptance, require B25 normal-menu entry, actual installed view, candidate freeze, root review and final Chrome delivery before replacing ordinary baseline."
+}

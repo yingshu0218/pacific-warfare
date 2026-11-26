@@ -1,0 +1,13 @@
+{
+  "run_id": "20261110T163010-c14e0912",
+  "owner": "S02-deck-contacts",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 45771,
+  "checks": [],
+  "passed": false,
+  "error": "lock_timeout",
+  "lock_owner": "{\n  \"status\": \"held\",\n  \"owner\": \"S10-native-capture\",\n  \"pid\": 45767,\n  \"process_identity\": \"Wed Nov 11 00:30:09 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S10-native-capture --timeout 180 godot --render -- --script res://tests/ground_native_capture.gd\",\n  \"token\": \"c4cff65089a048f787e52e50581a3bd1\",\n  \"acquired_utc\": \"2026-11-10T16:30:10.025859+00:00\",\n  \"project\": \"/Users/infinity/Desktop/Dev/game-pacific\"\n}",
+  "exit_code": 2
+}

@@ -1,0 +1,60 @@
+{
+  "reviewed_utc": "2026-11-11T09:52:43.538226+00:00",
+  "reviewer": "root",
+  "status": "changes_requested_before_model_acceptance",
+  "images": [
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r3/native/parked_side.png",
+      "sha256": "6630791234f4db6215407e5dc53406d9841d9f6d209f628e0164db9027596d1e"
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r3/native/approach_side.png",
+      "sha256": "2c301bafe4f59495bf8b43242285c08ee4394dad08fa4f50d357a37cc092fff2"
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r3/native/hook_contact_detail.png",
+      "sha256": "ba1076c933ae01427c988cac013656c30b0d10294faf3e5d1b7d2a61c1e1306e"
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r3/native/clean_quarter.png",
+      "sha256": "7c56d5affbf4618088399211c2d3145fcb0235d3157f83db6dd7a0c94372f178"
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r3/native/damage_wing_left.png",
+      "sha256": "4d50f9bb74e77682c87fa05bb9ed42203d27f2162ee218fef7bb48ebdbd0c2a9"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r1/starboard_side.png",
+      "sha256": "027664ee5ff3cf5f3f16e673a3da1f3a06d27b7c1db15dc96dd17239f884bd16"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r1/port_stern_quarter.png",
+      "sha256": "ce9da39570505a1f547bae85584e15fd390a77451844809d855d430c391240c3"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r1/top.png",
+      "sha256": "4770197ed0aff61631c852c10cb3af2ba6550392291252ff7952421ed0a2cba3"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r1/starboard_aft_twins.png",
+      "sha256": "0eeec0630f5ec557011a951ec299d6fd9cf9d8e1aa6a85dfaf4473e9f85ed507"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r1/downturned_funnels.png",
+      "sha256": "823161a3fe441c8d6e69bb09485b5c7e2abc3822bc8e17cb7456b42f1165b9dd"
+    },
+    {
+      "path": "docs/showcase/evidence/CV02/native-r1/a6m_actual_wheels.png",
+      "sha256": "c4f4d2cc400872a57587641639a7e0402c68ae577ab32015def1d4d9dab1923d"
+    }
+  ],
+  "findings": {
+    "F6F": "Long legacy tailwheel strut and coplanar contacts give flat parked fuselage. Correct simple gear silhouette and physical contacts, preserve flight origin/main body. Recompute parked pose; old OPS fixture no longer geometry truth.",
+    "CV02": "Worker repairing flat-surface normals and water occlusion. Foredeck is nearly constant width; reconcile forward taper with selected references before assembly acceptance.",
+    "A6M": "Same legacy tailwheel/parked-pose issue observed in static CV02 fit; separate aviation follow-up before Japan OPS. Carrier owner must not alter aircraft."
+  },
+  "accepted_observations": [
+    "F6F clean flight hides gear and hook; detached left wing retains gear/flap in viewed snapshot.",
+    "CV02 viewed three centerline lifts, two starboard aft enclosed twin mounts and two side funnels. These observations alone are not final assembly acceptance."
+  ]
+}

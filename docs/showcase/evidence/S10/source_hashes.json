@@ -1,0 +1,212 @@
+{
+  "frozen_at": "2026-11-11T00:44:18.377751+08:00",
+  "scope": "S10 runtime and checks; S02/S13 concurrent inputs recorded separately, not claimed as S10-owned",
+  "source_sha256": {
+    "data/ammunition/s10_us_127mm_51_common_mk15.json": "55b78ebbb61d29011e8e8abc7a13f6f55dc437f1922f0f3cb3551306c94e42e4",
+    "data/ammunition/s10_us_40mm_mkii_het_sd.json": "3e969f837fe91768531a003d91dc8a4acba08af2088979d6c4766e83488dcc2e",
+    "data/combat/showcase.json": "e3dc2df44518557ccc6861292a74032c888435ab734ea0c3c146dd20ffc1ec94",
+    "data/ground/models.json": "2593e93d534011504406fc782d7b6a72e9d4c8fe50c9609747e84449088ce502",
+    "data/scenarios/island_harbor_defence.json": "310559a833c4199f290c0bc630754f06cf53c48da946558dce4c15f99f8e1d56",
+    "data/units/us_40mm_m1_m2a1_1944.json": "bc5a35ce9c112c89a218f20d6b8b0a281daaa64921cb600314d373d49bd8df32",
+    "data/units/us_5in51_mk13mod4_1945.json": "7e7ac1b4b0132b7354d43cf93ebe845b3b0042392f85f0f23e742c50a5b4eb63",
+    "data/units/weapons/us_40mm_m1_m2a1_single.json": "f4ee553aa22facb51c1277b532092590fb6c4a913c5fab172f93ef5469326cf6",
+    "data/units/weapons/us_5in51_mk8_mk13_single.json": "6a37cd4863d644a39a7506a078bd0635280f86d0ee439791f3c8b9266542f8ab",
+    "scenes/ground/us_40mm_m1_m2a1_1944.tscn": "ab097901cd8fbf6a47346611cf536f5faa36ba49ffee7beeb910d78188e9afb0",
+    "scenes/ground/us_5in51_mk13mod4_1945.tscn": "f1ccaf81958bfed8e4d0fbd5df2b34f00176f759ce6233847f22577207f7d12a",
+    "scripts/behaviors/fleet_formations/fleet_tasks.gd": "f1b8ed5e0cec76d71ed67c90d014b133cc9ecd5c30923719b0c4c4c5fb9ac0e1",
+    "scripts/command/air_defence/combat_targeting.gd": "5d7829a6a765484a527ad77a366c7bd97aa2b760db9ed6282acd8aa5b1474539",
+    "scripts/command/commander/fleet_planner.gd": "92fbd5129def083864d4b4a6fd55f8ef692bcf1d5de88f4d21213eb6325afdcb",
+    "scripts/command/contacts/combat_contacts.gd": "9eaeb6402a7d1e78a75003467158398da01e4bf13bfe3c1e8bd4186b9bea4d5d",
+    "scripts/game/first_playable.gd": "d72aee3bc8a86e983c526a5b4e0bda7395d1439dbc89aafac2fb95f2ee3eba49",
+    "scripts/game/first_playable_session.gd": "c83e4a85f27253f5edae74972765934d8d8bedd9e052416f801f52240d7d011c",
+    "scripts/ground/ground_commander.gd": "9617117b18ba10e9b8a21b268285bd24d6450a23abda74f27f8fe2e03531241a",
+    "scripts/ground/ground_deployments.gd": "4fc2d6acd74a422164f47833282ff6699755cfef7119045629582382cbdf2141",
+    "scripts/ground/ground_suite.gd": "b8aa7f0bb04bf8d4d73cdc8fef67ad62d301065b645357124ea527e0b571f195",
+    "scripts/ground/ground_tasks.gd": "d8cf995903bc24281c29aa68b94547bfcbadf642e344b3c387ed4fc81524bf91",
+    "scripts/ground/models/bofors_m1.gd": "9891a3fb800b14ec05a87eadfff3ca88be729e0b159aaf54251eb456fe5ccb25",
+    "scripts/ground/models/ground_unit_model.gd": "2fcb44f94f98754e2537b992651e6bf896936361088f4717805028f97a8d2760",
+    "scripts/ground/models/parts.gd": "5d2f7a38c52a17c9259a90ecd73e7d1e047712730d9ab54988228bad7e307e93",
+    "scripts/ground/models/shore_gun.gd": "ebd7832675e870b3287480fa14f7519dc3add7692532852dad294252704b3115",
+    "scripts/presentation/cameras/observer_camera.gd": "4338c76d65918af277d7486672a366a7c3821bbe50833c760e524a59ce6f8873",
+    "scripts/presentation/models/visual_recoil.gd": "30864b37619f78f12a8757449abbc5cfb90f9691b4ed89551390d34f243b4ae7",
+    "scripts/simulation/damage/combat_damage.gd": "6ab967d27138c0a5d2e1d761d58fd2748aba27635e244e0966ba8797cde6c473",
+    "scripts/simulation/projectiles/combat_projectiles.gd": "ad3741f755823d14d602b14b12e1b72b50752c88aa04a1143cb459c21b5cde64",
+    "scripts/simulation/simulation_world.gd": "eb7215f69c81d0f96d6531d1eeccb29364cc7683796e304b133d57178329b0bd",
+    "scripts/simulation/state/definition_catalog.gd": "e2f4b91ec8ffad3027e4016ad062d0698eba3f6875bfa6bf9320a728445e6e66",
+    "scripts/simulation/weapons/combat_config.gd": "234ce8322ea1bb61236a2153b592e7f261ff45976bba71484dd29149c1bfccff",
+    "scripts/simulation/weapons/combat_weapons.gd": "beabd0771b357b84bf006898a3aba59acbc08fdf5d82a8d57cfbbfba9c5533b0",
+    "showcase/island_harbor.tscn": "46fa0795bad4b1ccc6bdcf1afe567ca809e5a53cf9267f50cc4ad87983b4f337",
+    "tests/ground_battle_probe.gd": "17eadbe93b8482456acb1a43c0d32b93f5a420b2bf5a725832aef4ddd08b0457",
+    "tests/ground_model_capture.gd": "add65abed129b6899799236002f6a9c49783a86e52e871b24f759eb205e35da4",
+    "tests/ground_native_capture.gd": "22ce2a36cee3fa8a073fdf8c6144349868fbd47481aa2e88dd819e7c28af82a3",
+    "tests/ground_ui_check.gd": "fcef47baad8a521b3ac46e95b41048f382221ea237e0b10a2638f23ec739c13d",
+    "tests/test_first_playable_ui.gd": "3329b3992f9c1626d5fda388ee091199af5674034c74bca023dbf1d1bb9d82fe",
+    "tests/test_ground_combat.gd": "6f6320740732a71da9e38b169355a1b9ac6f4aebf5bf4864eedfe2c3f7eb6e21",
+    "tests/test_ground_models.gd": "1d1e05665f46a8e100e3021365d94226ea5809942a8c59ce0f3bc240488fd788",
+    "tests/test_ground_replay.gd": "6beec5cdbe7d9ead2e527ba472a98b9aa91bd84dae0e921cc38b95dbd02b21cc",
+    "tests/test_terrain_observer.gd": "4d6a3e4f94ba39d3c79a406c920528a31531933ef8dd6ec7ac5f692b224fecb4",
+    "tools/s10/generate_definitions.py": "493a29f29dec226ee309f374bd8924ff799f665fcb9296cd7a72b7014a4b07eb",
+    "ui/observer_hud.gd": "c57421c6dd54630535a36945b9a4efa33e745b5fe8c14c3d15b7e0986f917573",
+    "ui/observer_map.gd": "dc8a662eba5bc96907ea2760d19818e888db0844bd3c31e04f2c2e8883f7d14d",
+    "ui/observer_text.gd": "728332cf8fdc9dfef1155593fd12138721420c1b6a97d5aa9214ce18d15c4ab9"
+  },
+  "protected_inputs": {
+    "data/maps/island_harbor.json": {
+      "initial": "6327c444e480e19be73bdbe75cc0b90e31f974c5ec2fcf765a5926d7a70f6678",
+      "current": "6327c444e480e19be73bdbe75cc0b90e31f974c5ec2fcf765a5926d7a70f6678",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "data/scenarios/first_playable.json": {
+      "initial": "9d54380fcc11038a662617809b1c8705b6ec27d8cd3f0f872db7e410a79bff03",
+      "current": "9d54380fcc11038a662617809b1c8705b6ec27d8cd3f0f872db7e410a79bff03",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "project.godot": {
+      "initial": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+      "current": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/behaviors/aircraft/air_combat_maneuvers.gd": {
+      "initial": "1a3c0a7244ab07d070fbad70e005d6a5cfd750d139c4ac1c89812d12b2f43298",
+      "current": "1a3c0a7244ab07d070fbad70e005d6a5cfd750d139c4ac1c89812d12b2f43298",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/behaviors/aircraft/air_combat_tactics.gd": {
+      "initial": "a5293e6970553f42f38fc29c9bb466681e1ab3c4f4b6dc8a0b4a8204df9066c6",
+      "current": "a5293e6970553f42f38fc29c9bb466681e1ab3c4f4b6dc8a0b4a8204df9066c6",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/behaviors/aircraft/air_formations.gd": {
+      "initial": "d6818882b5e905edf10e2a3db98e8e9bace1722f8b89f5f2f9573ccbde1e807c",
+      "current": "d6818882b5e905edf10e2a3db98e8e9bace1722f8b89f5f2f9573ccbde1e807c",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/behaviors/aircraft/aircraft_suite.gd": {
+      "initial": "8bcfdb5b16bfb6f2dbbf50083b74960c1631592b9a945df9103cca067caa6b1e",
+      "current": "8bcfdb5b16bfb6f2dbbf50083b74960c1631592b9a945df9103cca067caa6b1e",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/behaviors/aircraft/aircraft_tasks.gd": {
+      "initial": "2a64ee4e0fd400ffa038c652f3b4f2b117f828201c34fbc54e23420474f374c1",
+      "current": "2a64ee4e0fd400ffa038c652f3b4f2b117f828201c34fbc54e23420474f374c1",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/presentation/environment/README.md": {
+      "initial": "a0486e2c94a1620b6625a15667a4c7626265174149c884fb45cf517b3cc70084",
+      "current": "e866a9e068c5e8d9691db328efaf688a123e0fde95b5b73f874fe3df2cc64092",
+      "same": false,
+      "concurrent_owner": "S13 fog correction"
+    },
+    "scripts/presentation/environment/cloud_noise.png": {
+      "initial": "079bb589937ee3a782291a5a04da3e1de1f2fc6243d3d5aa06952c88ef759d3b",
+      "current": "079bb589937ee3a782291a5a04da3e1de1f2fc6243d3d5aa06952c88ef759d3b",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/presentation/environment/cloud_noise.png.import": {
+      "initial": "f0a69f60de696c20eea75cde9bf0af852a7de76d1e7df53dad7e3a0ef07ebdb1",
+      "current": "f0a69f60de696c20eea75cde9bf0af852a7de76d1e7df53dad7e3a0ef07ebdb1",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/presentation/environment/cloud_sea_environment.gd": {
+      "initial": "d212d4a96df19a6e8e633a42939da889297f4038c0ec8aee2336d4e17ecbab3a",
+      "current": "e4b34f4d36d07443d3752152316b0bed6dac53999a07f649817e1844e6c5f99e",
+      "same": false,
+      "concurrent_owner": "S13 fog correction"
+    },
+    "scripts/presentation/environment/cloud_sea_environment.gd.uid": {
+      "initial": "04f2c9b343ceaf7748f6846c4939443df0e0cea83bfbf0e978f4a2ec957c2c0b",
+      "current": "04f2c9b343ceaf7748f6846c4939443df0e0cea83bfbf0e978f4a2ec957c2c0b",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/presentation/environment/daylight_sky.gdshader": {
+      "initial": "e42865c895ca22b54faf287eb46d51c7b0b504fb031eaa2fe4d19d6082ec1f72",
+      "current": "e42865c895ca22b54faf287eb46d51c7b0b504fb031eaa2fe4d19d6082ec1f72",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/presentation/environment/daylight_sky.gdshader.uid": {
+      "initial": "248b207aae989e1540a6878c85b520bc3432c31f4d9bfed532893d4d9c494f1d",
+      "current": "248b207aae989e1540a6878c85b520bc3432c31f4d9bfed532893d4d9c494f1d",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/presentation/environment/generate_cloud_noise.gd": {
+      "initial": "fe294ac1fe6025e3ac270755b7bbec3c60c55aa18208d15821838860528754ad",
+      "current": "fe294ac1fe6025e3ac270755b7bbec3c60c55aa18208d15821838860528754ad",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/presentation/environment/generate_cloud_noise.gd.uid": {
+      "initial": "fcae946eb4387b5f8f5493254c6c208d7db9fd108f75ed9057d65f5317ef6fbf",
+      "current": "fcae946eb4387b5f8f5493254c6c208d7db9fd108f75ed9057d65f5317ef6fbf",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/presentation/environment/wave_slopes.png": {
+      "initial": "f9c05b87b0926d1d92c8ac350257e1ffd31ea92a852894eb149f8f6802a04b23",
+      "current": "f9c05b87b0926d1d92c8ac350257e1ffd31ea92a852894eb149f8f6802a04b23",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/presentation/environment/wave_slopes.png.import": {
+      "initial": "2d3d9f6e72c99a8105f483eefd09e7793a9b4c459e0fc5cad2ed2d3d95ebaf0d",
+      "current": "2d3d9f6e72c99a8105f483eefd09e7793a9b4c459e0fc5cad2ed2d3d95ebaf0d",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/presentation/ocean.gdshader": {
+      "initial": "c3e7c1e1bccac312f05b2120e2ef2e4e7b5a9a3954920353dab05ea0a94bf8dc",
+      "current": "5afec338285da856563f79f94171dee6d5b974509e29682353d453724fc1e98a",
+      "same": false,
+      "concurrent_owner": "S13 fog correction"
+    },
+    "scripts/simulation/aircraft_motion/aircraft_flight_controller.gd": {
+      "initial": "90f6af4332fb3113f43cb4a9a23b4f8d1b6211fd50f81a328a0d751c671fc210",
+      "current": "90f6af4332fb3113f43cb4a9a23b4f8d1b6211fd50f81a328a0d751c671fc210",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/simulation/aircraft_motion/aircraft_flight_math.gd": {
+      "initial": "2e5bd3d83f8d93f25411bb5cf79bd70e448acc3a05910dfce58270d3ba655c47",
+      "current": "2e5bd3d83f8d93f25411bb5cf79bd70e448acc3a05910dfce58270d3ba655c47",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/simulation/aircraft_motion/aircraft_motion.gd": {
+      "initial": "508b68e5bdcea8d074c729025d062bb68fa547b81da8cedfac995090aa7b7bb4",
+      "current": "508b68e5bdcea8d074c729025d062bb68fa547b81da8cedfac995090aa7b7bb4",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "scripts/simulation/aircraft_motion/aircraft_performance.gd": {
+      "initial": "29294a4d57e1382e6f755c66988808e5db192d296dd00305bebc5deecab77713",
+      "current": "29294a4d57e1382e6f755c66988808e5db192d296dd00305bebc5deecab77713",
+      "same": true,
+      "concurrent_owner": ""
+    },
+    "showcase/open_sea.tscn": {
+      "initial": "7e6286ab8435ddfca86d32a8d32ec82029b7ac692294531862206fb7c66a3bfe",
+      "current": "7e6286ab8435ddfca86d32a8d32ec82029b7ac692294531862206fb7c66a3bfe",
+      "same": true,
+      "concurrent_owner": ""
+    }
+  },
+  "default_battle_inputs_now_different": [],
+  "parallel_input_notes": {
+    "S13": "README, cloud_sea_environment.gd, ocean.gdshader changed in coordinator-authorized fog correction; S10 did not edit them",
+    "S02": "Yamato geometry/host datum maintenance is independent; no test failure attributed to S10 based on concurrent edit alone",
+    "native_capture": "30s recording on actual source loaded during run20261110T163145-77bafd9f; subsequent S10 changes are report z-order and impact-label semantics, not combat/geometry",
+    "default_battle": "run20261110T163813-f02574c0 records43 input hashes before/after; same_combat_inputs=true"
+  }
+}

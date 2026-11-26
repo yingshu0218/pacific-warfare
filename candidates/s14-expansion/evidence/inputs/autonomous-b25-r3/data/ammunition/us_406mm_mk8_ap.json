@@ -1,0 +1,15 @@
+{
+  "id": "us_406mm_mk8_ap",
+  "caliber_m": 0.4064,
+  "projectile_mass_kg": 1225.0,
+  "muzzle_speed_mps": 762.0,
+  "gravity_mps2": 9.80665,
+  "max_lifetime_s": 180.0,
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "docs/showcase/deliveries/S02.md"
+    ],
+    "note": "Descriptive integration values for the model catalog only. Ammunition subtype, exact historical ballistics, cycle, fuze and damage are S05 work; lifetime is a safety bound. No firing mechanism is implemented in S02."
+  }
+}

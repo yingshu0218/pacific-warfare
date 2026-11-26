@@ -1,0 +1,2458 @@
+{
+  "startedUtc": "2026-11-10T21:30:17.016Z",
+  "baseline": true,
+  "browserPlugin": "Browser plugin not available; actual Chrome via existing Playwright runtime",
+  "normalUrl": "http://127.0.0.1:8765/index.html",
+  "entry": "res://showcase/all_units.tscn",
+  "checks": [
+    {
+      "name": "Ordinary shell without validation JS or test entry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Normal preview is listening on default port",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Real 1280x720 rendering buffer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Hardware renderer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No S14 fixture in ordinary page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Option exists speed/2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Option exists speed/3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No page exceptions",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No Godot or rendering errors",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "interactions": [
+    {
+      "action": "click",
+      "point": [
+        127,
+        680
+      ],
+      "phase": "baseline_1x",
+      "utc": "2026-11-10T21:31:04.999Z"
+    },
+    {
+      "action": "click",
+      "point": [
+        127,
+        675
+      ],
+      "phase": "baseline_1x",
+      "utc": "2026-11-10T21:31:05.211Z"
+    },
+    {
+      "action": "click",
+      "point": [
+        127,
+        680
+      ],
+      "phase": "baseline_2x",
+      "utc": "2026-11-10T21:31:15.619Z"
+    },
+    {
+      "action": "click",
+      "point": [
+        127,
+        705
+      ],
+      "phase": "baseline_2x",
+      "utc": "2026-11-10T21:31:15.935Z"
+    }
+  ],
+  "phases": [
+    {
+      "name": "warmup",
+      "wall_s": 8.02,
+      "begin": {
+        "buttons": {
+          "1 倍": [
+            127,
+            680
+          ],
+          "启用声音": [
+            839,
+            680
+          ],
+          "大和": [
+            450.5,
+            680
+          ],
+          "恢复信息": [
+            745,
+            680
+          ],
+          "战报": [
+            917,
+            680
+          ],
+          "指挥态势": [
+            651,
+            680
+          ],
+          "暂停": [
+            52,
+            680
+          ],
+          "港口兵器检视（不重置）": [
+            599,
+            104
+          ],
+          "结束": [
+            979,
+            680
+          ],
+          "继续导览": [
+            396,
+            104
+          ],
+          "自动电影": [
+            218,
+            680
+          ],
+          "自由观察": [
+            312,
+            680
+          ],
+          "跟随": [
+            573,
+            680
+          ],
+          "连续导览": [
+            146,
+            104
+          ],
+          "重开": [
+            1041,
+            680
+          ],
+          "重新演示": [
+            304,
+            104
+          ]
+        },
+        "camera_mode": "free",
+        "controls": {
+          "map": [
+            1137,
+            498.5
+          ],
+          "segment": [
+            146,
+            104
+          ],
+          "speed": [
+            127,
+            680
+          ],
+          "unit": [
+            450.5,
+            680
+          ],
+          "weapon": [
+            599,
+            104
+          ]
+        },
+        "effects": {
+          "active": 20,
+          "allocated": 30,
+          "dropped": 0,
+          "engine_sources": 4,
+          "last_sequence": 118,
+          "materials": 30,
+          "peak_visible": 30,
+          "preempted": 0,
+          "render_instances": 30,
+          "shown_events": 118,
+          "sound_sources": 0,
+          "visible_instances": 20
+        },
+        "ended": "",
+        "exercise": "guided",
+        "followed_id": "",
+        "fragments": 0,
+        "gallery_index": 0,
+        "generation": 1,
+        "label": "演示模式 · 双机 · 长僚独立飞行 / 协调转弯",
+        "models": 19,
+        "modes": [
+          "guided",
+          "pair",
+          "four",
+          "maneuver",
+          "escort",
+          "fire",
+          "train_us_bank_turn",
+          "train_us_climb_dive",
+          "train_us_axial_roll",
+          "train_us_roll_reversal",
+          "train_us_split_s",
+          "train_jp_bank_turn",
+          "train_jp_climb_dive",
+          "train_jp_axial_roll",
+          "train_jp_roll_reversal",
+          "train_jp_split_s"
+        ],
+        "paused": false,
+        "pending_s": 0.00290000000000089,
+        "pitch": 0.26,
+        "popups": {
+          "segment": {
+            "count": 16,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              152,
+              440
+            ],
+            "visible": false
+          },
+          "speed": {
+            "count": 4,
+            "metadata": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "unit": {
+            "count": 19,
+            "metadata": [
+              "jp_air_1",
+              "jp_air_2",
+              "jp_air_3",
+              "jp_air_4",
+              "jp_bb",
+              "jp_dd",
+              "us_aa_01",
+              "us_aa_02",
+              "us_air_1",
+              "us_air_2",
+              "us_air_3",
+              "us_air_4",
+              "us_bb",
+              "us_coast_01",
+              "us_dd",
+              "us_pair_demo_1",
+              "us_pair_demo_2",
+              "us_sb2c_1",
+              "us_sb2c_2"
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "weapon": {
+            "count": 6,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          }
+        },
+        "sound": false,
+        "speed": 1,
+        "tick": 47,
+        "time_s": 0.783333333333333,
+        "timeline_buttons": [],
+        "ui": {
+          "both_cards": false,
+          "cinema": true,
+          "detail": "选择一条指令查看各成员执行进度。",
+          "expanded": false,
+          "report": false,
+          "report_text": "截至 00:00\n\n日方指挥官\n可战 2 舰 / 4 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 0 发 · 剩余 120900 发 · 耗油 0.2 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 10 发 · 剩余 226800 发 · 耗油 0.5 千克\n岸防 3 炮组 · 失能 0 · 摧毁 0",
+          "status": "00:00   观战中 · 1.0 倍",
+          "timeline": false
+        },
+        "yaw": -1.00000392740715
+      },
+      "end": {
+        "buttons": {
+          "1 倍": [
+            127,
+            680
+          ],
+          "启用声音": [
+            839,
+            680
+          ],
+          "大和": [
+            450.5,
+            680
+          ],
+          "恢复信息": [
+            745,
+            680
+          ],
+          "战报": [
+            917,
+            680
+          ],
+          "指挥态势": [
+            651,
+            680
+          ],
+          "暂停": [
+            52,
+            680
+          ],
+          "港口兵器检视（不重置）": [
+            599,
+            104
+          ],
+          "结束": [
+            979,
+            680
+          ],
+          "继续导览": [
+            396,
+            104
+          ],
+          "自动电影": [
+            218,
+            680
+          ],
+          "自由观察": [
+            312,
+            680
+          ],
+          "跟随": [
+            573,
+            680
+          ],
+          "连续导览": [
+            146,
+            104
+          ],
+          "重开": [
+            1041,
+            680
+          ],
+          "重新演示": [
+            304,
+            104
+          ]
+        },
+        "camera_mode": "free",
+        "controls": {
+          "map": [
+            1137,
+            498.5
+          ],
+          "segment": [
+            146,
+            104
+          ],
+          "speed": [
+            127,
+            680
+          ],
+          "unit": [
+            450.5,
+            680
+          ],
+          "weapon": [
+            599,
+            104
+          ]
+        },
+        "effects": {
+          "active": 109,
+          "allocated": 121,
+          "dropped": 0,
+          "engine_sources": 4,
+          "last_sequence": 230,
+          "materials": 121,
+          "peak_visible": 121,
+          "preempted": 0,
+          "render_instances": 121,
+          "shown_events": 230,
+          "sound_sources": 0,
+          "visible_instances": 109
+        },
+        "ended": "",
+        "exercise": "guided",
+        "followed_id": "",
+        "fragments": 0,
+        "gallery_index": 0,
+        "generation": 1,
+        "label": "演示模式 · SB2C-4 · 受护航近景",
+        "models": 19,
+        "modes": [
+          "guided",
+          "pair",
+          "four",
+          "maneuver",
+          "escort",
+          "fire",
+          "train_us_bank_turn",
+          "train_us_climb_dive",
+          "train_us_axial_roll",
+          "train_us_roll_reversal",
+          "train_us_split_s",
+          "train_jp_bank_turn",
+          "train_jp_climb_dive",
+          "train_jp_axial_roll",
+          "train_jp_roll_reversal",
+          "train_jp_split_s"
+        ],
+        "paused": false,
+        "pending_s": 0.0082666666666677,
+        "pitch": 0.17,
+        "popups": {
+          "segment": {
+            "count": 16,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              152,
+              440
+            ],
+            "visible": false
+          },
+          "speed": {
+            "count": 4,
+            "metadata": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "unit": {
+            "count": 19,
+            "metadata": [
+              "jp_air_1",
+              "jp_air_2",
+              "jp_air_3",
+              "jp_air_4",
+              "jp_bb",
+              "jp_dd",
+              "us_aa_01",
+              "us_aa_02",
+              "us_air_1",
+              "us_air_2",
+              "us_air_3",
+              "us_air_4",
+              "us_bb",
+              "us_coast_01",
+              "us_dd",
+              "us_pair_demo_1",
+              "us_pair_demo_2",
+              "us_sb2c_1",
+              "us_sb2c_2"
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "weapon": {
+            "count": 6,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          }
+        },
+        "sound": false,
+        "speed": 1,
+        "tick": 520,
+        "time_s": 8.66666666666667,
+        "timeline_buttons": [],
+        "ui": {
+          "both_cards": false,
+          "cinema": true,
+          "detail": "选择一条指令查看各成员执行进度。",
+          "expanded": false,
+          "report": false,
+          "report_text": "截至 00:08\n\n日方指挥官\n可战 2 舰 / 4 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 12 发 · 剩余 120888 发 · 耗油 2.6 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 31 发 · 剩余 226779 发 · 耗油 6.7 千克\n岸防 3 炮组 · 失能 0 · 摧毁 0",
+          "status": "00:08   观战中 · 1.0 倍",
+          "timeline": false
+        },
+        "yaw": 0.8
+      },
+      "actual_scale": 0.9829592684954286
+    },
+    {
+      "name": "baseline_1x",
+      "wall_s": 30.015,
+      "begin": {
+        "buttons": {
+          "1 倍": [
+            127,
+            680
+          ],
+          "启用声音": [
+            839,
+            680
+          ],
+          "大和": [
+            450.5,
+            680
+          ],
+          "恢复信息": [
+            745,
+            680
+          ],
+          "战报": [
+            917,
+            680
+          ],
+          "指挥态势": [
+            651,
+            680
+          ],
+          "暂停": [
+            52,
+            680
+          ],
+          "港口兵器检视（不重置）": [
+            599,
+            104
+          ],
+          "结束": [
+            979,
+            680
+          ],
+          "继续导览": [
+            396,
+            104
+          ],
+          "自动电影": [
+            218,
+            680
+          ],
+          "自由观察": [
+            312,
+            680
+          ],
+          "跟随": [
+            573,
+            680
+          ],
+          "连续导览": [
+            146,
+            104
+          ],
+          "重开": [
+            1041,
+            680
+          ],
+          "重新演示": [
+            304,
+            104
+          ]
+        },
+        "camera_mode": "free",
+        "controls": {
+          "map": [
+            1137,
+            498.5
+          ],
+          "segment": [
+            146,
+            104
+          ],
+          "speed": [
+            127,
+            680
+          ],
+          "unit": [
+            450.5,
+            680
+          ],
+          "weapon": [
+            599,
+            104
+          ]
+        },
+        "effects": {
+          "active": 109,
+          "allocated": 121,
+          "dropped": 0,
+          "engine_sources": 4,
+          "last_sequence": 230,
+          "materials": 121,
+          "peak_visible": 121,
+          "preempted": 0,
+          "render_instances": 121,
+          "shown_events": 230,
+          "sound_sources": 0,
+          "visible_instances": 109
+        },
+        "ended": "",
+        "exercise": "guided",
+        "followed_id": "",
+        "fragments": 0,
+        "gallery_index": 0,
+        "generation": 1,
+        "label": "演示模式 · SB2C-4 · 受护航近景",
+        "models": 19,
+        "modes": [
+          "guided",
+          "pair",
+          "four",
+          "maneuver",
+          "escort",
+          "fire",
+          "train_us_bank_turn",
+          "train_us_climb_dive",
+          "train_us_axial_roll",
+          "train_us_roll_reversal",
+          "train_us_split_s",
+          "train_jp_bank_turn",
+          "train_jp_climb_dive",
+          "train_jp_axial_roll",
+          "train_jp_roll_reversal",
+          "train_jp_split_s"
+        ],
+        "paused": false,
+        "pending_s": 0.00277777777777784,
+        "pitch": 0.17,
+        "popups": {
+          "segment": {
+            "count": 16,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              152,
+              440
+            ],
+            "visible": false
+          },
+          "speed": {
+            "count": 4,
+            "metadata": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "unit": {
+            "count": 19,
+            "metadata": [
+              "jp_air_1",
+              "jp_air_2",
+              "jp_air_3",
+              "jp_air_4",
+              "jp_bb",
+              "jp_dd",
+              "us_aa_01",
+              "us_aa_02",
+              "us_air_1",
+              "us_air_2",
+              "us_air_3",
+              "us_air_4",
+              "us_bb",
+              "us_coast_01",
+              "us_dd",
+              "us_pair_demo_1",
+              "us_pair_demo_2",
+              "us_sb2c_1",
+              "us_sb2c_2"
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "weapon": {
+            "count": 6,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          }
+        },
+        "sound": false,
+        "speed": 1,
+        "tick": 527,
+        "time_s": 8.78333333333333,
+        "timeline_buttons": [],
+        "ui": {
+          "both_cards": false,
+          "cinema": true,
+          "detail": "选择一条指令查看各成员执行进度。",
+          "expanded": false,
+          "report": false,
+          "report_text": "截至 00:08\n\n日方指挥官\n可战 2 舰 / 4 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 12 发 · 剩余 120888 发 · 耗油 2.7 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 41 发 · 剩余 226769 发 · 耗油 7.0 千克\n岸防 3 炮组 · 失能 0 · 摧毁 0",
+          "status": "00:08   观战中 · 1.0 倍",
+          "timeline": false
+        },
+        "yaw": 0.8
+      },
+      "end": {
+        "buttons": {
+          "1 倍": [
+            127,
+            680
+          ],
+          "启用声音": [
+            839,
+            680
+          ],
+          "大和": [
+            450.5,
+            680
+          ],
+          "恢复信息": [
+            745,
+            680
+          ],
+          "战报": [
+            917,
+            680
+          ],
+          "指挥态势": [
+            651,
+            680
+          ],
+          "暂停": [
+            52,
+            680
+          ],
+          "港口兵器检视（不重置）": [
+            599,
+            104
+          ],
+          "结束": [
+            979,
+            680
+          ],
+          "继续导览": [
+            396,
+            104
+          ],
+          "自动电影": [
+            218,
+            680
+          ],
+          "自由观察": [
+            312,
+            680
+          ],
+          "跟随": [
+            573,
+            680
+          ],
+          "连续导览": [
+            146,
+            104
+          ],
+          "重开": [
+            1041,
+            680
+          ],
+          "重新演示": [
+            304,
+            104
+          ]
+        },
+        "camera_mode": "free",
+        "controls": {
+          "map": [
+            1137,
+            498.5
+          ],
+          "segment": [
+            146,
+            104
+          ],
+          "speed": [
+            127,
+            680
+          ],
+          "unit": [
+            450.5,
+            680
+          ],
+          "weapon": [
+            599,
+            104
+          ]
+        },
+        "effects": {
+          "active": 185,
+          "allocated": 228,
+          "dropped": 0,
+          "engine_sources": 4,
+          "last_sequence": 767,
+          "materials": 228,
+          "peak_visible": 228,
+          "preempted": 0,
+          "render_instances": 228,
+          "shown_events": 767,
+          "sound_sources": 0,
+          "visible_instances": 185
+        },
+        "ended": "",
+        "exercise": "guided",
+        "followed_id": "",
+        "fragments": 0,
+        "gallery_index": 0,
+        "generation": 1,
+        "label": "演示模式 · 本段对象已退出 · 暂看 零战 1 号",
+        "models": 19,
+        "modes": [
+          "guided",
+          "pair",
+          "four",
+          "maneuver",
+          "escort",
+          "fire",
+          "train_us_bank_turn",
+          "train_us_climb_dive",
+          "train_us_axial_roll",
+          "train_us_roll_reversal",
+          "train_us_split_s",
+          "train_jp_bank_turn",
+          "train_jp_climb_dive",
+          "train_jp_axial_roll",
+          "train_jp_roll_reversal",
+          "train_jp_split_s"
+        ],
+        "paused": false,
+        "pending_s": 0.011475757575759,
+        "pitch": 0.17,
+        "popups": {
+          "segment": {
+            "count": 16,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              152,
+              440
+            ],
+            "visible": false
+          },
+          "speed": {
+            "count": 4,
+            "metadata": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "unit": {
+            "count": 19,
+            "metadata": [
+              "jp_air_1",
+              "jp_air_2",
+              "jp_air_3",
+              "jp_air_4",
+              "jp_bb",
+              "jp_dd",
+              "us_aa_01",
+              "us_aa_02",
+              "us_air_1",
+              "us_air_2",
+              "us_air_3",
+              "us_air_4",
+              "us_bb",
+              "us_coast_01",
+              "us_dd",
+              "us_pair_demo_1",
+              "us_pair_demo_2",
+              "us_sb2c_1",
+              "us_sb2c_2"
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "weapon": {
+            "count": 6,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          }
+        },
+        "sound": false,
+        "speed": 1,
+        "tick": 2326,
+        "time_s": 38.7666666666667,
+        "timeline_buttons": [],
+        "ui": {
+          "both_cards": false,
+          "cinema": true,
+          "detail": "选择一条指令查看各成员执行进度。",
+          "expanded": false,
+          "report": false,
+          "report_text": "截至 00:38\n\n日方指挥官\n可战 1 舰 / 4 机 · 沉没 1 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 37 发 · 剩余 120863 发 · 耗油 12.8 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 140 发 · 剩余 226670 发 · 耗油 40.8 千克\n岸防 1 炮组 · 失能 1 · 摧毁 1",
+          "status": "00:38   观战中 · 1.0 倍",
+          "timeline": false
+        },
+        "yaw": 3.12739413465825
+      },
+      "actual_scale": 0.9989449719584664
+    },
+    {
+      "name": "baseline_2x",
+      "wall_s": 10.021,
+      "begin": {
+        "buttons": {
+          "2 倍": [
+            127,
+            680
+          ],
+          "启用声音": [
+            839,
+            680
+          ],
+          "大和": [
+            450.5,
+            680
+          ],
+          "恢复信息": [
+            745,
+            680
+          ],
+          "战报": [
+            917,
+            680
+          ],
+          "指挥态势": [
+            651,
+            680
+          ],
+          "暂停": [
+            52,
+            680
+          ],
+          "港口兵器检视（不重置）": [
+            599,
+            104
+          ],
+          "结束": [
+            979,
+            680
+          ],
+          "继续导览": [
+            396,
+            104
+          ],
+          "自动电影": [
+            218,
+            680
+          ],
+          "自由观察": [
+            312,
+            680
+          ],
+          "跟随": [
+            573,
+            680
+          ],
+          "连续导览": [
+            146,
+            104
+          ],
+          "重开": [
+            1041,
+            680
+          ],
+          "重新演示": [
+            304,
+            104
+          ]
+        },
+        "camera_mode": "free",
+        "controls": {
+          "map": [
+            1137,
+            498.5
+          ],
+          "segment": [
+            146,
+            104
+          ],
+          "speed": [
+            127,
+            680
+          ],
+          "unit": [
+            450.5,
+            680
+          ],
+          "weapon": [
+            599,
+            104
+          ]
+        },
+        "effects": {
+          "active": 218,
+          "allocated": 228,
+          "dropped": 0,
+          "engine_sources": 4,
+          "last_sequence": 790,
+          "materials": 228,
+          "peak_visible": 228,
+          "preempted": 0,
+          "render_instances": 228,
+          "shown_events": 790,
+          "sound_sources": 0,
+          "visible_instances": 218
+        },
+        "ended": "",
+        "exercise": "guided",
+        "followed_id": "",
+        "fragments": 0,
+        "gallery_index": 0,
+        "generation": 1,
+        "label": "演示模式 · 四型军舰 · 实际航行 / 舰炮交战",
+        "models": 19,
+        "modes": [
+          "guided",
+          "pair",
+          "four",
+          "maneuver",
+          "escort",
+          "fire",
+          "train_us_bank_turn",
+          "train_us_climb_dive",
+          "train_us_axial_roll",
+          "train_us_roll_reversal",
+          "train_us_split_s",
+          "train_jp_bank_turn",
+          "train_jp_climb_dive",
+          "train_jp_axial_roll",
+          "train_jp_roll_reversal",
+          "train_jp_split_s"
+        ],
+        "paused": false,
+        "pending_s": 0.00404444444444593,
+        "pitch": 0.26,
+        "popups": {
+          "segment": {
+            "count": 16,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              152,
+              440
+            ],
+            "visible": false
+          },
+          "speed": {
+            "count": 4,
+            "metadata": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              86,
+              600
+            ],
+            "size": [
+              82,
+              120
+            ],
+            "visible": false
+          },
+          "unit": {
+            "count": 19,
+            "metadata": [
+              "jp_air_1",
+              "jp_air_2",
+              "jp_air_3",
+              "jp_air_4",
+              "jp_bb",
+              "jp_dd",
+              "us_aa_01",
+              "us_aa_02",
+              "us_air_1",
+              "us_air_2",
+              "us_air_3",
+              "us_air_4",
+              "us_bb",
+              "us_coast_01",
+              "us_dd",
+              "us_pair_demo_1",
+              "us_pair_demo_2",
+              "us_sb2c_1",
+              "us_sb2c_2"
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "weapon": {
+            "count": 6,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          }
+        },
+        "sound": false,
+        "speed": 2,
+        "tick": 2371,
+        "time_s": 39.5166666666667,
+        "timeline_buttons": [],
+        "ui": {
+          "both_cards": false,
+          "cinema": true,
+          "detail": "选择一条指令查看各成员执行进度。",
+          "expanded": false,
+          "report": false,
+          "report_text": "截至 00:39\n\n日方指挥官\n可战 1 舰 / 4 机 · 沉没 1 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 37 发 · 剩余 120863 发 · 耗油 13.1 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 140 发 · 剩余 226670 发 · 耗油 41.7 千克\n岸防 1 炮组 · 失能 1 · 摧毁 1",
+          "status": "00:39   观战中 · 2.0 倍",
+          "timeline": false
+        },
+        "yaw": 1.50630909800529
+      },
+      "end": {
+        "buttons": {
+          "2 倍": [
+            127,
+            680
+          ],
+          "启用声音": [
+            839,
+            680
+          ],
+          "大和": [
+            450.5,
+            680
+          ],
+          "恢复信息": [
+            745,
+            680
+          ],
+          "战报": [
+            917,
+            680
+          ],
+          "指挥态势": [
+            651,
+            680
+          ],
+          "暂停": [
+            52,
+            680
+          ],
+          "港口兵器检视（不重置）": [
+            599,
+            104
+          ],
+          "结束": [
+            979,
+            680
+          ],
+          "继续导览": [
+            396,
+            104
+          ],
+          "自动电影": [
+            218,
+            680
+          ],
+          "自由观察": [
+            312,
+            680
+          ],
+          "跟随": [
+            573,
+            680
+          ],
+          "连续导览": [
+            146,
+            104
+          ],
+          "重开": [
+            1041,
+            680
+          ],
+          "重新演示": [
+            304,
+            104
+          ]
+        },
+        "camera_mode": "free",
+        "controls": {
+          "map": [
+            1137,
+            498.5
+          ],
+          "segment": [
+            146,
+            104
+          ],
+          "speed": [
+            127,
+            680
+          ],
+          "unit": [
+            450.5,
+            680
+          ],
+          "weapon": [
+            599,
+            104
+          ]
+        },
+        "effects": {
+          "active": 33,
+          "allocated": 228,
+          "dropped": 0,
+          "engine_sources": 4,
+          "last_sequence": 975,
+          "materials": 228,
+          "peak_visible": 228,
+          "preempted": 0,
+          "render_instances": 228,
+          "shown_events": 975,
+          "sound_sources": 0,
+          "visible_instances": 33
+        },
+        "ended": "",
+        "exercise": "guided",
+        "followed_id": "",
+        "fragments": 0,
+        "gallery_index": 0,
+        "generation": 1,
+        "label": "演示模式 · 岸炮与 M1 防空 · 实际目标 / 库存 / 发射",
+        "models": 19,
+        "modes": [
+          "guided",
+          "pair",
+          "four",
+          "maneuver",
+          "escort",
+          "fire",
+          "train_us_bank_turn",
+          "train_us_climb_dive",
+          "train_us_axial_roll",
+          "train_us_roll_reversal",
+          "train_us_split_s",
+          "train_jp_bank_turn",
+          "train_jp_climb_dive",
+          "train_jp_axial_roll",
+          "train_jp_roll_reversal",
+          "train_jp_split_s"
+        ],
+        "paused": false,
+        "pending_s": 0.00404444444444383,
+        "pitch": 0.26,
+        "popups": {
+          "segment": {
+            "count": 16,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              152,
+              440
+            ],
+            "visible": false
+          },
+          "speed": {
+            "count": 4,
+            "metadata": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              86,
+              600
+            ],
+            "size": [
+              82,
+              120
+            ],
+            "visible": false
+          },
+          "unit": {
+            "count": 19,
+            "metadata": [
+              "jp_air_1",
+              "jp_air_2",
+              "jp_air_3",
+              "jp_air_4",
+              "jp_bb",
+              "jp_dd",
+              "us_aa_01",
+              "us_aa_02",
+              "us_air_1",
+              "us_air_2",
+              "us_air_3",
+              "us_air_4",
+              "us_bb",
+              "us_coast_01",
+              "us_dd",
+              "us_pair_demo_1",
+              "us_pair_demo_2",
+              "us_sb2c_1",
+              "us_sb2c_2"
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "weapon": {
+            "count": 6,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          }
+        },
+        "sound": false,
+        "speed": 2,
+        "tick": 3570,
+        "time_s": 59.5,
+        "timeline_buttons": [],
+        "ui": {
+          "both_cards": false,
+          "cinema": true,
+          "detail": "选择一条指令查看各成员执行进度。",
+          "expanded": false,
+          "report": false,
+          "report_text": "截至 00:59\n\n日方指挥官\n可战 0 舰 / 4 机 · 沉没 2 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 37 发 · 剩余 120863 发 · 耗油 20.2 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 155 发 · 剩余 226655 发 · 耗油 68.9 千克\n岸防 1 炮组 · 失能 1 · 摧毁 1",
+          "status": "00:59   观战中 · 2.0 倍",
+          "timeline": false
+        },
+        "yaw": 1.1
+      },
+      "actual_scale": 1.9941456275155471
+    },
+    {
+      "name": "baseline_4x",
+      "wall_s": 12.07,
+      "begin": {
+        "buttons": {
+          "4 倍": [
+            127,
+            680
+          ],
+          "启用声音": [
+            839,
+            680
+          ],
+          "大和": [
+            450.5,
+            680
+          ],
+          "恢复信息": [
+            745,
+            680
+          ],
+          "战报": [
+            917,
+            680
+          ],
+          "指挥态势": [
+            651,
+            680
+          ],
+          "暂停": [
+            52,
+            680
+          ],
+          "港口兵器检视（不重置）": [
+            599,
+            104
+          ],
+          "结束": [
+            979,
+            680
+          ],
+          "继续导览": [
+            396,
+            104
+          ],
+          "自动电影": [
+            218,
+            680
+          ],
+          "自由观察": [
+            312,
+            680
+          ],
+          "跟随": [
+            573,
+            680
+          ],
+          "连续导览": [
+            146,
+            104
+          ],
+          "重开": [
+            1041,
+            680
+          ],
+          "重新演示": [
+            304,
+            104
+          ]
+        },
+        "camera_mode": "free",
+        "controls": {
+          "map": [
+            1137,
+            498.5
+          ],
+          "segment": [
+            146,
+            104
+          ],
+          "speed": [
+            127,
+            680
+          ],
+          "unit": [
+            450.5,
+            680
+          ],
+          "weapon": [
+            599,
+            104
+          ]
+        },
+        "effects": {
+          "active": 30,
+          "allocated": 228,
+          "dropped": 0,
+          "engine_sources": 4,
+          "last_sequence": 986,
+          "materials": 228,
+          "peak_visible": 228,
+          "preempted": 0,
+          "render_instances": 228,
+          "shown_events": 986,
+          "sound_sources": 0,
+          "visible_instances": 30
+        },
+        "ended": "",
+        "exercise": "guided",
+        "followed_id": "",
+        "fragments": 0,
+        "gallery_index": 0,
+        "generation": 1,
+        "label": "演示模式 · 岸炮与 M1 防空 · 实际目标 / 库存 / 发射",
+        "models": 19,
+        "modes": [
+          "guided",
+          "pair",
+          "four",
+          "maneuver",
+          "escort",
+          "fire",
+          "train_us_bank_turn",
+          "train_us_climb_dive",
+          "train_us_axial_roll",
+          "train_us_roll_reversal",
+          "train_us_split_s",
+          "train_jp_bank_turn",
+          "train_jp_climb_dive",
+          "train_jp_axial_roll",
+          "train_jp_roll_reversal",
+          "train_jp_split_s"
+        ],
+        "paused": false,
+        "pending_s": 0.0148666666666691,
+        "pitch": 0.26,
+        "popups": {
+          "segment": {
+            "count": 16,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              152,
+              440
+            ],
+            "visible": false
+          },
+          "speed": {
+            "count": 4,
+            "metadata": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              86,
+              600
+            ],
+            "size": [
+              82,
+              120
+            ],
+            "visible": false
+          },
+          "unit": {
+            "count": 19,
+            "metadata": [
+              "jp_air_1",
+              "jp_air_2",
+              "jp_air_3",
+              "jp_air_4",
+              "jp_bb",
+              "jp_dd",
+              "us_aa_01",
+              "us_aa_02",
+              "us_air_1",
+              "us_air_2",
+              "us_air_3",
+              "us_air_4",
+              "us_bb",
+              "us_coast_01",
+              "us_dd",
+              "us_pair_demo_1",
+              "us_pair_demo_2",
+              "us_sb2c_1",
+              "us_sb2c_2"
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "weapon": {
+            "count": 6,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          }
+        },
+        "sound": false,
+        "speed": 4,
+        "tick": 3679,
+        "time_s": 61.3166666666667,
+        "timeline_buttons": [],
+        "ui": {
+          "both_cards": false,
+          "cinema": true,
+          "detail": "选择一条指令查看各成员执行进度。",
+          "expanded": false,
+          "report": false,
+          "report_text": "截至 01:01\n\n日方指挥官\n可战 0 舰 / 4 机 · 沉没 2 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 37 发 · 剩余 120863 发 · 耗油 21.0 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 155 发 · 剩余 226655 发 · 耗油 71.1 千克\n岸防 1 炮组 · 失能 1 · 摧毁 1",
+          "status": "01:01   观战中 · 4.0 倍",
+          "timeline": false
+        },
+        "yaw": 1.1
+      },
+      "end": {
+        "buttons": {
+          "4 倍": [
+            127,
+            680
+          ],
+          "启用声音": [
+            839,
+            680
+          ],
+          "大和": [
+            450.5,
+            680
+          ],
+          "恢复信息": [
+            745,
+            680
+          ],
+          "战报": [
+            917,
+            680
+          ],
+          "指挥态势": [
+            651,
+            680
+          ],
+          "暂停": [
+            52,
+            680
+          ],
+          "港口兵器检视（不重置）": [
+            599,
+            104
+          ],
+          "结束": [
+            979,
+            680
+          ],
+          "继续导览": [
+            396,
+            104
+          ],
+          "自动电影": [
+            218,
+            680
+          ],
+          "自由观察": [
+            312,
+            680
+          ],
+          "跟随": [
+            573,
+            680
+          ],
+          "连续导览": [
+            146,
+            104
+          ],
+          "重开": [
+            1041,
+            680
+          ],
+          "重新演示": [
+            304,
+            104
+          ]
+        },
+        "camera_mode": "free",
+        "controls": {
+          "map": [
+            1137,
+            498.5
+          ],
+          "segment": [
+            146,
+            104
+          ],
+          "speed": [
+            127,
+            680
+          ],
+          "unit": [
+            450.5,
+            680
+          ],
+          "weapon": [
+            599,
+            104
+          ]
+        },
+        "effects": {
+          "active": 14,
+          "allocated": 228,
+          "dropped": 0,
+          "engine_sources": 4,
+          "last_sequence": 1266,
+          "materials": 228,
+          "peak_visible": 228,
+          "preempted": 0,
+          "render_instances": 228,
+          "shown_events": 1266,
+          "sound_sources": 0,
+          "visible_instances": 14
+        },
+        "ended": "",
+        "exercise": "guided",
+        "followed_id": "",
+        "fragments": 0,
+        "gallery_index": 0,
+        "generation": 1,
+        "label": "演示模式 · 真实立体飞行 · 地平线固定 / 滚转后拉杆",
+        "models": 19,
+        "modes": [
+          "guided",
+          "pair",
+          "four",
+          "maneuver",
+          "escort",
+          "fire",
+          "train_us_bank_turn",
+          "train_us_climb_dive",
+          "train_us_axial_roll",
+          "train_us_roll_reversal",
+          "train_us_split_s",
+          "train_jp_bank_turn",
+          "train_jp_climb_dive",
+          "train_jp_axial_roll",
+          "train_jp_roll_reversal",
+          "train_jp_split_s"
+        ],
+        "paused": false,
+        "pending_s": 8.77726666666658,
+        "pitch": 0.17,
+        "popups": {
+          "segment": {
+            "count": 16,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              152,
+              440
+            ],
+            "visible": false
+          },
+          "speed": {
+            "count": 4,
+            "metadata": [
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              86,
+              600
+            ],
+            "size": [
+              82,
+              120
+            ],
+            "visible": false
+          },
+          "unit": {
+            "count": 19,
+            "metadata": [
+              "jp_air_1",
+              "jp_air_2",
+              "jp_air_3",
+              "jp_air_4",
+              "jp_bb",
+              "jp_dd",
+              "us_aa_01",
+              "us_aa_02",
+              "us_air_1",
+              "us_air_2",
+              "us_air_3",
+              "us_air_4",
+              "us_bb",
+              "us_coast_01",
+              "us_dd",
+              "us_pair_demo_1",
+              "us_pair_demo_2",
+              "us_sb2c_1",
+              "us_sb2c_2"
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          },
+          "weapon": {
+            "count": 6,
+            "metadata": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            "position": [
+              0,
+              0
+            ],
+            "size": [
+              100,
+              100
+            ],
+            "visible": false
+          }
+        },
+        "sound": false,
+        "speed": 4,
+        "tick": 6047,
+        "time_s": 100.783333333333,
+        "timeline_buttons": [],
+        "ui": {
+          "both_cards": false,
+          "cinema": true,
+          "detail": "选择一条指令查看各成员执行进度。",
+          "expanded": false,
+          "report": false,
+          "report_text": "截至 01:40\n\n日方指挥官\n可战 0 舰 / 4 机 · 沉没 2 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 37 发 · 剩余 120863 发 · 耗油 34.6 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 155 发 · 剩余 226655 发 · 耗油 109.0 千克\n岸防 1 炮组 · 失能 1 · 摧毁 1",
+          "status": "01:40   观战中 · 4.0 倍 · 正在追赶 8.8 秒",
+          "timeline": false
+        },
+        "yaw": -1.29014875156227
+      },
+      "actual_scale": 3.2698149682407873
+    }
+  ],
+  "console": [],
+  "errors": [],
+  "cleanup": {
+    "chromeClosed": true,
+    "serverExited": true,
+    "profileRemoved": true
+  },
+  "profile": "/Users/infinity/Desktop/Dev/game-pacific/.local/s08-chrome-Xr1etU",
+  "serverPid": 80546,
+  "identity": {
+    "url": "http://127.0.0.1:8765/index.html",
+    "title": "海空交锋 · 全单位 Showcase",
+    "dpr": 1,
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "cssWidth": 1280,
+      "cssHeight": 720,
+      "bufferWidth": 1280,
+      "bufferHeight": 720
+    },
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "uaData": {
+      "architecture": "arm",
+      "bitness": "64",
+      "brands": [
+        {
+          "brand": "Not-A.Brand",
+          "version": "99"
+        },
+        {
+          "brand": "Google Chrome",
+          "version": "157"
+        },
+        {
+          "brand": "Chromium",
+          "version": "157"
+        }
+      ],
+      "fullVersionList": [
+        {
+          "brand": "Not-A.Brand",
+          "version": "99.0.0.0"
+        },
+        {
+          "brand": "Google Chrome",
+          "version": "157.0.8103.39"
+        },
+        {
+          "brand": "Chromium",
+          "version": "157.0.8103.39"
+        }
+      ],
+      "mobile": false,
+      "platform": "macOS"
+    },
+    "validationFixture": "undefined"
+  },
+  "hardware": {
+    "cpu": "Apple M5",
+    "memoryBytes": 17179869184,
+    "macos": "26.6.2"
+  },
+  "peakFragments": 0,
+  "final": {
+    "buttons": {
+      "4 倍": [
+        127,
+        680
+      ],
+      "启用声音": [
+        839,
+        680
+      ],
+      "大和": [
+        450.5,
+        680
+      ],
+      "恢复信息": [
+        745,
+        680
+      ],
+      "战报": [
+        917,
+        680
+      ],
+      "指挥态势": [
+        651,
+        680
+      ],
+      "暂停": [
+        52,
+        680
+      ],
+      "港口兵器检视（不重置）": [
+        599,
+        104
+      ],
+      "结束": [
+        979,
+        680
+      ],
+      "继续导览": [
+        396,
+        104
+      ],
+      "自动电影": [
+        218,
+        680
+      ],
+      "自由观察": [
+        312,
+        680
+      ],
+      "跟随": [
+        573,
+        680
+      ],
+      "连续导览": [
+        146,
+        104
+      ],
+      "重开": [
+        1041,
+        680
+      ],
+      "重新演示": [
+        304,
+        104
+      ]
+    },
+    "camera_mode": "free",
+    "controls": {
+      "map": [
+        1137,
+        498.5
+      ],
+      "segment": [
+        146,
+        104
+      ],
+      "speed": [
+        127,
+        680
+      ],
+      "unit": [
+        450.5,
+        680
+      ],
+      "weapon": [
+        599,
+        104
+      ]
+    },
+    "effects": {
+      "active": 14,
+      "allocated": 228,
+      "dropped": 0,
+      "engine_sources": 4,
+      "last_sequence": 1269,
+      "materials": 228,
+      "peak_visible": 228,
+      "preempted": 0,
+      "render_instances": 228,
+      "shown_events": 1269,
+      "sound_sources": 0,
+      "visible_instances": 14
+    },
+    "ended": "",
+    "exercise": "guided",
+    "followed_id": "",
+    "fragments": 0,
+    "gallery_index": 0,
+    "generation": 1,
+    "label": "演示模式 · 真实立体飞行 · 地平线固定 / 滚转后拉杆",
+    "models": 19,
+    "modes": [
+      "guided",
+      "pair",
+      "four",
+      "maneuver",
+      "escort",
+      "fire",
+      "train_us_bank_turn",
+      "train_us_climb_dive",
+      "train_us_axial_roll",
+      "train_us_roll_reversal",
+      "train_us_split_s",
+      "train_jp_bank_turn",
+      "train_jp_climb_dive",
+      "train_jp_axial_roll",
+      "train_jp_roll_reversal",
+      "train_jp_split_s"
+    ],
+    "paused": false,
+    "pending_s": 8.92845714285703,
+    "pitch": 0.17,
+    "popups": {
+      "segment": {
+        "count": 16,
+        "metadata": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "position": [
+          0,
+          0
+        ],
+        "size": [
+          152,
+          440
+        ],
+        "visible": false
+      },
+      "speed": {
+        "count": 4,
+        "metadata": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "position": [
+          86,
+          600
+        ],
+        "size": [
+          82,
+          120
+        ],
+        "visible": false
+      },
+      "unit": {
+        "count": 19,
+        "metadata": [
+          "jp_air_1",
+          "jp_air_2",
+          "jp_air_3",
+          "jp_air_4",
+          "jp_bb",
+          "jp_dd",
+          "us_aa_01",
+          "us_aa_02",
+          "us_air_1",
+          "us_air_2",
+          "us_air_3",
+          "us_air_4",
+          "us_bb",
+          "us_coast_01",
+          "us_dd",
+          "us_pair_demo_1",
+          "us_pair_demo_2",
+          "us_sb2c_1",
+          "us_sb2c_2"
+        ],
+        "position": [
+          0,
+          0
+        ],
+        "size": [
+          100,
+          100
+        ],
+        "visible": false
+      },
+      "weapon": {
+        "count": 6,
+        "metadata": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "position": [
+          0,
+          0
+        ],
+        "size": [
+          100,
+          100
+        ],
+        "visible": false
+      }
+    },
+    "sound": false,
+    "speed": 4,
+    "tick": 6079,
+    "time_s": 101.316666666667,
+    "timeline_buttons": [],
+    "ui": {
+      "both_cards": false,
+      "cinema": true,
+      "detail": "选择一条指令查看各成员执行进度。",
+      "expanded": false,
+      "report": false,
+      "report_text": "截至 01:40\n\n日方指挥官\n可战 0 舰 / 4 机 · 沉没 2 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 37 发 · 剩余 120863 发 · 耗油 34.6 千克\n岸防 0 炮组 · 失能 0 · 摧毁 0\n\n美方指挥官\n可战 2 舰 / 8 机 · 沉没 0 · 坠毁 0\n失能 0 · 迫降退出 0 · 撤离 0\n消耗 155 发 · 剩余 226655 发 · 耗油 109.0 千克\n岸防 1 炮组 · 失能 1 · 摧毁 1",
+      "status": "01:40   观战中 · 4.0 倍 · 正在追赶 8.8 秒",
+      "timeline": false
+    },
+    "yaw": -1.32779756108608
+  },
+  "passed": true,
+  "endedUtc": "2026-11-10T21:31:29.123Z"
+}

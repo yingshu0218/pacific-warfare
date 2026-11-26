@@ -1,0 +1,54 @@
+{
+	"scope": "Native layout capture through existing action handlers; no browser, physical mouse, screen-reader or full accessibility validation",
+	"size": [
+		1280,
+		720
+	],
+	"views": [
+		{
+			"action": "Default observer view, live two-second battle state",
+			"cinema": false,
+			"file": "01-default.png",
+			"orders_expanded": false,
+			"report_visible": false,
+			"selected_unit": "jp_bb",
+			"time_s": 2.0
+		},
+		{
+			"action": "Tab opens real command history",
+			"cinema": false,
+			"file": "02-orders.png",
+			"orders_expanded": true,
+			"report_visible": false,
+			"selected_unit": "jp_bb",
+			"time_s": 2.0
+		},
+		{
+			"action": "Unit selector signal follows actual F6F state",
+			"cinema": false,
+			"file": "03-fighter.png",
+			"orders_expanded": false,
+			"report_visible": false,
+			"selected_unit": "us_air_3",
+			"time_s": 2.0
+		},
+		{
+			"action": "Existing report button signal opens current report",
+			"cinema": false,
+			"file": "04-report.png",
+			"orders_expanded": false,
+			"report_visible": true,
+			"selected_unit": "us_air_3",
+			"time_s": 2.0
+		},
+		{
+			"action": "H toggles existing cinema information state",
+			"cinema": true,
+			"file": "05-cinema.png",
+			"orders_expanded": false,
+			"report_visible": false,
+			"selected_unit": "us_air_3",
+			"time_s": 2.0
+		}
+	]
+}

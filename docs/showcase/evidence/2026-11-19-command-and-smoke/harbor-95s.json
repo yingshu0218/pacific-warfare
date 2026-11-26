@@ -1,0 +1,554 @@
+{
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "scenario": "s14_expansion_harbor",
+  "simulation_seconds": 95.0,
+  "step_rate_hz": 60,
+  "source": "FirstPlayableSession and ordinary expanded harbour missions; fixed-step observation of real events",
+  "observer": ".local/repairs/20261119_dual_command/observe.gd",
+  "reports": {
+    "world": ".local/validation/runs/20261119T081826-45e1421d/report.json",
+    "effect_budget_144": ".local/validation/runs/20261119T084412-2a3c5f10/report.json"
+  },
+  "baseline": {
+    "report": ".local/validation/runs/20261119T075632-7a203beb/report.json",
+    "summary": ".local/repairs/20261119_dual_command/before-summary.json"
+  },
+  "results": {
+    "time_s": 95.0,
+    "role_issuers": {
+      "jp_fleet_commander": [
+        "jp",
+        "fleet"
+      ],
+      "jp_air_commander": [
+        "jp",
+        "air"
+      ],
+      "us_fleet_commander": [
+        "us",
+        "fleet"
+      ],
+      "us_air_commander": [
+        "us",
+        "air"
+      ]
+    },
+    "issuers": {
+      "scenario_us_command": {
+        "faction": "us",
+        "domains": [
+          "aircraft"
+        ],
+        "orders": {
+          "patrol": 3
+        }
+      },
+      "scenario_jp_command": {
+        "faction": "jp",
+        "domains": [
+          "aircraft"
+        ],
+        "orders": {
+          "patrol": 1
+        }
+      },
+      "jp_fleet_commander": {
+        "faction": "jp",
+        "domains": [
+          "ship"
+        ],
+        "orders": {
+          "engage": 1,
+          "escort": 1,
+          "patrol": 1,
+          "retreat": 1
+        }
+      },
+      "jp_air_commander": {
+        "faction": "jp",
+        "domains": [
+          "aircraft"
+        ],
+        "orders": {
+          "intercept": 2,
+          "bombing": 1,
+          "escort": 2
+        }
+      },
+      "us_fleet_commander": {
+        "faction": "us",
+        "domains": [
+          "ship"
+        ],
+        "orders": {
+          "engage": 2,
+          "escort": 1,
+          "patrol": 1,
+          "retreat": 2
+        }
+      },
+      "us_air_commander": {
+        "faction": "us",
+        "domains": [
+          "aircraft"
+        ],
+        "orders": {
+          "intercept": 4,
+          "escort": 3,
+          "bombing": 2
+        }
+      },
+      "us_commander": {
+        "faction": "us",
+        "domains": [
+          "ground"
+        ],
+        "orders": {
+          "engage": 4
+        }
+      }
+    },
+    "postures": [
+      {
+        "faction": "jp",
+        "role": "fleet",
+        "state": {
+          "changed_s": 0.0166666666666667,
+          "changed_tick": 1,
+          "issuer_id": "jp_fleet_commander",
+          "posture": "offensive",
+          "reason": "posture_contact_ready"
+        },
+        "tick": 2
+      },
+      {
+        "faction": "jp",
+        "role": "air",
+        "state": {
+          "changed_s": 0.0166666666666667,
+          "changed_tick": 1,
+          "issuer_id": "jp_air_commander",
+          "posture": "offensive",
+          "reason": "posture_contact_ready"
+        },
+        "tick": 2
+      },
+      {
+        "faction": "us",
+        "role": "fleet",
+        "state": {
+          "changed_s": 0.0166666666666667,
+          "changed_tick": 1,
+          "issuer_id": "us_fleet_commander",
+          "posture": "offensive",
+          "reason": "posture_contact_ready"
+        },
+        "tick": 2
+      },
+      {
+        "faction": "us",
+        "role": "air",
+        "state": {
+          "changed_s": 0.0166666666666667,
+          "changed_tick": 1,
+          "issuer_id": "us_air_commander",
+          "posture": "balanced",
+          "reason": "posture_limited_force"
+        },
+        "tick": 2
+      },
+      {
+        "faction": "jp",
+        "role": "fleet",
+        "state": {
+          "changed_s": 12.0166666666667,
+          "changed_tick": 721,
+          "issuer_id": "jp_fleet_commander",
+          "posture": "balanced",
+          "reason": "posture_limited_force"
+        },
+        "tick": 722
+      },
+      {
+        "faction": "us",
+        "role": "fleet",
+        "state": {
+          "changed_s": 24.0166666666667,
+          "changed_tick": 1441,
+          "issuer_id": "us_fleet_commander",
+          "posture": "balanced",
+          "reason": "posture_limited_force"
+        },
+        "tick": 1442
+      },
+      {
+        "faction": "us",
+        "role": "fleet",
+        "state": {
+          "changed_s": 60.0166666666667,
+          "changed_tick": 3601,
+          "issuer_id": "us_fleet_commander",
+          "posture": "conservative",
+          "reason": "posture_limited_force"
+        },
+        "tick": 3602
+      },
+      {
+        "faction": "jp",
+        "role": "air",
+        "state": {
+          "changed_s": 84.0166666666667,
+          "changed_tick": 5041,
+          "issuer_id": "jp_air_commander",
+          "posture": "balanced",
+          "reason": "posture_limited_force"
+        },
+        "tick": 5042
+      }
+    ],
+    "ship_gunfire": {
+      "us_bb": {
+        "secondary": {
+          "jp_dd": 36,
+          "jp_bb": 24,
+          "jp_g4m_1": 6,
+          "jp_g4m_2": 52,
+          "jp_air_4": 112
+        },
+        "main": {
+          "jp_bb": 18
+        }
+      },
+      "us_dd": {
+        "main": {
+          "jp_dd": 25,
+          "jp_air_4": 9,
+          "jp_bb": 39,
+          "jp_g4m_2": 4
+        }
+      },
+      "jp_bb": {
+        "dedicated_aa": {
+          "us_air_3": 38,
+          "us_air_4": 48,
+          "us_air_2": 44,
+          "us_air_1": 48,
+          "us_sb2c_1": 2,
+          "us_pair_demo_1": 6,
+          "us_pair_demo_2": 2
+        },
+        "secondary": {
+          "us_dd": 18,
+          "us_bb": 20
+        },
+        "main": {
+          "us_bb": 21
+        }
+      },
+      "jp_dd": {
+        "main": {
+          "us_coast_01": 4
+        }
+      },
+      "jp_cv": {
+        "main": {
+          "us_b25_2": 8,
+          "us_pair_demo_2": 16
+        }
+      }
+    },
+    "actual_split": {
+      "us_bb": {
+        "ticks_apart": 5,
+        "shots": [
+          {
+            "tick": 5144,
+            "s": 85.7333333333333,
+            "entity": "us_bb",
+            "weapon": "us_bb/main_03",
+            "target": "jp_bb",
+            "data_mount_role": "main",
+            "data_projectile_id": "projectile_00001041"
+          },
+          {
+            "tick": 5149,
+            "s": 85.8166666666667,
+            "entity": "us_bb",
+            "weapon": "us_bb/secondary_01_port",
+            "target": "jp_air_4",
+            "data_mount_role": "secondary",
+            "data_projectile_id": "projectile_00001042"
+          }
+        ]
+      },
+      "jp_bb": {
+        "ticks_apart": 1,
+        "shots": [
+          {
+            "tick": 3089,
+            "s": 51.4833333333333,
+            "entity": "jp_bb",
+            "weapon": "jp_bb/heavy_aa_05",
+            "target": "us_air_1",
+            "data_mount_role": "dedicated_aa",
+            "data_projectile_id": "projectile_00000741"
+          },
+          {
+            "tick": 3090,
+            "s": 51.5,
+            "entity": "jp_bb",
+            "weapon": "jp_bb/secondary_02",
+            "target": "us_bb",
+            "data_mount_role": "secondary",
+            "data_projectile_id": "projectile_00000742"
+          }
+        ]
+      }
+    },
+    "ammo_mismatches": [],
+    "salvo_count": 76,
+    "salvo_mismatches": [],
+    "air_fire": {
+      "dogfight": {
+        "us": 206,
+        "jp": 23
+      },
+      "intercept": {
+        "jp": 194
+      }
+    },
+    "matched_bombs": 24,
+    "rejections": []
+  },
+  "effects_stress": {
+    "capacity": 144,
+    "allocated": 144,
+    "peak": 144,
+    "same_event_stream": true,
+    "same_orders": true,
+    "same_ship_and_air_stocks": true,
+    "same_postures": true,
+    "source": "Actual scenario with presentation consuming the same events, capacity reduced from ordinary 384 to 144, after freeze",
+    "maximum_active_by_type": {
+      "burst": 102,
+      "muzzle_smoke": 56,
+      "tracer": 56,
+      "shell": 11,
+      "impact_smoke": 21,
+      "impact_dust": 19,
+      "water": 38,
+      "foam": 18
+    }
+  },
+  "event_counts": {
+    "order_issued": 32,
+    "fired": 1069,
+    "salvo": 88,
+    "surface_impact": 172,
+    "hit": 130,
+    "airburst": 394,
+    "bomb_released": 24,
+    "bomb_contact": 24,
+    "bomb_explosion": 24
+  },
+  "examples": {
+    "surface_impact_ground": {
+      "data_ammo_id": "s10_us_127mm_51_common_mk15",
+      "data_caliber_m": 0.127,
+      "data_projectile_id": "projectile_00000037",
+      "data_surface": "ground",
+      "entity": "us_coast_01",
+      "kind": "surface_impact",
+      "point": [
+        -2906.57861328125,
+        32.0,
+        -3078.19018554688
+      ],
+      "s": 6.2,
+      "sequence": 287,
+      "target": "main",
+      "tick": 372,
+      "weapon": "us_coast_01/gun_01"
+    },
+    "surface_impact_sea": {
+      "data_ammo_id": "us_127mm_5in38_shell",
+      "data_caliber_m": 0.127,
+      "data_projectile_id": "projectile_00000005",
+      "data_surface": "sea",
+      "entity": "us_bb",
+      "kind": "surface_impact",
+      "point": [
+        -1270.02709960938,
+        0.0,
+        -1158.498046875
+      ],
+      "s": 7.31666666666667,
+      "sequence": 313,
+      "target": "",
+      "tick": 439,
+      "weapon": "us_bb/secondary_04_port"
+    },
+    "hit_ship": {
+      "data_ammo_id": "us_127mm_5in38_shell",
+      "data_caliber_m": 0.127,
+      "data_projectile_id": "projectile_00000003",
+      "data_surface": "ship",
+      "entity": "us_bb",
+      "kind": "hit",
+      "point": [
+        -1451.56298828125,
+        1.82825183868408,
+        -1200.07080078125
+      ],
+      "s": 7.53333333333333,
+      "sequence": 335,
+      "target": "jp_dd",
+      "tick": 452,
+      "weapon": "us_bb/secondary_02_port"
+    },
+    "hit_aircraft": {
+      "data_ammo_id": "us_127mm_m2_ball",
+      "data_caliber_m": 0.0127,
+      "data_projectile_id": "projectile_00000041",
+      "data_surface": "aircraft",
+      "entity": "us_air_3",
+      "kind": "hit",
+      "point": [
+        -247.536865234375,
+        1951.14404296875,
+        2721.28198242188
+      ],
+      "s": 7.91666666666667,
+      "sequence": 355,
+      "target": "jp_air_3",
+      "tick": 475,
+      "weapon": "us_air_3/wing_port_01"
+    },
+    "fired_jp_bb": {
+      "data_ammo_id": "jp_460mm_ap",
+      "data_caliber_m": 0.46,
+      "data_mount_role": "main",
+      "data_projectile_id": "projectile_00000246",
+      "entity": "jp_bb",
+      "kind": "fired",
+      "point": [
+        -1749.83386230469,
+        16.5963382720947,
+        -1803.20434570312
+      ],
+      "s": 10.5666666666667,
+      "sequence": 587,
+      "target": "us_bb",
+      "tick": 634,
+      "weapon": "jp_bb/main_02"
+    },
+    "airburst_time_fuze": {
+      "data_ammo_id": "jp_127mm_type89_shell",
+      "data_caliber_m": 0.127,
+      "data_projectile_id": "projectile_00000016",
+      "data_reason": "time_fuze",
+      "entity": "jp_bb",
+      "kind": "airburst",
+      "point": [
+        -43.3492622375488,
+        1819.50952148438,
+        2841.927734375
+      ],
+      "s": 10.8833333333333,
+      "sequence": 611,
+      "target": "",
+      "tick": 653,
+      "weapon": "jp_bb/heavy_aa_11"
+    },
+    "bomb_released": {
+      "data_ammo_id": "jp_type97_no6",
+      "data_order_id": "bombing_commander_1",
+      "data_projectile_id": "projectile_00000507",
+      "entity": "jp_g4m_1",
+      "kind": "bomb_released",
+      "point": [
+        -5300.35009765625,
+        1798.88000488281,
+        -2240.68212890625
+      ],
+      "s": 21.2833333333333,
+      "sequence": 1388,
+      "target": "",
+      "tick": 1277,
+      "weapon": "jp_g4m_1/bomb_rack"
+    },
+    "fired_us_bb": {
+      "data_ammo_id": "us_406mm_mk8_ap",
+      "data_caliber_m": 0.4064,
+      "data_mount_role": "main",
+      "data_projectile_id": "projectile_00000513",
+      "entity": "us_bb",
+      "kind": "fired",
+      "point": [
+        4002.64111328125,
+        14.8605041503906,
+        -221.484832763672
+      ],
+      "s": 22.2333333333333,
+      "sequence": 1420,
+      "target": "jp_bb",
+      "tick": 1334,
+      "weapon": "us_bb/main_02"
+    },
+    "airburst_tracer_self_destruct": {
+      "data_ammo_id": "s10_us_40mm_mkii_het_sd",
+      "data_caliber_m": 0.04,
+      "data_projectile_id": "projectile_00000551",
+      "data_reason": "tracer_self_destruct",
+      "entity": "us_aa_01",
+      "kind": "airburst",
+      "point": [
+        -5301.494140625,
+        6017.6123046875,
+        -10.2731637954712
+      ],
+      "s": 33.6666666666667,
+      "sequence": 1844,
+      "target": "",
+      "tick": 2020,
+      "weapon": "us_aa_01/gun_01"
+    },
+    "bomb_contact": {
+      "data_ammo_id": "jp_type97_no6",
+      "data_order_id": "bombing_commander_1",
+      "data_projectile_id": "projectile_00000507",
+      "data_surface": "ground",
+      "entity": "jp_g4m_1",
+      "kind": "bomb_contact",
+      "point": [
+        -5300.35009765625,
+        18.0,
+        -3779.74169921875
+      ],
+      "s": 41.1666666666667,
+      "sequence": 2007,
+      "target": "main",
+      "tick": 2470,
+      "weapon": "jp_g4m_1/bomb_rack"
+    },
+    "bomb_explosion": {
+      "data_ammo_id": "jp_type97_no6",
+      "data_caliber_m": 0.200025,
+      "data_order_id": "bombing_commander_1",
+      "data_projectile_id": "projectile_00000507",
+      "data_surface": "ground",
+      "entity": "jp_g4m_1",
+      "kind": "bomb_explosion",
+      "point": [
+        -5300.35009765625,
+        18.0,
+        -3779.74169921875
+      ],
+      "s": 41.1666666666667,
+      "sequence": 2009,
+      "target": "main",
+      "tick": 2470,
+      "weapon": "jp_g4m_1/bomb_rack"
+    }
+  }
+}

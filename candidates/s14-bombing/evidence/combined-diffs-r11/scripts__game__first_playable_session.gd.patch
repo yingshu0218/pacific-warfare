@@ -1,0 +1,99 @@
+--- S14_R8/scripts/game/first_playable_session.gd
++++ combined/scripts/game/first_playable_session.gd
+@@ -5,6 +5,8 @@
+ const SCENARIO: String = "res://data/scenarios/first_playable.json"
+ const FLEET_SUITE: String = "res://scripts/behaviors/fleet_formations/fleet_suite.gd"
+ var carrier_operations: SimulationModule
++var bomb_stores: BombStores
++var bombing_delegate: BombingMissionDelegate
+ var world: SimulationWorld
+ var catalog: DefinitionCatalog
+ var scenario: Dictionary = {}
+@@ -51,11 +53,26 @@
+ 		errors = BattlefieldTerrain.install(world, terrain_path)
+ 		if not errors.is_empty(): return errors
+ 	carrier_operations = null
++	bomb_stores = null
++	bombing_delegate = null
++	if scenario.has("bombing_goals"):
++		errors = _install_combat()
++		if not errors.is_empty(): return errors
++		var bomb_install: Dictionary = load("res://scripts/showcase/bombing/installer.gd").prepare(world)
++		if not bomb_install.errors.is_empty(): return bomb_install.errors
++		bomb_stores = bomb_install.stores
++		bombing_delegate = bomb_install.delegate
+ 	if scenario.has("carrier_operations"):
+ 		var installer: Script = load("res://scripts/showcase/expansion/operations_installer.gd")
+-		var installed: Dictionary = installer.install(world,scenario.carrier_operations)
++		var installed: Dictionary = installer.install(world,scenario.carrier_operations,bombing_delegate)
+ 		errors = installed.errors
+ 		carrier_operations = installed.operations
++	elif bombing_delegate != null:
++		var tasks: AircraftTasks = AircraftTasks.new()
++		tasks.bombing_delegate = bombing_delegate
++		for module: SimulationModule in [tasks,AircraftMotion.new()]:
++			var receipt: Dictionary = world.register_module(module)
++			if not receipt.accepted: return ["bombing_aircraft_install:"+str(receipt.reason)]
+ 	elif scenario.has("aircraft_tasks_script"):
+ 		var executor: Script = load(str(scenario.aircraft_tasks_script))
+ 		if executor == null: return ["aircraft_executor_unavailable"]
+@@ -65,20 +82,9 @@
+ 	else:
+ 		errors = AircraftSuite.install(world)
+ 	if not errors.is_empty(): return errors
+-	var combat: CombatConfig = CombatConfig.new()
+-	errors = combat.load_file("res://data/combat/showcase.json")
+-	if not errors.is_empty(): return errors
+-	if scenario.has("combat_overlay_path"):
+-		var overlay: Variant = JSON.parse_string(FileAccess.get_file_as_string(str(scenario.combat_overlay_path)))
+-		if not overlay is Dictionary: return ["combat_overlay_invalid"]
+-		for key: String in ["unit_profiles", "weapon_profiles", "ammo_profiles"]:
+-			combat.data[key].merge(overlay.get(key, {}), false)
+-		errors = combat.load_data(combat.data)
+-		if not errors.is_empty(): return errors
+-	# Explicit environment is shared by collision and fleet coastline navigation.
+-	combat.data.environment = scenario.environment.duplicate(true)
+-	errors = CombatSuite.install(world, combat)
+-	if not errors.is_empty(): return errors
++	if not scenario.has("bombing_goals"):
++		errors = _install_combat()
++		if not errors.is_empty(): return errors
+ 	errors = GroundSuite.install(world)
+ 	if not errors.is_empty(): return errors
+ 	var fleet: FleetConfig = FleetConfig.new()
+@@ -93,6 +99,11 @@
+ 	if not ResourceLoader.exists(FLEET_SUITE): return ["fleet_suite_unavailable"]
+ 	var installer: Script = load(FLEET_SUITE)
+ 	errors = installer.install(world, fleet, true)
++	if errors.is_empty() and scenario.has("bombing_goals"):
++		for goal: Dictionary in scenario.bombing_goals:
++			if str(goal.order_type) != "bombing": return ["bombing_commander_must_not_own_fighter_orders"]
++		var receipt: Dictionary = world.register_module(BombingCommander.new(scenario.bombing_goals))
++		if not receipt.accepted: return ["bombing_commander_install:"+str(receipt.reason)]
+ 	if errors.is_empty(): _clear_view()
+ 	return errors
+ 
+@@ -231,3 +242,23 @@
+ 		if file.ends_with(".json"): result.append(directory.path_join(file))
+ 	result.sort()
+ 	return result
++
++func _install_combat() -> PackedStringArray:
++	var combat: CombatConfig = CombatConfig.new()
++	var errors: PackedStringArray = combat.load_file("res://data/combat/showcase.json")
++	if not errors.is_empty(): return errors
++	if scenario.has("combat_overlay_path"):
++		var overlay: Variant = JSON.parse_string(FileAccess.get_file_as_string(str(scenario.combat_overlay_path)))
++		if not overlay is Dictionary: return ["combat_overlay_invalid"]
++		for key: String in ["unit_profiles", "weapon_profiles", "ammo_profiles"]:
++			combat.data[key].merge(overlay.get(key, {}), false)
++		for id: String in scenario.get("combat_profile_override_ids",[]):
++			if not overlay.get("unit_profiles",{}).has(id): return ["missing_explicit_combat_override:"+id]
++			combat.data.unit_profiles[id] = overlay.unit_profiles[id].duplicate(true)
++		errors = combat.load_data(combat.data)
++		if not errors.is_empty(): return errors
++	# Explicit environment is shared by collision and fleet coastline navigation.
++	combat.data.environment = scenario.environment.duplicate(true)
++	errors = CombatSuite.install(world, combat)
++	if not errors.is_empty(): return errors
++	return errors

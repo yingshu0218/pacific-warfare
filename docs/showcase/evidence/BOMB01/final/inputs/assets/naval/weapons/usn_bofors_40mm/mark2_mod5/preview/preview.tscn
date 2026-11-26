@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://assets/naval/weapons/usn_bofors_40mm/mark2_mod5/preview/preview.gd" id="1_preview"]
+[ext_resource type="PackedScene" path="res://assets/naval/weapons/usn_bofors_40mm/mark2_mod5/usn_bofors_40mm_quad_mk2_mod5.tscn" id="2_mount"]
+
+[node name="BoforsMountInspection" type="Node3D"]
+script = ExtResource("1_preview")
+
+[node name="Mount" parent="." instance=ExtResource("2_mount")]
+

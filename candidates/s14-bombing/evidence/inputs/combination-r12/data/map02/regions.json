@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "map_id": "island_harbor_expanded",
+  "coordinate_system": "metres; +Y up; -Z north",
+  "regions": [
+    {
+      "id": "civil_town",
+      "label": "沿岸小镇",
+      "bounds_xz_m": [
+        -5570,
+        -3820,
+        760,
+        790
+      ],
+      "focus_m": [
+        -5200,
+        18,
+        -3510
+      ],
+      "suggested_faction": "us"
+    },
+    {
+      "id": "civil_port",
+      "label": "民用港口",
+      "bounds_xz_m": [
+        -4700,
+        -3650,
+        1100,
+        1700
+      ],
+      "focus_m": [
+        -4250,
+        10,
+        -2950
+      ],
+      "suggested_faction": "us"
+    },
+    {
+      "id": "naval_base",
+      "label": "军港维修基地",
+      "bounds_xz_m": [
+        1900,
+        -5300,
+        2800,
+        2400
+      ],
+      "focus_m": [
+        3250,
+        12,
+        -4500
+      ],
+      "suggested_faction": "jp"
+    },
+    {
+      "id": "fuel_yard",
+      "label": "军港油库",
+      "bounds_xz_m": [
+        4140,
+        -5870,
+        400,
+        320
+      ],
+      "focus_m": [
+        4350,
+        18,
+        -5700
+      ],
+      "suggested_faction": "jp"
+    },
+    {
+      "id": "airfield",
+      "label": "陆基机场预留",
+      "bounds_xz_m": [
+        6100,
+        -3300,
+        1550,
+        1900
+      ],
+      "focus_m": [
+        6800,
+        8,
+        -2400
+      ],
+      "suggested_faction": "jp"
+    },
+    {
+      "id": "main_defence",
+      "label": "主岛岸防/高地",
+      "bounds_xz_m": [
+        -5650,
+        -4950,
+        2850,
+        1950
+      ],
+      "focus_m": [
+        -5200,
+        590,
+        -4630
+      ],
+      "suggested_faction": "us"
+    },
+    {
+      "id": "naval_defence",
+      "label": "军港岸防/高地",
+      "bounds_xz_m": [
+        1700,
+        -6000,
+        1800,
+        1700
+      ],
+      "focus_m": [
+        2950,
+        478,
+        -5700
+      ],
+      "suggested_faction": "jp"
+    }
+  ],
+  "shipping_channels": [
+    {
+      "id": "civil_entry",
+      "label": "民港进出航道",
+      "waypoints_m": [
+        [
+          -3300,
+          0,
+          -1400
+        ],
+        [
+          -3600,
+          0,
+          -2350
+        ],
+        [
+          -3850,
+          0,
+          -2790
+        ]
+      ],
+      "clearance_radius_m": 120,
+      "max_length_m": 130,
+      "max_beam_m": 22
+    },
+    {
+      "id": "naval_entry",
+      "label": "军港主航道",
+      "waypoints_m": [
+        [
+          3250,
+          0,
+          -1900
+        ],
+        [
+          3250,
+          0,
+          -3250
+        ],
+        [
+          3250,
+          0,
+          -4100
+        ]
+      ],
+      "clearance_radius_m": 220,
+      "max_length_m": 280,
+      "max_beam_m": 42
+    }
+  ],
+  "service_anchors": [
+    {
+      "id": "civil_water_service",
+      "position_m": [
+        -4200,
+        10,
+        -2790
+      ],
+      "support_surface": "ground_deck",
+      "roles": [
+        "service_anchor"
+      ],
+      "not_ground_deployable": true
+    },
+    {
+      "id": "naval_water_service",
+      "position_m": [
+        2600,
+        12,
+        -3850
+      ],
+      "support_surface": "ground_deck",
+      "roles": [
+        "service_anchor"
+      ],
+      "not_ground_deployable": true
+    }
+  ],
+  "carrier_operation_areas": [
+    {
+      "id": "carrier_jp",
+      "suggested_faction": "jp",
+      "bounds_xz_m": [
+        -9000,
+        8000,
+        7000,
+        3000
+      ],
+      "heading_rad": -1.5707963267948966,
+      "launch_lane_m": [
+        [
+          -8200,
+          0,
+          9500
+        ],
+        [
+          -2800,
+          0,
+          9500
+        ]
+      ],
+      "approach_centerline_m": [
+        [
+          -9000,
+          280,
+          9500
+        ],
+        [
+          -4000,
+          20,
+          9500
+        ]
+      ],
+      "hull_clearance_m": 350
+    },
+    {
+      "id": "carrier_us",
+      "suggested_faction": "us",
+      "bounds_xz_m": [
+        2000,
+        8000,
+        7000,
+        3000
+      ],
+      "heading_rad": -1.5707963267948966,
+      "launch_lane_m": [
+        [
+          2800,
+          0,
+          9500
+        ],
+        [
+          8200,
+          0,
+          9500
+        ]
+      ],
+      "approach_centerline_m": [
+        [
+          2000,
+          280,
+          9500
+        ],
+        [
+          7000,
+          20,
+          9500
+        ]
+      ],
+      "hull_clearance_m": 350
+    }
+  ],
+  "airfield": {
+    "id": "map02_east_airfield",
+    "status": "geometry_and_static_clearance_only",
+    "prototype": "island_airfield/scenes/woleai_1944.tscn",
+    "surface_height_m": 8.04,
+    "runway": {
+      "id": "rwy_18_36",
+      "center_m": [
+        6900,
+        8.04,
+        -2400
+      ],
+      "length_m": 1400,
+      "width_m": 58,
+      "heading_rad": 0,
+      "thresholds_m": [
+        [
+          6900,
+          8.04,
+          -3100
+        ],
+        [
+          6900,
+          8.04,
+          -1700
+        ]
+      ],
+      "clear_bounds_xz_m": [
+        6835,
+        -3250,
+        130,
+        1700
+      ]
+    },
+    "taxiway": {
+      "centerline_m": [
+        [
+          6650,
+          8.04,
+          -2780
+        ],
+        [
+          6650,
+          8.04,
+          -2020
+        ]
+      ],
+      "width_m": 16,
+      "connectors_m": [
+        [
+          [
+            6650,
+            8.04,
+            -2780
+          ],
+          [
+            6900,
+            8.04,
+            -2780
+          ]
+        ],
+        [
+          [
+            6650,
+            8.04,
+            -2020
+          ],
+          [
+            6900,
+            8.04,
+            -2020
+          ]
+        ]
+      ]
+    },
+    "parking_stands": [
+      {
+        "id": "park_1",
+        "position_m": [
+          6420,
+          8.04,
+          -2600
+        ],
+        "heading_rad": -1.5707963267948966,
+        "radius_m": 16
+      },
+      {
+        "id": "park_2",
+        "position_m": [
+          6500,
+          8.04,
+          -2600
+        ],
+        "heading_rad": -1.5707963267948966,
+        "radius_m": 16
+      },
+      {
+        "id": "park_3",
+        "position_m": [
+          6420,
+          8.04,
+          -2510
+        ],
+        "heading_rad": -1.5707963267948966,
+        "radius_m": 16
+      },
+      {
+        "id": "park_4",
+        "position_m": [
+          6500,
+          8.04,
+          -2510
+        ],
+        "heading_rad": -1.5707963267948966,
+        "radius_m": 16
+      },
+      {
+        "id": "park_5",
+        "position_m": [
+          6420,
+          8.04,
+          -2420
+        ],
+        "heading_rad": -1.5707963267948966,
+        "radius_m": 16
+      },
+      {
+        "id": "park_6",
+        "position_m": [
+          6500,
+          8.04,
+          -2420
+        ],
+        "heading_rad": -1.5707963267948966,
+        "radius_m": 16
+      },
+      {
+        "id": "park_7",
+        "position_m": [
+          6420,
+          8.04,
+          -2330
+        ],
+        "heading_rad": -1.5707963267948966,
+        "radius_m": 16
+      },
+      {
+        "id": "park_8",
+        "position_m": [
+          6500,
+          8.04,
+          -2330
+        ],
+        "heading_rad": -1.5707963267948966,
+        "radius_m": 16
+      }
+    ],
+    "approach_corridors": [
+      {
+        "id": "north",
+        "centerline_m": [
+          [
+            6900,
+            190,
+            -6500
+          ],
+          [
+            6900,
+            8.04,
+            -3100
+          ]
+        ],
+        "half_width_m": 80
+      },
+      {
+        "id": "south",
+        "centerline_m": [
+          [
+            6900,
+            190,
+            1700
+          ],
+          [
+            6900,
+            8.04,
+            -1700
+          ]
+        ],
+        "half_width_m": 80
+      }
+    ],
+    "obstacle_facility_ids": [
+      "air_hangar_0",
+      "air_hangar_1",
+      "airfield_control",
+      "airfield_barrack_0",
+      "airfield_barrack_1",
+      "airfield_tank_0",
+      "airfield_tank_1"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+	"aircraft_direct": {
+		"behind_hits": 1,
+		"damage_after_exit": 0,
+		"hits_after_exit": 0,
+		"reset_hits": 1
+	},
+	"aircraft_formal_path": {
+		"damage_after_exit": 0,
+		"exit_events": 1,
+		"hits_after_exit": 0,
+		"structure_after": 65.0,
+		"structure_before": 65.0
+	},
+	"aircraft_queued": {
+		"applied_damage_after_exit": 0,
+		"loss_events_after_exit": 0,
+		"real_hit_before_exit": 1,
+		"structure_20s_later": 64.9466666666667,
+		"structure_at_exit": 64.9466666666667
+	},
+	"ship_direct": {
+		"behind_hits": 1,
+		"damage_after_exit": 0,
+		"hits_after_exit": 0,
+		"reset_hits": 1
+	},
+	"ship_formal_path": {
+		"damage_after_exit": 0,
+		"exit_events": 1,
+		"hits_after_exit": 0,
+		"structure_after": 780.0,
+		"structure_before": 780.0
+	},
+	"ship_queued": {
+		"applied_damage_after_exit": 0,
+		"loss_events_after_exit": 0,
+		"real_hit_before_exit": 1,
+		"structure_20s_later": 779.970666666667,
+		"structure_at_exit": 779.970666666667
+	}
+}

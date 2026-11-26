@@ -1,0 +1,444 @@
+{
+  "scope": "Isolated CV01 model and static deck fit; not fleet/aviation operations",
+  "browserPlugin": "Browser plugin is not available; existing local Playwright workflow used",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "deviceScaleFactor": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "dedicated project identity",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "render buffer, viewport and DPR",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "hardware WebGL",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "keyboard camera controls actual model view",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera mk32_module",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered mk32_module",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera mk24_module",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered mk24_module",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera port_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered port_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera starboard_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered starboard_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera top",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered top",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera bow_quarter",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered bow_quarter",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera stern_quarter",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered stern_quarter",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera forward_battery",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered forward_battery",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera aft_battery",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered aft_battery",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera deck_installation",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered deck_installation",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera sb2c_installation",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered sb2c_installation",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera sb2c_low_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered sb2c_low_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model and camera elevator_lowered",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered elevator_lowered",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "isolated-model Chrome p95 <=33.3ms (rounding tolerance .1ms)",
+      "detail": {
+        "durationMs": 6002.5,
+        "frames": 725,
+        "meanMs": 8.274482758620689,
+        "p50Ms": 8.200000000000728,
+        "p95Ms": 11.299999999999272,
+        "p99Ms": 15.700000000000728,
+        "estimatedFps": 120.8534755792632,
+        "engineFrames": 1194,
+        "drawCalls": 478,
+        "primitives": 376755
+      }
+    },
+    {
+      "passed": true,
+      "name": "no page errors",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "console health",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "no engine error overlay",
+      "detail": null
+    }
+  ],
+  "views": [
+    {
+      "id": "mk32_module",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/mk32_module.png",
+      "state": {
+        "command_id": 1,
+        "draw_calls": 16,
+        "elevators": 3,
+        "frames": 42,
+        "index": 0,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 3260,
+        "sockets": 25,
+        "view": "mk32_module"
+      },
+      "bytes": 35318
+    },
+    {
+      "id": "mk24_module",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/mk24_module.png",
+      "state": {
+        "command_id": 2,
+        "draw_calls": 16,
+        "elevators": 3,
+        "frames": 70,
+        "index": 1,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 2668,
+        "sockets": 25,
+        "view": "mk24_module"
+      },
+      "bytes": 34790
+    },
+    {
+      "id": "port_side",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/port_side.png",
+      "state": {
+        "command_id": 3,
+        "draw_calls": 501,
+        "elevators": 3,
+        "frames": 100,
+        "index": 2,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 381699,
+        "sockets": 25,
+        "view": "port_side"
+      },
+      "bytes": 61756
+    },
+    {
+      "id": "starboard_side",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/starboard_side.png",
+      "state": {
+        "command_id": 4,
+        "draw_calls": 429,
+        "elevators": 3,
+        "frames": 130,
+        "index": 3,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 337082,
+        "sockets": 25,
+        "view": "starboard_side"
+      },
+      "bytes": 30502
+    },
+    {
+      "id": "top",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/top.png",
+      "state": {
+        "command_id": 5,
+        "draw_calls": 606,
+        "elevators": 3,
+        "frames": 159,
+        "index": 4,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 475209,
+        "sockets": 25,
+        "view": "top"
+      },
+      "bytes": 52486
+    },
+    {
+      "id": "bow_quarter",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/bow_quarter.png",
+      "state": {
+        "command_id": 6,
+        "draw_calls": 478,
+        "elevators": 3,
+        "frames": 188,
+        "index": 5,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 376755,
+        "sockets": 25,
+        "view": "bow_quarter"
+      },
+      "bytes": 60077
+    },
+    {
+      "id": "stern_quarter",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/stern_quarter.png",
+      "state": {
+        "command_id": 7,
+        "draw_calls": 535,
+        "elevators": 3,
+        "frames": 220,
+        "index": 6,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 412951,
+        "sockets": 25,
+        "view": "stern_quarter"
+      },
+      "bytes": 89528
+    },
+    {
+      "id": "forward_battery",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/forward_battery.png",
+      "state": {
+        "command_id": 8,
+        "draw_calls": 134,
+        "elevators": 3,
+        "frames": 249,
+        "index": 7,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 61006,
+        "sockets": 25,
+        "view": "forward_battery"
+      },
+      "bytes": 92517
+    },
+    {
+      "id": "aft_battery",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/aft_battery.png",
+      "state": {
+        "command_id": 9,
+        "draw_calls": 129,
+        "elevators": 3,
+        "frames": 278,
+        "index": 8,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 82756,
+        "sockets": 25,
+        "view": "aft_battery"
+      },
+      "bytes": 124059
+    },
+    {
+      "id": "deck_installation",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/deck_installation.png",
+      "state": {
+        "command_id": 10,
+        "draw_calls": 501,
+        "elevators": 3,
+        "frames": 310,
+        "index": 9,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 615733,
+        "sockets": 25,
+        "view": "deck_installation"
+      },
+      "bytes": 156904
+    },
+    {
+      "id": "sb2c_installation",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/sb2c_installation.png",
+      "state": {
+        "command_id": 11,
+        "draw_calls": 233,
+        "elevators": 3,
+        "frames": 340,
+        "index": 10,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 286719,
+        "sockets": 25,
+        "view": "sb2c_installation"
+      },
+      "bytes": 191662
+    },
+    {
+      "id": "sb2c_low_side",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/sb2c_low_side.png",
+      "state": {
+        "command_id": 12,
+        "draw_calls": 142,
+        "elevators": 3,
+        "frames": 371,
+        "index": 11,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 226742,
+        "sockets": 25,
+        "view": "sb2c_low_side"
+      },
+      "bytes": 139301
+    },
+    {
+      "id": "elevator_lowered",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV01/chrome/elevator_lowered.png",
+      "state": {
+        "command_id": 13,
+        "draw_calls": 140,
+        "elevators": 3,
+        "frames": 403,
+        "index": 12,
+        "model_id": "us_essex_cv9_1944_04_15",
+        "primitives": 64589,
+        "sockets": 25,
+        "view": "elevator_lowered"
+      },
+      "bytes": 137071
+    }
+  ],
+  "console": [],
+  "pageErrors": [],
+  "cleanup": {
+    "chromeClosed": true,
+    "serverClosed": true,
+    "privateProfileRemoved": true
+  },
+  "startedUtc": "2026-11-10T20:33:43.635Z",
+  "url": "http://127.0.0.1:64343/index.html",
+  "hardware": {
+    "cpu": "Apple M5",
+    "memoryBytes": 17179869184,
+    "os": "25.6.0"
+  },
+  "launch": "Private offscreen headful Chrome, hardware WebGL; no existing window accessed",
+  "browserVersion": "157.0.8103.39",
+  "identity": {
+    "title": "CV01 USS Essex · isolated inspection",
+    "url": "http://127.0.0.1:64343/index.html",
+    "canvas": [
+      1440,
+      900,
+      1440,
+      900
+    ],
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "status": ""
+  },
+  "cadence": {
+    "durationMs": 6002.5,
+    "frames": 725,
+    "meanMs": 8.274482758620689,
+    "p50Ms": 8.200000000000728,
+    "p95Ms": 11.299999999999272,
+    "p99Ms": 15.700000000000728,
+    "estimatedFps": 120.8534755792632,
+    "engineFrames": 1194,
+    "drawCalls": 478,
+    "primitives": 376755
+  },
+  "passed": true,
+  "finishedUtc": "2026-11-10T20:33:58.144Z"
+}

@@ -1,0 +1,617 @@
+{
+  "reports": [
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T130009-9b2ee411/report.json",
+      "sha256": "6a7e18ba66c84ef880d3c104fbd956a5515a3e7ec50fe7fda6f96660aa8b4586",
+      "passed": false,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r01",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T130047-5f7f4274/report.json",
+      "sha256": "6a88fc3a38dbd6f44efe7597639657ff0c273cb213c4d0ad7b982f1548122293",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r01",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T130131-0341d282/report.json",
+      "sha256": "1c2e7469b616a93e245b11e4198e246aed5b989fdf723665de1fd5e4f2fce30d",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r02",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T130202-62fbfc97/report.json",
+      "sha256": "d64a541f6b0132378003a606dcd1616f0b315181dadbf576f77c9e0812323bb5",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r02",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T130339-e5f50160/report.json",
+      "sha256": "ee16dfe9cf0e3e5f96632bfa61a3776fd558de4ae1713938556cc77d682de8c5",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r03",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T130416-cf18df88/report.json",
+      "sha256": "da3da8f8b6d2750d8a6e24cc175f2c46c7d8489dbe756f0d00c6e5357c836f42",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r03",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T135857-139367f8/report.json",
+      "sha256": "5800744ab92bfc0f8f4bc0342de4167287128ae1a6ea3bfad9c28b1c741eabbc",
+      "passed": false,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r04",
+      "error": "lock_timeout"
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T135937-06b0973e/report.json",
+      "sha256": "6affa1ce82d52913c5c395d63d8d9e4d39f232f6c8bd989380338c144850ca1a",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r04",
+      "error": "lock_timeout"
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T140238-3a24e2a2/report.json",
+      "sha256": "65a03623cca60c59f5baf3fbd763dd097e241c273e22806c6bc4de5f59df36d2",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r04",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T140400-e7156251/report.json",
+      "sha256": "02d4422e777a24c5778e0d0d379849d321c8cf71c11742b35cab9fa600002e48",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r04",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T140538-0d311b50/report.json",
+      "sha256": "cf51348f18b9539b50f292bc1f41a55f7e5bb58166b601861e85daf1821ee197",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r05",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T140649-6aa4c949/report.json",
+      "sha256": "00792673734483ba921810456c39d589ab8d4f98e19ed3e01aebb8c87f3eedcc",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r05",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T140817-4a8d8775/report.json",
+      "sha256": "d0053fa3c376f0c76651846367e8eb3919a9988538d9066ba714ca1b424027ba",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r05",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T141234-fb535e01/report.json",
+      "sha256": "44de987dbf1852a8ea989bbd16a1e546e9bbfbbe4b9b7e28ddf1df46912c6aa3",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/gun-baseline",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T141409-c2ce4b0f/report.json",
+      "sha256": "3aae642f85668991124a3a3fb488bc0dd378c26a3ec2a44b636026d3f939379a",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/gun-baseline",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T141555-f1cd41b4/report.json",
+      "sha256": "c22ca0b08c00b8cf757bc6a8592012bafcc0695221190b74620652ac0ccca65b",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r06",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T141633-1ea5dfd1/report.json",
+      "sha256": "0a8a12c8b476fc755f3a1beb2da1014ecf6928edccb41c905f9b45b4e38743b5",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r06",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T141704-176a8907/report.json",
+      "sha256": "1695d20124340a351ad57f8df214023fee75257cc78ceb1f11301650f0b75865",
+      "passed": true,
+      "action": "exec",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T141745-3e9cdfb3/report.json",
+      "sha256": "f143378bab23012258825a358df2e491f75af6ba1ce638f7dd0e48c407c1af06",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r06",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T142039-ae440ac5/report.json",
+      "sha256": "fe60feed0516cef7895ff53d0661c3bc6f578cdfe5387039e8c394025fa2cd8b",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r06",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T142106-92d2a962/report.json",
+      "sha256": "129a0f334a13c1fd12339b490f8830983b3d40e2cf0c1bdbafebef15050812df",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r07",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T142147-d5966a90/report.json",
+      "sha256": "b059f262d9360acee1fd5143b4021857013d9be90976fa508ca93e6921e22f10",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r07",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T142245-b663d709/report.json",
+      "sha256": "a3d0ed64703a7cb6db819242b83815faed8e6ea59b56ba5003dd72611518969f",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r08",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T142429-646bc680/report.json",
+      "sha256": "0d6699f8edf8d43e0361806f6b7803becde332f9c90a0861eea7ee87f6b298ed",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r08",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T142523-38537b61/report.json",
+      "sha256": "f4eb1162250d9b8db7c4203b1d94e6292ae1ccf6eed685316a80f6984073b30c",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r09",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T142704-dae03ca1/report.json",
+      "sha256": "365b39e2bc079ff21241112a6bdbd115fb6446eace52258462bec01a9b632182",
+      "passed": false,
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r09",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T142837-29e28e9b/report.json",
+      "sha256": "c937f6a6d350f54572e62a27fd0ad39956a3d97f6ba65d03c28ac414230306f3",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r10",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T143022-eb067cdd/report.json",
+      "sha256": "5b7d3b4199c782790398ccc4438f13834948eb779c0f2cfb97a87ba6fbcd66e6",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r10",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T143044-dda9adb0/report.json",
+      "sha256": "9a33dfdde56af148adac83a651a0840ba16a11ce4556497686d059030a432b22",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r10",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T143226-288ae860/report.json",
+      "sha256": "e766ee982f2e612f52a7976be67ee5c561e3ea811185200573ee49dc2aa88553",
+      "passed": false,
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r10",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T143414-827ad7e1/report.json",
+      "sha256": "ae46649e5a2260d5b88e3d8c800261cc19109322286713f546c41a3354214285",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r10",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T143948-230c26ba/report.json",
+      "sha256": "7b12dcc0fdb7e2ee9d7bf2da8f064fa24416ced0d46ce6ebc1d569bf092d7f46",
+      "passed": false,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r11",
+      "error": "lock_timeout"
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T144320-e8325e66/report.json",
+      "sha256": "985ab3c6a8056096b134b80df15a56734d563ef756ee8c2bb581657c507ae433",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r12",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T144519-20296b76/report.json",
+      "sha256": "dd524b2fe0e7c3ec1fd9562ace6cd3b63782fe98a475fb045c3b7ac0a5d526b7",
+      "passed": false,
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r12",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T145301-b44381fc/report.json",
+      "sha256": "e6971e72144de2651cd88be9100b6f88ac59846bedc85934e5511b7dd194806f",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r13",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T145420-ab94af80/report.json",
+      "sha256": "fc840e3e629f76ac1a87c73b92d9b2b2ef7fdc9a5e491eca87e6b84bdf95d027",
+      "passed": false,
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r13",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T145754-3cd2da00/report.json",
+      "sha256": "538c5a462d98d382f16e9d0155b29d2d99005ad400d2d9019c81c5747763b274",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r14",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T150044-46480f76/report.json",
+      "sha256": "f138d315acde569b955690a7841eb14837bf3fafa7e8aab913e7357ba126fb4c",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r14",
+      "error": "lock_timeout"
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T150551-e056f80f/report.json",
+      "sha256": "7abd02ca16329c274699d45b3165f4de68ef1dc7882b51e64800cbba7c4f9a90",
+      "passed": false,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r15",
+      "error": "lock_timeout"
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T150755-12bf6284/report.json",
+      "sha256": "720664924fbbec192783c60a9634ea292af57028d2b17965b09a17d0c2a7b14a",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r15",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T150830-dcfff552/report.json",
+      "sha256": "1d0f12e191feb3830b5f56cbdfed0538c6d74c5d7ec8e576aa778f8a3cd538da",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r15",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T151014-a40183dc/report.json",
+      "sha256": "956ba1293ff2b27b891a8925b1ec933db7a5962e0a293546d4767a469ef736d3",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r15",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T151221-16797e7d/report.json",
+      "sha256": "70c55c6e60789526b40e94696edaf899906e57e93196d5d695881031e91a058c",
+      "passed": false,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r15",
+      "error": "lock_timeout"
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T152622-be68d152/report.json",
+      "sha256": "e0beb09c0366198830f7e7076c3887d17ba7ee4917927d7d37a9b78746a58d51",
+      "passed": false,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r16",
+      "error": "lock_timeout"
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T152831-4fa35d4e/report.json",
+      "sha256": "ebeaf52155b7d555453367e3e0dd74b3c60252b999d70ab4b3e0a3e3986ff631",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T152901-fa1ac8cf/report.json",
+      "sha256": "aecae84f42084aa6151bb26eace3707564be421efd0c371f8fd013edf7ead056",
+      "passed": true,
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T152944-d0665903/report.json",
+      "sha256": "8db89d84c47f6ed4306d9c3735830d8b721f7a17b66fcadcef59d6637e58de22",
+      "passed": false,
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T153045-75a02c1e/report.json",
+      "sha256": "cd2493a4382171992584c50f57e94132aa66f9d9c128729d14da849fffa23426",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r17",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T153458-485b6221/report.json",
+      "sha256": "9a8ee38d23aa2a2b15bb6a6f31e57436629871ec89a7d14f90a7506728884eab",
+      "passed": true,
+      "action": "import",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T153539-703640f6/report.json",
+      "sha256": "20bfbe309ad1c7ec4792f115e5afdc77ea0b4717a7b429ba49b24339152d527b",
+      "passed": false,
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T153730-f31cd546/report.json",
+      "sha256": "f176b275b4dd4fe6907311a5e6cc7a44d000ef24a8e67816a2bb756fd490c664",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T153818-98e775ae/report.json",
+      "sha256": "a493d619e1f0b5a5a95cd636d5963504889d8a0417a659fd6f3a83149f3907e3",
+      "passed": true,
+      "action": "test",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T153901-9a980242/report.json",
+      "sha256": "5ca8c2e12604e324e38ca95bd306eb5bd2390d77b7ce86cfb8302b2b53f29ec1",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T154001-14fdbe95/report.json",
+      "sha256": "2dffb813ff3eebf97cec94058fa79c8846af7e18a80240ba2f3f89b509162085",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T154058-c3d7e93a/report.json",
+      "sha256": "433c5ebf60aa88bf061ddd91a66adffa2e730ef1d22d744593cfdb50befc6f5f",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T154213-00d71e22/report.json",
+      "sha256": "c58ed15a59cf1bad75d72051932af806c790e4041b139eb13ab8e42167cf9d67",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T154324-30005b58/report.json",
+      "sha256": "e42896817c34c9a69e587470a3cfc25031007202c67c4dc1982ca6dfec9888b2",
+      "passed": true,
+      "action": "godot",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "error": ""
+    },
+    {
+      "path": "docs/showcase/evidence/BOMB01/final/runs/20261111T154505-f0e8310b/report.json",
+      "sha256": "55d782147323c645603a7d6d17eee53313cc739a5023e85f22e75d55950d4a02",
+      "passed": true,
+      "action": "exec",
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/bomb01/r18",
+      "error": ""
+    }
+  ],
+  "verifier_child_groups": 134,
+  "all_reported_cleanup_ok": true,
+  "independent_signal_zero_group_probe": "all absent",
+  "unresolved_groups": [],
+  "native_manifest_sha256": "c2d6c95c81c5e6c1a586f5f4e0c2972ca0f735d498448c0eabb51e4ec9881c3a",
+  "native_surface_correspondence": [
+    {
+      "clip": "b25-bombing",
+      "same_input_headless_surface_events": [],
+      "captured_observed_unit_contact_snapshots": [],
+      "note": "Separate full headless scenario events; not added to the native recorder event array"
+    },
+    {
+      "clip": "d4y-bombing",
+      "same_input_headless_surface_events": [],
+      "captured_observed_unit_contact_snapshots": [],
+      "note": "Separate full headless scenario events; not added to the native recorder event array"
+    },
+    {
+      "clip": "sb2c-bombing",
+      "same_input_headless_surface_events": [],
+      "captured_observed_unit_contact_snapshots": [],
+      "note": "Separate full headless scenario events; not added to the native recorder event array"
+    },
+    {
+      "clip": "g4m-bombing",
+      "same_input_headless_surface_events": [],
+      "captured_observed_unit_contact_snapshots": [],
+      "note": "Separate full headless scenario events; not added to the native recorder event array"
+    },
+    {
+      "clip": "g4m-interception",
+      "same_input_headless_surface_events": [
+        {
+          "data": {
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "reason": "forced_ditch",
+            "surface": "sea",
+            "velocity_mps": [
+              0.0,
+              -137.572769165039,
+              -78.1049423217773
+            ]
+          },
+          "entity_id": "bomber",
+          "event_id": "event_00000451",
+          "kind": "unit_surface_contact",
+          "position_m": [
+            -5300.0,
+            0.0,
+            -1014.07250976562
+          ],
+          "sequence": 451,
+          "target_id": "",
+          "tick": 1850,
+          "time_s": 30.8333333333333,
+          "weapon_id": ""
+        },
+        {
+          "data": {
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "reason": "crash",
+            "surface": "sea",
+            "velocity_mps": [
+              0.0,
+              -125.336883544922,
+              -61.4453239440918
+            ]
+          },
+          "entity_id": "wing",
+          "event_id": "event_00000461",
+          "kind": "unit_surface_contact",
+          "position_m": [
+            -5080.0,
+            0.0,
+            -786.531860351562
+          ],
+          "sequence": 461,
+          "target_id": "",
+          "tick": 1874,
+          "time_s": 31.2333333333333,
+          "weapon_id": ""
+        }
+      ],
+      "captured_observed_unit_contact_snapshots": [
+        {
+          "event_tick": 1874,
+          "frame": 468,
+          "sample_tick": 1876,
+          "contact_surface": "sea"
+        }
+      ],
+      "note": "Separate full headless scenario events; not added to the native recorder event array"
+    },
+    {
+      "clip": "b25-interception",
+      "same_input_headless_surface_events": [
+        {
+          "data": {
+            "normal": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "reason": "crash",
+            "surface": "sea",
+            "velocity_mps": [
+              0.0,
+              -125.805442810059,
+              -60.97412109375
+            ]
+          },
+          "entity_id": "wing",
+          "event_id": "event_00000400",
+          "kind": "unit_surface_contact",
+          "position_m": [
+            240.0,
+            0.0,
+            2834.5234375
+          ],
+          "sequence": 400,
+          "target_id": "",
+          "tick": 2000,
+          "time_s": 33.3333333333333,
+          "weapon_id": ""
+        }
+      ],
+      "captured_observed_unit_contact_snapshots": [
+        {
+          "event_tick": 2000,
+          "frame": 499,
+          "sample_tick": 2000,
+          "contact_surface": "sea"
+        }
+      ],
+      "note": "Separate full headless scenario events; not added to the native recorder event array"
+    }
+  ],
+  "git_status": "No repository at task start; no Git recovery point created",
+  "temporary_browser_tabs_or_http_servers_created": false,
+  "native_windows": "Every render process exited via bounded verifier; no window requested to remain open"
+}

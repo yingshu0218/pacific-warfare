@@ -1,0 +1,41 @@
+{
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "runtime_before": {
+    "data/scenarios/s14_expansion_harbor.json": "6b8c8a3e347a31cadc3caa29a0a440ec9a2ff46e643a5bf5d7a5adae64abc109",
+    "scripts/bombing/commander.gd": "eedf992539b1afc5b9111a53ed6dfc6508c790798a79bb93edb1b58fd8bc6068",
+    "scripts/bombing/mission_delegate.gd": "f4a5af168a82ad4672e1d46c68634cf8e991fd96e7e7abb0b052e852f76948dd",
+    "scripts/command/commander/fleet_commander.gd": "7898b821a158179fcc150d1924961133a701acb9c9cd50cd847b4c74d6b0fc16",
+    "scripts/command/commander/fleet_planner.gd": "258ce0437ac649cbd0fa786d994dd81bc1e7fc72ab4d157732c8ea9f4d145552",
+    "scripts/game/first_playable_session.gd": "38c1f2d52c57900fec79d517250403354f94b21246936cad5a83ec73cefb0f14",
+    "scripts/showcase/all_units_showcase.gd": "2431278e3f11f79b9765131fe171e63d17b33eea922eb3063fbee6205a9d8c96",
+    "scripts/showcase/expansion/web_probe.gd": "5b599f4559cde19db109c3c4e934484adf276f342b9d0de48b81cb8761ea78c4",
+    "scripts/simulation/ship_motion/fleet_config.gd": "019dff2b527f2e31a596777674d0d9e0c833e74bd68ad0de892621c76cacf309",
+    "scripts/simulation/simulation_world.gd": "8c78d2db1b084593c23e22ccdcb4bc22f1b65b3e39e86ae122a21ab7f81dd9e9",
+    "scripts/simulation/state/battle_order.gd": "d4b00f71ac039b3dd40de9ab7b4cd7f53f056fdb1758a5eacd1c1beb9c1b4770",
+    "ui/observer_hud.gd": "49c587573ae549ca9b53cd6a065b5b282315ea5ab6deac9414adb002e766ae6f",
+    "ui/observer_text.gd": "82267a0d1ee47e5dfd18e6b7baf0d4bace5078fb8802ba07a4b78d33b07e11d6"
+  },
+  "runtime_new": [],
+  "runtime_updated": {
+    "data/scenarios/s14_expansion_harbor.json": "2c12709b8a7962535f8fcf8c961f242ce1cae41038ff7b80e0ff8a740c3d8631",
+    "scripts/bombing/commander.gd": "749c3e58c48e324fba631e42c372cef7bf9ba8037aa2712fd28b722e84b24398",
+    "scripts/bombing/mission_delegate.gd": "fcafde2c8136b44b48719e453e99592c25ed95b95bcbbbe9aef11e8564f94f60",
+    "scripts/command/commander/fleet_commander.gd": "ca5b46258a3fab31ea5b5e7d035c785b8ee8549431d0c5f3110ff867847544e9",
+    "scripts/command/commander/fleet_planner.gd": "e6c2446ef9d1c9623090032099db87f9d28bc9a0e68a6209ec4c52eaa2a2979b",
+    "scripts/game/first_playable_session.gd": "57dff4f9e20c2e0a9d52e4939f0d43f8328fd67587a258577525c82f0849c2c8",
+    "scripts/showcase/all_units_showcase.gd": "a16fa51b48bb45c90e4770ce29a168c2d7231cc0954c7f5fa1a4a157c379624f",
+    "scripts/showcase/expansion/web_probe.gd": "d15361b1b185a5af148ef5f7fbf85707626b9a5a31441e54ba3395c25d52fcbd",
+    "scripts/simulation/ship_motion/fleet_config.gd": "7e91c136f81d47a998d0b3e9cf5481edf073c6d5c2e1a20ff8bc5052389adf15",
+    "scripts/simulation/simulation_world.gd": "48008e891d67375e84a470b91ed6d712624765f15d7c2e5d045cb1e7a54d2abf",
+    "scripts/simulation/state/battle_order.gd": "1dd79abf5085a0be985a662d50e7e3dd0349a35d1ebb631e42817b03f4fb80b5",
+    "ui/observer_hud.gd": "509a468e8de184af18966c7151496af87825fda57f63a730be308e932b7ff480",
+    "ui/observer_text.gd": "1911113333224af54d0e393f54630d9d28171cb7474be9f1d279226ce55e4e48"
+  },
+  "task": "CMD02",
+  "tests_added": {
+    "tests/test_cmd02.gd": "e7cad1bcaf0bf22a6b27f9ebcc71975aad52f67617054002a85ff813db96a881",
+    "tests/test_cmd02.gd.uid": "4fb7393d1bc21ccd9eda962ceb188f8ba8b9e620d251c64c8ad5c1ac8d74c838",
+    "tests/test_cmd02_observer.gd": "3a2321d554d98dbb9995d87bff6dd5acd828fb89a5158419f5d1ac319fc0b4ab",
+    "tests/test_cmd02_observer.gd.uid": "7103b61d5b16853288799fbc970ee0b2a76bc473bdda49aaed2076e89d19191f"
+  }
+}

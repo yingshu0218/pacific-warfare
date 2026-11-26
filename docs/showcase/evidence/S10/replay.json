@@ -1,0 +1,24 @@
+{
+	"checks": [
+		{
+			"event_count": 2917,
+			"restart": 1,
+			"same_full_state_and_events": true,
+			"tick": 1800
+		},
+		{
+			"event_count": 2917,
+			"restart": 2,
+			"same_full_state_and_events": true,
+			"tick": 1800
+		},
+		{
+			"event_count": 2917,
+			"restart": 3,
+			"same_full_state_and_events": true,
+			"tick": 1800
+		}
+	],
+	"passed": true,
+	"scope": "Actual15-unit default battle,30simulated seconds; all units,orders,modules and events"
+}

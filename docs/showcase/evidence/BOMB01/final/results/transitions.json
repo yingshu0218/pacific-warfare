@@ -1,0 +1,71 @@
+{
+	"checks": [
+		{
+			"label": "probe finds a natural release window without a release schedule",
+			"passed": true
+		},
+		{
+			"label": "unified cancellation accepted immediately before natural release",
+			"passed": true
+		},
+		{
+			"label": "cancel immediately before window causes zero releases and clears requests",
+			"passed": true
+		},
+		{
+			"label": "near-window cancellation releases the sole task owner",
+			"passed": true
+		},
+		{
+			"label": "same aircraft can be reassigned after near-window cancellation",
+			"passed": true
+		},
+		{
+			"label": "reassignment has fresh state and the original finite inventory",
+			"passed": true
+		},
+		{
+			"label": "fuel immediately before window causes zero releases and clears requests",
+			"passed": true
+		},
+		{
+			"label": "real low-fuel condition reports its own abort reason",
+			"passed": true
+		},
+		{
+			"label": "insufficient actual stable run misses the target with no manufactured release",
+			"passed": true
+		},
+		{
+			"label": "real contact precedes command and natural release at distance 5500.0",
+			"passed": true
+		},
+		{
+			"label": "real contact precedes command and natural release at distance 17000.0",
+			"passed": true
+		},
+		{
+			"label": "changed initial distance delays detection, dispatch and actual release",
+			"passed": true
+		},
+		{
+			"label": "expired own contact aborts the real attack without enemy truth or replacement bombs",
+			"passed": true
+		}
+	],
+	"failures": 0,
+	"records": [
+		{
+			"command_s": 0.0333333333333333,
+			"contact_s": 0.0166666666666667,
+			"distance_m": 5500.0,
+			"release_s": 39.4
+		},
+		{
+			"command_s": 22.0333333333333,
+			"contact_s": 22.0,
+			"distance_m": 17000.0,
+			"release_s": 161.466666666667
+		}
+	]
+}

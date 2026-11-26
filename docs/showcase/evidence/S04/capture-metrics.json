@@ -1,0 +1,1613 @@
+{
+	"jp_a6m5a_1944": {
+		"draw_calls": 251.0,
+		"mesh_instances": 135,
+		"sockets": [
+			{
+				"barrel_count": 1,
+				"host_id": "upper_engine_cowl",
+				"id": "cowl_port_01",
+				"position_m": "(-0.16, 0.56, -3.94)"
+			},
+			{
+				"barrel_count": 1,
+				"host_id": "port_wing",
+				"id": "wing_port_01",
+				"position_m": "(-2.28, 0.04, -1.910809)"
+			},
+			{
+				"barrel_count": 1,
+				"host_id": "upper_engine_cowl",
+				"id": "cowl_starboard_01",
+				"position_m": "(0.16, 0.56, -3.94)"
+			},
+			{
+				"barrel_count": 1,
+				"host_id": "starboard_wing",
+				"id": "wing_starboard_01",
+				"position_m": "(2.28, 0.04, -1.910809)"
+			}
+		],
+		"triangles": 58056
+	},
+	"motion_frames": [
+		{
+			"lead": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "lead",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"distance_m": 0.0,
+						"elevator_rad": 0.0,
+						"energy_height_m": 2116.92830885165,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 373.0,
+						"fuel_used_kg": 0.0,
+						"propeller_phase_rad": 0.0,
+						"speed_mps": 110.0,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(0.0, 1500.0, 0.0)",
+				"rotation_rad": "(0.0, 0.0, 0.0)",
+				"target_id": "",
+				"task": {},
+				"velocity_mps": "(0.0, 0.0, -110.0)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"time_s": 0.0,
+			"wing": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "wing",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"distance_m": 0.0,
+						"elevator_rad": 0.0,
+						"energy_height_m": 2161.92830885165,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 373.0,
+						"fuel_used_kg": 0.0,
+						"propeller_phase_rad": 0.0,
+						"speed_mps": 110.0,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(90.0, 1545.0, 150.0)",
+				"rotation_rad": "(0.0, 0.0, 0.0)",
+				"target_id": "",
+				"task": {},
+				"velocity_mps": "(0.0, 0.0, -110.0)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			}
+		},
+		{
+			"lead": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "lead",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0
+					},
+					"aircraft_control": {
+						"altitude_m": 1800.0,
+						"avoiding": false,
+						"heading_rad": 0.773507216480559,
+						"nearest_friend_m": 203.857772827148,
+						"speed_mps": 102.8
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": -0.0117354422700627,
+						"distance_m": 419.085271954536,
+						"elevator_rad": -0.000643533349251463,
+						"energy_height_m": 2063.74207291821,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 372.766912893993,
+						"fuel_used_kg": 0.233087106007449,
+						"propeller_phase_rad": 4.28126240813108,
+						"speed_mps": 101.632384423342,
+						"throttle": 0.584981636323959,
+						"turn_rate_radps": 0.0699615674536738
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(-77.60616, 1537.102, -406.7436)",
+				"rotation_rad": "(0.090703, 0.38255, 0.627397)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 4277.7978515625,
+						"pair_index": 0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-37.78214, 9.205764, -93.89838)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"time_s": 4.0,
+			"wing": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "wing",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "wingman",
+						"section_role": "attack",
+						"slot": 1
+					},
+					"aircraft_control": {
+						"altitude_m": 1618.79345703125,
+						"avoiding": false,
+						"heading_rad": 0.395503632001022,
+						"nearest_friend_m": 203.857772827148,
+						"speed_mps": 100.316949710846
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.011328269255903,
+						"distance_m": 426.790402173996,
+						"elevator_rad": 0.000553708865865688,
+						"energy_height_m": 2095.49741470885,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 372.841864199127,
+						"fuel_used_kg": 0.158135800872893,
+						"propeller_phase_rad": 0.329740377188871,
+						"speed_mps": 103.225327710407,
+						"throttle": 0.232062292100923,
+						"turn_rate_radps": 0.05044685794848
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(78.75935, 1552.22, -276.4173)",
+				"rotation_rad": "(0.022583, 0.091194, 0.488241)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 439.150115966797,
+						"pair_index": 0,
+						"phase": "formation",
+						"reason": "wingman_station",
+						"role": "wingman",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-9.398088, 2.330894, -102.7702)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			}
+		},
+		{
+			"lead": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "lead",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0
+					},
+					"aircraft_control": {
+						"altitude_m": 1800.0,
+						"avoiding": false,
+						"heading_rad": 0.802138739451915,
+						"nearest_friend_m": 274.97119140625,
+						"speed_mps": 102.8
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": -0.00580102586574118,
+						"distance_m": 822.806339025497,
+						"elevator_rad": -0.000694300188985794,
+						"energy_height_m": 2087.8514496195,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 372.392651790846,
+						"fuel_used_kg": 0.607348209153977,
+						"propeller_phase_rad": 4.58084004603572,
+						"speed_mps": 100.638154962694,
+						"throttle": 0.665467249688062,
+						"turn_rate_radps": 0.0357588041912386
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(-267.9179, 1571.465, -760.3759)",
+				"rotation_rad": "(0.07961, 0.582916, 0.351709)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 3892.1279296875,
+						"pair_index": 0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-55.22194, 8.003358, -83.75275)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"time_s": 8.0,
+			"wing": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "wing",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "wingman",
+						"section_role": "attack",
+						"slot": 1
+					},
+					"aircraft_control": {
+						"altitude_m": 1648.36389160156,
+						"avoiding": false,
+						"heading_rad": 0.74738109101264,
+						"nearest_friend_m": 274.97119140625,
+						"speed_mps": 101.905513839722
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": -0.00134737135982812,
+						"distance_m": 832.428549408913,
+						"elevator_rad": 0.000341570165373929,
+						"energy_height_m": 2078.60462129643,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 372.565754424404,
+						"fuel_used_kg": 0.434245575595816,
+						"propeller_phase_rad": 5.68831134010513,
+						"speed_mps": 100.567473042937,
+						"throttle": 0.590791555227878,
+						"turn_rate_radps": 0.0712305431041986
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(-7.606966, 1562.943, -671.3724)",
+				"rotation_rad": "(0.02975, 0.354264, 0.630887)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 482.817596435547,
+						"pair_index": 0,
+						"phase": "formation",
+						"reason": "wingman_station",
+						"role": "wingman",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-34.87144, 2.991447, -94.2807)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			}
+		},
+		{
+			"lead": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "lead",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0
+					},
+					"aircraft_control": {
+						"altitude_m": 1800.0,
+						"avoiding": false,
+						"heading_rad": 0.820489605074257,
+						"nearest_friend_m": 317.990325927734,
+						"speed_mps": 102.8
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": -0.00321140750735251,
+						"distance_m": 1225.54846072197,
+						"elevator_rad": -0.000617274487099903,
+						"energy_height_m": 2119.25180842017,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 372.009390146266,
+						"fuel_used_kg": 0.99060985373372,
+						"propeller_phase_rad": 1.64506194634958,
+						"speed_mps": 100.786944722503,
+						"throttle": 0.653139699335987,
+						"turn_rate_radps": 0.0203957099713262
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(-508.4217, 1601.338, -1081.791)",
+				"rotation_rad": "(0.069085, 0.691691, 0.206621)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 3495.359375,
+						"pair_index": 0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-64.13265, 6.957321, -77.43775)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"time_s": 12.0,
+			"wing": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "wing",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "wingman",
+						"section_role": "attack",
+						"slot": 1
+					},
+					"aircraft_control": {
+						"altitude_m": 1674.06713867188,
+						"avoiding": false,
+						"heading_rad": 0.921155347359637,
+						"nearest_friend_m": 317.990325927734,
+						"speed_mps": 103.698123474121
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": -0.00528598099754385,
+						"distance_m": 1236.18640887737,
+						"elevator_rad": 0.000190970004124019,
+						"energy_height_m": 2101.64604551968,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 372.187128156319,
+						"fuel_used_kg": 0.812871843681121,
+						"propeller_phase_rad": 4.23014464407725,
+						"speed_mps": 101.549243715504,
+						"throttle": 0.673300015940418,
+						"turn_rate_radps": 0.0531008429281737
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(-196.1444, 1575.868, -1026.939)",
+				"rotation_rad": "(0.033874, 0.607843, 0.502716)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 516.309692382812,
+						"pair_index": 0,
+						"phase": "formation",
+						"reason": "wingman_station",
+						"role": "wingman",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-57.96128, 3.439184, -83.31213)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			}
+		},
+		{
+			"lead": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "lead",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0
+					},
+					"aircraft_control": {
+						"altitude_m": 1800.0,
+						"avoiding": false,
+						"heading_rad": 0.83280646844209,
+						"nearest_friend_m": 322.38916015625,
+						"speed_mps": 102.8
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": -0.00185097673407455,
+						"distance_m": 1629.23710238934,
+						"elevator_rad": -0.000534502949746073,
+						"energy_height_m": 2147.99817581796,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 371.635146229858,
+						"fuel_used_kg": 1.36485377014246,
+						"propeller_phase_rad": 1.9268217999431,
+						"speed_mps": 101.05697801747,
+						"throttle": 0.63097897996701,
+						"turn_rate_radps": 0.0121543633153898
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(-775.8701, 1627.305, -1382.966)",
+				"rotation_rad": "(0.059882, 0.755134, 0.1246)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 3093.78930664062,
+						"pair_index": 0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-69.13892, 6.047922, -73.45573)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"time_s": 16.0,
+			"wing": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "wing",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "wingman",
+						"section_role": "attack",
+						"slot": 1
+					},
+					"aircraft_control": {
+						"altitude_m": 1696.40991210938,
+						"avoiding": false,
+						"heading_rad": 0.972388509784717,
+						"nearest_friend_m": 322.38916015625,
+						"speed_mps": 104.208033294678
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": -0.00560079432015836,
+						"distance_m": 1644.87795734406,
+						"elevator_rad": 0.000110173352718193,
+						"energy_height_m": 2127.73956562242,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 371.807311724119,
+						"fuel_used_kg": 1.19268827588162,
+						"propeller_phase_rad": 4.00584139360897,
+						"speed_mps": 102.675625510917,
+						"throttle": 0.62805788731631,
+						"turn_rate_radps": 0.0312461026383079
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(-458.6616, 1590.233, -1339.216)",
+				"rotation_rad": "(0.036224, 0.775307, 0.316164)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 525.726318359375,
+						"pair_index": 0,
+						"phase": "formation",
+						"reason": "wingman_station",
+						"role": "wingman",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-71.81916, 3.718483, -73.28346)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			}
+		},
+		{
+			"lead": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "lead",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0
+					},
+					"aircraft_control": {
+						"altitude_m": 1800.0,
+						"avoiding": false,
+						"heading_rad": 0.841392775036166,
+						"nearest_friend_m": 306.149200439453,
+						"speed_mps": 102.8
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": -0.0010868099811153,
+						"distance_m": 2033.96404564381,
+						"elevator_rad": -0.000462000066885418,
+						"energy_height_m": 2173.07857832201,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 371.270761849293,
+						"fuel_used_kg": 1.72923815070759,
+						"propeller_phase_rad": 4.55340322915915,
+						"speed_mps": 101.299911787967,
+						"throttle": 0.611043255440594,
+						"turn_rate_radps": 0.00745703834685114
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(-1058.855, 1649.879, -1671.397)",
+				"rotation_rad": "(0.051922, 0.793469, 0.076877)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 2689.8486328125,
+						"pair_index": 0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-72.10834, 5.257354, -70.95365)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"time_s": 20.0,
+			"wing": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "wing",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "wingman",
+						"section_role": "attack",
+						"slot": 1
+					},
+					"aircraft_control": {
+						"altitude_m": 1715.8330078125,
+						"avoiding": false,
+						"heading_rad": 0.953069968014491,
+						"nearest_friend_m": 306.149200439453,
+						"speed_mps": 103.984999465942
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": -0.00458424007950573,
+						"distance_m": 2056.45960605145,
+						"elevator_rad": 0.0000561487426115406,
+						"energy_height_m": 2146.27277049295,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 371.4512819393,
+						"fuel_used_kg": 1.54871806070059,
+						"propeller_phase_rad": 4.25425616854325,
+						"speed_mps": 102.992775175363,
+						"throttle": 0.581991136574483,
+						"turn_rate_radps": 0.0137761427437116
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(-760.7532, 1605.44, -1618.141)",
+				"rotation_rad": "(0.037545, 0.863497, 0.143685)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 522.796569824219,
+						"pair_index": 0,
+						"phase": "formation",
+						"reason": "wingman_station",
+						"role": "wingman",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-78.23161, 3.866004, -66.87585)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			}
+		},
+		{
+			"lead": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "lead",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0
+					},
+					"aircraft_control": {
+						"altitude_m": 1800.0,
+						"avoiding": false,
+						"heading_rad": 0.847643214920935,
+						"nearest_friend_m": 286.454681396484,
+						"speed_mps": 102.8
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": -0.00064579878585504,
+						"distance_m": 2439.58597815037,
+						"elevator_rad": -0.000400262974535395,
+						"energy_height_m": 2194.82441594167,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 370.914877434014,
+						"fuel_used_kg": 2.08512256598587,
+						"propeller_phase_rad": 4.65111092086887,
+						"speed_mps": 101.505218851859,
+						"throttle": 0.594188367068059,
+						"turn_rate_radps": 0.00470728853158
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(-1351.254, 1669.502, -1951.823)",
+				"rotation_rad": "(0.045039, 0.817294, 0.048685)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 2284.54833984375,
+						"pair_index": 0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-73.95237, 4.570138, -69.37917)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "lead/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"time_s": 24.0,
+			"wing": {
+				"active": true,
+				"active_order_id": "capture_patrol",
+				"cease_fire": false,
+				"definition_id": "jp_a6m5a_1944",
+				"faction_id": "jp",
+				"id": "wing",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "lead",
+						"pair_index": 0,
+						"pair_leader_id": "lead",
+						"role": "wingman",
+						"section_role": "attack",
+						"slot": 1
+					},
+					"aircraft_control": {
+						"altitude_m": 1732.71691894531,
+						"avoiding": false,
+						"heading_rad": 0.904668632356591,
+						"nearest_friend_m": 286.454681396484,
+						"speed_mps": 103.699789733887
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": -0.00281824344472141,
+						"distance_m": 2468.1986874342,
+						"elevator_rad": 0.00000712602223344044,
+						"energy_height_m": 2160.3096644056,
+						"exited": false,
+						"fuel_capacity_kg": 373.0,
+						"fuel_kg": 371.109289357482,
+						"fuel_used_kg": 1.89071064251832,
+						"propeller_phase_rad": 2.51643369477472,
+						"speed_mps": 102.84524416297,
+						"throttle": 0.567882004967423,
+						"turn_rate_radps": 0.00183770511040536
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1,
+						"fire": false
+					}
+				},
+				"position_m": "(-1078.395, 1621.025, -1879.632)",
+				"rotation_rad": "(0.038042, 0.892655, 0.01927)",
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 518.131164550781,
+						"pair_index": 0,
+						"phase": "formation",
+						"reason": "wingman_station",
+						"role": "wingman",
+						"section_role": "attack",
+						"target_id": ""
+					},
+					"order_id": "capture_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": "(-80.03179, 3.911453, -64.47292)",
+				"weapons": {
+					"cowl_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_port_01",
+						"mount_id": "cowl_port_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"cowl_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type97_77mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/cowl_starboard_01",
+						"mount_id": "cowl_starboard_01",
+						"remaining_rounds": [
+							500
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type99_2_model4_20mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "wing/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							125
+						],
+						"train_rad": 0.0
+					}
+				}
+			}
+		}
+	],
+	"us_f6f5_1944": {
+		"draw_calls": 289.0,
+		"mesh_instances": 154,
+		"sockets": [
+			{
+				"barrel_count": 1,
+				"host_id": "port_wing",
+				"id": "wing_port_01",
+				"position_m": "(-2.35, -0.155, -1.934318)"
+			},
+			{
+				"barrel_count": 1,
+				"host_id": "port_wing",
+				"id": "wing_port_02",
+				"position_m": "(-2.73, -0.155, -1.896894)"
+			},
+			{
+				"barrel_count": 1,
+				"host_id": "port_wing",
+				"id": "wing_port_03",
+				"position_m": "(-3.11, -0.155, -1.859861)"
+			},
+			{
+				"barrel_count": 1,
+				"host_id": "starboard_wing",
+				"id": "wing_starboard_01",
+				"position_m": "(2.35, -0.155, -1.934318)"
+			},
+			{
+				"barrel_count": 1,
+				"host_id": "starboard_wing",
+				"id": "wing_starboard_02",
+				"position_m": "(2.73, -0.155, -1.896894)"
+			},
+			{
+				"barrel_count": 1,
+				"host_id": "starboard_wing",
+				"id": "wing_starboard_03",
+				"position_m": "(3.11, -0.155, -1.859861)"
+			}
+		],
+		"triangles": 58336
+	}
+}

@@ -1,0 +1,40 @@
+{
+  "run_id": "20261110T185147-9506a48c",
+  "owner": "DM01",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 68637,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "tools/dm01/encode_native.py"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 68640,
+      "process_group": 68640,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 6.4285,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T185147-9506a48c/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "DM01",
+    "pid": 68637,
+    "process_identity": "Wed Nov 11 02:51:47 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner DM01 --lock-timeout 45 --timeout 150 exec -- python3 tools/dm01/encode_native.py",
+    "token": "8a3c2c06ff4f417c8d16ffb2e386ae57",
+    "acquired_utc": "2026-11-10T18:51:47.815827+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

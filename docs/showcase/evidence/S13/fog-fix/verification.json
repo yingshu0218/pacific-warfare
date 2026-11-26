@@ -1,0 +1,236 @@
+{
+  "hardware": {
+    "cpu": "Apple M5",
+    "memoryBytes": 17179869184,
+    "os": "25.6.0",
+    "node": "v24.22.1"
+  },
+  "identity": {
+    "title": "S13 云海实际验证",
+    "url": "http://127.0.0.1:51743/index.html",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "cssWidth": 1280,
+      "cssHeight": 720
+    },
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "visible": "visible",
+    "focused": true
+  },
+  "phases": [
+    {
+      "label": "new_live_ship",
+      "seconds": 8,
+      "frames": 942,
+      "p50_ms": 8.3,
+      "p95_ms": 13.095,
+      "p99_ms": 17.777,
+      "fps_mean": 117.385,
+      "all_visible": true,
+      "all_focused": true
+    },
+    {
+      "label": "new_live_air",
+      "seconds": 8,
+      "frames": 944,
+      "p50_ms": 8.3,
+      "p95_ms": 10.4,
+      "p99_ms": 16.757,
+      "fps_mean": 117.512,
+      "all_visible": true,
+      "all_focused": true
+    }
+  ],
+  "chrome_checks": [
+    {
+      "name": "page identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1280x720 actual render buffer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hardware accelerated WebGL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "live sky and sea clocks agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Space freezes simulation and both materials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "paused sky/sea pixels remain identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4x dropdown resumes a shared simulation clock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart resets cloud and sea phase 0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart retains material resources 0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart resets cloud and sea phase 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart retains material resources 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart resets cloud and sea phase 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart retains material resources 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "three restarts keep node counts stable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no page runtime errors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no Godot/shader/WebGL errors",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "chrome_cleanup": {
+    "chromeClosed": true,
+    "serverClosed": true,
+    "profileRemoved": true
+  },
+  "runtime_changed_before_after": [
+    "res://scripts/presentation/environment/cloud_sea_environment.gd",
+    "res://scripts/presentation/ocean.gdshader"
+  ],
+  "native_frames": 48,
+  "native_paused_pixels_identical": true,
+  "sources": {
+    "scripts/presentation/ocean.gdshader": "5afec338285da856563f79f94171dee6d5b974509e29682353d453724fc1e98a",
+    "scripts/presentation/environment/cloud_sea_environment.gd": "e4b34f4d36d07443d3752152316b0bed6dac53999a07f649817e1844e6c5f99e",
+    "scripts/presentation/environment/README.md": "e866a9e068c5e8d9691db328efaf688a123e0fde95b5b73f874fe3df2cc64092",
+    "tests/cloud_sea_capture.gd": "3555c86951a83ba2bbed702fd47593c089079cd4c57dd1cc0c227b4111c081d4",
+    "tests/cloud_sea_web_probe.gd": "d1dbea0d5821566f8722ccf5f6c95511bd2865964afc121f612ba7a1637b922c",
+    "tools/s13/build_web.py": "a78d9f6cac5fa872f2dceb306eb9cd331bd7fec550986e66bee38af84e45a7c8",
+    "tools/s13/chrome_check.mjs": "9c9c73c8338f7a9edad221be5d27d0eedab0a004998f47f2e98263f8d612b5d7"
+  },
+  "native_vs_current_workspace": [
+    {
+      "path": "scripts/game/first_playable.gd",
+      "native_sha256": "a3d9256ce720be66055aa0b08817040044cceca97c5bb70bb83a8f3dc28f4913",
+      "workspace_sha256": "d72aee3bc8a86e983c526a5b4e0bda7395d1439dbc89aafac2fb95f2ee3eba49"
+    },
+    {
+      "path": "scripts/game/first_playable_session.gd",
+      "native_sha256": "c21f8b4539e2e106bbb7ab4fdd31fe478dc3d4ffb64a6ba2646849b1ea597d90",
+      "workspace_sha256": "c83e4a85f27253f5edae74972765934d8d8bedd9e052416f801f52240d7d011c"
+    },
+    {
+      "path": "scripts/presentation/cameras/observer_camera.gd",
+      "native_sha256": "a55b7a1d59569e260569f211b7faf9232b3ef43f51f9855e4ffc8204d3fbdbd0",
+      "workspace_sha256": "34ebf7d17fa18e00239311e38002a7ecd47841ce761c1ce88b618daad52870b4"
+    },
+    {
+      "path": "ui/observer_hud.gd",
+      "native_sha256": "ff8f66a3db53ee4a923d2394bfa39e7d3e454b156cd5f7f4fbadc14632723399",
+      "workspace_sha256": "a11b9a420e1ad81a97bf9e544e313e8814fa1c82bd5c9a35a4237b2d7e099771"
+    },
+    {
+      "path": "ui/observer_map.gd",
+      "native_sha256": "eb8151dbacd120fd97f11aecf4b544de8e67c82a6dbd09a48883543ce3c7ba7a",
+      "workspace_sha256": "dc8a662eba5bc96907ea2760d19818e888db0844bd3c31e04f2c2e8883f7d14d"
+    }
+  ],
+  "native_vs_web_pack": [
+    {
+      "path": "project.godot",
+      "native_sha256": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+      "export_sha256": "19a120b12f7c5004a4a4697f7209601343c3a75c88c2f9d810f5af0fc5578bc6"
+    }
+  ],
+  "source_note": "Both S13 production files agree across native capture, Chrome pack and current workspace. The isolated Web project intentionally changes title/entry/viewport. Concurrent S10 changes to shared sources after capture are listed separately and were not overwritten. These records are bounded snapshots, not final S10/S08 integration acceptance.",
+  "reports": [
+    {
+      "id": "20261110T161201-2f23ffa0",
+      "owner": "S13-fog-before",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "id": "20261110T161309-e4581a49",
+      "owner": "S13-fog-native",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "id": "20261110T161543-fc8cd14c",
+      "owner": "S13-fog-motion",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "id": "20261110T161639-fcff9da0",
+      "owner": "S13-fog-build",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "id": "20261110T161644-dfb34bbe",
+      "owner": "S13-fog-build",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "id": "20261110T161753-04b66396",
+      "owner": "S13-fog-chrome",
+      "passed": true,
+      "exit_code": 0
+    }
+  ],
+  "owned_groups_absent": [
+    43919,
+    43920,
+    44001,
+    44002,
+    44226,
+    44229,
+    44312,
+    44313,
+    44323,
+    44324,
+    44392
+  ],
+  "matching_ps_rows": []
+}

@@ -1,0 +1,467 @@
+{
+  "task": "AU01",
+  "scope": "current_authoring_pack_and_docs_not_game_integration",
+  "self_hash_excluded": true,
+  "files": [
+    {
+      "path": "assets/audio/au01/.gdignore",
+      "bytes": 81,
+      "sha256": "edd94ea9d1786f27ecfffade1254676d6dde38c5f7738362b411867f7f7d97e3"
+    },
+    {
+      "path": "assets/audio/au01/SOURCES.md",
+      "bytes": 2423,
+      "sha256": "ef0a15bc2a7a4d95bf67ce16e73003e62630ba19fb590a213d56a2248df41635"
+    },
+    {
+      "path": "assets/audio/au01/masters/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/audio/au01/masters/airburst_event_shared_v01.wav",
+      "bytes": 144044,
+      "sha256": "755285d3e096db8944044c8ebf7c1d6411c4f8d5c455686f980fba6da2beea71"
+    },
+    {
+      "path": "assets/audio/au01/masters/ambient_coast_loop_shared_v01.wav",
+      "bytes": 4608044,
+      "sha256": "ae55291e9f08ee9f1c2b39ed1319279e5178352d3628ea5a630a6547e6b6b07d"
+    },
+    {
+      "path": "assets/audio/au01/masters/ambient_wind_loop_shared_v01.wav",
+      "bytes": 3456044,
+      "sha256": "e520a5118aef532ae78b870c4ba955a999d27e6ee076a85c69b6dbae875e0cda"
+    },
+    {
+      "path": "assets/audio/au01/masters/autocannon_event_shared_v01.wav",
+      "bytes": 57644,
+      "sha256": "5d8ecd2a03ab51e515618cd90dd4784208007652f8fba29f01fb0a28fb5de5e7"
+    },
+    {
+      "path": "assets/audio/au01/masters/burning_loop_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "f4d560e4555dcb613bc82e2fd1d94d930d7dc88221307037b61d11e158372a48"
+    },
+    {
+      "path": "assets/audio/au01/masters/fighter_radial_power_cruise_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "5a378f2260eccc9ee6f6aed2cfb190639d1ded3f16ab04ed31f93a1a325db293"
+    },
+    {
+      "path": "assets/audio/au01/masters/fighter_radial_power_high_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "84449eb2f62f70645eff04f5574d6bf2775cb3cf2e5d1bc3fd39228676cd7a84"
+    },
+    {
+      "path": "assets/audio/au01/masters/fighter_radial_power_low_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "92f26397a0363329e95c4a87c403c43725918582cb9e852f0fb46302e2521dec"
+    },
+    {
+      "path": "assets/audio/au01/masters/gun_heavy_event_shared_v01.wav",
+      "bytes": 504044,
+      "sha256": "30e7bbf10da9471e6075b090a6d2b0a8d97117871705fd0df86664d8f710ca2c"
+    },
+    {
+      "path": "assets/audio/au01/masters/gun_heavy_event_shared_v02.wav",
+      "bytes": 504044,
+      "sha256": "283c0f28f880d9e7132b74c1f7a92eca87f294fc85bfa925a05d383fc0cd8315"
+    },
+    {
+      "path": "assets/audio/au01/masters/gun_medium_event_shared_v01.wav",
+      "bytes": 216044,
+      "sha256": "c4e997e31729bf3e142856602bf4db3c89e21b3b4ae849af5d06f50fb840ce56"
+    },
+    {
+      "path": "assets/audio/au01/masters/impact_land_event_shared_v01.wav",
+      "bytes": 129644,
+      "sha256": "500a1bc63b0df602483019a9f8cdd0381e43386075f9965c8c67cdeca1f874be"
+    },
+    {
+      "path": "assets/audio/au01/masters/impact_metal_event_shared_v01.wav",
+      "bytes": 144044,
+      "sha256": "f044b49f0bf13e9289b26bc3fc36b1c6387ff1252bdae2bca09ece1e2351f7fc"
+    },
+    {
+      "path": "assets/audio/au01/masters/impact_water_event_shared_v01.wav",
+      "bytes": 259244,
+      "sha256": "ed89a7a381c63a2d77cdc865ab50a4828536ac743d3fbd97d818e4c92cfdc43d"
+    },
+    {
+      "path": "assets/audio/au01/masters/machinegun_event_shared_v01.wav",
+      "bytes": 17324,
+      "sha256": "88b2c493d3f52d468cd58df061a7bf1ab052c3e5c3ae0b72e53cb354839b9958"
+    },
+    {
+      "path": "assets/audio/au01/masters/ship_propulsion_idle_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "abfebbccc2b3eac6ba27b89f907af66286478c2f4d725e9752d173d18bf06bc4"
+    },
+    {
+      "path": "assets/audio/au01/masters/ship_propulsion_run_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "e3f5f75d197c4b4d0c59ba6619315c5faa59ac92334cc89b9a65b21da5205c6f"
+    },
+    {
+      "path": "assets/audio/au01/runtime/airburst_event_shared_v01.wav",
+      "bytes": 96044,
+      "sha256": "60bad4cc694c43b07702c16aa44f0c64feb2611312a86d18d5d36424a29a5fb8"
+    },
+    {
+      "path": "assets/audio/au01/runtime/ambient_coast_loop_shared_v01.ogg",
+      "bytes": 569787,
+      "sha256": "577ff9ace22c9e27876952565a84396bf2aa63b7f8d12aea5a38425bbcf08465"
+    },
+    {
+      "path": "assets/audio/au01/runtime/ambient_wind_loop_shared_v01.ogg",
+      "bytes": 431302,
+      "sha256": "961d9db6ed6665b269caa306469fc8c40e86a13cf9139e63b2a1b3c62142f63e"
+    },
+    {
+      "path": "assets/audio/au01/runtime/autocannon_event_shared_v01.wav",
+      "bytes": 38444,
+      "sha256": "1df7a992fc857e2ccab52b636cb18532f1c36b9e265fe17d9265cb636028c7e8"
+    },
+    {
+      "path": "assets/audio/au01/runtime/burning_loop_shared_v01.wav",
+      "bytes": 384044,
+      "sha256": "197420e19242bc16c497ee00019af1e6faf15fd28534ff7719b278bb9dbe75e6"
+    },
+    {
+      "path": "assets/audio/au01/runtime/fighter_radial_power_cruise_shared_v01.wav",
+      "bytes": 384044,
+      "sha256": "e6fc99db58c022a15abc74a093d26b01ff81d071de8512387b2e57262a7ee5de"
+    },
+    {
+      "path": "assets/audio/au01/runtime/fighter_radial_power_high_shared_v01.wav",
+      "bytes": 384044,
+      "sha256": "cda12732e4e1e8d8590b75702b34638f08fc27e35ba351a52fc2bbf590cac196"
+    },
+    {
+      "path": "assets/audio/au01/runtime/fighter_radial_power_low_shared_v01.wav",
+      "bytes": 384044,
+      "sha256": "8f56a9c1a2f60821b3cc2d4a195d0384fb18ee7e2b810ca0c33c161552b3ae0f"
+    },
+    {
+      "path": "assets/audio/au01/runtime/gun_heavy_event_shared_v01.wav",
+      "bytes": 336044,
+      "sha256": "d547828b2d306b8734ee1f3195c9b6c2a51c481088eb1c904ccbd079e2321e54"
+    },
+    {
+      "path": "assets/audio/au01/runtime/gun_heavy_event_shared_v02.wav",
+      "bytes": 336044,
+      "sha256": "b38f6e8bb4efa2cb17f694a24f2b2c583b25d53b8af75f0798a4495a54adda6d"
+    },
+    {
+      "path": "assets/audio/au01/runtime/gun_medium_event_shared_v01.wav",
+      "bytes": 144044,
+      "sha256": "34f1bd1c356c332f0a9fa1f86132776dfbeb6a8bfbbbe82d5f06588a543d85b0"
+    },
+    {
+      "path": "assets/audio/au01/runtime/impact_land_event_shared_v01.wav",
+      "bytes": 86444,
+      "sha256": "e0496ae51b61019308113f11057e5fa4b4fa5587c79068a6992ee33f645eb176"
+    },
+    {
+      "path": "assets/audio/au01/runtime/impact_metal_event_shared_v01.wav",
+      "bytes": 96044,
+      "sha256": "fdd49fcfe1a07192c32e9f9892906abc433c868bdbd320c9120097ccbbf4d5c3"
+    },
+    {
+      "path": "assets/audio/au01/runtime/impact_water_event_shared_v01.wav",
+      "bytes": 172844,
+      "sha256": "3ebea4065485892909c57a7468579c14e76cc9ca47e6cba5e49bfa21ac6f8e79"
+    },
+    {
+      "path": "assets/audio/au01/runtime/machinegun_event_shared_v01.wav",
+      "bytes": 11564,
+      "sha256": "84165735ae294f0b5e0ce77a473879e71d0f0401706fe80f2f66a3fba942f695"
+    },
+    {
+      "path": "assets/audio/au01/runtime/ship_propulsion_idle_shared_v01.wav",
+      "bytes": 384044,
+      "sha256": "25fe1384cf09c9722f138a3d12b7794ae9f38a95e915dcea8bf00a95afce8689"
+    },
+    {
+      "path": "assets/audio/au01/runtime/ship_propulsion_run_shared_v01.wav",
+      "bytes": 384044,
+      "sha256": "a53a79286e617774f8963eb00bad1e3ff0cf44de3be57fcdfc748e440893e326"
+    },
+    {
+      "path": "assets/audio/au01/source/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "assets/audio/au01/source/airburst_event_shared_v01.wav",
+      "bytes": 144044,
+      "sha256": "2d05a5847f5cb4ca0957881f3402eb0e4bbd91de02ab31c8fa55a567d6318866"
+    },
+    {
+      "path": "assets/audio/au01/source/ambient_coast_loop_shared_v01.wav",
+      "bytes": 4608044,
+      "sha256": "67ca00cb37d851a3c437d747767d2c680a36333a2d372b0879919f6306560fc8"
+    },
+    {
+      "path": "assets/audio/au01/source/ambient_wind_loop_shared_v01.wav",
+      "bytes": 3456044,
+      "sha256": "44d07cff9d97e01a6b4b2db28d3fd921d97449d700d99b4952aa8edd195a5313"
+    },
+    {
+      "path": "assets/audio/au01/source/autocannon_event_shared_v01.wav",
+      "bytes": 57644,
+      "sha256": "6697a20697eec577b2242d6efbe0f9109c071faeef3643d57a0d629060287530"
+    },
+    {
+      "path": "assets/audio/au01/source/burning_loop_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "e86297453a7387576b0994ffcf89633cde04d336cb5d18f6a3b2bc96f1dfb978"
+    },
+    {
+      "path": "assets/audio/au01/source/fighter_radial_power_cruise_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "505afae626fc4bb1cc3ddadbafaf575f074b3995d0a7cf610ff523e215551ca6"
+    },
+    {
+      "path": "assets/audio/au01/source/fighter_radial_power_high_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "6fd259cee2b9866469ba469c54bbe1d7c61b853f503db830e3864628f2b5ba88"
+    },
+    {
+      "path": "assets/audio/au01/source/fighter_radial_power_low_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "e9a530aef70b1c2a2c1cbebe616f1608e9c933b0c71d3a96699a4a8ce47cbd4f"
+    },
+    {
+      "path": "assets/audio/au01/source/gun_heavy_event_shared_v01.wav",
+      "bytes": 504044,
+      "sha256": "e0348dae8e572f9ef2b3ff6a8695d446649b18b62c4f04fdccf487cd46182dfa"
+    },
+    {
+      "path": "assets/audio/au01/source/gun_heavy_event_shared_v02.wav",
+      "bytes": 504044,
+      "sha256": "8cfd2b2756f8534a093c671d72a0405ea4cc137d710b08b9109c01108071caec"
+    },
+    {
+      "path": "assets/audio/au01/source/gun_medium_event_shared_v01.wav",
+      "bytes": 216044,
+      "sha256": "4076530e9d1bd90da8ef0678086dc24804e605301e84b578a3000a571394d025"
+    },
+    {
+      "path": "assets/audio/au01/source/impact_land_event_shared_v01.wav",
+      "bytes": 129644,
+      "sha256": "ccd9005d436ddb44a1022e5a3716c5cc58de969a6204cbb15a2731ec79e81c71"
+    },
+    {
+      "path": "assets/audio/au01/source/impact_metal_event_shared_v01.wav",
+      "bytes": 144044,
+      "sha256": "4752b4e1e3dcb54bef21314addb8c74076ddaf7a8ce85b37c855ae5f34967055"
+    },
+    {
+      "path": "assets/audio/au01/source/impact_water_event_shared_v01.wav",
+      "bytes": 259244,
+      "sha256": "df8b6fe9a22513f03c21ef90f95e64c3e9bc27a1a2464fe88406247afcbb19ed"
+    },
+    {
+      "path": "assets/audio/au01/source/machinegun_event_shared_v01.wav",
+      "bytes": 17324,
+      "sha256": "24825ddfe91c51d9d8560ccf12c986e2258a5e9b408f3b49dd9c626ee727a361"
+    },
+    {
+      "path": "assets/audio/au01/source/recipe.json",
+      "bytes": 5804,
+      "sha256": "48b79c4fd2fa5188bfdb88795dadb57d92cd53c10a0338283fbc02f919819537"
+    },
+    {
+      "path": "assets/audio/au01/source/ship_propulsion_idle_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "7c3eefdbd4b9e8257b0152269cedde72fe2cd10b854d5ebd1b290f8e610d64e3"
+    },
+    {
+      "path": "assets/audio/au01/source/ship_propulsion_run_shared_v01.wav",
+      "bytes": 576044,
+      "sha256": "4627f160f7c0829306f7f2fcafa2dc7d36aa24f5c644f15ff6a91441214a4527"
+    },
+    {
+      "path": "docs/audio/AU01-delivery.md",
+      "bytes": 5735,
+      "sha256": "a898feee4766cf1575211e7d43f72a7b8ae346cc8290263e63bfdd39236834ad"
+    },
+    {
+      "path": "docs/audio/asset-manifest-plan.json",
+      "bytes": 67445,
+      "sha256": "261cb035bb14eaa36e10bfd035d5fa07462f1075372a90573c50f53fa053b9a5"
+    },
+    {
+      "path": "docs/audio/au01/evidence/first-passing-check.json",
+      "bytes": 83147,
+      "sha256": "fe987e14e04c91b92412fbab838db06b8f750fc17f055c31032dadd230b71412"
+    },
+    {
+      "path": "docs/audio/au01/evidence/initial-check-failed.json",
+      "bytes": 79600,
+      "sha256": "51671cb33481b31a12fb4de5c032a287162ab11327a323de8e14e20be77764c1"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T153749-2a4bcc11/01-output.log",
+      "bytes": 1122,
+      "sha256": "a9cad1a17b3a07658385471566c7d8d13341f16033da234e761d9166727458fa"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T153749-2a4bcc11/report.json",
+      "bytes": 1400,
+      "sha256": "d113d8f2d2d2cb46026326a2cc3d25e32bfbbc11fec11fdeafaf535a754a0ca7"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T154118-d0380165/01-output.log",
+      "bytes": 567,
+      "sha256": "64f11453882df6c16b78127b21d142805b23f4718e6ec6bec0f89265f84212ea"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T154118-d0380165/report.json",
+      "bytes": 1398,
+      "sha256": "68b2cc3273dc3e08b61598a87ff3f0b70b6862b9052042d4bfb286f8eb88af65"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T154231-f9dd54f7/01-output.log",
+      "bytes": 2360,
+      "sha256": "dd14ac1de54debb4310aad82b972654a7e2857d66682ee435f217dc314025541"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T154231-f9dd54f7/report.json",
+      "bytes": 1400,
+      "sha256": "6d34afa72c8ced380c0ffdf02ce250392215b6a4007ca397d3996191c9476f16"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T154414-90faea5c/report.json",
+      "bytes": 999,
+      "sha256": "3e4f31e9bb222d4db8ebc455f7f4b79400b9a229d09dfa8f7b19226d256daa75"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T154527-6448dfdd/01-output.log",
+      "bytes": 587,
+      "sha256": "30f3c952560bc40a7959133110b3b0c0ebaea120c337e37aa66569c7e9989a57"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T154527-6448dfdd/report.json",
+      "bytes": 1636,
+      "sha256": "98b7d792387e4e01782bff588a98b6d3d45767c98b72cf1bde1b9f89fd3f16ef"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T154709-40b5cc55/01-output.log",
+      "bytes": 567,
+      "sha256": "4ea0fcc77d21377efb4484c9a0fd0ef9780b87d4924bc3a4c3d73389e0c6229b"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T154709-40b5cc55/report.json",
+      "bytes": 1416,
+      "sha256": "ea50f8358b81f21d94309daedf39c1bb710e9aa3de0d87bc67d52f08b89707f8"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T154846-40430216/01-output.log",
+      "bytes": 2079,
+      "sha256": "bfedef5533fe67e0d20db42b50aaf7c6667f9f3f287c360f8d7208dd6dc1429d"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T154846-40430216/report.json",
+      "bytes": 1594,
+      "sha256": "3a90e83cd922b1e40181fa6c2ab3546f179733e30bb8e67407f63d488eb95855"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T155113-d58c836d/01-output.log",
+      "bytes": 3274,
+      "sha256": "b867a75090d6a3174d0de21b1bd830353e5d687a2c14b8ad58669f9fde1e7bc9"
+    },
+    {
+      "path": "docs/audio/au01/evidence/verification/20261110T155113-d58c836d/report.json",
+      "bytes": 2325,
+      "sha256": "cf3cd53ae23b88f7a1a66b5a1300f89d2a6a8f76e183a42e5734067ae47d0e54"
+    },
+    {
+      "path": "docs/audio/au01/preview/01_naval_salvo.ogg",
+      "bytes": 831585,
+      "sha256": "27c366eed2af822c8dc44bd059df3fa42a2704a30861e21e4d9e85b7267e395a"
+    },
+    {
+      "path": "docs/audio/au01/preview/01_naval_salvo.wav",
+      "bytes": 6144044,
+      "sha256": "796f773228461a8950123b24911e70189f2a8b1c87a250ecc2e8be9866a78aa7"
+    },
+    {
+      "path": "docs/audio/au01/preview/02_aa_screen.ogg",
+      "bytes": 968378,
+      "sha256": "c5259bff2994157ff58eb35c8d57d57eb715d4f5a45027e60a672529817de9d7"
+    },
+    {
+      "path": "docs/audio/au01/preview/02_aa_screen.wav",
+      "bytes": 6144044,
+      "sha256": "aff2e0df2042953e48b9f9cd6c71ba46f9c853970d067c830cb366c41a048582"
+    },
+    {
+      "path": "docs/audio/au01/preview/03_dogfight.ogg",
+      "bytes": 785062,
+      "sha256": "8f88c1ffea18a0c420261a9c57e19a7e560db24992f5a4dd939fb73332121dce"
+    },
+    {
+      "path": "docs/audio/au01/preview/03_dogfight.wav",
+      "bytes": 6144044,
+      "sha256": "1711a617a67b1ab19161b49dada5c15ea12b444dfa2dfaedfb252973d9e64d80"
+    },
+    {
+      "path": "docs/audio/au01/preview/04_harbor_shore.ogg",
+      "bytes": 1071543,
+      "sha256": "5f47244a39af407c74473c5cdaa2b590c68904fedf3d9796d43b9a37fd9b4036"
+    },
+    {
+      "path": "docs/audio/au01/preview/04_harbor_shore.wav",
+      "bytes": 6144044,
+      "sha256": "8fa78829e945668d5f19f6ed7135a7351515f15e46fa9b23dfc14796fbf4b37a"
+    },
+    {
+      "path": "docs/audio/au01/preview/README.md",
+      "bytes": 1637,
+      "sha256": "7fa2bef653e1a20292e12d9bf2524fd0c48fbac8f1d485d4afd10544f31b6092"
+    },
+    {
+      "path": "docs/audio/au01/preview/timelines.json",
+      "bytes": 34351,
+      "sha256": "e691d2d11c4604f849bb309bcc110523e0baae25ee6914cff32ff404a963044b"
+    },
+    {
+      "path": "docs/audio/au01-asset-manifest.json",
+      "bytes": 24432,
+      "sha256": "ae05e63a54b776f52e27c7330229098f126ff87c947bd3f34e1ec16171f8776f"
+    },
+    {
+      "path": "docs/audio/au01-checks.json",
+      "bytes": 83325,
+      "sha256": "7c76af6c6bbbda41e7cbdecb4b73f918739ca7e610681a8bbf1aaaff3b32ce41"
+    },
+    {
+      "path": "docs/audio/au01-cleanup.json",
+      "bytes": 4504,
+      "sha256": "de21d2b9202aa3429992a7cef8d638bdfdd00b01e92335d15ff15e3f60255831"
+    },
+    {
+      "path": "docs/audio/production-plan.md",
+      "bytes": 36233,
+      "sha256": "37c08238579c14ab8cd9e9be560aebd7c2f2227f0720f4ccd73d1965643e38d7"
+    },
+    {
+      "path": "docs/showcase/deliveries/S11.md",
+      "bytes": 13193,
+      "sha256": "652893c289319729f80b65ab3ba4a4d664804a2d27b0a40bfd9d97ce4ce2c4c3"
+    },
+    {
+      "path": "tools/audio/build_au01.py",
+      "bytes": 26794,
+      "sha256": "4d064cfaed04d750e78cd75d6801247c8b8ff864179bafa37987381c3afc0215"
+    },
+    {
+      "path": "tools/audio/check_au01.py",
+      "bytes": 13671,
+      "sha256": "60f0d6451dd43dd2e3f7b8ef9e1add58d5400d5868d483781c7a34adee2afda3"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "task": "AV02",
+  "reviewed_utc": "2026-11-11T11:39:29.689647+00:00",
+  "status": "independent_native_model_and_static_deck_fit_accepted",
+  "passed": true,
+  "errors": [],
+  "counts": {
+    "source_files": 46,
+    "reference_files": 25,
+    "evidence_files": 166,
+    "hash_checks_including_frozen_sources": 283,
+    "validation_runs": 16,
+    "process_groups": 32,
+    "mechanism_checks": 116
+  },
+  "manifest_sha256": "51065720996d2897cdce35bc6bed5d060c065d41553902365c03b90df9ec34d2",
+  "model_sha256": "dcf01b49745b93fb1c3737823e355a2b4bf3d607f216e8ac43035809d821bcbf",
+  "helper_sha256": "2cc47571421744c2fe8f49d18b810f3d4b76ee20a5c18428c57408ce539a74be",
+  "wrapper_runs": [
+    {
+      "run_id": "20261111T103905-3b66448d",
+      "passed": false,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T110850-d6b05d47",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T110912-3887cc3e",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T111240-ef0123a6",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T111348-b2181ddf",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T111503-1683fd71",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T111846-b42e3ad9",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T112144-aa8a35cd",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T112322-517dc333",
+      "passed": false,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T112412-b6a7b57b",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T112528-7766295b",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T112645-471f65d7",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T112748-b8d80b34",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T112909-33b7d04d",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T113202-06afb26f",
+      "passed": true,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261111T113242-7e0f40d2",
+      "passed": true,
+      "cleanup_ok": true
+    }
+  ],
+  "registered_process_groups": [
+    69368,
+    69369,
+    70196,
+    70197,
+    70225,
+    70226,
+    70514,
+    70515,
+    70632,
+    70634,
+    70712,
+    70713,
+    71022,
+    71023,
+    71201,
+    71202,
+    71310,
+    71311,
+    71376,
+    71377,
+    71481,
+    71482,
+    71606,
+    71607,
+    71718,
+    71719,
+    71839,
+    71840,
+    72052,
+    72053,
+    72143,
+    72145
+  ],
+  "alive_groups": [],
+  "protected_shared_inputs_unchanged": {
+    "tools/verify.py": true,
+    "docs/carrier-deck-contracts.md": true,
+    "aircraft/scripts/aircraft_builder.gd": true,
+    "naval/shokaku_1941_08_23/shokaku.gd": true,
+    "naval/shokaku_1941_08_23/data/deck.json": true,
+    "project.godot": true
+  },
+  "native_review": "docs/showcase/acceptance/AV02-native-root-review.json",
+  "reference_review": "docs/showcase/acceptance/AV02-reference-root-review.json",
+  "limits": [
+    "Static model and actual Shokaku fit only; no flight performance, carrier operations, bombing, rear fire control or combat damage integration.",
+    "No Chrome/HTTP/FFmpeg started in model task; fleet/browser performance deferred to assembled scene.",
+    "Fuselage roundel omitted as authorized simple paint; complete wing roundels retained.",
+    "Historical stations/gear/hook and parts of armament mounting are documented photographic estimates; no full factory survey claim.",
+    "Fully swung bomb is airborne only; park crutch clearance is negative."
+  ]
+}

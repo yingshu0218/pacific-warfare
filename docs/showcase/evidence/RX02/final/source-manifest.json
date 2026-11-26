@@ -1,0 +1,82 @@
+{
+  "created_utc": "2026-11-12T12:04:01.804396+00:00",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "runtime_files": [
+    {
+      "path": "scripts/game/first_playable.gd",
+      "before_sha256": "33bdc41c414001b7ea09c309b4f3b3877e4e1c3c3596bcdc82149cd7148a6460",
+      "after_sha256": "d5b969113fa9d3837a73cf643e4b9f24091ea3ede4a25f2e8c871fd7e672d636",
+      "operation": "modify"
+    },
+    {
+      "path": "scripts/game/first_playable_session.gd",
+      "before_sha256": "99cfd30599d01092bb4dbf0d4effda0bf6fe2d8a5b72d1b648fe39a4d64d0218",
+      "after_sha256": "38c1f2d52c57900fec79d517250403354f94b21246936cad5a83ec73cefb0f14",
+      "operation": "modify"
+    },
+    {
+      "path": "scripts/presentation/cameras/observer_camera.gd",
+      "before_sha256": "4338c76d65918af277d7486672a366a7c3821bbe50833c760e524a59ce6f8873",
+      "after_sha256": "6dda17989d61ba5e044eb27e5d0832d7b7ad0ba5e06dd48501c5f078553c61b0",
+      "operation": "modify"
+    },
+    {
+      "path": "scripts/presentation/environment/cloud_sea_environment.gd",
+      "before_sha256": "e4b34f4d36d07443d3752152316b0bed6dac53999a07f649817e1844e6c5f99e",
+      "after_sha256": "cc538070ecef711dac1f85f24badc02876fda4602a872da7e3b7bfac64b6a09b",
+      "operation": "modify"
+    },
+    {
+      "path": "scripts/showcase/all_units_showcase.gd",
+      "before_sha256": "23680eb37006530790b84820c11ba51eb9ca464dea7d54d729613db9633075ec",
+      "after_sha256": "2431278e3f11f79b9765131fe171e63d17b33eea922eb3063fbee6205a9d8c96",
+      "operation": "modify"
+    },
+    {
+      "path": "scripts/showcase/expansion/carrier_harbor.gd",
+      "before_sha256": "aa7b961661bceb440a564343fda091efb7930466993d72fb5ec47e0af50a421b",
+      "after_sha256": "d084c162380f164feba5534d4c194585d1cfedff0580faebb11d319c8827ce41",
+      "operation": "modify"
+    },
+    {
+      "path": "scripts/showcase/expansion/web_probe.gd",
+      "before_sha256": "144ddd5e275a58468276bbccf07e782bf61d341f59c11b8bd3d7083027f99703",
+      "after_sha256": "5b599f4559cde19db109c3c4e934484adf276f342b9d0de48b81cb8761ea78c4",
+      "operation": "modify"
+    },
+    {
+      "path": "ui/observer_hud.gd",
+      "before_sha256": "e716b88cb6d2fdf98e6f9e2a0cf32a868807bdaeabe799871eaa7c04f7c4cc76",
+      "after_sha256": "1a6fbf6dad8ce5bbd17a22a857b6c65db256415ce452c5139e7b9ba5ca9b154a",
+      "operation": "modify"
+    },
+    {
+      "path": "ui/observer_text.gd",
+      "before_sha256": "08d615804116541b089556b40bb7ab12717238db1262011036666ef081dd9af4",
+      "after_sha256": "b2f7bae261d2f606a19f22e41e487a847c4910f8d07cf80031420d85c53b8e28",
+      "operation": "modify"
+    },
+    {
+      "path": "scripts/presentation/state/pose_history.gd",
+      "before_sha256": null,
+      "after_sha256": "e6e22c59d793d7371bd26471759686ce15f437300b449b43cd61764be2076675",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/presentation/environment/chart_water_mesh.gd",
+      "before_sha256": null,
+      "after_sha256": "d68e0fb139ebc2fa5f1777456d0b5159b12a3dc40b79eb96cf130e39c7542a38",
+      "operation": "add"
+    }
+  ],
+  "required_new_whitelist_paths": [
+    "scripts/presentation/state/pose_history.gd",
+    "scripts/presentation/environment/chart_water_mesh.gd"
+  ],
+  "integration_dependency": {
+    "scripts/showcase/bombing/projectile_view.gd": "2293cf739911207535bb20ecfc32882b2fb5a3a5f5a683792fc988395f659073"
+  },
+  "ownership_note": "Bomb renderer changed by RX01/root; RX02 did not overwrite effects, projectiles or damage modules. Final ordinary whitelist/build/Chrome belong to root.",
+  "ordinary_build_unchanged_by_RX02": true,
+  "chrome_http_started_by_RX02": false
+}

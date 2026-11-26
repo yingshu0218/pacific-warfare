@@ -1,0 +1,6286 @@
+{
+	"cpu_geometry": {
+		"axes": "+X right, +Y up, -Z forward",
+		"definition_id": "us_f6f5_1944",
+		"gear_up_contact_proxy": {
+			"center_flight_m": [
+				0.0,
+				0.219999998807907,
+				-4.67999982833862
+			],
+			"kind": "rotating_propeller_disc",
+			"normal_flight": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"radius_m": 1.995,
+			"sample_points_flight_m": [
+				[
+					0.0,
+					-1.77499997615814,
+					-4.67999982833862
+				],
+				[
+					-1.99500000476837,
+					0.219999998807907,
+					-4.67999982833862
+				],
+				[
+					1.99500000476837,
+					0.219999998807907,
+					-4.67999982833862
+				]
+			],
+			"scope": "Conservative swept propeller disc; not a complete aircraft collision mesh. Visible airframe bounds are measured separately."
+		},
+		"geometry_id": "f6f5_carrier_usage_v2",
+		"hook_contact_edge_local_m": [
+			[
+				0.0,
+				-0.600000023841858,
+				0.550000011920929
+			],
+			[
+				0.0,
+				-0.600000023841858,
+				0.649999976158142
+			]
+		],
+		"hook_deflection_limit_rad": 0.698131700797732,
+		"hook_free": {
+			"definition_id": "us_f6f5_1944",
+			"gear_down": true,
+			"geometry_id": "f6f5_carrier_usage_v2",
+			"hook_angle_rad": 0.20943951023932,
+			"hook_available": true,
+			"hook_contact_edge_flight_m": [
+				[
+					0.0,
+					-0.571239948272705,
+					5.21323442459106
+				],
+				[
+					0.0,
+					-0.592031121253967,
+					5.31104898452759
+				]
+			],
+			"hook_contact_edge_model_m": [
+				[
+					0.0,
+					1.72876000404358,
+					5.21323442459106
+				],
+				[
+					0.0,
+					1.70796883106232,
+					5.31104898452759
+				]
+			],
+			"hook_deflection_rad": 0.0,
+			"hook_down": true,
+			"hook_host_part_id": "tail",
+			"hook_pivot_flight_m": [
+				0.0,
+				0.130000114440918,
+				4.80000019073486
+			],
+			"hook_pivot_model_m": [
+				0.0,
+				2.4300000667572,
+				4.80000019073486
+			],
+			"hook_tip_flight_m": [
+				0.0,
+				-0.581635475158691,
+				5.26214170455933
+			],
+			"hook_tip_model_m": [
+				0.0,
+				1.71836447715759,
+				5.26214170455933
+			],
+			"schema_version": 1,
+			"wheel_contacts_flight": {
+				"main_left": {
+					"available": true,
+					"centre_m": [
+						-1.92999994754791,
+						-1.0,
+						-1.26999998092651
+					],
+					"half_width_m": 0.08,
+					"host_part_id": "wing_left",
+					"position_m": [
+						-1.92999994754791,
+						-1.4300000667572,
+						-1.26999998092651
+					],
+					"radius_m": 0.43
+				},
+				"main_right": {
+					"available": true,
+					"centre_m": [
+						1.92999994754791,
+						-1.0,
+						-1.26999998092651
+					],
+					"half_width_m": 0.08,
+					"host_part_id": "wing_right",
+					"position_m": [
+						1.92999994754791,
+						-1.4300000667572,
+						-1.26999998092651
+					],
+					"radius_m": 0.43
+				},
+				"tail": {
+					"available": true,
+					"centre_m": [
+						0.0,
+						-0.299999952316284,
+						4.51999998092651
+					],
+					"half_width_m": 0.0425,
+					"host_part_id": "tail",
+					"position_m": [
+						0.0,
+						-0.449999928474426,
+						4.51999998092651
+					],
+					"radius_m": 0.15
+				}
+			},
+			"wheel_contacts_model": {
+				"main_left": {
+					"available": true,
+					"centre_m": [
+						-1.92999994754791,
+						1.29999995231628,
+						-1.26999998092651
+					],
+					"half_width_m": 0.08,
+					"host_part_id": "wing_left",
+					"position_m": [
+						-1.92999994754791,
+						0.869999945163727,
+						-1.26999998092651
+					],
+					"radius_m": 0.43
+				},
+				"main_right": {
+					"available": true,
+					"centre_m": [
+						1.92999994754791,
+						1.29999995231628,
+						-1.26999998092651
+					],
+					"half_width_m": 0.08,
+					"host_part_id": "wing_right",
+					"position_m": [
+						1.92999994754791,
+						0.869999945163727,
+						-1.26999998092651
+					],
+					"radius_m": 0.43
+				},
+				"tail": {
+					"available": true,
+					"centre_m": [
+						0.0,
+						2.0,
+						4.51999998092651
+					],
+					"half_width_m": 0.0425,
+					"host_part_id": "tail",
+					"position_m": [
+						0.0,
+						1.85000002384186,
+						4.51999998092651
+					],
+					"radius_m": 0.15
+				}
+			}
+		},
+		"hook_stowed": {
+			"definition_id": "us_f6f5_1944",
+			"gear_down": false,
+			"geometry_id": "f6f5_carrier_usage_v2",
+			"hook_angle_rad": 2.0943951023932,
+			"hook_available": false,
+			"hook_contact_edge_flight_m": [
+				[
+					0.0,
+					-0.0463137626647949,
+					4.00538492202759
+				],
+				[
+					0.0,
+					-0.132916212081909,
+					3.9553849697113
+				]
+			],
+			"hook_contact_edge_model_m": [
+				[
+					0.0,
+					2.25368618965149,
+					4.00538492202759
+				],
+				[
+					0.0,
+					2.16708374023438,
+					3.9553849697113
+				]
+			],
+			"hook_deflection_rad": 0.0,
+			"hook_down": false,
+			"hook_host_part_id": "tail",
+			"hook_pivot_flight_m": [
+				0.0,
+				0.130000114440918,
+				4.80000019073486
+			],
+			"hook_pivot_model_m": [
+				0.0,
+				2.4300000667572,
+				4.80000019073486
+			],
+			"hook_tip_flight_m": [
+				0.0,
+				-0.0896151065826416,
+				3.98038482666016
+			],
+			"hook_tip_model_m": [
+				0.0,
+				2.21038484573364,
+				3.98038482666016
+			],
+			"schema_version": 1,
+			"wheel_contacts_flight": {
+				"main_left": {
+					"available": false,
+					"centre_m": [
+						-1.92999994754791,
+						-1.0,
+						-1.26999998092651
+					],
+					"half_width_m": 0.08,
+					"host_part_id": "wing_left",
+					"position_m": [
+						-1.92999994754791,
+						-1.4300000667572,
+						-1.26999998092651
+					],
+					"radius_m": 0.43
+				},
+				"main_right": {
+					"available": false,
+					"centre_m": [
+						1.92999994754791,
+						-1.0,
+						-1.26999998092651
+					],
+					"half_width_m": 0.08,
+					"host_part_id": "wing_right",
+					"position_m": [
+						1.92999994754791,
+						-1.4300000667572,
+						-1.26999998092651
+					],
+					"radius_m": 0.43
+				},
+				"tail": {
+					"available": false,
+					"centre_m": [
+						0.0,
+						-0.299999952316284,
+						4.51999998092651
+					],
+					"half_width_m": 0.0425,
+					"host_part_id": "tail",
+					"position_m": [
+						0.0,
+						-0.449999928474426,
+						4.51999998092651
+					],
+					"radius_m": 0.15
+				}
+			},
+			"wheel_contacts_model": {
+				"main_left": {
+					"available": false,
+					"centre_m": [
+						-1.92999994754791,
+						1.29999995231628,
+						-1.26999998092651
+					],
+					"half_width_m": 0.08,
+					"host_part_id": "wing_left",
+					"position_m": [
+						-1.92999994754791,
+						0.869999945163727,
+						-1.26999998092651
+					],
+					"radius_m": 0.43
+				},
+				"main_right": {
+					"available": false,
+					"centre_m": [
+						1.92999994754791,
+						1.29999995231628,
+						-1.26999998092651
+					],
+					"half_width_m": 0.08,
+					"host_part_id": "wing_right",
+					"position_m": [
+						1.92999994754791,
+						0.869999945163727,
+						-1.26999998092651
+					],
+					"radius_m": 0.43
+				},
+				"tail": {
+					"available": false,
+					"centre_m": [
+						0.0,
+						2.0,
+						4.51999998092651
+					],
+					"half_width_m": 0.0425,
+					"host_part_id": "tail",
+					"position_m": [
+						0.0,
+						1.85000002384186,
+						4.51999998092651
+					],
+					"radius_m": 0.15
+				}
+			}
+		},
+		"model_to_flight_translation_m": [
+			0.0,
+			-2.29999995231628,
+			0.0
+		],
+		"parked": {
+			"contacts": {
+				"main_left": {
+					"available": true,
+					"centre_m": [
+						-1.92999994754791,
+						-1.0,
+						-1.26999998092651
+					],
+					"half_width_m": 0.08,
+					"host_part_id": "wing_left",
+					"position_m": [
+						-1.92999994754791,
+						-1.42392146587372,
+						-1.19795417785645
+					],
+					"radius_m": 0.43
+				},
+				"main_right": {
+					"available": true,
+					"centre_m": [
+						1.92999994754791,
+						-1.0,
+						-1.26999998092651
+					],
+					"half_width_m": 0.08,
+					"host_part_id": "wing_right",
+					"position_m": [
+						1.92999994754791,
+						-1.42392146587372,
+						-1.19795417785645
+					],
+					"radius_m": 0.43
+				},
+				"tail": {
+					"available": true,
+					"centre_m": [
+						0.0,
+						-0.299999952316284,
+						4.51999998092651
+					],
+					"half_width_m": 0.0425,
+					"host_part_id": "tail",
+					"position_m": [
+						0.0,
+						-0.447879552841187,
+						4.54513216018677
+					],
+					"radius_m": 0.15
+				}
+			},
+			"origin_height_above_deck_m": 1.20307743549347,
+			"rotation_rad": [
+				0.168342307209969,
+				0.0,
+				0.0
+			],
+			"source": "Solved from three tyre centres/radii; not a world-Y display offset."
+		},
+		"schema_version": 1,
+		"source_status": "Revised simple wheel extension and short hook are engineering approximations constrained by original ground photographs. Old r1-r4 coplanar contacts/OPS parked snapshots are withdrawn; body, wing, muzzle and flight origin unchanged.",
+		"units": "metres_radians_seconds",
+		"wheel_centres_model_m": {
+			"main_left": [
+				-1.92999994754791,
+				1.29999995231628,
+				-1.26999998092651
+			],
+			"main_right": [
+				1.92999994754791,
+				1.29999995231628,
+				-1.26999998092651
+			],
+			"tail": [
+				0.0,
+				2.0,
+				4.51999998092651
+			]
+		},
+		"wheel_contact_basis": "Support of circular tyres in a supplied aircraft-local deck normal. Level body-axis bottom points are not fixed contact points after pitching.",
+		"wheel_half_widths_m": {
+			"main_left": 0.08,
+			"main_right": 0.08,
+			"tail": 0.0425
+		},
+		"wheel_radii_m": {
+			"main_left": 0.43,
+			"main_right": 0.43,
+			"tail": 0.15
+		}
+	},
+	"resolution": [
+		1280,
+		800
+	],
+	"scope": "Static native model usage/installation review. Revised gear retires old OPS parked/approach poses. New parked/approach/contact poses are explicit tyre-circle geometry fixtures, not new OPS execution. Clean mission pose remains the recorded snapshot.",
+	"source": "docs/showcase/evidence/OPS01/native-one.json",
+	"source_sha256": "21b63c476f31f167619d617f6013250eda6de6f4078776c13dd810deb30d28e6",
+	"views": [
+		{
+			"actual_deck_clearances": {},
+			"aircraft_rotation_rad": [
+				0.134538441896439,
+				0.0137153742834926,
+				0.477288603782654
+			],
+			"aircraft_world_position_m": [
+				-3.1928813457489,
+				387.992156982422,
+				-2921.2626953125
+			],
+			"camera_orthographic_size_m": 18.0,
+			"camera_position_m": [
+				14.8071184158325,
+				396.992156982422,
+				-2943.2626953125
+			],
+			"camera_target_m": [
+				-3.1928813457489,
+				387.992156982422,
+				-2921.2626953125
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 53,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": false,
+					"point_deck_m": [
+						-4.34390544891357,
+						385.984405517578,
+						-2032.73510742188
+					],
+					"surface": {
+						"supported": false
+					}
+				},
+				"main_right": {
+					"available": false,
+					"point_deck_m": [
+						-0.912358999252319,
+						387.741607666016,
+						-2032.54418945312
+					],
+					"surface": {
+						"supported": false
+					}
+				},
+				"tail": {
+					"available": false,
+					"point_deck_m": [
+						-2.96373534202576,
+						386.968902587891,
+						-2026.82006835938
+					],
+					"surface": {
+						"supported": false
+					}
+				}
+			},
+			"name": "clean_quarter",
+			"original_obsolete_OPS_state": {},
+			"scope": "Recorded OPS01 mission snapshot; no carrier_ops deployment",
+			"source_frame": 177.0,
+			"source_time_s": 59.3333333333333,
+			"unit_state": {
+				"active": true,
+				"active_order_id": "carrier_patrol",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "hellcat_1",
+						"pair_index": 0.0,
+						"pair_leader_id": "hellcat_1",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0.0
+					},
+					"aircraft_control": {
+						"altitude_m": 700.0,
+						"avoiding": false,
+						"heading_rad": 0.901420716223876,
+						"nearest_friend_m": 100000.0,
+						"speed_mps": 89.4
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.115139401198922,
+						"bank_rad": -0.477288684339268,
+						"body_angular_velocity_radps": [
+							-0.0110715236514807,
+							0.060019887983799,
+							0.959495961666107
+						],
+						"body_roll_rate_radps": -0.959495009991017,
+						"distance_m": 2682.99893343449,
+						"elevator_rad": -0.0116003499915655,
+						"energy_height_m": 669.145669220407,
+						"exited": false,
+						"forward_m": [
+							-0.0135910073295236,
+							0.13413293659687,
+							-0.990870177745819
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 669.753771531771,
+						"fuel_used_kg": 11.2462284681794,
+						"heading_rate_radps": 0.048969878634499,
+						"height_agl_m": 387.992156982422,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 63.8007813326411,
+						"lift_up_m": [
+							-0.45769527554512,
+							0.880216956138611,
+							0.125431790947914
+						],
+						"load_factor": 0.8,
+						"load_limit": 2.72002700094451,
+						"path_pitch_rad": 0.134538441311167,
+						"path_pitch_rate_radps": -0.03701541482799,
+						"path_turn_rate_radps": 0.0610320443714685,
+						"propeller_phase_rad": 5.41997202041918,
+						"propeller_speed_radps": 120.0,
+						"requested_load_g": 0.8,
+						"roll_error_rad": -0.576485700599586,
+						"roll_velocity_radps": -0.959495009991017,
+						"safety_state": "normal",
+						"speed_mps": 74.258657283695,
+						"stall_margin": 1.64963071288444,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 387.825775146484,
+						"terrain_lookahead_s": 6.88205818257279,
+						"throttle": 1.0,
+						"turn_rate_radps": 0.0610320443714685,
+						"vertical_speed_mps": 9.96053218841553
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"cancelled": false,
+						"flaps_down": false,
+						"gear_down": false,
+						"go_arounds": 0.0,
+						"hook_down": false,
+						"last_local_m": [
+							-3.17656350135803,
+							387.825775146484,
+							-2030.28662109375
+						],
+						"local_m": [
+							-3.0,
+							18.1499996185303,
+							-102.935829162598
+						],
+						"local_yaw_rad": 0.0,
+						"on_deck": false,
+						"order_id": "carrier_patrol",
+						"parking_slot": "",
+						"phase": "mission",
+						"pre_flight_position_m": [
+							-3.17656350135803,
+							387.825775146484,
+							-2920.03662109375
+						],
+						"pre_flight_velocity_mps": [
+							-0.948897480964661,
+							10.0036220550537,
+							-73.5583724975586
+						],
+						"reason": "climb_and_assembly_complete",
+						"recoveries": 0.0,
+						"relative_velocity_mps": [
+							0.0,
+							0.0,
+							-34.048095703125
+						],
+						"route_index": 0.0,
+						"service_done": false,
+						"since_s": 58.6166666666667,
+						"sorties": 1.0,
+						"touchdown_count": 0.0
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.1928813457489,
+					387.992156982422,
+					-2921.2626953125
+				],
+				"rotation_rad": [
+					0.134538441896439,
+					0.0137153742834926,
+					0.477288603782654
+				],
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 2565.35400390625,
+						"maneuver_phase": "track",
+						"maneuver_reason": "following_route",
+						"pair_index": 0.0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"spatial_geometry": {},
+						"target_id": ""
+					},
+					"order_id": "carrier_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": [
+					-1.0092499256134,
+					9.96053218841553,
+					-73.5806884765625
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.0,
+				"gear_down": false,
+				"hook_available": false,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.0,
+				"hook_down": false,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0,
+					0.130023241043091,
+					4.800048828125
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.0895812511444092,
+					3.98046875
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": false,
+						"centre_m": [
+							-1.93000793457031,
+							-1.00001215934753,
+							-1.27001953125
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-2.01000785827637,
+							-1.42510485649109,
+							-1.2052413225174
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": false,
+						"centre_m": [
+							1.92999267578125,
+							-0.999981641769409,
+							-1.27001953125
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.84999263286591,
+							-1.42507433891296,
+							-1.2052413225174
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": false,
+						"centre_m": [
+							0.0,
+							-0.300030469894409,
+							4.519775390625
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							-0.0424999967217445,
+							-0.448318600654602,
+							4.54237222671509
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					6.52798461914062,
+					1.68998146057129,
+					5.12365341186523
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-6.52801513671875,
+					-1.76639711856842,
+					-5.12017583847046
+				],
+				"size_m": [
+					13.0559997558594,
+					3.45637845993042,
+					10.2438297271729
+				]
+			}
+		},
+		{
+			"actual_deck_clearances": {},
+			"aircraft_rotation_rad": [
+				0.134538441896439,
+				0.0137153742834926,
+				0.477288603782654
+			],
+			"aircraft_world_position_m": [
+				-3.1928813457489,
+				387.992156982422,
+				-2921.2626953125
+			],
+			"camera_orthographic_size_m": 18.0,
+			"camera_position_m": [
+				11.8071184158325,
+				376.992156982422,
+				-2903.2626953125
+			],
+			"camera_target_m": [
+				-3.1928813457489,
+				387.992156982422,
+				-2921.2626953125
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 53,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": false,
+					"point_deck_m": [
+						-4.34390544891357,
+						385.984405517578,
+						-2032.73510742188
+					],
+					"surface": {
+						"supported": false
+					}
+				},
+				"main_right": {
+					"available": false,
+					"point_deck_m": [
+						-0.912358999252319,
+						387.741607666016,
+						-2032.54418945312
+					],
+					"surface": {
+						"supported": false
+					}
+				},
+				"tail": {
+					"available": false,
+					"point_deck_m": [
+						-2.96373534202576,
+						386.968902587891,
+						-2026.82006835938
+					],
+					"surface": {
+						"supported": false
+					}
+				}
+			},
+			"name": "clean_underside",
+			"original_obsolete_OPS_state": {},
+			"scope": "Recorded OPS01 clean flight; closed covers and DM groups retained",
+			"source_frame": 177.0,
+			"source_time_s": 59.3333333333333,
+			"unit_state": {
+				"active": true,
+				"active_order_id": "carrier_patrol",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "hellcat_1",
+						"pair_index": 0.0,
+						"pair_leader_id": "hellcat_1",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0.0
+					},
+					"aircraft_control": {
+						"altitude_m": 700.0,
+						"avoiding": false,
+						"heading_rad": 0.901420716223876,
+						"nearest_friend_m": 100000.0,
+						"speed_mps": 89.4
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.115139401198922,
+						"bank_rad": -0.477288684339268,
+						"body_angular_velocity_radps": [
+							-0.0110715236514807,
+							0.060019887983799,
+							0.959495961666107
+						],
+						"body_roll_rate_radps": -0.959495009991017,
+						"distance_m": 2682.99893343449,
+						"elevator_rad": -0.0116003499915655,
+						"energy_height_m": 669.145669220407,
+						"exited": false,
+						"forward_m": [
+							-0.0135910073295236,
+							0.13413293659687,
+							-0.990870177745819
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 669.753771531771,
+						"fuel_used_kg": 11.2462284681794,
+						"heading_rate_radps": 0.048969878634499,
+						"height_agl_m": 387.992156982422,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 63.8007813326411,
+						"lift_up_m": [
+							-0.45769527554512,
+							0.880216956138611,
+							0.125431790947914
+						],
+						"load_factor": 0.8,
+						"load_limit": 2.72002700094451,
+						"path_pitch_rad": 0.134538441311167,
+						"path_pitch_rate_radps": -0.03701541482799,
+						"path_turn_rate_radps": 0.0610320443714685,
+						"propeller_phase_rad": 5.41997202041918,
+						"propeller_speed_radps": 120.0,
+						"requested_load_g": 0.8,
+						"roll_error_rad": -0.576485700599586,
+						"roll_velocity_radps": -0.959495009991017,
+						"safety_state": "normal",
+						"speed_mps": 74.258657283695,
+						"stall_margin": 1.64963071288444,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 387.825775146484,
+						"terrain_lookahead_s": 6.88205818257279,
+						"throttle": 1.0,
+						"turn_rate_radps": 0.0610320443714685,
+						"vertical_speed_mps": 9.96053218841553
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"cancelled": false,
+						"flaps_down": false,
+						"gear_down": false,
+						"go_arounds": 0.0,
+						"hook_down": false,
+						"last_local_m": [
+							-3.17656350135803,
+							387.825775146484,
+							-2030.28662109375
+						],
+						"local_m": [
+							-3.0,
+							18.1499996185303,
+							-102.935829162598
+						],
+						"local_yaw_rad": 0.0,
+						"on_deck": false,
+						"order_id": "carrier_patrol",
+						"parking_slot": "",
+						"phase": "mission",
+						"pre_flight_position_m": [
+							-3.17656350135803,
+							387.825775146484,
+							-2920.03662109375
+						],
+						"pre_flight_velocity_mps": [
+							-0.948897480964661,
+							10.0036220550537,
+							-73.5583724975586
+						],
+						"reason": "climb_and_assembly_complete",
+						"recoveries": 0.0,
+						"relative_velocity_mps": [
+							0.0,
+							0.0,
+							-34.048095703125
+						],
+						"route_index": 0.0,
+						"service_done": false,
+						"since_s": 58.6166666666667,
+						"sorties": 1.0,
+						"touchdown_count": 0.0
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.1928813457489,
+					387.992156982422,
+					-2921.2626953125
+				],
+				"rotation_rad": [
+					0.134538441896439,
+					0.0137153742834926,
+					0.477288603782654
+				],
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 2565.35400390625,
+						"maneuver_phase": "track",
+						"maneuver_reason": "following_route",
+						"pair_index": 0.0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"spatial_geometry": {},
+						"target_id": ""
+					},
+					"order_id": "carrier_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": [
+					-1.0092499256134,
+					9.96053218841553,
+					-73.5806884765625
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.0,
+				"gear_down": false,
+				"hook_available": false,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.0,
+				"hook_down": false,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0,
+					0.130023241043091,
+					4.800048828125
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.0895812511444092,
+					3.98046875
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": false,
+						"centre_m": [
+							-1.93000793457031,
+							-1.00001215934753,
+							-1.27001953125
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-2.01000785827637,
+							-1.42510485649109,
+							-1.2052413225174
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": false,
+						"centre_m": [
+							1.92999267578125,
+							-0.999981641769409,
+							-1.27001953125
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.84999263286591,
+							-1.42507433891296,
+							-1.2052413225174
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": false,
+						"centre_m": [
+							0.0,
+							-0.300030469894409,
+							4.519775390625
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							-0.0424999967217445,
+							-0.448318600654602,
+							4.54237222671509
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					6.52798461914062,
+					1.68998146057129,
+					5.12365341186523
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-6.52801513671875,
+					-1.76639711856842,
+					-5.12017583847046
+				],
+				"size_m": [
+					13.0559997558594,
+					3.45637845993042,
+					10.2438297271729
+				]
+			}
+		},
+		{
+			"actual_deck_clearances": {},
+			"aircraft_rotation_rad": [
+				0.168342307209969,
+				0.0,
+				0.0
+			],
+			"aircraft_world_position_m": [
+				-3.0,
+				20.0530776977539,
+				-7040.0
+			],
+			"camera_orthographic_size_m": 18.0,
+			"camera_position_m": [
+				14.0,
+				26.0530776977539,
+				-7020.0
+			],
+			"camera_target_m": [
+				-3.0,
+				20.0530776977539,
+				-7040.0
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 53,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": true,
+					"point_deck_m": [
+						-4.92999982833862,
+						18.8500518798828,
+						103.58056640625
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"main_right": {
+					"available": true,
+					"point_deck_m": [
+						-1.07000005245209,
+						18.8500518798828,
+						103.58056640625
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"tail": {
+					"available": true,
+					"point_deck_m": [
+						-3.0,
+						18.8500785827637,
+						109.4052734375
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				}
+			},
+			"name": "approach_quarter",
+			"original_obsolete_OPS_state": {
+				"active": true,
+				"active_order_id": "carrier_patrol",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "hellcat_1",
+						"pair_index": 0.0,
+						"pair_leader_id": "hellcat_1",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0.0
+					},
+					"aircraft_control": {
+						"flight_direction": [
+							0.0000000591180793207968,
+							-0.0384948365390301,
+							-0.999258875846863
+						],
+						"max_bank_rad": 0.20943951023932,
+						"speed_mps": 49.0
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000853301397639797,
+						"bank_rad": 0.0000000000000135547150421716,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000711084498033164,
+						"distance_m": 31601.6237512231,
+						"elevator_rad": -0.0000944542286215055,
+						"energy_height_m": 151.673218999887,
+						"exited": false,
+						"forward_m": [
+							0.0000000591180722153695,
+							-0.0384946167469025,
+							-0.999258816242218
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 635.05965694181,
+						"fuel_used_kg": 45.9403430580346,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 23.6772346496582,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.00000000227742913416762,
+							0.999258816242218,
+							-0.0384946167469025
+						],
+						"load_factor": 0.999258291213005,
+						"load_limit": 1.75439227700992,
+						"path_pitch_rad": -0.0385041298728427,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.0000000952361247766635,
+						"propeller_phase_rad": 0.99232074698752,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999258291213005,
+						"roll_error_rad": -0.00000000000000177771124508291,
+						"roll_velocity_radps": -0.00000000000000711084498033164,
+						"safety_state": "normal",
+						"speed_mps": 50.1041279722174,
+						"stall_margin": 1.32453469173996,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 23.7093811035156,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00776462021180691,
+						"turn_rate_radps": -0.0000000952361247766635,
+						"vertical_speed_mps": -1.92873930931091
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"cancelled": false,
+						"flaps_down": true,
+						"gear_down": true,
+						"go_arounds": 0.0,
+						"hook_down": true,
+						"last_local_m": [
+							-3.00000643730164,
+							23.7093811035156,
+							212.5869140625
+						],
+						"local_m": [
+							-3.00000643730164,
+							23.7093811035156,
+							212.5869140625
+						],
+						"local_yaw_rad": 0.0,
+						"on_deck": false,
+						"order_id": "carrier_patrol",
+						"parking_slot": "",
+						"phase": "approach",
+						"pre_flight_position_m": [
+							-3.00000643730164,
+							23.7093811035156,
+							-6932.1630859375
+						],
+						"pre_flight_velocity_mps": [
+							0.00000296205962513341,
+							-1.92873930931091,
+							-50.0669937133789
+						],
+						"reason": "exclusive_recovery_clearance",
+						"recoveries": 0.0,
+						"relative_velocity_mps": [
+							0.00000296205962513341,
+							-1.92873930931091,
+							-35.0669937133789
+						],
+						"route_index": 2.0,
+						"service_done": false,
+						"since_s": 347.816666666667,
+						"sorties": 1.0,
+						"touchdown_count": 0.0
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.00000643730164,
+					23.6772346496582,
+					-6932.99755859375
+				],
+				"rotation_rad": [
+					-0.0385041311383247,
+					-0.0000000591619233603069,
+					-0.0000000000000133325577818645
+				],
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 1840.01477050781,
+						"maneuver_phase": "track",
+						"maneuver_reason": "following_route",
+						"pair_index": 0.0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"spatial_geometry": {},
+						"target_id": ""
+					},
+					"order_id": "carrier_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": [
+					0.00000296205962513341,
+					-1.92873930931091,
+					-50.0669937133789
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"scope": "REVISED APPROACH GEOMETRY FIXTURE; recorded usage flags, new tyre-derived attitude",
+			"source_frame": 1428.0,
+			"source_time_s": 476.333333333333,
+			"unit_state": {
+				"active": true,
+				"active_order_id": "carrier_patrol",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "hellcat_1",
+						"pair_index": 0.0,
+						"pair_leader_id": "hellcat_1",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0.0
+					},
+					"aircraft_control": {
+						"flight_direction": [
+							0.0000000591180793207968,
+							-0.0384948365390301,
+							-0.999258875846863
+						],
+						"max_bank_rad": 0.20943951023932,
+						"speed_mps": 49.0
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000853301397639797,
+						"bank_rad": 0.0000000000000135547150421716,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000711084498033164,
+						"distance_m": 31601.6237512231,
+						"elevator_rad": -0.0000944542286215055,
+						"energy_height_m": 151.673218999887,
+						"exited": false,
+						"forward_m": [
+							0.0000000591180722153695,
+							-0.0384946167469025,
+							-0.999258816242218
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 635.05965694181,
+						"fuel_used_kg": 45.9403430580346,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 23.6772346496582,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.00000000227742913416762,
+							0.999258816242218,
+							-0.0384946167469025
+						],
+						"load_factor": 0.999258291213005,
+						"load_limit": 1.75439227700992,
+						"path_pitch_rad": -0.0385041298728427,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.0000000952361247766635,
+						"propeller_phase_rad": 0.99232074698752,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999258291213005,
+						"roll_error_rad": -0.00000000000000177771124508291,
+						"roll_velocity_radps": -0.00000000000000711084498033164,
+						"safety_state": "normal",
+						"speed_mps": 50.1041279722174,
+						"stall_margin": 1.32453469173996,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 23.7093811035156,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00776462021180691,
+						"turn_rate_radps": -0.0000000952361247766635,
+						"vertical_speed_mps": -1.92873930931091
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"flaps_down": true,
+						"gear_down": true,
+						"hook_deflection_rad": 0.0,
+						"hook_down": true,
+						"phase": "static_geometry_fixture"
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.0,
+					20.0530776977539,
+					-7040.0
+				],
+				"rotation_rad": [
+					0.168342307209969,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 1840.01477050781,
+						"maneuver_phase": "track",
+						"maneuver_reason": "following_route",
+						"pair_index": 0.0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"spatial_geometry": {},
+						"target_id": ""
+					},
+					"order_id": "carrier_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": [
+					0.00000296205962513341,
+					-1.92873930931091,
+					-50.0669937133789
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.610865238198015,
+				"gear_down": true,
+				"hook_available": true,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.0,
+				"hook_down": true,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0,
+					0.130053758621216,
+					4.7998046875
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.581616163253784,
+					5.26171875
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": true,
+						"centre_m": [
+							-1.92999982833862,
+							-0.999951124191284,
+							-1.27001953125
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-1.92999982833862,
+							-1.423872590065,
+							-1.19797372817993
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": true,
+						"centre_m": [
+							1.92999994754791,
+							-0.999951124191284,
+							-1.27001953125
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.92999994754791,
+							-1.423872590065,
+							-1.19797372817993
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": true,
+						"centre_m": [
+							0.0,
+							-0.299999952316284,
+							4.51953125
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							0.0000000064640222063872,
+							-0.447879552841187,
+							4.54466342926025
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					6.52799987792969,
+					1.68995118141174,
+					5.37492895126343
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-6.52799987792969,
+					-1.74133276939392,
+					-5.11968755722046
+				],
+				"size_m": [
+					13.0559997558594,
+					3.43128395080566,
+					10.4946165084839
+				]
+			}
+		},
+		{
+			"actual_deck_clearances": {},
+			"aircraft_rotation_rad": [
+				0.168342307209969,
+				0.0,
+				0.0
+			],
+			"aircraft_world_position_m": [
+				-3.0,
+				20.0530776977539,
+				-7040.0
+			],
+			"camera_orthographic_size_m": 14.0,
+			"camera_position_m": [
+				22.0,
+				20.5530776977539,
+				-7040.0
+			],
+			"camera_target_m": [
+				-3.0,
+				19.5530776977539,
+				-7040.0
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 53,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": true,
+					"point_deck_m": [
+						-4.92999982833862,
+						18.8500518798828,
+						103.58056640625
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"main_right": {
+					"available": true,
+					"point_deck_m": [
+						-1.07000005245209,
+						18.8500518798828,
+						103.58056640625
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"tail": {
+					"available": true,
+					"point_deck_m": [
+						-3.0,
+						18.8500785827637,
+						109.4052734375
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				}
+			},
+			"name": "approach_side",
+			"original_obsolete_OPS_state": {
+				"active": true,
+				"active_order_id": "carrier_patrol",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "hellcat_1",
+						"pair_index": 0.0,
+						"pair_leader_id": "hellcat_1",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0.0
+					},
+					"aircraft_control": {
+						"flight_direction": [
+							0.0000000591180793207968,
+							-0.0384948365390301,
+							-0.999258875846863
+						],
+						"max_bank_rad": 0.20943951023932,
+						"speed_mps": 49.0
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000853301397639797,
+						"bank_rad": 0.0000000000000135547150421716,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000711084498033164,
+						"distance_m": 31601.6237512231,
+						"elevator_rad": -0.0000944542286215055,
+						"energy_height_m": 151.673218999887,
+						"exited": false,
+						"forward_m": [
+							0.0000000591180722153695,
+							-0.0384946167469025,
+							-0.999258816242218
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 635.05965694181,
+						"fuel_used_kg": 45.9403430580346,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 23.6772346496582,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.00000000227742913416762,
+							0.999258816242218,
+							-0.0384946167469025
+						],
+						"load_factor": 0.999258291213005,
+						"load_limit": 1.75439227700992,
+						"path_pitch_rad": -0.0385041298728427,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.0000000952361247766635,
+						"propeller_phase_rad": 0.99232074698752,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999258291213005,
+						"roll_error_rad": -0.00000000000000177771124508291,
+						"roll_velocity_radps": -0.00000000000000711084498033164,
+						"safety_state": "normal",
+						"speed_mps": 50.1041279722174,
+						"stall_margin": 1.32453469173996,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 23.7093811035156,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00776462021180691,
+						"turn_rate_radps": -0.0000000952361247766635,
+						"vertical_speed_mps": -1.92873930931091
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"cancelled": false,
+						"flaps_down": true,
+						"gear_down": true,
+						"go_arounds": 0.0,
+						"hook_down": true,
+						"last_local_m": [
+							-3.00000643730164,
+							23.7093811035156,
+							212.5869140625
+						],
+						"local_m": [
+							-3.00000643730164,
+							23.7093811035156,
+							212.5869140625
+						],
+						"local_yaw_rad": 0.0,
+						"on_deck": false,
+						"order_id": "carrier_patrol",
+						"parking_slot": "",
+						"phase": "approach",
+						"pre_flight_position_m": [
+							-3.00000643730164,
+							23.7093811035156,
+							-6932.1630859375
+						],
+						"pre_flight_velocity_mps": [
+							0.00000296205962513341,
+							-1.92873930931091,
+							-50.0669937133789
+						],
+						"reason": "exclusive_recovery_clearance",
+						"recoveries": 0.0,
+						"relative_velocity_mps": [
+							0.00000296205962513341,
+							-1.92873930931091,
+							-35.0669937133789
+						],
+						"route_index": 2.0,
+						"service_done": false,
+						"since_s": 347.816666666667,
+						"sorties": 1.0,
+						"touchdown_count": 0.0
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.00000643730164,
+					23.6772346496582,
+					-6932.99755859375
+				],
+				"rotation_rad": [
+					-0.0385041311383247,
+					-0.0000000591619233603069,
+					-0.0000000000000133325577818645
+				],
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 1840.01477050781,
+						"maneuver_phase": "track",
+						"maneuver_reason": "following_route",
+						"pair_index": 0.0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"spatial_geometry": {},
+						"target_id": ""
+					},
+					"order_id": "carrier_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": [
+					0.00000296205962513341,
+					-1.92873930931091,
+					-50.0669937133789
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"scope": "REVISED APPROACH GEOMETRY FIXTURE; old OPS parked/approach pose retired",
+			"source_frame": 1428.0,
+			"source_time_s": 476.333333333333,
+			"unit_state": {
+				"active": true,
+				"active_order_id": "carrier_patrol",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"air_formation": {
+						"flight_leader_id": "hellcat_1",
+						"pair_index": 0.0,
+						"pair_leader_id": "hellcat_1",
+						"role": "leader",
+						"section_role": "attack",
+						"slot": 0.0
+					},
+					"aircraft_control": {
+						"flight_direction": [
+							0.0000000591180793207968,
+							-0.0384948365390301,
+							-0.999258875846863
+						],
+						"max_bank_rad": 0.20943951023932,
+						"speed_mps": 49.0
+					},
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000853301397639797,
+						"bank_rad": 0.0000000000000135547150421716,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000711084498033164,
+						"distance_m": 31601.6237512231,
+						"elevator_rad": -0.0000944542286215055,
+						"energy_height_m": 151.673218999887,
+						"exited": false,
+						"forward_m": [
+							0.0000000591180722153695,
+							-0.0384946167469025,
+							-0.999258816242218
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 635.05965694181,
+						"fuel_used_kg": 45.9403430580346,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 23.6772346496582,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.00000000227742913416762,
+							0.999258816242218,
+							-0.0384946167469025
+						],
+						"load_factor": 0.999258291213005,
+						"load_limit": 1.75439227700992,
+						"path_pitch_rad": -0.0385041298728427,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.0000000952361247766635,
+						"propeller_phase_rad": 0.99232074698752,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999258291213005,
+						"roll_error_rad": -0.00000000000000177771124508291,
+						"roll_velocity_radps": -0.00000000000000711084498033164,
+						"safety_state": "normal",
+						"speed_mps": 50.1041279722174,
+						"stall_margin": 1.32453469173996,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 23.7093811035156,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00776462021180691,
+						"turn_rate_radps": -0.0000000952361247766635,
+						"vertical_speed_mps": -1.92873930931091
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"flaps_down": true,
+						"gear_down": true,
+						"hook_deflection_rad": 0.0,
+						"hook_down": true,
+						"phase": "static_geometry_fixture"
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.0,
+					20.0530776977539,
+					-7040.0
+				],
+				"rotation_rad": [
+					0.168342307209969,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {
+					"aircraft": {
+						"distance_m": 1840.01477050781,
+						"maneuver_phase": "track",
+						"maneuver_reason": "following_route",
+						"pair_index": 0.0,
+						"phase": "patrol",
+						"reason": "following_route",
+						"role": "leader",
+						"section_role": "attack",
+						"spatial_geometry": {},
+						"target_id": ""
+					},
+					"order_id": "carrier_patrol",
+					"order_type": "patrol"
+				},
+				"velocity_mps": [
+					0.00000296205962513341,
+					-1.92873930931091,
+					-50.0669937133789
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.610865238198015,
+				"gear_down": true,
+				"hook_available": true,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.0,
+				"hook_down": true,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0,
+					0.130053758621216,
+					4.7998046875
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.581616163253784,
+					5.26171875
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": true,
+						"centre_m": [
+							-1.92999982833862,
+							-0.999951124191284,
+							-1.27001953125
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-1.92999982833862,
+							-1.423872590065,
+							-1.19797372817993
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": true,
+						"centre_m": [
+							1.92999994754791,
+							-0.999951124191284,
+							-1.27001953125
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.92999994754791,
+							-1.423872590065,
+							-1.19797372817993
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": true,
+						"centre_m": [
+							0.0,
+							-0.299999952316284,
+							4.51953125
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							0.0000000064640222063872,
+							-0.447879552841187,
+							4.54466342926025
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					6.52799987792969,
+					1.68995118141174,
+					5.37492895126343
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-6.52799987792969,
+					-1.74133276939392,
+					-5.11968755722046
+				],
+				"size_m": [
+					13.0559997558594,
+					3.43128395080566,
+					10.4946165084839
+				]
+			}
+		},
+		{
+			"actual_deck_clearances": {
+				"flap_actual_triangle_clearance_m": 0.710106277465821,
+				"propeller_full_disc_clearance_m": 0.237295901622447,
+				"scope": "Static actual CV01 top; tyre visual facet error measured separately from continuous circular support.",
+				"tyre_actual_mesh_clearance_m": {
+					"main_left": 0.00451698303222692,
+					"main_right": 0.00451698303222692,
+					"tail": 0.00154342651367223
+				}
+			},
+			"aircraft_rotation_rad": [
+				0.168342307209969,
+				0.0,
+				0.0
+			],
+			"aircraft_world_position_m": [
+				-3.0,
+				17.0530776977539,
+				-8145.0
+			],
+			"camera_orthographic_size_m": 14.0,
+			"camera_position_m": [
+				21.0,
+				17.9530773162842,
+				-8145.0
+			],
+			"camera_target_m": [
+				-3.0,
+				16.4530773162842,
+				-8145.0
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 53,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": true,
+					"point_deck_m": [
+						-4.92999982833862,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"main_right": {
+					"available": true,
+					"point_deck_m": [
+						-1.07000005245209,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"tail": {
+					"available": true,
+					"point_deck_m": [
+						-3.0,
+						15.8499155044556,
+						79.40625
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				}
+			},
+			"name": "parked_side",
+			"original_obsolete_OPS_state": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000426650698819898,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000355542249016582,
+						"distance_m": 31928.8142612576,
+						"elevator_rad": -0.0000943214899554405,
+						"energy_height_m": 146.144028954175,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 681.0,
+						"fuel_used_kg": 47.4174243071026,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 18.1480445861816,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 0.999259333553156,
+						"load_limit": 1.75553386807349,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.00000011430217344629,
+						"propeller_phase_rad": 2.68690413266263,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999259333553156,
+						"roll_error_rad": -0.000000000000000888855622541455,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "deck_constraint",
+						"speed_mps": 15.0,
+						"stall_margin": 1.32496556213623,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 18.1801910400391,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00778921451218458,
+						"turn_rate_radps": -0.00000011430217344629,
+						"vertical_speed_mps": -1.92874026298523
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"cancelled": false,
+						"flaps_down": false,
+						"gear_down": true,
+						"go_arounds": 0.0,
+						"hook_down": false,
+						"last_local_m": [
+							-3.00000643730164,
+							18.1801910400391,
+							112.0576171875
+						],
+						"local_m": [
+							-3.00000286102295,
+							18.1499996185303,
+							-72.0499649047852
+						],
+						"local_yaw_rad": 0.0,
+						"on_deck": true,
+						"order_id": "carrier_patrol",
+						"parking_slot": "forward_1",
+						"phase": "standby",
+						"pre_flight_position_m": [
+							-3.00000643730164,
+							18.1801910400391,
+							-7075.6923828125
+						],
+						"pre_flight_velocity_mps": [
+							0.00000296205962513341,
+							-1.92874038219452,
+							-50.0669937133789
+						],
+						"reason": "service_complete",
+						"recoveries": 1.0,
+						"relative_velocity_mps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"route_index": 2.0,
+						"service_done": true,
+						"since_s": 547.716666666667,
+						"sorties": 1.0,
+						"touchdown_count": 1.0,
+						"wire_id": "wire_02"
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.00000286102295,
+					18.1499996185303,
+					-8292.0498046875
+				],
+				"rotation_rad": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-15.0
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"scope": "NEW THREE-TYRE STATIC FIXTURE on actual CV01; origin/attitude solved from circles",
+			"source_frame": 1643.0,
+			"source_time_s": 548.0,
+			"unit_state": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000426650698819898,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000355542249016582,
+						"distance_m": 31928.8142612576,
+						"elevator_rad": -0.0000943214899554405,
+						"energy_height_m": 146.144028954175,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 681.0,
+						"fuel_used_kg": 47.4174243071026,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 18.1480445861816,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 0.999259333553156,
+						"load_limit": 1.75553386807349,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.00000011430217344629,
+						"propeller_phase_rad": 2.68690413266263,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999259333553156,
+						"roll_error_rad": -0.000000000000000888855622541455,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "deck_constraint",
+						"speed_mps": 15.0,
+						"stall_margin": 1.32496556213623,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 18.1801910400391,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00778921451218458,
+						"turn_rate_radps": -0.00000011430217344629,
+						"vertical_speed_mps": -1.92874026298523
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"flaps_down": false,
+						"gear_down": true,
+						"hook_deflection_rad": 0.0,
+						"hook_down": false,
+						"phase": "static_geometry_fixture"
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.0,
+					17.0530776977539,
+					-8145.0
+				],
+				"rotation_rad": [
+					0.168342307209969,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-15.0
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.0,
+				"gear_down": true,
+				"hook_available": false,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.0,
+				"hook_down": false,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0,
+					0.130053758621216,
+					4.80029296875
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.0895507335662842,
+					3.98095703125
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": true,
+						"centre_m": [
+							-1.92999982833862,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-1.92999982833862,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": true,
+						"centre_m": [
+							1.92999994754791,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.92999994754791,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": true,
+						"centre_m": [
+							0.0,
+							-0.299999952316284,
+							4.5205078125
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							0.0000000064640222063872,
+							-0.447879552841187,
+							4.54563999176025
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					6.52799987792969,
+					1.9945479631424,
+					5.12438583374023
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-6.52799987792969,
+					-1.46877026557922,
+					-5.11919927597046
+				],
+				"size_m": [
+					13.0559997558594,
+					3.46331834793091,
+					10.2435855865479
+				]
+			}
+		},
+		{
+			"actual_deck_clearances": {
+				"flap_actual_triangle_clearance_m": 0.710106277465821,
+				"propeller_full_disc_clearance_m": 0.237295901622447,
+				"scope": "Static actual CV01 top; tyre visual facet error measured separately from continuous circular support.",
+				"tyre_actual_mesh_clearance_m": {
+					"main_left": 0.00451698303222692,
+					"main_right": 0.00451698303222692,
+					"tail": 0.00154342651367223
+				}
+			},
+			"aircraft_rotation_rad": [
+				0.168342307209969,
+				0.0,
+				0.0
+			],
+			"aircraft_world_position_m": [
+				-3.0,
+				17.0530776977539,
+				-8145.0
+			],
+			"camera_orthographic_size_m": 18.0,
+			"camera_position_m": [
+				13.0,
+				22.0530776977539,
+				-8125.0
+			],
+			"camera_target_m": [
+				-3.0,
+				17.0530776977539,
+				-8145.0
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 53,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": true,
+					"point_deck_m": [
+						-4.92999982833862,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"main_right": {
+					"available": true,
+					"point_deck_m": [
+						-1.07000005245209,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"tail": {
+					"available": true,
+					"point_deck_m": [
+						-3.0,
+						15.8499155044556,
+						79.40625
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				}
+			},
+			"name": "parked_rear",
+			"original_obsolete_OPS_state": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000426650698819898,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000355542249016582,
+						"distance_m": 31928.8142612576,
+						"elevator_rad": -0.0000943214899554405,
+						"energy_height_m": 146.144028954175,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 681.0,
+						"fuel_used_kg": 47.4174243071026,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 18.1480445861816,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 0.999259333553156,
+						"load_limit": 1.75553386807349,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.00000011430217344629,
+						"propeller_phase_rad": 2.68690413266263,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999259333553156,
+						"roll_error_rad": -0.000000000000000888855622541455,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "deck_constraint",
+						"speed_mps": 15.0,
+						"stall_margin": 1.32496556213623,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 18.1801910400391,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00778921451218458,
+						"turn_rate_radps": -0.00000011430217344629,
+						"vertical_speed_mps": -1.92874026298523
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"cancelled": false,
+						"flaps_down": false,
+						"gear_down": true,
+						"go_arounds": 0.0,
+						"hook_down": false,
+						"last_local_m": [
+							-3.00000643730164,
+							18.1801910400391,
+							112.0576171875
+						],
+						"local_m": [
+							-3.00000286102295,
+							18.1499996185303,
+							-72.0499649047852
+						],
+						"local_yaw_rad": 0.0,
+						"on_deck": true,
+						"order_id": "carrier_patrol",
+						"parking_slot": "forward_1",
+						"phase": "standby",
+						"pre_flight_position_m": [
+							-3.00000643730164,
+							18.1801910400391,
+							-7075.6923828125
+						],
+						"pre_flight_velocity_mps": [
+							0.00000296205962513341,
+							-1.92874038219452,
+							-50.0669937133789
+						],
+						"reason": "service_complete",
+						"recoveries": 1.0,
+						"relative_velocity_mps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"route_index": 2.0,
+						"service_done": true,
+						"since_s": 547.716666666667,
+						"sorties": 1.0,
+						"touchdown_count": 1.0,
+						"wire_id": "wire_02"
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.00000286102295,
+					18.1499996185303,
+					-8292.0498046875
+				],
+				"rotation_rad": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-15.0
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"scope": "NEW THREE-TYRE STATIC FIXTURE; short tailwheel, no fixed world-Y offset",
+			"source_frame": 1643.0,
+			"source_time_s": 548.0,
+			"unit_state": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000426650698819898,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000355542249016582,
+						"distance_m": 31928.8142612576,
+						"elevator_rad": -0.0000943214899554405,
+						"energy_height_m": 146.144028954175,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 681.0,
+						"fuel_used_kg": 47.4174243071026,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 18.1480445861816,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 0.999259333553156,
+						"load_limit": 1.75553386807349,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.00000011430217344629,
+						"propeller_phase_rad": 2.68690413266263,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999259333553156,
+						"roll_error_rad": -0.000000000000000888855622541455,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "deck_constraint",
+						"speed_mps": 15.0,
+						"stall_margin": 1.32496556213623,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 18.1801910400391,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00778921451218458,
+						"turn_rate_radps": -0.00000011430217344629,
+						"vertical_speed_mps": -1.92874026298523
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"flaps_down": false,
+						"gear_down": true,
+						"hook_deflection_rad": 0.0,
+						"hook_down": false,
+						"phase": "static_geometry_fixture"
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.0,
+					17.0530776977539,
+					-8145.0
+				],
+				"rotation_rad": [
+					0.168342307209969,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-15.0
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.0,
+				"gear_down": true,
+				"hook_available": false,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.0,
+				"hook_down": false,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0,
+					0.130053758621216,
+					4.80029296875
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.0895507335662842,
+					3.98095703125
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": true,
+						"centre_m": [
+							-1.92999982833862,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-1.92999982833862,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": true,
+						"centre_m": [
+							1.92999994754791,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.92999994754791,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": true,
+						"centre_m": [
+							0.0,
+							-0.299999952316284,
+							4.5205078125
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							0.0000000064640222063872,
+							-0.447879552841187,
+							4.54563999176025
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					6.52799987792969,
+					1.9945479631424,
+					5.12438583374023
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-6.52799987792969,
+					-1.46877026557922,
+					-5.11919927597046
+				],
+				"size_m": [
+					13.0559997558594,
+					3.46331834793091,
+					10.2435855865479
+				]
+			}
+		},
+		{
+			"actual_deck_clearances": {
+				"flap_actual_triangle_clearance_m": 0.710106277465821,
+				"propeller_full_disc_clearance_m": 0.237295901622447,
+				"scope": "Static actual CV01 top; tyre visual facet error measured separately from continuous circular support.",
+				"tyre_actual_mesh_clearance_m": {
+					"main_left": 0.00451698303222692,
+					"main_right": 0.00451698303222692,
+					"tail": 0.00154342651367223
+				}
+			},
+			"aircraft_rotation_rad": [
+				0.168342307209969,
+				0.0,
+				0.0
+			],
+			"aircraft_world_position_m": [
+				-3.0,
+				17.0530776977539,
+				-8145.0
+			],
+			"camera_orthographic_size_m": 14.0,
+			"camera_position_m": [
+				-3.0,
+				18.7530784606934,
+				-8169.0
+			],
+			"camera_target_m": [
+				-3.0,
+				16.7530784606934,
+				-8145.0
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 53,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": true,
+					"point_deck_m": [
+						-4.92999982833862,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"main_right": {
+					"available": true,
+					"point_deck_m": [
+						-1.07000005245209,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"tail": {
+					"available": true,
+					"point_deck_m": [
+						-3.0,
+						15.8499155044556,
+						79.40625
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				}
+			},
+			"name": "parked_front",
+			"original_obsolete_OPS_state": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000426650698819898,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000355542249016582,
+						"distance_m": 31928.8142612576,
+						"elevator_rad": -0.0000943214899554405,
+						"energy_height_m": 146.144028954175,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 681.0,
+						"fuel_used_kg": 47.4174243071026,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 18.1480445861816,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 0.999259333553156,
+						"load_limit": 1.75553386807349,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.00000011430217344629,
+						"propeller_phase_rad": 2.68690413266263,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999259333553156,
+						"roll_error_rad": -0.000000000000000888855622541455,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "deck_constraint",
+						"speed_mps": 15.0,
+						"stall_margin": 1.32496556213623,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 18.1801910400391,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00778921451218458,
+						"turn_rate_radps": -0.00000011430217344629,
+						"vertical_speed_mps": -1.92874026298523
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"cancelled": false,
+						"flaps_down": false,
+						"gear_down": true,
+						"go_arounds": 0.0,
+						"hook_down": false,
+						"last_local_m": [
+							-3.00000643730164,
+							18.1801910400391,
+							112.0576171875
+						],
+						"local_m": [
+							-3.00000286102295,
+							18.1499996185303,
+							-72.0499649047852
+						],
+						"local_yaw_rad": 0.0,
+						"on_deck": true,
+						"order_id": "carrier_patrol",
+						"parking_slot": "forward_1",
+						"phase": "standby",
+						"pre_flight_position_m": [
+							-3.00000643730164,
+							18.1801910400391,
+							-7075.6923828125
+						],
+						"pre_flight_velocity_mps": [
+							0.00000296205962513341,
+							-1.92874038219452,
+							-50.0669937133789
+						],
+						"reason": "service_complete",
+						"recoveries": 1.0,
+						"relative_velocity_mps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"route_index": 2.0,
+						"service_done": true,
+						"since_s": 547.716666666667,
+						"sorties": 1.0,
+						"touchdown_count": 1.0,
+						"wire_id": "wire_02"
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.00000286102295,
+					18.1499996185303,
+					-8292.0498046875
+				],
+				"rotation_rad": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-15.0
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"scope": "NEW THREE-TYRE STATIC FIXTURE; both main tyres and simple struts",
+			"source_frame": 1643.0,
+			"source_time_s": 548.0,
+			"unit_state": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000426650698819898,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000355542249016582,
+						"distance_m": 31928.8142612576,
+						"elevator_rad": -0.0000943214899554405,
+						"energy_height_m": 146.144028954175,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 681.0,
+						"fuel_used_kg": 47.4174243071026,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 18.1480445861816,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 0.999259333553156,
+						"load_limit": 1.75553386807349,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.00000011430217344629,
+						"propeller_phase_rad": 2.68690413266263,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999259333553156,
+						"roll_error_rad": -0.000000000000000888855622541455,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "deck_constraint",
+						"speed_mps": 15.0,
+						"stall_margin": 1.32496556213623,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 18.1801910400391,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00778921451218458,
+						"turn_rate_radps": -0.00000011430217344629,
+						"vertical_speed_mps": -1.92874026298523
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"flaps_down": false,
+						"gear_down": true,
+						"hook_deflection_rad": 0.0,
+						"hook_down": false,
+						"phase": "static_geometry_fixture"
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.0,
+					17.0530776977539,
+					-8145.0
+				],
+				"rotation_rad": [
+					0.168342307209969,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-15.0
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.0,
+				"gear_down": true,
+				"hook_available": false,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.0,
+				"hook_down": false,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0,
+					0.130053758621216,
+					4.80029296875
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.0895507335662842,
+					3.98095703125
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": true,
+						"centre_m": [
+							-1.92999982833862,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-1.92999982833862,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": true,
+						"centre_m": [
+							1.92999994754791,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.92999994754791,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": true,
+						"centre_m": [
+							0.0,
+							-0.299999952316284,
+							4.5205078125
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							0.0000000064640222063872,
+							-0.447879552841187,
+							4.54563999176025
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					6.52799987792969,
+					1.9945479631424,
+					5.12438583374023
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-6.52799987792969,
+					-1.46877026557922,
+					-5.11919927597046
+				],
+				"size_m": [
+					13.0559997558594,
+					3.46331834793091,
+					10.2435855865479
+				]
+			}
+		},
+		{
+			"actual_deck_clearances": {
+				"flap_actual_triangle_clearance_m": 0.710106277465821,
+				"propeller_full_disc_clearance_m": 0.237295901622447,
+				"scope": "Static actual CV01 top; tyre visual facet error measured separately from continuous circular support.",
+				"tyre_actual_mesh_clearance_m": {
+					"main_left": 0.00451698303222692,
+					"main_right": 0.00451698303222692,
+					"tail": 0.00154342651367223
+				}
+			},
+			"aircraft_rotation_rad": [
+				0.168342307209969,
+				0.0,
+				0.0
+			],
+			"aircraft_world_position_m": [
+				-3.0,
+				17.0530776977539,
+				-8145.0
+			],
+			"camera_orthographic_size_m": 16.0,
+			"camera_position_m": [
+				-20.0,
+				21.0530776977539,
+				-8167.0
+			],
+			"camera_target_m": [
+				-3.0,
+				17.0530776977539,
+				-8145.0
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 53,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": true,
+					"point_deck_m": [
+						-4.92999982833862,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"main_right": {
+					"available": true,
+					"point_deck_m": [
+						-1.07000005245209,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"tail": {
+					"available": true,
+					"point_deck_m": [
+						-3.0,
+						15.8499155044556,
+						79.40625
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				}
+			},
+			"name": "parked_front_quarter",
+			"original_obsolete_OPS_state": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000426650698819898,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000355542249016582,
+						"distance_m": 31928.8142612576,
+						"elevator_rad": -0.0000943214899554405,
+						"energy_height_m": 146.144028954175,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 681.0,
+						"fuel_used_kg": 47.4174243071026,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 18.1480445861816,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 0.999259333553156,
+						"load_limit": 1.75553386807349,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.00000011430217344629,
+						"propeller_phase_rad": 2.68690413266263,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999259333553156,
+						"roll_error_rad": -0.000000000000000888855622541455,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "deck_constraint",
+						"speed_mps": 15.0,
+						"stall_margin": 1.32496556213623,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 18.1801910400391,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00778921451218458,
+						"turn_rate_radps": -0.00000011430217344629,
+						"vertical_speed_mps": -1.92874026298523
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"cancelled": false,
+						"flaps_down": false,
+						"gear_down": true,
+						"go_arounds": 0.0,
+						"hook_down": false,
+						"last_local_m": [
+							-3.00000643730164,
+							18.1801910400391,
+							112.0576171875
+						],
+						"local_m": [
+							-3.00000286102295,
+							18.1499996185303,
+							-72.0499649047852
+						],
+						"local_yaw_rad": 0.0,
+						"on_deck": true,
+						"order_id": "carrier_patrol",
+						"parking_slot": "forward_1",
+						"phase": "standby",
+						"pre_flight_position_m": [
+							-3.00000643730164,
+							18.1801910400391,
+							-7075.6923828125
+						],
+						"pre_flight_velocity_mps": [
+							0.00000296205962513341,
+							-1.92874038219452,
+							-50.0669937133789
+						],
+						"reason": "service_complete",
+						"recoveries": 1.0,
+						"relative_velocity_mps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"route_index": 2.0,
+						"service_done": true,
+						"since_s": 547.716666666667,
+						"sorties": 1.0,
+						"touchdown_count": 1.0,
+						"wire_id": "wire_02"
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.00000286102295,
+					18.1499996185303,
+					-8292.0498046875
+				],
+				"rotation_rad": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-15.0
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"scope": "NEW THREE-TYRE STATIC FIXTURE; original body/wing installation, short gear",
+			"source_frame": 1643.0,
+			"source_time_s": 548.0,
+			"unit_state": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000426650698819898,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000355542249016582,
+						"distance_m": 31928.8142612576,
+						"elevator_rad": -0.0000943214899554405,
+						"energy_height_m": 146.144028954175,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 681.0,
+						"fuel_used_kg": 47.4174243071026,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 18.1480445861816,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 0.999259333553156,
+						"load_limit": 1.75553386807349,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.00000011430217344629,
+						"propeller_phase_rad": 2.68690413266263,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999259333553156,
+						"roll_error_rad": -0.000000000000000888855622541455,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "deck_constraint",
+						"speed_mps": 15.0,
+						"stall_margin": 1.32496556213623,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 18.1801910400391,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00778921451218458,
+						"turn_rate_radps": -0.00000011430217344629,
+						"vertical_speed_mps": -1.92874026298523
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"flaps_down": false,
+						"gear_down": true,
+						"hook_deflection_rad": 0.0,
+						"hook_down": false,
+						"phase": "static_geometry_fixture"
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.0,
+					17.0530776977539,
+					-8145.0
+				],
+				"rotation_rad": [
+					0.168342307209969,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-15.0
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.0,
+				"gear_down": true,
+				"hook_available": false,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.0,
+				"hook_down": false,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0,
+					0.130053758621216,
+					4.80029296875
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.0895507335662842,
+					3.98095703125
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": true,
+						"centre_m": [
+							-1.92999982833862,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-1.92999982833862,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": true,
+						"centre_m": [
+							1.92999994754791,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.92999994754791,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": true,
+						"centre_m": [
+							0.0,
+							-0.299999952316284,
+							4.5205078125
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							0.0000000064640222063872,
+							-0.447879552841187,
+							4.54563999176025
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					6.52799987792969,
+					1.9945479631424,
+					5.12438583374023
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-6.52799987792969,
+					-1.46877026557922,
+					-5.11919927597046
+				],
+				"size_m": [
+					13.0559997558594,
+					3.46331834793091,
+					10.2435855865479
+				]
+			}
+		},
+		{
+			"actual_deck_clearances": {
+				"flap_actual_triangle_clearance_m": -0.214912033081054,
+				"propeller_full_disc_clearance_m": 0.237295901622447,
+				"scope": "Static actual CV01 top; tyre visual facet error measured separately from continuous circular support.",
+				"tyre_actual_mesh_clearance_m": {
+					"main_left": 0.00451698303222692,
+					"main_right": 0.00451698303222692,
+					"tail": 0.00154342651367223
+				}
+			},
+			"aircraft_rotation_rad": [
+				0.168342307209969,
+				0.0,
+				0.0
+			],
+			"aircraft_world_position_m": [
+				-3.0,
+				17.0530776977539,
+				-8145.0
+			],
+			"camera_orthographic_size_m": 14.0,
+			"camera_position_m": [
+				22.0,
+				17.6030788421631,
+				-8145.0
+			],
+			"camera_target_m": [
+				-3.0,
+				16.4030780792236,
+				-8145.0
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 53,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": true,
+					"point_deck_m": [
+						-4.92999982833862,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"main_right": {
+					"available": true,
+					"point_deck_m": [
+						-1.07000005245209,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"tail": {
+					"available": true,
+					"point_deck_m": [
+						-3.0,
+						15.8499155044556,
+						79.40625
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				}
+			},
+			"name": "hook_contact_side",
+			"original_obsolete_OPS_state": {},
+			"scope": "STATIC CONTACT FIXTURE: supplied deflection; OPS has not integrated this hook yet",
+			"source_frame": -1,
+			"source_time_s": 548.0,
+			"unit_state": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000426650698819898,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000355542249016582,
+						"distance_m": 31928.8142612576,
+						"elevator_rad": -0.0000943214899554405,
+						"energy_height_m": 146.144028954175,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 681.0,
+						"fuel_used_kg": 47.4174243071026,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 18.1480445861816,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 0.999259333553156,
+						"load_limit": 1.75553386807349,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.00000011430217344629,
+						"propeller_phase_rad": 2.68690413266263,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999259333553156,
+						"roll_error_rad": -0.000000000000000888855622541455,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "deck_constraint",
+						"speed_mps": 15.0,
+						"stall_margin": 1.32496556213623,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 18.1801910400391,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00778921451218458,
+						"turn_rate_radps": -0.00000011430217344629,
+						"vertical_speed_mps": -1.92874026298523
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"flaps_down": true,
+						"gear_down": true,
+						"hook_deflection_rad": 0.522647241014493,
+						"hook_down": true
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.0,
+					17.0530776977539,
+					-8145.0
+				],
+				"rotation_rad": [
+					0.168342307209969,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-15.0
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.610865238198015,
+				"gear_down": true,
+				"hook_available": true,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.522647241014493,
+				"hook_down": true,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0,
+					0.130053758621216,
+					4.80029296875
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.255810499191284,
+					5.5556640625
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": true,
+						"centre_m": [
+							-1.92999982833862,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-1.92999982833862,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": true,
+						"centre_m": [
+							1.92999994754791,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.92999994754791,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": true,
+						"centre_m": [
+							0.0,
+							-0.299999952316284,
+							4.5205078125
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							0.0000000064640222063872,
+							-0.447879552841187,
+							4.54563999176025
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					6.52799987792969,
+					1.9945479631424,
+					5.60461807250977
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-6.52799987792969,
+					-1.46877026557922,
+					-5.11919927597046
+				],
+				"size_m": [
+					13.0559997558594,
+					3.46331834793091,
+					10.7238178253174
+				]
+			}
+		},
+		{
+			"actual_deck_clearances": {
+				"flap_actual_triangle_clearance_m": -0.214912033081054,
+				"propeller_full_disc_clearance_m": 0.237295901622447,
+				"scope": "Static actual CV01 top; tyre visual facet error measured separately from continuous circular support.",
+				"tyre_actual_mesh_clearance_m": {
+					"main_left": 0.00451698303222692,
+					"main_right": 0.00451698303222692,
+					"tail": 0.00154342651367223
+				}
+			},
+			"aircraft_rotation_rad": [
+				0.168342307209969,
+				0.0,
+				0.0
+			],
+			"aircraft_world_position_m": [
+				-3.0,
+				17.0530776977539,
+				-8145.0
+			],
+			"camera_orthographic_size_m": 5.0,
+			"camera_position_m": [
+				2.0,
+				18.0700397491455,
+				-8136.56591796875
+			],
+			"camera_target_m": [
+				-3.0,
+				16.6700401306152,
+				-8139.56591796875
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 0,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 0,
+				"mesh_nodes": 53,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": true,
+					"point_deck_m": [
+						-4.92999982833862,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"main_right": {
+					"available": true,
+					"point_deck_m": [
+						-1.07000005245209,
+						15.8500900268555,
+						73.5810546875
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				},
+				"tail": {
+					"available": true,
+					"point_deck_m": [
+						-3.0,
+						15.8499155044556,
+						79.40625
+					],
+					"surface": {
+						"height_m": 15.85,
+						"supported": true,
+						"surface_id": "flight_deck"
+					}
+				}
+			},
+			"name": "hook_contact_detail",
+			"original_obsolete_OPS_state": {},
+			"scope": "STATIC CONTACT FIXTURE: real sole Marker, shank/root; no origin change",
+			"source_frame": -1,
+			"source_time_s": 548.0,
+			"unit_state": {
+				"active": true,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "us",
+				"id": "hellcat_1",
+				"module_data": {
+					"aircraft_initial": {},
+					"aircraft_motion": {
+						"aileron_rad": 0.000000000000000426650698819898,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.00000000000000355542249016582,
+						"distance_m": 31928.8142612576,
+						"elevator_rad": -0.0000943214899554405,
+						"energy_height_m": 146.144028954175,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							0.0,
+							-1.0
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 681.0,
+						"fuel_used_kg": 47.4174243071026,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 18.1480445861816,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 0.0,
+						"lift_up_m": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"load_factor": 0.999259333553156,
+						"load_limit": 1.75553386807349,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.00000011430217344629,
+						"propeller_phase_rad": 2.68690413266263,
+						"propeller_speed_radps": 18.0,
+						"requested_load_g": 0.999259333553156,
+						"roll_error_rad": -0.000000000000000888855622541455,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "deck_constraint",
+						"speed_mps": 15.0,
+						"stall_margin": 1.32496556213623,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 18.1801910400391,
+						"terrain_lookahead_s": 7.10919934852982,
+						"throttle": 0.00778921451218458,
+						"turn_rate_radps": -0.00000011430217344629,
+						"vertical_speed_mps": -1.92874026298523
+					},
+					"carrier_initial": {
+						"carrier_id": "essex"
+					},
+					"carrier_ops": {
+						"flaps_down": true,
+						"gear_down": true,
+						"hook_deflection_rad": 0.522647241014493,
+						"hook_down": true
+					},
+					"combat_intent": {
+						"allow_aa": false,
+						"burst_until_tick": -1.0,
+						"fire": false
+					}
+				},
+				"position_m": [
+					-3.0,
+					17.0530776977539,
+					-8145.0
+				],
+				"rotation_rad": [
+					0.168342307209969,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					0.0,
+					-15.0
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "hellcat_1/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400.0
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.610865238198015,
+				"gear_down": true,
+				"hook_available": true,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.522647241014493,
+				"hook_down": true,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0,
+					0.130053758621216,
+					4.80029296875
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.255810499191284,
+					5.5556640625
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": true,
+						"centre_m": [
+							-1.92999982833862,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-1.92999982833862,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": true,
+						"centre_m": [
+							1.92999994754791,
+							-0.999829053878784,
+							-1.26953125
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.92999994754791,
+							-1.4237505197525,
+							-1.19748544692993
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": true,
+						"centre_m": [
+							0.0,
+							-0.299999952316284,
+							4.5205078125
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							0.0000000064640222063872,
+							-0.447879552841187,
+							4.54563999176025
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					6.52799987792969,
+					1.9945479631424,
+					5.60461807250977
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-6.52799987792969,
+					-1.46877026557922,
+					-5.11919927597046
+				],
+				"size_m": [
+					13.0559997558594,
+					3.46331834793091,
+					10.7238178253174
+				]
+			}
+		},
+		{
+			"actual_deck_clearances": {},
+			"aircraft_rotation_rad": [
+				-0.0638473555445671,
+				0.0429274700582027,
+				0.324964612722397
+			],
+			"aircraft_world_position_m": [
+				-0.0946494564414024,
+				599.013610839844,
+				-74.2401428222656
+			],
+			"camera_orthographic_size_m": 24.0,
+			"camera_position_m": [
+				-22.0946502685547,
+				607.013610839844,
+				-49.2401428222656
+			],
+			"camera_target_m": [
+				-0.0946494564414024,
+				598.013610839844,
+				-74.2401428222656
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 1,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 1,
+				"mesh_nodes": 66,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": false,
+					"point_deck_m": [
+						-1.59204602241516,
+						596.938781738281,
+						8144.654296875
+					],
+					"surface": {
+						"supported": false
+					}
+				},
+				"main_right": {
+					"available": true,
+					"point_deck_m": [
+						2.05918574333191,
+						598.168701171875,
+						8144.41845703125
+					],
+					"surface": {
+						"supported": false
+					}
+				},
+				"tail": {
+					"available": true,
+					"point_deck_m": [
+						0.202913790941238,
+						598.862487792969,
+						8150.2802734375
+					],
+					"surface": {
+						"supported": false
+					}
+				}
+			},
+			"name": "damage_wing_left",
+			"original_obsolete_OPS_state": {},
+			"scope": "REAL EXISTING-AMMO DAMAGE with explicit lowered-usage fixture; wing/tail equipment follows host",
+			"source_frame": -1,
+			"source_time_s": 0.75,
+			"unit_state": {
+				"active": false,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": -0.809223234653473,
+						"distance_m": 3.33245384693146,
+						"elevator_rad": 0.0,
+						"energy_height_m": 1109.320149504,
+						"exited": false,
+						"forward_m": [
+							-0.042826846241951,
+							-0.0638039857149124,
+							-0.997043073177338
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.998891666667,
+						"fuel_used_kg": 0.00110833333333333,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 600.0,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 286.875423116071,
+						"lift_up_m": [
+							-0.321575939655304,
+							0.945731163024902,
+							-0.0467074476182461
+						],
+						"load_factor": 1.0,
+						"load_limit": 4.81071151683579,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.0,
+						"propeller_phase_rad": 3.79690963300596,
+						"propeller_speed_radps": 11.7608642578125,
+						"requested_load_g": 1.0,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "uncontrolled_damage",
+						"speed_mps": 98.0072021484375,
+						"stall_margin": 2.19275468476262,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 600.0,
+						"terrain_lookahead_s": 4.67521460124606,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": 0.0
+					},
+					"carrier_ops": {
+						"flaps_down": true,
+						"gear_down": true,
+						"hook_down": true
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "disabled",
+							"wing_port_02": "disabled",
+							"wing_port_03": "disabled",
+							"wing_starboard_01": "disabled",
+							"wing_starboard_02": "disabled",
+							"wing_starboard_03": "disabled"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								-0.138112246990204,
+								0.127504870295525,
+								0.809223234653473
+							],
+							"breakup": false,
+							"contact_surface": "",
+							"detached_parts": [
+								"wing_left"
+							],
+							"fragments": [
+								{
+									"age_s": 0.716666666666667,
+									"angular_velocity_body_radps": [
+										0.206819668412209,
+										-0.116336047649384,
+										-0.290840119123459
+									],
+									"born_tick": 2,
+									"born_time_s": 0.0333333333333333,
+									"lifetime_s": 12.0,
+									"part_id": "wing_left",
+									"position_m": [
+										-3.09999990463257,
+										597.392517089844,
+										-71.4590072631836
+									],
+									"rotation_rad": [
+										0.0758675560355186,
+										-0.0484861247241497,
+										-0.112295411527157
+									],
+									"surface": "",
+									"velocity_mps": [
+										0.0,
+										-6.6939845085144,
+										-90.2220001220703
+									]
+								}
+							],
+							"terminal_born_tick": 2,
+							"terminal_started": true
+						},
+						"control_factor": 1.0,
+						"disabled_mounts": [
+							"wing_port_01",
+							"wing_port_02",
+							"wing_port_03"
+						],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.200000002980232,
+									0.5
+								],
+								"enabled": true,
+								"id": "structure_smoke",
+								"intensity": 0.443803084441824,
+								"kind": "smoke",
+								"part_id": "structure",
+								"size_m": 3.5
+							},
+							{
+								"anchor_m": [
+									0.0,
+									0.100000001490116,
+									0.5
+								],
+								"enabled": true,
+								"id": "structure_fire",
+								"intensity": 0.156338474069707,
+								"kind": "fire",
+								"part_id": "structure",
+								"size_m": 1.5
+							}
+						],
+						"fire": 0.156338474069707,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 1.0,
+							"steering": 1.0,
+							"tail": 1.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 0.0,
+							"wing_right": 1.0
+						},
+						"phase": "crashing",
+						"phase_time_s": 0.733333333333334,
+						"propulsion_factor": 1.0,
+						"structure": 75.9295373337263,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					-0.0946494564414024,
+					599.013610839844,
+					-74.2401428222656
+				],
+				"rotation_rad": [
+					-0.0638473555445671,
+					0.0429274700582027,
+					0.324964612722397
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					-0.495934247970581,
+					-2.80424308776855,
+					-97.9658203125
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.610865238198015,
+				"gear_down": true,
+				"hook_available": true,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.0,
+				"hook_down": true,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0000152587890625,
+					0.130053758621216,
+					4.80001068115234
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.581616163253784,
+					5.26214218139648
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": false,
+						"centre_m": [
+							-1.93002319335938,
+							-1.00001215934753,
+							-1.27000427246094
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-2.01002311706543,
+							-1.42903685569763,
+							-1.29894852638245
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": true,
+						"centre_m": [
+							1.92997741699219,
+							-1.00001215934753,
+							-1.26999282836914
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.84997737407684,
+							-1.42903685569763,
+							-1.29893708229065
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": true,
+						"centre_m": [
+							0.0,
+							-0.300060987472534,
+							4.5200080871582
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							-0.0424999967217445,
+							-0.449720740318298,
+							4.50991106033325
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					6.52801609039307,
+					1.97076821327209,
+					5.37513875961304
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-6.43083000183105,
+					-2.89822268486023,
+					-5.12000036239624
+				],
+				"size_m": [
+					12.9588460922241,
+					4.86899089813232,
+					10.4951391220093
+				]
+			}
+		},
+		{
+			"actual_deck_clearances": {},
+			"aircraft_rotation_rad": [
+				-0.428606569766998,
+				0.0,
+				0.0
+			],
+			"aircraft_world_position_m": [
+				0.0,
+				581.556823730469,
+				-191.64533996582
+			],
+			"camera_orthographic_size_m": 24.0,
+			"camera_position_m": [
+				-22.0,
+				589.556823730469,
+				-166.64533996582
+			],
+			"camera_target_m": [
+				0.0,
+				580.556823730469,
+				-191.64533996582
+			],
+			"damage_statistics": {
+				"detachable_groups": 3,
+				"fragment_cap": 3,
+				"fragment_nodes": 3,
+				"global_fragment_cap": 48,
+				"global_fragment_nodes": 3,
+				"mesh_nodes": 89,
+				"suppressed_fragments": 0
+			},
+			"deck_contacts": {
+				"main_left": {
+					"available": false,
+					"point_deck_m": [
+						-1.92999994754791,
+						579.689392089844,
+						8027.615234375
+					],
+					"surface": {
+						"supported": false
+					}
+				},
+				"main_right": {
+					"available": false,
+					"point_deck_m": [
+						1.92999994754791,
+						579.689392089844,
+						8027.615234375
+					],
+					"surface": {
+						"supported": false
+					}
+				},
+				"tail": {
+					"available": false,
+					"point_deck_m": [
+						0.00000000596362736970946,
+						583.012512207031,
+						8032.59033203125
+					],
+					"surface": {
+						"supported": false
+					}
+				}
+			},
+			"name": "damage_structure",
+			"original_obsolete_OPS_state": {},
+			"scope": "REAL EXISTING-AMMO DAMAGE with explicit lowered-usage fixture; wing/tail equipment follows host",
+			"source_frame": -1,
+			"source_time_s": 2.0,
+			"unit_state": {
+				"active": false,
+				"active_order_id": "",
+				"cease_fire": false,
+				"definition_id": "us_f6f5_1944",
+				"faction_id": "jp",
+				"id": "target",
+				"module_data": {
+					"aircraft_motion": {
+						"aileron_rad": 0.0,
+						"bank_rad": 0.0,
+						"body_angular_velocity_radps": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"body_roll_rate_radps": 0.0,
+						"distance_m": 3.33245384693146,
+						"elevator_rad": 0.0,
+						"energy_height_m": 1109.320149504,
+						"exited": false,
+						"forward_m": [
+							0.0,
+							-0.415603816509247,
+							-0.90954577922821
+						],
+						"fuel_capacity_kg": 681.0,
+						"fuel_kg": 680.998891666667,
+						"fuel_used_kg": 0.00110833333333333,
+						"heading_rate_radps": 0.0,
+						"height_agl_m": 600.0,
+						"induced_drag_mps2": 0.0,
+						"kinetic_margin_m": 286.875423116071,
+						"lift_up_m": [
+							0.0,
+							0.90954577922821,
+							-0.415603816509247
+						],
+						"load_factor": 1.0,
+						"load_limit": 4.81071151683579,
+						"path_pitch_rad": 0.0,
+						"path_pitch_rate_radps": 0.0,
+						"path_turn_rate_radps": 0.0,
+						"propeller_phase_rad": 5.469905900971,
+						"propeller_speed_radps": 11.230989074707,
+						"requested_load_g": 1.0,
+						"roll_error_rad": 0.0,
+						"roll_velocity_radps": 0.0,
+						"safety_state": "uncontrolled_damage",
+						"speed_mps": 93.5915756225586,
+						"stall_margin": 2.19275468476262,
+						"stalled": false,
+						"terrain_ahead_m": 0.0,
+						"terrain_clearance_m": 600.0,
+						"terrain_lookahead_s": 4.67521460124606,
+						"throttle": 0.0,
+						"turn_rate_radps": 0.0,
+						"vertical_speed_mps": 0.0
+					},
+					"carrier_ops": {
+						"flaps_down": true,
+						"gear_down": true,
+						"hook_down": true
+					},
+					"combat_runtime": {
+						"mount_reasons": {
+							"wing_port_01": "no_contact",
+							"wing_port_02": "no_contact",
+							"wing_port_03": "no_contact",
+							"wing_starboard_01": "no_contact",
+							"wing_starboard_02": "no_contact",
+							"wing_starboard_03": "no_contact"
+						},
+						"mount_status": {
+							"wing_port_01": "disabled",
+							"wing_port_02": "disabled",
+							"wing_port_03": "disabled",
+							"wing_starboard_01": "disabled",
+							"wing_starboard_02": "disabled",
+							"wing_starboard_03": "disabled"
+						},
+						"mount_targets": {
+							"wing_port_01": "",
+							"wing_port_02": "",
+							"wing_port_03": "",
+							"wing_starboard_01": "",
+							"wing_starboard_02": "",
+							"wing_starboard_03": ""
+						}
+					},
+					"damage": {
+						"aircraft": {
+							"angular_velocity_body_radps": [
+								-0.333686500787735,
+								0.0,
+								0.0
+							],
+							"breakup": true,
+							"contact_surface": "",
+							"detached_parts": [
+								"wing_left",
+								"wing_right",
+								"tail"
+							],
+							"fragments": [
+								{
+									"age_s": 1.96666666666666,
+									"angular_velocity_body_radps": [
+										0.476258724927902,
+										-0.267895519733429,
+										-0.66973876953125
+									],
+									"born_tick": 2,
+									"born_time_s": 0.0333333333333333,
+									"lifetime_s": 12.0,
+									"part_id": "wing_left",
+									"position_m": [
+										-3.09999990463257,
+										582.386291503906,
+										-175.577163696289
+									],
+									"rotation_rad": [
+										0.353844732046127,
+										-0.470996588468552,
+										-0.836074411869049
+									],
+									"surface": "",
+									"velocity_mps": [
+										0.0,
+										-17.0844268798828,
+										-77.017578125
+									]
+								},
+								{
+									"age_s": 1.96666666666666,
+									"angular_velocity_body_radps": [
+										0.476258724927902,
+										0.267895519733429,
+										0.66973876953125
+									],
+									"born_tick": 2,
+									"born_time_s": 0.0333333333333333,
+									"lifetime_s": 12.0,
+									"part_id": "wing_right",
+									"position_m": [
+										3.09999990463257,
+										582.386291503906,
+										-175.577163696289
+									],
+									"rotation_rad": [
+										0.353844732046127,
+										0.470996588468552,
+										0.836074411869049
+									],
+									"surface": "",
+									"velocity_mps": [
+										0.0,
+										-17.0844268798828,
+										-77.017578125
+									]
+								},
+								{
+									"age_s": 1.96666666666666,
+									"angular_velocity_body_radps": [
+										0.476258724927902,
+										0.267895519733429,
+										0.66973876953125
+									],
+									"born_tick": 2,
+									"born_time_s": 0.0333333333333333,
+									"lifetime_s": 12.0,
+									"part_id": "tail",
+									"position_m": [
+										0.0,
+										582.856262207031,
+										-171.377151489258
+									],
+									"rotation_rad": [
+										0.353844732046127,
+										0.470996588468552,
+										0.836074411869049
+									],
+									"surface": "",
+									"velocity_mps": [
+										0.0,
+										-17.0844268798828,
+										-77.017578125
+									]
+								}
+							],
+							"terminal_born_tick": 2,
+							"terminal_started": true
+						},
+						"control_factor": 0.0,
+						"disabled_mounts": [
+							"wing_port_01",
+							"wing_port_02",
+							"wing_port_03",
+							"wing_starboard_01",
+							"wing_starboard_02",
+							"wing_starboard_03"
+						],
+						"effect_emitters": [
+							{
+								"anchor_m": [
+									0.0,
+									0.200000002980232,
+									0.5
+								],
+								"enabled": true,
+								"id": "structure_smoke",
+								"intensity": 0.35,
+								"kind": "smoke",
+								"part_id": "structure",
+								"size_m": 3.5
+							}
+						],
+						"fire": 0.0,
+						"flooding": 0.0,
+						"list_rad": 0.0,
+						"parts": {
+							"control": 1.0,
+							"engine": 1.0,
+							"steering": 1.0,
+							"tail": 0.0,
+							"weapon:wing_port_01": 1.0,
+							"weapon:wing_port_02": 1.0,
+							"weapon:wing_port_03": 1.0,
+							"weapon:wing_starboard_01": 1.0,
+							"weapon:wing_starboard_02": 1.0,
+							"weapon:wing_starboard_03": 1.0,
+							"wing_left": 0.0,
+							"wing_right": 0.0
+						},
+						"phase": "crashing",
+						"phase_time_s": 1.98333333333333,
+						"propulsion_factor": 0.0,
+						"structure": 0.0,
+						"structure_max": 90.0
+					}
+				},
+				"position_m": [
+					0.0,
+					581.556823730469,
+					-191.64533996582
+				],
+				"rotation_rad": [
+					-0.428606569766998,
+					0.0,
+					0.0
+				],
+				"target_id": "",
+				"task": {},
+				"velocity_mps": [
+					0.0,
+					-18.4973182678223,
+					-91.745475769043
+				],
+				"weapons": {
+					"wing_port_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_port_01",
+						"mount_id": "wing_port_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_port_02",
+						"mount_id": "wing_port_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_port_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_port_03",
+						"mount_id": "wing_port_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_starboard_01",
+						"mount_id": "wing_starboard_01",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_starboard_02",
+						"mount_id": "wing_starboard_02",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					},
+					"wing_starboard_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "us_an_m2_127mm_single",
+						"elevation_rad": 0.0,
+						"enabled": false,
+						"id": "target/wing_starboard_03",
+						"mount_id": "wing_starboard_03",
+						"remaining_rounds": [
+							400
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"usage": {
+				"coordinate_space": "aircraft_local",
+				"definition_id": "us_f6f5_1944",
+				"flap_angle_rad": 0.610865238198015,
+				"gear_down": true,
+				"hook_available": false,
+				"hook_deflection_limit_rad": 0.698131700797732,
+				"hook_deflection_rad": 0.0,
+				"hook_down": true,
+				"hook_free_angle_rad": 0.20943951023932,
+				"hook_host_part_id": "tail",
+				"hook_pivot_m": [
+					0.0,
+					0.129992723464966,
+					4.80000305175781
+				],
+				"hook_tip_m": [
+					0.0,
+					-0.581677198410034,
+					5.26213073730469
+				],
+				"schema_version": 1,
+				"wheel_contacts": {
+					"main_left": {
+						"available": false,
+						"centre_m": [
+							-1.92999994754791,
+							-1.00007319450378,
+							-1.27001953125
+						],
+						"host_part_id": "wing_left",
+						"position_m": [
+							-1.92999994754791,
+							-1.39117789268494,
+							-1.44872915744781
+						],
+						"radius_m": 0.43
+					},
+					"main_right": {
+						"available": false,
+						"centre_m": [
+							1.92999994754791,
+							-1.00007319450378,
+							-1.27001953125
+						],
+						"host_part_id": "wing_right",
+						"position_m": [
+							1.92999994754791,
+							-1.39117789268494,
+							-1.44872915744781
+						],
+						"radius_m": 0.43
+					},
+					"tail": {
+						"available": false,
+						"centre_m": [
+							0.0,
+							-0.299999952316284,
+							4.52000427246094
+						],
+						"host_part_id": "tail",
+						"position_m": [
+							0.00000000596362736970946,
+							-0.436431884765625,
+							4.45766353607178
+						],
+						"radius_m": 0.15
+					}
+				}
+			},
+			"visible_bounds_aircraft_local": {
+				"max_m": [
+					5.32205200195312,
+					1.5344660282135,
+					20.2768573760986
+				],
+				"method": "Actual currently visible triangle vertices; propeller is at recorded phase, not its entire swept disc.",
+				"min_m": [
+					-5.32205200195312,
+					-9.13423252105713,
+					-5.12000799179077
+				],
+				"size_m": [
+					10.6441040039062,
+					10.6686983108521,
+					25.3968658447266
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,62 @@
+{
+  "task": "AV04",
+  "status": "round1_corrections_requested",
+  "reviewer": "root",
+  "date": "2026-11-11",
+  "viewed_images": [
+    {
+      "path": "docs/showcase/evidence/AV04/round1/quarter.png",
+      "sha256": "9821c058de3da0930d4ca0fe98c48188b18c36904200b5e36e33f4acbc401564"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/round1/side.png",
+      "sha256": "432ff8dade8e0aa8b6327b044fb5f20bf91dc3165fc6d62b849abbeb1e7a6bb6"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/round1/front.png",
+      "sha256": "af642ff6060e785a89039f6a887b8df199cfe7c163a7abf28771324686f013c4"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/round1/top_flight.png",
+      "sha256": "a83f5cf7a03e17e1df8f144d71a5f1ed540a68b25429de2b66bcee1345b856e0"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/round1/high_rear.png",
+      "sha256": "edd7f73f9fe350f605924b7b6286697c399d48aca79d6a1f578b24fc62e55c76"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/round1/underside_flight.png",
+      "sha256": "19b15f43617924ff554c9153bcfe0519691177bc252e88ccb8d7b6c874c8729d"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/round1/bay.png",
+      "sha256": "beef07b335939f7e6fe1e90416d5a2618f5672902937a262620bcf91a8648de9"
+    },
+    {
+      "path": "docs/showcase/evidence/AV04/round1/landing.png",
+      "sha256": "09f158dfbdca7bf8561e77376d658b841cf056d63bb54b0390dd624f28995da1"
+    }
+  ],
+  "findings": [
+    {
+      "priority": 1,
+      "file": "aircraft/b25j/b25j.gd",
+      "function": "apply_visual_state",
+      "issue": "landing render shows four flap trailing edges upward; -35 degree +X rotation raises trailing +Z geometry. Correct downward deployment and verify clearance."
+    },
+    {
+      "priority": 2,
+      "file": "aircraft/b25j/b25j.gd",
+      "function": "_build_tail",
+      "issue": "Neutral vertical fin/rudder seam makes a visible V notch at upper outline and abrupt trailing strip; maintain the reference continuous rounded outer silhouette."
+    },
+    {
+      "priority": 2,
+      "file": "aircraft/b25j/b25j.gd",
+      "function": "_wing_insignia/_insignia",
+      "issue": "Both wing signs show only blue backgrounds; white star and bar hidden. Fuselage sign intersects/stands off curved skin. Fix layers/normals/surface fit or omit optional whole sign; no broken placeholders."
+    }
+  ],
+  "accepted_direction": "Simplified major silhouette recognizable as glazed B25; retain scope, no added internal detail.",
+  "remaining": "Revised actual views, real MAP02 installation, interfaces and freeze; normal Showcase and Chrome still pending."
+}

@@ -1,0 +1,164 @@
+{
+  "scope": "Only PIDs recorded by final S07 validation runs; no processes signalled",
+  "checked_utc": "2026-11-09T21:31:52.631054+00:00",
+  "reports": [
+    {
+      "run_id": "20261109T212904-4c03d82b",
+      "owner": "S07",
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 93408,
+          "process_group": 93408,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        },
+        {
+          "pid": 93409,
+          "process_group": 93409,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T212338-1a13bfd7",
+      "owner": "S07",
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 93171,
+          "process_group": 93171,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        },
+        {
+          "pid": 93172,
+          "process_group": 93172,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        },
+        {
+          "pid": 93180,
+          "process_group": 93180,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        },
+        {
+          "pid": 93185,
+          "process_group": 93185,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T212218-63ebfaf9",
+      "owner": "S07",
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 93096,
+          "process_group": 93096,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        },
+        {
+          "pid": 93097,
+          "process_group": 93097,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T211311-5acc8903",
+      "owner": "S07",
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 92529,
+          "process_group": 92529,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        },
+        {
+          "pid": 92530,
+          "process_group": 92530,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T210547-1a953806",
+      "owner": "S07",
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 92098,
+          "process_group": 92098,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        },
+        {
+          "pid": 92099,
+          "process_group": 92099,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T210603-4092af52",
+      "owner": "S07",
+      "exit_code": 0,
+      "checks": [
+        {
+          "pid": 92114,
+          "process_group": 92114,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        },
+        {
+          "pid": 92115,
+          "process_group": 92115,
+          "returncode": 0,
+          "diagnostic_error": false,
+          "cleanup_ok": true,
+          "timed_out": false
+        }
+      ]
+    }
+  ],
+  "ps_returncode": 1,
+  "ps_stdout": "",
+  "ps_stderr": "",
+  "no_recorded_pid_remains": true
+}

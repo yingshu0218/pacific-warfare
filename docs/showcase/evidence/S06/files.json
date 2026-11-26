@@ -1,0 +1,202 @@
+[
+  {
+    "path": "data/fleet/showcase.json",
+    "sha256": "071906d76a6aaab610d5c4793b918fa49c697bd0aa26ecd785049cafd6d19c7b",
+    "bytes": 2204
+  },
+  {
+    "path": "docs/deliveries/T18.md",
+    "sha256": "a6150deac475fb4185acc91e5d7627b274698d49acd65c86433c0491e4d008c6",
+    "bytes": 354
+  },
+  {
+    "path": "docs/deliveries/T19.md",
+    "sha256": "db6317a26d94cebad6f9141e97ca51f80b28275d12e3e9a6b42c9ebdb2fbe586",
+    "bytes": 345
+  },
+  {
+    "path": "docs/deliveries/T20.md",
+    "sha256": "fc89643fcb7fdca4e17c2f46cfb8d121419d7a55c999f43efe380b8ccfab764e",
+    "bytes": 396
+  },
+  {
+    "path": "docs/fleet-contracts.md",
+    "sha256": "c7475218f5c4c2704f743ed0c0ef66504df6639d7f866c89f2ab896f995fc46c",
+    "bytes": 7822
+  },
+  {
+    "path": "docs/references/fleet/s06-sources.md",
+    "sha256": "0b7187fd83ca9488bb9166c6b1b2e3eda792caac549c3310d4a13c166ce35cd6",
+    "bytes": 3052
+  },
+  {
+    "path": "docs/showcase/deliveries/S06.md",
+    "sha256": "393d0c589644a14092bb1cff5003f62a9f2c7add1636cee0c96673d17e4272f2",
+    "bytes": 9848
+  },
+  {
+    "path": "scripts/behaviors/fleet_formations/fleet_formations.gd",
+    "sha256": "8412dd834b2b7734561735de3151e9da6708ff044d26934ae53bad9c5f234f47",
+    "bytes": 1562
+  },
+  {
+    "path": "scripts/behaviors/fleet_formations/fleet_formations.gd.uid",
+    "sha256": "13deb44dac9befc15ddebb8bc686f706e02767e9897d8b3a4dc7d6036ed5daaf",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/behaviors/fleet_formations/fleet_suite.gd",
+    "sha256": "c44149b9103bf1bde032cf553f78af910c85df82e47c5e9a1eb7cbf6df0b7030",
+    "bytes": 1884
+  },
+  {
+    "path": "scripts/behaviors/fleet_formations/fleet_suite.gd.uid",
+    "sha256": "b985c39856c6dca215f74dd7c39984b48699386f57078c60e56047c5f1637ce9",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/behaviors/fleet_formations/fleet_tasks.gd",
+    "sha256": "01d35882900975d71a922ce6df573140b832c65e497c5374c56a2307222bb2b4",
+    "bytes": 15583
+  },
+  {
+    "path": "scripts/behaviors/fleet_formations/fleet_tasks.gd.uid",
+    "sha256": "dbc3496e051e22a9c250b6018406f8537e496b6d1d33826a2ab39f418cde63a2",
+    "bytes": 19
+  },
+  {
+    "path": "scripts/command/commander/fleet_commander.gd",
+    "sha256": "7898b821a158179fcc150d1924961133a701acb9c9cd50cd847b4c74d6b0fc16",
+    "bytes": 1341
+  },
+  {
+    "path": "scripts/command/commander/fleet_commander.gd.uid",
+    "sha256": "afcc9887e5537f2f1d36855d7f791b71269eb77bfb4f71635221445dfad4924d",
+    "bytes": 19
+  },
+  {
+    "path": "scripts/command/commander/fleet_planner.gd",
+    "sha256": "b40c39bcd93a487ea8a7693483329097ad89dfe03cec45941620d17e88d50e2e",
+    "bytes": 11761
+  },
+  {
+    "path": "scripts/command/commander/fleet_planner.gd.uid",
+    "sha256": "f35c26ea5ddaa5e89ef518ee76e581ccf2e955ccb89eb070517289a9a13ef43c",
+    "bytes": 19
+  },
+  {
+    "path": "scripts/simulation/ship_motion/fleet_config.gd",
+    "sha256": "b7065610682e2bf9e099da127371b66f18b6340564d1e5e8cc0008dd467945d5",
+    "bytes": 3426
+  },
+  {
+    "path": "scripts/simulation/ship_motion/fleet_config.gd.uid",
+    "sha256": "cb1bf74c033902ec30fe222fcd270b265cf7bb0151ea2037555f92c1b34c6233",
+    "bytes": 19
+  },
+  {
+    "path": "scripts/simulation/ship_motion/ship_motion.gd",
+    "sha256": "c466ce99d5afc92c8c6b5400fb0881f762dd96f6c6a3f910249a492fdb6cc3dd",
+    "bytes": 10044
+  },
+  {
+    "path": "scripts/simulation/ship_motion/ship_motion.gd.uid",
+    "sha256": "5d0ab32b0cc540dc612455e86d6f010b31f7e5507d84c847dfd48835a29e13ec",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/simulation/ship_motion/ship_navigation.gd",
+    "sha256": "f2796cda09da2f1be891fa3351b57d4637e8aff8db8ca869c395b0d27280220b",
+    "bytes": 2588
+  },
+  {
+    "path": "scripts/simulation/ship_motion/ship_navigation.gd.uid",
+    "sha256": "1510259e694dd78b8ab8c251f7091e9c391fa5559a08e86b07cbd38ac3df5419",
+    "bytes": 20
+  },
+  {
+    "path": "tests/fixtures/fleet_fixture.gd",
+    "sha256": "41166c6cc0de44b7c9ce288d88294423a0ec970c697049552aaa47fb60cbf719",
+    "bytes": 4477
+  },
+  {
+    "path": "tests/fixtures/fleet_fixture.gd.uid",
+    "sha256": "1f7af3e979aa2db92055a6b106a0117088f8758888245e9a3c700e9dae5227d2",
+    "bytes": 20
+  },
+  {
+    "path": "tests/fixtures/fleet_test.gd",
+    "sha256": "0f698ba37013868bc0e40f39c666d85923d1b884243a00e05a07d34caf9ccb5d",
+    "bytes": 889
+  },
+  {
+    "path": "tests/fixtures/fleet_test.gd.uid",
+    "sha256": "555f3b3105f10f2a2125719ac3e436e08d17c2952ab13ad6713fb8fb95874fe7",
+    "bytes": 20
+  },
+  {
+    "path": "tests/test_commander.gd",
+    "sha256": "abfa9653c124ad464ef6705eca0633f20c7cb3879a4edb2463d2ae0e6a350fa2",
+    "bytes": 9044
+  },
+  {
+    "path": "tests/test_commander.gd.uid",
+    "sha256": "5617fa88b71e185fbb737fb68a39b4c1b226ba01aea5f22a82851f2df0cd8a4a",
+    "bytes": 20
+  },
+  {
+    "path": "tests/test_fleet_combat.gd",
+    "sha256": "2cfba111f34bdbdf181b63ef403cb80931b69d93220da02904beba184078f346",
+    "bytes": 5584
+  },
+  {
+    "path": "tests/test_fleet_combat.gd.uid",
+    "sha256": "821cd1f1ca4264ddd5dcc02da91130a49d82f468c39f8b189999f2055a3e10d5",
+    "bytes": 20
+  },
+  {
+    "path": "tests/test_fleet_formation.gd",
+    "sha256": "c4dc45244add04a622eec5030897fa1cb9b68a5430aec53e829e75251c445cfa",
+    "bytes": 7349
+  },
+  {
+    "path": "tests/test_fleet_formation.gd.uid",
+    "sha256": "9d70916cdc71c7c96755ec15a1f06a2bb8e2bb5a183c7a54645fa737a9ef7a04",
+    "bytes": 19
+  },
+  {
+    "path": "tests/test_fleet_mobility_blocked.gd",
+    "sha256": "3a0b24cc5fefe56f2767fedd1325f49f0880dda52488214cfa3cfca0b02a5ea7",
+    "bytes": 2232
+  },
+  {
+    "path": "tests/test_fleet_replay.gd",
+    "sha256": "d2854a7e0f419cf87fbb2ea4eabb3f65575481bc32e7558072c49a73b1364b85",
+    "bytes": 2545
+  },
+  {
+    "path": "tests/test_fleet_replay.gd.uid",
+    "sha256": "fe4cc326b1da99f99654ad88c63ddeeaf7656eddc2906d15019176c7d5dc7727",
+    "bytes": 20
+  },
+  {
+    "path": "tests/test_ship_motion.gd",
+    "sha256": "aabe2e907218fdfde3b308b1ddacd08b80319eedd7132e29e08a506c45342dc5",
+    "bytes": 7839
+  },
+  {
+    "path": "tests/test_ship_motion.gd.uid",
+    "sha256": "549d36d0e6c66ae32278533a0ad2b65b9d9e46a21e9fe7dee37d31b948c0982c",
+    "bytes": 20
+  },
+  {
+    "path": "tools/collect_s06_evidence.py",
+    "sha256": "8cddce7b64db00d04e959b369d64bf10cf620b68757b8ef7cf2c0bcdb7801e35",
+    "bytes": 3954
+  },
+  {
+    "path": "tools/plot_s06_evidence.py",
+    "sha256": "d87129c4c3786d6e6213198bc91036b693ef06c84789129fde88130b05739602",
+    "bytes": 4679
+  }
+]

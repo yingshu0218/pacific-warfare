@@ -1,0 +1,230 @@
+{
+	"checks": [
+		{
+			"label": "normal expanded scene assembles",
+			"passed": true
+		},
+		{
+			"label": "normal harbor defaults to actual event observation",
+			"passed": true
+		},
+		{
+			"label": "combat and optional map tour have explicit visible controls",
+			"passed": true
+		},
+		{
+			"label": "W moves in paused ordinary scene without Shift",
+			"passed": true
+		},
+		{
+			"label": "keyboard takeover stops director",
+			"passed": true
+		},
+		{
+			"label": "ArrowUp matches W canvas translation",
+			"passed": true
+		},
+		{
+			"label": "Shift accelerates movement fourfold",
+			"passed": true
+		},
+		{
+			"label": "Q raises observer",
+			"passed": true
+		},
+		{
+			"label": "E lowers observer with no horizontal drift",
+			"passed": true
+		},
+		{
+			"label": "right drag spans a full360-degree yaw",
+			"passed": true
+		},
+		{
+			"label": "free-look rotates in place without orbiting or takeover jump",
+			"passed": true
+		},
+		{
+			"label": "manual orbit can look above the horizon",
+			"passed": true
+		},
+		{
+			"label": "focus loss releases held translation",
+			"passed": true
+		},
+		{
+			"label": "focus loss releases drag before returning motion",
+			"passed": true
+		},
+		{
+			"label": "focused menu retains arrows without moving camera",
+			"passed": true
+		},
+		{
+			"label": "open popup retains keyboard input",
+			"passed": true
+		},
+		{
+			"label": "all manual observation leaves paused simulation unchanged",
+			"passed": true
+		},
+		{
+			"label": "mode change releases drag",
+			"passed": true
+		},
+		{
+			"label": "restart does not retain held movement",
+			"passed": true
+		},
+		{
+			"label": "restart resets presentation clock",
+			"passed": true
+		},
+		{
+			"label": "quaternion interpolation crosses Euler wrap through shortest attitude",
+			"passed": true
+		},
+		{
+			"label": "two equal actual production scenarios load",
+			"passed": true
+		},
+		{
+			"label": "read-only sampler preserves60Hz tick and RNG",
+			"passed": true
+		},
+		{
+			"label": "reader and interpolation preserve every real unit snapshot",
+			"passed": true
+		},
+		{
+			"label": "presentation preserves real commander orders",
+			"passed": true
+		},
+		{
+			"label": "pause freezes the already displayed fractional pose and clock",
+			"passed": true
+		},
+		{
+			"label": "2x advances one bounded authoritative presentation clock",
+			"passed": true
+		},
+		{
+			"label": "sampling interpolation never writes physical state",
+			"passed": true
+		},
+		{
+			"label": "backlog clamps to latest actual tick instead of extrapolation",
+			"passed": true
+		},
+		{
+			"label": "world reset resets history without blending generations",
+			"passed": true
+		},
+		{
+			"label": "water triangles have no positive-area land overlap within numerical tolerance",
+			"passed": true
+		},
+		{
+			"label": "exact coast water mesh stays bounded below5000 triangles",
+			"passed": true
+		},
+		{
+			"label": "water remains at real sea level without floating terrain bias",
+			"passed": true
+		},
+		{
+			"label": "detached bomb is hidden before its actual end-tick birth",
+			"passed": true
+		},
+		{
+			"label": "attached bomb remains until same presentation birth time",
+			"passed": true
+		},
+		{
+			"label": "bomb appears at its real birth presentation time",
+			"passed": true
+		},
+		{
+			"label": "same-frame body release marker and detached birth point match within6mm",
+			"passed": true
+		},
+		{
+			"label": "attached slot clears when detached bomb appears",
+			"passed": true
+		},
+		{
+			"label": "actual AI sortie reached release during bounded test",
+			"passed": true
+		},
+		{
+			"label": "sinking start is counted separately from already sunk",
+			"passed": true
+		},
+		{
+			"label": "only actual ship wreck terminal advances sunk counter",
+			"passed": true
+		},
+		{
+			"label": "afloat disabled condition is not labelled sunk",
+			"passed": true
+		},
+		{
+			"label": "module summary reads independent real factors and per-mount state",
+			"passed": true
+		},
+		{
+			"label": "report keeps old sunk key and zero default for new sinking key",
+			"passed": true
+		},
+		{
+			"label": "attached part stays until real fragment display birth",
+			"passed": true
+		},
+		{
+			"label": "part mask and fragment appear at identical presentation time",
+			"passed": true
+		},
+		{
+			"label": "fragment first displayed position matches actual detached anchor",
+			"passed": true
+		},
+		{
+			"label": "real interception produces a bounded fragment timing witness",
+			"passed": true
+		}
+	],
+	"details": {
+		"bomb_birth": {
+			"marker_error_m": 0.0,
+			"verified": true
+		},
+		"focus_after": {
+			"focus": [
+				-23.1917839050293,
+				1875.01159667969,
+				5515.96826171875
+			],
+			"keys": {},
+			"mode": "free",
+			"owner": "@OptionButton@3609:<OptionButton#863439433936>"
+		},
+		"focus_before": {
+			"focus": [
+				-23.1917839050293,
+				1875.01159667969,
+				5515.96826171875
+			],
+			"keys": {},
+			"mode": "free",
+			"owner": "@OptionButton@54:<OptionButton#70481086162>"
+		},
+		"water": {
+			"boundary_triangles": [],
+			"cells": 85,
+			"land_centroids": 0,
+			"overlap_area_m2": 0.0263559818267822,
+			"triangles": 417
+		}
+	},
+	"failed": 0
+}

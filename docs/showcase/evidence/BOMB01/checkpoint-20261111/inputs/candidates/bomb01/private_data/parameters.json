@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "ammunition": {
+    "us_an_m64_500lb": {
+      "id": "us_an_m64_500lb",
+      "name": "AN-M64 500 lb GP",
+      "caliber_m": 0.3556,
+      "projectile_mass_kg": 240.0,
+      "muzzle_speed_mps": 0.0,
+      "gravity_mps2": 9.80665,
+      "max_lifetime_s": 90.0,
+      "release_mode": "gravity_release",
+      "drag_per_m": 8e-05,
+      "arming_s": 2.0,
+      "arming_distance_m": 60.0,
+      "impact_delay_s": 0.1,
+      "source": {
+        "status": "provisional",
+        "notes": "BOMB01: primary ordnance basis and separately marked operating approximations; docs/references/bomb01/sources.md"
+      }
+    },
+    "jp_type97_no6": {
+      "id": "jp_type97_no6",
+      "name": "Type 97 No.6 land",
+      "caliber_m": 0.2,
+      "projectile_mass_kg": 56.2454,
+      "muzzle_speed_mps": 0.0,
+      "gravity_mps2": 9.80665,
+      "max_lifetime_s": 90.0,
+      "release_mode": "gravity_release",
+      "drag_per_m": 0.00012,
+      "arming_s": 1.5,
+      "arming_distance_m": 45.0,
+      "impact_delay_s": 0.0,
+      "source": {
+        "status": "provisional",
+        "notes": "BOMB01: primary ordnance basis and separately marked operating approximations; docs/references/bomb01/sources.md"
+      }
+    },
+    "jp_no25_land": {
+      "id": "jp_no25_land",
+      "name": "No.25 land",
+      "caliber_m": 0.3,
+      "projectile_mass_kg": 250.0,
+      "muzzle_speed_mps": 0.0,
+      "gravity_mps2": 9.80665,
+      "max_lifetime_s": 90.0,
+      "release_mode": "gravity_release",
+      "drag_per_m": 8e-05,
+      "arming_s": 1.5,
+      "arming_distance_m": 45.0,
+      "impact_delay_s": 0.0,
+      "source": {
+        "status": "provisional",
+        "notes": "BOMB01: primary ordnance basis and separately marked operating approximations; docs/references/bomb01/sources.md"
+      }
+    }
+  },
+  "ammo_profiles": {
+    "us_an_m64_500lb": {
+      "kind": "he",
+      "release_mode": "gravity_release",
+      "damage_scale": 0.08,
+      "burst_radius_m": 0.0,
+      "blast_radius_m": 75.0,
+      "visual_radius_m": 28.0,
+      "explosive_kg": 118.84
+    },
+    "jp_type97_no6": {
+      "kind": "he",
+      "release_mode": "gravity_release",
+      "damage_scale": 0.08,
+      "burst_radius_m": 0.0,
+      "blast_radius_m": 45.0,
+      "visual_radius_m": 16.0,
+      "explosive_kg": 22.6796
+    },
+    "jp_no25_land": {
+      "kind": "he",
+      "release_mode": "gravity_release",
+      "damage_scale": 0.08,
+      "burst_radius_m": 0.0,
+      "blast_radius_m": 75.0,
+      "visual_radius_m": 28.0,
+      "explosive_kg": 150.0
+    }
+  },
+  "aircraft": {
+    "us_sb2c4_1944": {
+      "mode": "dive",
+      "ammo_id": "us_an_m64_500lb",
+      "slots_m": [
+        [
+          0,
+          -0.45,
+          0.59
+        ]
+      ],
+      "interval_s": 0.25,
+      "min_release_agl_m": 600.0,
+      "min_release_mps": 65.0,
+      "max_release_mps": 145.0,
+      "release_bank_deg": 12.0,
+      "release_pitch_deg": [
+        -70.0,
+        -42.0
+      ],
+      "entry_altitude_m": 2400.0,
+      "entry_distance_m": 2300.0,
+      "attack_mps": 85.0,
+      "dive_pitch_deg": -60.0,
+      "release_window_m": 30.0,
+      "cross_window_m": 100.0,
+      "stable_s": 0.8,
+      "max_bank_deg": 35.0,
+      "return_altitude_m": 1300.0,
+      "fuel_reserve_kg": 120.0,
+      "formation_spacing_m": 180.0
+    },
+    "jp_d4y2_model12_1944_10": {
+      "mode": "dive",
+      "ammo_id": "jp_no25_land",
+      "slots_m": [
+        [
+          0,
+          -0.57,
+          0.23
+        ]
+      ],
+      "interval_s": 0.25,
+      "min_release_agl_m": 600.0,
+      "min_release_mps": 65.0,
+      "max_release_mps": 145.0,
+      "release_bank_deg": 12.0,
+      "release_pitch_deg": [
+        -70.0,
+        -42.0
+      ],
+      "entry_altitude_m": 2400.0,
+      "entry_distance_m": 2300.0,
+      "attack_mps": 85.0,
+      "dive_pitch_deg": -60.0,
+      "release_window_m": 30.0,
+      "cross_window_m": 100.0,
+      "stable_s": 0.8,
+      "max_bank_deg": 35.0,
+      "return_altitude_m": 1300.0,
+      "fuel_reserve_kg": 120.0,
+      "formation_spacing_m": 180.0,
+      "crutch_kind": "d4y",
+      "required_crutch": 1.0
+    },
+    "jp_g4m1_1942_07": {
+      "mode": "level",
+      "ammo_id": "jp_type97_no6",
+      "slots_m": [
+        [
+          -0.349999994039536,
+          -1.12000000476837,
+          -3.03999996185303
+        ],
+        [
+          0.0,
+          -1.12000000476837,
+          -3.03999996185303
+        ],
+        [
+          0.349999994039536,
+          -1.12000000476837,
+          -3.03999996185303
+        ],
+        [
+          -0.349999994039536,
+          -1.12000000476837,
+          -1.74000000953674
+        ],
+        [
+          0.0,
+          -1.12000000476837,
+          -1.74000000953674
+        ],
+        [
+          0.349999994039536,
+          -1.12000000476837,
+          -1.74000000953674
+        ],
+        [
+          -0.349999994039536,
+          -1.12000000476837,
+          -0.439999997615814
+        ],
+        [
+          0.0,
+          -1.12000000476837,
+          -0.439999997615814
+        ],
+        [
+          0.349999994039536,
+          -1.12000000476837,
+          -0.439999997615814
+        ],
+        [
+          -0.349999994039536,
+          -1.12000000476837,
+          0.860000014305115
+        ],
+        [
+          0.0,
+          -1.12000000476837,
+          0.860000014305115
+        ],
+        [
+          0.349999994039536,
+          -1.12000000476837,
+          0.860000014305115
+        ]
+      ],
+      "interval_s": 0.25,
+      "min_release_agl_m": 900.0,
+      "min_release_mps": 65.0,
+      "max_release_mps": 115.0,
+      "release_bank_deg": 5.0,
+      "release_pitch_deg": [
+        -3.0,
+        3.0
+      ],
+      "entry_altitude_m": 1800.0,
+      "entry_distance_m": 3000.0,
+      "attack_mps": 87.0,
+      "dive_pitch_deg": -60.0,
+      "release_window_m": 110.0,
+      "cross_window_m": 550.0,
+      "stable_s": 4.0,
+      "max_bank_deg": 22.0,
+      "return_altitude_m": 1800.0,
+      "fuel_reserve_kg": 400.0,
+      "formation_spacing_m": 220.0
+    }
+  },
+  "reserved_aircraft": {
+    "us_b25j_glass_nose": "AV04 required; no substitute mesh or capability claimed"
+  }
+}

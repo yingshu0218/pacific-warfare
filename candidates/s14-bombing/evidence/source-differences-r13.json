@@ -1,0 +1,100 @@
+[
+  {
+    "source": "r6",
+    "changed_paths_in_current": [
+      "scripts/game/first_playable.gd",
+      "scripts/presentation/models/static_model_batch.gd",
+      "scripts/showcase/bombing/aircraft_adapter.gd",
+      "scripts/showcase/bombing/initial_stores.gd",
+      "scripts/showcase/bombing/installer.gd",
+      "scripts/showcase/bombing/labels.gd",
+      "scripts/showcase/bombing/live_model_batch.gd",
+      "scripts/showcase/expansion/carrier_harbor.gd",
+      "scripts/showcase/expansion/web_probe.gd",
+      "scripts/showcase/sb2c_flight_adapter.gd",
+      "tests/fixtures/aircraft_damage_fixture.gd",
+      "tests/fixtures/combat_fixture.gd",
+      "tests/fixtures/combat_test.gd",
+      "tests/s14_bombing/capture.gd",
+      "tests/s14_bombing/fixtures/empty.json",
+      "tests/s14_bombing/fixtures/far.json",
+      "tests/s14_bombing/fixtures/low_fuel.json",
+      "tests/s14_bombing/test_command_ownership.gd",
+      "tests/s14_bombing/test_variants.gd",
+      "tests/test_aircraft_damage.gd",
+      "tests/test_projectile_impact.gd",
+      "ui/observer_hud.gd"
+    ],
+    "runtime_changed_paths": [
+      "scripts/game/first_playable.gd",
+      "scripts/presentation/models/static_model_batch.gd",
+      "scripts/showcase/bombing/aircraft_adapter.gd",
+      "scripts/showcase/bombing/initial_stores.gd",
+      "scripts/showcase/bombing/installer.gd",
+      "scripts/showcase/bombing/labels.gd",
+      "scripts/showcase/bombing/live_model_batch.gd",
+      "scripts/showcase/expansion/carrier_harbor.gd",
+      "scripts/showcase/expansion/web_probe.gd",
+      "scripts/showcase/sb2c_flight_adapter.gd",
+      "ui/observer_hud.gd"
+    ]
+  },
+  {
+    "source": "r9",
+    "changed_paths_in_current": [
+      "scripts/game/first_playable.gd",
+      "scripts/showcase/bombing/labels.gd",
+      "scripts/showcase/expansion/carrier_harbor.gd",
+      "tests/fixtures/aircraft_damage_fixture.gd",
+      "tests/fixtures/combat_fixture.gd",
+      "tests/fixtures/combat_test.gd",
+      "tests/s14_bombing/capture.gd",
+      "tests/s14_bombing/test_variants.gd",
+      "tests/test_aircraft_damage.gd",
+      "tests/test_projectile_impact.gd",
+      "ui/observer_hud.gd"
+    ],
+    "runtime_changed_paths": [
+      "scripts/game/first_playable.gd",
+      "scripts/showcase/bombing/labels.gd",
+      "scripts/showcase/expansion/carrier_harbor.gd",
+      "ui/observer_hud.gd"
+    ]
+  },
+  {
+    "source": "r10",
+    "changed_paths_in_current": [
+      "scripts/showcase/bombing/labels.gd",
+      "scripts/showcase/expansion/carrier_harbor.gd",
+      "tests/fixtures/aircraft_damage_fixture.gd",
+      "tests/fixtures/combat_fixture.gd",
+      "tests/fixtures/combat_test.gd",
+      "tests/test_aircraft_damage.gd",
+      "tests/test_projectile_impact.gd"
+    ],
+    "runtime_changed_paths": [
+      "scripts/showcase/bombing/labels.gd",
+      "scripts/showcase/expansion/carrier_harbor.gd"
+    ]
+  },
+  {
+    "source": "r11",
+    "changed_paths_in_current": [
+      "scripts/showcase/bombing/labels.gd",
+      "scripts/showcase/expansion/carrier_harbor.gd"
+    ],
+    "runtime_changed_paths": [
+      "scripts/showcase/bombing/labels.gd",
+      "scripts/showcase/expansion/carrier_harbor.gd"
+    ]
+  },
+  {
+    "source": "r12",
+    "changed_paths_in_current": [
+      "scripts/showcase/bombing/labels.gd"
+    ],
+    "runtime_changed_paths": [
+      "scripts/showcase/bombing/labels.gd"
+    ]
+  }
+]

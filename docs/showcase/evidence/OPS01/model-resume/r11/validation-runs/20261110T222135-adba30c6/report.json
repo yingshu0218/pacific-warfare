@@ -1,0 +1,42 @@
+{
+  "run_id": "20261110T222135-adba30c6",
+  "owner": "OPS01",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 84893,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "tests/air_operations/audit.py",
+        "--label",
+        "mechanisms-r2"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 84897,
+      "process_group": 84897,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.4038,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T222135-adba30c6/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "OPS01",
+    "pid": 84893,
+    "process_identity": "Wed Nov 11 06:21:35 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner OPS01 --timeout 45 --lock-timeout 10 exec -- python3 tests/air_operations/audit.py --label mechanisms-r2",
+    "token": "7a572d004b2646719be54ea73a571877",
+    "acquired_utc": "2026-11-10T22:21:35.412484+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

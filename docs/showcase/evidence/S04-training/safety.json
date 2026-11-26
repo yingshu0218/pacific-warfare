@@ -1,0 +1,189 @@
+{
+	"cases": [
+		{
+			"case": "low_start",
+			"reason": "training_insufficient_start_agl:pilot",
+			"status": "failed"
+		},
+		{
+			"case": "stall_entry",
+			"reason": "training_stall_margin:pilot",
+			"status": "failed"
+		},
+		{
+			"case": "fast_entry",
+			"reason": "training_overspeed:pilot",
+			"status": "failed"
+		},
+		{
+			"case": "high_altitude_fast_entry",
+			"reason": "training_overspeed:pilot",
+			"status": "failed"
+		},
+		{
+			"case": "low_fuel_entry",
+			"reason": "training_low_fuel:pilot",
+			"status": "failed"
+		},
+		{
+			"case": "split_envelope",
+			"reason": "training_split_s_envelope:pilot",
+			"status": "failed"
+		},
+		{
+			"case": "invalid_direction",
+			"reason": "training_direction_must_be_plus_or_minus_one:pilot",
+			"status": "failed"
+		},
+		{
+			"case": "unknown_maneuver",
+			"reason": "training_unknown_maneuver:pilot",
+			"status": "failed"
+		},
+		{
+			"case": "SB2C_base",
+			"reason": "bomber_role_forbids_fighter_task:pilot",
+			"status": "failed"
+		},
+		{
+			"case": "SB2C_S14_subclass",
+			"reason": "sb2c_showcase_navigation_only",
+			"status": "failed"
+		},
+		{
+			"case": "injected_boundary_low_altitude",
+			"reason": "training_low_altitude",
+			"safety": "normal"
+		},
+		{
+			"case": "injected_boundary_stall",
+			"reason": "training_stall_margin",
+			"safety": "stall_recovery"
+		},
+		{
+			"case": "injected_boundary_overspeed",
+			"reason": "training_overspeed",
+			"safety": "overspeed_recovery"
+		},
+		{
+			"case": "injected_boundary_fuel",
+			"reason": "training_low_fuel",
+			"safety": "glide"
+		},
+		{
+			"case": "injected_boundary_power",
+			"reason": "training_power_lost",
+			"safety": "glide"
+		},
+		{
+			"case": "injected_boundary_control",
+			"reason": "training_control_lost",
+			"safety": "normal"
+		},
+		{
+			"case": "injected_boundary_damage",
+			"reason": "training_damage",
+			"safety": "normal"
+		},
+		{
+			"case": "genuine_engine_projectiles",
+			"damage": {
+				"aircraft": {
+					"angular_velocity_body_radps": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"breakup": false,
+					"contact_surface": "",
+					"detached_parts": [],
+					"fragments": [],
+					"terminal_started": false
+				},
+				"control_factor": 1.0,
+				"disabled_mounts": [],
+				"effect_emitters": [
+					{
+						"anchor_m": [
+							0.0,
+							0.800000011920929,
+							-2.79999995231628
+						],
+						"enabled": true,
+						"id": "engine_smoke",
+						"intensity": 0.955028440563693,
+						"kind": "smoke",
+						"part_id": "engine",
+						"size_m": 2.4
+					},
+					{
+						"anchor_m": [
+							0.0,
+							0.649999976158142,
+							-2.79999995231628
+						],
+						"enabled": true,
+						"id": "engine_fire",
+						"intensity": 0.275142202818466,
+						"kind": "fire",
+						"part_id": "engine",
+						"size_m": 1.3
+					}
+				],
+				"fire": 0.275075536151799,
+				"flooding": 0.0,
+				"list_rad": 0.0,
+				"parts": {
+					"control": 1.0,
+					"engine": 0.0,
+					"steering": 1.0,
+					"tail": 1.0,
+					"weapon:wing_port_01": 1.0,
+					"weapon:wing_port_02": 1.0,
+					"weapon:wing_port_03": 1.0,
+					"weapon:wing_starboard_01": 1.0,
+					"weapon:wing_starboard_02": 1.0,
+					"weapon:wing_starboard_03": 1.0,
+					"wing_left": 1.0,
+					"wing_right": 1.0
+				},
+				"phase": "operational",
+				"phase_time_s": 0.0,
+				"propulsion_factor": 0.0,
+				"structure": 65.0256902014546,
+				"structure_max": 90.0
+			},
+			"hits": 14,
+			"training": {
+				"bend_rad": 0.0479814074933529,
+				"direction": 1.0,
+				"elapsed_s": 0.783333333333333,
+				"heading_change_rad": -0.00561324738516945,
+				"height_change_m": -1.757080078125,
+				"maneuver": "axial_roll",
+				"min_agl_m": 2398.24291992188,
+				"order_id": "drill",
+				"peak_height_m": 2400.0,
+				"peak_roll_rad": 0.567232051030929,
+				"phase": "aborted",
+				"phase_history": [
+					{
+						"heading_change_rad": -0.00561324738516945,
+						"height_change_m": -1.757080078125,
+						"phase": "roll",
+						"roll_accum_rad": 0.567232051030929,
+						"until_s": 0.783333333333333
+					}
+				],
+				"reason": "training_power_lost",
+				"roll_accum_rad": 0.567232051030929,
+				"status": "aborted",
+				"target_climb_m": 100.0,
+				"target_turn_rad": 1.5707963267949
+			}
+		}
+	],
+	"checks": 68,
+	"failures": 0,
+	"scope": "Boundary state perturbations are explicit tests, not demonstration motion; engine case uses genuine projectiles."
+}

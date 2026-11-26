@@ -1,0 +1,134 @@
+{
+	"camera_position_m": [
+		35.0,
+		2.37144136428833,
+		0.000975534436292946
+	],
+	"camera_rotation_rad": [
+		0.0,
+		1.57079637050629,
+		0.0
+	],
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"fov_deg": 75.0,
+	"model_position_m": [
+		0.0,
+		2.17144370079041,
+		0.0
+	],
+	"model_rotation_rad": [
+		0.00487769162282348,
+		0.0,
+		0.0
+	],
+	"model_scale": [
+		1.0,
+		0.999999940395355,
+		0.999999940395355
+	],
+	"projection": 1,
+	"renderer": "gl_compatibility",
+	"size_m": 12.0,
+	"source_hashes": {
+		"aircraft/b25j/b25j.gd": "c44cd0cd2fd35ae7a56c803a824549612229701ee463c466525e0f12f76c627f",
+		"aircraft/b25j/b25j.tscn": "7ca962678e2767188c5b029c98da318efee26847ed3dfdb93683737817dd4ed7",
+		"aircraft/b25j/data/readonly_dependencies.json": "255e15ff21f84aa2141c6e95fd5939e0ee1fa51a2b3060e823e142aab562f592",
+		"aircraft/b25j/geometry.gd": "8f391745185c8d0e07951352da6e808e06bc92222c0474cc67e61fdcdc309965",
+		"aircraft/b25j/inspection.gd": "e0cbd23959db7bcbd7480b0d0a1a4e8a6a8a9f7b05e0405047ea2a995cf14443",
+		"aircraft/b25j/inspection.tscn": "d7ae52d56f707a47d1cdc353d98cd4310177ee3c229f778bb1068fa8e265e8df",
+		"data/map02/regions.json": "9001179a2e2c48774c4c62d8afecc2e10d131d5a717a045b42742d77056d5816",
+		"data/maps/island_harbor_expanded.json": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
+		"project.godot": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+		"scripts/map02/expanded_map_data.gd": "26addcec3d15a79f11936c0cb2fbaad6373466575b32e617b739a1bdad58433e",
+		"scripts/map02/expanded_map_view.gd": "32096520c098a56c81ec9d9f1a29189539fbad075e01a64d6e1354d2f45d9b25",
+		"scripts/presentation/maps/island_harbor_view.gd": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+		"scripts/presentation/maps/shore.gdshader": "f65ee9c017ef31542b56d24c03a64c4d6d0bd8399ea2790be48b3c791fc2758b",
+		"scripts/simulation/collision/combat_geometry.gd": "26f30283de1b36028c8732fd933e7f52a727cc64f283f87ab140749aecbacdbc",
+		"scripts/simulation/simulation_module.gd": "454b564e35bfd86e8643bb3ac1d0d072a89d7eb3a816a489e949c4892c7af450",
+		"scripts/simulation/simulation_world.gd": "5aa20ac066896ddab57e3dfbf6834b145316b98b6e69be3355604cc198706e58",
+		"scripts/simulation/state/ammo_definition.gd": "badbb84917501ce4613c718dc53a65154e59ced89ed598895da4cbf3fb7d6cea",
+		"scripts/simulation/state/battle_command.gd": "f09d61b2e83529f70ddab6d186e3f18489829d8a6bd9bd7e60dbc4526a016395",
+		"scripts/simulation/state/battle_event.gd": "9e3a3a039aef5377376344257023e5f2d03f99031c71bf1b6c4ab84f76471248",
+		"scripts/simulation/state/battle_order.gd": "bdcbba5681e0bb9d7116844dfa5974df421a1f2fab39ec7b1f4af51308cfb795",
+		"scripts/simulation/state/definition_catalog.gd": "b9e467756796528ca7c9883a22342bd0926034e86710728d66dc32a67903735f",
+		"scripts/simulation/state/mount_socket.gd": "26d55e72ced1902eb9fd1f0975e3be6f00e96ca80d8898acc7d35f1b37ccef75",
+		"scripts/simulation/state/scenario_definition.gd": "ab221cd20b29f8ae0314daaca85d5c5a95f63f9dd66af3d12c585f8e6eb988e7",
+		"scripts/simulation/state/sim_data.gd": "a11cccce2c23cf09eb79d5f0f3fbe8c727726aa0cbc342338a9081010c7094fe",
+		"scripts/simulation/state/unit_definition.gd": "3a50f2223d5c1c52fe592772605a90dd24601026fab5aabed429970850622d65",
+		"scripts/simulation/state/unit_state.gd": "f038041baa0c57f7cbd80a397e32f2e9554deefff4f0574fd9f48d25e30058a5",
+		"scripts/simulation/state/weapon_definition.gd": "4b7d8c6790a2958a69ac07deecfda545808b64334e074793fa4129aa547c24b0",
+		"scripts/simulation/state/weapon_state.gd": "536cf587423a6cdd90ee4adddf96477b8011160640695e3b371f95c7e2d6657d",
+		"scripts/simulation/terrain/battlefield_terrain.gd": "e107d851b6dd13b44babe41ade25254ccdcd545e35f826e5bcfeb0e2d05fcb60",
+		"scripts/simulation/terrain/terrain_queries.gd": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868",
+		"tools/verify.py": "599949a47abcff74f45f1909b6e8571b2c2050539a28dd0bce6d43b8b8c28f7d"
+	},
+	"view": "side",
+	"viewport_px": [
+		1440,
+		900
+	],
+	"visual_state": {
+		"aileron_left_rad": 0.0,
+		"aileron_right_rad": 0.0,
+		"bay_door": 0.0,
+		"elevator_left_rad": 0.0,
+		"elevator_right_rad": 0.0,
+		"flap": 0.0,
+		"gear": 1.0,
+		"gun_cheek_left_lower": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_cheek_left_upper": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_cheek_right_lower": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_cheek_right_upper": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_dorsal": {
+			"elevation_rad": 0.21,
+			"yaw_rad": 0.0
+		},
+		"gun_nose_fixed": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_nose_flexible": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_tail": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_waist_left": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"gun_waist_right": {
+			"elevation_rad": 0.0,
+			"yaw_rad": 0.0
+		},
+		"payload_mode": "bombs_6x500",
+		"propeller_left_rad": 0.0,
+		"propeller_right_rad": 0.64,
+		"rudder_left_rad": 0.0,
+		"rudder_right_rad": 0.0
+	}
+}

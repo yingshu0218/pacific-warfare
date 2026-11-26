@@ -1,0 +1,160 @@
+{
+	"checks": 51,
+	"clean": {
+		"coordinate_space": "aircraft_local",
+		"definition_id": "us_f6f5_1944",
+		"flap_angle_rad": 0.0,
+		"gear_down": false,
+		"hook_available": false,
+		"hook_deflection_limit_rad": 0.349065850398866,
+		"hook_deflection_rad": 0.0,
+		"hook_down": false,
+		"hook_free_angle_rad": 0.20943951023932,
+		"hook_host_part_id": "tail",
+		"hook_pivot_m": [
+			0.0,
+			0.130000114440918,
+			4.80000019073486
+		],
+		"hook_tip_m": [
+			0.0,
+			0.382372379302979,
+			2.16287899017334
+		],
+		"schema_version": 1,
+		"wheel_contacts": {
+			"main_left": {
+				"available": false,
+				"host_part_id": "wing_left",
+				"position_m": [
+					-1.92999994754791,
+					-2.29999995231628,
+					-0.0900000035762787
+				]
+			},
+			"main_right": {
+				"available": false,
+				"host_part_id": "wing_right",
+				"position_m": [
+					1.92999994754791,
+					-2.29999995231628,
+					-0.0900000035762787
+				]
+			},
+			"tail": {
+				"available": false,
+				"host_part_id": "tail",
+				"position_m": [
+					0.0,
+					-2.29999995231628,
+					4.51999998092651
+				]
+			}
+		}
+	},
+	"constrained": {
+		"coordinate_space": "aircraft_local",
+		"definition_id": "us_f6f5_1944",
+		"flap_angle_rad": 0.610865238198015,
+		"gear_down": true,
+		"hook_available": true,
+		"hook_deflection_limit_rad": 0.349065850398866,
+		"hook_deflection_rad": 0.190877365736701,
+		"hook_down": true,
+		"hook_free_angle_rad": 0.20943951023932,
+		"hook_host_part_id": "tail",
+		"hook_pivot_m": [
+			0.0,
+			0.13000226020813,
+			4.80000019073486
+		],
+		"hook_tip_m": [
+			0.000000476837158203125,
+			-2.29999995231628,
+			5.85507822036743
+		],
+		"schema_version": 1,
+		"wheel_contacts": {
+			"main_left": {
+				"available": true,
+				"host_part_id": "wing_left",
+				"position_m": [
+					-1.93000030517578,
+					-2.29999995231628,
+					-0.0900001525878906
+				]
+			},
+			"main_right": {
+				"available": true,
+				"host_part_id": "wing_right",
+				"position_m": [
+					1.93000030517578,
+					-2.29999899864197,
+					-0.0900003910064697
+				]
+			},
+			"tail": {
+				"available": true,
+				"host_part_id": "tail",
+				"position_m": [
+					-0.000000476837158203125,
+					-2.29999995231628,
+					4.51999950408936
+				]
+			}
+		}
+	},
+	"failures": 1,
+	"free": {
+		"coordinate_space": "aircraft_local",
+		"definition_id": "us_f6f5_1944",
+		"flap_angle_rad": 0.610865238198015,
+		"gear_down": true,
+		"hook_available": true,
+		"hook_deflection_limit_rad": 0.349065850398866,
+		"hook_deflection_rad": 0.0,
+		"hook_down": true,
+		"hook_free_angle_rad": 0.20943951023932,
+		"hook_host_part_id": "tail",
+		"hook_pivot_m": [
+			0.0,
+			0.13000226020813,
+			4.80000019073486
+		],
+		"hook_tip_m": [
+			0.0,
+			-2.45603728294373,
+			5.3748950958252
+		],
+		"schema_version": 1,
+		"wheel_contacts": {
+			"main_left": {
+				"available": true,
+				"host_part_id": "wing_left",
+				"position_m": [
+					-1.93000030517578,
+					-2.29999995231628,
+					-0.0900001525878906
+				]
+			},
+			"main_right": {
+				"available": true,
+				"host_part_id": "wing_right",
+				"position_m": [
+					1.93000030517578,
+					-2.29999899864197,
+					-0.0900003910064697
+				]
+			},
+			"tail": {
+				"available": true,
+				"host_part_id": "tail",
+				"position_m": [
+					-0.000000476837158203125,
+					-2.29999995231628,
+					4.51999950408936
+				]
+			}
+		}
+	}
+}

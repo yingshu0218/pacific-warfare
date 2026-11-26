@@ -1,0 +1,65 @@
+{
+  "run_id": "20261110T185745-11a9a3d4",
+  "owner": "SB2C-admission",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 69039,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 69041,
+      "process_group": 69041,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2015,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T185745-11a9a3d4/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://aircraft/sb2c4/validation/test_sb2c4_admission.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 69042,
+      "process_group": 69042,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.7019,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T185745-11a9a3d4/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "SB2C-admission",
+    "pid": 69039,
+    "process_identity": "Wed Nov 11 02:57:45 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner SB2C-admission --timeout 30 --lock-timeout 2 test res://aircraft/sb2c4/validation/test_sb2c4_admission.gd",
+    "token": "9d3360e16eb844709dabe1b1f897dc59",
+    "acquired_utc": "2026-11-10T18:57:45.807775+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

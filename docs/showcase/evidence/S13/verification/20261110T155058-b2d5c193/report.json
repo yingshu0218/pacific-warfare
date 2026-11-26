@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T155058-b2d5c193",
+  "owner": "S13-fixture-export-ready",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-web-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 42408,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-web-project",
+      "pid": 42410,
+      "process_group": 42410,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2887,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T155058-b2d5c193/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-web-project",
+        "--export-release",
+        "Web",
+        "/Users/infinity/Desktop/Dev/game-pacific/build/s13-web/index.html"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-web-project",
+      "pid": 42411,
+      "process_group": 42411,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 5.1895,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T155058-b2d5c193/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S13-fixture-export-ready",
+    "pid": 42408,
+    "process_identity": "Tue Nov 10 23:50:58 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S13-fixture-export-ready --timeout 120 --lock-timeout 60 --project .local/s13-web-project godot -- --export-release Web /Users/infinity/Desktop/Dev/game-pacific/build/s13-web/index.html",
+    "token": "95f7e2d565834ac9949d79543b30d205",
+    "acquired_utc": "2026-11-10T15:50:58.357643+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

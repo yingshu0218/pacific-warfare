@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "frozen_runtime_files": 450,
+  "runtime_mismatches": [],
+  "protected_inputs_unchanged": {
+    "docs/aircraft-contracts.md": true,
+    "scripts/simulation/aircraft_motion/aircraft_motion.gd": true,
+    "data/aircraft/performance.json": true,
+    "scripts/showcase/sb2c_showcase_tasks.gd": true
+  },
+  "DM01_production_unchanged": {
+    "aircraft/scripts/aircraft_builder.gd": true,
+    "aircraft/models/f6f5.gd": true,
+    "aircraft/models/a6m5_52ko.gd": true,
+    "scripts/presentation/models/aircraft_adapter.gd": true,
+    "scripts/simulation/damage/aircraft_damage_motion.gd": true,
+    "scripts/simulation/damage/combat_damage.gd": true,
+    "scripts/simulation/collision/combat_frame.gd": true,
+    "scripts/simulation/aircraft_motion/aircraft_motion.gd": true,
+    "data/combat/showcase.json": true
+  },
+  "movies": [
+    {
+      "name": "a6m-axial_roll",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1100,
+        "height": 700,
+        "r_frame_rate": "15/1",
+        "nb_frames": "187"
+      },
+      "matches": true
+    },
+    {
+      "name": "a6m-bank_turn",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1100,
+        "height": 700,
+        "r_frame_rate": "15/1",
+        "nb_frames": "252"
+      },
+      "matches": true
+    },
+    {
+      "name": "a6m-climb_dive",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1100,
+        "height": 700,
+        "r_frame_rate": "15/1",
+        "nb_frames": "290"
+      },
+      "matches": true
+    },
+    {
+      "name": "a6m-roll_reversal",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1100,
+        "height": 700,
+        "r_frame_rate": "15/1",
+        "nb_frames": "274"
+      },
+      "matches": true
+    },
+    {
+      "name": "a6m-split_s",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1100,
+        "height": 700,
+        "r_frame_rate": "15/1",
+        "nb_frames": "237"
+      },
+      "matches": true
+    },
+    {
+      "name": "f6f-axial_roll",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1100,
+        "height": 700,
+        "r_frame_rate": "15/1",
+        "nb_frames": "195"
+      },
+      "matches": true
+    },
+    {
+      "name": "f6f-bank_turn",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1100,
+        "height": 700,
+        "r_frame_rate": "15/1",
+        "nb_frames": "256"
+      },
+      "matches": true
+    },
+    {
+      "name": "f6f-climb_dive",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1100,
+        "height": 700,
+        "r_frame_rate": "15/1",
+        "nb_frames": "289"
+      },
+      "matches": true
+    },
+    {
+      "name": "f6f-roll_reversal",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1100,
+        "height": 700,
+        "r_frame_rate": "15/1",
+        "nb_frames": "280"
+      },
+      "matches": true
+    },
+    {
+      "name": "f6f-split_s",
+      "stream": {
+        "codec_name": "h264",
+        "width": 1100,
+        "height": 700,
+        "r_frame_rate": "15/1",
+        "nb_frames": "246"
+      },
+      "matches": true
+    }
+  ],
+  "owned_previous_runs": 18,
+  "all_prior_groups_gone": true
+}

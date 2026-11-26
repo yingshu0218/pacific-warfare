@@ -1,0 +1,510 @@
+{
+  "method": "read-only killpg(signal=0) for S05 report-owned process groups only; no processes killed",
+  "all_reported_cleanup_ok": true,
+  "all_groups_gone": true,
+  "groups": {
+    "85210": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192423-50f44979"
+    },
+    "85211": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192423-50f44979"
+    },
+    "85246": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192452-65a53b7d"
+    },
+    "85247": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192452-65a53b7d"
+    },
+    "85354": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192610-c6eaaa0f"
+    },
+    "85355": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192610-c6eaaa0f"
+    },
+    "85429": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192741-f722fe5b"
+    },
+    "85430": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192741-f722fe5b"
+    },
+    "85434": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192741-f722fe5b"
+    },
+    "85435": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192741-f722fe5b"
+    },
+    "85524": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192919-cd23e088"
+    },
+    "85525": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192919-cd23e088"
+    },
+    "85529": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192919-cd23e088"
+    },
+    "85530": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T192919-cd23e088"
+    },
+    "85760": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193157-16203153"
+    },
+    "85761": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193157-16203153"
+    },
+    "85791": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193212-281434c7"
+    },
+    "85792": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193212-281434c7"
+    },
+    "85793": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193212-281434c7"
+    },
+    "85801": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193212-281434c7"
+    },
+    "86162": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193615-fe5a5753"
+    },
+    "86163": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193615-fe5a5753"
+    },
+    "86175": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193635-6641d817"
+    },
+    "86176": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193635-6641d817"
+    },
+    "86383": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193952-14ed405f"
+    },
+    "86384": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T193952-14ed405f"
+    },
+    "86653": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T194414-8171c4e7"
+    },
+    "86654": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T194414-8171c4e7"
+    },
+    "87069": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195130-debf4e78"
+    },
+    "87070": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195130-debf4e78"
+    },
+    "87126": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195216-e3eda76d"
+    },
+    "87127": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195216-e3eda76d"
+    },
+    "87128": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195216-e3eda76d"
+    },
+    "87129": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195216-e3eda76d"
+    },
+    "87134": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195216-e3eda76d"
+    },
+    "87135": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195216-e3eda76d"
+    },
+    "87136": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195216-e3eda76d"
+    },
+    "87142": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195216-e3eda76d"
+    },
+    "87149": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195216-e3eda76d"
+    },
+    "87153": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195216-e3eda76d"
+    },
+    "87400": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195718-c3ab8328"
+    },
+    "87401": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195718-c3ab8328"
+    },
+    "87402": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195718-c3ab8328"
+    },
+    "87404": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195718-c3ab8328"
+    },
+    "87405": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T195718-c3ab8328"
+    },
+    "87714": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200114-aa900ad5"
+    },
+    "87716": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200114-aa900ad5"
+    },
+    "87846": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200303-eb624766"
+    },
+    "87847": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200303-eb624766"
+    },
+    "87848": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200303-eb624766"
+    },
+    "87849": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200303-eb624766"
+    },
+    "87922": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87923": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87924": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87927": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87929": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87930": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87939": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87940": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87941": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87950": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87951": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87952": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87986": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87987": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "87988": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200421-f500d986"
+    },
+    "88079": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200634-c90bddc2"
+    },
+    "88080": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T200634-c90bddc2"
+    },
+    "88331": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T201009-e83b524a"
+    },
+    "88333": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T201009-e83b524a"
+    },
+    "88335": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T201009-e83b524a"
+    },
+    "88336": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T201009-e83b524a"
+    },
+    "88343": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T201009-e83b524a"
+    },
+    "88344": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T201009-e83b524a"
+    },
+    "88345": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T201009-e83b524a"
+    },
+    "88353": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T201009-e83b524a"
+    },
+    "88354": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T201009-e83b524a"
+    },
+    "91643": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T205820-326009dc"
+    },
+    "91646": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T205820-326009dc"
+    },
+    "91971": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T210343-b55e6039"
+    },
+    "91972": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T210343-b55e6039"
+    },
+    "92118": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T210605-950870bf"
+    },
+    "92119": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T210605-950870bf"
+    },
+    "92225": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T210816-81e4f1b7"
+    },
+    "92226": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T210816-81e4f1b7"
+    },
+    "92228": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T210816-81e4f1b7"
+    },
+    "92229": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T210816-81e4f1b7"
+    },
+    "92390": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92391": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92396": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92397": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92404": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92406": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92407": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92418": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92419": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92420": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92431": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92435": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    },
+    "92439": {
+      "exists_at_collection": false,
+      "cleanup_ok": true,
+      "run_id": "20261109T211050-726655cc"
+    }
+  },
+  "browser_tabs_created": 0,
+  "http_services_created": 0,
+  "editors_left_open": 0
+}

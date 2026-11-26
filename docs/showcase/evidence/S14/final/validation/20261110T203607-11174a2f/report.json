@@ -1,0 +1,72 @@
+{
+  "run_id": "20261110T203607-11174a2f",
+  "owner": "S14-native-train_us_split_s",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-r3",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 76202,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-r3",
+      "pid": 76206,
+      "process_group": 76206,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1428,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T203607-11174a2f/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-r3",
+        "--minimized",
+        "--resolution",
+        "1280x720",
+        "--script",
+        "res://tests/s14_final_capture.gd",
+        "--",
+        "--mode=train_us_split_s",
+        "--fps=15",
+        "--limit=65",
+        "--output=/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S14/final/native/train_us_split_s"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-r3",
+      "pid": 76208,
+      "process_group": 76208,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 38.5986,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T203607-11174a2f/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S14-native-train_us_split_s",
+    "pid": 76202,
+    "process_identity": "Wed Nov 11 04:36:07 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S14-native-train_us_split_s --timeout 120 --lock-timeout 60 --project .local/s14-final-r3 godot --render -- --minimized --resolution 1280x720 --script res://tests/s14_final_capture.gd -- --mode=train_us_split_s --fps=15 --limit=65 --output=/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S14/final/native/train_us_split_s",
+    "token": "83b70734db4f48d9a8979dfca2042908",
+    "acquired_utc": "2026-11-10T20:36:07.256454+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

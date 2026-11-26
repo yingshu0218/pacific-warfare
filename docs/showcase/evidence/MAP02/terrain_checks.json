@@ -1,0 +1,208 @@
+{
+	"channels": [
+		{
+			"clearance_m": 120.0,
+			"id": "civil_entry",
+			"navigation_shapes": 22,
+			"nodes": 242,
+			"paths": [
+				[
+					[
+						-3600.0,
+						0.0,
+						-2350.0
+					]
+				],
+				[
+					[
+						-3850.0,
+						0.0,
+						-2790.0
+					]
+				]
+			]
+		},
+		{
+			"clearance_m": 220.0,
+			"id": "naval_entry",
+			"navigation_shapes": 22,
+			"nodes": 226,
+			"paths": [
+				[
+					[
+						3250.0,
+						0.0,
+						-3250.0
+					]
+				],
+				[
+					[
+						3250.0,
+						0.0,
+						-4100.0
+					]
+				]
+			]
+		}
+	],
+	"checks": 1015,
+	"contacts": [
+		{
+			"actual_top_m": 10.0,
+			"hit_m": [
+				-4200.0,
+				10.0,
+				-2860.0
+			],
+			"id": "civil_finger",
+			"surface": "ground",
+			"target_id": "civil_finger"
+		},
+		{
+			"actual_top_m": 10.0,
+			"hit_m": [
+				-4200.0,
+				10.0,
+				-2560.0
+			],
+			"id": "civil_pier_head",
+			"surface": "ground",
+			"target_id": "civil_finger"
+		},
+		{
+			"actual_top_m": 12.0,
+			"hit_m": [
+				2600.0,
+				12.0,
+				-4050.0
+			],
+			"id": "naval_pier_2600",
+			"surface": "ground",
+			"target_id": "naval_pier_2600"
+		},
+		{
+			"actual_top_m": 12.0,
+			"hit_m": [
+				3900.0,
+				12.0,
+				-4050.0
+			],
+			"id": "naval_pier_3900",
+			"surface": "ground",
+			"target_id": "naval_pier_3900"
+		},
+		{
+			"actual_top_m": 8.03999999165535,
+			"hit_m": [
+				6900.0,
+				8.04000091552734,
+				-2400.0
+			],
+			"id": "runway_surface",
+			"surface": "ground",
+			"target_id": "runway_surface"
+		},
+		{
+			"actual_top_m": 36.0,
+			"hit_m": [
+				4240.0,
+				36.0,
+				-5750.0
+			],
+			"id": "naval_tank_0_0_shell",
+			"surface": "building",
+			"target_id": "naval_tank_0_0_top"
+		},
+		{
+			"actual_top_m": 46.0,
+			"hit_m": [
+				2800.0,
+				46.0,
+				-4750.0
+			],
+			"id": "naval_repair_0_wall",
+			"surface": "building",
+			"target_id": "naval_repair_0_roof"
+		}
+	],
+	"counts": {
+		"components": 432,
+		"sites": 7,
+		"solids": 245,
+		"terrain_triangles": 11724
+	},
+	"failures": [],
+	"ground_entry": {
+		"scope": "support and muzzle installation only; no ground suite/combat/AI installed; JP models remain AA02",
+		"spawn_count": 3,
+		"validation_errors": []
+	},
+	"invalid_footings": [],
+	"map_sha256": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
+	"shared_terrain_sha256": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868",
+	"sites": [
+		{
+			"actual_height_m": 32.0,
+			"declared_height_m": 32.0,
+			"footprint_max_m": 32.0,
+			"footprint_min_m": 32.0,
+			"horizontal_clear_rays": 3,
+			"id": "map02_civil_coast_01",
+			"land_and_unobstructed": true
+		},
+		{
+			"actual_height_m": 18.0,
+			"declared_height_m": 18.0,
+			"footprint_max_m": 18.0,
+			"footprint_min_m": 18.0,
+			"horizontal_clear_rays": 3,
+			"id": "map02_town_aa_01",
+			"land_and_unobstructed": true
+		},
+		{
+			"actual_height_m": 590.0,
+			"declared_height_m": 590.0,
+			"footprint_max_m": 590.0,
+			"footprint_min_m": 590.0,
+			"horizontal_clear_rays": 1,
+			"id": "map02_main_ridge_aa",
+			"land_and_unobstructed": true
+		},
+		{
+			"actual_height_m": 42.0,
+			"declared_height_m": 42.0,
+			"footprint_max_m": 42.0,
+			"footprint_min_m": 42.0,
+			"horizontal_clear_rays": 3,
+			"id": "map02_naval_coast_01",
+			"land_and_unobstructed": true
+		},
+		{
+			"actual_height_m": 12.0,
+			"declared_height_m": 12.0,
+			"footprint_max_m": 12.0,
+			"footprint_min_m": 12.0,
+			"horizontal_clear_rays": 2,
+			"id": "map02_naval_aa_01",
+			"land_and_unobstructed": true
+		},
+		{
+			"actual_height_m": 478.0,
+			"declared_height_m": 478.0,
+			"footprint_max_m": 478.0,
+			"footprint_min_m": 478.0,
+			"horizontal_clear_rays": 3,
+			"id": "map02_naval_ridge_aa",
+			"land_and_unobstructed": true
+		},
+		{
+			"actual_height_m": 8.0,
+			"declared_height_m": 8.0,
+			"footprint_max_m": 8.0,
+			"footprint_min_m": 8.0,
+			"horizontal_clear_rays": 3,
+			"id": "map02_airfield_aa_01",
+			"land_and_unobstructed": true
+		}
+	]
+}

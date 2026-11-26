@@ -1,0 +1,65 @@
+{
+  "task": "AV04",
+  "status": "reference_preliminary_review_only",
+  "reviewer": "root",
+  "date": "2026-11-11",
+  "method": "实际打开本地原始图片，未用搜索缩略图作检查；无模型/机制验收结论。",
+  "viewed": [
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/manual-pages/p005.png",
+      "sha256": "48dbaab9e216ccbcffc6af3acf6b5c2bf9501cd8317a8e265914b41bea9aeec3",
+      "notes": "原始手册印页1，1944-10-10修订。正文B-25J、12枪/晚期13枪、尺寸与三轮布局；照片斜前且翼尾裁切，不能作完整外形图。"
+    },
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/manual-pages/p084.png",
+      "sha256": "da19fef28c67a0931cfb69700614e5d7d3e820c43faf020e13ad1cceceb30a54",
+      "notes": "原始手册印页67 Figure 50，前部枪位配置图；鼻固定/活动、4侧固定、背塔的安装关系；非测绘坐标。"
+    },
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/manual-pages/loading-record-p082.png",
+      "sha256": "1222c908fb698fcb471db346d77aa2a72b8e152c4b5a182cbe8d3eafc09d7259",
+      "notes": "中队记录印页81，注明D/H/J共用挂架与6×500 lb GP载荷；不证明每个挂点精确站位。"
+    },
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/manual-pages/p009.png",
+      "sha256": "2e8d37a3f52d16d9b09a4fb4399e02999c4e7285af052938416ce8b6a59ddb91",
+      "notes": "原始手册印页5，1944-12-25修订。装甲/枪位布置示意，不作精确几何或7月序号配置的单独证明。"
+    },
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/manual-pages/p014.png",
+      "sha256": "51550393be3a5bc14fd4aef20393450eaa774375b58cd26e5a276808d099ed9d",
+      "notes": "原始手册印页10，1944-12-25修订。襟翼/弹舱液压示意，局部安装辅助；不制作图中的内部机械。"
+    },
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/originals/alistairfgauld_240419_66224431d9e15.jpg",
+      "sha256": "5df6c96cca4a35ac24689b0ec21fe80907cd211fe788c23e6aa1e056ec7a1c0a",
+      "notes": "成品模型完整高位斜前，机鼻/座舱/机翼/短舱/双垂尾关系；鼻部多枪与本次早期12枪配置不同，不照抄武装。"
+    },
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/originals/alistairfgauld_240419_6622443488c69.jpg",
+      "sha256": "7f7bd6fe7ce86206a815f97b99838d32c37e78e59764bd5195ea263569182142",
+      "notes": "同一成品模型完整高位斜后，翼尾平面/背塔/腰枪与尾枪布局；不是严格俯视，不能直接量尺寸。"
+    },
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/originals/alistairfgauld_240419_6622443641114.jpg",
+      "sha256": "1b8bc9cc508711fd3a4a0b649c7067b690a54eb91f225c29c0037fcddc0148a3",
+      "notes": "同一成品模型完整高位近侧，整机体量和翼尾位置交叉检查；透视高位不替代严格侧投影。"
+    },
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/originals/b-25j-ned-1.jpg",
+      "sha256": "ae3f535394a9a8ac2f1cf7b63cfef01608231a81b5a9b9f050afa3ce50cac3e9",
+      "notes": "局部机构近照；不计完整外形覆盖，本轮简化不依赖该内部细节。"
+    },
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/originals/b-25j-mitchell-1.jpg",
+      "sha256": "234113e06e1093b107c6e31eca5d6a1e2d9199ab989ab58fde8626f5f5dc8bb9",
+      "notes": "内部弹舱/挂架近照；可辅助载荷空间，非完整机腹/整机外形。"
+    },
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/originals/b-25j-mitchell-4.jpg",
+      "sha256": "e8c9033a52765b4072aad8fd25c1549dc4885ac95f414dbaa516a241721bf5b3",
+      "notes": "同类内部弹舱/挂架近照；重复辅助，不计新增完整角度。"
+    }
+  ],
+  "next": "待AV04交付完整来源适用范围、实际模型同角度截图、真实MAP02安装及冻结证据后复核。"
+}

@@ -1,0 +1,97 @@
+{
+  "created_utc": "2026-11-10T17:43:58.169410+00:00",
+  "status": "phase_frozen_waiting_fx01_visual_review_not_final_acceptance",
+  "production": {
+    "aircraft/scripts/aircraft_builder.gd": "b558c971e75b65daa22f4d73014ecf1de4eae7bbf2b044ac62ccf267ef212d5d",
+    "aircraft/models/f6f5.gd": "4adf827e37e5e032db3a783ca08bd44bd2da0375ab2316db5935920cbb03b5c7",
+    "aircraft/models/a6m5_52ko.gd": "c0d1ae2ee4dbbf421e702fb8b243e5fba56a4934f1809413d52aa75d053f3890",
+    "scripts/presentation/models/aircraft_adapter.gd": "b2296abf3954029dd50ca087ff12e6fe91dee42541fe82fca00451b1f225e731",
+    "scripts/simulation/damage/aircraft_damage_motion.gd": "917103167a22a16e25e70c4ce65d8bbfc1b228461e9f0b2eea0d827de2ba4909",
+    "scripts/simulation/damage/combat_damage.gd": "10e7c121f1fa0ec50cc6fe7c98cc7cd8f8c3817a8cc12be8c0ad1ec14e511641",
+    "scripts/simulation/collision/combat_frame.gd": "49cf923ff5a6b972b958e8ec1ce30262d1fb20ebe86be07785b4d734144e06ba",
+    "scripts/simulation/aircraft_motion/aircraft_motion.gd": "92f6cbe23a808ba28e124b2deff9b301e785168fcb7dbc83aaafe9fe08af8c2a",
+    "data/combat/showcase.json": "8ada05c1cfb762c3d967aeb7df23da6efbc5a194c8be0f1ece18ad89b7c3e275"
+  },
+  "harness": {
+    "tests/test_aircraft_damage.gd": "3f3524dd4915b1f13b83bc5322e3df7b77220f25b503fff4a979924b9df0978d",
+    "tests/test_aircraft_damage_models.gd": "d6ae0fca17cdf818fb175c5955ff0f2f11570de8a0cfc918492245b7283f525f",
+    "tests/test_aircraft_damage_natural.gd": "590897d76b189516d2fb04fabe0e0d39acea398f6aa326c3c91d415ebe311e80",
+    "tests/test_aircraft_damage_emitters.gd": "eb0cdd893445d37b454d11f39bcec2ca26af2116df9d73161fdd5c951eddbae6",
+    "tests/aircraft_damage_capture.gd": "d9c6293138d52163fe83019aff8aa3bb2e3f7a0b611625353f2a5c6330c7ea06",
+    "tests/aircraft_damage_web_probe.gd": "96814eb72586beb760e2fcf4a106766bd3bd703cb80b91e6a92cc6a6758a30b8",
+    "tests/fixtures/aircraft_damage_fixture.gd": "e260b1d362aa832c0e8dab89ce62f47635f4a993f75c5aff79d90c1980bc308c",
+    "tests/fixtures/dm01_review_stage.gd": "e30a7626e63d5d3b9edef4d9b5c1411e89b5809518fe164f27f23c5eeea80dee",
+    "tests/scenes/aircraft_damage_web.tscn": "21604c60cb85ffc28e3766841ba7637b27135284a8243e3a990f101471c5b369",
+    "tools/dm01/prepare_project.py": "6c0a1fd9a174da0a78fed3fa4912adc70d5cfc02b816bb72c822586a5222cce5",
+    "tools/dm01/build_web.py": "4b41bbca94ea53e36f6f2a9d4577e261a2c8549f361c96daf7dfec8e5875da32",
+    "tools/dm01/measure.js": "8c8b66fafc729cf5f5d135dbf7366986b474f776a8bc9c5cec94d990283e5235",
+    "tools/dm01/chrome_check.mjs": "82a9f751142f7f7a2f45db7fce888d830e6b1f4be02f108cb32ecf816a7cc1f8"
+  },
+  "contracts": {
+    "docs/aircraft-damage-contracts.md": "ebd47a53f135513d52292f75fc81824ceb8a6301f23934c314b582b346a9d749",
+    "docs/aircraft-contracts.md": "5966b44f92b952d00a9bcc8b7a18ffe085acdefea12e8a56fb55f7963a439051",
+    "docs/combat-contracts.md": "1bdfa184817feda92f186e86352ebf277b2415fa7e902348fc6b0d1c54a0b58e"
+  },
+  "retained_dependencies": {
+    "scripts/presentation/models/static_model_batch.gd": "1ca4f14e080aec8eab752b4addcef062c381615c207969bdc82a0733f37339c8",
+    "data/aircraft/performance.json": "f21d5397e1db217856f1ecdb6d933d3bc847f298117657e8cd19e92ae3b920b1",
+    "data/units/us_f6f5_1944.json": "74eacb1d1ec2ece8b1ef2a6fbc585556876915d0bf678c96a1ffb0d48444d734",
+    "data/units/jp_a6m5a_1944.json": "c54709cc15211cdc43cdb25b7215ccabffb169a9c62176c2880f5d74a62b9f8f",
+    "scripts/game/first_playable.gd": "d72aee3bc8a86e983c526a5b4e0bda7395d1439dbc89aafac2fb95f2ee3eba49",
+    "scripts/game/first_playable_session.gd": "c83e4a85f27253f5edae74972765934d8d8bedd9e052416f801f52240d7d011c",
+    "scripts/presentation/environment/cloud_sea_environment.gd": "e4b34f4d36d07443d3752152316b0bed6dac53999a07f649817e1844e6c5f99e",
+    "scripts/presentation/environment/daylight_sky.gdshader": "e42865c895ca22b54faf287eb46d51c7b0b504fb031eaa2fe4d19d6082ec1f72",
+    "scripts/presentation/ocean.gdshader": "5afec338285da856563f79f94171dee6d5b974509e29682353d453724fc1e98a",
+    "data/scenarios/island_harbor_defence.json": "310559a833c4199f290c0bc630754f06cf53c48da946558dce4c15f99f8e1d56"
+  },
+  "fx01_latest_published": {
+    "status": "DM01 can consume this implementation in its isolated validation copy; FX01 retains ownership until final delivery",
+    "timestamp": "2026-11-11T01:42:56.946095+08:00",
+    "revision": 3,
+    "sources": {
+      "scripts/presentation/effects/combat_effects.gd": "469f943e9d671abe84003737ef52a49d8c2c809fdab81a25ee090f9b3c858464",
+      "scripts/presentation/effects/combat_effect_geometry.gd": "5605f2e511ab13723c20b0e22756814e7402683dc04264a97af03b7827b00ed7",
+      "scripts/presentation/effects/effect_surface.gdshader": "b5170ed5786872390f4ef44cbe62c1dc6e043df602d8f1f6a1c75424d49e81e3",
+      "docs/showcase/fx01-effects-contracts.md": "d27730a2586f7d3ddf1a609cc01e69827c8b623dedeceee3958f3e6b8c67324b"
+    },
+    "verified": [
+      "Real engine-hit smoke native draft at 150 m/s",
+      "Bounded 16 subsamples per source, world-space trail, per-slot projected overlap",
+      "Failed engine and ground loop selection tests",
+      "Web STREAM and host idempotent pause preserved",
+      "Final source-distance-triggered trail avoids up-to-45m gap at moving source; targeted FX01 test passed 20261110T172720-142820d0",
+      "Revision3 current-pose scheduling and attached part fire, same production advance/consume/apply order: 4 ticks/frame,96.2m/s,46frames,82 fire samples; source/fire error both0m. Full affected batch passed 20261110T173751-286f8d9f."
+    ],
+    "note": "Revision3 patch1 also clamps cloud/mist/fire quad UV boundary opacity to0. Current-pose checks passed; final native and Chrome evidence are still being collected. FX01 retains ownership.",
+    "patch": 1
+  },
+  "fx01_source_matches_marker": true,
+  "native_failed_inputs": [
+    "frozen-input-r1.json",
+    "fx01-r2-review/frozen-input.json"
+  ],
+  "chrome_run": false,
+  "uids": {
+    "aircraft/scripts/aircraft_builder.gd.uid": "a5f2c868d9f5b028ff9d236791fcb85ef895fda8f506b031d1614deaabb30541",
+    "aircraft/models/f6f5.gd.uid": "e0ef99dae66e43b9f87fa605fbea343a318d15997df9747a2e0048b6ccf3948d",
+    "aircraft/models/a6m5_52ko.gd.uid": "2aba98403065e71632dcd8344879a0567e59508dacf19b91ee5fe6e614da025b",
+    "scripts/presentation/models/aircraft_adapter.gd.uid": "03f730b5da58eef88765018e2b447748aee52f58a8f97cc1d1e375dd93458a51",
+    "scripts/simulation/damage/aircraft_damage_motion.gd.uid": "4b25e78ce15cd3ea5ce00d20983f0d7285a30dbf1563ecad7d9f9ef02456373e",
+    "scripts/simulation/damage/combat_damage.gd.uid": "bd7037358bbdd6ac925d8fc4ff3aead679547dad077e99a3fd34e6875a0f2c5b",
+    "scripts/simulation/collision/combat_frame.gd.uid": "a25ab3f749aab6b3ee9e3b70c503c3f4f701a3f60615ee2861b3c908b550dd2b",
+    "scripts/simulation/aircraft_motion/aircraft_motion.gd.uid": "a571ddd5668a2a05ae284098a0c49b16998633f6e91454209242fb8ceec492fe",
+    "tests/test_aircraft_damage.gd.uid": "3836c1bd180bd9ab7376c0cafbe8cbb5ce3ad2eef675e3be6626e9271395c8cd",
+    "tests/fixtures/aircraft_damage_fixture.gd.uid": "f756be64192f1654a8fb79b2e0ab45775b7551721f89896df71f6ce635e4ac08"
+  },
+  "fx01_observed_source_hashes": {
+    "scripts/presentation/effects/combat_effects.gd": "469f943e9d671abe84003737ef52a49d8c2c809fdab81a25ee090f9b3c858464",
+    "scripts/presentation/effects/combat_effect_geometry.gd": "5605f2e511ab13723c20b0e22756814e7402683dc04264a97af03b7827b00ed7",
+    "scripts/presentation/effects/effect_surface.gdshader": "b5170ed5786872390f4ef44cbe62c1dc6e043df602d8f1f6a1c75424d49e81e3",
+    "docs/showcase/fx01-effects-contracts.md": "d27730a2586f7d3ddf1a609cc01e69827c8b623dedeceee3958f3e6b8c67324b"
+  },
+  "notes": [
+    "DM01 phase frozen at coordinator request; no final acceptance.",
+    "Revision3 consumer passed the headless position check; full FX snapshot preparation encountered concurrent shader drift.",
+    "No Chrome, HTTP server or encoding started. Web harness remains unexecuted."
+  ]
+}

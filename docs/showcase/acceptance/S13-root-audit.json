@@ -1,0 +1,484 @@
+{
+  "task": "S13",
+  "reviewed_utc": "2026-11-10T16:03:05.332716+00:00",
+  "status": "cloud_sea_visual_and_short_chrome_scope_passed",
+  "scope": "Current 4 ships / 8 aircraft Showcase; not final S08 duration, full-force or audio acceptance.",
+  "native": {
+    "frames": 264,
+    "pause_pixels_identical": true,
+    "frozen_sources": 20,
+    "source_hashes_unchanged": true,
+    "mechanism_checks": 19,
+    "failures": []
+  },
+  "browser": {
+    "performance_source": "docs/showcase/evidence/S13/chrome-attempt2/run.json",
+    "performance_run_overall_passed": false,
+    "failure_after_completed_samples": "OptionButton keyboard selection did not change speed; subsequently fixed in test fixture.",
+    "controls_source": "docs/showcase/evidence/S13/chrome/run.json",
+    "controls_passed": true,
+    "control_checks": 16,
+    "hardware": {
+      "cpu": "Apple M5",
+      "memoryBytes": 17179869184,
+      "os": "25.6.0",
+      "node": "v24.22.1"
+    },
+    "identity": {
+      "title": "S13 云海实际验证",
+      "url": "http://127.0.0.1:49741/index.html",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "canvas": {
+        "width": 1280,
+        "height": 720,
+        "cssWidth": 1280,
+        "cssHeight": 720
+      },
+      "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+      "visible": "visible",
+      "focused": true
+    },
+    "flags": [
+      "headful",
+      "private user-data-dir",
+      "offscreen position",
+      "background/occlusion throttling disabled equally for all comparisons"
+    ],
+    "metrics_independently_recomputed": [
+      {
+        "phase": "new_live_ship",
+        "requested_seconds": 15,
+        "samples": 1740,
+        "p50_ms": 8.2,
+        "p95_ms": 14.8,
+        "all_visible": true,
+        "all_focused": true,
+        "camera_m": [
+          -3640.00415039062,
+          46,
+          197.500045776367
+        ]
+      },
+      {
+        "phase": "new_live_air",
+        "requested_seconds": 10,
+        "samples": 1191,
+        "p50_ms": 8.2,
+        "p95_ms": 13.8,
+        "all_visible": true,
+        "all_focused": true,
+        "camera_m": [
+          269.716644287109,
+          1160.85083007812,
+          -302.263793945312
+        ]
+      },
+      {
+        "phase": "legacy_paused",
+        "requested_seconds": 10,
+        "samples": 1193,
+        "p50_ms": 8.3,
+        "p95_ms": 11.1,
+        "all_visible": true,
+        "all_focused": true,
+        "camera_m": [
+          -3678.9912109375,
+          46,
+          -109.008041381836
+        ]
+      },
+      {
+        "phase": "new_paused",
+        "requested_seconds": 10,
+        "samples": 1175,
+        "p50_ms": 8.4,
+        "p95_ms": 12.2,
+        "all_visible": true,
+        "all_focused": true,
+        "camera_m": [
+          -3678.9912109375,
+          46,
+          -109.008041381836
+        ]
+      },
+      {
+        "phase": "new_no_clouds_paused",
+        "requested_seconds": 8,
+        "samples": 934,
+        "p50_ms": 8.4,
+        "p95_ms": 12.635,
+        "all_visible": true,
+        "all_focused": true,
+        "camera_m": [
+          -3678.9912109375,
+          46,
+          -109.008041381836
+        ]
+      },
+      {
+        "phase": "new_environment_only",
+        "requested_seconds": 8,
+        "samples": 961,
+        "p50_ms": 8.3,
+        "p95_ms": 10.9,
+        "all_visible": true,
+        "all_focused": true,
+        "camera_m": [
+          -3678.9912109375,
+          46,
+          -109.008041381836
+        ]
+      }
+    ],
+    "cross_pack_source_differences": [
+      "tests/cloud_sea_web_probe.gd"
+    ],
+    "runtime_workspace_mismatches": [],
+    "unreferenced_AU01_recipe_metadata_difference": [
+      "assets/audio/au01/source/recipe.json"
+    ],
+    "outputs_hashes_verified": true
+  },
+  "visual_review": {
+    "viewed": [
+      "ship_low.png",
+      "air_high.png",
+      "sky.png",
+      "far_edge.png",
+      "continuous_contact.png",
+      "chrome-attempt2/ship_low.png",
+      "chrome-attempt2/air_high.png"
+    ],
+    "method": "Actual images and selected sequential-frame contact sheet examined; not a claim that every video frame was watched.",
+    "result": "Acceptable simplified clouds, sea ripples, horizon continuity and aircraft/ship visibility."
+  },
+  "cleanup": {
+    "independently_checked_process_groups": [
+      {
+        "run": "20261110T152655-fff56a7d",
+        "group": 40535,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152655-fff56a7d",
+        "group": 40536,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152655-fff56a7d",
+        "group": 40541,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T155551-716d2487",
+        "group": 42807,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T155551-716d2487",
+        "group": 42808,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T155551-716d2487",
+        "group": 42812,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153818-65e62a76",
+        "group": 41288,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153818-65e62a76",
+        "group": 41289,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153913-73da467d",
+        "group": 41359,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T155948-ddb0af9e",
+        "group": 43042,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153100-5983b195",
+        "group": 40818,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153100-5983b195",
+        "group": 40819,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153156-f477bb0d",
+        "group": 40882,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153156-f477bb0d",
+        "group": 40883,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T154302-c1672f24",
+        "group": 41662,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T154945-8add0e3e",
+        "group": 42227,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152351-5deb7cd9",
+        "group": 40262,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152351-5deb7cd9",
+        "group": 40263,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153034-22e5e7c2",
+        "group": 40789,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153034-22e5e7c2",
+        "group": 40790,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T155758-fc215daf",
+        "group": 42929,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T155758-fc215daf",
+        "group": 42930,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T151901-32559d6d",
+        "group": 39850,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T151901-32559d6d",
+        "group": 39851,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153822-96d8fd5d",
+        "group": 41295,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153822-96d8fd5d",
+        "group": 41296,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T154156-44b01fe1",
+        "group": 41561,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T154156-44b01fe1",
+        "group": 41562,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152259-a2b1cd22",
+        "group": 40171,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152259-a2b1cd22",
+        "group": 40172,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T151923-d9f13639",
+        "group": 39906,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T151923-d9f13639",
+        "group": 39907,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152042-38480797",
+        "group": 40011,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152042-38480797",
+        "group": 40012,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T155346-20ad9041",
+        "group": 42654,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153421-42822252",
+        "group": 41026,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T153421-42822252",
+        "group": 41027,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T154746-0e5cfc87",
+        "group": 42046,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T154746-0e5cfc87",
+        "group": 42049,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152814-75c4189a",
+        "group": 40646,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152814-75c4189a",
+        "group": 40647,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T155058-b2d5c193",
+        "group": 42410,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T155058-b2d5c193",
+        "group": 42411,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152537-5434cf6b",
+        "group": 40452,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152537-5434cf6b",
+        "group": 40453,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152231-fe7a8199",
+        "group": 40122,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152231-fe7a8199",
+        "group": 40123,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152608-e3e44949",
+        "group": 40484,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T152608-e3e44949",
+        "group": 40487,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T154145-252a7648",
+        "group": 41555,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T154145-252a7648",
+        "group": 41556,
+        "state": "absent"
+      },
+      {
+        "run": "20261110T155700-8bade61b",
+        "group": 42871,
+        "state": "absent"
+      }
+    ],
+    "all_absent": true,
+    "browser_runs": [
+      {
+        "path": "docs/showcase/evidence/S13/chrome-attempt2/run.json",
+        "passed": false,
+        "failure": "page.waitForFunction: Timeout 30000ms exceeded.\n    at /Users/infinity/Desktop/Dev/game-pacific/tools/s13/chrome_check.mjs:132:14",
+        "cleanup": {
+          "chromeClosed": true,
+          "serverClosed": true,
+          "profileRemoved": true
+        }
+      },
+      {
+        "path": "docs/showcase/evidence/S13/chrome-attempt3/run.json",
+        "passed": false,
+        "failure": "page.waitForFunction: TypeError: Cannot read properties of undefined (reading 'visible')\n    at eval (eval at predicate (eval at evaluate (:311:30)), <anonymous>:1:37)\n    at predicate (eval at evaluate (:311:30), <anonymous>:7:27)\n    at next (eval at evaluate (:311:30), <anonymous>:29:33)\n    at eval (eval at evaluate (:311:30), <anonymous>:42:13)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at /Users/infinity/Desktop/Dev/game-pacific/tools/s13/chrome_check.mjs:132:14",
+        "cleanup": {
+          "chromeClosed": true,
+          "serverClosed": true,
+          "profileRemoved": true
+        }
+      },
+      {
+        "path": "docs/showcase/evidence/S13/chrome/run.json",
+        "passed": true,
+        "failure": null,
+        "cleanup": {
+          "chromeClosed": true,
+          "serverClosed": true,
+          "profileRemoved": true
+        }
+      },
+      {
+        "path": "docs/showcase/evidence/S13/chrome-attempt1/run.json",
+        "passed": false,
+        "failure": "Error: paused sky/sea pixels remain identical\n    at check (file:///Users/infinity/Desktop/Dev/game-pacific/tools/s13/chrome_check.mjs:20:106)\n    at file:///Users/infinity/Desktop/Dev/game-pacific/tools/s13/chrome_check.mjs:110:3",
+        "cleanup": {
+          "chromeClosed": true,
+          "serverClosed": true,
+          "profileRemoved": true
+        }
+      }
+    ]
+  },
+  "evidence_hashes": {
+    "docs/showcase/evidence/S13/native_capture.json": "8bd12ce3c92caf6d7155f35885dd9750b909fa6b25037a03501eb39bdc596eb2",
+    "docs/showcase/evidence/S13/environment_checks.json": "d9a76f9c655728094e8e3807173a7680a305deb84188bcd8e615e23ad09be445",
+    "docs/showcase/evidence/S13/chrome-attempt2/run.json": "7e7d490dc299d4cde81a68bb909afc4665c0415a72b627e85a4fd6f8b8fc2f9e",
+    "docs/showcase/evidence/S13/chrome/run.json": "c72312b0cbcf6c671f838f07b75cdef1c0b5c46fce9004a99bb60791ae4ff81c",
+    "docs/showcase/evidence/S13/continuous_contact.png": "7b6d39e0edaa6f9b2619fce3829221bd3250ef20c48536ca879272e149a41488",
+    "docs/showcase/evidence/S13/cloud_sea_continuous.mp4": "f39c510329603b2ba0e2b13f527acc872fe358c82c7358c2d37d62639305a160"
+  },
+  "limitations": [
+    "No volumetric clouds, wave-fluid simulation, real reflective ship images or weather system.",
+    "RAF timings include display/browser/CPU cadence; not isolated GPU costs.",
+    "Final S08 10-minute integration and full-scale/audio testing remain pending."
+  ],
+  "final_archived_index_check": {
+    "sources_verified": 36,
+    "evidence_files_verified": 423,
+    "mismatches": [],
+    "source_index_sha256": "1bf1c9778d02fd28d275de4ecc59a1c013c53fc9eaf391c379af62d39279d3bb",
+    "evidence_index_sha256": "6f7d7b1136b21f6840a8d804df48b901484dc5ab6605c2efc854319c2705d7e6",
+    "delivery_sha256": "ee846e1ffeaab6be68b5b89fc76a5b403ffa66dd10f6b962b45b7a54e3bc6eaa"
+  }
+}

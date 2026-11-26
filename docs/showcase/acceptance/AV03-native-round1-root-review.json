@@ -1,0 +1,42 @@
+{
+  "task": "AV03",
+  "reviewed_utc": "2026-11-11T12:12:36.708895+00:00",
+  "status": "round1_returned_for_bounded_shape_and_connection_corrections",
+  "actually_opened": [
+    {
+      "path": "docs/showcase/evidence/AV03/round1/quarter.png",
+      "sha256": "5a8e1d36b50fc1a4e73afebf783e564a2a4bc1d561da50f0aa752f999337dc19"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/round1/side.png",
+      "sha256": "e5dc5e5b5559539c0a61a1315e780f15c657a34dbfaa5704b0acddd5517c8155"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/round1/front.png",
+      "sha256": "66576ad34cdf009ac7f1199ce7ac6eab32cebf1cb818d6c8a82a6cee97184435"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/round1/top_flight.png",
+      "sha256": "792cfe40b24a9714e5e540de9ca83106955a9699a21496f87f6ee0316d1aa8d9"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/round1/high_rear.png",
+      "sha256": "1e2cb0a33fc404c0eb53fb5b9272bb1527731f060fa986e7f90395b4af68f4f5"
+    }
+  ],
+  "accepted_direction": [
+    "Overall span/length and thick fuselage/long aft body.",
+    "Twin-engine placement and principal five gun positions.",
+    "Short tailwheel direction; engines nested under their own wing damage module."
+  ],
+  "corrections": [
+    "Cockpit should follow stepped windshield and flatter canopy roof shown in M02/D02; front image has visible sill-to-body gaps.",
+    "Outer wing tips too broadly rounded against the tapered/truncated outline in Tamiya10; correct bounded tip/edge shape, not entire airframe.",
+    "Wing roundels show green holes; small nose-side window patches appear clipped. Simple paint or omission of optional tiny windows is sufficient."
+  ],
+  "limits": [
+    "119 interface self-checks do not replace visual shape review.",
+    "Actual airport assembly, final frozen hashes and model-use state images still pending.",
+    "No flight, bombing or combat damage completion."
+  ]
+}

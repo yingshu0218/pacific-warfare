@@ -1,0 +1,62 @@
+{
+  "task": "AV02",
+  "status": "reference_scope_reviewed_with_final_independent_model_acceptance",
+  "reviewed_utc": "2026-11-11T11:26:03.687091+00:00",
+  "actually_opened": [
+    {
+      "path": "docs/references/aircraft/d4y2_1944/original/P01-A11-table-II.png",
+      "sha256": "f4d367ed9bc3dc42f1fa199dd60ad53b975034e7fcc9a4076c34b18b045d929e"
+    },
+    {
+      "path": "docs/references/aircraft/d4y2_1944/original/M01.jpg",
+      "sha256": "19ab2fafb81416300ff61617df2fd6f257b1850bcbcc6f1612780c2eaa9bb397"
+    },
+    {
+      "path": "docs/references/aircraft/d4y2_1944/original/M03.jpg",
+      "sha256": "78460b0079c1804fb80fd9f11ba22dd72d1a55cb4df8d155fa137cced87b99ae"
+    },
+    {
+      "path": "docs/references/aircraft/d4y2_1944/original/M04.jpg",
+      "sha256": "87a5a5af9a8521b7568fd6baf80bced3d14abb754bfaefc51d8691185a008ffe"
+    },
+    {
+      "path": "docs/references/aircraft/d4y2_1944/original/M06.jpg",
+      "sha256": "e629d85b3a6ebd6e5f8bd0be33dfa4c812ea42f009139fb65998d92aa471fef9"
+    },
+    {
+      "path": "docs/references/aircraft/d4y2_1944/original/M09.jpg",
+      "sha256": "8994655bbc0cdd81317ef984a79117d9a31ace337a9487a7d8d9ebef9ee9fbf5"
+    },
+    {
+      "path": "docs/references/aircraft/d4y2_1944/original/R01.jpg",
+      "sha256": "74d31375f0a056beb545fb34ca6764218c0bc98c2ac315ecbf78a67b86bbfd63"
+    },
+    {
+      "path": "docs/references/aircraft/d4y2_1944/original/R05.jpg",
+      "sha256": "ab7588f0bdde30f420f89b34ddaf15da19f97868287aca19e6e4fdc73e1bb3d4"
+    },
+    {
+      "path": "docs/references/aircraft/d4y2_1944/original/H01.jpg",
+      "sha256": "4c5622af5205687664315a8cc647a23a6dabca050c9ef8d69fb43b9a2a1abd08"
+    }
+  ],
+  "findings": [
+    "A-11 Table II confirms SUISEI-12 row span11.497/length10.22/height3.740; adopted date is not first combat date and measurement attitude is unspecified.",
+    "M01/M04 are completed scale-model photographs, useful for silhouette/gear but not primary factory stations or historical markings.",
+    "R01 is a restored/composite full-scale aircraft; narrow liquid-cooled nose, chin radiator and gear visible. Composite identity and rear-gun limits remain.",
+    "M03/M06/M09 independently opened: full frontal and complementary high views support wing/tail/gear reconstruction within stated scale-model limitations.",
+    "R05 independently opened: narrow underside dive-brake panels, not SB2C split flaps.",
+    "H01 local original independently opened: historical D4Y2 taxi view supports long liquid-cooled nose, canopy and tail-low gear stance; official PDF text caption was read, PDF image extraction was unsuccessful."
+  ],
+  "pending": [
+    "Historical factory stations and specific unsupported details remain estimates as documented.",
+    "Flight performance, carrier operations, bombing and combat damage remain separate unconnected tasks."
+  ],
+  "additional_source_lead": {
+    "url": "https://navalaviationnews.navy.mil/Portals/59/Documents/2022_01Spring.pdf?ver=gueQDXV8VTgPqj9Dl1UlNw%3D%3D",
+    "pdf_page_zero_based": 49,
+    "printed_page": 50,
+    "scope": "text caption identifies D4Y2 liquid-cooled taxi photo, credit Tony Holmes Collection; root web image extraction failed, NOT claimed visually reviewed."
+  },
+  "final_review": "docs/showcase/acceptance/AV02-review.md"
+}

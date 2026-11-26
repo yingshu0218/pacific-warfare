@@ -1,0 +1,108 @@
+{
+  "stage": "r10",
+  "status": "passed",
+  "reviewer": "S04 execution; root native shape/use-state review also passed before freeze",
+  "views": [
+    {
+      "name": "clean_quarter",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/clean_quarter.png",
+      "sha256": "3ee9a151c87f9836f5f37cfdfb2dae0e25fccbc0549fa69174aa6914ff3c07f4",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Recorded OPS mission pose: clean state, accepted body/wing/guns retained."
+    },
+    {
+      "name": "clean_underside",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/clean_underside.png",
+      "sha256": "465a4224a41d0411b8fb6e29d45d44cde067b02a2290e7cb465b0da90034fd7a",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Clean flight: closed covers, no lowered wheels or external hook."
+    },
+    {
+      "name": "approach_quarter",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/approach_quarter.png",
+      "sha256": "1a1ad69970c51b0188aac8b2435e7aed10611acda74d8193d55b9ac691ae973f",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Explicit revised static approach fixture: four flaps and lowered gear/hook; carrier hidden to remove beam occlusion."
+    },
+    {
+      "name": "approach_side",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/approach_side.png",
+      "sha256": "166f47172cb6b41be50ada21e824dcbd85e9a87929868c62ddaf5694768bd151",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Same revised geometry fixture: short tailwheel, nose-up, free hook below wheel support plane."
+    },
+    {
+      "name": "parked_side",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/parked_side.png",
+      "sha256": "6f5d08f78698dc1fa41f5064681ce105fc1a55679aa67568ad01972b15692ff5",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Actual CV01 three-circle static support; short tailwheel, no body/origin adjustment."
+    },
+    {
+      "name": "parked_rear",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/parked_rear.png",
+      "sha256": "0f2bae749da5dfac91165bc12a63a087fefbbf6ae02f9418ad1f3d57ddbb8f0f",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Three-wheel static support and unfolded original wing/tail proportions."
+    },
+    {
+      "name": "parked_front",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/parked_front.png",
+      "sha256": "246c2f7137974ae959bee773fcc0e72de2bdac94420b833a7d1a916d2771a795",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Both main tyres connect to simple struts and forward wing installations."
+    },
+    {
+      "name": "parked_front_quarter",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/parked_front_quarter.png",
+      "sha256": "cca3a916197bb2494fd121f88d8a0602b5a696f8cc5bb6470cfcc375d0f2125f",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Main tyre/strut connection, short tailwheel, actual deck shadow/contact visible."
+    },
+    {
+      "name": "hook_contact_side",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/hook_contact_side.png",
+      "sha256": "098750a087e6cdf5e0a3816ee037b79a83bb60944e68fc9f746cac44d5ff3e43",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Actual 35-degree flap triangles clear deck; supplied hook deflection only, no unit pose change."
+    },
+    {
+      "name": "hook_contact_detail",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/hook_contact_detail.png",
+      "sha256": "596df33b55ee1ad43fc42032604f0d82e31b0bb3d4e0830231ef2f067e96962d",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Real hook pin/shank/shoe and tailwheel; shoe contact follows offered deflection."
+    },
+    {
+      "name": "damage_wing_left",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/damage_wing_left.png",
+      "sha256": "5f04ca3585f0e7b64ba7eb7e552ae47c3095fd08fd8243b77ecf956af64c25ed",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Existing real ammunition detaches left wing with its gear and flap; no floating fuselage-side duplicate."
+    },
+    {
+      "name": "damage_structure",
+      "file": "docs/showcase/evidence/S04-carrier-usage/r10/native/damage_structure.png",
+      "sha256": "275661729dc1cea463f556bf7a9d1478ecc668e9fa2795e64562e05f6d0bdf85",
+      "opened_full_image": true,
+      "passed": true,
+      "observation": "Existing heavy-shell severe breakup; both wings and tail carry their attached equipment."
+    }
+  ],
+  "scope": "No model-generated operation outcome; static fixtures labelled as such.",
+  "camera_clip_m": [
+    0.5,
+    2000
+  ]
+}

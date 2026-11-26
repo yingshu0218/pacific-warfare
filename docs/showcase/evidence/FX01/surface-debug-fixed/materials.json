@@ -1,0 +1,218 @@
+[
+	{
+		"active": true,
+		"fade": 0.999229030553419,
+		"kind": "water",
+		"mode": 1,
+		"position": [
+			-18.0,
+			0.0,
+			0.0
+		],
+		"scale": [
+			10.2009391784668,
+			33.5188674926758,
+			10.2009391784668
+		],
+		"seed": 0.524,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	},
+	{
+		"active": true,
+		"fade": 0.974751741637981,
+		"kind": "water",
+		"mode": 1,
+		"position": [
+			16.0,
+			0.0,
+			0.0
+		],
+		"scale": [
+			3.25023365020752,
+			10.3788938522339,
+			3.25023365020752
+		],
+		"seed": 0.393,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	},
+	{
+		"active": true,
+		"fade": 0.800292531313655,
+		"kind": "water",
+		"mode": 1,
+		"position": [
+			15.4285001754761,
+			0.0,
+			0.0
+		],
+		"scale": [
+			1.87150084972382,
+			5.26976299285889,
+			1.87150084972382
+		],
+		"seed": 0.764,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	},
+	{
+		"active": true,
+		"fade": 0.800292531313655,
+		"kind": "water",
+		"mode": 1,
+		"position": [
+			16.5715007781982,
+			0.0,
+			0.0
+		],
+		"scale": [
+			1.87150084972382,
+			5.26976299285889,
+			1.87150084972382
+		],
+		"seed": 0.135,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	},
+	{
+		"active": true,
+		"fade": 0.652565317720268,
+		"kind": "mist",
+		"mode": 0,
+		"position": [
+			12.9519996643066,
+			1.63632440567017,
+			0.0
+		],
+		"scale": [
+			9.45278835296631,
+			9.45278835296631,
+			9.45278835296631
+		],
+		"seed": 0.506,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	},
+	{
+		"active": true,
+		"fade": 0.652565317720268,
+		"kind": "mist",
+		"mode": 0,
+		"position": [
+			19.0480003356934,
+			1.63632440567017,
+			0.0
+		],
+		"scale": [
+			9.45278835296631,
+			9.45278835296631,
+			9.45278835296631
+		],
+		"seed": 0.877,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	},
+	{
+		"active": true,
+		"fade": 1.0,
+		"kind": "foam",
+		"mode": 2,
+		"position": [
+			16.0,
+			0.0799999982118607,
+			0.0
+		],
+		"scale": [
+			6.81566667556763,
+			1.0,
+			6.81566667556763
+		],
+		"seed": 0.248,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	},
+	{
+		"active": true,
+		"fade": 0.912913603012948,
+		"kind": "water",
+		"mode": 1,
+		"position": [
+			-19.828800201416,
+			0.0,
+			0.0
+		],
+		"scale": [
+			5.84189653396606,
+			17.8040370941162,
+			5.84189653396606
+		],
+		"seed": 0.895,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	},
+	{
+		"active": true,
+		"fade": 0.912913603012948,
+		"kind": "water",
+		"mode": 1,
+		"position": [
+			-16.171199798584,
+			0.0,
+			0.0
+		],
+		"scale": [
+			5.84189653396606,
+			17.8040370941162,
+			5.84189653396606
+		],
+		"seed": 0.266,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	},
+	{
+		"active": true,
+		"fade": 0.675197062952165,
+		"kind": "mist",
+		"mode": 0,
+		"position": [
+			-27.6774005889893,
+			5.3604154586792,
+			0.0
+		],
+		"scale": [
+			30.160945892334,
+			30.160945892334,
+			30.160945892334
+		],
+		"seed": 0.637,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	},
+	{
+		"active": true,
+		"fade": 0.675197062952165,
+		"kind": "mist",
+		"mode": 0,
+		"position": [
+			-8.32259941101074,
+			5.3604154586792,
+			0.0
+		],
+		"scale": [
+			30.160945892334,
+			30.160945892334,
+			30.160945892334
+		],
+		"seed": 0.00800000000000001,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	},
+	{
+		"active": true,
+		"fade": 1.0,
+		"kind": "foam",
+		"mode": 2,
+		"position": [
+			-18.0,
+			0.0799999982118607,
+			0.0
+		],
+		"scale": [
+			21.6662006378174,
+			1.0,
+			21.6662006378174
+		],
+		"seed": 0.379,
+		"shader": "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never;\n\n// Original analytic masks. One material per reusable mesh slot; no TIME/random state.\nuniform int effect_mode = 0; // cloud, water, foam, tracer, fire, flash\nuniform vec4 tint : source_color = vec4(1.0);\nuniform float fade = 1.0;\nuniform float phase = 0.0;\nuniform float seed = 0.0;\nuniform vec3 trail_axis = vec3(0.0);\nuniform float trail_stretch = 1.0;\nuniform float water_fade_m = 0.0;\nvarying float world_height_m;\n\nfloat hash21(vec2 p) {\n\treturn fract(sin(dot(p, vec2(127.1,311.7))) * 43758.5453);\n}\nfloat noise2(vec2 p) {\n\tvec2 i = floor(p), f = fract(p);\n\tf = f*f*(3.0-2.0*f);\n\treturn mix(mix(hash21(i),hash21(i+vec2(1,0)),f.x),mix(hash21(i+vec2(0,1)),hash21(i+vec2(1,1)),f.x),f.y);\n}\nfloat cloud(vec2 p) {\n\treturn noise2(p)*0.6 + noise2(p*2.1)*0.28 + noise2(p*4.3)*0.12;\n}\nvoid vertex() {\n\tif (effect_mode == 0 || effect_mode >= 4) {\n\t\tvec2 axis = (VIEW_MATRIX * vec4(trail_axis,0.0)).xy;\n\t\tif (length(axis)>0.001) {\n\t\t\taxis=normalize(axis);\n\t\t\tVERTEX.xy=mat2(axis,vec2(-axis.y,axis.x))*vec2(VERTEX.x*trail_stretch,VERTEX.y);\n\t\t}\n\t\t// Camera-facing quad, retaining each pooled instance's world scale.\n\t\tMODELVIEW_MATRIX = mat4(vec4(length(MODEL_MATRIX[0].xyz),0,0,0),\n\t\t\tvec4(0,length(MODEL_MATRIX[1].xyz),0,0),\n\t\t\tvec4(0,0,length(MODEL_MATRIX[2].xyz),0), MODELVIEW_MATRIX[3]);\n\t}\n\tworld_height_m=(INV_VIEW_MATRIX*MODELVIEW_MATRIX*vec4(VERTEX,1.0)).y;\n}\nvoid fragment() {\n\tvec2 p = UV*2.0-1.0;\n\tfloat radius = length(p);\n\tfloat grain = cloud(UV*5.0 + vec2(seed*29.0,seed*17.0) + vec2(phase*0.09,-phase*0.12));\n\tfloat mask;\n\tvec3 color = tint.rgb;\n\tif (effect_mode == 0) {\n\t\tfloat contour = radius + (grain-0.5)*0.42;\n\t\tmask = (1.0-smoothstep(0.45,1.0,contour)) * mix(0.55,1.0,grain);\n\t\tcolor *= mix(0.7,1.3,grain);\n\t} else if (effect_mode == 1) {\n\t\tmask = mix(0.38,0.9,grain) * (1.0-smoothstep(0.65,1.0,UV.y));\n\t\tcolor *= mix(0.8,1.1,grain);\n\t} else if (effect_mode == 2) {\n\t\tfloat ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));\n\t\tmask = ring * smoothstep(0.24,0.64,grain) * 0.75;\n\t} else if (effect_mode == 3) {\n\t\tfloat core = pow(max(0.0,1.0-abs(p.x)),1.5);\n\t\tmask = core * pow(max(0.0,1.0-UV.y),0.9);\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));\n\t} else if (effect_mode == 4) {\n\t\tmask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));\n\t\tcolor = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));\n\t} else {\n\t\tmask = pow(max(0.0,1.0-radius),1.5);\n\t}\n\tif (effect_mode == 0 || effect_mode == 4) {\n\t\t// Noise may expand the radial contour; UV edges must still be exactly clear.\n\t\tfloat edge=min(min(UV.x,1.0-UV.x),min(UV.y,1.0-UV.y));\n\t\tmask *= smoothstep(0.0,0.12,edge);\n\t}\n\t// A large billboard can intersect the opaque y=0 sea inside its UV mask.\n\t// Fade before that depth boundary rather than exposing a hard waterline cut.\n\tif (water_fade_m>0.0) mask *= smoothstep(0.05,water_fade_m,world_height_m);\n\tALBEDO = color;\n\tALPHA = mask * tint.a * fade;\n\tif (ALPHA < 0.012) discard;\n}\n"
+	}
+]

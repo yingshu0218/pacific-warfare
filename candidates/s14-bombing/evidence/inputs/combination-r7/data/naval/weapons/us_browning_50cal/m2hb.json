@@ -1,0 +1,56 @@
+{
+	"asset_id": "us_browning_50cal_m2hb",
+	"name": "Browning .50-caliber M2 Heavy Barrel",
+	"designation": "M2 HB / M2HB",
+	"documented_design_year": null,
+	"service_period_status": "M2HB-configuration-date-not-asserted-by-this-asset",
+	"historical_configuration_claim": true,
+	"historical_installation_claim": false,
+	"coordinate_convention": {
+		"forward": "-Z",
+		"starboard": "+X",
+		"up": "+Y",
+		"root_origin": "estimated-trunnion-and-elevation-axis",
+		"units": "meters",
+		"nominal_scale": "1:1"
+	},
+	"interfaces": {
+		"elevation_axis_marker": "Generated/MountInterface/ElevationAxis",
+		"port_trunnion_marker": "Generated/MountInterface/PortTrunnionCenter",
+		"starboard_trunnion_marker": "Generated/MountInterface/StarboardTrunnionCenter",
+		"bore_axis_marker": "Generated/MountInterface/BoreAxisReference",
+		"bore_axis_height_above_elevation_axis_m_estimate": 0.05,
+		"tripod_or_ship_mount_included": false,
+		"naval_Mark_17_mount_included": false,
+		"host_platform_included": false
+	},
+	"weapon": {
+		"caliber_in": 0.50,
+		"caliber_mm_nominal": 12.7,
+		"barrels": 1,
+		"feed": "link-belt",
+		"operation": "short-recoil",
+		"cooling": "air-cooled-heavy-barrel",
+		"barrel_motion": "host-mount-owned"
+	},
+	"key_dimensions": {
+		"overall_length_m": 1.6543,
+		"overall_length_source": "65.13 inches, FM 23-65 table 1-1",
+		"barrel_length_m": 1.143,
+		"barrel_length_source": "45 inches, FM 23-65 table 1-1",
+		"overall_envelope_m": [0.42, 0.55, 1.6543],
+		"envelope_width_height_status": "procedural-visual-estimate",
+		"receiver_and_trunnion_dimensions_status": "visual-estimate"
+	},
+	"confidence": {
+		"designation_and_caliber": "source-confirmed",
+		"overall_and_barrel_length": "source-confirmed",
+		"cooling_and_feed": "source-confirmed",
+		"component_proportions": "visual-estimate",
+		"ship-fit-or-position": "not-asserted"
+	},
+	"sources": [
+		"https://wiki.w9cr.net/images/0/02/FM_23-65_Browning_Machine_Gun_Caliber_.50_HB%2C_M2.pdf",
+		"https://cpeground.army.mil/Equipment/Equipment-Portfolio/PM-SL-Portfolio/M2-M2A1-50-Caliber-Machine-Gun/"
+	]
+}

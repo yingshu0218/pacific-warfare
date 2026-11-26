@@ -1,0 +1,49 @@
+{
+	"engine": "4.7.2-stable (official)",
+	"scope": "Static 1:1 modules/assembly/bearing; D4Y cage only; no takeoff/recovery",
+	"shadows_disabled_for_diagnosis": true,
+	"views": [
+		{
+			"draw_calls": 112.0,
+			"eye_m": [
+				-350.0,
+				17.0,
+				0.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-shadow-diagnostic/port_side.png",
+			"id": "port_side",
+			"orthographic_size_m": 180.0,
+			"primitives": 78542.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				14.0,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 112.0,
+			"eye_m": [
+				-220.0,
+				140.0,
+				260.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-shadow-diagnostic/port_stern_quarter.png",
+			"id": "port_stern_quarter",
+			"orthographic_size_m": 180.0,
+			"primitives": 78560.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				13.0,
+				0.0
+			]
+		}
+	]
+}

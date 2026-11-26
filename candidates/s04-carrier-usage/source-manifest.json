@@ -1,0 +1,30 @@
+{
+  "files": {
+    "candidates/s04-carrier-usage/.gdignore": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "candidates/s04-carrier-usage/README.md": "458e90a40abdba078d290eaace2c2a43d070074f98a8e2558dd7eaa4fdebeb31",
+    "candidates/s04-carrier-usage/aircraft/models/f6f5.gd": "47fc414ee9a0d2805ca85023651d4925986a8b7301a67f1609f5d77190a4bdf3",
+    "candidates/s04-carrier-usage/aircraft/scripts/aircraft_builder.gd": "2f94ad775d3220bcab3483033373aa72bab92ac41751c22c3850848ee8c84a4e",
+    "candidates/s04-carrier-usage/baseline/aircraft/models/f6f5.gd": "4adf827e37e5e032db3a783ca08bd44bd2da0375ab2316db5935920cbb03b5c7",
+    "candidates/s04-carrier-usage/baseline/aircraft/scripts/aircraft_builder.gd": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+    "candidates/s04-carrier-usage/baseline/scripts/presentation/models/aircraft_adapter.gd": "b2296abf3954029dd50ca087ff12e6fe91dee42541fe82fca00451b1f225e731",
+    "candidates/s04-carrier-usage/baseline-hashes.json": "be591dd839f64ce03d7daf8ea52707e73758af6c780ed1da94c486f8e26df431",
+    "candidates/s04-carrier-usage/carrier-usage.patch": "89e754ca6aead4603a1f25a9a3750f0753035b54a5b6e70a08940ddc6cd57d48",
+    "candidates/s04-carrier-usage/scripts/aircraft_geometry/f6f5_carrier_geometry.gd": "223b1d51ae6829f89463ab2dbc0c71ab2fa1e3f144e4453b1ca55311e13e2913",
+    "candidates/s04-carrier-usage/scripts/presentation/models/aircraft_adapter.gd": "5bdbdf3019f08f2967f2996b6d985dfcae3d1cc0001e518b8ef54bf85c03e09e",
+    "docs/air_operations/S04-carrier-usage-contract.md": "73a50d55acf98fdc32b88f59bb6d2fb07b28f26512256c9f30b4e0c1cc598e2e",
+    "docs/deliveries/S04-carrier-usage.md": "5fca88c092dba455f8fbfea8b36e2cf6db95f0596a2b827564a173b23891b768",
+    "docs/references/aircraft/f6f5_1944/carrier-usage/modeling-brief.md": "b74ac21bb42b26f9e57bd1f4737e9263add3c6e57048e2f308d8689693eb26a0",
+    "docs/references/aircraft/f6f5_1944/carrier-usage/sources.json": "1871a01e0c7ae6da9362d2194db81e87f7202283c07bc9618b104c0e6e28efe7",
+    "docs/showcase/deliveries/S04-carrier-usage.md": "a62b5b2e1bf6237d1ba601eceb1af3e43ebbfc72ac0b83a7812384148a3c9eea",
+    "tests/s04_carrier_usage/.gdignore": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/s04_carrier_usage/capture.gd": "02ed24c3ea743ce92066bab3b2528143d7011fe15d68b28eeab98e83fac63418",
+    "tests/s04_carrier_usage/ops_samples.json": "d97560d5bc9548bfaea3c39cfc66595cf9ab4aa6b203863cd668ee7b955bec37",
+    "tests/s04_carrier_usage/test_airframe_preservation.gd": "8db414c6bc9b2f430b04c38455563a26b189ff13693a6592646bd849e5121dda",
+    "tests/s04_carrier_usage/test_deck.gd": "81e83d9c97e3abec0ad3de060767d361f9c917822f4ee71b419e1432522bbdfb",
+    "tests/s04_carrier_usage/test_model.gd": "76355b083ee43171634a1fbb8dae25040b486811120cf81cff580fde4ed2a25e",
+    "tools/s04_carrier_usage/audit_delivery.py": "474576c6f3892379ba384e8c0e2146311847e5ff3086dc6c17c33537b65d23af",
+    "tools/s04_carrier_usage/fetch_references.py": "089a12900105e97a0b1dee332d750bc95f836505c6ed15d90af60ca8197ca8bd",
+    "tools/s04_carrier_usage/prepare_stage.py": "d26715002df3d8226b55a27ef12ab554f9eaec5974b34494c7665d978dd8ef68"
+  },
+  "scope": "Four candidate destinations plus exact saved baselines, private validation/rebuild tools, contracts and delivery records."
+}

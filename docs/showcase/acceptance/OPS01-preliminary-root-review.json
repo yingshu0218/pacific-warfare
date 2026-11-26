@@ -1,0 +1,114 @@
+{
+  "status": "interim_review_final_pending",
+  "created_local": "2026-11-11T05:51:44.390046+08:00",
+  "actual_images_viewed": [
+    "docs/showcase/evidence/OPS01/hellcat_1-takeoff_roll.png",
+    "docs/showcase/evidence/OPS01/hellcat_1-touchdown.png",
+    "docs/showcase/evidence/OPS01/hellcat_1-servicing.png",
+    "docs/air_operations/OPS01/sources/report-05.png",
+    "docs/air_operations/OPS01/sources/report-06.png",
+    "docs/air_operations/OPS01/sources/manual-045.png",
+    "docs/air_operations/OPS01/sources/manual-050.png",
+    "docs/air_operations/OPS01/sources/manual-051.png"
+  ],
+  "source_observations": [
+    "1944 test report pages11/12 show12420lb F6F-5, full-flap takeoff data and landing-configuration power-off stall84.5mph; these are configuration-dependent reference values.",
+    "Manual printed pages33,38,39 support gear/flaps/hook state sequence. The handbook has later revisions and is not used as proof of a specific1944 fleet procedure."
+  ],
+  "code_observations": [
+    "Private task and flight subclasses call existing production executors/integrator; private ShipMotion fixture, no production carrier registration.",
+    "Partial engine damage/disabled-active/empty fuel now distinguish OPS resource release from terminal movement ownership.",
+    "Single and two aircraft first sortie/recovery mechanisms have passing worker evidence, subject to final source freeze and independent audit.",
+    "Observed3fps native overview has readable F6F/carrier geometry but footer history overlaps; already returned."
+  ],
+  "pending": [
+    "F6F physical hook and actual contact-point interface from S04-carrier-usage",
+    "Critical takeoff/touchdown continuous >=15fps segments;3fps overview is not smoothness proof",
+    "Late rejected physical deck contact must not pass through deck",
+    "Respot after forward parking and second sortie; current explicit queued reason is not completed repeatability",
+    "Final evidence/source hashes and cleanup audit",
+    "Full official production/Showcase integration and Chrome"
+  ],
+  "image_hashes": {
+    "docs/showcase/evidence/OPS01/hellcat_1-takeoff_roll.png": "ddddbd7db43ab58bd34f12ac42ce35bf21bb02b6f84d3fe04829ed673544ac04",
+    "docs/showcase/evidence/OPS01/hellcat_1-touchdown.png": "94971937dda7a60b88af24f440c1ec0eb01629c088a55c78fde5a2744d90f40f",
+    "docs/showcase/evidence/OPS01/hellcat_1-servicing.png": "8f1f52bc129a04f6a3a7de63981a87291ec4572fdd33acae2f9856aa43dbdd63",
+    "docs/air_operations/OPS01/sources/report-05.png": "d4bc3e67f465df26f66d2dc38f1b5ac911a2c924d311aca5eace8e3b009c9957",
+    "docs/air_operations/OPS01/sources/report-06.png": "d494d9962279eeb4a8f54430af82c85720ec020a4a081b7fbdb2d9351ee3d295",
+    "docs/air_operations/OPS01/sources/manual-045.png": "44d442ca6e5534e288a9f0a0bd9754128b0e54489eb3d70fc78c19266b5032b1",
+    "docs/air_operations/OPS01/sources/manual-050.png": "3e81f16c884ce989fb0b3a66f5ba56d2356cfede0c00bb9c635b30a764f99ef7",
+    "docs/air_operations/OPS01/sources/manual-051.png": "f3d1bc0368bb63a49e6931eb564a3870ea80bd39b3dbc580362691986f98a2c2"
+  },
+  "mechanism_review_20261111_0630": {
+    "status": "phase_logic_accepted_final_model_usage_and_continuous_images_pending",
+    "observed_utc": "2026-11-10T22:24:11.735047+00:00",
+    "checks": 89,
+    "failures": 0,
+    "two_wave_order_status": [
+      {
+        "order_id": "carrier_patrol",
+        "status": "completed",
+        "changed_tick": 44949
+      },
+      {
+        "order_id": "second_sortie",
+        "status": "completed",
+        "changed_tick": 114138
+      }
+    ],
+    "final_actual_aircraft": {
+      "hellcat_1": {
+        "sorties": 2,
+        "recoveries": 2,
+        "touchdown_count": 2,
+        "phase": "standby",
+        "on_deck": true
+      },
+      "hellcat_2": {
+        "sorties": 2,
+        "recoveries": 2,
+        "touchdown_count": 2,
+        "phase": "standby",
+        "on_deck": true
+      }
+    },
+    "queues_empty": true,
+    "hard_contact_min_wheel_y": 15.8499994277954,
+    "hard_contact_event_chain": [
+      "carrier_touchdown_rejected",
+      "unit_surface_contact",
+      "carrier_operation_phase",
+      "order_execution_changed",
+      "aircraft_part_detached",
+      "aircraft_part_detached",
+      "aircraft_part_detached",
+      "aircraft_breakup",
+      "damage_phase",
+      "unit_impact",
+      "disabled",
+      "order_assignments_changed",
+      "order_status_changed"
+    ],
+    "read_files": [
+      "scripts/air_operations/carrier_operations.gd",
+      "scripts/air_operations/flight_bridge.gd",
+      "scripts/air_operations/deck_motion.gd",
+      "scripts/air_operations/deck_contact_support.gd",
+      "scripts/air_operations/task_bridge.gd",
+      "tests/air_operations/fixture.gd"
+    ],
+    "limitations": [
+      "private one/two F6F and one Essex fixture; not two-carrier production integration",
+      "temporary wheel/hook geometry must follow S04 accepted actual model",
+      "zero ambient wind only; carrier speed supplies wind over deck; declared integration approximation",
+      "3 fps overview is state trace evidence, not smooth critical movement acceptance",
+      "deck collision support includes full moving mother pose; rigid destroyed support is simplified"
+    ],
+    "evidence_hashes": {
+      "mechanisms.json": "f0380d6c24110f8aaa5a500123785351c505fedecbc0de9f6f4d508c7867c6f1",
+      "two-aircraft.json": "ae306895611183bd7bfefbf43a927dd615d902284f6ad596588e78b96ceed88f",
+      "hard-contact.json": "3952f2700bb5b49276c7f0da27b2ec853502bee5fc2a3fcf48125548357847d6",
+      "waveoff.json": "7f38e724dfb1b205eebdf73f6923d43a394d4fa78bd6fb01bcdbaac715ce8c4b"
+    }
+  }
+}

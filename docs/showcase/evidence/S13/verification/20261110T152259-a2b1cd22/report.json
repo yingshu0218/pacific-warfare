@@ -1,0 +1,64 @@
+{
+  "run_id": "20261110T152259-a2b1cd22",
+  "owner": "S13-native-draft",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 40169,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 40171,
+      "process_group": 40171,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2783,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T152259-a2b1cd22/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/cloud_sea_capture.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 40172,
+      "process_group": 40172,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": true,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 5.7711,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T152259-a2b1cd22/01-output.log",
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S13-native-draft",
+    "pid": 40169,
+    "process_identity": "Tue Nov 10 23:22:59 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S13-native-draft --timeout 90 godot --render -- --script res://tests/cloud_sea_capture.gd",
+    "token": "6bd2224f55b94280aa301cfa4c0780f1",
+    "acquired_utc": "2026-11-10T15:22:59.736603+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 1
+}

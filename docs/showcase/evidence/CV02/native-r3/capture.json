@@ -1,0 +1,363 @@
+{
+	"engine": "4.7.2-stable (official)",
+	"scope": "Static 1:1 modules/assembly/bearing; D4Y cage only; no takeoff/recovery",
+	"views": [
+		{
+			"draw_calls": 16.0,
+			"eye_m": [
+				8.0,
+				5.0,
+				-10.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/type89_open_module.png",
+			"id": "type89_open_module",
+			"orthographic_size_m": 9.5,
+			"primitives": 2816.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				1.20000004768372,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 12.0,
+			"eye_m": [
+				9.0,
+				6.0,
+				-10.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/type89_smoke_module.png",
+			"id": "type89_smoke_module",
+			"orthographic_size_m": 10.0,
+			"primitives": 4658.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				1.39999997615814,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 14.0,
+			"eye_m": [
+				5.0,
+				3.0,
+				-5.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/type96_module.png",
+			"id": "type96_module",
+			"orthographic_size_m": 5.0,
+			"primitives": 1774.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				0.699999988079071,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 219.0,
+			"eye_m": [
+				350.0,
+				17.0,
+				0.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/starboard_side.png",
+			"id": "starboard_side",
+			"orthographic_size_m": 180.0,
+			"primitives": 163734.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				14.0,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 221.0,
+			"eye_m": [
+				-350.0,
+				17.0,
+				0.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/port_side.png",
+			"id": "port_side",
+			"orthographic_size_m": 180.0,
+			"primitives": 163724.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				14.0,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 221.0,
+			"eye_m": [
+				0.0,
+				350.0,
+				0.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/top.png",
+			"id": "top",
+			"orthographic_size_m": 180.0,
+			"primitives": 163712.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 219.0,
+			"eye_m": [
+				230.0,
+				150.0,
+				-270.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/starboard_bow_quarter.png",
+			"id": "starboard_bow_quarter",
+			"orthographic_size_m": 180.0,
+			"primitives": 163748.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				13.0,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 221.0,
+			"eye_m": [
+				-220.0,
+				140.0,
+				260.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/port_stern_quarter.png",
+			"id": "port_stern_quarter",
+			"orthographic_size_m": 180.0,
+			"primitives": 163742.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				13.0,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 107.0,
+			"eye_m": [
+				57.0,
+				32.0,
+				74.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/starboard_aft_twins.png",
+			"id": "starboard_aft_twins",
+			"orthographic_size_m": 34.0,
+			"primitives": 135352.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				15.0,
+				13.0,
+				59.5
+			]
+		},
+		{
+			"draw_calls": 116.0,
+			"eye_m": [
+				54.0,
+				26.0,
+				-11.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/downturned_funnels.png",
+			"id": "downturned_funnels",
+			"orthographic_size_m": 34.0,
+			"primitives": 136106.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				16.0,
+				12.0,
+				-12.0
+			]
+		},
+		{
+			"draw_calls": 65.0,
+			"eye_m": [
+				32.0,
+				14.0,
+				-146.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/bow_underdeck.png",
+			"id": "bow_underdeck",
+			"orthographic_size_m": 37.0,
+			"primitives": 123272.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				11.0,
+				-113.0
+			]
+		},
+		{
+			"draw_calls": 41.0,
+			"eye_m": [
+				-33.0,
+				15.0,
+				150.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/stern_underdeck.png",
+			"id": "stern_underdeck",
+			"orthographic_size_m": 37.0,
+			"primitives": 118408.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				10.0,
+				119.0
+			]
+		},
+		{
+			"draw_calls": 234.0,
+			"eye_m": [
+				-40.0,
+				44.0,
+				-107.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/a6m_forward_park.png",
+			"id": "a6m_forward_park",
+			"orthographic_size_m": 38.0,
+			"primitives": 436426.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				-1.0,
+				15.5,
+				-79.0
+			]
+		},
+		{
+			"draw_calls": 80.0,
+			"eye_m": [
+				-12.0,
+				15.5,
+				-81.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/a6m_actual_wheels.png",
+			"id": "a6m_actual_wheels",
+			"orthographic_size_m": 10.5,
+			"primitives": 134684.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				-1.0,
+				15.3000001907349,
+				-79.0
+			]
+		},
+		{
+			"draw_calls": 323.0,
+			"eye_m": [
+				0.0,
+				350.0,
+				0.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/three_lifts_and_static_fit.png",
+			"id": "three_lifts_and_static_fit",
+			"orthographic_size_m": 180.0,
+			"primitives": 514660.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				0.0,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 121.0,
+			"eye_m": [
+				-26.0,
+				35.0,
+				47.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/d4y2_dimension_proxy_only.png",
+			"id": "d4y2_dimension_proxy_only",
+			"orthographic_size_m": 24.0,
+			"primitives": 129968.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				15.3999996185303,
+				29.0
+			]
+		},
+		{
+			"draw_calls": 155.0,
+			"eye_m": [
+				21.0,
+				39.0,
+				-64.0
+			],
+			"file": "res://docs/showcase/evidence/CV02/native-r3/forward_elevator_lowered.png",
+			"id": "forward_elevator_lowered",
+			"orthographic_size_m": 30.0,
+			"primitives": 331830.0,
+			"size": [
+				1440,
+				900
+			],
+			"target_m": [
+				0.0,
+				8.0,
+				-43.5
+			]
+		}
+	]
+}

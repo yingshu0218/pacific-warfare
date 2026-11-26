@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "registered": false,
+  "task": "AV04",
+  "unit_id_proposal": "us_b25j_1_1944_07",
+  "historical_class": "medium_bomber",
+  "variant": "B-25J-1-NC representative early glazed bomber",
+  "configuration_date": "1944-07",
+  "airframe_specific_serial": null,
+  "engine": "2 x Wright R-2600-13",
+  "engine_batch_certified": false,
+  "propellers": {
+    "count": 2,
+    "blades_each": 3,
+    "radius_m": 1.91,
+    "radius_status": "photo estimate"
+  },
+  "dimensions": {
+    "span_m": 20.5994,
+    "length_excluding_armament_m": 16.30045,
+    "manual_height_m": 4.9831625,
+    "source": "AN 01-60GE-1 PDF page5 / printed1; 67ft7in, 53ft5.75in, 16ft4.1875in"
+  },
+  "origin": {
+    "metres": [
+      0,
+      0,
+      0
+    ],
+    "is_historical_cg": false,
+    "axes": "+X right / +Y up / -Z forward"
+  },
+  "performance": {
+    "registered": false,
+    "flight_tested": false,
+    "cruise_mps": 102.8192,
+    "maximum_mps": 122.93599999999999,
+    "maximum_speed_altitude_m": 4572.0,
+    "source": "Delaware Aviation Museum b-25j-mithell-specifications",
+    "status": "published type-family data only; load/power conditions not fully resolved; not a validated flight envelope",
+    "turn_rate_rad_s": null,
+    "roll_rate_rad_s": null,
+    "acceleration_mps2": null,
+    "takeoff_speed_mps": null,
+    "landing_speed_mps": null,
+    "stall_speed_mps": null
+  },
+  "armament": {
+    "weapon_family": "AN/M2 .50 aircraft",
+    "caliber_m": 0.0127,
+    "barrels": 12,
+    "mounts": {
+      "cheek_left_lower": {
+        "barrels": 1,
+        "base_path": "Center/GunCheekLeftLower",
+        "elevation_path": "Center/GunCheekLeftLower/Yaw/Elevation",
+        "historical_firing_arcs_qualified": false,
+        "host_self_occlusion_required": true,
+        "muzzle_paths": [
+          "Center/GunCheekLeftLower/Yaw/Elevation/MUZZLE_CHEEK_LEFT_LOWER_0"
+        ],
+        "visual_limits_deg": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "weapon": "AN_M2_50_aircraft",
+        "yaw_path": "Center/GunCheekLeftLower/Yaw"
+      },
+      "cheek_left_upper": {
+        "barrels": 1,
+        "base_path": "Center/GunCheekLeftUpper",
+        "elevation_path": "Center/GunCheekLeftUpper/Yaw/Elevation",
+        "historical_firing_arcs_qualified": false,
+        "host_self_occlusion_required": true,
+        "muzzle_paths": [
+          "Center/GunCheekLeftUpper/Yaw/Elevation/MUZZLE_CHEEK_LEFT_UPPER_0"
+        ],
+        "visual_limits_deg": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "weapon": "AN_M2_50_aircraft",
+        "yaw_path": "Center/GunCheekLeftUpper/Yaw"
+      },
+      "cheek_right_lower": {
+        "barrels": 1,
+        "base_path": "Center/GunCheekRightLower",
+        "elevation_path": "Center/GunCheekRightLower/Yaw/Elevation",
+        "historical_firing_arcs_qualified": false,
+        "host_self_occlusion_required": true,
+        "muzzle_paths": [
+          "Center/GunCheekRightLower/Yaw/Elevation/MUZZLE_CHEEK_RIGHT_LOWER_0"
+        ],
+        "visual_limits_deg": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "weapon": "AN_M2_50_aircraft",
+        "yaw_path": "Center/GunCheekRightLower/Yaw"
+      },
+      "cheek_right_upper": {
+        "barrels": 1,
+        "base_path": "Center/GunCheekRightUpper",
+        "elevation_path": "Center/GunCheekRightUpper/Yaw/Elevation",
+        "historical_firing_arcs_qualified": false,
+        "host_self_occlusion_required": true,
+        "muzzle_paths": [
+          "Center/GunCheekRightUpper/Yaw/Elevation/MUZZLE_CHEEK_RIGHT_UPPER_0"
+        ],
+        "visual_limits_deg": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "weapon": "AN_M2_50_aircraft",
+        "yaw_path": "Center/GunCheekRightUpper/Yaw"
+      },
+      "dorsal": {
+        "barrels": 2,
+        "base_path": "Center/GunDorsal",
+        "elevation_path": "Center/GunDorsal/Yaw/Elevation",
+        "historical_firing_arcs_qualified": false,
+        "host_self_occlusion_required": true,
+        "muzzle_paths": [
+          "Center/GunDorsal/Yaw/Elevation/MUZZLE_DORSAL_0",
+          "Center/GunDorsal/Yaw/Elevation/MUZZLE_DORSAL_1"
+        ],
+        "visual_limits_deg": [
+          -180.0,
+          180.0,
+          10.0,
+          80.0
+        ],
+        "weapon": "AN_M2_50_aircraft",
+        "yaw_path": "Center/GunDorsal/Yaw"
+      },
+      "nose_fixed": {
+        "barrels": 1,
+        "base_path": "Center/GunNoseFixed",
+        "elevation_path": "Center/GunNoseFixed/Yaw/Elevation",
+        "historical_firing_arcs_qualified": false,
+        "host_self_occlusion_required": true,
+        "muzzle_paths": [
+          "Center/GunNoseFixed/Yaw/Elevation/MUZZLE_NOSE_FIXED_0"
+        ],
+        "visual_limits_deg": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "weapon": "AN_M2_50_aircraft",
+        "yaw_path": "Center/GunNoseFixed/Yaw"
+      },
+      "nose_flexible": {
+        "barrels": 1,
+        "base_path": "Center/GunNoseFlexible",
+        "elevation_path": "Center/GunNoseFlexible/Yaw/Elevation",
+        "historical_firing_arcs_qualified": false,
+        "host_self_occlusion_required": true,
+        "muzzle_paths": [
+          "Center/GunNoseFlexible/Yaw/Elevation/MUZZLE_NOSE_FLEXIBLE_0"
+        ],
+        "visual_limits_deg": [
+          -22.0,
+          22.0,
+          -25.0,
+          25.0
+        ],
+        "weapon": "AN_M2_50_aircraft",
+        "yaw_path": "Center/GunNoseFlexible/Yaw"
+      },
+      "tail": {
+        "barrels": 2,
+        "base_path": "Tail/GunTail",
+        "elevation_path": "Tail/GunTail/Yaw/Elevation",
+        "historical_firing_arcs_qualified": false,
+        "host_self_occlusion_required": true,
+        "muzzle_paths": [
+          "Tail/GunTail/Yaw/Elevation/MUZZLE_TAIL_0",
+          "Tail/GunTail/Yaw/Elevation/MUZZLE_TAIL_1"
+        ],
+        "visual_limits_deg": [
+          -25.0,
+          25.0,
+          -25.0,
+          35.0
+        ],
+        "weapon": "AN_M2_50_aircraft",
+        "yaw_path": "Tail/GunTail/Yaw"
+      },
+      "waist_left": {
+        "barrels": 1,
+        "base_path": "Center/GunWaistLeft",
+        "elevation_path": "Center/GunWaistLeft/Yaw/Elevation",
+        "historical_firing_arcs_qualified": false,
+        "host_self_occlusion_required": true,
+        "muzzle_paths": [
+          "Center/GunWaistLeft/Yaw/Elevation/MUZZLE_WAIST_LEFT_0"
+        ],
+        "visual_limits_deg": [
+          -30.0,
+          30.0,
+          -30.0,
+          40.0
+        ],
+        "weapon": "AN_M2_50_aircraft",
+        "yaw_path": "Center/GunWaistLeft/Yaw"
+      },
+      "waist_right": {
+        "barrels": 1,
+        "base_path": "Center/GunWaistRight",
+        "elevation_path": "Center/GunWaistRight/Yaw/Elevation",
+        "historical_firing_arcs_qualified": false,
+        "host_self_occlusion_required": true,
+        "muzzle_paths": [
+          "Center/GunWaistRight/Yaw/Elevation/MUZZLE_WAIST_RIGHT_0"
+        ],
+        "visual_limits_deg": [
+          -30.0,
+          30.0,
+          -30.0,
+          40.0
+        ],
+        "weapon": "AN_M2_50_aircraft",
+        "yaw_path": "Center/GunWaistRight/Yaw"
+      }
+    },
+    "ammunition_inventory": null,
+    "fire_control_implemented": false,
+    "unlimited_ammo_authorized": false,
+    "historical_arcs_qualified": false,
+    "source": "AN 01-60GE-1 printed1/figures5/6; early one fixed nose gun"
+  },
+  "payload": {
+    "mode": "bombs_6x500",
+    "ammo_id_for_BOMB01": "us_an_m64_500lb",
+    "selected_bomb": "AN-M64, TNT filled, 500lb nominal class",
+    "count": 6,
+    "nominal_class_total_lb": 3000,
+    "selected_complete_round_lb_each": 511.8,
+    "selected_complete_round_mass_kg_each": 232.148574966,
+    "selected_complete_round_mass_kg_total": 1392.8914497960002,
+    "selected_filler": "TNT",
+    "selected_filler_lb_each": 261.7,
+    "selected_filler_kg_each": 118.705123229,
+    "source": "TM9-1980/AFM136-7 1950, TableXXVII printed296 / PDF299; historical 6x500GP capacity in wartime 11thBS Record printed81/PDF82",
+    "source_date_limit": "1950 handbook table identifies AN-M64 filling; not proof that a particular 1944 aircraft carried this lot/fuze",
+    "source_dimensions_m": {
+      "length": 1.50368,
+      "body_diameter": 0.36067999999999995
+    },
+    "model_geometry_status": "simplified 1.5026m long / ~.356m body, .40m fin span; not exact AN-M64 fuze/tail reproduction",
+    "rack_layout": "two side ladder racks, 3 vertical tiers, one store per side/tier; coordinates fit estimates pending factory loading drawing",
+    "slots": [
+      {
+        "clear_before_release_indices": [],
+        "index": 0,
+        "position_status": "conservative fit estimate, not factory station drawing",
+        "release_m": [
+          -0.360000014305115,
+          -0.769999980926514,
+          -1.25999999046326
+        ],
+        "release_marker": "BOMB_00_RELEASE"
+      },
+      {
+        "clear_before_release_indices": [],
+        "index": 1,
+        "position_status": "conservative fit estimate, not factory station drawing",
+        "release_m": [
+          0.360000014305115,
+          -0.769999980926514,
+          -1.25999999046326
+        ],
+        "release_marker": "BOMB_01_RELEASE"
+      },
+      {
+        "clear_before_release_indices": [
+          0
+        ],
+        "index": 2,
+        "position_status": "conservative fit estimate, not factory station drawing",
+        "release_m": [
+          -0.360000014305115,
+          -0.300000011920929,
+          -1.25999999046326
+        ],
+        "release_marker": "BOMB_02_RELEASE"
+      },
+      {
+        "clear_before_release_indices": [
+          1
+        ],
+        "index": 3,
+        "position_status": "conservative fit estimate, not factory station drawing",
+        "release_m": [
+          0.360000014305115,
+          -0.300000011920929,
+          -1.25999999046326
+        ],
+        "release_marker": "BOMB_03_RELEASE"
+      },
+      {
+        "clear_before_release_indices": [
+          2
+        ],
+        "index": 4,
+        "position_status": "conservative fit estimate, not factory station drawing",
+        "release_m": [
+          -0.360000014305115,
+          0.170000001788139,
+          -1.25999999046326
+        ],
+        "release_marker": "BOMB_04_RELEASE"
+      },
+      {
+        "clear_before_release_indices": [
+          3
+        ],
+        "index": 5,
+        "position_status": "conservative fit estimate, not factory station drawing",
+        "release_m": [
+          0.360000014305115,
+          0.170000001788139,
+          -1.25999999046326
+        ],
+        "release_marker": "BOMB_05_RELEASE"
+      }
+    ],
+    "release_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "same_side_predecessor_must_be_empty": true,
+    "bay_door_required": 1.0,
+    "inventory_owner": "BOMB01 only; model never deducts, spawns, or decides release",
+    "current_BOMB01_placeholder_mass_kg": 240.0,
+    "mass_conflict_resolution": "coordinator/BOMB01 must reconcile TNT choice with its provisional 240kg entry; no shared table changed"
+  },
+  "ground_fit": {
+    "wheel_centers_and_radii": "interfaces.json markers WHEEL_LEFT/WHEEL_RIGHT/WHEEL_NOSE",
+    "parked_transform": {
+      "contacts": [
+        {
+          "center_m": [
+            -3.11999988555908,
+            0.520000100135803,
+            0.29194837808609
+          ],
+          "contact_error_m": 1.00135803204893e-07,
+          "id": "WHEEL_LEFT",
+          "radius_m": 0.52
+        },
+        {
+          "center_m": [
+            3.11999988555908,
+            0.520000100135803,
+            0.29194837808609
+          ],
+          "contact_error_m": 1.00135803204893e-07,
+          "id": "WHEEL_RIGHT",
+          "radius_m": 0.52
+        },
+        {
+          "center_m": [
+            0.0,
+            0.350000023841858,
+            -5.85895347595215
+          ],
+          "contact_error_m": 2.38418579323607e-08,
+          "id": "WHEEL_NOSE",
+          "radius_m": 0.35
+        }
+      ],
+      "pitch_rad": 0.00487769162282348,
+      "position_m": [
+        0.0,
+        2.17144370079041,
+        0.0
+      ]
+    },
+    "static_MAP02_tested": true,
+    "dynamic_OPS_tested": false
+  },
+  "capabilities": {
+    "land_based": true,
+    "carrier_recovery": false,
+    "carrier_hook": false,
+    "wing_fold": false,
+    "rocket_load": false,
+    "torpedo_qualified": false,
+    "autonomous_bombing": false,
+    "defensive_fire_control": false,
+    "DM_motion": false
+  },
+  "assumptions": [
+    "geometric datum is not measured CG",
+    "engine/wing/gear dimensions and gun axes photo fitted",
+    "visual traverse limits are not historical firing permissions",
+    "host must reject body/wing/tail/prop/friendly/terrain occlusion",
+    "static fit is not taxi traffic or takeoff qualification"
+  ]
+}

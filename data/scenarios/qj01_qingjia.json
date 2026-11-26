@@ -1,0 +1,78 @@
+{
+  "id": "qj01_qingjia",
+  "seed": 707,
+  "tick_hz": 60,
+  "factions": ["jp", "us"],
+  "environment": {
+    "sea_level_m": 0,
+    "friendly_fire": false,
+    "solids": [],
+    "terrain_path": "res://data/maps/island_harbor_expanded.json",
+    "view_script": "res://scripts/map02/expanded_map_view.gd"
+  },
+  "fleet_profiles_path": "res://data/expansion/fleet_profiles.json",
+  "combat_overlay_path": "res://data/combat/s14_bombing.json",
+  "fleet_overrides": {
+    "commanders": {
+      "jp": {"patrol_center_m": [-1800, 0, -1700], "patrol_radius_m": 550, "shore_priority": true},
+      "us": {"patrol_center_m": [1500, 0, -1800], "patrol_radius_m": 700}
+    }
+  },
+  "carrier_operations": {"carrier_id": "us_cv"},
+  "qingjia_recovery": {
+    "carrier_id": "us_cv",
+    "airframe_ids": ["us_deck_1", "us_deck_2"],
+    "window_s": 720,
+    "exit_center_m": [22550, 0, 9500],
+    "exit_radius_m": 1300,
+    "patrol_area": {"center_m": [14000, 700, 8500], "radius_m": 1200, "on_station_duration_s": 45}
+  },
+  "spawns": [
+    {"id": "us_cv", "unit_definition_id": "us_essex_cv9_1944_04_15", "faction_id": "us",
+      "position_m": [10500, 0, 9500], "rotation_rad": [0, -1.5707963267948966, 0], "velocity_mps": [15, 0, 0]},
+    {"id": "us_deck_1", "unit_definition_id": "us_f6f5_1944", "faction_id": "us",
+      "position_m": [10425, 17.05307743549347, 9497], "rotation_rad": [0.168342307209969, -1.5707963267948966, 0],
+      "velocity_mps": [15, 0, 0], "module_data": {"carrier_initial": {"carrier_id": "us_cv"}}},
+    {"id": "us_deck_2", "unit_definition_id": "us_f6f5_1944", "faction_id": "us",
+      "position_m": [10395, 17.05307743549347, 9497], "rotation_rad": [0.168342307209969, -1.5707963267948966, 0],
+      "velocity_mps": [15, 0, 0], "module_data": {"carrier_initial": {"carrier_id": "us_cv"}}},
+    {"id": "us_dd", "unit_definition_id": "us_fletcher_dd445_1942_07_18", "faction_id": "us",
+      "position_m": [4000, 0, 700], "rotation_rad": [0, 0, 0], "velocity_mps": [0, 0, -10]},
+    {"id": "jp_cv", "unit_definition_id": "jp_shokaku_1941_08_23", "faction_id": "jp",
+      "position_m": [-9500, 0, 9500], "rotation_rad": [0, 0, 0], "velocity_mps": [0, 0, -15]},
+    {"id": "jp_dd", "unit_definition_id": "jp_yukikaze_1942_06", "faction_id": "jp",
+      "position_m": [-1550, 0, -1200], "rotation_rad": [0, -1.57, 0], "velocity_mps": [10, 0, 0]},
+    {"id": "jp_air_1", "unit_definition_id": "jp_a6m5a_1944", "faction_id": "jp",
+      "position_m": [-1500, 1800, 4000], "rotation_rad": [0, -1.5707963267948966, 0], "velocity_mps": [127, 0, 0],
+      "module_data": {"aircraft_initial": {"withdrawal_center_m": [-10000, 1500, 8500], "withdrawal_radius_m": 650}}},
+    {"id": "jp_air_2", "unit_definition_id": "jp_a6m5a_1944", "faction_id": "jp",
+      "position_m": [-1760, 1870, 4230], "rotation_rad": [0, -1.5707963267948966, 0], "velocity_mps": [127, 0, 0],
+      "module_data": {"aircraft_initial": {"withdrawal_center_m": [-10000, 1500, 8500], "withdrawal_radius_m": 650}}},
+    {"id": "jp_g4m_1", "unit_definition_id": "jp_g4m1_1942_07", "faction_id": "jp",
+      "position_m": [-5300, 1800, -400], "rotation_rad": [0, 0, 0], "velocity_mps": [0, 0, -87],
+      "module_data": {"aircraft_initial": {"withdrawal_center_m": [-5300, 1800, 6500]}}},
+    {"id": "us_b25_1", "unit_definition_id": "us_b25j_1944_07", "faction_id": "us",
+      "position_m": [-9500, 1640, 15000], "rotation_rad": [0, 0, 0], "velocity_mps": [0, 0, -95],
+      "module_data": {"aircraft_initial": {"withdrawal_center_m": [-9500, 1800, 18100]}}}
+  ],
+  "groups": [{"id": "jp_air", "faction_id": "jp", "member_ids": ["jp_air_1", "jp_air_2"]}],
+  "ground_deployments": [
+    {"id": "us_coast_01", "site_id": "map02_civil_coast_01", "unit_definition_id": "us_5in51_mk13mod4_1945", "faction_id": "us"},
+    {"id": "us_aa_01", "site_id": "map02_town_aa_01", "unit_definition_id": "us_40mm_m1_m2a1_1944", "faction_id": "us"}
+  ],
+  "bombing_goals": [
+    {"id": "jp_level_strike", "order_type": "bombing", "faction_id": "jp", "unit_ids": ["jp_g4m_1"], "mode": "level", "target_id": "us_aa_01"},
+    {"id": "us_level_strike", "order_type": "bombing", "faction_id": "us", "unit_ids": ["us_b25_1"], "mode": "level", "target_id": "jp_cv"}
+  ],
+  "showcase": {"mode": "qingjia"},
+  "presentation": {
+    "title": "青岬归航 · 双机回收",
+    "subtitle": "埃塞克斯要带本次出动的青岬一号、二号两架 F6F 驶入东侧外海撤离区。",
+    "names": {
+      "us_cv": "埃塞克斯 CV-9", "us_deck_1": "F6F · 青岬一号", "us_deck_2": "F6F · 青岬二号",
+      "us_dd": "弗莱彻", "jp_cv": "翔鹤", "jp_dd": "雪风", "jp_air": "零战双机组",
+      "jp_air_1": "零战一号", "jp_air_2": "零战二号", "jp_g4m_1": "一式陆攻", "us_b25_1": "B-25J",
+      "us_coast_01": "港口 Mk13 岸炮", "us_aa_01": "港区 M1 防空一组"
+    }
+  }
+}

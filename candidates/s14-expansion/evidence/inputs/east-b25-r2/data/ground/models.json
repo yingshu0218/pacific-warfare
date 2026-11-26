@@ -1,0 +1,96 @@
+{
+  "us_5in51_mk13mod4_1945": {
+    "builder": "res://scripts/ground/models/shore_gun.gd",
+    "dimensions_m": [
+      5.3,
+      3.1,
+      6.7
+    ],
+    "footprint_radius_m": 5.2,
+    "role": "coastal_gun",
+    "recoil_stroke_m": 0.381,
+    "mount": {
+      "id": "gun_01",
+      "host_id": "mk13_fixed_pedestal",
+      "weapon_definition_id": "us_5in51_mk8_mk13_single",
+      "role": "main",
+      "position_m": [
+        0,
+        0.18,
+        0
+      ],
+      "base_yaw_deg": 0,
+      "elevation_pivot_m": [
+        0,
+        1.02362,
+        0
+      ],
+      "muzzle_positions_m": [
+        [
+          0,
+          0,
+          -4.73075
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "OP1112 pp162-163; original 0.18m host slab; small crosswise dimensions from photo proportions"
+      }
+    },
+    "train_limits_deg": [
+      -180,
+      180
+    ],
+    "elevation_limits_deg": [
+      -10,
+      20
+    ]
+  },
+  "us_40mm_m1_m2a1_1944": {
+    "builder": "res://scripts/ground/models/bofors_m1.gd",
+    "dimensions_m": [
+      4.04,
+      4.191,
+      5.7
+    ],
+    "footprint_radius_m": 3.4,
+    "role": "light_aa",
+    "recoil_stroke_m": 0.18,
+    "mount": {
+      "id": "gun_01",
+      "host_id": "m2a1_carriage",
+      "weapon_definition_id": "us_40mm_m1_m2a1_single",
+      "role": "dedicated_aa",
+      "position_m": [
+        0,
+        0.8,
+        0
+      ],
+      "base_yaw_deg": 0,
+      "elevation_pivot_m": [
+        0,
+        0.69,
+        0
+      ],
+      "muzzle_positions_m": [
+        [
+          0,
+          0,
+          -2.701
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "TM9-252 figs1,4,89,161; 3.2004m wheelbase and 1.406525m tread fixed; pivot, outriggers and small shapes estimated from original photographs, vertical muzzle height constrained to 4.191m"
+      }
+    },
+    "train_limits_deg": [
+      -180,
+      180
+    ],
+    "elevation_limits_deg": [
+      -6,
+      90
+    ]
+  }
+}

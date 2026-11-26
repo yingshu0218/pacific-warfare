@@ -1,0 +1,8149 @@
+{
+	"case": "follow",
+	"fps": 30,
+	"frames": 144,
+	"not_performance": true,
+	"rows": [
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5525.68603515625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5500.0
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5500.0
+				],
+				"presentation_time_s": 0.0,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 0,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 0,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 0,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0,
+			"time_s": 0.0
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5525.68603515625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5500.0
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5500.0
+				],
+				"presentation_time_s": 0.0,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 0,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 0,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 1,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0,
+			"time_s": 0.0
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5525.2900390625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5499.60400390625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5499.60400390625
+				],
+				"presentation_time_s": 0.00416666666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 1,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 0,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 2,
+			"label": "机群跟随",
+			"presentation_time_s": 0.00416666666666667,
+			"time_s": 0.0166666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5524.63037109375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5498.9443359375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5498.9443359375
+				],
+				"presentation_time_s": 0.0111111111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 1,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 0,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 3,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0111111111111111,
+			"time_s": 0.0166666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5523.970703125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5498.28466796875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5498.28466796875
+				],
+				"presentation_time_s": 0.0180555555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 2,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 0,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 4,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0180555555555556,
+			"time_s": 0.0333333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5523.31103515625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5497.625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5497.625
+				],
+				"presentation_time_s": 0.025,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 2,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 0,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 5,
+			"label": "机群跟随",
+			"presentation_time_s": 0.025,
+			"time_s": 0.0333333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5522.65087890625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5496.96484375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5496.96484375
+				],
+				"presentation_time_s": 0.0319444444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 2,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 0,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 0,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 6,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0319444444444444,
+			"time_s": 0.0333333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5521.9912109375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5496.30517578125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5496.30517578125
+				],
+				"presentation_time_s": 0.0388888888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 3,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [
+				{
+					"entity_id": "",
+					"kind": "order_issued",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "",
+					"kind": "order_status_changed",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "",
+					"kind": "order_assignments_changed",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "",
+					"kind": "command_applied",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "",
+					"kind": "order_issued",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "",
+					"kind": "order_status_changed",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "",
+					"kind": "order_assignments_changed",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "",
+					"kind": "command_applied",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "",
+					"kind": "order_status_changed",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "bomber",
+					"kind": "order_execution_changed",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "wing",
+					"kind": "order_execution_changed",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "target",
+					"kind": "fleet_flagship_changed",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "",
+					"kind": "order_status_changed",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "target",
+					"kind": "order_execution_changed",
+					"time_s": 0.0333333333333333
+				},
+				{
+					"entity_id": "target",
+					"kind": "order_execution_changed",
+					"time_s": 0.0333333333333333
+				}
+			],
+			"frame": 7,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0388888888888889,
+			"time_s": 0.05
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5521.33154296875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5495.6455078125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5495.6455078125
+				],
+				"presentation_time_s": 0.0458333333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 3,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 8,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0458333333333333,
+			"time_s": 0.05
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5520.671875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5494.98583984375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5494.98583984375
+				],
+				"presentation_time_s": 0.0527777777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 4,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 9,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0527777777777778,
+			"time_s": 0.0666666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5520.01220703125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5494.326171875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5494.326171875
+				],
+				"presentation_time_s": 0.0597222222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 4,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 10,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0597222222222222,
+			"time_s": 0.0666666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5519.3525390625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5493.66650390625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5493.66650390625
+				],
+				"presentation_time_s": 0.0666666666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 5,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 11,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0666666666666667,
+			"time_s": 0.0833333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5518.69287109375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5493.0068359375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5493.0068359375
+				],
+				"presentation_time_s": 0.0736111111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 5,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 12,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0736111111111111,
+			"time_s": 0.0833333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5518.033203125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5492.34716796875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5492.34716796875
+				],
+				"presentation_time_s": 0.0805555555555555,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 5,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 13,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0805555555555555,
+			"time_s": 0.0833333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5517.37353515625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5491.6875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5491.6875
+				],
+				"presentation_time_s": 0.0875,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 6,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 14,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0875,
+			"time_s": 0.1
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5516.71435546875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5491.0283203125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5491.0283203125
+				],
+				"presentation_time_s": 0.0944444444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 6,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 15,
+			"label": "机群跟随",
+			"presentation_time_s": 0.0944444444444444,
+			"time_s": 0.1
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5516.0546875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5490.36865234375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5490.36865234375
+				],
+				"presentation_time_s": 0.101388888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 7,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 16,
+			"label": "机群跟随",
+			"presentation_time_s": 0.101388888888889,
+			"time_s": 0.116666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5515.39501953125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5489.708984375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5489.708984375
+				],
+				"presentation_time_s": 0.108333333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 7,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 17,
+			"label": "机群跟随",
+			"presentation_time_s": 0.108333333333333,
+			"time_s": 0.116666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5514.7353515625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5489.04931640625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5489.04931640625
+				],
+				"presentation_time_s": 0.115277777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 7,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 18,
+			"label": "机群跟随",
+			"presentation_time_s": 0.115277777777778,
+			"time_s": 0.116666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5514.07568359375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5488.3896484375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5488.3896484375
+				],
+				"presentation_time_s": 0.122222222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 8,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 19,
+			"label": "机群跟随",
+			"presentation_time_s": 0.122222222222222,
+			"time_s": 0.133333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5513.41650390625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5487.73046875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5487.73046875
+				],
+				"presentation_time_s": 0.129166666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 8,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 20,
+			"label": "机群跟随",
+			"presentation_time_s": 0.129166666666667,
+			"time_s": 0.133333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5512.7568359375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5487.07080078125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5487.07080078125
+				],
+				"presentation_time_s": 0.136111111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 9,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 21,
+			"label": "机群跟随",
+			"presentation_time_s": 0.136111111111111,
+			"time_s": 0.15
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5512.09716796875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5486.4111328125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5486.4111328125
+				],
+				"presentation_time_s": 0.143055555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 9,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 22,
+			"label": "机群跟随",
+			"presentation_time_s": 0.143055555555556,
+			"time_s": 0.15
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5511.4375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5485.75146484375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5485.75146484375
+				],
+				"presentation_time_s": 0.15,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 10,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 23,
+			"label": "机群跟随",
+			"presentation_time_s": 0.15,
+			"time_s": 0.166666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5510.77783203125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5485.091796875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5485.091796875
+				],
+				"presentation_time_s": 0.156944444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 10,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 24,
+			"label": "机群跟随",
+			"presentation_time_s": 0.156944444444444,
+			"time_s": 0.166666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5510.1181640625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5484.43212890625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5484.43212890625
+				],
+				"presentation_time_s": 0.163888888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 10,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 25,
+			"label": "机群跟随",
+			"presentation_time_s": 0.163888888888889,
+			"time_s": 0.166666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5509.458984375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5483.77294921875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5483.77294921875
+				],
+				"presentation_time_s": 0.170833333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 11,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 26,
+			"label": "机群跟随",
+			"presentation_time_s": 0.170833333333333,
+			"time_s": 0.183333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5508.79931640625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5483.11328125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5483.11328125
+				],
+				"presentation_time_s": 0.177777777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 11,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 27,
+			"label": "机群跟随",
+			"presentation_time_s": 0.177777777777778,
+			"time_s": 0.183333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5508.14013671875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5482.4541015625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5482.4541015625
+				],
+				"presentation_time_s": 0.184722222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 12,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 28,
+			"label": "机群跟随",
+			"presentation_time_s": 0.184722222222222,
+			"time_s": 0.2
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5507.48095703125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5481.794921875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5481.794921875
+				],
+				"presentation_time_s": 0.191666666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 12,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 29,
+			"label": "机群跟随",
+			"presentation_time_s": 0.191666666666667,
+			"time_s": 0.2
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5506.8212890625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5481.13525390625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5481.13525390625
+				],
+				"presentation_time_s": 0.198611111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 12,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 30,
+			"label": "机群跟随",
+			"presentation_time_s": 0.198611111111111,
+			"time_s": 0.2
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5506.162109375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5480.47607421875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5480.47607421875
+				],
+				"presentation_time_s": 0.205555555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 13,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 31,
+			"label": "机群跟随",
+			"presentation_time_s": 0.205555555555556,
+			"time_s": 0.216666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5505.50244140625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5479.81640625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5479.81640625
+				],
+				"presentation_time_s": 0.2125,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 13,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 32,
+			"label": "机群跟随",
+			"presentation_time_s": 0.2125,
+			"time_s": 0.216666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5504.84326171875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5479.1572265625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5479.1572265625
+				],
+				"presentation_time_s": 0.219444444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 14,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 33,
+			"label": "机群跟随",
+			"presentation_time_s": 0.219444444444444,
+			"time_s": 0.233333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5504.18359375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5478.49755859375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5478.49755859375
+				],
+				"presentation_time_s": 0.226388888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 14,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 34,
+			"label": "机群跟随",
+			"presentation_time_s": 0.226388888888889,
+			"time_s": 0.233333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5503.5244140625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5477.83837890625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5477.83837890625
+				],
+				"presentation_time_s": 0.233333333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 15,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 35,
+			"label": "机群跟随",
+			"presentation_time_s": 0.233333333333333,
+			"time_s": 0.25
+		},
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5502.865234375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5477.17919921875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5477.17919921875
+				],
+				"presentation_time_s": 0.240277777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 15,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 36,
+			"label": "机群跟随",
+			"presentation_time_s": 0.240277777777778,
+			"time_s": 0.25
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5502.20556640625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5476.51953125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5476.51953125
+				],
+				"presentation_time_s": 0.247222222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 15,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 37,
+			"label": "机群跟随",
+			"presentation_time_s": 0.247222222222222,
+			"time_s": 0.25
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5501.54638671875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5475.8603515625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5475.8603515625
+				],
+				"presentation_time_s": 0.254166666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 16,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 38,
+			"label": "机群跟随",
+			"presentation_time_s": 0.254166666666667,
+			"time_s": 0.266666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5500.88671875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5475.20068359375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5475.20068359375
+				],
+				"presentation_time_s": 0.261111111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 16,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 39,
+			"label": "机群跟随",
+			"presentation_time_s": 0.261111111111111,
+			"time_s": 0.266666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5500.2275390625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5474.54150390625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5474.54150390625
+				],
+				"presentation_time_s": 0.268055555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 17,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 40,
+			"label": "机群跟随",
+			"presentation_time_s": 0.268055555555556,
+			"time_s": 0.283333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5499.56787109375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5473.8818359375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5473.8818359375
+				],
+				"presentation_time_s": 0.275,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 17,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 41,
+			"label": "机群跟随",
+			"presentation_time_s": 0.275,
+			"time_s": 0.283333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5498.90869140625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5473.22265625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5473.22265625
+				],
+				"presentation_time_s": 0.281944444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 17,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 42,
+			"label": "机群跟随",
+			"presentation_time_s": 0.281944444444444,
+			"time_s": 0.283333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5498.24951171875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5472.5634765625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5472.5634765625
+				],
+				"presentation_time_s": 0.288888888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 18,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 43,
+			"label": "机群跟随",
+			"presentation_time_s": 0.288888888888889,
+			"time_s": 0.3
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5497.58984375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5471.90380859375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5471.90380859375
+				],
+				"presentation_time_s": 0.295833333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 18,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 44,
+			"label": "机群跟随",
+			"presentation_time_s": 0.295833333333333,
+			"time_s": 0.3
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5496.9306640625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5471.24462890625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5471.24462890625
+				],
+				"presentation_time_s": 0.302777777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 19,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 45,
+			"label": "机群跟随",
+			"presentation_time_s": 0.302777777777778,
+			"time_s": 0.316666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5496.271484375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5470.58544921875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5470.58544921875
+				],
+				"presentation_time_s": 0.309722222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 19,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 46,
+			"label": "机群跟随",
+			"presentation_time_s": 0.309722222222222,
+			"time_s": 0.316666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5495.6123046875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5469.92626953125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5469.92626953125
+				],
+				"presentation_time_s": 0.316666666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 20,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 47,
+			"label": "机群跟随",
+			"presentation_time_s": 0.316666666666667,
+			"time_s": 0.333333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5494.953125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5469.26708984375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5469.26708984375
+				],
+				"presentation_time_s": 0.323611111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 20,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 48,
+			"label": "机群跟随",
+			"presentation_time_s": 0.323611111111111,
+			"time_s": 0.333333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5494.2939453125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5468.60791015625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5468.60791015625
+				],
+				"presentation_time_s": 0.330555555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 20,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 49,
+			"label": "机群跟随",
+			"presentation_time_s": 0.330555555555556,
+			"time_s": 0.333333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5493.634765625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5467.94873046875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5467.94873046875
+				],
+				"presentation_time_s": 0.3375,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 21,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 50,
+			"label": "机群跟随",
+			"presentation_time_s": 0.3375,
+			"time_s": 0.35
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5492.9755859375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5467.28955078125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5467.28955078125
+				],
+				"presentation_time_s": 0.344444444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 21,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 51,
+			"label": "机群跟随",
+			"presentation_time_s": 0.344444444444444,
+			"time_s": 0.35
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5492.31640625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5466.63037109375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5466.63037109375
+				],
+				"presentation_time_s": 0.351388888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 22,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 52,
+			"label": "机群跟随",
+			"presentation_time_s": 0.351388888888889,
+			"time_s": 0.366666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5491.6572265625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5465.97119140625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5465.97119140625
+				],
+				"presentation_time_s": 0.358333333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 22,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 53,
+			"label": "机群跟随",
+			"presentation_time_s": 0.358333333333333,
+			"time_s": 0.366666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5490.998046875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5465.31201171875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5465.31201171875
+				],
+				"presentation_time_s": 0.365277777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 22,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 54,
+			"label": "机群跟随",
+			"presentation_time_s": 0.365277777777778,
+			"time_s": 0.366666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5490.3388671875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5464.65283203125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5464.65283203125
+				],
+				"presentation_time_s": 0.372222222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 23,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 55,
+			"label": "机群跟随",
+			"presentation_time_s": 0.372222222222222,
+			"time_s": 0.383333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5489.6796875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5463.99365234375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5463.99365234375
+				],
+				"presentation_time_s": 0.379166666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 23,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 56,
+			"label": "机群跟随",
+			"presentation_time_s": 0.379166666666667,
+			"time_s": 0.383333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5489.0205078125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5463.33447265625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5463.33447265625
+				],
+				"presentation_time_s": 0.386111111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 24,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 57,
+			"label": "机群跟随",
+			"presentation_time_s": 0.386111111111111,
+			"time_s": 0.4
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5488.361328125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5462.67529296875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5462.67529296875
+				],
+				"presentation_time_s": 0.393055555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 24,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 58,
+			"label": "机群跟随",
+			"presentation_time_s": 0.393055555555556,
+			"time_s": 0.4
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5487.7021484375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5462.01611328125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5462.01611328125
+				],
+				"presentation_time_s": 0.4,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 25,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 59,
+			"label": "机群跟随",
+			"presentation_time_s": 0.4,
+			"time_s": 0.416666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5487.04296875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5461.35693359375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5461.35693359375
+				],
+				"presentation_time_s": 0.406944444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 25,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 60,
+			"label": "机群跟随",
+			"presentation_time_s": 0.406944444444444,
+			"time_s": 0.416666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5486.3837890625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5460.69775390625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5460.69775390625
+				],
+				"presentation_time_s": 0.413888888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 25,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 61,
+			"label": "机群跟随",
+			"presentation_time_s": 0.413888888888889,
+			"time_s": 0.416666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5485.724609375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5460.03857421875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5460.03857421875
+				],
+				"presentation_time_s": 0.420833333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 26,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 62,
+			"label": "机群跟随",
+			"presentation_time_s": 0.420833333333333,
+			"time_s": 0.433333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5485.0654296875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5459.37939453125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5459.37939453125
+				],
+				"presentation_time_s": 0.427777777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 26,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 63,
+			"label": "机群跟随",
+			"presentation_time_s": 0.427777777777778,
+			"time_s": 0.433333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5484.40625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5458.72021484375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5458.72021484375
+				],
+				"presentation_time_s": 0.434722222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 27,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 64,
+			"label": "机群跟随",
+			"presentation_time_s": 0.434722222222222,
+			"time_s": 0.45
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5483.74755859375
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5458.0615234375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5458.0615234375
+				],
+				"presentation_time_s": 0.441666666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 27,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 65,
+			"label": "机群跟随",
+			"presentation_time_s": 0.441666666666667,
+			"time_s": 0.45
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5483.08837890625
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5457.40234375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5457.40234375
+				],
+				"presentation_time_s": 0.448611111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 27,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 66,
+			"label": "机群跟随",
+			"presentation_time_s": 0.448611111111111,
+			"time_s": 0.45
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5482.42919921875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5456.7431640625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5456.7431640625
+				],
+				"presentation_time_s": 0.455555555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 28,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 67,
+			"label": "机群跟随",
+			"presentation_time_s": 0.455555555555556,
+			"time_s": 0.466666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5481.7705078125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5456.08447265625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5456.08447265625
+				],
+				"presentation_time_s": 0.4625,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 28,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 68,
+			"label": "机群跟随",
+			"presentation_time_s": 0.4625,
+			"time_s": 0.466666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5481.111328125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5455.42529296875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5455.42529296875
+				],
+				"presentation_time_s": 0.469444444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 29,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 69,
+			"label": "机群跟随",
+			"presentation_time_s": 0.469444444444444,
+			"time_s": 0.483333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5480.45263671875
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5454.7666015625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5454.7666015625
+				],
+				"presentation_time_s": 0.476388888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 29,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 70,
+			"label": "机群跟随",
+			"presentation_time_s": 0.476388888888889,
+			"time_s": 0.483333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5479.79345703125
+				],
+				"focus_m": [
+					0.0,
+					1802.0,
+					5454.107421875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					0.0,
+					1800.0,
+					5454.107421875
+				],
+				"presentation_time_s": 0.483333333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 30,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 71,
+			"label": "机群跟随",
+			"presentation_time_s": 0.483333333333333,
+			"time_s": 0.5
+		},
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5479.13427734375
+				],
+				"focus_m": [
+					-0.0000000000347866561944965,
+					1802.0,
+					5453.4482421875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000000347866561944965,
+					1800.0,
+					5453.4482421875
+				],
+				"presentation_time_s": 0.490277777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 30,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 72,
+			"label": "机群跟随",
+			"presentation_time_s": 0.490277777777778,
+			"time_s": 0.5
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5478.4755859375
+				],
+				"focus_m": [
+					-0.000000000069573312388993,
+					1802.0,
+					5452.78955078125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000000069573312388993,
+					1800.0,
+					5452.78955078125
+				],
+				"presentation_time_s": 0.497222222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 30,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 73,
+			"label": "机群跟随",
+			"presentation_time_s": 0.497222222222222,
+			"time_s": 0.5
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5477.81640625
+				],
+				"focus_m": [
+					-0.000000000167780039861398,
+					1802.0,
+					5452.13037109375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000000167780039861398,
+					1800.0,
+					5452.13037109375
+				],
+				"presentation_time_s": 0.504166666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 31,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 74,
+			"label": "机群跟随",
+			"presentation_time_s": 0.504166666666667,
+			"time_s": 0.516666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5477.15771484375
+				],
+				"focus_m": [
+					-0.000000000308266828730197,
+					1802.0,
+					5451.4716796875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000000308266828730197,
+					1800.0,
+					5451.4716796875
+				],
+				"presentation_time_s": 0.511111111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 31,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 75,
+			"label": "机群跟随",
+			"presentation_time_s": 0.511111111111111,
+			"time_s": 0.516666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5476.49853515625
+				],
+				"focus_m": [
+					-0.000000000484590700899901,
+					1802.0,
+					5450.8125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000000484590700899901,
+					1800.0,
+					5450.8125
+				],
+				"presentation_time_s": 0.518055555555555,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 32,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 76,
+			"label": "机群跟随",
+			"presentation_time_s": 0.518055555555555,
+			"time_s": 0.533333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5475.83935546875
+				],
+				"focus_m": [
+					-0.000000000804262767495345,
+					1802.0,
+					5450.1533203125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000000804262767495345,
+					1800.0,
+					5450.1533203125
+				],
+				"presentation_time_s": 0.525,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 32,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 77,
+			"label": "机群跟随",
+			"presentation_time_s": 0.525,
+			"time_s": 0.533333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5475.1806640625
+				],
+				"focus_m": [
+					-0.00000000112393483409079,
+					1802.0,
+					5449.49462890625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000000112393483409079,
+					1800.0,
+					5449.49462890625
+				],
+				"presentation_time_s": 0.531944444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 32,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 78,
+			"label": "机群跟随",
+			"presentation_time_s": 0.531944444444444,
+			"time_s": 0.533333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5474.521484375
+				],
+				"focus_m": [
+					-0.00000000164763191978778,
+					1802.0,
+					5448.83544921875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000000164763191978778,
+					1800.0,
+					5448.83544921875
+				],
+				"presentation_time_s": 0.538888888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 33,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 79,
+			"label": "机群跟随",
+			"presentation_time_s": 0.538888888888889,
+			"time_s": 0.55
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5473.86279296875
+				],
+				"focus_m": [
+					-0.00000000222233520474902,
+					1802.0,
+					5448.1767578125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000000222233520474902,
+					1800.0,
+					5448.1767578125
+				],
+				"presentation_time_s": 0.545833333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 33,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 80,
+			"label": "机群跟随",
+			"presentation_time_s": 0.545833333333333,
+			"time_s": 0.55
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5473.20361328125
+				],
+				"focus_m": [
+					-0.00000000293025426145732,
+					1802.0,
+					5447.517578125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000000293025426145732,
+					1800.0,
+					5447.517578125
+				],
+				"presentation_time_s": 0.552777777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 34,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 81,
+			"label": "机群跟随",
+			"presentation_time_s": 0.552777777777778,
+			"time_s": 0.566666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5472.544921875
+				],
+				"focus_m": [
+					-0.0000000038379974753866,
+					1802.0,
+					5446.85888671875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000038379974753866,
+					1800.0,
+					5446.85888671875
+				],
+				"presentation_time_s": 0.559722222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 34,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 82,
+			"label": "机群跟随",
+			"presentation_time_s": 0.559722222222222,
+			"time_s": 0.566666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5471.88623046875
+				],
+				"focus_m": [
+					-0.00000000474574024522667,
+					1802.0,
+					5446.2001953125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000000474574024522667,
+					1800.0,
+					5446.2001953125
+				],
+				"presentation_time_s": 0.566666666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 35,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 83,
+			"label": "机群跟随",
+			"presentation_time_s": 0.566666666666667,
+			"time_s": 0.583333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5471.2275390625
+				],
+				"focus_m": [
+					-0.00000000606650774059858,
+					1802.0,
+					5445.54150390625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000000606650774059858,
+					1800.0,
+					5445.54150390625
+				],
+				"presentation_time_s": 0.573611111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 35,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 84,
+			"label": "机群跟随",
+			"presentation_time_s": 0.573611111111111,
+			"time_s": 0.583333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5470.56884765625
+				],
+				"focus_m": [
+					-0.00000000738727479188128,
+					1802.0,
+					5444.8828125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000000738727479188128,
+					1800.0,
+					5444.8828125
+				],
+				"presentation_time_s": 0.580555555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 35,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 85,
+			"label": "机群跟随",
+			"presentation_time_s": 0.580555555555556,
+			"time_s": 0.583333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5469.90966796875
+				],
+				"focus_m": [
+					-0.00000000900492835853584,
+					1802.0,
+					5444.2236328125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000000900492835853584,
+					1800.0,
+					5444.2236328125
+				],
+				"presentation_time_s": 0.5875,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 36,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 86,
+			"label": "机群跟随",
+			"presentation_time_s": 0.5875,
+			"time_s": 0.6
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5469.2509765625
+				],
+				"focus_m": [
+					-0.0000000108205062687716,
+					1802.0,
+					5443.56494140625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000108205062687716,
+					1800.0,
+					5443.56494140625
+				],
+				"presentation_time_s": 0.594444444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 36,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 87,
+			"label": "机群跟随",
+			"presentation_time_s": 0.594444444444444,
+			"time_s": 0.6
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5468.59228515625
+				],
+				"focus_m": [
+					-0.0000000127517303383229,
+					1802.0,
+					5442.90625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000127517303383229,
+					1800.0,
+					5442.90625
+				],
+				"presentation_time_s": 0.601388888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 37,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 88,
+			"label": "机群跟随",
+			"presentation_time_s": 0.601388888888889,
+			"time_s": 0.616666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5467.93359375
+				],
+				"focus_m": [
+					-0.0000000151455417096713,
+					1802.0,
+					5442.24755859375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000151455417096713,
+					1800.0,
+					5442.24755859375
+				],
+				"presentation_time_s": 0.608333333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 37,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 89,
+			"label": "机群跟随",
+			"presentation_time_s": 0.608333333333333,
+			"time_s": 0.616666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5467.27490234375
+				],
+				"focus_m": [
+					-0.0000000175393513046629,
+					1802.0,
+					5441.5888671875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000175393513046629,
+					1800.0,
+					5441.5888671875
+				],
+				"presentation_time_s": 0.615277777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 37,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 90,
+			"label": "机群跟随",
+			"presentation_time_s": 0.615277777777778,
+			"time_s": 0.616666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5466.6162109375
+				],
+				"focus_m": [
+					-0.0000000204636716460982,
+					1802.0,
+					5440.93017578125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000204636716460982,
+					1800.0,
+					5440.93017578125
+				],
+				"presentation_time_s": 0.622222222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 38,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 91,
+			"label": "机群跟随",
+			"presentation_time_s": 0.622222222222222,
+			"time_s": 0.633333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5465.95751953125
+				],
+				"focus_m": [
+					-0.0000000235206183418768,
+					1802.0,
+					5440.271484375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000235206183418768,
+					1800.0,
+					5440.271484375
+				],
+				"presentation_time_s": 0.629166666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 38,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 92,
+			"label": "机群跟随",
+			"presentation_time_s": 0.629166666666667,
+			"time_s": 0.633333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5465.29833984375
+				],
+				"focus_m": [
+					-0.00000002687731637252,
+					1802.0,
+					5439.6123046875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000002687731637252,
+					1800.0,
+					5439.6123046875
+				],
+				"presentation_time_s": 0.636111111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 39,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 93,
+			"label": "机群跟随",
+			"presentation_time_s": 0.636111111111111,
+			"time_s": 0.65
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5464.6396484375
+				],
+				"focus_m": [
+					-0.0000000306836440699954,
+					1802.0,
+					5438.95361328125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000306836440699954,
+					1800.0,
+					5438.95361328125
+				],
+				"presentation_time_s": 0.643055555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 39,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 94,
+			"label": "机群跟随",
+			"presentation_time_s": 0.643055555555556,
+			"time_s": 0.65
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5463.98095703125
+				],
+				"focus_m": [
+					-0.000000034489968214757,
+					1802.0,
+					5438.294921875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000034489968214757,
+					1800.0,
+					5438.294921875
+				],
+				"presentation_time_s": 0.65,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 40,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 95,
+			"label": "机群跟随",
+			"presentation_time_s": 0.65,
+			"time_s": 0.666666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5463.322265625
+				],
+				"focus_m": [
+					-0.0000000391331127502781,
+					1802.0,
+					5437.63623046875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000391331127502781,
+					1800.0,
+					5437.63623046875
+				],
+				"presentation_time_s": 0.656944444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 40,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 96,
+			"label": "机群跟随",
+			"presentation_time_s": 0.656944444444444,
+			"time_s": 0.666666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5462.66357421875
+				],
+				"focus_m": [
+					-0.0000000437762537330855,
+					1802.0,
+					5436.9775390625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000437762537330855,
+					1800.0,
+					5436.9775390625
+				],
+				"presentation_time_s": 0.663888888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 40,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 97,
+			"label": "机群跟随",
+			"presentation_time_s": 0.663888888888889,
+			"time_s": 0.666666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5462.00439453125
+				],
+				"focus_m": [
+					-0.0000000489745985987611,
+					1802.0,
+					5436.318359375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000489745985987611,
+					1800.0,
+					5436.318359375
+				],
+				"presentation_time_s": 0.670833333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 41,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 98,
+			"label": "机群跟随",
+			"presentation_time_s": 0.670833333333333,
+			"time_s": 0.683333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5461.345703125
+				],
+				"focus_m": [
+					-0.0000000545430793863488,
+					1802.0,
+					5435.65966796875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000545430793863488,
+					1800.0,
+					5435.65966796875
+				],
+				"presentation_time_s": 0.677777777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 41,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 99,
+			"label": "机群跟随",
+			"presentation_time_s": 0.677777777777778,
+			"time_s": 0.683333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5460.68701171875
+				],
+				"focus_m": [
+					-0.0000000603145124955518,
+					1802.0,
+					5435.0009765625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000603145124955518,
+					1800.0,
+					5435.0009765625
+				],
+				"presentation_time_s": 0.684722222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 42,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 100,
+			"label": "机群跟随",
+			"presentation_time_s": 0.684722222222222,
+			"time_s": 0.7
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5460.02880859375
+				],
+				"focus_m": [
+					-0.0000000668977904183521,
+					1802.0,
+					5434.3427734375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000668977904183521,
+					1800.0,
+					5434.3427734375
+				],
+				"presentation_time_s": 0.691666666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 42,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 101,
+			"label": "机群跟随",
+			"presentation_time_s": 0.691666666666667,
+			"time_s": 0.7
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5459.3701171875
+				],
+				"focus_m": [
+					-0.0000000734810612357251,
+					1802.0,
+					5433.68408203125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000734810612357251,
+					1800.0,
+					5433.68408203125
+				],
+				"presentation_time_s": 0.698611111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 42,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 102,
+			"label": "机群跟随",
+			"presentation_time_s": 0.698611111111111,
+			"time_s": 0.7
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5458.71142578125
+				],
+				"focus_m": [
+					-0.0000000809484177466402,
+					1802.0,
+					5433.025390625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000809484177466402,
+					1800.0,
+					5433.025390625
+				],
+				"presentation_time_s": 0.705555555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 43,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 103,
+			"label": "机群跟随",
+			"presentation_time_s": 0.705555555555556,
+			"time_s": 0.716666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5458.052734375
+				],
+				"focus_m": [
+					-0.0000000886367956809408,
+					1802.0,
+					5432.36669921875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000886367956809408,
+					1800.0,
+					5432.36669921875
+				],
+				"presentation_time_s": 0.7125,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 43,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 104,
+			"label": "机群跟随",
+			"presentation_time_s": 0.7125,
+			"time_s": 0.716666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5457.39404296875
+				],
+				"focus_m": [
+					-0.0000000968036317772203,
+					1802.0,
+					5431.7080078125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.0000000968036317772203,
+					1800.0,
+					5431.7080078125
+				],
+				"presentation_time_s": 0.719444444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 44,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 105,
+			"label": "机群跟随",
+			"presentation_time_s": 0.719444444444444,
+			"time_s": 0.733333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5456.73583984375
+				],
+				"focus_m": [
+					-0.000000105688151563754,
+					1802.0,
+					5431.0498046875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000105688151563754,
+					1800.0,
+					5431.0498046875
+				],
+				"presentation_time_s": 0.726388888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 44,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 106,
+			"label": "机群跟随",
+			"presentation_time_s": 0.726388888888889,
+			"time_s": 0.733333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5456.0771484375
+				],
+				"focus_m": [
+					-0.000000114572671350288,
+					1802.0,
+					5430.39111328125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000114572671350288,
+					1800.0,
+					5430.39111328125
+				],
+				"presentation_time_s": 0.733333333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 45,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 107,
+			"label": "机群跟随",
+			"presentation_time_s": 0.733333333333333,
+			"time_s": 0.75
+		},
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5455.41845703125
+				],
+				"focus_m": [
+					-0.00000012474501431825,
+					1802.0,
+					5429.732421875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000012474501431825,
+					1800.0,
+					5429.732421875
+				],
+				"presentation_time_s": 0.740277777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 45,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 108,
+			"label": "机群跟随",
+			"presentation_time_s": 0.740277777777778,
+			"time_s": 0.75
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5454.76025390625
+				],
+				"focus_m": [
+					-0.000000134917343075358,
+					1802.0,
+					5429.07421875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000134917343075358,
+					1800.0,
+					5429.07421875
+				],
+				"presentation_time_s": 0.747222222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 45,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 109,
+			"label": "机群跟随",
+			"presentation_time_s": 0.747222222222222,
+			"time_s": 0.75
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5454.1015625
+				],
+				"focus_m": [
+					-0.000000145917695704156,
+					1802.0,
+					5428.41552734375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000145917695704156,
+					1800.0,
+					5428.41552734375
+				],
+				"presentation_time_s": 0.754166666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 46,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 110,
+			"label": "机群跟随",
+			"presentation_time_s": 0.754166666666667,
+			"time_s": 0.766666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5453.44287109375
+				],
+				"focus_m": [
+					-0.000000157470068984367,
+					1802.0,
+					5427.7568359375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000157470068984367,
+					1800.0,
+					5427.7568359375
+				],
+				"presentation_time_s": 0.761111111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 46,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 111,
+			"label": "机群跟随",
+			"presentation_time_s": 0.761111111111111,
+			"time_s": 0.766666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5452.7841796875
+				],
+				"focus_m": [
+					-0.00000016931696222855,
+					1802.0,
+					5427.09814453125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000016931696222855,
+					1800.0,
+					5427.09814453125
+				],
+				"presentation_time_s": 0.768055555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 47,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 112,
+			"label": "机群跟随",
+			"presentation_time_s": 0.768055555555556,
+			"time_s": 0.783333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5452.12548828125
+				],
+				"focus_m": [
+					-0.000000182342034804606,
+					1802.0,
+					5426.439453125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000182342034804606,
+					1800.0,
+					5426.439453125
+				],
+				"presentation_time_s": 0.775,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 47,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 113,
+			"label": "机群跟随",
+			"presentation_time_s": 0.775,
+			"time_s": 0.783333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5451.46728515625
+				],
+				"focus_m": [
+					-0.000000195367107380662,
+					1802.0,
+					5425.78125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000195367107380662,
+					1800.0,
+					5425.78125
+				],
+				"presentation_time_s": 0.781944444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 47,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 114,
+			"label": "机群跟随",
+			"presentation_time_s": 0.781944444444444,
+			"time_s": 0.783333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5450.80859375
+				],
+				"focus_m": [
+					-0.000000209644753113025,
+					1802.0,
+					5425.12255859375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000209644753113025,
+					1800.0,
+					5425.12255859375
+				],
+				"presentation_time_s": 0.788888888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 48,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 115,
+			"label": "机群跟随",
+			"presentation_time_s": 0.788888888888889,
+			"time_s": 0.8
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5450.14990234375
+				],
+				"focus_m": [
+					-0.000000224235549239893,
+					1802.0,
+					5424.4638671875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000224235549239893,
+					1800.0,
+					5424.4638671875
+				],
+				"presentation_time_s": 0.795833333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 48,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 116,
+			"label": "机群跟随",
+			"presentation_time_s": 0.795833333333333,
+			"time_s": 0.8
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5449.49169921875
+				],
+				"focus_m": [
+					-0.00000023948999228196,
+					1802.0,
+					5423.8056640625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000023948999228196,
+					1800.0,
+					5423.8056640625
+				],
+				"presentation_time_s": 0.802777777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 49,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 117,
+			"label": "机群跟随",
+			"presentation_time_s": 0.802777777777778,
+			"time_s": 0.816666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5448.8330078125
+				],
+				"focus_m": [
+					-0.000000255739848853409,
+					1802.0,
+					5423.14697265625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000255739848853409,
+					1800.0,
+					5423.14697265625
+				],
+				"presentation_time_s": 0.809722222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 49,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 118,
+			"label": "机群跟随",
+			"presentation_time_s": 0.809722222222222,
+			"time_s": 0.816666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5448.17431640625
+				],
+				"focus_m": [
+					-0.000000271989733846567,
+					1802.0,
+					5422.48828125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000271989733846567,
+					1800.0,
+					5422.48828125
+				],
+				"presentation_time_s": 0.816666666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 50,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 119,
+			"label": "机群跟随",
+			"presentation_time_s": 0.816666666666667,
+			"time_s": 0.833333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5447.515625
+				],
+				"focus_m": [
+					-0.00000028999227197346,
+					1802.0,
+					5421.82958984375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000028999227197346,
+					1800.0,
+					5421.82958984375
+				],
+				"presentation_time_s": 0.823611111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 50,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 120,
+			"label": "机群跟随",
+			"presentation_time_s": 0.823611111111111,
+			"time_s": 0.833333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5446.85693359375
+				],
+				"focus_m": [
+					-0.000000307994781678644,
+					1802.0,
+					5421.1708984375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000307994781678644,
+					1800.0,
+					5421.1708984375
+				],
+				"presentation_time_s": 0.830555555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 50,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 121,
+			"label": "机群跟随",
+			"presentation_time_s": 0.830555555555556,
+			"time_s": 0.833333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5446.19873046875
+				],
+				"focus_m": [
+					-0.000000327105112774007,
+					1802.0,
+					5420.5126953125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000327105112774007,
+					1800.0,
+					5420.5126953125
+				],
+				"presentation_time_s": 0.8375,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 51,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 122,
+			"label": "机群跟随",
+			"presentation_time_s": 0.8375,
+			"time_s": 0.85
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5445.54052734375
+				],
+				"focus_m": [
+					-0.000000346954010410627,
+					1802.0,
+					5419.8544921875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000346954010410627,
+					1800.0,
+					5419.8544921875
+				],
+				"presentation_time_s": 0.844444444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 51,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 123,
+			"label": "机群跟随",
+			"presentation_time_s": 0.844444444444444,
+			"time_s": 0.85
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5444.8818359375
+				],
+				"focus_m": [
+					-0.000000367190921224392,
+					1802.0,
+					5419.19580078125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000367190921224392,
+					1800.0,
+					5419.19580078125
+				],
+				"presentation_time_s": 0.851388888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 52,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 124,
+			"label": "机群跟随",
+			"presentation_time_s": 0.851388888888889,
+			"time_s": 0.866666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5444.2236328125
+				],
+				"focus_m": [
+					-0.00000038897997001186,
+					1802.0,
+					5418.53759765625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000038897997001186,
+					1800.0,
+					5418.53759765625
+				],
+				"presentation_time_s": 0.858333333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 52,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 125,
+			"label": "机群跟随",
+			"presentation_time_s": 0.858333333333333,
+			"time_s": 0.866666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5443.5654296875
+				],
+				"focus_m": [
+					-0.000000410769047221038,
+					1802.0,
+					5417.87939453125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000410769047221038,
+					1800.0,
+					5417.87939453125
+				],
+				"presentation_time_s": 0.865277777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 52,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 126,
+			"label": "机群跟随",
+			"presentation_time_s": 0.865277777777778,
+			"time_s": 0.866666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5442.90673828125
+				],
+				"focus_m": [
+					-0.000000434185324138525,
+					1802.0,
+					5417.220703125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000434185324138525,
+					1800.0,
+					5417.220703125
+				],
+				"presentation_time_s": 0.872222222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 53,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 127,
+			"label": "机群跟随",
+			"presentation_time_s": 0.872222222222222,
+			"time_s": 0.883333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5442.24853515625
+				],
+				"focus_m": [
+					-0.000000458008429404799,
+					1802.0,
+					5416.5625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000458008429404799,
+					1800.0,
+					5416.5625
+				],
+				"presentation_time_s": 0.879166666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 53,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 128,
+			"label": "机群跟随",
+			"presentation_time_s": 0.879166666666667,
+			"time_s": 0.883333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5441.59033203125
+				],
+				"focus_m": [
+					-0.000000482682651181676,
+					1802.0,
+					5415.904296875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000482682651181676,
+					1800.0,
+					5415.904296875
+				],
+				"presentation_time_s": 0.886111111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 54,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 129,
+			"label": "机群跟随",
+			"presentation_time_s": 0.886111111111111,
+			"time_s": 0.9
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5440.931640625
+				],
+				"focus_m": [
+					-0.000000508633604567876,
+					1802.0,
+					5415.24560546875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000508633604567876,
+					1800.0,
+					5415.24560546875
+				],
+				"presentation_time_s": 0.893055555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 54,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 130,
+			"label": "机群跟随",
+			"presentation_time_s": 0.893055555555556,
+			"time_s": 0.9
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5440.2734375
+				],
+				"focus_m": [
+					-0.000000534584557954076,
+					1802.0,
+					5414.58740234375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000534584557954076,
+					1800.0,
+					5414.58740234375
+				],
+				"presentation_time_s": 0.9,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 55,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 131,
+			"label": "机群跟随",
+			"presentation_time_s": 0.9,
+			"time_s": 0.916666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.416666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5439.615234375
+				],
+				"focus_m": [
+					-0.000000562757122679614,
+					1802.0,
+					5413.92919921875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000562757122679614,
+					1800.0,
+					5413.92919921875
+				],
+				"presentation_time_s": 0.906944444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 55,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 132,
+			"label": "机群跟随",
+			"presentation_time_s": 0.906944444444444,
+			"time_s": 0.916666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.833333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5438.95654296875
+				],
+				"focus_m": [
+					-0.000000590929744248569,
+					1802.0,
+					5413.2705078125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000590929744248569,
+					1800.0,
+					5413.2705078125
+				],
+				"presentation_time_s": 0.913888888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 55,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 133,
+			"label": "机群跟随",
+			"presentation_time_s": 0.913888888888889,
+			"time_s": 0.916666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.25,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5438.29833984375
+				],
+				"focus_m": [
+					-0.000000620491505287646,
+					1802.0,
+					5412.6123046875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000620491505287646,
+					1800.0,
+					5412.6123046875
+				],
+				"presentation_time_s": 0.920833333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 56,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 134,
+			"label": "机群跟随",
+			"presentation_time_s": 0.920833333333333,
+			"time_s": 0.933333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.666666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5437.64013671875
+				],
+				"focus_m": [
+					-0.000000650979359306803,
+					1802.0,
+					5411.9541015625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000650979359306803,
+					1800.0,
+					5411.9541015625
+				],
+				"presentation_time_s": 0.927777777777778,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 56,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 135,
+			"label": "机群跟随",
+			"presentation_time_s": 0.927777777777778,
+			"time_s": 0.933333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.0833333333333332,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5436.9814453125
+				],
+				"focus_m": [
+					-0.000000681949018144223,
+					1802.0,
+					5411.29541015625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000681949018144223,
+					1800.0,
+					5411.29541015625
+				],
+				"presentation_time_s": 0.934722222222222,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 57,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 136,
+			"label": "机群跟随",
+			"presentation_time_s": 0.934722222222222,
+			"time_s": 0.95
+		},
+		{
+			"anchor": {
+				"alpha": 0.5,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5436.3232421875
+				],
+				"focus_m": [
+					-0.000000714845668881026,
+					1802.0,
+					5410.63720703125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000714845668881026,
+					1800.0,
+					5410.63720703125
+				],
+				"presentation_time_s": 0.941666666666667,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 57,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 137,
+			"label": "机群跟随",
+			"presentation_time_s": 0.941666666666667,
+			"time_s": 0.95
+		},
+		{
+			"anchor": {
+				"alpha": 0.916666666666667,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5435.6650390625
+				],
+				"focus_m": [
+					-0.000000747742319617828,
+					1802.0,
+					5409.97900390625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000747742319617828,
+					1800.0,
+					5409.97900390625
+				],
+				"presentation_time_s": 0.948611111111111,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 57,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 138,
+			"label": "机群跟随",
+			"presentation_time_s": 0.948611111111111,
+			"time_s": 0.95
+		},
+		{
+			"anchor": {
+				"alpha": 0.333333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5435.00634765625
+				],
+				"focus_m": [
+					-0.000000782640654506395,
+					1802.0,
+					5409.3203125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000782640654506395,
+					1800.0,
+					5409.3203125
+				],
+				"presentation_time_s": 0.955555555555556,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 58,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 139,
+			"label": "机群跟随",
+			"presentation_time_s": 0.955555555555556,
+			"time_s": 0.966666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.75,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5434.34814453125
+				],
+				"focus_m": [
+					-0.000000818039325167774,
+					1802.0,
+					5408.662109375
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000818039325167774,
+					1800.0,
+					5408.662109375
+				],
+				"presentation_time_s": 0.9625,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 58,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 140,
+			"label": "机群跟随",
+			"presentation_time_s": 0.9625,
+			"time_s": 0.966666666666667
+		},
+		{
+			"anchor": {
+				"alpha": 0.166666666666666,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5433.68994140625
+				],
+				"focus_m": [
+					-0.000000854476127187809,
+					1802.0,
+					5408.00390625
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000854476127187809,
+					1800.0,
+					5408.00390625
+				],
+				"presentation_time_s": 0.969444444444444,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 59,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 141,
+			"label": "机群跟随",
+			"presentation_time_s": 0.969444444444444,
+			"time_s": 0.983333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.583333333333333,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5433.03173828125
+				],
+				"focus_m": [
+					-0.00000089246992729386,
+					1802.0,
+					5407.345703125
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.00000089246992729386,
+					1800.0,
+					5407.345703125
+				],
+				"presentation_time_s": 0.976388888888889,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 59,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 142,
+			"label": "机群跟随",
+			"presentation_time_s": 0.976388888888889,
+			"time_s": 0.983333333333333
+		},
+		{
+			"anchor": {
+				"alpha": 0.0,
+				"camera_m": [
+					32.3681907653809,
+					1809.51928710938,
+					5432.37353515625
+				],
+				"focus_m": [
+					-0.000000930463784243329,
+					1802.0,
+					5406.6875
+				],
+				"generation": 2,
+				"id": "bomber",
+				"model_m": [
+					-0.000000930463784243329,
+					1800.0,
+					5406.6875
+				],
+				"presentation_time_s": 0.983333333333333,
+				"screen_px": [
+					639.999938964844,
+					397.561096191406
+				],
+				"tick": 60,
+				"viewport_px": [
+					1280.0,
+					720.0
+				]
+			},
+			"effects": {
+				"active": 0,
+				"active_by_kind": {},
+				"allocated": 0,
+				"dropped": 0,
+				"engine_sources": 4,
+				"evicted_by_kind": {},
+				"last_sequence": 15,
+				"materials": 0,
+				"observer": {},
+				"peak_visible": 0,
+				"preempted": 0,
+				"rejected_by_kind": {},
+				"render_instances": 0,
+				"requested_by_kind": {},
+				"shown_events": 15,
+				"sound_sources": 0,
+				"visible_instances": 0
+			},
+			"events": [],
+			"frame": 143,
+			"label": "机群跟随",
+			"presentation_time_s": 0.983333333333333,
+			"time_s": 1.0
+		}
+	],
+	"simulation_step_s": 0.00694444444444444
+}

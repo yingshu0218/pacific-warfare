@@ -1,0 +1,101 @@
+{
+  "id": "us_b25j_1944_07",
+  "display_name": "B-25J early glass nose 1944-07",
+  "domain": "aircraft",
+  "country_id": "us",
+  "configuration_date": "1944-07",
+  "service_entry_year": 1944,
+  "model_scene": "res://scenes/units/aircraft/us_b25j_1944_07.tscn",
+  "dimensions_m": [
+    20.5994,
+    5.0,
+    17.47
+  ],
+  "mounts": [
+    {
+      "id": "dorsal",
+      "host_id": "fuselage",
+      "weapon_definition_id": "us_b25j_dorsal_twin",
+      "role": "dedicated_aa",
+      "position_m": [
+        0,
+        1.42,
+        -2.76
+      ],
+      "base_yaw_deg": 0,
+      "elevation_pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.11,
+          0,
+          -1.18
+        ],
+        [
+          0.11,
+          0,
+          -1.18
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/b25j/b25j.gd",
+          "aircraft/b25j/data/interfaces.json",
+          "docs/showcase/acceptance/AV04-review.md"
+        ],
+        "note": "Dorsal visual axes and existing model clearance limits. Ammunition supply and actuator timing are game values."
+      }
+    }
+  ],
+  "weapon_definitions": [
+    {
+      "id": "us_b25j_dorsal_twin",
+      "ammo_id": "us_127mm_m2_ball",
+      "barrel_count": 2,
+      "cycle_s": 0.24,
+      "initial_rounds_per_barrel": 36,
+      "train_limits_deg": [
+        -180,
+        180
+      ],
+      "elevation_limits_deg": [
+        10,
+        80
+      ],
+      "train_rate_degps": 110,
+      "elevation_rate_degps": 65,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/b25j/b25j.gd",
+          "aircraft/b25j/data/interfaces.json",
+          "docs/showcase/acceptance/AV04-review.md"
+        ],
+        "note": "Dorsal visual axes and existing model clearance limits. Ammunition supply and actuator timing are game values."
+      }
+    }
+  ],
+  "historical_fixed_armament": [],
+  "dedicated_aa_historical": [
+    {
+      "description": "B-25J dorsal twin station represented by this mount",
+      "mount_count": 1,
+      "barrels_per_mount": 2
+    }
+  ],
+  "dedicated_aa_game": [
+    {
+      "weapon_definition_id": "us_b25j_dorsal_twin",
+      "mount_count": 1,
+      "barrels_per_mount": 2
+    }
+  ],
+  "source": {
+    "status": "provisional",
+    "notes": "BOMB01: primary ordnance basis and separately marked operating approximations; docs/references/bomb01/sources.md"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "id": "us_f6f5_1944",
+  "display_name": "Grumman F6F-5 Hellcat",
+  "country_id": "us",
+  "domain": "aircraft",
+  "service_entry_year": 1944,
+  "configuration_date": "1944–1945 subtype; no individual airframe fixed",
+  "dimensions_m": [
+    13.056,
+    3.99,
+    10.236
+  ],
+  "model_scene": "res://scenes/units/aircraft/f6f5_flight.tscn",
+  "weapon_definitions": [],
+  "mounts": [
+    {
+      "id": "wing_port_01",
+      "host_id": "port_wing",
+      "weapon_definition_id": "us_an_m2_127mm_single",
+      "role": "aircraft_fixed",
+      "position_m": [
+        -2.35,
+        -0.1549999999999998,
+        -1.9343181818181818
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/models/f6f5.gd::_add_hellcat_guns",
+          "docs/aircraft-contracts.md"
+        ],
+        "note": "Flight origin: raw minus (0,2.30,0); muzzle at wing leading edge minus 0.18m. Lateral/vertical stations are photo-based approximations. Evidence scope: model_verified_coordinates_historical_station_estimate"
+      }
+    },
+    {
+      "id": "wing_port_02",
+      "host_id": "port_wing",
+      "weapon_definition_id": "us_an_m2_127mm_single",
+      "role": "aircraft_fixed",
+      "position_m": [
+        -2.73,
+        -0.1549999999999998,
+        -1.8968939393939392
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/models/f6f5.gd::_add_hellcat_guns",
+          "docs/aircraft-contracts.md"
+        ],
+        "note": "Flight origin: raw minus (0,2.30,0); muzzle at wing leading edge minus 0.18m. Lateral/vertical stations are photo-based approximations. Evidence scope: model_verified_coordinates_historical_station_estimate"
+      }
+    },
+    {
+      "id": "wing_port_03",
+      "host_id": "port_wing",
+      "weapon_definition_id": "us_an_m2_127mm_single",
+      "role": "aircraft_fixed",
+      "position_m": [
+        -3.1100000000000003,
+        -0.1549999999999998,
+        -1.859861111111111
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/models/f6f5.gd::_add_hellcat_guns",
+          "docs/aircraft-contracts.md"
+        ],
+        "note": "Flight origin: raw minus (0,2.30,0); muzzle at wing leading edge minus 0.18m. Lateral/vertical stations are photo-based approximations. Evidence scope: model_verified_coordinates_historical_station_estimate"
+      }
+    },
+    {
+      "id": "wing_starboard_01",
+      "host_id": "starboard_wing",
+      "weapon_definition_id": "us_an_m2_127mm_single",
+      "role": "aircraft_fixed",
+      "position_m": [
+        2.35,
+        -0.1549999999999998,
+        -1.9343181818181818
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/models/f6f5.gd::_add_hellcat_guns",
+          "docs/aircraft-contracts.md"
+        ],
+        "note": "Flight origin: raw minus (0,2.30,0); muzzle at wing leading edge minus 0.18m. Lateral/vertical stations are photo-based approximations. Evidence scope: model_verified_coordinates_historical_station_estimate"
+      }
+    },
+    {
+      "id": "wing_starboard_02",
+      "host_id": "starboard_wing",
+      "weapon_definition_id": "us_an_m2_127mm_single",
+      "role": "aircraft_fixed",
+      "position_m": [
+        2.73,
+        -0.1549999999999998,
+        -1.8968939393939392
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/models/f6f5.gd::_add_hellcat_guns",
+          "docs/aircraft-contracts.md"
+        ],
+        "note": "Flight origin: raw minus (0,2.30,0); muzzle at wing leading edge minus 0.18m. Lateral/vertical stations are photo-based approximations. Evidence scope: model_verified_coordinates_historical_station_estimate"
+      }
+    },
+    {
+      "id": "wing_starboard_03",
+      "host_id": "starboard_wing",
+      "weapon_definition_id": "us_an_m2_127mm_single",
+      "role": "aircraft_fixed",
+      "position_m": [
+        3.1100000000000003,
+        -0.1549999999999998,
+        -1.859861111111111
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/models/f6f5.gd::_add_hellcat_guns",
+          "docs/aircraft-contracts.md"
+        ],
+        "note": "Flight origin: raw minus (0,2.30,0); muzzle at wing leading edge minus 0.18m. Lateral/vertical stations are photo-based approximations. Evidence scope: model_verified_coordinates_historical_station_estimate"
+      }
+    }
+  ],
+  "historical_fixed_armament": [
+    {
+      "weapon_definition_id": "us_an_m2_127mm_single",
+      "mount_count": 6,
+      "barrels_per_mount": 1
+    }
+  ],
+  "dedicated_aa_historical": [],
+  "dedicated_aa_game": [],
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "aircraft/docs/REFERENCES.md",
+      "docs/references/aircraft/f6f5_1944/modeling-brief.md"
+    ],
+    "note": "Six .50 variant, no rockets or external tank. Dimensions are historical; local station coordinates are geometry approximations. Flight reference not a surveyed CG. Evidence scope: S04_dimensions_and_six_gun_subtype_checked"
+  }
+}

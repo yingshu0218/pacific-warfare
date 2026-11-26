@@ -1,0 +1,200 @@
+{
+  "schema": 1,
+  "task_id": "S10",
+  "reviewed_date": "2026-11-10",
+  "target": {
+    "gun": "5-inch/51 Gun Mk8 Mod0",
+    "mount": "5-inch Mount Mk13 Mod4, single open pedestal type",
+    "ammunition": "50lb Common Mk15 Mod14, bag propelling charge",
+    "configuration_date": "1945-01-15",
+    "date_basis": "OP1112 sheet correctness date, not 1941 Wake configuration and not first service date",
+    "historical_scope": "Original shore emplacement using a mounting family associated with USMC defense battalions; no claim to identify an individual Wake gun",
+    "identity_status": "primary_mount_component_compatibility_confirmed; original_scenario_selection",
+    "geometry_status": "side/front photos and primary plan/profile/data sheet viewed; model_not_started",
+    "gun_mark_photo_limit": "Mk8 Mod0 is selected from primary compatible components, not read from an obscured historical photograph",
+    "service_year_status": "Exact first-service year of selected gun mark/mount combination not independently established; family chronology and configuration date remain separate",
+    "prohibited_inference": "Do not date 1944 M1/M2A1 AA to 1941 Wake or claim a standard 1945 USMC 5-inch reequipment"
+  },
+  "selected_images": [
+    {
+      "id": "CO-01",
+      "publication": "A Magnificent Fight: Marines in the Battle for Wake Island",
+      "author": "Robert J. Cressman; US Marine Corps History and Museums Division",
+      "printed_page": "10 sidebar, The Defense Battalion's 5-Inch Guns",
+      "photo_date": "1940-10-21",
+      "caption_identity": "Battery A, 1st Defense Battalion, Marine Corps Base San Diego; Private Edward F. Eaton beside the 5-inch/51 seacoast gun",
+      "primary_publication_url": "https://www.marines.mil/Portals/1/Publications/A%20Magnificent%20Fight_Marines%20in%20the%20battle%20for%20Wake%20Island%20%20PCN%2019000311900_2.pdf",
+      "accessible_transcription_url": "https://www.gutenberg.org/files/48810/48810-h/48810-h.htm",
+      "caption_mirror_url": "https://www.npshistory.com/publications/wapa/npswapa/extContent/usmc/pcn-190-003119-00/sec2.htm",
+      "original_url": "https://www.gutenberg.org/files/48810/48810-h/images/i_b_010.jpg",
+      "local_file": "images/usmc_battery_a_1940.jpg",
+      "pixels": [
+        524,
+        251
+      ],
+      "view": "whole barrel, near side, gun horizontal, carriage partly obscured by person and shadow",
+      "can_reference": [
+        "long barrel and breech ratio",
+        "open mounting",
+        "side handwheel",
+        "human scale comparison"
+      ],
+      "cannot_reference": [
+        "exact gun Mark/Mod",
+        "exact mounting Mark/Mod",
+        "complete pedestal contact",
+        "paint",
+        "dimensioned orthographic geometry"
+      ],
+      "inspection": "viewed_original_local_file",
+      "role": "main_family_and_side_silhouette",
+      "rights": "USMC government publication photograph reproduced in public-domain Project Gutenberg edition. Original archive photo number not printed beside this image; not invented. Research copy only."
+    },
+    {
+      "id": "CO-02",
+      "publication": "Condition Red: Marine Defense Battalions in World War II",
+      "author": "Major Charles D. Melson; US Marine Corps History and Museums Division",
+      "printed_page": "inside front cover / p.1 facing image",
+      "photo_date": "not specified in original caption",
+      "caption_identity": "Defense battalion Marines man a 5-inch seacoast gun at Guantanamo Bay, Cuba; Department of Defense photo (USMC)",
+      "primary_publication_url": "https://www.marines.mil/Portals/1/Publications/Condition%20Red%20Marine%20Defense%20Battalions%20in%20World%20War%20II%20%20PCN%2019000313300_1.pdf",
+      "accessible_transcription_url": "https://www.ibiblio.org/hyperwar/USMC/USMC-C-Defense/index.html",
+      "original_url": "https://www.ibiblio.org/hyperwar/USMC/USMC-C-Defense/img/USMC-C-Defense-C.jpg",
+      "local_file": "images/usmc_guantanamo.jpg",
+      "pixels": [
+        320,
+        821
+      ],
+      "view": "front/low quarter, elevated single gun, open mount, low pedestal and perforated platform",
+      "can_reference": [
+        "coastal ground installation relationship",
+        "single gun cradle",
+        "side seat and handwheel",
+        "low pedestal and perforated platform visible"
+      ],
+      "cannot_reference": [
+        "exact date or gun/mount Mark",
+        "whole right-hand outline due image edge",
+        "Wake foundation specification",
+        "exact installation dimensions"
+      ],
+      "inspection": "viewed_original_local_file",
+      "role": "coastal_front_auxiliary_with_unknown_subtype",
+      "rights": "Department of Defense / USMC government photograph; research copy from original official publication transcription. No individual archive number given in this caption."
+    },
+    {
+      "id": "CO-03",
+      "publication": "OP1112 Gun Mount and Turret Catalog, second revision",
+      "author": "US Navy Bureau of Ordnance",
+      "publication_date": "1945-03-07",
+      "sheet_date": "1945-01-15",
+      "printed_page": "162",
+      "caption_identity": "5-in. Mount Mark 13 Mod.4; 5-in.51-cal. single purpose, single mount, open pedestal type",
+      "original_url": "https://legacy.maritime.org/doc/guncat/img/cat-0162.jpg",
+      "local_file": "images/op1112_cat0162.jpg",
+      "view": "orthographic plan and profile, dimensions and component list",
+      "can_reference": [
+        "specific mount silhouette and open pedestal",
+        "compatible Mk7 Mod2 or Mk8 Mods0/1 gun",
+        "approximate muzzle and breech projections",
+        "base profile and trunnion height",
+        "15-inch recoil envelope"
+      ],
+      "cannot_reference": [
+        "unknown underground anchorage",
+        "all manufacturing assembly variations",
+        "identity of CO-01 individual gun"
+      ],
+      "inspection": "viewed_original_local_file",
+      "role": "primary_geometry_and_component_identity",
+      "rights": "Original United States government ordnance pamphlet scan, public domain in United States; research copy only",
+      "pixels": [
+        627,
+        930
+      ]
+    },
+    {
+      "id": "CO-04",
+      "publication": "OP1112 Gun Mount and Turret Catalog, second revision",
+      "author": "US Navy Bureau of Ordnance",
+      "publication_date": "1945-03-07",
+      "sheet_date": "1945-01-15",
+      "printed_page": "163",
+      "caption_identity": "5-in. Mount Mark13 Mod.4 data, manual drive, gun and ammunition, elevation remarks",
+      "original_url": "https://legacy.maritime.org/doc/guncat/img/cat-0163.jpg",
+      "local_file": "images/op1112_cat0163.jpg",
+      "view": "primary tabulated data sheet; not additional external angle",
+      "can_reference": [
+        "minus10 to plus20 elevation",
+        "installation-dependent training limit",
+        "manual gearing per handwheel turn",
+        "3150ft/s and 17100yd at20deg",
+        "Common Mk15 Mods12/14 projectile compatibility",
+        "15in recoil"
+      ],
+      "cannot_reference": [
+        "maximum crew traverse speed in degrees per second",
+        "historical shore foundation specifics",
+        "1941 individual configuration"
+      ],
+      "inspection": "viewed_original_local_file",
+      "role": "primary_operating_data",
+      "rights": "Original United States government ordnance pamphlet scan, public domain in United States; research copy only",
+      "pixels": [
+        635,
+        910
+      ]
+    }
+  ],
+  "primary_document_leads": [
+    {
+      "id": "CO-D01",
+      "title": "Gun Mount and Turret Catalog, OP1112, second revision, 7 March 1945",
+      "author": "US Navy Bureau of Ordnance",
+      "url": "https://legacy.maritime.org/doc/guncat/index.php",
+      "mirror_url": "https://www.eugeneleeslover.com/ENGINEERING/OP-1112.php",
+      "target_pages": "Mk13 Mod4 pp.162-163; compare Mk15 Mod0 pp.174-175",
+      "inspection": "index and original image sheets162/163 viewed; HTML text sheet URLs inaccessible",
+      "access_failures": [
+        "Maritime target sheets 504 or inaccessible",
+        "alternate 51,435,769-byte PDF exceeds web fetch limit; direct download returned 403"
+      ],
+      "allowed_use": "Primary sheets162/163 establish selected mounting geometry/component compatibility. Index itself remains only a locator.",
+      "resolved_image_urls": [
+        "https://legacy.maritime.org/doc/guncat/img/cat-0162.jpg",
+        "https://legacy.maritime.org/doc/guncat/img/cat-0163.jpg"
+      ]
+    },
+    {
+      "id": "CO-D02",
+      "title": "NARA RG74 Bureau of Ordnance Data finding aid",
+      "url": "https://www.maritime.org/doc/nara/ordnancedata.php",
+      "entries_read": [
+        "OD2327, 1940-04-12: training attachment for 5-inch Mount XIII and Mods4/6, USMC defense battalions",
+        "OD2333, 1940-11-22 and OD2335, 1941-04-17: training/elevation attachments for 5-inch Mount XV, USMC defense battalions"
+      ],
+      "inspection": "archival_catalog_entries_read; original_ODs_not_viewed",
+      "allowed_use": "establish candidate USMC mounting families, not exact photograph attribution or geometry"
+    }
+  ],
+  "estimates_and_gaps": [
+    "Selected Mk8Mod0/Mk13Mod4 combination is explicitly supported by OP1112, but is an original scenario selection rather than a proven photograph serial-number identity.",
+    "Ground anchorage depth, foundation internal construction and exact rear-side small parts remain unmeasured.",
+    "Base fore-aft width53in and trunnion height40.3in read from original plate; approximate dimensions retain approximate status.",
+    "6.477m is the51-caliber bore reference, not muzzle-to-trunnion distance.",
+    "Exact entry-into-service year, CommonMod14 filler/fuze and crew-operated firing cycle need further primary evidence or explicit provisional handling.",
+    "No AI target, Godot model, installation or engine/browser validation exists in this research phase."
+  ],
+  "variant_comparison": [
+    {
+      "id": "CO-X01",
+      "publication": "OP1112",
+      "printed_page": "166",
+      "caption_identity": "5-in. Mount Mark13 Mod.6",
+      "original_url": "https://legacy.maritime.org/doc/guncat/img/cat-0166.jpg",
+      "temporary_local_file": ".local/s10-research/op1112_cat0166_comparison.jpg",
+      "inspection": "viewed_original_local_file",
+      "allowed_use": "Variant boundary only; Mod6 also permits Mk15 Mod0 gun, unlike chosen Mod4 table. Do not silently merge compatibility lists."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+	"checks": 41,
+	"failures": 0,
+	"models": [
+		{
+			"cap": 3,
+			"definition_id": "us_f6f5_1944",
+			"fragment_mesh_nodes": 13,
+			"healthy_mesh_nodes": 53,
+			"instance_isolation": true
+		},
+		{
+			"cap": 3,
+			"definition_id": "jp_a6m5a_1944",
+			"fragment_mesh_nodes": 10,
+			"healthy_mesh_nodes": 52,
+			"instance_isolation": true
+		}
+	]
+}

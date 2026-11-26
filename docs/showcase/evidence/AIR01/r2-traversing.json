@@ -1,0 +1,127 @@
+{
+  "scope": "r2 90s, diagnosis before AIR01 flight and trigger changes",
+  "firing_windows": {
+    "jp_air_3>us_air_3 / 3115": {
+      "s": 51.4666666666667,
+      "states": {
+        "traversing": 112
+      },
+      "ticks": 28
+    },
+    "us_air_3>jp_air_3 / 3022": {
+      "s": 49.9166666666667,
+      "states": {
+        "traversing": 168
+      },
+      "ticks": 28
+    },
+    "us_air_3>jp_air_3 / 3088": {
+      "s": 51.0166666666667,
+      "states": {
+        "traversing": 168
+      },
+      "ticks": 28
+    },
+    "us_air_3>jp_air_3 / 3154": {
+      "s": 52.1166666666667,
+      "states": {
+        "traversing": 54
+      },
+      "ticks": 9
+    },
+    "us_air_3>jp_air_3 / 471": {
+      "s": 7.4,
+      "states": {
+        "traversing": 168
+      },
+      "ticks": 28
+    },
+    "us_air_3>jp_air_3 / 537": {
+      "s": 8.5,
+      "states": {
+        "traversing": 168
+      },
+      "ticks": 28
+    },
+    "us_air_4>jp_air_3 / 551": {
+      "s": 8.73333333333333,
+      "states": {
+        "traversing": 168
+      },
+      "ticks": 28
+    },
+    "us_air_4>jp_air_3 / 617": {
+      "s": 9.83333333333333,
+      "states": {
+        "traversing": 168
+      },
+      "ticks": 28
+    }
+  },
+  "closest_centerline_solutions": {
+    "jp_air_3>us_air_3": {
+      "d": 200.714050292969,
+      "intent": false,
+      "maneuver": "track",
+      "phase": "aim",
+      "rad": 0.0801883190870285,
+      "s": 52.0833333333333
+    },
+    "jp_air_3>us_air_4": {
+      "d": 541.748168945312,
+      "intent": false,
+      "maneuver": "low_yoyo",
+      "phase": "aim",
+      "rad": 0.183459654450417,
+      "s": 48.0166666666667
+    },
+    "jp_air_4>us_air_3": {
+      "d": 306.633483886719,
+      "intent": false,
+      "maneuver": "track",
+      "phase": "aim",
+      "rad": 0.511777222156525,
+      "s": 53.35
+    },
+    "jp_air_4>us_air_4": {
+      "d": 592.518615722656,
+      "intent": false,
+      "maneuver": "track",
+      "phase": "aim",
+      "rad": 0.592231035232544,
+      "s": 10.65
+    },
+    "us_air_3>jp_air_3": {
+      "d": 308.468872070312,
+      "intent": false,
+      "maneuver": "track",
+      "phase": "aim",
+      "rad": 0.0472123697400093,
+      "s": 51.5
+    },
+    "us_air_3>jp_air_4": {
+      "d": 777.695251464844,
+      "intent": false,
+      "maneuver": "dive_attack",
+      "phase": "aim",
+      "rad": 0.120132125914097,
+      "s": 79.5
+    },
+    "us_air_4>jp_air_3": {
+      "d": 797.994018554688,
+      "intent": false,
+      "maneuver": "track",
+      "phase": "aim",
+      "rad": 0.0234802160412073,
+      "s": 8.51666666666667
+    },
+    "us_air_4>jp_air_4": {
+      "d": 517.145324707031,
+      "intent": false,
+      "maneuver": "track",
+      "phase": "aim",
+      "rad": 0.204879969358444,
+      "s": 82.9833333333333
+    }
+  }
+}

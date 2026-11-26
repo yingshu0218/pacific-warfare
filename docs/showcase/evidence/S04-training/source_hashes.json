@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-11-10T20:01:18.659971+00:00",
+  "status": "S04-training implementation self-verified; ready for root acceptance and S14 integration",
+  "production": {
+    "scripts/behaviors/aircraft/aircraft_tasks.gd": "e0e8ebf6f6fe25653072fb766105dea56a4f61eb926ff17f22e263889595e0ff",
+    "scripts/behaviors/aircraft/aircraft_training.gd": "5183348ca5005a0adc3f5c5df7f44ba0d5d4bfb3dbd26c22a778625091c3271b",
+    "scripts/simulation/simulation_world.gd": "3e0555e71411ae2da033427e78a521597a17941c29243410af4500d817fa6e04",
+    "scripts/simulation/state/battle_order.gd": "bdcbba5681e0bb9d7116844dfa5974df421a1f2fab39ec7b1f4af51308cfb795"
+  },
+  "harness": {
+    "scripts/behaviors/aircraft/aircraft_tasks.gd.uid": "d26cd2fd783577c3c66fcbf50c5d0857dba27bf30c6d383333c836ec90c98e20",
+    "scripts/behaviors/aircraft/aircraft_training.gd.uid": "de3a979aecbbc489b4b85135a2a031e640bc07693acb1b6463241089e14cb0fb",
+    "scripts/simulation/simulation_world.gd.uid": "790fc744fbda5141f480889ab5f7ca46f7415e09e8ea45dfd2f29c7ec4cb72df",
+    "scripts/simulation/state/battle_order.gd.uid": "781fe7434c810450f009684ed254b3495f51f1e4a0e9ec9b677f5ae2c324c7b0",
+    "tests/aircraft_training_capture.gd": "6e426cc40a7176f242a30317aa5636367e3444ff355fe2fd3beca0b0adb28198",
+    "tests/aircraft_training_capture.gd.uid": "0a9514f346e5d971b2908549a634ad3b8e7ae4f18c859d59d452af71d109353e",
+    "tests/fixtures/aircraft_training_fixture.gd": "6cef9afe3d24ff454b098139befd41373e646538fc3f6925578aff16b8279fab",
+    "tests/fixtures/aircraft_training_fixture.gd.uid": "c4dc3aee380e281be14fdb4e3c4a1e0a6801400d1617d424ce91d626ec3c30b9",
+    "tests/test_aircraft_training.gd": "2ccb5d647e9be8126c294ad1262c34f53dee032e42135092c9c2c4fe5c1e3b96",
+    "tests/test_aircraft_training.gd.uid": "7586d585488dc9895b7af3605147eb9d424a68986bce9defd1220135232c5893",
+    "tests/test_aircraft_training_safety.gd": "d266dfbf73c4ba4e0992f72cb741596e5141a9a4d6f6926f57f73ee75a05202e",
+    "tests/test_aircraft_training_safety.gd.uid": "d2a62af78167ef0587ec60aa362d6e53582952a604c23d31c6f7dc05f7defea0",
+    "tools/s04_training/audit_delivery.py": "d49f9f49ddf5888223d86bdfa8ff7f3d28233af5fb23d138a8bc1bb0a7326ad9",
+    "tools/s04_training/encode_native.py": "4d501625124f1a3263a20c5db8153c95822aa254b625aa19ca99daf8624a810a",
+    "tools/s04_training/prepare_native.py": "7b3a7da0767e4717c581195a13eb22b282429c2174f0cf0ed40aedaffd724251"
+  },
+  "contracts": {
+    "docs/aircraft-training-contracts.md": "1873ac646b78546c71ef0cab9a0ade01654b6ebb81fa7a5bb30dcc0a97d97f77",
+    "docs/showcase/S04-training-integration-handoff.md": "b1a5d90c7d78bc04c7dc9c176c50a4e33ecebdc682c9489619e7ea6129bacdce",
+    "docs/showcase/deliveries/S04-training.md": "6031392a2a56716075230d08562176dcb32f988508d0c0f7318d81e36f7ae267"
+  },
+  "retained_dependencies": {
+    "data/aircraft/performance.json": "58b024812d96856901a90c4a06c941f34349e45adea50e8f7feb36b75aed89cb",
+    "docs/aircraft-contracts.md": "5966b44f92b952d00a9bcc8b7a18ffe085acdefea12e8a56fb55f7963a439051",
+    "scripts/showcase/sb2c_showcase_tasks.gd": "7834b17cab1c6c10d488b8895fdec5a712c683c33e22a54a9472549ce616f226",
+    "scripts/simulation/aircraft_motion/aircraft_motion.gd": "92f6cbe23a808ba28e124b2deff9b301e785168fcb7dbc83aaafe9fe08af8c2a",
+    "tests/fixtures/aircraft_damage_fixture.gd": "7236071605d4905fdbc818112b4ed1d7214e77b8b14275c8db33708d2fa38f39",
+    "tests/fixtures/aircraft_fixture.gd": "8a3111337a2d89bd868c2632da34e3528bf81faabdc8342c4cd98e606bf196cc",
+    "tests/fixtures/combat_fixture.gd": "a4dff8ef1f0f9520b2f3df4a5107d04a7a84df9cebc9e0da236853fdd408d7e0",
+    "tests/test_aircraft_tasks.gd": "72d838e0ff5ec2a6fedf9d519072d35baff452422d5ffac5f869791e1fc84526",
+    "tests/test_aircraft_terrain_safety.gd": "56d4e554551d0dcab192b713d7951351bd72b36b42ca36e987e7a32b85d776c5",
+    "tests/test_f6f_coordinated_flight.gd": "4257fbbb98bf7f308f37dad4d61798943bf2b57a0862fb51c0916e2df1a8ed2e",
+    "tests/test_simulation_commands.gd": "468b8ea50b9ec3c0eb2bbfeb62f52c011c2a9b97a1cbde8ed8646d74754c2b02",
+    "tools/verify.py": "599949a47abcff74f45f1909b6e8571b2c2050539a28dd0bce6d43b8b8c28f7d"
+  },
+  "frozen_runtime_manifest": "frozen-input.json",
+  "frozen_runtime_manifest_sha256": "528dba145fab76d55ebf4b39409b6b6ae6d934b15896ad40169522f956f5d019",
+  "prechange_backup": ".local/s04-training-before/manifest.json",
+  "prechange_manifest_sha256": "eb2259dcc249e61de76fd2026707a8a5fa90e1793edefaf8cfa640fedd2fc862",
+  "notes": "Four production files implement an explicit BattleOrder branch. No new Session registration, no AircraftMotion/performance/SB2C/DM01 production change. Native 450-file snapshot is frozen; final test, safety and related health/command regressions passed. Training Chrome belongs to S14/S08."
+}

@@ -1,0 +1,30 @@
+{
+  "task": "CMD01",
+  "status": "runtime source frozen; final Web export and Chrome acceptance owned by coordinator",
+  "frozen_utc": "2026-11-19T07:04:05.471088+00:00",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "runtime_source_set_sha256": "00693c0942a84f0dd1c57ddb3a4937f420c216b6063d71255438a4a6d45d429c",
+  "runtime_source_set_serialization": "sorted paths, one sha256sum-format record (hash, two spaces, relative path, LF) per file",
+  "runtime_sources": {
+    "data/expansion/fleet_profiles.json": "f67060aab400d14d94493f16dc3fa9970ec591e16b369ff6882b7ef501a269b4",
+    "scripts/behaviors/fleet_formations/fleet_tasks.gd": "f4ecf3ff5c0561f68b21eeb418aed00f2c61e180f5d837e2a97d08742f9f22c5",
+    "scripts/command/commander/fleet_commander.gd": "7898b821a158179fcc150d1924961133a701acb9c9cd50cd847b4c74d6b0fc16",
+    "scripts/command/commander/fleet_planner.gd": "258ce0437ac649cbd0fa786d994dd81bc1e7fc72ab4d157732c8ea9f4d145552",
+    "scripts/command/contacts/combat_contacts.gd": "98e054664a4837efc8e0fa26eacd3290b032eac778bd38aa9de2451dae7a61ee",
+    "scripts/simulation/ship_motion/fleet_config.gd": "019dff2b527f2e31a596777674d0d9e0c833e74bd68ad0de892621c76cacf309"
+  },
+  "baseline_runtime_sources": {
+    "data/expansion/fleet_profiles.json": "50f0195a0ee0ff69555e93d52ce6f222da973cb07568e59f942058f03c1c49ac",
+    "scripts/behaviors/fleet_formations/fleet_tasks.gd": "f1b8ed5e0cec76d71ed67c90d014b133cc9ecd5c30923719b0c4c4c5fb9ac0e1",
+    "scripts/command/commander/fleet_commander.gd": "7898b821a158179fcc150d1924961133a701acb9c9cd50cd847b4c74d6b0fc16",
+    "scripts/command/commander/fleet_planner.gd": "390aac4b77a6617b7ca30fea3dff8180370b174414669ee7869082d2637ce5c3",
+    "scripts/command/contacts/combat_contacts.gd": "9eaeb6402a7d1e78a75003467158398da01e4bf13bfe3c1e8bd4186b9bea4d5d",
+    "scripts/simulation/ship_motion/fleet_config.gd": "b7065610682e2bf9e099da127371b66f18b6340564d1e5e8cc0008dd467945d5"
+  },
+  "test_sources": {
+    "tests/test_cmd01.gd": "d702dd9cbeb0a114c4b0b506193abf8d67260b2493e1a3c9aad152c1010ba164",
+    "tests/test_commander.gd": "c841c27bcbe8d23678b728055429a799f7b06f60b1f56f6ed57ede12e9f2119a"
+  },
+  "protected_weapon_and_ballistics_files_compared": 35,
+  "protected_weapon_and_ballistics_files_changed": []
+}

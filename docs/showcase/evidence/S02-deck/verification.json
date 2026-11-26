@@ -1,0 +1,148 @@
+{
+  "runs": [
+    {
+      "run_id": "20261110T162516-9eb94994",
+      "owner": "S02-deck-before",
+      "passed": true,
+      "error": null,
+      "cleanup_ok": true,
+      "report": "verification/20261110T162516-9eb94994/report.json"
+    },
+    {
+      "run_id": "20261110T163010-c14e0912",
+      "owner": "S02-deck-contacts",
+      "passed": false,
+      "error": "lock_timeout",
+      "cleanup_ok": true,
+      "report": "verification/20261110T163010-c14e0912/report.json"
+    },
+    {
+      "run_id": "20261110T163054-ed8da492",
+      "owner": "S02-deck-contacts",
+      "passed": true,
+      "error": null,
+      "cleanup_ok": true,
+      "report": "verification/20261110T163054-ed8da492/report.json"
+    },
+    {
+      "run_id": "20261110T163126-e2734a83",
+      "owner": "S02-deck-checks",
+      "passed": false,
+      "error": null,
+      "cleanup_ok": true,
+      "report": "verification/20261110T163126-e2734a83/report.json"
+    },
+    {
+      "run_id": "20261110T163229-49a03917",
+      "owner": "S02-deck-contact-diagnostic",
+      "passed": false,
+      "error": null,
+      "cleanup_ok": true,
+      "report": "verification/20261110T163229-49a03917/report.json"
+    },
+    {
+      "run_id": "20261110T163334-31ccc495",
+      "owner": "S02-deck-checks",
+      "passed": false,
+      "error": "lock_timeout",
+      "cleanup_ok": true,
+      "report": "verification/20261110T163334-31ccc495/report.json"
+    },
+    {
+      "run_id": "20261110T163542-29dedda9",
+      "owner": "S02-deck-checks",
+      "passed": true,
+      "error": null,
+      "cleanup_ok": true,
+      "report": "verification/20261110T163542-29dedda9/report.json"
+    },
+    {
+      "run_id": "20261110T163737-69936dc4",
+      "owner": "S02-deck-after",
+      "passed": true,
+      "error": null,
+      "cleanup_ok": true,
+      "report": "verification/20261110T163737-69936dc4/report.json"
+    },
+    {
+      "run_id": "20261110T163836-fd099149",
+      "owner": "S02-deck-web-build",
+      "passed": false,
+      "error": null,
+      "cleanup_ok": true,
+      "report": "verification/20261110T163836-fd099149/report.json"
+    },
+    {
+      "run_id": "20261110T164015-3cfc261b",
+      "owner": "S02-deck-web-build",
+      "passed": true,
+      "error": null,
+      "cleanup_ok": true,
+      "report": "verification/20261110T164015-3cfc261b/report.json"
+    },
+    {
+      "run_id": "20261110T164019-aef1f754",
+      "owner": "S02-deck-web-build",
+      "passed": true,
+      "error": null,
+      "cleanup_ok": true,
+      "report": "verification/20261110T164019-aef1f754/report.json"
+    },
+    {
+      "run_id": "20261110T164241-c4f61557",
+      "owner": "S02-deck-chrome",
+      "passed": false,
+      "error": null,
+      "cleanup_ok": true,
+      "report": "verification/20261110T164241-c4f61557/report.json"
+    },
+    {
+      "run_id": "20261110T164439-329a69d8",
+      "owner": "S02-deck-chrome",
+      "passed": true,
+      "error": null,
+      "cleanup_ok": true,
+      "report": "verification/20261110T164439-329a69d8/report.json"
+    }
+  ],
+  "matching_cameras": true,
+  "matching_all_39_sockets": true,
+  "persisted_unit_definition_byte_unchanged": true,
+  "frozen_runtime_inputs_match_workspace": true,
+  "mesh_instances_before_after": [
+    216,
+    216
+  ],
+  "raw_triangles_before_after": [
+    127254,
+    131676
+  ],
+  "chrome_cleanup": {
+    "chromeClosed": true,
+    "serverClosed": true,
+    "privateProfileRemoved": true
+  },
+  "chrome_cadence": {
+    "durationMs": 6006.600000047683,
+    "frames": 717,
+    "meanMs": 8.369874476987448,
+    "p50Ms": 8.300000000001091,
+    "p95Ms": 10.100000000000364,
+    "estimatedFps": 119.47610477904419,
+    "state": {
+      "command_id": 7,
+      "draw_calls": 580,
+      "frames": 1130,
+      "index": 0,
+      "model_id": "jp_yamato_1944_04",
+      "primitives": 369864,
+      "sockets": 39,
+      "view": "port_side",
+      "viewport": [
+        1600,
+        1000
+      ]
+    }
+  },
+  "scope": "Local Yamato model/native geometry + one Chrome inspection. S10/shared world changes excluded from the 32-file pack."
+}

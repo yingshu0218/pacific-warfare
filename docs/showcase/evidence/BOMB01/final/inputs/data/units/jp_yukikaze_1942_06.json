@@ -1,0 +1,354 @@
+{
+  "id": "jp_yukikaze_1942_06",
+  "display_name": "IJN Yukikaze 雪風 · 1942-06-04",
+  "country_id": "jp",
+  "domain": "ship",
+  "service_entry_year": 1940,
+  "configuration_date": "1942-06-04",
+  "dimensions_m": [
+    10.8,
+    26.356,
+    118.5
+  ],
+  "model_scene": "res://scenes/ships/yukikaze/yukikaze.tscn",
+  "weapon_definitions": [
+    {
+      "id": "s03_jp_127mm_type3_c_twin",
+      "ammo_id": "s03_jp_127mm_type1_common",
+      "barrel_count": 2,
+      "cycle_s": 6.0,
+      "initial_rounds_per_barrel": 150,
+      "train_limits_deg": [
+        -140,
+        140
+      ],
+      "elevation_limits_deg": [
+        -7,
+        55
+      ],
+      "train_rate_degps": 6.0,
+      "elevation_rate_degps": 6.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "docs/references/ships/yukikaze_1942_06/modeling-brief.md"
+        ],
+        "note": "Historical gun/mount identity; basic limits and exterior geometry checked. Cycles, rates and inventory are explicit integration estimates pending S05 ammunition/fire-control calibration. Mechanical limits are not permission to fire through own ship."
+      }
+    },
+    {
+      "id": "s03_jp_type96_25mm_twin",
+      "ammo_id": "s03_jp_25mm_type96_he",
+      "barrel_count": 2,
+      "cycle_s": 0.24,
+      "initial_rounds_per_barrel": 1500,
+      "train_limits_deg": [
+        -90,
+        90
+      ],
+      "elevation_limits_deg": [
+        -5,
+        85
+      ],
+      "train_rate_degps": 18.0,
+      "elevation_rate_degps": 12.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "docs/references/ships/yukikaze_1942_06/modeling-brief.md"
+        ],
+        "note": "Historical gun/mount identity; basic limits and exterior geometry checked. Cycles, rates and inventory are explicit integration estimates pending S05 ammunition/fire-control calibration. Mechanical limits are not permission to fire through own ship."
+      }
+    }
+  ],
+  "mounts": [
+    {
+      "id": "main_a",
+      "host_id": "hull",
+      "weapon_definition_id": "s03_jp_127mm_type3_c_twin",
+      "role": "main",
+      "position_m": [
+        0,
+        5.376,
+        -40.9
+      ],
+      "base_yaw_deg": 0,
+      "elevation_pivot_m": [
+        0,
+        1.44,
+        -0.32
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.7,
+          0,
+          -5.06
+        ],
+        [
+          0.7,
+          0,
+          -5.06
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "reference_ids": [
+          "Y01",
+          "Y02",
+          "Y04",
+          "Y05",
+          "Y07",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "J01",
+          "J02",
+          "J03"
+        ],
+        "geometry_status": "photo_proportions_matched",
+        "note": "Named deck/roof and centreline/side relationship checked against original photographs. Coordinates reconstructed in metres, not surveyed shipyard offsets; see modeling-brief.md."
+      }
+    },
+    {
+      "id": "main_x",
+      "host_id": "aft_deckhouse",
+      "weapon_definition_id": "s03_jp_127mm_type3_c_twin",
+      "role": "main",
+      "position_m": [
+        0,
+        5.436,
+        27.55
+      ],
+      "base_yaw_deg": 180,
+      "elevation_pivot_m": [
+        0,
+        1.44,
+        -0.32
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.7,
+          0,
+          -5.06
+        ],
+        [
+          0.7,
+          0,
+          -5.06
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "reference_ids": [
+          "Y01",
+          "Y02",
+          "Y04",
+          "Y05",
+          "Y07",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "J01",
+          "J02",
+          "J03"
+        ],
+        "geometry_status": "photo_proportions_matched",
+        "note": "Named deck/roof and centreline/side relationship checked against original photographs. Coordinates reconstructed in metres, not surveyed shipyard offsets; see modeling-brief.md."
+      }
+    },
+    {
+      "id": "main_y",
+      "host_id": "hull",
+      "weapon_definition_id": "s03_jp_127mm_type3_c_twin",
+      "role": "main",
+      "position_m": [
+        0,
+        3.276,
+        35.75
+      ],
+      "base_yaw_deg": 180,
+      "elevation_pivot_m": [
+        0,
+        1.44,
+        -0.32
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.7,
+          0,
+          -5.06
+        ],
+        [
+          0.7,
+          0,
+          -5.06
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "reference_ids": [
+          "Y01",
+          "Y02",
+          "Y04",
+          "Y05",
+          "Y07",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "J01",
+          "J02",
+          "J03"
+        ],
+        "geometry_status": "photo_proportions_matched",
+        "note": "Named deck/roof and centreline/side relationship checked against original photographs. Coordinates reconstructed in metres, not surveyed shipyard offsets; see modeling-brief.md."
+      }
+    },
+    {
+      "id": "aa_25_port",
+      "host_id": "aa_platform_port",
+      "weapon_definition_id": "s03_jp_type96_25mm_twin",
+      "role": "dedicated_aa",
+      "position_m": [
+        -2.55,
+        5.516,
+        2.0
+      ],
+      "base_yaw_deg": 90,
+      "elevation_pivot_m": [
+        0,
+        1.12,
+        0
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.18,
+          0,
+          -1.85
+        ],
+        [
+          0.18,
+          0,
+          -1.85
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "reference_ids": [
+          "Y01",
+          "Y02",
+          "Y04",
+          "Y05",
+          "Y07",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "J01",
+          "J02",
+          "J03"
+        ],
+        "geometry_status": "photo_proportions_matched",
+        "note": "Named deck/roof and centreline/side relationship checked against original photographs. Coordinates reconstructed in metres, not surveyed shipyard offsets; see modeling-brief.md."
+      }
+    },
+    {
+      "id": "aa_25_starboard",
+      "host_id": "aa_platform_starboard",
+      "weapon_definition_id": "s03_jp_type96_25mm_twin",
+      "role": "dedicated_aa",
+      "position_m": [
+        2.55,
+        5.516,
+        2.0
+      ],
+      "base_yaw_deg": -90,
+      "elevation_pivot_m": [
+        0,
+        1.12,
+        0
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.18,
+          0,
+          -1.85
+        ],
+        [
+          0.18,
+          0,
+          -1.85
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "reference_ids": [
+          "Y01",
+          "Y02",
+          "Y04",
+          "Y05",
+          "Y07",
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05",
+          "J01",
+          "J02",
+          "J03"
+        ],
+        "geometry_status": "photo_proportions_matched",
+        "note": "Named deck/roof and centreline/side relationship checked against original photographs. Coordinates reconstructed in metres, not surveyed shipyard offsets; see modeling-brief.md."
+      }
+    }
+  ],
+  "historical_fixed_armament": [
+    {
+      "weapon_definition_id": "s03_jp_127mm_type3_c_twin",
+      "mount_count": 3,
+      "barrels_per_mount": 2
+    }
+  ],
+  "dedicated_aa_historical": [
+    {
+      "description": "25 mm Type96 twin, early configuration at aft funnel",
+      "mount_count": 2,
+      "barrels_per_mount": 2
+    }
+  ],
+  "dedicated_aa_game": [
+    {
+      "weapon_definition_id": "s03_jp_type96_25mm_twin",
+      "mount_count": 2,
+      "barrels_per_mount": 2
+    }
+  ],
+  "source": {
+    "status": "provisional",
+    "reference_ids": [
+      "Y01",
+      "Y02",
+      "Y04",
+      "Y05",
+      "Y07",
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "J01",
+      "J02",
+      "J03"
+    ],
+    "paths": [
+      "docs/references/ships/yukikaze_1942_06/modeling-brief.md"
+    ],
+    "note": "Two twin Type96 AA mounts retained, matching early baseline. All three twin TypeC main mounts are fixed historical armament. June 1942 configuration is reconstructed from same-ship 1939/1940 photographs and the documented 1943 refit chronology; no Type22/13 radar or post-removal X-turret platform is transplanted. dimensions_m is [beam, keel-to-mast height, length overall]. Full outline is reconstructed from documented photographs; performance/fuel/damage parameters remain S05/S06 work. Torpedo equipment is visual only."
+  }
+}

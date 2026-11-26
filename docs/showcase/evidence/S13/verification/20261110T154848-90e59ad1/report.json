@@ -1,0 +1,13 @@
+{
+  "run_id": "20261110T154848-90e59ad1",
+  "owner": "S13-fixture-export",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s13-web-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 42113,
+  "checks": [],
+  "passed": false,
+  "error": "lock_timeout",
+  "lock_owner": "{\n  \"status\": \"held\",\n  \"owner\": \"AU01-audio-final-check\",\n  \"pid\": 42102,\n  \"process_identity\": \"pid=42102 started_utc=2026-11-10T15:48:46.989042+00:00 argv=['tools/verify.py', '--owner', 'AU01-audio-final-check', '--timeout', '180', '--lock-timeout', '10', 'exec', '--', 'python3', 'tools/audio/check_au01.py', '--compare-manifest', '.local/audio/au01-rebuild/docs/au01-asset-manifest.json'] (ps unavailable)\",\n  \"token\": \"15e7ba6a0f3d4a749591c8f3e1d27286\",\n  \"acquired_utc\": \"2026-11-10T15:48:46.999897+00:00\",\n  \"project\": \"/Users/infinity/Desktop/Dev/game-pacific\"\n}",
+  "exit_code": 2
+}

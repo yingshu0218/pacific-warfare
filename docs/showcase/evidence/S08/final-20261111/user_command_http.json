@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python3",
+    "tools/run_first_playable.py",
+    "web",
+    "--build",
+    "--owner",
+    "S08-user-path-confirm",
+    "--seconds",
+    "20"
+  ],
+  "http": {
+    "url": "http://127.0.0.1:8765/index.html",
+    "html_sha256": "3a47a1ab7b62ce438481a0e0d4069c4025c461e070e81330e0c73df3576d9925",
+    "pck_sha256": "edcbad51ca5ae54126d5cf6565bdd5ff1c1de117a3de78601cb609e4e7f5a2bc",
+    "normal_shell": true,
+    "all_units_title": true
+  },
+  "exit_code": 0,
+  "stdout": "{\"passed\": true, \"exit_code\": 0, \"report\": \"/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214251-eca7cf65/report.json\"}\n{\"passed\": true, \"exit_code\": 0, \"report\": \"/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214255-aac10f94/report.json\"}\nShowcase Web: /Users/infinity/Desktop/Dev/game-pacific/build/first-playable\n{\"passed\": true, \"exit_code\": 0, \"report\": \"/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214259-48a9ba53/report.json\"}\n",
+  "stderr": ""
+}

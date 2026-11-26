@@ -1,0 +1,5189 @@
+{
+	"cases": [
+		{
+			"abort_reasons": [
+				"load_released",
+				"load_released"
+			],
+			"events": [
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "stabilize",
+						"reason": "attack_entry_reached"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000017",
+					"kind": "bombing_phase",
+					"position_m": [
+						-10.1952610015869,
+						1800.0,
+						2653.052734375
+					],
+					"sequence": 17,
+					"target_id": "",
+					"tick": 1824,
+					"time_s": 30.4,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "stabilize",
+						"reason": "attack_entry_reached"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000019",
+					"kind": "bombing_phase",
+					"position_m": [
+						229.088455200195,
+						1800.0,
+						2641.27734375
+					],
+					"sequence": 19,
+					"target_id": "",
+					"tick": 1883,
+					"time_s": 31.3833333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0104599511250854,
+							-0.00000000676063871551946,
+							-0.999945282936096
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000001",
+						"release_mode": "gravity_release",
+						"slot": 0,
+						"up_m": [
+							-0.00582708697766066,
+							0.999983012676239,
+							0.0000609476228419226
+						],
+						"velocity_mps": [
+							-0.976121842861176,
+							-0.000000630902263765165,
+							-93.3148193359375
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000020",
+					"kind": "bomb_released",
+					"position_m": [
+						-22.6879901885986,
+						1799.22790527344,
+						1024.88427734375
+					],
+					"sequence": 20,
+					"target_id": "",
+					"tick": 2869,
+					"time_s": 47.8166666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "salvo",
+						"reason": "finite_bomb_train"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000022",
+					"kind": "bombing_phase",
+					"position_m": [
+						-22.3193225860596,
+						1800.0,
+						1026.14050292969
+					],
+					"sequence": 22,
+					"target_id": "",
+					"tick": 2870,
+					"time_s": 47.8333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0104998536407948,
+							-0.0000000144230645204857,
+							-0.999944865703583
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000002",
+						"release_mode": "gravity_release",
+						"slot": 1,
+						"up_m": [
+							0.00632343627512455,
+							0.999980032444,
+							-0.0000664132385281846
+						],
+						"velocity_mps": [
+							-0.979950785636902,
+							-0.0000013461038861351,
+							-93.3248062133789
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000023",
+					"kind": "bomb_released",
+					"position_m": [
+						-22.2226219177246,
+						1799.22778320312,
+						1001.54681396484
+					],
+					"sequence": 23,
+					"target_id": "",
+					"tick": 2884,
+					"time_s": 48.0666666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.25,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.0104563385248184,
+							-0.0262836795300245,
+							-0.999599874019623
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000001",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000024",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-22.9318466186523,
+						1798.921875,
+						1001.57293701172
+					],
+					"sequence": 24,
+					"target_id": "",
+					"tick": 2885,
+					"time_s": 48.0833333333333,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.00990743283182383,
+							-0.000000899218264294177,
+							-0.99995094537735
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000003",
+						"release_mode": "gravity_release",
+						"slot": 2,
+						"up_m": [
+							0.0357228815555573,
+							0.9993616938591,
+							-0.000354838091880083
+						],
+						"velocity_mps": [
+							-0.924857258796692,
+							-0.0000839418789837509,
+							-93.3452606201172
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000025",
+					"kind": "bomb_released",
+					"position_m": [
+						-23.1871147155762,
+						1799.71301269531,
+						978.220458984375
+					],
+					"sequence": 25,
+					"target_id": "",
+					"tick": 2899,
+					"time_s": 48.3166666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.266666666666667,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.0104957288131118,
+							-0.0280330013483763,
+							-0.999551892280579
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000002",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000026",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-22.4837436676025,
+						1798.87963867188,
+						976.679931640625
+					],
+					"sequence": 26,
+					"target_id": "",
+					"tick": 2901,
+					"time_s": 48.35,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.00879693310707808,
+							-0.00000129540080706647,
+							-0.999961316585541
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000004",
+						"release_mode": "gravity_release",
+						"slot": 3,
+						"up_m": [
+							0.0448154658079147,
+							0.998995184898376,
+							-0.000395548035157844
+						],
+						"velocity_mps": [
+							-0.821451961994171,
+							-0.000120963690278586,
+							-93.3757476806641
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000027",
+					"kind": "bomb_released",
+					"position_m": [
+						-22.6877593994141,
+						1799.68420410156,
+						954.873596191406
+					],
+					"sequence": 27,
+					"target_id": "",
+					"tick": 2914,
+					"time_s": 48.5666666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.4,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.00989867467433214,
+							-0.042037695646286,
+							-0.999067008495331
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000003",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000028",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-23.5566310882568,
+						1798.92944335938,
+						940.927001953125
+					],
+					"sequence": 28,
+					"target_id": "",
+					"tick": 2924,
+					"time_s": 48.7333333333333,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0105495033785701,
+							-0.00000000625183860236689,
+							-0.99994432926178
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000005",
+						"release_mode": "gravity_release",
+						"slot": 0,
+						"up_m": [
+							-0.00582429580390453,
+							0.999983012676239,
+							0.0000614405944361351
+						],
+						"velocity_mps": [
+							-0.98447448015213,
+							-0.000000583418511723721,
+							-93.314323425293
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000029",
+					"kind": "bomb_released",
+					"position_m": [
+						216.386672973633,
+						1799.22790527344,
+						1013.11450195312
+					],
+					"sequence": 29,
+					"target_id": "",
+					"tick": 2928,
+					"time_s": 48.8,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "salvo",
+						"reason": "finite_bomb_train"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000031",
+					"kind": "bombing_phase",
+					"position_m": [
+						216.755447387695,
+						1800.0,
+						1014.37066650391
+					],
+					"sequence": 31,
+					"target_id": "",
+					"tick": 2929,
+					"time_s": 48.8166666666667,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.00762853724882007,
+							-0.00000105971230368596,
+							-0.99997091293335
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000006",
+						"release_mode": "gravity_release",
+						"slot": 4,
+						"up_m": [
+							0.0434184968471527,
+							0.999056935310364,
+							-0.000332287978380919
+						],
+						"velocity_mps": [
+							-0.712645471096039,
+							-0.0000989965847111307,
+							-93.4156494140625
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000032",
+					"kind": "bomb_released",
+					"position_m": [
+						-23.5764179229736,
+						1800.18542480469,
+						931.530395507812
+					],
+					"sequence": 32,
+					"target_id": "",
+					"tick": 2929,
+					"time_s": 48.8166666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.4,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.00878916215151548,
+							-0.0420248359441757,
+							-0.999077916145325
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000004",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000033",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-23.0159606933594,
+						1798.90063476562,
+						917.567932128906
+					],
+					"sequence": 33,
+					"target_id": "",
+					"tick": 2939,
+					"time_s": 48.9833333333333,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0105893276631832,
+							-0.0000000135736542006271,
+							-0.999943912029266
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000007",
+						"release_mode": "gravity_release",
+						"slot": 1,
+						"up_m": [
+							0.00632634945213795,
+							0.999979972839355,
+							-0.0000670091176289134
+						],
+						"velocity_mps": [
+							-0.988297045230865,
+							-0.0000012668227782342,
+							-93.3243026733398
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000034",
+					"kind": "bomb_released",
+					"position_m": [
+						216.849945068359,
+						1799.22778320312,
+						989.777221679688
+					],
+					"sequence": 34,
+					"target_id": "",
+					"tick": 2943,
+					"time_s": 49.05,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.00654531037434936,
+							-0.000000693488289016386,
+							-0.999978601932526
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000008",
+						"release_mode": "gravity_release",
+						"slot": 5,
+						"up_m": [
+							0.0391353033483028,
+							0.999233901500702,
+							-0.000256851140875369
+						],
+						"velocity_mps": [
+							-0.61176872253418,
+							-0.0000648180794087239,
+							-93.4647216796875
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000035",
+					"kind": "bomb_released",
+					"position_m": [
+						-23.0217437744141,
+						1800.15576171875,
+						908.165161132812
+					],
+					"sequence": 35,
+					"target_id": "",
+					"tick": 2944,
+					"time_s": 49.0666666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.25,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.0105458591133356,
+							-0.0262837931513786,
+							-0.999598920345306
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000005",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000036",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						216.140731811523,
+						1798.921875,
+						989.803283691406
+					],
+					"sequence": 36,
+					"target_id": "",
+					"tick": 2944,
+					"time_s": 49.0666666666667,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "pullout",
+						"reason": "load_released"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000038",
+					"kind": "bombing_phase",
+					"position_m": [
+						-23.3798656463623,
+						1800.0,
+						909.427551269531
+					],
+					"sequence": 38,
+					"target_id": "",
+					"tick": 2945,
+					"time_s": 49.0833333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.00999438669532537,
+							-0.000000913187022888451,
+							-0.999950051307678
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000009",
+						"release_mode": "gravity_release",
+						"slot": 2,
+						"up_m": [
+							0.0360037758946419,
+							0.999351561069489,
+							-0.000360766280209646
+						],
+						"velocity_mps": [
+							-0.93297016620636,
+							-0.0000852454759296961,
+							-93.3447570800781
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000039",
+					"kind": "bomb_released",
+					"position_m": [
+						215.883285522461,
+						1799.71313476562,
+						966.451049804688
+					],
+					"sequence": 39,
+					"target_id": "",
+					"tick": 2958,
+					"time_s": 49.3,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.5,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.00761801796033978,
+							-0.0524984039366245,
+							-0.998591959476471
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000006",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000040",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-23.932222366333,
+						1798.96130371094,
+						884.892578125
+					],
+					"sequence": 40,
+					"target_id": "",
+					"tick": 2960,
+					"time_s": 49.3333333333333,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.266666666666667,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.0105851674452424,
+							-0.0280331261456013,
+							-0.999550998210907
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000007",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000041",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						216.586608886719,
+						1798.87963867188,
+						964.910522460938
+					],
+					"sequence": 41,
+					"target_id": "",
+					"tick": 2960,
+					"time_s": 49.3333333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.366666666666667,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.00654045958071947,
+							-0.0384879224002361,
+							-0.999237656593323
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000008",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000042",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-23.2458209991455,
+						1799.49731445312,
+						873.932312011719
+					],
+					"sequence": 42,
+					"target_id": "",
+					"tick": 2967,
+					"time_s": 49.45,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.00887145567685366,
+							-0.00000132469563141058,
+							-0.999960660934448
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000010",
+						"release_mode": "gravity_release",
+						"slot": 3,
+						"up_m": [
+							0.0453219152987003,
+							0.998972356319427,
+							-0.000403410580474883
+						],
+						"velocity_mps": [
+							-0.828407168388367,
+							-0.000123698686365969,
+							-93.3752746582031
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000043",
+					"kind": "bomb_released",
+					"position_m": [
+						216.380676269531,
+						1799.68395996094,
+						943.104248046875
+					],
+					"sequence": 43,
+					"target_id": "",
+					"tick": 2973,
+					"time_s": 49.55,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.4,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.00998555030673742,
+							-0.0420378930866718,
+							-0.999066114425659
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000009",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000044",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						215.510513305664,
+						1798.92956542969,
+						929.157775878906
+					],
+					"sequence": 44,
+					"target_id": "",
+					"tick": 2983,
+					"time_s": 49.7166666666667,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.00769117847084999,
+							-0.00000107913547253702,
+							-0.999970436096191
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000011",
+						"release_mode": "gravity_release",
+						"slot": 4,
+						"up_m": [
+							0.0438265278935432,
+							0.999039113521576,
+							-0.0003381657297723
+						],
+						"velocity_mps": [
+							-0.718494236469269,
+							-0.000100810633739457,
+							-93.4151992797852
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000045",
+					"kind": "bomb_released",
+					"position_m": [
+						215.490692138672,
+						1800.18566894531,
+						919.761108398438
+					],
+					"sequence": 45,
+					"target_id": "",
+					"tick": 2988,
+					"time_s": 49.8,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.4,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.00886361766606569,
+							-0.042025052011013,
+							-0.999077260494232
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000010",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000046",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						216.049697875977,
+						1798.900390625,
+						905.798767089844
+					],
+					"sequence": 46,
+					"target_id": "",
+					"tick": 2998,
+					"time_s": 49.9666666666667,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.00659824768081307,
+							-0.000000704404669704672,
+							-0.999978244304657
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000012",
+						"release_mode": "gravity_release",
+						"slot": 5,
+						"up_m": [
+							0.0394727885723114,
+							0.999220609664917,
+							-0.000261160777881742
+						],
+						"velocity_mps": [
+							-0.616713881492615,
+							-0.0000658381031826138,
+							-93.4642715454102
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000047",
+					"kind": "bomb_released",
+					"position_m": [
+						216.044021606445,
+						1800.15563964844,
+						896.395935058594
+					],
+					"sequence": 47,
+					"target_id": "",
+					"tick": 3003,
+					"time_s": 50.05,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "pullout",
+						"reason": "load_released"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000049",
+					"kind": "bombing_phase",
+					"position_m": [
+						215.685913085938,
+						1800.0,
+						897.658325195312
+					],
+					"sequence": 49,
+					"target_id": "",
+					"tick": 3004,
+					"time_s": 50.0666666666667,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"age_s": 0.5,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.00768057350069284,
+							-0.0524986572563648,
+							-0.998591482639313
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000011",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000050",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						215.131958007812,
+						1798.96154785156,
+						873.12353515625
+					],
+					"sequence": 50,
+					"target_id": "",
+					"tick": 3019,
+					"time_s": 50.3166666666667,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.366666666666667,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.00659335870295763,
+							-0.0384881086647511,
+							-0.999237298965454
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000012",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000051",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						215.818145751953,
+						1799.49719238281,
+						862.163269042969
+					],
+					"sequence": 51,
+					"target_id": "",
+					"tick": 3026,
+					"time_s": 50.4333333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "egress",
+						"reason": "positive_climb_established"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000055",
+					"kind": "bombing_phase",
+					"position_m": [
+						-24.2909393310547,
+						1809.20495605469,
+						721.954528808594
+					],
+					"sequence": 55,
+					"target_id": "",
+					"tick": 3066,
+					"time_s": 51.1,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "egress",
+						"reason": "positive_climb_established"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000061",
+					"kind": "bombing_phase",
+					"position_m": [
+						214.76806640625,
+						1809.20495605469,
+						710.185974121094
+					],
+					"sequence": 61,
+					"target_id": "",
+					"tick": 3125,
+					"time_s": 52.0833333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 11.0478043321965,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000026",
+						"propulsion_factor": 1.0,
+						"structure": 156.133268483731
+					},
+					"entity_id": "target",
+					"event_id": "event_00000087",
+					"kind": "damaged",
+					"position_m": [
+						-24.167106628418,
+						1849.65710449219,
+						337.785766601562
+					],
+					"sequence": 87,
+					"target_id": "bomber",
+					"tick": 3318,
+					"time_s": 55.3,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 11.0461967068987,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000031",
+						"propulsion_factor": 1.0,
+						"structure": 156.133831152585
+					},
+					"entity_id": "target",
+					"event_id": "event_00000097",
+					"kind": "damaged",
+					"position_m": [
+						209.742080688477,
+						1849.1171875,
+						331.269866943359
+					],
+					"sequence": 97,
+					"target_id": "wing",
+					"tick": 3374,
+					"time_s": 56.2333333333333,
+					"weapon_id": "target/aa_25_starboard"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 11.0300480110016,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000035",
+						"propulsion_factor": 1.0,
+						"structure": 152.239630526889
+					},
+					"entity_id": "target",
+					"event_id": "event_00000103",
+					"kind": "damaged",
+					"position_m": [
+						210.945098876953,
+						1853.54113769531,
+						289.156311035156
+					],
+					"sequence": 103,
+					"target_id": "wing",
+					"tick": 3403,
+					"time_s": 56.7166666666667,
+					"weapon_id": "target/aa_25_starboard"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 11.0120661634182,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000039",
+						"propulsion_factor": 1.0,
+						"structure": 148.317319691712
+					},
+					"entity_id": "target",
+					"event_id": "event_00000111",
+					"kind": "damaged",
+					"position_m": [
+						220.894805908203,
+						1858.31311035156,
+						243.639389038086
+					],
+					"sequence": 111,
+					"target_id": "wing",
+					"tick": 3433,
+					"time_s": 57.2166666666667,
+					"weapon_id": "target/aa_25_starboard"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.99544204432,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000044",
+						"propulsion_factor": 1.0,
+						"structure": 144.37101965679
+					},
+					"entity_id": "target",
+					"event_id": "event_00000119",
+					"kind": "damaged",
+					"position_m": [
+						212.874786376953,
+						1862.81909179688,
+						200.876953125
+					],
+					"sequence": 119,
+					"target_id": "wing",
+					"tick": 3462,
+					"time_s": 57.7,
+					"weapon_id": "target/aa_25_starboard"
+				},
+				{
+					"data": {
+						"domain": "aircraft",
+						"phase": "crashing"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000121",
+					"kind": "damage_phase",
+					"position_m": [
+						213.98681640625,
+						1862.80578613281,
+						200.921630859375
+					],
+					"sequence": 121,
+					"target_id": "",
+					"tick": 3462,
+					"time_s": 57.7,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.9632068301205,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000045",
+						"propulsion_factor": 1.0,
+						"structure": 152.155009801093
+					},
+					"entity_id": "target",
+					"event_id": "event_00000125",
+					"kind": "damaged",
+					"position_m": [
+						-33.5946388244629,
+						1872.2470703125,
+						122.995338439941
+					],
+					"sequence": 125,
+					"target_id": "bomber",
+					"tick": 3464,
+					"time_s": 57.7333333333333,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.9274110068442,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000053",
+						"propulsion_factor": 1.0,
+						"structure": 148.222792808957
+					},
+					"entity_id": "target",
+					"event_id": "event_00000142",
+					"kind": "damaged",
+					"position_m": [
+						-17.1053924560547,
+						1881.41088867188,
+						35.7652626037598
+					],
+					"sequence": 142,
+					"target_id": "bomber",
+					"tick": 3523,
+					"time_s": 58.7166666666667,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.9316884560437,
+						"control_factor": 0.609582555141295,
+						"part_id": "tail",
+						"projectile_id": "projectile_00000054",
+						"propulsion_factor": 1.0,
+						"structure": 143.85011742654
+					},
+					"entity_id": "target",
+					"event_id": "event_00000143",
+					"kind": "damaged",
+					"position_m": [
+						-23.9464321136475,
+						1879.73864746094,
+						44.8025817871094
+					],
+					"sequence": 143,
+					"target_id": "bomber",
+					"tick": 3523,
+					"time_s": 58.7166666666667,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.9124319929152,
+						"control_factor": 0.219852841108608,
+						"part_id": "tail",
+						"projectile_id": "projectile_00000058",
+						"propulsion_factor": 1.0,
+						"structure": 139.362210700902
+					},
+					"entity_id": "target",
+					"event_id": "event_00000152",
+					"kind": "damaged",
+					"position_m": [
+						-24.8274803161621,
+						1885.94482421875,
+						-0.749934196472168
+					],
+					"sequence": 152,
+					"target_id": "bomber",
+					"tick": 3552,
+					"time_s": 59.2,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.9426835317028,
+						"control_factor": 0.219852841108608,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000065",
+						"propulsion_factor": 1.0,
+						"structure": 135.210338654268
+					},
+					"entity_id": "target",
+					"event_id": "event_00000169",
+					"kind": "damaged",
+					"position_m": [
+						-18.2659816741943,
+						1892.103515625,
+						-94.1449432373047
+					],
+					"sequence": 169,
+					"target_id": "bomber",
+					"tick": 3611,
+					"time_s": 60.1833333333333,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"domain": "aircraft",
+						"phase": "crashing"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000171",
+					"kind": "damage_phase",
+					"position_m": [
+						-25.0847969055176,
+						1892.04907226562,
+						-92.9676284790039
+					],
+					"sequence": 171,
+					"target_id": "",
+					"tick": 3611,
+					"time_s": 60.1833333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.9613001452839,
+						"control_factor": 0.219852841108608,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000074",
+						"propulsion_factor": 1.0,
+						"structure": 131.373883603419
+					},
+					"entity_id": "target",
+					"event_id": "event_00000188",
+					"kind": "damaged",
+					"position_m": [
+						-27.6688861846924,
+						1894.44543457031,
+						-178.301483154297
+					],
+					"sequence": 188,
+					"target_id": "bomber",
+					"tick": 3670,
+					"time_s": 61.1666666666667,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.9845549807446,
+						"control_factor": 0.0,
+						"part_id": "tail",
+						"projectile_id": "projectile_00000078",
+						"propulsion_factor": 1.0,
+						"structure": 126.980061611121
+					},
+					"entity_id": "target",
+					"event_id": "event_00000192",
+					"kind": "damaged",
+					"position_m": [
+						-23.6863384246826,
+						1889.78295898438,
+						-211.264511108398
+					],
+					"sequence": 192,
+					"target_id": "bomber",
+					"tick": 3699,
+					"time_s": 61.65,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"age_s": 19.7268806916818,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000001",
+						"surface": "sea",
+						"travelled_m": 2605.21445477009
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000230",
+					"kind": "bomb_contact",
+					"position_m": [
+						-40.5516967773438,
+						0.000000119209289550781,
+						-682.750244140625
+					],
+					"sequence": 230,
+					"target_id": "",
+					"tick": 4053,
+					"time_s": 67.55,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7268806916818,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4210889.95234829,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-40.5516967773438,
+							0.000000119209289550781,
+							-682.750244140625
+						],
+						"projectile_id": "projectile_00000001",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 0,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2605.21445477009,
+						"velocity_mps": [
+							-0.811852097511292,
+							-173.935073852539,
+							-77.6110534667969
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000232",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-40.5516967773438,
+						0.000000119209289550781,
+						-682.750244140625
+					],
+					"sequence": 232,
+					"target_id": "",
+					"tick": 4059,
+					"time_s": 67.65,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"amount": 155.29847440011,
+						"control_factor": 0.0949972354305932,
+						"part_id": "steering",
+						"projectile_id": "projectile_00000001",
+						"propulsion_factor": 1.0,
+						"structure": 624.70152559989
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000233",
+					"kind": "damaged",
+					"position_m": [
+						-40.5516967773438,
+						0.000000119209289550781,
+						-682.750244140625
+					],
+					"sequence": 233,
+					"target_id": "target",
+					"tick": 4059,
+					"time_s": 67.65,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7269021731943,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000002",
+						"surface": "sea",
+						"travelled_m": 2605.3393778801
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000234",
+					"kind": "bomb_contact",
+					"position_m": [
+						-40.15625,
+						0.000000119209289550781,
+						-706.262451171875
+					],
+					"sequence": 234,
+					"target_id": "",
+					"tick": 4068,
+					"time_s": 67.8,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7269021731943,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4211010.56078765,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-40.15625,
+							0.000000119209289550781,
+							-706.262451171875
+						],
+						"projectile_id": "projectile_00000002",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 1,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2605.3393778801,
+						"velocity_mps": [
+							-0.815028846263885,
+							-173.934677124023,
+							-77.6185989379883
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000236",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-40.15625,
+						0.000000119209289550781,
+						-706.262451171875
+					],
+					"sequence": 236,
+					"target_id": "",
+					"tick": 4074,
+					"time_s": 67.9,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"amount": 517.672773886305,
+						"control_factor": 0.0,
+						"part_id": "steering",
+						"projectile_id": "projectile_00000002",
+						"propulsion_factor": 1.0,
+						"structure": 106.869471227021
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000237",
+					"kind": "damaged",
+					"position_m": [
+						-40.15625,
+						0.000000119209289550781,
+						-706.262451171875
+					],
+					"sequence": 237,
+					"target_id": "target",
+					"tick": 4074,
+					"time_s": 67.9,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7297043647617,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000003",
+						"surface": "sea",
+						"travelled_m": 2606.12465310097
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000238",
+					"kind": "bomb_contact",
+					"position_m": [
+						-40.1147270202637,
+						0.0,
+						-730.173278808594
+					],
+					"sequence": 238,
+					"target_id": "",
+					"tick": 4083,
+					"time_s": 68.05,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7297043647617,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4212047.97473218,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-40.1147270202637,
+							0.0,
+							-730.173278808594
+						],
+						"projectile_id": "projectile_00000003",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 2,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2606.12465310097,
+						"velocity_mps": [
+							-0.769168615341187,
+							-173.954620361328,
+							-77.6319351196289
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000240",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-40.1147270202637,
+						0.0,
+						-730.173278808594
+					],
+					"sequence": 240,
+					"target_id": "",
+					"tick": 4089,
+					"time_s": 68.15,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"amount": 973.007478941414,
+						"control_factor": 0.0,
+						"part_id": "steering",
+						"projectile_id": "projectile_00000003",
+						"propulsion_factor": 1.0,
+						"structure": 0.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000241",
+					"kind": "damaged",
+					"position_m": [
+						-40.1147270202637,
+						0.0,
+						-730.173278808594
+					],
+					"sequence": 241,
+					"target_id": "target",
+					"tick": 4089,
+					"time_s": 68.15,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"domain": "ship",
+						"phase": "sinking"
+					},
+					"entity_id": "target",
+					"event_id": "event_00000242",
+					"kind": "damage_phase",
+					"position_m": [
+						-62.7261428833008,
+						0.0,
+						-797.634216308594
+					],
+					"sequence": 242,
+					"target_id": "",
+					"tick": 4089,
+					"time_s": 68.15,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"age_s": 19.7296182559686,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000004",
+						"surface": "sea",
+						"travelled_m": 2606.46417415142
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000246",
+					"kind": "bomb_contact",
+					"position_m": [
+						-37.7225074768066,
+						0.0,
+						-754.045166015625
+					],
+					"sequence": 246,
+					"target_id": "",
+					"tick": 4098,
+					"time_s": 68.3,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7296182559686,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4212364.45853169,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-37.7225074768066,
+							0.0,
+							-754.045166015625
+						],
+						"projectile_id": "projectile_00000004",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 3,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2606.46417415142,
+						"velocity_mps": [
+							-0.683155536651611,
+							-173.952362060547,
+							-77.6553573608398
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000248",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-37.7225074768066,
+						0.0,
+						-754.045166015625
+					],
+					"sequence": 248,
+					"target_id": "",
+					"tick": 4104,
+					"time_s": 68.4,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7268806916818,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000005",
+						"surface": "sea",
+						"travelled_m": 2605.20914161205
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000249",
+					"kind": "bomb_contact",
+					"position_m": [
+						198.369781494141,
+						0.000000119209289550781,
+						-694.510986328125
+					],
+					"sequence": 249,
+					"target_id": "",
+					"tick": 4112,
+					"time_s": 68.5333333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7325860270742,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000006",
+						"surface": "sea",
+						"travelled_m": 2607.50891292095
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000250",
+					"kind": "bomb_contact",
+					"position_m": [
+						-36.6214599609375,
+						0.0,
+						-778.324279785156
+					],
+					"sequence": 250,
+					"target_id": "",
+					"tick": 4113,
+					"time_s": 68.55,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7268806916818,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4210884.51136606,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							198.369781494141,
+							0.000000119209289550781,
+							-694.510986328125
+						],
+						"projectile_id": "projectile_00000005",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 0,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2605.20914161205,
+						"velocity_mps": [
+							-0.818799078464508,
+							-173.935073852539,
+							-77.6106719970703
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000252",
+					"kind": "bomb_explosion",
+					"position_m": [
+						198.369781494141,
+						0.000000119209289550781,
+						-694.510986328125
+					],
+					"sequence": 252,
+					"target_id": "",
+					"tick": 4118,
+					"time_s": 68.6333333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7325860270742,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4213668.02719014,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-36.6214599609375,
+							0.0,
+							-778.324279785156
+						],
+						"projectile_id": "projectile_00000006",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 4,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2607.50891292095,
+						"velocity_mps": [
+							-0.592627108097076,
+							-173.97248840332,
+							-77.6833267211914
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000254",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-36.6214599609375,
+						0.0,
+						-778.324279785156
+					],
+					"sequence": 254,
+					"target_id": "",
+					"tick": 4119,
+					"time_s": 68.65,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7269017871454,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000007",
+						"surface": "sea",
+						"travelled_m": 2605.33354878426
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000255",
+					"kind": "bomb_contact",
+					"position_m": [
+						198.763229370117,
+						-0.000000119209289550781,
+						-718.022521972656
+					],
+					"sequence": 255,
+					"target_id": "",
+					"tick": 4127,
+					"time_s": 68.7833333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7325526179743,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000008",
+						"surface": "sea",
+						"travelled_m": 2608.08817219734
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000256",
+					"kind": "bomb_contact",
+					"position_m": [
+						-34.2199363708496,
+						0.0,
+						-802.545959472656
+					],
+					"sequence": 256,
+					"target_id": "",
+					"tick": 4128,
+					"time_s": 68.8,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7269017871454,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4211005.57322061,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							198.763229370117,
+							-0.000000119209289550781,
+							-718.022521972656
+						],
+						"projectile_id": "projectile_00000007",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 1,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2605.33354878426,
+						"velocity_mps": [
+							-0.821970224380493,
+							-173.934692382812,
+							-77.6181945800781
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000258",
+					"kind": "bomb_explosion",
+					"position_m": [
+						198.763229370117,
+						-0.000000119209289550781,
+						-718.022521972656
+					],
+					"sequence": 258,
+					"target_id": "",
+					"tick": 4133,
+					"time_s": 68.8833333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7325526179743,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4214218.92664058,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-34.2199363708496,
+							0.0,
+							-802.545959472656
+						],
+						"projectile_id": "projectile_00000008",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 5,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2608.08817219734,
+						"velocity_mps": [
+							-0.508718967437744,
+							-173.969543457031,
+							-77.7210464477539
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000260",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-34.2199363708496,
+						0.0,
+						-802.545959472656
+					],
+					"sequence": 260,
+					"target_id": "",
+					"tick": 4134,
+					"time_s": 68.9,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7297038745964,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000009",
+						"surface": "sea",
+						"travelled_m": 2606.11870193481
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000261",
+					"kind": "bomb_contact",
+					"position_m": [
+						198.806900024414,
+						0.0,
+						-741.932556152344
+					],
+					"sequence": 261,
+					"target_id": "",
+					"tick": 4142,
+					"time_s": 69.0333333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7297038745964,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4212042.08033477,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							198.806900024414,
+							0.0,
+							-741.932556152344
+						],
+						"projectile_id": "projectile_00000009",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 2,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2606.11870193481,
+						"velocity_mps": [
+							-0.775918781757355,
+							-173.954650878906,
+							-77.6314926147461
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000263",
+					"kind": "bomb_explosion",
+					"position_m": [
+						198.806900024414,
+						0.0,
+						-741.932556152344
+					],
+					"sequence": 263,
+					"target_id": "",
+					"tick": 4148,
+					"time_s": 69.1333333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.729614425034,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000010",
+						"surface": "sea",
+						"travelled_m": 2606.45849883556
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000264",
+					"kind": "bomb_contact",
+					"position_m": [
+						201.218475341797,
+						0.0,
+						-765.805908203125
+					],
+					"sequence": 264,
+					"target_id": "",
+					"tick": 4157,
+					"time_s": 69.2833333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.729614425034,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4212359.47096465,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							201.218475341797,
+							0.0,
+							-765.805908203125
+						],
+						"projectile_id": "projectile_00000010",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 3,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2606.45849883556,
+						"velocity_mps": [
+							-0.688939988613129,
+							-173.952377319336,
+							-77.6549911499023
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000266",
+					"kind": "bomb_explosion",
+					"position_m": [
+						201.218475341797,
+						0.0,
+						-765.805908203125
+					],
+					"sequence": 266,
+					"target_id": "",
+					"tick": 4163,
+					"time_s": 69.3833333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7325847852541,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000011",
+						"surface": "sea",
+						"travelled_m": 2607.50378072262
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000267",
+					"kind": "bomb_contact",
+					"position_m": [
+						202.338562011719,
+						0.0,
+						-790.085266113281
+					],
+					"sequence": 267,
+					"target_id": "",
+					"tick": 4172,
+					"time_s": 69.5333333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7325847852541,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4213663.49303828,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							202.338562011719,
+							0.0,
+							-790.085266113281
+						],
+						"projectile_id": "projectile_00000011",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 4,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2607.50378072262,
+						"velocity_mps": [
+							-0.597492039203644,
+							-173.972518920898,
+							-77.6829681396484
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000269",
+					"kind": "bomb_explosion",
+					"position_m": [
+						202.338562011719,
+						0.0,
+						-790.085266113281
+					],
+					"sequence": 269,
+					"target_id": "",
+					"tick": 4178,
+					"time_s": 69.6333333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7325511018369,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000012",
+						"surface": "sea",
+						"travelled_m": 2608.082213521
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000270",
+					"kind": "bomb_contact",
+					"position_m": [
+						204.755294799805,
+						0.0,
+						-814.30615234375
+					],
+					"sequence": 270,
+					"target_id": "",
+					"tick": 4187,
+					"time_s": 69.7833333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7325511018369,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4214213.03224316,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							204.755294799805,
+							0.0,
+							-814.30615234375
+						],
+						"projectile_id": "projectile_00000012",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 5,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2608.082213521,
+						"velocity_mps": [
+							-0.512831389904022,
+							-173.969543457031,
+							-77.7206954956055
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000272",
+					"kind": "bomb_explosion",
+					"position_m": [
+						204.755294799805,
+						0.0,
+						-814.30615234375
+					],
+					"sequence": 272,
+					"target_id": "",
+					"tick": 4193,
+					"time_s": 69.8833333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"domain": "aircraft",
+						"phase": "wreck"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000277",
+					"kind": "damage_phase",
+					"position_m": [
+						117.352798461914,
+						0.0,
+						-1313.16613769531
+					],
+					"sequence": 277,
+					"target_id": "",
+					"tick": 4865,
+					"time_s": 81.0833333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"destroyed": true,
+						"reason": "crash",
+						"size_m": 20.5993995666504,
+						"surface": "sea",
+						"velocity_mps": [
+							-5.97772789001465,
+							-143.427429199219,
+							-46.3299293518066
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000278",
+					"kind": "unit_impact",
+					"position_m": [
+						117.352798461914,
+						0.0,
+						-1313.16613769531
+					],
+					"sequence": 278,
+					"target_id": "",
+					"tick": 4865,
+					"time_s": 81.0833333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"domain": "aircraft",
+						"phase": "wreck"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000282",
+					"kind": "damage_phase",
+					"position_m": [
+						164.101593017578,
+						0.0,
+						-1492.68371582031
+					],
+					"sequence": 282,
+					"target_id": "",
+					"tick": 5007,
+					"time_s": 83.45,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"destroyed": true,
+						"reason": "crash",
+						"size_m": 20.5993995666504,
+						"surface": "sea",
+						"velocity_mps": [
+							16.5253868103027,
+							-135.789840698242,
+							-35.9808769226074
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000283",
+					"kind": "unit_impact",
+					"position_m": [
+						164.101593017578,
+						0.0,
+						-1492.68371582031
+					],
+					"sequence": 283,
+					"target_id": "",
+					"tick": 5007,
+					"time_s": 83.45,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"domain": "aircraft",
+						"phase": "removed"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000284",
+					"kind": "damage_phase",
+					"position_m": [
+						117.352798461914,
+						-10.8000402450562,
+						-1313.16613769531
+					],
+					"sequence": 284,
+					"target_id": "",
+					"tick": 5585,
+					"time_s": 93.0833333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"domain": "aircraft",
+						"phase": "removed"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000285",
+					"kind": "damage_phase",
+					"position_m": [
+						164.101593017578,
+						-10.8000402450562,
+						-1492.68371582031
+					],
+					"sequence": 285,
+					"target_id": "",
+					"tick": 5727,
+					"time_s": 95.45,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"domain": "ship",
+						"phase": "wreck"
+					},
+					"entity_id": "target",
+					"event_id": "event_00000286",
+					"kind": "damage_phase",
+					"position_m": [
+						-62.7261428833008,
+						-18.0070781707764,
+						-797.634216308594
+					],
+					"sequence": 286,
+					"target_id": "",
+					"tick": 6790,
+					"time_s": 113.166666666667,
+					"weapon_id": ""
+				}
+			],
+			"first_order_s": 0.0333333333333333,
+			"first_own_contact_s": 0.0166666666666667,
+			"mode": "near",
+			"released": 12
+		},
+		{
+			"abort_reasons": [
+				"load_released",
+				"load_released"
+			],
+			"events": [
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "stabilize",
+						"reason": "attack_entry_reached"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000017",
+					"kind": "bombing_phase",
+					"position_m": [
+						-145.08837890625,
+						1800.0,
+						982.789306640625
+					],
+					"sequence": 17,
+					"target_id": "",
+					"tick": 10209,
+					"time_s": 170.15,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "stabilize",
+						"reason": "attack_entry_reached"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000019",
+					"kind": "bombing_phase",
+					"position_m": [
+						93.8873138427734,
+						1800.0,
+						971.021728515625
+					],
+					"sequence": 19,
+					"target_id": "",
+					"tick": 10268,
+					"time_s": 171.133333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0148149458691478,
+							-0.00000000481669593099809,
+							-0.999890267848969
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000001",
+						"release_mode": "gravity_release",
+						"slot": 0,
+						"up_m": [
+							-0.00554279424250126,
+							0.999984622001648,
+							0.0000821203866507858
+						],
+						"velocity_mps": [
+							-1.38248860836029,
+							-0.000000449480353381659,
+							-93.3069152832031
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000020",
+					"kind": "bomb_released",
+					"position_m": [
+						-167.943893432617,
+						1799.22802734375,
+						-645.102111816406
+					],
+					"sequence": 20,
+					"target_id": "",
+					"tick": 11254,
+					"time_s": 187.566666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "salvo",
+						"reason": "finite_bomb_train"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000022",
+					"kind": "bombing_phase",
+					"position_m": [
+						-167.569534301758,
+						1800.0,
+						-643.847534179688
+					],
+					"sequence": 22,
+					"target_id": "",
+					"tick": 11255,
+					"time_s": 187.583333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0148473298177123,
+							-0.0000000175888015263581,
+							-0.99988979101181
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000002",
+						"release_mode": "gravity_release",
+						"slot": 1,
+						"up_m": [
+							0.00661075813695788,
+							0.999978125095367,
+							-0.0000981805205810815
+						],
+						"velocity_mps": [
+							-1.38566076755524,
+							-0.00000164151470016805,
+							-93.3169784545898
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000023",
+					"kind": "bomb_released",
+					"position_m": [
+						-167.580062866211,
+						1799.22766113281,
+						-668.440612792969
+					],
+					"sequence": 23,
+					"target_id": "",
+					"tick": 11269,
+					"time_s": 187.816666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.25,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.0148098263889551,
+							-0.0262844562530518,
+							-0.99954479932785
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000001",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000024",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-168.289276123047,
+						1798.92199707031,
+						-668.411499023438
+					],
+					"sequence": 24,
+					"target_id": "",
+					"tick": 11270,
+					"time_s": 187.833333333333,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.01420640014112,
+							-0.00000124637790577253,
+							-0.999899089336395
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000003",
+						"release_mode": "gravity_release",
+						"slot": 2,
+						"up_m": [
+							0.0417199917137623,
+							0.999129176139832,
+							-0.00059399614110589
+						],
+						"velocity_mps": [
+							-1.32612836360931,
+							-0.000116345945571084,
+							-93.3378295898438
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000025",
+					"kind": "bomb_released",
+					"position_m": [
+						-168.647109985352,
+						1799.71533203125,
+						-691.761840820312
+					],
+					"sequence": 25,
+					"target_id": "",
+					"tick": 11284,
+					"time_s": 188.066666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.266666666666667,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.0148414950817823,
+							-0.0280338060110807,
+							-0.999496817588806
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000002",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000026",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-167.949295043945,
+						1798.87951660156,
+						-693.305358886719
+					],
+					"sequence": 26,
+					"target_id": "",
+					"tick": 11286,
+					"time_s": 188.1,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0127723282203078,
+							-0.00000253450616582995,
+							-0.999918401241302
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000004",
+						"release_mode": "gravity_release",
+						"slot": 3,
+						"up_m": [
+							0.0616701208055019,
+							0.998096287250519,
+							-0.00079026521416381
+						],
+						"velocity_mps": [
+							-1.19263911247253,
+							-0.000236664054682478,
+							-93.3691787719727
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000027",
+					"kind": "bomb_released",
+					"position_m": [
+						-168.248199462891,
+						1799.67834472656,
+						-715.10986328125
+					],
+					"sequence": 27,
+					"target_id": "",
+					"tick": 11299,
+					"time_s": 188.316666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.4,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.014193844050169,
+							-0.0420392081141472,
+							-0.999015152454376
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000003",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000028",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-169.17692565918,
+						1798.93176269531,
+						-729.052307128906
+					],
+					"sequence": 28,
+					"target_id": "",
+					"tick": 11309,
+					"time_s": 188.483333333333,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0148264653980732,
+							-0.00000000328891935907905,
+							-0.999890089035034
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000005",
+						"release_mode": "gravity_release",
+						"slot": 0,
+						"up_m": [
+							-0.0055410685017705,
+							0.999984622001648,
+							0.0000821602006908506
+						],
+						"velocity_mps": [
+							-1.38356339931488,
+							-0.000000306912568248663,
+							-93.3068923950195
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000029",
+					"kind": "bomb_released",
+					"position_m": [
+						71.0072784423828,
+						1799.22802734375,
+						-656.869445800781
+					],
+					"sequence": 29,
+					"target_id": "",
+					"tick": 11313,
+					"time_s": 188.55,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "salvo",
+						"reason": "finite_bomb_train"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000031",
+					"kind": "bombing_phase",
+					"position_m": [
+						71.3816452026367,
+						1800.0,
+						-655.614868164062
+					],
+					"sequence": 31,
+					"target_id": "",
+					"tick": 11314,
+					"time_s": 188.566666666667,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0111601045355201,
+							-0.00000200595059141051,
+							-0.99993771314621
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000006",
+						"release_mode": "gravity_release",
+						"slot": 4,
+						"up_m": [
+							0.0590000376105309,
+							0.998257756233215,
+							-0.000660490186419338
+						],
+						"velocity_mps": [
+							-1.04253005981445,
+							-0.000187387471669354,
+							-93.4099731445312
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000032",
+					"kind": "bomb_released",
+					"position_m": [
+						-169.215469360352,
+						1800.19091796875,
+						-738.449096679688
+					],
+					"sequence": 32,
+					"target_id": "",
+					"tick": 11314,
+					"time_s": 188.566666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.4,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.0127610415220261,
+							-0.0420272275805473,
+							-0.999035000801086
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000004",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000033",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-168.724700927734,
+						1798.89477539062,
+						-752.412841796875
+					],
+					"sequence": 33,
+					"target_id": "",
+					"tick": 11324,
+					"time_s": 188.733333333333,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0148588065057993,
+							-0.0000000160610387212046,
+							-0.999889612197876
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000007",
+						"release_mode": "gravity_release",
+						"slot": 1,
+						"up_m": [
+							0.00661233393475413,
+							0.999978125095367,
+							-0.0000982783021754585
+						],
+						"velocity_mps": [
+							-1.38673198223114,
+							-0.00000149893298839743,
+							-93.3169784545898
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000034",
+					"kind": "bomb_released",
+					"position_m": [
+						71.3708267211914,
+						1799.22766113281,
+						-680.207946777344
+					],
+					"sequence": 34,
+					"target_id": "",
+					"tick": 11328,
+					"time_s": 188.8,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.00970407482236624,
+							-0.00000124915220567345,
+							-0.999952912330627
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000008",
+						"release_mode": "gravity_release",
+						"slot": 5,
+						"up_m": [
+							0.0521447397768497,
+							0.998639404773712,
+							-0.000507287797518075
+						],
+						"velocity_mps": [
+							-0.906983196735382,
+							-0.000116750947199762,
+							-93.4597549438477
+						]
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000035",
+					"kind": "bomb_released",
+					"position_m": [
+						-168.739303588867,
+						1800.15100097656,
+						-761.815307617188
+					],
+					"sequence": 35,
+					"target_id": "",
+					"tick": 11329,
+					"time_s": 188.816666666667,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.25,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.0148213412612677,
+							-0.0262844581156969,
+							-0.999544680118561
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000005",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000036",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						70.6616363525391,
+						1798.92199707031,
+						-680.178771972656
+					],
+					"sequence": 36,
+					"target_id": "",
+					"tick": 11329,
+					"time_s": 188.816666666667,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "pullout",
+						"reason": "load_released"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000038",
+					"kind": "bombing_phase",
+					"position_m": [
+						-169.095428466797,
+						1800.0,
+						-760.551818847656
+					],
+					"sequence": 38,
+					"target_id": "",
+					"tick": 11330,
+					"time_s": 188.833333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0142177259549499,
+							-0.00000124672328638553,
+							-0.999898910522461
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000009",
+						"release_mode": "gravity_release",
+						"slot": 2,
+						"up_m": [
+							0.041740857064724,
+							0.99912828207016,
+							-0.00059476587921381
+						],
+						"velocity_mps": [
+							-1.32718551158905,
+							-0.000116378185339272,
+							-93.3378143310547
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000039",
+					"kind": "bomb_released",
+					"position_m": [
+						70.3034896850586,
+						1799.71533203125,
+						-703.529174804688
+					],
+					"sequence": 39,
+					"target_id": "",
+					"tick": 11343,
+					"time_s": 189.05,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.5,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.011144713498652,
+							-0.0525007769465446,
+							-0.998558700084686
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000006",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000040",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-169.735977172852,
+						1798.96667480469,
+						-785.084106445312
+					],
+					"sequence": 40,
+					"target_id": "",
+					"tick": 11345,
+					"time_s": 189.083333333333,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.266666666666667,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.014852968044579,
+							-0.0280338022857904,
+							-0.999496638774872
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000007",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000041",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						71.0013122558594,
+						1798.87951660156,
+						-705.072692871094
+					],
+					"sequence": 41,
+					"target_id": "",
+					"tick": 11345,
+					"time_s": 189.083333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.35,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.00969752389937639,
+							-0.036740630865097,
+							-0.999277830123901
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000008",
+						"span_m": 0.5
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000042",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						-169.056427001953,
+						1799.55102539062,
+						-794.491943359375
+					],
+					"sequence": 42,
+					"target_id": "",
+					"tick": 11351,
+					"time_s": 189.183333333333,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0127822887152433,
+							-0.00000254029964708025,
+							-0.999918282032013
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000010",
+						"release_mode": "gravity_release",
+						"slot": 3,
+						"up_m": [
+							0.0617489479482174,
+							0.998091399669647,
+							-0.000791893049608916
+						],
+						"velocity_mps": [
+							-1.19356906414032,
+							-0.000237205007579178,
+							-93.3691635131836
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000043",
+					"kind": "bomb_released",
+					"position_m": [
+						70.7021636962891,
+						1799.67834472656,
+						-726.877258300781
+					],
+					"sequence": 43,
+					"target_id": "",
+					"tick": 11358,
+					"time_s": 189.3,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.4,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.0142051558941603,
+							-0.0420392081141472,
+							-0.999014973640442
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000009",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000044",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						69.7732315063477,
+						1798.93176269531,
+						-740.819641113281
+					],
+					"sequence": 44,
+					"target_id": "",
+					"tick": 11368,
+					"time_s": 189.466666666667,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.0111676389351487,
+							-0.00000201055377146986,
+							-0.999937653541565
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000011",
+						"release_mode": "gravity_release",
+						"slot": 4,
+						"up_m": [
+							0.0590790472924709,
+							0.998253107070923,
+							-0.000661821803078055
+						],
+						"velocity_mps": [
+							-1.04323363304138,
+							-0.000187817437108606,
+							-93.4099502563477
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000045",
+					"kind": "bomb_released",
+					"position_m": [
+						69.7347183227539,
+						1800.19091796875,
+						-750.216430664062
+					],
+					"sequence": 45,
+					"target_id": "",
+					"tick": 11373,
+					"time_s": 189.55,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.4,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.0127709927037358,
+							-0.0420272313058376,
+							-0.999034821987152
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000010",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000046",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						70.2252883911133,
+						1798.89477539062,
+						-764.180236816406
+					],
+					"sequence": 46,
+					"target_id": "",
+					"tick": 11383,
+					"time_s": 189.716666666667,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"arming_distance_m": 60.0,
+						"arming_s": 2.0,
+						"collision_length_m": 1.68,
+						"collision_span_m": 0.5,
+						"forward_m": [
+							-0.00970997381955385,
+							-0.00000125001292872184,
+							-0.999952852725983
+						],
+						"impact_delay_s": 0.1,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000012",
+						"release_mode": "gravity_release",
+						"slot": 5,
+						"up_m": [
+							0.0521949641406536,
+							0.998636782169342,
+							-0.00050808402011171
+						],
+						"velocity_mps": [
+							-0.907534301280975,
+							-0.000116831368359271,
+							-93.4597244262695
+						]
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000047",
+					"kind": "bomb_released",
+					"position_m": [
+						70.2107238769531,
+						1800.15100097656,
+						-773.582641601562
+					],
+					"sequence": 47,
+					"target_id": "",
+					"tick": 11388,
+					"time_s": 189.8,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "pullout",
+						"reason": "load_released"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000049",
+					"kind": "bombing_phase",
+					"position_m": [
+						69.8545913696289,
+						1800.0,
+						-772.319152832031
+					],
+					"sequence": 49,
+					"target_id": "",
+					"tick": 11389,
+					"time_s": 189.816666666667,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"age_s": 0.5,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.0111522367224097,
+							-0.0525007955729961,
+							-0.998558640480042
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000011",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000050",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						69.2138595581055,
+						1798.96667480469,
+						-796.851440429688
+					],
+					"sequence": 50,
+					"target_id": "",
+					"tick": 11404,
+					"time_s": 190.066666666667,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 0.35,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"forward_m": [
+							-0.00970341823995113,
+							-0.0367406383156776,
+							-0.999277770519257
+						],
+						"length_m": 1.68,
+						"projectile_id": "projectile_00000012",
+						"span_m": 0.5
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000051",
+					"kind": "bomb_source_cleared",
+					"position_m": [
+						69.8933944702148,
+						1799.55102539062,
+						-806.25927734375
+					],
+					"sequence": 51,
+					"target_id": "",
+					"tick": 11410,
+					"time_s": 190.166666666667,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "egress",
+						"reason": "positive_climb_established"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000053",
+					"kind": "bombing_phase",
+					"position_m": [
+						-170.473999023438,
+						1809.20495605469,
+						-948.017150878906
+					],
+					"sequence": 53,
+					"target_id": "",
+					"tick": 11451,
+					"time_s": 190.85,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "egress",
+						"reason": "positive_climb_established"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000059",
+					"kind": "bombing_phase",
+					"position_m": [
+						68.4752960205078,
+						1809.20495605469,
+						-959.784484863281
+					],
+					"sequence": 59,
+					"target_id": "",
+					"tick": 11510,
+					"time_s": 191.833333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 11.0715019306325,
+						"control_factor": 0.79869996489759,
+						"part_id": "control",
+						"projectile_id": "projectile_00000026",
+						"propulsion_factor": 1.0,
+						"structure": 148.928498069367
+					},
+					"entity_id": "target",
+					"event_id": "event_00000089",
+					"kind": "damaged",
+					"position_m": [
+						67.3516464233398,
+						1841.29370117188,
+						-1272.2666015625
+					],
+					"sequence": 89,
+					"target_id": "wing",
+					"tick": 11714,
+					"time_s": 195.233333333333,
+					"weapon_id": "target/aa_25_starboard"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 11.0251191660227,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000031",
+						"propulsion_factor": 1.0,
+						"structure": 156.141208291892
+					},
+					"entity_id": "target",
+					"event_id": "event_00000095",
+					"kind": "damaged",
+					"position_m": [
+						-175.889251708984,
+						1855.87866210938,
+						-1391.24658203125
+					],
+					"sequence": 95,
+					"target_id": "bomber",
+					"tick": 11743,
+					"time_s": 195.716666666667,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 11.0087505251504,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000035",
+						"propulsion_factor": 1.0,
+						"structure": 152.254528641568
+					},
+					"entity_id": "target",
+					"event_id": "event_00000101",
+					"kind": "damaged",
+					"position_m": [
+						-175.091354370117,
+						1860.27893066406,
+						-1433.12768554688
+					],
+					"sequence": 101,
+					"target_id": "bomber",
+					"tick": 11772,
+					"time_s": 196.2,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.9916010776411,
+						"control_factor": 1.0,
+						"part_id": "wing_right",
+						"projectile_id": "projectile_00000039",
+						"propulsion_factor": 1.0,
+						"structure": 148.341736250634
+					},
+					"entity_id": "target",
+					"event_id": "event_00000107",
+					"kind": "damaged",
+					"position_m": [
+						-165.152542114258,
+						1864.80285644531,
+						-1476.27478027344
+					],
+					"sequence": 107,
+					"target_id": "bomber",
+					"tick": 11801,
+					"time_s": 196.683333333333,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.9737810256994,
+						"control_factor": 1.0,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000044",
+						"propulsion_factor": 1.0,
+						"structure": 144.399798065679
+					},
+					"entity_id": "target",
+					"event_id": "event_00000115",
+					"kind": "damaged",
+					"position_m": [
+						-172.988906860352,
+						1869.48864746094,
+						-1520.76245117188
+					],
+					"sequence": 115,
+					"target_id": "bomber",
+					"tick": 11831,
+					"time_s": 197.183333333333,
+					"weapon_id": "target/aa_25_port"
+				},
+				{
+					"data": {
+						"domain": "aircraft",
+						"phase": "crashing"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000117",
+					"kind": "damage_phase",
+					"position_m": [
+						-172.1171875,
+						1869.49353027344,
+						-1520.88708496094
+					],
+					"sequence": 117,
+					"target_id": "",
+					"tick": 11831,
+					"time_s": 197.183333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.9574673339691,
+						"control_factor": 0.608661880929675,
+						"part_id": "tail",
+						"projectile_id": "projectile_00000054",
+						"propulsion_factor": 1.0,
+						"structure": 143.908722887702
+					},
+					"entity_id": "target",
+					"event_id": "event_00000143",
+					"kind": "damaged",
+					"position_m": [
+						70.3427886962891,
+						1872.24694824219,
+						-1565.68469238281
+					],
+					"sequence": 143,
+					"target_id": "wing",
+					"tick": 11918,
+					"time_s": 198.633333333333,
+					"weapon_id": "target/aa_25_starboard"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 10.9386535391702,
+						"control_factor": 0.217995683102169,
+						"part_id": "tail",
+						"projectile_id": "projectile_00000058",
+						"propulsion_factor": 1.0,
+						"structure": 139.410225638932
+					},
+					"entity_id": "target",
+					"event_id": "event_00000152",
+					"kind": "damaged",
+					"position_m": [
+						68.7870712280273,
+						1878.41833496094,
+						-1611.04577636719
+					],
+					"sequence": 152,
+					"target_id": "wing",
+					"tick": 11948,
+					"time_s": 199.133333333333,
+					"weapon_id": "target/aa_25_starboard"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 11.0056137891078,
+						"control_factor": 0.217995683102169,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000074",
+						"propulsion_factor": 1.0,
+						"structure": 134.947108255636
+					},
+					"entity_id": "target",
+					"event_id": "event_00000178",
+					"kind": "damaged",
+					"position_m": [
+						63.5317802429199,
+						1885.142578125,
+						-1788.93859863281
+					],
+					"sequence": 178,
+					"target_id": "wing",
+					"tick": 12065,
+					"time_s": 201.083333333333,
+					"weapon_id": "target/aa_25_starboard"
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "regroup",
+						"reason": "clear_of_attack_run"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000190",
+					"kind": "bombing_phase",
+					"position_m": [
+						66.4482879638672,
+						1881.26867675781,
+						-1860.14794921875
+					],
+					"sequence": 190,
+					"target_id": "",
+					"tick": 12113,
+					"time_s": 201.883333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"age_s": 19.726875923354,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000001",
+						"surface": "sea",
+						"travelled_m": 2605.16144418716
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000246",
+					"kind": "bomb_contact",
+					"position_m": [
+						-193.244918823242,
+						0.000000119209289550781,
+						-2352.5634765625
+					],
+					"sequence": 246,
+					"target_id": "",
+					"tick": 12438,
+					"time_s": 207.3,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.726875923354,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4210855.49279419,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-193.244918823242,
+							0.000000119209289550781,
+							-2352.5634765625
+						],
+						"projectile_id": "projectile_00000001",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 0,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2605.16144418716,
+						"velocity_mps": [
+							-1.14983534812927,
+							-173.935150146484,
+							-77.6046981811523
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000252",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-193.244918823242,
+						0.000000119209289550781,
+						-2352.5634765625
+					],
+					"sequence": 252,
+					"target_id": "",
+					"tick": 12444,
+					"time_s": 207.4,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"amount": 150.302543618617,
+						"control_factor": 0.124111051173558,
+						"part_id": "steering",
+						"projectile_id": "projectile_00000001",
+						"propulsion_factor": 1.0,
+						"structure": 629.697456381383
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000253",
+					"kind": "damaged",
+					"position_m": [
+						-193.244918823242,
+						0.000000119209289550781,
+						-2352.5634765625
+					],
+					"sequence": 253,
+					"target_id": "target",
+					"tick": 12444,
+					"time_s": 207.4,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7268960626266,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000002",
+						"surface": "sea",
+						"travelled_m": 2605.28636181355
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000254",
+					"kind": "bomb_contact",
+					"position_m": [
+						-192.938995361328,
+						0.0,
+						-2376.07690429688
+					],
+					"sequence": 254,
+					"target_id": "",
+					"tick": 12453,
+					"time_s": 207.55,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7268960626266,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4210979.72855503,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-192.938995361328,
+							0.0,
+							-2376.07690429688
+						],
+						"projectile_id": "projectile_00000002",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 1,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2605.28636181355,
+						"velocity_mps": [
+							-1.15246021747589,
+							-173.934768676758,
+							-77.6124038696289
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000256",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-192.938995361328,
+						0.0,
+						-2376.07690429688
+					],
+					"sequence": 256,
+					"target_id": "",
+					"tick": 12459,
+					"time_s": 207.65,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"amount": 513.284956520137,
+						"control_factor": 0.0,
+						"part_id": "steering",
+						"projectile_id": "projectile_00000002",
+						"propulsion_factor": 1.0,
+						"structure": 116.258343406253
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000257",
+					"kind": "damaged",
+					"position_m": [
+						-192.938995361328,
+						0.0,
+						-2376.07690429688
+					],
+					"sequence": 257,
+					"target_id": "target",
+					"tick": 12459,
+					"time_s": 207.65,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7297108035584,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000003",
+						"surface": "sea",
+						"travelled_m": 2606.07218027115
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000258",
+					"kind": "bomb_contact",
+					"position_m": [
+						-192.919464111328,
+						0.0,
+						-2399.98559570312
+					],
+					"sequence": 258,
+					"target_id": "",
+					"tick": 12468,
+					"time_s": 207.8,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 11.2767906172368,
+						"control_factor": 0.217995683102169,
+						"part_id": "wing_left",
+						"projectile_id": "projectile_00000108",
+						"propulsion_factor": 1.0,
+						"structure": 128.759310355931
+					},
+					"entity_id": "target",
+					"event_id": "event_00000260",
+					"kind": "damaged",
+					"position_m": [
+						56.6161651611328,
+						1729.5830078125,
+						-2407.25244140625
+					],
+					"sequence": 260,
+					"target_id": "wing",
+					"tick": 12468,
+					"time_s": 207.8,
+					"weapon_id": "target/aa_25_starboard"
+				},
+				{
+					"data": {
+						"age_s": 19.7297108035584,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4212017.14249956,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-192.919464111328,
+							0.0,
+							-2399.98559570312
+						],
+						"projectile_id": "projectile_00000003",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 2,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2606.07218027115,
+						"velocity_mps": [
+							-1.10289597511292,
+							-173.954788208008,
+							-77.6258239746094
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000266",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-192.919464111328,
+						0.0,
+						-2399.98559570312
+					],
+					"sequence": 266,
+					"target_id": "",
+					"tick": 12474,
+					"time_s": 207.9,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"amount": 982.178946034032,
+						"control_factor": 0.0,
+						"part_id": "steering",
+						"projectile_id": "projectile_00000003",
+						"propulsion_factor": 1.0,
+						"structure": 0.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000267",
+					"kind": "damaged",
+					"position_m": [
+						-192.919464111328,
+						0.0,
+						-2399.98559570312
+					],
+					"sequence": 267,
+					"target_id": "target",
+					"tick": 12474,
+					"time_s": 207.9,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"domain": "ship",
+						"phase": "sinking"
+					},
+					"entity_id": "target",
+					"event_id": "event_00000268",
+					"kind": "damage_phase",
+					"position_m": [
+						-214.82438659668,
+						0.0,
+						-2468.01391601562
+					],
+					"sequence": 268,
+					"target_id": "",
+					"tick": 12474,
+					"time_s": 207.9,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"age_s": 19.7295678353055,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000004",
+						"surface": "sea",
+						"travelled_m": 2606.39873051643
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000272",
+					"kind": "bomb_contact",
+					"position_m": [
+						-190.076919555664,
+						0.0,
+						-2423.86401367188
+					],
+					"sequence": 272,
+					"target_id": "",
+					"tick": 12483,
+					"time_s": 208.05,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7295678353055,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4212324.10458018,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-190.076919555664,
+							0.0,
+							-2423.86401367188
+						],
+						"projectile_id": "projectile_00000004",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 3,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2606.39873051643,
+						"velocity_mps": [
+							-0.991854846477509,
+							-173.952239990234,
+							-77.6500778198242
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000274",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-190.076919555664,
+						0.0,
+						-2423.86401367188
+					],
+					"sequence": 274,
+					"target_id": "",
+					"tick": 12489,
+					"time_s": 208.15,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.726875923354,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000005",
+						"surface": "sea",
+						"travelled_m": 2605.16020262241
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000275",
+					"kind": "bomb_contact",
+					"position_m": [
+						45.6879272460938,
+						0.000000119209289550781,
+						-2364.32861328125
+					],
+					"sequence": 275,
+					"target_id": "",
+					"tick": 12497,
+					"time_s": 208.283333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7325932373123,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000006",
+						"surface": "sea",
+						"travelled_m": 2607.45592153072
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000276",
+					"kind": "bomb_contact",
+					"position_m": [
+						-188.299057006836,
+						0.0,
+						-2448.16015625
+					],
+					"sequence": 276,
+					"target_id": "",
+					"tick": 12498,
+					"time_s": 208.3,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.726875923354,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4210855.49279419,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							45.6879272460938,
+							0.000000119209289550781,
+							-2364.32861328125
+						],
+						"projectile_id": "projectile_00000005",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 0,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2605.16020262241,
+						"velocity_mps": [
+							-1.1507283449173,
+							-173.935150146484,
+							-77.6046752929688
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000280",
+					"kind": "bomb_explosion",
+					"position_m": [
+						45.6879272460938,
+						0.000000119209289550781,
+						-2364.32861328125
+					],
+					"sequence": 280,
+					"target_id": "",
+					"tick": 12503,
+					"time_s": 208.383333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7325932373123,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4213642.18252456,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-188.299057006836,
+							0.0,
+							-2448.16015625
+						],
+						"projectile_id": "projectile_00000006",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 4,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2607.45592153072,
+						"velocity_mps": [
+							-0.866957068443298,
+							-173.972732543945,
+							-77.6787567138672
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000282",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-188.299057006836,
+						0.0,
+						-2448.16015625
+					],
+					"sequence": 282,
+					"target_id": "",
+					"tick": 12504,
+					"time_s": 208.4,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7268960626266,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000007",
+						"surface": "sea",
+						"travelled_m": 2605.2854231596
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000283",
+					"kind": "bomb_contact",
+					"position_m": [
+						45.9935455322266,
+						0.0,
+						-2387.84252929688
+					],
+					"sequence": 283,
+					"target_id": "",
+					"tick": 12512,
+					"time_s": 208.533333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.732515071339,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000008",
+						"surface": "sea",
+						"travelled_m": 2608.02153480053
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000284",
+					"kind": "bomb_contact",
+					"position_m": [
+						-185.341323852539,
+						0.0,
+						-2472.3876953125
+					],
+					"sequence": 284,
+					"target_id": "",
+					"tick": 12513,
+					"time_s": 208.55,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7268960626266,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4210980.18197021,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							45.9935455322266,
+							0.0,
+							-2387.84252929688
+						],
+						"projectile_id": "projectile_00000007",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 1,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2605.2854231596,
+						"velocity_mps": [
+							-1.15335309505463,
+							-173.934768676758,
+							-77.6124038696289
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000286",
+					"kind": "bomb_explosion",
+					"position_m": [
+						45.9935455322266,
+						0.0,
+						-2387.84252929688
+					],
+					"sequence": 286,
+					"target_id": "",
+					"tick": 12518,
+					"time_s": 208.633333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.732515071339,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4214176.75902832,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							-185.341323852539,
+							0.0,
+							-2472.3876953125
+						],
+						"projectile_id": "projectile_00000008",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 5,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2608.02153480053,
+						"velocity_mps": [
+							-0.754210293292999,
+							-173.969390869141,
+							-77.7170639038086
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000288",
+					"kind": "bomb_explosion",
+					"position_m": [
+						-185.341323852539,
+						0.0,
+						-2472.3876953125
+					],
+					"sequence": 288,
+					"target_id": "",
+					"tick": 12519,
+					"time_s": 208.65,
+					"weapon_id": "bomber/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7297108035584,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000009",
+						"surface": "sea",
+						"travelled_m": 2606.0710221529
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000289",
+					"kind": "bomb_contact",
+					"position_m": [
+						46.0128707885742,
+						0.0,
+						-2411.75073242188
+					],
+					"sequence": 289,
+					"target_id": "",
+					"tick": 12527,
+					"time_s": 208.783333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7297108035584,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4212017.14249956,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							46.0128707885742,
+							0.0,
+							-2411.75073242188
+						],
+						"projectile_id": "projectile_00000009",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 2,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2606.0710221529,
+						"velocity_mps": [
+							-1.10377252101898,
+							-173.954788208008,
+							-77.6258087158203
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000293",
+					"kind": "bomb_explosion",
+					"position_m": [
+						46.0128707885742,
+						0.0,
+						-2411.75073242188
+					],
+					"sequence": 293,
+					"target_id": "",
+					"tick": 12533,
+					"time_s": 208.883333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7295671334274,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000010",
+						"surface": "sea",
+						"travelled_m": 2606.39783143997
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000294",
+					"kind": "bomb_contact",
+					"position_m": [
+						48.8569793701172,
+						0.0,
+						-2435.6298828125
+					],
+					"sequence": 294,
+					"target_id": "",
+					"tick": 12542,
+					"time_s": 209.033333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7295671334274,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4212323.65116499,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							48.8569793701172,
+							0.0,
+							-2435.6298828125
+						],
+						"projectile_id": "projectile_00000010",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 3,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2606.39783143997,
+						"velocity_mps": [
+							-0.992627322673798,
+							-173.952224731445,
+							-77.6500625610352
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000296",
+					"kind": "bomb_explosion",
+					"position_m": [
+						48.8569793701172,
+						0.0,
+						-2435.6298828125
+					],
+					"sequence": 296,
+					"target_id": "",
+					"tick": 12548,
+					"time_s": 209.133333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"ammo_id": "s03_jp_25mm_type96_he",
+						"amount": 11.3228747426393,
+						"control_factor": 0.0,
+						"part_id": "tail",
+						"projectile_id": "projectile_00000114",
+						"propulsion_factor": 1.0,
+						"structure": 123.715966678657
+					},
+					"entity_id": "target",
+					"event_id": "event_00000298",
+					"kind": "damaged",
+					"position_m": [
+						65.1852798461914,
+						1664.57849121094,
+						-2534.97924804688
+					],
+					"sequence": 298,
+					"target_id": "wing",
+					"tick": 12554,
+					"time_s": 209.233333333333,
+					"weapon_id": "target/aa_25_starboard"
+				},
+				{
+					"data": {
+						"domain": "aircraft",
+						"phase": "crashing"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000300",
+					"kind": "damage_phase",
+					"position_m": [
+						65.656005859375,
+						1661.62634277344,
+						-2541.87133789062
+					],
+					"sequence": 300,
+					"target_id": "",
+					"tick": 12554,
+					"time_s": 209.233333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"age_s": 19.7325921790657,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"order_id": "bombing_commander_1",
+						"projectile_id": "projectile_00000011",
+						"surface": "sea",
+						"travelled_m": 2607.45450758934
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000304",
+					"kind": "bomb_contact",
+					"position_m": [
+						50.63818359375,
+						0.0,
+						-2459.92504882812
+					],
+					"sequence": 304,
+					"target_id": "",
+					"tick": 12557,
+					"time_s": 209.283333333333,
+					"weapon_id": "wing/bomb_rack"
+				},
+				{
+					"data": {
+						"age_s": 19.7325921790657,
+						"ammo_id": "us_an_m64_tnt_tm1950",
+						"armed": true,
+						"caliber_m": 0.36068,
+						"energy_j": 4213642.63593975,
+						"normal": [
+							0.0,
+							1.0,
+							0.0
+						],
+						"order_id": "bombing_commander_1",
+						"position_m": [
+							50.63818359375,
+							0.0,
+							-2459.92504882812
+						],
+						"projectile_id": "projectile_00000011",
+						"radius_m": 75.0,
+						"release_mode": "gravity_release",
+						"slot": 4,
+						"source_faction_id": "us",
+						"surface": "sea",
+						"target_id": "",
+						"travelled_m": 2607.45450758934,
+						"velocity_mps": [
+							-0.86754310131073,
+							-173.972747802734,
+							-77.6787414550781
+						],
+						"visual_radius_m": 28.0
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000308",
+					"kind": "bomb_explosion",
+					"position_m": [
+						50.63818359375,
+						0.0,
+						-2459.92504882812
+					],
+					"sequence": 308,
+					"target_id": "",
+					"tick": 12563,
+					"time_s": 209.383333333333,
+					"weapon_id": "wing/bomb_rack"
+				}
+			],
+			"first_order_s": 25.0333333333333,
+			"first_own_contact_s": 25.0,
+			"mode": "far",
+			"released": 12
+		},
+		{
+			"abort_reasons": [
+				"fuel_reserve",
+				"fuel_reserve"
+			],
+			"events": [
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "pullout",
+						"reason": "fuel_reserve"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000012",
+					"kind": "bombing_phase",
+					"position_m": [
+						0.0,
+						1800.0,
+						5498.41650390625
+					],
+					"sequence": 12,
+					"target_id": "",
+					"tick": 2,
+					"time_s": 0.0333333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "pullout",
+						"reason": "fuel_reserve"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000015",
+					"kind": "bombing_phase",
+					"position_m": [
+						240.0,
+						1800.0,
+						5578.41650390625
+					],
+					"sequence": 15,
+					"target_id": "",
+					"tick": 2,
+					"time_s": 0.0333333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "egress",
+						"reason": "positive_climb_established"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000021",
+					"kind": "bombing_phase",
+					"position_m": [
+						0.0,
+						1809.44958496094,
+						5308.75341796875
+					],
+					"sequence": 21,
+					"target_id": "",
+					"tick": 123,
+					"time_s": 2.05,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "egress",
+						"reason": "positive_climb_established"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000023",
+					"kind": "bombing_phase",
+					"position_m": [
+						240.0,
+						1809.44958496094,
+						5388.75341796875
+					],
+					"sequence": 23,
+					"target_id": "",
+					"tick": 123,
+					"time_s": 2.05,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "regroup",
+						"reason": "clear_of_attack_run"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000025",
+					"kind": "bombing_phase",
+					"position_m": [
+						0.0,
+						1901.88903808594,
+						4408.12646484375
+					],
+					"sequence": 25,
+					"target_id": "",
+					"tick": 734,
+					"time_s": 12.2333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "regroup",
+						"reason": "clear_of_attack_run"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000027",
+					"kind": "bombing_phase",
+					"position_m": [
+						240.0,
+						1901.88903808594,
+						4488.12646484375
+					],
+					"sequence": 27,
+					"target_id": "",
+					"tick": 734,
+					"time_s": 12.2333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "return",
+						"reason": "formation_on_return_heading"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000029",
+					"kind": "bombing_phase",
+					"position_m": [
+						3267.119140625,
+						1205.36401367188,
+						5206.96728515625
+					],
+					"sequence": 29,
+					"target_id": "",
+					"tick": 5494,
+					"time_s": 91.5666666666667,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "return",
+						"reason": "formation_on_return_heading"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000031",
+					"kind": "bombing_phase",
+					"position_m": [
+						3507.12768554688,
+						1205.36401367188,
+						5286.9677734375
+					],
+					"sequence": 31,
+					"target_id": "",
+					"tick": 5494,
+					"time_s": 91.5666666666667,
+					"weapon_id": ""
+				}
+			],
+			"first_order_s": 0.0333333333333333,
+			"first_own_contact_s": 0.0166666666666667,
+			"mode": "low_fuel",
+			"released": 0
+		},
+		{
+			"abort_reasons": [
+				"empty_load",
+				"empty_load"
+			],
+			"events": [
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "pullout",
+						"reason": "empty_load"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000012",
+					"kind": "bombing_phase",
+					"position_m": [
+						0.0,
+						1800.0,
+						5498.41650390625
+					],
+					"sequence": 12,
+					"target_id": "",
+					"tick": 2,
+					"time_s": 0.0333333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "pullout",
+						"reason": "empty_load"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000015",
+					"kind": "bombing_phase",
+					"position_m": [
+						240.0,
+						1800.0,
+						5578.41650390625
+					],
+					"sequence": 15,
+					"target_id": "",
+					"tick": 2,
+					"time_s": 0.0333333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "egress",
+						"reason": "positive_climb_established"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000021",
+					"kind": "bombing_phase",
+					"position_m": [
+						0.0,
+						1809.47924804688,
+						5308.294921875
+					],
+					"sequence": 21,
+					"target_id": "",
+					"tick": 123,
+					"time_s": 2.05,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "egress",
+						"reason": "positive_climb_established"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000023",
+					"kind": "bombing_phase",
+					"position_m": [
+						240.0,
+						1809.47924804688,
+						5388.294921875
+					],
+					"sequence": 23,
+					"target_id": "",
+					"tick": 123,
+					"time_s": 2.05,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "regroup",
+						"reason": "clear_of_attack_run"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000025",
+					"kind": "bombing_phase",
+					"position_m": [
+						0.0,
+						1904.42687988281,
+						4407.24462890625
+					],
+					"sequence": 25,
+					"target_id": "",
+					"tick": 723,
+					"time_s": 12.05,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "regroup",
+						"reason": "clear_of_attack_run"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000027",
+					"kind": "bombing_phase",
+					"position_m": [
+						240.0,
+						1904.42687988281,
+						4487.24462890625
+					],
+					"sequence": 27,
+					"target_id": "",
+					"tick": 723,
+					"time_s": 12.05,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "return",
+						"reason": "formation_on_return_heading"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000029",
+					"kind": "bombing_phase",
+					"position_m": [
+						4017.67309570312,
+						1800.0224609375,
+						5714.2353515625
+					],
+					"sequence": 29,
+					"target_id": "",
+					"tick": 6352,
+					"time_s": 105.866666666667,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "return",
+						"reason": "formation_on_return_heading"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000031",
+					"kind": "bombing_phase",
+					"position_m": [
+						4257.67333984375,
+						1800.0224609375,
+						5794.24072265625
+					],
+					"sequence": 31,
+					"target_id": "",
+					"tick": 6352,
+					"time_s": 105.866666666667,
+					"weapon_id": ""
+				}
+			],
+			"first_order_s": 0.0333333333333333,
+			"first_own_contact_s": 0.0166666666666667,
+			"mode": "empty",
+			"released": 0
+		},
+		{
+			"abort_reasons": [
+				"target_lost",
+				"target_lost"
+			],
+			"events": [
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "pullout",
+						"reason": "target_lost"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000017",
+					"kind": "bombing_phase",
+					"position_m": [
+						-0.0079442085698247,
+						1800.0,
+						5028.9423828125
+					],
+					"sequence": 17,
+					"target_id": "",
+					"tick": 300,
+					"time_s": 5.0,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "pullout",
+						"reason": "target_lost"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000019",
+					"kind": "bombing_phase",
+					"position_m": [
+						239.992385864258,
+						1800.0,
+						5108.9423828125
+					],
+					"sequence": 19,
+					"target_id": "",
+					"tick": 300,
+					"time_s": 5.0,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "egress",
+						"reason": "positive_climb_established"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000021",
+					"kind": "bombing_phase",
+					"position_m": [
+						-0.0268770698457956,
+						1809.38220214844,
+						4840.78369140625
+					],
+					"sequence": 21,
+					"target_id": "",
+					"tick": 421,
+					"time_s": 7.01666666666667,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "egress",
+						"reason": "positive_climb_established"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000023",
+					"kind": "bombing_phase",
+					"position_m": [
+						239.974166870117,
+						1809.38220214844,
+						4920.78369140625
+					],
+					"sequence": 23,
+					"target_id": "",
+					"tick": 421,
+					"time_s": 7.01666666666667,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "regroup",
+						"reason": "clear_of_attack_run"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000025",
+					"kind": "bombing_phase",
+					"position_m": [
+						-0.0437685921788216,
+						1904.3583984375,
+						3939.42114257812
+					],
+					"sequence": 25,
+					"target_id": "",
+					"tick": 1036,
+					"time_s": 17.2666666666667,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "regroup",
+						"reason": "clear_of_attack_run"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000027",
+					"kind": "bombing_phase",
+					"position_m": [
+						239.958190917969,
+						1904.3583984375,
+						4019.42114257812
+					],
+					"sequence": 27,
+					"target_id": "",
+					"tick": 1036,
+					"time_s": 17.2666666666667,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "return",
+						"reason": "formation_on_return_heading"
+					},
+					"entity_id": "bomber",
+					"event_id": "event_00000029",
+					"kind": "bombing_phase",
+					"position_m": [
+						4001.91528320312,
+						1800.02319335938,
+						5079.9990234375
+					],
+					"sequence": 29,
+					"target_id": "",
+					"tick": 6380,
+					"time_s": 106.333333333333,
+					"weapon_id": ""
+				},
+				{
+					"data": {
+						"order_id": "bombing_commander_1",
+						"phase": "return",
+						"reason": "formation_on_return_heading"
+					},
+					"entity_id": "wing",
+					"event_id": "event_00000031",
+					"kind": "bombing_phase",
+					"position_m": [
+						4241.92431640625,
+						1800.02319335938,
+						5159.98583984375
+					],
+					"sequence": 31,
+					"target_id": "",
+					"tick": 6380,
+					"time_s": 106.333333333333,
+					"weapon_id": ""
+				}
+			],
+			"first_order_s": 0.0333333333333333,
+			"first_own_contact_s": 0.0166666666666667,
+			"mode": "lost_contact",
+			"released": 0
+		}
+	],
+	"checks": [
+		{
+			"label": "near explicit scenario inputs validate",
+			"passed": true
+		},
+		{
+			"label": "near actual own contact precedes command within decision cadence",
+			"passed": true
+		},
+		{
+			"label": "far explicit scenario inputs validate",
+			"passed": true
+		},
+		{
+			"label": "far actual own contact precedes command within decision cadence",
+			"passed": true
+		},
+		{
+			"label": "low_fuel explicit scenario inputs validate",
+			"passed": true
+		},
+		{
+			"label": "low_fuel actual input prevents release",
+			"passed": true
+		},
+		{
+			"label": "low_fuel actual reason reported by sole mission delegate",
+			"passed": true
+		},
+		{
+			"label": "low_fuel no generic fighter retreat steals pullout/egress",
+			"passed": true
+		},
+		{
+			"label": "low_fuel actual own contact precedes command within decision cadence",
+			"passed": true
+		},
+		{
+			"label": "empty explicit scenario inputs validate",
+			"passed": true
+		},
+		{
+			"label": "empty actual input prevents release",
+			"passed": true
+		},
+		{
+			"label": "empty actual reason reported by sole mission delegate",
+			"passed": true
+		},
+		{
+			"label": "empty no generic fighter retreat steals pullout/egress",
+			"passed": true
+		},
+		{
+			"label": "empty actual own contact precedes command within decision cadence",
+			"passed": true
+		},
+		{
+			"label": "lost_contact explicit scenario inputs validate",
+			"passed": true
+		},
+		{
+			"label": "lost_contact actual input prevents release",
+			"passed": true
+		},
+		{
+			"label": "lost_contact actual reason reported by sole mission delegate",
+			"passed": true
+		},
+		{
+			"label": "lost_contact no generic fighter retreat steals pullout/egress",
+			"passed": true
+		},
+		{
+			"label": "lost_contact actual own contact precedes command within decision cadence",
+			"passed": true
+		},
+		{
+			"label": "far approach delays actual contact and consequent command",
+			"passed": true
+		}
+	],
+	"failed": 0
+}

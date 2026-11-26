@@ -1,0 +1,63 @@
+{
+  "run_id": "20261109T210605-950870bf",
+  "owner": "S05",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 92116,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 92118,
+      "process_group": 92118,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.0247,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T210605-950870bf/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_combat_presence.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 92119,
+      "process_group": 92119,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": true,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.7552,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T210605-950870bf/01-output.log",
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S05",
+    "pid": 92116,
+    "process_identity": "Tue Nov 10 05:06:05 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S05 --timeout 60 --lock-timeout 15 test res://tests/test_combat_presence.gd res://.local/validation/probes/departed_collision.gd",
+    "token": "e9c9d122ecba40b0a4b4dd5e1c51fcfb",
+    "acquired_utc": "2026-11-09T21:06:05.659033+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 1
+}

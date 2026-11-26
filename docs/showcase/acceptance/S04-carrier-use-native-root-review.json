@@ -1,0 +1,45 @@
+{
+  "task": "S04-carrier-use",
+  "status": "native_model_review_passed_final_manifest_pending",
+  "reviewed_utc": "2026-11-11T11:08:21.204492+00:00",
+  "actually_viewed": [
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r10/native/parked_front_quarter.png",
+      "sha256": "cca3a916197bb2494fd121f88d8a0602b5a696f8cc5bb6470cfcc375d0f2125f"
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r10/native/parked_side.png",
+      "sha256": "6f5d08f78698dc1fa41f5064681ce105fc1a55679aa67568ad01972b15692ff5"
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r10/native/approach_quarter.png",
+      "sha256": "1a1ad69970c51b0188aac8b2435e7aed10611acda74d8193d55b9ac691ae973f"
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r10/native/hook_contact_side.png",
+      "sha256": "098750a087e6cdf5e0a3816ee037b79a83bb60944e68fc9f746cac44d5ff3e43"
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r10/native/damage_wing_left.png",
+      "sha256": "5f04ca3585f0e7b64ba7eb7e552ae47c3095fd08fd8243b77ecf956af64c25ed"
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r10/native/clean_underside.png",
+      "sha256": "465a4224a41d0411b8fb6e29d45d44cde067b02a2290e7cb465b0da90034fd7a"
+    }
+  ],
+  "capture_path": "docs/showcase/evidence/S04-carrier-usage/r10/native/capture.json",
+  "capture_sha256": "1c22548f87b5bbc76f764dd55b8aab79c3b55b93cfee0e4904b5972f6dfe5cb0",
+  "findings": [
+    "Short tailwheel, forward mainwheel position and tyre-derived nose-up stance are acceptable for the simplified model.",
+    "Actual CV01 support plane, gear connection and ground shadow are visually readable after inspection near/far correction.",
+    "r8 flap penetration is resolved in r10: actual deployed35degree triangles clear deck by0.25559845m, full propeller disc by0.23729590m.",
+    "Lowered wheel and flap remain attached to detached wing; clean state restores external silhouette.",
+    "No new model detail requested. Final source/tests/cleanup audit pending."
+  ],
+  "limits": [
+    "Static revised carrier fixtures; no claim of actual continuous takeoff/recovery.",
+    "OPS old co-planar wheel contacts, pitch0 and fixed4.4m hook offset are withdrawn.",
+    "CPU source v2 and actual model must be consumed together by OPS before full usage acceptance."
+  ]
+}

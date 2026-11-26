@@ -1,0 +1,36 @@
+--- a/scripts/simulation/state/battle_order.gd
++++ b/scripts/simulation/state/battle_order.gd
+@@ -1,7 +1,7 @@
+ class_name BattleOrder
+ extends RefCounted
+ 
+-const TYPES: PackedStringArray = ["patrol", "escort", "intercept", "engage", "regroup", "retreat", "aircraft_training"]
++const TYPES: PackedStringArray = ["patrol", "escort", "intercept", "engage", "regroup", "retreat", "aircraft_training", "bombing"]
+ const TERMINAL: PackedStringArray = ["completed", "failed", "cancelled", "superseded"]
+ const TRANSITIONS: Dictionary = {
+ 	"issued": ["received", "failed", "cancelled"],
+@@ -21,6 +21,7 @@
+ var waypoints_m: Array = []
+ var intent: String = ""
+ var training: Dictionary = {}
++var bombing: Dictionary = {}
+ var status: String = "issued"
+ var issued_tick: int = -1
+ var received_tick: int = -1
+@@ -46,6 +47,7 @@
+ 	result.waypoints_m = data.get("waypoints_m", []).duplicate(true)
+ 	result.intent = data.get("intent", "")
+ 	result.training = data.get("training", {}).duplicate(true)
++	result.bombing = data.get("bombing", {}).duplicate(true)
+ 	result.status = data.get("status", "issued")
+ 	result.issued_tick = int(data.get("issued_tick", -1))
+ 	result.received_tick = int(data.get("received_tick", -1))
+@@ -61,7 +63,7 @@
+ func request_data() -> Dictionary:
+ 	return {"order_id": order_id, "issuer_id": issuer_id, "source": source, "faction_id": faction_id,
+ 		"recipient_ids": recipient_ids.duplicate(), "order_type": order_type, "target_id": target_id,
+-		"area": area.duplicate(true), "waypoints_m": waypoints_m.duplicate(true), "intent": intent, "training": training.duplicate(true)}
++		"area": area.duplicate(true), "waypoints_m": waypoints_m.duplicate(true), "intent": intent, "training": training.duplicate(true), "bombing": bombing.duplicate(true)}
+ 
+ func snapshot() -> Dictionary:
+ 	var result: Dictionary = request_data()

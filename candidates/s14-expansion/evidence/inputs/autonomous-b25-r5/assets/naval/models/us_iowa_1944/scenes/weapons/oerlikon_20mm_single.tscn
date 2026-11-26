@@ -1,0 +1,156 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="../../scripts/iowa_weapon_mount.gd" id="1_gvyh1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vfhka"]
+cull_mode = 2
+albedo_color = Color(0.627451, 0.6509804, 0.654902, 1)
+metallic = 0.12
+roughness = 0.68
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_y8e8k"]
+rings = 0
+top_radius = 0.16
+bottom_radius = 0.16
+height = 0.64
+radial_segments = 12
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q5nhs"]
+cull_mode = 2
+albedo_color = Color(0.27450982, 0.3137255, 0.3372549, 1)
+roughness = 0.86
+
+[sub_resource type="BoxMesh" id="BoxMesh_6j6yp"]
+size = Vector3(0.7, 0.16, 0.62)
+
+[sub_resource type="BoxMesh" id="BoxMesh_nuwq7"]
+size = Vector3(0.7, 0.5, 0.13)
+
+[sub_resource type="BoxMesh" id="BoxMesh_236ul"]
+size = Vector3(0.82, 0.16, 0.18)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_45kpv"]
+rings = 0
+top_radius = 0.03
+bottom_radius = 0.03
+height = 0.45000005
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_f5c30"]
+rings = 0
+top_radius = 0.03
+bottom_radius = 0.03
+height = 0.45000005
+radial_segments = 8
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r3bx4"]
+cull_mode = 2
+albedo_color = Color(0.25490198, 0.2901961, 0.3137255, 1)
+metallic = 0.18
+roughness = 0.68
+
+[sub_resource type="BoxMesh" id="BoxMesh_8sc3l"]
+size = Vector3(0.34, 0.42, 0.8)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_rbuap"]
+rings = 0
+top_radius = 0.21
+bottom_radius = 0.21
+height = 0.36
+radial_segments = 14
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_qtsyo"]
+rings = 0
+top_radius = 0.3
+bottom_radius = 0.3
+height = 0.22
+radial_segments = 16
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_w6csa"]
+rings = 0
+top_radius = 0.045
+bottom_radius = 0.045
+height = 1.23
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ih8d0"]
+rings = 0
+top_radius = 0.065
+bottom_radius = 0.065
+height = 0.14999998
+radial_segments = 12
+
+[sub_resource type="BoxMesh" id="BoxMesh_2opyh"]
+size = Vector3(0.46, 0.12, 0.12)
+
+[node name="WeaponInstance" type="Node3D" unique_id=1868270853]
+script = ExtResource("1_gvyh1")
+
+[node name="TrainPivot" type="Node3D" parent="." unique_id=570920529]
+
+[node name="HousingAndControls" type="Node3D" parent="TrainPivot" unique_id=48081114]
+
+[node name="OerlikonColumn" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=1736467979]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.32, 0)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_y8e8k")
+
+[node name="OerlikonSeat" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=803906672]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.46, 0.52, 0.54)
+material_override = SubResource("StandardMaterial3D_q5nhs")
+mesh = SubResource("BoxMesh_6j6yp")
+
+[node name="OerlikonSeatBack" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=933586657]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.46, 0.84, 0.82)
+material_override = SubResource("StandardMaterial3D_q5nhs")
+mesh = SubResource("BoxMesh_nuwq7")
+
+[node name="ShoulderRest" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=386792419]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.12, 0.72)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("BoxMesh_236ul")
+
+[node name="ElevationYoke_Port" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=1350074168]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, -0.3, 1.125, 0)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_45kpv")
+
+[node name="ElevationYoke_Starboard" type="MeshInstance3D" parent="TrainPivot/HousingAndControls" unique_id=1618380275]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 0.3, 1.125, 0)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_f5c30")
+
+[node name="ElevationPivot" type="Node3D" parent="TrainPivot" unique_id=814496137]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.98, 0)
+
+[node name="GunsAndCradle" type="Node3D" parent="TrainPivot/ElevationPivot" unique_id=1196843900]
+
+[node name="OerlikonReceiver" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1731445975]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14, -0.36)
+material_override = SubResource("StandardMaterial3D_r3bx4")
+mesh = SubResource("BoxMesh_8sc3l")
+
+[node name="OerlikonBreech" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=864649063]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14, 0.09)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_rbuap")
+
+[node name="OerlikonDrumMagazine" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1054218254]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.18, -0.27)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_qtsyo")
+
+[node name="OerlikonBarrel" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1382843250]
+transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0.16, -1.335)
+material_override = SubResource("StandardMaterial3D_r3bx4")
+mesh = SubResource("CylinderMesh_w6csa")
+
+[node name="OerlikonMuzzleRing" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=1740411709]
+transform = Transform3D(-1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0.16, -1.905)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("CylinderMesh_ih8d0")
+
+[node name="OerlikonSights" type="MeshInstance3D" parent="TrainPivot/ElevationPivot/GunsAndCradle" unique_id=702401752]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47, -0.52)
+material_override = SubResource("StandardMaterial3D_vfhka")
+mesh = SubResource("BoxMesh_2opyh")

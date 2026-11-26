@@ -1,0 +1,78 @@
+[
+  {
+    "scene": "all",
+    "command": [
+      "python3",
+      "tools/run_first_playable.py",
+      "native",
+      "--owner",
+      "S08-native-all",
+      "--scene",
+      "all",
+      "--seconds",
+      "90",
+      "--quit-after-frames",
+      "12"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"passed\": true, \"exit_code\": 0, \"report\": \"/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214135-251a2eba/report.json\"}\n",
+    "stderr": ""
+  },
+  {
+    "scene": "open-sea",
+    "command": [
+      "python3",
+      "tools/run_first_playable.py",
+      "native",
+      "--owner",
+      "S08-native-open-sea",
+      "--scene",
+      "open-sea",
+      "--seconds",
+      "90",
+      "--quit-after-frames",
+      "12"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"passed\": true, \"exit_code\": 0, \"report\": \"/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214142-3ed15607/report.json\"}\n",
+    "stderr": ""
+  },
+  {
+    "scene": "harbor",
+    "command": [
+      "python3",
+      "tools/run_first_playable.py",
+      "native",
+      "--owner",
+      "S08-native-harbor",
+      "--scene",
+      "harbor",
+      "--seconds",
+      "90",
+      "--quit-after-frames",
+      "12"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"passed\": true, \"exit_code\": 0, \"report\": \"/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214159-a70043ad/report.json\"}\n",
+    "stderr": ""
+  },
+  {
+    "scene": "yamato",
+    "command": [
+      "python3",
+      "tools/run_first_playable.py",
+      "native",
+      "--owner",
+      "S08-native-yamato",
+      "--scene",
+      "yamato",
+      "--seconds",
+      "90",
+      "--quit-after-frames",
+      "12"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"passed\": true, \"exit_code\": 0, \"report\": \"/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214204-b1f0beb4/report.json\"}\n",
+    "stderr": ""
+  }
+]

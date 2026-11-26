@@ -1,0 +1,23 @@
+{
+  "id": "jp_d4y2_model12_1944_10",
+  "display_name": "D4Y2 Model12 1944-10",
+  "domain": "aircraft",
+  "country_id": "jp",
+  "configuration_date": "1944-10",
+  "service_entry_year": 1944,
+  "model_scene": "res://scenes/units/aircraft/jp_d4y2_model12_1944_10.tscn",
+  "dimensions_m": [
+    11.5,
+    3.8,
+    10.22
+  ],
+  "mounts": [],
+  "weapon_definitions": [],
+  "historical_fixed_armament": [],
+  "dedicated_aa_historical": [],
+  "dedicated_aa_game": [],
+  "source": {
+    "status": "provisional",
+    "notes": "BOMB01: primary ordnance basis and separately marked operating approximations; docs/references/bomb01/sources.md"
+  }
+}

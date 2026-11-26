@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "date": "2026-11-10",
+  "task": "S12",
+  "old_thread": {
+    "id": "01a1c5b8-d7b6-7c20-aa9e-e423a800e2af",
+    "title": "Showcase S12｜现代观战 UI 规划",
+    "status": "systemError",
+    "error": "Bad Request",
+    "consecutive_failed_turns": 3,
+    "latest_failed_turn": "01a1c5ec-780f-7663-8a08-4efcf6689bcd",
+    "latest_turn_duration_ms": 2934,
+    "root_cause": "not_established_from_thread_error"
+  },
+  "user_instruction": "实在不行就删掉重新建一个对话",
+  "replacement_thread": {
+    "id": "01a1c601-5a5b-7ed0-9c8d-9a943a575205",
+    "title": "Showcase S12｜现代观战 UI 接续",
+    "status": "completed_handoff_idle",
+    "turn_id": "01a1c601-5b6d-7f50-bff2-04031dcf5ca0",
+    "cursor": "8aad8689-c5d8-43a3-9ddc-08fcd31e4a0e:4"
+  },
+  "old_thread_deletion": "delete_tool_returned_not_found; absent_from_subsequent_recent_50_listing; no successful deletion claim",
+  "selected_direction": 1,
+  "selected_title": "外围轻 HUD",
+  "implementation_started": false,
+  "preserved_files": [
+    {
+      "path": "docs/ui/observer-ui-plan.md",
+      "sha256": "0d3b349926f21645a09da655fdf1fb1183d1f13ac027f1229d779494f93c0f0b"
+    },
+    {
+      "path": "docs/ui/concepts/directions.md",
+      "sha256": "68ef20a7107e54052e9f1d7fe0b45b1f5b8de303c3186dd6b7755ed807abefcc"
+    },
+    {
+      "path": "docs/ui/concepts/index.json",
+      "sha256": "86a8c3f9fb2df0e5f59d5b323db5209ec1a08a89549c555ce8782e59cb140577"
+    },
+    {
+      "path": "docs/ui/concepts/01-peripheral-hud.png",
+      "sha256": "2fc52b310fa41f5fe68539653d0df635087c900beafa1ea723a99470fa306753"
+    },
+    {
+      "path": "docs/ui/concepts/02-bottom-tactical-dock.png",
+      "sha256": "96c5827b6c2d8355f831bbe40268f2cff8f1832c6461f01601bc53fe73447972"
+    },
+    {
+      "path": "docs/ui/concepts/03-context-sidebar.png",
+      "sha256": "95aecca1fadf085f17ca4718bebbcfc16ed5dc6993e8966c290bab3873850b9e"
+    }
+  ],
+  "checks": "Root independently verified three proposal image hashes, two approved reference hashes, two delivery document hashes, and selected_direction=1.",
+  "official_recovery_reference": "https://learn.chatgpt.com/docs/reference/troubleshooting#stuck-states-and-recovery-patterns",
+  "recovery_method": "Start a focused new chat from saved local planning files; do not inherit the failed transcript or repeat generation."
+}

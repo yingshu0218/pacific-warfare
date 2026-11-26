@@ -1,0 +1,57 @@
+{
+  "aircraft/sb2c4/sb2c4.gd": {
+    "before": "6da0e7cfbb45027217bc5eda90551c3b75cacaf1151eaf8b60c30d97be18cb61",
+    "after": "6da0e7cfbb45027217bc5eda90551c3b75cacaf1151eaf8b60c30d97be18cb61",
+    "same": true
+  },
+  "aircraft/d4y2/d4y2.gd": {
+    "before": "dcf01b49745b93fb1c3737823e355a2b4bf3d607f216e8ac43035809d821bcbf",
+    "after": "dcf01b49745b93fb1c3737823e355a2b4bf3d607f216e8ac43035809d821bcbf",
+    "same": true
+  },
+  "aircraft/scripts/aircraft_builder.gd": {
+    "before": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+    "after": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+    "same": true
+  },
+  "scripts/showcase/sb2c_flight_adapter.gd": {
+    "before": "959aa7c3039be1fc34cbb2caa4c086fe2b0981857a7b9b911b19de90789d32b9",
+    "after": "959aa7c3039be1fc34cbb2caa4c086fe2b0981857a7b9b911b19de90789d32b9",
+    "same": true
+  },
+  "project.godot": {
+    "before": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+    "after": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+    "same": true
+  },
+  "scripts/map02/expanded_map_data.gd": {
+    "before": "26addcec3d15a79f11936c0cb2fbaad6373466575b32e617b739a1bdad58433e",
+    "after": "26addcec3d15a79f11936c0cb2fbaad6373466575b32e617b739a1bdad58433e",
+    "same": true
+  },
+  "scripts/map02/expanded_map_view.gd": {
+    "before": "32096520c098a56c81ec9d9f1a29189539fbad075e01a64d6e1354d2f45d9b25",
+    "after": "32096520c098a56c81ec9d9f1a29189539fbad075e01a64d6e1354d2f45d9b25",
+    "same": true
+  },
+  "scripts/presentation/maps/island_harbor_view.gd": {
+    "before": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+    "after": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+    "same": true
+  },
+  "scripts/simulation/terrain/terrain_queries.gd": {
+    "before": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868",
+    "after": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868",
+    "same": true
+  },
+  "data/maps/island_harbor_expanded.json": {
+    "before": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
+    "after": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
+    "same": true
+  },
+  "data/map02/regions.json": {
+    "before": "9001179a2e2c48774c4c62d8afecc2e10d131d5a717a045b42742d77056d5816",
+    "after": "9001179a2e2c48774c4c62d8afecc2e10d131d5a717a045b42742d77056d5816",
+    "same": true
+  }
+}

@@ -1,0 +1,328 @@
+--- a/aircraft/scripts/aircraft_builder.gd
++++ b/aircraft/scripts/aircraft_builder.gd
+@@ -744,7 +744,7 @@
+ 	landing_gear = _new_group(self, "Landing gear")
+ 	for side in [-1.0, 1.0]:
+ 		var root := Vector3(side * root_x, root_y, z)
+-		var wheel := Vector3(side * spread, wheel_radius, z + 0.13)
++		var wheel := Vector3(side * spread, float(spec.get("main_wheel_center_y_m",wheel_radius)), z + 0.13)
+ 		_add_gear(side, root, wheel, wheel_radius, "Main gear left" if side < 0.0 else "Main gear right")
+ 		var door_outline := PackedVector2Array([
+ 			Vector2(side * (root_x - 0.25), z - 0.38), Vector2(side * (root_x + 0.27), z - 0.38),
+@@ -773,7 +773,15 @@
+ 			var point: Vector2 = leading.lerp(trailing,v)
+ 			var station: Vector4 = _sample_wing_profile(wing_profile,absf(point.x))
+ 			var chord_t: float = clampf((point.y-station.z)/station.y,0,1)
+-			var lower_y: float = station.w+_airfoil_height(chord_t,station.y,_wing_thickness_ratio(wing_profile,absf(point.x)),false)
++			var thickness: float = _wing_thickness_ratio(wing_profile,absf(point.x))
++			var lower_y: float = station.w+_airfoil_height(chord_t,station.y,thickness,false)
++			if bool(spec.get("fit_gear_cover_triangles",false)):
++				# F6F's forward wheel bay follows actual leading-edge triangles;
++				# unmodified aircraft keep their admitted cover geometry.
++				var segment: int = mini(AIRFOIL_STEPS-1,floori(chord_t*AIRFOIL_STEPS))
++				var chord_a: float = float(segment)/AIRFOIL_STEPS
++				var chord_b: float = float(segment+1)/AIRFOIL_STEPS
++				lower_y = station.w+lerpf(_airfoil_height(chord_a,station.y,thickness,false),_airfoil_height(chord_b,station.y,thickness,false),chord_t*AIRFOIL_STEPS-segment)
+ 			surface.add_vertex(Vector3(point.x,lower_y-0.004,point.y))
+ 	for row: int in STEPS:
+ 		for column: int in STEPS:
+--- a/aircraft/models/f6f5.gd
++++ b/aircraft/models/f6f5.gd
+@@ -1,4 +1,40 @@
+ extends "res://aircraft/scripts/aircraft_builder.gd"
++
++## Presentation only. The accepted airframe, origin and gun sockets are unchanged.
++const CARRIER_GEOMETRY: Script = preload("res://scripts/aircraft_geometry/f6f5_carrier_geometry.gd")
++const DEFAULT_FLAP_ANGLE_RAD: float = 0.610865238198015
++const INBOARD_FLAP_START_M: float = .78 # outside the unchanged fuselage skin
++const INBOARD_FLAP_CHORD_START: float = .72 # photo-constrained aft panel, not the old broad .62 slice
++var arresting_hook: Node3D
++var arresting_hook_tip: Marker3D
++var carrier_gear: Dictionary = {}
++var carrier_contacts: Dictionary = {}
++var carrier_tyres: Dictionary = {}
++var closed_gear_covers: Array[Node3D] = []
++var flap_hinges: Array[Dictionary] = []
++var gear_deployed: bool = true
++var hook_deployed: bool = false
++var hook_deflection_rad: float = 0.0
++var flap_angle_rad: float = 0.0
++
++
++func _ready() -> void:
++	super._ready()
++	# Damage-group origins are finalized by the base ready before these rigs
++	# cache host-local transforms. The closed flap meshes remain identical.
++	for surface: Node3D in animated_surfaces:
++		var label: String = str(surface.name).to_lower()
++		if "flap" not in label: continue
++		var inboard: bool = "inboard" in label
++		var side: float = -1.0 if "port" in label else 1.0
++		var start: Vector4 = _sample_wing_profile(wing_profile,INBOARD_FLAP_START_M if inboard else 2.30)
++		var end: Vector4 = _sample_wing_profile(wing_profile,2.30 if inboard else 3.35)
++		var chord_fraction: float = INBOARD_FLAP_CHORD_START if inboard else .69
++		var a: Vector3 = Vector3(side*start.x,start.w,start.z+start.y*chord_fraction)
++		var b: Vector3 = Vector3(side*end.x,end.w,end.z+end.y*chord_fraction)
++		var to_host: Transform3D = (surface.get_parent() as Node3D).global_transform.affine_inverse()*global_transform
++		var axis: Vector3 = (to_host.basis*((b-a)*side)).normalized()
++		flap_hinges.append({"surface":surface,"rest":surface.transform,"pivot":to_host*((a+b)*.5),"axis":axis})
+ 
+ 
+ func _configure() -> void:
+@@ -16,6 +52,8 @@
+ 		"frame_color": Color("1e3248"),
+ 		"seam_color": Color("172c43"),
+ 		"prop_y": 2.52,
++		"main_wheel_center_y_m": CARRIER_GEOMETRY.WHEEL_CENTRES_M.main_left.y,
++		"fit_gear_cover_triangles": true,
+ 		"fuselage_mark_x": 0.69,
+ 		"vertex_paint_wings": true,
+ 		"piecewise_wing_profile": true,
+@@ -70,8 +108,8 @@
+ 	control_surfaces = _new_group(self, "Control surfaces")
+ 	_add_hinged_wing_control("Port aileron", wing_profile, -1.0, 3.52, 6.34, 0.76, 0.99, materials["control"])
+ 	_add_hinged_wing_control("Starboard aileron", wing_profile, 1.0, 3.52, 6.34, 0.76, 0.99, materials["control"])
+-	_add_hinged_wing_control("Port inboard flap", wing_profile, -1.0, 0.46, 2.30, 0.62, 0.99, materials["control"])
+-	_add_hinged_wing_control("Starboard inboard flap", wing_profile, 1.0, 0.46, 2.30, 0.62, 0.99, materials["control"])
++	_add_hinged_wing_control("Port inboard flap", wing_profile, -1.0, INBOARD_FLAP_START_M, 2.30, INBOARD_FLAP_CHORD_START, 0.99, materials["control"])
++	_add_hinged_wing_control("Starboard inboard flap", wing_profile, 1.0, INBOARD_FLAP_START_M, 2.30, INBOARD_FLAP_CHORD_START, 0.99, materials["control"])
+ 	_add_hinged_wing_control("Port outboard flap", wing_profile, -1.0, 2.30, 3.35, 0.69, 0.98, materials["control"])
+ 	_add_hinged_wing_control("Starboard outboard flap", wing_profile, 1.0, 2.30, 3.35, 0.69, 0.98, materials["control"])
+ 	_add_hinged_wing_control("Port elevator", tail_profile, -1.0, 0.42, 2.17, 0.71, 0.99, materials["control"])
+@@ -93,11 +131,124 @@
+ 	_add_hellcat_canopy()
+ 	if not flight_simplified:
+ 		_add_cockpit_interior(Vector3(0.0, 3.00, -1.36), 0.54, 0.62, materials["dark_steel"])
+-	_add_main_gear_pair(2.12, 1.58, -0.22, 0.43, 1.93)
+-	_add_tailwheel(Vector3(0.0, 0.15, 4.52), 0.15, 2.37)
++	_add_main_gear_pair(2.12, 1.58, -1.40, 0.43, 1.93)
++	_add_tailwheel(CARRIER_GEOMETRY.WHEEL_CENTRES_M.tail, 0.15, 2.37)
+ 	_add_hellcat_marks()
+ 	if not flight_simplified:
+ 		_add_hellcat_panel_detail()
++	_prepare_carrier_usage()
++
++
++func _prepare_carrier_usage() -> void:
++	# Keep each lowered assembly inside the same detachable wing/tail as its
++	# installation. Legacy detailed viewers retain their original gear hierarchy.
++	for row: Dictionary in [{"id":"main_left","name":"Main gear left","host":"wing_left","radius":0.43}, {"id":"main_right","name":"Main gear right","host":"wing_right","radius":0.43}, {"id":"tail","name":"Tail wheel assembly","host":"tail","radius":0.15}]:
++		var gear: Node3D = landing_gear.get_node(str(row.name)) as Node3D
++		carrier_gear[row.id] = gear
++		var tyre: Node3D = gear.get_node("Tail tyre" if row.id == "tail" else "Tyre") as Node3D
++		carrier_tyres[row.id] = tyre
++		var contact: Node3D = _new_group(gear,"Tyre contact",tyre.position-Vector3.UP*float(row.radius))
++		contact.set_meta("host_part_id",row.host)
++		carrier_contacts[row.id] = contact
++		if flight_simplified:
++			gear.reparent(_damage_parent_id(str(row.host)),false)
++	if flight_simplified:
++		for side: float in [-1.0,1.0]:
++			var wing: Node3D = _wing_damage_parent(side)
++			for cover: Node in wing.find_children("Main gear bay cover *","MeshInstance3D",false,false):
++				# A Node3D boundary keeps the closed cover separately switchable
++				# through StaticModelBatch, while remaining owned by the wing.
++				var holder: Node3D = _new_group(wing,"Closed gear cover")
++				cover.reparent(holder,false)
++				closed_gear_covers.append(holder)
++	arresting_hook = _new_group(_damage_parent_id("tail"),"Arresting hook pivot",CARRIER_GEOMETRY.HOOK_INSTALLATION_M)
++	_add_cylinder(arresting_hook,"Hook root pin",0.075,0.20,Vector3.ZERO,materials["dark_steel"],"x",12)
++	_add_beam(arresting_hook,"Hook shank",Vector3.ZERO,CARRIER_GEOMETRY.HOOK_SHANK_END_M,0.035,materials["steel"],0.045,12)
++	_add_extruded_side_shape(arresting_hook,"Hook shoe",CARRIER_GEOMETRY.HOOK_SHOE_OUTLINE_M,0.10,materials["dark_steel"])
++	arresting_hook_tip = Marker3D.new()
++	arresting_hook_tip.name = "Hook contact tip"
++	arresting_hook_tip.position = CARRIER_GEOMETRY.HOOK_CONTACT_LOCAL_M
++	arresting_hook_tip.set_meta("contact_kind","arresting_hook")
++	arresting_hook.add_child(arresting_hook_tip)
++	set_landing_gear_deployed(true)
++	set_arresting_hook_deployed(false)
++
++
++func set_landing_gear_deployed(deployed: bool) -> void:
++	gear_deployed = deployed
++	landing_gear.visible = deployed
++	for gear: Node3D in carrier_gear.values(): gear.visible = deployed
++	for cover: Node3D in closed_gear_covers: cover.visible = not deployed
++
++
++func set_arresting_hook_deployed(deployed: bool) -> void:
++	hook_deployed = deployed
++	_update_hook_pose()
++
++
++func set_hook_deflection(angle_rad: float) -> bool:
++	if not is_finite(angle_rad): return false
++	hook_deflection_rad = clampf(angle_rad,0.0,CARRIER_GEOMETRY.HOOK_DEFLECTION_LIMIT_RAD)
++	_update_hook_pose()
++	return true
++
++
++func _update_hook_pose() -> void:
++	if not is_instance_valid(arresting_hook): return
++	# Two bounded external states replace the internal stinger/retraction track.
++	# No local clock, physics, procedural deployment or shared mesh mutation.
++	arresting_hook.rotation.x = CARRIER_GEOMETRY.HOOK_FREE_ANGLE_RAD-hook_deflection_rad if hook_deployed else CARRIER_GEOMETRY.HOOK_STOWED_ANGLE_RAD
++	arresting_hook.visible = hook_deployed
++
++
++func set_flaps_deployed(deployed: bool) -> void:
++	set_flap_angle(DEFAULT_FLAP_ANGLE_RAD if deployed else 0.0)
++
++
++func set_flap_angle(angle_rad: float) -> bool:
++	if not is_finite(angle_rad): return false
++	flap_angle_rad = clampf(angle_rad,0.0,deg_to_rad(50.0))
++	for hinge: Dictionary in flap_hinges:
++		var rotation: Basis = Basis(hinge.axis,flap_angle_rad)
++		var pivot: Vector3 = hinge.pivot
++		(hinge.surface as Node3D).transform = Transform3D(rotation,pivot-rotation*pivot)*(hinge.rest as Transform3D)
++	return true
++
++
++func apply_carrier_usage_state(state: Dictionary) -> void:
++	set_landing_gear_deployed(bool(state.get("gear_down",false)))
++	set_arresting_hook_deployed(bool(state.get("hook_down",false)))
++	set_hook_deflection(float(state.get("hook_deflection_rad",0.0)) if hook_deployed else 0.0)
++	set_flaps_deployed(bool(state.get("flaps_down",false)))
++
++
++func _usage_point_model(node: Node3D) -> Vector3:
++	return (global_transform.affine_inverse()*node.global_transform).origin
++
++
++func _usage_present(node: Node3D) -> bool:
++	var current: Node3D = node
++	while current != self:
++		if not current.visible: return false
++		current = current.get_parent() as Node3D
++	return true
++
++
++func get_parked_transform() -> Transform3D:
++	return CARRIER_GEOMETRY.parked_transform_model()
++
++
++func carrier_usage_model(support_normal: Vector3 = Vector3.UP) -> Dictionary:
++	if not support_normal.is_finite() or support_normal.length_squared() < .00000001: return {}
++	var contacts: Dictionary = {}
++	for id: String in carrier_contacts:
++		var contact: Node3D = carrier_contacts[id]
++		var tyre: Node3D = carrier_tyres[id]
++		var centre: Vector3 = _usage_point_model(tyre)
++		var axis: Vector3 = global_basis.inverse()*tyre.global_basis.y
++		var point: Vector3 = CARRIER_GEOMETRY.tyre_support(centre,axis,CARRIER_GEOMETRY.WHEEL_RADII_M[id],CARRIER_GEOMETRY.WHEEL_HALF_WIDTHS_M[id],support_normal)
++		contacts[id] = {"position_m":point,"centre_m":centre,"radius_m":CARRIER_GEOMETRY.WHEEL_RADII_M[id],"host_part_id":contact.get_meta("host_part_id"),"available":gear_deployed and _usage_present(contact)}
++	return {"schema_version":1,"definition_id":"us_f6f5_1944","gear_down":gear_deployed,"hook_down":hook_deployed,"flap_angle_rad":flap_angle_rad,"wheel_contacts":contacts,"hook_tip_m":_usage_point_model(arresting_hook_tip),"hook_available":hook_deployed and _usage_present(arresting_hook_tip),"hook_host_part_id":"tail","hook_pivot_m":_usage_point_model(arresting_hook),"hook_deflection_rad":hook_deflection_rad,"hook_free_angle_rad":CARRIER_GEOMETRY.HOOK_FREE_ANGLE_RAD,"hook_deflection_limit_rad":CARRIER_GEOMETRY.HOOK_DEFLECTION_LIMIT_RAD}
+ 
+ 
+ func _add_hellcat_cowl_flaps() -> void:
+--- a/scripts/presentation/models/aircraft_adapter.gd
++++ b/scripts/presentation/models/aircraft_adapter.gd
+@@ -19,7 +19,7 @@
+ 	model_root.flight_simplified = true
+ 	model_root.position.y = -2.30 if model_id == "us_f6f5_1944" else -1.60
+ 	add_child(model_root)
+-	model_root.landing_gear.visible = false
++	_apply_carrier_configuration({})
+ 	StaticModelBatch.apply(model_root, model_id)
+ 	for child: Node in model_root.find_children("*", "Marker3D", true, false):
+ 		if child.has_meta("mount_id"):
+@@ -42,7 +42,7 @@
+ 	_disabled_mounts = damage.get("disabled_mounts", [])
+ 	var flight: Dictionary = data.get("aircraft_motion", {})
+ 	model_root.propeller.rotation.z = float(flight.get("propeller_phase_rad", 0.0))
+-	model_root.landing_gear.visible = false
++	_apply_carrier_configuration(data.get("carrier_ops",{}))
+ 	for surface: Node3D in model_root.animated_surfaces:
+ 		var label: String = str(surface.name).to_lower()
+ 		if "aileron" in label:
+@@ -50,6 +50,24 @@
+ 		elif "elevator" in label:
+ 			surface.rotation.x = float(flight.get("elevator_rad", 0.0))
+ 	_apply_fragments(damage.get("aircraft", {}))
++
++func _apply_carrier_configuration(operations: Dictionary) -> void:
++	if model_id == "us_f6f5_1944" and model_root.has_method("apply_carrier_usage_state"):
++		model_root.call("apply_carrier_usage_state",operations)
++	else:
++		model_root.landing_gear.visible = false
++
++func carrier_usage_local(support_normal_local: Vector3 = Vector3.UP) -> Dictionary:
++	if not model_root.has_method("carrier_usage_model"): return {}
++	var usage: Dictionary = model_root.call("carrier_usage_model",model_root.basis.inverse()*support_normal_local)
++	if usage.is_empty(): return {}
++	for contact: Dictionary in usage.wheel_contacts.values():
++		contact.position_m = model_root.transform*(contact.position_m as Vector3)
++		contact.centre_m = model_root.transform*(contact.centre_m as Vector3)
++	usage.hook_tip_m = model_root.transform*(usage.hook_tip_m as Vector3)
++	usage.hook_pivot_m = model_root.transform*(usage.hook_pivot_m as Vector3)
++	usage["coordinate_space"] = "aircraft_local"
++	return usage
+ 
+ func _apply_fragments(aircraft: Dictionary) -> void:
+ 	var detached: Array = aircraft.get("detached_parts", [])
+--- /dev/null
++++ b/scripts/aircraft_geometry/f6f5_carrier_geometry.gd
+@@ -0,0 +1,62 @@
++class_name F6FCarrierGeometry
++extends RefCounted
++
++## Stable CPU geometry. No nodes, scene tree, renderer, clock or simulation writes.
++const GEOMETRY_ID: String = "f6f5_carrier_usage_v2"
++const MODEL_TO_FLIGHT_M: Vector3 = Vector3(0,-2.30,0)
++const HOOK_INSTALLATION_M: Vector3 = Vector3(0,2.43,4.80)
++const HOOK_STOWED_ANGLE_RAD: float = 2.0943951023932
++const HOOK_FREE_ANGLE_RAD: float = 0.20943951023932
++const HOOK_DEFLECTION_LIMIT_RAD: float = 0.698131700797732
++const HOOK_CONTACT_LOCAL_M: Vector3 = Vector3(0,-.60,.60)
++const HOOK_SHANK_END_M: Vector3 = Vector3(0,-.40,.60)
++const HOOK_SHOE_OUTLINE_M: PackedVector2Array = [Vector2(.60,-.35),Vector2(.69,-.48),Vector2(.65,-.60),Vector2(.55,-.60),Vector2(.40,-.49),Vector2(.41,-.42),Vector2(.54,-.52),Vector2(.59,-.52),Vector2(.60,-.46),Vector2(.54,-.39)]
++const HOOK_CONTACT_EDGE_M: PackedVector3Array = [Vector3(0,-.60,.55),Vector3(0,-.60,.65)]
++const WHEEL_CENTRES_M: Dictionary = {"main_left":Vector3(-1.93,1.30,-1.27),"main_right":Vector3(1.93,1.30,-1.27),"tail":Vector3(0,2.00,4.52)}
++const WHEEL_HOSTS: Dictionary = {"main_left":"wing_left","main_right":"wing_right","tail":"tail"}
++const WHEEL_RADII_M: Dictionary = {"main_left":.43,"main_right":.43,"tail":.15}
++const WHEEL_HALF_WIDTHS_M: Dictionary = {"main_left":.08,"main_right":.08,"tail":.0425}
++
++static func tyre_support(centre: Vector3, axle: Vector3, radius_m: float, half_width_m: float, support_normal: Vector3) -> Vector3:
++	var normal: Vector3 = support_normal.normalized()
++	var axis: Vector3 = axle.normalized()
++	var radial: Vector3 = normal-axis*normal.dot(axis)
++	var point: Vector3 = centre
++	if radial.length_squared() > .00000001: point -= radial.normalized()*radius_m
++	if absf(normal.dot(axis)) > .000001: point -= axis*signf(normal.dot(axis))*half_width_m
++	return point
++
++static func configuration(gear_down: bool, hook_down: bool, deflection_rad: float = 0.0, support_normal: Vector3 = Vector3.UP) -> Dictionary:
++	if not is_finite(deflection_rad) or not support_normal.is_finite() or support_normal.length_squared() < .00000001: return {}
++	var bounded: float = clampf(deflection_rad,0.0,HOOK_DEFLECTION_LIMIT_RAD)
++	var angle: float = HOOK_FREE_ANGLE_RAD-bounded if hook_down else HOOK_STOWED_ANGLE_RAD
++	var pose: Transform3D = Transform3D(Basis(Vector3.RIGHT,angle),HOOK_INSTALLATION_M)
++	var contacts_model: Dictionary = {}
++	var contacts_flight: Dictionary = {}
++	for id: String in WHEEL_CENTRES_M:
++		var point: Vector3 = tyre_support(WHEEL_CENTRES_M[id],Vector3.RIGHT,WHEEL_RADII_M[id],WHEEL_HALF_WIDTHS_M[id],support_normal)
++		contacts_model[id] = {"position_m":point,"centre_m":WHEEL_CENTRES_M[id],"radius_m":WHEEL_RADII_M[id],"half_width_m":WHEEL_HALF_WIDTHS_M[id],"host_part_id":WHEEL_HOSTS[id],"available":gear_down}
++		contacts_flight[id] = {"position_m":point+MODEL_TO_FLIGHT_M,"centre_m":WHEEL_CENTRES_M[id]+MODEL_TO_FLIGHT_M,"radius_m":WHEEL_RADII_M[id],"half_width_m":WHEEL_HALF_WIDTHS_M[id],"host_part_id":WHEEL_HOSTS[id],"available":gear_down}
++	var edge_model: Array[Vector3] = []
++	var edge_flight: Array[Vector3] = []
++	for point: Vector3 in HOOK_CONTACT_EDGE_M:
++		edge_model.append(pose*point)
++		edge_flight.append(pose*point+MODEL_TO_FLIGHT_M)
++	return {"geometry_id":GEOMETRY_ID,"schema_version":1,"definition_id":"us_f6f5_1944","gear_down":gear_down,"hook_down":hook_down,"hook_deflection_rad":bounded,"hook_angle_rad":angle,"wheel_contacts_model":contacts_model,"wheel_contacts_flight":contacts_flight,"hook_tip_model_m":pose*HOOK_CONTACT_LOCAL_M,"hook_tip_flight_m":pose*HOOK_CONTACT_LOCAL_M+MODEL_TO_FLIGHT_M,"hook_contact_edge_model_m":edge_model,"hook_contact_edge_flight_m":edge_flight,"hook_pivot_model_m":HOOK_INSTALLATION_M,"hook_pivot_flight_m":HOOK_INSTALLATION_M+MODEL_TO_FLIGHT_M,"hook_available":hook_down,"hook_host_part_id":"tail"}
++
++static func parked_transform_flight() -> Transform3D:
++	# Three circular tyre contacts solve the level-deck pitch and origin height.
++	# The raw body/wing/muzzle geometry and model-to-flight offset never change.
++	var delta: Vector3 = WHEEL_CENTRES_M.tail-WHEEL_CENTRES_M.main_left
++	var pitch: float = atan2(delta.y,delta.z)+asin((WHEEL_RADII_M.main_left-WHEEL_RADII_M.tail)/Vector2(delta.y,delta.z).length())
++	var basis: Basis = Basis(Vector3.RIGHT,pitch)
++	var height: float = WHEEL_RADII_M.main_left-(basis*(WHEEL_CENTRES_M.main_left+MODEL_TO_FLIGHT_M)).y
++	return Transform3D(basis,Vector3(0,height,0))
++
++static func parked_transform_model() -> Transform3D:
++	return parked_transform_flight()*Transform3D(Basis.IDENTITY,MODEL_TO_FLIGHT_M)
++
++static func definition() -> Dictionary:
++	var parked: Transform3D = parked_transform_flight()
++	var normal: Vector3 = parked.basis.inverse()*Vector3.UP
++	return {"geometry_id":GEOMETRY_ID,"schema_version":1,"definition_id":"us_f6f5_1944","units":"metres_radians_seconds","axes":"+X right, +Y up, -Z forward","model_to_flight_translation_m":MODEL_TO_FLIGHT_M,"wheel_centres_model_m":WHEEL_CENTRES_M.duplicate(true),"wheel_radii_m":WHEEL_RADII_M.duplicate(true),"wheel_half_widths_m":WHEEL_HALF_WIDTHS_M.duplicate(true),"wheel_contact_basis":"Support of circular tyres in a supplied aircraft-local deck normal. Level body-axis bottom points are not fixed contact points after pitching.","parked":{"rotation_rad":parked.basis.get_euler(),"origin_height_above_deck_m":parked.origin.y,"contacts":configuration(true,false,0,normal).wheel_contacts_flight,"source":"Solved from three tyre centres/radii; not a world-Y display offset."},"hook_free":configuration(true,true),"hook_stowed":configuration(false,false),"hook_deflection_limit_rad":HOOK_DEFLECTION_LIMIT_RAD,"hook_contact_edge_local_m":[HOOK_CONTACT_EDGE_M[0],HOOK_CONTACT_EDGE_M[1]],"gear_up_contact_proxy":{"kind":"rotating_propeller_disc","center_flight_m":Vector3(0,.22,-4.68),"radius_m":1.995,"normal_flight":Vector3.FORWARD,"sample_points_flight_m":[Vector3(0,-1.775,-4.68),Vector3(-1.995,.22,-4.68),Vector3(1.995,.22,-4.68)],"scope":"Conservative swept propeller disc; not a complete aircraft collision mesh. Visible airframe bounds are measured separately."},"source_status":"Revised simple wheel extension and short hook are engineering approximations constrained by original ground photographs. Old r1-r4 coplanar contacts/OPS parked snapshots are withdrawn; body, wing, muzzle and flight origin unchanged."}

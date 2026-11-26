@@ -1,0 +1,61 @@
+{
+	"main_16in": {
+		"source_dimensions": {
+			"gunhouse_width_m": 12.17676,
+			"gunhouse_length_m": 15.428976,
+			"shelf_plate_to_roof_m": 3.048,
+			"outer_bore_axis_offset_m": 3.0988,
+			"trunnion_forward_offset_m": 3.3528,
+			"overall_gun_length_m": 20.7264
+		},
+		"geometry_estimates": {
+			"side_plate_top_inset_m": 0.32,
+			"front_plate_top_inset_m": 0.45,
+			"front_corner_chamfer_m": 1.55,
+			"front_plate_depth_m": 0.10,
+			"gun_axis_above_shelf_plate_m": 2.25,
+			"gun_port_outer_radius_m": 0.72,
+			"gun_port_frame_inner_radius_m": 0.64,
+			"gun_port_buckler_inner_radius_m": 0.56,
+			"gun_port_frame_depth_m": 0.14,
+			"gun_port_buckler_depth_m": 0.12,
+			"breech_length_m": 2.90,
+			"barrel_breech_start_z_m": -2.10,
+			"barrel_breech_end_z_m": -4.80,
+			"barrel_mid_end_z_m": -12.0,
+			"barrel_breech_start_diameter_m": 1.08,
+			"barrel_breech_end_diameter_m": 0.98,
+			"barrel_mid_end_diameter_m": 0.72,
+			"barrel_muzzle_diameter_m": 0.56,
+			"muzzle_band_diameter_m": 0.70,
+			"muzzle_band_length_m": 0.27
+		},
+		"source_note": "Source dimensions are converted from OP-769, a 1968 Iowa-class reactivation manual for USS New Jersey. They support shared-class geometry only, not an exact December 1944 BB-61 configuration. Estimated values are visual modeling parameters and must be revisited against dated photographs or plans.",
+		"source_url": "https://eugeneleeslover.com/ENGINEERING/OP769/OP-769_Part1.pdf"
+	},
+	"secondary_5in": {
+		"mount_variant": "Mk. 28 Mod. 2",
+		"source_dimensions": {
+			"bore_length_m": 4.826
+		},
+		"geometry_estimates": {
+			"shield_width_m": 4.7,
+			"shield_length_m": 5.0,
+			"shield_bottom_y_m": 0.25,
+			"shield_top_y_m": 3.05,
+			"side_plate_top_inset_m": 0.14,
+			"front_plate_top_inset_m": 0.18,
+			"front_corner_chamfer_m": 0.65,
+			"front_plate_depth_m": 0.10,
+			"gun_axis_y_m": 1.45,
+			"gun_axis_spacing_half_m": 0.63,
+			"gun_port_outer_radius_m": 0.32,
+			"gun_port_frame_inner_radius_m": 0.25,
+			"gun_port_buckler_inner_radius_m": 0.19,
+			"gun_port_frame_depth_m": 0.12,
+			"gun_port_buckler_depth_m": 0.10
+		},
+		"source_note": "OP-1112 is the U.S. Navy Bureau of Ordnance 1945 gun-mount catalog and includes a Mark 28 Mod 2 sheet. The Iowa crew handbook identifies the Iowa-class enclosed twin mount as Mark 28 Mod 2. The 190-inch bore length follows 5-inch × 38 caliber; all shield envelope, plate slope, port, and gun spacing values here are visual estimates.",
+		"source_url": "https://www.eugeneleeslover.com/ENGINEERING/OP-1112.php"
+	}
+}

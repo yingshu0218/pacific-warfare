@@ -1,0 +1,169 @@
+{
+  "comparison_note": "First sample has older overblocking proxies, so 17111 vs 19114 rounds is not a pure same-load speedup. Later samples use corrected proxies and identical 4 ship / 8 plane durable-witness inputs. The last sample includes the integrated aircraft/ship departure guard and reproduces the exact same firing/impact totals; wall time is an individual native headless sample, not an isolated overhead benchmark. Browser performance remains S08.",
+  "samples": [
+    {
+      "assessed_ship_mounts": 112,
+      "capacity_rejections": 0,
+      "events": {
+        "airburst": 135,
+        "command_applied": 4,
+        "damaged": 3259,
+        "fired": 17111,
+        "hit": 3323,
+        "projectile_expired": 10885,
+        "salvo": 73,
+        "surface_impact": 92,
+        "target_changed": 4
+      },
+      "final_projectiles": 2676,
+      "module_wall_us": {
+        "contacts": 1458093,
+        "damage": 319866,
+        "frame": 29161,
+        "host": 589878,
+        "projectiles": 30885268,
+        "targeting": 2316383,
+        "weapons": 13336155
+      },
+      "peak_projectiles_sampled_1hz": 2744,
+      "rounds_fired": 17111,
+      "scope": "Capacity witness with durable targets, not completed behavior/UI Showcase",
+      "simulated_s": 60,
+      "ticks": 3600,
+      "wall_s": 48.945,
+      "run_id": "20261109T195216-e3eda76d"
+    },
+    {
+      "assessed_ship_mounts": 112,
+      "capacity_rejections": 0,
+      "events": {
+        "airburst": 120,
+        "command_applied": 4,
+        "damaged": 3627,
+        "fired": 19114,
+        "hit": 3711,
+        "projectile_expired": 12099,
+        "salvo": 75,
+        "surface_impact": 80,
+        "target_changed": 4
+      },
+      "final_projectiles": 3104,
+      "module_wall_us": {
+        "contacts": 1547002,
+        "damage": 331947,
+        "frame": 28369,
+        "host": 629686,
+        "projectiles": 28124240,
+        "targeting": 2218413,
+        "weapons": 12979203
+      },
+      "peak_projectiles": 3148,
+      "peak_projectiles_sampled_1hz": 3133,
+      "rounds_fired": 19114,
+      "scope": "Capacity witness with durable targets, not completed behavior/UI Showcase",
+      "simulated_s": 60,
+      "ticks": 3600,
+      "wall_s": 45.87,
+      "run_id": "20261109T200421-f500d986"
+    },
+    {
+      "assessed_ship_mounts": 112,
+      "capacity_rejections": 0,
+      "events": {
+        "airburst": 120,
+        "command_applied": 4,
+        "damaged": 3627,
+        "fired": 19114,
+        "hit": 3711,
+        "projectile_expired": 12099,
+        "salvo": 75,
+        "surface_impact": 80,
+        "target_changed": 4
+      },
+      "final_projectiles": 3104,
+      "module_wall_us": {
+        "contacts": 1570979,
+        "damage": 332984,
+        "frame": 28190,
+        "host": 632484,
+        "projectiles": 27886904,
+        "targeting": 2226600,
+        "weapons": 13034696
+      },
+      "peak_projectiles": 3148,
+      "peak_projectiles_sampled_1hz": 3133,
+      "rounds_fired": 19114,
+      "scope": "Capacity witness with durable targets, not completed behavior/UI Showcase",
+      "simulated_s": 60,
+      "ticks": 3600,
+      "wall_s": 45.72,
+      "run_id": "20261109T200808-ef786860"
+    },
+    {
+      "assessed_ship_mounts": 112,
+      "capacity_rejections": 0,
+      "events": {
+        "airburst": 120,
+        "command_applied": 4,
+        "damaged": 3627,
+        "fired": 19114,
+        "hit": 3711,
+        "projectile_expired": 12099,
+        "salvo": 75,
+        "surface_impact": 80,
+        "target_changed": 4
+      },
+      "final_projectiles": 3104,
+      "module_wall_us": {
+        "contacts": 1573338,
+        "damage": 329682,
+        "frame": 27841,
+        "host": 631565,
+        "projectiles": 27800191,
+        "targeting": 2221747,
+        "weapons": 13006419
+      },
+      "peak_projectiles": 3148,
+      "peak_projectiles_sampled_1hz": 3133,
+      "rounds_fired": 19114,
+      "scope": "Capacity witness with durable targets, not completed behavior/UI Showcase",
+      "simulated_s": 60,
+      "ticks": 3600,
+      "wall_s": 45.598,
+      "run_id": "20261109T201009-e83b524a"
+    },
+    {
+      "assessed_ship_mounts": 112,
+      "capacity_rejections": 0,
+      "events": {
+        "airburst": 120,
+        "command_applied": 4,
+        "damaged": 3627,
+        "fired": 19114,
+        "hit": 3711,
+        "projectile_expired": 12099,
+        "salvo": 75,
+        "surface_impact": 80,
+        "target_changed": 4
+      },
+      "final_projectiles": 3104,
+      "module_wall_us": {
+        "contacts": 1732146,
+        "damage": 401519,
+        "frame": 31213,
+        "host": 676102,
+        "projectiles": 30067837,
+        "targeting": 2398193,
+        "weapons": 14522517
+      },
+      "peak_projectiles": 3148,
+      "peak_projectiles_sampled_1hz": 3133,
+      "rounds_fired": 19114,
+      "scope": "Capacity witness with durable targets, not completed behavior/UI Showcase",
+      "simulated_s": 60,
+      "ticks": 3600,
+      "wall_s": 49.84,
+      "run_id": "20261109T211050-726655cc"
+    }
+  ]
+}

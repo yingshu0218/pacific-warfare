@@ -1,0 +1,49 @@
+{
+  "task": "AV03",
+  "status": "selected_references_reviewed_with_variant_and_geometry_limits",
+  "reviewed_utc": "2026-11-11T12:33:03.487585+00:00",
+  "actually_opened": [
+    {
+      "path": "docs/references/aircraft/g4m1_1942/pages/usAAF_1944_09_p20.png",
+      "sha256": "947168d80175fa3d9e0afa697aebf6e533f57df371c4e1ef56dd6efd69b72dc3"
+    },
+    {
+      "path": "docs/references/aircraft/g4m1_1942/pages/usAAF_1944_09_p21.png",
+      "sha256": "827daa4b2fb871e61904722f629b8464824d43ea94d25b769a919657a7d4130c"
+    },
+    {
+      "path": "docs/references/aircraft/g4m1_1942/images/tamiya_01.jpg",
+      "sha256": "a436f544748903a121a0b25120ba385fa5d82c21d06ff2046ce24e045fef5364"
+    },
+    {
+      "path": "docs/references/aircraft/g4m1_1942/images/tamiya_02.jpg",
+      "sha256": "a9932e97322e0b4438ea527fb340214be3ff4db59590d491dfb69cb17480d5dd"
+    },
+    {
+      "path": "docs/references/aircraft/g4m1_1942/images/tamiya_04.jpg",
+      "sha256": "688b535cdb7b20bc84d602263e11c86b808da4e9d5253eae55ff731ee8ee4b11"
+    },
+    {
+      "path": "docs/references/aircraft/g4m1_1942/images/tamiya_09.jpg",
+      "sha256": "4bf7bb6fa3173651deca4ed00a0d64620324b3f30f6e9ac6bdc8d762664b351c"
+    },
+    {
+      "path": "docs/references/aircraft/g4m1_1942/images/tamiya_03.jpg",
+      "sha256": "09cef099876fb9820d6ebeb9e5e436a114707eddfc909103a759db62b2dbc58c"
+    },
+    {
+      "path": "docs/references/aircraft/g4m1_1942/images/tamiya_10.jpg",
+      "sha256": "68899b32684631ef5e37e9eb3a8f0ec937e0c92de7a997efbef3dae7d00ccd67"
+    }
+  ],
+  "findings": [
+    "Period USAAF magazine printed pages18/19 discuss usual Betty armament and removable bomb-bay covers; wartime intelligence does not resolve exact Model11 production date/stations or unrestricted firing arcs.",
+    "Tamiya01 full high rear,02 full underside and09 near-side complete-airframe views complement proportions;04 is cockpit detail only. These are scale models, not factory drawings.",
+    "Different paint/markings in selected product photos must not be fused into a claimed single historical airframe.",
+    "Tamiya03 shows the four rows of three stores and open removable-cover combat bay; Tamiya10 provides a full near-top outline. The native model now preserves this primary arrangement and simplified tapered wing tips.",
+    "The adopted 1942-07 Kasei11 Model11 configuration is a documented design target, not a serial-number-specific reconstructed airframe. Full factory orthographic/station evidence remains missing and is not silently marked verified."
+  ],
+  "pending": [
+    "Frozen package provenance and source limits remain in model handoff; no historical performance or gun fire arc registration is accepted here."
+  ]
+}

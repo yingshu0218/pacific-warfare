@@ -1,0 +1,48 @@
+{
+  "date_utc": "2026-11-11T17:22:40.627044+00:00",
+  "status": "user_preview_admission_authorized",
+  "reason": "User requests immediate hands-on experience; final ordinary Chrome long-run and remaining integration verification are explicitly pending.",
+  "source_manifest": "candidates/s14-bombing/evidence/inputs-combination-r13.json",
+  "source_manifest_sha256": "dea38bbf6559714c6f778b8e21ea76e060497b92a0f0430b224c78057593d514",
+  "plan": "candidates/s14-bombing/evidence/public-change-plan.json",
+  "plan_sha256": "a41c00a4a17306a80acb6aca51b2536e0778476d885c0eea60291b33f8bc9e34",
+  "frozen_files_checked": 560,
+  "protected_public_files_checked": 399,
+  "candidate_patches_checked": 77,
+  "runtime_whitelist_count": 535,
+  "private_web_outputs_checked": 10,
+  "old_web_outputs_checked": 9,
+  "source_deltas": {
+    "combination-r11": [
+      "scripts/showcase/bombing/labels.gd",
+      "scripts/showcase/expansion/carrier_harbor.gd"
+    ],
+    "combination-r12": [
+      "scripts/showcase/bombing/labels.gd"
+    ]
+  },
+  "errors": [],
+  "prior_review": "docs/showcase/acceptance/S14-bombing-preliminary-review.md",
+  "allowed_action": "S14 apply exactly reviewed paths, retain before backups, build ordinary expanded entry and bounded startup smoke; defer new heavy long-runs for user experience.",
+  "not_claimed": [
+    "S08 ordinary combined package long-run/performance acceptance",
+    "Japanese carrier dynamic operations",
+    "SB2C default moving-target bombing success"
+  ],
+  "ordinary_build_audit": {
+    "checked_utc": "2026-11-11T17:27:29.266885+00:00",
+    "entry": "res://showcase/carrier_harbor.tscn",
+    "root_source_count": 535,
+    "outputs_count": 9,
+    "pck_sha256": "3455f5c834a77e4af7941a3d6a2be6dc6087b480feea248b8a89eb6ee94d7cd9",
+    "errors": []
+  },
+  "private_chrome_status": {
+    "report": "candidates/s14-bombing/chrome-review-r13/run.json",
+    "overall_passed": false,
+    "recorded_checks": 82,
+    "failure": "Timed out waiting for pullout+damage_abort event in B25 interception; authoritative final task state shows damage_abort with payload retained; startup remains available.",
+    "cleanup_reported": true,
+    "performance_claimed": false
+  }
+}

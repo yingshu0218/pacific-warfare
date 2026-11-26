@@ -1,0 +1,44 @@
+{
+  "run_id": "20261110T214259-48a9ba53",
+  "owner": "S08-user-path-confirm",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 81735,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "/Users/infinity/Desktop/Dev/game-pacific/tools/serve_first_playable.py",
+        "--port",
+        "8765",
+        "--seconds",
+        "20"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 81737,
+      "process_group": 81737,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.5676,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214259-48a9ba53/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S08-user-path-confirm",
+    "pid": 81735,
+    "process_identity": "Wed Nov 11 05:42:59 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S08-user-path-confirm --timeout 35 --lock-timeout 60 exec -- /Applications/Xcode.app/Contents/Developer/usr/bin/python3 /Users/infinity/Desktop/Dev/game-pacific/tools/serve_first_playable.py --port 8765 --seconds 20",
+    "token": "883b14522a38451abb292c474c78b0f8",
+    "acquired_utc": "2026-11-10T21:42:59.091819+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

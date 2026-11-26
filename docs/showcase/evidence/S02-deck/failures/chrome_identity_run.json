@@ -1,0 +1,50 @@
+{
+  "flow": "Inspection loads -> switch the same seven cameras -> shared hull/deck edge and installed model remain visible",
+  "scope": "One isolated Yamato model; no Showcase combat or fleet performance claim",
+  "browserPlugin": "Browser plugin not available",
+  "viewport": {
+    "width": 1600,
+    "height": 1000
+  },
+  "deviceScaleFactor": 1,
+  "checks": [
+    {
+      "passed": false,
+      "name": "page identity",
+      "detail": null
+    }
+  ],
+  "views": [],
+  "console": [],
+  "pageErrors": [],
+  "cleanup": {
+    "chromeClosed": true,
+    "serverClosed": true,
+    "privateProfileRemoved": true
+  },
+  "startedUtc": "2026-11-10T16:42:41.900Z",
+  "url": "http://127.0.0.1:54664/index.html",
+  "hardware": {
+    "cpu": "Apple M5",
+    "memoryBytes": 17179869184,
+    "os": "25.6.0"
+  },
+  "launch": "Private headful Chrome, offscreen position, background/occlusion throttling disabled",
+  "browserVersion": "157.0.8103.39",
+  "identity": {
+    "title": "Yamato · 1944 study",
+    "url": "http://127.0.0.1:54664/index.html",
+    "canvas": [
+      1600,
+      1000,
+      1600,
+      1000
+    ],
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "visibility": "visible",
+    "status": ""
+  },
+  "passed": false,
+  "error": "Error: page identity",
+  "finishedUtc": "2026-11-10T16:42:50.014Z"
+}

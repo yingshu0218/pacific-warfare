@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "jp_a6m5a_1944",
+  "display_name": "Mitsubishi A6M5a Model 52 Ko",
+  "country_id": "jp",
+  "domain": "aircraft",
+  "service_entry_year": 1944,
+  "configuration_date": "1944-02 Model 52 Ko subtype; no individual airframe fixed",
+  "dimensions_m": [
+    11.0,
+    3.509,
+    9.121
+  ],
+  "model_scene": "res://scenes/units/aircraft/a6m5a_flight.tscn",
+  "weapon_definitions": [],
+  "dedicated_aa_historical": [],
+  "dedicated_aa_game": [],
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "docs/references/aircraft/a6m5a_1944/modeling-brief.md",
+      "aircraft/docs/REFERENCES.md"
+    ],
+    "note": "52 Ko: 2x7.7mm synchronized cowl guns and 2x20mm Type99-2 belt-fed guns; 125 cannon rounds. Preserved ordinary Model52 used only for common external silhouette. Evidence scope: S04_subtype_manual_cross_checked"
+  },
+  "mounts": [
+    {
+      "id": "cowl_port_01",
+      "host_id": "upper_engine_cowl",
+      "weapon_definition_id": "jp_type97_77mm_single",
+      "role": "aircraft_fixed",
+      "position_m": [
+        -0.16,
+        0.56,
+        -3.94
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/models/a6m5_52ko.gd::_add_zero_guns"
+        ],
+        "note": "Raw model minus (0,1.60,0); measured marker alignment is tested; station coordinates approximate. Evidence scope: model_coordinates_photo_station_estimate"
+      }
+    },
+    {
+      "id": "wing_port_01",
+      "host_id": "port_wing",
+      "weapon_definition_id": "jp_type99_2_model4_20mm_single",
+      "role": "aircraft_fixed",
+      "position_m": [
+        -2.28,
+        0.04,
+        -1.9108092747851142
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/models/a6m5_52ko.gd::_add_zero_guns"
+        ],
+        "note": "Raw model minus (0,1.60,0); measured marker alignment is tested; station coordinates approximate. Evidence scope: model_coordinates_photo_station_estimate"
+      }
+    },
+    {
+      "id": "cowl_starboard_01",
+      "host_id": "upper_engine_cowl",
+      "weapon_definition_id": "jp_type97_77mm_single",
+      "role": "aircraft_fixed",
+      "position_m": [
+        0.16,
+        0.56,
+        -3.94
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/models/a6m5_52ko.gd::_add_zero_guns"
+        ],
+        "note": "Raw model minus (0,1.60,0); measured marker alignment is tested; station coordinates approximate. Evidence scope: model_coordinates_photo_station_estimate"
+      }
+    },
+    {
+      "id": "wing_starboard_01",
+      "host_id": "starboard_wing",
+      "weapon_definition_id": "jp_type99_2_model4_20mm_single",
+      "role": "aircraft_fixed",
+      "position_m": [
+        2.28,
+        0.04,
+        -1.9108092747851142
+      ],
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_positions_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "aircraft/models/a6m5_52ko.gd::_add_zero_guns"
+        ],
+        "note": "Raw model minus (0,1.60,0); measured marker alignment is tested; station coordinates approximate. Evidence scope: model_coordinates_photo_station_estimate"
+      }
+    }
+  ],
+  "historical_fixed_armament": [
+    {
+      "weapon_definition_id": "jp_type97_77mm_single",
+      "mount_count": 2,
+      "barrels_per_mount": 1
+    },
+    {
+      "weapon_definition_id": "jp_type99_2_model4_20mm_single",
+      "mount_count": 2,
+      "barrels_per_mount": 1
+    }
+  ]
+}

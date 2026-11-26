@@ -1,0 +1,11 @@
+# 雪风外观候选 v01
+
+2026-11-10，内置 `image_gen`，非 CLI。输出 [style-candidate-v01.png](style-candidate-v01.png)。输入为实际打开的本型 `images/Y01.jpg`、`images/Y02.jpg`，第三张 SB2C v04 仅作全项目风格参考。
+
+检查结果：大色面、哑光灰漆和简化表面可参考。主炮3×2大体保留，但发射器生成成多于四管、桥底平台和炮室/建筑轮廓失真；不能作为历史新证据。**几何未通过，不指导模型结构。** 实际几何使用同舰原图、原始规格和有边界的同级辅助；实际截图未用 AI 修补。
+
+实际提示词：
+
+```text
+Use case: historical-scene. Asset: simplified game modeling appearance target, not a primary historical document. The ship is IJN Yukikaze in its early configuration retained in June 1942, reconstructed from the same ship's 1939/1940 original photographs Images 1 and 2. Image 3 is STYLE ONLY: large smooth external shapes, matte broad color areas and simple realtime lighting, no microscopic detail. Show this complete destroyer alone in an elevated starboard bow three-quarter view on a pale neutral gray background, waterline display without water or display stand. Preserve 118.5m length /10.8m beam ratio, raked curved bow stem, raised forecastle ending behind bridge, long low aft weather deck, early tall curved narrow bridge with a slightly wider enclosed window tier and rangefinder on top. Exactly three twin 12.7cm TypeC gun houses with two clearly separate barrels each: one on forecastle ahead of bridge, two aft with the forward of the aft pair raised on the actual aft deckhouse. NO middle turret removal or late-war AA replacement platform. Two separate oval funnels: forward funnel larger and taller, rear funnel smaller; tall early tripod foremast, short aft tripod mast; no radar aerials. Two armored four-tube Type92 torpedo launchers on centerline, one between the funnels and one behind the aft funnel, with long reload lockers alongside. Exactly two small twin 25mm mounts abreast rear funnel on their real platforms. Preserve all relative positions from original photographs; no added guns or invented pillars. Navy gray with dark steel decks, restrained reddish brown linoleum areas, black funnel caps, no dirt or wear. Omit dense rigging, dense railings, porthole drilling, rivets and interiors while preserving the main silhouettes, coherent deck levels, correct gun count and visible connections. Clean low-complexity game asset appearance, not a detailed collectors' scale model. No smoke, ocean scene, dramatic lighting, text or extra objects.
+```

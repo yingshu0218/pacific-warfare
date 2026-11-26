@@ -1,0 +1,29 @@
+{
+  "status": "keyframes_opened_and_reviewed",
+  "scope": "Both fighters, five maneuvers, actual model snapshots with fixed world-up horizon. Selected images opened; complete original frame sequences encoded as movies and verified with ffprobe. This does not claim watching all movies end-to-end or measuring runtime FPS.",
+  "observations": [
+    "Actual inverted then full rotation and upright recovery are visible in both axial rolls.",
+    "Actual left/right bank reversal, high-bank turn, climbing/diving pitch and split-S descent/recovery are readable.",
+    "Aircraft stay fully in frame; no scripted aircraft transforms; native camera only follows actual position."
+  ],
+  "images": {
+    "native/f6f-bank_turn-pull_turn.png": "594ee90d3ac4993183ee5289c7c9d5fb35a9f138bc9f1df976c374b74a7f2519",
+    "native/a6m-bank_turn-pull_turn.png": "c6ee0cc55666980c3cef026ff4ec77c60c73f59b89361aaaad8c8b7f96e19bc2",
+    "native/f6f-climb_dive-climb.png": "b24fa6687ecb403840c18b66aaa6d171852ccd6bc6cb9caa4425da22d460156a",
+    "native/a6m-climb_dive-dive.png": "1c2434efc6318be25b4af07902cc8340b9f00c3ee19f2744aa79fd663e09185e",
+    "native/f6f-axial_roll-inverted.png": "75920439b9a7140b67f7db770aff74018e4411ea8433970674fb33d4ba3b4c9a",
+    "native/f6f-axial_roll-full-roll.png": "a2803aaf78768f3ab3a805096b5f81f38f07a3ddd96ffebcbebfee81ba17c4fe",
+    "native/a6m-axial_roll-inverted.png": "3cc64415e9c31c9b9188b4322d6f879b533351254b4b049ce301ab76cf99561b",
+    "native/a6m-axial_roll-full-roll.png": "6beece2c2951ed6ada817d9f3eee22ff375fefccbae6a07bfb63ead18539c6ca",
+    "native/f6f-axial_roll-completed.png": "260619a1861ca366c6bdb43033af564e80a013dfeae6feaee8305956ad71b233",
+    "native/a6m-axial_roll-completed.png": "b68a41e3df88c5a6aa8a088a5680de87e098187aa13ab4ff8d84266c277a0f9f",
+    "native/f6f-roll_reversal-pull_turn.png": "3d9bf61d1cf9b3109cbfe174eaf953c59379fa9174a95c99e1eeb5e17b1a0f9f",
+    "native/f6f-roll_reversal-pull_reverse.png": "fd73faf1b823237fb593a28cd3fbbd12cd1da0d86e069223f1427677c0d51347",
+    "native/a6m-roll_reversal-pull_turn.png": "bf320353898ffdbd3ab031bd6174413d674ff8ccb1ff01754390d3c60527e663",
+    "native/a6m-roll_reversal-pull_reverse.png": "2918616edaee667c559e5252010e52531f58d805e37c0ae1f5b932cf69a101a3",
+    "native/f6f-split_s-pull.png": "35cd94b0f0a2c0154320dd09a0b4a9d497826e38c3e4be2c673ba5bf8046dd31",
+    "native/a6m-split_s-pull.png": "0f534b22f2014effb02d5b3b24795f5ffe736841659c726eb03d00eb97399372",
+    "native/f6f-split_s-completed.png": "61d46e51829b93e1e23e809cf58313b4d7a51199cfc5c75c64eba80932e55b3b",
+    "native/a6m-split_s-completed.png": "4e69db8149f100feae97039b45f2e9201a9c03c732cd75b10d245314f865b0d2"
+  }
+}

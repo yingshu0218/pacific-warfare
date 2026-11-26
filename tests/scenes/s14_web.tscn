@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://tests/s14_web_probe.gd" id="1"]
+[node name="S14WebAcceptance" type="Node3D"]
+script = ExtResource("1")
+scenario_path = "res://data/scenarios/s14_guided.json"

@@ -1,0 +1,36 @@
+{
+  "status": "waiting_fx01_integration_review_not_final_acceptance",
+  "created_utc": "2026-11-10T17:43:58.206885+00:00",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "renderer": "Compatibility",
+  "production_files": 9,
+  "source_manifest_sha256": "d4e97d44d20507c9f61e0dd7df70b1b698d148c366a5b9217c7dec0ef3f2c0cf",
+  "evidence_manifest_sha256": "0e90c2f10446c8004bd6483f5e17b60b8a141717ad78b74504803550b858c6f9",
+  "evidence_files": 68,
+  "owned_recovery_archive": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-phase-owned",
+  "last_native_fx_revision": 2,
+  "latest_published_fx_revision_observed": 3,
+  "latest_fx_sources_match_marker": true,
+  "verified": {
+    "damage_checks": 90,
+    "model_checks": 33,
+    "healthy_f6f": 17,
+    "healthy_terrain": 27,
+    "damage_shared": 11,
+    "surface_contact": 5,
+    "ground": 48,
+    "default_natural_seconds": 180,
+    "current_source_position_checks": 8
+  },
+  "pending": [
+    "Final frozen FX smoke-source native review for both aircraft",
+    "Complete and visually inspect both types engine/left/right/breakup-water continuous clips",
+    "Encode accepted clips",
+    "Build and run isolated latest Chrome with normal UI, controls, caps and M5/16GB frametimes",
+    "Coordinator acceptance, then S14/S08 final integration and startup verification"
+  ],
+  "chrome_started": false,
+  "http_server_started": false,
+  "subagents_started": false,
+  "cleanup_manifest": "cleanup.json"
+}

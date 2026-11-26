@@ -1,0 +1,152 @@
+{
+  "case": "northbound_initial_training_route",
+  "final_time_s": 801.85,
+  "first_wave_service_s": 550.316666666667,
+  "actual_cause": {
+    "data": {
+      "ammo_id": "jp_127mm_type89_shell",
+      "armor_mm": 0.0,
+      "caliber_m": 0.127,
+      "damage_allowed": true,
+      "energy_j": 7271013.990625,
+      "friendly": false,
+      "local_position_m": [
+        1.55409502983093,
+        -0.185839176177979,
+        -1.3635196685791
+      ],
+      "part_id": "wing_right",
+      "projectile_id": "projectile_00002215",
+      "source_faction_id": "jp",
+      "surface": "aircraft",
+      "target_id": "us_deck_1",
+      "target_velocity_mps": [
+        -58.8623657226562,
+        2.14669108390808,
+        64.5244293212891
+      ],
+      "velocity_mps": [
+        694.665710449219,
+        26.7216472625732,
+        -162.89729309082
+      ]
+    },
+    "entity_id": "jp_bb",
+    "event_id": "event_00009604",
+    "kind": "hit",
+    "position_m": [
+      8532.8271484375,
+      601.294372558594,
+      -3269.72924804688
+    ],
+    "sequence": 9604,
+    "target_id": "us_deck_1",
+    "tick": 48110,
+    "time_s": 801.833333333333,
+    "weapon_id": "jp_bb/heavy_aa_07"
+  },
+  "aircraft_damage": {
+    "aircraft": {
+      "angular_velocity_body_radps": [
+        0.233658492565155,
+        0.0962306559085846,
+        -0.041286762803793
+      ],
+      "breakup": false,
+      "contact_surface": "",
+      "detached_parts": [
+        "wing_right"
+      ],
+      "fragments": [
+        {
+          "age_s": 0.0166666666666667,
+          "angular_velocity_body_radps": [
+            0.245538100600243,
+            0.104330860078335,
+            -0.00893820263445377
+          ],
+          "born_tick": 48110,
+          "born_time_s": 801.833333333333,
+          "lifetime_s": 12.0,
+          "part_id": "wing_right",
+          "position_m": [
+            8531.77734375,
+            602.724792480469,
+            -3269.4990234375
+          ],
+          "rotation_rad": [
+            0.0247097592800856,
+            2.40649652481079,
+            1.13838636875153
+          ],
+          "surface": "",
+          "velocity_mps": [
+            -58.9875946044922,
+            1.96420204639435,
+            64.6333694458008
+          ]
+        }
+      ],
+      "terminal_born_tick": 48110,
+      "terminal_started": true
+    },
+    "control_factor": 0.0,
+    "disabled_mounts": [
+      "wing_starboard_01",
+      "wing_starboard_02",
+      "wing_starboard_03"
+    ],
+    "effect_emitters": [
+      {
+        "anchor_m": [
+          0.0,
+          0.200000002980232,
+          0.5
+        ],
+        "enabled": true,
+        "id": "structure_smoke",
+        "intensity": 0.633130586914661,
+        "kind": "smoke",
+        "part_id": "structure",
+        "size_m": 3.5
+      },
+      {
+        "anchor_m": [
+          0.0,
+          0.100000001490116,
+          0.5
+        ],
+        "enabled": true,
+        "id": "structure_fire",
+        "intensity": 0.471884311524436,
+        "kind": "fire",
+        "part_id": "structure",
+        "size_m": 1.5
+      }
+    ],
+    "fire": 0.471884311524436,
+    "flooding": 0.0,
+    "list_rad": 0.0,
+    "parts": {
+      "control": 0.995099788404969,
+      "engine": 1.0,
+      "steering": 1.0,
+      "tail": 1.0,
+      "weapon:wing_port_01": 1.0,
+      "weapon:wing_port_02": 1.0,
+      "weapon:wing_port_03": 1.0,
+      "weapon:wing_starboard_01": 1.0,
+      "weapon:wing_starboard_02": 1.0,
+      "weapon:wing_starboard_03": 1.0,
+      "wing_left": 1.0,
+      "wing_right": 0.0
+    },
+    "phase": "crashing",
+    "phase_time_s": 0.0333333333333333,
+    "propulsion_factor": 0.0,
+    "structure": 47.2609003250741,
+    "structure_max": 90.0
+  },
+  "terminal_state_preserved": true,
+  "correction": "Training carrier starts eastbound and patrol center is ship-relative; no weapon/damage/flight parameter changes or immunity."
+}

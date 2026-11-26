@@ -1,0 +1,10 @@
+{
+  "scope": "Existing production projectile and qualified aircraft DM regressions; controlled launches, not natural UI proof",
+  "files": {
+    "tests/test_projectile_impact.gd": "b5e98992148dca5bffe7ac819e369604a8753f1e38f20e24d96314de990ef3dc",
+    "tests/test_aircraft_damage.gd": "3f3524dd4915b1f13b83bc5322e3df7b77220f25b503fff4a979924b9df0978d",
+    "tests/fixtures/combat_test.gd": "c0c086e59284ec921c7ef6238ec368c7108c8bd5f6372502051877c6e3acdb6e",
+    "tests/fixtures/combat_fixture.gd": "a4dff8ef1f0f9520b2f3df4a5107d04a7a84df9cebc9e0da236853fdd408d7e0",
+    "tests/fixtures/aircraft_damage_fixture.gd": "7236071605d4905fdbc818112b4ed1d7214e77b8b14275c8db33708d2fa38f39"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-10T04:45:42.395219+00:00",
+  "scope": "Current root S08-owned source at handoff. Frozen audio comparison build dependencies and differing staged comments are separately hashed in each build_manifest.json.",
+  "files": {
+    "tools/verify.py": "599949a47abcff74f45f1909b6e8571b2c2050539a28dd0bce6d43b8b8c28f7d",
+    "tests/test_verification_wrapper.py": "752c58f40deced9847d287fb1988508c3f4e5f4dba86e38a398f832b3f362d47",
+    "scripts/game/first_playable.gd": "b1695404872438945dd3014e06bfa297eac9f39f21209e397142386fa73a748d",
+    "scripts/game/web_run_probe.gd": "5ba55b99f99c3c503e098a8bd8eae0f14cfc452f65007125f49c75fed7a77dd1",
+    "scripts/presentation/models/aircraft_adapter.gd": "ceb61aaf96aedbe1dedda0177a36d825d88b45ce0d790af9bcea4456bbd0229c",
+    "scripts/presentation/models/static_model_batch.gd": "1ca4f14e080aec8eab752b4addcef062c381615c207969bdc82a0733f37339c8",
+    "scripts/presentation/effects/combat_effects.gd": "8d6881872b3a19e1df9e22a214baee2df26350a3ccfeb1b6fb3fea52bc832372",
+    "tools/build_first_playable.py": "8099ead029ee0832c6dec14607e861e64a81b2d38ddc2556702ae517e9c47afb",
+    "tools/serve_first_playable.py": "fc5a6d4bde2de7a4af5596c73c3bd446bc8d6564c3bc7d980fd5dc835f3473f6",
+    "tools/run_first_playable.py": "e752d9ba8e21854337102775568cbb8a5d92a04c4f4cc955333125598e6ab513",
+    "tools/preview_web.sh": "16f6c6d0647b899dffb00143292ea58c9fb1ee45dde6b791500d6869b0a387f1",
+    "tools/web/measure.js": "de6dd0975ceb7cc49da221946c5628ab4d7656d12898ebb59d46e710cdc637bb",
+    "tools/audit_first_playable_pack.py": "c0defb03e5d156c3e571e3c2e22cc10846e54def31f6af4d2cc7fbd30243c117",
+    "tools/summarize_s08.py": "84e075c01c2364987aabe74db08f27988244dfef5a8ef0180849a9e91e6be2e9",
+    "docs/showcase/deliveries/S08.md": "d57fbc85f72f4fbd0a6fe586e00ea463ebec212707d36900b91b964390ec9b9a",
+    "project.godot": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+    "export_presets.cfg": "506fdf4cbeb9ad1d089d98d7944125aa4cfea75a8d49c4677fdcc55b6cf773fc"
+  }
+}

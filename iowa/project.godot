@@ -1,0 +1,19 @@
+; Standalone USS Iowa BB-61 model and inspection viewer.
+config_version=5
+
+[application]
+
+config/name="USS Iowa · December 1944"
+run/main_scene="res://scenes/iowa_viewer.tscn"
+config/features=PackedStringArray("4.7")
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=1000
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+

@@ -1,0 +1,77 @@
+{
+  "aircraft/scripts/aircraft_builder.gd": {
+    "sha256": "2f94ad775d3220bcab3483033373aa72bab92ac41751c22c3850848ee8c84a4e",
+    "source": "docs/showcase/evidence/OPS01/model-resume/r11/inputs/aircraft/scripts/aircraft_builder.gd",
+    "reason": "S04 accepted inputs used by OPS r11; stage-only composition"
+  },
+  "aircraft/models/f6f5.gd": {
+    "sha256": "47fc414ee9a0d2805ca85023651d4925986a8b7301a67f1609f5d77190a4bdf3",
+    "source": "docs/showcase/evidence/OPS01/model-resume/r11/inputs/aircraft/models/f6f5.gd",
+    "reason": "S04 accepted inputs used by OPS r11; stage-only composition"
+  },
+  "scripts/presentation/models/aircraft_adapter.gd": {
+    "sha256": "5bdbdf3019f08f2967f2996b6d985dfcae3d1cc0001e518b8ef54bf85c03e09e",
+    "source": "docs/showcase/evidence/OPS01/model-resume/r11/inputs/scripts/presentation/models/aircraft_adapter.gd",
+    "reason": "S04 accepted inputs used by OPS r11; stage-only composition"
+  },
+  "scripts/aircraft_geometry/f6f5_carrier_geometry.gd": {
+    "sha256": "223b1d51ae6829f89463ab2dbc0c71ab2fa1e3f144e4453b1ca55311e13e2913",
+    "source": "docs/showcase/evidence/OPS01/model-resume/r11/inputs/scripts/aircraft_geometry/f6f5_carrier_geometry.gd",
+    "reason": "S04 accepted inputs used by OPS r11; stage-only composition"
+  },
+  "tests/fixtures/aircraft_fixture.gd": {
+    "sha256": "8a3111337a2d89bd868c2632da34e3528bf81faabdc8342c4cd98e606bf196cc",
+    "source": "docs/showcase/evidence/OPS01/model-resume/r11/inputs/tests/fixtures/aircraft_fixture.gd",
+    "reason": "S04 accepted inputs used by OPS r11; stage-only composition"
+  },
+  "aircraft/b25j/b25j.gd": {
+    "sha256": "c44cd0cd2fd35ae7a56c803a824549612229701ee463c466525e0f12f76c627f",
+    "source": "aircraft/b25j/b25j.gd",
+    "reason": "Accepted AV04 manifest d14d6bb..., no runtime behaviour admission"
+  },
+  "aircraft/b25j/geometry.gd": {
+    "sha256": "8f391745185c8d0e07951352da6e808e06bc92222c0474cc67e61fdcdc309965",
+    "source": "aircraft/b25j/geometry.gd",
+    "reason": "Accepted AV04 manifest d14d6bb..., no runtime behaviour admission"
+  },
+  "aircraft/b25j/b25j.tscn": {
+    "sha256": "7ca962678e2767188c5b029c98da318efee26847ed3dfdb93683737817dd4ed7",
+    "source": "aircraft/b25j/b25j.tscn",
+    "reason": "Accepted AV04 manifest d14d6bb..., no runtime behaviour admission"
+  },
+  "aircraft/b25j/data/interfaces.json": {
+    "sha256": "d01266ffe338860829f9f5c1cc9c823fff4b79a781fa1e5fe5f9936f6519296b",
+    "source": "aircraft/b25j/data/interfaces.json",
+    "reason": "Accepted AV04 manifest d14d6bb..., no runtime behaviour admission"
+  },
+  "aircraft/b25j/data/proposal.json": {
+    "sha256": "06e6ed777c271ea2467e58e221f6177a5cdd4262fe343d89551102446572023c",
+    "source": "aircraft/b25j/data/proposal.json",
+    "reason": "Accepted AV04 manifest d14d6bb..., no runtime behaviour admission"
+  },
+  "data/maps/island_harbor_expanded.json": {
+    "sha256": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
+    "source": "docs/showcase/evidence/AV03/inputs/data/maps/island_harbor_expanded.json",
+    "reason": "Accepted MAP02 shared terrain consumed by AV03; explicit dependency, not later S14 data"
+  },
+  "scripts/map02/expanded_map_view.gd": {
+    "sha256": "32096520c098a56c81ec9d9f1a29189539fbad075e01a64d6e1354d2f45d9b25",
+    "source": "docs/showcase/evidence/AV03/inputs/scripts/map02/expanded_map_view.gd",
+    "reason": "Explicit accepted MAP02 view/terrain input shared by AV03; no later S14 rebase"
+  },
+  "scripts/map02/expanded_map_data.gd": {
+    "sha256": "26addcec3d15a79f11936c0cb2fbaad6373466575b32e617b739a1bdad58433e",
+    "source": "docs/showcase/evidence/AV03/inputs/scripts/map02/expanded_map_data.gd",
+    "reason": "Explicit accepted MAP02 view/terrain input shared by AV03; no later S14 rebase"
+  },
+  "data/map02/regions.json": {
+    "sha256": "9001179a2e2c48774c4c62d8afecc2e10d131d5a717a045b42742d77056d5816",
+    "source": "docs/showcase/evidence/AV03/inputs/data/map02/regions.json",
+    "reason": "Explicit accepted MAP02 view/terrain input shared by AV03; no later S14 rebase"
+  },
+  "tests/fixtures/simulation_fixture.gd": {
+    "sha256": "d095468a840029de91e3a36fedb749cd22e09d0d2702f45f5fd17b424575de95",
+    "source": "tests/fixtures/simulation_fixture.gd",
+    "reason": "Explicit direct dependency of frozen original test_simulation_commands.gd; test helper only, not runtime"
+  }
+}

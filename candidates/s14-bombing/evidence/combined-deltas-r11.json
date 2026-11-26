@@ -1,0 +1,479 @@
+{
+  "source_manifest_sha256": "4a0da2822ed44c771517585b728a0ab9e5086c4edd2c18626ff98a78dca23c18",
+  "initial_BOMB_rebase_history": "evidence/shared-rebase.json",
+  "additional_S14_fixes": [
+    "SB2C coarse whole-airframe terminal dynamics in CombatDamage/AircraftDamageMotion",
+    "Preserve dynamic model references during static batching",
+    "Single-manager lifecycle / cancellation cleanup",
+    "Current scenario HUD selection and camera reset",
+    "Compact opt-in protocol2 observer"
+  ],
+  "files": [
+    {
+      "path": "data/aircraft/performance.json",
+      "S14_R8_sha256": "64e7646758bbe3b05f8e85bfcb362b0721dff87c9a6f6fe13324f56dca035d42",
+      "combined_sha256": "e597a8df2baf9ec14627318b1ccab4a4488366a0d8e85244c325b5ef5aec4799",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/data__aircraft__performance.json.patch",
+      "patch_sha256": "220ef64c707ce93ca7e0de0686b069690caf576232d07272c93d2014848076e5"
+    },
+    {
+      "path": "data/ammunition/jp_type97_no6.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "1f2e3113d426a5ee712f8af80550cf056979d73919dc8a35fb31f5497a21a071",
+      "operation": "add"
+    },
+    {
+      "path": "data/ammunition/jp_type98_no25_land.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "d0c2bcfffdce6b25377d0deef63177a0db5a6f140b9b0a77d3a0a233982cafae",
+      "operation": "add"
+    },
+    {
+      "path": "data/ammunition/us_an_m64_tnt_tm1950.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "3846dfae5b7d97bf98627f897d8aff67202ace64fb503d31a661baba02d13b52",
+      "operation": "add"
+    },
+    {
+      "path": "data/bombing/combat_profiles.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "8f609cf7e52c25bfb6e5715e387eeca81de16a3a7349485c455f59e54001a5b5",
+      "operation": "add"
+    },
+    {
+      "path": "data/bombing/parameters.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "7f3c5c8fbb6922d1f9190216285f73f1ccbc5b621f6363d5d3e0499659c09c3c",
+      "operation": "add"
+    },
+    {
+      "path": "data/bombing/performance.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "4de0e24a53235fb04cadcfd40e5531a24e404b3731d486a76845943738d265a7",
+      "operation": "add"
+    },
+    {
+      "path": "data/bombing/scenarios.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "66207588f77b6baf59a9ef107b9d5586f096e8c38a97b4677c461b6bd6ee27cd",
+      "operation": "add"
+    },
+    {
+      "path": "data/bombing/units.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "73aeb15fedc029e020a005b747e64731076165e182b0ce0f8f499e2061a571bb",
+      "operation": "add"
+    },
+    {
+      "path": "data/combat/s14_bombing.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "a05244b19df7cf45e2381ea1211b896eee864db694c032b539a3972694d99637",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_attack_b25.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "9f627e728726849801bf205656d2db5b179fe8175e106a682730434db47697c0",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_attack_d4y.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "31d98d8f390dc5ed3aff8614ad988adc65550751b234d374ee195a190ede0bfb",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_attack_g4m.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "9ee6459e47ff05fabe824ad06a9f99f9eccc0c7267bafe6453a35fd7535e973f",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_attack_sb2c.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "234ba9ede8ad18f44702e5c651551fc4972ba24f0888c1acbe6f65726ada01bd",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_intercept_b25.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "bae03bc21154876bd7ab20ad8df0acf43d0434c767722d238c6e249ea7ff14c0",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_intercept_g4m.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "5b911da4628e1590c8fab6a605a1c06275e810aff6892178ce9c3d10a20507bf",
+      "operation": "add"
+    },
+    {
+      "path": "data/units/jp_d4y2_model12_1944_10.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "0b28c5a2cdf651eed083fa665a2209c4bf54117862252795af143a3ee2580c54",
+      "operation": "add"
+    },
+    {
+      "path": "data/units/jp_g4m1_1942_07.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "8a38406cbf72e9d6f1f6baf6d9e2495b4e0f670ab0cc0e3b7bc6d43b06af2b75",
+      "operation": "add"
+    },
+    {
+      "path": "data/units/us_b25j_1944_07.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "e89a1aedf4d32d04e5e92a68d6696e821c58b980de3902e2f5f6d4cb627c3ea1",
+      "operation": "add"
+    },
+    {
+      "path": "scenes/units/aircraft/jp_d4y2_model12_1944_10.tscn",
+      "S14_R8_sha256": null,
+      "combined_sha256": "9d9c6a1151c157968594f36b2e2282536553e2b2a56a1bc94b2b173dd791e84c",
+      "operation": "add"
+    },
+    {
+      "path": "scenes/units/aircraft/jp_g4m1_1942_07.tscn",
+      "S14_R8_sha256": null,
+      "combined_sha256": "3516b8a9b41e92b1e4eb3697287ac1a346c9d040e48380bfa540596cec3a76f1",
+      "operation": "add"
+    },
+    {
+      "path": "scenes/units/aircraft/us_b25j_1944_07.tscn",
+      "S14_R8_sha256": null,
+      "combined_sha256": "f606fc4d88dbbf11c3bcbfcc61708bf17ea3a0cb0d5fe0ceaaed46d1a64f088e",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/behaviors/aircraft/aircraft_tasks.gd",
+      "S14_R8_sha256": "e0e8ebf6f6fe25653072fb766105dea56a4f61eb926ff17f22e263889595e0ff",
+      "combined_sha256": "b580d3dc4b573ac62b4833cf8fdf1408ded1ecc63080de3ce8d6f011aa09c1b1",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__behaviors__aircraft__aircraft_tasks.gd.patch",
+      "patch_sha256": "80db64da9da99c83061e3f30a2c0d23dc00d8fb2a4c2cdacc30b7315810e593f"
+    },
+    {
+      "path": "scripts/bombing/aircraft_view.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "45dc8598495935bbbebe92d88f2acb4e1a496f85e233579c8d0742ff65f3e412",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/bombing/ballistics.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "fd8e07b64efc434808cfcb6f1a721c1bdc8d03d5bb825d99c06e81d906daa7fd",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/bombing/commander.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "beef493d38d171a55fa566ea795891a54c6fadbf60f8c22dca62be72fefc2984",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/bombing/configuration.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "65a3453995badd7f3ecc345a9bc8dd9fa6ab2923156e0125ddcfefcd3d27e3db",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/bombing/effects.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "b56e341435ee9a945f1df4c89161b9586b86623a33c100662818014c780d23b9",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/bombing/mission_delegate.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "f4a5af168a82ad4672e1d46c68634cf8e991fd96e7e7abb0b052e852f76948dd",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/bombing/ops_task_bridge.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "1b952279f85f9d4875fefb46e43b8a792959582b8784a1d0a504e47d75639953",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/bombing/stores.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "5807141f9623f5c4717607d79067191cdc100541e79777a263ee28cdad24b02e",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/command/commander/fleet_planner.gd",
+      "S14_R8_sha256": "24ac08cda539254f56ed53355cd53730ee53f520d30e3c660a863e0e93bd6e77",
+      "combined_sha256": "390aac4b77a6617b7ca30fea3dff8180370b174414669ee7869082d2637ce5c3",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__command__commander__fleet_planner.gd.patch",
+      "patch_sha256": "579af90116b7046d4c7ca0231c630be629f925d83374f24d99790ef0edff5b8b"
+    },
+    {
+      "path": "scripts/game/first_playable.gd",
+      "S14_R8_sha256": "b1f0f119d5d4d32c45d4fb9cb82cb4a32fda32edcbad046a2c05d48c041f4650",
+      "combined_sha256": "33bdc41c414001b7ea09c309b4f3b3877e4e1c3c3596bcdc82149cd7148a6460",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__game__first_playable.gd.patch",
+      "patch_sha256": "b2939bf84e5b026b20b4d094080efe81967b02cd107501d4d2c2bc92f0a93c40"
+    },
+    {
+      "path": "scripts/game/first_playable_session.gd",
+      "S14_R8_sha256": "0e85a9a8b140c2042d395a50159a061034c9efb92d862120c5586a8670f89ce0",
+      "combined_sha256": "99cfd30599d01092bb4dbf0d4effda0bf6fe2d8a5b72d1b648fe39a4d64d0218",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__game__first_playable_session.gd.patch",
+      "patch_sha256": "262cb405c5783e202853dc0dab8069b98d68536ebef17cbc9ea1498a8b5d727c"
+    },
+    {
+      "path": "scripts/presentation/models/static_model_batch.gd",
+      "S14_R8_sha256": "1ca4f14e080aec8eab752b4addcef062c381615c207969bdc82a0733f37339c8",
+      "combined_sha256": "355504844cd1246d92dd020d65d04c63ff0a0bf262a5b47a55965cb3eec82bc7",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__presentation__models__static_model_batch.gd.patch",
+      "patch_sha256": "91c4a06eb2cf9abcf14583835ec68e0353720c9ca3b49582e0f6a883cdc11d22"
+    },
+    {
+      "path": "scripts/showcase/bombing/aircraft_adapter.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "dbc1cfa9408ec2c0819b3f983a65fe88b7c85fc2d407e1582b3631ccd36b38a4",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/bombing/initial_stores.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "582b8c6988b99598476505fe70671d2c83c11cf9015cce5f505412ce05cc352a",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/bombing/installer.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "0ad79afcdc30b80e0a2d5e10beb06052eab6f45e24fd3699902732deb47b7d17",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/bombing/labels.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "10591b196c3b3e3c046e8a83f72552e02442e52607c58338aaf3cc5ffdb587cc",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/bombing/live_model_batch.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "6a280d311725d67e69054a956be277c746accdf2589927c5cd2a1c1ecd098ad5",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/bombing/projectile_view.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "241db24957ce83266e242c8cf680fe2fc6b42a1603eeb19f9cec77e7606e390f",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/expansion/carrier_harbor.gd",
+      "S14_R8_sha256": "3212b0108a018258e655c2826271a205a4d33a132819642ecf9eddb9bdfe2ea1",
+      "combined_sha256": "7169b11d4afd3378bce4a1169374bd66674865abf0df7f03ca1c36f777cf2c9d",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__showcase__expansion__carrier_harbor.gd.patch",
+      "patch_sha256": "ce8c854a42df564dcfb786df1b7c2557ca7bf6ebbe6b0bc7187e0811b6931f26"
+    },
+    {
+      "path": "scripts/showcase/expansion/carrier_tasks.gd",
+      "S14_R8_sha256": "2f13cf2bad22ac805108efed1be89d3eecf07d356c0977337d2633fdf688a7e6",
+      "combined_sha256": "41eacf8043b0253dacbe30a3fcce249a401667611229dc338cff944af7aca965",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__showcase__expansion__carrier_tasks.gd.patch",
+      "patch_sha256": "553672a6ae53608edc05a2937236bbfe31074072661c01e2145bd592ef9f174b"
+    },
+    {
+      "path": "scripts/showcase/expansion/expansion_missions.gd",
+      "S14_R8_sha256": "c5114adb616b39676055d9ed8bd14eef482368b16ace56899f35def270a5604e",
+      "combined_sha256": "6b77ebf7bba9e6b43fc7a72b60d09abb7afb5cbd28d90a93bc9c1d0d3dd5d743",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__showcase__expansion__expansion_missions.gd.patch",
+      "patch_sha256": "c2e926e87de9a01d21450b3c0090cdb0481f7184cb6110e359e42e5465c1798f"
+    },
+    {
+      "path": "scripts/showcase/expansion/operations_installer.gd",
+      "S14_R8_sha256": "f0b04c121a56c218cf67f264dcf142511d6ffc76f17b44ca206ac4c779cbf123",
+      "combined_sha256": "73f90340d0027fb17d91195da8c9ec94ef4b72a8675906248d49cb9bca117f74",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__showcase__expansion__operations_installer.gd.patch",
+      "patch_sha256": "3b5dbd68cf15eb209272fed164faa0406aa997b4742efe68eff53837bff35d6b"
+    },
+    {
+      "path": "scripts/showcase/expansion/web_probe.gd",
+      "S14_R8_sha256": "898379fe97bbbde513fe3a922c2038f1e6dd7154c12a1bbdd5883917e7b592a4",
+      "combined_sha256": "144ddd5e275a58468276bbccf07e782bf61d341f59c11b8bd3d7083027f99703",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__showcase__expansion__web_probe.gd.patch",
+      "patch_sha256": "53fd77cb59d6c34b563efc9ed83286dcf9afc9c76af194b90ddc47c6c4392131"
+    },
+    {
+      "path": "scripts/showcase/sb2c_flight_adapter.gd",
+      "S14_R8_sha256": "959aa7c3039be1fc34cbb2caa4c086fe2b0981857a7b9b911b19de90789d32b9",
+      "combined_sha256": "9d9ade4f17754af30f04f948dafe4d7abb2b92355cf1a1bba5f03d36c5ff64d1",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__showcase__sb2c_flight_adapter.gd.patch",
+      "patch_sha256": "791ac6d3c169d00fada4c651ec7af20654fd17b4dcbc4eee1ccf09fb6bcc4452"
+    },
+    {
+      "path": "scripts/showcase/showcase_missions.gd",
+      "S14_R8_sha256": "c75c4ae5f7ca3db3a9074aac9095b03bd7ef208761c920b21d538c39f4c38725",
+      "combined_sha256": "25cf28d11ad9b44082b20d9fda3942e8d6b35e794de2c6ea4e20bb88af61d449",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__showcase__showcase_missions.gd.patch",
+      "patch_sha256": "18b75677152203296507af8c5912871cb64f5e6e655688d2ff2baf327d9c3446"
+    },
+    {
+      "path": "scripts/simulation/aircraft_motion/aircraft_motion.gd",
+      "S14_R8_sha256": "92f6cbe23a808ba28e124b2deff9b301e785168fcb7dbc83aaafe9fe08af8c2a",
+      "combined_sha256": "4a87d6df9b1ba14c81c71cf7e064efc834919196bb8dd8948ca4a3d9a0ffd772",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__simulation__aircraft_motion__aircraft_motion.gd.patch",
+      "patch_sha256": "3b50d3152ed524b7f9aa1d92f6cfba4cf038491d047814c8d65d8ab5bd4b418e"
+    },
+    {
+      "path": "scripts/simulation/damage/aircraft_damage_motion.gd",
+      "S14_R8_sha256": "917103167a22a16e25e70c4ce65d8bbfc1b228461e9f0b2eea0d827de2ba4909",
+      "combined_sha256": "053ecf97bff4449af7d85875f5dceb3781a94767a7eead24aa7ac6be06850729",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__simulation__damage__aircraft_damage_motion.gd.patch",
+      "patch_sha256": "5195c6ba6b4764c932b3f8c98f927f61e2351c0b0da495d9fec180829468c011"
+    },
+    {
+      "path": "scripts/simulation/damage/combat_damage.gd",
+      "S14_R8_sha256": "10e7c121f1fa0ec50cc6fe7c98cc7cd8f8c3817a8cc12be8c0ad1ec14e511641",
+      "combined_sha256": "dd728e1d10eca9d882c2476497cef646590baa363c0fc6874c7e70a2e07d45ca",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__simulation__damage__combat_damage.gd.patch",
+      "patch_sha256": "d7a9932aa007dd94c831971a7ff51722d76a2aab394bae3da38b6e628b70e1f7"
+    },
+    {
+      "path": "scripts/simulation/projectiles/combat_projectiles.gd",
+      "S14_R8_sha256": "ad3741f755823d14d602b14b12e1b72b50752c88aa04a1143cb459c21b5cde64",
+      "combined_sha256": "50aad091f85cb7635862d6173d222470c596ea4b8cfcda98a69ed9ae0e50ef46",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__simulation__projectiles__combat_projectiles.gd.patch",
+      "patch_sha256": "3bcc96a82f5caa4eb3d865f9299181fe68b31e3325a7f2e341f915feb7f96057"
+    },
+    {
+      "path": "scripts/simulation/simulation_world.gd",
+      "S14_R8_sha256": "671889fa4d7b06b0cad1e5eb3cdd5ac66015e37d8b762e466e42268f8aeb6e67",
+      "combined_sha256": "8c78d2db1b084593c23e22ccdcb4bc22f1b65b3e39e86ae122a21ab7f81dd9e9",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__simulation__simulation_world.gd.patch",
+      "patch_sha256": "8686289eb4a499e5f5fc906070e9c985f99a5621cc206be2dcbb554c532d9795"
+    },
+    {
+      "path": "scripts/simulation/state/ammo_definition.gd",
+      "S14_R8_sha256": "badbb84917501ce4613c718dc53a65154e59ced89ed598895da4cbf3fb7d6cea",
+      "combined_sha256": "2a8b1bbdc0fd7938959e5fc70ed27cfaf40277c02f258da1a2a6ed408da604c2",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__simulation__state__ammo_definition.gd.patch",
+      "patch_sha256": "b1a4f97aaa07a3740d3593752fe07a9ffd2967b0d21ccffb207f83006958f808"
+    },
+    {
+      "path": "scripts/simulation/state/battle_order.gd",
+      "S14_R8_sha256": "bdcbba5681e0bb9d7116844dfa5974df421a1f2fab39ec7b1f4af51308cfb795",
+      "combined_sha256": "d4b00f71ac039b3dd40de9ab7b4cd7f53f056fdb1758a5eacd1c1beb9c1b4770",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__simulation__state__battle_order.gd.patch",
+      "patch_sha256": "54d84123e52fe3dc7b15972a33a12226e728da9a20782d5265b846e9cd60a087"
+    },
+    {
+      "path": "scripts/simulation/state/definition_catalog.gd",
+      "S14_R8_sha256": "b9e467756796528ca7c9883a22342bd0926034e86710728d66dc32a67903735f",
+      "combined_sha256": "0ea764c9e78ae1910149ccd1c4aee46e5d216e2b13f5e550e9f8906becd93ee8",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/scripts__simulation__state__definition_catalog.gd.patch",
+      "patch_sha256": "46006f41b88bd9d446865431380721154ddb76388cae79e611102b90797ba060"
+    },
+    {
+      "path": "tests/fixtures/aircraft_damage_fixture.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "7236071605d4905fdbc818112b4ed1d7214e77b8b14275c8db33708d2fa38f39",
+      "operation": "add"
+    },
+    {
+      "path": "tests/fixtures/combat_fixture.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "a4dff8ef1f0f9520b2f3df4a5107d04a7a84df9cebc9e0da236853fdd408d7e0",
+      "operation": "add"
+    },
+    {
+      "path": "tests/fixtures/combat_test.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "c0c086e59284ec921c7ef6238ec368c7108c8bd5f6372502051877c6e3acdb6e",
+      "operation": "add"
+    },
+    {
+      "path": "tests/s14_bombing/capture.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "6f48129e1b605d45084d3711274383717bbc242dc3e48f93044594a2b236f933",
+      "operation": "add"
+    },
+    {
+      "path": "tests/s14_bombing/fixtures/empty.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "0a88408af95e6b17c8d9c5b691155a8a7f68027a470527bb2bb022a233776986",
+      "operation": "add"
+    },
+    {
+      "path": "tests/s14_bombing/fixtures/far.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "4764db6e2bd1c998a8338420647797c1e744d693d52d5f37eaff989233af6600",
+      "operation": "add"
+    },
+    {
+      "path": "tests/s14_bombing/fixtures/low_fuel.json",
+      "S14_R8_sha256": null,
+      "combined_sha256": "b3c029b77e928b45093a6c3f632ce420b550397419be66de79a34d2423a744f0",
+      "operation": "add"
+    },
+    {
+      "path": "tests/s14_bombing/test_combination.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "8196078ba39783ba0ecee1609f96b9a35cb0a3a8a34a83fa62bc5508c818352b",
+      "operation": "add"
+    },
+    {
+      "path": "tests/s14_bombing/test_command_ownership.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "157cd9cddfeb89f8499ea654412a1be27676405481355d74f3a0f72a443c2c16",
+      "operation": "add"
+    },
+    {
+      "path": "tests/s14_bombing/test_variants.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "73e333ee329e68db326491a4c2be63080e05908145f6985b21caa94f7e7fece2",
+      "operation": "add"
+    },
+    {
+      "path": "tests/test_aircraft_damage.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "3f3524dd4915b1f13b83bc5322e3df7b77220f25b503fff4a979924b9df0978d",
+      "operation": "add"
+    },
+    {
+      "path": "tests/test_projectile_impact.gd",
+      "S14_R8_sha256": null,
+      "combined_sha256": "b5e98992148dca5bffe7ac819e369604a8753f1e38f20e24d96314de990ef3dc",
+      "operation": "add"
+    },
+    {
+      "path": "ui/observer_hud.gd",
+      "S14_R8_sha256": "c57421c6dd54630535a36945b9a4efa33e745b5fe8c14c3d15b7e0986f917573",
+      "combined_sha256": "e716b88cb6d2fdf98e6f9e2a0cf32a868807bdaeabe799871eaa7c04f7c4cc76",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/ui__observer_hud.gd.patch",
+      "patch_sha256": "5095348324ce5c222f65964faea7afff85c76a6b08f7a2e8384aeb85e766decb"
+    },
+    {
+      "path": "ui/observer_text.gd",
+      "S14_R8_sha256": "ceb0ffbaae38fb1296fc9d2d1112f6bf448e1b4288dea642ff32b1271cb0b86f",
+      "combined_sha256": "08d615804116541b089556b40bb7ab12717238db1262011036666ef081dd9af4",
+      "operation": "modify",
+      "patch": "candidates/s14-bombing/evidence/combined-diffs-r11/ui__observer_text.gd.patch",
+      "patch_sha256": "518338a69c52c5855178822e35cb5e46739a2a206e0bcfc5a66f77840ab019ff"
+    }
+  ]
+}

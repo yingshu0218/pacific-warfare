@@ -1,0 +1,30 @@
+{
+  "scope": "declared parse/resource closure; SimData/TerrainQueries/MAP02 view are executed, type-only SimulationWorld edges retained conservatively",
+  "paths": [
+    "data/map02/regions.json",
+    "data/maps/island_harbor_expanded.json",
+    "project.godot",
+    "scripts/map02/expanded_map_data.gd",
+    "scripts/map02/expanded_map_view.gd",
+    "scripts/presentation/maps/island_harbor_view.gd",
+    "scripts/presentation/maps/shore.gdshader",
+    "scripts/simulation/collision/combat_geometry.gd",
+    "scripts/simulation/simulation_module.gd",
+    "scripts/simulation/simulation_world.gd",
+    "scripts/simulation/state/ammo_definition.gd",
+    "scripts/simulation/state/battle_command.gd",
+    "scripts/simulation/state/battle_event.gd",
+    "scripts/simulation/state/battle_order.gd",
+    "scripts/simulation/state/definition_catalog.gd",
+    "scripts/simulation/state/mount_socket.gd",
+    "scripts/simulation/state/scenario_definition.gd",
+    "scripts/simulation/state/sim_data.gd",
+    "scripts/simulation/state/unit_definition.gd",
+    "scripts/simulation/state/unit_state.gd",
+    "scripts/simulation/state/weapon_definition.gd",
+    "scripts/simulation/state/weapon_state.gd",
+    "scripts/simulation/terrain/battlefield_terrain.gd",
+    "scripts/simulation/terrain/terrain_queries.gd",
+    "tools/verify.py"
+  ]
+}

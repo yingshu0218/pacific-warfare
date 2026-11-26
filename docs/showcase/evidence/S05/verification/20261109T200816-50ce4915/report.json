@@ -1,0 +1,13 @@
+{
+  "run_id": "20261109T200816-50ce4915",
+  "owner": "S05",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 88171,
+  "checks": [],
+  "passed": false,
+  "error": "lock_timeout",
+  "lock_owner": "{\n  \"status\": \"held\",\n  \"owner\": \"root-S05-final\",\n  \"pid\": 88158,\n  \"process_identity\": \"Tue Nov 10 04:08:08 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner root-S05-final --timeout 90 --lock-timeout 10 test res://tests/test_combat_geometry.gd res://tests/test_combat_mount_clearance.gd res://tests/test_projectile_impact.gd res://tests/test_weapon_cycle.gd res://tests/test_combat_integration.gd\",\n  \"token\": \"2bd90b429a6d41ef84b058f11846fd74\",\n  \"acquired_utc\": \"2026-11-09T20:08:08.814454+00:00\",\n  \"project\": \"/Users/infinity/Desktop/Dev/game-pacific\"\n}",
+  "exit_code": 2
+}

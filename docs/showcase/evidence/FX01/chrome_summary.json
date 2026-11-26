@@ -1,0 +1,222 @@
+{
+  "hardware": {
+    "cpu": "Apple M5",
+    "memoryBytes": 17179869184,
+    "os": "25.6.0"
+  },
+  "version": "157.0.8103.39",
+  "identity": {
+    "title": "FX01 战斗效果验证",
+    "url": "http://127.0.0.1:54358/index.html",
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "cssWidth": 1280,
+      "cssHeight": 720
+    },
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "visible": "visible",
+    "focused": true
+  },
+  "summary": [
+    {
+      "label": "production_live",
+      "samples": 733,
+      "p50_ms": 8.900000000001455,
+      "p95_ms": 21.159999999999844,
+      "p99_ms": 41.69599999999988,
+      "mean_fps": 91.30656834290413,
+      "all_visible_focused": true,
+      "max_visible_instances": 369,
+      "max_allocated_instances": 376,
+      "draw_calls_p50": 1012,
+      "draw_calls_max": 1097,
+      "dropped_max": 0,
+      "preempted_max": 0
+    },
+    {
+      "label": "water_effects_disabled",
+      "samples": 961,
+      "p50_ms": 8.299999999999272,
+      "p95_ms": 12.899999999997817,
+      "p99_ms": 15.74000000000086,
+      "mean_fps": 119.71050238549023,
+      "all_visible_focused": true,
+      "max_visible_instances": 0,
+      "max_allocated_instances": 6,
+      "draw_calls_p50": 808,
+      "draw_calls_max": 808,
+      "dropped_max": 0,
+      "preempted_max": 0
+    },
+    {
+      "label": "water_effects_enabled",
+      "samples": 967,
+      "p50_ms": 8.299999999995634,
+      "p95_ms": 12.700000000003275,
+      "p99_ms": 16.068000000000254,
+      "mean_fps": 120.65781593132365,
+      "all_visible_focused": true,
+      "max_visible_instances": 14,
+      "max_allocated_instances": 14,
+      "draw_calls_p50": 810.5,
+      "draw_calls_max": 820,
+      "dropped_max": 0,
+      "preempted_max": 0
+    },
+    {
+      "label": "flak_controlled",
+      "samples": 971,
+      "p50_ms": 8.10000000000582,
+      "p95_ms": 12.900000000001455,
+      "p99_ms": 15.899999999996362,
+      "mean_fps": 120.46996935521894,
+      "all_visible_focused": true,
+      "max_visible_instances": 13,
+      "max_allocated_instances": 14,
+      "draw_calls_p50": 860,
+      "draw_calls_max": 862,
+      "dropped_max": 0,
+      "preempted_max": 0
+    },
+    {
+      "label": "tracer_controlled",
+      "samples": 473,
+      "p50_ms": 8.299999999995634,
+      "p95_ms": 11.5,
+      "p99_ms": 16.25599999999627,
+      "mean_fps": 117.90806660684021,
+      "all_visible_focused": true,
+      "max_visible_instances": 144,
+      "max_allocated_instances": 144,
+      "draw_calls_p50": 588,
+      "draw_calls_max": 594,
+      "dropped_max": 368,
+      "preempted_max": 92
+    },
+    {
+      "label": "smoke_controlled",
+      "samples": 592,
+      "p50_ms": 8.30000000000291,
+      "p95_ms": 12.244999999996429,
+      "p99_ms": 14.508999999999872,
+      "mean_fps": 118.41657832096504,
+      "all_visible_focused": true,
+      "max_visible_instances": 144,
+      "max_allocated_instances": 144,
+      "draw_calls_p50": 1078,
+      "draw_calls_max": 1078,
+      "dropped_max": 686,
+      "preempted_max": 686
+    }
+  ],
+  "checks": [
+    {
+      "passed": true,
+      "name": "fresh release-safe fixture in exported pack",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "exported pack matches recorded hash",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "page identity",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "1280x720 drawing buffer and CSS viewport",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "hardware WebGL",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "disabled FX still receives two real sea impacts",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "enabled water has actual impacts and rendered instances",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "real time fuzes plus fixed self-destruct visible in browser",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "actual sampled projectile tracers visible in browser",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "smoke driven by actual engine hit damage",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "Space freezes real clock and effects",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "paused frame pixels identical",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "Actual 4x dropdown and Space resume advance effects",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "Actual restart resets FX state within same pool 0",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "Actual restart resets FX state within same pool 1",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "Actual restart resets FX state within same pool 2",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "three restarts retain actual mesh allocation",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "actual rendering cap in every browser phase (existing production 384, isolated demo 144)",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "all performance samples visible/focused",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "bounded incremental p95 within 33.3ms",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "no console warning/error or page errors",
+      "detail": null
+    }
+  ],
+  "scope": "One bounded Chrome incremental/visual check, frozen S10/S13 plus FX01; controlled probes labelled separately from natural production battle",
+  "first_attempt_invalid": "chrome-attempt1-invalid-fixture/run.json"
+}

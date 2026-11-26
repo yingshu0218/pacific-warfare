@@ -1,0 +1,65 @@
+{
+  "run_id": "20261110T144853-a5a5e92e",
+  "owner": "S04",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 37691,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 37693,
+      "process_group": 37693,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.3417,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T144853-a5a5e92e/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_aircraft_spatial_combat.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 37694,
+      "process_group": 37694,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 87.9984,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T144853-a5a5e92e/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S04",
+    "pid": 37691,
+    "process_identity": "Tue Nov 10 22:48:53 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S04 --lock-timeout 45 --timeout 120 test res://tests/test_aircraft_spatial_combat.gd",
+    "token": "d1e89d64d4e1440abb111a07f1f12b40",
+    "acquired_utc": "2026-11-10T14:48:53.132914+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

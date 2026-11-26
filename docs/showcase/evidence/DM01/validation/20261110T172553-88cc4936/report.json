@@ -1,0 +1,70 @@
+{
+  "run_id": "20261110T172553-88cc4936",
+  "owner": "DM01",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-project-v1",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 54973,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-project-v1",
+      "pid": 54978,
+      "process_group": 54978,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1286,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T172553-88cc4936/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-project-v1",
+        "--script",
+        "res://tests/aircraft_damage_capture.gd",
+        "--",
+        "--definition=us_f6f5_1944",
+        "--case=engine",
+        "--seconds=8",
+        "--fx",
+        "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-frames/f6f-engine"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-project-v1",
+      "pid": 54988,
+      "process_group": 54988,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 17.105,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T172553-88cc4936/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "DM01",
+    "pid": 54973,
+    "process_identity": "Wed Nov 11 01:25:53 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner DM01 --lock-timeout 45 --project .local/dm01-project-v1 --timeout 55 godot --render -- --script res://tests/aircraft_damage_capture.gd -- --definition=us_f6f5_1944 --case=engine --seconds=8 --fx --output=/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-frames/f6f-engine",
+    "token": "ca5bfc87bc0e4a91b3be8accfe72bb60",
+    "acquired_utc": "2026-11-10T17:25:53.882367+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-11-10T19:36:50.090751+00:00",
+  "status": "reference_observations_only_model_not_reviewed",
+  "references": [
+    {
+      "path": "docs/references/ships/essex_cv9_1944_04_15/images/E01.jpg",
+      "sha256": "0b90d744947e12b719f53a678b2a4cd2cc1fb9b769df486c3fbbf6f496aeadb5",
+      "observation": "实际查看：左前方斜视，短舰艏/甲板前缘悬挑、舷侧炮平台与中段舷侧升降机可读；有透视及停机遮挡，不作为逐座炮位测量。"
+    },
+    {
+      "path": "docs/references/ships/essex_cv9_1944_04_15/images/E02.jpg",
+      "sha256": "dbbd60b229780518002304b8c4c433f37c2127c5763e7452bbd369fa1dbe2002",
+      "observation": "重新实际查看：右后方斜视（舰岛在可见近侧），宽方形飞行甲板尾缘、甲板下结构、右舷机库开口和尾部舰体收束可读；强透视。纠正此前误写的左后方。"
+    },
+    {
+      "path": "docs/references/ships/essex_cv9_1944_04_15/images/E03.jpg",
+      "sha256": "92f7176ba75daa08b35e80cf9a32a0a6a4bad3ea20e12d26ee03bf6653680876",
+      "observation": "实际查看：左舷近侧视，可用于整舰长高、艏艉与甲板/机库轮廓核对；具体日期仍按最终资料卡复核，不能从文件名单独确认。"
+    },
+    {
+      "path": "docs/references/ships/essex_cv9_1944_04_15/images/E04.jpg",
+      "sha256": "851f7bf0ef46fbdb697d5d15af43090afb81abd74744b3ae06fcab3691b9fc7a",
+      "observation": "实际查看：高位斜前方，直通飞行甲板与岛式上层建筑布局清楚；甲板大量停机遮挡升降机和部分设备，不能据此证明所有孔洞与设备。"
+    },
+    {
+      "path": "docs/references/ships/essex_cv9_1944_04_15/images/P01.jpg",
+      "sha256": "ee3b85a6b2984f9e41818c1228b890e394b8d4aa25f5a6a53eb07b7bf0754fa5",
+      "observation": "实际打开全幅尺寸总表，缩放后文字过小，未按清晰原图核读数字；标题为CV17，不能冒充CV9同舰图纸。"
+    }
+  ],
+  "deck_contract": "docs/carrier-deck-contracts.md",
+  "contract_review": "最小字段和模拟/模型边界可供后续实现；不代表实例布局、碰撞表面或航空作业已通过。",
+  "rechecked_utc": "2026-11-10T20:20:57.851967+00:00"
+}

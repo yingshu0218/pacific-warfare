@@ -1,0 +1,111 @@
+{
+  "run_id": "20261119T095834-23e3a189",
+  "owner": "AV05-final-contracts",
+  "action": "test",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 866,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 2515,
+      "process_group": 2515,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1806,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261119T095834-23e3a189/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/av05/test_visible_shells.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 2516,
+      "process_group": 2516,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.6752,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261119T095834-23e3a189/01-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/av05/regressions/test_d4y2.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 2518,
+      "process_group": 2518,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 1.848,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261119T095834-23e3a189/02-output.log",
+      "passed": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/av05/regressions/test_g4m1.gd"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 2521,
+      "process_group": 2521,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.6648,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261119T095834-23e3a189/03-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "AV05-final-contracts",
+    "pid": 866,
+    "process_identity": "Thu Nov 19 17:56:52 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner AV05-final-contracts --lock-timeout 120 --timeout 75 test res://tests/av05/test_visible_shells.gd /Users/infinity/Desktop/Dev/game-pacific/.local/av05/regressions/test_d4y2.gd /Users/infinity/Desktop/Dev/game-pacific/.local/av05/regressions/test_g4m1.gd",
+    "token": "d961acc7e2444d33a209acd3eab7f6dd",
+    "acquired_utc": "2026-11-19T09:59:48.288823+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

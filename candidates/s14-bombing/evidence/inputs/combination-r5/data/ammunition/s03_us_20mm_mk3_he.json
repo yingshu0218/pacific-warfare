@@ -1,0 +1,16 @@
+{
+  "id": "s03_us_20mm_mk3_he",
+  "caliber_m": 0.02,
+  "projectile_mass_kg": 0.123,
+  "muzzle_speed_mps": 835.0,
+  "gravity_mps2": 9.80665,
+  "max_lifetime_s": 6.0,
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "docs/references/ships/fletcher_dd445_1942_07_18/modeling-brief.md",
+      "docs/references/ships/yukikaze_1942_06/modeling-brief.md"
+    ],
+    "note": "S03 namespaced integration values, not final ballistic/fuze/damage approval. Nominal caliber/representative mass/speed only; S05 must choose specific service projectile and fuze, confirm data, then calibrate effective burst/stock/cycle. max_lifetime is a safety bound."
+  }
+}

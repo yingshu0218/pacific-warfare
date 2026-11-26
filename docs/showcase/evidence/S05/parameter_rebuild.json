@@ -1,0 +1,9 @@
+{
+  "stable": true,
+  "sha256_before": "b9da40fadec7a1157460b5a7a1c295083497c2a3b062c755034fd1b57a9c0191",
+  "sha256_after": "b9da40fadec7a1157460b5a7a1c295083497c2a3b062c755034fd1b57a9c0191",
+  "command": [
+    "python3",
+    "tools/build_combat_parameters.py"
+  ]
+}

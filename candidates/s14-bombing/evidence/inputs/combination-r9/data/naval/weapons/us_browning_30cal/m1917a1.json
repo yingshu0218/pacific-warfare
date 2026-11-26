@@ -1,0 +1,57 @@
+{
+	"asset_id": "us_browning_30cal_m1917a1",
+	"name": "Browning Machine Gun, Caliber .30, M1917A1",
+	"designation": "M1917A1",
+	"documented_configuration_year": 1944,
+	"service_period_status": "military-issue-M1917-family; M1917A1-configuration-documented-in-1944-ordnance-reference",
+	"historical_configuration_claim": true,
+	"historical_installation_claim": false,
+	"coordinate_convention": {
+		"forward": "-Z",
+		"starboard": "+X",
+		"up": "+Y",
+		"root_origin": "estimated-trunnion-and-elevation-axis",
+		"units": "meters",
+		"nominal_scale": "1:1"
+	},
+	"interfaces": {
+		"elevation_axis_marker": "Generated/MountInterface/ElevationAxis",
+		"port_trunnion_marker": "Generated/MountInterface/PortTrunnionCenter",
+		"starboard_trunnion_marker": "Generated/MountInterface/StarboardTrunnionCenter",
+		"bore_axis_marker": "Generated/MountInterface/BoreAxisReference",
+		"bore_axis_height_above_elevation_axis_m_estimate": 0.05,
+		"tripod_or_ship_mount_included": false,
+		"host_platform_included": false
+	},
+	"weapon": {
+		"caliber_in": 0.30,
+		"caliber_mm_nominal": 7.62,
+		"cartridge": ".30-06 Springfield",
+		"barrels": 1,
+		"barrel_length_m": 0.60706,
+		"barrel_length_source": "23.9 inches, Standard Ordnance Items Catalog 1944, Vol. III",
+		"feed": "250-round fabric belt",
+		"operation": "short-recoil",
+		"cooling": "water-cooled; jacket capacity about 7 pints",
+		"firing_rate_rpm_source_range": [450, 600],
+		"barrel_motion": "host-mount-owned"
+	},
+	"key_dimensions": {
+		"overall_length_m": 0.98146,
+		"overall_length_source": "38.64 inches, Standard Ordnance Items Catalog 1944, Vol. III",
+		"overall_envelope_m": [0.35, 0.36, 0.98146],
+		"envelope_width_height_status": "procedural-visual-estimate",
+		"receiver_and_trunnion_dimensions_status": "visual-estimate"
+	},
+	"confidence": {
+		"designation_caliber_and_service_family": "source-confirmed",
+		"barrel_and_overall_length": "source-confirmed-for-M1917A1",
+		"cooling_feed_and_operation": "source-confirmed",
+		"component_proportions": "visual-estimate",
+		"ship-fit-or-position": "not-asserted"
+	},
+	"sources": [
+		"https://www.big-red-one.org/FM%2023-55%20M1917%20M1919%20.30%20CAL%20MACHINE%20GUN.pdf",
+		"https://www.90thidpg.us/Reference/Manuals/Standard%20Ordnance%20Items%20Catalog%2C%201944%2C%20Vol%203.pdf"
+	]
+}

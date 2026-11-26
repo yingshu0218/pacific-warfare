@@ -1,0 +1,22 @@
+{
+  "id": "jp_type97_no6",
+  "name": "Type 97 No.6 land",
+  "caliber_m": 0.20002499999999998,
+  "projectile_mass_kg": 56.2454,
+  "muzzle_speed_mps": 0.0,
+  "gravity_mps2": 9.80665,
+  "max_lifetime_s": 90.0,
+  "release_mode": "gravity_release",
+  "drag_per_m": 0.00012,
+  "arming_s": 1.5,
+  "arming_distance_m": 45.0,
+  "impact_delay_s": 0.0,
+  "source": {
+    "status": "provisional",
+    "original_page": "OP1667 (1946) printed45 Figure35;124lb total,50lb filling,7 7/8in body,40in overall,A-3(a)",
+    "note": "Original page opened; Picric acid selected without claiming Type98 TNT-equivalence factor. Arming/drag/blast are approximations",
+    "collision_envelope_note": "Conservative axial envelope covers simplified accepted display body/fins; not a measured aerodynamic reference or exact rigid-body collision hull."
+  },
+  "collision_length_m": 1.14,
+  "collision_span_m": 0.31
+}

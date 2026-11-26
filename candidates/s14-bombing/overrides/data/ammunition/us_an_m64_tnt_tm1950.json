@@ -1,0 +1,23 @@
+{
+  "id": "us_an_m64_tnt_tm1950",
+  "name": "AN-M64 GP TNT / TM9-1980 1950 table",
+  "caliber_m": 0.36068,
+  "projectile_mass_kg": 232.148575,
+  "muzzle_speed_mps": 0.0,
+  "gravity_mps2": 9.80665,
+  "max_lifetime_s": 90.0,
+  "release_mode": "gravity_release",
+  "drag_per_m": 8e-05,
+  "arming_s": 2.0,
+  "arming_distance_m": 60.0,
+  "impact_delay_s": 0.1,
+  "source": {
+    "status": "provisional",
+    "primary_table": "TM9-1980 (1950) printed296 TableXXVII TNT row; 511.8lb complete,261.7lb TNT",
+    "original_page": "docs/references/aircraft/b25j_1944_07/manual-pages/tm9-p299.png",
+    "limits": "Postwar table selected as engineering ammunition identity; not proof of1944 lot/fuze mass or exact simplified model dimensions; arming/drag are estimates",
+    "collision_envelope_note": "Conservative axial envelope covers simplified accepted display body/fins; not a measured aerodynamic reference or exact rigid-body collision hull."
+  },
+  "collision_length_m": 1.68,
+  "collision_span_m": 0.5
+}

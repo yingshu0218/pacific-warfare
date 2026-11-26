@@ -1,0 +1,30 @@
+{
+  "ship_low": {
+    "frames": 48,
+    "adjacent_rms_p50": 0.004924904089421034,
+    "adjacent_rms_p95": 0.00501655675470829,
+    "max_adjacent_rms": 0.005058666691184044,
+    "note": "Pixel-change descriptors only; not a perceptual flicker threshold or game FPS."
+  },
+  "sky": {
+    "frames": 120,
+    "adjacent_rms_p50": 0.0006804200820624828,
+    "adjacent_rms_p95": 0.005321187619119878,
+    "max_adjacent_rms": 0.009590727277100086,
+    "note": "Pixel-change descriptors only; not a perceptual flicker threshold or game FPS."
+  },
+  "air_high": {
+    "frames": 48,
+    "adjacent_rms_p50": 0.01747492328286171,
+    "adjacent_rms_p95": 0.02647876478731632,
+    "max_adjacent_rms": 0.027111317962408066,
+    "note": "Pixel-change descriptors only; not a perceptual flicker threshold or game FPS."
+  },
+  "far_edge": {
+    "frames": 48,
+    "adjacent_rms_p50": 0.00017064911662600935,
+    "adjacent_rms_p95": 0.0001724665708024986,
+    "max_adjacent_rms": 0.00017289734387304634,
+    "note": "Pixel-change descriptors only; not a perceptual flicker threshold or game FPS."
+  }
+}

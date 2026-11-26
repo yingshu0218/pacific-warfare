@@ -1,0 +1,463 @@
+{
+  "scope": "All S04-training validation rounds; initial and final checks retained. Native/capture/encoding/audit commands serialized by verify lock. Regression copies differ only in evidence output destination.",
+  "runs": [
+    {
+      "run": "20261110T192957-d064b76a",
+      "action": "import",
+      "passed": true,
+      "report": "validation/20261110T192957-d064b76a/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--editor",
+          "--import",
+          "--quit"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T193310-6ab1246a",
+      "action": "test",
+      "passed": true,
+      "report": "validation/20261110T193310-6ab1246a/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_training.gd"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T193801-a78e0ad5",
+      "action": "test",
+      "passed": true,
+      "report": "validation/20261110T193801-a78e0ad5/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_training_safety.gd"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_simulation_commands.gd"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_tasks.gd"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T194141-8ecdb4fc",
+      "action": "godot",
+      "passed": true,
+      "report": "validation/20261110T194141-8ecdb4fc/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/aircraft_training_capture.gd",
+          "--",
+          "--definition=us_f6f5_1944",
+          "--maneuver=axial_roll",
+          "--direction=1",
+          "--output=res://.local/s04-training-frames/f6f-axial_roll"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T194440-1348331c",
+      "action": "test",
+      "passed": true,
+      "report": "validation/20261110T194440-1348331c/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_training.gd"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_training_safety.gd"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://.local/s04-training-regression/test_f6f_coordinated_flight.gd"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://.local/s04-training-regression/test_aircraft_terrain_safety.gd"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T194829-a871e621",
+      "action": "import",
+      "passed": true,
+      "report": "validation/20261110T194829-a871e621/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+          "--editor",
+          "--import",
+          "--quit"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T194833-ccdf84d9",
+      "action": "godot",
+      "passed": true,
+      "report": "validation/20261110T194833-ccdf84d9/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+          "--script",
+          "res://tests/aircraft_training_capture.gd",
+          "--",
+          "--definition=us_f6f5_1944",
+          "--maneuver=bank_turn",
+          "--direction=1",
+          "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/f6f-bank_turn"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T194850-acf584f0",
+      "action": "godot",
+      "passed": true,
+      "report": "validation/20261110T194850-acf584f0/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+          "--script",
+          "res://tests/aircraft_training_capture.gd",
+          "--",
+          "--definition=us_f6f5_1944",
+          "--maneuver=climb_dive",
+          "--direction=1",
+          "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/f6f-climb_dive"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T194908-f01b822a",
+      "action": "godot",
+      "passed": true,
+      "report": "validation/20261110T194908-f01b822a/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+          "--script",
+          "res://tests/aircraft_training_capture.gd",
+          "--",
+          "--definition=us_f6f5_1944",
+          "--maneuver=axial_roll",
+          "--direction=1",
+          "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/f6f-axial_roll"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T194922-49bd79ef",
+      "action": "godot",
+      "passed": true,
+      "report": "validation/20261110T194922-49bd79ef/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+          "--script",
+          "res://tests/aircraft_training_capture.gd",
+          "--",
+          "--definition=us_f6f5_1944",
+          "--maneuver=roll_reversal",
+          "--direction=1",
+          "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/f6f-roll_reversal"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T194941-1ed4d9ea",
+      "action": "godot",
+      "passed": true,
+      "report": "validation/20261110T194941-1ed4d9ea/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+          "--script",
+          "res://tests/aircraft_training_capture.gd",
+          "--",
+          "--definition=us_f6f5_1944",
+          "--maneuver=split_s",
+          "--direction=1",
+          "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/f6f-split_s"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T195001-17a41d8c",
+      "action": "godot",
+      "passed": true,
+      "report": "validation/20261110T195001-17a41d8c/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+          "--script",
+          "res://tests/aircraft_training_capture.gd",
+          "--",
+          "--definition=jp_a6m5a_1944",
+          "--maneuver=bank_turn",
+          "--direction=-1",
+          "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-bank_turn"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T195019-336dc59c",
+      "action": "godot",
+      "passed": true,
+      "report": "validation/20261110T195019-336dc59c/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+          "--script",
+          "res://tests/aircraft_training_capture.gd",
+          "--",
+          "--definition=jp_a6m5a_1944",
+          "--maneuver=climb_dive",
+          "--direction=-1",
+          "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-climb_dive"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T195037-cab24600",
+      "action": "godot",
+      "passed": true,
+      "report": "validation/20261110T195037-cab24600/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+          "--script",
+          "res://tests/aircraft_training_capture.gd",
+          "--",
+          "--definition=jp_a6m5a_1944",
+          "--maneuver=axial_roll",
+          "--direction=-1",
+          "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-axial_roll"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T195051-e22c6463",
+      "action": "godot",
+      "passed": true,
+      "report": "validation/20261110T195051-e22c6463/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+          "--script",
+          "res://tests/aircraft_training_capture.gd",
+          "--",
+          "--definition=jp_a6m5a_1944",
+          "--maneuver=roll_reversal",
+          "--direction=-1",
+          "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-roll_reversal"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T195109-743892f2",
+      "action": "godot",
+      "passed": true,
+      "report": "validation/20261110T195109-743892f2/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final",
+          "--script",
+          "res://tests/aircraft_training_capture.gd",
+          "--",
+          "--definition=jp_a6m5a_1944",
+          "--maneuver=split_s",
+          "--direction=-1",
+          "--output=/Users/infinity/Desktop/Dev/game-pacific/.local/s04-training-final-frames/a6m-split_s"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T195505-8565ac42",
+      "action": "test",
+      "passed": true,
+      "report": "validation/20261110T195505-8565ac42/report.json",
+      "commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_simulation_commands.gd"
+        ],
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://.local/s04-training-regression/test_aircraft_tasks.gd"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T195529-0ba41e06",
+      "action": "exec",
+      "passed": true,
+      "report": "validation/20261110T195529-0ba41e06/report.json",
+      "commands": [
+        [
+          "python3",
+          "tools/s04_training/encode_native.py"
+        ]
+      ]
+    },
+    {
+      "run": "20261110T195901-d950db24",
+      "action": "exec",
+      "passed": true,
+      "report": "validation/20261110T195901-d950db24/report.json",
+      "commands": [
+        [
+          "python3",
+          "tools/s04_training/audit_delivery.py"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+	"checks": [
+		{
+			"detail": null,
+			"name": "two aircraft use common BattleOrder",
+			"passed": true
+		},
+		{
+			"detail": 748.333333333333,
+			"name": "both aircraft complete actual recovery",
+			"passed": true
+		},
+		{
+			"detail": 20.0,
+			"name": "deck aircraft do not pass through peers",
+			"passed": true
+		},
+		{
+			"detail": 0.0,
+			"name": "world deck transform exact while grounded",
+			"passed": true
+		},
+		{
+			"detail": 0.0133628845214844,
+			"name": "no teleport at wheel/flight transitions",
+			"passed": true
+		},
+		{
+			"detail": 1.87947058677673,
+			"name": "velocity changes bounded including wheel normal impulse",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "all transient occupations released",
+			"passed": true
+		},
+		{
+			"detail": 0.00000000050863491196651,
+			"name": "fuel aircraft and base conservation",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "finite base fuel stock",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "ammo never replenished before physical recovery",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "each real gun reloads once from finite base stock",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "service timer begins only at physically parked recovery",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "no repeated refuelling after service",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "repeat wave enters same command gate",
+			"passed": true
+		},
+		{
+			"detail": 20.0,
+			"name": "continuous crew traction respots both aircraft without crossing",
+			"passed": true
+		},
+		{
+			"detail": 0.00810813903808594,
+			"name": "respot and second sortie never teleport",
+			"passed": true
+		},
+		{
+			"detail": 1902.45,
+			"name": "second complete two-aircraft wave recovers and services",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "repeated sorties retain exactly two real aircraft instances",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "cancel taxi order queued",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "cancel frees queue and strip",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "cancelled aircraft brakes to physical stop",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "replacement follows common order ownership",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "cancelled command remains terminal in timeline",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "one loss does not strand next launch",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "approach reached by continuous flight",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "occupied approach waves off and frees clearance",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "go around rejoins and actually flies second approach",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "real fleet turn interrupts landing",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "carrier turn produced by fleet integrator",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "unavailable carrier does not snap aircraft aboard",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "waiting aircraft remains in actual flight",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "partial_engine enters real airborne state",
+			"passed": true
+		},
+		{
+			"detail": 218.454315185547,
+			"name": "partial_engine never freezes after OPS releases",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "partial_engine has no OPS deck ownership",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "partial_engine surviving queue progresses",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "unfit airborne state remains counted without false loss",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "disabled_active enters real airborne state",
+			"passed": true
+		},
+		{
+			"detail": 226.776016235352,
+			"name": "disabled_active never freezes after OPS releases",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "disabled_active has no OPS deck ownership",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "disabled_active surviving queue progresses",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "unfit airborne state remains counted without false loss",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "empty_fuel enters real airborne state",
+			"passed": true
+		},
+		{
+			"detail": 213.786437988281,
+			"name": "empty_fuel never freezes after OPS releases",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "empty_fuel has no OPS deck ownership",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "empty_fuel surviving queue progresses",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "empty fuel uses inherited glide",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "terminal enters real airborne state",
+			"passed": true
+		},
+		{
+			"detail": 212.803604125977,
+			"name": "terminal never freezes after OPS releases",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "terminal has no OPS deck ownership",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "terminal surviving queue progresses",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "true terminal uses original DM integrator",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "limited supply case physically recovers",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "service cannot create more fuel than base stock",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "finite fuel and ammunition exhaust without negative inventory",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "valid touch envelope admitted",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reject invalid contact speed",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reject invalid contact sink",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reject invalid contact heading",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reject invalid contact bank",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reject invalid contact zone",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reject invalid contact occupied",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reject invalid contact hook",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "reject invalid contact elevator",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "lowered elevator is unsupported flight deck",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "hard contact case reaches near deck by original continuous flight",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "late physical contact reaches real CombatDamage terminal outcome",
+			"passed": true
+		},
+		{
+			"detail": 0.852241337299347,
+			"name": "hard contact has no position jump at impact and support handoff",
+			"passed": true
+		},
+		{
+			"detail": 15.8673906326294,
+			"name": "actual tilted wheel features never penetrate moving deck",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "disabled wreck physically rides moving deck without restoring flight",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "impact releases OPS ownership, no aircraft resurrection",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "physical wreck blocks deck after scheduling slot release",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "hard-contact loss never receives service",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "respot cancellation case completes first physical recovery",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "repeat sortie begins actual aft deck handling",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "deck handling cancellation follows BattleCommand",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "cancelled crew handling brakes continuously and releases strip",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "single aircraft respots again and completes second recovery",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "single-aircraft cycle is repeatable after cancellation",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "parked support consumes full mother translation and attitude",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "deck velocity includes actual rigid-body angular contribution",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "lost carrier releases parked aircraft support and scheduling",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "unsupported aircraft follows actual fall, never stays attached to sinking deck",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "carrier loss does not refill or regenerate parked aircraft",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "paused world freezes queues and aircraft",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "4x uses fixed ticks without skipping operations",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "restart clears occupancy timeline and inventory generation",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "restart restores original parked aircraft once",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "restart restores new-session supply stock",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"name": "1x and 4x match complete fixed-tick world and OPS state",
+			"passed": true
+		}
+	],
+	"failures": 0
+}

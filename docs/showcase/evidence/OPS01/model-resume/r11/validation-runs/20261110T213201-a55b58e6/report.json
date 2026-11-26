@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T213201-a55b58e6",
+  "owner": "OPS01",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 80870,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 80872,
+      "process_group": 80872,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1989,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T213201-a55b58e6/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 80873,
+      "process_group": 80873,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": true,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 2.8376,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T213201-a55b58e6/01-output.log",
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "lock_identity": {
+    "status": "held",
+    "owner": "OPS01",
+    "pid": 80870,
+    "process_identity": "pid=80870 started_utc=2026-11-10T21:32:01.264314+00:00 argv=['tools/verify.py', '--owner', 'OPS01', '--timeout', '60', '--lock-timeout', '3', 'import'] (ps unavailable)",
+    "token": "e7eddcf4f70f4d909d78cb1975514ced",
+    "acquired_utc": "2026-11-10T21:32:01.271615+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 1
+}

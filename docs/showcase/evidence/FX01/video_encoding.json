@@ -1,0 +1,154 @@
+[
+  {
+    "case": "water",
+    "command": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "10",
+      "-i",
+      "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/FX01/native/water/frame_%03d.png",
+      "-c:v",
+      "libx264",
+      "-crf",
+      "20",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "-metadata",
+      "comment=Controlled real projectile witness. 10fps evidence encoding, not game performance.",
+      "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/FX01/water_continuous.mp4"
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "avg_frame_rate": "10/1",
+          "duration": "5.500000",
+          "nb_frames": "55"
+        }
+      ]
+    }
+  },
+  {
+    "case": "flak",
+    "command": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "10",
+      "-i",
+      "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/FX01/native/flak/frame_%03d.png",
+      "-c:v",
+      "libx264",
+      "-crf",
+      "20",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "-metadata",
+      "comment=Controlled real projectile witness. 10fps evidence encoding, not game performance.",
+      "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/FX01/flak_continuous.mp4"
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "avg_frame_rate": "10/1",
+          "duration": "7.500000",
+          "nb_frames": "75"
+        }
+      ]
+    }
+  },
+  {
+    "case": "tracer",
+    "command": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "10",
+      "-i",
+      "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/FX01/native/tracer/frame_%03d.png",
+      "-c:v",
+      "libx264",
+      "-crf",
+      "20",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "-metadata",
+      "comment=Controlled real projectile witness. 10fps evidence encoding, not game performance.",
+      "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/FX01/tracer_continuous.mp4"
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "avg_frame_rate": "10/1",
+          "duration": "3.400000",
+          "nb_frames": "34"
+        }
+      ]
+    }
+  },
+  {
+    "case": "smoke",
+    "command": [
+      "/opt/homebrew/bin/ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-y",
+      "-framerate",
+      "10",
+      "-i",
+      "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/FX01/native/smoke/frame_%03d.png",
+      "-c:v",
+      "libx264",
+      "-crf",
+      "20",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "-metadata",
+      "comment=Controlled real projectile witness. 10fps evidence encoding, not game performance.",
+      "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/FX01/smoke_continuous.mp4"
+    ],
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "avg_frame_rate": "10/1",
+          "duration": "6.000000",
+          "nb_frames": "60"
+        }
+      ]
+    }
+  }
+]

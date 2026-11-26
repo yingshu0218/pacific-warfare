@@ -1,0 +1,43 @@
+class_name SB2CFlightAdapter
+extends Node3D
+
+## The existing model is a read-only dependency; no local flight or damage roll.
+var model_root: PacificAircraftBuilder
+var payload: Node3D
+var door_angles: Dictionary = {}
+
+func _ready() -> void:
+	model_root = preload("res://aircraft/sb2c4/sb2c4.gd").new() as PacificAircraftBuilder
+	model_root.position.y = -2.38
+	add_child(model_root)
+	model_root.call("set_showcase_configuration",true)
+	model_root.landing_gear.visible = false
+	StaticModelBatch.apply(model_root, "s14_sb2c4")
+	payload = model_root.find_child("One 500 lb general purpose bomb",true,false) as Node3D
+	for child: Node in model_root.get("bay_open_group").get_children():
+		if child is Node3D and "door pivot" in str(child.name): door_angles[child] = child.rotation.z
+
+func apply_state(view: Dictionary) -> void:
+	position = view.position_m
+	rotation = view.rotation_rad
+	var damage: Dictionary = view.module_data.get("damage", {})
+	visible = bool(view.active) or str(damage.get("phase", "")) in ["crashing", "wreck"]
+	var flight: Dictionary = view.module_data.get("aircraft_motion", {})
+	model_root.propeller.rotation.z = float(flight.get("propeller_phase_rad", 0.0))
+	model_root.landing_gear.visible = false
+	for surface: Node3D in model_root.animated_surfaces:
+		var label: String = str(surface.name).to_lower()
+		if "aileron" in label: surface.rotation.z = float(flight.get("aileron_rad", 0.0)) * (-1.0 if "port" in label else 1.0)
+		elif "elevator" in label: surface.rotation.x = float(flight.get("elevator_rad", 0.0))
+
+	var rack: Dictionary = view.module_data.get("bomb_rack",{})
+	if not rack.is_empty():
+		model_root.call("set_bomb_bay_open",float(rack.bay)>0.01)
+		model_root.call("set_dive_brakes_deployed",float(rack.brake)>0.5)
+		for door: Node3D in door_angles: door.rotation.z = float(door_angles[door])*float(rack.bay)
+		if payload != null: payload.visible = bool(rack.slots[0].loaded)
+
+func bomb_template(_index: int) -> Node3D: return payload
+
+func mount_sockets() -> Array[Dictionary]: return []
+func apply_weapon_state(_id: String, _state: Dictionary) -> bool: return false

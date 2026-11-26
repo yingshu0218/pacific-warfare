@@ -1,0 +1,18 @@
+{
+  "report": ".local/validation/runs/20261119T105056-5df75744/report.json",
+  "checks": 32,
+  "recorded_transfers": {
+    "harbor_transfer": {
+      "damage": "crashing",
+      "from": "jp_air_3",
+      "s": 9.68333333333333,
+      "to": "jp_air_4"
+    },
+    "maneuver_transfer": {
+      "damage": "crashing",
+      "from": "jp_air_3",
+      "s": 104.95,
+      "to": "us_pair_demo_1"
+    }
+  }
+}

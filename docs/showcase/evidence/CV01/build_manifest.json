@@ -1,0 +1,61 @@
+{
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "entry": "naval/essex_cv9_1944_04_15/inspection/inspection.tscn",
+  "scope": "one carrier + 3 static aircraft; no simulation, S14 or operations",
+  "source_sha256": {
+    "naval/essex_cv9_1944_04_15/data/deck.json": "66d8e58ac758a381ce937467b88241789a49b4a9f49dab96f2529ece11e3c199",
+    "naval/essex_cv9_1944_04_15/data/assembly.json": "51c2d5da6e177471b4aae39b861fa8c379a920825a064b48090d707e497bd73e",
+    "naval/essex_cv9_1944_04_15/essex.tscn": "c3c7a2da49104932b2b98b356c14bee5fe6006655bc8fcdadc45e58fe68abbaa",
+    "naval/essex_cv9_1944_04_15/essex.gd": "b0e158c8e154bbbab1671c2f73d40528949a6a59d7b64c111e85f08602cb842a",
+    "scenes/ships/destroyer_modules/us_oerlikon_single.tscn": "5ea812079fe0cc4a81b4b437b23434b89954ae46f13ea0bdae3bc5c5cf1cbfa1",
+    "scripts/naval/destroyers/weapon_module.gd": "f5a13cec8dfac2144696f94fc8732f782e6eb7e9520396026439458b5aaf6d22",
+    "scripts/naval/destroyers/mesh_tools.gd": "ef447fdeb122230cbfd676da4b1e0d790744fdfb2210deb28d83d21bf8f70a45",
+    "scripts/naval/destroyers/measure12.gdshader": "e3e13d384071d914537ef0459780c995419b2bf66b0aeedb9345b6338472a8da",
+    "assets/naval/weapons/usn_bofors_40mm/mark2_mod5/usn_bofors_40mm_quad_mk2_mod5.tscn": "80788b70a79137863adc6d486e5df6a11958aa4016d6675a5da17cf698c14222",
+    "scripts/naval/usn_bofors_40mm_quad_mk2_mod5.gd": "4bfbcba8e9c04122eddcf359fe83a89b88b3d9ff903d75a943edc562539bf010",
+    "naval/essex_cv9_1944_04_15/weapons/mk24.tscn": "723cbd51218f18871849995e7b91044d933b7b04647fba4d4d8a1de24936bfe6",
+    "naval/essex_cv9_1944_04_15/weapons/five_inch.gd": "73f07b53de00c0d59e95f0baae5848b3fb8515d2a8ae7608fedd1693f42808c9",
+    "naval/essex_cv9_1944_04_15/geometry.gd": "ccdf77846c0eeedf26723ad25b0a0b78abcc38b30593252adbe5bfea2b45ed46",
+    "naval/essex_cv9_1944_04_15/weapons/mk32.tscn": "97de13f113e94d02820f340c182a0f9bd9097561c61607d42a3e2f2f5c9ab43e",
+    "naval/essex_cv9_1944_04_15/modules/platforms.tscn": "f63732b00edc0817b1f36617ad1394c83f73e123565c793044b83906a46e4fe0",
+    "naval/essex_cv9_1944_04_15/modules/platforms.gd": "a4230990430a6aa824bab392d71c81309b0299739b60ce0ee8925725c12f7e57",
+    "naval/essex_cv9_1944_04_15/modules/flight_deck.tscn": "9173ea5c3295023171390627a583c5e17bd569c96091c23af848ffbd141cb772",
+    "naval/essex_cv9_1944_04_15/modules/flight_deck.gd": "133acfd03a3c7a3b16c0980581b6fee992072f58cd03f776fee936a4d9354e18",
+    "naval/essex_cv9_1944_04_15/modules/island.tscn": "f7f7ea17dfd33b1aec8d4a827e36ee8c21a7236eca6ca9bd6ccbbe185a643e4d",
+    "naval/essex_cv9_1944_04_15/modules/island.gd": "948efac03ebb8c3800ae9c88f224d8adab804c71363222c5bc6e3e7a20a3630e",
+    "naval/essex_cv9_1944_04_15/modules/hull.gd": "2d5ba4a164ae64e3c8e931c15f3ef98f5639c46dcab4ac14bbe4a11467f53e54",
+    "naval/essex_cv9_1944_04_15/measure32.gdshader": "161a56b560db4dc5793121bcd9f979c367df3939b76dbf297d161827f4d16bef",
+    "naval/essex_cv9_1944_04_15/modules/hangar.tscn": "8f2f6181a081a91ba913d0e8b7b45692bee8ac3613a6ed9256ed434a88fb562b",
+    "naval/essex_cv9_1944_04_15/modules/hangar.gd": "acadaa79b82b5ff2a1d440eec9af3921946fcf92d943908a42ad48e8f0d8ef33",
+    "naval/essex_cv9_1944_04_15/modules/equipment.gd": "ca3cb5474e5578d827a94c33c3973674bd60898103eed1521f3242991c43a297",
+    "naval/essex_cv9_1944_04_15/modules/equipment.tscn": "f87fb6149aa5f4f4a77a768f799a08ed2464bb5932e2f4146e8545c8f87011bb",
+    "naval/essex_cv9_1944_04_15/modules/hull.tscn": "d10a2209168176b420add5aaaac152f22d9a5a56fad3cbcf6b34e02dff62a1a2",
+    "naval/essex_cv9_1944_04_15/inspection/inspection.tscn": "6076b0d78961f704889fb13310beb654d4291da5dbfbf7471884f6735f0c519f",
+    "naval/essex_cv9_1944_04_15/inspection/inspection.gd": "46bdff872d55076494e70d373d80a090042463d5d3b445ba7e20c780d71b9c0a",
+    "naval/essex_cv9_1944_04_15/inspection/deck_fixtures.gd": "5002c6748c768ecae5667e26232b35c31a369c07369fabf159aca4303dc9ca96",
+    "aircraft/sb2c4/sb2c4.tscn": "2f848e2e37c3cab9d685989e0760901f7577b97e9f4de3ebb20dd31ca481cf89",
+    "aircraft/sb2c4/sb2c4.gd": "6da0e7cfbb45027217bc5eda90551c3b75cacaf1151eaf8b60c30d97be18cb61",
+    "aircraft/scripts/aircraft_builder.gd": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+    "aircraft/scenes/f6f5.tscn": "bb4e4a4bc8ae51d7fc5c09818d4ba44c3012710f09ff94c445d55366a93c51da",
+    "aircraft/models/f6f5.gd": "4adf827e37e5e032db3a783ca08bd44bd2da0375ab2316db5935920cbb03b5c7"
+  },
+  "reports": [
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T202913-8a9e292d/report.json",
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T202915-3005e052/report.json"
+  ],
+  "template_sha256": {
+    "web_nothreads_release.zip": "d3ee2f08cef0cf3cf6678a6355a92a8db48ccdd35cbd2e8bfd5f0e8a0b4032a0",
+    "web_nothreads_debug.zip": "08962aefef811b603541d7951ac67ef00413aad2d978855183c28adee98f626a"
+  },
+  "output_sha256": {
+    "index.apple-touch-icon.png": "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5",
+    "index.wasm": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+    "index.icon.png": "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5",
+    "index.html": "b305d11e40211b32d4730b5b1fd53d8b8c28f69f327ef943951a1be4122b966f",
+    "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+    "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+    "index.js": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+    "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+    "index.pck": "e14750598a94b3809f2f63c8cdabe90fc5746d00d613d6980aa775d8833f44a9"
+  }
+}

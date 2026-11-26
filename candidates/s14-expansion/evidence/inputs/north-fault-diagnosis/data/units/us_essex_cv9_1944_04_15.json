@@ -1,0 +1,976 @@
+{
+  "schema_version": 1,
+  "id": "us_essex_cv9_1944_04_15",
+  "display_name": "埃塞克斯 CV-9",
+  "country_id": "us",
+  "domain": "ship",
+  "service_entry_year": 1942,
+  "configuration_date": "1944-04-15",
+  "dimensions_m": [
+    44.98,
+    40.5,
+    265.7856
+  ],
+  "model_scene": "res://scenes/ships/us_essex_cv9_1944_04_15.tscn",
+  "mounts": [
+    {
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.64999997615814,
+        -0.349999994039536
+      ],
+      "host_id": "stbd_51",
+      "id": "dp_51",
+      "muzzle_positions_m": [
+        [
+          -0.720000267028809,
+          5.96046447753906e-07,
+          -3.99999856948853
+        ],
+        [
+          0.719999313354492,
+          5.96046447753906e-07,
+          -3.99999856948853
+        ]
+      ],
+      "position_m": [
+        16.3999996185303,
+        15.9700002670288,
+        -50.5
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv01_5in38_mk32_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.64999997615814,
+        -0.349999994039536
+      ],
+      "host_id": "stbd_53",
+      "id": "dp_53",
+      "muzzle_positions_m": [
+        [
+          -0.720000267028809,
+          -3.57627868652344e-07,
+          -3.99999856948853
+        ],
+        [
+          0.719999313354492,
+          -3.57627868652344e-07,
+          -3.99999856948853
+        ]
+      ],
+      "position_m": [
+        16.3999996185303,
+        18.2000007629395,
+        -38.0
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv01_5in38_mk32_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 180.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.64999997615814,
+        -0.349999994039536
+      ],
+      "host_id": "stbd_55",
+      "id": "dp_55",
+      "muzzle_positions_m": [
+        [
+          -0.719998955726624,
+          -3.57627868652344e-07,
+          -4.00000047683716
+        ],
+        [
+          0.720000624656677,
+          -3.57627868652344e-07,
+          -4.00000047683716
+        ]
+      ],
+      "position_m": [
+        16.3999996185303,
+        18.2000007629395,
+        22.0
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv01_5in38_mk32_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 180.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.64999997615814,
+        -0.349999994039536
+      ],
+      "host_id": "stbd_57",
+      "id": "dp_57",
+      "muzzle_positions_m": [
+        [
+          -0.719998955726624,
+          5.96046447753906e-07,
+          -3.99999856948853
+        ],
+        [
+          0.720000624656677,
+          5.96046447753906e-07,
+          -3.99999856948853
+        ]
+      ],
+      "position_m": [
+        16.3999996185303,
+        15.9700002670288,
+        34.5
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv01_5in38_mk32_twin",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.79999995231628,
+        -0.100000001490116
+      ],
+      "host_id": "port_forward_sponson",
+      "id": "dp_52",
+      "muzzle_positions_m": [
+        [
+          1.77031168391295e-07,
+          2.38418579101562e-07,
+          -3.95000123977661
+        ]
+      ],
+      "position_m": [
+        -20.3500003814697,
+        13.6700000762939,
+        -104.0
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv01_5in38_mk24_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.79999995231628,
+        -0.100000001490116
+      ],
+      "host_id": "port_forward_sponson",
+      "id": "dp_54",
+      "muzzle_positions_m": [
+        [
+          1.77031168391295e-07,
+          2.38418579101562e-07,
+          -3.95000123977661
+        ]
+      ],
+      "position_m": [
+        -20.3500003814697,
+        13.6700000762939,
+        -92.0
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv01_5in38_mk24_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.79999995231628,
+        -0.100000001490116
+      ],
+      "host_id": "port_aft_sponson",
+      "id": "dp_56",
+      "muzzle_positions_m": [
+        [
+          1.77031168391295e-07,
+          2.38418579101562e-07,
+          -3.95000123977661
+        ]
+      ],
+      "position_m": [
+        -20.3500003814697,
+        13.6700000762939,
+        94.0
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv01_5in38_mk24_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.79999995231628,
+        -0.100000001490116
+      ],
+      "host_id": "port_aft_sponson",
+      "id": "dp_58",
+      "muzzle_positions_m": [
+        [
+          1.77031168391295e-07,
+          2.38418579101562e-07,
+          -3.95000123977661
+        ]
+      ],
+      "position_m": [
+        -20.3500003814697,
+        13.6700000762939,
+        106.0
+      ],
+      "role": "main",
+      "weapon_definition_id": "cv01_5in38_mk24_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 0.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.5,
+        -0.0199999995529652
+      ],
+      "host_id": "bow_bofors",
+      "id": "aa40_bow",
+      "muzzle_positions_m": [
+        [
+          -1.12000000476837,
+          0.0,
+          -2.69999361038208
+        ],
+        [
+          -0.389999985694885,
+          0.0,
+          -2.69999361038208
+        ],
+        [
+          0.389999985694885,
+          0.0,
+          -2.69999361038208
+        ],
+        [
+          1.12000000476837,
+          0.0,
+          -2.69999361038208
+        ]
+      ],
+      "position_m": [
+        0.0,
+        10.1999998092651,
+        -124.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 180.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.5,
+        -0.0199999995529652
+      ],
+      "host_id": "stern_bofors",
+      "id": "aa40_stern",
+      "muzzle_positions_m": [
+        [
+          -1.12000000476837,
+          0.0,
+          -2.69999361038208
+        ],
+        [
+          -0.390000104904175,
+          0.0,
+          -2.69999361038208
+        ],
+        [
+          0.390000104904175,
+          0.0,
+          -2.69999361038208
+        ],
+        [
+          1.12000012397766,
+          0.0,
+          -2.69999361038208
+        ]
+      ],
+      "position_m": [
+        -3.0,
+        9.09999942779541,
+        124.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.5,
+        -0.0199999995529652
+      ],
+      "host_id": "port_forward_sponson",
+      "id": "aa40_port_fore",
+      "muzzle_positions_m": [
+        [
+          -1.12000262737274,
+          0.0,
+          -2.70000123977661
+        ],
+        [
+          -0.389999270439148,
+          0.0,
+          -2.70000123977661
+        ],
+        [
+          0.389999508857727,
+          0.0,
+          -2.70000123977661
+        ],
+        [
+          1.12000286579132,
+          0.0,
+          -2.70000123977661
+        ]
+      ],
+      "position_m": [
+        -20.5,
+        13.5500001907349,
+        -79.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.5,
+        -0.0199999995529652
+      ],
+      "host_id": "port_aft_sponson",
+      "id": "aa40_port_aft",
+      "muzzle_positions_m": [
+        [
+          -1.12000262737274,
+          0.0,
+          -2.70000123977661
+        ],
+        [
+          -0.389999270439148,
+          0.0,
+          -2.70000123977661
+        ],
+        [
+          0.389999508857727,
+          0.0,
+          -2.70000123977661
+        ],
+        [
+          1.12000286579132,
+          0.0,
+          -2.70000123977661
+        ]
+      ],
+      "position_m": [
+        -20.5,
+        13.5500001907349,
+        81.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 180.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.5,
+        -0.0199999995529652
+      ],
+      "host_id": "island_aft_bofors",
+      "id": "aa40_island_aft",
+      "muzzle_positions_m": [
+        [
+          -1.12000060081482,
+          0.0,
+          -2.70000028610229
+        ],
+        [
+          -0.389999151229858,
+          0.0,
+          -2.70000028610229
+        ],
+        [
+          0.389999628067017,
+          0.0,
+          -2.70000028610229
+        ],
+        [
+          1.12000012397766,
+          0.0,
+          -2.70000028610229
+        ]
+      ],
+      "position_m": [
+        16.3999996185303,
+        22.0,
+        11.3000001907349
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_01",
+      "id": "aa20_01",
+      "muzzle_positions_m": [
+        [
+          5.24536574175727e-08,
+          -7.15255737304688e-07,
+          -1.19999980926514
+        ]
+      ],
+      "position_m": [
+        -14.0,
+        16.0,
+        -119.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_02",
+      "id": "aa20_02",
+      "muzzle_positions_m": [
+        [
+          -5.24536574175727e-08,
+          -7.15255737304688e-07,
+          -1.19999980926514
+        ]
+      ],
+      "position_m": [
+        11.0,
+        16.0,
+        -119.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_03",
+      "id": "aa20_03",
+      "muzzle_positions_m": [
+        [
+          5.24537000501368e-08,
+          -7.15255737304688e-07,
+          -1.20000076293945
+        ]
+      ],
+      "position_m": [
+        -18.0,
+        16.0,
+        -61.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_04",
+      "id": "aa20_04",
+      "muzzle_positions_m": [
+        [
+          5.24537000501368e-08,
+          -7.15255737304688e-07,
+          -1.20000076293945
+        ]
+      ],
+      "position_m": [
+        -18.0,
+        16.0,
+        -47.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_05",
+      "id": "aa20_05",
+      "muzzle_positions_m": [
+        [
+          5.24537000501368e-08,
+          -7.15255737304688e-07,
+          -1.20000076293945
+        ]
+      ],
+      "position_m": [
+        -18.0,
+        16.0,
+        1.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_06",
+      "id": "aa20_06",
+      "muzzle_positions_m": [
+        [
+          5.24537000501368e-08,
+          -7.15255737304688e-07,
+          -1.20000076293945
+        ]
+      ],
+      "position_m": [
+        -18.0,
+        16.0,
+        18.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_07",
+      "id": "aa20_07",
+      "muzzle_positions_m": [
+        [
+          5.24537000501368e-08,
+          -7.15255737304688e-07,
+          -1.20000076293945
+        ]
+      ],
+      "position_m": [
+        -16.0,
+        16.0,
+        64.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": 90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_08",
+      "id": "aa20_08",
+      "muzzle_positions_m": [
+        [
+          5.24537000501368e-08,
+          -7.15255737304688e-07,
+          -1.20000076293945
+        ]
+      ],
+      "position_m": [
+        -16.0,
+        16.0,
+        119.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_09",
+      "id": "aa20_09",
+      "muzzle_positions_m": [
+        [
+          -5.24536574175727e-08,
+          -7.15255737304688e-07,
+          -1.19999980926514
+        ]
+      ],
+      "position_m": [
+        12.0,
+        16.0,
+        119.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_10",
+      "id": "aa20_10",
+      "muzzle_positions_m": [
+        [
+          -5.24536574175727e-08,
+          -7.15255737304688e-07,
+          -1.19999980926514
+        ]
+      ],
+      "position_m": [
+        14.0,
+        16.0,
+        77.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_11",
+      "id": "aa20_11",
+      "muzzle_positions_m": [
+        [
+          -5.24536574175727e-08,
+          -7.15255737304688e-07,
+          -1.19999980926514
+        ]
+      ],
+      "position_m": [
+        14.0,
+        16.0,
+        93.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    },
+    {
+      "base_yaw_deg": -90.0,
+      "elevation_pivot_m": [
+        0.0,
+        1.04999995231628,
+        0.0
+      ],
+      "host_id": "aa_gallery_12",
+      "id": "aa20_12",
+      "muzzle_positions_m": [
+        [
+          -5.24536574175727e-08,
+          -7.15255737304688e-07,
+          -1.19999980926514
+        ]
+      ],
+      "position_m": [
+        14.0,
+        16.0,
+        -70.0
+      ],
+      "role": "dedicated_aa",
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "source": {
+        "status": "provisional",
+        "basis": "Actual admitted pure model mount_sockets export",
+        "note": "photo and class-plan ratio reconstruction; longitude approx +/-1.5m, elevation +/-0.5m"
+      }
+    }
+  ],
+  "weapon_definitions": [
+    {
+      "id": "cv01_5in38_mk32_twin",
+      "ammo_id": "us_127mm_5in38_shell",
+      "barrel_count": 2,
+      "cycle_s": 4.0,
+      "initial_rounds_per_barrel": 300.0,
+      "train_limits_deg": [
+        -180,
+        180
+      ],
+      "elevation_limits_deg": [
+        -15,
+        85
+      ],
+      "train_rate_degps": 25.0,
+      "elevation_rate_degps": 15.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "naval/essex_cv9_1944_04_15/data/assembly.json",
+          "data/combat/showcase.json"
+        ],
+        "note": "Correct admitted mount type/barrels; same gun/ammo ballistics as existing127mm gun. Traverse/rate/cycle/stock are declared game approximations inherited from existing profile, not CV-specific measured trials."
+      }
+    },
+    {
+      "id": "cv01_5in38_mk24_single",
+      "ammo_id": "us_127mm_5in38_shell",
+      "barrel_count": 1,
+      "cycle_s": 4.0,
+      "initial_rounds_per_barrel": 300.0,
+      "train_limits_deg": [
+        -180,
+        180
+      ],
+      "elevation_limits_deg": [
+        -15,
+        85
+      ],
+      "train_rate_degps": 25.0,
+      "elevation_rate_degps": 15.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "naval/essex_cv9_1944_04_15/data/assembly.json",
+          "data/combat/showcase.json"
+        ],
+        "note": "Correct admitted mount type/barrels; same gun/ammo ballistics as existing127mm gun. Traverse/rate/cycle/stock are declared game approximations inherited from existing profile, not CV-specific measured trials."
+      }
+    },
+    {
+      "id": "us_bofors_40mm_quad",
+      "ammo_id": "us_40mm_bofors_shell",
+      "barrel_count": 4,
+      "cycle_s": 0.5,
+      "initial_rounds_per_barrel": 800.0,
+      "train_limits_deg": [
+        -180.0,
+        180.0
+      ],
+      "elevation_limits_deg": [
+        -15.0,
+        90.0
+      ],
+      "train_rate_degps": 24.0,
+      "elevation_rate_degps": 20.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "iowa/data/weapon_profiles.json"
+        ],
+        "note": "Model type, barrel count and motion interface. Exact fire-control rates, cyclic fire and ammunition allocations remain S05 research and implementation; these integration defaults do not balance factions."
+      }
+    },
+    {
+      "id": "s03_us_oerlikon_20mm_single",
+      "ammo_id": "s03_us_20mm_mk3_he",
+      "barrel_count": 1,
+      "cycle_s": 0.1333333,
+      "initial_rounds_per_barrel": 1200,
+      "train_limits_deg": [
+        -90,
+        90
+      ],
+      "elevation_limits_deg": [
+        -5,
+        85
+      ],
+      "train_rate_degps": 60.0,
+      "elevation_rate_degps": 45.0,
+      "source": {
+        "status": "provisional",
+        "paths": [
+          "docs/references/ships/fletcher_dd445_1942_07_18/modeling-brief.md"
+        ],
+        "note": "Historical gun/mount identity; basic limits and exterior geometry checked. Cycles, rates and inventory are explicit integration estimates pending S05 ammunition/fire-control calibration. Mechanical limits are not permission to fire through own ship."
+      }
+    }
+  ],
+  "historical_fixed_armament": [
+    {
+      "weapon_definition_id": "cv01_5in38_mk32_twin",
+      "mount_count": 4,
+      "barrels_per_mount": 2
+    },
+    {
+      "weapon_definition_id": "cv01_5in38_mk24_single",
+      "mount_count": 4,
+      "barrels_per_mount": 1
+    }
+  ],
+  "dedicated_aa_game": [
+    {
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "mount_count": 5,
+      "barrels_per_mount": 4
+    },
+    {
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "mount_count": 12,
+      "barrels_per_mount": 1
+    }
+  ],
+  "dedicated_aa_historical": [
+    {
+      "description": "CV01 historical declaration: {\"main\": \"4x2 Mk32 + 4x1 Mk24 5in/38, 12 barrels, fixed; no separate secondary battery\", \"dedicated_aa\": \"as-built 8x4 40mm + 46x1 20mm. April 1944 forward-island quad removed; exact post-refit 20mm total not confirmed from selected photographs\"}",
+      "mount_count": 0,
+      "barrels_per_mount": 1
+    }
+  ],
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "docs/showcase/acceptance/CV01-review.md",
+      "naval/essex_cv9_1944_04_15/data/assembly.json"
+    ],
+    "note": "Admitted geometry and fixed armament. Live integration candidate; AA count exactly matches model. Coarse protection/damage/firing allocations explicitly gameplay estimates, not historical armor simulation."
+  }
+}

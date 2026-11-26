@@ -1,0 +1,265 @@
+{
+  "passed": true,
+  "errors": [],
+  "mechanism_checks": 403,
+  "chrome_checks": 34,
+  "chrome_views": 13,
+  "frozen_sources_unchanged": true,
+  "generator": {
+    "command": "python3 tools/cv01/build_data.py",
+    "files": 12,
+    "sha256_unchanged": true,
+    "stdout": "CV01 data and scenes generated: 25 mounts, 3 elevators; no registered definitions written"
+  },
+  "python_ast": true,
+  "node_syntax": true,
+  "inspected_original_ids": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "P01",
+    "P02",
+    "P03",
+    "P05",
+    "P06",
+    "P07"
+  ],
+  "runs": [
+    {
+      "run_id": "20261110T194349-08606f50",
+      "action": "import",
+      "passed": false,
+      "error": null,
+      "exit_code": 1,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T194349-08606f50/report.json"
+    },
+    {
+      "run_id": "20261110T194434-d00b1b12",
+      "action": "import",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T194434-d00b1b12/report.json"
+    },
+    {
+      "run_id": "20261110T194537-f3eac16d",
+      "action": "godot",
+      "passed": false,
+      "error": null,
+      "exit_code": 1,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T194537-f3eac16d/report.json"
+    },
+    {
+      "run_id": "20261110T194657-6b07f4d8",
+      "action": "godot",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T194657-6b07f4d8/report.json"
+    },
+    {
+      "run_id": "20261110T194838-053d2d09",
+      "action": "godot",
+      "passed": false,
+      "error": "lock_timeout",
+      "exit_code": 2,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T194838-053d2d09/report.json"
+    },
+    {
+      "run_id": "20261110T195306-401f9aed",
+      "action": "godot",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T195306-401f9aed/report.json"
+    },
+    {
+      "run_id": "20261110T195807-632b8707",
+      "action": "test",
+      "passed": false,
+      "error": null,
+      "exit_code": 1,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T195807-632b8707/report.json"
+    },
+    {
+      "run_id": "20261110T200009-bfcc7a71",
+      "action": "test",
+      "passed": false,
+      "error": null,
+      "exit_code": 1,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T200009-bfcc7a71/report.json"
+    },
+    {
+      "run_id": "20261110T200150-79942d52",
+      "action": "test",
+      "passed": false,
+      "error": null,
+      "exit_code": 1,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T200150-79942d52/report.json"
+    },
+    {
+      "run_id": "20261110T200335-1d1909ed",
+      "action": "test",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T200335-1d1909ed/report.json"
+    },
+    {
+      "run_id": "20261110T200558-a31ff8b9",
+      "action": "godot",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T200558-a31ff8b9/report.json"
+    },
+    {
+      "run_id": "20261110T201258-19a3bf04",
+      "action": "test",
+      "passed": false,
+      "error": null,
+      "exit_code": 1,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T201258-19a3bf04/report.json"
+    },
+    {
+      "run_id": "20261110T201515-0eebb841",
+      "action": "test",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T201515-0eebb841/report.json"
+    },
+    {
+      "run_id": "20261110T201552-bd3b6e56",
+      "action": "godot",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T201552-bd3b6e56/report.json"
+    },
+    {
+      "run_id": "20261110T201657-4343bb75",
+      "action": "import",
+      "passed": false,
+      "error": null,
+      "exit_code": 1,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/cv01-web-project",
+      "evidence": "verification/20261110T201657-4343bb75/report.json"
+    },
+    {
+      "run_id": "20261110T201829-d7343583",
+      "action": "import",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/cv01-web-project",
+      "evidence": "verification/20261110T201829-d7343583/report.json"
+    },
+    {
+      "run_id": "20261110T201832-b60ce800",
+      "action": "godot",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/cv01-web-project",
+      "evidence": "verification/20261110T201832-b60ce800/report.json"
+    },
+    {
+      "run_id": "20261110T201958-30eb6657",
+      "action": "exec",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T201958-30eb6657/report.json"
+    },
+    {
+      "run_id": "20261110T202530-93888d34",
+      "action": "test",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T202530-93888d34/report.json"
+    },
+    {
+      "run_id": "20261110T202624-3b314574",
+      "action": "godot",
+      "passed": false,
+      "error": "lock_timeout",
+      "exit_code": 2,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T202624-3b314574/report.json"
+    },
+    {
+      "run_id": "20261110T202801-304295ac",
+      "action": "godot",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T202801-304295ac/report.json"
+    },
+    {
+      "run_id": "20261110T202913-8a9e292d",
+      "action": "import",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/cv01-web-project",
+      "evidence": "verification/20261110T202913-8a9e292d/report.json"
+    },
+    {
+      "run_id": "20261110T202915-3005e052",
+      "action": "godot",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/cv01-web-project",
+      "evidence": "verification/20261110T202915-3005e052/report.json"
+    },
+    {
+      "run_id": "20261110T203015-f0d31b5a",
+      "action": "exec",
+      "passed": false,
+      "error": "lock_timeout",
+      "exit_code": 2,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T203015-f0d31b5a/report.json"
+    },
+    {
+      "run_id": "20261110T203255-47e5d172",
+      "action": "exec",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T203255-47e5d172/report.json"
+    },
+    {
+      "run_id": "20261110T203458-cb8b6ad6",
+      "action": "exec",
+      "passed": true,
+      "error": null,
+      "exit_code": 0,
+      "project": "/Users/infinity/Desktop/Dev/game-pacific",
+      "evidence": "verification/20261110T203458-cb8b6ad6/report.json"
+    }
+  ]
+}

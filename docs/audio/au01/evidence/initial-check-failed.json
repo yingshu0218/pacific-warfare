@@ -1,0 +1,2238 @@
+{
+  "schema_version": 1,
+  "task": "AU01",
+  "status": "failed",
+  "checks": 671,
+  "failures": [
+    "/Users/infinity/Desktop/Dev/game-pacific/assets/audio/au01/source/impact_land_event_shared_v01.wav channel 0 no excessive empty tail",
+    "/Users/infinity/Desktop/Dev/game-pacific/assets/audio/au01/masters/impact_land_event_shared_v01.wav channel 0 no excessive empty tail",
+    "/Users/infinity/Desktop/Dev/game-pacific/assets/audio/au01/runtime/impact_land_event_shared_v01.wav channel 0 no excessive empty tail"
+  ],
+  "method": "independent_actual_file_read_WAV_and_FFmpeg_decode_ebur128_oversampled_peak",
+  "hearing_performed": false,
+  "hearing_status": "pending_not_substituted_by_waveform_checks",
+  "game_runtime_tested": false,
+  "files": [
+    {
+      "asset_id": "fighter_low",
+      "layer": "source",
+      "path": "assets/audio/au01/source/fighter_radial_power_low_shared_v01.wav",
+      "sha256": "e9a530aef70b1c2a2c1cbebe616f1608e9c933b0c71d3a96699a4a8ce47cbd4f",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -13.273944137829542,
+          "dc_offset": -3.4521023432413736e-09,
+          "dc_dbfs": -169.2383267478612,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -12.701501383315101,
+          "lowpass150_energy_fraction": 0.735190935235867,
+          "highpass1500_energy_fraction": 0.025160896867804913,
+          "loop_boundary": {
+            "jump_linear": 0.00431978702545166,
+            "jump_dbfs": -47.29075328569786,
+            "neighbor_step_p99": 0.07004916667938232,
+            "jump_over_neighbor_p99": 0.06166792883095224,
+            "seam_40ms_rms_ratio": 1.0664104136234005,
+            "first_last_slope_change": 2.4437904357910156e-05
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "fighter_low",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/fighter_radial_power_low_shared_v01.wav",
+      "sha256": "92f26397a0363329e95c4a87c403c43725918582cb9e852f0fb46302e2521dec",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -14.000001773479491,
+          "rms_dbfs": -24.273958899649827,
+          "dc_offset": -4.582107067108154e-10,
+          "dc_dbfs": -186.7786953430415,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -23.701869566249027,
+          "lowpass150_energy_fraction": 0.7351916379968584,
+          "highpass1500_energy_fraction": 0.025160928445477022,
+          "loop_boundary": {
+            "jump_linear": 0.001217484474182129,
+            "jump_dbfs": -58.29073136727718,
+            "neighbor_step_p99": 0.019742488861083984,
+            "jump_over_neighbor_p99": 0.06166823660121247,
+            "seam_40ms_rms_ratio": 1.0662815863551478,
+            "first_last_slope_change": 6.9141387939453125e-06
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "fighter_low",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/fighter_radial_power_low_shared_v01.wav",
+      "sha256": "8f56a9c1a2f60821b3cc2d4a195d0384fb18ee7e2b810ca0c33c161552b3ae0f",
+      "bytes": 384044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -14.000100374307355,
+          "rms_dbfs": -24.274219459387346,
+          "dc_offset": -1.7642974853515624e-08,
+          "dc_dbfs": -155.0685636975322,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -23.702100640190956,
+          "lowpass150_energy_fraction": 0.7351917445177307,
+          "highpass1500_energy_fraction": 0.025160898337423257,
+          "loop_boundary": {
+            "jump_linear": 0.001190185546875,
+            "jump_dbfs": -58.48770655866438,
+            "neighbor_step_p99": 0.019744873046875,
+            "jump_over_neighbor_p99": 0.06027820710973725,
+            "seam_40ms_rms_ratio": 1.0662886253078874,
+            "first_last_slope_change": 6.103515625e-05
+          }
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -14.0
+    },
+    {
+      "asset_id": "fighter_cruise",
+      "layer": "source",
+      "path": "assets/audio/au01/source/fighter_radial_power_cruise_shared_v01.wav",
+      "sha256": "505afae626fc4bb1cc3ddadbafaf575f074b3995d0a7cf610ff523e215551ca6",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -12.64929372225561,
+          "dc_offset": -4.122654596964518e-10,
+          "dc_dbfs": -187.696460992142,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0003333333333333333,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -12.450672784019005,
+          "lowpass150_energy_fraction": 0.596943674555325,
+          "highpass1500_energy_fraction": 0.031993620584964626,
+          "loop_boundary": {
+            "jump_linear": 0.004122495651245117,
+            "jump_dbfs": -47.69679587627042,
+            "neighbor_step_p99": 0.08863520622253418,
+            "jump_over_neighbor_p99": 0.0465108146857003,
+            "seam_40ms_rms_ratio": 0.9730338555671382,
+            "first_last_slope_change": 5.960464477539062e-07
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "fighter_cruise",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/fighter_radial_power_cruise_shared_v01.wav",
+      "sha256": "5a378f2260eccc9ee6f6aed2cfb190639d1ded3f16ab04ed31f93a1a325db293",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -10.000002514143702,
+          "rms_dbfs": -19.649293271215168,
+          "dc_offset": -3.1106173992156984e-10,
+          "dc_dbfs": -190.14306806215743,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0003333333333333333,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -19.450668498358475,
+          "lowpass150_energy_fraction": 0.596943680308597,
+          "highpass1500_energy_fraction": 0.03199361930751316,
+          "loop_boundary": {
+            "jump_linear": 0.0018415451049804688,
+            "jump_dbfs": -54.69635279000458,
+            "neighbor_step_p99": 0.03959190845489502,
+            "jump_over_neighbor_p99": 0.04651316839344697,
+            "seam_40ms_rms_ratio": 0.9730363859883615,
+            "first_last_slope_change": 3.5762786865234375e-07
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "fighter_cruise",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/fighter_radial_power_cruise_shared_v01.wav",
+      "sha256": "e6fc99db58c022a15abc74a093d26b01ff81d071de8512387b2e57262a7ee5de",
+      "bytes": 384044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -10.000126940172311,
+          "rms_dbfs": -19.64955667223408,
+          "dc_offset": -1.9550323486328126e-08,
+          "dc_dbfs": -154.1769210444774,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0003333333333333333,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -19.450945138587603,
+          "lowpass150_energy_fraction": 0.5969436074334058,
+          "highpass1500_energy_fraction": 0.03199365718379981,
+          "loop_boundary": {
+            "jump_linear": 0.001861572265625,
+            "jump_dbfs": -54.60240199897902,
+            "neighbor_step_p99": 0.039581298828125,
+            "jump_over_neighbor_p99": 0.047031611410948346,
+            "seam_40ms_rms_ratio": 0.9730319837960102,
+            "first_last_slope_change": 3.0517578125e-05
+          }
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -10.0
+    },
+    {
+      "asset_id": "fighter_high",
+      "layer": "source",
+      "path": "assets/audio/au01/source/fighter_radial_power_high_shared_v01.wav",
+      "sha256": "6fd259cee2b9866469ba469c54bbe1d7c61b853f503db830e3864628f2b5ba88",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -12.967712664021668,
+          "dc_offset": -1.0114163160324097e-09,
+          "dc_dbfs": -179.90140089333215,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -12.687525853210587,
+          "lowpass150_energy_fraction": 0.4766752014139235,
+          "highpass1500_energy_fraction": 0.05310714788279618,
+          "loop_boundary": {
+            "jump_linear": 0.0015887022018432617,
+            "jump_dbfs": -55.97915005103076,
+            "neighbor_step_p99": 0.11287188529968262,
+            "jump_over_neighbor_p99": 0.01407526947587655,
+            "seam_40ms_rms_ratio": 0.8650536521480711,
+            "first_last_slope_change": 6.67572021484375e-06
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "fighter_high",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/fighter_radial_power_high_shared_v01.wav",
+      "sha256": "84449eb2f62f70645eff04f5574d6bf2775cb3cf2e5d1bc3fd39228676cd7a84",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -7.999999988978489,
+          "rms_dbfs": -17.967947052185174,
+          "dc_offset": -2.0793328682581585e-09,
+          "dc_dbfs": -173.641519628705,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0008333333333333334,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -17.687195732792517,
+          "lowpass150_energy_fraction": 0.4766303854849758,
+          "highpass1500_energy_fraction": 0.05311808812932055,
+          "loop_boundary": {
+            "jump_linear": 0.0006231069564819336,
+            "jump_dbfs": -64.10874800347634,
+            "neighbor_step_p99": 0.06347870826721191,
+            "jump_over_neighbor_p99": 0.009815999308917592,
+            "seam_40ms_rms_ratio": 0.8506789812376973,
+            "first_last_slope_change": 1.1920928955078125e-07
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "fighter_high",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/fighter_radial_power_high_shared_v01.wav",
+      "sha256": "cda12732e4e1e8d8590b75702b34638f08fc27e35ba351a52fc2bbf590cac196",
+      "bytes": 384044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -8.000117030469568,
+          "rms_dbfs": -17.96821283348226,
+          "dc_offset": 2.559026082356771e-08,
+          "dc_dbfs": -151.83850575262835,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0008333333333333334,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -17.687469835228356,
+          "lowpass150_energy_fraction": 0.47663024644485186,
+          "highpass1500_energy_fraction": 0.05311818153157146,
+          "loop_boundary": {
+            "jump_linear": 0.0006103515625,
+            "jump_dbfs": -64.28839878591474,
+            "neighbor_step_p99": 0.0634765625,
+            "jump_over_neighbor_p99": 0.009615384615384616,
+            "seam_40ms_rms_ratio": 0.8506785891388434,
+            "first_last_slope_change": 3.0517578125e-05
+          }
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -8.0
+    },
+    {
+      "asset_id": "ship_idle",
+      "layer": "source",
+      "path": "assets/audio/au01/source/ship_propulsion_idle_shared_v01.wav",
+      "sha256": "7c3eefdbd4b9e8257b0152269cedde72fe2cd10b854d5ebd1b290f8e610d64e3",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -17.130853367892726,
+          "dc_offset": 9.57399606704712e-10,
+          "dc_dbfs": -180.37813510520357,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0022291666666666666,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -16.81113943594712,
+          "lowpass150_energy_fraction": 0.5289379592543405,
+          "highpass1500_energy_fraction": 0.08397337299479946,
+          "loop_boundary": {
+            "jump_linear": 0.0009304285049438477,
+            "jump_dbfs": -60.626339857462625,
+            "neighbor_step_p99": 0.07341301441192627,
+            "jump_over_neighbor_p99": 0.012673890486544243,
+            "seam_40ms_rms_ratio": 1.050576415414072,
+            "first_last_slope_change": 0.0
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "ship_idle",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/ship_propulsion_idle_shared_v01.wav",
+      "sha256": "abfebbccc2b3eac6ba27b89f907af66286478c2f4d725e9752d173d18bf06bc4",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -18.00000146465276,
+          "rms_dbfs": -32.13072149999552,
+          "dc_offset": 1.043081283569336e-10,
+          "dc_dbfs": -199.63363694498508,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0003333333333333333,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -31.832190840192798,
+          "lowpass150_energy_fraction": 0.5290809174328263,
+          "highpass1500_energy_fraction": 0.08395250274487263,
+          "loop_boundary": {
+            "jump_linear": 0.0002702474594116211,
+            "jump_dbfs": -71.364767602901,
+            "neighbor_step_p99": 0.013053297996520996,
+            "jump_over_neighbor_p99": 0.02070338541904492,
+            "seam_40ms_rms_ratio": 1.063120519475792,
+            "first_last_slope_change": 1.5497207641601562e-06
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "ship_idle",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/ship_propulsion_idle_shared_v01.wav",
+      "sha256": "25fe1384cf09c9722f138a3d12b7794ae9f38a95e915dcea8bf00a95afce8689",
+      "bytes": 384044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -18.00051964147548,
+          "rms_dbfs": -32.13097128862779,
+          "dc_offset": -4.450480143229167e-09,
+          "dc_dbfs": -167.03186264642096,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0003333333333333333,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -31.832479128786375,
+          "lowpass150_energy_fraction": 0.5290810804179552,
+          "highpass1500_energy_fraction": 0.08395226675853049,
+          "loop_boundary": {
+            "jump_linear": 0.000274658203125,
+            "jump_dbfs": -71.22414851040786,
+            "neighbor_step_p99": 0.013031005859375,
+            "jump_over_neighbor_p99": 0.02107728337236534,
+            "seam_40ms_rms_ratio": 1.0631197035245847,
+            "first_last_slope_change": 0.0
+          }
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -18.0
+    },
+    {
+      "asset_id": "ship_run",
+      "layer": "source",
+      "path": "assets/audio/au01/source/ship_propulsion_run_shared_v01.wav",
+      "sha256": "4627f160f7c0829306f7f2fcafa2dc7d36aa24f5c644f15ff6a91441214a4527",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -16.937871567449903,
+          "dc_offset": 1.4100223779678345e-09,
+          "dc_dbfs": -177.01547989510766,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -16.04430752836079,
+          "lowpass150_energy_fraction": 0.4710046187366025,
+          "highpass1500_energy_fraction": 0.11016881435147306,
+          "loop_boundary": {
+            "jump_linear": 0.0027631521224975586,
+            "jump_dbfs": -51.171904095787525,
+            "neighbor_step_p99": 0.0865100622177124,
+            "jump_over_neighbor_p99": 0.03194023968615087,
+            "seam_40ms_rms_ratio": 1.1669438448547769,
+            "first_last_slope_change": 1.239776611328125e-05
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "ship_run",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/ship_propulsion_run_shared_v01.wav",
+      "sha256": "e3f5f75d197c4b4d0c59ba6619315c5faa59ac92334cc89b9a65b21da5205c6f",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -12.000000253286988,
+          "rms_dbfs": -25.93277277946454,
+          "dc_offset": 2.0489096641540526e-11,
+          "dc_dbfs": -213.76954378194458,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -25.030128040422966,
+          "lowpass150_energy_fraction": 0.47118994724656366,
+          "highpass1500_energy_fraction": 0.11006551920303868,
+          "loop_boundary": {
+            "jump_linear": 0.0010889768600463867,
+            "jump_dbfs": -59.25962697166022,
+            "neighbor_step_p99": 0.030696868896484375,
+            "jump_over_neighbor_p99": 0.03547517708462781,
+            "seam_40ms_rms_ratio": 1.210473234073792,
+            "first_last_slope_change": 5.9604644775390625e-06
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "ship_run",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/ship_propulsion_run_shared_v01.wav",
+      "sha256": "a53a79286e617774f8963eb00bad1e3ff0cf44de3be57fcdfc748e440893e326",
+      "bytes": 384044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -11.999946665424783,
+          "rms_dbfs": -25.933044148210875,
+          "dc_offset": -3.0040740966796875e-08,
+          "dc_dbfs": -150.44578718980046,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -25.03037917299188,
+          "lowpass150_energy_fraction": 0.47118961541390814,
+          "highpass1500_energy_fraction": 0.11006567915675554,
+          "loop_boundary": {
+            "jump_linear": 0.0010986328125,
+            "jump_dbfs": -59.182948683848615,
+            "neighbor_step_p99": 0.03070068359375,
+            "jump_over_neighbor_p99": 0.03578528827037773,
+            "seam_40ms_rms_ratio": 1.2104643909091342,
+            "first_last_slope_change": 3.0517578125e-05
+          }
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -12.0
+    },
+    {
+      "asset_id": "heavy_01",
+      "layer": "source",
+      "path": "assets/audio/au01/source/gun_heavy_event_shared_v01.wav",
+      "sha256": "e0348dae8e572f9ef2b3ff6a8695d446649b18b62c4f04fdccf487cd46182dfa",
+      "bytes": 504044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 168000,
+        "duration_s": 3.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -25.883001654500504,
+          "dc_offset": 2.086162567138672e-10,
+          "dc_dbfs": -193.61303703170546,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0005833333333333334,
+          "trailing_below_minus80db_s": 0.010708333333333334,
+          "last_100ms_rms_dbfs": -76.27709771361137,
+          "lowpass150_energy_fraction": 0.7156906702768683,
+          "highpass1500_energy_fraction": 0.04821980447213753
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "heavy_01",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/gun_heavy_event_shared_v01.wav",
+      "sha256": "30e7bbf10da9471e6075b090a6d2b0a8d97117871705fd0df86664d8f710ca2c",
+      "bytes": 504044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 168000,
+        "duration_s": 3.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -6.000002556648029,
+          "rms_dbfs": -28.88544631291602,
+          "dc_offset": 1.7029898507254466e-11,
+          "dc_dbfs": -215.3757588057165,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0005833333333333334,
+          "trailing_below_minus80db_s": 0.024125,
+          "last_100ms_rms_dbfs": -79.65575878952247,
+          "lowpass150_energy_fraction": 0.7156827828885255,
+          "highpass1500_energy_fraction": 0.0481067058411737
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "heavy_01",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/gun_heavy_event_shared_v01.wav",
+      "sha256": "d547828b2d306b8734ee1f3195c9b6c2a51c481088eb1c904ccbd079e2321e54",
+      "bytes": 336044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 168000,
+        "duration_s": 3.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -6.000477743319013,
+          "rms_dbfs": -28.885710474724064,
+          "dc_offset": 1.1444091796875e-08,
+          "dc_dbfs": -158.82837334463997,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0005833333333333334,
+          "trailing_below_minus80db_s": 0.024125,
+          "last_100ms_rms_dbfs": -79.63929815136174,
+          "lowpass150_energy_fraction": 0.7156827780830433,
+          "highpass1500_energy_fraction": 0.048106669889946906
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -5.2
+    },
+    {
+      "asset_id": "heavy_02",
+      "layer": "source",
+      "path": "assets/audio/au01/source/gun_heavy_event_shared_v02.wav",
+      "sha256": "8cfd2b2756f8534a093c671d72a0405ea4cc137d710b08b9109c01108071caec",
+      "bytes": 504044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 168000,
+        "duration_s": 3.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -26.19413946271547,
+          "dc_offset": -6.031422387985956e-11,
+          "dc_dbfs": -204.39160512566275,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0004583333333333333,
+          "trailing_below_minus80db_s": 0.012291666666666666,
+          "last_100ms_rms_dbfs": -76.4047748360863,
+          "lowpass150_energy_fraction": 0.7222779308384633,
+          "highpass1500_energy_fraction": 0.04740823271745941
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "heavy_02",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/gun_heavy_event_shared_v02.wav",
+      "sha256": "283c0f28f880d9e7132b74c1f7a92eca87f294fc85bfa925a05d383fc0cd8315",
+      "bytes": 504044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 168000,
+        "duration_s": 3.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -6.000002556648029,
+          "rms_dbfs": -29.195847150312545,
+          "dc_offset": 2.2138868059430803e-10,
+          "dc_dbfs": -193.09689175957973,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0005208333333333333,
+          "trailing_below_minus80db_s": 0.0236875,
+          "last_100ms_rms_dbfs": -79.80296670422318,
+          "lowpass150_energy_fraction": 0.7222448921658114,
+          "highpass1500_energy_fraction": 0.047293635232388935
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "heavy_02",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/gun_heavy_event_shared_v02.wav",
+      "sha256": "b38f6e8bb4efa2cb17f694a24f2b2c583b25d53b8af75f0798a4495a54adda6d",
+      "bytes": 336044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 168000,
+        "duration_s": 3.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -6.000477743319013,
+          "rms_dbfs": -29.196106285620434,
+          "dc_offset": 1.7256963820684523e-08,
+          "dc_dbfs": -155.26071222793465,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0005208333333333333,
+          "trailing_below_minus80db_s": 0.028541666666666667,
+          "last_100ms_rms_dbfs": -79.781017585379,
+          "lowpass150_energy_fraction": 0.7222446529551788,
+          "highpass1500_energy_fraction": 0.047293881302184794
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -5.6
+    },
+    {
+      "asset_id": "medium",
+      "layer": "source",
+      "path": "assets/audio/au01/source/gun_medium_event_shared_v01.wav",
+      "sha256": "4076530e9d1bd90da8ef0678086dc24804e605301e84b578a3000a571394d025",
+      "bytes": 216044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 72000,
+        "duration_s": 1.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -27.649332822124343,
+          "dc_offset": 1.4238887363009982e-10,
+          "dc_dbfs": -196.93047890918535,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0004166666666666667,
+          "trailing_below_minus80db_s": 0.0246875,
+          "last_100ms_rms_dbfs": -82.41491436257449,
+          "lowpass150_energy_fraction": 0.43571625996395213,
+          "highpass1500_energy_fraction": 0.07770654874699806
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "medium",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/gun_medium_event_shared_v01.wav",
+      "sha256": "c4e997e31729bf3e142856602bf4db3c89e21b3b4ae849af5d06f50fb840ce56",
+      "bytes": 216044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 72000,
+        "duration_s": 1.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -7.999999988978489,
+          "rms_dbfs": -32.658627888758005,
+          "dc_offset": 2.1523899502224391e-10,
+          "dc_dbfs": -193.34158088791997,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0005416666666666666,
+          "trailing_below_minus80db_s": 0.042666666666666665,
+          "last_100ms_rms_dbfs": -88.05270586261842,
+          "lowpass150_energy_fraction": 0.4359881874099391,
+          "highpass1500_energy_fraction": 0.07743405895194144
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "medium",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/gun_medium_event_shared_v01.wav",
+      "sha256": "34f1bd1c356c332f0a9fa1f86132776dfbeb6a8bfbbbe82d5f06588a543d85b0",
+      "bytes": 144044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 72000,
+        "duration_s": 1.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -8.000117030469568,
+          "rms_dbfs": -32.658879988128675,
+          "dc_offset": -5.4253472222222225e-08,
+          "dc_dbfs": -145.31144923486235,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0005416666666666666,
+          "trailing_below_minus80db_s": 0.042666666666666665,
+          "last_100ms_rms_dbfs": -87.88068677384659,
+          "lowpass150_energy_fraction": 0.4359878945029436,
+          "highpass1500_energy_fraction": 0.07743511027669091
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -8.0
+    },
+    {
+      "asset_id": "autocannon",
+      "layer": "source",
+      "path": "assets/audio/au01/source/autocannon_event_shared_v01.wav",
+      "sha256": "6697a20697eec577b2242d6efbe0f9109c071faeef3643d57a0d629060287530",
+      "bytes": 57644,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 19200,
+        "duration_s": 0.4
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -25.75479781168387,
+          "dc_offset": 4.346172014872233e-11,
+          "dc_dbfs": -207.2378617792172,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0003541666666666667,
+          "trailing_below_minus80db_s": 0.033979166666666664,
+          "last_100ms_rms_dbfs": -82.72578974471207,
+          "lowpass150_energy_fraction": 0.15763084845463793,
+          "highpass1500_energy_fraction": 0.14280842022213575
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "autocannon",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/autocannon_event_shared_v01.wav",
+      "sha256": "5d8ecd2a03ab51e515618cd90dd4784208007652f8fba29f01fb0a28fb5de5e7",
+      "bytes": 57644,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 19200,
+        "duration_s": 0.4
+      },
+      "channels": [
+        {
+          "peak_dbfs": -10.000002514143702,
+          "rms_dbfs": -32.78484721484282,
+          "dc_offset": -2.4835268656412762e-11,
+          "dc_dbfs": -212.0986227529431,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0005416666666666666,
+          "trailing_below_minus80db_s": 0.041229166666666664,
+          "last_100ms_rms_dbfs": -85.12874820493252,
+          "lowpass150_energy_fraction": 0.15921730999499242,
+          "highpass1500_energy_fraction": 0.1416114731481382
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "autocannon",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/autocannon_event_shared_v01.wav",
+      "sha256": "1df7a992fc857e2ccab52b636cb18532f1c36b9e265fe17d9265cb636028c7e8",
+      "bytes": 38444,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 19200,
+        "duration_s": 0.4
+      },
+      "channels": [
+        {
+          "peak_dbfs": -10.000126940172311,
+          "rms_dbfs": -32.785105150239644,
+          "dc_offset": -1.8596649169921876e-07,
+          "dc_dbfs": -134.61130603834212,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0005416666666666666,
+          "trailing_below_minus80db_s": 0.05527083333333333,
+          "last_100ms_rms_dbfs": -85.03780382316643,
+          "lowpass150_energy_fraction": 0.15921809637554846,
+          "highpass1500_energy_fraction": 0.14160971885856563
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -9.6
+    },
+    {
+      "asset_id": "machinegun",
+      "layer": "source",
+      "path": "assets/audio/au01/source/machinegun_event_shared_v01.wav",
+      "sha256": "24825ddfe91c51d9d8560ccf12c986e2258a5e9b408f3b49dd9c626ee727a361",
+      "bytes": 17324,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 5760,
+        "duration_s": 0.12
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -23.42547169463918,
+          "dc_offset": -6.20881716410319e-11,
+          "dc_dbfs": -204.13982257950235,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.00020833333333333335,
+          "trailing_below_minus80db_s": 0.009645833333333333,
+          "last_100ms_rms_dbfs": -39.73974355176263,
+          "lowpass150_energy_fraction": 0.02118796128337061,
+          "highpass1500_energy_fraction": 0.3778370308428677
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "machinegun",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/machinegun_event_shared_v01.wav",
+      "sha256": "88b2c493d3f52d468cd58df061a7bf1ab052c3e5c3ae0b72e53cb354839b9958",
+      "bytes": 17324,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 5760,
+        "duration_s": 0.12
+      },
+      "channels": [
+        {
+          "peak_dbfs": -12.000000253286988,
+          "rms_dbfs": -32.60067864236953,
+          "dc_offset": -6.20881716410319e-11,
+          "dc_dbfs": -204.13982257950235,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.000375,
+          "trailing_below_minus80db_s": 0.015291666666666667,
+          "last_100ms_rms_dbfs": -48.74115509232411,
+          "lowpass150_energy_fraction": 0.021931783444295232,
+          "highpass1500_energy_fraction": 0.36868972198310457
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "machinegun",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/machinegun_event_shared_v01.wav",
+      "sha256": "84165735ae294f0b5e0ce77a473879e71d0f0401706fe80f2f66a3fba942f695",
+      "bytes": 11564,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 5760,
+        "duration_s": 0.12
+      },
+      "channels": [
+        {
+          "peak_dbfs": -11.999946665424783,
+          "rms_dbfs": -32.60094844212914,
+          "dc_offset": -2.1192762586805554e-07,
+          "dc_dbfs": -133.47624854109935,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.000375,
+          "trailing_below_minus80db_s": 0.0213125,
+          "last_100ms_rms_dbfs": -48.74133676066083,
+          "lowpass150_energy_fraction": 0.021931872062444676,
+          "highpass1500_energy_fraction": 0.3686880113522773
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -11.7
+    },
+    {
+      "asset_id": "airburst",
+      "layer": "source",
+      "path": "assets/audio/au01/source/airburst_event_shared_v01.wav",
+      "sha256": "2d05a5847f5cb4ca0957881f3402eb0e4bbd91de02ab31c8fa55a567d6318866",
+      "bytes": 144044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 48000,
+        "duration_s": 1.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -22.57523645646113,
+          "dc_offset": 1.9123156865437826e-10,
+          "dc_dbfs": -194.36880824949344,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0007916666666666666,
+          "trailing_below_minus80db_s": 0.0020416666666666665,
+          "last_100ms_rms_dbfs": -60.31923536607784,
+          "lowpass150_energy_fraction": 0.1968123846511807,
+          "highpass1500_energy_fraction": 0.36185465029266517
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "airburst",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/airburst_event_shared_v01.wav",
+      "sha256": "755285d3e096db8944044c8ebf7c1d6411c4f8d5c455686f980fba6da2beea71",
+      "bytes": 144044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 48000,
+        "duration_s": 1.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -10.000002514143702,
+          "rms_dbfs": -29.575863405333468,
+          "dc_offset": -1.1672576268513997e-10,
+          "dc_dbfs": -198.65666559422874,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0007916666666666666,
+          "trailing_below_minus80db_s": 0.014375,
+          "last_100ms_rms_dbfs": -67.55573434246372,
+          "lowpass150_energy_fraction": 0.19682495647410156,
+          "highpass1500_energy_fraction": 0.3618418786860378
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "airburst",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/airburst_event_shared_v01.wav",
+      "sha256": "60bad4cc694c43b07702c16aa44f0c64feb2611312a86d18d5d36424a29a5fb8",
+      "bytes": 96044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 48000,
+        "duration_s": 1.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -10.000126940172311,
+          "rms_dbfs": -29.576121528585947,
+          "dc_offset": 4.1961669921875e-08,
+          "dc_dbfs": -147.54294473586873,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0007916666666666666,
+          "trailing_below_minus80db_s": 0.014520833333333334,
+          "last_100ms_rms_dbfs": -67.55586595423947,
+          "lowpass150_energy_fraction": 0.19682574258066082,
+          "highpass1500_energy_fraction": 0.36184155130422346
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -9.3
+    },
+    {
+      "asset_id": "water",
+      "layer": "source",
+      "path": "assets/audio/au01/source/impact_water_event_shared_v01.wav",
+      "sha256": "df8b6fe9a22513f03c21ef90f95e64c3e9bc27a1a2464fe88406247afcbb19ed",
+      "bytes": 259244,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 86400,
+        "duration_s": 1.8
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -22.51466740948704,
+          "dc_offset": 9.106265174018013e-11,
+          "dc_dbfs": -200.81319414417183,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.00125,
+          "trailing_below_minus80db_s": 0.0018958333333333334,
+          "last_100ms_rms_dbfs": -56.89929835974009,
+          "lowpass150_energy_fraction": 0.2758765969451733,
+          "highpass1500_energy_fraction": 0.3756956437280831
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "water",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/impact_water_event_shared_v01.wav",
+      "sha256": "ed89a7a381c63a2d77cdc865ab50a4828536ac743d3fbd97d818e4c92cfdc43d",
+      "bytes": 259244,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 86400,
+        "duration_s": 1.8
+      },
+      "channels": [
+        {
+          "peak_dbfs": -10.000002514143702,
+          "rms_dbfs": -29.514741206392078,
+          "dc_offset": 1.0623976036354348e-10,
+          "dc_dbfs": -199.47425835155957,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.00125,
+          "trailing_below_minus80db_s": 0.011520833333333333,
+          "last_100ms_rms_dbfs": -64.1771538068602,
+          "lowpass150_energy_fraction": 0.2758611096549918,
+          "highpass1500_energy_fraction": 0.3757000760422227
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "water",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/impact_water_event_shared_v01.wav",
+      "sha256": "3ebea4065485892909c57a7468579c14e76cc9ca47e6cba5e49bfa21ac6f8e79",
+      "bytes": 172844,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 86400,
+        "duration_s": 1.8
+      },
+      "channels": [
+        {
+          "peak_dbfs": -10.000126940172311,
+          "rms_dbfs": -29.514993321446397,
+          "dc_offset": -3.002308033130787e-08,
+          "dc_dbfs": -150.45089503448636,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.00125,
+          "trailing_below_minus80db_s": 0.011520833333333333,
+          "last_100ms_rms_dbfs": -64.17524116733846,
+          "lowpass150_energy_fraction": 0.2758615594449234,
+          "highpass1500_energy_fraction": 0.3756987780679034
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -9.9
+    },
+    {
+      "asset_id": "land",
+      "layer": "source",
+      "path": "assets/audio/au01/source/impact_land_event_shared_v01.wav",
+      "sha256": "dc246f22060f7b4a17cc29ef0d7b1600704b68687a06afb66bf09822230edbd1",
+      "bytes": 216044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 72000,
+        "duration_s": 1.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -29.38317535283986,
+          "dc_offset": 4.375974337259929e-09,
+          "dc_dbfs": -167.17850467142253,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0006458333333333333,
+          "trailing_below_minus80db_s": 0.7500625,
+          "last_100ms_rms_dbfs": -102.43130205806722,
+          "lowpass150_energy_fraction": 0.27819844681268463,
+          "highpass1500_energy_fraction": 0.2466603795642746
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "land",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/impact_land_event_shared_v01.wav",
+      "sha256": "26cf62864db809bd25c069f5b2e095e2f136805f5050f848fde0872ddc7ced72",
+      "bytes": 216044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 72000,
+        "duration_s": 1.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -10.000002514143702,
+          "rms_dbfs": -36.387413749388145,
+          "dc_offset": 2.7931398815578884e-09,
+          "dc_dbfs": -171.0781462822742,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0007083333333333334,
+          "trailing_below_minus80db_s": 0.7533958333333334,
+          "last_100ms_rms_dbfs": -122.0333941478444,
+          "lowpass150_energy_fraction": 0.27798948123170086,
+          "highpass1500_energy_fraction": 0.2465460150354059
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "land",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/impact_land_event_shared_v01.wav",
+      "sha256": "7e04b2c684b88056f09fd470685988d3a75b2925f3c9831da2e5ea18de706424",
+      "bytes": 144044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 72000,
+        "duration_s": 1.5
+      },
+      "channels": [
+        {
+          "peak_dbfs": -10.000126940172311,
+          "rms_dbfs": -36.38769861509288,
+          "dc_offset": 4.848904079861111e-07,
+          "dc_dbfs": -126.28712813867962,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0007083333333333334,
+          "trailing_below_minus80db_s": 0.7538958333333333,
+          "last_100ms_rms_dbfs": -240.0,
+          "lowpass150_energy_fraction": 0.2779885913902984,
+          "highpass1500_energy_fraction": 0.24654734361132238
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -9.2
+    },
+    {
+      "asset_id": "metal",
+      "layer": "source",
+      "path": "assets/audio/au01/source/impact_metal_event_shared_v01.wav",
+      "sha256": "4752b4e1e3dcb54bef21314addb8c74076ddaf7a8ce85b37c855ae5f34967055",
+      "bytes": 144044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 48000,
+        "duration_s": 1.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -20.838827268475715,
+          "dc_offset": 3.476937611897787e-11,
+          "dc_dbfs": -209.17606203937834,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.00025,
+          "trailing_below_minus80db_s": 0.0016458333333333333,
+          "last_100ms_rms_dbfs": -50.31987581061716,
+          "lowpass150_energy_fraction": 0.09795864759868615,
+          "highpass1500_energy_fraction": 0.11621357092012921
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "metal",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/impact_metal_event_shared_v01.wav",
+      "sha256": "f044b49f0bf13e9289b26bc3fc36b1c6387ff1252bdae2bca09ece1e2351f7fc",
+      "bytes": 144044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 48000,
+        "duration_s": 1.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -10.999999854613165,
+          "rms_dbfs": -28.847345369745376,
+          "dc_offset": 6.705522537231445e-11,
+          "dc_dbfs": -203.47134746976334,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.000375,
+          "trailing_below_minus80db_s": 0.009895833333333333,
+          "last_100ms_rms_dbfs": -58.54841317386705,
+          "lowpass150_energy_fraction": 0.09803271771927193,
+          "highpass1500_energy_fraction": 0.11608190232248443
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "metal",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/impact_metal_event_shared_v01.wav",
+      "sha256": "fdd49fcfe1a07192c32e9f9892906abc433c868bdbd320c9120097ccbbf4d5c3",
+      "bytes": 96044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 48000,
+        "duration_s": 1.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -11.000260703669154,
+          "rms_dbfs": -28.84760799927998,
+          "dc_offset": -4.3233235677083336e-08,
+          "dc_dbfs": -147.2836451925814,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.000375,
+          "trailing_below_minus80db_s": 0.009958333333333333,
+          "last_100ms_rms_dbfs": -58.547968488808124,
+          "lowpass150_energy_fraction": 0.09803285035480201,
+          "highpass1500_energy_fraction": 0.1160816297345565
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -11.0
+    },
+    {
+      "asset_id": "fire",
+      "layer": "source",
+      "path": "assets/audio/au01/source/burning_loop_shared_v01.wav",
+      "sha256": "e86297453a7387576b0994ffcf89633cde04d336cb5d18f6a3b2bc96f1dfb978",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -15.145151499330407,
+          "dc_offset": -1.652166247367859e-09,
+          "dc_dbfs": -175.63892508847456,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0025833333333333333,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -16.739560507846882,
+          "lowpass150_energy_fraction": 0.029413248501744056,
+          "highpass1500_energy_fraction": 0.6003266292258406,
+          "loop_boundary": {
+            "jump_linear": 0.0007293224334716797,
+            "jump_dbfs": -62.74160855245816,
+            "neighbor_step_p99": 0.3967752456665039,
+            "jump_over_neighbor_p99": 0.0018381248362572679,
+            "seam_40ms_rms_ratio": 0.9168646770844728,
+            "first_last_slope_change": 4.172325134277344e-06
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "fire",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/burning_loop_shared_v01.wav",
+      "sha256": "f4d560e4555dcb613bc82e2fd1d94d930d7dc88221307037b61d11e158372a48",
+      "bytes": 576044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 24,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -24.000006281265822,
+          "rms_dbfs": -36.14515131323011,
+          "dc_offset": 1.570830742518107e-10,
+          "dc_dbfs": -196.07741215598597,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0025833333333333333,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -37.739561013585366,
+          "lowpass150_energy_fraction": 0.029413246077152982,
+          "highpass1500_energy_fraction": 0.6003266349702564,
+          "loop_boundary": {
+            "jump_linear": 6.508827209472656e-05,
+            "jump_dbfs": -83.72994515133661,
+            "neighbor_step_p99": 0.0353626012802124,
+            "jump_over_neighbor_p99": 0.0018405962722868902,
+            "seam_40ms_rms_ratio": 0.916864480641013,
+            "first_last_slope_change": 4.76837158203125e-07
+          }
+        }
+      ],
+      "stereo_correlation": null
+    },
+    {
+      "asset_id": "fire",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/burning_loop_shared_v01.wav",
+      "sha256": "197420e19242bc16c497ee00019af1e6faf15fd28534ff7719b278bb9dbe75e6",
+      "bytes": 384044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 1,
+        "bit_depth": 16,
+        "frames": 192000,
+        "duration_s": 4.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -24.00218916664859,
+          "rms_dbfs": -36.14544041631629,
+          "dc_offset": -4.752477010091146e-08,
+          "dc_dbfs": -146.46159950677676,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0025833333333333333,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -37.7397299373594,
+          "lowpass150_energy_fraction": 0.029413605160447682,
+          "highpass1500_energy_fraction": 0.6003259645706484,
+          "loop_boundary": {
+            "jump_linear": 6.103515625e-05,
+            "jump_dbfs": -84.28839878591474,
+            "neighbor_step_p99": 0.035369873046875,
+            "jump_over_neighbor_p99": 0.001725625539257981,
+            "seam_40ms_rms_ratio": 0.9168560917489895,
+            "first_last_slope_change": 0.0
+          }
+        }
+      ],
+      "stereo_correlation": null,
+      "estimated_true_peak_db": -23.7
+    },
+    {
+      "asset_id": "wind",
+      "layer": "source",
+      "path": "assets/audio/au01/source/ambient_wind_loop_shared_v01.wav",
+      "sha256": "44d07cff9d97e01a6b4b2db28d3fd921d97449d700d99b4952aa8edd195a5313",
+      "bytes": 3456044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": 24,
+        "frames": 576000,
+        "duration_s": 12.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -18.494666485838106,
+          "dc_offset": -1.0720557636684841e-10,
+          "dc_dbfs": -199.39565247899094,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -17.00168255947473,
+          "lowpass150_energy_fraction": 0.12890484085544968,
+          "highpass1500_energy_fraction": 0.3033729868568784,
+          "loop_boundary": {
+            "jump_linear": 0.0006082057952880859,
+            "jump_dbfs": -64.31898891995593,
+            "neighbor_step_p99": 0.1581190824508667,
+            "jump_over_neighbor_p99": 0.0038465047093672418,
+            "seam_40ms_rms_ratio": 1.2765969029134099,
+            "first_last_slope_change": 1.1920928955078125e-07
+          }
+        },
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -17.878818829900332,
+          "dc_offset": -8.290840519799127e-10,
+          "dc_dbfs": -181.62802877474445,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0008541666666666667,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -16.537212892668954,
+          "lowpass150_energy_fraction": 0.1285032562225145,
+          "highpass1500_energy_fraction": 0.303732650785451,
+          "loop_boundary": {
+            "jump_linear": 0.0020568370819091797,
+            "jump_dbfs": -53.736002131394116,
+            "neighbor_step_p99": 0.17510318756103516,
+            "jump_over_neighbor_p99": 0.0117464285519773,
+            "seam_40ms_rms_ratio": 1.24236917372443,
+            "first_last_slope_change": 1.704692840576172e-05
+          }
+        }
+      ],
+      "stereo_correlation": 0.8943093566391644
+    },
+    {
+      "asset_id": "wind",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/ambient_wind_loop_shared_v01.wav",
+      "sha256": "e520a5118aef532ae78b870c4ba955a999d27e6ee076a85c69b6dbae875e0cda",
+      "bytes": 3456044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": 24,
+        "frames": 576000,
+        "duration_s": 12.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -25.00000172938973,
+          "rms_dbfs": -40.494665995785525,
+          "dc_offset": -4.9463576740688746e-11,
+          "dc_dbfs": -206.11428965493286,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -39.001693813295844,
+          "lowpass150_energy_fraction": 0.12890487057985173,
+          "highpass1500_energy_fraction": 0.3033729729852514,
+          "loop_boundary": {
+            "jump_linear": 4.8279762268066406e-05,
+            "jump_dbfs": -86.32469754113798,
+            "neighbor_step_p99": 0.012559890747070312,
+            "jump_over_neighbor_p99": 0.0038439635535307518,
+            "seam_40ms_rms_ratio": 1.276601880799945,
+            "first_last_slope_change": 1.1920928955078125e-07
+          }
+        },
+        {
+          "peak_dbfs": -25.00000172938973,
+          "rms_dbfs": -39.87631064932398,
+          "dc_offset": -7.119443681504991e-11,
+          "dc_dbfs": -202.95107882246498,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -38.56955538866566,
+          "lowpass150_energy_fraction": 0.12881326249971486,
+          "highpass1500_energy_fraction": 0.3035960064148682,
+          "loop_boundary": {
+            "jump_linear": 0.0001983642578125,
+            "jump_dbfs": -74.05073156633725,
+            "neighbor_step_p99": 0.01390981674194336,
+            "jump_over_neighbor_p99": 0.01426073840457989,
+            "seam_40ms_rms_ratio": 1.2961832489969147,
+            "first_last_slope_change": 4.76837158203125e-07
+          }
+        }
+      ],
+      "stereo_correlation": 0.8945674114094696
+    },
+    {
+      "asset_id": "wind",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/ambient_wind_loop_shared_v01.ogg",
+      "sha256": "961d9db6ed6665b269caa306469fc8c40e86a13cf9139e63b2a1b3c62142f63e",
+      "bytes": 431302,
+      "format": {
+        "codec": "vorbis",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": null,
+        "frames": 576000,
+        "duration_s": 12.0,
+        "container_duration_s": 12.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -25.38122307325422,
+          "rms_dbfs": -40.51169864937062,
+          "dc_offset": -8.959552952028444e-07,
+          "dc_dbfs": -120.95427318914767,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -39.03191263304696,
+          "lowpass150_energy_fraction": 0.1297048719675304,
+          "highpass1500_energy_fraction": 0.2996797322518295,
+          "loop_boundary": {
+            "jump_linear": 0.00021084118634462357,
+            "jump_dbfs": -73.52089097592267,
+            "neighbor_step_p99": 0.01196576643269509,
+            "jump_over_neighbor_p99": 0.017620366194723982,
+            "seam_40ms_rms_ratio": 1.2778392352040295,
+            "first_last_slope_change": 0.003406922332942486
+          }
+        },
+        {
+          "peak_dbfs": -24.945414514666716,
+          "rms_dbfs": -39.97166635075929,
+          "dc_offset": -2.038572939740541e-06,
+          "dc_dbfs": -113.81347489924637,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -38.68402422149599,
+          "lowpass150_energy_fraction": 0.13209943620438383,
+          "highpass1500_energy_fraction": 0.2908308898165342,
+          "loop_boundary": {
+            "jump_linear": 0.00042413873597979546,
+            "jump_dbfs": -67.44984124479068,
+            "neighbor_step_p99": 0.011927966494113207,
+            "jump_over_neighbor_p99": 0.035558344013551686,
+            "seam_40ms_rms_ratio": 1.2985964086977926,
+            "first_last_slope_change": 0.0030733728781342506
+          }
+        }
+      ],
+      "stereo_correlation": 0.9012973778631002,
+      "estimated_true_peak_db": -24.9
+    },
+    {
+      "asset_id": "coast",
+      "layer": "source",
+      "path": "assets/audio/au01/source/ambient_coast_loop_shared_v01.wav",
+      "sha256": "67ca00cb37d851a3c437d747767d2c680a36333a2d372b0879919f6306560fc8",
+      "bytes": 4608044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": 24,
+        "frames": 768000,
+        "duration_s": 16.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -21.0844118088267,
+          "dc_offset": -3.241002559661865e-10,
+          "dc_dbfs": -189.7864125194571,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0039375,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -27.854393209092567,
+          "lowpass150_energy_fraction": 0.08283504773048529,
+          "highpass1500_energy_fraction": 0.42171719753360215,
+          "loop_boundary": {
+            "jump_linear": 0.00012600421905517578,
+            "jump_dbfs": -77.99229825928282,
+            "neighbor_step_p99": 0.23401963710784912,
+            "jump_over_neighbor_p99": 0.0005384343835945105,
+            "seam_40ms_rms_ratio": 0.4911933794547601,
+            "first_last_slope_change": 1.3113021850585938e-06
+          }
+        },
+        {
+          "peak_dbfs": -3.0000009805991428,
+          "rms_dbfs": -20.675398239420595,
+          "dc_offset": -1.525816818078359e-10,
+          "dc_dbfs": -196.3299520494189,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.003895833333333333,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -27.327795761741093,
+          "lowpass150_energy_fraction": 0.08268102334341512,
+          "highpass1500_energy_fraction": 0.4221927171600546,
+          "loop_boundary": {
+            "jump_linear": 0.0001418590545654297,
+            "jump_dbfs": -76.96285877758073,
+            "neighbor_step_p99": 0.24849772453308105,
+            "jump_over_neighbor_p99": 0.0005708666138974839,
+            "seam_40ms_rms_ratio": 0.4947537932637047,
+            "first_last_slope_change": 1.3113021850585938e-06
+          }
+        }
+      ],
+      "stereo_correlation": 0.9200544587986393
+    },
+    {
+      "asset_id": "coast",
+      "layer": "master",
+      "path": "assets/audio/au01/masters/ambient_coast_loop_shared_v01.wav",
+      "sha256": "ae55291e9f08ee9f1c2b39ed1319279e5178352d3628ea5a630a6547e6b6b07d",
+      "bytes": 4608044,
+      "format": {
+        "codec": "pcm_s24le",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": 24,
+        "frames": 768000,
+        "duration_s": 16.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -21.000005518040638,
+          "rms_dbfs": -39.08445269048435,
+          "dc_offset": 7.993852098782857e-11,
+          "dc_dbfs": -201.94487782523777,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.0039375,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -45.85925866030972,
+          "lowpass150_energy_fraction": 0.08283557104439956,
+          "highpass1500_energy_fraction": 0.42171740593333007,
+          "loop_boundary": {
+            "jump_linear": 2.86102294921875e-06,
+            "jump_dbfs": -110.86957317119924,
+            "neighbor_step_p99": 0.029461145401000977,
+            "jump_over_neighbor_p99": 9.711173514392768e-05,
+            "seam_40ms_rms_ratio": 0.4909687442965885,
+            "first_last_slope_change": 1.1920928955078125e-07
+          }
+        },
+        {
+          "peak_dbfs": -21.000005518040638,
+          "rms_dbfs": -38.675473499585664,
+          "dc_offset": 4.967053731282552e-12,
+          "dc_dbfs": -226.07802283966348,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.003895833333333333,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -45.35056419343731,
+          "lowpass150_energy_fraction": 0.08267799896688767,
+          "highpass1500_energy_fraction": 0.42219602377039495,
+          "loop_boundary": {
+            "jump_linear": 4.887580871582031e-06,
+            "jump_dbfs": -106.21812087103663,
+            "neighbor_step_p99": 0.03128385543823242,
+            "jump_over_neighbor_p99": 0.00015623332876065055,
+            "seam_40ms_rms_ratio": 0.4914584080830087,
+            "first_last_slope_change": 1.1920928955078125e-07
+          }
+        }
+      ],
+      "stereo_correlation": 0.9200541034716012
+    },
+    {
+      "asset_id": "coast",
+      "layer": "runtime",
+      "path": "assets/audio/au01/runtime/ambient_coast_loop_shared_v01.ogg",
+      "sha256": "577ff9ace22c9e27876952565a84396bf2aa63b7f8d12aea5a38425bbcf08465",
+      "bytes": 569787,
+      "format": {
+        "codec": "vorbis",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": null,
+        "frames": 768000,
+        "duration_s": 16.0,
+        "container_duration_s": 16.0
+      },
+      "channels": [
+        {
+          "peak_dbfs": -20.739444336849367,
+          "rms_dbfs": -39.220000781105846,
+          "dc_offset": -6.980924011691693e-07,
+          "dc_dbfs": -123.12174178644887,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.003916666666666666,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -45.898232007187545,
+          "lowpass150_energy_fraction": 0.08554502532115796,
+          "highpass1500_energy_fraction": 0.4080467179895932,
+          "loop_boundary": {
+            "jump_linear": 0.0006691805901937187,
+            "jump_dbfs": -63.48913328766605,
+            "neighbor_step_p99": 0.025733619928359985,
+            "jump_over_neighbor_p99": 0.026004137469064027,
+            "seam_40ms_rms_ratio": 0.49599174559569037,
+            "first_last_slope_change": 0.0011098611867055297
+          }
+        },
+        {
+          "peak_dbfs": -20.76324069488622,
+          "rms_dbfs": -38.84716176304651,
+          "dc_offset": -2.757648619889063e-07,
+          "dc_dbfs": -131.18922145040523,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.003916666666666666,
+          "trailing_below_minus80db_s": 0.0,
+          "last_100ms_rms_dbfs": -45.41609995114327,
+          "lowpass150_energy_fraction": 0.08627073821771701,
+          "highpass1500_energy_fraction": 0.4052234047417329,
+          "loop_boundary": {
+            "jump_linear": 0.0009522229302092455,
+            "jump_dbfs": -60.42522729227659,
+            "neighbor_step_p99": 0.026481660082936287,
+            "jump_over_neighbor_p99": 0.03595782617959135,
+            "seam_40ms_rms_ratio": 0.49547145381266067,
+            "first_last_slope_change": 0.001457791709981393
+          }
+        }
+      ],
+      "stereo_correlation": 0.9216505422329202,
+      "estimated_true_peak_db": -20.5
+    },
+    {
+      "preview_id": "01_naval_salvo",
+      "layer": "wav",
+      "path": "docs/audio/au01/preview/01_naval_salvo.wav",
+      "sha256": "3de992f5862df0b9891874d0b8cf171e9f8c786fc793af72cecc75ba6d644407",
+      "bytes": 6144044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": 16,
+        "frames": 1536000,
+        "duration_s": 32.0
+      },
+      "estimated_true_peak_db": -2.8,
+      "channels": [
+        {
+          "peak_dbfs": -3.0003622493859567,
+          "rms_dbfs": -31.179930486549722,
+          "dc_offset": -3.4740368525187174e-06,
+          "dc_dbfs": -109.18331157753298,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.20022916666666668,
+          "trailing_below_minus80db_s": 0.0185,
+          "last_100ms_rms_dbfs": -58.290621306988164,
+          "lowpass150_energy_fraction": 0.5753219582264121,
+          "highpass1500_energy_fraction": 0.08654509695776455
+        },
+        {
+          "peak_dbfs": -7.613984977022069,
+          "rms_dbfs": -32.358454279462286,
+          "dc_offset": -3.587643305460612e-06,
+          "dc_dbfs": -108.903814847513,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.1425625,
+          "trailing_below_minus80db_s": 0.018708333333333334,
+          "last_100ms_rms_dbfs": -58.28071456927979,
+          "lowpass150_energy_fraction": 0.515777962111877,
+          "highpass1500_energy_fraction": 0.12099097653936206
+        }
+      ],
+      "stereo_correlation": 0.9302993698997546
+    },
+    {
+      "preview_id": "01_naval_salvo",
+      "layer": "ogg",
+      "path": "docs/audio/au01/preview/01_naval_salvo.ogg",
+      "sha256": "b7f36616eb2b0247758f7078703f4e689a3f0aa7ebdee0baadb2a33f73c7a7d4",
+      "bytes": 807995,
+      "format": {
+        "codec": "vorbis",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": null,
+        "frames": 1536000,
+        "duration_s": 32.0,
+        "container_duration_s": 32.0
+      },
+      "estimated_true_peak_db": -2.8,
+      "channels": [
+        {
+          "peak_dbfs": -2.8117701230393743,
+          "rms_dbfs": -31.177561671862893,
+          "dc_offset": -7.170967699187322e-06,
+          "dc_dbfs": -102.88844467448469,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.20022916666666668,
+          "trailing_below_minus80db_s": 0.018479166666666668,
+          "last_100ms_rms_dbfs": -58.285837049839444,
+          "lowpass150_energy_fraction": 0.5768856703484442,
+          "highpass1500_energy_fraction": 0.08400256149408478
+        },
+        {
+          "peak_dbfs": -7.0397511928410195,
+          "rms_dbfs": -32.368306332270855,
+          "dc_offset": -3.8509328894656174e-06,
+          "dc_dbfs": -108.28868099596252,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.1428125,
+          "trailing_below_minus80db_s": 0.018479166666666668,
+          "last_100ms_rms_dbfs": -58.29279482764679,
+          "lowpass150_energy_fraction": 0.5187851851303007,
+          "highpass1500_energy_fraction": 0.11634835543971732
+        }
+      ],
+      "stereo_correlation": 0.9306730330904683
+    },
+    {
+      "preview_id": "02_aa_screen",
+      "layer": "wav",
+      "path": "docs/audio/au01/preview/02_aa_screen.wav",
+      "sha256": "aff2e0df2042953e48b9f9cd6c71ba46f9c853970d067c830cb366c41a048582",
+      "bytes": 6144044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": 16,
+        "frames": 1536000,
+        "duration_s": 32.0
+      },
+      "estimated_true_peak_db": -2.9,
+      "channels": [
+        {
+          "peak_dbfs": -3.0003622493859567,
+          "rms_dbfs": -28.501775675361827,
+          "dc_offset": 1.4130473136901856e-06,
+          "dc_dbfs": -116.99686592466291,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.171125,
+          "trailing_below_minus80db_s": 0.014041666666666666,
+          "last_100ms_rms_dbfs": -57.147053978849705,
+          "lowpass150_energy_fraction": 0.3343926165826774,
+          "highpass1500_energy_fraction": 0.13433749799538175
+        },
+        {
+          "peak_dbfs": -3.396035869437034,
+          "rms_dbfs": -28.603792699098392,
+          "dc_offset": 1.0317166646321615e-06,
+          "dc_dbfs": -119.72879109064287,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.17114583333333333,
+          "trailing_below_minus80db_s": 0.0155625,
+          "last_100ms_rms_dbfs": -57.15537770153421,
+          "lowpass150_energy_fraction": 0.342008011164212,
+          "highpass1500_energy_fraction": 0.13015013443163978
+        }
+      ],
+      "stereo_correlation": 0.8801531857710834
+    },
+    {
+      "preview_id": "02_aa_screen",
+      "layer": "ogg",
+      "path": "docs/audio/au01/preview/02_aa_screen.ogg",
+      "sha256": "c5259bff2994157ff58eb35c8d57d57eb715d4f5a45027e60a672529817de9d7",
+      "bytes": 968378,
+      "format": {
+        "codec": "vorbis",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": null,
+        "frames": 1536000,
+        "duration_s": 32.0,
+        "container_duration_s": 32.0
+      },
+      "estimated_true_peak_db": -2.6,
+      "channels": [
+        {
+          "peak_dbfs": -2.6188852989196363,
+          "rms_dbfs": -28.49581099686141,
+          "dc_offset": -1.3562419313708797e-06,
+          "dc_dbfs": -117.35325665056675,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.19189583333333332,
+          "trailing_below_minus80db_s": 0.013916666666666667,
+          "last_100ms_rms_dbfs": -57.13252727371193,
+          "lowpass150_energy_fraction": 0.3349893368114152,
+          "highpass1500_energy_fraction": 0.13338409324560066
+        },
+        {
+          "peak_dbfs": -2.993140457788609,
+          "rms_dbfs": -28.615616656915975,
+          "dc_offset": 1.5637060106761285e-06,
+          "dc_dbfs": -116.11689788923933,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.1711875,
+          "trailing_below_minus80db_s": 0.013854166666666667,
+          "last_100ms_rms_dbfs": -57.12175160264113,
+          "lowpass150_energy_fraction": 0.3436869751108339,
+          "highpass1500_energy_fraction": 0.12702215564555278
+        }
+      ],
+      "stereo_correlation": 0.8809566678081053
+    },
+    {
+      "preview_id": "03_dogfight",
+      "layer": "wav",
+      "path": "docs/audio/au01/preview/03_dogfight.wav",
+      "sha256": "1711a617a67b1ab19161b49dada5c15ea12b444dfa2dfaedfb252973d9e64d80",
+      "bytes": 6144044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": 16,
+        "frames": 1536000,
+        "duration_s": 32.0
+      },
+      "estimated_true_peak_db": -6.3,
+      "channels": [
+        {
+          "peak_dbfs": -7.600620598637313,
+          "rms_dbfs": -22.471712270322406,
+          "dc_offset": 9.80919599533081e-06,
+          "dc_dbfs": -100.16733175678596,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.1030625,
+          "trailing_below_minus80db_s": 0.030354166666666668,
+          "last_100ms_rms_dbfs": -73.47817167536606,
+          "lowpass150_energy_fraction": 0.5720491032191842,
+          "highpass1500_energy_fraction": 0.0380698043221054
+        },
+        {
+          "peak_dbfs": -6.490604720942901,
+          "rms_dbfs": -21.576742228431378,
+          "dc_offset": 9.414533774058024e-06,
+          "dc_dbfs": -100.52402364436942,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.10739583333333333,
+          "trailing_below_minus80db_s": 0.030333333333333334,
+          "last_100ms_rms_dbfs": -72.97530379525513,
+          "lowpass150_energy_fraction": 0.5684885572115529,
+          "highpass1500_energy_fraction": 0.038514181046214555
+        }
+      ],
+      "stereo_correlation": 0.9608599230524225
+    },
+    {
+      "preview_id": "03_dogfight",
+      "layer": "ogg",
+      "path": "docs/audio/au01/preview/03_dogfight.ogg",
+      "sha256": "8f88c1ffea18a0c420261a9c57e19a7e560db24992f5a4dd939fb73332121dce",
+      "bytes": 785062,
+      "format": {
+        "codec": "vorbis",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": null,
+        "frames": 1536000,
+        "duration_s": 32.0,
+        "container_duration_s": 32.0
+      },
+      "estimated_true_peak_db": -6.4,
+      "channels": [
+        {
+          "peak_dbfs": -7.809921365743966,
+          "rms_dbfs": -22.4648555955536,
+          "dc_offset": 5.059138618267428e-06,
+          "dc_dbfs": -105.91846841885027,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.10302083333333334,
+          "trailing_below_minus80db_s": 0.030333333333333334,
+          "last_100ms_rms_dbfs": -73.47301818419685,
+          "lowpass150_energy_fraction": 0.5721209041548869,
+          "highpass1500_energy_fraction": 0.03765684226034136
+        },
+        {
+          "peak_dbfs": -6.415834855286465,
+          "rms_dbfs": -21.571113319043196,
+          "dc_offset": 1.9122103100940028e-05,
+          "dc_dbfs": -94.36928689088028,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.10735416666666667,
+          "trailing_below_minus80db_s": 0.030333333333333334,
+          "last_100ms_rms_dbfs": -73.00763376008263,
+          "lowpass150_energy_fraction": 0.5687123562514816,
+          "highpass1500_energy_fraction": 0.03789506469699712
+        }
+      ],
+      "stereo_correlation": 0.960788068709695
+    },
+    {
+      "preview_id": "04_harbor_shore",
+      "layer": "wav",
+      "path": "docs/audio/au01/preview/04_harbor_shore.wav",
+      "sha256": "0d493885ec0499322b3285478d5c7e181e4847de666786a4fd39f155d30abb8d",
+      "bytes": 6144044,
+      "format": {
+        "codec": "pcm_s16le",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": 16,
+        "frames": 1536000,
+        "duration_s": 32.0
+      },
+      "estimated_true_peak_db": -3.0,
+      "channels": [
+        {
+          "peak_dbfs": -3.0003622493859567,
+          "rms_dbfs": -31.45005848509954,
+          "dc_offset": 1.048882802327474e-06,
+          "dc_dbfs": -119.5854607060229,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.2008125,
+          "trailing_below_minus80db_s": 0.016645833333333332,
+          "last_100ms_rms_dbfs": -61.917288492406264,
+          "lowpass150_energy_fraction": 0.209695717220842,
+          "highpass1500_energy_fraction": 0.3003670582699793
+        },
+        {
+          "peak_dbfs": -8.124179327430292,
+          "rms_dbfs": -31.036280936126232,
+          "dc_offset": 5.413492520650227e-07,
+          "dc_dbfs": -125.33044917822298,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.1541875,
+          "trailing_below_minus80db_s": 0.016645833333333332,
+          "last_100ms_rms_dbfs": -61.64557385830798,
+          "lowpass150_energy_fraction": 0.18888533791193082,
+          "highpass1500_energy_fraction": 0.31895000537816837
+        }
+      ],
+      "stereo_correlation": 0.9085943884900358
+    },
+    {
+      "preview_id": "04_harbor_shore",
+      "layer": "ogg",
+      "path": "docs/audio/au01/preview/04_harbor_shore.ogg",
+      "sha256": "529930f95f5b20177c23a9842d493405696efddfc63965dcc6ac97bcb05f9783",
+      "bytes": 1071533,
+      "format": {
+        "codec": "vorbis",
+        "rate_hz": 48000,
+        "channels": 2,
+        "bit_depth": null,
+        "frames": 1536000,
+        "duration_s": 32.0,
+        "container_duration_s": 32.0
+      },
+      "estimated_true_peak_db": -2.8,
+      "channels": [
+        {
+          "peak_dbfs": -3.1207325018743703,
+          "rms_dbfs": -31.539025347476326,
+          "dc_offset": 2.710763239643811e-06,
+          "dc_dbfs": -111.33816824821656,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.205,
+          "trailing_below_minus80db_s": 0.013979166666666668,
+          "last_100ms_rms_dbfs": -61.931884402631766,
+          "lowpass150_energy_fraction": 0.21432616650019617,
+          "highpass1500_energy_fraction": 0.2887560587856653
+        },
+        {
+          "peak_dbfs": -8.104596456592072,
+          "rms_dbfs": -31.157403977784863,
+          "dc_offset": 3.6726345117929066e-07,
+          "dc_dbfs": -128.7004457805452,
+          "clipped_samples": 0,
+          "onset_10percent_peak_s": 0.155875,
+          "trailing_below_minus80db_s": 0.013979166666666668,
+          "last_100ms_rms_dbfs": -61.708848630925395,
+          "lowpass150_energy_fraction": 0.19486628230674988,
+          "highpass1500_energy_fraction": 0.30353836681059604
+        }
+      ],
+      "stereo_correlation": 0.9096846017887659
+    }
+  ],
+  "rebuild": {
+    "performed": false
+  },
+  "totals": {
+    "runtime_files": 17,
+    "preview_clips": 4,
+    "source_bytes": 13582828,
+    "master_bytes": 13582828,
+    "runtime_bytes": 4680469,
+    "preview_wav_bytes": 24576176,
+    "preview_ogg_bytes": 3632968
+  }
+}

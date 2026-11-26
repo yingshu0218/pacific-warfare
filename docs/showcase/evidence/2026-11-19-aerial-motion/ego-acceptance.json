@@ -1,0 +1,273 @@
+{
+  "browser": "Ego Lite",
+  "device": "Apple M5 / 16 GB",
+  "web_package_sha256": "b55235b77558bd93f6f95f3452aef433a393c15a77b7ded82e429c2d4fd51f9c",
+  "initial_scene": "harbor",
+  "initial_models": 27,
+  "webgl_renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+  "ordinary_canvas_px": [
+    1280,
+    720
+  ],
+  "normal_speed": 1,
+  "sample_timing": "Godot process delta for 1x active fighter camera at >= 2 simulation seconds with read-only observation enabled. Visible, 1280x720 canvas. Only samples with matching scene generation.",
+  "by_scene": {
+    "harbor": {
+      "generation": 1,
+      "observed_sim_s": [
+        0.53,
+        79.4
+      ],
+      "observed_samples": 405,
+      "subjects": [
+        "jp_air_3",
+        "jp_air_4",
+        "us_air_3",
+        "us_air_4"
+      ],
+      "longest_subject": {
+        "subject": "jp_air_4",
+        "from_s": 21.32,
+        "to_s": 60.38,
+        "span_s": 39.06,
+        "altitude_range_m": 372.9
+      },
+      "camera_horizon_max_abs_deg": 0.0,
+      "max_abs_aircraft_bank_deg": 176.6,
+      "labels": [
+        "零战 3 号 · 接敌",
+        "地狱猫 4 号 · 轴向滚转",
+        "地狱猫 4 号 · 轴向滚转改出",
+        "地狱猫 3 号 · 斜向滚转弧",
+        "地狱猫 3 号 · 斜向滚转弧改出",
+        "地狱猫 3 号 · 在空",
+        "零战 4 号 · 接敌",
+        "零战 4 号 · 交战",
+        "零战 4 号 · 交战 / 对手",
+        "零战 4 号 · 斜向滚转弧",
+        "零战 4 号 · 斜向滚转弧改出",
+        "地狱猫 3 号 · 交战",
+        "地狱猫 3 号 · 爬升转弯",
+        "地狱猫 3 号 · 爬升转弯改出"
+      ],
+      "executing_action_phases": {
+        "axial_roll": [
+          "recover",
+          "rotate"
+        ],
+        "oblique_roll_arc": [
+          "enter",
+          "recover",
+          "rotate"
+        ],
+        "rising_arc": [
+          "enter",
+          "recover",
+          "sweep"
+        ]
+      },
+      "paired_opponent_samples": 1,
+      "subject_inside_canvas_samples": 405,
+      "projected_samples": 405,
+      "performance": {
+        "frames": 202,
+        "p50_ms": 132.8,
+        "p95_ms": 142.42,
+        "p99_ms": 145.47,
+        "max_pending_sim_s": 0.0165000000000109
+      }
+    },
+    "maneuver": {
+      "generation": 2,
+      "observed_sim_s": [
+        0.38,
+        32.78
+      ],
+      "observed_samples": 244,
+      "subjects": [
+        "jp_air_3",
+        "jp_air_4",
+        "us_pair_demo_1"
+      ],
+      "longest_subject": {
+        "subject": "jp_air_3",
+        "from_s": 21.58,
+        "to_s": 32.78,
+        "span_s": 11.2,
+        "altitude_range_m": 514.3
+      },
+      "camera_horizon_max_abs_deg": 0.0,
+      "max_abs_aircraft_bank_deg": 176.46,
+      "labels": [
+        "零战 3 号 · 接敌",
+        "巡航双机 1 · 轴向滚转",
+        "巡航双机 1 · 轴向滚转改出",
+        "巡航双机 1 · 交战",
+        "零战 4 号 · 轴向滚转",
+        "零战 4 号 · 轴向滚转 / 对手",
+        "零战 4 号 · 轴向滚转改出",
+        "零战 3 号 · 轴向滚转",
+        "零战 3 号 · 轴向滚转改出"
+      ],
+      "executing_action_phases": {
+        "axial_roll": [
+          "recover",
+          "rotate"
+        ]
+      },
+      "paired_opponent_samples": 3,
+      "subject_inside_canvas_samples": 244,
+      "projected_samples": 244,
+      "performance": {
+        "frames": 234,
+        "p50_ms": 131,
+        "p95_ms": 142.86,
+        "p99_ms": 144.44,
+        "max_pending_sim_s": 0.0451333333333299
+      }
+    }
+  },
+  "gui_operations": {
+    "harbor_generation": 1,
+    "maneuver_generation": 2,
+    "pause_time_s": 78.7833333333333,
+    "pause_subject": "jp_air_4",
+    "pause_stable": true,
+    "manual_free": true,
+    "mixed_camera": true,
+    "dedicated": true
+  },
+  "restart": {
+    "prior_gen": 2,
+    "gen": 3,
+    "t": 0.133333333333333,
+    "mode": "free",
+    "errors": []
+  },
+  "console_messages": [],
+  "cleanup": {
+    "browser_space_closed": true,
+    "owned_server_port_closed": true,
+    "blank_canvas_test_space_closed": true
+  },
+  "1440x900_trial": {
+    "scene": "harbor",
+    "camera": "fighter",
+    "note": "Manually enlarged WebGL drawing buffer in the same tab after restart. Godot logical viewport is 1280x720.",
+    "observed_render_sizes": {
+      "backing": [
+        1440,
+        900
+      ],
+      "drawing": [
+        1440,
+        900
+      ],
+      "engine": "(1280.0, 720.0)",
+      "t": 10.5166666666667
+    },
+    "samples": 70,
+    "p50_ms": 133.33,
+    "p95_ms": 142.6,
+    "warnings": []
+  },
+  "blank_canvas_display_reference": {
+    "samples": 24,
+    "p50_ms": 32.69999999999993,
+    "p95_ms": 73.5,
+    "visible": "visible",
+    "stimulus": "1280x720 blank canvas, animated 2x4 px rectangle and the same requestAnimationFrame clock"
+  },
+  "playback_speed_change": {
+    "before": {
+      "g": 1,
+      "s": 29.3333333333333,
+      "speed": 1
+    },
+    "after": {
+      "s": 30.0166666666667,
+      "speed": 2,
+      "visibility": "visible"
+    },
+    "note": "Used the ordinary 2x player speed control for the remainder of the harbor observation. Performance metrics exclude 2x."
+  },
+  "ordinary_display_performance": {
+    "method": "Display requestAnimationFrame wall intervals, normal mixed harbor at 1x after clicking 战斗机跟拍, no game probes, warmup 2.5 s",
+    "ready": {
+      "noDiagnostics": true,
+      "size": [
+        1280,
+        720
+      ],
+      "visible": "visible"
+    },
+    "frames": 85,
+    "wall_s": 89.05720000000001,
+    "p50_ms": 1020,
+    "p95_ms": 1047.800000000003,
+    "p99_ms": 1052.9000000000087,
+    "visible": "visible"
+  },
+  "browser_images": {
+    "1-early": {
+      "scene": "harbor",
+      "time_s": 4.27,
+      "subject": "jp_air_3",
+      "label": "零战 3 号 · 接敌"
+    },
+    "1-axial": {
+      "scene": "harbor",
+      "time_s": 7.47,
+      "subject": "us_air_4",
+      "label": "地狱猫 4 号 · 轴向滚转"
+    },
+    "1-bank": {
+      "scene": "harbor",
+      "time_s": 9.6,
+      "subject": "us_air_4",
+      "label": "地狱猫 4 号 · 轴向滚转"
+    },
+    "1-oblique": {
+      "scene": "harbor",
+      "time_s": 16,
+      "subject": "us_air_3",
+      "label": "地狱猫 3 号 · 斜向滚转弧"
+    },
+    "1-flight": {
+      "scene": "harbor",
+      "time_s": 18.13,
+      "subject": "us_air_3",
+      "label": "地狱猫 3 号 · 斜向滚转弧"
+    },
+    "1-climb": {
+      "scene": "harbor",
+      "time_s": 66.25,
+      "subject": "us_air_3",
+      "label": "地狱猫 3 号 · 交战"
+    },
+    "2-early": {
+      "scene": "maneuver",
+      "time_s": 4.8,
+      "subject": "jp_air_3",
+      "label": "零战 3 号 · 接敌"
+    },
+    "2-axial": {
+      "scene": "maneuver",
+      "time_s": 13.33,
+      "subject": "jp_air_4",
+      "label": "零战 4 号 · 轴向滚转"
+    },
+    "2-bank": {
+      "scene": "maneuver",
+      "time_s": 14.38,
+      "subject": "jp_air_4",
+      "label": "零战 4 号 · 轴向滚转"
+    },
+    "2-flight": {
+      "scene": "maneuver",
+      "time_s": 17.58,
+      "subject": "jp_air_4",
+      "label": "零战 4 号 · 轴向滚转改出"
+    }
+  }
+}

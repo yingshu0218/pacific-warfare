@@ -1,0 +1,123 @@
+{
+	"checks": 18,
+	"contacts": [
+		{
+			"aircraft_local_m": [
+				-1.93000793457031,
+				-2.30000185966492,
+				-0.089996337890625
+			],
+			"contact_id": "main_left",
+			"deck_local_m": [
+				-4.92179870605469,
+				15.8499984741211,
+				75.1994171142578
+			],
+			"surface": {
+				"height_m": 15.85,
+				"supported": true,
+				"surface_id": "flight_deck"
+			}
+		},
+		{
+			"aircraft_local_m": [
+				1.92999267578125,
+				-2.29999899864197,
+				-0.089996337890625
+			],
+			"contact_id": "main_right",
+			"deck_local_m": [
+				-1.10513305664062,
+				15.8500003814697,
+				74.6225738525391
+			],
+			"surface": {
+				"height_m": 15.85,
+				"supported": true,
+				"surface_id": "flight_deck"
+			}
+		},
+		{
+			"aircraft_local_m": [
+				0.0,
+				-2.29999804496765,
+				4.52001953125
+			],
+			"contact_id": "tail",
+			"deck_local_m": [
+				-2.32453918457031,
+				15.8500003814697,
+				79.46923828125
+			],
+			"surface": {
+				"height_m": 15.85,
+				"supported": true,
+				"surface_id": "flight_deck"
+			}
+		}
+	],
+	"failures": 0,
+	"hook_contact_deck_m": [
+		-2.11831665039062,
+		15.8700008392334,
+		80.8337326049805
+	],
+	"hook_contact_flight": {
+		"coordinate_space": "aircraft_local",
+		"definition_id": "us_f6f5_1944",
+		"flap_angle_rad": 0.0,
+		"gear_down": true,
+		"hook_available": true,
+		"hook_deflection_limit_rad": 0.349065850398866,
+		"hook_deflection_rad": 0.209441033169549,
+		"hook_down": true,
+		"hook_free_angle_rad": 0.20943951023932,
+		"hook_host_part_id": "tail",
+		"hook_pivot_m": [
+			0.0,
+			0.130000352859497,
+			4.80001831054688
+		],
+		"hook_tip_m": [
+			0.0,
+			-2.27999758720398,
+			5.90000915527344
+		],
+		"schema_version": 1,
+		"wheel_contacts": {
+			"main_left": {
+				"available": true,
+				"host_part_id": "wing_left",
+				"position_m": [
+					-1.93000793457031,
+					-2.30000185966492,
+					-0.089996337890625
+				]
+			},
+			"main_right": {
+				"available": true,
+				"host_part_id": "wing_right",
+				"position_m": [
+					1.92999267578125,
+					-2.29999899864197,
+					-0.089996337890625
+				]
+			},
+			"tail": {
+				"available": true,
+				"host_part_id": "tail",
+				"position_m": [
+					0.0,
+					-2.29999804496765,
+					4.52001953125
+				]
+			}
+		}
+	},
+	"lowered_surface": {
+		"height_m": 7.92600011825562,
+		"supported": true,
+		"surface_id": "elevator_forward"
+	},
+	"scope": "Static actual CV01 installation and contact geometry; no claim of carrier operation execution."
+}

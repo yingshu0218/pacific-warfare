@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "jp_shokaku_1941_08_23",
+  "display_name": "翔鹤 / Shokaku · 1941-08-23",
+  "country_id": "jp",
+  "domain": "ship",
+  "service_entry_year": 1941,
+  "configuration_date": "1941-08-23",
+  "dimensions_m": [
+    38.0,
+    40.87,
+    257.5
+  ],
+  "model_scene": "res://naval/shokaku_1941_08_23/shokaku.tscn",
+  "candidate_only": true,
+  "registration_status": "NOT REGISTERED; S14 owns live integration",
+  "historical_era": "1941 ship; A6M5a 1944 deck-fit fixture is deliberately cross-era",
+  "deck_definition": "res://naval/shokaku_1941_08_23/data/deck.json"
+}

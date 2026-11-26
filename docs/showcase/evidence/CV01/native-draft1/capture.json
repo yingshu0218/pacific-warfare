@@ -1,0 +1,102 @@
+{
+	"engine": "4.7.2-stable (official)",
+	"scope": "Static module, ship assembly and deck fit only; no flight operations",
+	"views": [
+		{
+			"draw_calls": 29.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/mk32_module.png",
+			"height": 900,
+			"id": "mk32_module",
+			"primitives": 3172.0,
+			"width": 1440
+		},
+		{
+			"draw_calls": 29.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/mk24_module.png",
+			"height": 900,
+			"id": "mk24_module",
+			"primitives": 2580.0,
+			"width": 1440
+		},
+		{
+			"draw_calls": 599.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/port_side.png",
+			"height": 900,
+			"id": "port_side",
+			"primitives": 540559.0,
+			"width": 1440
+		},
+		{
+			"draw_calls": 495.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/starboard_side.png",
+			"height": 900,
+			"id": "starboard_side",
+			"primitives": 442956.0,
+			"width": 1440
+		},
+		{
+			"draw_calls": 705.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/top.png",
+			"height": 900,
+			"id": "top",
+			"primitives": 634071.0,
+			"width": 1440
+		},
+		{
+			"draw_calls": 544.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/bow_quarter.png",
+			"height": 900,
+			"id": "bow_quarter",
+			"primitives": 482575.0,
+			"width": 1440
+		},
+		{
+			"draw_calls": 601.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/stern_quarter.png",
+			"height": 900,
+			"id": "stern_quarter",
+			"primitives": 518771.0,
+			"width": 1440
+		},
+		{
+			"draw_calls": 204.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/forward_battery.png",
+			"height": 900,
+			"id": "forward_battery",
+			"primitives": 166906.0,
+			"width": 1440
+		},
+		{
+			"draw_calls": 169.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/aft_battery.png",
+			"height": 900,
+			"id": "aft_battery",
+			"primitives": 135590.0,
+			"width": 1440
+		},
+		{
+			"draw_calls": 584.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/deck_installation.png",
+			"height": 900,
+			"id": "deck_installation",
+			"primitives": 748073.0,
+			"width": 1440
+		},
+		{
+			"draw_calls": 240.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/sb2c_installation.png",
+			"height": 900,
+			"id": "sb2c_installation",
+			"primitives": 287171.0,
+			"width": 1440
+		},
+		{
+			"draw_calls": 176.0,
+			"file": "res://docs/showcase/evidence/CV01/native-draft1/elevator_lowered.png",
+			"height": 900,
+			"id": "elevator_lowered",
+			"primitives": 117449.0,
+			"width": 1440
+		}
+	]
+}

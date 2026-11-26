@@ -1,0 +1,70 @@
+{
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "pck_sha256": "d3d915284a378212e2a121dd4752de438e00bf9919eb00f5b1480f081b80f5c1",
+  "pck_bytes": 18642224,
+  "entry": "res://showcase/carrier_harbor.tscn",
+  "admitted_sources": 549,
+  "verified_pck_entries": 679,
+  "verified_outputs": {
+    "index.apple-touch-icon.png": {
+      "bytes": 11944,
+      "sha256": "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+    },
+    "index.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    "index.icon.png": {
+      "bytes": 5700,
+      "sha256": "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+    },
+    "index.html": {
+      "bytes": 5679,
+      "sha256": "25f2fc09b8bf1faaf66db579c3abe6ff0391824875d6562ce6ec7b10c31e0dfc"
+    },
+    "index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.pck": {
+      "bytes": 18642224,
+      "sha256": "d3d915284a378212e2a121dd4752de438e00bf9919eb00f5b1480f081b80f5c1"
+    }
+  },
+  "verified_raw_data": 122,
+  "verified_remaps": 268,
+  "unit_models": [
+    "jp_a6m5a_1944",
+    "jp_d4y2_model12_1944_10",
+    "jp_g4m1_1942_07",
+    "jp_shokaku_1941_08_23",
+    "jp_yamato_1944_04",
+    "jp_yukikaze_1942_06",
+    "us_40mm_m1_m2a1_1944",
+    "us_5in51_mk13mod4_1945",
+    "us_b25j_1944_07",
+    "us_essex_cv9_1944_04_15",
+    "us_f6f5_1944",
+    "us_fletcher_dd445_1942_07_18",
+    "us_iowa_bb61_1944_12_28",
+    "us_sb2c4_1944"
+  ],
+  "verified_staged_and_source_hashes": true,
+  "approved_payloads_only": true,
+  "reports": [
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261121T161459-3f868ac9/report.json",
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261121T161551-12b57618/report.json"
+  ]
+}

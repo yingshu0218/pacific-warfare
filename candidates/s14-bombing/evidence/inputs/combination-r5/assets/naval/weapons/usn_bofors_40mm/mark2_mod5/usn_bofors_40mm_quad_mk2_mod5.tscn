@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/naval/usn_bofors_40mm_quad_mk2_mod5.gd" id="1_mount"]
+
+[node name="USN_40mm_Quad_Mk2_Mod5" type="Node3D"]
+script = ExtResource("1_mount")
+

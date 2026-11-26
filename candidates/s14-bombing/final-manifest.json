@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-11-11T17:30:38.699026+00:00",
+  "status": "user_preview_admitted_final_verification_pending",
+  "approval": "docs/showcase/acceptance/S14-bombing-preview-admission.json",
+  "approval_sha256": "29e3f00facdbeba88631e9e2a5b78bf0f32302b5493422b12a79ca763305dbbd",
+  "source_manifest_sha256": "dea38bbf6559714c6f778b8e21ea76e060497b92a0f0430b224c78057593d514",
+  "frozen_inputs": 560,
+  "runtime_whitelist": 535,
+  "reviewed_public_paths_applied": 77,
+  "additional_runtime_enablement": "Backed up then removed scripts/bombing/.gdignore; exactly8 reviewed scripts in that directory",
+  "ordinary_build_manifest_sha256": "82d0c4074925f35f985d735a946ea33d25c57b3d508e92efc50127b41df6ec00",
+  "ordinary_pck_sha256": "3455f5c834a77e4af7941a3d6a2be6dc6087b480feea248b8a89eb6ee94d7cd9",
+  "ordinary_html_sha256": "bc8fbd5b372ad6510603080d3db3aae5cca18cf3a7e86d70e17180c40fe3307e",
+  "command": "python3 tools/run_first_playable.py web --scene expanded",
+  "rebuild_command": "python3 tools/run_first_playable.py web --scene expanded --build",
+  "url": "http://127.0.0.1:8765/index.html",
+  "menu": [
+    "SB2C · 俯冲轰炸",
+    "D4Y2 · 俯冲轰炸",
+    "G4M1 · 水平轰炸",
+    "B-25J · 舰艇轰炸",
+    "F6F 截击 G4M1",
+    "零战截击 B-25J"
+  ],
+  "minimum_ordinary_chrome_smoke": {
+    "passed": true,
+    "checks": 11
+  },
+  "whole_private_chrome": {
+    "passed": false,
+    "recorded_checks": 82,
+    "recorded_checks_failed": 0,
+    "failure": "Original harness waited only pullout/combat_damage_abort; actual pullout/damage_abort occurred at4.45s and actual order terminal at155.05s. Kept failed whole run; no rerun before user preview.",
+    "remaining": "Post-timeout original training and final acceptance pending"
+  },
+  "carrier_pair": {
+    "passed": true,
+    "checks": 9,
+    "simulated_s": 1727.36666666667,
+    "scope": "Essex single carrier, same two F6F, each two sorties/two recoveries/service_done standby"
+  },
+  "root_sources_match_frozen": true,
+  "old_ordinary_backup_verified": true,
+  "owned_process_groups_closed": 61,
+  "test_chrome_http_profiles_closed": true,
+  "final_long_performance_acceptance": false,
+  "evidence": {
+    "evidence/inputs-combination-r13.json": "dea38bbf6559714c6f778b8e21ea76e060497b92a0f0430b224c78057593d514",
+    "evidence/combined-deltas-r13.json": "8f5b91169b50d48bf60b3cd1464405e6402ca491e76e7d604920658eb1d0911a",
+    "evidence/source-differences-r13.json": "0621fd9f4c5c22eaf7e44b507e1b41f28f8a449c4d6b5e39e8bc08eb77d345ef",
+    "evidence/public-change-plan.json": "a41c00a4a17306a80acb6aca51b2536e0778476d885c0eea60291b33f8bc9e34",
+    "evidence/public-admission.json": "3fc2c28ad999e64e93377d1a37317de6e9609e7eac517c8c5f5b2a791d83dbdf",
+    "evidence/ordinary-build-r13.json": "9e586aec509f73bdc1dce779b79d0421fc033789df425b34674fb6551c92caf0",
+    "evidence/cleanup-preview-r13.json": "ba168d635e159261006a4403ce14cd2ef1985af34f463e5b081ce7e9ee9bd4be",
+    "evidence/web-build-review-r13.json": "c5c0cff2605dde75bacb529d1dbad5d4c80a80349dde8306e91ea2f79bb35151",
+    "evidence/native-movies.json": "c8044902b4893076eb2908c94bfc6f49b4fe467bede09090d5d0acc953852ddc",
+    "evidence/native-continuity-r12.json": "066199f997e4b43d6b85e2c8840061b672db9d01386030c319829fbf11868f7c",
+    "evidence/native-visual-review-r12.json": "cad1c42d2441fdd7ce41798d76c266ab5a68246d325b37eeb91ffc872590df79",
+    "evidence/native-reports-r12.json": "b2a9296d5e3d8b0e115c7ea6248f70771f69e1f69c0faa85e1782a3579bd3d8d",
+    "evidence/regressions-r11.json": "1933aabd2fee2e3924c34261e4e4b16ba5d365fae88aa5c1a430e4fd235ee05e",
+    "evidence/pair-r9-binding.json": "639d0803d7f6984d1564751f81d40a5fac2782f30e273d2a04180dce3c618928",
+    "variants-r10.json": "6b38ca1e91b409115f99edb5a4b9a5701411d57acb7072dce3ea4e78ce1d3636",
+    "chrome-review-r13/run.json": "e0bf3c9fcf33e4c745ad9834fc39924acd42a177c215ab8d807e13dbd7025369",
+    "ordinary-smoke-r13/run.json": "8f71f50ea4a6774e76095ebf6b51333e72c243343bcad244780796e458f867e5"
+  },
+  "delivery": "docs/showcase/deliveries/S14-bombing.md"
+}

@@ -1,0 +1,122 @@
+{
+	"checks": 29,
+	"evidence": [
+		{
+			"label": "controlled release uses shared CombatProjectiles",
+			"passed": true
+		},
+		{
+			"label": "bomb inherits actual mother velocity with zero muzzle speed",
+			"passed": true
+		},
+		{
+			"label": "two-second zero-drag gravity matches independent analytic height",
+			"passed": true
+		},
+		{
+			"label": "no steering or artificial downward muzzle speed",
+			"passed": true
+		},
+		{
+			"label": "exact first sea crossing, analytic range, one contact",
+			"passed": true
+		},
+		{
+			"label": "one terminal resolution reclaims projectile",
+			"passed": true
+		},
+		{
+			"label": "controlled release uses shared CombatProjectiles",
+			"passed": true
+		},
+		{
+			"label": "unarmed impact is a dud, no later explosion",
+			"passed": true
+		},
+		{
+			"label": "unarmed first contact cannot reach a second surface",
+			"passed": true
+		},
+		{
+			"label": "controlled release uses shared CombatProjectiles",
+			"passed": true
+		},
+		{
+			"label": "shared swept collision picks thin roof before sea",
+			"passed": true
+		},
+		{
+			"label": "controlled release uses shared CombatProjectiles",
+			"passed": true
+		},
+		{
+			"label": "armed delayed explosion occurs exactly once",
+			"passed": true
+		},
+		{
+			"label": "range falloff applies once per ground entity",
+			"passed": true
+		},
+		{
+			"label": "friendly-fire off excludes nearby friend from blast damage",
+			"passed": true
+		},
+		{
+			"label": "controlled release uses shared CombatProjectiles",
+			"passed": true
+		},
+		{
+			"label": "explicit friendly-fire applies same blast to friend",
+			"passed": true
+		},
+		{
+			"label": "controlled release uses shared CombatProjectiles",
+			"passed": true
+		},
+		{
+			"label": "building proxy occludes blast; no wall penetration",
+			"passed": true
+		},
+		{
+			"label": "controlled release uses shared CombatProjectiles",
+			"passed": true
+		},
+		{
+			"label": "fully cleared bomb can physically collide with its source again",
+			"passed": true
+		},
+		{
+			"label": "controlled release uses shared CombatProjectiles",
+			"passed": true
+		},
+		{
+			"label": "outside centre does not clear an overlapping full bomb body",
+			"passed": true
+		},
+		{
+			"label": "actual free separation clears the full body without a source impact",
+			"passed": true
+		},
+		{
+			"label": "tilted release enters the shared projectile path",
+			"passed": true
+		},
+		{
+			"label": "crutch orientation survives birth while velocity remains the actual mother velocity",
+			"passed": true
+		},
+		{
+			"label": "finite simulated attitude alignment does not alter gravity or steer velocity",
+			"passed": true
+		},
+		{
+			"label": "ordinary gun ammo still rejects zero muzzle speed",
+			"passed": true
+		},
+		{
+			"label": "gravity release rejects a fake nonzero muzzle",
+			"passed": true
+		}
+	],
+	"failures": 0
+}

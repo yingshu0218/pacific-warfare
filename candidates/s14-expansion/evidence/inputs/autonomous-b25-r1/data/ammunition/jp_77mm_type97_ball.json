@@ -1,0 +1,16 @@
+{
+  "id": "jp_77mm_type97_ball",
+  "caliber_m": 0.0077,
+  "projectile_mass_kg": 0.0113,
+  "muzzle_speed_mps": 750.0,
+  "gravity_mps2": 9.80665,
+  "max_lifetime_s": 5.0,
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "docs/aircraft-contracts.md",
+      "docs/references/combat/s05-sources.md"
+    ],
+    "note": "S05 owns ballistic/effectiveness calibration. Representative projectile and simplified no-drag trajectory; see sources for remaining limits."
+  }
+}

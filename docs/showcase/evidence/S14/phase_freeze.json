@@ -1,0 +1,30 @@
+{
+  "status": "phase_frozen_waiting_s04_and_sb2c_admission_not_final_acceptance",
+  "created_utc": "2026-11-10T18:27:20.767083+00:00",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "renderer": "Compatibility",
+  "entry": "res://showcase/all_units.tscn",
+  "simulation_units": 19,
+  "types": 9,
+  "gallery_entries": 5,
+  "production_files": 19,
+  "source_manifest_sha256": "1836427f72b1fe9ece3fc7a5ba66d40e4242d7183defe85a0da9ccf146e25a46",
+  "evidence_manifest_sha256": "7dc3f8f0b0333b47495bf87fae32764c00a9095d765e06e75986fa39b75c590c",
+  "owned_recovery": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-phase-owned",
+  "air_capture_frames": 960,
+  "air_inputs_stable": true,
+  "post_air_production_differences": [
+    "res://scripts/showcase/weapon_gallery.gd"
+  ],
+  "chrome_started": false,
+  "http_started": false,
+  "subagents_started": false,
+  "pending": [
+    "Original S04 training BattleOrder registration + real 360 roll and two fighter variants",
+    "Original SB2C model admission/current-code recheck",
+    "S14 integrate final training commands and repeatable full four/escort/damage demonstration",
+    "One bounded Chrome basic load/selection after dependencies",
+    "S08 startup/final pack/10min/3 restart"
+  ],
+  "cleanup": "cleanup.json"
+}

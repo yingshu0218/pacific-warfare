@@ -1,0 +1,361 @@
+{
+  "passed": true,
+  "packaged_terminal_checks": [
+    {
+      "run_id": "20261109T235720-60d89a44",
+      "action": "godot",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261109T235720-60d89a44/report.json",
+      "original_report_sha256": "7c02c5d5b79a83d49c917f2e35c41b100275b82953cd0a22e5d752661b20381e",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261109T235720-60d89a44/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261109T235720-60d89a44/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T140606-447e1408",
+      "action": "test",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/report.json",
+      "original_report_sha256": "fba55d0d501101226377b73a52d623dcd97bfd6542f466dd00e3808907c1935a",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/01-output.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/02-output.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/03-output.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/04-output.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/05-output.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/06-output.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/07-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T141238-8cd72f8a",
+      "action": "test",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T141238-8cd72f8a/report.json",
+      "original_report_sha256": "518fd36ecb5e26f5a108ac27004c3b30d38cdbfbe579a992bccab1e1ab7b1309",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T141238-8cd72f8a/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T141238-8cd72f8a/01-output.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T141238-8cd72f8a/02-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T141432-dd9192f6",
+      "action": "godot",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T141432-dd9192f6/report.json",
+      "original_report_sha256": "826e608044cae0b1d6f712bf4ae9ccf04e842a73c78b46a1e27c932a472e52ca",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T141432-dd9192f6/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T141432-dd9192f6/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T141447-032c3afc",
+      "action": "godot",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T141447-032c3afc/report.json",
+      "original_report_sha256": "be75c5344eaf812233eeaa2ac8803ad4b7dfd5578790ce30c416f7584d56bce7",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T141447-032c3afc/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T141447-032c3afc/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T141458-5fc144d7",
+      "action": "godot",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T141458-5fc144d7/report.json",
+      "original_report_sha256": "32d231c374ae0d02e5240657c0286c998133a8b88efd69a8ddcc9415ee3f45e6",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T141458-5fc144d7/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T141458-5fc144d7/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T141541-6270ea5f",
+      "action": "godot",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T141541-6270ea5f/report.json",
+      "original_report_sha256": "2a3b369ebec020fb74f727b99a9197e8f6e3eec24ed05ef53044b8154c2a51df",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T141541-6270ea5f/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T141541-6270ea5f/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T142003-cdd75c6d",
+      "action": "exec",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T142003-cdd75c6d/report.json",
+      "original_report_sha256": "7dff220bd64ed2027a9308ecd7aaf232d49f0e730be1225e171d9027a18a373e",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T142003-cdd75c6d/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T142139-f860c9a6",
+      "action": "godot",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T142139-f860c9a6/report.json",
+      "original_report_sha256": "70959496d85d4396cd05aca55b6e24c010ccd946c4395c18bcbb16cf24526889",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T142139-f860c9a6/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T142139-f860c9a6/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T142211-263d6bad",
+      "action": "godot",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T142211-263d6bad/report.json",
+      "original_report_sha256": "08bb924ce9f91331fa4df629b6b8518ab3e73c3b107a2debe56fabd1f1a1fc2b",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T142211-263d6bad/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T142211-263d6bad/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T142433-57c8fe8c",
+      "action": "exec",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T142433-57c8fe8c/report.json",
+      "original_report_sha256": "a0632e563d01c37dc64723d5bf4057faae51fbf760dd7ff704877cf1675bca80",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T142433-57c8fe8c/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T142439-9282d6a6",
+      "action": "test",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T142439-9282d6a6/report.json",
+      "original_report_sha256": "ff93039231a28d929becfab98b397ebbbdc25372698c3540f8a7831fd1c2927c",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T142439-9282d6a6/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T142439-9282d6a6/01-output.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T142439-9282d6a6/02-output.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T142439-9282d6a6/03-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T142914-ad8d10df",
+      "action": "exec",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T142914-ad8d10df/report.json",
+      "original_report_sha256": "186ab678c8e9af26ff85baa14071d1e7af7d6f77897ad959d4e10de9fbc4a0dd",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T142914-ad8d10df/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T143247-ef96f6c9",
+      "action": "test",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T143247-ef96f6c9/report.json",
+      "original_report_sha256": "8288e1f0ec1d9f56c72b7a6741bb72b30bfa3753549c201a643b35699c3981b9",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T143247-ef96f6c9/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T143247-ef96f6c9/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T144027-09b2b950",
+      "action": "exec",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T144027-09b2b950/report.json",
+      "original_report_sha256": "4a326c9b75aa80cf9f7206e791a2bf594b41a76f62dc11d1f989a0c63b838b95",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T144027-09b2b950/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T144853-a5a5e92e",
+      "action": "test",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T144853-a5a5e92e/report.json",
+      "original_report_sha256": "b0364dd189e10d56a14e3b092aaeeb5d1ad8455db739b84801fed0776801ae07",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T144853-a5a5e92e/00-version.log",
+        "docs/showcase/evidence/S04-spatial/validation/20261110T144853-a5a5e92e/01-output.log"
+      ]
+    },
+    {
+      "run_id": "20261110T145429-dd549022",
+      "action": "exec",
+      "passed": true,
+      "report": "docs/showcase/evidence/S04-spatial/validation/20261110T145429-dd549022/report.json",
+      "original_report_sha256": "5c63286b14f026769ee4d211efe36f54d6b9ec0904a88cea6a841789854bb034",
+      "logs": [
+        "docs/showcase/evidence/S04-spatial/validation/20261110T145429-dd549022/01-output.log"
+      ]
+    }
+  ],
+  "historical_failed_or_lock_wait_runs_retained_in_local": [
+    {
+      "run_id": "20261109T194823-5e206ed6",
+      "error": "check_failed",
+      "failed_commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--editor",
+          "--import",
+          "--quit"
+        ]
+      ]
+    },
+    {
+      "run_id": "20261109T195013-276ff95d",
+      "error": "check_failed",
+      "failed_commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_models.gd"
+        ]
+      ]
+    },
+    {
+      "run_id": "20261109T195130-e7d886e7",
+      "error": "check_failed",
+      "failed_commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_models.gd"
+        ]
+      ]
+    },
+    {
+      "run_id": "20261109T195301-3dd5c75d",
+      "error": "lock_timeout",
+      "failed_commands": []
+    },
+    {
+      "run_id": "20261109T235432-224a7a01",
+      "error": "check_failed",
+      "failed_commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_spatial_motion.gd"
+        ]
+      ]
+    },
+    {
+      "run_id": "20261109T235540-a3280f97",
+      "error": "check_failed",
+      "failed_commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_spatial_motion.gd"
+        ]
+      ]
+    },
+    {
+      "run_id": "20261110T062421-ec57bb02",
+      "error": "check_failed",
+      "failed_commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_spatial_combat.gd"
+        ]
+      ]
+    },
+    {
+      "run_id": "20261110T062915-56728e0e",
+      "error": "check_failed",
+      "failed_commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_aircraft_spatial_combat.gd"
+        ]
+      ]
+    },
+    {
+      "run_id": "20261110T064328-77239ace",
+      "error": "lock_timeout",
+      "failed_commands": []
+    },
+    {
+      "run_id": "20261110T065129-590bb5e4",
+      "error": "check_failed",
+      "failed_commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_commands.gd"
+        ]
+      ]
+    },
+    {
+      "run_id": "20261110T065424-0d43415a",
+      "error": "lock_timeout",
+      "failed_commands": []
+    },
+    {
+      "run_id": "20261110T070140-50ecf8db",
+      "error": "check_failed",
+      "failed_commands": [
+        [
+          ".local/S04-spatial-plot-env/bin/python",
+          "tools/assemble_aircraft_spatial_evidence.py"
+        ]
+      ]
+    },
+    {
+      "run_id": "20261110T070328-beba49af",
+      "error": "check_failed",
+      "failed_commands": [
+        [
+          ".local/S04-spatial-plot-env/bin/python",
+          "tools/assemble_aircraft_spatial_evidence.py"
+        ]
+      ]
+    },
+    {
+      "run_id": "20261110T133129-089830ab",
+      "error": "check_failed",
+      "failed_commands": [
+        [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/test_f6f_coordinated_flight.gd"
+        ]
+      ]
+    }
+  ],
+  "note": "Historical failed reports are not promoted to passing; cleanup independently checks all completed S04 groups."
+}

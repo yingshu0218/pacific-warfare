@@ -1,0 +1,62 @@
+{
+  "status": "Known acceleration limitation; not a 4x performance pass",
+  "source_run": "20261110T185239-1fab336c",
+  "normal_1x": {
+    "samples": 437,
+    "p95_ms": 22.299999999999272
+  },
+  "normal_4x": {
+    "samples": 45,
+    "p95_ms": 164.59999999999854,
+    "mean_ms": 135.9377777777778,
+    "achieved_rate_between_reported_snapshots": 1.946342865978318
+  },
+  "hypothesis": "Session.advance default budget16 fixed ticks per rendered frame; at7.35fps the ceiling is~1.96x. Existing presentation runs once per frame. Passive WebRunProbe advance/presentation/backlog data will distinguish CPU tick cost in final run; no shared simulation optimization in DM01.",
+  "handoff_owner": "S08",
+  "damage_cases_scope": "Normal1x and eight genuine controlled cases independently validated; this limitation does not justify deleting real battle/damage work.",
+  "final_reproduction": {
+    "source": "chrome-before-viewport-fix/run.json (normal production view is valid; controlled framing rejected)",
+    "achieved_rate": 1.950805767599661,
+    "normal_1x": {
+      "frames": 453,
+      "meanMs": 11.029359823399561,
+      "p95Ms": 18.799999999999272,
+      "maxMs": 55.29999999999927,
+      "meanFps": 90.66709364930045
+    },
+    "normal_4x": {
+      "frames": 44,
+      "meanMs": 136.125,
+      "p95Ms": 167.5,
+      "maxMs": 218,
+      "meanFps": 7.3461891643709825
+    },
+    "advance_ms": {
+      "n": 45,
+      "mean": 123.61333333333333,
+      "p95": 147.2,
+      "max": 194.7
+    },
+    "presentation_ms": {
+      "n": 45,
+      "mean": 6.622222222222222,
+      "p95": 11.7,
+      "max": 12.9
+    },
+    "camera_ms": {
+      "n": 45,
+      "mean": 0.28444444444444444,
+      "p95": 0.4,
+      "max": 0.4
+    },
+    "hud_ms": {
+      "n": 45,
+      "mean": 0.82,
+      "p95": 2.3,
+      "max": 2.5
+    },
+    "end_pending_simulation_s": 11.4864999999998,
+    "timing_rows": 45
+  },
+  "conclusion": "CPU simulation advance dominates; per-frame16tick ceiling is reached at the measured7.35fps. Rendering-only damage review remains fast. No 4x performance pass and no broad optimization in DM01; S08 owns follow-up."
+}

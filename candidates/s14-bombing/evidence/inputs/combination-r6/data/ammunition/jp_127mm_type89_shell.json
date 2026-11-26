@@ -1,0 +1,15 @@
+{
+  "id": "jp_127mm_type89_shell",
+  "caliber_m": 0.127,
+  "projectile_mass_kg": 23.0,
+  "muzzle_speed_mps": 720.0,
+  "gravity_mps2": 9.80665,
+  "max_lifetime_s": 60.0,
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "docs/showcase/deliveries/S02.md"
+    ],
+    "note": "Descriptive integration values for the model catalog only. Ammunition subtype, exact historical ballistics, cycle, fuze and damage are S05 work; lifetime is a safety bound. No firing mechanism is implemented in S02."
+  }
+}

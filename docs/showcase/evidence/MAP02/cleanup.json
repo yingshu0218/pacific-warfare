@@ -1,0 +1,131 @@
+{
+  "checked_utc": "2026-11-10T21:16:37.676993+00:00",
+  "scope": "Only MAP02 groups recorded by tools/verify.py; never terminates or inspects unrelated windows",
+  "all_wrapper_cleanups_ok": true,
+  "all_owned_groups_absent": true,
+  "groups": {
+    "77715": {
+      "run_id": "20261110T205501-5667376e",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "77716": {
+      "run_id": "20261110T205501-5667376e",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "77909": {
+      "run_id": "20261110T205729-77b2a787",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "77910": {
+      "run_id": "20261110T205729-77b2a787",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78135": {
+      "run_id": "20261110T210141-7af88876",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78136": {
+      "run_id": "20261110T210141-7af88876",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78226": {
+      "run_id": "20261110T210244-625bf860",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78227": {
+      "run_id": "20261110T210244-625bf860",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78298": {
+      "run_id": "20261110T210354-bab1ed64",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78299": {
+      "run_id": "20261110T210354-bab1ed64",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78790": {
+      "run_id": "20261110T210823-41dc2a18",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78791": {
+      "run_id": "20261110T210823-41dc2a18",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78816": {
+      "run_id": "20261110T210840-d75b559d",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78817": {
+      "run_id": "20261110T210840-d75b559d",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78862": {
+      "run_id": "20261110T210906-757ee8c4",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78863": {
+      "run_id": "20261110T210906-757ee8c4",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "78968": {
+      "run_id": "20261110T211003-3970723b",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "79255": {
+      "run_id": "20261110T211302-0a99fdf5",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    },
+    "79256": {
+      "run_id": "20261110T211302-0a99fdf5",
+      "cleanup_ok": true,
+      "alive_at_audit": false
+    }
+  },
+  "no_http_service_started": true,
+  "no_browser_or_editor_started": true,
+  "native_scene_reclaimed": {
+    "module_capture": {
+      "report": "module_capture.json",
+      "views": 14,
+      "frames": 0,
+      "sources_match": true,
+      "reclaimed_on_exit": true
+    },
+    "map_capture": {
+      "report": "map_capture.json",
+      "views": 10,
+      "frames": 80,
+      "sources_match": true,
+      "reclaimed_on_exit": true
+    }
+  },
+  "shared_lock_status_at_audit": {
+    "status": "released",
+    "owner": "MAP02",
+    "pid": 79251,
+    "process_identity": "Wed Nov 11 05:13:02 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner MAP02 --timeout 75 --lock-timeout 3 test res://tests/map02/test_map02_terrain.gd",
+    "token": "660918d1676044bbb6040c1e0ac25dfe",
+    "acquired_utc": "2026-11-10T21:13:02.745025+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific",
+    "released_utc": "2026-11-10T21:13:03.914563+00:00"
+  }
+}

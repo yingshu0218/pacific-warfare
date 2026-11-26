@@ -1,0 +1,146 @@
+{
+  "task": "AU01",
+  "verification_records": [
+    {
+      "run_id": "20261110T153749-2a4bcc11",
+      "owner": "AU01-audio-build",
+      "passed": false,
+      "exit_code": 1,
+      "error": null,
+      "report": "docs/audio/au01/evidence/verification/20261110T153749-2a4bcc11/report.json"
+    },
+    {
+      "run_id": "20261110T154118-d0380165",
+      "owner": "AU01-audio-build",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "report": "docs/audio/au01/evidence/verification/20261110T154118-d0380165/report.json"
+    },
+    {
+      "run_id": "20261110T154231-f9dd54f7",
+      "owner": "AU01-audio-check",
+      "passed": false,
+      "exit_code": 1,
+      "error": null,
+      "report": "docs/audio/au01/evidence/verification/20261110T154231-f9dd54f7/report.json"
+    },
+    {
+      "run_id": "20261110T154414-90faea5c",
+      "owner": "AU01-audio-final-build",
+      "passed": false,
+      "exit_code": 2,
+      "error": "lock_timeout",
+      "report": "docs/audio/au01/evidence/verification/20261110T154414-90faea5c/report.json"
+    },
+    {
+      "run_id": "20261110T154527-6448dfdd",
+      "owner": "AU01-audio-rebuild",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "report": "docs/audio/au01/evidence/verification/20261110T154527-6448dfdd/report.json"
+    },
+    {
+      "run_id": "20261110T154709-40b5cc55",
+      "owner": "AU01-audio-final-build",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "report": "docs/audio/au01/evidence/verification/20261110T154709-40b5cc55/report.json"
+    },
+    {
+      "run_id": "20261110T154846-40430216",
+      "owner": "AU01-audio-final-check",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "report": "docs/audio/au01/evidence/verification/20261110T154846-40430216/report.json"
+    },
+    {
+      "run_id": "20261110T155113-d58c836d",
+      "owner": "AU01-audio-bundle-final",
+      "passed": true,
+      "exit_code": 0,
+      "error": null,
+      "report": "docs/audio/au01/evidence/verification/20261110T155113-d58c836d/report.json"
+    }
+  ],
+  "process_groups": [
+    {
+      "run_id": "20261110T153749-2a4bcc11",
+      "process_group": 41247,
+      "state": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T154118-d0380165",
+      "process_group": 41499,
+      "state": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T154231-f9dd54f7",
+      "process_group": 41601,
+      "state": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T154527-6448dfdd",
+      "process_group": 41826,
+      "state": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T154709-40b5cc55",
+      "process_group": 41961,
+      "state": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T154846-40430216",
+      "process_group": 42104,
+      "state": "absent",
+      "wrapper_cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T155113-d58c836d",
+      "process_group": 42439,
+      "state": "absent",
+      "wrapper_cleanup_ok": true
+    }
+  ],
+  "all_recorded_groups_absent": true,
+  "read_only_runtime_files": [
+    {
+      "path": "scripts/presentation/effects/combat_audio_bank.gd",
+      "before": "a00dc90ed2e6e4a08cd63c71e6d07312d6bebbcfd915b40025a9a55162370595",
+      "after": "a00dc90ed2e6e4a08cd63c71e6d07312d6bebbcfd915b40025a9a55162370595",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/presentation/effects/combat_effects.gd",
+      "before": "8d6881872b3a19e1df9e22a214baee2df26350a3ccfeb1b6fb3fea52bc832372",
+      "after": "8d6881872b3a19e1df9e22a214baee2df26350a3ccfeb1b6fb3fea52bc832372",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/game/first_playable.gd",
+      "before": "a3d9256ce720be66055aa0b08817040044cceca97c5bb70bb83a8f3dc28f4913",
+      "after": "a3d9256ce720be66055aa0b08817040044cceca97c5bb70bb83a8f3dc28f4913",
+      "unchanged": true
+    },
+    {
+      "path": "assets/audio/SOURCES.md",
+      "before": "6e3aa92220839863ce90ec1bccf8508fcab4c4ad6f58fbd44dd006502af5651f",
+      "after": "6e3aa92220839863ce90ec1bccf8508fcab4c4ad6f58fbd44dd006502af5651f",
+      "unchanged": true
+    }
+  ],
+  "isolated_rebuild_directory_removed": true,
+  "local_planning_recovery_copy_retained": ".local/audio/au01-before",
+  "Godot_started_by_AU01": false,
+  "browser_started_by_AU01": false,
+  "HTTP_service_started_by_AU01": false,
+  "user_windows_touched": false
+}

@@ -1,0 +1,29 @@
+--- S14_R8/scripts/simulation/simulation_world.gd
++++ combined/scripts/simulation/simulation_world.gd
+@@ -307,6 +307,9 @@
+ 	if patrol_area is Dictionary and patrol_area.has("on_station_duration_s"):
+ 		if data.order_type != "patrol" or not SimData.finite_number(patrol_area.on_station_duration_s) or float(patrol_area.on_station_duration_s) < 1.0 or float(patrol_area.on_station_duration_s) > 86400.0:
+ 			return "invalid_patrol_duration"
++	var bombing: Variant = data.get("bombing", {})
++	if not bombing is Dictionary or not SimData.pure_data(bombing): return "invalid_bombing_parameters"
++	if data.order_type != "bombing" and not bombing.is_empty(): return "bombing_requires_bombing_order"
+ 	var training: Variant = data.get("training", {})
+ 	if not training is Dictionary or not SimData.pure_data(training): return "invalid_training_parameters"
+ 	if data.order_type != "aircraft_training" and not training.is_empty(): return "training_requires_training_order"
+@@ -315,7 +318,7 @@
+ 		var target: UnitState = get_unit(target_id)
+ 		if target == null or not target.active:
+ 			return "invalid_order_target"
+-		if data.order_type in ["engage", "intercept"] and target.faction_id == data.faction_id:
++		if data.order_type in ["engage", "intercept", "bombing"] and target.faction_id == data.faction_id:
+ 			return "order_requires_enemy_target"
+ 		if data.order_type == "escort" and target.faction_id != data.faction_id:
+ 			return "escort_requires_friendly_target"
+@@ -329,6 +332,7 @@
+ 	if not area.is_empty():
+ 		if not SimData.valid_vector(area.get("center_m")) or not SimData.finite_number(area.get("radius_m")) or float(area.radius_m) <= 0.0:
+ 			return "invalid_area"
++	if data.order_type == "bombing" and target_id.is_empty() and area.is_empty(): return "bombing_target_required"
+ 	var waypoints: Variant = data.get("waypoints_m", [])
+ 	if not waypoints is Array:
+ 		return "invalid_waypoints"

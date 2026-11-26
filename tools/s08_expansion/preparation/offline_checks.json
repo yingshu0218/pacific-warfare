@@ -1,0 +1,74 @@
+{
+  "scope": "Offline synthetic/tool preparation only; no Godot/export/HTTP/Chrome",
+  "checks": [
+    {
+      "check": 0,
+      "status": "fulfilled",
+      "chunk_id": "467fc9",
+      "wall_time_seconds": 0.00802075,
+      "exit_code": 0,
+      "original_token_count": 183,
+      "output": "test_coverage_and_history_gate (__main__.PreparationTests) ... ok\ntest_final_shape_and_no_guessed_index (__main__.PreparationTests) ... ok\ntest_html_and_output_tampering (__main__.PreparationTests) ... ok\ntest_pack_digest_and_path (__main__.PreparationTests) ... ok\ntest_raw_interfaces_omitted_by_export_are_rejected (__main__.PreparationTests) ... ok\ntest_summary_retains_slow_and_hidden_frames (__main__.PreparationTests) ... ok\ntest_synthetic_ordinary_audit (__main__.PreparationTests) ... ok\ntest_template_cannot_launch (__main__.PreparationTests) ... ok\ntest_untracked_export_file_is_rejected (__main__.PreparationTests) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.035s\n\nOK\n"
+    },
+    {
+      "check": 1,
+      "status": "fulfilled",
+      "chunk_id": "b14272",
+      "wall_time_seconds": 0.066138125,
+      "exit_code": 0,
+      "original_token_count": 113,
+      "output": "PASS Final visible menu lookup is independent of candidate indices\nPASS Conditions do not execute arbitrary JavaScript\nPASS Evidence stream reports byte pressure instead of discarding frames\nPASS Shared verification lock must belong to the actual parent\nPASS Only current state and changed orders are archived; event and generation identities remain real\n{\"synthetic_tests_passed\":5,\"Godot_started\":false,\"Chrome_started\":false,\"HTTP_started\":false}\n"
+    },
+    {
+      "check": 2,
+      "status": "fulfilled",
+      "chunk_id": "b83eb5",
+      "wall_time_seconds": 0.036924,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "check": 3,
+      "status": "fulfilled",
+      "chunk_id": "066332",
+      "wall_time_seconds": 0.035025458,
+      "exit_code": 0,
+      "original_token_count": 0,
+      "output": ""
+    },
+    {
+      "check": 4,
+      "status": "fulfilled",
+      "chunk_id": "1beba0",
+      "wall_time_seconds": 7.375e-06,
+      "exit_code": 2,
+      "original_token_count": 41,
+      "output": "{\"status\": \"not_ready_or_audit_failed\", \"reason\": \"Waiting for coordinator's final admission and frozen contract\", \"Godot_started\": false, \"Chrome_started\": false}\n"
+    },
+    {
+      "check": 5,
+      "status": "fulfilled",
+      "chunk_id": "1236e8",
+      "wall_time_seconds": 0.041060834,
+      "exit_code": 0,
+      "original_token_count": 65,
+      "output": "PREPARATION ONLY: no server, Godot, export, Chrome or browser imports.\nLater: tools/verify.py --owner S08-expanded --timeout 1250 exec -- node tools/s08_expansion/run_chrome.mjs --execute --contract=FINAL.json --mode=plain|observed --evidence=NEW_DIRECTORY\n"
+    },
+    {
+      "check": 6,
+      "status": "fulfilled",
+      "chunk_id": "c2335f",
+      "wall_time_seconds": 4.8958e-05,
+      "exit_code": 0,
+      "original_token_count": 13,
+      "output": "Python syntax OK; no imports or external processes\n"
+    }
+  ],
+  "last_contract_change_rechecked": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 tools/s08_expansion/test_tools.py",
+    "exit_code": 0,
+    "tests_passed": 9,
+    "scope": "File/contract fixtures only, no Godot/HTTP/Chrome"
+  }
+}

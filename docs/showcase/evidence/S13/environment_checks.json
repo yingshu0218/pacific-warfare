@@ -1,0 +1,81 @@
+{
+	"checks": [
+		{
+			"check": "actual Showcase loads with cloud/sea component",
+			"passed": true
+		},
+		{
+			"check": "environment time, wind appearance and camera cannot mutate simulation",
+			"passed": true
+		},
+		{
+			"check": "pause freezes both absolute material clocks",
+			"passed": true
+		},
+		{
+			"check": "1x advances both materials by simulation half second",
+			"passed": true
+		},
+		{
+			"check": "4x advances materials by four times wall interval",
+			"passed": true
+		},
+		{
+			"check": "sky and ocean share exact same time",
+			"passed": true
+		},
+		{
+			"check": "restart returns visual phase to zero 0",
+			"passed": true
+		},
+		{
+			"check": "restart retains one environment 0",
+			"passed": true
+		},
+		{
+			"check": "restart reuses material resources 0",
+			"passed": true
+		},
+		{
+			"check": "restart returns visual phase to zero 1",
+			"passed": true
+		},
+		{
+			"check": "restart retains one environment 1",
+			"passed": true
+		},
+		{
+			"check": "restart reuses material resources 1",
+			"passed": true
+		},
+		{
+			"check": "restart returns visual phase to zero 2",
+			"passed": true
+		},
+		{
+			"check": "restart retains one environment 2",
+			"passed": true
+		},
+		{
+			"check": "restart reuses material resources 2",
+			"passed": true
+		},
+		{
+			"check": "sea stays at simulation y=0 and covers camera far range",
+			"passed": true
+		},
+		{
+			"check": "ocean does not depend on engine wall clock",
+			"passed": true
+		},
+		{
+			"check": "control simulation installs without environment",
+			"passed": true
+		},
+		{
+			"check": "same seed and inputs give identical actual unit state with and without environment",
+			"passed": true
+		}
+	],
+	"failures": []
+}

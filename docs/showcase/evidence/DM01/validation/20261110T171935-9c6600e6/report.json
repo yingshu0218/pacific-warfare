@@ -1,0 +1,69 @@
+{
+  "run_id": "20261110T171935-9c6600e6",
+  "owner": "DM01",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 53815,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 53818,
+      "process_group": 53818,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2346,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T171935-9c6600e6/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/aircraft_damage_capture.gd",
+        "--",
+        "--definition=us_f6f5_1944",
+        "--case=wing_left",
+        "--seconds=2",
+        "--output=res://.local/dm01-frames/assembly-f6f"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 53819,
+      "process_group": 53819,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 5.8158,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T171935-9c6600e6/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "DM01",
+    "pid": 53815,
+    "process_identity": "Wed Nov 11 01:19:35 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner DM01 --lock-timeout 45 --timeout 45 godot --render -- --script res://tests/aircraft_damage_capture.gd -- --definition=us_f6f5_1944 --case=wing_left --seconds=2 --output=res://.local/dm01-frames/assembly-f6f",
+    "token": "9a524319f73e4c8b88b9cd38ce0ef456",
+    "acquired_utc": "2026-11-10T17:19:35.110937+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

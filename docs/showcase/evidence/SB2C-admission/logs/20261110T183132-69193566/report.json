@@ -1,0 +1,41 @@
+{
+  "run_id": "20261110T183132-69193566",
+  "owner": "SB2C-admission",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 67300,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path\nimport datetime, hashlib, json, shutil\nroot = Path.cwd()\ntag = datetime.datetime.now(datetime.timezone.utc).strftime(\"%Y%m%dT%H%M%SZ\")\nrestore = root / \".local\" / \"restores\" / \"SB2C-admission\" / tag\nrestore.mkdir(parents=True, exist_ok=False)\n(root / \".local\" / \".gdignore\").touch(exist_ok=True)\nevidence = root / \"docs/showcase/evidence/SB2C-admission\"\nevidence.mkdir(parents=True, exist_ok=True)\n(evidence / \".gdignore\").touch(exist_ok=True)\nfor name in (\"baseline\", \"final\", \"logs\"):\n    (evidence / name).mkdir(exist_ok=True)\nowned = [root/\"aircraft/sb2c4/sb2c4.gd\", root/\"aircraft/sb2c4/showcase.gd\", root/\"aircraft/sb2c4/sb2c4.tscn\", root/\"aircraft/sb2c4/showcase.tscn\", root/\"docs/deliveries/sb2c4-delivery.md\", root/\"docs/references/bombers/sb2c/README.md\", root/\"docs/references/bombers/sb2c/sources.json\", root/\"docs/references/bombers/sb2c/modeling-brief.md\"]\nmanifest = {\"captured_at_utc\": datetime.datetime.now(datetime.timezone.utc).isoformat(), \"restore\": str(restore), \"files\": {}}\nfor p in owned:\n    target = restore / p.relative_to(root)\n    target.parent.mkdir(parents=True, exist_ok=True)\n    shutil.copy2(p, target)\n    manifest[\"files\"][str(p.relative_to(root))] = hashlib.sha256(p.read_bytes()).hexdigest()\nfor p in (root/\"aircraft/scripts/aircraft_builder.gd\", root/\"project.godot\"):\n    manifest[\"files\"][str(p.relative_to(root))] = hashlib.sha256(p.read_bytes()).hexdigest()\n(restore/\"manifest.json\").write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+\"\\n\")\n(evidence/\"sources-before.json\").write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+\"\\n\")\nprint(json.dumps({\"restore\": str(restore), \"evidence\": str(evidence), \"files\": len(manifest[\"files\"])}, ensure_ascii=False))"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 67302,
+      "process_group": 67302,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.0459,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T183132-69193566/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "SB2C-admission",
+    "pid": 67300,
+    "process_identity": "Wed Nov 11 02:31:32 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner SB2C-admission --timeout 20 --lock-timeout 2 exec -- python3 -c from pathlib import Path\\012import datetime, hashlib, json, shutil\\012root = Path.cwd()\\012tag = datetime.datetime.now(datetime.timezone.utc).strftime(\"%Y%m%dT%H%M%SZ\")\\012restore = root / \".local\" / \"restores\" / \"SB2C-admission\" / tag\\012restore.mkdir(parents=True, exist_ok=False)\\012(root / \".local\" / \".gdignore\").touch(exist_ok=True)\\012evidence = root / \"docs/showcase/evidence/SB2C-admission\"\\012evidence.mkdir(parents=True, exist_ok=True)\\012(evidence / \".gdignore\").touch(exist_ok=True)\\012for name in (\"baseline\", \"final\", \"logs\"):\\012    (evidence / name).mkdir(exist_ok=True)\\012owned = [root/\"aircraft/sb2c4/sb2c4.gd\", root/\"aircraft/sb2c4/showcase.gd\", root/\"aircraft/sb2c4/sb2c4.tscn\", root/\"aircraft/sb2c4/showcase.tscn\", root/\"docs/deliveries/sb2c4-delivery.md\", root/\"docs/references/bombers/sb2c/README.md\", root/\"docs/references/bombers/sb2c/sources.json\", root/\"docs/references/bombers/sb2c/modeling-brief.md\"]\\012manifest = {\"captured_at_utc\": datetime.datetime.now(datetime.timezone.utc).isoformat(), \"restore\": str(restore), \"files\": {}}\\012for p in owned:\\012    target = restore / p.relative_to(root)\\012    target.parent.mkdir(parents=True, exist_ok=True)\\012    shutil.copy2(p, target)\\012    manifest[\"files\"][str(p.relative_to(root))] = hashlib.sha256(p.read_bytes()).hexdigest()\\012for p in (root/\"aircraft/scripts/aircraft_builder.gd\", root/\"project.godot\"):\\012    manifest[\"files\"][str(p.relative_to(root))] = hashlib.sha256(p.read_bytes()).hexdigest()\\012(restore/\"manifest.json\").write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+\"\\n\")\\012(evidence/\"sources-before.json\").write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+\"\\n\")\\012print(json.dumps({\"restore\": str(restore), \"evidence\": str(evidence), \"files\": len(manifest[\"files\"])}, ensure_ascii=False))",
+    "token": "da7c3323c6ed4866bd0c31b3ef07512c",
+    "acquired_utc": "2026-11-10T18:31:32.171161+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

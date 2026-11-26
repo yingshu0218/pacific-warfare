@@ -1,0 +1,880 @@
+{
+  "id": "us_fletcher_dd445_1942_07_18",
+  "country_id": "us",
+  "unit_definition": "res://data/units/us_fletcher_dd445_1942_07_18.json",
+  "hull": {
+    "source_ids": [
+      "F01",
+      "F02",
+      "F05"
+    ],
+    "stations": [
+      [
+        -57.3786,
+        0.015,
+        5.6,
+        -0.05,
+        2.4
+      ],
+      [
+        -56.0,
+        0.65,
+        5.35,
+        -1.35,
+        2.1527
+      ],
+      [
+        -53,
+        1.75,
+        5.05,
+        -2.75,
+        1.6145
+      ],
+      [
+        -49,
+        3.0,
+        4.65,
+        -3.7,
+        0.897
+      ],
+      [
+        -44,
+        4.1,
+        4.24,
+        -3.96,
+        0.0
+      ],
+      [
+        -40,
+        4.72,
+        4.0,
+        -3.96,
+        0.0
+      ],
+      [
+        -34,
+        5.42,
+        3.55,
+        -3.96,
+        0.0
+      ],
+      [
+        -27,
+        5.85,
+        3.4,
+        -3.96,
+        0.0
+      ],
+      [
+        -18,
+        6.0325,
+        3.4,
+        -3.96,
+        0.0
+      ],
+      [
+        -5,
+        6.0325,
+        3.4,
+        -3.96,
+        0.0
+      ],
+      [
+        10,
+        5.95,
+        3.4,
+        -3.96,
+        0.0
+      ],
+      [
+        23,
+        5.7,
+        3.4,
+        -3.96,
+        0.0
+      ],
+      [
+        35,
+        5.1,
+        3.4,
+        -3.96,
+        0.0
+      ],
+      [
+        44,
+        4.3,
+        3.4,
+        -3.7,
+        0.0
+      ],
+      [
+        50,
+        3.65,
+        3.4,
+        -3.2,
+        0.0
+      ],
+      [
+        54.5,
+        2.85,
+        3.4,
+        -2.3,
+        -0.4269
+      ],
+      [
+        56.5,
+        1.65,
+        3.4,
+        -1.3,
+        -0.6166
+      ],
+      [
+        57.3786,
+        0.015,
+        3.4,
+        -0.05,
+        -0.7
+      ]
+    ],
+    "surfaces": [
+      {
+        "id": "main_51_deck",
+        "position_m": [
+          0,
+          3.946,
+          -38.0
+        ],
+        "radius_m": 2.3
+      },
+      {
+        "id": "main_55_deck",
+        "position_m": [
+          0,
+          3.496,
+          39.5
+        ],
+        "radius_m": 2.4
+      },
+      {
+        "id": "waist_port",
+        "position_m": [
+          -4.8,
+          3.422,
+          10.2
+        ],
+        "radius_m": 0.6
+      },
+      {
+        "id": "waist_starboard",
+        "position_m": [
+          4.8,
+          3.422,
+          10.2
+        ],
+        "radius_m": 0.6
+      }
+    ]
+  },
+  "structures": {
+    "bridge": [
+      {
+        "id": "forward_deckhouse",
+        "position_m": [
+          0,
+          3.496,
+          -21.6
+        ],
+        "shape": "round_front",
+        "width_m": 7.4,
+        "length_m": 23.6,
+        "height_m": 2.35,
+        "source_ids": [
+          "F01",
+          "F05"
+        ],
+        "surfaces": [
+          {
+            "id": "roof",
+            "position_m": [
+              0,
+              2.41,
+              0
+            ],
+            "radius_m": 3.7
+          }
+        ]
+      },
+      {
+        "id": "bridge_lower",
+        "position_m": [
+          0,
+          5.906,
+          -19.25
+        ],
+        "shape": "round_front",
+        "width_m": 6.7,
+        "length_m": 7.6,
+        "height_m": 3.15,
+        "source_ids": [
+          "F01",
+          "F05"
+        ]
+      },
+      {
+        "id": "pilot_house",
+        "position_m": [
+          0,
+          9.056,
+          -19.25
+        ],
+        "shape": "round_front",
+        "width_m": 6.4,
+        "length_m": 6.9,
+        "height_m": 1.65,
+        "source_ids": [
+          "F01",
+          "F05"
+        ],
+        "windows": [
+          [
+            [
+              -3.025810238930625,
+              0.65,
+              -1.6513048615086539
+            ],
+            [
+              0.68,
+              0.55,
+              0.06
+            ],
+            70
+          ],
+          [
+            [
+              -2.466663106843109,
+              0.65,
+              -2.6197761031906577
+            ],
+            [
+              0.68,
+              0.55,
+              0.06
+            ],
+            50
+          ],
+          [
+            [
+              -1.6099999999999997,
+              0.65,
+              -3.3386018001858933
+            ],
+            [
+              0.68,
+              0.55,
+              0.06
+            ],
+            30
+          ],
+          [
+            [
+              -0.5591471320875157,
+              0.65,
+              -3.7210809646993104
+            ],
+            [
+              0.68,
+              0.55,
+              0.06
+            ],
+            10
+          ],
+          [
+            [
+              0.559147132087516,
+              0.65,
+              -3.7210809646993104
+            ],
+            [
+              0.68,
+              0.55,
+              0.06
+            ],
+            -10
+          ],
+          [
+            [
+              1.6100000000000005,
+              0.65,
+              -3.3386018001858924
+            ],
+            [
+              0.68,
+              0.55,
+              0.06
+            ],
+            -30
+          ],
+          [
+            [
+              2.4666631068431095,
+              0.65,
+              -2.619776103190657
+            ],
+            [
+              0.68,
+              0.55,
+              0.06
+            ],
+            -50
+          ],
+          [
+            [
+              3.0258102389306254,
+              0.65,
+              -1.6513048615086534
+            ],
+            [
+              0.68,
+              0.55,
+              0.06
+            ],
+            -70
+          ]
+        ]
+      },
+      {
+        "id": "director_platform",
+        "position_m": [
+          0,
+          10.766,
+          -19.25
+        ],
+        "shape": "ellipse",
+        "width_m": 7.25,
+        "length_m": 7.8,
+        "height_m": 0.14,
+        "source_ids": [
+          "F01",
+          "F05"
+        ]
+      },
+      {
+        "id": "director_pedestal",
+        "position_m": [
+          0,
+          10.966,
+          -19.25
+        ],
+        "shape": "ellipse",
+        "width_m": 2.1,
+        "length_m": 2.1,
+        "height_m": 1.35,
+        "source_ids": [
+          "F01",
+          "F05"
+        ]
+      }
+    ],
+    "funnels": [
+      {
+        "id": "forward_funnel",
+        "position_m": [
+          0,
+          5.906,
+          -9.6
+        ],
+        "shape": "ellipse",
+        "width_m": 3.1,
+        "length_m": 4.7,
+        "height_m": 7.0,
+        "source_ids": [
+          "F01",
+          "F02"
+        ],
+        "funnel": true,
+        "rake_m": 1.1
+      },
+      {
+        "id": "aft_funnel",
+        "position_m": [
+          0,
+          5.906,
+          5.0
+        ],
+        "shape": "ellipse",
+        "width_m": 3.1,
+        "length_m": 4.5,
+        "height_m": 7.0,
+        "source_ids": [
+          "F01",
+          "F02",
+          "F04"
+        ],
+        "funnel": true,
+        "rake_m": 1.1
+      }
+    ],
+    "platforms": [
+      {
+        "id": "central_deckhouse",
+        "position_m": [
+          0,
+          3.496,
+          2.4
+        ],
+        "shape": "beveled",
+        "width_m": 5.4,
+        "length_m": 24.4,
+        "height_m": 2.35,
+        "source_ids": [
+          "F01",
+          "F02",
+          "F04"
+        ]
+      },
+      {
+        "id": "forward_torpedo_seat",
+        "position_m": [
+          0,
+          5.846,
+          -2.2
+        ],
+        "shape": "round_front",
+        "width_m": 3.9,
+        "length_m": 8.0,
+        "height_m": 0.06,
+        "source_ids": [
+          "F01",
+          "F02"
+        ],
+        "surfaces": [
+          {
+            "id": "roof",
+            "position_m": [
+              0,
+              0.12,
+              0
+            ],
+            "radius_m": 1.3
+          }
+        ]
+      },
+      {
+        "id": "aft_deckhouse",
+        "position_m": [
+          0,
+          3.496,
+          24.7
+        ],
+        "shape": "beveled",
+        "width_m": 6.8,
+        "length_m": 19.6,
+        "height_m": 2.35,
+        "source_ids": [
+          "F01",
+          "F02",
+          "F03"
+        ],
+        "surfaces": [
+          {
+            "id": "roof",
+            "position_m": [
+              0,
+              2.41,
+              0
+            ],
+            "radius_m": 3.3
+          }
+        ]
+      },
+      {
+        "id": "aft_aa_tower",
+        "position_m": [
+          0,
+          5.906,
+          26.0
+        ],
+        "shape": "round_front",
+        "width_m": 2.8,
+        "length_m": 3.8,
+        "height_m": 2.72,
+        "source_ids": [
+          "F01",
+          "F02"
+        ]
+      },
+      {
+        "id": "aft_aa_tub",
+        "position_m": [
+          0,
+          8.686,
+          26.0
+        ],
+        "shape": "ellipse",
+        "width_m": 4.15,
+        "length_m": 4.15,
+        "height_m": 0.15,
+        "source_ids": [
+          "F01",
+          "F02"
+        ],
+        "surfaces": [
+          {
+            "id": "floor",
+            "position_m": [
+              0,
+              0.21,
+              0
+            ],
+            "radius_m": 2.075
+          }
+        ]
+      },
+      {
+        "id": "searchlight_wing",
+        "position_m": [
+          2.35,
+          8.686,
+          26.0
+        ],
+        "shape": "ellipse",
+        "width_m": 1.4,
+        "length_m": 1.7,
+        "height_m": 0.15,
+        "source_ids": [
+          "F01",
+          "F02"
+        ]
+      }
+    ]
+  },
+  "equipment": [
+    {
+      "id": "foremast",
+      "kind": "mast",
+      "position_m": [
+        0,
+        5.906,
+        -14.8
+      ],
+      "height_m": 19.6,
+      "tripod": false,
+      "radar": true,
+      "source_ids": [
+        "F01",
+        "F02"
+      ]
+    },
+    {
+      "id": "mk37",
+      "kind": "director",
+      "position_m": [
+        0,
+        12.316,
+        -19.25
+      ],
+      "usn": true,
+      "source_ids": [
+        "F01",
+        "F05"
+      ]
+    },
+    {
+      "id": "torpedo_01",
+      "kind": "torpedo",
+      "position_m": [
+        0,
+        5.966,
+        -2.2
+      ],
+      "tube_count": 5,
+      "source_ids": [
+        "F01",
+        "F02"
+      ]
+    },
+    {
+      "id": "torpedo_02",
+      "kind": "torpedo",
+      "position_m": [
+        0,
+        5.906,
+        12.0
+      ],
+      "tube_count": 5,
+      "source_ids": [
+        "F01",
+        "F02"
+      ]
+    },
+    {
+      "id": "motor_boat_port",
+      "kind": "boat",
+      "position_m": [
+        -4.1,
+        5.0,
+        -13.5
+      ],
+      "length_m": 6.6,
+      "source_ids": [
+        "F01",
+        "F04"
+      ],
+      "deck_y_m": 3.45
+    },
+    {
+      "id": "motor_boat_starboard",
+      "kind": "boat",
+      "position_m": [
+        4.1,
+        5.0,
+        -13.5
+      ],
+      "length_m": 6.6,
+      "source_ids": [
+        "F01",
+        "F04"
+      ],
+      "deck_y_m": 3.45
+    },
+    {
+      "id": "searchlight",
+      "kind": "searchlight",
+      "position_m": [
+        2.35,
+        8.896,
+        26.0
+      ],
+      "source_ids": [
+        "F01",
+        "F02"
+      ]
+    },
+    {
+      "id": "depth_rack_port",
+      "kind": "depth_rack",
+      "position_m": [
+        -1.25,
+        3.5,
+        53.5
+      ],
+      "source_ids": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    },
+    {
+      "id": "depth_rack_starboard",
+      "kind": "depth_rack",
+      "position_m": [
+        1.25,
+        3.5,
+        53.5
+      ],
+      "source_ids": [
+        "F01",
+        "F02",
+        "F03"
+      ]
+    },
+    {
+      "id": "anchor_-3_53",
+      "kind": "anchor",
+      "position_m": [
+        -3.53,
+        2.75,
+        -46.4
+      ],
+      "yaw_deg": 90,
+      "source_ids": [
+        "F01",
+        "F05"
+      ]
+    },
+    {
+      "id": "anchor_3_53",
+      "kind": "anchor",
+      "position_m": [
+        3.53,
+        2.75,
+        -46.4
+      ],
+      "yaw_deg": 90,
+      "source_ids": [
+        "F01",
+        "F05"
+      ]
+    },
+    {
+      "id": "bollard_-51_5",
+      "kind": "bollard",
+      "position_m": [
+        0,
+        4.8,
+        -51.5
+      ],
+      "source_ids": [
+        "F01",
+        "F03"
+      ]
+    },
+    {
+      "id": "bollard_50_5",
+      "kind": "bollard",
+      "position_m": [
+        0,
+        3.5,
+        50.5
+      ],
+      "source_ids": [
+        "F01",
+        "F03"
+      ]
+    }
+  ],
+  "module_scenes": [
+    {
+      "id": "Hull",
+      "scene": "res://scenes/ships/fletcher_dd445/hull.tscn"
+    },
+    {
+      "id": "Bridge",
+      "scene": "res://scenes/ships/fletcher_dd445/bridge.tscn"
+    },
+    {
+      "id": "Funnels",
+      "scene": "res://scenes/ships/fletcher_dd445/funnels.tscn"
+    },
+    {
+      "id": "Platforms",
+      "scene": "res://scenes/ships/fletcher_dd445/platforms.tscn"
+    },
+    {
+      "id": "Equipment",
+      "scene": "res://scenes/ships/fletcher_dd445/equipment.tscn"
+    }
+  ],
+  "installations": {
+    "main_51": {
+      "surface_id": "main_51_deck",
+      "surface_offset_m": [
+        0,
+        0,
+        0
+      ],
+      "foundation_height_m": 0.16,
+      "foundation_radius_m": 1.6,
+      "interface_id": "us_5in38_mk30",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/us_5in38_mk30.tscn"
+    },
+    "main_52": {
+      "surface_id": "roof",
+      "surface_offset_m": [
+        0,
+        0,
+        -9.3
+      ],
+      "foundation_height_m": 0.16,
+      "foundation_radius_m": 1.6,
+      "interface_id": "us_5in38_mk30",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/us_5in38_mk30.tscn"
+    },
+    "main_53": {
+      "surface_id": "roof",
+      "surface_offset_m": [
+        0,
+        0,
+        -6.0
+      ],
+      "foundation_height_m": 0.16,
+      "foundation_radius_m": 1.6,
+      "interface_id": "us_5in38_mk30",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/us_5in38_mk30.tscn"
+    },
+    "main_54": {
+      "surface_id": "roof",
+      "surface_offset_m": [
+        0,
+        0,
+        6.4
+      ],
+      "foundation_height_m": 0.16,
+      "foundation_radius_m": 1.6,
+      "interface_id": "us_5in38_mk30",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/us_5in38_mk30.tscn"
+    },
+    "main_55": {
+      "surface_id": "main_55_deck",
+      "surface_offset_m": [
+        0,
+        0,
+        0
+      ],
+      "foundation_height_m": 0.16,
+      "foundation_radius_m": 1.6,
+      "interface_id": "us_5in38_mk30",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/us_5in38_mk30.tscn"
+    },
+    "aa_11_quad": {
+      "surface_id": "floor",
+      "surface_offset_m": [
+        0,
+        0,
+        0
+      ],
+      "foundation_height_m": 0.15,
+      "foundation_radius_m": 1.1,
+      "interface_id": "us_11in_quad",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/us_11in_quad.tscn"
+    },
+    "aa_20_forward_port": {
+      "surface_id": "roof",
+      "surface_offset_m": [
+        -3.15,
+        0,
+        -5.0
+      ],
+      "foundation_height_m": 0.12,
+      "foundation_radius_m": 0.38,
+      "interface_id": "us_oerlikon_single",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/us_oerlikon_single.tscn"
+    },
+    "aa_20_forward_starboard": {
+      "surface_id": "roof",
+      "surface_offset_m": [
+        3.15,
+        0,
+        -5.0
+      ],
+      "foundation_height_m": 0.12,
+      "foundation_radius_m": 0.38,
+      "interface_id": "us_oerlikon_single",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/us_oerlikon_single.tscn"
+    },
+    "aa_20_waist_port": {
+      "surface_id": "waist_port",
+      "surface_offset_m": [
+        0,
+        0,
+        0
+      ],
+      "foundation_height_m": 0.12,
+      "foundation_radius_m": 0.38,
+      "interface_id": "us_oerlikon_single",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/us_oerlikon_single.tscn"
+    },
+    "aa_20_waist_starboard": {
+      "surface_id": "waist_starboard",
+      "surface_offset_m": [
+        0,
+        0,
+        0
+      ],
+      "foundation_height_m": 0.12,
+      "foundation_radius_m": 0.38,
+      "interface_id": "us_oerlikon_single",
+      "weapon_scene": "res://scenes/ships/destroyer_modules/us_oerlikon_single.tscn"
+    }
+  }
+}

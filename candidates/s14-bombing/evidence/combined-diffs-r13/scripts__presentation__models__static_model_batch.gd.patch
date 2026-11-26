@@ -1,0 +1,10 @@
+--- S14_R8/scripts/presentation/models/static_model_batch.gd
++++ combined/scripts/presentation/models/static_model_batch.gd
+@@ -16,6 +16,7 @@
+ 	for child: Node in node.get_children():
+ 		if not child is MeshInstance3D: continue
+ 		var part: MeshInstance3D = child
++		if part.has_meta("s14_live_visual"): continue
+ 		if not part.visible or part.get_child_count() > 0 or part.mesh == null or part.mesh.get_surface_count() != 1: continue
+ 		var material: Material = part.material_override if part.material_override != null else part.mesh.surface_get_material(0)
+ 		if not material is StandardMaterial3D or material.transparency != BaseMaterial3D.TRANSPARENCY_DISABLED: continue

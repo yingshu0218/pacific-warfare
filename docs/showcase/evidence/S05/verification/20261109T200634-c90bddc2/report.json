@@ -1,0 +1,61 @@
+{
+  "run_id": "20261109T200634-c90bddc2",
+  "owner": "S05",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 88076,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 88079,
+      "process_group": 88079,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 0.1917,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T200634-c90bddc2/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "res://tests/scenes/combat_capture.tscn"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 88080,
+      "process_group": 88080,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "duration_s": 3.7689,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T200634-c90bddc2/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S05",
+    "pid": 88076,
+    "process_identity": "Tue Nov 10 04:06:34 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S05 --timeout 45 --lock-timeout 15 godot --render -- res://tests/scenes/combat_capture.tscn",
+    "token": "fd9aa99f54794bb9b1fbb33ece2d6adf",
+    "acquired_utc": "2026-11-09T20:06:34.938359+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

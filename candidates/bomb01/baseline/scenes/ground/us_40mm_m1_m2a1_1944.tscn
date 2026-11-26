@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ground/models/ground_unit_model.gd" id="1"]
+
+[node name="US40mmM1M2A1" type="Node3D"]
+script = ExtResource("1")
+model_id = "us_40mm_m1_m2a1_1944"

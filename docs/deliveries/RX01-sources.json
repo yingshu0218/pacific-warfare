@@ -1,0 +1,50 @@
+{
+  "task": "RX01",
+  "status": "runtime source frozen; final Chrome/build owned by root",
+  "frozen_utc": "2026-11-12T12:20:37.161020+00:00",
+  "root": "/Users/infinity/Desktop/Dev/game-pacific",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "runtime_source_set_sha256": "6f3437801a558be5b11fdc0c9ea05bc25af49ca8d19051590f86e3855b8e6c57",
+  "runtime_sources": {
+    "scripts/simulation/damage/combat_damage.gd": "ee0c6332ec2b7c976351aaeea00663b2296b2449ab2e9726229f57ceb7666233",
+    "scripts/simulation/projectiles/combat_projectiles.gd": "2ce60da4423ecb99fef7813015c20a2be5e2608812d49bb3e57060b6b8038ebc",
+    "scripts/simulation/weapons/combat_weapons.gd": "6d7ec3d2b4f790148fdcdc3c3d4d48954fab9653961958f6be629fb0d50aca67",
+    "scripts/simulation/weapons/combat_config.gd": "e749beb6b3375a9c311e576bac03c79572d2ff42518316d709480f01a7c78173",
+    "scripts/presentation/effects/combat_effects.gd": "a67eb291f6be05334c8469e4f17e152f2344821c53c9c341b5c36170589f169b",
+    "scripts/showcase/bombing/projectile_view.gd": "2293cf739911207535bb20ecfc32882b2fb5a3a5f5a683792fc988395f659073",
+    "data/combat/showcase.json": "2ce64726fa89422a180871caa378e48d3f871963651e861632415a956be31874",
+    "data/combat/s14_expansion.json": "2186968865461d4e797e45d13496cb16db7ff4ca6a3cd1950fab48e94c2607ae",
+    "data/combat/s14_bombing.json": "1c16472560d0e4a9d2d9016c5bd0e65a3405fc2a110ba8c9e47eb310da573b20"
+  },
+  "baseline_runtime_sources": {
+    "scripts/simulation/damage/combat_damage.gd": "dd728e1d10eca9d882c2476497cef646590baa363c0fc6874c7e70a2e07d45ca",
+    "scripts/simulation/projectiles/combat_projectiles.gd": "50aad091f85cb7635862d6173d222470c596ea4b8cfcda98a69ed9ae0e50ef46",
+    "scripts/simulation/weapons/combat_weapons.gd": "beabd0771b357b84bf006898a3aba59acbc08fdf5d82a8d57cfbbfba9c5533b0",
+    "scripts/simulation/weapons/combat_config.gd": "234ce8322ea1bb61236a2153b592e7f261ff45976bba71484dd29149c1bfccff",
+    "scripts/presentation/effects/combat_effects.gd": "d86d2a5c2e06d70154a8748581d438e6e39c67fb4726bb7a475b895cccdd5782",
+    "scripts/showcase/bombing/projectile_view.gd": "241db24957ce83266e242c8cf680fe2fc6b42a1603eeb19f9cec77e7606e390f",
+    "data/combat/showcase.json": "8ada05c1cfb762c3d967aeb7df23da6efbc5a194c8be0f1ece18ad89b7c3e275",
+    "data/combat/s14_expansion.json": "f8cd7583131cf0e1844b9f345b88f1bafa5bfca31e7ee435baf52a789a709f31",
+    "data/combat/s14_bombing.json": "a05244b19df7cf45e2381ea1211b896eee864db694c032b539a3972694d99637"
+  },
+  "test_sources": {
+    "tests/test_rx01_combat.gd": "3ab1f145673c49beeb73035ee5c08fb18d5f17c5dd7bc16988c0fa7124088af7",
+    "tests/test_rx01_effects.gd": "f97399242459f43ddbf60105f919ba3eeb28aa4b0c14f0efa2a537d458525e0d",
+    "tests/test_rx01_bomb_presentation.gd": "4bc7cc94988efa22b81ac7f79ac9a17bda6da6706623050e4c56707f8d78a7a6",
+    "tests/test_damage_states.gd": "5f66712200612a413f5ee8f955f213ff13fe9cf90ba971d278928ab62fe375f9"
+  },
+  "diagnostic_sources": {
+    ".local/repairs/20261112_morning/rx01/diagnose.gd": "0ee890e2d1dd6e9070001b823f0279adc8ec257d68f658093557a9edeadbc104",
+    ".local/repairs/20261112_morning/rx01/pacing_probe.gd": "5ea3251231b9e8e4c60334abd4462b07b68649260daae6327039e5de20e3056c",
+    ".local/repairs/20261112_morning/rx01/native_observer.gd": "1cc290ede23e9e43dbfb6b6d58c2cd4aa7a6d826c09e5c2ff91ced429a668cb3"
+  },
+  "private_test_adapters": {
+    ".local/repairs/20261112_morning/rx01/fixture/runtime_fixture.gd": "46b651d21b4b7f5407bf3d338e30e0a1c52379ee7084b00129ae1c8151fc18eb",
+    ".local/repairs/20261112_morning/rx01/fixture/data_fixture.gd": "c3d74b084b246860b16b2ee8500eaa73827fa3f64338cb02879f72e7800dceae",
+    ".local/repairs/20261112_morning/rx01/fixture/fixture.gd": "37e82516cbfd80381d3203212b1861cc3c306eeac4be57aad8433c9f25c73c6c"
+  },
+  "ammunition_unchanged": true,
+  "ammunition_files_compared": 22,
+  "weapon_profiles_unchanged": true,
+  "ammo_profiles_unchanged": true
+}

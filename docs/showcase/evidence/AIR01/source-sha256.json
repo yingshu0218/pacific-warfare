@@ -1,0 +1,21 @@
+{
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "date": "2026-11-19",
+  "scope": "AIR01 owned runtime sources and validation scripts after the target lock retry fix",
+  "runtime": {
+    "data/scenarios/s14_expansion_harbor.json": "6b8c8a3e347a31cadc3caa29a0a440ec9a2ff46e643a5bf5d7a5adae64abc109",
+    "scripts/behaviors/aircraft/aircraft_tasks.gd": "f9c43d5402fd22bf9c0a2070f96f3a256b700819b91f267cd425f846a608f5f6",
+    "scripts/bombing/commander.gd": "eedf992539b1afc5b9111a53ed6dfc6508c790798a79bb93edb1b58fd8bc6068",
+    "scripts/presentation/cameras/observer_camera.gd": "d8512cafdd1c449d75f1183d084ab95e5c0811a8f3a04c7496411e70bebf1e26",
+    "scripts/showcase/expansion/carrier_harbor.gd": "77fe2ab894c34db1f397f6a58195f891633d4985b6277b87bed7c395d598f9c0",
+    "scripts/showcase/expansion/expansion_missions.gd": "9c4b17902c282d0e59c16cebed25941feadb983aa97314519087618e3ae3062e",
+    "tools/run_first_playable.py": "bb8662af603a9814ab67cb28f4c5ec1b84ac1cfbe2f48373b2236db245040712",
+    "ui/observer_hud.gd": "49c587573ae549ca9b53cd6a065b5b282315ea5ab6deac9414adb002e766ae6f",
+    "ui/observer_text.gd": "82267a0d1ee47e5dfd18e6b7baf0d4bace5078fb8802ba07a4b78d33b07e11d6"
+  },
+  "harness": {
+    "tests/test_air01_default_harbor.gd": "09c4fc58c70a9d2f7ec7ea3f6ec42e8928c30f2e7bbb1768354105367e06787e",
+    "tests/test_air01_target_lock.gd": "fb096dcd3675e1d41944c962ee1963d8a9ddd14c56dcee06f4a8455ac15b2fa5",
+    "tests/test_aircraft_combat.gd": "22d4259f75fbd84a232a20d6fb233e87bc307429b50c532eb8a5c2c02b46788e"
+  }
+}

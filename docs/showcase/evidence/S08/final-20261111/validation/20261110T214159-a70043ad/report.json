@@ -1,0 +1,67 @@
+{
+  "run_id": "20261110T214159-a70043ad",
+  "owner": "S08-native-harbor",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 81649,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 81651,
+      "process_group": 81651,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.0476,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214159-a70043ad/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "res://showcase/island_harbor.tscn",
+        "--quit-after",
+        "12",
+        "--position",
+        "-1800,0"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 81652,
+      "process_group": 81652,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 5.2633,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214159-a70043ad/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S08-native-harbor",
+    "pid": 81649,
+    "process_identity": "Wed Nov 11 05:41:58 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S08-native-harbor --timeout 105 --lock-timeout 60 godot --render -- res://showcase/island_harbor.tscn --quit-after 12 --position -1800,0",
+    "token": "dca5e2736f9746b5ad67b3dc5e4679d6",
+    "acquired_utc": "2026-11-10T21:41:59.052917+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

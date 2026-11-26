@@ -1,0 +1,304 @@
+{
+  "schema": 1,
+  "task": "S10",
+  "stage": "research_ready_runtime_waits_for_coordinator_release",
+  "created_utc": "2026-11-10T15:15:22.301478+00:00",
+  "user_timezone": "Asia/Shanghai",
+  "version_control": {
+    "git_status_exit_code": 128,
+    "result": "not_a_git_repository",
+    "recovery": "new documentation only; no shared runtime mutations in this phase"
+  },
+  "authorization_boundary": {
+    "allowed_now": "independent historical sources, reference packs, model/assembly and integration plan",
+    "runtime_release_received": false,
+    "runtime_or_engine_work_started": false
+  },
+  "selected_images_actually_opened": [
+    {
+      "id": "CO-01",
+      "path": "docs/references/weapons/us_5in51_mk13mod4_1945/images/usmc_battery_a_1940.jpg",
+      "pixels": [
+        524,
+        251
+      ],
+      "inspection": "viewed_original_local_file",
+      "sha256": "61ad99a8271231db9a453a1fcfb4ca50d6f1bf8152f5e392661148c992e32308",
+      "source_url": "https://www.gutenberg.org/files/48810/48810-h/images/i_b_010.jpg"
+    },
+    {
+      "id": "CO-02",
+      "path": "docs/references/weapons/us_5in51_mk13mod4_1945/images/usmc_guantanamo.jpg",
+      "pixels": [
+        320,
+        821
+      ],
+      "inspection": "viewed_original_local_file",
+      "sha256": "9c08d7056b368a54fd087dc65ea3af5d209327319ccdb92448a756da9d5497e3",
+      "source_url": "https://www.ibiblio.org/hyperwar/USMC/USMC-C-Defense/img/USMC-C-Defense-C.jpg"
+    },
+    {
+      "id": "CO-03",
+      "path": "docs/references/weapons/us_5in51_mk13mod4_1945/images/op1112_cat0162.jpg",
+      "pixels": [
+        627,
+        930
+      ],
+      "inspection": "viewed_original_local_file",
+      "sha256": "59bf6ce06f653f034e3c59d723938479388c607469b631033a1b84996622e90c",
+      "source_url": "https://legacy.maritime.org/doc/guncat/img/cat-0162.jpg"
+    },
+    {
+      "id": "CO-04",
+      "path": "docs/references/weapons/us_5in51_mk13mod4_1945/images/op1112_cat0163.jpg",
+      "pixels": [
+        635,
+        910
+      ],
+      "inspection": "viewed_original_local_file",
+      "sha256": "d67db3ca0b420832f58d7bd52d2396543e5682e12a2af421a87207fb68ad1f5a",
+      "source_url": "https://legacy.maritime.org/doc/guncat/img/cat-0163.jpg"
+    },
+    {
+      "id": "AA-01",
+      "path": "docs/references/weapons/us_40mm_m1_m2a1_1944/images/tm9-252_fig001.jpg",
+      "pixels": [
+        555,
+        639
+      ],
+      "inspection": "viewed_original_local_file",
+      "sha256": "b4c03a5458cd75bc42b19f3929bd0e941023763588d130461a965be87496c89f",
+      "source_url": "https://legacy.maritime.org/doc/boforstm252/img/fig001.jpg"
+    },
+    {
+      "id": "AA-02",
+      "path": "docs/references/weapons/us_40mm_m1_m2a1_1944/images/tm9-252_fig004.jpg",
+      "pixels": [
+        925,
+        500
+      ],
+      "inspection": "viewed_original_local_file",
+      "sha256": "946a465ef5fb4c89f6dc388ed4d980d54a0658d8084f517d9833d68f048bffbb",
+      "source_url": "https://legacy.maritime.org/doc/boforstm252/img/fig004.jpg"
+    },
+    {
+      "id": "AA-03",
+      "path": "docs/references/weapons/us_40mm_m1_m2a1_1944/images/tm9-252_fig089.jpg",
+      "pixels": [
+        829,
+        526
+      ],
+      "inspection": "viewed_original_local_file",
+      "sha256": "8d56881d6003198e28b2b0ba957134f10701c9edd09ec41cb42829ab6a721f41",
+      "source_url": "https://legacy.maritime.org/doc/boforstm252/img/fig089.jpg"
+    },
+    {
+      "id": "AA-04",
+      "path": "docs/references/weapons/us_40mm_m1_m2a1_1944/images/tm9-252_fig161.jpg",
+      "pixels": [
+        926,
+        512
+      ],
+      "inspection": "viewed_original_local_file",
+      "sha256": "5863888e03913a73291c61e7b60168fc471f5fbb89e6dc545da59fff09d7f04e",
+      "source_url": "https://legacy.maritime.org/doc/boforstm252/img/fig161.jpg"
+    }
+  ],
+  "variant_image_actually_opened": {
+    "id": "CO-X01",
+    "path": ".local/s10-research/op1112_cat0166_comparison.jpg",
+    "pixels": [
+      627,
+      923
+    ],
+    "inspection": "viewed_original_local_file",
+    "source_url": "https://legacy.maritime.org/doc/guncat/img/cat-0166.jpg",
+    "sha256": "a3f5025efce4dc63f306b7a8f81c64e1844577dbf4e15cdb193d9b0b47a5667e",
+    "role": "excluded_from_selected_geometry; Mod6 component compatibility comparison only"
+  },
+  "references_summary": {
+    "selected_original_images": 8,
+    "variant_comparisons": 1,
+    "ai_target_images": 0,
+    "model_images": 0,
+    "primary_catalog_sheet_recovery": "HTML sheets failed; original img/cat-0162.jpg and cat-0163.jpg successfully downloaded and visually opened"
+  },
+  "checks": [
+    {
+      "kind": "source_image_exists_and_decodes",
+      "id": "CO-01",
+      "passed": true
+    },
+    {
+      "kind": "source_image_exists_and_decodes",
+      "id": "CO-02",
+      "passed": true
+    },
+    {
+      "kind": "source_image_exists_and_decodes",
+      "id": "CO-03",
+      "passed": true
+    },
+    {
+      "kind": "source_image_exists_and_decodes",
+      "id": "CO-04",
+      "passed": true
+    },
+    {
+      "kind": "source_image_exists_and_decodes",
+      "id": "AA-01",
+      "passed": true
+    },
+    {
+      "kind": "source_image_exists_and_decodes",
+      "id": "AA-02",
+      "passed": true
+    },
+    {
+      "kind": "source_image_exists_and_decodes",
+      "id": "AA-03",
+      "passed": true
+    },
+    {
+      "kind": "source_image_exists_and_decodes",
+      "id": "AA-04",
+      "passed": true
+    },
+    {
+      "kind": "local_markdown_links",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "kind": "s09_baseline_hash",
+      "path": "data/scenarios/first_playable.json",
+      "passed": true
+    },
+    {
+      "kind": "s09_baseline_hash",
+      "path": "showcase/open_sea.tscn",
+      "passed": true
+    },
+    {
+      "kind": "s09_baseline_hash",
+      "path": "data/maps/island_harbor.json",
+      "passed": true
+    },
+    {
+      "kind": "s09_baseline_hash",
+      "path": "data/scenarios/island_harbor.json",
+      "passed": true
+    }
+  ],
+  "baselines": [
+    {
+      "path": "data/scenarios/first_playable.json",
+      "expected_from_s09": "9d54380fcc11038a662617809b1c8705b6ec27d8cd3f0f872db7e410a79bff03",
+      "current_sha256": "9d54380fcc11038a662617809b1c8705b6ec27d8cd3f0f872db7e410a79bff03",
+      "matches": true
+    },
+    {
+      "path": "showcase/open_sea.tscn",
+      "expected_from_s09": "7e6286ab8435ddfca86d32a8d32ec82029b7ac692294531862206fb7c66a3bfe",
+      "current_sha256": "7e6286ab8435ddfca86d32a8d32ec82029b7ac692294531862206fb7c66a3bfe",
+      "matches": true
+    },
+    {
+      "path": "data/maps/island_harbor.json",
+      "expected_from_s09": "6327c444e480e19be73bdbe75cc0b90e31f974c5ec2fcf765a5926d7a70f6678",
+      "current_sha256": "6327c444e480e19be73bdbe75cc0b90e31f974c5ec2fcf765a5926d7a70f6678",
+      "matches": true
+    },
+    {
+      "path": "data/scenarios/island_harbor.json",
+      "expected_from_s09": "cf085a3498863dce1f38bcfa62af7fa275328f34285e1d3cb272ff4f6026efac",
+      "current_sha256": "cf085a3498863dce1f38bcfa62af7fa275328f34285e1d3cb272ff4f6026efac",
+      "matches": true
+    }
+  ],
+  "owned_file_sha256": {
+    "docs/references/weapons/us_40mm_m1_m2a1_1944/.gdignore": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "docs/references/weapons/us_40mm_m1_m2a1_1944/images/tm9-252_fig001.jpg": "b4c03a5458cd75bc42b19f3929bd0e941023763588d130461a965be87496c89f",
+    "docs/references/weapons/us_40mm_m1_m2a1_1944/images/tm9-252_fig004.jpg": "946a465ef5fb4c89f6dc388ed4d980d54a0658d8084f517d9833d68f048bffbb",
+    "docs/references/weapons/us_40mm_m1_m2a1_1944/images/tm9-252_fig089.jpg": "8d56881d6003198e28b2b0ba957134f10701c9edd09ec41cb42829ab6a721f41",
+    "docs/references/weapons/us_40mm_m1_m2a1_1944/images/tm9-252_fig161.jpg": "5863888e03913a73291c61e7b60168fc471f5fbb89e6dc545da59fff09d7f04e",
+    "docs/references/weapons/us_40mm_m1_m2a1_1944/modeling-brief.md": "fc878733e28215341ea87b68d6622f777e91f08d206042f42a9917e2130c72a0",
+    "docs/references/weapons/us_40mm_m1_m2a1_1944/sources.json": "1418b9bf39d374d3d1ea65810c13434a1bba5e4a32bf3a69c24bb3293f7e6184",
+    "docs/references/weapons/us_5in51_mk13mod4_1945/.gdignore": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "docs/references/weapons/us_5in51_mk13mod4_1945/images/op1112_cat0162.jpg": "59bf6ce06f653f034e3c59d723938479388c607469b631033a1b84996622e90c",
+    "docs/references/weapons/us_5in51_mk13mod4_1945/images/op1112_cat0163.jpg": "d67db3ca0b420832f58d7bd52d2396543e5682e12a2af421a87207fb68ad1f5a",
+    "docs/references/weapons/us_5in51_mk13mod4_1945/images/usmc_battery_a_1940.jpg": "61ad99a8271231db9a453a1fcfb4ca50d6f1bf8152f5e392661148c992e32308",
+    "docs/references/weapons/us_5in51_mk13mod4_1945/images/usmc_guantanamo.jpg": "9c08d7056b368a54fd087dc65ea3af5d209327319ccdb92448a756da9d5497e3",
+    "docs/references/weapons/us_5in51_mk13mod4_1945/modeling-brief.md": "1e7ccb2eb24ecb1eddd685789d4414dc30ec0c8f5b5083f3820601a10512e11d",
+    "docs/references/weapons/us_5in51_mk13mod4_1945/sources.json": "7293d5654e4b090e603c0590c98e8665e3e6f63ebc5e753566a7e8857df41c77",
+    "docs/research/S10-shore-defence.md": "cb529ce12dc0e08f2fc6dfec350bfdc75544ad671c2982e7c52569f3d71c20f1",
+    "docs/showcase/deliveries/S10.md": "0f26eb4a447c330cbd3217c2b775f4ca92fd688f8dc94fc489f513da79b01f5c",
+    "docs/showcase/evidence/S10/.gdignore": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  "read_only_runtime_findings": [
+    "catalog rejects ground",
+    "session report non-ship counted as aircraft",
+    "task readers only aircraft/ship",
+    "camera follow labels aircraft/ship",
+    "map symbols aircraft/ship",
+    "combat damage non-ship disabled state becomes crashing",
+    "fleet planner surface selection only ship",
+    "frame default naval gun proxy requires explicit ground dimensions"
+  ],
+  "cleanup": {
+    "godot_launches": 0,
+    "video_encoder_launches": 0,
+    "browser_tabs_created": 0,
+    "http_services_created": 0,
+    "native_preview_windows_created": 0,
+    "network_fetches_bounded_seconds": 55,
+    "all_started_curl_sessions_observed_exited": true,
+    "completed_tool_session_ids": [
+      21773,
+      65180,
+      44076,
+      87334,
+      86422,
+      62777,
+      92444,
+      95513,
+      88990,
+      97704,
+      68836,
+      16749,
+      73100,
+      50312,
+      60062,
+      26625,
+      14908,
+      53245,
+      66856,
+      26740,
+      98011,
+      36553
+    ],
+    "long_lived_child_processes_started": 0,
+    "shared_validation_lock_modified": false
+  },
+  "not_claimed": [
+    "model or assembly accepted",
+    "runtime mechanics implemented",
+    "Chrome tested",
+    "S10 full delivery accepted",
+    "exact first service year or unknown underground foundation verified"
+  ],
+  "all_document_checks_passed": true,
+  "documentation_validation_history": [
+    {
+      "pass": 1,
+      "result": "failed",
+      "reason": "audit self-link checked before output audit file was created; no runtime or engine work occurred"
+    },
+    {
+      "pass": 2,
+      "result": "passed",
+      "reason": "generated audit file now exists; rechecked every local Markdown link"
+    }
+  ],
+  "finalized_utc": "2026-11-10T15:16:20.713886+00:00"
+}

@@ -1,0 +1,75 @@
+{
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "entry": "res://showcase/carrier_harbor.tscn",
+  "pck_sha256": "35ee6b83afce7b7dd3169b05cfe9ba77933ea1677cfd4033f4a6aef2494f5e0c",
+  "pck_bytes": 18593272,
+  "entry_count": 670,
+  "admitted_sources": 539,
+  "changed": 18,
+  "signed_outputs": 9,
+  "checked_remaps": 264,
+  "raw_json_and_licenses": 121,
+  "unit_models": [
+    "jp_a6m5a_1944",
+    "jp_d4y2_model12_1944_10",
+    "jp_g4m1_1942_07",
+    "jp_shokaku_1941_08_23",
+    "jp_yamato_1944_04",
+    "jp_yukikaze_1942_06",
+    "us_40mm_m1_m2a1_1944",
+    "us_5in51_mk13mod4_1945",
+    "us_b25j_1944_07",
+    "us_essex_cv9_1944_04_15",
+    "us_f6f5_1944",
+    "us_fletcher_dd445_1942_07_18",
+    "us_iowa_bb61_1944_12_28",
+    "us_sb2c4_1944"
+  ],
+  "no_development_payloads": true,
+  "all_entry_md5_match": true,
+  "admitted_root_and_staged_hashes_match": true,
+  "all_output_hashes_match": true,
+  "source_graph_complete": true,
+  "output_hashes": {
+    "index.apple-touch-icon.png": {
+      "bytes": 11944,
+      "sha256": "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5"
+    },
+    "index.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    "index.icon.png": {
+      "bytes": 5700,
+      "sha256": "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5"
+    },
+    "index.html": {
+      "bytes": 5679,
+      "sha256": "e89a5dbbb40a13c5724a18a66243e3e21ed4c52686dfde9cb05f7a4737a3d096"
+    },
+    "index.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.pck": {
+      "bytes": 18593272,
+      "sha256": "35ee6b83afce7b7dd3169b05cfe9ba77933ea1677cfd4033f4a6aef2494f5e0c"
+    }
+  },
+  "godot_reports": [
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261119T085052-9c7780f1/report.json",
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261119T085056-588d7106/report.json"
+  ]
+}

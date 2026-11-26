@@ -1,0 +1,63 @@
+{
+  "task": "AV02",
+  "reviewed_utc": "2026-11-11T11:34:48.473338+00:00",
+  "status": "final_native_model_and_static_deck_fit_passed",
+  "actually_opened": [
+    {
+      "path": "docs/showcase/evidence/AV02/native-r3/canopy.png",
+      "sha256": "9ac3e52779cb38568802a621375117a0bf3b3c9a8f2f0c809a1f4cbbb8f2879c"
+    },
+    {
+      "path": "docs/showcase/evidence/AV02/native-r3/top_flight.png",
+      "sha256": "7da52a2e6208f4b96a961f1cc81d9755b7cbe7da846c6e76775de6260470652b"
+    },
+    {
+      "path": "docs/showcase/evidence/AV02/native-r3/bay.png",
+      "sha256": "2527dccd90681c315d4f8223d4a0a566c8d0c441f6ef2aa3d177f06ec3b83459"
+    },
+    {
+      "path": "docs/showcase/evidence/AV02/native-r3/brake.png",
+      "sha256": "85ee434fd19f24e9caa28769dfbf015f62115ae61cdb97eae5f3ac5502477fc3"
+    },
+    {
+      "path": "docs/showcase/evidence/AV02/deck-r2/deck_middle.png",
+      "sha256": "50fbee8a097dbacd6a4c4ce310bcfcc698af3d108b098c698dc67b91d067f90f"
+    },
+    {
+      "path": "docs/showcase/evidence/AV02/deck-r2/deck_parking.png",
+      "sha256": "e6119866475e0c723b34e87f24831b56e68571874d74f6825e8dfd6808a81ed0"
+    },
+    {
+      "path": "docs/showcase/evidence/AV02/final/canopy.png",
+      "sha256": "478701a6f47181f014515ce0ed6df9a973ed183a389b6e0829ad8f505969fd73"
+    },
+    {
+      "path": "docs/showcase/evidence/AV02/final/high_front.png",
+      "sha256": "04fd072a824d7fc48cbfc73d8a7cd636ea58a96f48a069e328029e0ddd1394ad"
+    },
+    {
+      "path": "docs/showcase/evidence/AV02/final/side.png",
+      "sha256": "21bf22c317a02bfa414c082ae3c873be339c383f9fb59bc0af1a55d58e853e33"
+    },
+    {
+      "path": "docs/showcase/evidence/AV02/final/top_flight.png",
+      "sha256": "372125cb4cc0b9cc77ca89da3cd131cd089f28f304bfaeb91b15a9181985e45a"
+    }
+  ],
+  "findings": [
+    "Whole-airframe silhouette accepted with earlier r1/r2 full-view review; no detail expansion requested.",
+    "Full top view now retains nose/tail margins; wing roundels and canopy framing readable.",
+    "Bay/crutch and six narrow underside brake panels visible in native inspection.",
+    "Actual model fits Shokaku middle elevator and static parking; three-wheel stance consistent with measured support.",
+    "Canopy view still shows a half-occluded fuselage roundel; worker is isolating overlapping geometry.",
+    "Root authorized omission of problematic fuselage roundel under first-version simplified paint scope; complete wing markings and accepted geometry retained. Final clean-fuselage images and freeze still pending.",
+    "Final canopy/high_front actually opened: clean fuselage is accepted simplified paint; no change to recognized airframe, gear or weapons.",
+    "Final side/top_flight actually opened: complete aircraft and consistent short-tailwheel parking; four final views accepted."
+  ],
+  "limits": [
+    "This is static native inspection, not real carrier launch/recovery, bombing or browser performance acceptance.",
+    "Fully swung bomb intersects deck in parked pose; future release requires airborne gate.",
+    "No factory-station or exact historical performance claim."
+  ],
+  "final_audit": "docs/showcase/acceptance/AV02-root-audit.json"
+}

@@ -1,0 +1,944 @@
+{
+  "owner": "S03",
+  "date": "2026-11-10",
+  "runs": [
+    {
+      "run_id": "20261109T184353-45c3d3e5",
+      "action": "import",
+      "exit_code": 1,
+      "passed": false,
+      "error": null,
+      "report": ".local/validation/runs/20261109T184353-45c3d3e5/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82315,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T184353-45c3d3e5/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--editor",
+            "--import",
+            "--quit"
+          ],
+          "returncode": 0,
+          "diagnostic_error": true,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82316,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T184353-45c3d3e5/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T184601-f9fa16dd",
+      "action": "import",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T184601-f9fa16dd/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82453,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T184601-f9fa16dd/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--editor",
+            "--import",
+            "--quit"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82454,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T184601-f9fa16dd/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T184738-688e6a19",
+      "action": "test",
+      "exit_code": 1,
+      "passed": false,
+      "error": null,
+      "report": ".local/validation/runs/20261109T184738-688e6a19/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82565,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T184738-688e6a19/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--script",
+            "res://tests/test_destroyer_models.gd"
+          ],
+          "returncode": 0,
+          "diagnostic_error": true,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82566,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T184738-688e6a19/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T184816-a1a7efcf",
+      "action": "test",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T184816-a1a7efcf/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82603,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T184816-a1a7efcf/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--script",
+            "res://tests/test_destroyer_models.gd"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82604,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T184816-a1a7efcf/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T184833-2aeff612",
+      "action": "godot",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T184833-2aeff612/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82631,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T184833-2aeff612/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "res://tests/scenes/destroyer_capture.tscn",
+            "--",
+            "--ship",
+            "fletcher_dd445",
+            "--output",
+            "res://docs/references/ships/fletcher_dd445_1942_07_18/checks"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82632,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T184833-2aeff612/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T185157-3c815529",
+      "action": "godot",
+      "exit_code": 2,
+      "passed": false,
+      "error": "lock_timeout",
+      "report": ".local/validation/runs/20261109T185157-3c815529/report.json",
+      "checks": []
+    },
+    {
+      "run_id": "20261109T185304-1c9ef73a",
+      "action": "godot",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T185304-1c9ef73a/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82941,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T185304-1c9ef73a/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "res://tests/scenes/destroyer_capture.tscn",
+            "--",
+            "--ship",
+            "fletcher_dd445",
+            "--output",
+            "res://docs/references/ships/fletcher_dd445_1942_07_18/checks"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 82942,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T185304-1c9ef73a/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T185820-ae034c11",
+      "action": "godot",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T185820-ae034c11/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 83339,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T185820-ae034c11/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "res://tests/scenes/destroyer_capture.tscn",
+            "--",
+            "--ship",
+            "fletcher_dd445",
+            "--output",
+            "res://docs/references/ships/fletcher_dd445_1942_07_18/checks"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 83340,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T185820-ae034c11/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T190103-ebed285d",
+      "action": "test",
+      "exit_code": 2,
+      "passed": false,
+      "error": "lock_timeout",
+      "report": ".local/validation/runs/20261109T190103-ebed285d/report.json",
+      "checks": []
+    },
+    {
+      "run_id": "20261109T190306-4d45ef69",
+      "action": "test",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T190306-4d45ef69/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 83727,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190306-4d45ef69/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--script",
+            "res://tests/test_destroyer_models.gd"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 83731,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190306-4d45ef69/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T190336-00f6aa29",
+      "action": "godot",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T190336-00f6aa29/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 83780,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190336-00f6aa29/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "res://tests/scenes/destroyer_capture.tscn",
+            "--",
+            "--ship",
+            "yukikaze",
+            "--output",
+            "res://docs/references/ships/yukikaze_1942_06/checks"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 83781,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190336-00f6aa29/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T190507-2bb7d181",
+      "action": "test",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T190507-2bb7d181/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 83927,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190507-2bb7d181/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--script",
+            "res://tests/test_destroyer_models.gd"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 83928,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190507-2bb7d181/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T190602-9d8d2e0b",
+      "action": "godot",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T190602-9d8d2e0b/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 83996,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190602-9d8d2e0b/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "res://tests/scenes/destroyer_capture.tscn",
+            "--",
+            "--ship",
+            "yukikaze",
+            "--output",
+            "res://docs/references/ships/yukikaze_1942_06/checks"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 83997,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190602-9d8d2e0b/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T190809-e1c1aee6",
+      "action": "test",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T190809-e1c1aee6/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 84159,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190809-e1c1aee6/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--script",
+            "res://tests/test_destroyer_models.gd"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 84160,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190809-e1c1aee6/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T190831-d6521327",
+      "action": "godot",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T190831-d6521327/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 84210,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190831-d6521327/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "res://tests/scenes/destroyer_capture.tscn",
+            "--",
+            "--ship",
+            "fletcher_dd445",
+            "--output",
+            "res://docs/references/ships/fletcher_dd445_1942_07_18/checks"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 84211,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T190831-d6521327/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T191050-3d5c973c",
+      "action": "godot",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T191050-3d5c973c/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 84418,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T191050-3d5c973c/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "res://tests/scenes/destroyer_capture.tscn",
+            "--",
+            "--ship",
+            "yukikaze",
+            "--output",
+            "res://docs/references/ships/yukikaze_1942_06/checks"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 84420,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T191050-3d5c973c/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T191755-4c732d6d",
+      "action": "import",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T191755-4c732d6d/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 84861,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T191755-4c732d6d/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--editor",
+            "--import",
+            "--quit"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 84862,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T191755-4c732d6d/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T191851-d64c4470",
+      "action": "test",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T191851-d64c4470/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 84914,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T191851-d64c4470/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--script",
+            "res://tests/test_destroyer_models.gd"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 84915,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T191851-d64c4470/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T192424-fd42f35b",
+      "action": "test",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T192424-fd42f35b/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85217,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T192424-fd42f35b/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--script",
+            "res://tests/test_destroyer_models.gd"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85218,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T192424-fd42f35b/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T192513-03009010",
+      "action": "godot",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T192513-03009010/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85270,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T192513-03009010/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "res://tests/scenes/destroyer_capture.tscn",
+            "--",
+            "--ship",
+            "fletcher_dd445",
+            "--output",
+            "res://docs/references/ships/fletcher_dd445_1942_07_18/checks"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85271,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T192513-03009010/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T192558-5cfb2e0d",
+      "action": "godot",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T192558-5cfb2e0d/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85318,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T192558-5cfb2e0d/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "res://tests/scenes/destroyer_capture.tscn",
+            "--",
+            "--ship",
+            "yukikaze",
+            "--output",
+            "res://docs/references/ships/yukikaze_1942_06/checks"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85319,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T192558-5cfb2e0d/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T192938-6eae1b0a",
+      "action": "test",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T192938-6eae1b0a/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85554,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T192938-6eae1b0a/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--script",
+            "res://tests/test_destroyer_models.gd"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85555,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T192938-6eae1b0a/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T193004-436b4061",
+      "action": "godot",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T193004-436b4061/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85574,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T193004-436b4061/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "res://tests/scenes/destroyer_capture.tscn",
+            "--",
+            "--ship",
+            "yukikaze",
+            "--output",
+            "res://docs/references/ships/yukikaze_1942_06/checks"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85577,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T193004-436b4061/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T193232-02c761dd",
+      "action": "test",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T193232-02c761dd/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85809,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T193232-02c761dd/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--headless",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "--script",
+            "res://tests/test_destroyer_models.gd"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85810,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T193232-02c761dd/01-output.log"
+        }
+      ]
+    },
+    {
+      "run_id": "20261109T193258-108f0834",
+      "action": "godot",
+      "exit_code": 0,
+      "passed": true,
+      "error": null,
+      "report": ".local/validation/runs/20261109T193258-108f0834/report.json",
+      "checks": [
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--version"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85839,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T193258-108f0834/00-version.log"
+        },
+        {
+          "command": [
+            "/Applications/Godot.app/Contents/MacOS/Godot",
+            "--path",
+            "/Users/infinity/Desktop/Dev/game-pacific",
+            "res://tests/scenes/destroyer_capture.tscn",
+            "--",
+            "--ship",
+            "yukikaze",
+            "--output",
+            "res://docs/references/ships/yukikaze_1942_06/checks"
+          ],
+          "returncode": 0,
+          "diagnostic_error": false,
+          "timed_out": false,
+          "cleanup_ok": true,
+          "process_group": 85840,
+          "log": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261109T193258-108f0834/01-output.log"
+        }
+      ]
+    }
+  ],
+  "supervisor_verification_reports": [
+    ".local/validation/runs/20261109T191427-1a868ac5/report.json",
+    ".local/validation/runs/20261109T192626-8913119f/report.json"
+  ],
+  "static_checks": {
+    "generator_ast": "passed",
+    "generated_file_count": 26,
+    "regeneration_hashes_unchanged": true,
+    "local_markdown_links": "passed"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "run_id": "20261110T190221-ce4858a3",
+  "owner": "SB2C-admission",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 69450,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-c",
+        "from pathlib import Path\np=Path(\"aircraft/sb2c4/sb2c4.gd\")\ns=p.read_text()\nreplacements={\n'Vector3(2.10, 0.82, -0.58)':'Vector3(2.10, 1.00, -0.58)',\n'Vector3(0.0, 1.20, 5.02)':'Vector3(0.0, 1.40, 3.90)',\n'Vector4(2.12, 0.52, 0.59, 3.10)':'Vector4(2.23, 0.47, 0.52, 3.10)',\n'Vector4(2.02, 0.40, 0.48, 4.08)':'Vector4(2.32, 0.34, 0.38, 4.08)',\n'Vector4(1.90, 0.27, 0.36, 4.94)':'Vector4(2.40, 0.18, 0.20, 4.94)',\n'Vector4(1.90, 0.015, 0.018, 5.55)':'Vector4(2.44, 0.015, 0.018, 5.55)',\n'Vector2(2.30, 2.48)':'Vector2(2.65, 2.60)',\n'Vector2(4.50, 2.48)':'Vector2(5.38, 2.44)',\n'Vector2(4.54, 2.86)':'Vector2(5.45, 2.82)',\n'Vector2(4.55, 3.34)':'Vector2(5.46, 3.28)',\n'Vector2(4.53, 3.78)':'Vector2(5.42, 3.68)',\n'Vector2(4.43, 4.10)':'Vector2(5.30, 3.98)',\n'Vector2(4.25, 4.34)':'Vector2(5.10, 4.23)',\n'Vector2(4.00, 4.46)':'Vector2(4.80, 4.42)',\n'Vector2(3.74, 4.45)':'Vector2(4.50, 4.46)',\n'Vector2(3.48, 4.31)':'Vector2(4.21, 4.35)',\n'Vector2(3.19, 4.05)':'Vector2(3.92, 4.12)',\n'Vector2(2.92, 3.69)':'Vector2(3.60, 3.80)',\n'Vector2(2.68, 3.27)':'Vector2(3.26, 3.36)',\n'Vector2(2.48, 2.83)':'Vector2(2.92, 2.93)',\n'Vector2(4.50, 2.53)':'Vector2(5.23, 2.53)',\n'Vector2(4.58, 2.53)':'Vector2(5.48, 2.53)',\n'Vector2(4.67, 2.80)':'Vector2(5.55, 2.82)',\n'Vector2(4.67, 3.42)':'Vector2(5.55, 3.34)',\n'Vector2(4.58, 3.72)':'Vector2(5.43, 3.68)',\n'Vector2(4.49, 3.84)':'Vector2(5.26, 3.95)',\n'rudder_outline, 4.50, 2.50':'rudder_outline, 5.23, 2.50',\n'Vector3(0.0, 2.50, 4.50), \"fuselage_module\", \"rudder hinge;':'Vector3(0.0, 2.50, 5.23), \"fuselage_module\", \"rudder hinge;',\n'var attachment: Vector3 = Vector3(0.0, 0.43, -0.25)':'var attachment: Vector3 = Vector3(0.0, 0.65, -0.12)',\n'var fork_root: Vector3 = Vector3(0.0, 0.14, -0.05)':'var fork_root: Vector3 = Vector3(0.0, 0.14, 0.03)',\n'Vector3(0.0, 1.25, 4.50)':'Vector3(0.0, 1.50, 4.50)',\n'Vector3(0.0, 1.18, 4.72)':'Vector3(0.0, 1.42, 4.72)',\n'Vector3(0.0, 1.26, 4.82)':'Vector3(0.0, 1.50, 4.82)',\n}\nfor a,b in replacements.items():\n    assert a in s,a\n    s=s.replace(a,b)\nold='''\t\tVector4(2.96, 0.16, 0.20, -2.40), Vector4(2.92, 0.31, 0.39, -2.08),\n\t\tVector4(2.89, 0.43, 0.50, -1.78), Vector4(2.87, 0.45, 0.50, -1.23),'''\nnew='''\t\tVector4(2.96, 0.22, 0.025, -2.55), Vector4(2.90, 0.37, 0.39, -2.18),\n\t\tVector4(2.89, 0.43, 0.50, -2.02), Vector4(2.88, 0.45, 0.50, -1.60),\n\t\tVector4(2.86, 0.44, 0.49, -1.00),'''\nassert old in s\np.write_text(s.replace(old,new))\nprint(\"Rising aft envelope, fin termination, short tailwheel station and raked windscreen committed locally.\")\n"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 69465,
+      "process_group": 69465,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.0791,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T190221-ce4858a3/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "SB2C-admission",
+    "pid": 69450,
+    "process_identity": "Wed Nov 11 03:02:21 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner SB2C-admission --timeout 20 --lock-timeout 45 exec -- python3 -c from pathlib import Path\\012p=Path(\"aircraft/sb2c4/sb2c4.gd\")\\012s=p.read_text()\\012replacements={\\012'Vector3(2.10, 0.82, -0.58)':'Vector3(2.10, 1.00, -0.58)',\\012'Vector3(0.0, 1.20, 5.02)':'Vector3(0.0, 1.40, 3.90)',\\012'Vector4(2.12, 0.52, 0.59, 3.10)':'Vector4(2.23, 0.47, 0.52, 3.10)',\\012'Vector4(2.02, 0.40, 0.48, 4.08)':'Vector4(2.32, 0.34, 0.38, 4.08)',\\012'Vector4(1.90, 0.27, 0.36, 4.94)':'Vector4(2.40, 0.18, 0.20, 4.94)',\\012'Vector4(1.90, 0.015, 0.018, 5.55)':'Vector4(2.44, 0.015, 0.018, 5.55)',\\012'Vector2(2.30, 2.48)':'Vector2(2.65, 2.60)',\\012'Vector2(4.50, 2.48)':'Vector2(5.38, 2.44)',\\012'Vector2(4.54, 2.86)':'Vector2(5.45, 2.82)',\\012'Vector2(4.55, 3.34)':'Vector2(5.46, 3.28)',\\012'Vector2(4.53, 3.78)':'Vector2(5.42, 3.68)',\\012'Vector2(4.43, 4.10)':'Vector2(5.30, 3.98)',\\012'Vector2(4.25, 4.34)':'Vector2(5.10, 4.23)',\\012'Vector2(4.00, 4.46)':'Vector2(4.80, 4.42)',\\012'Vector2(3.74, 4.45)':'Vector2(4.50, 4.46)',\\012'Vector2(3.48, 4.31)':'Vector2(4.21, 4.35)',\\012'Vector2(3.19, 4.05)':'Vector2(3.92, 4.12)',\\012'Vector2(2.92, 3.69)':'Vector2(3.60, 3.80)',\\012'Vector2(2.68, 3.27)':'Vector2(3.26, 3.36)',\\012'Vector2(2.48, 2.83)':'Vector2(2.92, 2.93)',\\012'Vector2(4.50, 2.53)':'Vector2(5.23, 2.53)',\\012'Vector2(4.58, 2.53)':'Vector2(5.48, 2.53)',\\012'Vector2(4.67, 2.80)':'Vector2(5.55, 2.82)',\\012'Vector2(4.67, 3.42)':'Vector2(5.55, 3.34)',\\012'Vector2(4.58, 3.72)':'Vector2(5.43, 3.68)',\\012'Vector2(4.49, 3.84)':'Vector2(5.26, 3.95)',\\012'rudder_outline, 4.50, 2.50':'rudder_outline, 5.23, 2.50',\\012'Vector3(0.0, 2.50, 4.50), \"fuselage_module\", \"rudder hinge;':'Vector3(0.0, 2.50, 5.23), \"fuselage_module\", \"rudder hinge;',\\012'var attachment: Vector3 = Vector3(0.0, 0.43, -0.25)':'var attachment: Vector3 = Vector3(0.0, 0.65, -0.12)',\\012'var fork_root: Vector3 = Vector3(0.0, 0.14, -0.05)':'var fork_root: Vector3 = Vector3(0.0, 0.14, 0.03)',\\012'Vector3(0.0, 1.25, 4.50)':'Vector3(0.0, 1.50, 4.50)',\\012'Vector3(0.0, 1.18, 4.72)':'Vector3(0.0, 1.42, 4.72)',\\012'Vector3(0.0, 1.26, 4.82)':'Vector3(0.0, 1.50, 4.82)',\\012}\\012for a,b in replacements.items():\\012    assert a in s,a\\012    s=s.replace(a,b)\\012old='''\\011\\011Vector4(2.96, 0.16, 0.20, -2.40), Vector4(2.92, 0.31, 0.39, -2.08),\\012\\011\\011Vector4(2.89, 0.43, 0.50, -1.78), Vector4(2.87, 0.45, 0.50, -1.23),'''\\012new='''\\011\\011Vector4(2.96, 0.22, 0.025, -2.55), Vector4(2.90, 0.37, 0.39, -2.18),\\012\\011\\011Vector4(2.89, 0.43, 0.50, -2.02), Vector4(2.88, 0.45, 0.50, -1.60),\\012\\011\\011Vector4(2.86, 0.44, 0.49, -1.00),'''\\012assert old in s\\012p.write_text(s.replace(old,new))\\012print(\"Rising aft envelope, fin termination, short tailwheel station and raked windscreen committed locally.\")\\012",
+    "token": "47a8a5ff76f544deab614d440b4549e1",
+    "acquired_utc": "2026-11-10T19:02:39.155337+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

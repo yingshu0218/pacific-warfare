@@ -1,0 +1,23 @@
+{
+  "status": "package_static_root_review_passed_long_Chrome_pending",
+  "observed_utc": "2026-11-10T22:05:11.624456+00:00",
+  "passed": true,
+  "root_sources": 396,
+  "stage_sources": 399,
+  "outputs": 9,
+  "pck_entries": 444,
+  "remaps_checked": 174,
+  "imports_checked": 3,
+  "pck_sha256": "edcbad51ca5ae54126d5cf6565bdd5ff1c1de117a3de78601cb609e4e7f5a2bc",
+  "build_manifest_sha256": "656e2f207dc76521520e4b8070f14d1afb95bde026b32829e420b22434739731",
+  "payload_md5_all_match": true,
+  "directory_reaches_file_end": true,
+  "unit_types": 9,
+  "air_sea_spawns": 16,
+  "ground_deployments": 3,
+  "expanded_scenario_units": 19,
+  "entry": "res://showcase/all_units.tscn",
+  "root_main_unchanged": true,
+  "errors": [],
+  "final_browser_acceptance": "passed_1x_see_S08_final_Chrome_root_audit"
+}

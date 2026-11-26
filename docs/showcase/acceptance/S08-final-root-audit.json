@@ -1,0 +1,474 @@
+{
+  "observed_utc": "2026-11-10T22:19:36.608738+00:00",
+  "status": "independent_final_hash_and_cleanup_review",
+  "passed": true,
+  "errors": [],
+  "counts": {
+    "root_runtime": 396,
+    "frozen_runtime": 399,
+    "tooling_and_docs": 18,
+    "evidence": 144,
+    "outputs": 9
+  },
+  "wrapper_reports": 26,
+  "registered_process_groups": 41,
+  "registered_owned_pids": 87,
+  "alive_process_groups": [],
+  "alive_owned_pids": [],
+  "pck_sha256": "edcbad51ca5ae54126d5cf6565bdd5ff1c1de117a3de78601cb609e4e7f5a2bc",
+  "freeze_sha256": "d7814074cf5f5f19209d1320bb9e6e81c2e83df54fbf9dd84522dc78ab7bb336",
+  "source_manifest_sha256": "699d859083a56efaa86b01fd8f4953612af689a0b9650a7ee3c1ec05b7947ea2",
+  "evidence_manifest_sha256": "e51312c80ab425510769865f39b3c8cac2cda57cfab655e0fcc7df5030c2b270",
+  "browser_data_review_passed": true,
+  "limits": [
+    "4x visual 30 FPS target not met: final p95 55.47ms, actual simulation scale 3.989",
+    "384 FX slots can saturate; per-generation unallocated visual attempts peak 461, simulation unaffected",
+    "Natural long run does not replace prior controlled-damage or complete training-cycle evidence",
+    "Earliest baseline run did not embed full build manifest; final and optimized runs do"
+  ],
+  "raw_reports": [
+    {
+      "run_id": "20261110T212608-d2a5af74",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "7035c8836ba759ebbc91a01fd2a9bdcd5a1cbc0acdc86085c58b0526251cbc5a"
+    },
+    {
+      "run_id": "20261110T212612-a32e61fa",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "ac10b20fcf1414cf89c25fdb08b49955a7c87cdc2ea79172de2d68d1f66c1beb"
+    },
+    {
+      "run_id": "20261110T212758-e1607ba9",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "21ce98efc3f7485b193f39c4bf3030648589e78f29cc55de1939b35b5f489915"
+    },
+    {
+      "run_id": "20261110T212802-5eac3087",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "10eea84c14e873800328c1e485e49f2727ae5115b0b2cd5dd1df0b52497f301e"
+    },
+    {
+      "run_id": "20261110T213016-2fd5f2fd",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "3023bea6e7f35216d87c05ac930f74bfe44475c56a687ca03906dea9e5ba53dc"
+    },
+    {
+      "run_id": "20261110T213403-bfb42acf",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "bcde84a4ef8b58c143e78abd35bc134711f22a54c69d59aa7d6941eb0c423978"
+    },
+    {
+      "run_id": "20261110T213706-0e1e46aa",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "3753b1c6720ebf86a22cf513833d768a753971e4d9b3696a1a11176462ca1b15"
+    },
+    {
+      "run_id": "20261110T214009-d5931734",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "f70a7ff8ae2569556281a7c311cef71c8b6d5de0c3f1fc9ba98f9d5da2b09a6c"
+    },
+    {
+      "run_id": "20261110T214013-44ea7535",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "5b00cfbdef5fb95148505d6ab1769b8e30d070bd2c08ff8901b9c7bec23fc8eb"
+    },
+    {
+      "run_id": "20261110T214017-9f08babb",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "fdc1f1a1bea9116aba656e207335c05abf67de353e061861e966c7e846db7d7b"
+    },
+    {
+      "run_id": "20261110T214135-251a2eba",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "d29253993aec5a8cc6bfe0babe74c8afdb0ad5b10b7b89d2ff38ced7ace80e41"
+    },
+    {
+      "run_id": "20261110T214142-3ed15607",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "52581d3babcecfcd4b6bc295beb9412eec1f85ddb325672f9e2dc48c25ed88b1"
+    },
+    {
+      "run_id": "20261110T214159-a70043ad",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "3d36f5bd48c50f61dcb659630bdb2cc91f701ac0897ade92d3ab117f7259a20a"
+    },
+    {
+      "run_id": "20261110T214204-b1f0beb4",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "445e465a07428f219503d5fc033d64a911d3ad99930e284e9d294fa9c1b682bf"
+    },
+    {
+      "run_id": "20261110T214251-eca7cf65",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "b7f9a99d4e39fe460008197a3c57e0d8773c03426767b3b6378d96bb1acf78c7"
+    },
+    {
+      "run_id": "20261110T214255-aac10f94",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "d5b073cb12f2ecdc1632400535f553917660f1f98c833ce8eead73ffaf698076"
+    },
+    {
+      "run_id": "20261110T214259-48a9ba53",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "154824ca2263f8cddaef125bc777fcfb42e45de1e9140a6cf600b1bd8ed026a0"
+    },
+    {
+      "run_id": "20261110T214346-340a6ad0",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "268dca8858763065cbf238ce58169e54c2a7cdcc13a42fc286f2d77c713d790d"
+    },
+    {
+      "run_id": "20261110T214402-ee84bfe9",
+      "summary_passed": false,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "error",
+        "lock_owner",
+        "exit_code"
+      ],
+      "raw_report_sha256": "975cab354a3500509654c3e484bcd8f60e20a2822e5eafae80ff448a0b1d5145"
+    },
+    {
+      "run_id": "20261110T214744-51cded36",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "3094c1914b5483f41dd0eec2890e99ffff5d02131380655eb3d3b72a566cbca8"
+    },
+    {
+      "run_id": "20261110T214932-cc90f5cf",
+      "summary_passed": false,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "7576952647eb8f18061b0d1a63fafbbf2cca45fea88f4734ffae47de34300f4e"
+    },
+    {
+      "run_id": "20261110T215343-455df06c",
+      "summary_passed": false,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "c62fa9a6b6bc13a610f6052e184ff43d185cb8eff9b8a1c96d2097fd49ec28a0"
+    },
+    {
+      "run_id": "20261110T215541-e1f7399f",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "2c0ca29f7711ea1833abb52236deda5e3f78d919bdc986108d63b18748b86342"
+    },
+    {
+      "run_id": "20261110T215932-96a04fc2",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "dd9c62d582d6c68aaf0a640f36a07b8bdf18ad782e7d0c892c6115c9a22b32ae"
+    },
+    {
+      "run_id": "20261110T220002-68023aaa",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "83c4db51aa49c727254f0823199d04bc9be884f0102d757c841a6c548b01c70a"
+    },
+    {
+      "run_id": "20261110T221225-6ca8e3b2",
+      "summary_passed": true,
+      "raw_keys": [
+        "run_id",
+        "owner",
+        "action",
+        "project",
+        "lock",
+        "wrapper_pid",
+        "checks",
+        "passed",
+        "lock_identity",
+        "exit_code"
+      ],
+      "raw_report_sha256": "0f669333fc0c1745ccde80d56d7739ede95a078c9af8080fdc057e52e35a146c"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+--- S14_R8/scripts/simulation/damage/aircraft_damage_motion.gd
++++ combined/scripts/simulation/damage/aircraft_damage_motion.gd
+@@ -17,7 +17,7 @@
+ 	damage["effect_emitters"] = []
+ 
+ static func begin_terminal(unit: UnitState) -> void:
+-	var aircraft: Dictionary = unit.module_data.damage.aircraft
++	var aircraft: Dictionary = unit.module_data.damage.get("aircraft",unit.module_data.damage.get("coarse_airframe",{}))
+ 	if bool(aircraft.terminal_started): return
+ 	aircraft.terminal_started = true
+ 	aircraft.angular_velocity_body_radps = inherited_angular_velocity(unit)
+@@ -59,7 +59,7 @@
+ 
+ static func advance_terminal(world: SimulationWorld, unit: UnitState, dt: float) -> Dictionary:
+ 	var damage: Dictionary = unit.module_data.damage
+-	var aircraft: Dictionary = damage.aircraft
++	var aircraft: Dictionary = damage.get("aircraft",damage.get("coarse_airframe",{}))
+ 	var basis: Basis = Basis.from_euler(unit.rotation_rad)
+ 	var velocity: Vector3 = unit.velocity_mps
+ 	var speed: float = maxf(velocity.length(), 0.1)

@@ -1,0 +1,1510 @@
+{
+	"mesh_instances": 216,
+	"model_id": "jp_yamato_1944_04",
+	"raw_mesh_triangles": 127254,
+	"render_size": [
+		1600,
+		1000
+	],
+	"sockets": [
+		{
+			"base_yaw_deg": 0.0,
+			"elevation_pivot_m": [
+				0.0,
+				4.40000009536743,
+				-3.25
+			],
+			"host_id": "main_deck",
+			"id": "main_01",
+			"muzzle_positions_m": [
+				[
+					-3.5,
+					0.0,
+					-17.5
+				],
+				[
+					0.0,
+					0.0,
+					-17.5
+				],
+				[
+					3.5,
+					0.0,
+					-17.5
+				]
+			],
+			"position_m": [
+				0.0,
+				7.19999980926514,
+				-50.2540016174316
+			],
+			"role": "main",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "x/z retained from dated 1944.2-6 plan; vertical tier corrected against Tamiya 78030 p14/p18 common structure, absolute elevations image-proportioned",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type94_460mm_triple"
+		},
+		{
+			"base_yaw_deg": 0.0,
+			"elevation_pivot_m": [
+				0.0,
+				4.40000009536743,
+				-3.25
+			],
+			"host_id": "main_deck",
+			"id": "main_02",
+			"muzzle_positions_m": [
+				[
+					-3.5,
+					0.0,
+					-17.5
+				],
+				[
+					0.0,
+					0.0,
+					-17.5
+				],
+				[
+					3.5,
+					0.0,
+					-17.5
+				]
+			],
+			"position_m": [
+				0.0,
+				11.3999996185303,
+				-30.4979991912842
+			],
+			"role": "main",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "x/z retained from dated 1944.2-6 plan; vertical tier corrected against Tamiya 78030 p14/p18 common structure, absolute elevations image-proportioned",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type94_460mm_triple"
+		},
+		{
+			"base_yaw_deg": 180.0,
+			"elevation_pivot_m": [
+				0.0,
+				4.40000009536743,
+				-3.25
+			],
+			"host_id": "main_deck",
+			"id": "main_03",
+			"muzzle_positions_m": [
+				[
+					-3.5,
+					0.0,
+					-17.5
+				],
+				[
+					0.0,
+					0.0,
+					-17.5
+				],
+				[
+					3.5,
+					0.0,
+					-17.5
+				]
+			],
+			"position_m": [
+				0.0,
+				8.69999980926514,
+				64.5770034790039
+			],
+			"role": "main",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "x/z retained from dated 1944.2-6 plan; vertical tier corrected against Tamiya 78030 p14/p18 common structure, absolute elevations image-proportioned",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type94_460mm_triple"
+		},
+		{
+			"base_yaw_deg": 0.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.44000005722046,
+				-2.40000009536743
+			],
+			"host_id": "fore_bridge_base_roof",
+			"id": "secondary_01",
+			"muzzle_positions_m": [
+				[
+					-1.53600001335144,
+					0.0,
+					-7.19999980926514
+				],
+				[
+					0.0,
+					0.0,
+					-7.19999980926514
+				],
+				[
+					1.53600001335144,
+					0.0,
+					-7.19999980926514
+				]
+			],
+			"position_m": [
+				0.0,
+				16.0,
+				-9.50800037384033
+			],
+			"role": "secondary",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "x/z retained from dated 1944.2-6 plan; vertical tier corrected against Tamiya 78030 p14/p18 common structure, absolute elevations image-proportioned",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type3_155mm_triple"
+		},
+		{
+			"base_yaw_deg": 180.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.44000005722046,
+				-2.40000009536743
+			],
+			"host_id": "aft_shelter_deck_roof",
+			"id": "secondary_02",
+			"muzzle_positions_m": [
+				[
+					-1.53600001335144,
+					0.0,
+					-7.19999980926514
+				],
+				[
+					0.0,
+					0.0,
+					-7.19999980926514
+				],
+				[
+					1.53600001335144,
+					0.0,
+					-7.19999980926514
+				]
+			],
+			"position_m": [
+				0.0,
+				13.6000003814697,
+				49.7599983215332
+			],
+			"role": "secondary",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "x/z retained from dated 1944.2-6 plan; vertical tier corrected against Tamiya 78030 p14/p18 common structure, absolute elevations image-proportioned",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type3_155mm_triple"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "lower_type89_battery_deck",
+			"id": "heavy_aa_01",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				-11.5,
+				11.5900001525879,
+				6.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "lower_type89_battery_deck",
+			"id": "heavy_aa_02",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				-11.5,
+				11.5900001525879,
+				18.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "lower_type89_battery_deck",
+			"id": "heavy_aa_03",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				-11.5,
+				11.5900001525879,
+				28.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "upper_type89_battery_deck",
+			"id": "heavy_aa_04",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				-7.80000019073486,
+				15.5900001525879,
+				12.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "upper_type89_battery_deck",
+			"id": "heavy_aa_05",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				-7.80000019073486,
+				15.5900001525879,
+				23.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "upper_type89_battery_deck",
+			"id": "heavy_aa_06",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				-7.80000019073486,
+				15.5900001525879,
+				32.5
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "shelter_deck_roof",
+			"id": "light_aa_01",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				-8.27299976348877,
+				11.5900001525879,
+				37.4129981994629
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "shelter_deck_roof",
+			"id": "light_aa_04",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				-10.6190004348755,
+				11.5900001525879,
+				0.370000004768372
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "bridge_deck_level_14_5",
+			"id": "light_aa_07",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				-4.44500017166138,
+				14.789999961853,
+				-1.85199999809265
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "aft_bridge_top_deck",
+			"id": "light_aa_08",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				-2.34599995613098,
+				23.0900001525879,
+				42.3520011901855
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "main_deck",
+			"id": "light_aa_09",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				-15.3109998703003,
+				6.48999977111816,
+				102.853996276855
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "main_deck",
+			"id": "light_aa_10",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				-17.0389995574951,
+				6.48999977111816,
+				96.1859970092773
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.224999994039536,
+				-0.375
+			],
+			"host_id": "main_deck",
+			"id": "single_aa_01",
+			"muzzle_positions_m": [
+				[
+					0.0,
+					0.0,
+					-1.55250000953674
+				]
+			],
+			"position_m": [
+				-2.46900010108948,
+				6.48999977111816,
+				129.031005859375
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_single"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.224999994039536,
+				-0.375
+			],
+			"host_id": "main_deck",
+			"id": "single_aa_02",
+			"muzzle_positions_m": [
+				[
+					0.0,
+					0.0,
+					-1.55250000953674
+				]
+			],
+			"position_m": [
+				2.46900010108948,
+				6.48999977111816,
+				129.031005859375
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_single"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.224999994039536,
+				-0.375
+			],
+			"host_id": "main_deck",
+			"id": "single_aa_03",
+			"muzzle_positions_m": [
+				[
+					0.0,
+					0.0,
+					-1.55250000953674
+				]
+			],
+			"position_m": [
+				-3.58100008964539,
+				6.48999977111816,
+				124.46199798584
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_single"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.224999994039536,
+				-0.375
+			],
+			"host_id": "main_deck",
+			"id": "single_aa_04",
+			"muzzle_positions_m": [
+				[
+					0.0,
+					0.0,
+					-1.55250000953674
+				]
+			],
+			"position_m": [
+				3.58100008964539,
+				6.48999977111816,
+				124.46199798584
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_single"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.224999994039536,
+				-0.375
+			],
+			"host_id": "main_deck",
+			"id": "single_aa_05",
+			"muzzle_positions_m": [
+				[
+					0.0,
+					0.0,
+					-1.55250000953674
+				]
+			],
+			"position_m": [
+				-4.81500005722046,
+				6.48999977111816,
+				119.523002624512
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_single"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.224999994039536,
+				-0.375
+			],
+			"host_id": "main_deck",
+			"id": "single_aa_06",
+			"muzzle_positions_m": [
+				[
+					0.0,
+					0.0,
+					-1.55250000953674
+				]
+			],
+			"position_m": [
+				4.81500005722046,
+				6.48999977111816,
+				119.523002624512
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_single"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.224999994039536,
+				-0.375
+			],
+			"host_id": "main_deck",
+			"id": "single_aa_07",
+			"muzzle_positions_m": [
+				[
+					0.0,
+					0.0,
+					-1.55250000953674
+				]
+			],
+			"position_m": [
+				-4.93900012969971,
+				6.48999977111816,
+				107.422996520996
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_single"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.224999994039536,
+				-0.375
+			],
+			"host_id": "main_deck",
+			"id": "single_aa_08",
+			"muzzle_positions_m": [
+				[
+					0.0,
+					0.0,
+					-1.55250000953674
+				]
+			],
+			"position_m": [
+				4.93900012969971,
+				6.48999977111816,
+				107.422996520996
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_single"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "lower_type89_battery_deck",
+			"id": "heavy_aa_07",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				11.5,
+				11.5900001525879,
+				6.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "lower_type89_battery_deck",
+			"id": "heavy_aa_08",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				11.5,
+				11.5900001525879,
+				18.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "lower_type89_battery_deck",
+			"id": "heavy_aa_09",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				11.5,
+				11.5900001525879,
+				28.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "upper_type89_battery_deck",
+			"id": "heavy_aa_10",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				7.80000019073486,
+				15.5900001525879,
+				12.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "upper_type89_battery_deck",
+			"id": "heavy_aa_11",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				7.80000019073486,
+				15.5900001525879,
+				23.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				1.25,
+				-0.649999976158142
+			],
+			"host_id": "upper_type89_battery_deck",
+			"id": "heavy_aa_12",
+			"muzzle_positions_m": [
+				[
+					-0.379999995231628,
+					0.0,
+					-3.79999995231628
+				],
+				[
+					0.379999995231628,
+					0.0,
+					-3.79999995231628
+				]
+			],
+			"position_m": [
+				7.80000019073486,
+				15.5900001525879,
+				32.5
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type89_127mm_twin"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "shelter_deck_roof",
+			"id": "light_aa_17",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				8.27299976348877,
+				11.5900001525879,
+				37.4129981994629
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "shelter_deck_roof",
+			"id": "light_aa_20",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				10.6190004348755,
+				11.5900001525879,
+				0.370000004768372
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "bridge_deck_level_14_5",
+			"id": "light_aa_23",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				4.44500017166138,
+				14.789999961853,
+				-1.85199999809265
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "aft_bridge_top_deck",
+			"id": "light_aa_24",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				2.34599995613098,
+				23.0900001525879,
+				42.3520011901855
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "main_deck",
+			"id": "light_aa_25",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				15.3109998703003,
+				6.48999977111816,
+				102.853996276855
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.400000005960464
+			],
+			"host_id": "main_deck",
+			"id": "light_aa_26",
+			"muzzle_positions_m": [
+				[
+					-0.239999994635582,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.0,
+					0.0,
+					-1.54999995231628
+				],
+				[
+					0.239999994635582,
+					0.0,
+					-1.54999995231628
+				]
+			],
+			"position_m": [
+				17.0389995574951,
+				6.48999977111816,
+				96.1859970092773
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type96_25mm_triple"
+		},
+		{
+			"base_yaw_deg": 90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.200000002980232
+			],
+			"host_id": "bridge_deck_level_23_3",
+			"id": "bridge_mg_01",
+			"muzzle_positions_m": [
+				[
+					-0.150000005960464,
+					0.0,
+					-1.0
+				],
+				[
+					0.150000005960464,
+					0.0,
+					-1.0
+				]
+			],
+			"position_m": [
+				-4.80000019073486,
+				23.5499992370605,
+				2.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type93_13mm_twin"
+		},
+		{
+			"base_yaw_deg": -90.0,
+			"elevation_pivot_m": [
+				0.0,
+				0.899999976158142,
+				-0.200000002980232
+			],
+			"host_id": "bridge_deck_level_23_3",
+			"id": "bridge_mg_02",
+			"muzzle_positions_m": [
+				[
+					-0.150000005960464,
+					0.0,
+					-1.0
+				],
+				[
+					0.150000005960464,
+					0.0,
+					-1.0
+				]
+			],
+			"position_m": [
+				4.80000019073486,
+				23.5499992370605,
+				2.0
+			],
+			"role": "dedicated_aa",
+			"source": {
+				"basis": "source_matched_image_proportions",
+				"note": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+				"status": "provisional"
+			},
+			"weapon_definition_id": "jp_type93_13mm_twin"
+		}
+	],
+	"views": [
+		{
+			"draw_calls": 580.0,
+			"file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/before/port_side.png",
+			"hull_only": false,
+			"id": "port_side",
+			"orthographic_size_m": 177.0,
+			"position_m": [
+				-340.0,
+				16.0,
+				0.0
+			],
+			"primitives": 356598.0,
+			"target_m": [
+				0.0,
+				16.0,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 432.0,
+			"file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/before/starboard_side.png",
+			"hull_only": false,
+			"id": "starboard_side",
+			"orthographic_size_m": 177.0,
+			"position_m": [
+				340.0,
+				16.0,
+				0.0
+			],
+			"primitives": 254508.0,
+			"target_m": [
+				0.0,
+				16.0,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 647.0,
+			"file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/before/port_elevated.png",
+			"hull_only": false,
+			"id": "port_elevated",
+			"orthographic_size_m": 177.0,
+			"position_m": [
+				-340.0,
+				105.0,
+				0.0
+			],
+			"primitives": 381506.0,
+			"target_m": [
+				0.0,
+				12.0,
+				0.0
+			]
+		},
+		{
+			"draw_calls": 301.0,
+			"file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/before/fore_transition.png",
+			"hull_only": false,
+			"id": "fore_transition",
+			"orthographic_size_m": 80.0,
+			"position_m": [
+				-160.0,
+				24.0,
+				-65.0
+			],
+			"primitives": 242542.0,
+			"target_m": [
+				0.0,
+				8.0,
+				-65.0
+			]
+		},
+		{
+			"draw_calls": 241.0,
+			"file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/before/aft_transition.png",
+			"hull_only": false,
+			"id": "aft_transition",
+			"orthographic_size_m": 66.0,
+			"position_m": [
+				-160.0,
+				24.0,
+				85.0
+			],
+			"primitives": 202330.0,
+			"target_m": [
+				0.0,
+				8.0,
+				85.0
+			]
+		},
+		{
+			"draw_calls": 10.0,
+			"file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/before/fore_hull_side.png",
+			"hull_only": true,
+			"id": "fore_hull_side",
+			"orthographic_size_m": 80.0,
+			"position_m": [
+				-160.0,
+				8.0,
+				-65.0
+			],
+			"primitives": 35910.0,
+			"target_m": [
+				0.0,
+				8.0,
+				-65.0
+			]
+		},
+		{
+			"draw_calls": 10.0,
+			"file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/before/aft_hull_side.png",
+			"hull_only": true,
+			"id": "aft_hull_side",
+			"orthographic_size_m": 66.0,
+			"position_m": [
+				-160.0,
+				8.0,
+				85.0
+			],
+			"primitives": 39942.0,
+			"target_m": [
+				0.0,
+				8.0,
+				85.0
+			]
+		}
+	]
+}

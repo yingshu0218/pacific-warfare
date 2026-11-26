@@ -1,0 +1,390 @@
+{
+  "harbor": {
+    "seed": 1707,
+    "time_s": 105.0,
+    "fighters": {
+      "jp_a6m5a_1944": {
+        "samples": 375,
+        "runs": 3,
+        "path_pitch_p05_deg": -16.05,
+        "path_pitch_p95_deg": 27.22,
+        "path_pitch_min_deg": -24.34,
+        "path_pitch_max_deg": 28.53,
+        "abs_bank_p95_deg": 77.77,
+        "abs_bank_max_deg": 79.58,
+        "windows_8s": 78,
+        "height_8s_p90_m": 280.01,
+        "height_8s_max": {
+          "height_m": 297.75,
+          "unit": "jp_air_2",
+          "from_s": 87.67,
+          "until_s": 95.67
+        },
+        "modes_samples": {
+          "climb_setup": 58,
+          "track": 175,
+          "oblique_extend": 36,
+          "low_yoyo": 27,
+          "rising_arc_enter": 19,
+          "rising_arc_sweep": 39,
+          "rising_arc_recover": 21
+        },
+        "longest_mode": {
+          "climb_setup": {
+            "s": 5.67,
+            "unit": "jp_air_3",
+            "start": 0.17,
+            "end": 5.83,
+            "d_height_m": 185.95,
+            "roll_travel_deg": -0.0
+          },
+          "track": {
+            "s": 7.33,
+            "unit": "jp_air_2",
+            "start": 97.67,
+            "end": 105.0,
+            "d_height_m": 6.03,
+            "roll_travel_deg": 2.2
+          },
+          "oblique_extend": {
+            "s": 5.83,
+            "unit": "jp_air_4",
+            "start": 11.67,
+            "end": 17.5,
+            "d_height_m": 108.36,
+            "roll_travel_deg": 71.2
+          },
+          "low_yoyo": {
+            "s": 4.33,
+            "unit": "jp_air_4",
+            "start": 25.0,
+            "end": 29.33,
+            "d_height_m": -92.58,
+            "roll_travel_deg": -7.4
+          },
+          "rising_arc_enter": {
+            "s": 3.0,
+            "unit": "jp_air_2",
+            "start": 84.5,
+            "end": 87.5,
+            "d_height_m": -12.84,
+            "roll_travel_deg": 96.0
+          },
+          "rising_arc_sweep": {
+            "s": 6.33,
+            "unit": "jp_air_2",
+            "start": 87.67,
+            "end": 94.0,
+            "d_height_m": 241.48,
+            "roll_travel_deg": -74.7
+          },
+          "rising_arc_recover": {
+            "s": 3.33,
+            "unit": "jp_air_2",
+            "start": 94.17,
+            "end": 97.5,
+            "d_height_m": 86.85,
+            "roll_travel_deg": -11.3
+          }
+        }
+      },
+      "us_f6f5_1944": {
+        "samples": 630,
+        "runs": 5,
+        "path_pitch_p05_deg": -16.28,
+        "path_pitch_p95_deg": 17.27,
+        "path_pitch_min_deg": -27.65,
+        "path_pitch_max_deg": 23.04,
+        "abs_bank_p95_deg": 78.23,
+        "abs_bank_max_deg": 179.51,
+        "windows_8s": 138,
+        "height_8s_p90_m": 306.35,
+        "height_8s_max": {
+          "height_m": 316.1,
+          "unit": "us_air_3",
+          "from_s": 64.17,
+          "until_s": 72.17
+        },
+        "modes_samples": {
+          "dive_attack": 227,
+          "track": 267,
+          "axial_roll_rotate": 26,
+          "axial_roll_recover": 22,
+          "climb_setup": 35,
+          "oblique_extend": 36,
+          "high_yoyo": 17
+        },
+        "longest_mode": {
+          "dive_attack": {
+            "s": 7.83,
+            "unit": "us_air_3",
+            "start": 50.0,
+            "end": 57.83,
+            "d_height_m": -174.88,
+            "roll_travel_deg": -4.3
+          },
+          "track": {
+            "s": 8.17,
+            "unit": "us_air_3",
+            "start": 96.83,
+            "end": 105.0,
+            "d_height_m": -159.43,
+            "roll_travel_deg": 1.1
+          },
+          "climb_setup": {
+            "s": 5.67,
+            "unit": "us_air_3",
+            "start": 30.17,
+            "end": 35.83,
+            "d_height_m": 114.99,
+            "roll_travel_deg": -23.6
+          },
+          "oblique_extend": {
+            "s": 5.83,
+            "unit": "us_air_3",
+            "start": 41.0,
+            "end": 46.83,
+            "d_height_m": 20.58,
+            "roll_travel_deg": -54.4
+          },
+          "high_yoyo": {
+            "s": 2.67,
+            "unit": "us_air_3",
+            "start": 83.0,
+            "end": 85.67,
+            "d_height_m": 7.34,
+            "roll_travel_deg": 1.0
+          },
+          "axial_roll_rotate": {
+            "s": 4.17,
+            "unit": "us_air_4",
+            "start": 5.5,
+            "end": 9.67,
+            "d_height_m": -133.66,
+            "roll_travel_deg": -246.3
+          },
+          "axial_roll_recover": {
+            "s": 3.5,
+            "unit": "us_air_4",
+            "start": 11.67,
+            "end": 15.17,
+            "d_height_m": -190.13,
+            "roll_travel_deg": 66.3
+          }
+        }
+      }
+    },
+    "event_counts": {
+      "fighter_duel": 201,
+      "b25_dorsal": 118,
+      "fighter_bomber": 108,
+      "bombs": 24
+    }
+  },
+  "maneuver": {
+    "seed": 1707,
+    "time_s": 105.0,
+    "fighters": {
+      "jp_a6m5a_1944": {
+        "samples": 239,
+        "runs": 4,
+        "path_pitch_p05_deg": -31.36,
+        "path_pitch_p95_deg": 22.4,
+        "path_pitch_min_deg": -33.45,
+        "path_pitch_max_deg": 23.96,
+        "abs_bank_p95_deg": 110.53,
+        "abs_bank_max_deg": 174.98,
+        "windows_8s": 23,
+        "height_8s_p90_m": 393.9,
+        "height_8s_max": {
+          "height_m": 425.99,
+          "unit": "jp_air_4",
+          "from_s": 13.33,
+          "until_s": 21.33
+        },
+        "modes_samples": {
+          "climb_setup": 36,
+          "track": 34,
+          "dive_attack": 29,
+          "axial_roll_rotate": 38,
+          "axial_roll_recover": 26,
+          "bank_reversal_enter": 28,
+          "bank_reversal_reverse": 34,
+          "bank_reversal_recover": 14
+        },
+        "longest_mode": {
+          "climb_setup": {
+            "s": 5.83,
+            "unit": "jp_air_3",
+            "start": 0.17,
+            "end": 6.0,
+            "d_height_m": 178.57,
+            "roll_travel_deg": -3.2
+          },
+          "track": {
+            "s": 2.83,
+            "unit": "jp_air_3",
+            "start": 6.17,
+            "end": 9.0,
+            "d_height_m": 79.85,
+            "roll_travel_deg": -60.3
+          },
+          "dive_attack": {
+            "s": 2.33,
+            "unit": "jp_air_4",
+            "start": 7.83,
+            "end": 10.17,
+            "d_height_m": 23.79,
+            "roll_travel_deg": 1.7
+          },
+          "axial_roll_rotate": {
+            "s": 6.17,
+            "unit": "jp_air_4",
+            "start": 11.0,
+            "end": 17.17,
+            "d_height_m": -220.24,
+            "roll_travel_deg": -346.3
+          },
+          "axial_roll_recover": {
+            "s": 4.17,
+            "unit": "jp_air_4",
+            "start": 17.33,
+            "end": 21.5,
+            "d_height_m": -226.04,
+            "roll_travel_deg": 46.8
+          },
+          "bank_reversal_enter": {
+            "s": 4.5,
+            "unit": "jp_air_4",
+            "start": 35.83,
+            "end": 40.33,
+            "d_height_m": -83.62,
+            "roll_travel_deg": 46.0
+          },
+          "bank_reversal_reverse": {
+            "s": 5.5,
+            "unit": "jp_air_4",
+            "start": 40.5,
+            "end": 46.0,
+            "d_height_m": -24.91,
+            "roll_travel_deg": -132.4
+          },
+          "bank_reversal_recover": {
+            "s": 2.17,
+            "unit": "jp_air_4",
+            "start": 46.17,
+            "end": 48.33,
+            "d_height_m": 53.03,
+            "roll_travel_deg": 128.6
+          }
+        }
+      },
+      "us_f6f5_1944": {
+        "samples": 422,
+        "runs": 4,
+        "path_pitch_p05_deg": -28.97,
+        "path_pitch_p95_deg": 16.63,
+        "path_pitch_min_deg": -31.77,
+        "path_pitch_max_deg": 26.39,
+        "abs_bank_p95_deg": 141.24,
+        "abs_bank_max_deg": 179.53,
+        "windows_8s": 97,
+        "height_8s_p90_m": 400.47,
+        "height_8s_max": {
+          "height_m": 492.23,
+          "unit": "us_pair_demo_1",
+          "from_s": 3.17,
+          "until_s": 11.17
+        },
+        "modes_samples": {
+          "dive_attack": 58,
+          "axial_roll_rotate": 75,
+          "axial_roll_recover": 42,
+          "track": 172,
+          "axial_roll_enter": 5,
+          "climb_setup": 4,
+          "oblique_roll_arc_enter": 17,
+          "oblique_roll_arc_rotate": 37,
+          "oblique_roll_arc_recover": 12
+        },
+        "longest_mode": {
+          "dive_attack": {
+            "s": 5.5,
+            "unit": "us_pair_demo_2",
+            "start": 5.83,
+            "end": 11.33,
+            "d_height_m": -139.2,
+            "roll_travel_deg": 15.4
+          },
+          "axial_roll_rotate": {
+            "s": 6.5,
+            "unit": "us_pair_demo_2",
+            "start": 12.83,
+            "end": 19.33,
+            "d_height_m": -303.29,
+            "roll_travel_deg": 348.5
+          },
+          "axial_roll_recover": {
+            "s": 4.33,
+            "unit": "us_pair_demo_1",
+            "start": 7.33,
+            "end": 11.67,
+            "d_height_m": -260.75,
+            "roll_travel_deg": 66.2
+          },
+          "track": {
+            "s": 19.17,
+            "unit": "us_pair_demo_1",
+            "start": 32.33,
+            "end": 51.5,
+            "d_height_m": -172.52,
+            "roll_travel_deg": 24.3
+          },
+          "climb_setup": {
+            "s": 0.5,
+            "unit": "us_pair_demo_1",
+            "start": 20.67,
+            "end": 21.17,
+            "d_height_m": 3.32,
+            "roll_travel_deg": -20.4
+          },
+          "oblique_roll_arc_enter": {
+            "s": 2.67,
+            "unit": "us_pair_demo_1",
+            "start": 21.33,
+            "end": 24.0,
+            "d_height_m": 83.07,
+            "roll_travel_deg": -27.2
+          },
+          "oblique_roll_arc_rotate": {
+            "s": 6.0,
+            "unit": "us_pair_demo_1",
+            "start": 24.17,
+            "end": 30.17,
+            "d_height_m": 122.78,
+            "roll_travel_deg": 340.3
+          },
+          "oblique_roll_arc_recover": {
+            "s": 1.83,
+            "unit": "us_pair_demo_1",
+            "start": 30.33,
+            "end": 32.17,
+            "d_height_m": -10.2,
+            "roll_travel_deg": -33.8
+          },
+          "axial_roll_enter": {
+            "s": 0.67,
+            "unit": "us_pair_demo_2",
+            "start": 12.0,
+            "end": 12.67,
+            "d_height_m": -16.45,
+            "roll_travel_deg": -34.3
+          }
+        }
+      }
+    },
+    "event_counts": {
+      "fighter_duel": 46
+    }
+  }
+}

@@ -1,0 +1,411 @@
+{
+  "native_web_common_files": 361,
+  "common_runtime_drift": [],
+  "fx01_live_native_web_identical": true,
+  "excluded_from_web": [
+    "showcase/showcase.gd",
+    "showcase/showcase.gd.uid",
+    "showcase/showcase.tscn",
+    "assets/audio/au01/source/fighter_radial_power_high_shared_v01.wav",
+    "assets/audio/au01/source/impact_land_event_shared_v01.wav",
+    "assets/audio/au01/source/impact_water_event_shared_v01.wav.import",
+    "assets/audio/au01/source/impact_water_event_shared_v01.wav",
+    "assets/audio/au01/source/gun_heavy_event_shared_v02.wav.import",
+    "assets/audio/au01/source/fighter_radial_power_low_shared_v01.wav.import",
+    "assets/audio/au01/source/ambient_coast_loop_shared_v01.wav",
+    "assets/audio/au01/source/ship_propulsion_run_shared_v01.wav.import",
+    "assets/audio/au01/source/gun_heavy_event_shared_v02.wav",
+    "assets/audio/au01/source/airburst_event_shared_v01.wav",
+    "assets/audio/au01/source/impact_metal_event_shared_v01.wav.import",
+    "assets/audio/au01/source/gun_heavy_event_shared_v01.wav",
+    "assets/audio/au01/source/ambient_wind_loop_shared_v01.wav.import",
+    "assets/audio/au01/source/autocannon_event_shared_v01.wav.import",
+    "assets/audio/au01/source/fighter_radial_power_high_shared_v01.wav.import",
+    "assets/audio/au01/source/ambient_wind_loop_shared_v01.wav",
+    "assets/audio/au01/source/gun_medium_event_shared_v01.wav.import",
+    "assets/audio/au01/source/ship_propulsion_run_shared_v01.wav",
+    "assets/audio/au01/source/machinegun_event_shared_v01.wav",
+    "assets/audio/au01/source/fighter_radial_power_cruise_shared_v01.wav",
+    "assets/audio/au01/source/recipe.json",
+    "assets/audio/au01/source/fighter_radial_power_cruise_shared_v01.wav.import",
+    "assets/audio/au01/source/ship_propulsion_idle_shared_v01.wav",
+    "assets/audio/au01/source/burning_loop_shared_v01.wav.import",
+    "assets/audio/au01/source/gun_medium_event_shared_v01.wav",
+    "assets/audio/au01/source/machinegun_event_shared_v01.wav.import",
+    "assets/audio/au01/source/impact_land_event_shared_v01.wav.import",
+    "assets/audio/au01/source/ship_propulsion_idle_shared_v01.wav.import",
+    "assets/audio/au01/source/autocannon_event_shared_v01.wav",
+    "assets/audio/au01/source/impact_metal_event_shared_v01.wav",
+    "assets/audio/au01/source/airburst_event_shared_v01.wav.import",
+    "assets/audio/au01/source/fighter_radial_power_low_shared_v01.wav",
+    "assets/audio/au01/source/burning_loop_shared_v01.wav",
+    "assets/audio/au01/source/ambient_coast_loop_shared_v01.wav.import",
+    "assets/audio/au01/source/gun_heavy_event_shared_v01.wav.import",
+    "assets/audio/au01/runtime/fighter_radial_power_high_shared_v01.wav",
+    "assets/audio/au01/runtime/impact_land_event_shared_v01.wav",
+    "assets/audio/au01/runtime/impact_water_event_shared_v01.wav.import",
+    "assets/audio/au01/runtime/impact_water_event_shared_v01.wav",
+    "assets/audio/au01/runtime/gun_heavy_event_shared_v02.wav.import",
+    "assets/audio/au01/runtime/fighter_radial_power_low_shared_v01.wav.import",
+    "assets/audio/au01/runtime/ship_propulsion_run_shared_v01.wav.import",
+    "assets/audio/au01/runtime/ambient_coast_loop_shared_v01.ogg",
+    "assets/audio/au01/runtime/gun_heavy_event_shared_v02.wav",
+    "assets/audio/au01/runtime/airburst_event_shared_v01.wav",
+    "assets/audio/au01/runtime/ambient_wind_loop_shared_v01.ogg.import",
+    "assets/audio/au01/runtime/impact_metal_event_shared_v01.wav.import",
+    "assets/audio/au01/runtime/gun_heavy_event_shared_v01.wav",
+    "assets/audio/au01/runtime/autocannon_event_shared_v01.wav.import",
+    "assets/audio/au01/runtime/fighter_radial_power_high_shared_v01.wav.import",
+    "assets/audio/au01/runtime/gun_medium_event_shared_v01.wav.import",
+    "assets/audio/au01/runtime/ship_propulsion_run_shared_v01.wav",
+    "assets/audio/au01/runtime/machinegun_event_shared_v01.wav",
+    "assets/audio/au01/runtime/fighter_radial_power_cruise_shared_v01.wav",
+    "assets/audio/au01/runtime/fighter_radial_power_cruise_shared_v01.wav.import",
+    "assets/audio/au01/runtime/ship_propulsion_idle_shared_v01.wav",
+    "assets/audio/au01/runtime/burning_loop_shared_v01.wav.import",
+    "assets/audio/au01/runtime/ambient_wind_loop_shared_v01.ogg",
+    "assets/audio/au01/runtime/gun_medium_event_shared_v01.wav",
+    "assets/audio/au01/runtime/machinegun_event_shared_v01.wav.import",
+    "assets/audio/au01/runtime/impact_land_event_shared_v01.wav.import",
+    "assets/audio/au01/runtime/ship_propulsion_idle_shared_v01.wav.import",
+    "assets/audio/au01/runtime/autocannon_event_shared_v01.wav",
+    "assets/audio/au01/runtime/impact_metal_event_shared_v01.wav",
+    "assets/audio/au01/runtime/airburst_event_shared_v01.wav.import",
+    "assets/audio/au01/runtime/fighter_radial_power_low_shared_v01.wav",
+    "assets/audio/au01/runtime/burning_loop_shared_v01.wav",
+    "assets/audio/au01/runtime/ambient_coast_loop_shared_v01.ogg.import",
+    "assets/audio/au01/runtime/gun_heavy_event_shared_v01.wav.import",
+    "assets/audio/au01/masters/fighter_radial_power_high_shared_v01.wav",
+    "assets/audio/au01/masters/impact_land_event_shared_v01.wav",
+    "assets/audio/au01/masters/impact_water_event_shared_v01.wav.import",
+    "assets/audio/au01/masters/impact_water_event_shared_v01.wav",
+    "assets/audio/au01/masters/gun_heavy_event_shared_v02.wav.import",
+    "assets/audio/au01/masters/fighter_radial_power_low_shared_v01.wav.import",
+    "assets/audio/au01/masters/ambient_coast_loop_shared_v01.wav",
+    "assets/audio/au01/masters/ship_propulsion_run_shared_v01.wav.import",
+    "assets/audio/au01/masters/gun_heavy_event_shared_v02.wav",
+    "assets/audio/au01/masters/airburst_event_shared_v01.wav",
+    "assets/audio/au01/masters/impact_metal_event_shared_v01.wav.import",
+    "assets/audio/au01/masters/gun_heavy_event_shared_v01.wav",
+    "assets/audio/au01/masters/ambient_wind_loop_shared_v01.wav.import",
+    "assets/audio/au01/masters/autocannon_event_shared_v01.wav.import",
+    "assets/audio/au01/masters/fighter_radial_power_high_shared_v01.wav.import",
+    "assets/audio/au01/masters/ambient_wind_loop_shared_v01.wav",
+    "assets/audio/au01/masters/gun_medium_event_shared_v01.wav.import",
+    "assets/audio/au01/masters/ship_propulsion_run_shared_v01.wav",
+    "assets/audio/au01/masters/machinegun_event_shared_v01.wav",
+    "assets/audio/au01/masters/fighter_radial_power_cruise_shared_v01.wav",
+    "assets/audio/au01/masters/fighter_radial_power_cruise_shared_v01.wav.import",
+    "assets/audio/au01/masters/ship_propulsion_idle_shared_v01.wav",
+    "assets/audio/au01/masters/burning_loop_shared_v01.wav.import",
+    "assets/audio/au01/masters/gun_medium_event_shared_v01.wav",
+    "assets/audio/au01/masters/machinegun_event_shared_v01.wav.import",
+    "assets/audio/au01/masters/impact_land_event_shared_v01.wav.import",
+    "assets/audio/au01/masters/ship_propulsion_idle_shared_v01.wav.import",
+    "assets/audio/au01/masters/autocannon_event_shared_v01.wav",
+    "assets/audio/au01/masters/impact_metal_event_shared_v01.wav",
+    "assets/audio/au01/masters/airburst_event_shared_v01.wav.import",
+    "assets/audio/au01/masters/fighter_radial_power_low_shared_v01.wav",
+    "assets/audio/au01/masters/burning_loop_shared_v01.wav",
+    "assets/audio/au01/masters/ambient_coast_loop_shared_v01.wav.import",
+    "assets/audio/au01/masters/gun_heavy_event_shared_v01.wav.import"
+  ],
+  "live_changes_after_freeze_excluded": [
+    {
+      "path": "ui/observer_text.gd",
+      "frozen_sha256": "728332cf8fdc9dfef1155593fd12138721420c1b6a97d5aa9214ce18d15c4ab9",
+      "live_sha256": "2eaa323ab358bf23b8265a82fbde46f3dc5d95d65b613611dcf4ae9b0abaab2e"
+    },
+    {
+      "path": "scripts/simulation/aircraft_motion/aircraft_motion.gd",
+      "frozen_sha256": "508b68e5bdcea8d074c729025d062bb68fa547b81da8cedfac995090aa7b7bb4",
+      "live_sha256": "92f6cbe23a808ba28e124b2deff9b301e785168fcb7dbc83aaafe9fe08af8c2a"
+    },
+    {
+      "path": "scripts/simulation/damage/combat_damage.gd",
+      "frozen_sha256": "6ab967d27138c0a5d2e1d761d58fd2748aba27635e244e0966ba8797cde6c473",
+      "live_sha256": "10e7c121f1fa0ec50cc6fe7c98cc7cd8f8c3817a8cc12be8c0ad1ec14e511641"
+    },
+    {
+      "path": "scripts/simulation/collision/combat_frame.gd",
+      "frozen_sha256": "c72e8fff69699e584ffdcab752ddfca90c5c158d3f788ca6f7a93bf4f5b4e59b",
+      "live_sha256": "49cf923ff5a6b972b958e8ec1ce30262d1fb20ebe86be07785b4d734144e06ba"
+    },
+    {
+      "path": "scripts/game/first_playable_session.gd",
+      "frozen_sha256": "c83e4a85f27253f5edae74972765934d8d8bedd9e052416f801f52240d7d011c",
+      "live_sha256": "ffbc58e6f7684c201bb2a1c7a4013021ad665a1b86446117c2d50e1d2a235cbf"
+    },
+    {
+      "path": "scripts/presentation/models/aircraft_adapter.gd",
+      "frozen_sha256": "ceb61aaf96aedbe1dedda0177a36d825d88b45ce0d790af9bcea4456bbd0229c",
+      "live_sha256": "b2296abf3954029dd50ca087ff12e6fe91dee42541fe82fca00451b1f225e731"
+    },
+    {
+      "path": "data/aircraft/performance.json",
+      "frozen_sha256": "f21d5397e1db217856f1ecdb6d933d3bc847f298117657e8cd19e92ae3b920b1",
+      "live_sha256": "58b024812d96856901a90c4a06c941f34349e45adea50e8f7feb36b75aed89cb"
+    },
+    {
+      "path": "data/combat/showcase.json",
+      "frozen_sha256": "e3dc2df44518557ccc6861292a74032c888435ab734ea0c3c146dd20ffc1ec94",
+      "live_sha256": "8ada05c1cfb762c3d967aeb7df23da6efbc5a194c8be0f1ece18ad89b7c3e275"
+    },
+    {
+      "path": "assets/audio/au01/source/impact_water_event_shared_v01.wav.import",
+      "frozen_sha256": "2b6aa534f37de2dbfa112260ddcaba08e037fedac56648c9b85eeea7e88d084e",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/gun_heavy_event_shared_v02.wav.import",
+      "frozen_sha256": "1b8d35ea86ea66b8fa661b43e328bde5c634900aa67dbf8b744bb499d7d37da4",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/fighter_radial_power_low_shared_v01.wav.import",
+      "frozen_sha256": "8a38a989f1ebc5218f89085e845098e89d75fea37aa6d8fdd67c207c7167bc4d",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/ship_propulsion_run_shared_v01.wav.import",
+      "frozen_sha256": "606f6ca9e55c5d7808ab5ba4088990da1ba36961762470bedb91e49448e8e902",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/impact_metal_event_shared_v01.wav.import",
+      "frozen_sha256": "947d6038d9919f234008bfda2382eef2202291a17395805691903e0c61180852",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/ambient_wind_loop_shared_v01.wav.import",
+      "frozen_sha256": "2a0a7352495e0c4c479db6bb7b6ba7d2625a8e420d15486beaa30fa46e4dc6d4",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/autocannon_event_shared_v01.wav.import",
+      "frozen_sha256": "0cd1a5f047349e782fd9727cbae3827498f6dcbf075ae4396b5bb30494dc35ac",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/fighter_radial_power_high_shared_v01.wav.import",
+      "frozen_sha256": "4534bda7662f67032d50d7035471458a996a3e8a726c75ebaf5857bd364992d0",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/gun_medium_event_shared_v01.wav.import",
+      "frozen_sha256": "878b95aecc187625a462420ea8f3efd954fa1121c43186a29a260ee4e8879b98",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/fighter_radial_power_cruise_shared_v01.wav.import",
+      "frozen_sha256": "a0a488095c0c57fe103d513b656e87802aa1ef81be3de1cf0524f64e8d8d4467",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/burning_loop_shared_v01.wav.import",
+      "frozen_sha256": "41e5224c46775793dc7a9baf23e261f639d3aed77cd4c7ee4f1706dd7da61854",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/machinegun_event_shared_v01.wav.import",
+      "frozen_sha256": "c3c9f9c2326b18be3b5bf6a10abee1b576a1249e42676304de4796863760fef7",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/impact_land_event_shared_v01.wav.import",
+      "frozen_sha256": "516ec2784bb1b50590d3e6faaae7a5c39c58c8258cf302c672775bf4740e07ef",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/ship_propulsion_idle_shared_v01.wav.import",
+      "frozen_sha256": "58650673a3b16e2fde807c6b3cd57b4fabbc415df570a3d23e979bfb3014ce79",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/airburst_event_shared_v01.wav.import",
+      "frozen_sha256": "65113a67499b754f229e574800679adb8feeea5910c27314be4fa6b0f1282694",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/ambient_coast_loop_shared_v01.wav.import",
+      "frozen_sha256": "284aa50fe2435520948e3bba92f7a256316a6da322847e25ea6c854916a6c9e3",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/source/gun_heavy_event_shared_v01.wav.import",
+      "frozen_sha256": "4bfd46ad1055ceff40175de950acfb071b76014bb6fc0bb270a0ebdbac882e89",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/impact_water_event_shared_v01.wav.import",
+      "frozen_sha256": "80fbd5805ab426de9e6e0a157e31c598dff64096a0e112040a253899891885d2",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/gun_heavy_event_shared_v02.wav.import",
+      "frozen_sha256": "1cac2bb45cf1da9cadeb00d7eddeba37a374af152567b97362ae9afa6505f764",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/fighter_radial_power_low_shared_v01.wav.import",
+      "frozen_sha256": "97faecab350674bb660d5e319fc90dc462e971a962b2a76fbaf44777fc368189",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/ship_propulsion_run_shared_v01.wav.import",
+      "frozen_sha256": "25b1eaf146cd14ec78c53ab23af3565b07505c116bd5d64cb63184edf7921287",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/ambient_wind_loop_shared_v01.ogg.import",
+      "frozen_sha256": "e1791cd2d961eab333345e2e274bf6532d277f3ae6da60c6ca10ba2bb064deb4",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/impact_metal_event_shared_v01.wav.import",
+      "frozen_sha256": "34f52bd8775e94111ea331f2bfd428d5bffec1f754b233793ed4454a018e6a57",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/autocannon_event_shared_v01.wav.import",
+      "frozen_sha256": "cdae3a777c5ef15f6b72f08236a52ce954c416591c5af3f87b837f9fdc70fdbe",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/fighter_radial_power_high_shared_v01.wav.import",
+      "frozen_sha256": "90d69e3865b3e527324a4ae44a44b3b99b0b133132b4de0125496a6ac1291f5d",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/gun_medium_event_shared_v01.wav.import",
+      "frozen_sha256": "194616b3dabd3785ab8cd4fbdb84fda27b8e55df47966ce33f92038003efd36b",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/fighter_radial_power_cruise_shared_v01.wav.import",
+      "frozen_sha256": "2f12a8144caf80e52efaa1e284d235bb7fe4207b40e129ebd69933ff4d5e03f0",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/burning_loop_shared_v01.wav.import",
+      "frozen_sha256": "b13bc3d79ed580ffeee56940b257e4dc3139a36f7f8195454d115aa9cc6a03ad",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/machinegun_event_shared_v01.wav.import",
+      "frozen_sha256": "e7284b1e9f16bddbcdaec3ab097c6996cad31e1c2b46bda2bafdd4e08b2d8172",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/impact_land_event_shared_v01.wav.import",
+      "frozen_sha256": "ca56057601074fe9f7ba0c6c6ee133f6781ae1b668068bdb50b57d51a68cf415",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/ship_propulsion_idle_shared_v01.wav.import",
+      "frozen_sha256": "62b4b9920e475cdfaf2f8f1050e2ca582a04e6ee9a588a378758f4159a90705a",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/airburst_event_shared_v01.wav.import",
+      "frozen_sha256": "880e437493bd9cbf340b11794405a5857458bdc7582192dda7194a645d75ef3e",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/ambient_coast_loop_shared_v01.ogg.import",
+      "frozen_sha256": "d3380b1341d97b2cfdf47bdfa5d39378f5d6b87326a313fa326671ca7bb17528",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/runtime/gun_heavy_event_shared_v01.wav.import",
+      "frozen_sha256": "bdafeb4c642db7e07d4ef88e7302d55c91599eaa93b50ed6f8499752cc7a59e4",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/impact_water_event_shared_v01.wav.import",
+      "frozen_sha256": "e490cdfb34e1c7b3269c6d0c01a44dd9db361eae1f48ce596fd885936aab14e1",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/gun_heavy_event_shared_v02.wav.import",
+      "frozen_sha256": "18c8b138ba8dcfa4e74c854de859d576fe74fc465b15eebe0cf5b57daace5fb2",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/fighter_radial_power_low_shared_v01.wav.import",
+      "frozen_sha256": "164f6f5cac4763f51f03559a9a7b21d3da12eb2ef913f948ffee37ad92828122",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/ship_propulsion_run_shared_v01.wav.import",
+      "frozen_sha256": "e1af8176f7803c6e4e0dc25b3e3aa6528d8169c9405fe286073fdfa360a9bf3c",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/impact_metal_event_shared_v01.wav.import",
+      "frozen_sha256": "328d38b05adc25ee617e246cd08644539521101c055dab9c848a8d86baba8e90",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/ambient_wind_loop_shared_v01.wav.import",
+      "frozen_sha256": "577fd8da62aa9dbaa72d49803f637cd991f5e9faad6d8827d0a5a751def33bed",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/autocannon_event_shared_v01.wav.import",
+      "frozen_sha256": "6fef9e66a67116746b28225218b7600fa826c12d717df97028ac1ff978321257",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/fighter_radial_power_high_shared_v01.wav.import",
+      "frozen_sha256": "ab290bbaad071e5c80694e8a34914b59d17663cf6dbcc75a20e7bf4bbc83f607",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/gun_medium_event_shared_v01.wav.import",
+      "frozen_sha256": "0113f663d13347ed133dbe773f949a22dcc53e0ecd15521aae03ed5e2a0a4db8",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/fighter_radial_power_cruise_shared_v01.wav.import",
+      "frozen_sha256": "a68a9c982b9dcab5336b518c59b8df0c8a75b7d01b6a2cc72ccf6228a413238a",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/burning_loop_shared_v01.wav.import",
+      "frozen_sha256": "0d9fb5c02c56c68e48631d876f3fb4d221ff8faad4c6b41ce9b7d71e708133be",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/machinegun_event_shared_v01.wav.import",
+      "frozen_sha256": "d4c79e3f82855678d23c6938fe46895efeb284758d1d07c4e851966e1fa93a90",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/impact_land_event_shared_v01.wav.import",
+      "frozen_sha256": "9bff0ac31affb0f33983854246e9e00658bd89307dc9de4792a472d1bf75c959",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/ship_propulsion_idle_shared_v01.wav.import",
+      "frozen_sha256": "1b422f0843410b930d181e938804c2812e2fdfdadda64d30c43afb6ed3b8930b",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/airburst_event_shared_v01.wav.import",
+      "frozen_sha256": "2d84a2bb4ac338e6d5efcde2e95e019e869f29ea88c9c31c9785f640d750536a",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/ambient_coast_loop_shared_v01.wav.import",
+      "frozen_sha256": "6ea86fd97c92b112a52cea7ebabca1d6fbdd57434946f3454daf131c17165804",
+      "live_sha256": null
+    },
+    {
+      "path": "assets/audio/au01/masters/gun_heavy_event_shared_v01.wav.import",
+      "frozen_sha256": "32f7600c80403b2c6f895467beefc4850171ad233fe55e4a4215b5711414f23a",
+      "live_sha256": null
+    }
+  ],
+  "scope": "Parallel DM01/S14 changes are not part of this incremental validation"
+}

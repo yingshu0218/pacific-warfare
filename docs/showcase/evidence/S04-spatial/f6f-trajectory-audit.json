@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "completed_natural_split_s": [
+    {
+      "id": "us_3",
+      "roll_start_s": 90.9666666666667,
+      "pull_start_s": 93.9166666666667,
+      "end_s": 103.2,
+      "real_direction_change_deg": 165.63187439187794,
+      "minimum_path_pitch_deg": -84.002076944777,
+      "max_body_roll_degps": 60.0,
+      "max_path_curvature_degps": 22.2135215186825,
+      "loaded_inverted_samples": 10,
+      "exit_path_pitch_deg": -6.59114839393143,
+      "passed": true
+    }
+  ],
+  "capture_matches": [
+    {
+      "capture": "f6f-v3-split-final",
+      "case": "four",
+      "id": "us_3",
+      "measured_samples": 18,
+      "max_position_interpolation_error_m": 0.17823424586624653,
+      "passed": true
+    },
+    {
+      "capture": "f6f-v3-reversal",
+      "case": "four",
+      "id": "us_0",
+      "measured_samples": 16,
+      "max_position_interpolation_error_m": 0.16309227479916244,
+      "passed": true
+    },
+    {
+      "capture": "f6f-v3-current",
+      "case": "current",
+      "id": "us_air_4",
+      "measured_samples": 26,
+      "max_position_interpolation_error_m": 0.070020659162708,
+      "passed": true
+    },
+    {
+      "capture": "f6f-v3-observer",
+      "case": "current",
+      "id": "us_air_2",
+      "measured_samples": 30,
+      "max_position_interpolation_error_m": 0.16148503510724235,
+      "passed": true
+    }
+  ],
+  "near_vertical_note": "Horizontal heading/world-bank coordinates may wrap at vertical; body roll and actual path curvature remain finite."
+}

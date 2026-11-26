@@ -1,0 +1,94 @@
+[
+	{
+		"data": {
+			"ammo_id": "us_406mm_mk8_ap",
+			"barrel_index": 0,
+			"caliber_m": 0.4064,
+			"elevation_rad": 0.0,
+			"flight_time_s": 0.0,
+			"gravity_mps2": 9.80665,
+			"muzzle_direction": "(0.0, -1.0, 0.0)",
+			"projectile_id": "projectile_00000001",
+			"tracer": true,
+			"train_rad": 0.0,
+			"velocity_mps": "(0.0, -762.0, 0.0)"
+		},
+		"entity_id": "shooter",
+		"event_id": "event_00000001",
+		"kind": "fired",
+		"position_m": "(-18.0, 100.0, 0.0)",
+		"sequence": 1,
+		"target_id": "",
+		"tick": 1,
+		"time_s": 0.0166666666666667,
+		"weapon_id": "shooter/wing_port_01"
+	},
+	{
+		"data": {
+			"ammo_id": "us_127mm_5in38_shell",
+			"barrel_index": 0,
+			"caliber_m": 0.127,
+			"elevation_rad": 0.0,
+			"flight_time_s": 0.0,
+			"gravity_mps2": 9.80665,
+			"muzzle_direction": "(0.0, -1.0, 0.0)",
+			"projectile_id": "projectile_00000002",
+			"tracer": true,
+			"train_rad": 0.0,
+			"velocity_mps": "(0.0, -792.0, 0.0)"
+		},
+		"entity_id": "shooter",
+		"event_id": "event_00000002",
+		"kind": "fired",
+		"position_m": "(16.0, 90.0, 0.0)",
+		"sequence": 2,
+		"target_id": "",
+		"tick": 1,
+		"time_s": 0.0166666666666667,
+		"weapon_id": "shooter/wing_port_01"
+	},
+	{
+		"data": {
+			"ammo_id": "us_127mm_5in38_shell",
+			"caliber_m": 0.127,
+			"energy_j": 7862865.625,
+			"normal": "(0.0, 1.0, 0.0)",
+			"projectile_id": "projectile_00000002",
+			"source_faction_id": "us",
+			"surface": "sea",
+			"target_id": "",
+			"velocity_mps": "(0.0, -793.1136, 0.0)"
+		},
+		"entity_id": "shooter",
+		"event_id": "event_00000003",
+		"kind": "surface_impact",
+		"position_m": "(16.0, 0.0, 0.0)",
+		"sequence": 3,
+		"target_id": "",
+		"tick": 8,
+		"time_s": 0.133333333333333,
+		"weapon_id": "shooter/wing_port_01"
+	},
+	{
+		"data": {
+			"ammo_id": "us_406mm_mk8_ap",
+			"caliber_m": 0.4064,
+			"energy_j": 356845830.46875,
+			"normal": "(0.0, 1.0, 0.0)",
+			"projectile_id": "projectile_00000001",
+			"source_faction_id": "us",
+			"surface": "sea",
+			"target_id": "",
+			"velocity_mps": "(0.0, -763.2859, 0.0)"
+		},
+		"entity_id": "shooter",
+		"event_id": "event_00000004",
+		"kind": "surface_impact",
+		"position_m": "(-18.0, 0.0, 0.0)",
+		"sequence": 4,
+		"target_id": "",
+		"tick": 9,
+		"time_s": 0.15,
+		"weapon_id": "shooter/wing_port_01"
+	}
+]

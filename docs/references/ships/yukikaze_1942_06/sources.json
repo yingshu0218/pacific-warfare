@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "target": "jp_yukikaze_1942_06",
+  "reference_assets_only": true,
+  "sources": [
+    {
+      "id": "Y01",
+      "source_page": "https://commons.wikimedia.org/wiki/File:NH_73052_Yukikaze.jpg",
+      "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/NH_73052_Yukikaze.jpg",
+      "identity": "Yukikaze, January 1940",
+      "view": "complete starboard bow quarter, low to medium elevation",
+      "use": "Same-ship rounded bridge, bow rake, forward/rear funnel contrast, early tripod masts, forecastle step and weapon host sequence",
+      "limitations": "Same ship two years earlier, NOT June1942 same-day evidence; rear weapons partially obscured, no hidden-side measurements",
+      "rights": "NHHC donated Japanese photograph; Commons PDM/PD-US-Navy assertion does not establish original Japanese authorship. Development reference only; not packaged into game",
+      "credit": "NHHC NH73052, donation of Kazutoshi Hando (1970); original photographer not established",
+      "accessed": "2026-11-10",
+      "inspection": "opened_original_pixels",
+      "runtime_asset": false,
+      "local_file": "docs/references/ships/yukikaze_1942_06/images/Y01.jpg",
+      "pixel_size": [
+        4076,
+        2972
+      ],
+      "sha256": "59a3ec4ecd608cd2e6e4d13a065af372d5ffd1efa73308673fe864845cf579ba"
+    },
+    {
+      "id": "Y02",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yukikaze_2.jpg",
+      "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Yukikaze_2.jpg",
+      "identity": "Yukikaze, December1939 sea trials",
+      "view": "full starboard near-side, bow closer than stern",
+      "use": "Same-ship full silhouette and deck levels; A/X/Y main gun houses, no radar; forward bridge/rangefinder, original funnel and mast arrangement",
+      "limitations": "Not orthographic; longitudinal stations cannot be read as linear metres; earlier than commissioning and target date. Prewar katakana hull name not copied into wartime model",
+      "rights": "PD-Japan-oldphoto/PD-1996 per file page; development reference only",
+      "credit": "Shizuo Fukui; Kure Maritime Museum photo album (Kazushige Todaka ed.), p94",
+      "accessed": "2026-11-10",
+      "inspection": "opened_original_pixels",
+      "runtime_asset": false,
+      "local_file": "docs/references/ships/yukikaze_1942_06/images/Y02.jpg",
+      "pixel_size": [
+        3116,
+        1813
+      ],
+      "sha256": "91f1b0afbef9d6f7a99b8ec8b916c961bb2bf8d3a580a8d50cb9496d9d634876"
+    },
+    {
+      "id": "Y04",
+      "source_page": "https://www.ibiblio.org/hyperwar/OnlineLibrary/photos/sh-fornv/japan/japsh-xz/yukikaze.htm",
+      "original_image_url": "https://www.ibiblio.org/hyperwar/OnlineLibrary/photos/images/s200000/s286589.jpg",
+      "identity": "Yukikaze, Tokyo 1947-05-26",
+      "view": "bow deck looking aft, 1947",
+      "use": "Bridge face/window outline, continuous forecastle, bridge base/deck relation",
+      "limitations": "Disarmed repatriation ship. Radar, altered mast, forward AA platform and absent guns are NOT copied.",
+      "rights": "US Army Signal Corps official photograph, public domain; development reference only",
+      "credit": "Kaye Calmus / Army Signal Corps / NARA SC286589",
+      "accessed": "2026-11-10",
+      "inspection": "opened_original_pixels",
+      "runtime_asset": false,
+      "local_file": "docs/references/ships/yukikaze_1942_06/images/s286589.jpg",
+      "pixel_size": [
+        600,
+        765
+      ],
+      "sha256": "554fb7ec1b46982daed7d7d364312d85a1af1a1a84db897e1e60f2217467e9e5"
+    },
+    {
+      "id": "Y05",
+      "source_page": "https://www.ibiblio.org/hyperwar/OnlineLibrary/photos/sh-fornv/japan/japsh-xz/yukikaze.htm",
+      "original_image_url": "https://www.ibiblio.org/hyperwar/OnlineLibrary/photos/images/s200000/s286590.jpg",
+      "identity": "Yukikaze, Tokyo 1947-05-26",
+      "view": "starboard bow bridge close view, 1947",
+      "use": "Rounded lower bridge, projecting pilot-house tier and original broad exterior mass, galley pipe orientation",
+      "limitations": "Late radar horns and revised foremast are excluded. Upper wartime director reconstructed from Y01/Y02, not missing 1947 equipment.",
+      "rights": "US Army Signal Corps official photograph, public domain; development reference only",
+      "credit": "Kaye Calmus / Army Signal Corps / NARA SC286590",
+      "accessed": "2026-11-10",
+      "inspection": "opened_original_pixels",
+      "runtime_asset": false,
+      "local_file": "docs/references/ships/yukikaze_1942_06/images/s286590.jpg",
+      "pixel_size": [
+        740,
+        620
+      ],
+      "sha256": "a8841e01c19f89f782c93eb4a553bda35610ab29b36417caa70b6dc5412ab90e"
+    },
+    {
+      "id": "Y07",
+      "source_page": "https://www.ibiblio.org/hyperwar/OnlineLibrary/photos/sh-fornv/japan/japsh-xz/yukikaze.htm",
+      "original_image_url": "https://www.ibiblio.org/hyperwar/OnlineLibrary/photos/images/s200000/s286588.jpg",
+      "identity": "Yukikaze, Tokyo 1947-05-26",
+      "view": "port bow waterline/stem, 1947",
+      "use": "Same-ship raked stem, bow flare and continuity of hull shell",
+      "limitations": "No wartime armament inference, no assumption that 1947 deck fittings all existed in1942.",
+      "rights": "US Army Signal Corps official photograph, public domain; development reference only",
+      "credit": "Kaye Calmus / Army Signal Corps / NARA SC286588",
+      "accessed": "2026-11-10",
+      "inspection": "opened_original_pixels",
+      "runtime_asset": false,
+      "local_file": "docs/references/ships/yukikaze_1942_06/images/s286588.jpg",
+      "pixel_size": [
+        600,
+        765
+      ],
+      "sha256": "a8bcb50bf2839f4e52cc971bd359ba71a914245b72433f9b0957153e102b10c2"
+    },
+    {
+      "id": "Y06",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kagero.jpg",
+      "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Kagero.jpg",
+      "identity": "Kagero lead ship, 1940",
+      "view": "bridge/forward turret local view",
+      "use": "Class-common bridge and C-type gun exterior cross-check",
+      "limitations": "Different ship. Does not establish Yukikaze-specific rails, supports, vents, windows or exact gun locations. Never used to transplant late or alternate bridge.",
+      "rights": "PD-Japan-oldphoto/PD-1996 claim on source page; reference only",
+      "credit": "Unknown photographer; Maru Special14 IJN Destroyers vol2",
+      "accessed": "2026-11-10",
+      "inspection": "opened_original_pixels",
+      "runtime_asset": false,
+      "local_file": "docs/references/ships/yukikaze_1942_06/images/Y06.jpg",
+      "pixel_size": [
+        1400,
+        1157
+      ],
+      "sha256": "6dd7a74d45019e3a7f0901da82e2d667e89ae9147f0037f0f5fee3aefbaddf56"
+    },
+    {
+      "id": "T01",
+      "source_page": "https://www.tamiya.com/english/products/78032/index.html",
+      "original_image_url": "https://d7z22c0gz59ng.cloudfront.net/japan_contents/img/usr/item/7/78032/78032_1.jpg",
+      "identity": "Tamiya78032 Kagero, explicitly early-WWII model",
+      "view": "high port bow full-hull",
+      "use": "Class-common early layout, raised X vs lower Y, twin25mm aft-funnel platforms",
+      "limitations": "Different ship / model, not primary historical geometry evidence. Used only where Y01/Y02 and original specification agree. Not late-war78020 Yukikaze.",
+      "rights": "Copyright Tamiya; linked, not copied into deliverable or game",
+      "credit": "Tamiya official assembled-model gallery",
+      "accessed": "2026-11-10",
+      "inspection": "opened_linked_source",
+      "runtime_asset": false
+    },
+    {
+      "id": "T02",
+      "source_page": "https://www.tamiya.com/english/products/78032/index.html",
+      "original_image_url": "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/7/78032/78032_4c1.jpg",
+      "identity": "Tamiya78032 Kagero, explicitly early-WWII model",
+      "view": "high starboard stern full-hull",
+      "use": "Aft deckhouse shape and host levels, long fantail",
+      "limitations": "Different ship / model, not primary historical geometry evidence. Used only where Y01/Y02 and original specification agree. Not late-war78020 Yukikaze.",
+      "rights": "Copyright Tamiya; linked, not copied into deliverable or game",
+      "credit": "Tamiya official assembled-model gallery",
+      "accessed": "2026-11-10",
+      "inspection": "opened_linked_source",
+      "runtime_asset": false
+    },
+    {
+      "id": "T03",
+      "source_page": "https://www.tamiya.com/english/products/78032/index.html",
+      "original_image_url": "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/7/78032/78032_4c2.jpg",
+      "identity": "Tamiya78032 Kagero, explicitly early-WWII model",
+      "view": "bridge and forward funnel quarter close",
+      "use": "Tiered pilot house, early three-post mast, boiler house and reload housings",
+      "limitations": "Different ship / model, not primary historical geometry evidence. Used only where Y01/Y02 and original specification agree. Not late-war78020 Yukikaze.",
+      "rights": "Copyright Tamiya; linked, not copied into deliverable or game",
+      "credit": "Tamiya official assembled-model gallery",
+      "accessed": "2026-11-10",
+      "inspection": "opened_linked_source",
+      "runtime_asset": false
+    },
+    {
+      "id": "T04",
+      "source_page": "https://www.tamiya.com/english/products/78032/index.html",
+      "original_image_url": "https://d7z22c0gz59ng.cloudfront.net/cms/img/usr/item/7/78032/78032_4c4.jpg",
+      "identity": "Tamiya78032 Kagero, explicitly early-WWII model",
+      "view": "X/Y mount close",
+      "use": "Independent enclosed twin houses, fixed seats and elevated X host",
+      "limitations": "Different ship / model, not primary historical geometry evidence. Used only where Y01/Y02 and original specification agree. Not late-war78020 Yukikaze.",
+      "rights": "Copyright Tamiya; linked, not copied into deliverable or game",
+      "credit": "Tamiya official assembled-model gallery",
+      "accessed": "2026-11-10",
+      "inspection": "opened_linked_source",
+      "runtime_asset": false
+    },
+    {
+      "id": "T05",
+      "source_page": "https://cdn.simba-dickie-group.de/downloads/300078032/300078032_Kagero_w._PE-Parts.pdf",
+      "original_image_url": null,
+      "identity": "Tamiya78032 early Kagero manual",
+      "view": "PDF page17 side/top, page16 paint",
+      "use": "Perspective-free comparison for class centreline main mount positions; bow/stern/deckhouse proportions, linoleum vs steel fields",
+      "limitations": "Model drawing, not shipyard plan; used with same-ship photos and original specification. Pixel measurements rounded; not centimetre historical claims.",
+      "rights": "Copyright Tamiya; link only; inspected temporary copy not part of game",
+      "credit": "Tamiya official distributor manual",
+      "accessed": "2026-11-10",
+      "inspection": "opened_linked_source",
+      "runtime_asset": false
+    },
+    {
+      "id": "J01",
+      "source_page": "https://zousen-shiryoukan.jasnaoe.or.jp/wp/wp-content/uploads/item/funenokagaku/funenokagaku-vol17-08.pdf",
+      "identity": "船の科学17巻8号 No190, 1964-08-10; 旧艦艇回想 article, printed pp115-116",
+      "view": "Original scanned article and construction/launch photographs",
+      "inspection": "Downloaded and rendered actual PDF pp115,116; opened both",
+      "use": "Yukikaze-specific original shipbuilding account: 118.50m OA,10.800m beam; 3 twin C-type127/50 mounts,2 Type92 quadruple TT,16 Type93 torpedoes; target ship commissioned January1940",
+      "limitations": "Retrospective first-person construction account, not June1942 refit checklist. Published specification omits small AA. Do not copy adjacent Asashio/Isokaze account or apparent erroneous sinking date.",
+      "rights": "Source says 禁転載. Link and paraphrase facts only; PDF/render temporary local study copies not in deliverable or game",
+      "credit": "船舶技術協会; archived by 日本船舶海洋工学会 造船資料館",
+      "runtime_asset": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "J02",
+      "source_page": "https://www.combinedfleet.com/yukika_t.htm",
+      "identity": "Yukikaze TROM, Allyn Nevitt / Anthony Tully, updated April2025",
+      "use": "Refit boundary: May1943 adds forward AA and replaces twins by triples; lateAug/Sep1943 removes X turret and adds radars. June1942 active in Midway escort.",
+      "limitations": "Secondary chronology; June1942 appearance is inference from early same-ship photos plus refit dates, not a same-day photograph. Not used as exact geometry drawing.",
+      "runtime_asset": false,
+      "accessed": "2026-11-10"
+    },
+    {
+      "id": "J03",
+      "source_page": "https://www.ibiblio.org/hyperwar/OnlineLibrary/photos/sh-fornv/japan/japsh-xz/yukikaze.htm",
+      "identity": "US Naval Historical Center Yukikaze online library (mirror)",
+      "use": "Service date Jan1940, Midway June1942 escort, original photo catalogue/captions and disarmament restrictions",
+      "limitations": "Does not publish per-mount station measurements",
+      "runtime_asset": false,
+      "accessed": "2026-11-10"
+    }
+  ]
+}

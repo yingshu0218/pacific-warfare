@@ -1,0 +1,14 @@
+[
+	{
+		"label": "explicit enemy ID without own fresh contact cannot dispatch interception",
+		"passed": true
+	},
+	{
+		"label": "interceptor nominates nearest own observed contact",
+		"passed": true
+	},
+	{
+		"label": "persistent interception reacquires remaining contact after first target loss",
+		"passed": true
+	}
+]

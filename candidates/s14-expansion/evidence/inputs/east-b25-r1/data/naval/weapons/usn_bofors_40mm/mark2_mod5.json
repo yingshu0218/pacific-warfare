@@ -1,0 +1,64 @@
+{
+	"asset_id": "usn_bofors_40mm_quad_mk2_mod5",
+	"name": "40 mm Quad Mount Mark 2 Mod. 5",
+	"documented_design_year": 1942,
+	"service_period": null,
+	"service_period_status": "first-documented-drawing-year-is-known; entry-into-service-date-not-verified",
+	"historical_configuration_claim": false,
+	"coordinate_convention": {
+		"forward": "-Z",
+		"starboard": "+X",
+		"up": "+Y",
+		"root_origin": "deck_contact_and_training_axis",
+		"units": "meters",
+		"nominal_scale": "1:1"
+	},
+	"interfaces": {
+		"host_surface_marker": "Generated/MountFoundation/DeckContact",
+		"weapon_seat_marker": "Generated/MountFoundation/WeaponSeat",
+		"train_axis": "Generated/TrainPivot",
+		"elevation_axis": "Generated/TrainPivot/ElevationPivot",
+		"deck_contact_y_m": 0.0,
+		"mount_bolt_count": 18,
+		"mount_bolt_diameter_m_source": 0.0254,
+		"mount_bolt_diameter_status": "drawing-stated",
+		"bolt_circle_radius_m_estimate": 0.76,
+		"bolt_circle_radius_status": "visual-estimate-from-working-circle-drawing",
+		"ship_specific_platform_included": false,
+		"ship_specific_coaming_included": false
+	},
+	"weapons": {
+		"barrels": 4,
+		"bore_diameter_m": 0.04,
+		"nominal_rifled_length_m": 2.24,
+		"nominal_rifled_length_method": "40 mm bore x 56-caliber designation",
+		"individual_barrel_train": false,
+		"individual_barrel_elevation": false,
+		"barrel_motion_coupling_status": "single-shared-elevation-axis-study; detailed linkage not fully reconstructed"
+	},
+	"motion": {
+		"train_degrees": [0.0, 360.0],
+		"train_limit_status": "full-circle-model-interface; verify any installation-specific stops",
+		"elevation_degrees": [-5.0, 90.0],
+		"elevation_limit_status": "drawing-stated-for-Mark-2-Mod-5-working-circle",
+		"drive_rate_deg_s": null,
+		"drive_rate_status": "not-modeled"
+	},
+	"key_dimensions": {
+		"shield_plate_thickness_m": 0.009525,
+		"shield_plate_thickness_source": "3/8 inch callout on 1942 working-circle drawing",
+		"overall_envelope_m": [3.62, 4.95, 5.3],
+		"overall_envelope_status": "procedural-study-estimate; verify against detailed assembly drawings",
+		"base_ring_diameter_m": null,
+		"base_ring_diameter_status": "not-verified"
+	},
+	"confidence": {
+		"designation_and_barrel_count": "source-confirmed",
+		"installation_bolt_count_and_bolt_diameter": "source-confirmed",
+		"shield_thickness": "source-confirmed",
+		"elevation_limits": "source-confirmed-for-sketch-variant",
+		"component_proportions": "visual-estimate",
+		"ship-fit-or-position": "not-asserted"
+	}
+}
+

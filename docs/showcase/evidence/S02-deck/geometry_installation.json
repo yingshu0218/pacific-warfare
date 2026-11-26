@@ -1,0 +1,107 @@
+{
+	"all_host_contacts_checked": 39,
+	"failures": [],
+	"main_foundations": [
+		{
+			"deck_contact_points": 17,
+			"fixed_seat_m": [
+				0.0,
+				7.19999980926514,
+				-50.2540016174316
+			],
+			"host_y_m": 6.50008630752563,
+			"id": "main_01",
+			"max_contact_error_m": 0.000042928855608082,
+			"worst_contact_xyz_and_expected_y_m": [
+				4.61389970779419,
+				6.6371865272522,
+				-45.6401023864746,
+				6.63714359839659
+			]
+		},
+		{
+			"deck_contact_points": 17,
+			"fixed_seat_m": [
+				0.0,
+				11.3999996185303,
+				-30.4979991912842
+			],
+			"host_y_m": 7.82530069351196,
+			"id": "main_02",
+			"max_contact_error_m": 0.0000469905339794963,
+			"worst_contact_xyz_and_expected_y_m": [
+				6.0282998085022,
+				7.95280075073242,
+				-28.0009994506836,
+				7.9528477412664
+			]
+		},
+		{
+			"deck_contact_points": 17,
+			"fixed_seat_m": [
+				0.0,
+				8.69999980926514,
+				64.5770034790039
+			],
+			"host_y_m": 8.30773162841797,
+			"id": "main_03",
+			"max_contact_error_m": 0.0000479190623394743,
+			"worst_contact_xyz_and_expected_y_m": [
+				0.0,
+				8.15693187713623,
+				71.1020050048828,
+				8.15688395807389
+			]
+		}
+	],
+	"max_curve_to_mesh_error_m": 0.00382747189542432,
+	"max_tangent_jump_m_per_m": 0.0000247536497965939,
+	"scope": "Yamato deck continuity, real shared edge and installation only",
+	"shared_boundary_vertices": 296,
+	"source_ordinates": [
+		[
+			-131.5,
+			10.0
+		],
+		[
+			-110.0,
+			8.3
+		],
+		[
+			-85.0,
+			6.7
+		],
+		[
+			-50.0,
+			6.5
+		],
+		[
+			-31.0,
+			7.8
+		],
+		[
+			-10.0,
+			8.6
+		],
+		[
+			40.0,
+			8.6
+		],
+		[
+			65.0,
+			8.3
+		],
+		[
+			80.0,
+			7.8
+		],
+		[
+			92.0,
+			6.4
+		],
+		[
+			131.5,
+			6.4
+		]
+	]
+}

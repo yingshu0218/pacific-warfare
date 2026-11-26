@@ -1,0 +1,1419 @@
+{
+  "standard-before": {
+    "time_s": 120.0,
+    "map_id": "flat_sea",
+    "summary": {
+      "air_damaged": 10,
+      "air_fired": 92,
+      "air_hits": 10,
+      "command_rejected": 1,
+      "exits": 0,
+      "impacts": 0,
+      "inventory_used": 92,
+      "max_gun_forward_error_rad": 0.00696933548897505,
+      "max_pose_velocity_error_rad": 2.52723367566432e-07,
+      "min_friend_m": 11.6777362823486,
+      "units": {
+        "jp_air_1": {
+          "maneuvers": {
+            "aim": 1.05,
+            "approach": 12.3833333333335,
+            "burst": 0.900000000000001,
+            "idle": 0.0166666666666667,
+            "withdraw": 105.649999999995
+          },
+          "max_bank_deg": 65.0000006704249,
+          "max_down_deg": 0.0,
+          "max_load_g": 0.0,
+          "max_speed_mps": 121.675025939941,
+          "max_up_deg": 4.76453572686231,
+          "max_vertical_mps": 3.77813696861267,
+          "max_y_m": 1316.72534179688,
+          "min_speed_mps": 45.2079772949219,
+          "min_y_m": 900.0,
+          "pitch_over_15_s": 0.0,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "legacy": 119.999999999994
+          }
+        },
+        "jp_air_2": {
+          "maneuvers": {
+            "aim": 9.98333333333341,
+            "approach": 46.7999999999986,
+            "burst": 0.933333333333335,
+            "cover": 9.81666666666673,
+            "extend": 4.46666666666666,
+            "idle": 0.0166666666666667,
+            "withdraw": 47.9833333333319
+          },
+          "max_bank_deg": 65.0000006704249,
+          "max_down_deg": -2.0694153585548,
+          "max_load_g": 0.0,
+          "max_speed_mps": 124.943756103516,
+          "max_up_deg": 7.44371919522917,
+          "max_vertical_mps": 14.4861669540405,
+          "max_y_m": 1421.55529785156,
+          "min_speed_mps": 97.0507507324219,
+          "min_y_m": 914.415466308594,
+          "pitch_over_15_s": 0.0,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "legacy": 119.999999999994
+          }
+        },
+        "jp_air_3": {
+          "maneuvers": {
+            "aim": 2.83333333333333,
+            "approach": 45.1666666666654,
+            "guard": 23.9999999999999,
+            "idle": 0.0166666666666667,
+            "withdraw": 47.9833333333319
+          },
+          "max_bank_deg": 65.0000006704249,
+          "max_down_deg": -6.32647909323133,
+          "max_load_g": 0.0,
+          "max_speed_mps": 123.596031188965,
+          "max_up_deg": 7.20334210783834,
+          "max_vertical_mps": 14.534107208252,
+          "max_y_m": 1421.79846191406,
+          "min_speed_mps": 94.4145736694336,
+          "min_y_m": 838.81787109375,
+          "pitch_over_15_s": 0.0,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "legacy": 119.999999999994
+          }
+        },
+        "jp_air_4": {
+          "maneuvers": {
+            "approach": 17.066666666667,
+            "cover": 30.9333333333329,
+            "formation": 23.9999999999999,
+            "idle": 0.0166666666666667,
+            "withdraw": 47.9833333333319
+          },
+          "max_bank_deg": 65.0000006704249,
+          "max_down_deg": -1.7738432289159,
+          "max_load_g": 0.0,
+          "max_speed_mps": 124.303817749023,
+          "max_up_deg": 7.77021006043667,
+          "max_vertical_mps": 15.567271232605,
+          "max_y_m": 1413.2451171875,
+          "min_speed_mps": 91.4956359863281,
+          "min_y_m": 959.475646972656,
+          "pitch_over_15_s": 0.0,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "legacy": 119.999999999994
+          }
+        },
+        "us_air_1": {
+          "maneuvers": {
+            "aim": 6.14999999999998,
+            "approach": 97.0499999999958,
+            "burst": 1.28333333333333,
+            "extend": 9.51666666666672,
+            "guard": 5.98333333333332,
+            "idle": 0.0166666666666667
+          },
+          "max_bank_deg": 65.0000006704249,
+          "max_down_deg": -10.1935824219844,
+          "max_load_g": 0.0,
+          "max_speed_mps": 134.430740356445,
+          "max_up_deg": 4.93549296775408,
+          "max_vertical_mps": 22.2891254425049,
+          "max_y_m": 1347.0966796875,
+          "min_speed_mps": 99.9739303588867,
+          "min_y_m": 900.0,
+          "pitch_over_15_s": 0.0,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "legacy": 119.999999999994
+          }
+        },
+        "us_air_2": {
+          "maneuvers": {
+            "aim": 7.41666666666665,
+            "approach": 6.19999999999998,
+            "cover": 96.3833333333291,
+            "extend": 3.99999999999999,
+            "formation": 5.98333333333332,
+            "idle": 0.0166666666666667
+          },
+          "max_bank_deg": 65.0000006704249,
+          "max_down_deg": -1.59301297845703,
+          "max_load_g": 0.0,
+          "max_speed_mps": 138.841445922852,
+          "max_up_deg": 4.81131397703552,
+          "max_vertical_mps": 11.4882974624634,
+          "max_y_m": 1265.171875,
+          "min_speed_mps": 99.9739532470703,
+          "min_y_m": 916.007202148438,
+          "pitch_over_15_s": 0.0,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "legacy": 119.999999999994
+          }
+        },
+        "us_air_3": {
+          "maneuvers": {
+            "guard": 113.999999999995,
+            "idle": 0.0166666666666667,
+            "support": 5.98333333333332
+          },
+          "max_bank_deg": 65.0000006704249,
+          "max_down_deg": -6.4089125813214,
+          "max_load_g": 0.0,
+          "max_speed_mps": 99.9740524291992,
+          "max_up_deg": 12.3888624592068,
+          "max_vertical_mps": 17.7261219024658,
+          "max_y_m": 1020.0,
+          "min_speed_mps": 81.5351791381836,
+          "min_y_m": 705.966186523438,
+          "pitch_over_15_s": 0.0,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "legacy": 119.999999999994
+          }
+        },
+        "us_air_4": {
+          "maneuvers": {
+            "formation": 119.983333333328,
+            "idle": 0.0166666666666667
+          },
+          "max_bank_deg": 65.0000006704249,
+          "max_down_deg": -2.41065063121428,
+          "max_load_g": 0.0,
+          "max_speed_mps": 101.863624572754,
+          "max_up_deg": 3.04482328892297,
+          "max_vertical_mps": 4.47183227539062,
+          "max_y_m": 1045.08825683594,
+          "min_speed_mps": 84.1880569458008,
+          "min_y_m": 770.923095703125,
+          "pitch_over_15_s": 0.0,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "legacy": 119.999999999994
+          }
+        }
+      }
+    },
+    "endings": {
+      "jp_air_1": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "jp_air_2": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "jp_air_3": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "jp_air_4": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_air_1": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_air_2": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_air_3": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_air_4": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      }
+    }
+  },
+  "standard-after-120s": {
+    "time_s": 120.0,
+    "map_id": "flat_sea",
+    "summary": {
+      "air_damaged": 8,
+      "air_enemy_hits": 8,
+      "air_fired": 64,
+      "air_friendly_hits": 0,
+      "air_hits": 8,
+      "command_rejected": 0,
+      "exits": 0,
+      "impacts": 1,
+      "inventory_used": 64,
+      "max_gun_forward_error_rad": 0.00792231876403093,
+      "max_pose_velocity_error_rad": 2.34071151794524e-07,
+      "min_friend_m": 58.3453407287598,
+      "rejection_groups": {},
+      "units": {
+        "jp_air_1": {
+          "maneuvers": {
+            "climb_setup": 1.65,
+            "idle": 0.0166666666666667,
+            "low_yoyo": 0.0166666666666667,
+            "oblique_extend": 6.01666666666665,
+            "separation": 13.7000000000003,
+            "track": 44.6166666666654,
+            "withdraw": 53.9833333333316
+          },
+          "max_bank_deg": 80.1701669019368,
+          "max_down_deg": -2.5936108839163,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 107.673240661621,
+          "max_up_deg": 16.8146246535311,
+          "max_vertical_mps": 25.9890270233154,
+          "max_y_m": 1481.03845214844,
+          "min_speed_mps": 87.2379684448242,
+          "min_y_m": 900.0,
+          "pitch_over_15_s": 5.49999999999999,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 119.999999999994
+          }
+        },
+        "jp_air_2": {
+          "maneuvers": {
+            "climb_setup": 1.16666666666667,
+            "idle": 0.0166666666666667,
+            "oblique_extend": 3.34999999999999,
+            "separation": 13.7000000000003,
+            "track": 12.1833333333335,
+            "vertical_rejoin": 35.5999999999993,
+            "withdraw": 53.9833333333316
+          },
+          "max_bank_deg": 80.4112280876139,
+          "max_down_deg": -16.298287459903,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 106.279876708984,
+          "max_up_deg": 21.4234112597763,
+          "max_vertical_mps": 33.3652534484863,
+          "max_y_m": 1486.61328125,
+          "min_speed_mps": 77.6838760375977,
+          "min_y_m": 851.83056640625,
+          "pitch_over_15_s": 5.48333333333332,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 119.999999999994
+          }
+        },
+        "jp_air_3": {
+          "maneuvers": {
+            "idle": 0.0166666666666667,
+            "separation": 4.76666666666666,
+            "track": 35.7666666666659,
+            "withdraw": 79.4499999999968
+          },
+          "max_bank_deg": 66.4693657038244,
+          "max_down_deg": -5.46951677493014,
+          "max_load_g": 4.01156774545528,
+          "max_speed_mps": 104.229721069336,
+          "max_up_deg": 15.0898181529623,
+          "max_vertical_mps": 25.1763439178467,
+          "max_y_m": 1553.19750976562,
+          "min_speed_mps": 96.0247497558594,
+          "min_y_m": 783.911560058594,
+          "pitch_over_15_s": 0.166666666666667,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 119.999999999994
+          }
+        },
+        "jp_air_4": {
+          "maneuvers": {
+            "idle": 0.0166666666666667,
+            "separation": 4.76666666666666,
+            "track": 35.4999999999993,
+            "vertical_rejoin": 0.266666666666667,
+            "withdraw": 79.4499999999968
+          },
+          "max_bank_deg": 71.3857239604912,
+          "max_down_deg": -17.7683456981946,
+          "max_load_g": 4.01086497769352,
+          "max_speed_mps": 108.306053161621,
+          "max_up_deg": 8.86760971339338,
+          "max_vertical_mps": 33.0098762512207,
+          "max_y_m": 1459.72595214844,
+          "min_speed_mps": 98.8370895385742,
+          "min_y_m": 980.193725585938,
+          "pitch_over_15_s": 2.16666666666666,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 119.999999999994
+          }
+        },
+        "us_air_1": {
+          "maneuvers": {
+            "climb_setup": 1.65,
+            "idle": 0.0166666666666667,
+            "oblique_extend": 6.01666666666665,
+            "separation": 7.44999999999998,
+            "track": 28.1999999999997,
+            "withdraw": 38.4666666666658
+          },
+          "max_bank_deg": 79.0666700233952,
+          "max_down_deg": -2.13422921007687,
+          "max_load_g": 3.47402965659151,
+          "max_speed_mps": 100.257820129395,
+          "max_up_deg": 16.3658277227017,
+          "max_vertical_mps": 25.9967842102051,
+          "max_y_m": 1435.38598632812,
+          "min_speed_mps": 80.4693298339844,
+          "min_y_m": 900.0,
+          "pitch_over_15_s": 2.43333333333333,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 81.7999999999966
+          }
+        },
+        "us_air_2": {
+          "maneuvers": {
+            "break_turn_pull": 3.63333333333333,
+            "break_turn_roll": 0.5,
+            "climb_setup": 0.566666666666667,
+            "dive_attack": 1.68333333333333,
+            "high_cover": 3.61666666666666,
+            "idle": 0.0166666666666667,
+            "low_yoyo": 6.44999999999998,
+            "roll_reversal_pull": 3.38333333333333,
+            "roll_reversal_roll": 2.26666666666666,
+            "separation": 7.44999999999998,
+            "track": 77.2333333333302,
+            "vertical_rejoin": 5.94999999999998,
+            "zoom_climb": 7.24999999999998
+          },
+          "max_bank_deg": 96.9859498054141,
+          "max_down_deg": -18.5869614136012,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 118.119422912598,
+          "max_up_deg": 32.294705487001,
+          "max_vertical_mps": 47.0456581115723,
+          "max_y_m": 1588.4013671875,
+          "min_speed_mps": 77.2512588500977,
+          "min_y_m": 924.664306640625,
+          "pitch_over_15_s": 12.2500000000002,
+          "pitch_over_25_s": 4.76666666666666,
+          "safety": {
+            "normal": 119.999999999994
+          }
+        },
+        "us_air_3": {
+          "maneuvers": {
+            "climb_setup": 11.1833333333335,
+            "idle": 0.0166666666666667,
+            "track": 100.616666666662,
+            "vertical_rejoin": 8.18333333333332
+          },
+          "max_bank_deg": 69.6865302143506,
+          "max_down_deg": -5.97241660275364,
+          "max_load_g": 3.13587065498055,
+          "max_speed_mps": 107.37858581543,
+          "max_up_deg": 24.3248444080966,
+          "max_vertical_mps": 37.3807220458984,
+          "max_y_m": 1633.85375976562,
+          "min_speed_mps": 81.851806640625,
+          "min_y_m": 747.840515136719,
+          "pitch_over_15_s": 12.0333333333335,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 119.999999999994
+          }
+        },
+        "us_air_4": {
+          "maneuvers": {
+            "high_cover": 43.6833333333321,
+            "idle": 0.0166666666666667,
+            "track": 46.183333333332,
+            "vertical_rejoin": 30.1166666666662
+          },
+          "max_bank_deg": 70.2490138562719,
+          "max_down_deg": -10.416855008852,
+          "max_load_g": 3.1524444013069,
+          "max_speed_mps": 112.331275939941,
+          "max_up_deg": 21.4960833114859,
+          "max_vertical_mps": 31.3942165374756,
+          "max_y_m": 1586.30187988281,
+          "min_speed_mps": 82.4601440429688,
+          "min_y_m": 911.2568359375,
+          "pitch_over_15_s": 8.38333333333333,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 119.999999999994
+          }
+        }
+      }
+    },
+    "endings": {
+      "jp_air_1": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "jp_air_2": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "jp_air_3": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "jp_air_4": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_air_1": {
+        "active": false,
+        "damage_phase": "wreck",
+        "exit_reason": ""
+      },
+      "us_air_2": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_air_3": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_air_4": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      }
+    }
+  },
+  "two-after": {
+    "time_s": 160.0,
+    "map_id": "flat_sea",
+    "summary": {
+      "air_damaged": 10,
+      "air_enemy_hits": 10,
+      "air_fired": 186,
+      "air_friendly_hits": 0,
+      "air_hits": 10,
+      "command_rejected": 0,
+      "exits": 0,
+      "impacts": 0,
+      "inventory_used": 186,
+      "max_gun_forward_error_rad": 0.00797897018492222,
+      "max_pose_velocity_error_rad": 1.98163704112631e-07,
+      "min_friend_m": 201.181335449219,
+      "rejection_groups": {},
+      "units": {
+        "jp_0": {
+          "maneuvers": {
+            "climb_setup": 17.8333333333336,
+            "dive_attack": 42.3999999999989,
+            "oblique_extend": 6.01666666666665,
+            "track": 79.3666666666634,
+            "zoom_climb": 14.3833333333336
+          },
+          "max_bank_deg": 80.8079006323861,
+          "max_down_deg": -38.9771248280771,
+          "max_load_g": 3.64884764015794,
+          "max_speed_mps": 141.681854248047,
+          "max_up_deg": 38.6165015976844,
+          "max_vertical_mps": 88.4716186523438,
+          "max_y_m": 2516.98120117188,
+          "min_speed_mps": 79.1598815917969,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 45.383333333332,
+          "pitch_over_25_s": 16.1000000000004,
+          "safety": {
+            "normal": 160.000000000019
+          }
+        },
+        "jp_1": {
+          "maneuvers": {
+            "dive_attack": 10.1166666666667,
+            "high_cover": 48.1499999999985,
+            "track": 36.7999999999992,
+            "vertical_rejoin": 58.9166666666646,
+            "zoom_climb": 6.01666666666665
+          },
+          "max_bank_deg": 80.7792335393714,
+          "max_down_deg": -21.1823249718391,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 131.465148925781,
+          "max_up_deg": 38.6052552416056,
+          "max_vertical_mps": 57.5729331970215,
+          "max_y_m": 2453.36181640625,
+          "min_speed_mps": 69.5135269165039,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 31.2499999999995,
+          "pitch_over_25_s": 7.14999999999998,
+          "safety": {
+            "normal": 160.000000000019
+          }
+        },
+        "us_0": {
+          "maneuvers": {
+            "climb_setup": 5.84999999999998,
+            "oblique_extend": 2.01666666666666,
+            "roll_reversal_pull": 3.63333333333333,
+            "roll_reversal_roll": 3.08333333333333,
+            "track": 39.899999999999,
+            "withdraw": 99.9833333333289,
+            "zoom_climb": 5.53333333333332
+          },
+          "max_bank_deg": 88.3858598762174,
+          "max_down_deg": -20.4616058089947,
+          "max_load_g": 3.62632167039904,
+          "max_speed_mps": 120.249168395996,
+          "max_up_deg": 37.0905842022932,
+          "max_vertical_mps": 58.463264465332,
+          "max_y_m": 2303.97875976562,
+          "min_speed_mps": 83.4389419555664,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 16.8333333333337,
+          "pitch_over_25_s": 5.58333333333332,
+          "safety": {
+            "normal": 160.000000000019
+          }
+        },
+        "us_1": {
+          "maneuvers": {
+            "climb_setup": 5.09999999999999,
+            "high_cover": 54.2166666666649,
+            "roll_reversal_pull": 3.93333333333332,
+            "roll_reversal_roll": 2.86666666666666,
+            "track": 24.3833333333332,
+            "vertical_rejoin": 62.2499999999977,
+            "zoom_climb": 7.24999999999998
+          },
+          "max_bank_deg": 80.3818030343482,
+          "max_down_deg": -23.1460714614281,
+          "max_load_g": 4.8,
+          "max_speed_mps": 146.704788208008,
+          "max_up_deg": 35.4209619471748,
+          "max_vertical_mps": 55.6975288391113,
+          "max_y_m": 2380.25073242188,
+          "min_speed_mps": 82.6018676757812,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 34.7333333333326,
+          "pitch_over_25_s": 7.13333333333331,
+          "safety": {
+            "normal": 160.000000000019
+          }
+        }
+      }
+    },
+    "endings": {
+      "jp_0": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "jp_1": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_0": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_1": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      }
+    }
+  },
+  "four-after": {
+    "time_s": 160.0,
+    "map_id": "flat_sea",
+    "summary": {
+      "air_damaged": 38,
+      "air_enemy_hits": 40,
+      "air_fired": 459,
+      "air_friendly_hits": 0,
+      "air_hits": 40,
+      "command_rejected": 0,
+      "exits": 0,
+      "impacts": 1,
+      "inventory_used": 459,
+      "max_gun_forward_error_rad": 0.00797897018492222,
+      "max_pose_velocity_error_rad": 6.88419788730243e-07,
+      "min_friend_m": 73.534294128418,
+      "rejection_groups": {},
+      "units": {
+        "jp_0": {
+          "maneuvers": {
+            "climb_setup": 17.8333333333336,
+            "dive_attack": 42.3999999999989,
+            "oblique_extend": 6.01666666666665,
+            "track": 79.3666666666634,
+            "zoom_climb": 14.3833333333336
+          },
+          "max_bank_deg": 80.8079006323861,
+          "max_down_deg": -38.9771248280771,
+          "max_load_g": 3.64884764015794,
+          "max_speed_mps": 141.681854248047,
+          "max_up_deg": 38.6165015976844,
+          "max_vertical_mps": 88.4716186523438,
+          "max_y_m": 2516.98120117188,
+          "min_speed_mps": 79.1598815917969,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 45.383333333332,
+          "pitch_over_25_s": 16.1000000000004,
+          "safety": {
+            "normal": 160.000000000019
+          }
+        },
+        "jp_1": {
+          "maneuvers": {
+            "climb_setup": 5.88333333333332,
+            "dive_attack": 12.2166666666669,
+            "high_cover": 20.3166666666668,
+            "low_yoyo": 11.3333333333335,
+            "separation": 7.54999999999998,
+            "track": 44.6499999999987,
+            "vertical_rejoin": 55.2833333333315,
+            "zoom_climb": 2.76666666666666
+          },
+          "max_bank_deg": 80.7418050347597,
+          "max_down_deg": -23.1565706855481,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 132.024307250977,
+          "max_up_deg": 33.0232268354891,
+          "max_vertical_mps": 53.2333145141602,
+          "max_y_m": 2446.5556640625,
+          "min_speed_mps": 78.058464050293,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 35.6833333333326,
+          "pitch_over_25_s": 5.59999999999999,
+          "safety": {
+            "normal": 160.000000000019
+          }
+        },
+        "jp_2": {
+          "maneuvers": {
+            "climb_setup": 17.7666666666669,
+            "diving_break": 10.0333333333334,
+            "low_yoyo": 2.86666666666666,
+            "oblique_extend": 4.64999999999999,
+            "separation": 7.54999999999998,
+            "track": 72.1999999999972,
+            "withdraw": 0.216666666666667,
+            "zoom_climb": 2.35
+          },
+          "max_bank_deg": 80.7602562550057,
+          "max_down_deg": -32.8509864653827,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 132.715698242188,
+          "max_up_deg": 23.8751192123578,
+          "max_vertical_mps": 71.4815368652344,
+          "max_y_m": 2295.86865234375,
+          "min_speed_mps": 82.103874206543,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 30.2666666666662,
+          "pitch_over_25_s": 4.53333333333332,
+          "safety": {
+            "normal": 117.633333333328
+          }
+        },
+        "jp_3": {
+          "maneuvers": {
+            "climb_setup": 4.74999999999999,
+            "dive_attack": 7.61666666666664,
+            "diving_break": 4.49999999999999,
+            "high_cover": 12.6833333333335,
+            "high_yoyo": 1.0,
+            "low_yoyo": 3.33333333333333,
+            "oblique_extend": 4.83333333333332,
+            "track": 52.0333333333317,
+            "vertical_rejoin": 49.4999999999985,
+            "withdraw": 0.15,
+            "zoom_climb": 15.0500000000003
+          },
+          "max_bank_deg": 80.4613076015085,
+          "max_down_deg": -23.4042657136976,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 127.150466918945,
+          "max_up_deg": 38.6507523550368,
+          "max_vertical_mps": 60.2433624267578,
+          "max_y_m": 2503.96337890625,
+          "min_speed_mps": 81.5216979980469,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 43.7999999999988,
+          "pitch_over_25_s": 14.5333333333336,
+          "safety": {
+            "normal": 155.450000000016
+          }
+        },
+        "us_0": {
+          "maneuvers": {
+            "climb_setup": 5.84999999999998,
+            "oblique_extend": 2.01666666666666,
+            "roll_reversal_pull": 3.63333333333333,
+            "roll_reversal_roll": 3.08333333333333,
+            "track": 39.899999999999,
+            "withdraw": 99.9833333333289,
+            "zoom_climb": 5.53333333333332
+          },
+          "max_bank_deg": 88.3858598762174,
+          "max_down_deg": -20.4616058089947,
+          "max_load_g": 3.62632167039904,
+          "max_speed_mps": 120.249168395996,
+          "max_up_deg": 37.0905842022932,
+          "max_vertical_mps": 58.463264465332,
+          "max_y_m": 2303.97875976562,
+          "min_speed_mps": 83.4389419555664,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 16.8333333333337,
+          "pitch_over_25_s": 5.58333333333332,
+          "safety": {
+            "normal": 160.000000000019
+          }
+        },
+        "us_1": {
+          "maneuvers": {
+            "high_cover": 32.0999999999995,
+            "separation": 11.7666666666668,
+            "track": 31.4333333333328,
+            "vertical_rejoin": 77.1666666666636,
+            "zoom_climb": 7.53333333333331
+          },
+          "max_bank_deg": 78.7258331198261,
+          "max_down_deg": -20.5843372435665,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 147.231063842773,
+          "max_up_deg": 36.8269720882516,
+          "max_vertical_mps": 64.4210739135742,
+          "max_y_m": 2624.93188476562,
+          "min_speed_mps": 85.1734313964844,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 33.3666666666661,
+          "pitch_over_25_s": 5.28333333333332,
+          "safety": {
+            "normal": 160.000000000019
+          }
+        },
+        "us_2": {
+          "maneuvers": {
+            "climb_setup": 11.4000000000001,
+            "dive_attack": 22.35,
+            "low_yoyo": 3.96666666666666,
+            "roll_reversal_pull": 3.83333333333332,
+            "roll_reversal_roll": 2.6,
+            "separation": 11.7666666666668,
+            "track": 93.6666666666626,
+            "zoom_climb": 10.4166666666668
+          },
+          "max_bank_deg": 80.2476741373936,
+          "max_down_deg": -16.3140159735487,
+          "max_load_g": 4.8,
+          "max_speed_mps": 145.310882568359,
+          "max_up_deg": 31.1418390993166,
+          "max_vertical_mps": 50.8056678771973,
+          "max_y_m": 2611.53466796875,
+          "min_speed_mps": 89.5557861328125,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 35.216666666666,
+          "pitch_over_25_s": 4.06666666666666,
+          "safety": {
+            "normal": 160.000000000019
+          }
+        },
+        "us_3": {
+          "maneuvers": {
+            "climb_setup": 7.99999999999998,
+            "dive_attack": 17.2500000000003,
+            "high_cover": 28.7499999999996,
+            "low_yoyo": 0.3,
+            "oblique_extend": 3.49999999999999,
+            "split_s_pull": 9.28333333333337,
+            "split_s_roll": 2.94999999999999,
+            "track": 35.066666666666,
+            "vertical_rejoin": 52.4499999999983,
+            "zoom_climb": 2.45
+          },
+          "max_bank_deg": 179.998440261124,
+          "max_down_deg": -84.0380416661837,
+          "max_load_g": 4.36798982508036,
+          "max_speed_mps": 120.038505554199,
+          "max_up_deg": 26.9709772650277,
+          "max_vertical_mps": 105.775718688965,
+          "max_y_m": 2539.10620117188,
+          "min_speed_mps": 81.305534362793,
+          "min_y_m": 1500.0,
+          "pitch_over_15_s": 47.1833333333319,
+          "pitch_over_25_s": 10.2166666666668,
+          "safety": {
+            "normal": 160.000000000019
+          }
+        }
+      }
+    },
+    "endings": {
+      "jp_0": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "jp_1": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "jp_2": {
+        "active": false,
+        "damage_phase": "wreck",
+        "exit_reason": ""
+      },
+      "jp_3": {
+        "active": false,
+        "damage_phase": "crashing",
+        "exit_reason": ""
+      },
+      "us_0": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_1": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_2": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_3": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      }
+    }
+  },
+  "standard-after": {
+    "time_s": 240.0,
+    "map_id": "flat_sea",
+    "summary": {
+      "air_damaged": 8,
+      "air_enemy_hits": 8,
+      "air_fired": 64,
+      "air_friendly_hits": 0,
+      "air_hits": 8,
+      "command_rejected": 0,
+      "exits": 4,
+      "impacts": 1,
+      "inventory_used": 64,
+      "max_gun_forward_error_rad": 0.00792231876403093,
+      "max_pose_velocity_error_rad": 2.34071151794524e-07,
+      "min_friend_m": 58.3453407287598,
+      "rejection_groups": {},
+      "units": {
+        "jp_air_1": {
+          "maneuvers": {
+            "climb_setup": 1.65,
+            "idle": 0.0166666666666667,
+            "low_yoyo": 0.0166666666666667,
+            "oblique_extend": 6.01666666666665,
+            "separation": 13.7000000000003,
+            "track": 44.6166666666654,
+            "withdraw": 125.616666666661
+          },
+          "max_bank_deg": 80.1701669019368,
+          "max_down_deg": -2.5936108839163,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 107.673240661621,
+          "max_up_deg": 16.8146246535311,
+          "max_vertical_mps": 25.9890270233154,
+          "max_y_m": 1498.71508789062,
+          "min_speed_mps": 87.2379684448242,
+          "min_y_m": 900.0,
+          "pitch_over_15_s": 5.49999999999999,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 191.633333333378
+          }
+        },
+        "jp_air_2": {
+          "maneuvers": {
+            "climb_setup": 1.16666666666667,
+            "idle": 0.0166666666666667,
+            "oblique_extend": 3.34999999999999,
+            "separation": 13.7000000000003,
+            "track": 12.1833333333335,
+            "vertical_rejoin": 35.5999999999993,
+            "withdraw": 114.999999999995
+          },
+          "max_bank_deg": 80.4112280876139,
+          "max_down_deg": -16.298287459903,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 106.279876708984,
+          "max_up_deg": 21.4234112597763,
+          "max_vertical_mps": 33.3652534484863,
+          "max_y_m": 1498.64587402344,
+          "min_speed_mps": 77.6838760375977,
+          "min_y_m": 851.83056640625,
+          "pitch_over_15_s": 5.48333333333332,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 181.016666666703
+          }
+        },
+        "jp_air_3": {
+          "maneuvers": {
+            "idle": 0.0166666666666667,
+            "separation": 4.76666666666666,
+            "track": 35.7666666666659,
+            "withdraw": 87.6833333333296
+          },
+          "max_bank_deg": 66.4693657038244,
+          "max_down_deg": -5.46951677493014,
+          "max_load_g": 4.01156774545528,
+          "max_speed_mps": 104.229721069336,
+          "max_up_deg": 15.0898181529623,
+          "max_vertical_mps": 25.1763439178467,
+          "max_y_m": 1553.19750976562,
+          "min_speed_mps": 96.0247497558594,
+          "min_y_m": 783.911560058594,
+          "pitch_over_15_s": 0.166666666666667,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 128.233333333328
+          }
+        },
+        "jp_air_4": {
+          "maneuvers": {
+            "idle": 0.0166666666666667,
+            "separation": 4.76666666666666,
+            "track": 35.4999999999993,
+            "vertical_rejoin": 0.266666666666667,
+            "withdraw": 86.8999999999964
+          },
+          "max_bank_deg": 71.3857239604912,
+          "max_down_deg": -17.7683456981946,
+          "max_load_g": 4.01086497769352,
+          "max_speed_mps": 108.306053161621,
+          "max_up_deg": 8.86760971339338,
+          "max_vertical_mps": 33.0098762512207,
+          "max_y_m": 1459.72595214844,
+          "min_speed_mps": 98.8370895385742,
+          "min_y_m": 980.193725585938,
+          "pitch_over_15_s": 2.16666666666666,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 127.449999999994
+          }
+        },
+        "us_air_1": {
+          "maneuvers": {
+            "climb_setup": 1.65,
+            "idle": 0.0166666666666667,
+            "oblique_extend": 6.01666666666665,
+            "separation": 7.44999999999998,
+            "track": 28.1999999999997,
+            "withdraw": 38.4666666666658
+          },
+          "max_bank_deg": 79.0666700233952,
+          "max_down_deg": -2.13422921007687,
+          "max_load_g": 3.47402965659151,
+          "max_speed_mps": 100.257820129395,
+          "max_up_deg": 16.3658277227017,
+          "max_vertical_mps": 25.9967842102051,
+          "max_y_m": 1435.38598632812,
+          "min_speed_mps": 80.4693298339844,
+          "min_y_m": 900.0,
+          "pitch_over_15_s": 2.43333333333333,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 81.7999999999966
+          }
+        },
+        "us_air_2": {
+          "maneuvers": {
+            "break_turn_pull": 3.63333333333333,
+            "break_turn_roll": 0.5,
+            "climb_setup": 0.566666666666667,
+            "dive_attack": 1.68333333333333,
+            "high_cover": 3.61666666666666,
+            "idle": 0.0166666666666667,
+            "low_yoyo": 6.44999999999998,
+            "roll_reversal_pull": 3.38333333333333,
+            "roll_reversal_roll": 2.26666666666666,
+            "separation": 7.44999999999998,
+            "track": 197.233333333382,
+            "vertical_rejoin": 5.94999999999998,
+            "zoom_climb": 7.24999999999998
+          },
+          "max_bank_deg": 96.9859498054141,
+          "max_down_deg": -18.5869614136012,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 118.119422912598,
+          "max_up_deg": 32.294705487001,
+          "max_vertical_mps": 47.0456581115723,
+          "max_y_m": 1588.4013671875,
+          "min_speed_mps": 77.2512588500977,
+          "min_y_m": 698.3818359375,
+          "pitch_over_15_s": 12.2500000000002,
+          "pitch_over_25_s": 4.76666666666666,
+          "safety": {
+            "normal": 240.000000000083
+          }
+        },
+        "us_air_3": {
+          "maneuvers": {
+            "climb_setup": 11.1833333333335,
+            "idle": 0.0166666666666667,
+            "track": 198.433333333383,
+            "vertical_rejoin": 30.3666666666662
+          },
+          "max_bank_deg": 69.8753681170111,
+          "max_down_deg": -22.8759851082869,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 132.689086914062,
+          "max_up_deg": 24.3248444080966,
+          "max_vertical_mps": 51.5757942199707,
+          "max_y_m": 1633.85375976562,
+          "min_speed_mps": 81.851806640625,
+          "min_y_m": 747.840515136719,
+          "pitch_over_15_s": 17.2833333333336,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 240.000000000083
+          }
+        },
+        "us_air_4": {
+          "maneuvers": {
+            "high_cover": 148.266666666677,
+            "idle": 0.0166666666666667,
+            "track": 46.183333333332,
+            "vertical_rejoin": 45.533333333332
+          },
+          "max_bank_deg": 70.2490138562719,
+          "max_down_deg": -21.5239969462074,
+          "max_load_g": 4.2,
+          "max_speed_mps": 126.189712524414,
+          "max_up_deg": 21.4960833114859,
+          "max_vertical_mps": 45.8021392822266,
+          "max_y_m": 1586.30187988281,
+          "min_speed_mps": 82.4601440429688,
+          "min_y_m": 911.2568359375,
+          "pitch_over_15_s": 11.3500000000001,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 240.000000000083
+          }
+        }
+      }
+    },
+    "endings": {
+      "jp_air_1": {
+        "active": false,
+        "damage_phase": "operational",
+        "exit_reason": "severe_damage"
+      },
+      "jp_air_2": {
+        "active": false,
+        "damage_phase": "operational",
+        "exit_reason": "ordered_retreat"
+      },
+      "jp_air_3": {
+        "active": false,
+        "damage_phase": "operational",
+        "exit_reason": "protected_unit_lost"
+      },
+      "jp_air_4": {
+        "active": false,
+        "damage_phase": "operational",
+        "exit_reason": "protected_unit_lost"
+      },
+      "us_air_1": {
+        "active": false,
+        "damage_phase": "removed",
+        "exit_reason": ""
+      },
+      "us_air_2": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_air_3": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_air_4": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      }
+    }
+  },
+  "current-after": {
+    "time_s": 240.0,
+    "map_id": "island_harbor",
+    "summary": {
+      "air_damaged": 6,
+      "air_enemy_hits": 6,
+      "air_fired": 43,
+      "air_friendly_hits": 0,
+      "air_hits": 6,
+      "command_rejected": 0,
+      "exits": 3,
+      "impacts": 2,
+      "inventory_used": 43,
+      "max_gun_forward_error_rad": 0.00792231876403093,
+      "max_pose_velocity_error_rad": 2.32330037874817e-07,
+      "min_friend_m": 58.3453407287598,
+      "rejection_groups": {},
+      "units": {
+        "jp_air_1": {
+          "maneuvers": {
+            "climb_setup": 1.65,
+            "high_yoyo": 0.533333333333333,
+            "idle": 0.0166666666666667,
+            "low_yoyo": 0.0166666666666667,
+            "oblique_extend": 6.01666666666665,
+            "separation": 13.7000000000003,
+            "track": 38.0833333333325,
+            "withdraw": 86.1999999999964
+          },
+          "max_bank_deg": 80.1576229738015,
+          "max_down_deg": -2.73247446319965,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 102.724227905273,
+          "max_up_deg": 16.8146246535311,
+          "max_vertical_mps": 25.9890270233154,
+          "max_y_m": 1492.79040527344,
+          "min_speed_mps": 87.2379684448242,
+          "min_y_m": 900.0,
+          "pitch_over_15_s": 5.48333333333332,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 146.216666666675
+          }
+        },
+        "jp_air_2": {
+          "maneuvers": {
+            "idle": 0.0166666666666667,
+            "oblique_extend": 3.33333333333333,
+            "separation": 13.7000000000003,
+            "track": 17.6666666666669,
+            "vertical_rejoin": 25.2999999999998,
+            "withdraw": 109.899999999995
+          },
+          "max_bank_deg": 80.4112280876139,
+          "max_down_deg": -16.2988505433847,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 106.279876708984,
+          "max_up_deg": 25.4546693574136,
+          "max_vertical_mps": 33.3652534484863,
+          "max_y_m": 1498.80578613281,
+          "min_speed_mps": 73.7710418701172,
+          "min_y_m": 851.83056640625,
+          "pitch_over_15_s": 9.18333333333337,
+          "pitch_over_25_s": 0.4,
+          "safety": {
+            "normal": 169.916666666694
+          }
+        },
+        "jp_air_3": {
+          "maneuvers": {
+            "idle": 0.0166666666666667,
+            "track": 59.9833333333312,
+            "withdraw": 96.1666666666625
+          },
+          "max_bank_deg": 66.422007140577,
+          "max_down_deg": -5.46951677493014,
+          "max_load_g": 3.96814379744021,
+          "max_speed_mps": 104.22972869873,
+          "max_up_deg": 9.70303213322018,
+          "max_vertical_mps": 15.5984773635864,
+          "max_y_m": 1470.05725097656,
+          "min_speed_mps": 92.5461349487305,
+          "min_y_m": 727.943420410156,
+          "pitch_over_15_s": 0.0,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 156.166666666683
+          }
+        },
+        "jp_air_4": {
+          "maneuvers": {
+            "idle": 0.0166666666666667,
+            "track": 58.0166666666647,
+            "vertical_rejoin": 1.96666666666666,
+            "withdraw": 90.8166666666628
+          },
+          "max_bank_deg": 65.5335800986794,
+          "max_down_deg": -7.06761229307964,
+          "max_load_g": 4.0241457914416,
+          "max_speed_mps": 106.750854492188,
+          "max_up_deg": 9.53409822441387,
+          "max_vertical_mps": 15.5537195205688,
+          "max_y_m": 1474.580078125,
+          "min_speed_mps": 93.90087890625,
+          "min_y_m": 891.171936035156,
+          "pitch_over_15_s": 0.0,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 150.816666666679
+          }
+        },
+        "us_air_1": {
+          "maneuvers": {
+            "climb_setup": 1.65,
+            "idle": 0.0166666666666667,
+            "oblique_extend": 6.01666666666665,
+            "separation": 7.44999999999998,
+            "track": 30.8999999999995,
+            "withdraw": 41.4499999999989
+          },
+          "max_bank_deg": 79.0666700233952,
+          "max_down_deg": 0.0,
+          "max_load_g": 3.47402965659151,
+          "max_speed_mps": 100.257820129395,
+          "max_up_deg": 16.3658277227017,
+          "max_vertical_mps": 25.9967842102051,
+          "max_y_m": 1446.908203125,
+          "min_speed_mps": 78.6875152587891,
+          "min_y_m": 900.0,
+          "pitch_over_15_s": 2.43333333333333,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 87.4833333333297
+          }
+        },
+        "us_air_2": {
+          "maneuvers": {
+            "climb_setup": 0.566666666666667,
+            "dive_attack": 10.7500000000001,
+            "high_cover": 2.56666666666666,
+            "idle": 0.0166666666666667,
+            "low_yoyo": 4.29999999999999,
+            "oblique_extend": 6.01666666666665,
+            "separation": 7.44999999999998,
+            "track": 191.233333333378,
+            "vertical_rejoin": 5.94999999999998,
+            "zoom_climb": 11.1500000000001
+          },
+          "max_bank_deg": 78.9503596810411,
+          "max_down_deg": -24.4633729492597,
+          "max_load_g": 4.0438425722874,
+          "max_speed_mps": 117.715263366699,
+          "max_up_deg": 35.0192882421816,
+          "max_vertical_mps": 52.9529647827148,
+          "max_y_m": 1728.93884277344,
+          "min_speed_mps": 77.2523040771484,
+          "min_y_m": 699.064697265625,
+          "pitch_over_15_s": 19.6666666666668,
+          "pitch_over_25_s": 9.45000000000005,
+          "safety": {
+            "normal": 240.000000000083
+          }
+        },
+        "us_air_3": {
+          "maneuvers": {
+            "climb_setup": 6.01666666666665,
+            "idle": 0.0166666666666667,
+            "track": 200.333333333385,
+            "vertical_rejoin": 33.6333333333327
+          },
+          "max_bank_deg": 69.9572176489692,
+          "max_down_deg": -12.9384055688054,
+          "max_load_g": 4.38456632653061,
+          "max_speed_mps": 135.990905761719,
+          "max_up_deg": 24.2936730905093,
+          "max_vertical_mps": 34.8240966796875,
+          "max_y_m": 1354.29736328125,
+          "min_speed_mps": 81.9979476928711,
+          "min_y_m": 747.819763183594,
+          "pitch_over_15_s": 6.59999999999998,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 240.000000000083
+          }
+        },
+        "us_air_4": {
+          "maneuvers": {
+            "high_cover": 151.81666666668,
+            "idle": 0.0166666666666667,
+            "track": 46.183333333332,
+            "vertical_rejoin": 41.9833333333322
+          },
+          "max_bank_deg": 69.9287974941547,
+          "max_down_deg": -11.2258901179013,
+          "max_load_g": 4.04793202302674,
+          "max_speed_mps": 115.912933349609,
+          "max_up_deg": 21.4003387008253,
+          "max_vertical_mps": 31.7074909210205,
+          "max_y_m": 1421.25268554688,
+          "min_speed_mps": 83.3691177368164,
+          "min_y_m": 911.144104003906,
+          "pitch_over_15_s": 7.06666666666665,
+          "pitch_over_25_s": 0.0,
+          "safety": {
+            "normal": 240.000000000083
+          }
+        }
+      }
+    },
+    "endings": {
+      "jp_air_1": {
+        "active": false,
+        "damage_phase": "removed",
+        "exit_reason": ""
+      },
+      "jp_air_2": {
+        "active": false,
+        "damage_phase": "operational",
+        "exit_reason": "ordered_retreat"
+      },
+      "jp_air_3": {
+        "active": false,
+        "damage_phase": "operational",
+        "exit_reason": "ordered_retreat"
+      },
+      "jp_air_4": {
+        "active": false,
+        "damage_phase": "operational",
+        "exit_reason": "ordered_retreat"
+      },
+      "us_air_1": {
+        "active": false,
+        "damage_phase": "removed",
+        "exit_reason": ""
+      },
+      "us_air_2": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_air_3": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      },
+      "us_air_4": {
+        "active": true,
+        "damage_phase": "operational",
+        "exit_reason": ""
+      }
+    }
+  }
+}

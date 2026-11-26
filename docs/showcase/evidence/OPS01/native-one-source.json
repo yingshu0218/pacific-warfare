@@ -1,0 +1,957 @@
+{
+  "recorded_utc": "2026-11-10T21:46:32.113869+00:00",
+  "files": {
+    "scripts/weapon_mount.gd": {
+      "sha256": "d6ed136f431571e8015b2d6d0679bdd704e8c65a61697cac64e7771bf6eb27eb",
+      "mtime_ns": 1793903553782903079
+    },
+    "scripts/ship_geometry.gd": {
+      "sha256": "851e631f6492523385336522c02e32addee6ef7640663ac905fb72e160369d6f",
+      "mtime_ns": 1794328393134944672
+    },
+    "scripts/main.gd": {
+      "sha256": "04cdf3d2152e3a92e5fd52592302b37ee690976164a3d285368f9f414679ca54",
+      "mtime_ns": 1793903569032402887
+    },
+    "scripts/naval_mount_study.gd": {
+      "sha256": "a793e4cb267364710f0b92e60af6a85444b1c01f4c424bbf302f8311e330c61e",
+      "mtime_ns": 1793871912097091182
+    },
+    "scripts/air_operations/carrier_operations.gd": {
+      "sha256": "b6588ecf80701d15c6c482db6f9ae9b20d3397ab2beae9ba4a5714db77dc31d8",
+      "mtime_ns": 1794347031765411278
+    },
+    "scripts/air_operations/flight_bridge.gd": {
+      "sha256": "f2333a4bc72d564f46805295795d9b552cf3d26555dc9c403db959e9d8ad927c",
+      "mtime_ns": 1794346478431561625
+    },
+    "scripts/air_operations/parameters.json": {
+      "sha256": "f2450a07565177dddd415a8b408dd7d2af47dc4a35ef9f5e3a2136efe4c3db9e",
+      "mtime_ns": 1794346107359937628
+    },
+    "scripts/air_operations/deck_geometry.gd": {
+      "sha256": "20b97b049e9b6a9f33c9117662d53d7316057672d460fa194710e564ceb3e517",
+      "mtime_ns": 1794346107334840756
+    },
+    "scripts/air_operations/deck_motion.gd": {
+      "sha256": "c194199de9f2db96cb02ddfcc4879ff5a3ea074617a3c72cb366e851f96dac27",
+      "mtime_ns": 1794346478451673547
+    },
+    "scripts/air_operations/task_bridge.gd": {
+      "sha256": "224aa5da8a581955e7244217de47d46dc39e7b1ce3936615651f6bcf9922b768",
+      "mtime_ns": 1794346107418620828
+    },
+    "scripts/map02/expanded_map_data.gd": {
+      "sha256": "26addcec3d15a79f11936c0cb2fbaad6373466575b32e617b739a1bdad58433e",
+      "mtime_ns": 1794343980104107108
+    },
+    "scripts/map02/map_inspector.gd": {
+      "sha256": "db4b9357fcc9ff9411b2136d6dede1997cf08ae2a416b42d87620d444a6f4393",
+      "mtime_ns": 1794344882150783522
+    },
+    "scripts/map02/expanded_map_view.gd": {
+      "sha256": "32096520c098a56c81ec9d9f1a29189539fbad075e01a64d6e1354d2f45d9b25",
+      "mtime_ns": 1794344634476429853
+    },
+    "scripts/mounts/japanese_92_model_f_tripod.gd": {
+      "sha256": "6273f26a2610706bb005b068898be293f8dcb22bb1fc819d4104dee6a545a00a",
+      "mtime_ns": 1793872190240540355
+    },
+    "scripts/mounts/type96_ship_twin_mount.gd": {
+      "sha256": "78e972175cf8724854e68d747b36f0084b8627f9b379820964c68d9fbf93547c",
+      "mtime_ns": 1793872477914815735
+    },
+    "scripts/ground/ground_tasks.gd": {
+      "sha256": "d8cf995903bc24281c29aa68b94547bfcbadf642e344b3c387ed4fc81524bf91",
+      "mtime_ns": 1794328046872369330
+    },
+    "scripts/ground/ground_suite.gd": {
+      "sha256": "b8aa7f0bb04bf8d4d73cdc8fef67ad62d301065b645357124ea527e0b571f195",
+      "mtime_ns": 1794327558309969258
+    },
+    "scripts/ground/ground_commander.gd": {
+      "sha256": "9617117b18ba10e9b8a21b268285bd24d6450a23abda74f27f8fe2e03531241a",
+      "mtime_ns": 1794327586181098600
+    },
+    "scripts/ground/ground_deployments.gd": {
+      "sha256": "4fc2d6acd74a422164f47833282ff6699755cfef7119045629582382cbdf2141",
+      "mtime_ns": 1794327558247260684
+    },
+    "scripts/ground/models/bofors_m1.gd": {
+      "sha256": "9891a3fb800b14ec05a87eadfff3ca88be729e0b159aaf54251eb456fe5ccb25",
+      "mtime_ns": 1794327719293187376
+    },
+    "scripts/ground/models/parts.gd": {
+      "sha256": "5d2f7a38c52a17c9259a90ecd73e7d1e047712730d9ab54988228bad7e307e93",
+      "mtime_ns": 1794326960203862557
+    },
+    "scripts/ground/models/ground_unit_model.gd": {
+      "sha256": "2fcb44f94f98754e2537b992651e6bf896936361088f4717805028f97a8d2760",
+      "mtime_ns": 1794326960213173318
+    },
+    "scripts/ground/models/shore_gun.gd": {
+      "sha256": "ebd7832675e870b3287480fa14f7519dc3add7692532852dad294252704b3115",
+      "mtime_ns": 1794326960206416799
+    },
+    "scripts/simulation/simulation_world.gd": {
+      "sha256": "5aa20ac066896ddab57e3dfbf6834b145316b98b6e69be3355604cc198706e58",
+      "mtime_ns": 1794346622288378760
+    },
+    "scripts/simulation/simulation_module.gd": {
+      "sha256": "454b564e35bfd86e8643bb3ac1d0d072a89d7eb3a816a489e949c4892c7af450",
+      "mtime_ns": 1794247391086795471
+    },
+    "scripts/simulation/weapons/combat_config.gd": {
+      "sha256": "234ce8322ea1bb61236a2153b592e7f261ff45976bba71484dd29149c1bfccff",
+      "mtime_ns": 1794327479270279825
+    },
+    "scripts/simulation/weapons/combat_suite.gd": {
+      "sha256": "c4299e5f0c89579eb7b4d4a978fce2e88cc5a89bb0bd9861777853d93bebe963",
+      "mtime_ns": 1794252805449874900
+    },
+    "scripts/simulation/weapons/combat_weapons.gd": {
+      "sha256": "beabd0771b357b84bf006898a3aba59acbc08fdf5d82a8d57cfbbfba9c5533b0",
+      "mtime_ns": 1794327989308700360
+    },
+    "scripts/simulation/state/battle_order.gd": {
+      "sha256": "bdcbba5681e0bb9d7116844dfa5974df421a1f2fab39ec7b1f4af51308cfb795",
+      "mtime_ns": 1794338823664488006
+    },
+    "scripts/simulation/state/sim_data.gd": {
+      "sha256": "a11cccce2c23cf09eb79d5f0f3fbe8c727726aa0cbc342338a9081010c7094fe",
+      "mtime_ns": 1794246758828552903
+    },
+    "scripts/simulation/state/unit_state.gd": {
+      "sha256": "f038041baa0c57f7cbd80a397e32f2e9554deefff4f0574fd9f48d25e30058a5",
+      "mtime_ns": 1794246758948468910
+    },
+    "scripts/simulation/state/battle_event.gd": {
+      "sha256": "9e3a3a039aef5377376344257023e5f2d03f99031c71bf1b6c4ab84f76471248",
+      "mtime_ns": 1794246759029190513
+    },
+    "scripts/simulation/state/scenario_definition.gd": {
+      "sha256": "ab221cd20b29f8ae0314daaca85d5c5a95f63f9dd66af3d12c585f8e6eb988e7",
+      "mtime_ns": 1794246758968701988
+    },
+    "scripts/simulation/state/weapon_state.gd": {
+      "sha256": "536cf587423a6cdd90ee4adddf96477b8011160640695e3b371f95c7e2d6657d",
+      "mtime_ns": 1794246758928293916
+    },
+    "scripts/simulation/state/ammo_definition.gd": {
+      "sha256": "badbb84917501ce4613c718dc53a65154e59ced89ed598895da4cbf3fb7d6cea",
+      "mtime_ns": 1794246758848040605
+    },
+    "scripts/simulation/state/mount_socket.gd": {
+      "sha256": "26d55e72ced1902eb9fd1f0975e3be6f00e96ca80d8898acc7d35f1b37ccef75",
+      "mtime_ns": 1794246758887650843
+    },
+    "scripts/simulation/state/definition_catalog.gd": {
+      "sha256": "b9e467756796528ca7c9883a22342bd0926034e86710728d66dc32a67903735f",
+      "mtime_ns": 1794346622264361044
+    },
+    "scripts/simulation/state/battle_command.gd": {
+      "sha256": "f09d61b2e83529f70ddab6d186e3f18489829d8a6bd9bd7e60dbc4526a016395",
+      "mtime_ns": 1794246759008600810
+    },
+    "scripts/simulation/state/weapon_definition.gd": {
+      "sha256": "4b7d8c6790a2958a69ac07deecfda545808b64334e074793fa4129aa547c24b0",
+      "mtime_ns": 1794246758867976766
+    },
+    "scripts/simulation/state/unit_definition.gd": {
+      "sha256": "3a50f2223d5c1c52fe592772605a90dd24601026fab5aabed429970850622d65",
+      "mtime_ns": 1794246758908787214
+    },
+    "scripts/simulation/aircraft_motion/aircraft_performance.gd": {
+      "sha256": "29294a4d57e1382e6f755c66988808e5db192d296dd00305bebc5deecab77713",
+      "mtime_ns": 1794253487990692649
+    },
+    "scripts/simulation/aircraft_motion/aircraft_motion.gd": {
+      "sha256": "92f6cbe23a808ba28e124b2deff9b301e785168fcb7dbc83aaafe9fe08af8c2a",
+      "mtime_ns": 1794330903908538588
+    },
+    "scripts/simulation/aircraft_motion/aircraft_flight_controller.gd": {
+      "sha256": "90f6af4332fb3113f43cb4a9a23b4f8d1b6211fd50f81a328a0d751c671fc210",
+      "mtime_ns": 1794317754033650278
+    },
+    "scripts/simulation/aircraft_motion/aircraft_flight_math.gd": {
+      "sha256": "2e5bd3d83f8d93f25411bb5cf79bd70e448acc3a05910dfce58270d3ba655c47",
+      "mtime_ns": 1794267919250664296
+    },
+    "scripts/simulation/terrain/terrain_queries.gd": {
+      "sha256": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868",
+      "mtime_ns": 1794293416173950923
+    },
+    "scripts/simulation/terrain/battlefield_terrain.gd": {
+      "sha256": "e107d851b6dd13b44babe41ade25254ccdcd545e35f826e5bcfeb0e2d05fcb60",
+      "mtime_ns": 1794292060099248187
+    },
+    "scripts/simulation/terrain/terrain_navigation.gd": {
+      "sha256": "da7d41539c07eeb51c7772bedef7b366c6755e95c3fc1f7c1455250561cf8a27",
+      "mtime_ns": 1794291392898704933
+    },
+    "scripts/simulation/projectiles/combat_projectiles.gd": {
+      "sha256": "ad3741f755823d14d602b14b12e1b72b50752c88aa04a1143cb459c21b5cde64",
+      "mtime_ns": 1794327479340027790
+    },
+    "scripts/simulation/damage/aircraft_damage_motion.gd": {
+      "sha256": "917103167a22a16e25e70c4ce65d8bbfc1b228461e9f0b2eea0d827de2ba4909",
+      "mtime_ns": 1794330995680351148
+    },
+    "scripts/simulation/damage/combat_damage.gd": {
+      "sha256": "10e7c121f1fa0ec50cc6fe7c98cc7cd8f8c3817a8cc12be8c0ad1ec14e511641",
+      "mtime_ns": 1794330995680770106
+    },
+    "scripts/simulation/collision/combat_presence.gd": {
+      "sha256": "921594ac08c46a2c4eedc7e27a0e0d941e2ea6d288f2faf1343e9be7fd62b25a",
+      "mtime_ns": 1794258002831406103
+    },
+    "scripts/simulation/collision/combat_frame.gd": {
+      "sha256": "49cf923ff5a6b972b958e8ec1ce30262d1fb20ebe86be07785b4d734144e06ba",
+      "mtime_ns": 1794330280495354478
+    },
+    "scripts/simulation/collision/combat_geometry.gd": {
+      "sha256": "26f30283de1b36028c8732fd933e7f52a727cc64f283f87ab140749aecbacdbc",
+      "mtime_ns": 1794251835576794429
+    },
+    "scripts/simulation/fire_control/combat_fire_control.gd": {
+      "sha256": "b74937991d9e733264fad77e3a023d5ffed42bdb9171abe71baf3903fad90763",
+      "mtime_ns": 1794254880023835484
+    },
+    "scripts/simulation/ship_motion/ship_motion.gd": {
+      "sha256": "5b9ed105f77ed688e2548bb28353b3a314b3fdc1df2f4b4b9431028369d796ff",
+      "mtime_ns": 1794291577816054508
+    },
+    "scripts/simulation/ship_motion/ship_navigation.gd": {
+      "sha256": "f2796cda09da2f1be891fa3351b57d4637e8aff8db8ca869c395b0d27280220b",
+      "mtime_ns": 1794255907228093651
+    },
+    "scripts/simulation/ship_motion/fleet_config.gd": {
+      "sha256": "b7065610682e2bf9e099da127371b66f18b6340564d1e5e8cc0008dd467945d5",
+      "mtime_ns": 1794255907204724981
+    },
+    "scripts/weapons/type96_twin_25mm.gd": {
+      "sha256": "a21aa5f7219052859f31ec2fe66ec9659f6ae6bd9d8ba1288aa5d2f5a6138f54",
+      "mtime_ns": 1793873615104911149
+    },
+    "scripts/weapons/type96_25mm_single.gd": {
+      "sha256": "fc0cd12780191e314419aa9e593224f20d991a572418623a9e2de51bd36580db",
+      "mtime_ns": 1793872445679536823
+    },
+    "scripts/weapons/navy_vickers_77mm.gd": {
+      "sha256": "cab69d97d33b602c64adbee40b95b98719eb869787e68a0c1977a8f193bdb592",
+      "mtime_ns": 1793873615102488033
+    },
+    "scripts/game/web_run_probe.gd": {
+      "sha256": "f7624e7d1aeb9af46d098003157079e33e6903c7024476b2d6208a18724b288f",
+      "mtime_ns": 1794345932162262653
+    },
+    "scripts/game/first_playable_session.gd": {
+      "sha256": "ffbc58e6f7684c201bb2a1c7a4013021ad665a1b86446117c2d50e1d2a235cbf",
+      "mtime_ns": 1794333113820040318
+    },
+    "scripts/game/first_playable.gd": {
+      "sha256": "f5c1a514032bef125bfcfa03397b9961441586524969c5dd2566fdae274e38a7",
+      "mtime_ns": 1794345932181380419
+    },
+    "scripts/behaviors/fleet_formations/fleet_formations.gd": {
+      "sha256": "8412dd834b2b7734561735de3151e9da6708ff044d26934ae53bad9c5f234f47",
+      "mtime_ns": 1794256148615678001
+    },
+    "scripts/behaviors/fleet_formations/fleet_suite.gd": {
+      "sha256": "c44149b9103bf1bde032cf553f78af910c85df82e47c5e9a1eb7cbf6df0b7030",
+      "mtime_ns": 1794257144936781739
+    },
+    "scripts/behaviors/fleet_formations/fleet_tasks.gd": {
+      "sha256": "f1b8ed5e0cec76d71ed67c90d014b133cc9ecd5c30923719b0c4c4c5fb9ac0e1",
+      "mtime_ns": 1794327479387188991
+    },
+    "scripts/behaviors/aircraft/aircraft_tasks.gd": {
+      "sha256": "e0e8ebf6f6fe25653072fb766105dea56a4f61eb926ff17f22e263889595e0ff",
+      "mtime_ns": 1794339356326019572
+    },
+    "scripts/behaviors/aircraft/air_combat_maneuvers.gd": {
+      "sha256": "1a3c0a7244ab07d070fbad70e005d6a5cfd750d139c4ac1c89812d12b2f43298",
+      "mtime_ns": 1794318709959316879
+    },
+    "scripts/behaviors/aircraft/aircraft_suite.gd": {
+      "sha256": "8bcfdb5b16bfb6f2dbbf50083b74960c1631592b9a945df9103cca067caa6b1e",
+      "mtime_ns": 1794253703055695331
+    },
+    "scripts/behaviors/aircraft/air_formations.gd": {
+      "sha256": "d6818882b5e905edf10e2a3db98e8e9bace1722f8b89f5f2f9573ccbde1e807c",
+      "mtime_ns": 1794292155456716140
+    },
+    "scripts/behaviors/aircraft/aircraft_training.gd": {
+      "sha256": "5183348ca5005a0adc3f5c5df7f44ba0d5d4bfb3dbd26c22a778625091c3271b",
+      "mtime_ns": 1794339880086824351
+    },
+    "scripts/behaviors/aircraft/air_combat_tactics.gd": {
+      "sha256": "a5293e6970553f42f38fc29c9bb466681e1ab3c4f4b6dc8a0b4a8204df9066c6",
+      "mtime_ns": 1794295554017853264
+    },
+    "scripts/naval/usn_bofors_40mm_quad_mk2_mod5.gd": {
+      "sha256": "4bfbcba8e9c04122eddcf359fe83a89b88b3d9ff903d75a943edc562539bf010",
+      "mtime_ns": 1793872912620568712
+    },
+    "scripts/naval/naval_machine_gun_visual_base.gd": {
+      "sha256": "ac53c7c1e135852566e330703afb96e7b49fda6b5978b04badebda343c1f3350",
+      "mtime_ns": 1793879506066442083
+    },
+    "scripts/naval/us_browning_50cal_m2hb.gd": {
+      "sha256": "b8f17ae0cbbf6c44ea75311ab400a055da54360118733f6ef581d034e5a2b126",
+      "mtime_ns": 1793879969368249400
+    },
+    "scripts/naval/audit_usn_bofors_40mm_quad.gd": {
+      "sha256": "0bd05f9054e409cf669e606725e67f3c4db5b3941080bc6020c23900d6335c4d",
+      "mtime_ns": 1793869957491149743
+    },
+    "scripts/naval/us_browning_30cal_m1917a1.gd": {
+      "sha256": "963119a358093fe996402038e28189dbb0eae7e840bf77943e35c2dddafc5e78",
+      "mtime_ns": 1793879969365201571
+    },
+    "scripts/naval/destroyers/equipment_module.gd": {
+      "sha256": "c132ba0f7257f7b9ab24c398f8c7549ce816f9cae8201846198d6fd6fbc69f34",
+      "mtime_ns": 1794251427454705261
+    },
+    "scripts/naval/destroyers/structure_module.gd": {
+      "sha256": "6b8b5b400fbe9f505e4216ac83f81c724b82bfc577a4a100d2d9c9e929dd8e93",
+      "mtime_ns": 1794251157305964638
+    },
+    "scripts/naval/destroyers/measure12.gdshader": {
+      "sha256": "e3e13d384071d914537ef0459780c995419b2bf66b0aeedb9345b6338472a8da",
+      "mtime_ns": 1794249476775738341
+    },
+    "scripts/naval/destroyers/weapon_module.gd": {
+      "sha256": "f5a13cec8dfac2144696f94fc8732f782e6eb7e9520396026439458b5aaf6d22",
+      "mtime_ns": 1794252746463017859
+    },
+    "scripts/naval/destroyers/mesh_tools.gd": {
+      "sha256": "ef447fdeb122230cbfd676da4b1e0d790744fdfb2210deb28d83d21bf8f70a45",
+      "mtime_ns": 1794252258640506885
+    },
+    "scripts/naval/destroyers/destroyer_adapter.gd": {
+      "sha256": "89bd07255ef237a91b77eaa8ed61dba89fbe1c8437839e7a7df08baa795d6770",
+      "mtime_ns": 1794249886254123285
+    },
+    "scripts/naval/destroyers/hull_module.gd": {
+      "sha256": "2db0881939615f250a7416b009f5010ef2eb67709827cd2b08a38c71f5bcde7b",
+      "mtime_ns": 1794251157283314009
+    },
+    "scripts/naval/weapons/turret_housing_module.gd": {
+      "sha256": "d92a0272baba449df0548e7d62e4f35071e356e19cdce4a4986d19eecb03dc18",
+      "mtime_ns": 1794249724021412224
+    },
+    "scripts/command/commander/fleet_commander.gd": {
+      "sha256": "7898b821a158179fcc150d1924961133a701acb9c9cd50cd847b4c74d6b0fc16",
+      "mtime_ns": 1794256249486578313
+    },
+    "scripts/command/commander/fleet_planner.gd": {
+      "sha256": "92fbd5129def083864d4b4a6fd55f8ef692bcf1d5de88f4d21213eb6325afdcb",
+      "mtime_ns": 1794327479410160252
+    },
+    "scripts/command/contacts/combat_contacts.gd": {
+      "sha256": "9eaeb6402a7d1e78a75003467158398da01e4bf13bfe3c1e8bd4186b9bea4d5d",
+      "mtime_ns": 1794327479295682143
+    },
+    "scripts/command/air_defence/combat_targeting.gd": {
+      "sha256": "5d7829a6a765484a527ad77a366c7bd97aa2b760db9ed6282acd8aa5b1474539",
+      "mtime_ns": 1794328046894105271
+    },
+    "scripts/showcase/all_units_showcase.gd": {
+      "sha256": "dba1d67092e0fdd12eec0611fd12f31a4455fa9e2be6e7234a29efcc54c0448a",
+      "mtime_ns": 1794343124820127426
+    },
+    "scripts/showcase/training_labels.gd": {
+      "sha256": "9ef61c1af237202a3aa778cfa8f6ebaa340deb9f4516f4932e771d62a01993c7",
+      "mtime_ns": 1794342040743428093
+    },
+    "scripts/showcase/weapon_gallery.gd": {
+      "sha256": "a1d8749931399e32ed6a1f886b18b1205f29c69d891af306e33f4f045ac8a26f",
+      "mtime_ns": 1794334917651588340
+    },
+    "scripts/showcase/sb2c_flight_adapter.gd": {
+      "sha256": "959aa7c3039be1fc34cbb2caa4c086fe2b0981857a7b9b911b19de90789d32b9",
+      "mtime_ns": 1794333447604782664
+    },
+    "scripts/showcase/sb2c_showcase_tasks.gd": {
+      "sha256": "7834b17cab1c6c10d488b8895fdec5a712c683c33e22a54a9472549ce616f226",
+      "mtime_ns": 1794333113839781382
+    },
+    "scripts/showcase/showcase_missions.gd": {
+      "sha256": "88e8e506db9cbd751d5adc287b827aea0bd610b794eeb4aafe3973a1186956e6",
+      "mtime_ns": 1794342232292302130
+    },
+    "scripts/showcase/showcase_guide.gd": {
+      "sha256": "0705163a124c82ff539f42730322b6124d9830ec134a90ed7d827ae50e00aed3",
+      "mtime_ns": 1794342854084786761
+    },
+    "scripts/presentation/ocean.gdshader": {
+      "sha256": "5afec338285da856563f79f94171dee6d5b974509e29682353d453724fc1e98a",
+      "mtime_ns": 1794327181146301631
+    },
+    "scripts/presentation/wake.gdshader": {
+      "sha256": "69830a5848b6e961102f718f668f65289c5ebdd90d20c413b94d76ccfd7d9ec7",
+      "mtime_ns": 1794257833098558713
+    },
+    "scripts/presentation/maps/island_harbor_view.gd": {
+      "sha256": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+      "mtime_ns": 1794293416174379635
+    },
+    "scripts/presentation/maps/shore.gdshader": {
+      "sha256": "f65ee9c017ef31542b56d24c03a64c4d6d0bd8399ea2790be48b3c791fc2758b",
+      "mtime_ns": 1794291711469768352
+    },
+    "scripts/presentation/models/static_model_batch.gd": {
+      "sha256": "1ca4f14e080aec8eab752b4addcef062c381615c207969bdc82a0733f37339c8",
+      "mtime_ns": 1794266987507224615
+    },
+    "scripts/presentation/models/visual_recoil.gd": {
+      "sha256": "30864b37619f78f12a8757449abbc5cfb90f9691b4ed89551390d34f243b4ae7",
+      "mtime_ns": 1794327479432211230
+    },
+    "scripts/presentation/models/yamato_deck_capture.gd": {
+      "sha256": "6766d5e73ddcf05d9539b98ccae380e5b3a4dfd0626c7deac01385ae5c7fa72a",
+      "mtime_ns": 1794328612853703205
+    },
+    "scripts/presentation/models/capital_ship_capture.gd": {
+      "sha256": "c55d0f680e377bd70cebe75719c1b7b5923a34839a3b261a170a0e9fdac28c33",
+      "mtime_ns": 1794249877654185329
+    },
+    "scripts/presentation/models/aircraft_adapter.gd": {
+      "sha256": "b2296abf3954029dd50ca087ff12e6fe91dee42541fe82fca00451b1f225e731",
+      "mtime_ns": 1794331437201389208
+    },
+    "scripts/presentation/models/capital_ship_adapter.gd": {
+      "sha256": "a873e4985d2fcf4d20275cd085609ac16ca9d96df6808c645cce4a67c485ef45",
+      "mtime_ns": 1794249156937719098
+    },
+    "scripts/presentation/cameras/observer_camera.gd": {
+      "sha256": "4338c76d65918af277d7486672a366a7c3821bbe50833c760e524a59ce6f8873",
+      "mtime_ns": 1794328643074201521
+    },
+    "scripts/presentation/environment/daylight_sky.gdshader": {
+      "sha256": "e42865c895ca22b54faf287eb46d51c7b0b504fb031eaa2fe4d19d6082ec1f72",
+      "mtime_ns": 1794324362599910816
+    },
+    "scripts/presentation/environment/cloud_sea_environment.gd": {
+      "sha256": "e4b34f4d36d07443d3752152316b0bed6dac53999a07f649817e1844e6c5f99e",
+      "mtime_ns": 1794327181167432602
+    },
+    "scripts/presentation/environment/generate_cloud_noise.gd": {
+      "sha256": "fe294ac1fe6025e3ac270755b7bbec3c60c55aa18208d15821838860528754ad",
+      "mtime_ns": 1794324628860215251
+    },
+    "scripts/presentation/effects/combat_effects.gd": {
+      "sha256": "d86d2a5c2e06d70154a8748581d438e6e39c67fb4726bb7a475b895cccdd5782",
+      "mtime_ns": 1794333336508679719
+    },
+    "scripts/presentation/effects/combat_audio_bank.gd": {
+      "sha256": "a00dc90ed2e6e4a08cd63c71e6d07312d6bebbcfd915b40025a9a55162370595",
+      "mtime_ns": 1794252639833032003
+    },
+    "scripts/presentation/effects/effect_surface.gdshader": {
+      "sha256": "aa49b8331d441a35a6f70f1e7dd7213f0b78c10a9da1146f58a998a7e6bb8300",
+      "mtime_ns": 1794333336489049287
+    },
+    "scripts/presentation/effects/combat_effect_geometry.gd": {
+      "sha256": "5605f2e511ab13723c20b0e22756814e7402683dc04264a97af03b7827b00ed7",
+      "mtime_ns": 1794329847045450472
+    },
+    "data/aft_bridge_geometry.json": {
+      "sha256": "381317c097c8c9f99459a669125cd032867234f12db90ce460645df9745448de",
+      "mtime_ns": 1793863953551767177
+    },
+    "data/shelter_deck.json": {
+      "sha256": "733965e366cc01c44597f9c5d6c0291e201b0a6df2ecb676e24a993731de72d8",
+      "mtime_ns": 1794249825483300168
+    },
+    "data/funnel_geometry.json": {
+      "sha256": "ccadf830ba0788dfbf8126b4f077f7902464547852f57c64b6f8e18145847688",
+      "mtime_ns": 1793866226745281240
+    },
+    "data/naval_mount_profiles.json": {
+      "sha256": "8a49ea716fab31dc129514363df75701b2f8ee999bdc4c08a9083d06e9148193",
+      "mtime_ns": 1793872234549661121
+    },
+    "data/hull_stations.json": {
+      "sha256": "df5cab4bae464735d45e1e19b6a2bc9dbddc45b75951222a74df767d8e56e4dc",
+      "mtime_ns": 1794328393215099720
+    },
+    "data/naval_weapon_profiles.json": {
+      "sha256": "8bc58fb477470969ec0addc32c0950bb8ae6181607fbcf449df51938199bf604",
+      "mtime_ns": 1793872710965141888
+    },
+    "data/yamato_1944_mounts.json": {
+      "sha256": "dce0e5b9bbb16cacd43ec85e29031346c77ac897a1a0867c1171a52aa00f6c14",
+      "mtime_ns": 1794328543851585544
+    },
+    "data/bridge_geometry.json": {
+      "sha256": "05006ed80f29529207b0c78858616566015a143a937f37f5e7e4d6631b192bb5",
+      "mtime_ns": 1794248195597434559
+    },
+    "data/weapon_profiles.json": {
+      "sha256": "ccd5d113456c1049e33ba77b5ae2bca984f0c95c817ff3d62c966756f1951448",
+      "mtime_ns": 1793902287295178638
+    },
+    "data/maps/island_harbor_expanded.json": {
+      "sha256": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
+      "mtime_ns": 1794345340720614992
+    },
+    "data/maps/island_harbor.json": {
+      "sha256": "6327c444e480e19be73bdbe75cc0b90e31f974c5ec2fcf765a5926d7a70f6678",
+      "mtime_ns": 1794293958356241000
+    },
+    "data/map02/regions.json": {
+      "sha256": "9001179a2e2c48774c4c62d8afecc2e10d131d5a717a045b42742d77056d5816",
+      "mtime_ns": 1794345340716562981
+    },
+    "data/map02/facility_modules.json": {
+      "sha256": "309bfd9e68a57ebf18cedcec9d856168bfb8ee1173736d3373ef67fcaff86067",
+      "mtime_ns": 1794345340715497728
+    },
+    "data/map02/facility_instances.json": {
+      "sha256": "bb18af465c9ac043dc29db3492790e373645d908d24f224b43721e0188a7f745",
+      "mtime_ns": 1794345340716261647
+    },
+    "data/ships/fletcher_dd445/assembly.json": {
+      "sha256": "55db7b2bab2f8dd67888ba7dca445a2406f7597d22d0349617ad58693a066246",
+      "mtime_ns": 1794252360142684166
+    },
+    "data/ships/yukikaze/assembly.json": {
+      "sha256": "7f7b8cb1077a9d544d355ad0c710d33dd3f1fc25d1c66dd8b198a1dc6a4ce94b",
+      "mtime_ns": 1794252360144110385
+    },
+    "data/aircraft/performance.json": {
+      "sha256": "58b024812d96856901a90c4a06c941f34349e45adea50e8f7feb36b75aed89cb",
+      "mtime_ns": 1794343320364932620
+    },
+    "data/combat/s14_sb2c.json": {
+      "sha256": "169ca7a8fe9ae36e974adf1d439d33c4dad3f0ad7dd2c8b0960d6536683e502e",
+      "mtime_ns": 1794343320365148829
+    },
+    "data/combat/showcase.json": {
+      "sha256": "8ada05c1cfb762c3d967aeb7df23da6efbc5a194c8be0f1ece18ad89b7c3e275",
+      "mtime_ns": 1794330573202399027
+    },
+    "data/ground/models.json": {
+      "sha256": "2593e93d534011504406fc782d7b6a72e9d4c8fe50c9609747e84449088ce502",
+      "mtime_ns": 1794327719293504918
+    },
+    "data/units/us_5in51_mk13mod4_1945.json": {
+      "sha256": "7e7ac1b4b0132b7354d43cf93ebe845b3b0042392f85f0f23e742c50a5b4eb63",
+      "mtime_ns": 1794327719387899857
+    },
+    "data/units/us_f6f5_1944.json": {
+      "sha256": "74eacb1d1ec2ece8b1ef2a6fbc585556876915d0bf678c96a1ffb0d48444d734",
+      "mtime_ns": 1794253832087696366
+    },
+    "data/units/us_iowa_bb61_1944_12_28.json": {
+      "sha256": "6f786350a51d3e41a7ed4306fdb2acd334ccdbc902b109a82ddef147a9f0962f",
+      "mtime_ns": 1794249923650040101
+    },
+    "data/units/jp_yamato_1944_04.json": {
+      "sha256": "251d67eeb4c5abf4cece3cc2ea75f3523ab81e78a35447f34e1197630022b44d",
+      "mtime_ns": 1794249923609238542
+    },
+    "data/units/us_sb2c4_1944.json": {
+      "sha256": "03d2340ec91f4ef65fc0e2d6bf76c8200b5d32c92b2e0797b8d6bd6bd3c9733a",
+      "mtime_ns": 1794343320364458036
+    },
+    "data/units/us_fletcher_dd445_1942_07_18.json": {
+      "sha256": "780ee4afd859fc318e38b5833d500e46694dff233b2a7927088d63c672af3048",
+      "mtime_ns": 1794252360143125336
+    },
+    "data/units/jp_a6m5a_1944.json": {
+      "sha256": "c54709cc15211cdc43cdb25b7215ccabffb169a9c62176c2880f5d74a62b9f8f",
+      "mtime_ns": 1794253832087303484
+    },
+    "data/units/us_40mm_m1_m2a1_1944.json": {
+      "sha256": "bc5a35ce9c112c89a218f20d6b8b0a281daaa64921cb600314d373d49bd8df32",
+      "mtime_ns": 1794327719388283982
+    },
+    "data/units/jp_yukikaze_1942_06.json": {
+      "sha256": "7521baa56e70a267c8a16372e3cf236af0292c7dbd146ca0e3c613372baac617",
+      "mtime_ns": 1794252360144432637
+    },
+    "data/units/weapons/jp_type97_77mm_single.json": {
+      "sha256": "202105eaf426289880ab5e79121791853f8c821d9b51b5ea0cfce4311dbdf713",
+      "mtime_ns": 1794253832088048455
+    },
+    "data/units/weapons/jp_type99_2_model4_20mm_single.json": {
+      "sha256": "6da133cdcf55fded5825ac4ca90c780dc6b21efbc3f5d40033957000291b3f4a",
+      "mtime_ns": 1794253832088309168
+    },
+    "data/units/weapons/us_40mm_m1_m2a1_single.json": {
+      "sha256": "f4ee553aa22facb51c1277b532092590fb6c4a913c5fab172f93ef5469326cf6",
+      "mtime_ns": 1794327719388355816
+    },
+    "data/units/weapons/us_an_m2_127mm_single.json": {
+      "sha256": "d03be2a1ebced436d243addb66a3db043e3cea086c7b94fe168b1b6fcff5da65",
+      "mtime_ns": 1794248128187922928
+    },
+    "data/units/weapons/us_5in51_mk8_mk13_single.json": {
+      "sha256": "6a37cd4863d644a39a7506a078bd0635280f86d0ee439791f3c8b9266542f8ab",
+      "mtime_ns": 1794327719388061357
+    },
+    "data/scenarios/s14_four.json": {
+      "sha256": "f62c86a7d898d07155a1a2c7c7fc3b6f7a7d703bb81f2b1db30de27e6bb0face",
+      "mtime_ns": 1794343320355537681
+    },
+    "data/scenarios/s14_train_jp_split_s.json": {
+      "sha256": "1fca4127cd161e147fcce27293565ff1c3b90caee39e2537826ea5efe724f142",
+      "mtime_ns": 1794343320364060243
+    },
+    "data/scenarios/s14_train_jp_roll_reversal.json": {
+      "sha256": "d7d7ed3bed60c56785a674391d0f3485d2c2b4e34e317e9a9b8eeb239752f435",
+      "mtime_ns": 1794343320363321700
+    },
+    "data/scenarios/s14_pair.json": {
+      "sha256": "16989aab524c86557021e05acea69e891a72593d58c95865899a842e4de0dae4",
+      "mtime_ns": 1794343320354989138
+    },
+    "data/scenarios/s14_train_us_bank_turn.json": {
+      "sha256": "12cb66b7569ac3008dd88611b1d0bc3b917a5b90a8625fcb5c6960f655a0388e",
+      "mtime_ns": 1794343320358029271
+    },
+    "data/scenarios/s14_train_us_roll_reversal.json": {
+      "sha256": "72fe9a475dcffd2682cfb9cda9a0480d56604356e390b8b965da7690b1b62e8b",
+      "mtime_ns": 1794343320360454193
+    },
+    "data/scenarios/s14_train_jp_axial_roll.json": {
+      "sha256": "e2309d3a0ac2d2dd75e10efa06591d2237989cc6512fd35df0f076eb496680fc",
+      "mtime_ns": 1794343320362781198
+    },
+    "data/scenarios/s14_train_jp_climb_dive.json": {
+      "sha256": "ae403d3c3316ae312781e5f7920c5fb5f0d06dfe4e9dd612acad78b09b87ed2b",
+      "mtime_ns": 1794343320362196572
+    },
+    "data/scenarios/s14_train_us_split_s.json": {
+      "sha256": "a5c61ed35047f1ddf8c6b0f53e788849e3fbc418ae6dd4b1e3efde88d0111af9",
+      "mtime_ns": 1794343320360982778
+    },
+    "data/scenarios/s14_guided.json": {
+      "sha256": "91e1c52ae51722e3d7abdc75e72651603f23993a1e8590c9690a6fc7057bd647",
+      "mtime_ns": 1794343320354336595
+    },
+    "data/scenarios/island_harbor_defence.json": {
+      "sha256": "310559a833c4199f290c0bc630754f06cf53c48da946558dce4c15f99f8e1d56",
+      "mtime_ns": 1794327652404263917
+    },
+    "data/scenarios/s14_escort.json": {
+      "sha256": "eb0d9078199beddbc9e2d4d3c633180cdcd5a94886246ce5c59e5580fb8310a4",
+      "mtime_ns": 1794343320356616059
+    },
+    "data/scenarios/s14_train_us_climb_dive.json": {
+      "sha256": "5807c643cf40a37044bb440a251c91c34a0d28569570d061d6d73455ee7926c2",
+      "mtime_ns": 1794343320358967856
+    },
+    "data/scenarios/s14_fire.json": {
+      "sha256": "2c483ec80aee25e6fc5e8e271be43385a7d18b41f75abcffcdae2872ee2bca43",
+      "mtime_ns": 1794343320357118102
+    },
+    "data/scenarios/first_playable.json": {
+      "sha256": "9d54380fcc11038a662617809b1c8705b6ec27d8cd3f0f872db7e410a79bff03",
+      "mtime_ns": 1794257710380553294
+    },
+    "data/scenarios/s14_train_us_axial_roll.json": {
+      "sha256": "69b68e6824a1ccdf8504046fe93d71d5f1acc665d04539ad042907759185cc4a",
+      "mtime_ns": 1794343320359770233
+    },
+    "data/scenarios/s14_train_jp_bank_turn.json": {
+      "sha256": "7b12869d738e452bb5e26a0608eda7b354d1f0194149d8e51b34b4c68fbc0936",
+      "mtime_ns": 1794343320361530612
+    },
+    "data/scenarios/s14_maneuver.json": {
+      "sha256": "2deeef987e723ba4ac7ac441ebdbca51adfd6f5a706c6cf85c03de9af64adcd2",
+      "mtime_ns": 1794343320356030141
+    },
+    "data/scenarios/island_harbor.json": {
+      "sha256": "cf085a3498863dce1f38bcfa62af7fa275328f34285e1d3cb272ff4f6026efac",
+      "mtime_ns": 1794291440200436735
+    },
+    "data/naval/weapons/usn_bofors_40mm/mark2_mod5.json": {
+      "sha256": "b4fd7a9cca9c5d69ec164561aaeeb871caf81a8bd9f5021ce4fccac9366e69c8",
+      "mtime_ns": 1793870269658676945
+    },
+    "data/naval/weapons/us_browning_50cal/m2hb.json": {
+      "sha256": "e653f16a03dc34ded90488e5bb9b3f71536f1ebe5d9c7ce3c62b3b758134bf20",
+      "mtime_ns": 1793879969371237997
+    },
+    "data/naval/weapons/us_browning_30cal/m1917a1.json": {
+      "sha256": "79c544701884cf21259ba25b42191287b856221693f777566f3e1ccd3ed988e4",
+      "mtime_ns": 1793879969368570505
+    },
+    "data/fleet/showcase.json": {
+      "sha256": "071906d76a6aaab610d5c4793b918fa49c697bd0aa26ecd785049cafd6d19c7b",
+      "mtime_ns": 1794255801529865758
+    },
+    "data/ammunition/jp_127mm_type89_shell.json": {
+      "sha256": "c2ba8b0f8d6878161fb9563c68a33230a668d7ef3af260dbb249611a092e6420",
+      "mtime_ns": 1794249226519439234
+    },
+    "data/ammunition/s10_us_127mm_51_common_mk15.json": {
+      "sha256": "55b78ebbb61d29011e8e8abc7a13f6f55dc437f1922f0f3cb3551306c94e42e4",
+      "mtime_ns": 1794327719388166232
+    },
+    "data/ammunition/jp_155mm_shell.json": {
+      "sha256": "cf7a8ddb8eb0f4283d72b96ace59197ebbc52125fa8f55ac769f01695b65c71d",
+      "mtime_ns": 1794247085301529047
+    },
+    "data/ammunition/jp_13mm_type93_ball.json": {
+      "sha256": "24a90ca338939f9f7abf2913c2c69dcb9c11b84f4075fb01a28dd38f18fb38c7",
+      "mtime_ns": 1794249226519630610
+    },
+    "data/ammunition/jp_77mm_type97_ball.json": {
+      "sha256": "231edffe52a5a1ab9a3502750167767b3f2512c2c4984d2c9e58bfb884f7f739",
+      "mtime_ns": 1794253691090829761
+    },
+    "data/ammunition/us_20mm_oerlikon_shell.json": {
+      "sha256": "67a72a77690406d008e33fa1035fdef3be7c809e20bfd04ce7c266d3cfb3d541",
+      "mtime_ns": 1794249226520016737
+    },
+    "data/ammunition/us_127mm_m2_ball.json": {
+      "sha256": "6304064c6d140e10c389bbddd251580ef4a89dd6d2f5adb45d5ffc1881a50fb2",
+      "mtime_ns": 1794247085301637589
+    },
+    "data/ammunition/us_127mm_5in38_shell.json": {
+      "sha256": "de7e6b5e81e2e1d7bd6532fc6b9dce4db4fb3aadf0938c27d55b4258543c2c9e",
+      "mtime_ns": 1794249226519779569
+    },
+    "data/ammunition/s03_us_127mm_mk32_common.json": {
+      "sha256": "4583172dec93f7df46b09b4f63fb19bb381622bc19fed23c7c6140c9e08c2002",
+      "mtime_ns": 1794252360141328739
+    },
+    "data/ammunition/s03_us_20mm_mk3_he.json": {
+      "sha256": "c8b57e5d6c262b1b60b36c8129f15ca870ff93f23864a0b7ba281ac632f45a3f",
+      "mtime_ns": 1794252360141451615
+    },
+    "data/ammunition/s03_jp_25mm_type96_he.json": {
+      "sha256": "b347866af0527266050f2311f2f32be4ea84b718a8f26af2dddf6cd6ee719adb",
+      "mtime_ns": 1794252360141611908
+    },
+    "data/ammunition/us_40mm_bofors_shell.json": {
+      "sha256": "d096f091606e794ea439c5eabb91dd69624ba245acc70ef4390269d6990a0a94",
+      "mtime_ns": 1794249226519851153
+    },
+    "data/ammunition/jp_20mm_type99_2_shell.json": {
+      "sha256": "a3a7c1f25b1b748c223d7e27da9a56c9bb298b014a21164abf287db514e4a019",
+      "mtime_ns": 1794253691091025014
+    },
+    "data/ammunition/s03_us_28mm_mk1_he.json": {
+      "sha256": "76d5621df249de79671db2bb04b6528fbbdd23377451e5ccaf6b13392be3d78c",
+      "mtime_ns": 1794252360141392115
+    },
+    "data/ammunition/us_406mm_mk8_ap.json": {
+      "sha256": "f1541e5e53a4f5bc7d623d877cc4fa90db4b581ae4f853e910707dd3a385fd11",
+      "mtime_ns": 1794249226519707152
+    },
+    "data/ammunition/jp_25mm_type96_shell.json": {
+      "sha256": "c4c94a80b884ebc10968536b9fc4670998c3be306acdf333696d10045f3e7ea5",
+      "mtime_ns": 1794249226519538318
+    },
+    "data/ammunition/s03_jp_127mm_type1_common.json": {
+      "sha256": "e35ef0b05f6319837e161789c111d3466cd03d47ef589929683345b53c58a43c",
+      "mtime_ns": 1794252360141511282
+    },
+    "data/ammunition/jp_460mm_ap.json": {
+      "sha256": "aba8d10aaacef37994c89669c7b93e5f098579eab8c6fd27fa51b361f7d2375c",
+      "mtime_ns": 1794247085301315088
+    },
+    "data/ammunition/s10_us_40mm_mkii_het_sd.json": {
+      "sha256": "3e969f837fe91768531a003d91dc8a4acba08af2088979d6c4766e83488dcc2e",
+      "mtime_ns": 1794327719388422774
+    },
+    "aircraft/models/a6m5_52ko.gd": {
+      "sha256": "c0d1ae2ee4dbbf421e702fb8b243e5fba56a4934f1809413d52aa75d053f3890",
+      "mtime_ns": 1794330128428936532
+    },
+    "aircraft/models/f6f5.gd": {
+      "sha256": "4adf827e37e5e032db3a783ca08bd44bd2da0375ab2316db5935920cbb03b5c7",
+      "mtime_ns": 1794330128428113532
+    },
+    "aircraft/scripts/aircraft_builder.gd": {
+      "sha256": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+      "mtime_ns": 1794337019347140541
+    },
+    "aircraft/scripts/aircraft_viewer.gd": {
+      "sha256": "90c6412e91a6ca89aa4704d85a5012c759fcbb1867f9c57a8230a71d63571deb",
+      "mtime_ns": 1793813722830867528
+    },
+    "aircraft/scenes/f6f5.tscn": {
+      "sha256": "bb4e4a4bc8ae51d7fc5c09818d4ba44c3012710f09ff94c445d55366a93c51da",
+      "mtime_ns": 1793811401224971312
+    },
+    "aircraft/scenes/a6m5_52ko.tscn": {
+      "sha256": "856c133b6a3cad97810a99989e4f7aafab8deaa3beea702aaab86e9256b5fd23",
+      "mtime_ns": 1793811401224768103
+    },
+    "aircraft/scenes/aircraft_viewer.tscn": {
+      "sha256": "b52605526d46be4334e48d7c138d99db3d84a5f92fae7c4864e6c22ff6ff7b5e",
+      "mtime_ns": 1793811631742526456
+    },
+    "naval/essex_cv9_1944_04_15/geometry.gd": {
+      "sha256": "ccdf77846c0eeedf26723ad25b0a0b78abcc38b30593252adbe5bfea2b45ed46",
+      "mtime_ns": 1794342330664525608
+    },
+    "naval/essex_cv9_1944_04_15/measure32.gdshader": {
+      "sha256": "161a56b560db4dc5793121bcd9f979c367df3939b76dbf297d161827f4d16bef",
+      "mtime_ns": 1794339639082712117
+    },
+    "naval/essex_cv9_1944_04_15/essex.gd": {
+      "sha256": "b0e158c8e154bbbab1671c2f73d40528949a6a59d7b64c111e85f08602cb842a",
+      "mtime_ns": 1794340347061520115
+    },
+    "naval/essex_cv9_1944_04_15/essex.tscn": {
+      "sha256": "c3c7a2da49104932b2b98b356c14bee5fe6006655bc8fcdadc45e58fe68abbaa",
+      "mtime_ns": 1794342898966022950
+    },
+    "naval/essex_cv9_1944_04_15/weapons/mk24.tscn": {
+      "sha256": "723cbd51218f18871849995e7b91044d933b7b04647fba4d4d8a1de24936bfe6",
+      "mtime_ns": 1794342898965973032
+    },
+    "naval/essex_cv9_1944_04_15/weapons/mk32.tscn": {
+      "sha256": "97de13f113e94d02820f340c182a0f9bd9097561c61607d42a3e2f2f5c9ab43e",
+      "mtime_ns": 1794342898965920030
+    },
+    "naval/essex_cv9_1944_04_15/weapons/five_inch.gd": {
+      "sha256": "73f07b53de00c0d59e95f0baae5848b3fb8515d2a8ae7608fedd1693f42808c9",
+      "mtime_ns": 1794340687130892291
+    },
+    "naval/essex_cv9_1944_04_15/inspection/inspection.gd": {
+      "sha256": "46bdff872d55076494e70d373d80a090042463d5d3b445ba7e20c780d71b9c0a",
+      "mtime_ns": 1794341505419304718
+    },
+    "naval/essex_cv9_1944_04_15/inspection/deck_fixtures.gd": {
+      "sha256": "5002c6748c768ecae5667e26232b35c31a369c07369fabf159aca4303dc9ca96",
+      "mtime_ns": 1794340347062428200
+    },
+    "naval/essex_cv9_1944_04_15/inspection/inspection.tscn": {
+      "sha256": "6076b0d78961f704889fb13310beb654d4291da5dbfbf7471884f6735f0c519f",
+      "mtime_ns": 1794340118450743642
+    },
+    "naval/essex_cv9_1944_04_15/inspection/test_essex.gd": {
+      "sha256": "7837f1a268264ce524f1753e00f3b17b4f97cef2fb5f67ea8b55a276adb79327",
+      "mtime_ns": 1794342330665099439
+    },
+    "naval/essex_cv9_1944_04_15/modules/island.gd": {
+      "sha256": "948efac03ebb8c3800ae9c88f224d8adab804c71363222c5bc6e3e7a20a3630e",
+      "mtime_ns": 1794341505417650472
+    },
+    "naval/essex_cv9_1944_04_15/modules/flight_deck.gd": {
+      "sha256": "133acfd03a3c7a3b16c0980581b6fee992072f58cd03f776fee936a4d9354e18",
+      "mtime_ns": 1794340347062792200
+    },
+    "naval/essex_cv9_1944_04_15/modules/hull.tscn": {
+      "sha256": "d10a2209168176b420add5aaaac152f22d9a5a56fad3cbcf6b34e02dff62a1a2",
+      "mtime_ns": 1794342898965533808
+    },
+    "naval/essex_cv9_1944_04_15/modules/hangar.gd": {
+      "sha256": "acadaa79b82b5ff2a1d440eec9af3921946fcf92d943908a42ad48e8f0d8ef33",
+      "mtime_ns": 1794342330664860815
+    },
+    "naval/essex_cv9_1944_04_15/modules/platforms.gd": {
+      "sha256": "a4230990430a6aa824bab392d71c81309b0299739b60ce0ee8925725c12f7e57",
+      "mtime_ns": 1794340347063198159
+    },
+    "naval/essex_cv9_1944_04_15/modules/equipment.tscn": {
+      "sha256": "f87fb6149aa5f4f4a77a768f799a08ed2464bb5932e2f4146e8545c8f87011bb",
+      "mtime_ns": 1794342898965861195
+    },
+    "naval/essex_cv9_1944_04_15/modules/equipment.gd": {
+      "sha256": "ca3cb5474e5578d827a94c33c3973674bd60898103eed1521f3242991c43a297",
+      "mtime_ns": 1794341715578597345
+    },
+    "naval/essex_cv9_1944_04_15/modules/hangar.tscn": {
+      "sha256": "8f2f6181a081a91ba913d0e8b7b45692bee8ac3613a6ed9256ed434a88fb562b",
+      "mtime_ns": 1794342898965602394
+    },
+    "naval/essex_cv9_1944_04_15/modules/hull.gd": {
+      "sha256": "2d5ba4a164ae64e3c8e931c15f3ef98f5639c46dcab4ac14bbe4a11467f53e54",
+      "mtime_ns": 1794342330664215110
+    },
+    "naval/essex_cv9_1944_04_15/modules/island.tscn": {
+      "sha256": "f7f7ea17dfd33b1aec8d4a827e36ee8c21a7236eca6ca9bd6ccbbe185a643e4d",
+      "mtime_ns": 1794342898965739940
+    },
+    "naval/essex_cv9_1944_04_15/modules/flight_deck.tscn": {
+      "sha256": "9173ea5c3295023171390627a583c5e17bd569c96091c23af848ffbd141cb772",
+      "mtime_ns": 1794342898965662854
+    },
+    "naval/essex_cv9_1944_04_15/modules/platforms.tscn": {
+      "sha256": "f63732b00edc0817b1f36617ad1394c83f73e123565c793044b83906a46e4fe0",
+      "mtime_ns": 1794342898965804151
+    },
+    "naval/essex_cv9_1944_04_15/data/assembly.json": {
+      "sha256": "51c2d5da6e177471b4aae39b861fa8c379a920825a064b48090d707e497bd73e",
+      "mtime_ns": 1794342898965203421
+    },
+    "naval/essex_cv9_1944_04_15/data/deck.json": {
+      "sha256": "66d8e58ac758a381ce937467b88241789a49b4a9f49dab96f2529ece11e3c199",
+      "mtime_ns": 1794342898964679944
+    },
+    "assets/naval/weapons/usn_bofors_40mm/mark2_mod5/usn_bofors_40mm_quad_mk2_mod5.tscn": {
+      "sha256": "80788b70a79137863adc6d486e5df6a11958aa4016d6675a5da17cf698c14222",
+      "mtime_ns": 1793869838281457785
+    },
+    "assets/naval/weapons/usn_bofors_40mm/mark2_mod5/preview/preview.gd": {
+      "sha256": "18e13ee494b14906d9b573518a5433e65ec03e23d1fe50c870ff3c08b5a2f90e",
+      "mtime_ns": 1793870169455700829
+    },
+    "assets/naval/weapons/usn_bofors_40mm/mark2_mod5/preview/preview.tscn": {
+      "sha256": "893e5a81d23145cec397c5cc024ebdd29c428cf13fec1ec590d51074d2734ca4",
+      "mtime_ns": 1793869838282185284
+    },
+    "scenes/ships/destroyer_modules/jp_127mm_type_c.tscn": {
+      "sha256": "1cee2caa827684c2f89e6cf36e09b453c050b27f1bb1e63c503588594a95da10",
+      "mtime_ns": 1794252360141198655
+    },
+    "scenes/ships/destroyer_modules/jp_type96_twin.tscn": {
+      "sha256": "050263e5dc63a768123c6d7d089c43a26a81f391abfcbcd7f41c330f4121c379",
+      "mtime_ns": 1794252360141252988
+    },
+    "scenes/ships/destroyer_modules/us_5in38_mk30.tscn": {
+      "sha256": "f3b3776faf4972fe81b342b6fe4ab28c2aa24bd29a40c1637fc2b386581bc9cb",
+      "mtime_ns": 1794252360140917403
+    },
+    "scenes/ships/destroyer_modules/us_oerlikon_single.tscn": {
+      "sha256": "5ea812079fe0cc4a81b4b437b23434b89954ae46f13ea0bdae3bc5c5cf1cbfa1",
+      "mtime_ns": 1794252360141063070
+    },
+    "scenes/ships/destroyer_modules/us_11in_quad.tscn": {
+      "sha256": "1f489a175f40842107aac2c0b657ab940b84bca4df3e4767a4596e83d30de34c",
+      "mtime_ns": 1794252360141007278
+    },
+    "tests/air_operations/inspection.gd": {
+      "sha256": "fc85d660e643235e0da2d0c4c838a77d5889a22b1ee94cf9a4407ce0c9e4c269",
+      "mtime_ns": 1794347031805201085
+    },
+    "tests/air_operations/capture.gd": {
+      "sha256": "3565a5cbbbb4b11a80db94dc611b1c1ac05804bc96179b57cacd94a2e32c4cbc",
+      "mtime_ns": 1794346894286555014
+    },
+    "tests/air_operations/test_cycle.gd": {
+      "sha256": "66bb77872adb9eb191d8672f59bb8493d33c27092edb73b2cac8e77da89e8981",
+      "mtime_ns": 1794347031785302203
+    },
+    "tests/air_operations/aircraft_visual.gd": {
+      "sha256": "6042f9128f011dff6751a5734963711350e02d23236e523ca64883387d671bc1",
+      "mtime_ns": 1794346894229710755
+    },
+    "tests/air_operations/inspection.tscn": {
+      "sha256": "bbde896570ac6b56c2edd0b4eca28793cfd6e770ee07fefbd8efe325158ebe5a",
+      "mtime_ns": 1794346894268062951
+    },
+    "tests/air_operations/fixture.gd": {
+      "sha256": "b3f3141f213c7f3156e861598e6d957080f05498e30b46f89a3a32e088fb064a",
+      "mtime_ns": 1794346693147806949
+    },
+    "tests/air_operations/test_operations.gd": {
+      "sha256": "98cfb8d2bb0559667da993d0892f9497be77b72e01363cb1d65f467a295a0282",
+      "mtime_ns": 1794346693169850606
+    },
+    "tests/air_operations/trace_second.gd": {
+      "sha256": "cb813cb15d615fa7226eaf804432e2f44cf13477072a29395919c09ad60e098a",
+      "mtime_ns": 1794346748538807276
+    }
+  }
+}

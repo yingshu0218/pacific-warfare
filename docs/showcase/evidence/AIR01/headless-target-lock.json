@@ -1,0 +1,830 @@
+{
+	"aircraft_lock_rejections": [
+		{
+			"reason": "invalid_enemy_target",
+			"s": 56.0166666666667,
+			"target_id": "jp_g4m_1",
+			"unit_id": "us_air_2"
+		}
+	],
+	"bomb_contacts": {
+		"projectile_00000613": {
+			"id": "jp_g4m_1",
+			"s": 64.6,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000616": {
+			"id": "jp_g4m_1",
+			"s": 64.85,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000617": {
+			"id": "jp_g4m_1",
+			"s": 65.1,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000618": {
+			"id": "jp_g4m_1",
+			"s": 65.35,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000625": {
+			"id": "jp_g4m_2",
+			"s": 65.5333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000626": {
+			"id": "jp_g4m_1",
+			"s": 65.6,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000627": {
+			"id": "jp_g4m_2",
+			"s": 65.7833333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000628": {
+			"id": "jp_g4m_1",
+			"s": 65.85,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000630": {
+			"id": "jp_g4m_2",
+			"s": 66.0333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000631": {
+			"id": "jp_g4m_1",
+			"s": 66.1,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000632": {
+			"id": "jp_g4m_2",
+			"s": 66.2833333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000633": {
+			"id": "jp_g4m_1",
+			"s": 66.35,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000634": {
+			"id": "jp_g4m_2",
+			"s": 66.5333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000635": {
+			"id": "jp_g4m_1",
+			"s": 66.6,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000639": {
+			"id": "jp_g4m_2",
+			"s": 66.7833333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000640": {
+			"id": "jp_g4m_1",
+			"s": 66.85,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000641": {
+			"id": "jp_g4m_2",
+			"s": 67.0333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000642": {
+			"id": "jp_g4m_1",
+			"s": 67.1,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000643": {
+			"id": "jp_g4m_2",
+			"s": 67.2833333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000644": {
+			"id": "jp_g4m_1",
+			"s": 67.35,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000645": {
+			"id": "jp_g4m_2",
+			"s": 67.5333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000648": {
+			"id": "jp_g4m_2",
+			"s": 67.7833333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000649": {
+			"id": "jp_g4m_2",
+			"s": 68.0333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000650": {
+			"id": "jp_g4m_2",
+			"s": 68.2833333333333,
+			"surface": "ground",
+			"target": "main"
+		}
+	},
+	"bomb_explosions": {
+		"projectile_00000613": {
+			"id": "jp_g4m_1",
+			"s": 64.6,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000616": {
+			"id": "jp_g4m_1",
+			"s": 64.85,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000617": {
+			"id": "jp_g4m_1",
+			"s": 65.1,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000618": {
+			"id": "jp_g4m_1",
+			"s": 65.35,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000625": {
+			"id": "jp_g4m_2",
+			"s": 65.5333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000626": {
+			"id": "jp_g4m_1",
+			"s": 65.6,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000627": {
+			"id": "jp_g4m_2",
+			"s": 65.7833333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000628": {
+			"id": "jp_g4m_1",
+			"s": 65.85,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000630": {
+			"id": "jp_g4m_2",
+			"s": 66.0333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000631": {
+			"id": "jp_g4m_1",
+			"s": 66.1,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000632": {
+			"id": "jp_g4m_2",
+			"s": 66.2833333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000633": {
+			"id": "jp_g4m_1",
+			"s": 66.35,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000634": {
+			"id": "jp_g4m_2",
+			"s": 66.5333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000635": {
+			"id": "jp_g4m_1",
+			"s": 66.6,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000639": {
+			"id": "jp_g4m_2",
+			"s": 66.7833333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000640": {
+			"id": "jp_g4m_1",
+			"s": 66.85,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000641": {
+			"id": "jp_g4m_2",
+			"s": 67.0333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000642": {
+			"id": "jp_g4m_1",
+			"s": 67.1,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000643": {
+			"id": "jp_g4m_2",
+			"s": 67.2833333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000644": {
+			"id": "jp_g4m_1",
+			"s": 67.35,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000645": {
+			"id": "jp_g4m_2",
+			"s": 67.5333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000648": {
+			"id": "jp_g4m_2",
+			"s": 67.7833333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000649": {
+			"id": "jp_g4m_2",
+			"s": 68.0333333333333,
+			"surface": "ground",
+			"target": "main"
+		},
+		"projectile_00000650": {
+			"id": "jp_g4m_2",
+			"s": 68.2833333333333,
+			"surface": "ground",
+			"target": "main"
+		}
+	},
+	"bomb_releases": {
+		"projectile_00000613": {
+			"id": "jp_g4m_1",
+			"s": 44.7166666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000616": {
+			"id": "jp_g4m_1",
+			"s": 44.9666666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000617": {
+			"id": "jp_g4m_1",
+			"s": 45.2166666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000618": {
+			"id": "jp_g4m_1",
+			"s": 45.4666666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000625": {
+			"id": "jp_g4m_2",
+			"s": 45.65,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000626": {
+			"id": "jp_g4m_1",
+			"s": 45.7166666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000627": {
+			"id": "jp_g4m_2",
+			"s": 45.9,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000628": {
+			"id": "jp_g4m_1",
+			"s": 45.9666666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000630": {
+			"id": "jp_g4m_2",
+			"s": 46.15,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000631": {
+			"id": "jp_g4m_1",
+			"s": 46.2166666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000632": {
+			"id": "jp_g4m_2",
+			"s": 46.4,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000633": {
+			"id": "jp_g4m_1",
+			"s": 46.4666666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000634": {
+			"id": "jp_g4m_2",
+			"s": 46.65,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000635": {
+			"id": "jp_g4m_1",
+			"s": 46.7166666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000639": {
+			"id": "jp_g4m_2",
+			"s": 46.9,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000640": {
+			"id": "jp_g4m_1",
+			"s": 46.9666666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000641": {
+			"id": "jp_g4m_2",
+			"s": 47.15,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000642": {
+			"id": "jp_g4m_1",
+			"s": 47.2166666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000643": {
+			"id": "jp_g4m_2",
+			"s": 47.4,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000644": {
+			"id": "jp_g4m_1",
+			"s": 47.4666666666667,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000645": {
+			"id": "jp_g4m_2",
+			"s": 47.65,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000648": {
+			"id": "jp_g4m_2",
+			"s": 47.9,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000649": {
+			"id": "jp_g4m_2",
+			"s": 48.15,
+			"surface": "",
+			"target": ""
+		},
+		"projectile_00000650": {
+			"id": "jp_g4m_2",
+			"s": 48.4,
+			"surface": "",
+			"target": ""
+		}
+	},
+	"covered": {
+		"bomb_explosion": {
+			"kind": "bomb_explosion",
+			"label": "炸弹弹着",
+			"s": 64.6166666666667,
+			"sequence": 2477,
+			"source": "",
+			"subject": "",
+			"target": "",
+			"visible_opponent": false,
+			"visible_subject": false
+		},
+		"bomb_released": {
+			"kind": "bomb_released",
+			"label": "炸弹离架",
+			"s": 45.3833333333333,
+			"sequence": 1919,
+			"source": "jp_g4m_1",
+			"subject": "jp_g4m_1",
+			"target": "",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		"bomber_intercept": {
+			"kind": "bomber_intercept",
+			"label": "战斗机拦截轰炸机",
+			"s": 0.0166666666666667,
+			"sequence": 0,
+			"source": "jp_air_1",
+			"subject": "us_b25_1",
+			"target": "us_b25_1",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		"bomber_intercept_fire": {
+			"kind": "bomber_intercept",
+			"label": "战斗机拦截轰炸机",
+			"s": 10.05,
+			"sequence": 563,
+			"source": "jp_air_1",
+			"subject": "jp_air_1",
+			"target": "us_b25_1",
+			"visible_opponent": true,
+			"visible_subject": true
+		},
+		"bombing_run": {
+			"kind": "bombing_run",
+			"label": "轰炸编队",
+			"s": 2.51666666666667,
+			"sequence": 0,
+			"source": "jp_g4m_1",
+			"subject": "jp_g4m_1",
+			"target": "",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		"fighter_dogfight": {
+			"kind": "fighter_dogfight",
+			"label": "战斗机狗斗",
+			"s": 5.01666666666667,
+			"sequence": 0,
+			"source": "jp_air_3",
+			"subject": "jp_air_3",
+			"target": "us_air_3",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		"fighter_dogfight_fire": {
+			"kind": "fighter_dogfight",
+			"label": "战斗机狗斗",
+			"s": 7.51666666666667,
+			"sequence": 326,
+			"source": "us_air_3",
+			"subject": "us_air_3",
+			"target": "jp_air_3",
+			"visible_opponent": true,
+			"visible_subject": true
+		},
+		"surface_gunnery": {
+			"kind": "surface_gunnery",
+			"label": "主炮射击",
+			"s": 13.0833333333333,
+			"sequence": 583,
+			"source": "jp_bb",
+			"subject": "jp_bb",
+			"target": "us_bb",
+			"visible_opponent": false,
+			"visible_subject": true
+		}
+	},
+	"cuts": [
+		{
+			"kind": "bomber_intercept",
+			"label": "战斗机拦截轰炸机",
+			"s": 0.0166666666666667,
+			"sequence": 0,
+			"source": "jp_air_1",
+			"subject": "us_b25_1",
+			"target": "us_b25_1",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		{
+			"kind": "bombing_run",
+			"label": "轰炸编队",
+			"s": 2.51666666666667,
+			"sequence": 0,
+			"source": "jp_g4m_1",
+			"subject": "jp_g4m_1",
+			"target": "",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		{
+			"kind": "fighter_dogfight",
+			"label": "战斗机狗斗",
+			"s": 5.01666666666667,
+			"sequence": 0,
+			"source": "jp_air_3",
+			"subject": "jp_air_3",
+			"target": "us_air_3",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		{
+			"kind": "fighter_dogfight",
+			"label": "战斗机狗斗",
+			"s": 7.51666666666667,
+			"sequence": 326,
+			"source": "us_air_3",
+			"subject": "us_air_3",
+			"target": "jp_air_3",
+			"visible_opponent": true,
+			"visible_subject": true
+		},
+		{
+			"kind": "bomber_intercept",
+			"label": "战斗机拦截轰炸机",
+			"s": 10.05,
+			"sequence": 563,
+			"source": "jp_air_1",
+			"subject": "jp_air_1",
+			"target": "us_b25_1",
+			"visible_opponent": true,
+			"visible_subject": true
+		},
+		{
+			"kind": "surface_gunnery",
+			"label": "主炮射击",
+			"s": 13.0833333333333,
+			"sequence": 583,
+			"source": "jp_bb",
+			"subject": "jp_bb",
+			"target": "us_bb",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		{
+			"kind": "bomber_intercept",
+			"label": "战斗机拦截轰炸机",
+			"s": 22.1166666666667,
+			"sequence": 0,
+			"source": "us_air_1",
+			"subject": "jp_g4m_2",
+			"target": "jp_g4m_2",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		{
+			"kind": "fired",
+			"label": "主炮射击",
+			"s": 27.1166666666667,
+			"sequence": 1531,
+			"source": "us_dd",
+			"subject": "us_dd",
+			"target": "jp_dd",
+			"visible_opponent": true,
+			"visible_subject": true
+		},
+		{
+			"kind": "bomber_intercept",
+			"label": "战斗机拦截轰炸机",
+			"s": 34.35,
+			"sequence": 1691,
+			"source": "us_air_2",
+			"subject": "us_air_2",
+			"target": "jp_g4m_1",
+			"visible_opponent": true,
+			"visible_subject": true
+		},
+		{
+			"kind": "fighter_dogfight",
+			"label": "战斗机狗斗",
+			"s": 39.8833333333333,
+			"sequence": 0,
+			"source": "jp_air_4",
+			"subject": "jp_air_4",
+			"target": "us_air_3",
+			"visible_opponent": true,
+			"visible_subject": true
+		},
+		{
+			"kind": "fired",
+			"label": "主炮射击",
+			"s": 42.8833333333333,
+			"sequence": 1873,
+			"source": "us_dd",
+			"subject": "us_dd",
+			"target": "jp_bb",
+			"visible_opponent": true,
+			"visible_subject": true
+		},
+		{
+			"kind": "bomb_released",
+			"label": "炸弹离架",
+			"s": 45.3833333333333,
+			"sequence": 1919,
+			"source": "jp_g4m_1",
+			"subject": "jp_g4m_1",
+			"target": "",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		{
+			"kind": "bomber_intercept",
+			"label": "战斗机拦截轰炸机",
+			"s": 50.9166666666667,
+			"sequence": 0,
+			"source": "us_air_1",
+			"subject": "jp_g4m_2",
+			"target": "jp_g4m_2",
+			"visible_opponent": true,
+			"visible_subject": true
+		},
+		{
+			"kind": "fighter_dogfight",
+			"label": "战斗机狗斗",
+			"s": 56.45,
+			"sequence": 0,
+			"source": "jp_air_4",
+			"subject": "jp_air_4",
+			"target": "us_air_3",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		{
+			"kind": "surface_gunnery",
+			"label": "主炮射击",
+			"s": 59.45,
+			"sequence": 2300,
+			"source": "jp_bb",
+			"subject": "jp_bb",
+			"target": "us_bb",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		{
+			"kind": "bomb_explosion",
+			"label": "炸弹弹着",
+			"s": 64.6166666666667,
+			"sequence": 2477,
+			"source": "",
+			"subject": "",
+			"target": "",
+			"visible_opponent": false,
+			"visible_subject": false
+		},
+		{
+			"kind": "bomber_intercept",
+			"label": "战斗机拦截轰炸机",
+			"s": 70.15,
+			"sequence": 0,
+			"source": "us_air_1",
+			"subject": "jp_g4m_2",
+			"target": "jp_g4m_2",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		{
+			"kind": "fired",
+			"label": "主炮射击",
+			"s": 73.45,
+			"sequence": 2719,
+			"source": "us_dd",
+			"subject": "us_dd",
+			"target": "jp_bb",
+			"visible_opponent": true,
+			"visible_subject": true
+		},
+		{
+			"kind": "surface_gunnery",
+			"label": "主炮射击",
+			"s": 80.5833333333333,
+			"sequence": 2860,
+			"source": "jp_bb",
+			"subject": "jp_bb",
+			"target": "us_bb",
+			"visible_opponent": false,
+			"visible_subject": true
+		},
+		{
+			"kind": "fighter_dogfight",
+			"label": "战斗机狗斗",
+			"s": 86.85,
+			"sequence": 3003,
+			"source": "jp_air_4",
+			"subject": "jp_air_4",
+			"target": "us_air_3",
+			"visible_opponent": true,
+			"visible_subject": true
+		}
+	],
+	"exercise": "harbor",
+	"failures": [],
+	"gunfire": {
+		"fighter_bomber": {
+			"count": 208,
+			"first_s": 9.63333333333333,
+			"pairs": {
+				"jp_air_1>us_b25_1": 106,
+				"jp_air_2>us_b25_2": 90,
+				"us_air_2>jp_g4m_1": 12
+			}
+		},
+		"fighter_fighter": {
+			"count": 196,
+			"first_s": 7.2,
+			"pairs": {
+				"jp_air_4>us_air_3": 13,
+				"us_air_3>jp_air_3": 84,
+				"us_air_3>jp_air_4": 15,
+				"us_air_4>jp_air_3": 84
+			}
+		},
+		"jp_surface": {
+			"count": 21,
+			"first_s": 10.5666666666667,
+			"pairs": {
+				"jp_bb>us_bb": 21
+			}
+		},
+		"us_surface": {
+			"count": 137,
+			"first_s": 2.85,
+			"pairs": {
+				"us_bb>jp_bb": 27,
+				"us_dd>jp_bb": 75,
+				"us_dd>jp_dd": 35
+			}
+		}
+	},
+	"maneuvers": {
+		"jp": {
+			"bank_rad": 1.4098687171936,
+			"phases": {
+				"climb_setup": true,
+				"dive_attack": true,
+				"oblique_extend": true,
+				"track": true,
+				"zoom_climb": true
+			},
+			"pitch_rad": 0.674881100654602,
+			"turn_rad": 0.392358630413909,
+			"vertical_mps": 59.0872650146484
+		},
+		"us": {
+			"bank_rad": 1.86140668392181,
+			"phases": {
+				"climb_setup": true,
+				"dive_attack": true,
+				"oblique_extend": true,
+				"roll_reversal_pull": true,
+				"roll_reversal_roll": true,
+				"track": true,
+				"zoom_climb": true
+			},
+			"pitch_rad": 0.484279870986938,
+			"turn_rad": 0.365384450605564,
+			"vertical_mps": 56.5830459594727
+		}
+	},
+	"matching_bomb_contacts": 24
+}

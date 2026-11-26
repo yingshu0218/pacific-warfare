@@ -1,0 +1,17 @@
+--- S14_R8/scripts/showcase/expansion/carrier_tasks.gd
++++ combined/scripts/showcase/expansion/carrier_tasks.gd
+@@ -1,4 +1,4 @@
+-extends "res://scripts/air_operations/task_bridge.gd"
++extends "res://scripts/bombing/ops_task_bridge.gd"
+ 
+ ## The accepted bridge remains the sole aircraft task executor. This adds the
+ ## production admission boundary and preserves the existing SB2C navigation.
+@@ -7,7 +7,7 @@
+ 	var starts_parked: bool = false
+ 	for id: String in unit_ids:
+ 		var unit: UnitState = world.get_unit(id)
+-		if unit.definition_id == "us_sb2c4_1944" and order.order_type not in ["patrol","regroup","retreat"]:
++		if unit.definition_id == "us_sb2c4_1944" and order.order_type not in ["patrol","regroup","retreat","bombing"]:
+ 			return {"accepted":false,"reason":"sb2c_showcase_navigation_only"}
+ 		if operations.roster.has(id) and operations.roster[id].on_deck: starts_parked = true
+ 	if starts_parked and order.order_type == "patrol":

@@ -1,0 +1,142 @@
+[
+  {
+    "path": "docs/showcase/deliveries/FX01.md",
+    "sha256": "0027da44e6e602124df5475f5ce0c27b68ebcd8af9436c9bcd25f3f5fe0ff781",
+    "bytes": 10422
+  },
+  {
+    "path": "docs/showcase/fx01-effects-contracts.md",
+    "sha256": "e8d049e6721416e81006184744b5ba750c47abadbb0d4a81e9cd7253c10818c1",
+    "bytes": 4707
+  },
+  {
+    "path": "scripts/presentation/effects/combat_effect_geometry.gd",
+    "sha256": "5605f2e511ab13723c20b0e22756814e7402683dc04264a97af03b7827b00ed7",
+    "bytes": 2316
+  },
+  {
+    "path": "scripts/presentation/effects/combat_effect_geometry.gd.uid",
+    "sha256": "f8d4aa517e7fb3b675306f074dc8609522b27cae7f9c5c54a2612a090b40c662",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/presentation/effects/combat_effects.gd",
+    "sha256": "d86d2a5c2e06d70154a8748581d438e6e39c67fb4726bb7a475b895cccdd5782",
+    "bytes": 19330
+  },
+  {
+    "path": "scripts/presentation/effects/effect_surface.gdshader",
+    "sha256": "aa49b8331d441a35a6f70f1e7dd7213f0b78c10a9da1146f58a998a7e6bb8300",
+    "bytes": 3021
+  },
+  {
+    "path": "scripts/presentation/effects/effect_surface.gdshader.uid",
+    "sha256": "d208dc2545da719090e72a10e337ba13fbfab327ff3c5fb840c241aab4a48859",
+    "bytes": 19
+  },
+  {
+    "path": "tests/fixtures/fx01_demo.gd",
+    "sha256": "1216b254b247549ff2471f077b5db5d3ffe80d4bae44979751127a2676f93a3b",
+    "bytes": 5698
+  },
+  {
+    "path": "tests/fixtures/fx01_demo.gd.uid",
+    "sha256": "64707fec9efdef532ca1648cf0aeceaf850fc65cdc177d15123022fd494e3030",
+    "bytes": 20
+  },
+  {
+    "path": "tests/fixtures/fx01_legacy_effects.gd",
+    "sha256": "ba641ba45b4a080b5d769c46d10f68c3dcada2e3f1d3e5bb169686053d2aa08a",
+    "bytes": 11434
+  },
+  {
+    "path": "tests/fixtures/fx01_legacy_effects.gd.uid",
+    "sha256": "7f5ecf67f2d3f006febe1ec932bc7128c6be1e38fd91bc6a4c62fdd51a75d608",
+    "bytes": 20
+  },
+  {
+    "path": "tests/fixtures/fx01_runtime_fixture.gd",
+    "sha256": "83af827af0a97f2c29bdfb2c3b568018f1972e792cc504e936321adcc56a938d",
+    "bytes": 1707
+  },
+  {
+    "path": "tests/fx01_capture.gd",
+    "sha256": "a537c9493b54eede87e312b6a93a0f5a970e5bfa09fd6c062bf54037aeb4506f",
+    "bytes": 3771
+  },
+  {
+    "path": "tests/fx01_capture.gd.uid",
+    "sha256": "8e856d5cceccb28e62584465487dab4c07d7c1a715058aedda051a372748a2ed",
+    "bytes": 20
+  },
+  {
+    "path": "tests/fx01_surface_debug.gd",
+    "sha256": "657c1d90219cc546486609184b7b41636c401e3b834edfbe7b100d0745657af8",
+    "bytes": 2595
+  },
+  {
+    "path": "tests/fx01_surface_debug.gd.uid",
+    "sha256": "a5157132b44ee02b636f5b8d31392d53df79a23931bb10f0e8f5b9f1775630f9",
+    "bytes": 20
+  },
+  {
+    "path": "tests/fx01_web_probe.gd",
+    "sha256": "23aa2f3917db9a07a708c246bb3646ecb79a750399b687a507e57a2d563b9695",
+    "bytes": 3915
+  },
+  {
+    "path": "tests/fx01_web_probe.gd.uid",
+    "sha256": "47917a7eed61ae8c7977acda2fe1731c13c1d3b1b90e9962cb93bbd09d41a8c8",
+    "bytes": 20
+  },
+  {
+    "path": "tests/scenes/fx01_web.tscn",
+    "sha256": "9fda4c76ba911260c302a72a624a64ce5dee3039e1eb1676db3551a9baa6ffe6",
+    "bytes": 187
+  },
+  {
+    "path": "tests/test_fx01_effects.gd",
+    "sha256": "d3910978cd6635687571470ad1bf1995f3ed50c3568691b8c77e36d87722fdd0",
+    "bytes": 15954
+  },
+  {
+    "path": "tests/test_fx01_effects.gd.uid",
+    "sha256": "72136c958ae668bf1b633e10438be5276b5cc59332223532bef84bfc38967872",
+    "bytes": 20
+  },
+  {
+    "path": "tools/fx01/build_web.py",
+    "sha256": "4a214af430d1d98815b9cd9b25a6ccf5f616ff4edf35897aa730ea174afb6132",
+    "bytes": 4301
+  },
+  {
+    "path": "tools/fx01/capture_pair.py",
+    "sha256": "ed9a0d16b374252dc0d9cc7b8c1eece72233d84cddf4607e0078f39f4b26290b",
+    "bytes": 1994
+  },
+  {
+    "path": "tools/fx01/chrome_check.mjs",
+    "sha256": "cb54ed1c014a1af8f55e8ba3dc7aeca8ad36e4ec3b19b60815c31eb92f8fee77",
+    "bytes": 11533
+  },
+  {
+    "path": "tools/fx01/encode.py",
+    "sha256": "e5d7c47fbeaa9c5fe83e0f432f2b721b1223dc7ad94538f0e14d5406e7f2aa7a",
+    "bytes": 1034
+  },
+  {
+    "path": "tools/fx01/finalize.py",
+    "sha256": "01c0a7de8bcab4fb32a5a6b85f6005a96c46fc0217b6eee40d6c22d58fd79ad7",
+    "bytes": 5871
+  },
+  {
+    "path": "tools/fx01/measure.js",
+    "sha256": "838d44809c1d50a8db531a0c96383ce0fc038deccbec8a5ece38bda6aa6b5126",
+    "bytes": 675
+  },
+  {
+    "path": "tools/fx01/sync_owned.py",
+    "sha256": "8593d8d84dd4b6ae820c803ebad37c320499af3aa53ce8935ada1d0cb95bc77f",
+    "bytes": 634
+  }
+]

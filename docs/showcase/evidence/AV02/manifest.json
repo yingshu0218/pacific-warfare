@@ -1,0 +1,434 @@
+{
+  "owner": "AV02",
+  "generated_utc": "2026-11-11T11:37:39.657918+00:00",
+  "source_files": {
+    "aircraft/d4y2/README.md": {
+      "sha256": "7e4393e4faec7746e28e5e262b75043bded30f9cca0f4940d76d3078b7cf93c9",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/aircraft/d4y2/README.md",
+      "bytes": 4380
+    },
+    "aircraft/d4y2/d4y2.gd": {
+      "sha256": "dcf01b49745b93fb1c3737823e355a2b4bf3d607f216e8ac43035809d821bcbf",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/aircraft/d4y2/d4y2.gd",
+      "bytes": 24395
+    },
+    "aircraft/d4y2/d4y2.tscn": {
+      "sha256": "1aec207948554659ca836fc1262e85a038a03304c4fcf978a5bc6c0a21fb42b2",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/aircraft/d4y2/d4y2.tscn",
+      "bytes": 181
+    },
+    "aircraft/d4y2/data/interfaces.json": {
+      "sha256": "b3439b390cfe2c05f0d8b5cbd432bd1910ae00d1ed2b55e6e84702d1ad0a1cb8",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/aircraft/d4y2/data/interfaces.json",
+      "bytes": 20354
+    },
+    "aircraft/d4y2/data/proposal.json": {
+      "sha256": "ddcea4653f71835f51681ef631a2be474f55ab203bdbde9749f266985ed319ab",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/aircraft/d4y2/data/proposal.json",
+      "bytes": 4272
+    },
+    "aircraft/d4y2/geometry.gd": {
+      "sha256": "2cc47571421744c2fe8f49d18b810f3d4b76ee20a5c18428c57408ce539a74be",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/aircraft/d4y2/geometry.gd",
+      "bytes": 8822
+    },
+    "aircraft/d4y2/inspection.gd": {
+      "sha256": "8664d156cfc7df463cf174f1dccb85d3d19fc58fd49484459ced1667aefe7451",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/aircraft/d4y2/inspection.gd",
+      "bytes": 7981
+    },
+    "aircraft/d4y2/inspection.tscn": {
+      "sha256": "acc9e5def5dd1c63f5008c2c728e4dc9db1e65367ca176840459d39de84fd920",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/aircraft/d4y2/inspection.tscn",
+      "bytes": 182
+    },
+    "docs/carrier-deck-contracts.md": {
+      "sha256": "68cec6ef49f5624ac16f38e2313848d83343329e56dda5ff66d58b918f6ea761",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/docs/carrier-deck-contracts.md",
+      "bytes": 4008
+    },
+    "docs/references/aircraft/d4y2_1944/modeling-brief.md": {
+      "sha256": "a7cb5d667500a453b575242b60066bb29589ec688e3cb0843485dbf7d89a27b7",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/docs/references/aircraft/d4y2_1944/modeling-brief.md",
+      "bytes": 6512
+    },
+    "docs/references/aircraft/d4y2_1944/sources.json": {
+      "sha256": "ac7d931829ee876b081b85450d65b890e943fc22a8e87d6eb4a0476677d41028",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/docs/references/aircraft/d4y2_1944/sources.json",
+      "bytes": 16870
+    },
+    "docs/showcase/deliveries/AV02.md": {
+      "sha256": "a8c842016fcc2704897c99f8c56ba62a8029860948d1ddf64ede2b46e4fc525a",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/docs/showcase/deliveries/AV02.md",
+      "bytes": 8254
+    },
+    "naval/shokaku_1941_08_23/data/assembly.json": {
+      "sha256": "d052a7692e79a114e5acc0d0fc0f4aee8bc4f451f82344ad725839daeda6d2fb",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/data/assembly.json",
+      "bytes": 13169
+    },
+    "naval/shokaku_1941_08_23/data/deck.json": {
+      "sha256": "5e02881d24f0700e8710128aee65875fdcc0301714c0d5aedde0a087ffb00cd3",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/data/deck.json",
+      "bytes": 21747
+    },
+    "naval/shokaku_1941_08_23/data/unit_candidate.json": {
+      "sha256": "50d4f73fd4d5cd4b94d5f9f7996d54a94d35c9fec46176695b06ac9c21a60177",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/data/unit_candidate.json",
+      "bytes": 595
+    },
+    "naval/shokaku_1941_08_23/geometry.gd": {
+      "sha256": "4c4166404de2531a0f7e232fa3ce7ce84d05283a971f62eb28ffb9cfa2da86eb",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/geometry.gd",
+      "bytes": 6914
+    },
+    "naval/shokaku_1941_08_23/inspection/deck_fixtures.gd": {
+      "sha256": "7599f3de9a927edf1bfc2f8689cbce35c45c5d7733014429b74af37afb53a169",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/inspection/deck_fixtures.gd",
+      "bytes": 4357
+    },
+    "naval/shokaku_1941_08_23/inspection/inspection.gd": {
+      "sha256": "b46009898b0f26af63d3f0ff7db056f886e303d99a6ddf95f1bd7eac2b4c9de1",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/inspection/inspection.gd",
+      "bytes": 8980
+    },
+    "naval/shokaku_1941_08_23/inspection/inspection.tscn": {
+      "sha256": "cb8d8782af598e472f776bbd6e1c673ca049319712e5fb7fd69449c54e47e11c",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/inspection/inspection.tscn",
+      "bytes": 208
+    },
+    "naval/shokaku_1941_08_23/inspection/test_shokaku.gd": {
+      "sha256": "7d9d7b3dbb397f6e1d9d26cd0f71db68ebf3632c3298870492f5dadc78b84a93",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/inspection/test_shokaku.gd",
+      "bytes": 11119
+    },
+    "naval/shokaku_1941_08_23/modules/equipment.gd": {
+      "sha256": "59edec4a1ba1dd25d31d5494329cffd6a1c41656ac2d0cb3818d94baae3738d3",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/equipment.gd",
+      "bytes": 1430
+    },
+    "naval/shokaku_1941_08_23/modules/equipment.tscn": {
+      "sha256": "a76d54c3c9c52b4ee2f6705c90fe5b6f6fd60bb333e7a5578004d06797d9b2b2",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/equipment.tscn",
+      "bytes": 194
+    },
+    "naval/shokaku_1941_08_23/modules/flight_deck.gd": {
+      "sha256": "9a0b80f8975a444ac46840b150348d306a1c9174a9e89d520038e7bce8c1fe44",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/flight_deck.gd",
+      "bytes": 4326
+    },
+    "naval/shokaku_1941_08_23/modules/flight_deck.tscn": {
+      "sha256": "f3da6ae7969bab44cf1d731d13e48f60890712f8846286e5a7733e6d842c3412",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/flight_deck.tscn",
+      "bytes": 197
+    },
+    "naval/shokaku_1941_08_23/modules/funnels.gd": {
+      "sha256": "89842df8bbc6470060aa4c293eecdbcb4869a13367886d857d041d03f7b9c8c3",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/funnels.gd",
+      "bytes": 1570
+    },
+    "naval/shokaku_1941_08_23/modules/funnels.tscn": {
+      "sha256": "01a2971c6f6337564d5f790dcb151f43a661b456f08c233a618c8a004b0c27c5",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/funnels.tscn",
+      "bytes": 190
+    },
+    "naval/shokaku_1941_08_23/modules/hangar.gd": {
+      "sha256": "415572dc8ecd7f4d54e275290c3e2916a5db974958aba9a8708c1cbdc775e948",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/hangar.gd",
+      "bytes": 2464
+    },
+    "naval/shokaku_1941_08_23/modules/hangar.tscn": {
+      "sha256": "fcd07d3d9b24c22d35f62a02bbd29ffaf4d33cf6025268ba4ab1feb116269876",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/hangar.tscn",
+      "bytes": 188
+    },
+    "naval/shokaku_1941_08_23/modules/hull.gd": {
+      "sha256": "0b0ae92bc78749520a159cd696f0049c711337a164a6922ff6c42dbd320afdda",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/hull.gd",
+      "bytes": 3461
+    },
+    "naval/shokaku_1941_08_23/modules/hull.tscn": {
+      "sha256": "fde99250123cad4cee3e18f243b5eb8219e4783cf5d57235c06f3f5d487ed22a",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/hull.tscn",
+      "bytes": 184
+    },
+    "naval/shokaku_1941_08_23/modules/island.gd": {
+      "sha256": "81ad0ab28c57018690830440a4093b415151a1711327b204e07e889894d1ee74",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/island.gd",
+      "bytes": 2549
+    },
+    "naval/shokaku_1941_08_23/modules/island.tscn": {
+      "sha256": "61e5e979220655bd2759f89dbde3f4a8f4249901797beffde30b93fc4d9280c3",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/island.tscn",
+      "bytes": 188
+    },
+    "naval/shokaku_1941_08_23/modules/platforms.gd": {
+      "sha256": "63d2b1653aa3f31ab0a38ae1947ff4da6a88293edc004030971e78ef45c4c7c1",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/platforms.gd",
+      "bytes": 1954
+    },
+    "naval/shokaku_1941_08_23/modules/platforms.tscn": {
+      "sha256": "ca397b54c348a96021df566220e7156ab5046d6d8191f4b5a0af5d687bef0ad3",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/modules/platforms.tscn",
+      "bytes": 194
+    },
+    "naval/shokaku_1941_08_23/shokaku.gd": {
+      "sha256": "bb037e5a6a9afad14cb1dfab41fcbb882d6b1f7aaa6b625890fe7767a7c53361",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/shokaku.gd",
+      "bytes": 6337
+    },
+    "naval/shokaku_1941_08_23/shokaku.tscn": {
+      "sha256": "d510ed9d7d9a1171f8504efdbd06735ac86eb2a344dc99f9b1f2872ff18504fa",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/shokaku.tscn",
+      "bytes": 190
+    },
+    "naval/shokaku_1941_08_23/weapons/type89.gd": {
+      "sha256": "9b8417235e127355de6d6a9fc49876866be51dc7b75e97bdc7ed377bd3ad5dfc",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/weapons/type89.gd",
+      "bytes": 2745
+    },
+    "naval/shokaku_1941_08_23/weapons/type89.tscn": {
+      "sha256": "17c4c09243c19410cbe56222c3dbcffc5e65f86f3c5cd3747fe7a6af8f72acdd",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/weapons/type89.tscn",
+      "bytes": 188
+    },
+    "naval/shokaku_1941_08_23/weapons/type96.gd": {
+      "sha256": "9abcf0915684b9986f521805c19a2f3023e25cca81f4439fa8182ad543eeb0b4",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/weapons/type96.gd",
+      "bytes": 1711
+    },
+    "naval/shokaku_1941_08_23/weapons/type96.tscn": {
+      "sha256": "540ba97c3889cb6addc0734880060502bcd53f04c2a4fda38faec272efb8d893",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/naval/shokaku_1941_08_23/weapons/type96.tscn",
+      "bytes": 188
+    },
+    "project.godot": {
+      "sha256": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/project.godot",
+      "bytes": 628
+    },
+    "scripts/naval/destroyers/mesh_tools.gd": {
+      "sha256": "ef447fdeb122230cbfd676da4b1e0d790744fdfb2210deb28d83d21bf8f70a45",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/scripts/naval/destroyers/mesh_tools.gd",
+      "bytes": 7463
+    },
+    "tests/av02/test_d4y2.gd": {
+      "sha256": "a9bbaaacdd84d553096aa344858fde9a6efe827b543dcaa43b22a96372adfe82",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/tests/av02/test_d4y2.gd",
+      "bytes": 15803
+    },
+    "tools/av02/inspect.py": {
+      "sha256": "599affe5a1f9e75b72a84d32c4c620e6b05ad7a5da446c35af84dfa8a486182f",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/tools/av02/inspect.py",
+      "bytes": 1870
+    },
+    "tools/av02/package_evidence.py": {
+      "sha256": "9411ac97c02a123f63e77ca842b20154395b70439cd67433189a2a9e98bffcf5",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/tools/av02/package_evidence.py",
+      "bytes": 6409
+    },
+    "tools/verify.py": {
+      "sha256": "599949a47abcff74f45f1909b6e8571b2c2050539a28dd0bce6d43b8b8c28f7d",
+      "snapshot": "docs/showcase/evidence/AV02/frozen/inputs/tools/verify.py",
+      "bytes": 11509
+    }
+  },
+  "reference_files": {
+    "docs/references/aircraft/d4y2_1944/sources.json": "ac7d931829ee876b081b85450d65b890e943fc22a8e87d6eb4a0476677d41028",
+    "docs/references/aircraft/d4y2_1944/modeling-brief.md": "a7cb5d667500a453b575242b60066bb29589ec688e3cb0843485dbf7d89a27b7",
+    "docs/references/aircraft/d4y2_1944/original/R04.jpg": "d8e5e50309db29580125dfbe92ac71bcd404895fdfffcb120e229b5748487f28",
+    "docs/references/aircraft/d4y2_1944/original/R05.jpg": "ab7588f0bdde30f420f89b34ddaf15da19f97868287aca19e6e4fdc73e1bb3d4",
+    "docs/references/aircraft/d4y2_1944/original/M03.jpg": "78460b0079c1804fb80fd9f11ba22dd72d1a55cb4df8d155fa137cced87b99ae",
+    "docs/references/aircraft/d4y2_1944/original/R07.jpg": "309119cc7ea211eba595dff56a328618835f139151ff577a8f369b3db3e2132e",
+    "docs/references/aircraft/d4y2_1944/original/R06.jpg": "aea82eddb8c4f7d3613e0a0819e46bdd1f50ee812d3c469332c6e2f93c6a8c0b",
+    "docs/references/aircraft/d4y2_1944/original/M12.jpg": "14c8123f6c0aabdcbf3e3d9e6b61e3bb7235e35a9919dadf2df991dc3152aaef",
+    "docs/references/aircraft/d4y2_1944/original/M06.jpg": "e629d85b3a6ebd6e5f8bd0be33dfa4c812ea42f009139fb65998d92aa471fef9",
+    "docs/references/aircraft/d4y2_1944/original/R02.jpg": "901586c271412d38c1236ccd22e12bbf3d742ac30dbab415e1475faa657e38ed",
+    "docs/references/aircraft/d4y2_1944/original/R03.jpg": "4633c970835dea97741fbb867f90f171d74d9b91328598371418515e4b0fe0ab",
+    "docs/references/aircraft/d4y2_1944/original/M07.jpg": "8feccfb670dd7dd4d16b5abdb7eb41ae9e3c286ef7b49c48580cce3545ca4428",
+    "docs/references/aircraft/d4y2_1944/original/M05.jpg": "ef7d984b16974255d69482e1e45cbbfcceda8d4d27031eb2ccb94cb2aab2f991",
+    "docs/references/aircraft/d4y2_1944/original/R01.jpg": "74d31375f0a056beb545fb34ca6764218c0bc98c2ac315ecbf78a67b86bbfd63",
+    "docs/references/aircraft/d4y2_1944/original/R01-page.html": "eac81a5471e138c41053c0e9962323f145e5073d32bec55bc65e0d52479522c8",
+    "docs/references/aircraft/d4y2_1944/original/M04.jpg": "87a5a5af9a8521b7568fd6baf80bced3d14abb754bfaefc51d8691185a008ffe",
+    "docs/references/aircraft/d4y2_1944/original/M01-page.html": "9bd2e79549da01c900583e31d8b2922f3a99b6409858e206d9b6f0f88e3629c8",
+    "docs/references/aircraft/d4y2_1944/original/H01.jpg": "4c5622af5205687664315a8cc647a23a6dabca050c9ef8d69fb43b9a2a1abd08",
+    "docs/references/aircraft/d4y2_1944/original/P03-page.html": "47dff424c8275ada1a746e0e2c1eda0b6bddefb94e6e8f9854c831f6da2d0032",
+    "docs/references/aircraft/d4y2_1944/original/M09.jpg": "8994655bbc0cdd81317ef984a79117d9a31ace337a9487a7d8d9ebef9ee9fbf5",
+    "docs/references/aircraft/d4y2_1944/original/P01-A11-table-II.png": "f4d367ed9bc3dc42f1fa199dd60ad53b975034e7fcc9a4076c34b18b045d929e",
+    "docs/references/aircraft/d4y2_1944/original/G01.jpg": "45e03ab77763256df97c06b8038541b89ac70dbcf4f8917631f539f9201f5ebb",
+    "docs/references/aircraft/d4y2_1944/original/R09.jpg": "5cfb50f33ab49f315c6a1de14648688ea9c2f57c45593291c0df2884cb3e8cf5",
+    "docs/references/ships/shokaku_1941_08_23/original/P02.pdf": "5d085269242ecd376669be66628577b01e93573368e524e347473aa7890d2c02",
+    "docs/references/bombers/sb2c/target/sb2c4-outer-form-candidate-v04.png": "838372e9f708d0b33a79a51f5c50fef190bb50139be1b14f13a190a313ffcffd"
+  },
+  "evidence_files": {
+    "docs/showcase/evidence/AV02/verification-index.json": "e8bc75cd2382ea1043d22541537004338e4d23997aa0ca3bbb7787bf1cceb6e2",
+    "docs/showcase/evidence/AV02/mechanisms-r1-failed.json": "f3b74783dc0606406026e4711d640090d7fb5efd6ecf58f80a4d67476706e01c",
+    "docs/showcase/evidence/AV02/mechanisms.json": "7006b1b378de2edceffe68b1bcccb49f9338f617c03d4b3047dd2664e39c6476",
+    "docs/showcase/evidence/AV02/diagnostic-ray-source.gd.txt": "0cb09400ee5e6d71048a5f9deee20517899a6589791b0e2cac171cff923ce64a",
+    "docs/showcase/evidence/AV02/cleanup.json": "2733afd04048a3a7e7caeab76967d1f81a9ccc98b9dd8f9db5f7adb6bd3b550f",
+    "docs/showcase/evidence/AV02/baseline.json": "dfbbcbfff9df55a44403ca0463863e97ea50fe1d405e02f1033b63baedc9ebf5",
+    "docs/showcase/evidence/AV02/changes.md": "1f27ef703ce67a47afd473495b248b05571584cf5dc9ef874e06cb1fb7b9a385",
+    "docs/showcase/evidence/AV02/status.json": "107537b033b8e9b4304af02dbe1f50f7f29ae9fb5c2a36f2701289f0d4e2e42b",
+    "docs/showcase/evidence/AV02/native-r1/gear.png.json": "e8ca6497fcd04ab2bdb773e9870f33d3fcdd88300d51c8a9956339c944d6a9bb",
+    "docs/showcase/evidence/AV02/native-r1/gear.png": "b2289c3e927c266b353e225a59169c8b944e71ba82d77265e052aeec784fe96e",
+    "docs/showcase/evidence/AV02/native-r1/front.png.json": "e31b766caf5829360b79c28cad599173c36c174d9449ea17ad3be90f459ec376",
+    "docs/showcase/evidence/AV02/native-r1/side.png.json": "e6c8448020c587392939d4646c3fa2fce90e3fcf12393b26f18f6d59a22a8d5a",
+    "docs/showcase/evidence/AV02/native-r1/high_rear.png": "907c4fe2bb13f81ddcd773c46ecf7013b5ba825e796359d0a632c085d47fd4a7",
+    "docs/showcase/evidence/AV02/native-r1/top_flight.png.json": "68815f930ae1bc2a2d5ae3cd46ca4197e6e0baac54fb5918695d65851d26d468",
+    "docs/showcase/evidence/AV02/native-r1/brake.png.json": "f36cae060d0decca248c11379fd652d2261f4fdc555a5ef9c3afb830b7447a41",
+    "docs/showcase/evidence/AV02/native-r1/tailgear.png.json": "568455c3d1426e8ab7c419da31bd7c1d47583b50bd13841c29b2212ed6635f57",
+    "docs/showcase/evidence/AV02/native-r1/damage.png.json": "bec50254d94c30dd0f11f9b719bfa4d825d02629fa205d099842ccd935f2157c",
+    "docs/showcase/evidence/AV02/native-r1/bay.png": "45a3497de32e4dc67e09082b566bb6de3a439ad9b62e63b6d49623ad488de74b",
+    "docs/showcase/evidence/AV02/native-r1/tailgear.png": "9f459c1fbf57044aeedec10834606f26e0fcdca84eacaf8b6ab8b1ce5e535a92",
+    "docs/showcase/evidence/AV02/native-r1/side_flight.png.json": "d4b6cd269db1ae88bc93bb4b56568d72aa02396bf212d198137898f5b2d0805f",
+    "docs/showcase/evidence/AV02/native-r1/side.png": "b16eb405aeca580d0663bc5ff76559cc95246719585f888fd5af5696d95cb69d",
+    "docs/showcase/evidence/AV02/native-r1/high_front.png": "cc6da25550de4c7450155f9216ffe2fd92b3f6cbfa10d9449894da65cd577471",
+    "docs/showcase/evidence/AV02/native-r1/brake.png": "bb3d0d9b58702e0d6a884378479143f12993f1dd846c67901e199d8685d2e74d",
+    "docs/showcase/evidence/AV02/native-r1/bay.png.json": "2fe7e010737ca646eed3f5cc2463a4da57c41775304d738e99b58fb4d8171713",
+    "docs/showcase/evidence/AV02/native-r1/rear_gun.png.json": "0acab8d77f4b3391cd8fe835b872a81628146a714096979fc517564f13aee186",
+    "docs/showcase/evidence/AV02/native-r1/high_front.png.json": "00bdeec5d8d321579928c4d030f918cde3d0aee05ecffb6e9e36677c7a1206a5",
+    "docs/showcase/evidence/AV02/native-r1/high_rear.png.json": "677ac93395b3011276375a0c456523f6f0c86ab7c5b993cce225dc87476c0358",
+    "docs/showcase/evidence/AV02/native-r1/rear_gun.png": "c32c8537e29fa691ca6b830c934f0135abad1054da1521d4b3f53855b763d8cc",
+    "docs/showcase/evidence/AV02/native-r1/top_flight.png": "5f0866e73f52d76fc3b25d101ea98a6cdc3afd2e95f080265dafe7d0bb55496f",
+    "docs/showcase/evidence/AV02/native-r1/landing.png.json": "f819226bd835832f4041091cc525cbefce4661583f5c99601effe5fe69eea8b6",
+    "docs/showcase/evidence/AV02/native-r1/canopy.png.json": "3c06ac3520ddd581f050412585c78a5dad5a37bec173df81cca7a0c866f59057",
+    "docs/showcase/evidence/AV02/native-r1/damage.png": "8a02b23eaf0a7e6573a52cd53f95b12c92a8123e050026e0f81791133f3b19cb",
+    "docs/showcase/evidence/AV02/native-r1/landing.png": "7902ca84858a7c07ebd031b8725399fea7dc1dafb68adaea09b7a7e3596ede9a",
+    "docs/showcase/evidence/AV02/native-r1/canopy.png": "6ed8425cddd4c07acd838cc11f653bdf37ee1985cc57d866804df7e4cb3cdb78",
+    "docs/showcase/evidence/AV02/native-r1/side_flight.png": "33c7cc2c8c87a9399bf9107db64a4dd63fe63843ce1d291481f67d2343b14f4e",
+    "docs/showcase/evidence/AV02/native-r1/front.png": "76ee09aff4d967e1a219d06fa4b5209801e7a787ec7c413a97df9cb25c54f7b9",
+    "docs/showcase/evidence/AV02/deck-r2/deck_forward.png.json": "75c395636d373bbdcfb4447272738f1037a021179c429f50288e5aa79cb7f2a8",
+    "docs/showcase/evidence/AV02/deck-r2/deck_aft.png.json": "5230566b25e9674efdc78e6a9e63843f6f74b73aea43f306a7f15501c44bf9cd",
+    "docs/showcase/evidence/AV02/deck-r2/deck_middle.png.json": "21aea9ff2ef0d9d42ac34eda353d075af9840ce5337f8e86733dbab466dd79c1",
+    "docs/showcase/evidence/AV02/deck-r2/deck_parking.png.json": "872bf74d7fe4b7e2037bdde271c60bb331e4f3ad30103ef1b6480581635452f9",
+    "docs/showcase/evidence/AV02/deck-r2/deck_aft.png": "fb53036bc17fa16c41905350ec8a1e9cc2a3e21c8aa2f44326296ffbaa22238b",
+    "docs/showcase/evidence/AV02/deck-r2/deck_middle.png": "50fbee8a097dbacd6a4c4ce310bcfcc698af3d108b098c698dc67b91d067f90f",
+    "docs/showcase/evidence/AV02/deck-r2/deck_parking.png": "e6119866475e0c723b34e87f24831b56e68571874d74f6825e8dfd6808a81ed0",
+    "docs/showcase/evidence/AV02/deck-r2/deck_forward.png": "9c8034398749666e4a42b9b230378aed3afda84ec08c8a220fd59a78cde753b6",
+    "docs/showcase/evidence/AV02/verification/20261111T111240-ef0123a6/report.json": "d6af2b2d8f03974ab1649b2763380286cbd8442ba3fca5262ebacd7b1afaba12",
+    "docs/showcase/evidence/AV02/verification/20261111T111240-ef0123a6/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T111240-ef0123a6/01-output.log": "8af57b3671a95e0d8641dc6099d0d0830ecb598043778ba7321caf2e55f422d9",
+    "docs/showcase/evidence/AV02/verification/20261111T112909-33b7d04d/report.json": "2dc23e2796e588b1ccafae2213c22229865bc9cec1af30e4328ebef4ab0c4f36",
+    "docs/showcase/evidence/AV02/verification/20261111T112909-33b7d04d/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T112909-33b7d04d/01-output.log": "2acb335c10fd7a1403c601c3ee405ef7b977d9ba5a54a1d8f460197f44f5d33f",
+    "docs/showcase/evidence/AV02/verification/20261111T112528-7766295b/report.json": "870bf8512223bb4a86320b971c16ece8a3741837cb5bd54e2b4ff0f7aa80ce75",
+    "docs/showcase/evidence/AV02/verification/20261111T112528-7766295b/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T112528-7766295b/01-output.log": "bc3fba98133502fe058d114caeb5bc25317afd3a090d25ecf4c8c49849f3bc8e",
+    "docs/showcase/evidence/AV02/verification/20261111T112144-aa8a35cd/report.json": "6b7b82570814c78c3d65d8bf2e2b280363b979c142f0a5dda39fcf5476da14a1",
+    "docs/showcase/evidence/AV02/verification/20261111T112144-aa8a35cd/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T112144-aa8a35cd/01-output.log": "532c483c6240d1f9651790cd68560427b16f16c117a35423bb830996a56a2a9f",
+    "docs/showcase/evidence/AV02/verification/20261111T112412-b6a7b57b/report.json": "201c9032ad6249b4790071ba45a7ec5d544a84911d23a8f61cf13aa14f50d341",
+    "docs/showcase/evidence/AV02/verification/20261111T112412-b6a7b57b/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T112412-b6a7b57b/01-output.log": "750420c964f9534d9494d9b71ee594c68a7ce19fbedae553c016023c825782f7",
+    "docs/showcase/evidence/AV02/verification/20261111T112645-471f65d7/report.json": "a9b8129d628e0a032d7d7b9f05729acb44c605a9ac88449304b9519435ec092f",
+    "docs/showcase/evidence/AV02/verification/20261111T112645-471f65d7/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T112645-471f65d7/01-output.log": "a338124873977ab7f036e3fdf2cc5f9242a63bd27c3d0ed50a1842417b421527",
+    "docs/showcase/evidence/AV02/verification/20261111T113202-06afb26f/report.json": "bc67dc0fa6a71c0675f454080eacaf77d700bd98d6244d3916a1bb4ab2518c03",
+    "docs/showcase/evidence/AV02/verification/20261111T113202-06afb26f/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T113202-06afb26f/01-output.log": "362931cbfd36916d266d275f0ec64947e9340fd15820f03a41db26c4e9400f6d",
+    "docs/showcase/evidence/AV02/verification/20261111T111348-b2181ddf/report.json": "5016608ecc9fff8602f51be664695193b6aef43e337c9529440f788fa164a384",
+    "docs/showcase/evidence/AV02/verification/20261111T111348-b2181ddf/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T111348-b2181ddf/01-output.log": "a8fee91c41db87eac52abcbec21f93179f88eebd63b27b5559d01798b39d74b0",
+    "docs/showcase/evidence/AV02/verification/20261111T112322-517dc333/report.json": "2dd7e64e4f91c8b85905c1a9379762275482f8d7f278e6d1b4999aeb4cd25b85",
+    "docs/showcase/evidence/AV02/verification/20261111T112322-517dc333/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T112322-517dc333/01-output.log": "69cf241e243cd35977db913fdcaeb721912a17e1a4507ede3fa1c1007af384fa",
+    "docs/showcase/evidence/AV02/verification/20261111T111846-b42e3ad9/report.json": "e0f532ba20c1a7d1209a42f411e608db94cccb061da9af9d865c770f083cb2a0",
+    "docs/showcase/evidence/AV02/verification/20261111T111846-b42e3ad9/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T111846-b42e3ad9/01-output.log": "b73004aaf72a8fa7c6c6066f2faf38fc267f8893d0854514734a737b012714ec",
+    "docs/showcase/evidence/AV02/verification/20261111T103905-3b66448d/report.json": "66ac0b89b881a83d586c9a77aca76bde4a881c549b723efa74f38cf74b18381f",
+    "docs/showcase/evidence/AV02/verification/20261111T103905-3b66448d/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T103905-3b66448d/01-output.log": "a1ba06f6e1b10d2a8268966d408eb0761c6aeb2f684777816140d70f2ea9ab9d",
+    "docs/showcase/evidence/AV02/verification/20261111T113242-7e0f40d2/report.json": "b3f40ee8df65452d189a5cd13071d9e86f116358d8821f7b3fa00c60890de58a",
+    "docs/showcase/evidence/AV02/verification/20261111T113242-7e0f40d2/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T113242-7e0f40d2/01-output.log": "727d35bd355258303b14487e122ba8fa095eba7c3b40bd0883d11c120c1d8441",
+    "docs/showcase/evidence/AV02/verification/20261111T110850-d6b05d47/report.json": "09482b6a440ab7b5fd1b3540a8c143d213d16278bae82982b85c473733026dcd",
+    "docs/showcase/evidence/AV02/verification/20261111T110850-d6b05d47/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T110850-d6b05d47/01-output.log": "eceb54faf7573f508abfabc1742e28a5614b2b400c88276b7e729784ef0fd1fd",
+    "docs/showcase/evidence/AV02/verification/20261111T112748-b8d80b34/report.json": "d4f48d50f92c06d206bfb0461aac20832f696c43c7d60844ffd3e10c42cb2a24",
+    "docs/showcase/evidence/AV02/verification/20261111T112748-b8d80b34/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T112748-b8d80b34/01-output.log": "55b50a44c86ed08c126b6633d6bd58c72f631fc49d4b02560c70cdea77962d1f",
+    "docs/showcase/evidence/AV02/verification/20261111T111503-1683fd71/report.json": "eb5010eee73069e4615a16841ea6c6ee46e7f44ab8a9e511c066210b77292ca1",
+    "docs/showcase/evidence/AV02/verification/20261111T111503-1683fd71/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T111503-1683fd71/01-output.log": "727d35bd355258303b14487e122ba8fa095eba7c3b40bd0883d11c120c1d8441",
+    "docs/showcase/evidence/AV02/verification/20261111T110912-3887cc3e/report.json": "22529bbb1ca3734dcd7cab66972c4b30bce4adcf505a22c66f4f12f4c773e931",
+    "docs/showcase/evidence/AV02/verification/20261111T110912-3887cc3e/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+    "docs/showcase/evidence/AV02/verification/20261111T110912-3887cc3e/01-output.log": "22267d2c2c35d66339cc01cf76e3b64a938085dcea4f4507406e2d14c8fabda5",
+    "docs/showcase/evidence/AV02/final/side.png.json": "da63af8355315a15e46754d4ac93121a622b049766adec41a95c11c89834bc4e",
+    "docs/showcase/evidence/AV02/final/top_flight.png.json": "1c839aa42abf7b386def55e07b682c8fd55661d305e1041a8b0a8da15f28239f",
+    "docs/showcase/evidence/AV02/final/side.png": "21bf22c317a02bfa414c082ae3c873be339c383f9fb59bc0af1a55d58e853e33",
+    "docs/showcase/evidence/AV02/final/high_front.png": "04fd072a824d7fc48cbfc73d8a7cd636ea58a96f48a069e328029e0ddd1394ad",
+    "docs/showcase/evidence/AV02/final/high_front.png.json": "727b771712caab768b60ea2b619c3fb5694b4573afb34982e44fc3fba2628ab6",
+    "docs/showcase/evidence/AV02/final/top_flight.png": "372125cb4cc0b9cc77ca89da3cd131cd089f28f304bfaeb91b15a9181985e45a",
+    "docs/showcase/evidence/AV02/final/canopy.png.json": "a038f9a2a6a30db9ed101fe075df2edf750802253c6e1aeeb4449ef4ebf690bb",
+    "docs/showcase/evidence/AV02/final/canopy.png": "478701a6f47181f014515ce0ed6df9a973ed183a389b6e0829ad8f505969fd73",
+    "docs/showcase/evidence/AV02/native-r2/gear.png.json": "8523ffdc6360fc5d58403add4b3638f315fef4be46a3e55b788719fbcb8f7ae6",
+    "docs/showcase/evidence/AV02/native-r2/gear.png": "fcd5512efc095cc23e516a6656ede9b0fcb6cc114e068c0dc6df6bf54d9a7177",
+    "docs/showcase/evidence/AV02/native-r2/front.png.json": "b11e53953a418d887207861e9315844353279e31011942d2e5b4a5f33716ebc0",
+    "docs/showcase/evidence/AV02/native-r2/side.png.json": "b8d057a48045a05d54b374a253270a8298a6aa61f59e85a32738b84b323bcc19",
+    "docs/showcase/evidence/AV02/native-r2/high_rear.png": "2f82af3730450173aab55e4d992d683f32d09d36b3008415e43a49bae6108474",
+    "docs/showcase/evidence/AV02/native-r2/top_flight.png.json": "8f802a15803c7997a7d1976854c3cdc15cd83011736955f2ea1a53150caeafbf",
+    "docs/showcase/evidence/AV02/native-r2/brake.png.json": "cae1decdfc219d280b5ba17b63d80ee02987ce7998d6e1d3b23346ac66817c7a",
+    "docs/showcase/evidence/AV02/native-r2/tailgear.png.json": "420ae487485f4a68d83a267937202215a2b1525e918db0c6773bdc1d41f2ef56",
+    "docs/showcase/evidence/AV02/native-r2/damage.png.json": "7cf02d1ac1a06a051d8db34ab8a8421ff84132a2bea34bc6e7f14344178f5b34",
+    "docs/showcase/evidence/AV02/native-r2/bay.png": "0dd550637290c721f433ffbbff33d408ede9c7a641f80e753850b46e0a894ad8",
+    "docs/showcase/evidence/AV02/native-r2/tailgear.png": "cb00e18b4fb66391d93d9e64a4a397cf4abb55812bc7e5f52f968a0aa66626ac",
+    "docs/showcase/evidence/AV02/native-r2/side_flight.png.json": "cf8a479e98e6caeda9edd855f69bec1a5125a17eb143a007dcfc524595c4cc59",
+    "docs/showcase/evidence/AV02/native-r2/side.png": "1cb99ad898c135547a393ebccc5155cf939f0f4bc2ca34f69ad0ef4d1cacb86c",
+    "docs/showcase/evidence/AV02/native-r2/high_front.png": "ccbc7a228b0e0b864a33903d3ec5545f2f942d21f16b4fc041908b17a4c97217",
+    "docs/showcase/evidence/AV02/native-r2/brake.png": "ad4ba962ad4bc2f58bb7e2b2ad9e86bfee8d3cdaa218e1b724189d863971ab8e",
+    "docs/showcase/evidence/AV02/native-r2/bay.png.json": "c528554bb3a26c41a65dd3bfa532ff187b4eaf114cb531783974d38ed8855ca0",
+    "docs/showcase/evidence/AV02/native-r2/rear_gun.png.json": "011657082c16b6ed5be30cadc58346536d98d5ee75e833be2d68f10147f3c1d7",
+    "docs/showcase/evidence/AV02/native-r2/high_front.png.json": "e91389332b8482ba034943834fd8dab158a39fceade32a9a568a1f81d16e39c6",
+    "docs/showcase/evidence/AV02/native-r2/high_rear.png.json": "f0e38707fa2c7c832613ae4e273e26283fd5622e70bde1de977ed178cdd59c67",
+    "docs/showcase/evidence/AV02/native-r2/rear_gun.png": "2e98f185cfd862ff84b9d8fcd5be9552e52c03b2c83280bf09a8cc3b7291fc4c",
+    "docs/showcase/evidence/AV02/native-r2/top_flight.png": "e968e5fe436511c5061b7bb9068a5028c1d172954e7df25a0b8b8a29588997ea",
+    "docs/showcase/evidence/AV02/native-r2/landing.png.json": "d7190867c059e747d3a23f1ee6a5ced5cc4c60cf983092e21d160fc5e7fe6e1f",
+    "docs/showcase/evidence/AV02/native-r2/canopy.png.json": "f24d8ccc11ef73869028b9446d1f86ffe395a65187698e049547702188e96d88",
+    "docs/showcase/evidence/AV02/native-r2/damage.png": "1e40ca2949bfad91d676c6b0986cc9977207bfcba71152e79442427a4d01d8a3",
+    "docs/showcase/evidence/AV02/native-r2/landing.png": "a124c6f70baf07222b5e272f11077ca7d4282f1f2c95eadb595cd66fc6dfdd1e",
+    "docs/showcase/evidence/AV02/native-r2/canopy.png": "53293e33ebca85b18c230363db64665a0e404b8fc3839894c3b5e5bbb676807b",
+    "docs/showcase/evidence/AV02/native-r2/side_flight.png": "9ba865a3817c3bc4416b3480dc4320fbebaf5df9904f3f23d465cfbf7711c001",
+    "docs/showcase/evidence/AV02/native-r2/front.png": "23d71bc7e67703a77ddc99cf18c8b14261373f0fef3f0ce5760bb6c39e14cdc7",
+    "docs/showcase/evidence/AV02/native-r4/paint-debug.png": "de5e3cc19ab26413cb88ded224e56ba08d55d0df87dac1390331cec2085afafc",
+    "docs/showcase/evidence/AV02/native-r4/paint-debug-all.png.json": "90cff33f1d40e36d29f0018e7e553cd5a275751826ca3b2522bef1f8ff7b617a",
+    "docs/showcase/evidence/AV02/native-r4/paint-debug-all.png": "85b9daaa106fd492adf1203c5ad09a1f144a7fcff2311ae5ff661ec5ce272dd8",
+    "docs/showcase/evidence/AV02/native-r4/paint-debug.png.json": "8191c9c2335235983d43b9339173a84232ddf3476d1b40bd552287b294ede593",
+    "docs/showcase/evidence/AV02/native-r4/canopy-no-x-gate.png.json": "1e61501df1b6d14a41741d4d32942d1c2340d3ec47e0bbfc555cda7411283955",
+    "docs/showcase/evidence/AV02/native-r4/canopy.png.json": "0f55818825948f4947dc9bc591361edd636ad2e9cb50cbbea50c9696d86c7c0c",
+    "docs/showcase/evidence/AV02/native-r4/paint-debug-coordinate.png": "d65ec800f635f994e02a6120212fcd101a0c9ad762f7ab7b1fb837b3d400afa8",
+    "docs/showcase/evidence/AV02/native-r4/canopy.png": "3d7a4f56d018de286eca3cdb8d4b742bacd1035c6828b381ed39be5bab3f4827",
+    "docs/showcase/evidence/AV02/native-r4/canopy-no-x-gate.png": "3d7a4f56d018de286eca3cdb8d4b742bacd1035c6828b381ed39be5bab3f4827",
+    "docs/showcase/evidence/AV02/native-r4/paint-debug-coordinate.png.json": "bb4b83b12407c0a05e9fc7dc5f2a7704766c65d3e408ed682af1b9a968126e16",
+    "docs/showcase/evidence/AV02/native-r3/gear.png.json": "81065ef0215bacbe5d2787ea3e06ef372bde2b26b73397233af1201dd81e5cad",
+    "docs/showcase/evidence/AV02/native-r3/gear.png": "ab2c9c1ca5a5c3a8a062b788a8c91228552272ce3d729c4cd5eff9d717ad6856",
+    "docs/showcase/evidence/AV02/native-r3/front.png.json": "25969c47f70fc420bd80b38838f7858f4360936e5f82728dd0eabd76a7b96d2b",
+    "docs/showcase/evidence/AV02/native-r3/side.png.json": "377433c0c815a5eff87e9d50cc783c12f95f5582a49236d0159bcdf6b8cb6a4f",
+    "docs/showcase/evidence/AV02/native-r3/high_rear.png": "96ea276b909e7e723895306017d6e68889097283d69f15d011a9bffb0b018f2e",
+    "docs/showcase/evidence/AV02/native-r3/top_flight.png.json": "4c24715a6c66c3dfb682d9474d52193146d24e220894900d4a7d2f744088e9c1",
+    "docs/showcase/evidence/AV02/native-r3/brake.png.json": "c1e2d64e5f2565d04251578dd009c5622eee896cf0369c8ce541afbf4c60d5f4",
+    "docs/showcase/evidence/AV02/native-r3/tailgear.png.json": "651bcddf3431403e230023df834f23c5179d59e2e05052a3d23ea8854a6bf5a9",
+    "docs/showcase/evidence/AV02/native-r3/damage.png.json": "199c48394d6cb1fc78510a7dcc31a098904d34aa31c6eee0148174cec34ed8e1",
+    "docs/showcase/evidence/AV02/native-r3/bay.png": "2527dccd90681c315d4f8223d4a0a566c8d0c441f6ef2aa3d177f06ec3b83459",
+    "docs/showcase/evidence/AV02/native-r3/tailgear.png": "72f0466bba2357dc4190b5c3006b188647a813e6da139710cff08a43f446f40e",
+    "docs/showcase/evidence/AV02/native-r3/side_flight.png.json": "b848b0bf04307b016d4290671f9d57f92a2d4276940dece8341796179e2a26ad",
+    "docs/showcase/evidence/AV02/native-r3/side.png": "3f93aaeb9672e729b72119a0bc35d08076cc9fc11e40b6644d7b33d597b4c728",
+    "docs/showcase/evidence/AV02/native-r3/high_front.png": "cb9d3efaa5d4fddb317f7ee1ce25e0fe30a7f1b21f913301d35d93660da7b9da",
+    "docs/showcase/evidence/AV02/native-r3/brake.png": "85ee434fd19f24e9caa28769dfbf015f62115ae61cdb97eae5f3ac5502477fc3",
+    "docs/showcase/evidence/AV02/native-r3/bay.png.json": "7b642947efc1c9855bc339082ae185362b630bc372ec9d4fe03a69527c2d5c6f",
+    "docs/showcase/evidence/AV02/native-r3/rear_gun.png.json": "f4c73d35199515ddeabeb83011aa002346d27c9ffc21259c19937cfd89ed3462",
+    "docs/showcase/evidence/AV02/native-r3/high_front.png.json": "f7f36a87b4598239520d6f2c2dc9c5916f6d9bbd0c63d37836e401e97b25fa53",
+    "docs/showcase/evidence/AV02/native-r3/high_rear.png.json": "9a27476530029375566e2fd2599736c2ebb227dee03ea97f2e3ed050020df23c",
+    "docs/showcase/evidence/AV02/native-r3/rear_gun.png": "50b4c0a2956ec041ae5501ef5704754ff89b561a653c7e7168f572c4f93c03dc",
+    "docs/showcase/evidence/AV02/native-r3/top_flight.png": "7da52a2e6208f4b96a961f1cc81d9755b7cbe7da846c6e76775de6260470652b",
+    "docs/showcase/evidence/AV02/native-r3/landing.png.json": "9c1496adb425076ae40a64444f4605b44166ee2cfd5f4fc770de37adb70eec7c",
+    "docs/showcase/evidence/AV02/native-r3/canopy.png.json": "9e52eecd13375b0e57f408bfdb898e96e63662b5af6d1dc8947ff3c0f9ecdc23",
+    "docs/showcase/evidence/AV02/native-r3/damage.png": "a38ae9c240bbfa93124123f8292830a38acbab5707fb06cafe02024998c7614a",
+    "docs/showcase/evidence/AV02/native-r3/landing.png": "79579317a1967521d1b973752ef2e09facf953ac700e2c94cd6001cfcfb8c7c9",
+    "docs/showcase/evidence/AV02/native-r3/canopy.png": "9ac3e52779cb38568802a621375117a0bf3b3c9a8f2f0c809a1f4cbbb8f2879c",
+    "docs/showcase/evidence/AV02/native-r3/side_flight.png": "eaed8b9950a79bfca3dc0b6c63fc33ad8e88877f9becf9341b0fc45178871be3",
+    "docs/showcase/evidence/AV02/native-r3/front.png": "68e2c55ec470ab9c101c60994960ebb140cdf8304995db12139a1cc8ae6cf771"
+  },
+  "final_image_directory": "docs/showcase/evidence/AV02/final",
+  "historical_images": "native-r1/r2/r3/r4 and deck-r2 sidecars keep their original source hashes; final has four superseding clean-skin views",
+  "status": "See docs/showcase/deliveries/AV02.md for current root acceptance; do not rewrite historical reports"
+}

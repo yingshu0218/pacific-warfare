@@ -1,0 +1,493 @@
+{
+	"actual_ship_bounds_m": {
+		"min": [
+			-24.7816009521484,
+			-8.68680000305176,
+			-132.892807006836
+		],
+		"size": [
+			44.8815994262695,
+			49.7084808349609,
+			265.785614013672
+		]
+	},
+	"actual_waterline_z_m": [
+		-124.967994689941,
+		124.967994689941
+	],
+	"checks": 402,
+	"deck_height_m": 15.85,
+	"elevator_lower_height_m": 7.926,
+	"elevator_mesh_queries": [
+		{
+			"id": "elevator_forward",
+			"query": {
+				"height_m": 7.92600011825562,
+				"supported": true,
+				"surface_id": "elevator_forward"
+			},
+			"sample_xz_m": [
+				0.0,
+				-89.0
+			],
+			"visible_mesh_y": 7.92599868774414
+		},
+		{
+			"id": "elevator_aft",
+			"query": {
+				"height_m": 7.92600011825562,
+				"supported": true,
+				"surface_id": "elevator_aft"
+			},
+			"sample_xz_m": [
+				0.0,
+				45.0
+			],
+			"visible_mesh_y": 7.92599868774414
+		},
+		{
+			"id": "elevator_port",
+			"query": {
+				"height_m": 7.92600011825562,
+				"supported": true,
+				"surface_id": "elevator_port"
+			},
+			"sample_xz_m": [
+				-19.6000003814697,
+				-20.0
+			],
+			"visible_mesh_y": 7.92599868774414
+		},
+		{
+			"id": "elevator_port",
+			"query": {
+				"height_m": 7.92600011825562,
+				"supported": true,
+				"surface_id": "elevator_port"
+			},
+			"sample_xz_m": [
+				-17.0,
+				-20.0
+			],
+			"visible_mesh_y": 7.92599868774414
+		}
+	],
+	"failures": [],
+	"fixed_deck_samples": 45,
+	"mount_contacts": [
+		{
+			"actual_mesh_y": 15.8499994277954,
+			"host": "stbd_51",
+			"id": "dp_51",
+			"muzzles": 2,
+			"surface_m": [
+				16.3999996185303,
+				15.8500003814697,
+				-50.5
+			]
+		},
+		{
+			"actual_mesh_y": 18.0799999237061,
+			"host": "stbd_53",
+			"id": "dp_53",
+			"muzzles": 2,
+			"surface_m": [
+				16.3999996185303,
+				18.0799999237061,
+				-38.0
+			]
+		},
+		{
+			"actual_mesh_y": 18.0799999237061,
+			"host": "stbd_55",
+			"id": "dp_55",
+			"muzzles": 2,
+			"surface_m": [
+				16.3999996185303,
+				18.0799999237061,
+				22.0
+			]
+		},
+		{
+			"actual_mesh_y": 15.8499994277954,
+			"host": "stbd_57",
+			"id": "dp_57",
+			"muzzles": 2,
+			"surface_m": [
+				16.3999996185303,
+				15.8500003814697,
+				34.5
+			]
+		},
+		{
+			"actual_mesh_y": 13.5499992370605,
+			"host": "port_forward_sponson",
+			"id": "dp_52",
+			"muzzles": 1,
+			"surface_m": [
+				-20.3500003814697,
+				13.5500001907349,
+				-104.0
+			]
+		},
+		{
+			"actual_mesh_y": 13.5499992370605,
+			"host": "port_forward_sponson",
+			"id": "dp_54",
+			"muzzles": 1,
+			"surface_m": [
+				-20.3500003814697,
+				13.5500001907349,
+				-92.0
+			]
+		},
+		{
+			"actual_mesh_y": 13.5499992370605,
+			"host": "port_aft_sponson",
+			"id": "dp_56",
+			"muzzles": 1,
+			"surface_m": [
+				-20.3500003814697,
+				13.5500001907349,
+				94.0
+			]
+		},
+		{
+			"actual_mesh_y": 13.5499992370605,
+			"host": "port_aft_sponson",
+			"id": "dp_58",
+			"muzzles": 1,
+			"surface_m": [
+				-20.3500003814697,
+				13.5500001907349,
+				106.0
+			]
+		},
+		{
+			"actual_mesh_y": 10.1999998092651,
+			"host": "bow_bofors",
+			"id": "aa40_bow",
+			"muzzles": 4,
+			"surface_m": [
+				0.0,
+				10.1999998092651,
+				-124.0
+			]
+		},
+		{
+			"actual_mesh_y": 9.09999942779541,
+			"host": "stern_bofors",
+			"id": "aa40_stern",
+			"muzzles": 4,
+			"surface_m": [
+				-3.0,
+				9.09999942779541,
+				124.0
+			]
+		},
+		{
+			"actual_mesh_y": 13.5499992370605,
+			"host": "port_forward_sponson",
+			"id": "aa40_port_fore",
+			"muzzles": 4,
+			"surface_m": [
+				-20.5,
+				13.5500001907349,
+				-79.0
+			]
+		},
+		{
+			"actual_mesh_y": 13.5499992370605,
+			"host": "port_aft_sponson",
+			"id": "aa40_port_aft",
+			"muzzles": 4,
+			"surface_m": [
+				-20.5,
+				13.5500001907349,
+				81.0
+			]
+		},
+		{
+			"actual_mesh_y": 22.0,
+			"host": "island_aft_bofors",
+			"id": "aa40_island_aft",
+			"muzzles": 4,
+			"surface_m": [
+				16.3999996185303,
+				22.0,
+				11.3000001907349
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_01",
+			"id": "aa20_01",
+			"muzzles": 1,
+			"surface_m": [
+				-14.0,
+				16.0,
+				-119.0
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_02",
+			"id": "aa20_02",
+			"muzzles": 1,
+			"surface_m": [
+				11.0,
+				16.0,
+				-119.0
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_03",
+			"id": "aa20_03",
+			"muzzles": 1,
+			"surface_m": [
+				-18.0,
+				16.0,
+				-61.0
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_04",
+			"id": "aa20_04",
+			"muzzles": 1,
+			"surface_m": [
+				-18.0,
+				16.0,
+				-47.0
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_05",
+			"id": "aa20_05",
+			"muzzles": 1,
+			"surface_m": [
+				-18.0,
+				16.0,
+				1.0
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_06",
+			"id": "aa20_06",
+			"muzzles": 1,
+			"surface_m": [
+				-18.0,
+				16.0,
+				18.0
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_07",
+			"id": "aa20_07",
+			"muzzles": 1,
+			"surface_m": [
+				-16.0,
+				16.0,
+				64.0
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_08",
+			"id": "aa20_08",
+			"muzzles": 1,
+			"surface_m": [
+				-16.0,
+				16.0,
+				119.0
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_09",
+			"id": "aa20_09",
+			"muzzles": 1,
+			"surface_m": [
+				12.0,
+				16.0,
+				119.0
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_10",
+			"id": "aa20_10",
+			"muzzles": 1,
+			"surface_m": [
+				14.0,
+				16.0,
+				77.0
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_11",
+			"id": "aa20_11",
+			"muzzles": 1,
+			"surface_m": [
+				14.0,
+				16.0,
+				93.0
+			]
+		},
+		{
+			"actual_mesh_y": 16.0,
+			"host": "aa_gallery_12",
+			"id": "aa20_12",
+			"muzzles": 1,
+			"surface_m": [
+				14.0,
+				16.0,
+				-70.0
+			]
+		}
+	],
+	"passed": true,
+	"scope": "Geometry and pure-state adaptation, not aviation operations or historical acceptance",
+	"static_aircraft": [
+		{
+			"aircraft": "f6f5",
+			"contacts": [
+				{
+					"center_m": [
+						-3.92999982833862,
+						16.2800006866455,
+						-57.0900001525879
+					],
+					"error_m": 0.000000679492950794724,
+					"name": "Tyre",
+					"radius_m": 0.430000007152557
+				},
+				{
+					"center_m": [
+						-0.0700000524520874,
+						16.2800006866455,
+						-57.0900001525879
+					],
+					"error_m": 0.000000679492950794724,
+					"name": "Tyre",
+					"radius_m": 0.430000007152557
+				},
+				{
+					"center_m": [
+						-2.0,
+						16.0,
+						-52.4799995422363
+					],
+					"error_m": -0.00000000596046412226769,
+					"name": "Tail tyre",
+					"radius_m": 0.150000005960464
+				}
+			],
+			"min_m": [
+				-8.52799987792969,
+				15.8500003814697,
+				-62.1199989318848
+			],
+			"size_m": [
+				13.0559997558594,
+				4.49505043029785,
+				10.2437515258789
+			]
+		},
+		{
+			"aircraft": "f6f5",
+			"contacts": [
+				{
+					"center_m": [
+						-1.92999994754791,
+						16.2800006866455,
+						-89.0900039672852
+					],
+					"error_m": 0.000000298023223876953,
+					"name": "Tyre",
+					"radius_m": 0.430000007152557
+				},
+				{
+					"center_m": [
+						1.92999994754791,
+						16.2800006866455,
+						-89.0900039672852
+					],
+					"error_m": 0.000000298023223876953,
+					"name": "Tyre",
+					"radius_m": 0.430000007152557
+				},
+				{
+					"center_m": [
+						0.0,
+						16.0,
+						-84.4800033569336
+					],
+					"error_m": -0.000000387430191040039,
+					"name": "Tail tyre",
+					"radius_m": 0.150000005960464
+				}
+			],
+			"min_m": [
+				-6.52799987792969,
+				15.8500003814697,
+				-94.120002746582
+			],
+			"size_m": [
+				13.0559997558594,
+				4.49505043029785,
+				10.2437515258789
+			]
+		},
+		{
+			"aircraft": "sb2c4",
+			"contacts": [
+				{
+					"center_m": [
+						-4.09999990463257,
+						16.2900009155273,
+						82.5797958374023
+					],
+					"error_m": 0.000000917911529896287,
+					"name": "Tyre",
+					"radius_m": 0.439999997615814
+				},
+				{
+					"center_m": [
+						0.0999999046325684,
+						16.2900009155273,
+						82.5797958374023
+					],
+					"error_m": 0.000000917911529896287,
+					"name": "Tyre",
+					"radius_m": 0.439999997615814
+				},
+				{
+					"center_m": [
+						-2.0,
+						16.0,
+						87.0682525634766
+					],
+					"error_m": -0.00000000596046412226769,
+					"name": "Tail tyre",
+					"radius_m": 0.150000005960464
+				}
+			],
+			"min_m": [
+				-9.58199977874756,
+				15.8508777618408,
+				77.8679504394531
+			],
+			"size_m": [
+				15.1639995574951,
+				4.46480369567871,
+				11.1276397705078
+			]
+		}
+	]
+}

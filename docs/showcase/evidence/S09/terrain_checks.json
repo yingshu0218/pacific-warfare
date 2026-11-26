@@ -1,0 +1,133 @@
+{
+	"checks": 39,
+	"failures": [],
+	"map": {
+		"cells": 527,
+		"max_height_m": 639.995727539062,
+		"old_spawns_unchanged": true,
+		"solids": 38,
+		"triangles": 9444
+	},
+	"navigation": {
+		"harbor_route": [
+			[
+				-3830.0,
+				0.0,
+				-2208.0
+			],
+			[
+				-3950.0,
+				0.0,
+				-2600.0
+			]
+		],
+		"nodes": 199,
+		"route": [
+			[
+				-7257.30419921875,
+				0.0,
+				-6596.3525390625
+			],
+			[
+				-6929.3779296875,
+				0.0,
+				-6959.1640625
+			],
+			[
+				-6543.01708984375,
+				0.0,
+				-7216.73828125
+			],
+			[
+				-6104.85693359375,
+				0.0,
+				-7360.3974609375
+			],
+			[
+				-5197.66552734375,
+				0.0,
+				-7354.33154296875
+			],
+			[
+				-4377.79638671875,
+				0.0,
+				-7103.59912109375
+			],
+			[
+				-3684.2373046875,
+				0.0,
+				-6663.52001953125
+			],
+			[
+				-3191.31420898438,
+				0.0,
+				-6156.1787109375
+			],
+			[
+				-2000.0,
+				0.0,
+				-4700.0
+			]
+		],
+		"shapes": 11
+	},
+	"sites": [
+		{
+			"clear_forward_samples": 3,
+			"height_m": 32.0,
+			"id": "harbor_coast_01",
+			"variation_m": 0.0
+		},
+		{
+			"clear_forward_samples": 3,
+			"height_m": 18.0,
+			"id": "harbor_aa_01",
+			"variation_m": 0.0
+		},
+		{
+			"clear_forward_samples": 3,
+			"height_m": 590.0,
+			"id": "ridge_aa_01",
+			"variation_m": 0.0
+		},
+		{
+			"clear_forward_samples": 2,
+			"height_m": 18.0,
+			"id": "harbor_aa_02",
+			"variation_m": 0.0
+		}
+	],
+	"slope": {
+		"normal": [
+			0.203580811619759,
+			0.978936731815338,
+			0.0154182612895966
+		],
+		"point": [
+			-5069.64306640625,
+			586.074768066406,
+			-4832.142578125
+		]
+	},
+	"source_hashes": {
+		"res://data/maps/island_harbor.json": "6327c444e480e19be73bdbe75cc0b90e31f974c5ec2fcf765a5926d7a70f6678",
+		"res://data/scenarios/island_harbor.json": "cf085a3498863dce1f38bcfa62af7fa275328f34285e1d3cb272ff4f6026efac",
+		"res://scripts/behaviors/aircraft/air_combat_tactics.gd": "9d3fc7b6b15cb5c5837de2480cef3ecf56580aeac62281ebf54d0094556d4f8a",
+		"res://scripts/behaviors/aircraft/aircraft_tasks.gd": "3e3eafcde93653479ab074a2821132d3d1c4ee0446503ac6a9855736e89d8000",
+		"res://scripts/behaviors/fleet_formations/fleet_tasks.gd": "191dbf3046c55df1f960a2829dbfcd64370fe3f4b3ddb0ad5f137184c8ed437f",
+		"res://scripts/game/first_playable.gd": "79989262dd13a0b9a1f5d502558feb3df76f186de93499967ed31ccef6e40d6a",
+		"res://scripts/game/first_playable_session.gd": "c21f8b4539e2e106bbb7ab4fdd31fe478dc3d4ffb64a6ba2646849b1ea597d90",
+		"res://scripts/presentation/cameras/observer_camera.gd": "a55b7a1d59569e260569f211b7faf9232b3ef43f51f9855e4ffc8204d3fbdbd0",
+		"res://scripts/presentation/maps/island_harbor_view.gd": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+		"res://scripts/presentation/maps/shore.gdshader": "f65ee9c017ef31542b56d24c03a64c4d6d0bd8399ea2790be48b3c791fc2758b",
+		"res://scripts/presentation/ocean.gdshader": "3379b4b3853cd29915b80e3ae069e769a8a7b866da1764877e61ed7ce7f98401",
+		"res://scripts/simulation/aircraft_motion/aircraft_motion.gd": "fe2caa88696d4366a6d7de2e16b972ce6a83c780b2e90112ebbf0d0f84dbbeae",
+		"res://scripts/simulation/ship_motion/ship_motion.gd": "5b9ed105f77ed688e2548bb28353b3a314b3fdc1df2f4b4b9431028369d796ff",
+		"res://scripts/simulation/terrain/battlefield_terrain.gd": "e107d851b6dd13b44babe41ade25254ccdcd545e35f826e5bcfeb0e2d05fcb60",
+		"res://scripts/simulation/terrain/terrain_navigation.gd": "da7d41539c07eeb51c7772bedef7b366c6755e95c3fc1f7c1455250561cf8a27",
+		"res://scripts/simulation/terrain/terrain_queries.gd": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868",
+		"res://ui/observer_hud.gd": "ff8f66a3db53ee4a923d2394bfa39e7d3e454b156cd5f7f4fbadc14632723399",
+		"res://ui/observer_map.gd": "eb8151dbacd120fd97f11aecf4b544de8e67c82a6dbd09a48883543ce3c7ba7a",
+		"res://ui/observer_text.gd": "0a432ac666bab29da3dc3451942c247eaaf57bb77fe96b09c4d4bcf3aa799274"
+	}
+}

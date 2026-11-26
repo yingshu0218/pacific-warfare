@@ -1,0 +1,62 @@
+{
+  "reviewed_at": "2026-11-11T20:47:53.615957+08:00",
+  "status": "r11_wreck_rotation_correction_accepted_final_full_package_pending",
+  "actually_opened": [
+    {
+      "path": ".local/ops01-model-captures/r09-launch/frame_00139.png",
+      "sha256": "60113094efce527a5a046f1756e585a97cfd033cb45412e202c9bbab8c5bdcf9"
+    },
+    {
+      "path": ".local/ops01-model-captures/r09-launch/frame_00165.png",
+      "sha256": "7f20a0c77a6582bacfc4e0c3ebeca67f64cd2d2ff9c46b26c185e986019e4aa2"
+    },
+    {
+      "path": ".local/ops01-model-captures/r09-recovery/frame_00187.png",
+      "sha256": "1559358a14bc24d4549a4ebda3e1e83970be7dc529527f0253e88088d862b731"
+    },
+    {
+      "path": ".local/ops01-model-captures/r10-hard_contact/frame_00209.png",
+      "sha256": "39284274d97ce6cfee993c6d5f999041e8cb2cf2ae9ab2ff2c5248867344f16d"
+    },
+    {
+      "path": ".local/ops01-model-captures/r11-hard_contact/frame_00138.png",
+      "sha256": "de483f950ab01db0fab69ff3635d46386605b4046688c965c46cca98776f50ab"
+    },
+    {
+      "path": ".local/ops01-model-captures/r11-hard_contact/frame_00175.png",
+      "sha256": "05cdfc8d9f5e8ff223d3fcd1e094eb97c6ebd98dd8489393ce7ccf3ba44e64d1"
+    },
+    {
+      "path": ".local/ops01-model-captures/r11-hard_contact/frame_00299.png",
+      "sha256": "e9958df90a5457a5891cdd7fdccb4155d2069441dfa06eb46ae595df7424e138"
+    }
+  ],
+  "data_read": [
+    "r09 actual fixed-tick capture samples and model diagnostics",
+    "r10 mechanisms: 89 retained +26 accepted-model/composition checks; clean roster maximum error0",
+    "r09 stage whitelist isolation474 files without AV02/AV03/AU01 research"
+  ],
+  "accepted_findings": [
+    "Actual short main/tail wheels preserve parked nose-up stance and bounded takeoff tail rise.",
+    "Path pitch -2.206deg and body pitch9deg are separated during approach; first wheel touch then actual shoe sweep of wire01 controls arrest.",
+    "Healthy clean carrier-roster flight uses original force/attitude result exactly."
+  ],
+  "returned_findings": [
+    "r10 hard-contact final image shows remaining body held at original -2deg on front stopped-blade contact, with aft body suspended. deck_contact_support translates down but locks all angles. Require bounded gravity-driven orientation settling and support stability rather than only minimum-point height."
+  ],
+  "scope": "Preliminary review, not accepted motion package; no S14/Chrome acceptance.",
+  "correction_resolution": {
+    "stage": "r11",
+    "scope": "Bounded overdamped gravity settling after DM wreck, using surviving mesh point cloud and explicitly estimated host mass/fuel center. No new breakage.",
+    "checks": 31,
+    "failures": 0,
+    "max_angular_rate_radps": 0.350000888109207,
+    "max_tick_y_change_m": 0.0537815093994141,
+    "min_mesh_clearance_m": -1.52587890589473e-06,
+    "support_span_m": 5.34814071655273,
+    "center_projection_distance_m": 0.0117490366101265,
+    "declared_tolerance_m": 0.015,
+    "mother_ship_loss_test": "resumes original terminal falling",
+    "visual": "Final body rests on actual geometry after continuous pitch and roll; unsupported aft-body suspension corrected."
+  }
+}

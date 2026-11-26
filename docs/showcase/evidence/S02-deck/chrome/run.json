@@ -1,0 +1,336 @@
+{
+  "flow": "Inspection loads -> switch the same seven cameras -> shared hull/deck edge and installed model remain visible",
+  "scope": "One isolated Yamato model; no Showcase combat or fleet performance claim",
+  "browserPlugin": "Browser plugin not available",
+  "viewport": {
+    "width": 1600,
+    "height": 1000
+  },
+  "deviceScaleFactor": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "page and dedicated scene identity",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "matching native viewport and render buffer",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "hardware WebGL",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "keyboard changes the actual inspection camera",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "camera/model state port_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "nonempty rendered screenshot port_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "camera/model state starboard_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "nonempty rendered screenshot starboard_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "camera/model state port_elevated",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "nonempty rendered screenshot port_elevated",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "camera/model state fore_transition",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "nonempty rendered screenshot fore_transition",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "camera/model state aft_transition",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "nonempty rendered screenshot aft_transition",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "camera/model state fore_hull_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "nonempty rendered screenshot fore_hull_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "camera/model state aft_hull_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "nonempty rendered screenshot aft_hull_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "no page errors",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "console health",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "no engine error overlay",
+      "detail": null
+    }
+  ],
+  "views": [
+    {
+      "label": "port_side",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/chrome/port_side.png",
+      "state": {
+        "command_id": 1,
+        "draw_calls": 580,
+        "frames": 49,
+        "index": 0,
+        "model_id": "jp_yamato_1944_04",
+        "primitives": 369864,
+        "sockets": 39,
+        "view": "port_side",
+        "viewport": [
+          1600,
+          1000
+        ]
+      },
+      "bytes": 68871
+    },
+    {
+      "label": "starboard_side",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/chrome/starboard_side.png",
+      "state": {
+        "command_id": 2,
+        "draw_calls": 432,
+        "frames": 86,
+        "index": 1,
+        "model_id": "jp_yamato_1944_04",
+        "primitives": 263352,
+        "sockets": 39,
+        "view": "starboard_side",
+        "viewport": [
+          1600,
+          1000
+        ]
+      },
+      "bytes": 21119
+    },
+    {
+      "label": "port_elevated",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/chrome/port_elevated.png",
+      "state": {
+        "command_id": 3,
+        "draw_calls": 647,
+        "frames": 142,
+        "index": 2,
+        "model_id": "jp_yamato_1944_04",
+        "primitives": 394772,
+        "sockets": 39,
+        "view": "port_elevated",
+        "viewport": [
+          1600,
+          1000
+        ]
+      },
+      "bytes": 99117
+    },
+    {
+      "label": "fore_transition",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/chrome/fore_transition.png",
+      "state": {
+        "command_id": 4,
+        "draw_calls": 301,
+        "frames": 181,
+        "index": 3,
+        "model_id": "jp_yamato_1944_04",
+        "primitives": 255808,
+        "sockets": 39,
+        "view": "fore_transition",
+        "viewport": [
+          1600,
+          1000
+        ]
+      },
+      "bytes": 84634
+    },
+    {
+      "label": "aft_transition",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/chrome/aft_transition.png",
+      "state": {
+        "command_id": 5,
+        "draw_calls": 241,
+        "frames": 216,
+        "index": 4,
+        "model_id": "jp_yamato_1944_04",
+        "primitives": 215596,
+        "sockets": 39,
+        "view": "aft_transition",
+        "viewport": [
+          1600,
+          1000
+        ]
+      },
+      "bytes": 147882
+    },
+    {
+      "label": "fore_hull_side",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/chrome/fore_hull_side.png",
+      "state": {
+        "command_id": 6,
+        "draw_calls": 10,
+        "frames": 254,
+        "index": 5,
+        "model_id": "jp_yamato_1944_04",
+        "primitives": 49176,
+        "sockets": 39,
+        "view": "fore_hull_side",
+        "viewport": [
+          1600,
+          1000
+        ]
+      },
+      "bytes": 51104
+    },
+    {
+      "label": "aft_hull_side",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S02-deck/chrome/aft_hull_side.png",
+      "state": {
+        "command_id": 7,
+        "draw_calls": 10,
+        "frames": 287,
+        "index": 6,
+        "model_id": "jp_yamato_1944_04",
+        "primitives": 53208,
+        "sockets": 39,
+        "view": "aft_hull_side",
+        "viewport": [
+          1600,
+          1000
+        ]
+      },
+      "bytes": 47132
+    }
+  ],
+  "console": [],
+  "pageErrors": [],
+  "cleanup": {
+    "chromeClosed": true,
+    "serverClosed": true,
+    "privateProfileRemoved": true
+  },
+  "startedUtc": "2026-11-10T16:44:39.657Z",
+  "url": "http://127.0.0.1:54844/index.html",
+  "hardware": {
+    "cpu": "Apple M5",
+    "memoryBytes": 17179869184,
+    "os": "25.6.0"
+  },
+  "launch": "Private headful Chrome, offscreen position, background/occlusion throttling disabled",
+  "browserVersion": "157.0.8103.39",
+  "identity": {
+    "title": "Yamato · 1944 study",
+    "url": "http://127.0.0.1:54844/index.html",
+    "canvas": [
+      1600,
+      1000,
+      1600,
+      1000
+    ],
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "visibility": "visible",
+    "status": ""
+  },
+  "sceneIdentity": {
+    "command_id": 0,
+    "draw_calls": 580,
+    "frames": 5,
+    "index": 0,
+    "model_id": "jp_yamato_1944_04",
+    "primitives": 369864,
+    "sockets": 39,
+    "view": "port_side",
+    "viewport": [
+      1600,
+      1000
+    ]
+  },
+  "interaction": {
+    "action": "ArrowRight",
+    "state": {
+      "command_id": 0,
+      "draw_calls": 432,
+      "frames": 17,
+      "index": 1,
+      "model_id": "jp_yamato_1944_04",
+      "primitives": 263352,
+      "sockets": 39,
+      "view": "starboard_side",
+      "viewport": [
+        1600,
+        1000
+      ]
+    }
+  },
+  "cadence": {
+    "durationMs": 6006.600000047683,
+    "frames": 717,
+    "meanMs": 8.369874476987448,
+    "p50Ms": 8.300000000001091,
+    "p95Ms": 10.100000000000364,
+    "estimatedFps": 119.47610477904419,
+    "state": {
+      "command_id": 7,
+      "draw_calls": 580,
+      "frames": 1130,
+      "index": 0,
+      "model_id": "jp_yamato_1944_04",
+      "primitives": 369864,
+      "sockets": 39,
+      "view": "port_side",
+      "viewport": [
+        1600,
+        1000
+      ]
+    }
+  },
+  "passed": true,
+  "finishedUtc": "2026-11-10T16:44:55.285Z"
+}

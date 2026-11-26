@@ -1,0 +1,650 @@
+{
+  "note": "Actual observation retained during pending harness wait: production delegate reports damage_abort; original harness incorrectly waited only combat_damage_abort. No state mutation or outcome substitution. No new long run scheduled before playable handoff.",
+  "observed": {
+    "utc": "2026-11-11T17:22:29.618Z",
+    "state": {
+      "bombs": [],
+      "buttons": {
+        "4 倍": [
+          127,
+          680
+        ],
+        "B-25J 长机": [
+          442,
+          680
+        ],
+        "关闭声音": [
+          822,
+          680
+        ],
+        "恢复信息": [
+          728,
+          680
+        ],
+        "战报": [
+          900,
+          680
+        ],
+        "指挥态势": [
+          634,
+          680
+        ],
+        "暂停": [
+          52,
+          680
+        ],
+        "港口兵器检视（不重置）": [
+          599,
+          104
+        ],
+        "结束": [
+          962,
+          680
+        ],
+        "继续导览": [
+          396,
+          104
+        ],
+        "自动电影": [
+          218,
+          680
+        ],
+        "自由观察": [
+          312,
+          680
+        ],
+        "跟随": [
+          556,
+          680
+        ],
+        "重开": [
+          1024,
+          680
+        ],
+        "重新演示": [
+          304,
+          104
+        ],
+        "零战截击 B-25J": [
+          146,
+          104
+        ]
+      },
+      "camera_distance_m": 60.2597618103027,
+      "camera_mode": "free",
+      "camera_subject": "bomber",
+      "controls": {
+        "carrier": [
+          140,
+          146
+        ],
+        "segment": [
+          146,
+          104
+        ],
+        "speed": [
+          127,
+          680
+        ],
+        "unit": [
+          442,
+          680
+        ]
+      },
+      "draw_calls": 237,
+      "effects": {
+        "active": 0,
+        "allocated": 384,
+        "dropped": 2710,
+        "engine_sources": 4,
+        "last_sequence": 516,
+        "materials": 384,
+        "peak_visible": 384,
+        "preempted": 2710,
+        "render_instances": 384,
+        "shown_events": 516,
+        "sound_sources": 8,
+        "visible_instances": 0
+      },
+      "ended": "",
+      "environment": {
+        "children": 3,
+        "clouds_enabled": true,
+        "sky_id": -9223371973722111000,
+        "sky_time_s": 436.866666666667,
+        "time_s": 436.866666666667,
+        "water_id": -9223371973655002000,
+        "water_time_s": 436.866666666667
+      },
+      "exercise": "intercept_b25",
+      "followed_id": "",
+      "generation": 8,
+      "guide_active": true,
+      "guide_current": "bombing",
+      "label": "实际截击 · 任务控制已释放",
+      "models": 4,
+      "node_count": 2026,
+      "operation_text": "B-25J 长机 · 任务控制已释放 · 已投0 / 余6 · 受损中止攻击\nB-25J 僚机 · 残骸已清除 · 已投0 / 余6 · 错过投放窗口\n在空开始 · 返航至撤离空域",
+      "operation_text_visible": true,
+      "paused": false,
+      "pending_s": 0.00633333333334004,
+      "popups": {
+        "carrier": {
+          "count": 4,
+          "labels": [
+            "舰载高层指令",
+            "整波巡逻／放飞",
+            "整波召回／回收",
+            "仅一架出动 · 限制示例"
+          ],
+          "metadata": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "padding_bottom": 4,
+          "padding_top": 4,
+          "position": [
+            0,
+            0
+          ],
+          "row_height": 28,
+          "selected": 0,
+          "size": [
+            100,
+            100
+          ],
+          "visible": false
+        },
+        "segment": {
+          "count": 30,
+          "labels": [
+            "连续导览",
+            "双机协调转弯",
+            "四机自主任务",
+            "单机自主空战观察",
+            "SB2C 护航任务",
+            "舰队与岸防实战",
+            "F6F 训练 · 大坡度转弯",
+            "F6F 训练 · 爬升与俯冲",
+            "F6F 训练 · 完整轴向滚转",
+            "F6F 训练 · 反向滚转转弯",
+            "F6F 训练 · 半滚倒转",
+            "A6M 训练 · 大坡度转弯",
+            "A6M 训练 · 爬升与俯冲",
+            "A6M 训练 · 完整轴向滚转",
+            "A6M 训练 · 反向滚转转弯",
+            "A6M 训练 · 半滚倒转",
+            "港湾／军港／机场导览",
+            "两航母航行与炮战",
+            "F6F 单机甲板作业",
+            "F6F 双机整波作业",
+            "单机出动限制示例",
+            "D4Y2 · 模型展示",
+            "G4M1 · 模型展示",
+            "B-25J · 模型展示",
+            "SB2C · 俯冲轰炸",
+            "D4Y2 · 俯冲轰炸",
+            "G4M1 · 水平轰炸",
+            "B-25J · 舰艇轰炸",
+            "F6F 截击 G4M1",
+            "零战截击 B-25J"
+          ],
+          "metadata": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "padding_bottom": 4,
+          "padding_top": 4,
+          "position": [
+            36,
+            123
+          ],
+          "row_height": 28,
+          "selected": 29,
+          "size": [
+            227,
+            580
+          ],
+          "visible": false
+        },
+        "speed": {
+          "count": 4,
+          "labels": [
+            "0.5 倍",
+            "1 倍",
+            "2 倍",
+            "4 倍"
+          ],
+          "metadata": [
+            null,
+            null,
+            null,
+            null
+          ],
+          "padding_bottom": 4,
+          "padding_top": 4,
+          "position": [
+            86,
+            600
+          ],
+          "row_height": 28,
+          "selected": 3,
+          "size": [
+            82,
+            120
+          ],
+          "visible": false
+        },
+        "unit": {
+          "count": 4,
+          "labels": [
+            "B-25J 长机",
+            "零战截击机",
+            "雪风 · 机动防空",
+            "B-25J 僚机"
+          ],
+          "metadata": [
+            "bomber",
+            "fighter",
+            "target",
+            "wing"
+          ],
+          "padding_bottom": 4,
+          "padding_top": 4,
+          "position": [
+            0,
+            0
+          ],
+          "row_height": 28,
+          "selected": 0,
+          "size": [
+            100,
+            100
+          ],
+          "visible": false
+        }
+      },
+      "protocol": 2,
+      "sound_enabled": true,
+      "speed": 4,
+      "static_models": [],
+      "tick": 26212,
+      "time_s": 436.866666666667,
+      "training": {
+        "execution": {},
+        "label": "已提交 · 等待实际接收",
+        "order_id": "",
+        "phase": "",
+        "status": "submitted",
+        "subject_id": "",
+        "training": {}
+      },
+      "ui": {
+        "cinema": true,
+        "expanded": false
+      },
+      "units": {
+        "bomber": {
+          "active": true,
+          "aircraft_task": {
+            "phase": "released",
+            "reason": "damage_abort"
+          },
+          "bombing": {
+            "abort_reason": "damage_abort",
+            "order_id": "bombing_commander_1",
+            "phase": "released",
+            "reason": "damage_abort"
+          },
+          "carrier_ops": {},
+          "command_assignment": {},
+          "damage": {
+            "control_factor": 0.68315612200122,
+            "detached_parts": [],
+            "fire": 0,
+            "fragments": [],
+            "phase": "operational",
+            "propulsion_factor": 1,
+            "structure": 156.342313132837,
+            "structure_max": 160
+          },
+          "definition_id": "us_b25j_1944_07",
+          "fuel_kg": 2409.04033426898,
+          "position_m": [
+            -23022.001953125,
+            1800.02526855469,
+            23672.546875
+          ],
+          "rack": {
+            "bay": 0,
+            "brake": 0,
+            "crutch": 0,
+            "released": 0,
+            "remaining": 6,
+            "slots": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          "rotation_rad": [
+            -1.13910738619438e-08,
+            2.16853666305542,
+            -2.79776202205539e-14
+          ],
+          "velocity_mps": [
+            -83.3630523681641,
+            -1.14878287149622e-06,
+            56.7556266784668
+          ]
+        },
+        "fighter": {
+          "active": true,
+          "aircraft_task": {
+            "phase": "guard",
+            "reason": "escort_protection_area"
+          },
+          "bombing": {
+            "abort_reason": "",
+            "order_id": "",
+            "phase": "",
+            "reason": ""
+          },
+          "carrier_ops": {},
+          "command_assignment": {},
+          "damage": {
+            "control_factor": 1,
+            "detached_parts": [],
+            "fire": 0,
+            "fragments": [],
+            "phase": "operational",
+            "propulsion_factor": 1,
+            "structure": 65,
+            "structure_max": 65
+          },
+          "definition_id": "jp_a6m5a_1944",
+          "fuel_kg": 336.80309596261,
+          "position_m": [
+            -1505.85656738281,
+            695.208068847656,
+            -5533.00244140625
+          ],
+          "rack": {
+            "bay": 0,
+            "brake": 0,
+            "crutch": 0,
+            "released": 0,
+            "remaining": -1,
+            "slots": []
+          },
+          "rotation_rad": [
+            0.00175408029463142,
+            -0.0666370838880539,
+            0.0294495355337858
+          ],
+          "velocity_mps": [
+            6.84061861038208,
+            0.180198311805725,
+            -102.502838134766
+          ]
+        },
+        "target": {
+          "active": true,
+          "aircraft_task": {
+            "phase": "",
+            "reason": ""
+          },
+          "bombing": {
+            "abort_reason": "",
+            "order_id": "",
+            "phase": "",
+            "reason": ""
+          },
+          "carrier_ops": {},
+          "command_assignment": {},
+          "damage": {
+            "control_factor": 1,
+            "detached_parts": [],
+            "fire": 0,
+            "fragments": [],
+            "phase": "operational",
+            "propulsion_factor": 1,
+            "structure": 780,
+            "structure_max": 780
+          },
+          "definition_id": "jp_yukikaze_1942_06",
+          "fuel_kg": -1,
+          "position_m": [
+            -464.028900146484,
+            0,
+            -5204.880859375
+          ],
+          "rack": {
+            "bay": 0,
+            "brake": 0,
+            "crutch": 0,
+            "released": 0,
+            "remaining": -1,
+            "slots": []
+          },
+          "rotation_rad": [
+            0,
+            0.0908383280038834,
+            0
+          ],
+          "velocity_mps": [
+            -1.0885614156723,
+            0,
+            -11.9505243301392
+          ]
+        },
+        "wing": {
+          "active": false,
+          "aircraft_task": {
+            "phase": "released",
+            "reason": "recipient_inactive"
+          },
+          "bombing": {
+            "abort_reason": "missed_release_window",
+            "order_id": "bombing_commander_1",
+            "phase": "released",
+            "reason": "recipient_inactive"
+          },
+          "carrier_ops": {},
+          "command_assignment": {},
+          "damage": {
+            "control_factor": 0,
+            "detached_parts": [
+              "wing_left",
+              "wing_right",
+              "tail"
+            ],
+            "fire": 0,
+            "fragments": [],
+            "phase": "removed",
+            "propulsion_factor": 0,
+            "structure": 0,
+            "structure_max": 160
+          },
+          "definition_id": "us_b25j_1944_07",
+          "fuel_kg": 2577.77294423498,
+          "position_m": [
+            103.93448638916,
+            -10.8000402450562,
+            -1231.31079101562
+          ],
+          "rack": {
+            "bay": 0,
+            "brake": 0,
+            "crutch": 0,
+            "released": 0,
+            "remaining": 6,
+            "slots": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ]
+          },
+          "rotation_rad": [
+            -1.45170950889587,
+            0.46774497628212,
+            1.16489267349243
+          ],
+          "velocity_mps": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "orders": [
+        {
+          "assigned_unit_ids": [
+            "target"
+          ],
+          "changed_tick": 2,
+          "execution": {
+            "target": {
+              "progress": "cruise",
+              "reason": "following_route",
+              "status": "executing"
+            }
+          },
+          "faction_id": "jp",
+          "intent": "search_no_contact",
+          "issued_tick": 2,
+          "issuer_id": "jp_commander",
+          "order_id": "fleet_ai:jp:0001",
+          "order_type": "patrol",
+          "progress": "forming",
+          "reason": "ship_task_received",
+          "recipient_ids": [
+            "target"
+          ],
+          "source": "ai",
+          "status": "executing",
+          "target_id": ""
+        },
+        {
+          "assigned_unit_ids": [],
+          "changed_tick": 5402,
+          "execution": {
+            "fighter": {
+              "progress": "aim",
+              "reason": "replacement_order_received",
+              "status": "superseded"
+            }
+          },
+          "faction_id": "jp",
+          "intent": "intercept_air_threat",
+          "issued_tick": 2,
+          "issuer_id": "jp_commander",
+          "order_id": "fleet_ai:jp:0002",
+          "order_type": "intercept",
+          "progress": "",
+          "reason": "all_assignments_released:replacement_order_received",
+          "recipient_ids": [
+            "fighter"
+          ],
+          "source": "ai",
+          "status": "superseded",
+          "target_id": "bomber"
+        },
+        {
+          "assigned_unit_ids": [],
+          "changed_tick": 9303,
+          "execution": {
+            "bomber": {
+              "progress": "return_area",
+              "reason": "damage_abort",
+              "status": "failed"
+            },
+            "wing": {
+              "progress": "egress",
+              "reason": "recipient_inactive",
+              "status": "failed"
+            }
+          },
+          "faction_id": "us",
+          "intent": "Attack assigned area",
+          "issued_tick": 2,
+          "issuer_id": "commander_us",
+          "order_id": "bombing_commander_1",
+          "order_type": "bombing",
+          "progress": "",
+          "reason": "all_assignments_released:damage_abort",
+          "recipient_ids": [
+            "bomber",
+            "wing"
+          ],
+          "source": "ai",
+          "status": "failed",
+          "target_id": "target"
+        },
+        {
+          "assigned_unit_ids": [
+            "fighter"
+          ],
+          "changed_tick": 5402,
+          "execution": {
+            "fighter": {
+              "progress": "guard",
+              "reason": "escort_protection_area",
+              "status": "executing"
+            }
+          },
+          "faction_id": "jp",
+          "intent": "protect_core",
+          "issued_tick": 5402,
+          "issuer_id": "jp_commander",
+          "order_id": "fleet_ai:jp:0003",
+          "order_type": "escort",
+          "progress": "forming",
+          "reason": "flight_task_received",
+          "recipient_ids": [
+            "fighter"
+          ],
+          "source": "ai",
+          "status": "executing",
+          "target_id": "target"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "task": "S04-carrier-use",
+  "reviewed_utc": "2026-11-11T11:17:46.577402+00:00",
+  "status": "passed",
+  "candidate_manifest": "candidates/s04-carrier-usage/candidate-manifest.json",
+  "candidate_manifest_sha256": "379681d3aa81909d08a1e7c28a323ca7bac03054a390e2efb83d558ec8c9a3f3",
+  "payload_counts": {
+    "source_manifest": 25,
+    "evidence_manifest": 177,
+    "stage_inputs": 523
+  },
+  "candidate_destinations_verified": 4,
+  "protected_public_files_unchanged": 3,
+  "headless_results": [
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r10/headless/airframe-preservation.json",
+      "checks": 17,
+      "failures": 0
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r10/headless/model.json",
+      "checks": 56,
+      "failures": 0
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r10/headless/deck.json",
+      "checks": 31,
+      "failures": 0
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r10/headless/regressions/models.json",
+      "checks": 41,
+      "failures": 0
+    },
+    {
+      "path": "docs/showcase/evidence/S04-carrier-usage/r10/headless/regressions/mechanisms.json",
+      "checks": 90,
+      "failures": 0
+    }
+  ],
+  "completed_validation_reports": 29,
+  "recorded_child_groups_checked_absent": 68,
+  "remaining_groups": [],
+  "recorded_pids_in_reports": 97,
+  "pid_scope": "PID count is inventory only; this root audit probes all recorded process groups. Worker cleanup additionally inventories PID identities.",
+  "native_review": "docs/showcase/acceptance/S04-carrier-use-native-root-review.json",
+  "runtime_admission": "private candidate accepted for OPS staging; ordinary S08 not replaced",
+  "browser_scope": "No Chrome or HTTP launched for this model candidate",
+  "problems": []
+}

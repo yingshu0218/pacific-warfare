@@ -1,0 +1,282 @@
+[
+  {
+    "path": "assets/audio/SOURCES.md",
+    "sha256": "6e3aa92220839863ce90ec1bccf8508fcab4c4ad6f58fbd44dd006502af5651f",
+    "bytes": 509
+  },
+  {
+    "path": "data/ammunition/jp_20mm_type99_2_shell.json",
+    "sha256": "a3a7c1f25b1b748c223d7e27da9a56c9bb298b014a21164abf287db514e4a019",
+    "bytes": 477
+  },
+  {
+    "path": "data/ammunition/jp_77mm_type97_ball.json",
+    "sha256": "231edffe52a5a1ab9a3502750167767b3f2512c2c4984d2c9e58bfb884f7f739",
+    "bytes": 477
+  },
+  {
+    "path": "data/combat/showcase.json",
+    "sha256": "b9da40fadec7a1157460b5a7a1c295083497c2a3b062c755034fd1b57a9c0191",
+    "bytes": 51197
+  },
+  {
+    "path": "docs/combat-contracts.md",
+    "sha256": "f68283c3e24b41951c033fe36bdb99afb8464503efaf00d4331e8736cc42945b",
+    "bytes": 12506
+  },
+  {
+    "path": "docs/references/combat/s05-sources.md",
+    "sha256": "a5a5213c6794ce9da911b0f631e00863baaee6f0568b62760a1800da0c91c8cd",
+    "bytes": 9494
+  },
+  {
+    "path": "docs/showcase/deliveries/S05.md",
+    "sha256": "f58f67665801381ec7bece80868e15278630e93e0df24d99c8921fdd01b35d9d",
+    "bytes": 14598
+  },
+  {
+    "path": "docs/showcase/evidence/S05/damage_effect_anchors.json",
+    "sha256": "79dffe4d809d05e304b1c73a5253c0e3a7a3790ac31ffeec724643d81d95efcd",
+    "bytes": 1005
+  },
+  {
+    "path": "docs/showcase/evidence/S05/departed_boundary.json",
+    "sha256": "b93e0e5eb65ae88f64f9ff2a785b0db2ee18becd977c8243137cf58cf395c660",
+    "bytes": 936
+  },
+  {
+    "path": "docs/showcase/evidence/S05/external_review.json",
+    "sha256": "8dc9ca10f510454a8dc84ecdcd16c9e57884a24097107c11ceb8c1ff143b3f88",
+    "bytes": 364
+  },
+  {
+    "path": "docs/showcase/evidence/S05/regressions/departed_collision.gd",
+    "sha256": "d7014b9e8f377615895b18949e8911ca808ac56796a38686287135a467dcbdf7",
+    "bytes": 1397
+  },
+  {
+    "path": "scripts/command/air_defence/combat_targeting.gd",
+    "sha256": "361a47c01125bc262919831e316494b7ae761e302de11737a5076d365a01536d",
+    "bytes": 3612
+  },
+  {
+    "path": "scripts/command/air_defence/combat_targeting.gd.uid",
+    "sha256": "6ad09cd82f35fc9a5f8bfc0499de79e857cd2063abdc025c8a35977ccbb43bbf",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/command/contacts/combat_contacts.gd",
+    "sha256": "cbd6e2bf0adc661931ae98317b16e4c2b5b66d38f29748eb19eaf9c07873559b",
+    "bytes": 4176
+  },
+  {
+    "path": "scripts/command/contacts/combat_contacts.gd.uid",
+    "sha256": "7d0ced4caa4bb5b964704e00cc85271b93c01042952a80e3371019f37dfbdbd9",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/presentation/effects/combat_audio_bank.gd",
+    "sha256": "a00dc90ed2e6e4a08cd63c71e6d07312d6bebbcfd915b40025a9a55162370595",
+    "bytes": 1301
+  },
+  {
+    "path": "scripts/presentation/effects/combat_audio_bank.gd.uid",
+    "sha256": "662cd71c0523ad84a8191b62c975690e8d01f3056a7b4063648dd94afa2171b2",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/presentation/effects/combat_effects.gd",
+    "sha256": "4e42150774b254d7a484d935c56d93e070f937437272942bca9d2222659b2b3a",
+    "bytes": 11139
+  },
+  {
+    "path": "scripts/presentation/effects/combat_effects.gd.uid",
+    "sha256": "60833bb7551d4e0223a50a964a7b3601ef34fc4104f158b55841735d0b1d44be",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/simulation/collision/combat_frame.gd",
+    "sha256": "c72e8fff69699e584ffdcab752ddfca90c5c158d3f788ca6f7a93bf4f5b4e59b",
+    "bytes": 2695
+  },
+  {
+    "path": "scripts/simulation/collision/combat_frame.gd.uid",
+    "sha256": "a25ab3f749aab6b3ee9e3b70c503c3f4f701a3f60615ee2861b3c908b550dd2b",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/simulation/collision/combat_geometry.gd",
+    "sha256": "26f30283de1b36028c8732fd933e7f52a727cc64f283f87ab140749aecbacdbc",
+    "bytes": 3135
+  },
+  {
+    "path": "scripts/simulation/collision/combat_geometry.gd.uid",
+    "sha256": "25b8af01e4aef2c6e0633da62e61009d741f6079438e88b206ffc95de7a26334",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/simulation/collision/combat_presence.gd",
+    "sha256": "921594ac08c46a2c4eedc7e27a0e0d941e2ea6d288f2faf1343e9be7fd62b25a",
+    "bytes": 560
+  },
+  {
+    "path": "scripts/simulation/collision/combat_presence.gd.uid",
+    "sha256": "4b95714c8bdc538cb2ce12c20b5735a7d26a58a390bd845ce38e9b82054ab223",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/simulation/damage/combat_damage.gd",
+    "sha256": "42f5d0a302d6136c69ade69e7b3316fc5464b8107ed1794b3070922cb92aec64",
+    "bytes": 10895
+  },
+  {
+    "path": "scripts/simulation/damage/combat_damage.gd.uid",
+    "sha256": "bd7037358bbdd6ac925d8fc4ff3aead679547dad077e99a3fd34e6875a0f2c5b",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/simulation/fire_control/combat_fire_control.gd",
+    "sha256": "b74937991d9e733264fad77e3a023d5ffed42bdb9171abe71baf3903fad90763",
+    "bytes": 2570
+  },
+  {
+    "path": "scripts/simulation/fire_control/combat_fire_control.gd.uid",
+    "sha256": "b3b6e6274aa410a630fb62846ed9b1d76906bb1ff17e2c576203b25e82d4c002",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/simulation/projectiles/combat_projectiles.gd",
+    "sha256": "a2b477c8210079d90cb9c0cfde2452aacc5b038f85f4c50adc3517dee8695be9",
+    "bytes": 10803
+  },
+  {
+    "path": "scripts/simulation/projectiles/combat_projectiles.gd.uid",
+    "sha256": "4b897eb830ff891d0ba95987f17b495a6d0635474abfc460922811e9c9ba4a5d",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/simulation/weapons/combat_config.gd",
+    "sha256": "9abbf68d583aea67f21e47379ea837704fb60aea2fb43feca272f1ac05f5b449",
+    "bytes": 6697
+  },
+  {
+    "path": "scripts/simulation/weapons/combat_config.gd.uid",
+    "sha256": "83f0d09e5d03f04560fae1d2cad0a2a0c21f7bbe6d802b78ee16b905e3e4978f",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/simulation/weapons/combat_suite.gd",
+    "sha256": "c4299e5f0c89579eb7b4d4a978fce2e88cc5a89bb0bd9861777853d93bebe963",
+    "bytes": 1423
+  },
+  {
+    "path": "scripts/simulation/weapons/combat_suite.gd.uid",
+    "sha256": "313d71e1a5ed4a0ba20708434cc19e2f6bdc84618ec6570dd3ce11b914b89d76",
+    "bytes": 20
+  },
+  {
+    "path": "scripts/simulation/weapons/combat_weapons.gd",
+    "sha256": "0023a7ee960fb8628b3fb2b81951e1210770e68314419ff3d38aeec68dff2ad9",
+    "bytes": 9295
+  },
+  {
+    "path": "scripts/simulation/weapons/combat_weapons.gd.uid",
+    "sha256": "82181b1ffa0396a66951441c72e396d49e2ead99cc486c4dec72ce79e697c93a",
+    "bytes": 20
+  },
+  {
+    "path": "tests/combat_capture.gd",
+    "sha256": "bb36bca13d9282e4d8b3b8f48ab3d9f0b7c2a01360f2d0126ef6bbe89abf74fd",
+    "bytes": 7204
+  },
+  {
+    "path": "tests/fixtures/combat_fixture.gd",
+    "sha256": "a36ee8f880cfcc9afb5da1121ba35edc320bec934147e6aeac9035183b979a20",
+    "bytes": 4854
+  },
+  {
+    "path": "tests/fixtures/combat_test.gd",
+    "sha256": "c0c086e59284ec921c7ef6238ec368c7108c8bd5f6372502051877c6e3acdb6e",
+    "bytes": 505
+  },
+  {
+    "path": "tests/scenes/combat_capture.tscn",
+    "sha256": "0efdcdd6463bd41226516bb207d73a047f18ece53052c21d4824d771c5e468c7",
+    "bytes": 188
+  },
+  {
+    "path": "tests/test_air_defence.gd",
+    "sha256": "6bab080643ab76cb421f5d9e7031400b8822c002bde6f7ee876ecd1190bfb7ff",
+    "bytes": 2482
+  },
+  {
+    "path": "tests/test_combat_damage_effects.gd",
+    "sha256": "75106d9d976a730b609b6c7a4c03d5fca6d97405d3c4890d7d024a007806a2ff",
+    "bytes": 4328
+  },
+  {
+    "path": "tests/test_combat_effects.gd",
+    "sha256": "274091f7bba00f600f078cce8bd2a63903483217640c11d95e58894aa29386f1",
+    "bytes": 2113
+  },
+  {
+    "path": "tests/test_combat_geometry.gd",
+    "sha256": "08af4b2e3e9bd4797fd7f1dcae8149bbf5f60cc393e467a9658ce828d5899431",
+    "bytes": 2079
+  },
+  {
+    "path": "tests/test_combat_integration.gd",
+    "sha256": "9b7dacb54aaac65ece43e3259888afcd9c41c9c3e7c5187f5d269994554e64da",
+    "bytes": 5678
+  },
+  {
+    "path": "tests/test_combat_mount_clearance.gd",
+    "sha256": "ed0925051e97bbb6da06d2b415a631d37887128f3f8ea2e5ea756f0e248022ab",
+    "bytes": 1545
+  },
+  {
+    "path": "tests/test_combat_presence.gd",
+    "sha256": "5f8d865fbc7dc474be2d710b754b1a6309e471e20c0a65061fce0734451e4067",
+    "bytes": 14722
+  },
+  {
+    "path": "tests/test_contacts.gd",
+    "sha256": "bb269fd65dd8ed4524dc9389092b4e4ca3d2c9f6ae246527807b8f3e315bfb2e",
+    "bytes": 2232
+  },
+  {
+    "path": "tests/test_damage_states.gd",
+    "sha256": "486c6602f728167d58229f2d38f64fa4816622a77603a3f251c53bcfba15003c",
+    "bytes": 5020
+  },
+  {
+    "path": "tests/test_gunnery.gd",
+    "sha256": "6c86249c4e9962a35a5a94ae0fac76e12ae89c526d88892be294bb622f2c1015",
+    "bytes": 3993
+  },
+  {
+    "path": "tests/test_projectile_impact.gd",
+    "sha256": "b5e98992148dca5bffe7ac819e369604a8753f1e38f20e24d96314de990ef3dc",
+    "bytes": 5774
+  },
+  {
+    "path": "tests/test_unit_surface_contact.gd",
+    "sha256": "157bd02a97838b88bc9f96c663a432791f5a99c3025cc368735aec15b36eff42",
+    "bytes": 2554
+  },
+  {
+    "path": "tests/test_weapon_cycle.gd",
+    "sha256": "d888425966fe61382d2802a3370e09f5402446387cd1d59172eeb1bef2a961f0",
+    "bytes": 4208
+  },
+  {
+    "path": "tools/build_combat_parameters.py",
+    "sha256": "a641026780b6a66bab28aa68b52f2079bb4d2253f151cb865ed8f7040a08afee",
+    "bytes": 10259
+  },
+  {
+    "path": "tools/collect_s05_evidence.py",
+    "sha256": "1ed4f4c0b57c62a36d48279563a2c4b483fae94b71a277923b426b6a65b1e79c",
+    "bytes": 5447
+  }
+]

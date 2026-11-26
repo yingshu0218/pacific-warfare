@@ -1,0 +1,22 @@
+{
+  "id": "us_5in51_mk8_mk13_single",
+  "ammo_id": "s10_us_127mm_51_common_mk15",
+  "barrel_count": 1,
+  "cycle_s": 8.0,
+  "initial_rounds_per_barrel": 60,
+  "train_limits_deg": [
+    -180,
+    180
+  ],
+  "elevation_limits_deg": [
+    -10,
+    20
+  ],
+  "train_rate_degps": 3.0,
+  "elevation_rate_degps": 3.0,
+  "source": {
+    "status": "provisional",
+    "basis": "OP1112 pp162-163, sheet1945-01-15",
+    "note": "Coast8s crew cycle and all angular speeds are explicit crew-operation estimates. M1 rapid120rpm (.5s) is manual data; no invented continuous powered traverse."
+  }
+}

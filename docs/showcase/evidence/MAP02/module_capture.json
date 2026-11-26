@@ -1,0 +1,258 @@
+{
+	"failures": [],
+	"frames": [],
+	"map_sha256": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
+	"reclaimed_on_exit": true,
+	"scope": "MAP02 independent static inspection; no combat/OPS or Chrome performance claim",
+	"source_hashes_after": {
+		"data/map02/facility_instances.json": "bb18af465c9ac043dc29db3492790e373645d908d24f224b43721e0188a7f745",
+		"data/map02/facility_modules.json": "309bfd9e68a57ebf18cedcec9d856168bfb8ee1173736d3373ef67fcaff86067",
+		"data/map02/regions.json": "9001179a2e2c48774c4c62d8afecc2e10d131d5a717a045b42742d77056d5816",
+		"data/maps/island_harbor_expanded.json": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
+		"scenes/map02/expanded_map.tscn": "d17254c5d1a4eca3361eb6fc977c1f4447db23b3cc4e0c97fae91c4865fe8d33",
+		"scenes/map02/facilities.tscn": "06b619058d46df5230d9513b26e21bfb55894a44d39c9fe961e07f8dd28f9883",
+		"scripts/map02/expanded_map_data.gd": "26addcec3d15a79f11936c0cb2fbaad6373466575b32e617b739a1bdad58433e",
+		"scripts/map02/expanded_map_view.gd": "32096520c098a56c81ec9d9f1a29189539fbad075e01a64d6e1354d2f45d9b25",
+		"scripts/map02/map_inspector.gd": "db4b9357fcc9ff9411b2136d6dede1997cf08ae2a416b42d87620d444a6f4393",
+		"scripts/presentation/maps/island_harbor_view.gd": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+		"scripts/presentation/ocean.gdshader": "5afec338285da856563f79f94171dee6d5b974509e29682353d453724fc1e98a",
+		"scripts/simulation/terrain/terrain_navigation.gd": "da7d41539c07eeb51c7772bedef7b366c6755e95c3fc1f7c1455250561cf8a27",
+		"scripts/simulation/terrain/terrain_queries.gd": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868",
+		"tests/map02/capture_map02.gd": "eaa28cb69a74e830554dbdad1bc974be25055474ee7be26fda3dfd3b7fd8070f"
+	},
+	"source_hashes_before": {
+		"data/map02/facility_instances.json": "bb18af465c9ac043dc29db3492790e373645d908d24f224b43721e0188a7f745",
+		"data/map02/facility_modules.json": "309bfd9e68a57ebf18cedcec9d856168bfb8ee1173736d3373ef67fcaff86067",
+		"data/map02/regions.json": "9001179a2e2c48774c4c62d8afecc2e10d131d5a717a045b42742d77056d5816",
+		"data/maps/island_harbor_expanded.json": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
+		"scenes/map02/expanded_map.tscn": "d17254c5d1a4eca3361eb6fc977c1f4447db23b3cc4e0c97fae91c4865fe8d33",
+		"scenes/map02/facilities.tscn": "06b619058d46df5230d9513b26e21bfb55894a44d39c9fe961e07f8dd28f9883",
+		"scripts/map02/expanded_map_data.gd": "26addcec3d15a79f11936c0cb2fbaad6373466575b32e617b739a1bdad58433e",
+		"scripts/map02/expanded_map_view.gd": "32096520c098a56c81ec9d9f1a29189539fbad075e01a64d6e1354d2f45d9b25",
+		"scripts/map02/map_inspector.gd": "db4b9357fcc9ff9411b2136d6dede1997cf08ae2a416b42d87620d444a6f4393",
+		"scripts/presentation/maps/island_harbor_view.gd": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+		"scripts/presentation/ocean.gdshader": "5afec338285da856563f79f94171dee6d5b974509e29682353d453724fc1e98a",
+		"scripts/simulation/terrain/terrain_navigation.gd": "da7d41539c07eeb51c7772bedef7b366c6755e95c3fc1f7c1455250561cf8a27",
+		"scripts/simulation/terrain/terrain_queries.gd": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868",
+		"tests/map02/capture_map02.gd": "eaa28cb69a74e830554dbdad1bc974be25055474ee7be26fda3dfd3b7fd8070f"
+	},
+	"static_children": 6,
+	"statistics": {
+		"materials": 1,
+		"mesh_instances": 1,
+		"nodes": 2,
+		"static_triangles": 952
+	},
+	"views": [
+		{
+			"camera_m": [
+				80.7417678833008,
+				841.470947265625,
+				534.235290527344
+			],
+			"draw_calls": 13.0,
+			"focus_m": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"name": "normal_ui",
+			"triangles": 2370.0
+		},
+		{
+			"camera_m": [
+				80.7417678833008,
+				841.470947265625,
+				534.235290527344
+			],
+			"draw_calls": 3.0,
+			"focus_m": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"name": "gallery",
+			"triangles": 1906.0
+		},
+		{
+			"camera_m": [
+				-182.055450439453,
+				66.5253143310547,
+				-105.588562011719
+			],
+			"draw_calls": 4.0,
+			"focus_m": [
+				-270.0,
+				12.0,
+				-210.0
+			],
+			"name": "town_house",
+			"triangles": 2858.0
+		},
+		{
+			"camera_m": [
+				-2.05545806884766,
+				66.5253143310547,
+				-105.588562011719
+			],
+			"draw_calls": 5.0,
+			"focus_m": [
+				-90.0,
+				12.0,
+				-210.0
+			],
+			"name": "town_shop",
+			"triangles": 3810.0
+		},
+		{
+			"camera_m": [
+				177.944549560547,
+				66.5253143310547,
+				-105.588562011719
+			],
+			"draw_calls": 5.0,
+			"focus_m": [
+				90.0,
+				12.0,
+				-210.0
+			],
+			"name": "public_hall",
+			"triangles": 3810.0
+		},
+		{
+			"camera_m": [
+				399.669128417969,
+				92.394416809082,
+				-56.0513763427734
+			],
+			"draw_calls": 6.0,
+			"focus_m": [
+				270.0,
+				12.0,
+				-210.0
+			],
+			"name": "cargo_warehouse",
+			"triangles": 4762.0
+		},
+		{
+			"camera_m": [
+				-152.174011230469,
+				85.0517044067383,
+				139.887954711914
+			],
+			"draw_calls": 5.0,
+			"focus_m": [
+				-270.0,
+				12.0,
+				0.0
+			],
+			"name": "military_warehouse",
+			"triangles": 3810.0
+		},
+		{
+			"camera_m": [
+				95.1764373779297,
+				126.808753967285,
+				219.849227905273
+			],
+			"draw_calls": 6.0,
+			"focus_m": [
+				-90.0,
+				12.0,
+				0.0
+			],
+			"name": "repair_shed",
+			"triangles": 4762.0
+		},
+		{
+			"camera_m": [
+				216.277297973633,
+				90.2914810180664,
+				149.921691894531
+			],
+			"draw_calls": 6.0,
+			"focus_m": [
+				90.0,
+				12.0,
+				0.0
+			],
+			"name": "air_hangar",
+			"triangles": 4762.0
+		},
+		{
+			"camera_m": [
+				357.944549560547,
+				66.5253143310547,
+				104.411437988281
+			],
+			"draw_calls": 6.0,
+			"focus_m": [
+				270.0,
+				12.0,
+				0.0
+			],
+			"name": "barracks",
+			"triangles": 4762.0
+		},
+		{
+			"camera_m": [
+				-182.055450439453,
+				66.5253143310547,
+				314.411437988281
+			],
+			"draw_calls": 5.0,
+			"focus_m": [
+				-270.0,
+				12.0,
+				210.0
+			],
+			"name": "control_tower",
+			"triangles": 3810.0
+		},
+		{
+			"camera_m": [
+				-2.05545806884766,
+				66.5253143310547,
+				314.411437988281
+			],
+			"draw_calls": 6.0,
+			"focus_m": [
+				-90.0,
+				12.0,
+				210.0
+			],
+			"name": "fuel_tank",
+			"triangles": 4762.0
+		},
+		{
+			"camera_m": [
+				177.944549560547,
+				66.5253143310547,
+				314.411437988281
+			],
+			"draw_calls": 6.0,
+			"focus_m": [
+				90.0,
+				12.0,
+				210.0
+			],
+			"name": "dock_crane",
+			"triangles": 4762.0
+		},
+		{
+			"camera_m": [
+				357.944549560547,
+				66.5253143310547,
+				314.411437988281
+			],
+			"draw_calls": 6.0,
+			"focus_m": [
+				270.0,
+				12.0,
+				210.0
+			],
+			"name": "pier_furniture",
+			"triangles": 4762.0
+		}
+	]
+}

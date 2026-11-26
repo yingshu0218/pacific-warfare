@@ -1,0 +1,72 @@
+{
+  "run_id": "20261110T203542-d442b6db",
+  "owner": "S14-native-train_us_axial_roll",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-r3",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 76162,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-r3",
+      "pid": 76164,
+      "process_group": 76164,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2449,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T203542-d442b6db/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-r3",
+        "--minimized",
+        "--resolution",
+        "1280x720",
+        "--script",
+        "res://tests/s14_final_capture.gd",
+        "--",
+        "--mode=train_us_axial_roll",
+        "--fps=15",
+        "--limit=65",
+        "--output=/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S14/final/native/train_us_axial_roll"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-r3",
+      "pid": 76166,
+      "process_group": 76166,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 23.9852,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T203542-d442b6db/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S14-native-train_us_axial_roll",
+    "pid": 76162,
+    "process_identity": "Wed Nov 11 04:35:42 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S14-native-train_us_axial_roll --timeout 120 --lock-timeout 60 --project .local/s14-final-r3 godot --render -- --minimized --resolution 1280x720 --script res://tests/s14_final_capture.gd -- --mode=train_us_axial_roll --fps=15 --limit=65 --output=/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/S14/final/native/train_us_axial_roll",
+    "token": "4afe69f65dfe4c5181b3a7a31b1c6b9b",
+    "acquired_utc": "2026-11-10T20:35:42.973881+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

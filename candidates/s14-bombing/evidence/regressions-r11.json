@@ -1,0 +1,46 @@
+{
+  "report": ".local/validation/runs/20261111T170856-cd11f8fe/report.json",
+  "report_sha256": "376f5d9eaf66011862559a52f3c04c06fd66bf30912d0e55a0dc4200e46b0f5e",
+  "source_manifest_sha256": "4a0da2822ed44c771517585b728a0ab9e5086c4edd2c18626ff98a78dca23c18",
+  "checks": [
+    {
+      "result": "candidates/s14-bombing/combination-r11.json",
+      "sha256": "119fbcfed0a24e24673e91a75b58df824cfd27a4f95ac24becda4bcd067fc58d",
+      "checks": 58,
+      "failed": 0
+    },
+    {
+      "result": "candidates/s14-bombing/assembly-r11.json",
+      "sha256": "0bbaed68034d90bf018259abcd02424abc902ad22bd3344fd25d231f2c0ea311",
+      "checks": 284,
+      "failed": 0
+    },
+    {
+      "result": "candidates/s14-bombing/autonomy-r11.json",
+      "sha256": "cf4cc95cdf70689bb7f5d0fce3f0c70fdf3423216e301ee92a40232cd15b37bc",
+      "checks": 33,
+      "failed": 0
+    },
+    {
+      "result": "candidates/s14-bombing/ownership-r11.json",
+      "sha256": "311127da4790209a5daf896fa8b6485a7f77c970391ac1046ec34360e671eb36",
+      "checks": 6,
+      "failed": 0
+    },
+    {
+      "result": "candidates/s14-bombing/damage-regression-r11.json",
+      "sha256": "b98b4da5c4f3da2b3158aac38b7f6c05cf6923d4c9d9d7353055025ac8b6282a",
+      "checks": 90,
+      "failed": 0
+    }
+  ],
+  "logs": [
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T170856-cd11f8fe/00-version.log",
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T170856-cd11f8fe/01-output.log",
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T170856-cd11f8fe/02-output.log",
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T170856-cd11f8fe/03-output.log",
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T170856-cd11f8fe/04-output.log",
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T170856-cd11f8fe/05-output.log",
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T170856-cd11f8fe/06-output.log"
+  ]
+}

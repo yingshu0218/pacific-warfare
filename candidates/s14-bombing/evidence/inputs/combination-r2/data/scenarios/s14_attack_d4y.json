@@ -1,0 +1,117 @@
+{
+  "seed": 707,
+  "tick_hz": 60,
+  "factions": [
+    "jp",
+    "us"
+  ],
+  "environment": {
+    "sea_level_m": 0,
+    "friendly_fire": false,
+    "solids": [],
+    "terrain_path": "res://data/maps/island_harbor_expanded.json",
+    "view_script": "res://scripts/map02/expanded_map_view.gd"
+  },
+  "fleet_profiles_path": "res://data/expansion/fleet_profiles.json",
+  "id": "s14_attack_d4y",
+  "spawns": [
+    {
+      "id": "bomber",
+      "unit_definition_id": "jp_d4y2_model12_1944_10",
+      "faction_id": "jp",
+      "position_m": [
+        -5300.0,
+        2400.0,
+        1620.0
+      ],
+      "velocity_mps": [
+        0.0,
+        0.0,
+        -85.0
+      ],
+      "rotation_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -5300.0,
+            1300.0,
+            4120.0
+          ]
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "strike",
+      "faction_id": "jp",
+      "member_ids": [
+        "bomber"
+      ]
+    }
+  ],
+  "ground_deployments": [
+    {
+      "id": "target",
+      "site_id": "map02_town_aa_01",
+      "unit_definition_id": "us_40mm_m1_m2a1_1944",
+      "faction_id": "us"
+    }
+  ],
+  "bombing_goals": [
+    {
+      "id": "strike",
+      "order_type": "bombing",
+      "faction_id": "jp",
+      "unit_ids": [
+        "bomber"
+      ],
+      "mode": "dive",
+      "target_id": "target"
+    }
+  ],
+  "combat_overlay_path": "res://data/combat/s14_bombing.json",
+  "combat_profile_override_ids": [
+    "us_sb2c4_1944"
+  ],
+  "showcase": {
+    "mode": "attack_d4y"
+  },
+  "fleet_overrides": {
+    "commanders": {
+      "jp": {
+        "patrol_center_m": [
+          0,
+          0,
+          -5000
+        ],
+        "patrol_radius_m": 700
+      },
+      "us": {
+        "patrol_center_m": [
+          -5300,
+          0,
+          -3880
+        ],
+        "patrol_radius_m": 1200
+      }
+    }
+  },
+  "presentation": {
+    "title": "海空交锋 · 轰炸与截击",
+    "subtitle": "在空初态 · 真实移动/防空 · 有限载荷",
+    "names": {
+      "bomber": "D4Y2 长机",
+      "target": "港区 M1 防空炮",
+      "strike": "D4Y2轰炸编组"
+    },
+    "duration_s": 1200,
+    "minimum_duration_s": 900,
+    "disengaged_after_s": 120
+  },
+  "integration_scope": "Production motion, contacts, weapons and DM; Bomber goals only; FleetPlanner exclusively assigns fighters. No timed results or passive-target overrides."
+}

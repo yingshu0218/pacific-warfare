@@ -1,0 +1,100 @@
+{
+  "utc": "2026-11-10T16:47:31.490518+00:00",
+  "owned_wrapper_children": [
+    45230,
+    45231,
+    45940,
+    45941,
+    46013,
+    46014,
+    46015,
+    46249,
+    46253,
+    46650,
+    46651,
+    46652,
+    46653,
+    46655,
+    46657,
+    46815,
+    46816,
+    47028,
+    47029,
+    47122,
+    47123,
+    47129,
+    47130,
+    47428,
+    47603
+  ],
+  "remaining_owned_pids": "",
+  "ps_exit": 1,
+  "private_profile_paths": [],
+  "loopback_servers": [
+    {
+      "port": 54664,
+      "connect_errno": 61,
+      "closed": true
+    },
+    {
+      "port": 54844,
+      "connect_errno": 61,
+      "closed": true
+    }
+  ],
+  "wrapper_cleanup": [
+    {
+      "run": "20261110T163836-fd099149",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T163054-ed8da492",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T163542-29dedda9",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T163229-49a03917",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T164241-c4f61557",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T164019-aef1f754",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T162516-9eb94994",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T163010-c14e0912",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T163334-31ccc495",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T163737-69936dc4",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T164439-329a69d8",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T164015-3cfc261b",
+      "cleanup_ok": true
+    },
+    {
+      "run": "20261110T163126-e2734a83",
+      "cleanup_ok": true
+    }
+  ],
+  "all_clear": true
+}

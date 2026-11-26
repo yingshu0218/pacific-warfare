@@ -1,0 +1,1085 @@
+{
+  "schema_version": 1,
+  "modules": {
+    "town_house": {
+      "label": "木石低层民居",
+      "parts": [
+        {
+          "id": "wall",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            18,
+            8,
+            24
+          ],
+          "color": "bcb39a",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "roof",
+          "position_m": [
+            0,
+            8,
+            0
+          ],
+          "size_m": [
+            19.5,
+            3,
+            25.5
+          ],
+          "color": "885e4c",
+          "shape": "gable",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "door",
+          "position_m": [
+            0,
+            0.1,
+            12.024000000000001
+          ],
+          "size_m": [
+            6.3,
+            4.96,
+            0.12
+          ],
+          "color": "465759",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "windows",
+          "position_m": [
+            0,
+            5.2,
+            -12.024000000000001
+          ],
+          "size_m": [
+            11.700000000000001,
+            1.4,
+            0.12
+          ],
+          "color": "566a6a",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        }
+      ]
+    },
+    "town_shop": {
+      "label": "沿街商铺",
+      "parts": [
+        {
+          "id": "wall",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            28,
+            10,
+            20
+          ],
+          "color": "c6bea4",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "roof",
+          "position_m": [
+            0,
+            10,
+            0
+          ],
+          "size_m": [
+            29.5,
+            2.8,
+            21.5
+          ],
+          "color": "696f65",
+          "shape": "gable",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "door",
+          "position_m": [
+            0,
+            0.1,
+            10.02
+          ],
+          "size_m": [
+            9.799999999999999,
+            6.2,
+            0.12
+          ],
+          "color": "465759",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "windows",
+          "position_m": [
+            0,
+            6.5,
+            -10.02
+          ],
+          "size_m": [
+            18.2,
+            1.4,
+            0.12
+          ],
+          "color": "566a6a",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "awning",
+          "position_m": [
+            0,
+            7,
+            13
+          ],
+          "size_m": [
+            29,
+            0.6,
+            7
+          ],
+          "color": "b59f76",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "porch",
+          "position_m": [
+            0,
+            -0.4,
+            12
+          ],
+          "size_m": [
+            29,
+            0.4,
+            8
+          ],
+          "color": "8e9282",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        }
+      ]
+    },
+    "public_hall": {
+      "label": "公共会馆/钟楼",
+      "parts": [
+        {
+          "id": "wall",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            46,
+            13,
+            32
+          ],
+          "color": "c9c3a5",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "roof",
+          "position_m": [
+            0,
+            13,
+            0
+          ],
+          "size_m": [
+            47.5,
+            5,
+            33.5
+          ],
+          "color": "655d4d",
+          "shape": "gable",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "door",
+          "position_m": [
+            0,
+            0.1,
+            16.032
+          ],
+          "size_m": [
+            16.099999999999998,
+            8.06,
+            0.12
+          ],
+          "color": "465759",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "windows",
+          "position_m": [
+            0,
+            8.450000000000001,
+            -16.032
+          ],
+          "size_m": [
+            29.900000000000002,
+            1.4,
+            0.12
+          ],
+          "color": "566a6a",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "tower",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            11,
+            30,
+            11
+          ],
+          "color": "b6b398",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "cap",
+          "position_m": [
+            0,
+            30,
+            0
+          ],
+          "size_m": [
+            13,
+            4,
+            13
+          ],
+          "color": "6d5d4c",
+          "shape": "pyramid",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "clock",
+          "position_m": [
+            0,
+            24,
+            5.6
+          ],
+          "size_m": [
+            4,
+            4,
+            0.12
+          ],
+          "color": "e8e4cc",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        }
+      ]
+    },
+    "cargo_warehouse": {
+      "label": "民港货仓",
+      "parts": [
+        {
+          "id": "wall",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            56,
+            14,
+            84
+          ],
+          "color": "aaa997",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "roof",
+          "position_m": [
+            0,
+            14,
+            0
+          ],
+          "size_m": [
+            57.5,
+            6,
+            85.5
+          ],
+          "color": "5d797b",
+          "shape": "gable",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "door",
+          "position_m": [
+            0,
+            0.1,
+            42.084
+          ],
+          "size_m": [
+            19.599999999999998,
+            8.68,
+            0.12
+          ],
+          "color": "465759",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "windows",
+          "position_m": [
+            0,
+            9.1,
+            -42.084
+          ],
+          "size_m": [
+            36.4,
+            1.4,
+            0.12
+          ],
+          "color": "566a6a",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        }
+      ]
+    },
+    "military_warehouse": {
+      "label": "军需仓库",
+      "parts": [
+        {
+          "id": "wall",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            78,
+            12,
+            48
+          ],
+          "color": "8e9786",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "roof",
+          "position_m": [
+            0,
+            12,
+            0
+          ],
+          "size_m": [
+            79.5,
+            5,
+            49.5
+          ],
+          "color": "636e67",
+          "shape": "gable",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "door",
+          "position_m": [
+            0,
+            0.1,
+            24.048000000000002
+          ],
+          "size_m": [
+            27.299999999999997,
+            7.4399999999999995,
+            0.12
+          ],
+          "color": "465759",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "windows",
+          "position_m": [
+            0,
+            7.800000000000001,
+            -24.048000000000002
+          ],
+          "size_m": [
+            50.7,
+            1.4,
+            0.12
+          ],
+          "color": "566a6a",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        }
+      ]
+    },
+    "repair_shed": {
+      "label": "军港维修棚",
+      "parts": [
+        {
+          "id": "wall",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            92,
+            24,
+            112
+          ],
+          "color": "a4aaa0",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "roof",
+          "position_m": [
+            0,
+            24,
+            0
+          ],
+          "size_m": [
+            93.5,
+            10,
+            113.5
+          ],
+          "color": "626e70",
+          "shape": "gable",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "door",
+          "position_m": [
+            0,
+            0.1,
+            56.112
+          ],
+          "size_m": [
+            32.199999999999996,
+            14.879999999999999,
+            0.12
+          ],
+          "color": "465759",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "windows",
+          "position_m": [
+            0,
+            15.600000000000001,
+            -56.112
+          ],
+          "size_m": [
+            59.800000000000004,
+            1.4,
+            0.12
+          ],
+          "color": "566a6a",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "bay_door",
+          "position_m": [
+            0,
+            0.2,
+            56.1
+          ],
+          "size_m": [
+            70,
+            21,
+            0.2
+          ],
+          "color": "34484c",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "beam",
+          "position_m": [
+            0,
+            22,
+            56.8
+          ],
+          "size_m": [
+            91,
+            2,
+            2
+          ],
+          "color": "7b8479",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        }
+      ]
+    },
+    "air_hangar": {
+      "label": "陆基机库",
+      "parts": [
+        {
+          "id": "wall",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            76,
+            18,
+            62
+          ],
+          "color": "aab09e",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "roof",
+          "position_m": [
+            0,
+            18,
+            0
+          ],
+          "size_m": [
+            77.5,
+            8,
+            63.5
+          ],
+          "color": "626d68",
+          "shape": "gable",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "door",
+          "position_m": [
+            0,
+            0.1,
+            31.062
+          ],
+          "size_m": [
+            26.599999999999998,
+            11.16,
+            0.12
+          ],
+          "color": "465759",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "windows",
+          "position_m": [
+            0,
+            11.700000000000001,
+            -31.062
+          ],
+          "size_m": [
+            49.4,
+            1.4,
+            0.12
+          ],
+          "color": "566a6a",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "hangar_door",
+          "position_m": [
+            0,
+            0.2,
+            31.1
+          ],
+          "size_m": [
+            64,
+            16,
+            0.2
+          ],
+          "color": "3a5158",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        }
+      ]
+    },
+    "barracks": {
+      "label": "军营/勤务房",
+      "parts": [
+        {
+          "id": "wall",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            44,
+            7,
+            16
+          ],
+          "color": "9da18c",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "roof",
+          "position_m": [
+            0,
+            7,
+            0
+          ],
+          "size_m": [
+            45.5,
+            3,
+            17.5
+          ],
+          "color": "657466",
+          "shape": "gable",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "door",
+          "position_m": [
+            0,
+            0.1,
+            8.016
+          ],
+          "size_m": [
+            15.399999999999999,
+            4.34,
+            0.12
+          ],
+          "color": "465759",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        },
+        {
+          "id": "windows",
+          "position_m": [
+            0,
+            4.55,
+            -8.016
+          ],
+          "size_m": [
+            28.6,
+            1.4,
+            0.12
+          ],
+          "color": "566a6a",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        }
+      ]
+    },
+    "control_tower": {
+      "label": "港务/场站控制塔",
+      "parts": [
+        {
+          "id": "base",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            12,
+            4,
+            12
+          ],
+          "color": "858f87",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "shaft",
+          "position_m": [
+            0,
+            4,
+            0
+          ],
+          "size_m": [
+            7,
+            17,
+            7
+          ],
+          "color": "a6a98e",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "cab",
+          "position_m": [
+            0,
+            21,
+            0
+          ],
+          "size_m": [
+            13,
+            5,
+            11
+          ],
+          "color": "596f72",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "roof",
+          "position_m": [
+            0,
+            26,
+            0
+          ],
+          "size_m": [
+            15,
+            1.5,
+            13
+          ],
+          "color": "707c73",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        }
+      ]
+    },
+    "fuel_tank": {
+      "label": "立式燃油罐",
+      "parts": [
+        {
+          "id": "plinth",
+          "position_m": [
+            0,
+            -0.6,
+            0
+          ],
+          "size_m": [
+            23,
+            0.6,
+            23
+          ],
+          "color": "858a7c",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "shell",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            18,
+            16,
+            18
+          ],
+          "color": "a2aaa1",
+          "shape": "cylinder",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "top",
+          "position_m": [
+            0,
+            16,
+            0
+          ],
+          "size_m": [
+            18,
+            2,
+            18
+          ],
+          "color": "b6b9a7",
+          "shape": "cone",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "top_hatch",
+          "position_m": [
+            0,
+            18,
+            0
+          ],
+          "size_m": [
+            2,
+            0.5,
+            2
+          ],
+          "color": "687b78",
+          "shape": "cylinder",
+          "solid": false,
+          "quay": false
+        }
+      ]
+    },
+    "dock_crane": {
+      "label": "码头门式吊机",
+      "parts": [
+        {
+          "id": "pad",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            20,
+            0.8,
+            18
+          ],
+          "color": "8c948b",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "leg_0",
+          "position_m": [
+            -7,
+            0.8,
+            -5
+          ],
+          "size_m": [
+            2,
+            25,
+            2
+          ],
+          "color": "697f7a",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "leg_1",
+          "position_m": [
+            7,
+            0.8,
+            -5
+          ],
+          "size_m": [
+            2,
+            25,
+            2
+          ],
+          "color": "697f7a",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "leg_2",
+          "position_m": [
+            -7,
+            0.8,
+            5
+          ],
+          "size_m": [
+            2,
+            25,
+            2
+          ],
+          "color": "697f7a",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "leg_3",
+          "position_m": [
+            7,
+            0.8,
+            5
+          ],
+          "size_m": [
+            2,
+            25,
+            2
+          ],
+          "color": "697f7a",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "top_frame",
+          "position_m": [
+            0,
+            25.8,
+            0
+          ],
+          "size_m": [
+            20,
+            3,
+            14
+          ],
+          "color": "637973",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "boom",
+          "position_m": [
+            13,
+            28,
+            0
+          ],
+          "size_m": [
+            52,
+            2.5,
+            3
+          ],
+          "color": "788e83",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "counterweight",
+          "position_m": [
+            -16,
+            25,
+            0
+          ],
+          "size_m": [
+            7,
+            6,
+            7
+          ],
+          "color": "667973",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "cabin",
+          "position_m": [
+            0,
+            22,
+            5
+          ],
+          "size_m": [
+            5,
+            4,
+            5
+          ],
+          "color": "465e61",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "hoist",
+          "position_m": [
+            34,
+            12,
+            0
+          ],
+          "size_m": [
+            0.2,
+            16,
+            0.2
+          ],
+          "color": "667c79",
+          "shape": "box",
+          "solid": true,
+          "quay": false
+        }
+      ]
+    },
+    "pier_furniture": {
+      "label": "系缆柱/安全边线",
+      "parts": [
+        {
+          "id": "bollard",
+          "position_m": [
+            0,
+            0,
+            0
+          ],
+          "size_m": [
+            1.3,
+            1.4,
+            1.3
+          ],
+          "color": "596b66",
+          "shape": "cylinder",
+          "solid": true,
+          "quay": false
+        },
+        {
+          "id": "mark",
+          "position_m": [
+            0,
+            0.01,
+            0
+          ],
+          "size_m": [
+            3,
+            0.03,
+            3
+          ],
+          "color": "c8c6a6",
+          "shape": "box",
+          "solid": false,
+          "quay": false
+        }
+      ]
+    }
+  }
+}

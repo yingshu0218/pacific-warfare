@@ -1,0 +1,439 @@
+{
+  "includes_prior_phase_and_failed_attempts": true,
+  "runs": [
+    {
+      "owner": "S14-import",
+      "run_id": "20261110T175626-eac16c2a",
+      "passed": false,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T175626-eac16c2a/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-mechanisms",
+      "run_id": "20261110T175727-2b42119f",
+      "passed": false,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T175727-2b42119f/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-assembly",
+      "run_id": "20261110T180018-28d2680e",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T180018-28d2680e/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-import",
+      "run_id": "20261110T180111-173eb22f",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T180111-173eb22f/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-layout",
+      "run_id": "20261110T180154-58005681",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T180154-58005681/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-guided-mechanisms",
+      "run_id": "20261110T180307-aeb2301e",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T180307-aeb2301e/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-continuous",
+      "run_id": "20261110T181005-4f1c7b37",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T181005-4f1c7b37/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-final-phase",
+      "run_id": "20261110T181344-878f2d29",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T181344-878f2d29/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-final-assembly-ui",
+      "run_id": "20261110T181709-ecb39675",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T181709-ecb39675/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-encode",
+      "run_id": "20261110T181743-acb9c3a4",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T181743-acb9c3a4/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-air-evidence-freeze",
+      "run_id": "20261110T181838-5ba7adb4",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T181838-5ba7adb4/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-gallery-isolation",
+      "run_id": "20261110T182103-6ad6cbc2",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T182103-6ad6cbc2/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-gallery-fixed",
+      "run_id": "20261110T182202-bf824370",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T182202-bf824370/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-encode-final-phase",
+      "run_id": "20261110T182344-eea70656",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T182344-eea70656/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-final-import",
+      "run_id": "20261110T201744-8c825c83",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T201744-8c825c83/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-training-integration",
+      "run_id": "20261110T201901-74653a73",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T201901-74653a73/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-four",
+      "run_id": "20261110T202049-b6d9f93f",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202049-b6d9f93f/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-escort",
+      "run_id": "20261110T202138-73a6a593",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202138-73a6a593/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-train_us_bank_turn",
+      "run_id": "20261110T202236-1187a7d6",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202236-1187a7d6/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-train_us_climb_dive",
+      "run_id": "20261110T202243-5fe3717d",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202243-5fe3717d/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-train_us_axial_roll",
+      "run_id": "20261110T202250-aef97c6a",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202250-aef97c6a/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-train_us_roll_reversal",
+      "run_id": "20261110T202255-16bba4cf",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202255-16bba4cf/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-train_us_split_s",
+      "run_id": "20261110T202302-37d96d06",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202302-37d96d06/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-train_jp_bank_turn",
+      "run_id": "20261110T202308-eb4cb844",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202308-eb4cb844/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-train_jp_climb_dive",
+      "run_id": "20261110T202315-e0759f6d",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202315-e0759f6d/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-train_jp_axial_roll",
+      "run_id": "20261110T202322-10adb006",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202322-10adb006/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-train_jp_roll_reversal",
+      "run_id": "20261110T202327-2b75d3ca",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202327-2b75d3ca/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-integrate-train_jp_split_s",
+      "run_id": "20261110T202335-8078aa01",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202335-8078aa01/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-final-runtime-import",
+      "run_id": "20261110T202502-224d3161",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202502-224d3161/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-inventory",
+      "run_id": "20261110T202609-8bdad253",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202609-8bdad253/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_us_axial_roll",
+      "run_id": "20261110T202619-0ae68313",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202619-0ae68313/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-final-r2-import",
+      "run_id": "20261110T202839-c8769701",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202839-c8769701/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_us_bank_turn",
+      "run_id": "20261110T202930-82dfb2c0",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202930-82dfb2c0/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_us_climb_dive",
+      "run_id": "20261110T202959-c621a70e",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T202959-c621a70e/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_us_roll_reversal",
+      "run_id": "20261110T203033-198b44da",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203033-198b44da/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_us_split_s",
+      "run_id": "20261110T203107-9b095db1",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203107-9b095db1/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_jp_bank_turn",
+      "run_id": "20261110T203142-0527d090",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203142-0527d090/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_jp_climb_dive",
+      "run_id": "20261110T203213-722b9e08",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203213-722b9e08/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_jp_axial_roll",
+      "run_id": "20261110T203247-8f4550bb",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203247-8f4550bb/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_jp_roll_reversal",
+      "run_id": "20261110T203310-d163a1cb",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203310-d163a1cb/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-final-r3-import",
+      "run_id": "20261110T203459-31c67942",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203459-31c67942/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_us_axial_roll",
+      "run_id": "20261110T203542-d442b6db",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203542-d442b6db/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_us_split_s",
+      "run_id": "20261110T203607-11174a2f",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203607-11174a2f/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-inventory",
+      "run_id": "20261110T203730-00a4d0e7",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203730-00a4d0e7/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_us_bank_turn",
+      "run_id": "20261110T203739-c5fc9b0d",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203739-c5fc9b0d/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_us_climb_dive",
+      "run_id": "20261110T203807-4c860d4a",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203807-4c860d4a/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_us_roll_reversal",
+      "run_id": "20261110T203839-636b1bf2",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203839-636b1bf2/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-ui-state-contract",
+      "run_id": "20261110T203849-25355e27",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203849-25355e27/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_jp_bank_turn",
+      "run_id": "20261110T203912-f587a70c",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203912-f587a70c/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_jp_climb_dive",
+      "run_id": "20261110T203941-6728d9cb",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T203941-6728d9cb/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_jp_axial_roll",
+      "run_id": "20261110T204014-9cc1a36c",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T204014-9cc1a36c/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_jp_roll_reversal",
+      "run_id": "20261110T204038-75de71bb",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T204038-75de71bb/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-train_jp_split_s",
+      "run_id": "20261110T204109-ae7d5ec6",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T204109-ae7d5ec6/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-four",
+      "run_id": "20261110T204146-276e8835",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T204146-276e8835/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-native-escort",
+      "run_id": "20261110T204432-c811870d",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T204432-c811870d/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-web-build",
+      "run_id": "20261110T204944-4debab6d",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T204944-4debab6d/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-web-build",
+      "run_id": "20261110T204949-1a7db6c6",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T204949-1a7db6c6/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-final-chrome",
+      "run_id": "20261110T205238-2c13dd6b",
+      "passed": false,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T205238-2c13dd6b/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-chrome-selections",
+      "run_id": "20261110T205644-7bd6b007",
+      "passed": false,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T205644-7bd6b007/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-chrome-selections-final",
+      "run_id": "20261110T210324-162de5ab",
+      "passed": false,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T210324-162de5ab/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-chrome-selections-final",
+      "run_id": "20261110T210404-ff7367e0",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T210404-ff7367e0/report.json",
+      "error": ""
+    },
+    {
+      "owner": "S14-final-encode",
+      "run_id": "20261110T210621-89c2b221",
+      "passed": true,
+      "report": "docs/showcase/evidence/S14/final/validation/20261110T210621-89c2b221/report.json",
+      "error": ""
+    }
+  ]
+}

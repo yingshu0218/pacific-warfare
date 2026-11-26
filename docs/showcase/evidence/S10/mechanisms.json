@@ -1,0 +1,368 @@
+{
+	"aa_samples": [
+		{
+			"data": {
+				"ammo_id": "s10_us_40mm_mkii_het_sd",
+				"amount": 20.3005269718301,
+				"control_factor": 1.0,
+				"part_id": "wing_right",
+				"projectile_id": "projectile_00000002",
+				"propulsion_factor": 1.0,
+				"proxy_part_id": "wing_right",
+				"structure": 57.8948155598595,
+				"structure_amount": 7.10518444014052,
+				"structure_transfer": 0.35
+			},
+			"entity_id": "battery",
+			"event_id": "event_00000014",
+			"kind": "damaged",
+			"position_m": "(-3997.435, 449.88, -2800.078)",
+			"sequence": 14,
+			"target_id": "enemy",
+			"tick": 503,
+			"time_s": 8.38333333333333,
+			"weapon_id": "battery/gun_01"
+		},
+		{
+			"data": {
+				"age_s": 8.5,
+				"ammo_id": "s10_us_40mm_mkii_het_sd",
+				"caliber_m": 0.04,
+				"energy_j": 320752.256754492,
+				"projectile_id": "projectile_00000001",
+				"radius_m": 2.0,
+				"reason": "tracer_self_destruct",
+				"source_faction_id": "us",
+				"velocity_mps": "(646.0842, 220.23, 505.6116)"
+			},
+			"entity_id": "battery",
+			"event_id": "event_00000026",
+			"kind": "airburst",
+			"position_m": "(563.7003, 2246.646, 759.2551)",
+			"sequence": 26,
+			"target_id": "",
+			"tick": 896,
+			"time_s": 14.9333333333333,
+			"weapon_id": "battery/gun_01"
+		},
+		{
+			"data": {
+				"age_s": 8.5,
+				"ammo_id": "s10_us_40mm_mkii_het_sd",
+				"caliber_m": 0.04,
+				"energy_j": 320469.180529194,
+				"projectile_id": "projectile_00000003",
+				"radius_m": 2.0,
+				"reason": "tracer_self_destruct",
+				"source_faction_id": "us",
+				"velocity_mps": "(642.0133, 224.049, 508.4813)"
+			},
+			"entity_id": "battery",
+			"event_id": "event_00000027",
+			"kind": "airburst",
+			"position_m": "(529.0839, 2279.108, 783.6583)",
+			"sequence": 27,
+			"target_id": "",
+			"tick": 956,
+			"time_s": 15.9333333333333,
+			"weapon_id": "battery/gun_01"
+		},
+		{
+			"data": {
+				"age_s": 8.5,
+				"ammo_id": "s10_us_40mm_mkii_het_sd",
+				"caliber_m": 0.04,
+				"energy_j": 321053.391626021,
+				"projectile_id": "projectile_00000004",
+				"radius_m": 2.0,
+				"reason": "tracer_self_destruct",
+				"source_faction_id": "us",
+				"velocity_mps": "(642.9929, 216.1678, 511.9358)"
+			},
+			"entity_id": "battery",
+			"event_id": "event_00000028",
+			"kind": "airburst",
+			"position_m": "(537.4044, 2212.116, 813.0222)",
+			"sequence": 28,
+			"target_id": "",
+			"tick": 986,
+			"time_s": 16.4333333333333,
+			"weapon_id": "battery/gun_01"
+		},
+		{
+			"data": {
+				"age_s": 8.5,
+				"ammo_id": "s10_us_40mm_mkii_het_sd",
+				"caliber_m": 0.04,
+				"energy_j": 320637.098156606,
+				"projectile_id": "projectile_00000005",
+				"radius_m": 2.0,
+				"reason": "tracer_self_destruct",
+				"source_faction_id": "us",
+				"velocity_mps": "(639.1774, 221.7835, 513.3949)"
+			},
+			"entity_id": "battery",
+			"event_id": "event_00000029",
+			"kind": "airburst",
+			"position_m": "(505.002, 2259.851, 825.4504)",
+			"sequence": 29,
+			"target_id": "",
+			"tick": 1016,
+			"time_s": 16.9333333333333,
+			"weapon_id": "battery/gun_01"
+		}
+	],
+	"check_count": 48,
+	"checks": [
+		{
+			"description": "Stable site resolves selected equipment",
+			"passed": true
+		},
+		{
+			"description": "Real ground catalog configures",
+			"passed": true
+		},
+		{
+			"description": "Same frozen terrain installs",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Ground installation validates bearing, clearance and domain executor",
+			"passed": true
+		},
+		{
+			"description": "Human uses same order validation and dispatch as AI",
+			"passed": true
+		},
+		{
+			"description": "Finite inventory accounts for exactly two physical coast rounds then stops",
+			"passed": true
+		},
+		{
+			"description": "Exhausted battery reports empty instead of silently firing",
+			"passed": true
+		},
+		{
+			"description": "Ground unit never translates or consumes fuel",
+			"passed": true
+		},
+		{
+			"description": "Physical fired origin and direction match typed model socket",
+			"passed": true
+		},
+		{
+			"description": "Physical fired origin and direction match typed model socket",
+			"passed": true
+		},
+		{
+			"description": "Coast ballistic sweep physically intersects enemy ship",
+			"passed": true
+		},
+		{
+			"description": "Cease fire uses unified command entry",
+			"passed": true
+		},
+		{
+			"description": "Cease fire suppresses actual projectiles",
+			"passed": true
+		},
+		{
+			"description": "Rear mountain target cannot bypass finite site arc or terrain",
+			"passed": true
+		},
+		{
+			"description": "Unsupported hovering deployment gives readable rejection",
+			"passed": true
+		},
+		{
+			"description": "Real exposed-weapon hit disables ground battery at its original position",
+			"passed": true
+		},
+		{
+			"description": "Disabled ground does not sink/crash/move/fire or flood",
+			"passed": true
+		},
+		{
+			"description": "Disabled mount remains physically hittable and becomes ground wreck",
+			"passed": true
+		},
+		{
+			"description": "Wreck remains a collision/occlusion object",
+			"passed": true
+		},
+		{
+			"description": "Wreck lifetime releases physical presence without sinking",
+			"passed": true
+		},
+		{
+			"description": "Stable site resolves selected equipment",
+			"passed": true
+		},
+		{
+			"description": "Real ground catalog configures",
+			"passed": true
+		},
+		{
+			"description": "Same frozen terrain installs",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Combat module registers",
+			"passed": true
+		},
+		{
+			"description": "Ground installation validates bearing, clearance and domain executor",
+			"passed": true
+		},
+		{
+			"description": "Human uses same order validation and dispatch as AI",
+			"passed": true
+		},
+		{
+			"description": "Sector watch detects and actually fires at aircraft within2743.2m",
+			"passed": true
+		},
+		{
+			"description": "M1 physical impact damages aircraft without intercept-timed flak",
+			"passed": true
+		},
+		{
+			"description": "AA inventory conserves each single-barrel shot",
+			"passed": true
+		},
+		{
+			"description": "M1 self-destruction uses fixed8.5s tracer life, never computed intercept time",
+			"passed": true
+		},
+		{
+			"description": "Human uses same order validation and dispatch as AI",
+			"passed": true
+		},
+		{
+			"description": "AA site85deg cap intersects mechanical90deg instead of ignoring map limit",
+			"passed": true
+		},
+		{
+			"description": "Ground planner with no contacts can only issue sector watch",
+			"passed": true
+		},
+		{
+			"description": "Reset restores actual ground stock and clears tasks/projectiles",
+			"passed": true
+		},
+		{
+			"description": "Reset clears ground target caches and all in-flight rounds",
+			"passed": true
+		}
+	],
+	"coast_fired": [
+		{
+			"data": {
+				"ammo_id": "s10_us_127mm_51_common_mk15",
+				"barrel_index": 0,
+				"caliber_m": 0.127,
+				"elevation_rad": 0.000923432529403841,
+				"flight_time_s": 2.57413342797242,
+				"gravity_mps2": 9.80665,
+				"lifetime_s": 40.0,
+				"mount_role": "main",
+				"muzzle_direction": "(0.592642, 0.000686, 0.805465)",
+				"projectile_id": "projectile_00000001",
+				"source_domain": "ground",
+				"tracer": true,
+				"train_rad": -0.158824961931484,
+				"velocity_mps": "(569.0079, 0.658558, 773.3434)"
+			},
+			"entity_id": "battery",
+			"event_id": "event_00000009",
+			"kind": "fired",
+			"position_m": "(-3007.202, 33.20799, -3196.185)",
+			"sequence": 9,
+			"target_id": "enemy",
+			"tick": 183,
+			"time_s": 3.05,
+			"weapon_id": "battery/gun_01"
+		},
+		{
+			"data": {
+				"ammo_id": "s10_us_127mm_51_common_mk15",
+				"barrel_index": 0,
+				"caliber_m": 0.127,
+				"elevation_rad": 0.000923434042802456,
+				"flight_time_s": 2.5741335333281,
+				"gravity_mps2": 9.80665,
+				"lifetime_s": 40.0,
+				"mount_role": "main",
+				"muzzle_direction": "(0.589964, 0.000721, 0.807429)",
+				"projectile_id": "projectile_00000002",
+				"source_domain": "ground",
+				"tracer": true,
+				"train_rad": -0.161014989273062,
+				"velocity_mps": "(566.4363, 0.692531, 775.2289)"
+			},
+			"entity_id": "battery",
+			"event_id": "event_00000013",
+			"kind": "fired",
+			"position_m": "(-3007.211, 33.20799, -3196.179)",
+			"sequence": 13,
+			"target_id": "enemy",
+			"tick": 663,
+			"time_s": 11.05,
+			"weapon_id": "battery/gun_01"
+		}
+	],
+	"failures": 0,
+	"scope": "Controlled poses/targets and ammunition depletion on frozen S09 terrain; not the default battle"
+}

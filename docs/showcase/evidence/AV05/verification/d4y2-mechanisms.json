@@ -1,0 +1,830 @@
+{
+	"checks": [
+		{
+			"data": null,
+			"id": "unit_root_identity",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "no_autonomous_model_process",
+			"passed": true
+		},
+		{
+			"data": [
+				11.5,
+				2.56495189666748,
+				10.2199993133545
+			],
+			"id": "actual_span_11_50m",
+			"passed": true
+		},
+		{
+			"data": [
+				11.5,
+				2.56495189666748,
+				10.2199993133545
+			],
+			"id": "actual_length_10_22m",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "no_shared_model_resources",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_MUZZLE_TYPE97_PORT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_MUZZLE_TYPE97_STARBOARD",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_FLAP_LEFT_WING",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_AILERON_LEFT_WING",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_BRAKE_LEFT_WING_0",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_BRAKE_LEFT_WING_1",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_BRAKE_LEFT_WING_2",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_DAMAGE_LEFT_WING_CUT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_STORE_WING_LEFT_WING",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_FLAP_RIGHT_WING",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_AILERON_RIGHT_WING",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_BRAKE_RIGHT_WING_0",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_BRAKE_RIGHT_WING_1",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_BRAKE_RIGHT_WING_2",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_DAMAGE_RIGHT_WING_CUT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_STORE_WING_RIGHT_WING",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_ELEVATOR_LEFT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_ELEVATOR_RIGHT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HINGE_RUDDER",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_PROP_TIP_0",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_PROP_TIP_1",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_PROP_TIP_2",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_ENGINE_SMOKE",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_WHEEL_PORT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_GEAR_PIVOT_PORT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_WHEEL_STARBOARD",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_GEAR_PIVOT_STARBOARD",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_WHEEL_TAIL",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_BAY_HINGE_LEFT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_BAY_HINGE_RIGHT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_STORE_INTERNAL",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_BOMB_RELEASE",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_MUZZLE_TYPE1_REAR",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_REAR_TRAIN_AXIS",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HOOK_TIP",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_HOOK_PIVOT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_FLIGHT_DATUM",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_DAMAGE_ENGINE_CUT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "marker_finite_DAMAGE_TAIL_CUT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "forward_gun_direction_MUZZLE_TYPE97_PORT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "forward_gun_direction_MUZZLE_TYPE97_STARBOARD",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "analytic_tyre_tangent_WHEEL_PORT",
+			"passed": true
+		},
+		{
+			"data": -0.0000321269035339355,
+			"id": "actual_tyre_mesh_contact_WHEEL_PORT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "analytic_tyre_tangent_WHEEL_STARBOARD",
+			"passed": true
+		},
+		{
+			"data": -0.0000321269035339355,
+			"id": "actual_tyre_mesh_contact_WHEEL_STARBOARD",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "analytic_tyre_tangent_WHEEL_TAIL",
+			"passed": true
+		},
+		{
+			"data": 0.000000461935997009277,
+			"id": "actual_tyre_mesh_contact_WHEEL_TAIL",
+			"passed": true
+		},
+		{
+			"data": 10.791146497071,
+			"id": "tail_low_photo_attitude",
+			"passed": true
+		},
+		{
+			"data": 0.552369022369385,
+			"id": "parked_full_prop_disc_clear",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "belly_and_chin_clear",
+			"passed": true
+		},
+		{
+			"data": -0.0000320672988891602,
+			"id": "full_extension_no_deck_penetration_{ \"flap\": 1.0 }",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "actual_flap_mesh_clear",
+			"passed": true
+		},
+		{
+			"data": -0.0000320672988891602,
+			"id": "full_extension_no_deck_penetration_{ \"flap\": 0.0, \"brake\": 1.0 }",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "actual_brake_mesh_clear",
+			"passed": true
+		},
+		{
+			"data": -0.0000320672988891602,
+			"id": "full_extension_no_deck_penetration_{ \"brake\": 0.0, \"bay\": 1.0, \"crutch\": 0.0 }",
+			"passed": true
+		},
+		{
+			"data": -0.0000320672988891602,
+			"id": "full_extension_no_deck_penetration_{ \"bay\": 0.0, \"crutch\": 0.0, \"hook\": 1.0 }",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "actual_hook_tip_clear",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "crutch_ground_clearance_constraint_recorded",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "flap_brake_interlock",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "continuous_gear",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "crutch_moves_actual_release_reference",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "rear_gun_bore_is_aft_up",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "other_instance_untouched",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "fowler_snapshot_no_drift",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "invalid_input_rejected",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "damage_group_visibility_engine",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "damage_group_has_geometry_engine",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "damage_group_visibility_left_wing",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "damage_group_has_geometry_left_wing",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "damage_group_visibility_right_wing",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "damage_group_has_geometry_right_wing",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "damage_group_visibility_tail",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "damage_group_has_geometry_tail",
+			"passed": true
+		},
+		{
+			"data": {
+				"min": [
+					-5.75,
+					14.1499671936035,
+					-48.5201950073242
+				],
+				"size": [
+					11.5,
+					3.69815444946289,
+					10.1021537780762
+				]
+			},
+			"id": "whole_envelope_on_elevator_forward",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 14.1499996185303,
+				"supported": true,
+				"surface_id": "elevator_forward"
+			},
+			"id": "tyre_supported_elevator_forward_WHEEL_PORT_14.15",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 14.1499996185303,
+				"supported": true,
+				"surface_id": "elevator_forward"
+			},
+			"id": "tyre_supported_elevator_forward_WHEEL_STARBOARD_14.15",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 14.1499996185303,
+				"supported": true,
+				"surface_id": "elevator_forward"
+			},
+			"id": "tyre_supported_elevator_forward_WHEEL_TAIL_14.15",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 4.0,
+				"supported": true,
+				"surface_id": "elevator_forward"
+			},
+			"id": "tyre_supported_elevator_forward_WHEEL_PORT_4.0",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 4.0,
+				"supported": true,
+				"surface_id": "elevator_forward"
+			},
+			"id": "tyre_supported_elevator_forward_WHEEL_STARBOARD_4.0",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 4.0,
+				"supported": true,
+				"surface_id": "elevator_forward"
+			},
+			"id": "tyre_supported_elevator_forward_WHEEL_TAIL_4.0",
+			"passed": true
+		},
+		{
+			"data": {
+				"min": [
+					-5.75,
+					14.1499671936035,
+					23.9798030853271
+				],
+				"size": [
+					11.5,
+					3.69815444946289,
+					10.1021556854248
+				]
+			},
+			"id": "whole_envelope_on_elevator_middle",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 14.1499996185303,
+				"supported": true,
+				"surface_id": "elevator_middle"
+			},
+			"id": "tyre_supported_elevator_middle_WHEEL_PORT_14.15",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 14.1499996185303,
+				"supported": true,
+				"surface_id": "elevator_middle"
+			},
+			"id": "tyre_supported_elevator_middle_WHEEL_STARBOARD_14.15",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 14.1499996185303,
+				"supported": true,
+				"surface_id": "elevator_middle"
+			},
+			"id": "tyre_supported_elevator_middle_WHEEL_TAIL_14.15",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 4.0,
+				"supported": true,
+				"surface_id": "elevator_middle"
+			},
+			"id": "tyre_supported_elevator_middle_WHEEL_PORT_4.0",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 4.0,
+				"supported": true,
+				"surface_id": "elevator_middle"
+			},
+			"id": "tyre_supported_elevator_middle_WHEEL_STARBOARD_4.0",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 4.0,
+				"supported": true,
+				"surface_id": "elevator_middle"
+			},
+			"id": "tyre_supported_elevator_middle_WHEEL_TAIL_4.0",
+			"passed": true
+		},
+		{
+			"data": {
+				"min": [
+					-5.75,
+					14.1499671936035,
+					79.4798049926758
+				],
+				"size": [
+					11.5,
+					3.69815444946289,
+					10.1021575927734
+				]
+			},
+			"id": "whole_envelope_on_elevator_aft",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 14.1499996185303,
+				"supported": true,
+				"surface_id": "elevator_aft"
+			},
+			"id": "tyre_supported_elevator_aft_WHEEL_PORT_14.15",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 14.1499996185303,
+				"supported": true,
+				"surface_id": "elevator_aft"
+			},
+			"id": "tyre_supported_elevator_aft_WHEEL_STARBOARD_14.15",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 14.1499996185303,
+				"supported": true,
+				"surface_id": "elevator_aft"
+			},
+			"id": "tyre_supported_elevator_aft_WHEEL_TAIL_14.15",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 4.0,
+				"supported": true,
+				"surface_id": "elevator_aft"
+			},
+			"id": "tyre_supported_elevator_aft_WHEEL_PORT_4.0",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 4.0,
+				"supported": true,
+				"surface_id": "elevator_aft"
+			},
+			"id": "tyre_supported_elevator_aft_WHEEL_STARBOARD_4.0",
+			"passed": true
+		},
+		{
+			"data": {
+				"height_m": 4.0,
+				"supported": true,
+				"surface_id": "elevator_aft"
+			},
+			"id": "tyre_supported_elevator_aft_WHEEL_TAIL_4.0",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "whole_plane_within_forward_park",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "whole_plane_clear_obstacles_forward_park",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "parking_support_forward_park_WHEEL_PORT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "parking_support_forward_park_WHEEL_STARBOARD",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "parking_support_forward_park_WHEEL_TAIL",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "whole_plane_within_mid_park",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "whole_plane_clear_obstacles_mid_park",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "parking_support_mid_park_WHEEL_PORT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "parking_support_mid_park_WHEEL_STARBOARD",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "parking_support_mid_park_WHEEL_TAIL",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "whole_plane_within_aft_park",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "whole_plane_clear_obstacles_aft_park",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "parking_support_aft_park_WHEEL_PORT",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "parking_support_aft_park_WHEEL_STARBOARD",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "parking_support_aft_park_WHEEL_TAIL",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "host_pitch_roll_yaw_contact_plane",
+			"passed": true
+		},
+		{
+			"data": null,
+			"id": "pure_root_unchanged_after_static_fit",
+			"passed": true
+		}
+	],
+	"engine": "4.7.2-stable (official)",
+	"measurements": {
+		"clearances": {
+			"belly_skin_m": 0.249253213405609,
+			"brake_low_m": 0.826647460460663,
+			"chin_radiator_m": 1.13749158382416,
+			"flap_low_m": 0.46228563785553,
+			"fully_swung_bomb_parked_m": -0.499992728233337,
+			"hook_tip_m": 0.0517435073852539,
+			"propeller_disc_m": 0.552369022369385,
+			"propeller_swept_top_m": 3.69578084945679,
+			"{ \"bay\": 0.0, \"crutch\": 0.0, \"hook\": 1.0 }": -0.0000320672988891602,
+			"{ \"brake\": 0.0, \"bay\": 1.0, \"crutch\": 0.0 }": -0.0000320672988891602,
+			"{ \"flap\": 0.0, \"brake\": 1.0 }": -0.0000320672988891602,
+			"{ \"flap\": 1.0 }": -0.0000320672988891602
+		},
+		"contacts": [
+			{
+				"center_m": [
+					-2.1800000667572,
+					-1.27999997138977,
+					-1.79999995231628
+				],
+				"id": "WHEEL_PORT",
+				"lowest_mesh_y_m": -0.0000321269035339355,
+				"radius_m": 0.32
+			},
+			{
+				"center_m": [
+					2.1800000667572,
+					-1.27999997138977,
+					-1.79999995231628
+				],
+				"id": "WHEEL_STARBOARD",
+				"lowest_mesh_y_m": -0.0000321269035339355,
+				"radius_m": 0.32
+			},
+			{
+				"center_m": [
+					0.0,
+					-0.340000003576279,
+					4.19999980926514
+				],
+				"id": "WHEEL_TAIL",
+				"lowest_mesh_y_m": 0.000000461935997009277,
+				"radius_m": 0.12
+			}
+		],
+		"flight_envelope_m": {
+			"min": [
+				-5.75,
+				-0.834951996803284,
+				-5.10999965667725
+			],
+			"size": [
+				11.5,
+				2.56495189666748,
+				10.2199993133545
+			]
+		},
+		"marker_count": 39,
+		"parked_envelope_m": {
+			"min": [
+				-5.75,
+				-0.0000320672988891602,
+				-5.02019691467285
+			],
+			"size": [
+				11.5,
+				3.69815301895142,
+				10.1021566390991
+			]
+		},
+		"parked_pitch_deg": 10.791146497071,
+		"parked_translation_m": [
+			0.0,
+			1.24035167694092,
+			0.0
+		],
+		"shokaku_static_fits": [
+			{
+				"id": "elevator_forward",
+				"min_m": [
+					-5.75,
+					14.1499671936035,
+					-48.5201950073242
+				],
+				"size_m": [
+					11.5,
+					3.69815444946289,
+					10.1021537780762
+				],
+				"unfolded_wing_clearance_each_side_m": 2.25
+			},
+			{
+				"id": "elevator_middle",
+				"min_m": [
+					-5.75,
+					14.1499671936035,
+					23.9798030853271
+				],
+				"size_m": [
+					11.5,
+					3.69815444946289,
+					10.1021556854248
+				],
+				"unfolded_wing_clearance_each_side_m": 0.25
+			},
+			{
+				"id": "elevator_aft",
+				"min_m": [
+					-5.75,
+					14.1499671936035,
+					79.4798049926758
+				],
+				"size_m": [
+					11.5,
+					3.69815444946289,
+					10.1021575927734
+				],
+				"unfolded_wing_clearance_each_side_m": 0.25
+			}
+		]
+	},
+	"passed": true,
+	"sources": {
+		"deck": "5e02881d24f0700e8710128aee65875fdcc0301714c0d5aedde0a087ffb00cd3",
+		"geometry": "99bd93996b4ac8b717293df71c3532f018c7796e64cde96ff51eb413282d85e1",
+		"model": "37bf1ab0923e7071883129833bcab8639639a7cee7811a17723a23be2d579f62",
+		"ship": "bb037e5a6a9afad14cb1dfab41fcbb882d6b1f7aaa6b625890fe7767a7c53361"
+	},
+	"status": "self_test_only_pending_root_review",
+	"task": "AV02"
+}

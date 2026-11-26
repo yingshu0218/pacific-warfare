@@ -1,0 +1,42 @@
+{
+	"aircraft_catapult": {
+		"geometry_estimates": {
+			"pedestal_radius_m": 1.45,
+			"pedestal_height_m": 0.62,
+			"track_length_m": 18.3,
+			"track_width_m": 2.2,
+			"truss_depth_m": 0.95,
+			"truss_bays": 8,
+			"shuttle_position_m": 5.0
+		},
+		"source_note": "Official USS Iowa photo 80-G-K-6118 shows an aircraft catapult, the stern crane, and an OS2U on its cart. The 28 December 1944 aerial photo 80-G-421124 checks the dated stern arrangement. The 1944 Iowa launch photo shows both catapults aligned in one launch direction; a veteran-association account describes rotating the port catapult to match the starboard heading. Track length is an approximately 60-foot visual estimate, not a measured Iowa plan dimension. Other dimensions, member sections, station centers, and stored headings remain visual estimates.",
+		"source_urls": [
+			"https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/80-G-K-06000/80-G-K-6118.html",
+			"https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/ships-us/ships-usn-i/uss-iowa-bb-61/80-g-421124.html",
+			"https://commons.wikimedia.org/wiki/File:USS_Iowa_(BB-61)_Planes.jpg",
+			"https://www.ussiowavetassn.com/files/124409013.pdf"
+		]
+	},
+	"aircraft_crane": {
+		"geometry_estimates": {
+			"pedestal_radius_m": 1.25,
+			"tower_height_m": 5.8,
+			"tower_base_half_width_m": 0.92,
+			"tower_top_half_width_m": 0.55,
+			"boom_length_m": 12.0,
+			"boom_base_depth_m": 1.45,
+			"boom_tip_depth_m": 0.72,
+			"boom_side_spacing_m": 0.92,
+			"boom_bays": 6,
+			"initial_boom_elevation_rad": 0.035,
+			"headframe_extension_m": 0.78,
+			"headframe_aft_offset_m": -0.36,
+			"hook_drop_m": 3.5
+		},
+		"source_note": "The single centerline stern crane and aircraft-hoisting arrangement are checked against official USS Iowa photo 80-G-K-6118 and 1944 USS Missouri photo 80-G-K-4561. These photos establish general appearance, not engineering dimensions. All dimensions and member sections remain visual estimates.",
+		"source_urls": [
+			"https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/80-G-K-06000/80-G-K-6118.html",
+			"https://www.history.navy.mil/our-collections/photography/us-navy-ships/battleships/missouri-bb-63/80-G-K-4561.html"
+		]
+	}
+}

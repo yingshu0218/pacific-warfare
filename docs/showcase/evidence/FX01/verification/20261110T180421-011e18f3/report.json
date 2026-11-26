@@ -1,0 +1,40 @@
+{
+  "run_id": "20261110T180421-011e18f3",
+  "owner": "FX01-chrome",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 64412,
+  "checks": [
+    {
+      "command": [
+        "node",
+        "tools/fx01/chrome_check.mjs"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 64463,
+      "process_group": 64463,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 65.8151,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T180421-011e18f3/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "FX01-chrome",
+    "pid": 64412,
+    "process_identity": "Wed Nov 11 02:04:21 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner FX01-chrome --timeout 180 --lock-timeout 45 exec -- node tools/fx01/chrome_check.mjs",
+    "token": "4fbdf4e2e4a7404596ceb030870f28f7",
+    "acquired_utc": "2026-11-10T18:04:23.934859+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

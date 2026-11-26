@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T191047-e8ad41bf",
+  "owner": "DM01",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-gearfix-web-rootview",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 70101,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-gearfix-web-rootview",
+      "pid": 70103,
+      "process_group": 70103,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2509,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T191047-e8ad41bf/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-gearfix-web-rootview",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-gearfix-web-rootview",
+      "pid": 70104,
+      "process_group": 70104,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 4.2152,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T191047-e8ad41bf/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "DM01",
+    "pid": 70101,
+    "process_identity": "Wed Nov 11 03:10:47 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner DM01 --timeout 120 --lock-timeout 45 --project /Users/infinity/Desktop/Dev/game-pacific/.local/dm01-final-gearfix-web-rootview import",
+    "token": "0831c2e4a1d940fca8c6e6f7f9508765",
+    "acquired_utc": "2026-11-10T19:10:47.843051+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

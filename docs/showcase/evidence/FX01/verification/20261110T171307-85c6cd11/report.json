@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T171307-85c6cd11",
+  "owner": "FX01",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 52295,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 52328,
+      "process_group": 52328,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.041,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T171307-85c6cd11/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/fx01-project",
+      "pid": 52329,
+      "process_group": 52329,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 4.2091,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T171307-85c6cd11/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "FX01",
+    "pid": 52295,
+    "process_identity": "Wed Nov 11 01:13:07 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner FX01 --timeout 60 --lock-timeout 15 --project .local/fx01-project import",
+    "token": "d5b6677e083640f39039a159add80902",
+    "acquired_utc": "2026-11-10T17:13:13.339513+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

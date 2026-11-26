@@ -1,0 +1,109 @@
+{
+  "status": "phase_candidate_ready_for_parent_review",
+  "full_latest_request_complete": false,
+  "public_admitted": false,
+  "public_runtime_unchanged": true,
+  "ordinary_build_unchanged": true,
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "renderer": "Compatibility",
+  "entry": "res://showcase/carrier_harbor.tscn",
+  "frozen_inputs": "/Users/infinity/Desktop/Dev/game-pacific/candidates/s14-expansion/evidence/inputs/autonomous-b25-r8",
+  "source_manifest": "candidates/s14-expansion/evidence/inputs-autonomous-b25-r8.json",
+  "source_manifest_sha256": "4dbcafef6ce361aab559ed0ef6529498b65ca4071d710969557619ec2f676942",
+  "frozen_input_count": 513,
+  "web_runtime_with_settings": 502,
+  "normal_resource_whitelist_count": 500,
+  "web_candidate": "build/s14-expansion-autonomous-final",
+  "checks": {
+    "assembly-final.json": {
+      "checks": 284,
+      "failed": 0,
+      "sha256": "f434643fe3314ae71d9a8303fbe057e068ab1170bd744a8ba3f25ac58c0d1efa"
+    },
+    "autonomy-final.json": {
+      "checks": 33,
+      "failed": 0,
+      "sha256": "9ade38a7199d054fe9d9d37ffede9fb3d9361c34a2d8426d9611da32af1ccbe9"
+    },
+    "cycle-single-final.json": {
+      "checks": 7,
+      "failed": 0,
+      "sha256": "152153adffb9c774fee3a9ba413021806840476b270956833ea5530f25677cd7"
+    },
+    "chrome-autonomous-final/run.json": {
+      "checks": 61,
+      "failed": 0,
+      "sha256": "32755a48d4717447c47089ebf79d346630c8a5298d68b23d2a46ca10fbe2c98f"
+    }
+  },
+  "incomplete_pair_cycle": {
+    "status": "verification_timeout_not_completed",
+    "passed": false,
+    "not_a_guaranteed_wave_result": true,
+    "report": ".local/validation/runs/20261111T152201-1460ef8a/report.json",
+    "command": [
+      "/Applications/Godot.app/Contents/MacOS/Godot",
+      "--headless",
+      "--path",
+      "/Users/infinity/Desktop/Dev/game-pacific/candidates/s14-expansion/stage",
+      "--script",
+      "res://tests/s14_expansion/test_integration.gd",
+      "--",
+      "--case=carrier_pair",
+      "--output=/Users/infinity/Desktop/Dev/game-pacific/candidates/s14-expansion/cycle-pair-final.json"
+    ],
+    "timeout_s": 340,
+    "duration_s": 340.0379,
+    "timed_out": true,
+    "cleanup_ok": true,
+    "cleanup_error": "",
+    "last_progress": "CYCLE_PROGRESS carrier_pair t=1560.01666666667 { \"us_deck_1\": { \"phase\": \"standby\", \"reason\": \"service_complete\", \"since_s\": 1534.13333333333, \"order_id\": \"s14:us:008\", \"local_m\": (-3.000006, 17.05308, -72.04999), \"local_rotation_rad\": (0.168342, 0.0, 0.0), \"angle_of_attack_rad\": 0.16834230720997, \"relative_velocity_mps\": (0.0, 0.0, 0.0), \"local_yaw_rad\": 0.0, \"on_deck\": true, \"recoveries\": 2, \"sorties\": 2, \"go_arounds\": 0, \"route_index\": 2, \"cancelled\": false, \"service_done\": true, \"parking_slot\": \"forward_1\", \"last_local_m\": (-2.989258, 17.09179, 112.0449), \"gear_down\": true, \"hook_down\": false, \"flaps_down\": false, \"touchdown_count\": 2, \"on_station_duration_s\": 110.0, \"wheel_clearance_m\": 0.0, \"hook_deflection_rad\": 0.0, \"hook_pose\": { \"available\": false, \"deflection_rad\": 0.0 }, \"pre_flight_position_m\": (32334.21, 17.09179, 9497.011), \"pre_flight_velocity_mps\": (50.06617, -1.927141, -0.00494), \"pre_flight_rotation_rad\": (0.15708, -1.570698, 0.0), \"pre_ship_rotation_rad\": (0.0, -1.570796, 0.0), \"configuration_transition_active\": true, \"wire_id\": \"wire_01\", \"respot_target_z\": 75.0, \"respot_return_phase\": \"queued\" }, \"us_deck_2\": { \"phase\": \"approach\", \"reason\": \"exclusive_recovery_clearance\", \"since_s\": 1526.28333333333, \"order_id\": \"s14:us:008\", \"local_m\": (-12.5166, 215.966, 3718.439), \"local_rotation_rad\": (0.136926, 0.0, 0.0), \"angle_of_attack_rad\": 0.19541482627392, \"relative_velocity_mps\": (3.758277, -1.895663, -34.30087), \"local_yaw_rad\": 0.0, \"on_deck\": false, \"recoveries\": 1, \"sorties\": 2, \"go_arounds\": 0, \"route_index\": 2, \"cancelled\": false, \"service_done\": true, \"parking_slot\": \"\", \"last_local_m\": (-12.5166, 215.966, 3718.439), \"gear_down\": true, \"hook_down\": true, \"flaps_down\": true, \"touchdown_count\": 1, \"on_station_duration_s\": 110.0, \"wheel_clearance_m\": 198.704779052734, \"hook_deflection_rad\": 0.0, \"hook_pose\": { \"available\": true, \"deflection_rad\": 0.0, \"free_tip_m\": (-12.97365, 214.5421, 3722.948), \"tip_m\": (-12.97365, 214.5421, 3722.948), \"edge_m\": [(-12.96848, 214.56, 3722.902), (-12.97882, 214.5242, 3722.995)] }, \"pre_flight_position_m\": (30181.56, 215.966, 9487.482), \"pre_flight_velocity_mps\": (49.30087, -1.895663, 3.75828), \"pre_flight_rotation_rad\": (0.156368, -1.663601, -0.086155), \"pre_ship_rotation_rad\": (0.0, -1.570796, 0.0), \"configuration_transition_active\": true, \"wire_id\": \"wire_01\", \"respot_target_z\": 105.0, \"respot_return_phase\": \"queued\" } }",
+    "interpretation": "At1560.0167s first aircraft standby after2 recoveries; second aircraft in actual approach on sortie2 with1 recovery. Full paired2-wave completion not accepted."
+  },
+  "pending": [
+    "Final BOMB admission, autonomous B-25 bombing and fighter interception",
+    "Complete paired2-wave integrated acceptance",
+    "Parent review/public admission and S08 long/performance checks"
+  ],
+  "native_movies": [
+    {
+      "sequence": "launch-autonomous-r2",
+      "fps": 15,
+      "frames": 120,
+      "movie": "candidates/s14-expansion/native/launch-autonomous-r2/continuous.mp4",
+      "movie_sha256": "39ea3f15104016222fdd711b1aa3418244638d8cbc50ca6ffe9598c77ab86df6",
+      "frozen_inputs": "/Users/infinity/Desktop/Dev/game-pacific/candidates/s14-expansion/evidence/inputs/autonomous-b25-r3"
+    },
+    {
+      "sequence": "recovery-autonomous-r2",
+      "fps": 15,
+      "frames": 180,
+      "movie": "candidates/s14-expansion/native/recovery-autonomous-r2/continuous.mp4",
+      "movie_sha256": "ce3454dcf95c0f462fa8d9b8074c4ef446864b02347c9169c283ca63d98519d1",
+      "frozen_inputs": "/Users/infinity/Desktop/Dev/game-pacific/candidates/s14-expansion/evidence/inputs/autonomous-b25-r6"
+    }
+  ],
+  "cleanup": {
+    "utc": "2026-11-11T15:32:20.835986+00:00",
+    "owned_godot_chrome_node_remaining": [],
+    "owned_temporary_profiles_remaining": [],
+    "old_failed_cleanup_supplement": "evidence/chrome-autonomous-r2-cleanup.json",
+    "unrelated_processes_untouched": true
+  },
+  "support_tools_sha256": {
+    "tools/s14_expansion/build_data.py": "baa24fc7a50d922d193ca3133abab8f122fa8e6f5e002d2e60bc549111f1878d",
+    "tools/s14_expansion/build_stage.py": "2ef213e60e325e4524a2484df2326240f3f492cfd8586c875bdacc7c20496abc",
+    "tools/s14_expansion/build_web.py": "b2d43eada55d0c8e3039fdc259cb4962e7a096688228d9bb908b425832456ab0",
+    "tools/s14_expansion/chrome_check.mjs": "06200a83a5b814d88f232e404a1e5cbcaebe155770118d02097ab45bdd07a7f4",
+    "tools/s14_expansion/encode_evidence.py": "76ec3e7ba49dc46ed336256477ef150f93d5c0302e4cd8a28f5770f813e78cd5",
+    "tools/s14_expansion/finalize_evidence.py": "c5cea3586080bcf46a3387ad8f845f28debeb5315a002c9bd199ad76e1c62c7c",
+    "tools/s14_expansion/freeze_inputs.py": "2f030475808ac60936ade226806be8ed3c70c8529e8ab6a6f0d5be6e6e8f4ec9",
+    "tools/s14_expansion/measure.js": "f6982bc0bf684e7576a9db01b9807397649b0c9f47e066572e8e6e65cec85053",
+    "tools/s14_expansion/prepare_admission.py": "67e022df9c063ad186dd4c8c14662bddfb751d11025de128f8105387a3d2951e"
+  },
+  "delivery_sha256": {
+    "docs/showcase/deliveries/S14-carrier-harbor.md": "1d88f704a53982e5496b9d7ade4d76ad4ccffde6cdf91794224a10964281636f",
+    "docs/showcase/S14-BOMB-integration-inputs.md": "1ac47edfae082dd062814676d3d86fb453a7ea35dfd351593c8e5f43ddd36158",
+    "docs/deliveries/S14-carrier-harbor.md": "122d71ad485e471b71482626e6ab4904eb438bb2e5dff1c65ef30d6a12caff86"
+  }
+}

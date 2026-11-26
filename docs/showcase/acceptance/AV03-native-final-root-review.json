@@ -1,0 +1,63 @@
+{
+  "reviewed_at": "2026-11-11T20:32:19.261009+08:00",
+  "status": "model_shape_and_static_usage_accepted_pending_frozen_package",
+  "scope": "Root independently opened actual second-round native images; model-only review, not flight/bombing/runtime admission.",
+  "images": [
+    {
+      "path": "docs/showcase/evidence/AV03/final/side.png",
+      "sha256": "a253664e14e2255b022df93dc03425ea82f480e052f376376c0473f705788459"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/final/front.png",
+      "sha256": "cb8da58bd261e4b4dc4d6457514648b26e97ef13565d13b6f5be5c547737995b"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/final/top_flight.png",
+      "sha256": "98c8ca11a4548afdccfe1259d77921d993679d1bfff58407fdc09381feea6162"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/final/quarter.png",
+      "sha256": "9cb572a452ec19413baa34a37cb9b1dd150797b572e813630b0eabd3ccc62b78"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/final/airport_runway.png",
+      "sha256": "8aaf5f5c69d89a0bfd0f918997e555af3001a0dc602b07e3ba54a8064c76b65f"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/final/airport_parking.png",
+      "sha256": "17ae381d272dde88b86cdd34a113933aa0e993b5c342fa96a2cbb8f58bfdefdd"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/final/damage.png",
+      "sha256": "9411fad63bb241ce64d13e71735d4e439905b07985088c2904f21c82c1caac10"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/final/bay.png",
+      "sha256": "2a66046598e9a93bdd8fa9f3a72b620fd6c0a49ad51c2d63b5ddd191ae660eb1"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/final/transition.png",
+      "sha256": "1944cc4f517e614aa50ff035f0009c7fa7831bb1342e0e0ff4e62f2b6d9b8250"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/final/dorsal_gun.png",
+      "sha256": "3b014f4ff5abc32fc4df8e6cdd30b327c9ad552a95b24541eee74e14face2642"
+    },
+    {
+      "path": "docs/showcase/evidence/AV03/final/tail_gun.png",
+      "sha256": "804cfd06621822114c9236d73c308844bd4a9a6e812d22363f3ed4e7d531607a"
+    }
+  ],
+  "observations": [
+    "Stepped windscreen and flatter canopy roof replace the earlier rounded bubble; front-view sill gaps closed.",
+    "Outer wing tips now taper to truncated tips with small rounded corners.",
+    "Wing roundels appear complete; optional tiny broken nose side windows omitted.",
+    "Overall dimensions, twin-engine spacing and short tailwheel retained; no new micro-detail requests.",
+    "Actual MAP02 view was instantiated from the existing compiled map at the registered runway and parking points; screenshot pose and wheel/contact data agree.",
+    "Open combat bomb bay visibly contains 12 stores in four rows of three, consistent with selected producer reference; no fictitious hinged-door animation.",
+    "Partial gear/flap state and dorsal/tail gun installations visible; left-wing and tail hidden state also removes the engine hosted on the left wing. This is visual host-state inspection, not combat damage integration."
+  ],
+  "remaining": [
+    "Frozen source/evidence hashes, delivery scope and verify cleanup audit."
+  ]
+}

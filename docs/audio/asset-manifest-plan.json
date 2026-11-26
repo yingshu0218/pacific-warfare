@@ -1,0 +1,1944 @@
+{
+  "schema_version": 1,
+  "document_kind": "audio_production_plan_not_runtime_manifest",
+  "status": "planned",
+  "planned_on": "2026-11-10",
+  "implementation_authorized": false,
+  "engine_lock": {
+    "version": "4.7.2.stable.official.ed1daf0bf",
+    "renderer": "Compatibility",
+    "runtime_language": "typed_GDScript",
+    "browser_acceptance": [
+      "Chrome"
+    ],
+    "upgrade_planned": false
+  },
+  "verification_scope": {
+    "code_and_evidence_read": true,
+    "source_pages_consulted": false,
+    "new_audio_files_downloaded": false,
+    "audio_files_listened": false,
+    "new_audio_generated": true,
+    "source_recordings_historically_verified": false,
+    "godot_started": false,
+    "browser_started": false,
+    "http_service_started": false,
+    "purchases_or_accounts_created": false,
+    "project_uploaded": false,
+    "dedicated_sound_generation_tool_available": false,
+    "source_pages_scope": "AU01_uses_no_external_audio_prior_S11_sources_withdrawn"
+  },
+  "budget_policy": {
+    "hard_zero_cost": true,
+    "hard_no_account": true,
+    "spent_usd": 0,
+    "account_registrations": 0,
+    "paid_services": 0,
+    "network_API_services": 0,
+    "default_acquisition": "local_original_procedural_synthesis",
+    "purchase_authorized": false,
+    "account_creation_authorized": false,
+    "paid_fallback": null,
+    "quote_or_registration_steps_allowed": false,
+    "external_recording_rule": "optional_only_actual_anonymous_free_licensed_file_no_login_no_purchase",
+    "all_numeric_performance_targets": "proposed_not_measured"
+  },
+  "sources": [
+    {
+      "id": "src_original",
+      "status": "reference_only",
+      "title": "AU01 local original procedural synthesis",
+      "paths": [
+        "tools/audio/build_au01.py",
+        "assets/audio/au01/source/recipe.json",
+        "assets/audio/au01/SOURCES.md"
+      ],
+      "origin": "local_authored_deterministic_DSP_no_external_recordings",
+      "cost_usd": 0,
+      "accounts_required": false,
+      "network_required": false,
+      "license_scope": "project_authorization_unchanged_no_new_public_license",
+      "historical_recording_claim": "none",
+      "listened": false
+    }
+  ],
+  "format_profiles": {
+    "master_wav_48k24": {
+      "format": "wav",
+      "sample_rate_hz": 48000,
+      "bit_depth": 24,
+      "lossless": true,
+      "note": "preserve_original_rate_and_file_also_upsampling_adds_no_new_detail"
+    },
+    "runtime_wav_48k16_mono": {
+      "format": "wav",
+      "sample_rate_hz": 48000,
+      "bit_depth": 16,
+      "channels": 1,
+      "compression": "PCM16_first_candidate",
+      "godot_playback_type_web": "PLAYBACK_TYPE_STREAM"
+    },
+    "runtime_ogg_48k_stereo": {
+      "format": "ogg_vorbis",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "bitrate_kbps_candidate": null,
+      "godot_playback_type_web": "PLAYBACK_TYPE_STREAM",
+      "max_environment_decoders": 2,
+      "installed_encoder": "native_vorbis",
+      "quality": 6,
+      "native_encoder_experimental": true,
+      "budget_method": "actual_encoded_bytes_not_assumed_bitrate"
+    }
+  },
+  "counts_and_estimates": {
+    "P0_families": 15,
+    "P0_files": 36,
+    "P1_families": 7,
+    "P1_files": 12,
+    "pilot_files": 17,
+    "P0_mono_duration_ceiling_s": 66.46,
+    "P0_stereo_duration_ceiling_s": 28,
+    "P0_mono_PCM16_bytes_estimate": 6380160,
+    "P0_all_PCM16_bytes_estimate": 11756160,
+    "P0_all_float32_bytes_estimate": 23512320,
+    "estimate_scope": "sample_payload_only_not_decoder_buffers_import_temporaries_or_total_process_memory"
+  },
+  "families": [
+    {
+      "id": "fighter_radial_power",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "loop",
+      "duration_max_s": 4,
+      "planned_file_count": 3,
+      "states_or_variants": [
+        "low",
+        "cruise",
+        "high"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": true,
+      "variation_policy": "state_crossfade",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/fighter_radial_power/fighter_radial_power_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "piston_prop_pulse_and_smooth_power_change_not_sine_beep",
+      "input_route_ids": [
+        "loop_aircraft"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 3,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "ship_propulsion",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "loop",
+      "duration_max_s": 4,
+      "planned_file_count": 2,
+      "states_or_variants": [
+        "idle",
+        "run"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": true,
+      "variation_policy": "state_crossfade",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/ship_propulsion/ship_propulsion_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "near_external_machinery_rumble_not_car_engine",
+      "input_route_ids": [
+        "loop_ship"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 2,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "gun_heavy",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "one_shot",
+      "duration_max_s": 3.5,
+      "planned_file_count": 3,
+      "states_or_variants": [
+        "v01",
+        "v02",
+        "v03"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/gun_heavy/gun_heavy_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "distinct_attack_low_body_short_sea_tail",
+      "input_route_ids": [
+        "event_fired_heavy"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 2,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "gun_medium",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "one_shot",
+      "duration_max_s": 1.5,
+      "planned_file_count": 3,
+      "states_or_variants": [
+        "v01",
+        "v02",
+        "v03"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/gun_medium/gun_medium_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "shorter_artillery_attack_distinct_from_heavy",
+      "input_route_ids": [
+        "event_fired_medium"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 1,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "autocannon",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "one_shot",
+      "duration_max_s": 0.4,
+      "planned_file_count": 3,
+      "states_or_variants": [
+        "v01",
+        "v02",
+        "v03"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/autocannon/autocannon_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "crisp_20_to_40mm_pulses_not_continuous_noise",
+      "input_route_ids": [
+        "event_fired_autocannon"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 1,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "machinegun",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "one_shot",
+      "duration_max_s": 0.12,
+      "planned_file_count": 3,
+      "states_or_variants": [
+        "v01",
+        "v02",
+        "v03"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/machinegun/machinegun_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "light_7_7_to_13mm_report_actual_firing_cadence",
+      "input_route_ids": [
+        "event_fired_machinegun"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 1,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "airburst",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "one_shot",
+      "duration_max_s": 1,
+      "planned_file_count": 3,
+      "states_or_variants": [
+        "v01",
+        "v02",
+        "v03"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/airburst/airburst_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "dry_midair_pop_distinct_from_splash",
+      "input_route_ids": [
+        "event_airburst"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 1,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "impact_water",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "one_shot",
+      "duration_max_s": 1.8,
+      "planned_file_count": 3,
+      "states_or_variants": [
+        "v01",
+        "v02",
+        "v03"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/impact_water/impact_water_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "impact_plus_water_return_scaled_to_real_caliber",
+      "input_route_ids": [
+        "event_surface_sea"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 1,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "impact_land",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "one_shot",
+      "duration_max_s": 1.5,
+      "planned_file_count": 3,
+      "states_or_variants": [
+        "v01",
+        "v02",
+        "v03"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/impact_land/impact_land_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "earth_debris_not_water",
+      "input_route_ids": [
+        "event_surface_ground",
+        "event_hit_ground"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 1,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "impact_metal",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "one_shot",
+      "duration_max_s": 1,
+      "planned_file_count": 3,
+      "states_or_variants": [
+        "v01",
+        "v02",
+        "v03"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/impact_metal/impact_metal_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "brief_metal_resonance_not_automatic_explosion",
+      "input_route_ids": [
+        "event_hit_metal"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 1,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "unit_impact_water",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "one_shot",
+      "duration_max_s": 2.5,
+      "planned_file_count": 2,
+      "states_or_variants": [
+        "v01",
+        "v02"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/unit_impact_water/unit_impact_water_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "broad_airframe_water_contact_lighter_for_ditching",
+      "input_route_ids": [
+        "event_unit_impact_water"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started"
+    },
+    {
+      "id": "unit_impact_land",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "one_shot",
+      "duration_max_s": 2.5,
+      "planned_file_count": 2,
+      "states_or_variants": [
+        "v01",
+        "v02"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/unit_impact_land/unit_impact_land_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "airframe_ground_structure_contact",
+      "input_route_ids": [
+        "event_unit_impact_land"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started"
+    },
+    {
+      "id": "burning",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "loop",
+      "duration_max_s": 4,
+      "planned_file_count": 1,
+      "states_or_variants": [
+        "shared"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": true,
+      "variation_policy": "one_base_no_forced_random_retrigger",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/burning/burning_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "subtle_near_fire_real_severity_only",
+      "input_route_ids": [
+        "loop_burning"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 1,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "ambient_wind",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "loop",
+      "duration_max_s": 12,
+      "planned_file_count": 1,
+      "states_or_variants": [
+        "shared"
+      ],
+      "channels": 2,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_ogg_48k_stereo",
+      "loop": true,
+      "variation_policy": "one_base_no_forced_random_retrigger",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/ambient_wind/ambient_wind_<state_or_event>_shared_vNN.ogg",
+      "actual_runtime_files": [],
+      "recognition_target": "low_wind_no_prerecorded_combat_or_people",
+      "input_route_ids": [
+        "loop_wind"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 1,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "ambient_coast",
+      "status": "planned",
+      "priority": "P0",
+      "kind": "loop",
+      "duration_max_s": 16,
+      "planned_file_count": 1,
+      "states_or_variants": [
+        "shared"
+      ],
+      "channels": 2,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_ogg_48k_stereo",
+      "loop": true,
+      "variation_policy": "one_base_no_forced_random_retrigger",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/ambient_coast/ambient_coast_<state_or_event>_shared_vNN.ogg",
+      "actual_runtime_files": [],
+      "recognition_target": "shore_only_no_rock_surf_in_open_sea",
+      "input_route_ids": [
+        "loop_coast"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started",
+      "representative_production_manifest": "docs/audio/au01-asset-manifest.json",
+      "representative_file_count": 1,
+      "representative_status": "generated_hearing_and_integration_pending"
+    },
+    {
+      "id": "ship_wake",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "loop",
+      "duration_max_s": 6,
+      "planned_file_count": 1,
+      "states_or_variants": [
+        "shared"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": true,
+      "variation_policy": "one_base_no_forced_random_retrigger",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/ship_wake/ship_wake_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "water_motion_follows_real_ship_speed",
+      "input_route_ids": [
+        "loop_ship_wake"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started"
+    },
+    {
+      "id": "fighter_cutoff",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "one_shot",
+      "duration_max_s": 1,
+      "planned_file_count": 2,
+      "states_or_variants": [
+        "v01",
+        "v02"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/fighter_cutoff/fighter_cutoff_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "one_actual_engine_power_stop_transition",
+      "input_route_ids": [
+        "event_power_cutoff"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started"
+    },
+    {
+      "id": "near_flyby",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "one_shot",
+      "duration_max_s": 1.2,
+      "planned_file_count": 2,
+      "states_or_variants": [
+        "v01",
+        "v02"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/near_flyby/near_flyby_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "near_passing_airframe_no_fake_projectile_whiz",
+      "input_route_ids": [
+        "event_near_flyby"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started"
+    },
+    {
+      "id": "heavy_far_tail",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "one_shot",
+      "duration_max_s": 3,
+      "planned_file_count": 2,
+      "states_or_variants": [
+        "v01",
+        "v02"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/heavy_far_tail/heavy_far_tail_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "low_distant_component_of_same_fired_event",
+      "input_route_ids": [
+        "event_heavy_far_layer"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started"
+    },
+    {
+      "id": "material_detail",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "one_shot",
+      "duration_max_s": 1.5,
+      "planned_file_count": 2,
+      "states_or_variants": [
+        "masonry",
+        "wood"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/material_detail/material_detail_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "only_if_target_material_is_known",
+      "input_route_ids": [
+        "event_material_layer"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started"
+    },
+    {
+      "id": "harbor_environment",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "loop",
+      "duration_max_s": 16,
+      "planned_file_count": 1,
+      "states_or_variants": [
+        "shared"
+      ],
+      "channels": 2,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_ogg_48k_stereo",
+      "loop": true,
+      "variation_policy": "one_base_no_forced_random_retrigger",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/harbor_environment/harbor_environment_<state_or_event>_shared_vNN.ogg",
+      "actual_runtime_files": [],
+      "recognition_target": "quiet_harbor_air_no_unmodeled_crowds_or_cranes",
+      "input_route_ids": [
+        "loop_harbor"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started"
+    },
+    {
+      "id": "ui_soft",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "one_shot",
+      "duration_max_s": 0.1,
+      "planned_file_count": 2,
+      "states_or_variants": [
+        "accept",
+        "open"
+      ],
+      "channels": 1,
+      "source_format_preference": "original_lossless_WAV_or_FLAC",
+      "master_profile": "master_wav_48k24",
+      "runtime_profile": "runtime_wav_48k16_mono",
+      "loop": false,
+      "variation_policy": "nonrepeating_event_variants",
+      "source_candidate_ids": [
+        "src_original"
+      ],
+      "fallback_source_id": "src_original",
+      "source_file_selected": null,
+      "source_file_sha256": null,
+      "license_clearance": "local_original_no_third_party_input_project_license_unchanged",
+      "historical_identity": "original_generic_design_not_specific_equipment_recording",
+      "planned_runtime_path_pattern": "assets/audio/runtime/ui_soft/ui_soft_<state_or_event>_shared_vNN.wav",
+      "actual_runtime_files": [],
+      "recognition_target": "quiet_real_UI_action_feedback",
+      "input_route_ids": [
+        "event_ui"
+      ],
+      "audition_status": "not_performed",
+      "integration_status": "not_started"
+    }
+  ],
+  "pilot": {
+    "status": "representative_files_generated_checks_and_hearing_separate",
+    "selected_family_file_counts": {
+      "fighter_radial_power": 3,
+      "ship_propulsion": 2,
+      "gun_heavy": 2,
+      "gun_medium": 1,
+      "autocannon": 1,
+      "machinegun": 1,
+      "airburst": 1,
+      "impact_water": 1,
+      "impact_land": 1,
+      "impact_metal": 1,
+      "burning": 1,
+      "ambient_wind": 1,
+      "ambient_coast": 1
+    },
+    "expand_only_after": "four_context_audition_direction_accepted",
+    "contexts": [
+      {
+        "id": "salvo",
+        "seconds": [
+          30,
+          45
+        ],
+        "needs": [
+          "gun_heavy",
+          "impact_water",
+          "impact_metal"
+        ],
+        "review": "near_mid_far_actual_grouping_no_clip"
+      },
+      {
+        "id": "aa_screen",
+        "seconds": [
+          30,
+          45
+        ],
+        "needs": [
+          "gun_medium",
+          "autocannon",
+          "machinegun",
+          "airburst"
+        ],
+        "review": "foreground_legible_no_automatic_gunfire_after_cease"
+      },
+      {
+        "id": "dogfight",
+        "seconds": [
+          30,
+          45
+        ],
+        "needs": [
+          "fighter_radial_power",
+          "machinegun",
+          "autocannon"
+        ],
+        "review": "power_not_speed_no_camera_pitch_spike"
+      },
+      {
+        "id": "harbor_shore",
+        "seconds": [
+          30,
+          45
+        ],
+        "needs": [
+          "gun_medium",
+          "impact_water",
+          "impact_land",
+          "impact_metal",
+          "ambient_coast"
+        ],
+        "review": "S10_actual_events_required_for_integration_claim"
+      }
+    ],
+    "first_offline_mix_is_battle_evidence": false,
+    "A_B_reference": null,
+    "audition_delivery": "four_standalone_AU01_mixes_not_A_B_or_runtime_evidence"
+  },
+  "unit_profiles": [
+    {
+      "definition_id": "jp_a6m5a_1944",
+      "status": "planned",
+      "definition_read_path": "data/units/jp_a6m5a_1944.json",
+      "domain": "aircraft",
+      "propulsion_family": "fighter_radial_power",
+      "weapon_definition_ids": [
+        "jp_type97_77mm_single",
+        "jp_type99_2_model4_20mm_single"
+      ],
+      "historic_audio_identity": "not_verified_shared_family",
+      "audio_override": "none_until_audition_justifies_difference"
+    },
+    {
+      "definition_id": "jp_yamato_1944_04",
+      "status": "planned",
+      "definition_read_path": "data/units/jp_yamato_1944_04.json",
+      "domain": "ship",
+      "propulsion_family": "ship_propulsion",
+      "weapon_definition_ids": [
+        "jp_type3_155mm_triple",
+        "jp_type89_127mm_twin",
+        "jp_type93_13mm_twin",
+        "jp_type94_460mm_triple",
+        "jp_type96_25mm_single",
+        "jp_type96_25mm_triple"
+      ],
+      "historic_audio_identity": "not_verified_shared_family",
+      "audio_override": "none_until_audition_justifies_difference"
+    },
+    {
+      "definition_id": "jp_yukikaze_1942_06",
+      "status": "planned",
+      "definition_read_path": "data/units/jp_yukikaze_1942_06.json",
+      "domain": "ship",
+      "propulsion_family": "ship_propulsion",
+      "weapon_definition_ids": [
+        "s03_jp_127mm_type3_c_twin",
+        "s03_jp_type96_25mm_twin"
+      ],
+      "historic_audio_identity": "not_verified_shared_family",
+      "audio_override": "none_until_audition_justifies_difference"
+    },
+    {
+      "definition_id": "us_f6f5_1944",
+      "status": "planned",
+      "definition_read_path": "data/units/us_f6f5_1944.json",
+      "domain": "aircraft",
+      "propulsion_family": "fighter_radial_power",
+      "weapon_definition_ids": [
+        "us_an_m2_127mm_single"
+      ],
+      "historic_audio_identity": "not_verified_shared_family",
+      "audio_override": "none_until_audition_justifies_difference"
+    },
+    {
+      "definition_id": "us_fletcher_dd445_1942_07_18",
+      "status": "planned",
+      "definition_read_path": "data/units/us_fletcher_dd445_1942_07_18.json",
+      "domain": "ship",
+      "propulsion_family": "ship_propulsion",
+      "weapon_definition_ids": [
+        "s03_us_11in_mk2_quad",
+        "s03_us_5in38_mk30_single",
+        "s03_us_oerlikon_20mm_single"
+      ],
+      "historic_audio_identity": "not_verified_shared_family",
+      "audio_override": "none_until_audition_justifies_difference"
+    },
+    {
+      "definition_id": "us_iowa_bb61_1944_12_28",
+      "status": "planned",
+      "definition_read_path": "data/units/us_iowa_bb61_1944_12_28.json",
+      "domain": "ship",
+      "propulsion_family": "ship_propulsion",
+      "weapon_definition_ids": [
+        "us_16in50_mk7_triple",
+        "us_5in38_mk28_twin",
+        "us_bofors_40mm_quad",
+        "us_oerlikon_20mm_single"
+      ],
+      "historic_audio_identity": "not_verified_shared_family",
+      "audio_override": "none_until_audition_justifies_difference"
+    }
+  ],
+  "weapon_routes": [
+    {
+      "weapon_definition_id": "jp_type3_155mm_triple",
+      "status": "planned",
+      "ammo_id": "jp_155mm_shell",
+      "caliber_m_read_from_data": 0.155,
+      "family": "gun_medium",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "jp_type89_127mm_twin",
+      "status": "planned",
+      "ammo_id": "jp_127mm_type89_shell",
+      "caliber_m_read_from_data": 0.127,
+      "family": "gun_medium",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "jp_type93_13mm_twin",
+      "status": "planned",
+      "ammo_id": "jp_13mm_type93_ball",
+      "caliber_m_read_from_data": 0.013,
+      "family": "machinegun",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "jp_type94_460mm_triple",
+      "status": "planned",
+      "ammo_id": "jp_460mm_ap",
+      "caliber_m_read_from_data": 0.46,
+      "family": "gun_heavy",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "jp_type96_25mm_single",
+      "status": "planned",
+      "ammo_id": "jp_25mm_type96_shell",
+      "caliber_m_read_from_data": 0.025,
+      "family": "autocannon",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "jp_type96_25mm_triple",
+      "status": "planned",
+      "ammo_id": "jp_25mm_type96_shell",
+      "caliber_m_read_from_data": 0.025,
+      "family": "autocannon",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "jp_type97_77mm_single",
+      "status": "planned",
+      "ammo_id": "jp_77mm_type97_ball",
+      "caliber_m_read_from_data": 0.0077,
+      "family": "machinegun",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "jp_type99_2_model4_20mm_single",
+      "status": "planned",
+      "ammo_id": "jp_20mm_type99_2_shell",
+      "caliber_m_read_from_data": 0.02,
+      "family": "autocannon",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "s03_jp_127mm_type3_c_twin",
+      "status": "planned",
+      "ammo_id": "s03_jp_127mm_type1_common",
+      "caliber_m_read_from_data": 0.127,
+      "family": "gun_medium",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "s03_jp_type96_25mm_twin",
+      "status": "planned",
+      "ammo_id": "s03_jp_25mm_type96_he",
+      "caliber_m_read_from_data": 0.025,
+      "family": "autocannon",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "s03_us_11in_mk2_quad",
+      "status": "planned",
+      "ammo_id": "s03_us_28mm_mk1_he",
+      "caliber_m_read_from_data": 0.02794,
+      "family": "autocannon",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "s03_us_5in38_mk30_single",
+      "status": "planned",
+      "ammo_id": "s03_us_127mm_mk32_common",
+      "caliber_m_read_from_data": 0.127,
+      "family": "gun_medium",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "s03_us_oerlikon_20mm_single",
+      "status": "planned",
+      "ammo_id": "s03_us_20mm_mk3_he",
+      "caliber_m_read_from_data": 0.02,
+      "family": "autocannon",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "us_16in50_mk7_triple",
+      "status": "planned",
+      "ammo_id": "us_406mm_mk8_ap",
+      "caliber_m_read_from_data": 0.4064,
+      "family": "gun_heavy",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "us_5in38_mk28_twin",
+      "status": "planned",
+      "ammo_id": "us_127mm_5in38_shell",
+      "caliber_m_read_from_data": 0.127,
+      "family": "gun_medium",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "us_an_m2_127mm_single",
+      "status": "planned",
+      "ammo_id": "us_127mm_m2_ball",
+      "caliber_m_read_from_data": 0.0127,
+      "family": "machinegun",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "us_bofors_40mm_quad",
+      "status": "planned",
+      "ammo_id": "us_40mm_bofors_shell",
+      "caliber_m_read_from_data": 0.04,
+      "family": "autocannon",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    },
+    {
+      "weapon_definition_id": "us_oerlikon_20mm_single",
+      "status": "planned",
+      "ammo_id": "us_20mm_oerlikon_shell",
+      "caliber_m_read_from_data": 0.02,
+      "family": "autocannon",
+      "event_position": "event.position_m",
+      "lookup_note": "event.weapon_id_is_instance_id_resolve_to_definition_via_unit_mount_index"
+    }
+  ],
+  "future_ground_extension": {
+    "status": "planned",
+    "S10_model_and_date_locked": null,
+    "unit_definition_ids": [],
+    "domain": "ground",
+    "propulsion_loop": null,
+    "reuse_families": [
+      "gun_medium",
+      "autocannon",
+      "machinegun",
+      "impact_land",
+      "impact_metal",
+      "airburst"
+    ],
+    "integration_condition": "resolve_actual_definition_ammo_material_and_mounts_after_S10_contract_publication_no_assumed_ship_domain",
+    "snapshot_scope": "S11_extension_placeholder_AU01_does_not_reaudit_S10_equipment"
+  },
+  "event_routes": [
+    {
+      "id": "event_fired_heavy",
+      "status": "planned",
+      "kind": "fired",
+      "when": "explicit_weapon_route_or_caliber_m>=0.2",
+      "family": "gun_heavy",
+      "position": "event.position_m",
+      "dedupe": "generation_sequence_then_actual_mount_group"
+    },
+    {
+      "id": "event_fired_medium",
+      "status": "planned",
+      "kind": "fired",
+      "when": "explicit_weapon_route_or_0.075<=caliber_m<0.2",
+      "family": "gun_medium",
+      "position": "event.position_m",
+      "dedupe": "generation_sequence_then_actual_mount_group"
+    },
+    {
+      "id": "event_fired_autocannon",
+      "status": "planned",
+      "kind": "fired",
+      "when": "explicit_weapon_route_or_0.02<=caliber_m<0.075",
+      "family": "autocannon",
+      "position": "event.position_m",
+      "dedupe": "generation_sequence_then_actual_mount_group"
+    },
+    {
+      "id": "event_fired_machinegun",
+      "status": "planned",
+      "kind": "fired",
+      "when": "explicit_weapon_route_or_0<caliber_m<0.02",
+      "family": "machinegun",
+      "position": "event.position_m",
+      "dedupe": "generation_sequence_then_actual_mount_group"
+    },
+    {
+      "id": "event_salvo",
+      "status": "planned",
+      "kind": "salvo",
+      "family": null,
+      "action": "priority_context_only_no_second_bang"
+    },
+    {
+      "id": "event_airburst",
+      "status": "planned",
+      "kind": "airburst",
+      "family": "airburst",
+      "position": "event.position_m",
+      "dedupe": "one_terminal_sound_per_generation_projectile_id"
+    },
+    {
+      "id": "event_surface_sea",
+      "status": "planned",
+      "kind": "surface_impact",
+      "when": "data.surface==sea",
+      "family": "impact_water",
+      "position": "event.position_m",
+      "dedupe": "one_terminal_sound_per_generation_projectile_id"
+    },
+    {
+      "id": "event_surface_ground",
+      "status": "planned",
+      "kind": "surface_impact",
+      "when": "data.surface_in_ground_building",
+      "family": "impact_land",
+      "position": "event.position_m",
+      "dedupe": "one_terminal_sound_per_generation_projectile_id"
+    },
+    {
+      "id": "event_hit_metal",
+      "status": "planned",
+      "kind": "hit",
+      "when": "target_id_resolves_ship_aircraft_or_known_metal_weapon",
+      "family": "impact_metal",
+      "position": "event.position_m",
+      "identity_note": "entity_id_is_shooter_target_id_is_victim",
+      "dedupe": "one_terminal_sound_per_generation_projectile_id"
+    },
+    {
+      "id": "event_hit_ground",
+      "status": "planned",
+      "kind": "hit",
+      "when": "target_id_resolves_known_ground_facility",
+      "family": "impact_land",
+      "position": "event.position_m",
+      "identity_note": "unknown_material_uses_quiet_generic_impact_and_diagnostic_not_default_sea",
+      "dedupe": "one_terminal_sound_per_generation_projectile_id"
+    },
+    {
+      "id": "event_damaged",
+      "status": "planned",
+      "kind": "damaged",
+      "family": null,
+      "action": "refresh_victim_power_fire_state_no_duplicate_bang",
+      "identity_note": "target_id_is_victim_not_entity_id"
+    },
+    {
+      "id": "event_damage_phase",
+      "status": "planned",
+      "kind": "damage_phase",
+      "family": null,
+      "action": "reconcile_loops_with_present_phase_and_propulsion_not_automatic_explosion"
+    },
+    {
+      "id": "event_disabled",
+      "status": "planned",
+      "kind": "disabled",
+      "family": null,
+      "action": "reconcile_loops_control_loss_is_not_proof_of_engine_off"
+    },
+    {
+      "id": "event_surface_contact",
+      "status": "planned",
+      "kind": "unit_surface_contact",
+      "family": null,
+      "action": "wait_for_final_unit_impact_not_second_sound"
+    },
+    {
+      "id": "event_unit_impact_water",
+      "status": "planned",
+      "kind": "unit_impact",
+      "when": "data.surface==sea",
+      "family": "unit_impact_water",
+      "position": "event.position_m",
+      "gain_inputs": [
+        "data.destroyed",
+        "data.velocity_mps"
+      ],
+      "dedupe": "generation_entity_contact_transition"
+    },
+    {
+      "id": "event_unit_impact_land",
+      "status": "planned",
+      "kind": "unit_impact",
+      "when": "data.surface_in_ground_building",
+      "family": "unit_impact_land",
+      "position": "event.position_m",
+      "gain_inputs": [
+        "data.destroyed",
+        "data.velocity_mps"
+      ],
+      "dedupe": "generation_entity_contact_transition"
+    },
+    {
+      "id": "event_expired",
+      "status": "planned",
+      "kind": "projectile_expired",
+      "family": null,
+      "action": "cleanup_only_no_fake_impact"
+    },
+    {
+      "id": "event_exit_air",
+      "status": "planned",
+      "kind": "aircraft_exit",
+      "family": null,
+      "action": "fade_stop_remove_ownership_mark_departed_no_loss_sound"
+    },
+    {
+      "id": "event_exit_ship",
+      "status": "planned",
+      "kind": "ship_exit",
+      "family": null,
+      "action": "fade_stop_remove_ownership_mark_departed_no_loss_sound"
+    },
+    {
+      "id": "event_power_cutoff",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "snapshot_transition",
+      "family": "fighter_cutoff",
+      "when": "actual_fueled_propulsion_on_to_off_once",
+      "available_now": "state_transition_can_be_derived_without_new_sim_event"
+    },
+    {
+      "id": "event_near_flyby",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "snapshot_transition",
+      "family": "near_flyby",
+      "when": "actual_relative_closest_pass_in_continuous_listener_path",
+      "available_now": "needs_presenter_tracking_no_claimed_existing_event"
+    },
+    {
+      "id": "event_heavy_far_layer",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "fired",
+      "family": "heavy_far_tail",
+      "when": "same_heavy_event_at_far_distance",
+      "note": "shares_event_identity_and_voice_budget_no_independent_firing"
+    },
+    {
+      "id": "event_material_layer",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "surface_impact_or_hit",
+      "family": "material_detail",
+      "when": "same_terminal_event_and_known_target_material",
+      "available_now": "material_tags_need_explicit_mapping_no_assumed_field"
+    },
+    {
+      "id": "event_ui",
+      "status": "planned",
+      "priority": "P1",
+      "kind": "real_UI_action",
+      "family": "ui_soft",
+      "when": "user_accepts_or_opens_actual_UI",
+      "note": "not_battle_event_not_commander_speech"
+    }
+  ],
+  "loop_state_routes": [
+    {
+      "id": "loop_aircraft",
+      "status": "planned",
+      "family": "fighter_radial_power",
+      "domain": "aircraft",
+      "existing_fields": [
+        "module_data.aircraft_motion.throttle",
+        "module_data.aircraft_motion.fuel_kg",
+        "module_data.aircraft_motion.exited",
+        "module_data.damage.propulsion_factor",
+        "module_data.damage.phase",
+        "position_m",
+        "velocity_mps"
+      ],
+      "weight_policy": "low_cruise_high_at_0_0.5_1_throttle_smooth_200_to_400ms",
+      "cutoff": "fuel_kg<=0_or_propulsion_factor<=0_or_exited_or_removed",
+      "pitch_range": [
+        0.94,
+        1.06
+      ],
+      "not_valid_rpm_field": "module_data.aircraft_motion.propeller_phase_rad",
+      "missing_throttle_fallback": "fixed_cruise_and_diagnostic_not_speed_to_pitch"
+    },
+    {
+      "id": "loop_ship",
+      "status": "planned",
+      "family": "ship_propulsion",
+      "domain": "ship",
+      "existing_fields": [
+        "module_data.ship_motion.speed_mps",
+        "module_data.ship_motion.fuel_fraction",
+        "module_data.ship_motion.exited",
+        "module_data.ship_motion.avoidance_reason",
+        "module_data.ship_control.speed_mps",
+        "module_data.damage.propulsion_factor",
+        "module_data.damage.phase"
+      ],
+      "weight_policy": "speed_and_requested_speed_as_load_proxy_not_shaft_RPM",
+      "coasting_policy": "disabled_coasting_removes_run_thrust_layer_idle_only_if_fuel_and_propulsion_remain",
+      "cutoff": "no_fuel_or_no_propulsion_or_exited_or_removed"
+    },
+    {
+      "id": "loop_burning",
+      "status": "planned",
+      "family": "burning",
+      "existing_fields": [
+        "module_data.damage.fire",
+        "module_data.damage.phase"
+      ],
+      "when": "present_nearby_fire>0.01_not_exited_or_removed",
+      "active_false_policy": "burning_wreck_may_keep_one_bounded_loop"
+    },
+    {
+      "id": "loop_wind",
+      "status": "planned",
+      "family": "ambient_wind",
+      "when": "battle_visible_sound_enabled_not_paused_or_ended",
+      "note": "one_global_bed_not_per_unit"
+    },
+    {
+      "id": "loop_coast",
+      "status": "planned",
+      "family": "ambient_coast",
+      "when": "listener_near_actual_terrain_coast",
+      "existing_source": "S09_terrain_dictionary",
+      "note": "fade_out_in_open_sea"
+    },
+    {
+      "id": "loop_ship_wake",
+      "status": "planned",
+      "priority": "P1",
+      "family": "ship_wake",
+      "when": "present_ship_actual_residual_speed_even_without_power"
+    },
+    {
+      "id": "loop_harbor",
+      "status": "planned",
+      "priority": "P1",
+      "family": "harbor_environment",
+      "when": "listener_in_defined_harbor_area",
+      "note": "no_unmodeled_operational_noise"
+    }
+  ],
+  "consumer_contract": {
+    "proposed_owner": "CombatAudioController_name_not_implemented",
+    "inputs": [
+      "same_drained_BattleEvent_batch_as_visuals",
+      "generation",
+      "unit_views",
+      "definition_mount_index",
+      "listener_transform_after_camera_update",
+      "focus_ids",
+      "terrain_read_only",
+      "simulation_time_s",
+      "time_scale",
+      "paused",
+      "ended",
+      "sound_enabled",
+      "visible"
+    ],
+    "dedupe_key": [
+      "generation",
+      "sequence"
+    ],
+    "event_cursor_advances_even_if_culled_or_muted": true,
+    "one_shot_terminal_dedupe": [
+      "generation",
+      "projectile_id"
+    ],
+    "bounded_contact_transition_cache": true,
+    "cache_limit_entries_candidate": 1024,
+    "cache_ttl_simulation_s_candidate": 2,
+    "world_RNG_used": false,
+    "world_state_or_commander_intelligence_written": false,
+    "weapon_group_window_simulation_s_candidate": 0.04,
+    "audible_attack_min_interval_wall_s_candidate": 0.05,
+    "group_extra_gain_cap_db": 3,
+    "position_for_group": "one_actual_member_muzzle_not_fictional_source",
+    "unrecognized_weapon_policy": "caliber_fallback_and_explicit_diagnostic",
+    "missing_runtime_file_policy": "marked_procedural_fallback_or_silence_no_unbounded_retry"
+  },
+  "lifecycle": {
+    "paused": "20_to_40ms_bus_fade_then_idempotent_stream_paused_true_freeze_pending_clock",
+    "resume": "refresh_snapshot_listener_then_idempotent_false_and_short_fade_no_history_replay",
+    "pause_then_enable": "no_unpaused_start_frame",
+    "muted": "stop_all_clear_pending_continue_event_cursor",
+    "battle_ended": "150_to_300ms_fade_stop_loops_and_one_shots_cannot_restart_from_snapshot",
+    "unit_exit": "mark_departed_stop_owned_loops_ignore_delayed_snapshot",
+    "removed": "stop_all_unit_loops_including_fire",
+    "restart": "new_generation_stop_clear_dedupe_groups_pending_departed_ownership_share_read_only_streams_only",
+    "visibility_hidden": "fade_and_suspend_audio_no_queued_catchup_session_owns_simulation_policy",
+    "time_scales": [
+      0.5,
+      1,
+      2,
+      4
+    ],
+    "global_playback_speed_follows_simulation_scale": false,
+    "UI_focus_space_regression": "preserve_S09_reported_fix_and_recheck_Chrome_sound_button_focus_plus_Space_only_performs_pause",
+    "web_protections": [
+      "PLAYBACK_TYPE_STREAM_for_every_player_including_environment",
+      "write_stream_paused_only_on_real_transition"
+    ]
+  },
+  "spatial_policy": {
+    "listener": "current_observer_camera_external_no_cockpit_auto_switch",
+    "distance_curve": "one_curve_only_near_clamp_approx_minus_6dB_per_double_distance_then_last_20percent_fade_to_zero",
+    "distance_presets_m": {
+      "fighter_radial_power": {
+        "reference": 35,
+        "cutoff": 1800
+      },
+      "ship_propulsion": {
+        "reference": 25,
+        "cutoff": 600
+      },
+      "burning": {
+        "reference": 15,
+        "cutoff": 250
+      },
+      "gun_heavy": {
+        "reference": 180,
+        "cutoff": 10000
+      },
+      "gun_medium": {
+        "reference": 80,
+        "cutoff": 6000
+      },
+      "autocannon": {
+        "reference": 35,
+        "cutoff": 2200
+      },
+      "machinegun": {
+        "reference": 20,
+        "cutoff": 1000
+      },
+      "airburst": {
+        "reference": 50,
+        "cutoff": 4000
+      },
+      "shell_impacts": {
+        "reference": 60,
+        "cutoff": 5000
+      },
+      "unit_impacts": {
+        "reference": 100,
+        "cutoff": 5000
+      }
+    },
+    "distance_presets_are_measured_SPL": false,
+    "camera_cut": "direct_listener_relocation_80_to_150ms_gain_transition_no_path_interpolation",
+    "continuous_move": "smooth_gain_and_power_weights",
+    "doppler_P0": "disabled",
+    "doppler_P1": "optional_one_implementation_only_1x_simulation_velocity_pitch_ratio_0.85_to_1.15_reset_on_cut_or_scale_change",
+    "doppler_reset_s": 0.3,
+    "propagation_delay_P0_s": 0,
+    "occlusion_P0": "off",
+    "occlusion_P1": "optional_read_only_S09_TerrainQueries.hit_data_include_sea_false_4_sources_at_2Hz",
+    "propagation_P1_queue_items_limit": 32,
+    "propagation_P1_delay_cap_s": 2,
+    "propagation_P1_note": "truncated_cinematic_candidate_not_physical_acoustics_clear_on_cut_reset_exit"
+  },
+  "mixing": {
+    "buses": {
+      "Master": [
+        "Combat",
+        "Machinery",
+        "Ambience",
+        "UI"
+      ],
+      "Combat": [
+        "Guns",
+        "Impacts"
+      ]
+    },
+    "initial_master_headroom_db": 6,
+    "final_capture_true_peak_target_dBTP": -1,
+    "ambience_duck_db_candidate": [
+      3,
+      6
+    ],
+    "duck_attack_ms": 20,
+    "duck_release_ms_candidate": [
+      300,
+      600
+    ],
+    "duck_trigger": "foreground_heavy_gun_or_key_impact_not_every_MG_round",
+    "per_event_pitch_random_percent": 3,
+    "per_event_gain_random_db": 1,
+    "repeat_variant_immediately": false,
+    "normalize_every_gun_to_same_LUFS": false,
+    "voice_selection": {
+      "loop_selection_hz": 10,
+      "score": "predicted_audible_level_plus_focus_priority_plus_category",
+      "focus_priority_db_not_output_gain": 6,
+      "switch_margin_db": 3,
+      "switch_dwell_ms": 200,
+      "minimum_hold_s": 0.5,
+      "tie_break": "stable_id",
+      "outside_cutoff_playable": false,
+      "virtualized_loop_decoder_active": false,
+      "transition_layers_count_against_pool": true,
+      "voice_steal": "fade_10_to_20ms_then_reuse_same_node_no_temporary_overbudget"
+    },
+    "candidate_one_shot_category_caps": {
+      "heavy_medium": 3,
+      "autocannon_airburst": 4,
+      "near_machinegun": 2,
+      "impacts_crashes": 3
+    },
+    "caps_share_pool_and_borrow_idle": true,
+    "loop_example_max_8": "three_aircraft_two_layers_each_plus_one_ship_plus_one_fire",
+    "ambient_beds_global_not_per_unit": true,
+    "prerecorded_combat_ambient_allowed": false
+  },
+  "performance_budgets": {
+    "status": "planned_unmeasured",
+    "existing_implementation_caps": {
+      "one_shots": 8,
+      "loop_voices": 4,
+      "ambient_voices": 0,
+      "total": 12
+    },
+    "first_integration_candidate": {
+      "one_shots": 8,
+      "loop_voices": 4,
+      "ambient_voices": 1,
+      "total": 13
+    },
+    "post_audition_candidate_caps": {
+      "one_shots": 12,
+      "loop_voices": 8,
+      "ambient_voices": 2,
+      "total": 22,
+      "max_polyphony_each": 1
+    },
+    "future_large_force_uses_same_candidate_caps": true,
+    "P0_download_increment_limit_MiB_candidate": 8,
+    "audio_resource_resident_limit_MiB_candidate": 32,
+    "warm_WASM_increment_limit_MiB_candidate": 48,
+    "scheduler_p95_frame_ms_candidate_4_ships_8_aircraft": 0.5,
+    "scheduler_p95_frame_ms_candidate_large_force": 1,
+    "near_event_av_latency_p95_ms_candidate": 150,
+    "overall_render_goal_FPS": 30,
+    "framebuffer": [
+      1280,
+      720
+    ],
+    "candidate_failing_policy": "measure_optimize_shared_resources_tail_length_selection_not_real_firing_or_engine_version",
+    "web_sample_source_created_expected": 0,
+    "no_memory_leak_evidence": "time_series_platform_after_warmup_and_three_restarts_not_WASM_alone",
+    "framebuffer_scope": "current_Showcase_only_not_full_G6",
+    "future_G6_separate_framebuffer_goal": [
+      1440,
+      900
+    ],
+    "future_G6_peak_aircraft_simultaneously_airborne": 200
+  },
+  "source_record_required_fields": [
+    "authoring_method",
+    "generator_path",
+    "generator_sha256",
+    "recipe_path",
+    "recipe_sha256",
+    "seed",
+    "DSP_parameters",
+    "source_WAV_sha256",
+    "master_WAV_sha256",
+    "runtime_sha256",
+    "format",
+    "duration",
+    "sample_rate",
+    "channels",
+    "loop_samples",
+    "peak_DC_seam_checks",
+    "cost_zero",
+    "accounts_zero",
+    "listening_status",
+    "integration_status"
+  ],
+  "planned_directories": {
+    "originals": "assets/audio/au01/source/",
+    "masters": "assets/audio/au01/masters/",
+    "runtime": "assets/audio/au01/runtime/",
+    "implemented_manifest": "docs/audio/au01-asset-manifest.json",
+    "evidence": "docs/audio/au01/preview/"
+  },
+  "tasks": [
+    {
+      "id": "AU01",
+      "status": "files_and_auto_checks_complete_pending_review",
+      "role": "zero_cost_no_account_original_17_file_pilot",
+      "dependencies": [
+        "explicit_dispatch_received_2026-11-10"
+      ],
+      "owns": [
+        "assets/audio/au01",
+        "tools/audio",
+        "AU01_audio_docs_only"
+      ],
+      "done_when": "17_real_files_4_mixes_rebuild_format_peak_loop_size_hash_evidence_hearing_marked_pending_if_unavailable"
+    },
+    {
+      "id": "AU02",
+      "status": "planned",
+      "role": "bounded_audio_consumer_and_bridge",
+      "dependencies": [
+        "AU01_direction_accepted",
+        "current_S04_snapshot_fields_rechecked",
+        "single_shared_file_owner_assigned"
+      ],
+      "owns": [
+        "audio_controller",
+        "combat_effects_audio_bridge",
+        "bus_layout",
+        "first_playable_audio_lifecycle"
+      ],
+      "done_when": "event_dedupe_pool_power_pause_reset_and_simulation_invariance_checks_pass"
+    },
+    {
+      "id": "AU03",
+      "status": "planned",
+      "role": "remaining_19_P0_files_and_scene_mix",
+      "dependencies": [
+        "AU01_direction_accepted",
+        "AU02_interface_stable",
+        "S04_final_motion_for_dogfight",
+        "S10_ground_contract_for_shore_scene_only"
+      ],
+      "owns": [
+        "audio_assets_manifest_mix_presets"
+      ],
+      "done_when": "36_P0_files_licensed_auditioned_three_distances_and_real_contexts_frozen"
+    },
+    {
+      "id": "AU04",
+      "status": "planned",
+      "role": "Chrome_acceptance_in_existing_S08_chat",
+      "dependencies": [
+        "AU02_native_checks",
+        "AU03_mix_freeze",
+        "latest_S04_S09_S10_integrated"
+      ],
+      "done_when": "actual_audible_10_minutes_three_restarts_controls_performance_memory_and_cleanup_evidence_reviewed"
+    },
+    {
+      "id": "AU05",
+      "status": "planned",
+      "role": "optional_P1_only_if_needed",
+      "dependencies": [
+        "P0_passed",
+        "separate_future_dispatch"
+      ],
+      "done_when": "specific_measured_need_met_no_automatic_scope_expansion"
+    }
+  ],
+  "acceptance_plan": {
+    "status": "planned_not_run",
+    "browser": "Chrome_only",
+    "device": "Apple_M5_16GB",
+    "audible_visible_battle_wall_minutes_min": 10,
+    "continuous_audible_battle_wall_minutes_min": 5,
+    "restarts_min": 3,
+    "paused_hidden_wait_time_counts": false,
+    "actual_output_capture_seconds": [
+      30,
+      60
+    ],
+    "required_contexts": [
+      "salvo",
+      "aa_screen",
+      "dogfight",
+      "harbor_shore_after_S10"
+    ],
+    "required_controls": [
+      "sound_enable",
+      "mute",
+      "pause_resume_with_sound_on",
+      "pause_resume_muted",
+      "enable_while_paused",
+      "0.5x",
+      "1x",
+      "2x",
+      "4x",
+      "camera_cut",
+      "free_follow_auto",
+      "sound_button_focus_space",
+      "finish_report",
+      "hidden_return",
+      "restart_three_times"
+    ],
+    "raw_metrics": [
+      "audio_allocated_active_virtualized",
+      "grouped_culled_stolen",
+      "queue_and_cache_lengths",
+      "scheduler_time",
+      "audio_sources_created",
+      "AudioContext_worklet",
+      "WASM_capacity",
+      "JS_heap",
+      "renderer_physical_memory",
+      "rAF_frame_time",
+      "simulation_backlog",
+      "real_unit_weapon_projectile_load",
+      "actual_audio_peak_and_AV_latency"
+    ],
+    "same_seed_world_invariance": true,
+    "latest_build_required": true,
+    "old_S08_audio_sample_is_final_acceptance": false,
+    "large_force_requires_separate_evidence": true,
+    "cleanup": "owned_Godot_browser_tabs_process_groups_HTTP_services_timeout_finally_no_global_kill"
+  },
+  "deferred": [
+    "per_equipment_historical_recording",
+    "projectile_whiz_and_sonic_crack",
+    "detailed_acoustics_and_ship_interiors",
+    "carrier_takeoff_landing_deck_ops",
+    "torpedo_and_bomb_family",
+    "music",
+    "radio_and_voice"
+  ],
+  "coordination": {
+    "no_child_threads_or_agents": true,
+    "max_execution_chats": 2,
+    "max_Godot_processes": 1,
+    "S04_flight_owner_unchanged": true,
+    "S09_frozen_map_unchanged": true,
+    "S10_not_blocked_by_plan": true,
+    "S08_can_accept_current_placeholder_scope_before_future_audio_dispatch": true,
+    "planning_complete_does_not_start_production": true
+  },
+  "revision": "AU01_zero_cost_no_account",
+  "representative_generation_authorized": true,
+  "implementation_authorization_scope": "AU02_runtime_integration_and_full_P0_not_authorized_by_AU01",
+  "au01_production": {
+    "status": "files_and_auto_checks_complete_hearing_pending",
+    "manifest": "docs/audio/au01-asset-manifest.json",
+    "delivery": "docs/audio/AU01-delivery.md",
+    "scope": "17_representatives_4_offline_audition_mixes",
+    "human_hearing": "pending",
+    "runtime_integration": false,
+    "auto_check_count": 674,
+    "check_report": "docs/audio/au01-checks.json"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "live-ship": {
+    "name": "live-ship",
+    "gen": 1,
+    "t": 61.3,
+    "camera": {
+      "distance_m": 177.873663330078,
+      "focus": "(3917.689, 10.0, 165.5691)",
+      "id": "us_dd",
+      "label": "主炮射击",
+      "mode": "auto",
+      "pitch": 0.32,
+      "position": "(4010.666, 65.9531, 306.5074)",
+      "shot": 9,
+      "yaw": 0.583162212371826
+    },
+    "fx": {
+      "burst": 121,
+      "fire": 2,
+      "foam": 9,
+      "impact_smoke": 16,
+      "mist": 8,
+      "muzzle_smoke": 48,
+      "shell": 14,
+      "smoke": 12,
+      "tracer": 30,
+      "water": 15
+    },
+    "match": {
+      "key": "ship",
+      "dist": 175.68887623450846,
+      "x": 599.7772603885588,
+      "y": 368.0170220564634,
+      "e": {
+        "gen": 1,
+        "t": 59.0666666666667,
+        "seq": 2551,
+        "id": "jp_bb",
+        "kind": "hit",
+        "target": "us_dd",
+        "weapon": "jp_bb/secondary_01",
+        "p": "projectile_00000771",
+        "point": [
+          3911.96801757812,
+          9.10764026641846,
+          172.739379882812
+        ],
+        "surface": "ship"
+      },
+      "age": 2.2333333333332988
+    }
+  },
+  "live-flak": {
+    "name": "live-flak",
+    "gen": 1,
+    "t": 82.6333333333333,
+    "camera": {
+      "distance_m": 42,
+      "focus": "(1014.899, 2480.153, 2124.339)",
+      "id": "us_air_3",
+      "label": "战斗机狗斗",
+      "mode": "auto",
+      "pitch": 0.18,
+      "position": "(1227.723, 2583.349, 2515.815)",
+      "shot": 12,
+      "yaw": 0.405791246891022
+    },
+    "fx": {
+      "burst": 135,
+      "fire": 1,
+      "foam": 4,
+      "impact_dust": 1,
+      "impact_smoke": 3,
+      "mist": 4,
+      "muzzle_smoke": 40,
+      "shell": 6,
+      "smoke": 132,
+      "tracer": 45,
+      "water": 6
+    },
+    "match": {
+      "key": "flak",
+      "dist": 275.4268875433602,
+      "x": 643.266409254801,
+      "y": 255.69196051754176,
+      "e": {
+        "gen": 1,
+        "t": 80.2,
+        "seq": 3108,
+        "id": "us_bb",
+        "kind": "airburst",
+        "target": "",
+        "weapon": "us_bb/secondary_05_port",
+        "p": "projectile_00000931",
+        "point": [
+          1097.79064941406,
+          2556.02880859375,
+          2274.50366210938
+        ],
+        "reason": "time_fuze"
+      },
+      "age": 2.4333333333332945
+    }
+  }
+}

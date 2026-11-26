@@ -1,0 +1,81 @@
+{
+	"failures": [],
+	"frames": [],
+	"scope": "Native, 1280x720; simulation and models unchanged",
+	"source_hashes_end": {
+		"res://assets/ocean.gdshader": "a8c97811df31e994100325eb1bdb706198e2b56771f88fa5f9e91b41d2798b4c",
+		"res://data/maps/island_harbor.json": "6327c444e480e19be73bdbe75cc0b90e31f974c5ec2fcf765a5926d7a70f6678",
+		"res://data/scenarios/first_playable.json": "9d54380fcc11038a662617809b1c8705b6ec27d8cd3f0f872db7e410a79bff03",
+		"res://data/scenarios/island_harbor.json": "cf085a3498863dce1f38bcfa62af7fa275328f34285e1d3cb272ff4f6026efac",
+		"res://project.godot": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+		"res://scripts/behaviors/aircraft/air_combat_tactics.gd": "a5293e6970553f42f38fc29c9bb466681e1ab3c4f4b6dc8a0b4a8204df9066c6",
+		"res://scripts/game/first_playable.gd": "a3d9256ce720be66055aa0b08817040044cceca97c5bb70bb83a8f3dc28f4913",
+		"res://scripts/game/first_playable_session.gd": "c21f8b4539e2e106bbb7ab4fdd31fe478dc3d4ffb64a6ba2646849b1ea597d90",
+		"res://scripts/presentation/cameras/observer_camera.gd": "a55b7a1d59569e260569f211b7faf9232b3ef43f51f9855e4ffc8204d3fbdbd0",
+		"res://scripts/presentation/environment/cloud_noise.png": "079bb589937ee3a782291a5a04da3e1de1f2fc6243d3d5aa06952c88ef759d3b",
+		"res://scripts/presentation/environment/cloud_sea_environment.gd": "d212d4a96df19a6e8e633a42939da889297f4038c0ec8aee2336d4e17ecbab3a",
+		"res://scripts/presentation/environment/daylight_sky.gdshader": "e42865c895ca22b54faf287eb46d51c7b0b504fb031eaa2fe4d19d6082ec1f72",
+		"res://scripts/presentation/environment/wave_slopes.png": "f9c05b87b0926d1d92c8ac350257e1ffd31ea92a852894eb149f8f6802a04b23",
+		"res://scripts/presentation/maps/island_harbor_view.gd": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+		"res://scripts/presentation/maps/shore.gdshader": "f65ee9c017ef31542b56d24c03a64c4d6d0bd8399ea2790be48b3c791fc2758b",
+		"res://scripts/presentation/ocean.gdshader": "c3e7c1e1bccac312f05b2120e2ef2e4e7b5a9a3954920353dab05ea0a94bf8dc",
+		"res://scripts/simulation/aircraft_motion/aircraft_motion.gd": "508b68e5bdcea8d074c729025d062bb68fa547b81da8cedfac995090aa7b7bb4",
+		"res://scripts/simulation/ship_motion/ship_motion.gd": "5b9ed105f77ed688e2548bb28353b3a314b3fdc1df2f4b4b9431028369d796ff",
+		"res://ui/observer_hud.gd": "ff8f66a3db53ee4a923d2394bfa39e7d3e454b156cd5f7f4fbadc14632723399",
+		"res://ui/observer_map.gd": "eb8151dbacd120fd97f11aecf4b544de8e67c82a6dbd09a48883543ce3c7ba7a"
+	},
+	"source_hashes_start": {
+		"res://assets/ocean.gdshader": "a8c97811df31e994100325eb1bdb706198e2b56771f88fa5f9e91b41d2798b4c",
+		"res://data/maps/island_harbor.json": "6327c444e480e19be73bdbe75cc0b90e31f974c5ec2fcf765a5926d7a70f6678",
+		"res://data/scenarios/first_playable.json": "9d54380fcc11038a662617809b1c8705b6ec27d8cd3f0f872db7e410a79bff03",
+		"res://data/scenarios/island_harbor.json": "cf085a3498863dce1f38bcfa62af7fa275328f34285e1d3cb272ff4f6026efac",
+		"res://project.godot": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+		"res://scripts/behaviors/aircraft/air_combat_tactics.gd": "a5293e6970553f42f38fc29c9bb466681e1ab3c4f4b6dc8a0b4a8204df9066c6",
+		"res://scripts/game/first_playable.gd": "a3d9256ce720be66055aa0b08817040044cceca97c5bb70bb83a8f3dc28f4913",
+		"res://scripts/game/first_playable_session.gd": "c21f8b4539e2e106bbb7ab4fdd31fe478dc3d4ffb64a6ba2646849b1ea597d90",
+		"res://scripts/presentation/cameras/observer_camera.gd": "a55b7a1d59569e260569f211b7faf9232b3ef43f51f9855e4ffc8204d3fbdbd0",
+		"res://scripts/presentation/environment/cloud_noise.png": "079bb589937ee3a782291a5a04da3e1de1f2fc6243d3d5aa06952c88ef759d3b",
+		"res://scripts/presentation/environment/cloud_sea_environment.gd": "d212d4a96df19a6e8e633a42939da889297f4038c0ec8aee2336d4e17ecbab3a",
+		"res://scripts/presentation/environment/daylight_sky.gdshader": "e42865c895ca22b54faf287eb46d51c7b0b504fb031eaa2fe4d19d6082ec1f72",
+		"res://scripts/presentation/environment/wave_slopes.png": "f9c05b87b0926d1d92c8ac350257e1ffd31ea92a852894eb149f8f6802a04b23",
+		"res://scripts/presentation/maps/island_harbor_view.gd": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+		"res://scripts/presentation/maps/shore.gdshader": "f65ee9c017ef31542b56d24c03a64c4d6d0bd8399ea2790be48b3c791fc2758b",
+		"res://scripts/presentation/ocean.gdshader": "c3e7c1e1bccac312f05b2120e2ef2e4e7b5a9a3954920353dab05ea0a94bf8dc",
+		"res://scripts/simulation/aircraft_motion/aircraft_motion.gd": "508b68e5bdcea8d074c729025d062bb68fa547b81da8cedfac995090aa7b7bb4",
+		"res://scripts/simulation/ship_motion/ship_motion.gd": "5b9ed105f77ed688e2548bb28353b3a314b3fdc1df2f4b4b9431028369d796ff",
+		"res://ui/observer_hud.gd": "ff8f66a3db53ee4a923d2394bfa39e7d3e454b156cd5f7f4fbadc14632723399",
+		"res://ui/observer_map.gd": "eb8151dbacd120fd97f11aecf4b544de8e67c82a6dbd09a48883543ce3c7ba7a"
+	},
+	"views": [
+		{
+			"basis": "[X: (0.503871, 0.0, -0.863779), Y: (-0.070233, 0.996689, -0.040969), Z: (0.860919, 0.081309, 0.502203)]",
+			"camera": [
+				-3640.01977539062,
+				46.0,
+				190.000076293945
+			],
+			"name": "ship_low",
+			"time_s": 2.0
+		},
+		{
+			"basis": "[X: (0.657534, 0.0, -0.753425), Y: (-0.199081, 0.964458, -0.173744), Z: (0.726647, 0.264235, 0.634164)]",
+			"camera": [
+				1658.45751953125,
+				949.687438964844,
+				-52.0128860473633
+			],
+			"name": "air_high",
+			"time_s": 2.0
+		},
+		{
+			"basis": "[X: (0.960824, 0.0, -0.277161), Y: (-0.020429, 0.99728, -0.070821), Z: (0.276407, 0.073708, 0.95821)]",
+			"camera": [
+				15000.0,
+				5800.0,
+				12000.0
+			],
+			"name": "far_edge",
+			"time_s": 2.0
+		}
+	]
+}

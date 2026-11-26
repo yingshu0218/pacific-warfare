@@ -1,0 +1,17 @@
+--- S14_R8/ui/observer_hud.gd
++++ combined/ui/observer_hud.gd
+@@ -186,11 +186,12 @@
+ 	clear_rows(timeline_rows)
+ 	report_panel.hide()
+ 	selector.clear()
++	_selected_unit = "jp_bb" if session.units.has("jp_bb") else str(session.world.unit_ids()[0])
+ 	for id: String in session.world.unit_ids():
+ 		selector.add_item(names.get(id, "作战单位"))
+ 		selector.set_item_metadata(selector.item_count - 1, id)
+-		if id == "jp_bb": selector.select(selector.item_count - 1)
+-	_selected_unit = "jp_bb"
++		if id == _selected_unit: selector.select(selector.item_count - 1)
++	unit_detail.text = ""
+ 	detail.text = "选择一条指令查看各成员执行进度。"
+ 	refresh(session, "自动电影", "")
+ 

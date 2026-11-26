@@ -1,0 +1,1598 @@
+{
+	"camera_offset_m": [
+		-55.0,
+		24.0,
+		48.0
+	],
+	"case": "current",
+	"follow": "us_air_4",
+	"fps": 15,
+	"samples": [
+		{
+			"flight": {
+				"aileron_rad": -0.000100924197606884,
+				"bank_rad": 1.22171730623618,
+				"distance_m": 14380.6199617982,
+				"elevator_rad": -0.0127802669758842,
+				"energy_height_m": 1955.53395167243,
+				"exited": false,
+				"forward_m": "(-0.58306, -0.563272, -0.585462)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 131.299822567204,
+				"fuel_used_kg": 33.7001774328199,
+				"height_agl_m": 693.667053222656,
+				"kinetic_margin_m": 1036.21483814243,
+				"lift_up_m": "(0.529875, 0.282612, -0.799602)",
+				"load_factor": 0.0197398370602055,
+				"load_limit": 5.5,
+				"path_pitch_rad": -0.598340917592307,
+				"path_turn_rate_radps": 0.0511328908754419,
+				"propeller_phase_rad": 5.27966092411025,
+				"safety_state": "normal",
+				"speed_mps": 157.319337779451,
+				"stall_margin": 3.4321858985729,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 99.5359122863348,
+				"terrain_lookahead_s": 6.73095649199902,
+				"throttle": 0.0,
+				"turn_rate_radps": -0.0511328908754419,
+				"vertical_speed_mps": -88.613639831543
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5063.4638671875,
+				693.667053222656,
+				-1307.98754882812
+			],
+			"rotation_rad": [
+				-0.598340928554535,
+				0.783342897891998,
+				-1.2217173576355
+			],
+			"task": {
+				"distance_m": 387.469055175781,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "wingman_station",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "wingman_station",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 152.066666666667,
+			"velocity_mps": [
+				-91.7266082763672,
+				-88.613639831543,
+				-92.1044311523438
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.0003452390924477,
+				"bank_rad": 1.2217795655103,
+				"distance_m": 14538.7996504903,
+				"elevator_rad": -0.0126373127261648,
+				"energy_height_m": 1891.70990403972,
+				"exited": false,
+				"forward_m": "(-0.563084, -0.604533, -0.563451)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 131.266572567204,
+				"fuel_used_kg": 33.73342743282,
+				"height_agl_m": 601.2734375,
+				"kinetic_margin_m": 1067.12953793814,
+				"lift_up_m": "(0.518555, 0.27241, -0.81049)",
+				"load_factor": -0.0669860802051311,
+				"load_limit": 5.5,
+				"path_pitch_rad": -0.649179041919285,
+				"path_turn_rate_radps": 0.0507002726467935,
+				"propeller_phase_rad": 4.43010500257149,
+				"safety_state": "normal",
+				"speed_mps": 159.090281127363,
+				"stall_margin": 3.48971112208905,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": -47.4768052363441,
+				"terrain_lookahead_s": 6.77103193386876,
+				"throttle": 0.0,
+				"turn_rate_radps": 0.0507002726467935,
+				"vertical_speed_mps": -96.1752700805664
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5154.080078125,
+				601.2734375,
+				-1398.91418457031
+			],
+			"rotation_rad": [
+				-0.649179041385651,
+				0.785073041915894,
+				-1.22177958488464
+			],
+			"task": {
+				"distance_m": 424.585296630859,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "wingman_station",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "wingman_station",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 153.066666666667,
+			"velocity_mps": [
+				-89.5812301635742,
+				-96.1752700805664,
+				-89.6395034790039
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.000706264030949876,
+				"bank_rad": 1.13456326901187,
+				"distance_m": 14698.8947623372,
+				"elevator_rad": -0.0124770729753315,
+				"energy_height_m": 1825.2827896527,
+				"exited": false,
+				"forward_m": "(-0.544966, -0.643764, -0.537197)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 131.233322567205,
+				"fuel_used_kg": 33.76667743282,
+				"height_agl_m": 501.315887451172,
+				"kinetic_margin_m": 1103.18224252433,
+				"lift_up_m": "(0.442554, 0.323329, -0.836424)",
+				"load_factor": -0.128344399063747,
+				"load_limit": 5.5,
+				"path_pitch_rad": -0.699407026603888,
+				"path_turn_rate_radps": 0.0504075620359213,
+				"propeller_phase_rad": 3.58054908103272,
+				"safety_state": "normal",
+				"speed_mps": 161.143910970751,
+				"stall_margin": 3.55557706737086,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": -194.702830200817,
+				"terrain_lookahead_s": 6.73418267662402,
+				"throttle": 0.0,
+				"turn_rate_radps": 0.0504075620359213,
+				"vertical_speed_mps": -103.738655090332
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5242.7666015625,
+				501.315887451172,
+				-1487.05139160156
+			],
+			"rotation_rad": [
+				-0.69940710067749,
+				0.792577266693115,
+				-1.13456320762634
+			],
+			"task": {
+				"distance_m": 524.984191894531,
+				"maneuver_phase": "track",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 154.066666666667,
+			"velocity_mps": [
+				-87.8179092407227,
+				-103.738655090332,
+				-86.5659713745117
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.125663706143592,
+				"bank_rad": 0.639695557771127,
+				"distance_m": 14861.1547241807,
+				"elevator_rad": 0.0192081333916078,
+				"energy_height_m": 1753.88454841288,
+				"exited": false,
+				"forward_m": "(-0.519418, -0.659249, -0.543687)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 131.200072567205,
+				"fuel_used_kg": 33.79992743282,
+				"height_agl_m": 394.344970703125,
+				"kinetic_margin_m": 1141.71360292057,
+				"lift_up_m": "(0.066275, 0.603252, -0.794792)",
+				"load_factor": 2.53195784874614,
+				"load_limit": 5.5,
+				"path_pitch_rad": -0.719819653129621,
+				"path_turn_rate_radps": 0.119011001600323,
+				"propeller_phase_rad": 2.73099315949396,
+				"safety_state": "low_altitude_recovery",
+				"speed_mps": 163.294389369307,
+				"stall_margin": 2.27861136217653,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": -286.038359134652,
+				"terrain_lookahead_s": 6.32857923396128,
+				"throttle": 0.0,
+				"turn_rate_radps": -0.119011001600323,
+				"vertical_speed_mps": -107.651679992676
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5329.47802734375,
+				394.344970703125,
+				-1572.85717773438
+			],
+			"rotation_rad": [
+				-0.719819724559784,
+				0.762574076652527,
+				-0.639695465564728
+			],
+			"task": {
+				"distance_m": 666.993957519531,
+				"maneuver_phase": "track",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 155.066666666667,
+			"velocity_mps": [
+				-84.8180847167969,
+				-107.651679992676,
+				-88.7810134887695
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.125663706143592,
+				"bank_rad": 0.261051091765633,
+				"distance_m": 15024.5840619206,
+				"elevator_rad": 0.0502374028811514,
+				"energy_height_m": 1650.96746535754,
+				"exited": false,
+				"forward_m": "(-0.516077, -0.534781, -0.669084)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 131.166822567205,
+				"fuel_used_kg": 33.8331774328201,
+				"height_agl_m": 295.323303222656,
+				"kinetic_margin_m": 1141.19596307297,
+				"lift_up_m": "(-0.111184, 0.816362, -0.566738)",
+				"load_factor": 4.33195784874614,
+				"load_limit": 5.5,
+				"path_pitch_rad": -0.564248700253091,
+				"path_turn_rate_radps": 0.211934713495397,
+				"propeller_phase_rad": 1.8814372379552,
+				"safety_state": "low_altitude_recovery",
+				"speed_mps": 163.060282243102,
+				"stall_margin": 1.74973236875987,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": -225.975461867457,
+				"terrain_lookahead_s": 5.96226538905583,
+				"throttle": 0.0,
+				"turn_rate_radps": -0.211934713495397,
+				"vertical_speed_mps": -87.2015686035156
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5413.51953125,
+				295.323303222656,
+				-1671.69567871094
+			],
+			"rotation_rad": [
+				-0.564248740673065,
+				0.657006025314331,
+				-0.261051148176193
+			],
+			"task": {
+				"distance_m": 839.191772460938,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 156.066666666667,
+			"velocity_mps": [
+				-84.1516799926758,
+				-87.2015686035156,
+				-109.101058959961
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.125663706143592,
+				"bank_rad": 0.16288893147418,
+				"distance_m": 15186.4067879319,
+				"elevator_rad": 0.0570846530115435,
+				"energy_height_m": 1532.10962655129,
+				"exited": false,
+				"forward_m": "(-0.525936, -0.34146, -0.778972)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 131.133572567206,
+				"fuel_used_kg": 33.8664274328201,
+				"height_agl_m": 223.795303344727,
+				"kinetic_margin_m": 1096.32964878961,
+				"lift_up_m": "(-0.054137, 0.927455, -0.369996)",
+				"load_factor": 4.73195784874614,
+				"load_limit": 5.5,
+				"path_pitch_rad": -0.348469807837233,
+				"path_turn_rate_radps": 0.233128609758547,
+				"propeller_phase_rad": 1.03188131641643,
+				"safety_state": "low_altitude_recovery",
+				"speed_mps": 160.188518050912,
+				"stall_margin": 1.65164846584235,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": -96.2119814783891,
+				"terrain_lookahead_s": 5.80395620035195,
+				"throttle": 0.0,
+				"turn_rate_radps": -0.233128609758547,
+				"vertical_speed_mps": -54.6979751586914
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5497.94873046875,
+				223.795303344727,
+				-1789.3115234375
+			],
+			"rotation_rad": [
+				-0.348469823598862,
+				0.593864023685455,
+				-0.162888944149017
+			],
+			"task": {
+				"distance_m": 1025.47485351562,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 157.066666666667,
+			"velocity_mps": [
+				-84.2488479614258,
+				-54.6979751586914,
+				-124.782333374023
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": -0.125663706143592,
+				"bank_rad": 0.186479359796862,
+				"distance_m": 15344.2174099088,
+				"elevator_rad": 0.0546938632747036,
+				"energy_height_m": 1413.51387426422,
+				"exited": false,
+				"forward_m": "(-0.514813, -0.120549, -0.848785)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 131.100322567206,
+				"fuel_used_kg": 33.8996774328202,
+				"height_agl_m": 187.090881347656,
+				"kinetic_margin_m": 1015.81840641,
+				"lift_up_m": "(0.097089, 0.975497, -0.197432)",
+				"load_factor": 4.53195784874614,
+				"load_limit": 5.5,
+				"path_pitch_rad": -0.120842721184021,
+				"path_turn_rate_radps": 0.225134639227378,
+				"propeller_phase_rad": 0.182325394877667,
+				"safety_state": "normal",
+				"speed_mps": 155.094171673118,
+				"stall_margin": 1.63761657910301,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 77.9883189516413,
+				"terrain_lookahead_s": 5.67823169680401,
+				"throttle": 0.0,
+				"turn_rate_radps": -0.225134639227378,
+				"vertical_speed_mps": -18.6964206695557
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5580.48779296875,
+				187.090881347656,
+				-1918.27648925781
+			],
+			"rotation_rad": [
+				-0.120842725038528,
+				0.545206725597382,
+				-0.186479359865189
+			],
+			"task": {
+				"distance_m": 1213.44384765625,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 158.066666666667,
+			"velocity_mps": [
+				-79.8444900512695,
+				-18.6964206695557,
+				-131.641586303711
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.125663706143592,
+				"bank_rad": 0.359083336388681,
+				"distance_m": 15496.444090426,
+				"elevator_rad": 0.03940258084731,
+				"energy_height_m": 1320.06742184432,
+				"exited": false,
+				"forward_m": "(-0.442784, 0.03691, -0.895868)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 131.067072567207,
+				"fuel_used_kg": 33.9329274328202,
+				"height_agl_m": 181.964050292969,
+				"kinetic_margin_m": 927.634332425224,
+				"lift_up_m": "(0.330349, 0.935581, -0.124729)",
+				"load_factor": 3.63313136138571,
+				"load_limit": 5.5,
+				"path_pitch_rad": 0.0369187255934669,
+				"path_turn_rate_radps": 0.178487689019995,
+				"propeller_phase_rad": 5.61595478051849,
+				"safety_state": "terrain_recovery",
+				"speed_mps": 149.405364218452,
+				"stall_margin": 1.76248991932348,
+				"stalled": false,
+				"terrain_ahead_m": 5.30721872378194,
+				"terrain_clearance_m": 176.568162745945,
+				"terrain_lookahead_s": 5.74740858521247,
+				"throttle": 0.0,
+				"turn_rate_radps": -0.178487689019995,
+				"vertical_speed_mps": 5.51460266113281
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5654.50927734375,
+				181.964050292969,
+				-2050.9794921875
+			],
+			"rotation_rad": [
+				0.0369187258183956,
+				0.459037989377975,
+				-0.359083324670792
+			],
+			"task": {
+				"distance_m": 1393.88317871094,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 159.066666666667,
+			"velocity_mps": [
+				-66.154296875,
+				5.51460266113281,
+				-133.847534179688
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.125663706143592,
+				"bank_rad": -0.0237016588073369,
+				"distance_m": 15642.7867229581,
+				"elevator_rad": 0.0364898225331758,
+				"energy_height_m": 1246.44573717233,
+				"exited": false,
+				"forward_m": "(-0.420639, 0.184732, -0.888221)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 131.015621276292,
+				"fuel_used_kg": 33.9843787237347,
+				"height_agl_m": 198.359313964844,
+				"kinetic_margin_m": 836.973285453921,
+				"lift_up_m": "(0.057625, 0.982513, 0.177053)",
+				"load_factor": 3.11873520378622,
+				"load_limit": 5.5,
+				"path_pitch_rad": 0.185799374388912,
+				"path_turn_rate_radps": 0.146046971975837,
+				"propeller_phase_rad": 1.84055118489095,
+				"safety_state": "terrain_recovery",
+				"speed_mps": 143.375149326149,
+				"stall_margin": 1.8237937802501,
+				"stalled": false,
+				"terrain_ahead_m": 18.067828713974,
+				"terrain_clearance_m": 179.852779806534,
+				"terrain_lookahead_s": 5.25691505811842,
+				"throttle": 0.373474325890739,
+				"turn_rate_radps": 0.146046971975837,
+				"vertical_speed_mps": 26.4860095977783
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5717.18603515625,
+				198.359313964844,
+				-2182.04907226562
+			],
+			"rotation_rad": [
+				0.18579937517643,
+				0.442284941673279,
+				0.0237016603350639
+			],
+			"task": {
+				"distance_m": 1564.45056152344,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 160.066666666667,
+			"velocity_mps": [
+				-60.309211730957,
+				26.4860095977783,
+				-127.348831176758
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": -0.125663706143592,
+				"bank_rad": -0.860889131389034,
+				"distance_m": 15783.6321197152,
+				"elevator_rad": 0.0397079523292904,
+				"energy_height_m": 1205.39564404361,
+				"exited": false,
+				"forward_m": "(-0.525166, 0.319826, -0.788614)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 130.791222814336,
+				"fuel_used_kg": 34.208777185691,
+				"height_agl_m": 233.996856689453,
+				"kinetic_margin_m": 759.770752567561,
+				"lift_up_m": "(-0.515719, 0.617531, 0.593878)",
+				"load_factor": 4.88240494755081,
+				"load_limit": 5.5,
+				"path_pitch_rad": 0.325545568005544,
+				"path_turn_rate_radps": 0.307029466960346,
+				"propeller_phase_rad": 2.47515186573001,
+				"safety_state": "normal",
+				"speed_mps": 138.030199000122,
+				"stall_margin": 1.40037843439145,
+				"stalled": false,
+				"terrain_ahead_m": 44.7164818223502,
+				"terrain_clearance_m": 188.54719005265,
+				"terrain_lookahead_s": 5.96786876384401,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.307029466960346,
+				"vertical_speed_mps": 44.1456146240234
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5781.0322265625,
+				233.996856689453,
+				-2302.15405273438
+			],
+			"rotation_rad": [
+				0.325545579195023,
+				0.587496519088745,
+				0.860889077186584
+			],
+			"task": {
+				"distance_m": 1733.50610351562,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 161.066666666667,
+			"velocity_mps": [
+				-72.4888153076172,
+				44.1456146240234,
+				-108.852531433105
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": -0.125663706143592,
+				"bank_rad": 0.144535740874403,
+				"distance_m": 15918.3016663194,
+				"elevator_rad": 0.0551139128000316,
+				"energy_height_m": 1168.5985567531,
+				"exited": false,
+				"forward_m": "(-0.557893, 0.503353, -0.659842)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 130.516222814336,
+				"fuel_used_kg": 34.4837771856912,
+				"height_agl_m": 288.996673583984,
+				"kinetic_margin_m": 666.501225384042,
+				"lift_up_m": "(0.431589, 0.855071, 0.287375)",
+				"load_factor": 3.86006678019078,
+				"load_limit": 5.5,
+				"path_pitch_rad": 0.527474336510274,
+				"path_turn_rate_radps": 0.224311709572473,
+				"propeller_phase_rad": 3.09463102931787,
+				"safety_state": "normal",
+				"speed_mps": 131.346471650977,
+				"stall_margin": 1.49387231072106,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 287.897766113281,
+				"terrain_lookahead_s": 5.1000090331918,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.224311709572473,
+				"vertical_speed_mps": 66.1135864257812
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5857.212890625,
+				288.996673583984,
+				-2398.205078125
+			],
+			"rotation_rad": [
+				0.527474343776703,
+				0.701872706413269,
+				-0.144535779953003
+			],
+			"task": {
+				"distance_m": 1906.34338378906,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 162.066666666667,
+			"velocity_mps": [
+				-73.2772827148438,
+				66.1135864257812,
+				-86.6679229736328
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": -0.0000246582265389352,
+				"bank_rad": 0.694242703420324,
+				"distance_m": 16045.4917507768,
+				"elevator_rad": 0.0489396782691526,
+				"energy_height_m": 1130.99840932514,
+				"exited": false,
+				"forward_m": "(-0.349515, 0.674128, -0.650685)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 130.241222814337,
+				"fuel_used_kg": 34.7587771856913,
+				"height_agl_m": 364.266296386719,
+				"kinetic_margin_m": 552.124074942021,
+				"lift_up_m": "(0.8088, 0.567654, 0.153659)",
+				"load_factor": 4.14557767827713,
+				"load_limit": 5.5,
+				"path_pitch_rad": 0.739783248542145,
+				"path_turn_rate_radps": 0.288164893718318,
+				"propeller_phase_rad": 3.71411019290574,
+				"safety_state": "normal",
+				"speed_mps": 122.63012252581,
+				"stall_margin": 1.33992750101409,
+				"stalled": false,
+				"terrain_ahead_m": 94.0419530851076,
+				"terrain_clearance_m": 268.848122598486,
+				"terrain_lookahead_s": 5.4423141857274,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.288164893718318,
+				"vertical_speed_mps": 82.6683731079102
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5916.5185546875,
+				364.266296386719,
+				-2481.22290039062
+			],
+			"rotation_rad": [
+				0.739783227443695,
+				0.492922931909561,
+				-0.694242656230927
+			],
+			"task": {
+				"distance_m": 2060.1865234375,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 163.066666666667,
+			"velocity_mps": [
+				-42.8610191345215,
+				82.6683731079102,
+				-79.7936019897461
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.0010271104448651,
+				"bank_rad": 0.947669902222811,
+				"distance_m": 16163.2646009326,
+				"elevator_rad": 0.032922648574355,
+				"energy_height_m": 1099.90420687265,
+				"exited": false,
+				"forward_m": "(-0.088769, 0.787399, -0.610018)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 129.966222814337,
+				"fuel_used_kg": 35.0337771856915,
+				"height_agl_m": 450.862487792969,
+				"kinetic_margin_m": 432.160360057562,
+				"lift_up_m": "(0.869764, 0.359742, 0.33778)",
+				"load_factor": 3.64372078719191,
+				"load_limit": 5.5,
+				"path_pitch_rad": 0.906578857186684,
+				"path_turn_rate_radps": 0.288192079497199,
+				"propeller_phase_rad": 4.3335893564936,
+				"safety_state": "normal",
+				"speed_mps": 112.826636699077,
+				"stall_margin": 1.30829649421263,
+				"stalled": false,
+				"terrain_ahead_m": 133.473824137099,
+				"terrain_clearance_m": 315.90819490587,
+				"terrain_lookahead_s": 5.46036714153318,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.288192079497199,
+				"vertical_speed_mps": 88.8396301269531
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5942.73876953125,
+				450.862487792969,
+				-2555.97924804688
+			],
+			"rotation_rad": [
+				0.906578838825226,
+				0.14450491964817,
+				-0.947669923305511
+			],
+			"task": {
+				"distance_m": 2183.24609375,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 164.066666666667,
+			"velocity_mps": [
+				-10.015549659729,
+				88.8396301269531,
+				-68.8262939453125
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.0332795640877512,
+				"bank_rad": 1.13901947625112,
+				"distance_m": 16271.1896577477,
+				"elevator_rad": 0.00789146070042268,
+				"energy_height_m": 1084.37601726569,
+				"exited": false,
+				"forward_m": "(0.154457, 0.834197, -0.529394)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 129.691222814337,
+				"fuel_used_kg": 35.3087771856917,
+				"height_agl_m": 538.92333984375,
+				"kinetic_margin_m": 325.738388706554,
+				"lift_up_m": "(0.774095, 0.23078, 0.589506)",
+				"load_factor": 2.10442338654071,
+				"load_limit": 5.20029239037784,
+				"path_pitch_rad": 0.986675724862198,
+				"path_turn_rate_radps": 0.183526004534431,
+				"propeller_phase_rad": 4.95306852008146,
+				"safety_state": "normal",
+				"speed_mps": 103.431750435152,
+				"stall_margin": 1.57001449358574,
+				"stalled": false,
+				"terrain_ahead_m": 150.178099597279,
+				"terrain_clearance_m": 387.306519543346,
+				"terrain_lookahead_s": 5.6019328313818,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.183526004534431,
+				"vertical_speed_mps": 86.2824859619141
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5938.41845703125,
+				538.92333984375,
+				-2617.65942382812
+			],
+			"rotation_rad": [
+				0.986675679683685,
+				-0.283881992101669,
+				-1.13901948928833
+			],
+			"task": {
+				"distance_m": 2276.58081054688,
+				"maneuver_phase": "track",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 165.066666666667,
+			"velocity_mps": [
+				15.9757595062256,
+				86.2824859619141,
+				-54.7561264038086
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.0132354306261639,
+				"bank_rad": 1.13627465455659,
+				"distance_m": 16371.099991858,
+				"elevator_rad": -0.00562302710551743,
+				"energy_height_m": 1098.41944476706,
+				"exited": false,
+				"forward_m": "(0.262436, 0.834338, -0.484775)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 129.416222814337,
+				"fuel_used_kg": 35.5837771856919,
+				"height_agl_m": 622.518188476562,
+				"kinetic_margin_m": 253.68107572014,
+				"lift_up_m": "(0.63047, 0.232064, 0.740712)",
+				"load_factor": 0.780574426698006,
+				"load_limit": 4.49138621020693,
+				"path_pitch_rad": 0.986931400573182,
+				"path_turn_rate_radps": 0.0751912794701119,
+				"propeller_phase_rad": 5.57254768366932,
+				"safety_state": "normal",
+				"speed_mps": 96.612598091566,
+				"stall_margin": 2.11695741638522,
+				"stalled": false,
+				"terrain_ahead_m": 153.187665306556,
+				"terrain_clearance_m": 462.176269225985,
+				"terrain_lookahead_s": 5.90992498685949,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.0751912794701119,
+				"vertical_speed_mps": 80.6075973510742
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5916.8955078125,
+				622.518188476562,
+				-2667.85571289062
+			],
+			"rotation_rad": [
+				0.986931443214417,
+				-0.496183156967163,
+				-1.13627469539642
+			],
+			"task": {
+				"distance_m": 2352.39111328125,
+				"maneuver_phase": "track",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 166.066666666667,
+			"velocity_mps": [
+				25.3546466827393,
+				80.6075973510742,
+				-46.8353691101074
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.125663706143592,
+				"bank_rad": 0.310970268680481,
+				"distance_m": 16464.5934875607,
+				"elevator_rad": -0.0222092245487088,
+				"energy_height_m": 1116.11708332159,
+				"exited": false,
+				"forward_m": "(0.287835, 0.790808, -0.54016)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 129.141222814338,
+				"fuel_used_kg": 35.858777185692,
+				"height_agl_m": 698.809753417969,
+				"kinetic_margin_m": 192.92029587207,
+				"lift_up_m": "(-0.08402, 0.582708, 0.808327)",
+				"load_factor": -0.219652758076532,
+				"load_limit": 3.90294398836928,
+				"path_pitch_rad": 0.912128186299278,
+				"path_turn_rate_radps": 0.0891358976620336,
+				"propeller_phase_rad": 6.19202684725718,
+				"safety_state": "energy_recovery",
+				"speed_mps": 90.4697399885659,
+				"stall_margin": 1.97346239147931,
+				"stalled": false,
+				"terrain_ahead_m": 148.793094494689,
+				"terrain_clearance_m": 474.450967195098,
+				"terrain_lookahead_s": 5.49512021298889,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.0891358976620336,
+				"vertical_speed_mps": 71.5442047119141
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5891.0029296875,
+				698.809753417969,
+				-2715.2412109375
+			],
+			"rotation_rad": [
+				0.912128150463104,
+				-0.489596784114838,
+				-0.310970276594162
+			],
+			"task": {
+				"distance_m": 2425.1220703125,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 167.066666666667,
+			"velocity_mps": [
+				26.0403995513916,
+				71.5442047119141,
+				-48.8681716918945
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": -0.125663706143592,
+				"bank_rad": 0.130522578735513,
+				"distance_m": 16552.2573763728,
+				"elevator_rad": -0.0236455655975548,
+				"energy_height_m": 1133.79185550886,
+				"exited": false,
+				"forward_m": "(0.316046, 0.731396, -0.604297)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 128.866222814338,
+				"fuel_used_kg": 36.1337771856922,
+				"height_agl_m": 757.378002962213,
+				"kinetic_margin_m": 141.834132710985,
+				"lift_up_m": "(-0.220745, 0.676152, 0.702915)",
+				"load_factor": -0.140395849432647,
+				"load_limit": 3.41578886954539,
+				"path_pitch_rad": 0.820366901753332,
+				"path_turn_rate_radps": 0.0946084880661633,
+				"propeller_phase_rad": 0.528320703665457,
+				"safety_state": "energy_recovery",
+				"speed_mps": 84.9754489623603,
+				"stall_margin": 1.84632387347236,
+				"stalled": false,
+				"terrain_ahead_m": 159.346134808868,
+				"terrain_clearance_m": 532.813379752863,
+				"terrain_lookahead_s": 5.69848034939479,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.0946084880661633,
+				"vertical_speed_mps": 62.1507110595703
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5864.5625,
+				765.632141113281,
+				-2765.392578125
+			],
+			"rotation_rad": [
+				0.820366859436035,
+				-0.481876075267792,
+				-0.130522578954697
+			],
+			"task": {
+				"distance_m": 2499.80883789062,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 168.066666666667,
+			"velocity_mps": [
+				26.8561420440674,
+				62.1507110595703,
+				-51.3504028320312
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": -0.125663706143592,
+				"bank_rad": 0.337412287551415,
+				"distance_m": 16634.7957081199,
+				"elevator_rad": -0.0250441792986966,
+				"energy_height_m": 1151.44942761894,
+				"exited": false,
+				"forward_m": "(0.345087, 0.661572, -0.665761)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 128.591222814338,
+				"fuel_used_kg": 36.4087771856924,
+				"height_agl_m": 784.739538734678,
+				"kinetic_margin_m": 100.205882192076,
+				"lift_up_m": "(0.006628, 0.707599, 0.706583)",
+				"load_factor": -0.0754811850495939,
+				"load_limit": 3.02405798537603,
+				"path_pitch_rad": 0.722913332746365,
+				"path_turn_rate_radps": 0.100224986632281,
+				"propeller_phase_rad": 1.14779986725332,
+				"safety_state": "energy_recovery",
+				"speed_mps": 80.2351218503167,
+				"stall_margin": 1.73741635865819,
+				"stalled": false,
+				"terrain_ahead_m": 172.34702732079,
+				"terrain_clearance_m": 573.762689725268,
+				"terrain_lookahead_s": 6.35145233503142,
+				"throttle": 1.0,
+				"turn_rate_radps": 0.100224986632281,
+				"vertical_speed_mps": 53.0813217163086
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5837.26953125,
+				823.219360351562,
+				-2817.79565429688
+			],
+			"rotation_rad": [
+				0.722913384437561,
+				-0.478208303451538,
+				-0.337412267923355
+			],
+			"task": {
+				"distance_m": 2575.28686523438,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 169.066666666667,
+			"velocity_mps": [
+				27.6881313323975,
+				53.0813217163086,
+				-53.4173774719238
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.125663706143592,
+				"bank_rad": 0.37329595605875,
+				"distance_m": 16713.0108801723,
+				"elevator_rad": -0.0253480262737188,
+				"energy_height_m": 1169.09643005466,
+				"exited": false,
+				"forward_m": "(0.373435, 0.588258, -0.717286)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 128.316222814338,
+				"fuel_used_kg": 36.6837771856926,
+				"height_agl_m": 792.721588133579,
+				"kinetic_margin_m": 67.6429247389479,
+				"lift_up_m": "(0.070532, 0.75298, 0.654252)",
+				"load_factor": 0.0194460950396014,
+				"load_limit": 2.72102006950112,
+				"path_pitch_rad": 0.628903234506725,
+				"path_turn_rate_radps": 0.101395871761394,
+				"propeller_phase_rad": 1.76727903084118,
+				"safety_state": "energy_recovery",
+				"speed_mps": 76.338345520707,
+				"stall_margin": 1.64828807641455,
+				"stalled": false,
+				"terrain_ahead_m": 180.981276273925,
+				"terrain_clearance_m": 611.472508683343,
+				"terrain_lookahead_s": 6.8996938348853,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.101395871761394,
+				"vertical_speed_mps": 44.9066581726074
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5809.2001953125,
+				871.974426269531,
+				-2872.0888671875
+			],
+			"rotation_rad": [
+				0.628903269767761,
+				-0.480008572340012,
+				-0.373295962810516
+			],
+			"task": {
+				"distance_m": 2650.99633789062,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 170.066666666667,
+			"velocity_mps": [
+				28.5073776245117,
+				44.9066581726074,
+				-54.7564125061035
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": -0.125663706143592,
+				"bank_rad": 0.62901511259342,
+				"distance_m": 16787.6939327121,
+				"elevator_rad": -0.0141811361549005,
+				"energy_height_m": 1186.75163031921,
+				"exited": false,
+				"forward_m": "(0.417026, 0.541341, -0.730095)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 128.041222814339,
+				"fuel_used_kg": 36.9587771856927,
+				"height_agl_m": 817.215333940706,
+				"kinetic_margin_m": 41.8835793763935,
+				"lift_up_m": "(0.293772, 0.679879, 0.671909)",
+				"load_factor": 0.515865938092638,
+				"load_limit": 2.48357949939535,
+				"path_pitch_rad": 0.572031513521238,
+				"path_turn_rate_radps": 0.0697892691162626,
+				"propeller_phase_rad": 2.38675819442904,
+				"safety_state": "normal",
+				"speed_mps": 73.120123315368,
+				"stall_margin": 1.574880036481,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 913.492919921875,
+				"terrain_lookahead_s": 7.61275911808287,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.0697892691162626,
+				"vertical_speed_mps": 39.5829429626465
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5779.80126953125,
+				914.1533203125,
+				-2926.23852539062
+			],
+			"rotation_rad": [
+				0.572031557559967,
+				-0.518969833850861,
+				-0.629015147686005
+			],
+			"task": {
+				"distance_m": 2725.47534179688,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 171.066666666667,
+			"velocity_mps": [
+				30.4930229187012,
+				39.5829429626465,
+				-53.384635925293
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": -0.125663706143592,
+				"bank_rad": 1.20183701074587,
+				"distance_m": 16859.4234579206,
+				"elevator_rad": -0.0129200633323634,
+				"energy_height_m": 1204.0459144074,
+				"exited": false,
+				"forward_m": "(0.499119, 0.500041, -0.7077)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 127.766222814339,
+				"fuel_used_kg": 37.2337771856929,
+				"height_agl_m": 843.916959550352,
+				"kinetic_margin_m": 20.8020396936644,
+				"lift_up_m": "(0.658271, 0.312319, 0.684935)",
+				"load_factor": 1.36830904663501,
+				"load_limit": 2.29093639228936,
+				"path_pitch_rad": 0.523646527978766,
+				"path_turn_rate_radps": 0.184973485950775,
+				"propeller_phase_rad": 3.0062373580169,
+				"safety_state": "normal",
+				"speed_mps": 70.3766021769618,
+				"stall_margin": 1.29297548385505,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 950.932861328125,
+				"terrain_lookahead_s": 8.69259789949215,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.184973485950775,
+				"vertical_speed_mps": 35.1912117004395
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5747.45849609375,
+				951.52001953125,
+				-2978.19384765625
+			],
+			"rotation_rad": [
+				0.523646533489227,
+				-0.6142538189888,
+				-1.2018369436264
+			],
+			"task": {
+				"distance_m": 2796.38793945312,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 172.066666666667,
+			"velocity_mps": [
+				35.1263008117676,
+				35.1912117004395,
+				-49.8054962158203
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.0087650211568187,
+				"bank_rad": 1.22294014429019,
+				"distance_m": 16928.4053606391,
+				"elevator_rad": -0.0190513829655969,
+				"energy_height_m": 1218.58140396807,
+				"exited": false,
+				"forward_m": "(0.643915, 0.442486, -0.624164)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 127.491222814339,
+				"fuel_used_kg": 37.5087771856931,
+				"height_agl_m": 866.162283535074,
+				"kinetic_margin_m": 1.63527675032474,
+				"lift_up_m": "(0.546017, 0.305696, 0.78001)",
+				"load_factor": 1.08122913851919,
+				"load_limit": 2.11725629531924,
+				"path_pitch_rad": 0.458368762355589,
+				"path_turn_rate_radps": 0.165460127913552,
+				"propeller_phase_rad": 3.62571652160477,
+				"safety_state": "normal",
+				"speed_mps": 67.8049827379195,
+				"stall_margin": 1.39868668815851,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 983.672546386719,
+				"terrain_lookahead_s": 9.3593241323218,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.165460127913552,
+				"vertical_speed_mps": 30.0027484893799
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5707.841796875,
+				984.17333984375,
+				-3024.13037109375
+			],
+			"rotation_rad": [
+				0.45836877822876,
+				-0.80097222328186,
+				-1.22294008731842
+			],
+			"task": {
+				"distance_m": 2858.10864257812,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 173.066666666667,
+			"velocity_mps": [
+				43.6606140136719,
+				30.0027484893799,
+				-42.321418762207
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.00619423886547366,
+				"bank_rad": 1.22258622979472,
+				"distance_m": 16995.4204812646,
+				"elevator_rad": -0.022496829039968,
+				"energy_height_m": 1236.00809809042,
+				"exited": false,
+				"forward_m": "(0.757468, 0.365722, -0.540824)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 127.216222814339,
+				"fuel_used_kg": 37.7837771856933,
+				"height_agl_m": 883.592376101433,
+				"kinetic_margin_m": 0.0,
+				"lift_up_m": "(0.444645, 0.317578, 0.837517)",
+				"load_factor": 0.939581932400265,
+				"load_limit": 2.02177536122058,
+				"path_pitch_rad": 0.374408096016307,
+				"path_turn_rate_radps": 0.158422514680249,
+				"propeller_phase_rad": 4.24519568519263,
+				"safety_state": "normal",
+				"speed_mps": 66.3800053527392,
+				"stall_margin": 1.42153742874048,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1010.94360351562,
+				"terrain_lookahead_s": 9.79376127734649,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.158422514680249,
+				"vertical_speed_mps": 24.2766056060791
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5660.76611328125,
+				1011.34906005859,
+				-3063.20556640625
+			],
+			"rotation_rad": [
+				0.374408096075058,
+				-0.950742900371552,
+				-1.22258627414703
+			],
+			"task": {
+				"distance_m": 2909.76196289062,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 174.066666666667,
+			"velocity_mps": [
+				50.2806968688965,
+				24.2766056060791,
+				-35.8998947143555
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.00451457819012189,
+				"bank_rad": 1.22235418069061,
+				"distance_m": 17061.4541674256,
+				"elevator_rad": -0.024000073672637,
+				"energy_height_m": 1253.61472239901,
+				"exited": false,
+				"forward_m": "(0.850565, 0.277123, -0.446925)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 126.94122281434,
+				"fuel_used_kg": 38.0587771856934,
+				"height_agl_m": 902.426351852712,
+				"kinetic_margin_m": 0.0,
+				"lift_up_m": "(0.35343, 0.328062, 0.87605)",
+				"load_factor": 0.924353314838792,
+				"load_limit": 1.98288147663143,
+				"path_pitch_rad": 0.280798196518465,
+				"path_turn_rate_radps": 0.161086176590612,
+				"propeller_phase_rad": 4.86467484878049,
+				"safety_state": "normal",
+				"speed_mps": 65.8357963993643,
+				"stall_margin": 1.40811144783642,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1032.3193359375,
+				"terrain_lookahead_s": 9.88082376222178,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.161086176590612,
+				"vertical_speed_mps": 18.244592666626
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5607.5751953125,
+				1032.62426757812,
+				-3095.90649414062
+			],
+			"rotation_rad": [
+				0.280798196792603,
+				-1.08700096607208,
+				-1.22235417366028
+			],
+			"task": {
+				"distance_m": 2952.61669921875,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 175.066666666667,
+			"velocity_mps": [
+				55.9976463317871,
+				18.244592666626,
+				-29.4236526489258
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.00310549635041917,
+				"bank_rad": 1.22215851664464,
+				"distance_m": 17127.3935245872,
+				"elevator_rad": -0.0239340273943593,
+				"energy_height_m": 1271.21539436651,
+				"exited": false,
+				"forward_m": "(0.924321, 0.183396, -0.334659)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 126.66622281434,
+				"fuel_used_kg": 38.3337771856936,
+				"height_agl_m": 938.888431125861,
+				"kinetic_margin_m": 0.0,
+				"lift_up_m": "(0.261043, 0.335824, 0.90503)",
+				"load_factor": 0.98473629356381,
+				"load_limit": 1.99999631735391,
+				"path_pitch_rad": 0.184440176401489,
+				"path_turn_rate_radps": 0.16720487585954,
+				"propeller_phase_rad": 5.48415401236835,
+				"safety_state": "normal",
+				"speed_mps": 66.1938975665714,
+				"stall_margin": 1.41449765568166,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1047.61120605469,
+				"terrain_lookahead_s": 9.91561563905112,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.16720487585954,
+				"vertical_speed_mps": 12.1397123336792
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5548.94140625,
+				1047.81433105469,
+				-3121.78588867188
+			],
+			"rotation_rad": [
+				0.184440180659294,
+				-1.22341859340668,
+				-1.22215855121613
+			],
+			"task": {
+				"distance_m": 2986.98193359375,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 176.066666666667,
+			"velocity_mps": [
+				61.1844024658203,
+				12.1397123336792,
+				-22.1524028778076
+			]
+		},
+		{
+			"flight": {
+				"aileron_rad": 0.00170486031872023,
+				"bank_rad": 1.22196387869323,
+				"distance_m": 17194.1162577271,
+				"elevator_rad": -0.0224431498475099,
+				"energy_height_m": 1288.26898807728,
+				"exited": false,
+				"forward_m": "(0.975576, 0.091149, -0.199856)",
+				"fuel_capacity_kg": 681.0,
+				"fuel_kg": 126.39122281434,
+				"fuel_used_kg": 38.6087771856938,
+				"height_agl_m": 979.008781674613,
+				"kinetic_margin_m": 0.0,
+				"lift_up_m": "(0.158083, 0.340378, 0.926905)",
+				"load_factor": 1.10905285469295,
+				"load_limit": 2.06808306252142,
+				"path_pitch_rad": 0.0912758894586132,
+				"path_turn_rate_radps": 0.176311268814049,
+				"propeller_phase_rad": 6.10363317595621,
+				"safety_state": "normal",
+				"speed_mps": 67.3584582966217,
+				"stall_margin": 1.36604390554633,
+				"stalled": false,
+				"terrain_ahead_m": 0.0,
+				"terrain_clearance_m": 1056.8349609375,
+				"terrain_lookahead_s": 9.59539272308581,
+				"throttle": 1.0,
+				"turn_rate_radps": -0.176311268814049,
+				"vertical_speed_mps": 6.13966989517212
+			},
+			"id": "us_air_4",
+			"position_m": [
+				-5485.41455078125,
+				1056.93811035156,
+				-3139.73950195312
+			],
+			"rotation_rad": [
+				0.0912758931517601,
+				-1.36873245239258,
+				-1.22196388244629
+			],
+			"task": {
+				"distance_m": 3012.81958007812,
+				"maneuver_phase": "vertical_rejoin",
+				"maneuver_reason": "rejoining_pair",
+				"pair_index": 0,
+				"phase": "formation",
+				"reason": "rejoining_pair",
+				"role": "wingman",
+				"section_role": "attack",
+				"spatial_geometry": {},
+				"target_id": ""
+			},
+			"time_s": 177.066666666667,
+			"velocity_mps": [
+				65.7133255004883,
+				6.13966989517212,
+				-13.4620065689087
+			]
+		}
+	]
+}

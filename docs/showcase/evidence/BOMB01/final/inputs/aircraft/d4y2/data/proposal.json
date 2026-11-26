@@ -1,0 +1,131 @@
+{
+  "schema_version": "av02-unregistered-proposal-0.1",
+  "id": "jp_d4y2_model12_1944_10",
+  "registered": false,
+  "name": "Yokosuka D4Y2 Suisei Model 12",
+  "name_ja": "艦上爆撃機 彗星一二型",
+  "country": "Japan",
+  "role": "carrier_dive_bomber",
+  "configuration_month": "1944-10",
+  "configuration_basis": "A11 TableII DateAdopted Oct44; month is a production configuration lock, not a particular serial or sortie",
+  "historical_carrier_pairing": false,
+  "cross_era_note": "Shokaku1941-08-23 + D4Y2 1944-10 is a hypothetical simulator fit, not a historical air-group claim",
+  "scene": "res://aircraft/d4y2/d4y2.tscn",
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "axes": {
+    "right": "+X",
+    "up": "+Y",
+    "forward": "-Z",
+    "units": "m, s, rad",
+    "origin": "fixed visual airframe datum; NOT measured CG"
+  },
+  "dimensions": {
+    "length_m": 10.22,
+    "span_m": 11.5,
+    "wing_area_m2_reported": 23.6,
+    "height_m_reported": 3.74,
+    "reported_height_attitude": "not stated in source; do not force gear geometry to it"
+  },
+  "engine": {
+    "name": "Aichi Atsuta 32",
+    "layout": "liquid_cooled_inverted_V12",
+    "propeller_blades": 3,
+    "power_hp_nominal": 1400,
+    "power_status": "published nominal rating; not a local flight-performance model"
+  },
+  "armament": [
+    {
+      "id": "type97_port",
+      "type": "Type97_aircraft_machine_gun",
+      "caliber_mm": 7.7,
+      "count": 1,
+      "marker": "MUZZLE_TYPE97_PORT",
+      "fixed": true,
+      "ammunition": null
+    },
+    {
+      "id": "type97_starboard",
+      "type": "Type97_aircraft_machine_gun",
+      "caliber_mm": 7.7,
+      "count": 1,
+      "marker": "MUZZLE_TYPE97_STARBOARD",
+      "fixed": true,
+      "ammunition": null
+    },
+    {
+      "id": "type1_rear",
+      "type": "Type1_MG15_flexible_machine_gun",
+      "caliber_mm": 7.92,
+      "count": 1,
+      "marker": "MUZZLE_TYPE1_REAR",
+      "fixed": false,
+      "ammunition": null,
+      "status": "Model12 standard non-a selected; actual mount station and display limits estimated; no firing/self-occlusion authorization"
+    }
+  ],
+  "stores": [
+    {
+      "id": "internal_single",
+      "marker": "STORE_INTERNAL",
+      "release_marker": "BOMB_RELEASE",
+      "visual_mass_kg": 250,
+      "historical_bomb_mark": null,
+      "count": 1,
+      "status": "one simplified 250kg representative shape, not an ordnance-specific asset; BOMB01 owns mass/ballistics/release",
+      "airborne_crutch_only": true
+    },
+    {
+      "id": "wing_port_optional",
+      "marker": "STORE_WING_LEFT_WING",
+      "count": 0,
+      "status": "attachment location suggestion only; payload/type not validated or displayed"
+    },
+    {
+      "id": "wing_starboard_optional",
+      "marker": "STORE_WING_RIGHT_WING",
+      "count": 0,
+      "status": "attachment location suggestion only; payload/type not validated or displayed"
+    }
+  ],
+  "moving_parts": {
+    "gear": "continuous inward sweep with endpoint visibility, simplified covers",
+    "hook": "continuous +X hinge, 24deg visual travel",
+    "flaps": "40deg + 0.12m aft travel simplified Fowler",
+    "dive_brakes": "3 underside plates per wing, 70deg, suppressed while flaps extended",
+    "wing_folding": false,
+    "bomb_bay": "two matching curved shell doors, 95deg",
+    "bomb_crutch": "34deg simple swing with real child release marker",
+    "rear_cover": "binary open/stowed cover simplification; not a complete roll-in mechanism"
+  },
+  "damage_parts": [
+    "center",
+    "engine",
+    "left_wing",
+    "right_wing",
+    "tail"
+  ],
+  "performance": {
+    "status": "not implemented; OPS01/BOMB01 to provide unregistered controlled flight fixture and cite performance inputs",
+    "flight_datum_m": [
+      0,
+      0,
+      0
+    ],
+    "measured_center_of_gravity_m": null
+  },
+  "sources": "docs/references/aircraft/d4y2_1944/sources.json",
+  "real_geometry_interfaces": "res://aircraft/d4y2/data/interfaces.json",
+  "capability_status": {
+    "model": "root_accepted_independent_model",
+    "static_deck_fit": "root_accepted_static_only",
+    "flight_simulation": "not_connected",
+    "carrier_operations": "not_connected",
+    "bombing": "not_connected",
+    "rear_fire_control": "not_connected",
+    "damage_simulation": "not_connected"
+  }
+}

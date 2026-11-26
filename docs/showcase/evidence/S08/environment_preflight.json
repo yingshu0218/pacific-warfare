@@ -1,0 +1,18 @@
+{
+  "chrome": {
+    "CFBundleShortVersionString": "157.0.8103.39",
+    "CFBundleVersion": "8103.39"
+  },
+  "safari": {
+    "CFBundleShortVersionString": "26.6.2",
+    "CFBundleVersion": "21624.5.1.11.3"
+  },
+  "cpu": "Apple M5",
+  "memory_bytes": "17179869184",
+  "macos": "26.6.2",
+  "export_templates": [
+    "web_nothreads_release.zip",
+    "web_nothreads_debug.zip",
+    "version.txt"
+  ]
+}

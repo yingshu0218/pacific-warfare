@@ -1,0 +1,292 @@
+{
+  "scope": "4 ships + 8 aircraft, 1280x720, short desktop Chrome test; not S08 ten-minute/final-scale acceptance",
+  "hardware": {
+    "cpu": "Apple M5",
+    "memoryBytes": 17179869184,
+    "os": "25.6.0",
+    "node": "v24.22.1"
+  },
+  "identity": {
+    "title": "S13 云海实际验证",
+    "url": "http://127.0.0.1:65062/index.html",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "cssWidth": 1280,
+      "cssHeight": 720
+    },
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "visible": "visible",
+    "focused": true
+  },
+  "flags": [
+    "headful",
+    "private user-data-dir",
+    "offscreen position",
+    "background/occlusion throttling disabled equally for all comparisons"
+  ],
+  "performance_run": "chrome-attempt2/run.json",
+  "control_run": "chrome/run.json",
+  "measured_windows_s": 61,
+  "phases": [
+    {
+      "label": "new_live_ship",
+      "requested_seconds": 15,
+      "raf_frames": 1740,
+      "raf_ms": {
+        "p50": 8.2,
+        "p95": 14.8,
+        "p99": 20.483
+      },
+      "fps_from_mean_interval": 115.773,
+      "visible_fraction": 1,
+      "focused_fraction": 1,
+      "camera_m": [
+        -3640.00415039062,
+        46,
+        197.500045776367
+      ],
+      "engine_frame_ms": {
+        "p50": 8.3333,
+        "p95": 12.1,
+        "p99": 16.6667
+      },
+      "cpu_stage_p95_ms": {
+        "advance": 5.1,
+        "presentation": 1.6,
+        "camera": 0.1,
+        "hud": 0.0
+      },
+      "pending_time_max_s": 0.016624242424243,
+      "median_draw_calls": 496.5
+    },
+    {
+      "label": "new_live_air",
+      "requested_seconds": 10,
+      "raf_frames": 1191,
+      "raf_ms": {
+        "p50": 8.2,
+        "p95": 13.8,
+        "p99": 18.2
+      },
+      "fps_from_mean_interval": 118.633,
+      "visible_fraction": 1,
+      "focused_fraction": 1,
+      "camera_m": [
+        269.716644287109,
+        1160.85083007812,
+        -302.263793945312
+      ],
+      "engine_frame_ms": {
+        "p50": 8.3333,
+        "p95": 9.0936,
+        "p99": 12.8975
+      },
+      "cpu_stage_p95_ms": {
+        "advance": 5.1,
+        "presentation": 1.8,
+        "camera": 0.1,
+        "hud": 0.0
+      },
+      "pending_time_max_s": 0.0163888888888897,
+      "median_draw_calls": 195
+    },
+    {
+      "label": "legacy_paused",
+      "requested_seconds": 10,
+      "raf_frames": 1193,
+      "raf_ms": {
+        "p50": 8.3,
+        "p95": 11.1,
+        "p99": 14.008
+      },
+      "fps_from_mean_interval": 119.149,
+      "visible_fraction": 1,
+      "focused_fraction": 1,
+      "camera_m": [
+        -3678.9912109375,
+        46,
+        -109.008041381836
+      ],
+      "engine_frame_ms": {
+        "p50": 8.3333,
+        "p95": 9.0909,
+        "p99": 10.458
+      },
+      "cpu_stage_p95_ms": {
+        "advance": 1.1,
+        "presentation": 2.4,
+        "camera": 0.1,
+        "hud": 0.0
+      },
+      "pending_time_max_s": 0.00946000000000155,
+      "median_draw_calls": 555
+    },
+    {
+      "label": "new_paused",
+      "requested_seconds": 10,
+      "raf_frames": 1175,
+      "raf_ms": {
+        "p50": 8.4,
+        "p95": 12.2,
+        "p99": 14.252
+      },
+      "fps_from_mean_interval": 117.137,
+      "visible_fraction": 1,
+      "focused_fraction": 1,
+      "camera_m": [
+        -3678.9912109375,
+        46,
+        -109.008041381836
+      ],
+      "engine_frame_ms": {
+        "p50": 8.3333,
+        "p95": 9.5238,
+        "p99": 11.1202
+      },
+      "cpu_stage_p95_ms": {
+        "advance": 1.1,
+        "presentation": 2.4,
+        "camera": 0.1,
+        "hud": 0.0
+      },
+      "pending_time_max_s": 0.00946000000000155,
+      "median_draw_calls": 555
+    },
+    {
+      "label": "new_no_clouds_paused",
+      "requested_seconds": 8,
+      "raf_frames": 934,
+      "raf_ms": {
+        "p50": 8.4,
+        "p95": 12.635,
+        "p99": 14.8
+      },
+      "fps_from_mean_interval": 116.486,
+      "visible_fraction": 1,
+      "focused_fraction": 1,
+      "camera_m": [
+        -3678.9912109375,
+        46,
+        -109.008041381836
+      ],
+      "engine_frame_ms": {
+        "p50": 8.3333,
+        "p95": 10.0,
+        "p99": 11.035
+      },
+      "cpu_stage_p95_ms": {
+        "advance": 1.1,
+        "presentation": 2.3,
+        "camera": 0.1,
+        "hud": 0.005
+      },
+      "pending_time_max_s": 0.00946000000000155,
+      "median_draw_calls": 555
+    },
+    {
+      "label": "new_environment_only",
+      "requested_seconds": 8,
+      "raf_frames": 961,
+      "raf_ms": {
+        "p50": 8.3,
+        "p95": 10.9,
+        "p99": 14.88
+      },
+      "fps_from_mean_interval": 120.021,
+      "visible_fraction": 1,
+      "focused_fraction": 1,
+      "camera_m": [
+        -3678.9912109375,
+        46,
+        -109.008041381836
+      ]
+    }
+  ],
+  "control_checks": [
+    {
+      "name": "page identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "1280x720 actual render buffer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "hardware accelerated WebGL",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "live sky and sea clocks agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Space freezes simulation and both materials",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "paused sky/sea pixels remain identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4x dropdown resumes a shared simulation clock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart resets cloud and sea phase 0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart retains material resources 0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart resets cloud and sea phase 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart retains material resources 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart resets cloud and sea phase 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "restart retains material resources 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "three restarts keep node counts stable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no page runtime errors",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no Godot/shader/WebGL errors",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "no_runtime_console_shader_errors": true,
+  "comparison_limit": "RAF cadence includes browser/display/CPU jitter; not GPU timer-query cost. Cloud-off p95 is slightly slower, so cloud-only increment is below this short sample precision."
+}

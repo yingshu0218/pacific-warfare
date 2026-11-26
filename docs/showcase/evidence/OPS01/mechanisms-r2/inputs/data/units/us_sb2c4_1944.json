@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "us_sb2c4_1944",
+  "display_name": "Curtiss SB2C-4 Helldiver",
+  "country_id": "us",
+  "domain": "aircraft",
+  "service_entry_year": 1944,
+  "configuration_date": "1944–1945 subtype; no individual airframe fixed",
+  "dimensions_m": [
+    15.164,
+    4.496,
+    11.049
+  ],
+  "model_scene": "res://scenes/units/aircraft/sb2c4_flight.tscn",
+  "weapon_definitions": [],
+  "mounts": [],
+  "historical_fixed_armament": [],
+  "dedicated_aa_historical": [],
+  "dedicated_aa_game": [],
+  "source": {
+    "status": "provisional",
+    "paths": [
+      "docs/showcase/deliveries/SB2C-admission.md",
+      "docs/references/bombers/sb2c/README.md",
+      "docs/showcase/S14-scene-layout.md"
+    ],
+    "note": "Admitted r2 model; historical 2x20mm and flexible twin .30 are visual only, no combat mounts admitted. Clean navigation/escort ward, no bombing/rear gunner. Height estimate from family model."
+  }
+}

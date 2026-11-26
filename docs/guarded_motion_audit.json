@@ -1,0 +1,606 @@
+{
+	"duration_seconds": 60,
+	"observations": [
+		{
+			"blocked_steps": 0,
+			"elevation_max": 45.0000012522391,
+			"elevation_min": -4.99912046769082,
+			"id": "main_01",
+			"train_max": 43.6001061705208,
+			"train_min": -8.42336238354314
+		},
+		{
+			"blocked_steps": 37,
+			"elevation_max": 44.9996836484427,
+			"elevation_min": -4.99928268468361,
+			"id": "main_02",
+			"last_obstruction_point": [],
+			"train_max": 24.5999900977642,
+			"train_min": -20.3999923714547
+		},
+		{
+			"blocked_steps": 146,
+			"elevation_max": 44.999574365416,
+			"elevation_min": -4.9999674111479,
+			"id": "main_03",
+			"last_obstruction_point": [
+				-8.49657440185547,
+				16.3181037902832,
+				76.0642700195312
+			],
+			"train_max": 5.60004978869311,
+			"train_min": -39.2003084492011
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 54.9994186877053,
+			"elevation_min": -9.99990408644454,
+			"id": "secondary_01",
+			"train_max": 57.0000493974937,
+			"train_min": -65.9999950064282
+		},
+		{
+			"blocked_steps": 39,
+			"elevation_max": 54.9999855934064,
+			"elevation_min": -9.99982895436367,
+			"id": "secondary_02",
+			"last_obstruction_point": [],
+			"train_max": 80.4995627175944,
+			"train_min": -49.2150186782189
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 90.0000025044782,
+			"elevation_min": -7.99833593319252,
+			"id": "heavy_aa_01",
+			"train_max": 69.9296580574139,
+			"train_min": -69.9428097003463
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 89.9999888440998,
+			"elevation_min": -7.99968660310089,
+			"id": "heavy_aa_02",
+			"train_max": 69.9525255307552,
+			"train_min": -69.9985542892574
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 89.9992170327236,
+			"elevation_min": -7.99995041915758,
+			"id": "heavy_aa_03",
+			"train_max": 69.9387558693884,
+			"train_min": -69.9999134969022
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 89.9990667685619,
+			"elevation_min": -7.99990773047527,
+			"id": "heavy_aa_04",
+			"train_max": 69.9599431161938,
+			"train_min": -69.9488253894578
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 89.9999683535323,
+			"elevation_min": -7.99977112669187,
+			"id": "heavy_aa_05",
+			"train_max": 69.9999953454867,
+			"train_min": -69.9345690771127
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 89.999995674289,
+			"elevation_min": -7.99841021149975,
+			"id": "heavy_aa_06",
+			"train_max": 69.9449850019114,
+			"train_min": -69.9565383805781
+		},
+		{
+			"blocked_steps": 141,
+			"elevation_max": 84.9999966735162,
+			"elevation_min": -7.90981838909645,
+			"id": "light_aa_01",
+			"last_obstruction_point": [
+				-8.17122364044189,
+				12.2999992370605,
+				38.9392127990723
+			],
+			"train_max": 84.9547628351214,
+			"train_min": -74.5991562707664
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9992931640317,
+			"elevation_min": -9.99996385059978,
+			"id": "light_aa_02",
+			"train_max": 84.9997601213734,
+			"train_min": -84.999820426101
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9990404470324,
+			"elevation_min": -9.99989981757631,
+			"id": "light_aa_03",
+			"train_max": 84.99970547986,
+			"train_min": -84.998497930723
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9992726734642,
+			"elevation_min": -9.99980419492793,
+			"id": "light_aa_04",
+			"train_max": 84.9994869138066,
+			"train_min": -84.9999621525263
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.999989843327,
+			"elevation_min": -9.99852951087408,
+			"id": "light_aa_05",
+			"train_max": 84.9991317439698,
+			"train_min": -84.9993013317241
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999966735162,
+			"elevation_min": -9.99963002510409,
+			"id": "light_aa_06",
+			"train_max": 84.9999923478052,
+			"train_min": -84.9993384708777
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9993409753559,
+			"elevation_min": -9.99997324210989,
+			"id": "light_aa_07",
+			"train_max": 84.9987355929979,
+			"train_min": -84.9995835039142
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.998985805519,
+			"elevation_min": -9.99991689304924,
+			"id": "light_aa_08",
+			"train_max": 84.9997328006167,
+			"train_min": -84.9998515888391
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.99922486214,
+			"elevation_min": -9.99982895436367,
+			"id": "light_aa_09",
+			"train_max": 84.9998694044001,
+			"train_min": -84.9984027349614
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.999989843327,
+			"elevation_min": -9.99859781276578,
+			"id": "light_aa_10",
+			"train_max": 84.99954155532,
+			"train_min": -84.9999455039402
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999966735162,
+			"elevation_min": -9.9995950203846,
+			"id": "light_aa_11",
+			"train_max": 84.9990497816997,
+			"train_min": -84.9999958765853
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9993819564909,
+			"elevation_min": -9.99973930813082,
+			"id": "light_aa_12",
+			"train_max": 84.9999923478052,
+			"train_min": -84.999067397745
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9989243338165,
+			"elevation_min": -9.99993226097487,
+			"id": "single_aa_01",
+			"train_max": 109.999932710156,
+			"train_min": -109.999394946444
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9991702206266,
+			"elevation_min": -9.99985200625212,
+			"id": "single_aa_02",
+			"train_max": 109.997958899171,
+			"train_min": -109.999850747886
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999830131378,
+			"elevation_min": -9.99866440711018,
+			"id": "single_aa_03",
+			"train_max": 109.999796106372,
+			"train_min": -109.997806927462
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999966735162,
+			"elevation_min": -9.99955745434416,
+			"id": "single_aa_04",
+			"train_max": 109.99947349362,
+			"train_min": -109.99833444589
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9994297678151,
+			"elevation_min": -9.99970857227955,
+			"id": "single_aa_05",
+			"train_max": 109.998675955349,
+			"train_min": -109.999985757808
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9976675790092,
+			"elevation_min": -9.99994677512685,
+			"id": "single_aa_06",
+			"train_max": 109.999999418186,
+			"train_min": -109.998880861024
+		},
+		{
+			"blocked_steps": 14,
+			"elevation_max": 84.9991155791133,
+			"elevation_min": -9.99987249681963,
+			"id": "single_aa_07",
+			"last_obstruction_point": [
+				-5.5,
+				9.4512300491333,
+				107.468910217285
+			],
+			"train_max": 109.999960030913,
+			"train_min": -109.999326644553
+		},
+		{
+			"blocked_steps": 112,
+			"elevation_max": 84.9993409753559,
+			"elevation_min": -9.9987292939073,
+			"id": "single_aa_08",
+			"last_obstruction_point": [
+				5.15178394317627,
+				7.71871948242188,
+				109.320014953613
+			],
+			"train_max": 109.998081842576,
+			"train_min": -109.999604861076
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999966735162,
+			"elevation_min": -9.99843047313111,
+			"id": "single_aa_09",
+			"train_max": 109.999755125237,
+			"train_min": -109.999705720052
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9994707489501,
+			"elevation_min": -9.99967698265464,
+			"id": "single_aa_10",
+			"train_max": 109.999534965322,
+			"train_min": -109.998225162863
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9977563714684,
+			"elevation_min": -9.9999587279579,
+			"id": "single_aa_11",
+			"train_max": 109.999236030861,
+			"train_min": -109.999973804976
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9990609375999,
+			"elevation_min": -9.99989213361349,
+			"id": "single_aa_12",
+			"train_max": 109.998993672831,
+			"train_min": -109.998976483672
+		},
+		{
+			"blocked_steps": 213,
+			"elevation_max": 84.9999625225703,
+			"elevation_min": -9.99879332693077,
+			"id": "single_aa_13",
+			"last_obstruction_point": [
+				12.9185705184937,
+				9.13413619995117,
+				54.8873252868652
+			],
+			"train_max": 109.999972097429,
+			"train_min": -109.999249691239
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 89.999995674289,
+			"elevation_min": -7.9984537539557,
+			"id": "heavy_aa_07",
+			"train_max": 69.9988548175809,
+			"train_min": -69.9543150403177
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 89.9994970704796,
+			"elevation_min": -7.99963281536118,
+			"id": "heavy_aa_08",
+			"train_max": 69.936636916884,
+			"train_min": -69.9408049261394
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 89.9992989949937,
+			"elevation_min": -7.9999692021778,
+			"id": "heavy_aa_09",
+			"train_max": 69.9506934461958,
+			"train_min": -69.9858158727698
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 89.9989779761027,
+			"elevation_min": -7.99990773047527,
+			"id": "heavy_aa_10",
+			"train_max": 69.9366847282081,
+			"train_min": -69.9999680247301
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 89.9999478629648,
+			"elevation_min": -7.9988191690763,
+			"id": "heavy_aa_11",
+			"train_max": 69.9582578807016,
+			"train_min": -69.9469247756357
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 89.9999888440998,
+			"elevation_min": -7.99852547094199,
+			"id": "heavy_aa_12",
+			"train_max": 69.9999903365304,
+			"train_min": -69.932431114217
+		},
+		{
+			"blocked_steps": 130,
+			"elevation_max": 84.9995527112201,
+			"elevation_min": -7.90567502559119,
+			"id": "light_aa_17",
+			"last_obstruction_point": [
+				8.41856575012207,
+				12.5570592880249,
+				36.2000007629395
+			],
+			"train_max": 84.9157173186429,
+			"train_min": -84.9995961968333
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9993682961125,
+			"elevation_min": -9.99997921852541,
+			"id": "light_aa_18",
+			"train_max": 84.9982857679719,
+			"train_min": -84.9998420836434
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9989516545732,
+			"elevation_min": -9.99992628455934,
+			"id": "light_aa_19",
+			"train_max": 84.9998844591245,
+			"train_min": -84.9996781591034
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999352018137,
+			"elevation_min": -9.99984261474201,
+			"id": "light_aa_20",
+			"train_max": 84.9995228859853,
+			"train_min": -84.9988312156463
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999830131378,
+			"elevation_min": -9.99863794012715,
+			"id": "light_aa_21",
+			"train_max": 84.9992624850232,
+			"train_min": -84.9999923478052
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999966735162,
+			"elevation_min": -9.9995728222698,
+			"id": "light_aa_22",
+			"train_max": 84.9993751831445,
+			"train_min": -84.9990361213214
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9994092772476,
+			"elevation_min": -9.99998604871458,
+			"id": "light_aa_23",
+			"train_max": 84.9999420888456,
+			"train_min": -84.9995552156983
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9988901828706,
+			"elevation_min": -9.99994165248498,
+			"id": "light_aa_24",
+			"train_max": 84.998384378828,
+			"train_min": -84.9997464609951
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999215414353,
+			"elevation_min": -9.99986481285681,
+			"id": "light_aa_25",
+			"train_max": 84.9998571383678,
+			"train_min": -84.9997191402384
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999761829487,
+			"elevation_min": -9.99870368069791,
+			"id": "light_aa_26",
+			"train_max": 84.9999557492239,
+			"train_min": -84.9987492533762
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999966735162,
+			"elevation_min": -9.99953440245571,
+			"id": "light_aa_27",
+			"train_max": 84.9993269449335,
+			"train_min": -84.9999923478052
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9994570885717,
+			"elevation_min": -9.9999920251301,
+			"id": "light_aa_28",
+			"train_max": 84.9993132845551,
+			"train_min": -84.9999923478052
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9988287111681,
+			"elevation_min": -9.99995445908967,
+			"id": "single_aa_14",
+			"train_max": 109.999946370534,
+			"train_min": -109.998404569015
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999010508678,
+			"elevation_min": -9.99988444965068,
+			"id": "single_aa_15",
+			"train_max": 109.998034031252,
+			"train_min": -109.999618521454
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999625225703,
+			"elevation_min": -9.99876771372138,
+			"id": "single_aa_16",
+			"train_max": 109.997883653405,
+			"train_min": -109.999686937031
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999966735162,
+			"elevation_min": -9.99949427509434,
+			"id": "single_aa_17",
+			"train_max": 109.99992087101,
+			"train_min": -109.998266143998
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9994980697068,
+			"elevation_min": -9.99999629399834,
+			"id": "single_aa_18",
+			"train_max": 109.999208710104,
+			"train_min": -109.998734125642
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9987672394656,
+			"elevation_min": -9.99996555814707,
+			"id": "single_aa_19",
+			"train_max": 109.999027823776,
+			"train_min": -110.000001012048
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.999026786654,
+			"elevation_min": -9.99990323267089,
+			"id": "single_aa_20",
+			"train_max": 109.999960030913,
+			"train_min": -109.998512144494
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9999556923812,
+			"elevation_min": -9.9988308929712,
+			"id": "single_aa_21",
+			"train_max": 109.999857691761,
+			"train_min": -109.999563879941
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.999989843327,
+			"elevation_min": -9.99945329395932,
+			"id": "single_aa_22",
+			"train_max": 109.997747049621,
+			"train_min": -109.999784267227
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9995322206526,
+			"elevation_min": -9.99962319491492,
+			"id": "single_aa_23",
+			"train_max": 109.999893550254,
+			"train_min": -109.999495578049
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9987057677631,
+			"elevation_min": -9.99997580343083,
+			"id": "single_aa_24",
+			"train_max": 109.999277011996,
+			"train_min": -109.998633380352
+		},
+		{
+			"blocked_steps": 0,
+			"elevation_max": 84.9989721451407,
+			"elevation_min": -9.99992030814382,
+			"id": "single_aa_25",
+			"train_max": 109.998923663392,
+			"train_min": -110.000001012048
+		},
+		{
+			"blocked_steps": 417,
+			"elevation_max": 61.7989778743851,
+			"elevation_min": -9.99763304854551,
+			"id": "single_aa_26",
+			"last_obstruction_point": [
+				17.1795291900635,
+				8.61229133605957,
+				92.0579681396484
+			],
+			"train_max": 67.398601800557,
+			"train_min": -77.6381685735553
+		},
+		{
+			"blocked_steps": 188,
+			"elevation_max": 84.9997234659494,
+			"elevation_min": -9.99941060527701,
+			"id": "bridge_mg_01",
+			"last_obstruction_point": [
+				-5.51244497299194,
+				26.0783767700195,
+				1.84358358383179
+			],
+			"train_max": 89.9999093863079,
+			"train_min": -89.9995995017862
+		},
+		{
+			"blocked_steps": 371,
+			"elevation_max": 25.6036710283719,
+			"elevation_min": -9.99958733642178,
+			"id": "bridge_mg_02",
+			"last_obstruction_point": [
+				5.50501871109009,
+				26.0756931304932,
+				2.28356671333313
+			],
+			"train_max": 78.2617478829901,
+			"train_min": -55.6285396713496
+		}
+	],
+	"step_seconds": 0.1,
+	"stuck_mounts": []
+}

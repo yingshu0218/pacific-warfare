@@ -1,0 +1,34 @@
+{
+  "type96_25mm_single_gun": {
+    "label": "25 mm Type 96 gun",
+    "nominal_caliber_m": 0.025,
+    "barrel_length_m": 1.501775,
+    "twin_center_spacing_estimate_m": 0.38,
+    "cooling_fin_count": 36,
+    "cooling_finned_section_length_m": 0.7366,
+    "cooling_fin_thickness_m": 0.009525,
+    "cooling_fin_outer_diameter_breech_m": 0.092075,
+    "cooling_fin_outer_diameter_muzzle_m": 0.079375,
+    "cooling_fin_inner_diameter_breech_m": 0.073025,
+    "cooling_fin_inner_diameter_muzzle_m": 0.060325,
+    "barrel_wall_thickness_muzzle_m": 0.0098552,
+    "feed_capacity_rounds": 15,
+    "recoil_cylinder_count_for_twin": 4,
+    "recoil_cylinder_length_m": 0.4302252,
+    "recoil_cylinder_outer_diameter_m": 0.066675,
+    "geometry_status": "reported barrel and cooling-fin dimensions applied; 36 fins are distributed over the reported 29-inch finned sections; twin spacing and receiver details remain estimates",
+    "source": "USNTMJ O-47(N)-2, pp. 23-24, 43-44"
+  },
+  "navy_vickers_77mm": {
+    "label": "7.7 mm Vickers naval gun",
+    "nominal_caliber_m": 0.0077,
+    "barrel_assembly_length_m": 0.72136,
+    "mechanism_length_m": 0.2794,
+    "water_jacket_length_m": 0.58,
+    "water_jacket_outer_diameter_m": 0.044,
+    "belt_capacity_rounds": 100,
+    "cooling": "water",
+    "geometry_status": "reported barrel assembly and mechanism dimensions applied; jacket dimensions and detailed receiver profile remain proportional estimates",
+    "source": "USNTMJ O-47(N)-2, pp. 19-20"
+  }
+}

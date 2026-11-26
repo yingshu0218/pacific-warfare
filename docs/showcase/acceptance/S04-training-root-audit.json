@@ -1,0 +1,675 @@
+{
+  "checked_utc": "2026-11-10T20:09:12.460736+00:00",
+  "status": "accepted_scoped_training_native_mechanisms_final_showcase_chrome_pending",
+  "mechanism_cases_recomputed": [
+    {
+      "definition_id": "us_f6f5_1944",
+      "maneuver": "bank_turn",
+      "direction": 1,
+      "sample_count": 141,
+      "order_status": "completed",
+      "duration_s": 14.0333333333333,
+      "recomputed_speed_mps_range": [
+        115.02417108338994,
+        135.14474529620065
+      ],
+      "recomputed_altitude_m_range": [
+        2280.0703125,
+        2399.99975585938
+      ],
+      "recomputed_velocity_path_pitch_deg_range": [
+        -5.856074498193052,
+        -0.008142345436258377
+      ],
+      "reported_roll_peak_deg": 71.42571243820133,
+      "reported_maximum_load_g": 2.3662015831525,
+      "reported_maximum_roll_rate_degps": 60.000000000000135
+    },
+    {
+      "definition_id": "us_f6f5_1944",
+      "maneuver": "climb_dive",
+      "direction": 1,
+      "sample_count": 163,
+      "order_status": "completed",
+      "duration_s": 16.25,
+      "recomputed_speed_mps_range": [
+        104.3481861627513,
+        115.50072249350104
+      ],
+      "recomputed_altitude_m_range": [
+        2400.00024414062,
+        2532.02270507812
+      ],
+      "recomputed_velocity_path_pitch_deg_range": [
+        -11.484136768142978,
+        11.543381484643803
+      ],
+      "reported_roll_peak_deg": 0.0,
+      "reported_maximum_load_g": 2.29867807640011,
+      "reported_maximum_roll_rate_degps": 0.0
+    },
+    {
+      "definition_id": "us_f6f5_1944",
+      "maneuver": "axial_roll",
+      "direction": 1,
+      "sample_count": 100,
+      "order_status": "completed",
+      "duration_s": 9.96666666666667,
+      "recomputed_speed_mps_range": [
+        115.02417108338994,
+        144.52436328865525
+      ],
+      "recomputed_altitude_m_range": [
+        2073.36645507812,
+        2399.99975585938
+      ],
+      "recomputed_velocity_path_pitch_deg_range": [
+        -27.341603225861512,
+        -0.008142345436258377
+      ],
+      "reported_roll_peak_deg": 362.00004027167233,
+      "reported_maximum_load_g": 3.72892798767151,
+      "reported_maximum_roll_rate_degps": 60.000000000000135
+    },
+    {
+      "definition_id": "us_f6f5_1944",
+      "maneuver": "roll_reversal",
+      "direction": 1,
+      "sample_count": 157,
+      "order_status": "completed",
+      "duration_s": 15.6333333333333,
+      "recomputed_speed_mps_range": [
+        115.02417108338994,
+        144.03432041504158
+      ],
+      "recomputed_altitude_m_range": [
+        2130.4580078125,
+        2399.99975585938
+      ],
+      "recomputed_velocity_path_pitch_deg_range": [
+        -11.787641061478253,
+        -0.008142345436258377
+      ],
+      "reported_roll_peak_deg": 70.28747512976626,
+      "reported_maximum_load_g": 2.52750858987566,
+      "reported_maximum_roll_rate_degps": 60.000000000000135
+    },
+    {
+      "definition_id": "us_f6f5_1944",
+      "maneuver": "split_s",
+      "direction": 1,
+      "sample_count": 134,
+      "order_status": "completed",
+      "duration_s": 13.3166666666667,
+      "recomputed_speed_mps_range": [
+        111.88871287295466,
+        133.6918601005314
+      ],
+      "recomputed_altitude_m_range": [
+        1627.15795898438,
+        2399.99975585938
+      ],
+      "recomputed_velocity_path_pitch_deg_range": [
+        -86.13605844592279,
+        -0.008144351276632378
+      ],
+      "reported_roll_peak_deg": 179.60806283000147,
+      "reported_maximum_load_g": 4.5,
+      "reported_maximum_roll_rate_degps": 60.000000000000135
+    },
+    {
+      "definition_id": "jp_a6m5a_1944",
+      "maneuver": "bank_turn",
+      "direction": -1,
+      "sample_count": 138,
+      "order_status": "completed",
+      "duration_s": 13.7666666666667,
+      "recomputed_speed_mps_range": [
+        115.02137872499182,
+        129.66136644780323
+      ],
+      "recomputed_altitude_m_range": [
+        2280.84228515625,
+        2399.99975585938
+      ],
+      "recomputed_velocity_path_pitch_deg_range": [
+        -5.869702746000102,
+        -0.008142443827742658
+      ],
+      "reported_roll_peak_deg": 71.53458584287203,
+      "reported_maximum_load_g": 2.3662015831525,
+      "reported_maximum_roll_rate_degps": 64.99999999999976
+    },
+    {
+      "definition_id": "jp_a6m5a_1944",
+      "maneuver": "climb_dive",
+      "direction": -1,
+      "sample_count": 164,
+      "order_status": "completed",
+      "duration_s": 16.3,
+      "recomputed_speed_mps_range": [
+        101.12288131939775,
+        115.50836853824038
+      ],
+      "recomputed_altitude_m_range": [
+        2400.00024414062,
+        2531.2333984375
+      ],
+      "recomputed_velocity_path_pitch_deg_range": [
+        -11.496894950859792,
+        11.543390616895607
+      ],
+      "reported_roll_peak_deg": 0.0,
+      "reported_maximum_load_g": 2.29854780790642,
+      "reported_maximum_roll_rate_degps": 0.0
+    },
+    {
+      "definition_id": "jp_a6m5a_1944",
+      "maneuver": "axial_roll",
+      "direction": -1,
+      "sample_count": 95,
+      "order_status": "completed",
+      "duration_s": 9.43333333333333,
+      "recomputed_speed_mps_range": [
+        115.02137872499182,
+        135.79331230859563
+      ],
+      "recomputed_altitude_m_range": [
+        2114.45971679688,
+        2399.99975585938
+      ],
+      "recomputed_velocity_path_pitch_deg_range": [
+        -25.905309262564998,
+        -0.008142443827742658
+      ],
+      "reported_roll_peak_deg": 363.77995399828364,
+      "reported_maximum_load_g": 3.82407122008419,
+      "reported_maximum_roll_rate_degps": 64.99999999999976
+    },
+    {
+      "definition_id": "jp_a6m5a_1944",
+      "maneuver": "roll_reversal",
+      "direction": -1,
+      "sample_count": 153,
+      "order_status": "completed",
+      "duration_s": 15.2,
+      "recomputed_speed_mps_range": [
+        115.02137872499182,
+        138.60430885702533
+      ],
+      "recomputed_altitude_m_range": [
+        2140.45654296875,
+        2399.99975585938
+      ],
+      "recomputed_velocity_path_pitch_deg_range": [
+        -11.748544601460525,
+        -0.008142443827742658
+      ],
+      "reported_roll_peak_deg": 70.22957844358483,
+      "reported_maximum_load_g": 2.46478729151251,
+      "reported_maximum_roll_rate_degps": 64.99999999999976
+    },
+    {
+      "definition_id": "jp_a6m5a_1944",
+      "maneuver": "split_s",
+      "direction": -1,
+      "sample_count": 128,
+      "order_status": "completed",
+      "duration_s": 12.75,
+      "recomputed_speed_mps_range": [
+        110.49428686433835,
+        127.40718945491574
+      ],
+      "recomputed_altitude_m_range": [
+        1683.83239746094,
+        2399.99975585938
+      ],
+      "recomputed_velocity_path_pitch_deg_range": [
+        -86.46656157684164,
+        -0.008144686531389176
+      ],
+      "reported_roll_peak_deg": 180.91666984997732,
+      "reported_maximum_load_g": 4.5,
+      "reported_maximum_roll_rate_degps": 64.99999999999976
+    }
+  ],
+  "preserved_dependencies": {
+    "data/aircraft/performance.json": {
+      "unchanged_from_pre_training": true,
+      "sha256": "58b024812d96856901a90c4a06c941f34349e45adea50e8f7feb36b75aed89cb"
+    },
+    "scripts/simulation/aircraft_motion/aircraft_motion.gd": {
+      "unchanged_from_pre_training": true,
+      "sha256": "92f6cbe23a808ba28e124b2deff9b301e785168fcb7dbc83aaafe9fe08af8c2a"
+    },
+    "scripts/showcase/sb2c_showcase_tasks.gd": {
+      "unchanged_from_pre_training": true,
+      "sha256": "7834b17cab1c6c10d488b8895fdec5a712c683c33e22a54a9472549ce616f226"
+    }
+  },
+  "native_frames_actually_viewed": [
+    {
+      "path": ".local/s04-training-frames/f6f-axial_roll/frame_0045.png",
+      "sha256": "80e394c4c48f2440121302c0aa61d33d37d71a37a9553bdcbc673748f0af1efc"
+    },
+    {
+      "path": ".local/s04-training-frames/f6f-axial_roll/frame_0090.png",
+      "sha256": "88b504102652a1a00dddb1f26839c5cb7ebbcfec1bfa6af094deaa940da754ab"
+    },
+    {
+      "path": ".local/s04-training-frames/f6f-axial_roll/frame_0145.png",
+      "sha256": "87325d46cc383e372e2bffd229f2fd6235f2f65bff6198b001eea32f04260fc1"
+    },
+    {
+      "path": ".local/s04-training-final-frames/a6m-axial_roll/frame_0045.png",
+      "sha256": "3cc64415e9c31c9b9188b4322d6f879b533351254b4b049ce301ab76cf99561b"
+    },
+    {
+      "path": ".local/s04-training-final-frames/a6m-axial_roll/frame_0125.png",
+      "sha256": "f6325c128cef058752fc79ac4df08073e1073c1109360e5526dbfd47ec047857"
+    },
+    {
+      "path": ".local/s04-training-final-frames/f6f-split_s/frame_0090.png",
+      "sha256": "433b17953af3c733dee8ff5f20317c6bb04c9ac3da7219994d0b81ec45dd29bd"
+    },
+    {
+      "path": ".local/s04-training-final-frames/f6f-split_s/frame_0145.png",
+      "sha256": "c4a44302416580e354058b09f66e601e38ce0132968a9f1d85e2c5af23d5c52d"
+    },
+    {
+      "path": ".local/s04-training-final-frames/f6f-roll_reversal/frame_0070.png",
+      "sha256": "34bd39fc153e594895d36f8bf8b9f8876502f658628903b0d1b7e155fde288f5"
+    },
+    {
+      "path": ".local/s04-training-final-frames/f6f-roll_reversal/frame_0160.png",
+      "sha256": "24b6e733bf6feebd4992eb73557cbc29ecd4d6540e60de3c21a549dfa085cc59"
+    },
+    {
+      "path": ".local/s04-training-final-frames/a6m-split_s/frame_0090.png",
+      "sha256": "26564e466742a20072a1d080856e3c428f0ca68b25e8d4b263b16130a70aa068"
+    },
+    {
+      "path": ".local/s04-training-final-frames/a6m-roll_reversal/frame_0150.png",
+      "sha256": "e82db3e0f05c37f354b9af522a41a78d0520357ae4aaa525e7ae3c7e08dff089"
+    },
+    {
+      "path": ".local/s04-training-final-frames/f6f-climb_dive/frame_0070.png",
+      "sha256": "7e13742b02ff27e0d2996e0649713456b896bfcc27816e2889325679e62c155e"
+    },
+    {
+      "path": ".local/s04-training-final-frames/a6m-climb_dive/frame_0170.png",
+      "sha256": "ffc75ae771bca2abc70134089b5d048281913a4362d651dd3c4b8a96cec62065"
+    },
+    {
+      "path": ".local/s04-training-final-frames/f6f-bank_turn/frame_0090.png",
+      "sha256": "594ee90d3ac4993183ee5289c7c9d5fb35a9f138bc9f1df976c374b74a7f2519"
+    },
+    {
+      "path": ".local/s04-training-final-frames/a6m-bank_turn/frame_0090.png",
+      "sha256": "c6ee0cc55666980c3cef026ff4ec77c60c73f59b89361aaaad8c8b7f96e19bc2"
+    },
+    {
+      "path": ".local/s04-training-final-frames/a6m-split_s/frame_0200.png",
+      "sha256": "1376e7d351d9d741e14a1eb4af8541a01c5ad2182e692c7639935147dcba9b27"
+    },
+    {
+      "path": ".local/s04-training-final-frames/f6f-axial_roll/frame_0045.png",
+      "sha256": "8d7be80f91d1a9ee77734201e69bd81242e699fae3ead4d0c4980c5a7bac9374"
+    },
+    {
+      "path": ".local/s04-training-final-frames/f6f-axial_roll/frame_0145.png",
+      "sha256": "9e1785db7716f3abd2e97227a8914e106474703338fe192690430b41a7ea1f2e"
+    }
+  ],
+  "native_observation": "实际查看18帧，含最终包15帧，覆盖两型和五类机动的关键姿态；主体清楚、世界地平线固定，轴滚倒飞/整圈改出、左右倾斜换向、半滚俯冲/反向改出可读。完整轨迹以原始连续样本核对，未声称播放整段视频。首轮F6F轴滚另3帧不代替最终包画面。",
+  "scope": "实现/接口、安全边界与原生视觉准入通过；S14场景消费和最终Chrome由后续覆盖，不宣称全场景或4倍性能通过。",
+  "frozen_source_files_checked": 450,
+  "frozen_source_mismatches": [],
+  "native_capture_integrity": [
+    {
+      "case": "a6m-axial_roll",
+      "recorded_frames": 187,
+      "actual_png_count": 187,
+      "completed": true,
+      "fps_capture_only": 15,
+      "samples": 63
+    },
+    {
+      "case": "a6m-bank_turn",
+      "recorded_frames": 252,
+      "actual_png_count": 252,
+      "completed": true,
+      "fps_capture_only": 15,
+      "samples": 84
+    },
+    {
+      "case": "a6m-climb_dive",
+      "recorded_frames": 290,
+      "actual_png_count": 290,
+      "completed": true,
+      "fps_capture_only": 15,
+      "samples": 97
+    },
+    {
+      "case": "a6m-roll_reversal",
+      "recorded_frames": 274,
+      "actual_png_count": 274,
+      "completed": true,
+      "fps_capture_only": 15,
+      "samples": 92
+    },
+    {
+      "case": "a6m-split_s",
+      "recorded_frames": 237,
+      "actual_png_count": 237,
+      "completed": true,
+      "fps_capture_only": 15,
+      "samples": 79
+    },
+    {
+      "case": "f6f-axial_roll",
+      "recorded_frames": 195,
+      "actual_png_count": 195,
+      "completed": true,
+      "fps_capture_only": 15,
+      "samples": 65
+    },
+    {
+      "case": "f6f-bank_turn",
+      "recorded_frames": 256,
+      "actual_png_count": 256,
+      "completed": true,
+      "fps_capture_only": 15,
+      "samples": 86
+    },
+    {
+      "case": "f6f-climb_dive",
+      "recorded_frames": 289,
+      "actual_png_count": 289,
+      "completed": true,
+      "fps_capture_only": 15,
+      "samples": 97
+    },
+    {
+      "case": "f6f-roll_reversal",
+      "recorded_frames": 280,
+      "actual_png_count": 280,
+      "completed": true,
+      "fps_capture_only": 15,
+      "samples": 94
+    },
+    {
+      "case": "f6f-split_s",
+      "recorded_frames": 246,
+      "actual_png_count": 246,
+      "completed": true,
+      "fps_capture_only": 15,
+      "samples": 82
+    }
+  ],
+  "native_total_frames": 2506,
+  "initial_vs_final_f6f_review_frames_equal": false,
+  "initial_vs_final_f6f_simulation_equal": true,
+  "initial_vs_final_f6f_visual_difference": "最终验证相机更靠近飞机；PNG并不相同。仅模拟样本（排除camera_position_m）、events和final对照。统筹另外实际看过最终frame45和145。",
+  "source_manifest_sha256": "6a94dbd9f994a466d51e0987dd6d1126f3152c8d5e05a9d5005432fe79947f07",
+  "evidence_manifest_sha256": "9ef35941d62e84f790372388b0bcacaa44cf987ba22df91c0f6a327981abd587",
+  "source_and_dependency_hashes_checked": 34,
+  "evidence_hashes_checked": 144,
+  "final_manifest_mismatches": [],
+  "checked_process_groups": 42,
+  "remaining_groups": [],
+  "checked_wrapper_and_audit_pids": 61,
+  "remaining_wrapper_and_audit_pids": [],
+  "unknown_cleanup": [],
+  "validation_reports": [
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T192957-d064b76a/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T193310-6ab1246a/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T193801-a78e0ad5/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 4,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T194141-8ecdb4fc/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T194440-1348331c/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 5,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T194829-a871e621/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T194833-ccdf84d9/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T194850-acf584f0/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T194908-f01b822a/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T194922-49bd79ef/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T194941-1ed4d9ea/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T195001-17a41d8c/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T195019-336dc59c/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T195037-cab24600/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T195051-e22c6463/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T195109-743892f2/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 2,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T195505-8565ac42/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 3,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T195529-0ba41e06/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 1,
+      "all_checks_passed": true
+    },
+    {
+      "path": "docs/showcase/evidence/S04-training/validation/20261110T195901-d950db24/report.json",
+      "passed": true,
+      "exit_code": 0,
+      "checks": 1,
+      "all_checks_passed": true
+    }
+  ],
+  "final_freeze_checks": {
+    "training_mechanisms": 52,
+    "training_safety": 68,
+    "original_aircraft_tasks": 40,
+    "coordinated_flight": 17,
+    "terrain_safety": 27,
+    "simulation_commands": "passed"
+  },
+  "passed": true,
+  "process_group_ids": [
+    71340,
+    71341,
+    71709,
+    71711,
+    72086,
+    72087,
+    72088,
+    72089,
+    72296,
+    72297,
+    72467,
+    72469,
+    72470,
+    72471,
+    72472,
+    72657,
+    72658,
+    72662,
+    72663,
+    72685,
+    72686,
+    72702,
+    72703,
+    72721,
+    72722,
+    72742,
+    72743,
+    72765,
+    72766,
+    72785,
+    72786,
+    72808,
+    72809,
+    72829,
+    72830,
+    72849,
+    72850,
+    73073,
+    73074,
+    73075,
+    73097,
+    73337
+  ],
+  "process_ids": [
+    71336,
+    71340,
+    71341,
+    71707,
+    71709,
+    71711,
+    72083,
+    72086,
+    72087,
+    72088,
+    72089,
+    72293,
+    72296,
+    72297,
+    72464,
+    72467,
+    72469,
+    72470,
+    72471,
+    72472,
+    72655,
+    72657,
+    72658,
+    72660,
+    72662,
+    72663,
+    72683,
+    72685,
+    72686,
+    72700,
+    72702,
+    72703,
+    72719,
+    72721,
+    72722,
+    72739,
+    72742,
+    72743,
+    72763,
+    72765,
+    72766,
+    72782,
+    72785,
+    72786,
+    72806,
+    72808,
+    72809,
+    72827,
+    72829,
+    72830,
+    72847,
+    72849,
+    72850,
+    73071,
+    73073,
+    73074,
+    73075,
+    73095,
+    73097,
+    73335,
+    73337
+  ]
+}

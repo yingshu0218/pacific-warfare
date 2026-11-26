@@ -1,0 +1,659 @@
+{
+  "scope": "Isolated CV02 1941 model/static cross-era A6M bearing/D4Y dimensions only; not OPS01",
+  "browserAutomation": "No browser automation plugin tools exposed; existing project local Playwright workflow used",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "deviceScaleFactor": 1,
+  "checks": [
+    {
+      "passed": true,
+      "name": "isolated project identity",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "actual render buffer / viewport / DPR",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "hardware WebGL",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "real keyboard camera switching",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view type89_open_module",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered type89_open_module",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view type89_smoke_module",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered type89_smoke_module",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view type96_module",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered type96_module",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view starboard_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered starboard_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view port_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered port_side",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view top",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered top",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view starboard_bow_quarter",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered starboard_bow_quarter",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view port_stern_quarter",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered port_stern_quarter",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view starboard_aft_twins",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered starboard_aft_twins",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view downturned_funnels",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered downturned_funnels",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view bow_underdeck",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered bow_underdeck",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view stern_underdeck",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered stern_underdeck",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view a6m_forward_park",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered a6m_forward_park",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view a6m_actual_wheels",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered a6m_actual_wheels",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view three_lifts_and_static_fit",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered three_lifts_and_static_fit",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view d4y2_dimension_proxy_only",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered d4y2_dimension_proxy_only",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "model/view forward_elevator_lowered",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "rendered forward_elevator_lowered",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "independent lift elevator_forward @ 4",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "independent lift elevator_forward @ 8.95",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "independent lift elevator_forward @ 14.15",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "independent lift elevator_middle @ 4",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "independent lift elevator_middle @ 8.95",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "independent lift elevator_middle @ 14.15",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "independent lift elevator_aft @ 4",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "independent lift elevator_aft @ 8.95",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "independent lift elevator_aft @ 14.15",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "isolated model p95 <=33.3ms (rounding .1ms)",
+      "detail": {
+        "durationMs": 6010.399999952317,
+        "frames": 360,
+        "meanMs": 16.666666666666668,
+        "p50Ms": 16.69999999999891,
+        "p95Ms": 17.600000000000364,
+        "p99Ms": 17.69999999999891,
+        "estimatedFps": 60,
+        "drawCalls": 270,
+        "primitives": 222066
+      }
+    },
+    {
+      "passed": true,
+      "name": "no page errors",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "engine / shader console health",
+      "detail": null
+    },
+    {
+      "passed": true,
+      "name": "no error overlay",
+      "detail": null
+    }
+  ],
+  "views": [
+    {
+      "id": "type89_open_module",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/type89_open_module.png",
+      "state": {
+        "command_id": 1,
+        "draw_calls": 270,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 10,
+        "index": 0,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 222066,
+        "sockets": 14,
+        "view": "type89_open_module"
+      },
+      "bytes": 37855
+    },
+    {
+      "id": "type89_smoke_module",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/type89_smoke_module.png",
+      "state": {
+        "command_id": 2,
+        "draw_calls": 10,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 25,
+        "index": 1,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 2816,
+        "sockets": 14,
+        "view": "type89_smoke_module"
+      },
+      "bytes": 41871
+    },
+    {
+      "id": "type96_module",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/type96_module.png",
+      "state": {
+        "command_id": 3,
+        "draw_calls": 8,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 41,
+        "index": 2,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 4658,
+        "sockets": 14,
+        "view": "type96_module"
+      },
+      "bytes": 38616
+    },
+    {
+      "id": "starboard_side",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/starboard_side.png",
+      "state": {
+        "command_id": 4,
+        "draw_calls": 10,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 57,
+        "index": 3,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 1774,
+        "sockets": 14,
+        "view": "starboard_side"
+      },
+      "bytes": 28433
+    },
+    {
+      "id": "port_side",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/port_side.png",
+      "state": {
+        "command_id": 5,
+        "draw_calls": 217,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 73,
+        "index": 4,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 156894,
+        "sockets": 14,
+        "view": "port_side"
+      },
+      "bytes": 51173
+    },
+    {
+      "id": "top",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/top.png",
+      "state": {
+        "command_id": 6,
+        "draw_calls": 266,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 89,
+        "index": 5,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 222726,
+        "sockets": 14,
+        "view": "top"
+      },
+      "bytes": 46186
+    },
+    {
+      "id": "starboard_bow_quarter",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/starboard_bow_quarter.png",
+      "state": {
+        "command_id": 7,
+        "draw_calls": 320,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 105,
+        "index": 6,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 234820,
+        "sockets": 14,
+        "view": "starboard_bow_quarter"
+      },
+      "bytes": 49142
+    },
+    {
+      "id": "port_stern_quarter",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/port_stern_quarter.png",
+      "state": {
+        "command_id": 8,
+        "draw_calls": 270,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 121,
+        "index": 7,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 222066,
+        "sockets": 14,
+        "view": "port_stern_quarter"
+      },
+      "bytes": 77163
+    },
+    {
+      "id": "starboard_aft_twins",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/starboard_aft_twins.png",
+      "state": {
+        "command_id": 9,
+        "draw_calls": 303,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 137,
+        "index": 8,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 229956,
+        "sockets": 14,
+        "view": "starboard_aft_twins"
+      },
+      "bytes": 99406
+    },
+    {
+      "id": "downturned_funnels",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/downturned_funnels.png",
+      "state": {
+        "command_id": 10,
+        "draw_calls": 105,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 153,
+        "index": 9,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 128512,
+        "sockets": 14,
+        "view": "downturned_funnels"
+      },
+      "bytes": 90353
+    },
+    {
+      "id": "bow_underdeck",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/bow_underdeck.png",
+      "state": {
+        "command_id": 11,
+        "draw_calls": 85,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 169,
+        "index": 10,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 119460,
+        "sockets": 14,
+        "view": "bow_underdeck"
+      },
+      "bytes": 32599
+    },
+    {
+      "id": "stern_underdeck",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/stern_underdeck.png",
+      "state": {
+        "command_id": 12,
+        "draw_calls": 48,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 184,
+        "index": 11,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 156910,
+        "sockets": 14,
+        "view": "stern_underdeck"
+      },
+      "bytes": 72016
+    },
+    {
+      "id": "a6m_forward_park",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/a6m_forward_park.png",
+      "state": {
+        "command_id": 13,
+        "draw_calls": 167,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 201,
+        "index": 12,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 407964,
+        "sockets": 14,
+        "view": "a6m_forward_park"
+      },
+      "bytes": 182487
+    },
+    {
+      "id": "a6m_actual_wheels",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/a6m_actual_wheels.png",
+      "state": {
+        "command_id": 14,
+        "draw_calls": 167,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 218,
+        "index": 13,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 407964,
+        "sockets": 14,
+        "view": "a6m_actual_wheels"
+      },
+      "bytes": 93580
+    },
+    {
+      "id": "three_lifts_and_static_fit",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/three_lifts_and_static_fit.png",
+      "state": {
+        "command_id": 15,
+        "draw_calls": 63,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 233,
+        "index": 14,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 132428,
+        "sockets": 14,
+        "view": "three_lifts_and_static_fit"
+      },
+      "bytes": 63062
+    },
+    {
+      "id": "d4y2_dimension_proxy_only",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/d4y2_dimension_proxy_only.png",
+      "state": {
+        "command_id": 16,
+        "draw_calls": 464,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 14.1499996185303,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 248,
+        "index": 15,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 761208,
+        "sockets": 14,
+        "view": "d4y2_dimension_proxy_only"
+      },
+      "bytes": 191752
+    },
+    {
+      "id": "forward_elevator_lowered",
+      "file": "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/CV02/chrome/forward_elevator_lowered.png",
+      "state": {
+        "command_id": 17,
+        "draw_calls": 100,
+        "elevator_heights": {
+          "elevator_aft": 14.1499996185303,
+          "elevator_forward": 4,
+          "elevator_middle": 14.1499996185303
+        },
+        "frames": 264,
+        "index": 16,
+        "model_id": "jp_shokaku_1941_08_23",
+        "primitives": 173858,
+        "sockets": 14,
+        "view": "forward_elevator_lowered"
+      },
+      "bytes": 127226
+    }
+  ],
+  "console": [],
+  "pageErrors": [],
+  "cleanup": {
+    "chromeClosed": true,
+    "serverClosed": true,
+    "privateProfileRemoved": true
+  },
+  "startedUtc": "2026-11-11T10:08:42.508Z",
+  "url": "http://127.0.0.1:60808/index.html",
+  "hardware": {
+    "cpu": "Apple M5",
+    "memoryBytes": 17179869184,
+    "os": "25.6.0"
+  },
+  "launch": "Private offscreen headful Chrome with hardware WebGL; no existing browser windows accessed",
+  "browserVersion": "157.0.8103.39",
+  "identity": {
+    "title": "CV02 Shokaku · isolated inspection",
+    "url": "http://127.0.0.1:60808/index.html",
+    "canvas": [
+      1440,
+      900,
+      1440,
+      900
+    ],
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "status": ""
+  },
+  "cadence": {
+    "durationMs": 6010.399999952317,
+    "frames": 360,
+    "meanMs": 16.666666666666668,
+    "p50Ms": 16.69999999999891,
+    "p95Ms": 17.600000000000364,
+    "p99Ms": 17.69999999999891,
+    "estimatedFps": 60,
+    "drawCalls": 270,
+    "primitives": 222066
+  },
+  "passed": true,
+  "finishedUtc": "2026-11-11T10:08:59.202Z"
+}

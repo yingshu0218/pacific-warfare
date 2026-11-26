@@ -1,0 +1,12 @@
+{
+  "air_inputs_unchanged_during_capture": true,
+  "air_input_files": 233,
+  "current_differences": {
+    "res://scripts/showcase/weapon_gallery.gd": {
+      "captured": "10d53dcf14f4ef9be1098ccec8c555d7095a19fb06348d493dbce69037fdf432",
+      "current": "a1d8749931399e32ed6a1f886b18b1205f29c69d891af306e33f4f045ac8a26f"
+    }
+  },
+  "expected_difference": "Only gallery plinth +8cm after isolated coplanar-face correction; no simulation/aircraft/camera change. Original gallery source in .local/s14-air-input.",
+  "capture_harness": "4db55972aff2ed21c99256d97c0cc215b39b4cdae3251a7039033859fbb16a35"
+}

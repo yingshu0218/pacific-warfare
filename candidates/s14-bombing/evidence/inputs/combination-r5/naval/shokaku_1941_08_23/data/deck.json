@@ -1,0 +1,1016 @@
+{
+  "schema_version": "0.1",
+  "ship_id": "jp_shokaku_1941_08_23",
+  "configuration_date": "1941-08-23",
+  "source_status": "S01 dated Shokaku photo + M01 model-manufacturer layout; P01 historical plan particulars. Ratios reconstructed, not as-built surveyed coordinates. See modeling-brief.md; 1944 full configuration NOT represented.",
+  "axes": {
+    "right": "+X",
+    "up": "+Y",
+    "forward": "-Z",
+    "origin": "257.5m overall hull midpoint at trial-condition waterline (mean draught 8.87m)",
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "flight_deck": {
+    "height_m": 14.15,
+    "thickness_m": 0.35,
+    "boundary_xz_m": [
+      [
+        -11.3,
+        -117.0
+      ],
+      [
+        9.8,
+        -117.0
+      ],
+      [
+        11.1,
+        -97.0
+      ],
+      [
+        12.5,
+        -70.0
+      ],
+      [
+        13.6,
+        -55.0
+      ],
+      [
+        14.0,
+        -30.0
+      ],
+      [
+        14.0,
+        116.8
+      ],
+      [
+        10.0,
+        125.2
+      ],
+      [
+        -11.2,
+        125.2
+      ],
+      [
+        -15.0,
+        117.0
+      ],
+      [
+        -15.0,
+        -36.0
+      ],
+      [
+        -14.4,
+        -57.0
+      ],
+      [
+        -13.2,
+        -85.0
+      ]
+    ],
+    "nominal_length_m": 242.2,
+    "nominal_max_width_m": 29.0,
+    "height_source_status": "P01 p3 plan 14.15m above trial waterline; cross-checked against S01. Reconstructed visible surface, not precision surveyed as-built height."
+  },
+  "obstacles": [
+    {
+      "id": "island_fore_mast",
+      "polygon_xz_m": [
+        [
+          10.4,
+          -52.8
+        ],
+        [
+          19.2,
+          -52.8
+        ],
+        [
+          19.2,
+          -29.5
+        ],
+        [
+          10.4,
+          -29.5
+        ]
+      ],
+      "bottom_m": 14.15,
+      "top_m": 32.0,
+      "host_id": "island"
+    },
+    {
+      "id": "starboard_exhaust_clearance",
+      "polygon_xz_m": [
+        [
+          13.35,
+          -24.8
+        ],
+        [
+          22.1,
+          -24.8
+        ],
+        [
+          22.1,
+          3.8
+        ],
+        [
+          13.35,
+          3.8
+        ]
+      ],
+      "bottom_m": 9.0,
+      "top_m": 14.4,
+      "host_id": "funnels"
+    },
+    {
+      "id": "maximum_envelope_dp_starboard_01",
+      "polygon_xz_m": [
+        [
+          11.3,
+          -81.9
+        ],
+        [
+          20.2,
+          -81.9
+        ],
+        [
+          20.2,
+          -71.1
+        ],
+        [
+          11.3,
+          -71.1
+        ]
+      ],
+      "bottom_m": 10.45,
+      "top_m": 15.79,
+      "host_id": "sponson_dp_starboard_01",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_dp_starboard_02",
+      "polygon_xz_m": [
+        [
+          11.3,
+          -63.4
+        ],
+        [
+          20.2,
+          -63.4
+        ],
+        [
+          20.2,
+          -52.6
+        ],
+        [
+          11.3,
+          -52.6
+        ]
+      ],
+      "bottom_m": 10.45,
+      "top_m": 15.79,
+      "host_id": "sponson_dp_starboard_02",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_dp_starboard_03",
+      "polygon_xz_m": [
+        [
+          11.3,
+          45.1
+        ],
+        [
+          20.2,
+          45.1
+        ],
+        [
+          20.2,
+          55.9
+        ],
+        [
+          11.3,
+          55.9
+        ]
+      ],
+      "bottom_m": 10.85,
+      "top_m": 16.19,
+      "host_id": "sponson_dp_starboard_03",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_dp_starboard_04",
+      "polygon_xz_m": [
+        [
+          11.3,
+          63.1
+        ],
+        [
+          20.2,
+          63.1
+        ],
+        [
+          20.2,
+          73.9
+        ],
+        [
+          11.3,
+          73.9
+        ]
+      ],
+      "bottom_m": 10.85,
+      "top_m": 16.19,
+      "host_id": "sponson_dp_starboard_04",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_dp_port_01",
+      "polygon_xz_m": [
+        [
+          -20.2,
+          -81.9
+        ],
+        [
+          -11.3,
+          -81.9
+        ],
+        [
+          -11.3,
+          -71.1
+        ],
+        [
+          -20.2,
+          -71.1
+        ]
+      ],
+      "bottom_m": 10.45,
+      "top_m": 15.79,
+      "host_id": "sponson_dp_port_01",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_dp_port_02",
+      "polygon_xz_m": [
+        [
+          -20.2,
+          -63.4
+        ],
+        [
+          -11.3,
+          -63.4
+        ],
+        [
+          -11.3,
+          -52.6
+        ],
+        [
+          -20.2,
+          -52.6
+        ]
+      ],
+      "bottom_m": 10.45,
+      "top_m": 15.79,
+      "host_id": "sponson_dp_port_02",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_dp_port_03",
+      "polygon_xz_m": [
+        [
+          -20.2,
+          45.1
+        ],
+        [
+          -11.3,
+          45.1
+        ],
+        [
+          -11.3,
+          55.9
+        ],
+        [
+          -20.2,
+          55.9
+        ]
+      ],
+      "bottom_m": 10.85,
+      "top_m": 16.19,
+      "host_id": "sponson_dp_port_03",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_dp_port_04",
+      "polygon_xz_m": [
+        [
+          -20.2,
+          63.1
+        ],
+        [
+          -11.3,
+          63.1
+        ],
+        [
+          -11.3,
+          73.9
+        ],
+        [
+          -20.2,
+          73.9
+        ]
+      ],
+      "bottom_m": 10.85,
+      "top_m": 16.19,
+      "host_id": "sponson_dp_port_04",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_aa25_port_01",
+      "polygon_xz_m": [
+        [
+          -18.0,
+          2.5
+        ],
+        [
+          -13.9,
+          2.5
+        ],
+        [
+          -13.9,
+          7.5
+        ],
+        [
+          -18.0,
+          7.5
+        ]
+      ],
+      "bottom_m": 12.25,
+      "top_m": 14.83,
+      "host_id": "gallery_aa25_port_01",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_aa25_port_02",
+      "polygon_xz_m": [
+        [
+          -18.0,
+          15.5
+        ],
+        [
+          -13.9,
+          15.5
+        ],
+        [
+          -13.9,
+          20.5
+        ],
+        [
+          -18.0,
+          20.5
+        ]
+      ],
+      "bottom_m": 12.25,
+      "top_m": 14.83,
+      "host_id": "gallery_aa25_port_02",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_aa25_port_03",
+      "polygon_xz_m": [
+        [
+          -18.0,
+          28.5
+        ],
+        [
+          -13.9,
+          28.5
+        ],
+        [
+          -13.9,
+          33.5
+        ],
+        [
+          -18.0,
+          33.5
+        ]
+      ],
+      "bottom_m": 12.25,
+      "top_m": 14.83,
+      "host_id": "gallery_aa25_port_03",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_aa25_port_04",
+      "polygon_xz_m": [
+        [
+          -18.0,
+          41.5
+        ],
+        [
+          -13.9,
+          41.5
+        ],
+        [
+          -13.9,
+          46.5
+        ],
+        [
+          -18.0,
+          46.5
+        ]
+      ],
+      "bottom_m": 12.25,
+      "top_m": 14.83,
+      "host_id": "gallery_aa25_port_04",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_aa25_starboard_05",
+      "polygon_xz_m": [
+        [
+          13.9,
+          12.5
+        ],
+        [
+          18.0,
+          12.5
+        ],
+        [
+          18.0,
+          17.5
+        ],
+        [
+          13.9,
+          17.5
+        ]
+      ],
+      "bottom_m": 12.25,
+      "top_m": 14.83,
+      "host_id": "gallery_aa25_starboard_05",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "maximum_envelope_aa25_starboard_06",
+      "polygon_xz_m": [
+        [
+          13.9,
+          25.5
+        ],
+        [
+          18.0,
+          25.5
+        ],
+        [
+          18.0,
+          30.5
+        ],
+        [
+          13.9,
+          30.5
+        ]
+      ],
+      "bottom_m": 12.25,
+      "top_m": 14.83,
+      "host_id": "gallery_aa25_starboard_06",
+      "source_status": "Conservative installed weapon-motion envelope; actual yaw/elevation remains independent"
+    },
+    {
+      "id": "radio_mast_1",
+      "polygon_xz_m": [
+        [
+          -16.5,
+          35.7
+        ],
+        [
+          -13.7,
+          35.7
+        ],
+        [
+          -13.7,
+          36.3
+        ],
+        [
+          -16.5,
+          36.3
+        ]
+      ],
+      "bottom_m": 14.15,
+      "top_m": 22.65,
+      "host_id": "equipment",
+      "source_status": "Visible upright mast; folding mechanism is outside CV02 v1"
+    },
+    {
+      "id": "radio_mast_2",
+      "polygon_xz_m": [
+        [
+          -16.5,
+          61.2
+        ],
+        [
+          -13.7,
+          61.2
+        ],
+        [
+          -13.7,
+          61.8
+        ],
+        [
+          -16.5,
+          61.8
+        ]
+      ],
+      "bottom_m": 14.15,
+      "top_m": 22.65,
+      "host_id": "equipment",
+      "source_status": "Visible upright mast; folding mechanism is outside CV02 v1"
+    },
+    {
+      "id": "radio_mast_3",
+      "polygon_xz_m": [
+        [
+          12.799999999999999,
+          87.7
+        ],
+        [
+          15.6,
+          87.7
+        ],
+        [
+          15.6,
+          88.3
+        ],
+        [
+          12.799999999999999,
+          88.3
+        ]
+      ],
+      "bottom_m": 14.15,
+      "top_m": 22.65,
+      "host_id": "equipment",
+      "source_status": "Visible upright mast; folding mechanism is outside CV02 v1"
+    }
+  ],
+  "reference_lines": [
+    {
+      "id": "takeoff_axial",
+      "kind": "takeoff",
+      "points_m": [
+        [
+          0,
+          14.15,
+          51
+        ],
+        [
+          0,
+          14.15,
+          -115
+        ]
+      ],
+      "half_width_m": 6.2,
+      "source_status": "geometric axial reference only; no catapult; OPS selects run/wind/occupancy"
+    },
+    {
+      "id": "landing_axial",
+      "kind": "landing",
+      "points_m": [
+        [
+          0,
+          14.15,
+          123
+        ],
+        [
+          0,
+          14.15,
+          54
+        ],
+        [
+          0,
+          14.15,
+          -18
+        ]
+      ],
+      "half_width_m": 6.2,
+      "source_status": "axial reference; elevators must be raised; landing and parking are mutually exclusive"
+    }
+  ],
+  "zones": [
+    {
+      "id": "forward_park",
+      "kind": "parking",
+      "polygon_xz_m": [
+        [
+          -10.5,
+          -99
+        ],
+        [
+          9.0,
+          -99
+        ],
+        [
+          9.0,
+          -65
+        ],
+        [
+          -10.5,
+          -65
+        ]
+      ],
+      "height_m": 14.15,
+      "requires_folded_wings": false
+    },
+    {
+      "id": "mid_park",
+      "kind": "parking",
+      "polygon_xz_m": [
+        [
+          -10.5,
+          -17
+        ],
+        [
+          8.5,
+          -17
+        ],
+        [
+          8.5,
+          9
+        ],
+        [
+          -10.5,
+          9
+        ]
+      ],
+      "height_m": 14.15,
+      "requires_folded_wings": false
+    },
+    {
+      "id": "aft_park",
+      "kind": "parking",
+      "polygon_xz_m": [
+        [
+          -10.5,
+          48
+        ],
+        [
+          9.5,
+          48
+        ],
+        [
+          9.5,
+          68
+        ],
+        [
+          -10.5,
+          68
+        ]
+      ],
+      "height_m": 14.15,
+      "requires_folded_wings": false
+    },
+    {
+      "id": "bow_hold",
+      "kind": "holding",
+      "polygon_xz_m": [
+        [
+          -9,
+          -111
+        ],
+        [
+          9,
+          -111
+        ],
+        [
+          9,
+          -101
+        ],
+        [
+          -9,
+          -101
+        ]
+      ],
+      "height_m": 14.15,
+      "requires_folded_wings": false
+    },
+    {
+      "id": "landing_exit",
+      "kind": "exit",
+      "polygon_xz_m": [
+        [
+          -10,
+          -17
+        ],
+        [
+          8,
+          -17
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          -10,
+          9
+        ]
+      ],
+      "height_m": 14.15,
+      "requires_folded_wings": false
+    }
+  ],
+  "elevators": [
+    {
+      "id": "elevator_forward",
+      "center_xz_m": [
+        0,
+        -43.5
+      ],
+      "size_xz_m": [
+        16.0,
+        13.0
+      ],
+      "upper_height_m": 14.15,
+      "lower_height_m": 4.0,
+      "intermediate_height_m": 8.95,
+      "translation_axis": [
+        0,
+        1,
+        0
+      ],
+      "node_path": "FlightDeck/Elevators/elevator_forward",
+      "opening": "inboard",
+      "corner_radius_m": 0.0,
+      "source_status": "M01 layout-ratio centre; reported platform size, transverse x longitudinal. Travel limits approximate hangar-floor reconstruction; no interior circulation claim."
+    },
+    {
+      "id": "elevator_middle",
+      "center_xz_m": [
+        0,
+        29.0
+      ],
+      "size_xz_m": [
+        12.0,
+        13.0
+      ],
+      "upper_height_m": 14.15,
+      "lower_height_m": 4.0,
+      "intermediate_height_m": 8.95,
+      "translation_axis": [
+        0,
+        1,
+        0
+      ],
+      "node_path": "FlightDeck/Elevators/elevator_middle",
+      "opening": "inboard",
+      "corner_radius_m": 0.0,
+      "source_status": "M01 layout-ratio centre; reported platform size, transverse x longitudinal. Travel limits approximate hangar-floor reconstruction; no interior circulation claim."
+    },
+    {
+      "id": "elevator_aft",
+      "center_xz_m": [
+        0,
+        84.5
+      ],
+      "size_xz_m": [
+        12.0,
+        13.0
+      ],
+      "upper_height_m": 14.15,
+      "lower_height_m": 4.0,
+      "intermediate_height_m": 8.95,
+      "translation_axis": [
+        0,
+        1,
+        0
+      ],
+      "node_path": "FlightDeck/Elevators/elevator_aft",
+      "opening": "inboard",
+      "corner_radius_m": 0.0,
+      "source_status": "M01 layout-ratio centre; reported platform size, transverse x longitudinal. Travel limits approximate hangar-floor reconstruction; no interior circulation claim."
+    }
+  ],
+  "paths": [
+    {
+      "id": "holding_to_axial",
+      "kind": "holding",
+      "points_m": [
+        [
+          0,
+          14.15,
+          58
+        ],
+        [
+          0,
+          14.15,
+          6
+        ],
+        [
+          0,
+          14.15,
+          -95
+        ]
+      ],
+      "half_width_m": 6.2
+    },
+    {
+      "id": "axial_exit",
+      "kind": "exit",
+      "points_m": [
+        [
+          0,
+          14.15,
+          45
+        ],
+        [
+          0,
+          14.15,
+          8
+        ],
+        [
+          0,
+          14.15,
+          -10
+        ]
+      ],
+      "half_width_m": 6.2
+    }
+  ],
+  "arresting_wires": [
+    {
+      "id": "reconstructed_wire_01",
+      "points_m": [
+        [
+          -12.0,
+          14.31,
+          74.0
+        ],
+        [
+          11.5,
+          14.31,
+          74.0
+        ]
+      ],
+      "source_status": "V1 functional reconstruction, NOT verified individual historical station or total. M01 p4 shows transverse wires; A11 pp18-20 explains contemporary IJN gear. Nine visible candidate wires clear all lift openings.",
+      "historical_station_verified": false
+    },
+    {
+      "id": "reconstructed_wire_02",
+      "points_m": [
+        [
+          -12.0,
+          14.31,
+          66.0
+        ],
+        [
+          11.5,
+          14.31,
+          66.0
+        ]
+      ],
+      "source_status": "V1 functional reconstruction, NOT verified individual historical station or total. M01 p4 shows transverse wires; A11 pp18-20 explains contemporary IJN gear. Nine visible candidate wires clear all lift openings.",
+      "historical_station_verified": false
+    },
+    {
+      "id": "reconstructed_wire_03",
+      "points_m": [
+        [
+          -12.0,
+          14.31,
+          58.0
+        ],
+        [
+          11.5,
+          14.31,
+          58.0
+        ]
+      ],
+      "source_status": "V1 functional reconstruction, NOT verified individual historical station or total. M01 p4 shows transverse wires; A11 pp18-20 explains contemporary IJN gear. Nine visible candidate wires clear all lift openings.",
+      "historical_station_verified": false
+    },
+    {
+      "id": "reconstructed_wire_04",
+      "points_m": [
+        [
+          -12.0,
+          14.31,
+          50.0
+        ],
+        [
+          11.5,
+          14.31,
+          50.0
+        ]
+      ],
+      "source_status": "V1 functional reconstruction, NOT verified individual historical station or total. M01 p4 shows transverse wires; A11 pp18-20 explains contemporary IJN gear. Nine visible candidate wires clear all lift openings.",
+      "historical_station_verified": false
+    },
+    {
+      "id": "reconstructed_wire_05",
+      "points_m": [
+        [
+          -12.0,
+          14.31,
+          42.0
+        ],
+        [
+          11.5,
+          14.31,
+          42.0
+        ]
+      ],
+      "source_status": "V1 functional reconstruction, NOT verified individual historical station or total. M01 p4 shows transverse wires; A11 pp18-20 explains contemporary IJN gear. Nine visible candidate wires clear all lift openings.",
+      "historical_station_verified": false
+    },
+    {
+      "id": "reconstructed_wire_06",
+      "points_m": [
+        [
+          -12.0,
+          14.31,
+          18.0
+        ],
+        [
+          11.5,
+          14.31,
+          18.0
+        ]
+      ],
+      "source_status": "V1 functional reconstruction, NOT verified individual historical station or total. M01 p4 shows transverse wires; A11 pp18-20 explains contemporary IJN gear. Nine visible candidate wires clear all lift openings.",
+      "historical_station_verified": false
+    },
+    {
+      "id": "reconstructed_wire_07",
+      "points_m": [
+        [
+          -12.0,
+          14.31,
+          10.0
+        ],
+        [
+          11.5,
+          14.31,
+          10.0
+        ]
+      ],
+      "source_status": "V1 functional reconstruction, NOT verified individual historical station or total. M01 p4 shows transverse wires; A11 pp18-20 explains contemporary IJN gear. Nine visible candidate wires clear all lift openings.",
+      "historical_station_verified": false
+    },
+    {
+      "id": "reconstructed_wire_08",
+      "points_m": [
+        [
+          -12.0,
+          14.31,
+          2.0
+        ],
+        [
+          11.5,
+          14.31,
+          2.0
+        ]
+      ],
+      "source_status": "V1 functional reconstruction, NOT verified individual historical station or total. M01 p4 shows transverse wires; A11 pp18-20 explains contemporary IJN gear. Nine visible candidate wires clear all lift openings.",
+      "historical_station_verified": false
+    },
+    {
+      "id": "reconstructed_wire_09",
+      "points_m": [
+        [
+          -12.0,
+          14.31,
+          -6.0
+        ],
+        [
+          11.5,
+          14.31,
+          -6.0
+        ]
+      ],
+      "source_status": "V1 functional reconstruction, NOT verified individual historical station or total. M01 p4 shows transverse wires; A11 pp18-20 explains contemporary IJN gear. Nine visible candidate wires clear all lift openings.",
+      "historical_station_verified": false
+    }
+  ],
+  "barriers": [
+    {
+      "id": "reconstructed_bridge_barrier",
+      "points_m": [
+        [
+          -12.0,
+          14.17,
+          -24.0
+        ],
+        [
+          10.0,
+          14.17,
+          -24.0
+        ]
+      ],
+      "source_status": "Lowered barrier sill only. M01 p4 and A11 p20 support general installation; exact Shokaku 1941 station remains a functional estimate.",
+      "historical_station_verified": false
+    }
+  ],
+  "catapults": [],
+  "arresting_equipment_status": {
+    "historical_confirmed": "Transverse arresting wires and crash barriers are shown in Shokaku M01 reconstruction; original USNTMJ A11 pp18-20 confirms IJN cross-deck arresting system and early electric Kure versus later hydraulic types.",
+    "historical_uncertain": "Selected primary source does not establish Shokaku 1941 exact wire count, Type4 identification or individual station coordinates; published secondary counts disagree (9 / 10). No claim that the game nine are the historical total.",
+    "game_fit": "9 visible transverse wire segments at 0.16m above deck, one lowered barrier sill. Functional coordinate reconstruction with no arresting dynamics. OPS01 must validate aircraft hook / wire engagement separately."
+  },
+  "unverified_equipment": "Exact historical wire/barrier stations and arresting-engine internals unresolved. Wire geometry is explicitly functional reconstruction; no catapult or completed recovery claim."
+}

@@ -1,0 +1,967 @@
+{
+	"baseline": {
+		"modules": {
+			"aircraft_motion": {
+				"unit_ids": []
+			},
+			"aircraft_tasks": {
+				"command_serial": 0,
+				"homes": {},
+				"rosters": {},
+				"submitted_targets": {},
+				"tasks": {}
+			},
+			"fleet_commander": {
+				"last_receipts": [],
+				"next_decision_s": 30.0166666666667,
+				"planner": {
+					"memory": {
+						"jp": {
+							"air_target": "",
+							"air_threat": false,
+							"flagship": "core",
+							"had_contact": false,
+							"last_issue": {
+								"core": 0.0166666666666667,
+								"screen": 0.0166666666666667
+							},
+							"last_surface_s": -1e99999,
+							"signatures": {
+								"core": "patrol:search_no_contact",
+								"screen": "escort:protect_core"
+							},
+							"surface_target": ""
+						},
+						"us": {
+							"air_target": "",
+							"air_threat": false,
+							"flagship": "",
+							"had_contact": false,
+							"last_issue": {},
+							"last_surface_s": -1e99999,
+							"signatures": {},
+							"surface_target": ""
+						}
+					},
+					"serial": 2
+				}
+			},
+			"fleet_tasks": {
+				"fleets": {
+					"fleet_ai:jp:0001": {
+						"leader_id": "core",
+						"roster": [
+							"core"
+						],
+						"settled_s": -1.0
+					},
+					"fleet_ai:jp:0002": {
+						"leader_id": "screen",
+						"roster": [
+							"screen"
+						],
+						"settled_s": -1.0
+					}
+				},
+				"serial": 0,
+				"targets": {},
+				"tasks": {
+					"core": {
+						"broadside_sign": 0.0,
+						"last_point": [
+							-4000.0,
+							0.0,
+							-2000.0
+						],
+						"last_seen_s": 0.0333333333333333,
+						"order_id": "fleet_ai:jp:0001",
+						"phase": "cruise",
+						"reason": "following_route",
+						"seen": false,
+						"waypoint": 0
+					},
+					"screen": {
+						"broadside_sign": 0.0,
+						"last_point": [
+							0.0,
+							0.0,
+							0.0
+						],
+						"last_seen_s": 0.0333333333333333,
+						"order_id": "fleet_ai:jp:0002",
+						"phase": "guard",
+						"reason": "core_protection",
+						"seen": false,
+						"waypoint": 0
+					}
+				}
+			},
+			"ship_motion": {
+				"avoidance": {},
+				"routes": {},
+				"unit_ids": [
+					"core",
+					"screen"
+				]
+			},
+			"test_fleet_contact_publisher": {}
+		},
+		"orders": [
+			{
+				"area": {
+					"center_m": [
+						-4000.0,
+						0.0,
+						-2000.0
+					],
+					"radius_m": 1800.0
+				},
+				"assigned_unit_ids": [
+					"core"
+				],
+				"changed_tick": 2,
+				"execution": {
+					"core": {
+						"changed_tick": 2,
+						"module_id": "fleet_tasks",
+						"progress": "cruise",
+						"reason": "following_route",
+						"replacement_order_id": "",
+						"status": "executing"
+					}
+				},
+				"faction_id": "jp",
+				"history": [
+					{
+						"reason": "dispatched",
+						"status": "issued",
+						"tick": 2
+					},
+					{
+						"progress": "",
+						"reason": "domain_executors_accepted",
+						"status": "received",
+						"tick": 2
+					},
+					{
+						"progress": "forming",
+						"reason": "ship_task_received",
+						"status": "executing",
+						"tick": 2
+					}
+				],
+				"intent": "search_no_contact",
+				"issued_tick": 2,
+				"issuer_id": "jp_commander",
+				"order_id": "fleet_ai:jp:0001",
+				"order_type": "patrol",
+				"progress": "forming",
+				"reason": "ship_task_received",
+				"received_tick": 2,
+				"recipient_ids": [
+					"core"
+				],
+				"replacement_order_id": "",
+				"source": "ai",
+				"status": "executing",
+				"target_id": "",
+				"waypoints_m": []
+			},
+			{
+				"area": {
+					"center_m": [
+						0.0,
+						0.0,
+						0.0
+					],
+					"radius_m": 3500.0
+				},
+				"assigned_unit_ids": [
+					"screen"
+				],
+				"changed_tick": 2,
+				"execution": {
+					"screen": {
+						"changed_tick": 2,
+						"module_id": "fleet_tasks",
+						"progress": "guard",
+						"reason": "core_protection",
+						"replacement_order_id": "",
+						"status": "executing"
+					}
+				},
+				"faction_id": "jp",
+				"history": [
+					{
+						"reason": "dispatched",
+						"status": "issued",
+						"tick": 2
+					},
+					{
+						"progress": "",
+						"reason": "domain_executors_accepted",
+						"status": "received",
+						"tick": 2
+					},
+					{
+						"progress": "forming",
+						"reason": "ship_task_received",
+						"status": "executing",
+						"tick": 2
+					}
+				],
+				"intent": "protect_core",
+				"issued_tick": 2,
+				"issuer_id": "jp_commander",
+				"order_id": "fleet_ai:jp:0002",
+				"order_type": "escort",
+				"progress": "forming",
+				"reason": "ship_task_received",
+				"received_tick": 2,
+				"recipient_ids": [
+					"screen"
+				],
+				"replacement_order_id": "",
+				"source": "ai",
+				"status": "executing",
+				"target_id": "core",
+				"waypoints_m": []
+			}
+		],
+		"tick": 1800,
+		"units": {
+			"core": {
+				"active": true,
+				"active_order_id": "fleet_ai:jp:0001",
+				"cease_fire": false,
+				"definition_id": "jp_yamato_1944_04",
+				"faction_id": "jp",
+				"id": "core",
+				"module_data": {
+					"combat_intent": {
+						"allow_aa": true,
+						"fire": false
+					},
+					"fleet_formation": {
+						"leader_id": "core",
+						"reforming": false,
+						"role": "leader",
+						"slot": -1
+					},
+					"ship_control": {
+						"goal_m": [
+							-5260.0,
+							0.0,
+							-3260.0
+						],
+						"speed_mps": 10.0
+					},
+					"ship_initial": {},
+					"ship_motion": {
+						"avoidance_id": "",
+						"avoidance_reason": "",
+						"distance_m": 234.657391451299,
+						"exit_reason": "",
+						"exited": false,
+						"fuel_fraction": 0.99991597766118,
+						"speed_mps": 8.64674777475993,
+						"turn_rate_radps": 0.0205853121621268
+					}
+				},
+				"position_m": [
+					-44.7727432250977,
+					0.0,
+					-227.805725097656
+				],
+				"rotation_rad": [
+					0.0,
+					0.462157607078552,
+					0.0
+				],
+				"target_id": "",
+				"task": {
+					"order_id": "fleet_ai:jp:0001",
+					"order_type": "patrol",
+					"ship": {
+						"distance_m": 6032.7646484375,
+						"goal_m": [
+							-5260.0,
+							0.0,
+							-3260.0
+						],
+						"leader_id": "core",
+						"order_id": "fleet_ai:jp:0001",
+						"phase": "cruise",
+						"reason": "following_route",
+						"slot": -1
+					}
+				},
+				"velocity_mps": [
+					-3.85541534423828,
+					0.0,
+					-7.73963928222656
+				],
+				"weapons": {
+					"bridge_mg_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type93_13mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/bridge_mg_01",
+						"mount_id": "bridge_mg_01",
+						"remaining_rounds": [
+							1000,
+							1000
+						],
+						"train_rad": 0.0
+					},
+					"bridge_mg_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type93_13mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/bridge_mg_02",
+						"mount_id": "bridge_mg_02",
+						"remaining_rounds": [
+							1000,
+							1000
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_01",
+						"mount_id": "heavy_aa_01",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_02",
+						"mount_id": "heavy_aa_02",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_03",
+						"mount_id": "heavy_aa_03",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_04": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_04",
+						"mount_id": "heavy_aa_04",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_05": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_05",
+						"mount_id": "heavy_aa_05",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_06": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_06",
+						"mount_id": "heavy_aa_06",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_07": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_07",
+						"mount_id": "heavy_aa_07",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_08": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_08",
+						"mount_id": "heavy_aa_08",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_09": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_09",
+						"mount_id": "heavy_aa_09",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_10": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_10",
+						"mount_id": "heavy_aa_10",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_11": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_11",
+						"mount_id": "heavy_aa_11",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"heavy_aa_12": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type89_127mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/heavy_aa_12",
+						"mount_id": "heavy_aa_12",
+						"remaining_rounds": [
+							200,
+							200
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_01",
+						"mount_id": "light_aa_01",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_04": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_04",
+						"mount_id": "light_aa_04",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_07": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_07",
+						"mount_id": "light_aa_07",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_08": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_08",
+						"mount_id": "light_aa_08",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_09": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_09",
+						"mount_id": "light_aa_09",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_10": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_10",
+						"mount_id": "light_aa_10",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_17": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_17",
+						"mount_id": "light_aa_17",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_20": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_20",
+						"mount_id": "light_aa_20",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_23": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_23",
+						"mount_id": "light_aa_23",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_24": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_24",
+						"mount_id": "light_aa_24",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_25": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_25",
+						"mount_id": "light_aa_25",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"light_aa_26": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/light_aa_26",
+						"mount_id": "light_aa_26",
+						"remaining_rounds": [
+							800,
+							800,
+							800
+						],
+						"train_rad": 0.0
+					},
+					"main_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type94_460mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/main_01",
+						"mount_id": "main_01",
+						"remaining_rounds": [
+							100,
+							100,
+							100
+						],
+						"train_rad": 0.0
+					},
+					"main_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type94_460mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/main_02",
+						"mount_id": "main_02",
+						"remaining_rounds": [
+							100,
+							100,
+							100
+						],
+						"train_rad": 0.0
+					},
+					"main_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type94_460mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/main_03",
+						"mount_id": "main_03",
+						"remaining_rounds": [
+							100,
+							100,
+							100
+						],
+						"train_rad": 0.0
+					},
+					"secondary_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type3_155mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/secondary_01",
+						"mount_id": "secondary_01",
+						"remaining_rounds": [
+							150,
+							150,
+							150
+						],
+						"train_rad": 0.0
+					},
+					"secondary_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type3_155mm_triple",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/secondary_02",
+						"mount_id": "secondary_02",
+						"remaining_rounds": [
+							150,
+							150,
+							150
+						],
+						"train_rad": 0.0
+					},
+					"single_aa_01": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/single_aa_01",
+						"mount_id": "single_aa_01",
+						"remaining_rounds": [
+							800
+						],
+						"train_rad": 0.0
+					},
+					"single_aa_02": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/single_aa_02",
+						"mount_id": "single_aa_02",
+						"remaining_rounds": [
+							800
+						],
+						"train_rad": 0.0
+					},
+					"single_aa_03": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/single_aa_03",
+						"mount_id": "single_aa_03",
+						"remaining_rounds": [
+							800
+						],
+						"train_rad": 0.0
+					},
+					"single_aa_04": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/single_aa_04",
+						"mount_id": "single_aa_04",
+						"remaining_rounds": [
+							800
+						],
+						"train_rad": 0.0
+					},
+					"single_aa_05": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/single_aa_05",
+						"mount_id": "single_aa_05",
+						"remaining_rounds": [
+							800
+						],
+						"train_rad": 0.0
+					},
+					"single_aa_06": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/single_aa_06",
+						"mount_id": "single_aa_06",
+						"remaining_rounds": [
+							800
+						],
+						"train_rad": 0.0
+					},
+					"single_aa_07": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/single_aa_07",
+						"mount_id": "single_aa_07",
+						"remaining_rounds": [
+							800
+						],
+						"train_rad": 0.0
+					},
+					"single_aa_08": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "jp_type96_25mm_single",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "core/single_aa_08",
+						"mount_id": "single_aa_08",
+						"remaining_rounds": [
+							800
+						],
+						"train_rad": 0.0
+					}
+				}
+			},
+			"screen": {
+				"active": true,
+				"active_order_id": "fleet_ai:jp:0002",
+				"cease_fire": false,
+				"definition_id": "jp_yukikaze_1942_06",
+				"faction_id": "jp",
+				"id": "screen",
+				"module_data": {
+					"combat_intent": {
+						"allow_aa": true,
+						"fire": false
+					},
+					"fleet_formation": {
+						"leader_id": "screen",
+						"reforming": false,
+						"role": "leader",
+						"slot": -1
+					},
+					"ship_control": {
+						"goal_m": [
+							-770.303833007812,
+							0.0,
+							-294.076477050781
+						],
+						"speed_mps": 17.1498368453979
+					},
+					"ship_initial": {},
+					"ship_motion": {
+						"avoidance_id": "",
+						"avoidance_reason": "",
+						"distance_m": 261.59307038784,
+						"exit_reason": "",
+						"exited": false,
+						"fuel_fraction": 0.999930758974115,
+						"speed_mps": 10.4449489313761,
+						"turn_rate_radps": 0.0080521721855287
+					}
+				},
+				"position_m": [
+					-630.939636230469,
+					0.0,
+					438.823852539062
+				],
+				"rotation_rad": [
+					0.0,
+					0.120928078889847,
+					0.0
+				],
+				"target_id": "",
+				"task": {
+					"order_id": "fleet_ai:jp:0002",
+					"order_type": "escort",
+					"ship": {
+						"distance_m": 746.206726074219,
+						"goal_m": [
+							-770.303833007812,
+							0.0,
+							-294.076477050781
+						],
+						"leader_id": "screen",
+						"order_id": "fleet_ai:jp:0002",
+						"phase": "guard",
+						"reason": "core_protection",
+						"slot": -1
+					}
+				},
+				"velocity_mps": [
+					-1.26001143455505,
+					0.0,
+					-10.368670463562
+				],
+				"weapons": {
+					"aa_25_port": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "s03_jp_type96_25mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "screen/aa_25_port",
+						"mount_id": "aa_25_port",
+						"remaining_rounds": [
+							1500,
+							1500
+						],
+						"train_rad": 0.0
+					},
+					"aa_25_starboard": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "s03_jp_type96_25mm_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "screen/aa_25_starboard",
+						"mount_id": "aa_25_starboard",
+						"remaining_rounds": [
+							1500,
+							1500
+						],
+						"train_rad": 0.0
+					},
+					"main_a": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "s03_jp_127mm_type3_c_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "screen/main_a",
+						"mount_id": "main_a",
+						"remaining_rounds": [
+							150,
+							150
+						],
+						"train_rad": 0.0
+					},
+					"main_x": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "s03_jp_127mm_type3_c_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "screen/main_x",
+						"mount_id": "main_x",
+						"remaining_rounds": [
+							150,
+							150
+						],
+						"train_rad": 0.0
+					},
+					"main_y": {
+						"cycle_remaining_s": 0.0,
+						"definition_id": "s03_jp_127mm_type3_c_twin",
+						"elevation_rad": 0.0,
+						"enabled": true,
+						"id": "screen/main_y",
+						"mount_id": "main_y",
+						"remaining_rounds": [
+							150,
+							150
+						],
+						"train_rad": 0.0
+					}
+				}
+			}
+		}
+	},
+	"checks": 13,
+	"failures": 0,
+	"reset_replays": 3
+}

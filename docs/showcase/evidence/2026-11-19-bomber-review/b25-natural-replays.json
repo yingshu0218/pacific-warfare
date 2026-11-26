@@ -1,0 +1,1831 @@
+[
+  {
+    "scene": "s14_intercept_b25",
+    "time_s": 125.0,
+    "seed": 707.0,
+    "before": {
+      "b25_fired": 0,
+      "zero_fired_at_b25": 86
+    },
+    "after": {
+      "b25_fired": 76,
+      "zero_fired_at_b25": 54,
+      "bombs_released": {
+        "bomber": 6
+      },
+      "subjects": {
+        "bomber": {
+          "first_turn_sample_s": 33.0166666666667,
+          "first_shot_s": 34.0833333333333,
+          "first_target": "fighter",
+          "shots": 46,
+          "initial_ammo_per_barrel": [
+            36,
+            36
+          ],
+          "remaining_per_barrel": [
+            13,
+            13
+          ],
+          "last_mission": "regroup"
+        },
+        "wing": {
+          "first_turn_sample_s": 24.0166666666667,
+          "first_shot_s": 25.4333333333333,
+          "first_target": "fighter",
+          "shots": 30,
+          "initial_ammo_per_barrel": [
+            36,
+            36
+          ],
+          "remaining_per_barrel": [
+            21,
+            21
+          ],
+          "last_mission": "released"
+        }
+      }
+    },
+    "real_source_events": [
+      {
+        "s": 25.4333333333333,
+        "seq": 45,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 25.4333333333333,
+        "seq": 46,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 25.6833333333333,
+        "seq": 47,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 25.6833333333333,
+        "seq": 48,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 25.9166666666667,
+        "seq": 49,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 25.9166666666667,
+        "seq": 50,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 26.1666666666667,
+        "seq": 51,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 26.1666666666667,
+        "seq": 52,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 26.4,
+        "seq": 53,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 26.4,
+        "seq": 54,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 26.6333333333333,
+        "seq": 56,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 26.6333333333333,
+        "seq": 57,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 26.8833333333333,
+        "seq": 67,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 26.8833333333333,
+        "seq": 68,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 27.1166666666667,
+        "seq": 79,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 27.1166666666667,
+        "seq": 80,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 27.3666666666667,
+        "seq": 82,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 27.3666666666667,
+        "seq": 83,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 27.6,
+        "seq": 84,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 27.6,
+        "seq": 85,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 27.8333333333333,
+        "seq": 90,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 27.8333333333333,
+        "seq": 91,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 28.0833333333333,
+        "seq": 101,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 28.0833333333333,
+        "seq": 102,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 28.3166666666667,
+        "seq": 110,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 28.3166666666667,
+        "seq": 111,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 28.5666666666667,
+        "seq": 112,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 28.5666666666667,
+        "seq": 113,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 28.8,
+        "seq": 120,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 28.8,
+        "seq": 121,
+        "shooter": "wing",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "wing/dorsal"
+      },
+      {
+        "s": 34.0833333333333,
+        "seq": 236,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 34.0833333333333,
+        "seq": 237,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 34.3333333333333,
+        "seq": 245,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 34.3333333333333,
+        "seq": 246,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 34.5666666666667,
+        "seq": 249,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 34.5666666666667,
+        "seq": 250,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 34.8166666666667,
+        "seq": 251,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 34.8166666666667,
+        "seq": 252,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 35.05,
+        "seq": 253,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 35.05,
+        "seq": 254,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 35.2833333333333,
+        "seq": 255,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 35.2833333333333,
+        "seq": 256,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 35.5333333333333,
+        "seq": 258,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 35.5333333333333,
+        "seq": 259,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 35.7666666666667,
+        "seq": 260,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 35.7666666666667,
+        "seq": 261,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 36.0166666666667,
+        "seq": 262,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 36.0166666666667,
+        "seq": 263,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 36.25,
+        "seq": 264,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 36.25,
+        "seq": 265,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 36.4833333333333,
+        "seq": 266,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 36.4833333333333,
+        "seq": 267,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 36.7333333333333,
+        "seq": 268,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 36.7333333333333,
+        "seq": 269,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 36.9666666666667,
+        "seq": 270,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 36.9666666666667,
+        "seq": 271,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 37.2166666666667,
+        "seq": 272,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 37.2166666666667,
+        "seq": 273,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 37.45,
+        "seq": 274,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 37.45,
+        "seq": 275,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 37.6833333333333,
+        "seq": 277,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 37.6833333333333,
+        "seq": 278,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 37.9333333333333,
+        "seq": 279,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 37.9333333333333,
+        "seq": 280,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 38.1666666666667,
+        "seq": 281,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 38.1666666666667,
+        "seq": 282,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 38.4166666666667,
+        "seq": 283,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 38.4166666666667,
+        "seq": 284,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 38.65,
+        "seq": 285,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 38.65,
+        "seq": 286,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 38.8833333333333,
+        "seq": 287,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 38.8833333333333,
+        "seq": 288,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 39.1333333333333,
+        "seq": 291,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 39.1333333333333,
+        "seq": 292,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 39.3666666666667,
+        "seq": 295,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      },
+      {
+        "s": 39.3666666666667,
+        "seq": 296,
+        "shooter": "bomber",
+        "target": "fighter",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "bomber/dorsal"
+      }
+    ]
+  },
+  {
+    "scene": "s14_expansion_harbor",
+    "time_s": 125.0,
+    "seed": 707.0,
+    "before": {
+      "b25_fired": 0,
+      "zero_fired_at_b25": 194
+    },
+    "after": {
+      "b25_fired": 140,
+      "zero_fired_at_b25": 72,
+      "bombs_released": {
+        "jp_g4m_1": 12,
+        "jp_g4m_2": 12
+      },
+      "subjects": {
+        "us_b25_1": {
+          "first_turn_sample_s": 9.51666666666667,
+          "first_shot_s": 10.8666666666667,
+          "first_target": "jp_air_1",
+          "shots": 72,
+          "initial_ammo_per_barrel": [
+            36,
+            36
+          ],
+          "remaining_per_barrel": [
+            0,
+            0
+          ],
+          "last_mission": "released"
+        },
+        "us_b25_2": {
+          "first_turn_sample_s": 8.51666666666667,
+          "first_shot_s": 9.91666666666667,
+          "first_target": "jp_air_1",
+          "shots": 68,
+          "initial_ammo_per_barrel": [
+            36,
+            36
+          ],
+          "remaining_per_barrel": [
+            2,
+            2
+          ],
+          "last_mission": "released"
+        }
+      }
+    },
+    "real_source_events": [
+      {
+        "s": 9.91666666666667,
+        "seq": 530,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 9.91666666666667,
+        "seq": 531,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 10.1666666666667,
+        "seq": 555,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 10.1666666666667,
+        "seq": 556,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 10.4,
+        "seq": 579,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 10.4,
+        "seq": 580,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 10.65,
+        "seq": 590,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 10.65,
+        "seq": 591,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 10.8666666666667,
+        "seq": 594,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 10.8666666666667,
+        "seq": 595,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 10.8833333333333,
+        "seq": 599,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 10.8833333333333,
+        "seq": 600,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 11.1166666666667,
+        "seq": 616,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 11.1166666666667,
+        "seq": 617,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 11.1166666666667,
+        "seq": 618,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 11.1166666666667,
+        "seq": 619,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 11.35,
+        "seq": 625,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 11.35,
+        "seq": 626,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 11.3666666666667,
+        "seq": 629,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 11.3666666666667,
+        "seq": 630,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 11.6,
+        "seq": 648,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 11.6,
+        "seq": 649,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 11.6,
+        "seq": 650,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 11.6,
+        "seq": 651,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 11.8333333333333,
+        "seq": 662,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 11.8333333333333,
+        "seq": 663,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 11.85,
+        "seq": 664,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 11.85,
+        "seq": 665,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 12.0666666666667,
+        "seq": 686,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 12.0666666666667,
+        "seq": 687,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 12.0833333333333,
+        "seq": 688,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 12.0833333333333,
+        "seq": 689,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 12.3166666666667,
+        "seq": 702,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 12.3166666666667,
+        "seq": 703,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 12.3166666666667,
+        "seq": 704,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 12.3166666666667,
+        "seq": 705,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 12.55,
+        "seq": 732,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 12.55,
+        "seq": 733,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 12.5666666666667,
+        "seq": 734,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 12.5666666666667,
+        "seq": 735,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 12.8,
+        "seq": 753,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 12.8,
+        "seq": 754,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 12.8,
+        "seq": 755,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 12.8,
+        "seq": 756,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 13.0333333333333,
+        "seq": 760,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 13.0333333333333,
+        "seq": 761,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 13.05,
+        "seq": 762,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 13.05,
+        "seq": 763,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 13.2666666666667,
+        "seq": 767,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 13.2666666666667,
+        "seq": 768,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 13.2833333333333,
+        "seq": 769,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 13.2833333333333,
+        "seq": 770,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 13.5166666666667,
+        "seq": 789,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 13.5166666666667,
+        "seq": 790,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 13.5166666666667,
+        "seq": 791,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 13.5166666666667,
+        "seq": 792,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 13.75,
+        "seq": 827,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 13.75,
+        "seq": 828,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 13.7666666666667,
+        "seq": 836,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 13.7666666666667,
+        "seq": 837,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 14.0,
+        "seq": 863,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 14.0,
+        "seq": 864,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 14.0,
+        "seq": 865,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 14.0,
+        "seq": 866,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 14.2333333333333,
+        "seq": 874,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 14.2333333333333,
+        "seq": 875,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 14.25,
+        "seq": 876,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 14.25,
+        "seq": 877,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 14.4666666666667,
+        "seq": 882,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 14.4666666666667,
+        "seq": 883,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 14.4833333333333,
+        "seq": 884,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 14.4833333333333,
+        "seq": 885,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 14.7166666666667,
+        "seq": 900,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 14.7166666666667,
+        "seq": 901,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 14.7166666666667,
+        "seq": 902,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 14.7166666666667,
+        "seq": 903,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 14.95,
+        "seq": 922,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 14.95,
+        "seq": 923,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 14.9666666666667,
+        "seq": 925,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 14.9666666666667,
+        "seq": 926,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 15.2,
+        "seq": 956,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 15.2,
+        "seq": 957,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 15.2,
+        "seq": 958,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 15.2,
+        "seq": 959,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 15.4333333333333,
+        "seq": 992,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 15.4333333333333,
+        "seq": 993,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 15.5,
+        "seq": 1002,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 15.5,
+        "seq": 1003,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 15.6666666666667,
+        "seq": 1015,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 15.6666666666667,
+        "seq": 1016,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 15.9166666666667,
+        "seq": 1024,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 15.9166666666667,
+        "seq": 1025,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 16.15,
+        "seq": 1049,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 16.15,
+        "seq": 1050,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 16.4,
+        "seq": 1074,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 16.4,
+        "seq": 1075,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 16.6333333333333,
+        "seq": 1098,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 16.6333333333333,
+        "seq": 1099,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 16.8666666666667,
+        "seq": 1113,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 16.8666666666667,
+        "seq": 1114,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 17.1166666666667,
+        "seq": 1121,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 17.1166666666667,
+        "seq": 1122,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 17.35,
+        "seq": 1134,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 17.35,
+        "seq": 1135,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 17.6,
+        "seq": 1166,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 17.6,
+        "seq": 1167,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 17.8333333333333,
+        "seq": 1184,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 17.8333333333333,
+        "seq": 1185,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 18.0666666666667,
+        "seq": 1201,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 18.0666666666667,
+        "seq": 1202,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 18.3166666666667,
+        "seq": 1220,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 18.3166666666667,
+        "seq": 1221,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 18.55,
+        "seq": 1239,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 18.55,
+        "seq": 1240,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 18.8,
+        "seq": 1253,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 18.8,
+        "seq": 1254,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 19.0333333333333,
+        "seq": 1270,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 19.0333333333333,
+        "seq": 1271,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 19.2666666666667,
+        "seq": 1280,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 19.2666666666667,
+        "seq": 1281,
+        "shooter": "us_b25_1",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_1/dorsal"
+      },
+      {
+        "s": 30.8333333333333,
+        "seq": 1813,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 30.8333333333333,
+        "seq": 1814,
+        "shooter": "us_b25_2",
+        "target": "jp_air_1",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 36.2333333333333,
+        "seq": 1972,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 36.2333333333333,
+        "seq": 1973,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 36.4833333333333,
+        "seq": 1978,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 36.4833333333333,
+        "seq": 1979,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 36.7166666666667,
+        "seq": 1996,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 36.7166666666667,
+        "seq": 1997,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 36.9666666666667,
+        "seq": 2011,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 36.9666666666667,
+        "seq": 2012,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 37.2,
+        "seq": 2019,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 37.2,
+        "seq": 2020,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 37.4333333333333,
+        "seq": 2029,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 37.4333333333333,
+        "seq": 2030,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 37.6833333333333,
+        "seq": 2037,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 37.6833333333333,
+        "seq": 2038,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 37.9166666666667,
+        "seq": 2048,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 37.9166666666667,
+        "seq": 2049,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 38.1666666666667,
+        "seq": 2059,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      },
+      {
+        "s": 38.1666666666667,
+        "seq": 2060,
+        "shooter": "us_b25_2",
+        "target": "jp_air_2",
+        "target_definition": "jp_a6m5a_1944",
+        "weapon": "us_b25_2/dorsal"
+      }
+    ]
+  }
+]

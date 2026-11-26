@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T214009-d5931734",
+  "owner": "S08-user-command",
+  "action": "import",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/showcase-user-project",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 81467,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/showcase-user-project",
+      "pid": 81469,
+      "process_group": 81469,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1978,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214009-d5931734/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/showcase-user-project",
+        "--editor",
+        "--import",
+        "--quit"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/showcase-user-project",
+      "pid": 81472,
+      "process_group": 81472,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 3.7269,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T214009-d5931734/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S08-user-command",
+    "pid": 81467,
+    "process_identity": "Wed Nov 11 05:40:09 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S08-user-command --timeout 240 --lock-timeout 60 --project /Users/infinity/Desktop/Dev/game-pacific/.local/showcase-user-project import",
+    "token": "4bbc561e759041ff9c6374113cd2e1ff",
+    "acquired_utc": "2026-11-10T21:40:09.905380+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

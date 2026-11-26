@@ -1,0 +1,931 @@
+{
+  "all_cleanup_ok": true,
+  "runs": [
+    {
+      "run": "20261110T170533-397065e8",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 50625,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 50626,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T170641-2747a4d5",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 50716,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 50718,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 50720,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 50723,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 50728,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T170830-9a8bf5d8",
+      "passed": false,
+      "groups": [
+        {
+          "pgid": 51548,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 51549,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T170933-501566e3",
+      "passed": false,
+      "groups": [
+        {
+          "pgid": 51680,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 51681,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T171034-005d0479",
+      "passed": false,
+      "groups": [
+        {
+          "pgid": 51760,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 51761,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T171157-924ea429",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 51977,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 51980,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T171252-57a71fd6",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 52249,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52250,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52272,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52278,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52280,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52288,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52298,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52306,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T171503-f1616e81",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 52596,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52603,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52612,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52617,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52618,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T171635-6be62052",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 52947,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52949,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 52951,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T171828-60432d9b",
+      "passed": false,
+      "groups": [
+        {
+          "pgid": 53432,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 53433,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T171935-9c6600e6",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 53818,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 53819,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T172018-46088010",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 54039,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 54040,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T172027-854bc5c7",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 54053,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 54055,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T172357-a6c96ec1",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 54553,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 54554,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T172546-85eea7e1",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 54940,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 54941,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T172553-88cc4936",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 54978,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 54988,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T172611-4e7d13eb",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 55086,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 55087,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T172954-4c45dfc1",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 55454,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 55455,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T172958-f1f8d0f5",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 55462,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 55463,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T173556-61dd307e",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 56681,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T173715-ea605ed6",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 57086,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 57089,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184024-2844e9b7",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 67908,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 67909,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184226-f7e0cd71",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68027,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68028,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184231-6c46dc72",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68036,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68037,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184243-d8a1bfce",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68051,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68052,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184610-58e2a963",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68225,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68226,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184634-2b38c4d8",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68262,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68263,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184700-f3f9bb7f",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68303,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68304,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184711-24cffbed",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68315,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68316,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184728-bbccc6cf",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68333,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68334,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184754-e392779d",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68373,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68374,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184841-061783a2",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68433,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68434,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T184845-90c2121b",
+      "passed": false,
+      "groups": [
+        {
+          "pgid": 68440,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68441,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T185035-b211b84b",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68569,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68570,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T185040-02562d51",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68582,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 68583,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T185147-9506a48c",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 68640,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T185239-1fab336c",
+      "passed": false,
+      "groups": [
+        {
+          "pgid": 68700,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T185834-348590b5",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69098,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69099,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69103,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190008-7d135f04",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69199,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69200,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190012-ce0e72dc",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69207,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69208,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190024-21f01e3b",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69220,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69221,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190037-b7c7a709",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69247,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69250,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190040-5f3efdb0",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69269,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69270,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190046-78b93e81",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69312,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69314,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190112-b3cc57eb",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69319,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69320,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190144-eb3bbad7",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69391,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69392,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190156-fdb2bef2",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69405,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69406,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190213-c3f47055",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69420,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69421,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190239-0cf36d02",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69469,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 69470,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190417-c116915c",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69585,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T190604-7f86c2ab",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 69723,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T191047-e8ad41bf",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 70103,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 70104,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T191052-f39d7fb4",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 70113,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 70114,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T191421-a8af2dd6",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 70320,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    },
+    {
+      "run": "20261110T191644-9082d70a",
+      "passed": true,
+      "groups": [
+        {
+          "pgid": 70483,
+          "cleanup_ok": true,
+          "exists_now": false
+        },
+        {
+          "pgid": 70484,
+          "cleanup_ok": true,
+          "exists_now": false
+        }
+      ]
+    }
+  ],
+  "chrome_and_http_cleanup": {
+    "chromeClosed": true,
+    "serverClosed": true,
+    "profileRemoved": true
+  },
+  "user_windows_closed": false
+}

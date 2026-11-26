@@ -1,0 +1,1613 @@
+{
+  "scope": "offline_material_audition_only_not_real_battle_events",
+  "auditioned": false,
+  "mixes": [
+    {
+      "id": "01_naval_salvo",
+      "title": "舰炮齐射与海面／舰体命中",
+      "seconds": 32,
+      "events": [
+        {
+          "asset": "heavy_01",
+          "at_s": 4,
+          "gain_db": -4,
+          "pan": -0.42,
+          "cutoff_hz": 16000.0,
+          "label": "near_design_salvo_1"
+        },
+        {
+          "asset": "heavy_02",
+          "at_s": 4.07,
+          "gain_db": -6,
+          "pan": -0.24,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "heavy_01",
+          "at_s": 4.14,
+          "gain_db": -8,
+          "pan": -0.1,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "water",
+          "at_s": 8.1,
+          "gain_db": -8,
+          "pan": 0.35,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "water",
+          "at_s": 8.35,
+          "gain_db": -10,
+          "pan": 0.48,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "medium",
+          "at_s": 12.2,
+          "gain_db": -10,
+          "pan": 0.1,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "metal",
+          "at_s": 14.7,
+          "gain_db": -7,
+          "pan": -0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "heavy_02",
+          "at_s": 18,
+          "gain_db": -13,
+          "pan": 0.4,
+          "cutoff_hz": 2800,
+          "label": "mid_range_design_salvo"
+        },
+        {
+          "asset": "heavy_01",
+          "at_s": 18.08,
+          "gain_db": -15,
+          "pan": 0.53,
+          "cutoff_hz": 2800,
+          "label": ""
+        },
+        {
+          "asset": "water",
+          "at_s": 22.3,
+          "gain_db": -13,
+          "pan": -0.2,
+          "cutoff_hz": 2600,
+          "label": ""
+        },
+        {
+          "asset": "heavy_01",
+          "at_s": 26.1,
+          "gain_db": -22,
+          "pan": -0.5,
+          "cutoff_hz": 1100,
+          "label": "far_design_salvo"
+        },
+        {
+          "asset": "water",
+          "at_s": 29.1,
+          "gain_db": -20,
+          "pan": 0.18,
+          "cutoff_hz": 1500,
+          "label": ""
+        }
+      ],
+      "beds": [
+        {
+          "asset": "wind",
+          "gain_db": -15,
+          "start_s": 0.0,
+          "end_s": 32.0,
+          "pan_keys": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              32.0,
+              0.0
+            ]
+          ],
+          "gain_keys": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              32.0,
+              1.0
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "asset": "ship_run",
+          "gain_db": -13,
+          "start_s": 0.0,
+          "end_s": 32.0,
+          "pan_keys": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              32.0,
+              0.0
+            ]
+          ],
+          "gain_keys": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              32.0,
+              1.0
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "asset": "fire",
+          "gain_db": -6,
+          "start_s": 15.2,
+          "end_s": 24,
+          "pan_keys": [
+            [
+              15.2,
+              0.0
+            ],
+            [
+              24,
+              0.0
+            ]
+          ],
+          "gain_keys": [
+            [
+              15.2,
+              0
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              22,
+              1
+            ],
+            [
+              24,
+              0
+            ]
+          ],
+          "label": "staged_damage_fire_after_metal_impact"
+        }
+      ],
+      "intent": "near_mid_far_design_layers_not_actual_weapon_ranges"
+    },
+    {
+      "id": "02_aa_screen",
+      "title": "防空火网",
+      "seconds": 32,
+      "events": [
+        {
+          "asset": "medium",
+          "at_s": 3.0,
+          "gain_db": -10,
+          "pan": 0.3,
+          "cutoff_hz": 5000,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 4.0,
+          "gain_db": -15,
+          "pan": -0.5,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 4.13,
+          "gain_db": -15,
+          "pan": -0.5,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 4.26,
+          "gain_db": -15,
+          "pan": -0.5,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 4.39,
+          "gain_db": -15,
+          "pan": -0.5,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 4.5,
+          "gain_db": -11,
+          "pan": 0.0,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 4.52,
+          "gain_db": -15,
+          "pan": -0.5,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 4.65,
+          "gain_db": -15,
+          "pan": -0.5,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 4.78,
+          "gain_db": -15,
+          "pan": -0.5,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 4.91,
+          "gain_db": -15,
+          "pan": -0.5,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 5.1,
+          "gain_db": -17,
+          "pan": 0.694165367316728,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "medium",
+          "at_s": 7.2,
+          "gain_db": -10,
+          "pan": -0.3,
+          "cutoff_hz": 5000,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 7.8,
+          "gain_db": -17,
+          "pan": -0.17887877141878183,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 8.8,
+          "gain_db": -15,
+          "pan": 0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 8.930000000000001,
+          "gain_db": -15,
+          "pan": 0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 9.06,
+          "gain_db": -15,
+          "pan": 0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 9.190000000000001,
+          "gain_db": -15,
+          "pan": 0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 9.32,
+          "gain_db": -15,
+          "pan": 0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 9.450000000000001,
+          "gain_db": -15,
+          "pan": 0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 9.58,
+          "gain_db": -15,
+          "pan": 0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 9.6,
+          "gain_db": -11,
+          "pan": -0.6480702776294127,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 9.71,
+          "gain_db": -15,
+          "pan": 0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 9.84,
+          "gain_db": -15,
+          "pan": 0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 9.97,
+          "gain_db": -15,
+          "pan": 0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 10.100000000000001,
+          "gain_db": -15,
+          "pan": 0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 11.1,
+          "gain_db": -17,
+          "pan": 0.3458793457970257,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "medium",
+          "at_s": 12.0,
+          "gain_db": -10,
+          "pan": 0.3,
+          "cutoff_hz": 5000,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 13.5,
+          "gain_db": -15,
+          "pan": -0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 13.63,
+          "gain_db": -15,
+          "pan": -0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 13.76,
+          "gain_db": -15,
+          "pan": -0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 13.8,
+          "gain_db": -17,
+          "pan": 0.5589409788364431,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 13.89,
+          "gain_db": -15,
+          "pan": -0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 14.02,
+          "gain_db": -15,
+          "pan": -0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 14.15,
+          "gain_db": -15,
+          "pan": -0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 14.28,
+          "gain_db": -15,
+          "pan": -0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 14.41,
+          "gain_db": -15,
+          "pan": -0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 14.54,
+          "gain_db": -15,
+          "pan": -0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 15.0,
+          "gain_db": -11,
+          "pan": -0.4899122813154796,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.0,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.075,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.15,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.225,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.3,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.375,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.45,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.525,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.6,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.675,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.75,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 16.825,
+          "gain_db": -20,
+          "pan": 0.5,
+          "cutoff_hz": 5500,
+          "label": ""
+        },
+        {
+          "asset": "medium",
+          "at_s": 18.5,
+          "gain_db": -10,
+          "pan": -0.3,
+          "cutoff_hz": 5000,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 19.2,
+          "gain_db": -17,
+          "pan": -0.4326959785659233,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 20.0,
+          "gain_db": -15,
+          "pan": 0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 20.13,
+          "gain_db": -15,
+          "pan": 0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 20.26,
+          "gain_db": -15,
+          "pan": 0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 20.39,
+          "gain_db": -15,
+          "pan": 0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 20.52,
+          "gain_db": -15,
+          "pan": 0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 20.65,
+          "gain_db": -15,
+          "pan": 0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 20.78,
+          "gain_db": -15,
+          "pan": 0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 20.8,
+          "gain_db": -17,
+          "pan": 0.6014132703995471,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 20.91,
+          "gain_db": -15,
+          "pan": 0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 21.04,
+          "gain_db": -15,
+          "pan": 0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 21.17,
+          "gain_db": -15,
+          "pan": 0.2,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 21.4,
+          "gain_db": -11,
+          "pan": 0.27771840119142954,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "medium",
+          "at_s": 25.0,
+          "gain_db": -10,
+          "pan": 0.3,
+          "cutoff_hz": 5000,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 25.8,
+          "gain_db": -17,
+          "pan": -0.6729782443156898,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 26.0,
+          "gain_db": -15,
+          "pan": -0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 26.13,
+          "gain_db": -15,
+          "pan": -0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 26.26,
+          "gain_db": -15,
+          "pan": -0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 26.39,
+          "gain_db": -15,
+          "pan": -0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 26.52,
+          "gain_db": -15,
+          "pan": -0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 26.65,
+          "gain_db": -15,
+          "pan": -0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 26.78,
+          "gain_db": -15,
+          "pan": -0.4,
+          "cutoff_hz": 6500,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 27.4,
+          "gain_db": -17,
+          "pan": -0.10429931806993915,
+          "cutoff_hz": 4200,
+          "label": ""
+        }
+      ],
+      "beds": [
+        {
+          "asset": "wind",
+          "gain_db": -15,
+          "start_s": 0.0,
+          "end_s": 32.0,
+          "pan_keys": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              32.0,
+              0.0
+            ]
+          ],
+          "gain_keys": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              32.0,
+              1.0
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "asset": "ship_idle",
+          "gain_db": -17,
+          "start_s": 0.0,
+          "end_s": 32.0,
+          "pan_keys": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              32.0,
+              0.0
+            ]
+          ],
+          "gain_keys": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              32.0,
+              1.0
+            ]
+          ],
+          "label": ""
+        }
+      ],
+      "intent": "short_bursts_and_gaps_instead_of_flat_prerecorded_combat"
+    },
+    {
+      "id": "03_dogfight",
+      "title": "近距空战与动力变化",
+      "seconds": 32,
+      "events": [
+        {
+          "asset": "machinegun",
+          "at_s": 7.8,
+          "gain_db": -15,
+          "pan": -0.25,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 7.875,
+          "gain_db": -15,
+          "pan": -0.25,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 7.95,
+          "gain_db": -15,
+          "pan": -0.25,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 8.025,
+          "gain_db": -15,
+          "pan": -0.25,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 8.1,
+          "gain_db": -15,
+          "pan": -0.25,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 8.175,
+          "gain_db": -15,
+          "pan": -0.25,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 8.25,
+          "gain_db": -15,
+          "pan": -0.25,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 8.325,
+          "gain_db": -15,
+          "pan": -0.25,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 8.4,
+          "gain_db": -15,
+          "pan": -0.25,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 12.3,
+          "gain_db": -13,
+          "pan": 0.2,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 12.430000000000001,
+          "gain_db": -13,
+          "pan": 0.2,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 12.56,
+          "gain_db": -13,
+          "pan": 0.2,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 12.690000000000001,
+          "gain_db": -13,
+          "pan": 0.2,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 12.82,
+          "gain_db": -13,
+          "pan": 0.2,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 12.950000000000001,
+          "gain_db": -13,
+          "pan": 0.2,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 17.5,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 17.575,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 17.65,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 17.725,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 17.8,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 17.875,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 17.95,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 18.025,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 18.1,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 18.175,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 18.25,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "machinegun",
+          "at_s": 18.325,
+          "gain_db": -15,
+          "pan": 0.3,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 22.0,
+          "gain_db": -13,
+          "pan": -0.1,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 22.13,
+          "gain_db": -13,
+          "pan": -0.1,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 22.26,
+          "gain_db": -13,
+          "pan": -0.1,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 22.39,
+          "gain_db": -13,
+          "pan": -0.1,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 22.52,
+          "gain_db": -13,
+          "pan": -0.1,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 22.65,
+          "gain_db": -13,
+          "pan": -0.1,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 22.78,
+          "gain_db": -13,
+          "pan": -0.1,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "metal",
+          "at_s": 23.7,
+          "gain_db": -16,
+          "pan": -0.2,
+          "cutoff_hz": 5000,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 28,
+          "gain_db": -22,
+          "pan": 0.6,
+          "cutoff_hz": 2200,
+          "label": ""
+        }
+      ],
+      "beds": [
+        {
+          "asset": "wind",
+          "gain_db": -17,
+          "start_s": 0.0,
+          "end_s": 32.0,
+          "pan_keys": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              32.0,
+              0.0
+            ]
+          ],
+          "gain_keys": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              32.0,
+              1.0
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "asset": "fighter_low",
+          "gain_db": -9,
+          "start_s": 0,
+          "end_s": 8,
+          "pan_keys": [
+            [
+              0,
+              0.0
+            ],
+            [
+              8,
+              0.0
+            ]
+          ],
+          "gain_keys": [
+            [
+              0,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "asset": "fighter_cruise",
+          "gain_db": -10,
+          "start_s": 4,
+          "end_s": 27,
+          "pan_keys": [
+            [
+              4,
+              -0.6
+            ],
+            [
+              12,
+              0
+            ],
+            [
+              22,
+              0.3
+            ],
+            [
+              27,
+              0.6
+            ]
+          ],
+          "gain_keys": [
+            [
+              4,
+              0
+            ],
+            [
+              8,
+              1
+            ],
+            [
+              12,
+              0.3
+            ],
+            [
+              17,
+              0.3
+            ],
+            [
+              21,
+              1
+            ],
+            [
+              24,
+              1
+            ],
+            [
+              27,
+              0
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "asset": "fighter_high",
+          "gain_db": -11,
+          "start_s": 10,
+          "end_s": 22,
+          "pan_keys": [
+            [
+              10,
+              -0.2
+            ],
+            [
+              17,
+              0.15
+            ],
+            [
+              22,
+              0.4
+            ]
+          ],
+          "gain_keys": [
+            [
+              10,
+              0
+            ],
+            [
+              13,
+              1
+            ],
+            [
+              17,
+              1
+            ],
+            [
+              22,
+              0
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "asset": "fighter_cruise",
+          "gain_db": -23,
+          "start_s": 13,
+          "end_s": 31,
+          "pan_keys": [
+            [
+              13,
+              0.8
+            ],
+            [
+              23,
+              -0.5
+            ],
+            [
+              31,
+              -0.9
+            ]
+          ],
+          "gain_keys": [
+            [
+              13,
+              0
+            ],
+            [
+              18,
+              1
+            ],
+            [
+              24,
+              1
+            ],
+            [
+              31,
+              0
+            ]
+          ],
+          "label": "second_aircraft_staged_flypast"
+        }
+      ],
+      "intent": "power_weights_and_stereo_pass_no_historical_RPM_or_live_flight_claim"
+    },
+    {
+      "id": "04_harbor_shore",
+      "title": "港湾岸炮与海陆弹着",
+      "seconds": 32,
+      "events": [
+        {
+          "asset": "medium",
+          "at_s": 3.4,
+          "gain_db": -6,
+          "pan": -0.35,
+          "cutoff_hz": 16000.0,
+          "label": "shore_gun_design_only"
+        },
+        {
+          "asset": "water",
+          "at_s": 6.5,
+          "gain_db": -10,
+          "pan": 0.4,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 7.5,
+          "gain_db": -21,
+          "pan": 0.4,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 7.65,
+          "gain_db": -21,
+          "pan": 0.4,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 7.8,
+          "gain_db": -21,
+          "pan": 0.4,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 7.95,
+          "gain_db": -21,
+          "pan": 0.4,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 8.1,
+          "gain_db": -21,
+          "pan": 0.4,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 8.1,
+          "gain_db": -23,
+          "pan": 0.5,
+          "cutoff_hz": 2800,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 8.25,
+          "gain_db": -21,
+          "pan": 0.4,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 8.4,
+          "gain_db": -21,
+          "pan": 0.4,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 8.55,
+          "gain_db": -21,
+          "pan": 0.4,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "autocannon",
+          "at_s": 8.7,
+          "gain_db": -21,
+          "pan": 0.4,
+          "cutoff_hz": 4200,
+          "label": ""
+        },
+        {
+          "asset": "medium",
+          "at_s": 10.0,
+          "gain_db": -12,
+          "pan": 0.4,
+          "cutoff_hz": 4000,
+          "label": ""
+        },
+        {
+          "asset": "land",
+          "at_s": 12.8,
+          "gain_db": -7,
+          "pan": -0.2,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 15.4,
+          "gain_db": -23,
+          "pan": -0.5,
+          "cutoff_hz": 2800,
+          "label": ""
+        },
+        {
+          "asset": "medium",
+          "at_s": 17.2,
+          "gain_db": -9,
+          "pan": -0.25,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "airburst",
+          "at_s": 18.9,
+          "gain_db": -23,
+          "pan": 0.5,
+          "cutoff_hz": 2800,
+          "label": ""
+        },
+        {
+          "asset": "metal",
+          "at_s": 20.1,
+          "gain_db": -9,
+          "pan": 0.25,
+          "cutoff_hz": 16000.0,
+          "label": ""
+        },
+        {
+          "asset": "heavy_02",
+          "at_s": 22,
+          "gain_db": -22,
+          "pan": 0.55,
+          "cutoff_hz": 1500,
+          "label": ""
+        },
+        {
+          "asset": "water",
+          "at_s": 25.3,
+          "gain_db": -16,
+          "pan": -0.4,
+          "cutoff_hz": 2600,
+          "label": ""
+        },
+        {
+          "asset": "medium",
+          "at_s": 26.2,
+          "gain_db": -15,
+          "pan": 0.15,
+          "cutoff_hz": 3200,
+          "label": ""
+        },
+        {
+          "asset": "land",
+          "at_s": 29,
+          "gain_db": -15,
+          "pan": -0.3,
+          "cutoff_hz": 3500,
+          "label": ""
+        }
+      ],
+      "beds": [
+        {
+          "asset": "coast",
+          "gain_db": -7,
+          "start_s": 0.0,
+          "end_s": 32.0,
+          "pan_keys": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              32.0,
+              0.0
+            ]
+          ],
+          "gain_keys": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              32.0,
+              1.0
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "asset": "wind",
+          "gain_db": -19,
+          "start_s": 0.0,
+          "end_s": 32.0,
+          "pan_keys": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              32.0,
+              0.0
+            ]
+          ],
+          "gain_keys": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              32.0,
+              1.0
+            ]
+          ],
+          "label": ""
+        },
+        {
+          "asset": "ship_idle",
+          "gain_db": -19,
+          "start_s": 0.0,
+          "end_s": 32.0,
+          "pan_keys": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              32.0,
+              0.0
+            ]
+          ],
+          "gain_keys": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              32.0,
+              1.0
+            ]
+          ],
+          "label": ""
+        }
+      ],
+      "intent": "staged_shore_scene_not_S10_gameplay_evidence"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+--- a/scripts/simulation/aircraft_motion/aircraft_motion.gd
++++ b/scripts/simulation/aircraft_motion/aircraft_motion.gd
+@@ -97,6 +97,8 @@
+ 	var explicit_lift: bool = control.get("lift_plane_normal") is Vector3
+ 	var max_bank: float = minf(deg_to_rad(float(limits.combat_bank_deg)),float(control.get("max_bank_rad",deg_to_rad(float(p.max_bank_deg)))))
+ 	var stall_speed: float = float(p.stall_mps)*exp(altitude/(2.0*float(limits.density_scale_m)))
++	var load_ratio: float = 1.0 + float(unit.module_data.get("bomb_rack",{}).get("mass_kg",0.0))/float(p.reference_mass_kg)
++	stall_speed *= sqrt(load_ratio)
+ 	var lift_cap: float = minf(float(limits.operating_load_g),pow(speed/stall_speed,2.0))*authority
+ 	var stalled: bool = speed < stall_speed*(1.36 if bool(flight.stalled) else 1.10)
+ 	var safety: String = "normal"
+@@ -183,6 +185,11 @@
+ 	# A steep zoom spends kinetic energy; rated climb caps excess engine power only.
+ 	thrust = minf(thrust,parasite+G*sustained_climb/maxf(speed,1.0))
+ 	var drag: float = parasite+induced+18.0*pow(maxf(0.0,speed/max_speed-1.10),2)
++	var stores: Dictionary = unit.module_data.get("bomb_rack",{})
++	if not stores.is_empty():
++		drag += float(stores.get("brake",0.0))*float(p.get("bomb_brake_drag_mps2",0.0))*pow(speed/100.0,2)
++		drag += (load_ratio-1.0)*parasite
++		thrust /= load_ratio
+ 	var next_speed: float = maxf(0.5,speed+(thrust-drag+gravity.dot(forward))*dt)
+ 	var acceleration: Vector3 = up*(load_g*G)+gravity_normal
+ 	var angle: float = acceleration.length()/maxf(1.0,(speed+next_speed)*0.5)*dt

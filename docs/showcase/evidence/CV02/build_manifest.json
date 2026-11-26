@@ -1,0 +1,59 @@
+{
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "entry": "naval/shokaku_1941_08_23/inspection/inspection.tscn",
+  "scope": "Isolated carrier model, 3 unchanged static A6M and one D4Y dimension cage; no combat or flight operations",
+  "source_sha256": {
+    "naval/shokaku_1941_08_23/data/deck.json": "5e02881d24f0700e8710128aee65875fdcc0301714c0d5aedde0a087ffb00cd3",
+    "naval/shokaku_1941_08_23/data/unit_candidate.json": "50d4f73fd4d5cd4b94d5f9f7996d54a94d35c9fec46176695b06ac9c21a60177",
+    "naval/shokaku_1941_08_23/shokaku.tscn": "d510ed9d7d9a1171f8504efdbd06735ac86eb2a344dc99f9b1f2872ff18504fa",
+    "naval/shokaku_1941_08_23/shokaku.gd": "bb037e5a6a9afad14cb1dfab41fcbb882d6b1f7aaa6b625890fe7767a7c53361",
+    "scripts/naval/destroyers/mesh_tools.gd": "ef447fdeb122230cbfd676da4b1e0d790744fdfb2210deb28d83d21bf8f70a45",
+    "scripts/naval/destroyers/measure12.gdshader": "e3e13d384071d914537ef0459780c995419b2bf66b0aeedb9345b6338472a8da",
+    "naval/shokaku_1941_08_23/geometry.gd": "4c4166404de2531a0f7e232fa3ce7ce84d05283a971f62eb28ffb9cfa2da86eb",
+    "naval/shokaku_1941_08_23/data/assembly.json": "d052a7692e79a114e5acc0d0fc0f4aee8bc4f451f82344ad725839daeda6d2fb",
+    "naval/shokaku_1941_08_23/modules/platforms.tscn": "ca397b54c348a96021df566220e7156ab5046d6d8191f4b5a0af5d687bef0ad3",
+    "naval/shokaku_1941_08_23/modules/platforms.gd": "63d2b1653aa3f31ab0a38ae1947ff4da6a88293edc004030971e78ef45c4c7c1",
+    "naval/shokaku_1941_08_23/modules/funnels.gd": "89842df8bbc6470060aa4c293eecdbcb4869a13367886d857d041d03f7b9c8c3",
+    "naval/shokaku_1941_08_23/modules/flight_deck.tscn": "f3da6ae7969bab44cf1d731d13e48f60890712f8846286e5a7733e6d842c3412",
+    "naval/shokaku_1941_08_23/modules/flight_deck.gd": "9a0b80f8975a444ac46840b150348d306a1c9174a9e89d520038e7bce8c1fe44",
+    "naval/shokaku_1941_08_23/modules/island.tscn": "61e5e979220655bd2759f89dbde3f4a8f4249901797beffde30b93fc4d9280c3",
+    "naval/shokaku_1941_08_23/modules/island.gd": "81ad0ab28c57018690830440a4093b415151a1711327b204e07e889894d1ee74",
+    "naval/shokaku_1941_08_23/modules/hull.gd": "0b0ae92bc78749520a159cd696f0049c711337a164a6922ff6c42dbd320afdda",
+    "naval/shokaku_1941_08_23/modules/hangar.tscn": "fcd07d3d9b24c22d35f62a02bbd29ffaf4d33cf6025268ba4ab1feb116269876",
+    "naval/shokaku_1941_08_23/modules/hangar.gd": "415572dc8ecd7f4d54e275290c3e2916a5db974958aba9a8708c1cbdc775e948",
+    "naval/shokaku_1941_08_23/modules/equipment.gd": "59edec4a1ba1dd25d31d5494329cffd6a1c41656ac2d0cb3818d94baae3738d3",
+    "naval/shokaku_1941_08_23/modules/equipment.tscn": "a76d54c3c9c52b4ee2f6705c90fe5b6f6fd60bb333e7a5578004d06797d9b2b2",
+    "naval/shokaku_1941_08_23/modules/hull.tscn": "fde99250123cad4cee3e18f243b5eb8219e4783cf5d57235c06f3f5d487ed22a",
+    "naval/shokaku_1941_08_23/modules/funnels.tscn": "01a2971c6f6337564d5f790dcb151f43a661b456f08c233a618c8a004b0c27c5",
+    "naval/shokaku_1941_08_23/inspection/waterline_clip.gdshader": "aecbbab11e1936b69fa07fa5fccf74ab6e52df921104a2e164f5a4380d99a530",
+    "naval/shokaku_1941_08_23/inspection/inspection.tscn": "cb8d8782af598e472f776bbd6e1c673ca049319712e5fb7fd69449c54e47e11c",
+    "naval/shokaku_1941_08_23/inspection/inspection.gd": "b46009898b0f26af63d3f0ff7db056f886e303d99a6ddf95f1bd7eac2b4c9de1",
+    "naval/shokaku_1941_08_23/inspection/deck_fixtures.gd": "7599f3de9a927edf1bfc2f8689cbce35c45c5d7733014429b74af37afb53a169",
+    "aircraft/scenes/a6m5_52ko.tscn": "856c133b6a3cad97810a99989e4f7aafab8deaa3beea702aaab86e9256b5fd23",
+    "aircraft/models/a6m5_52ko.gd": "c0d1ae2ee4dbbf421e702fb8b243e5fba56a4934f1809413d52aa75d053f3890",
+    "aircraft/scripts/aircraft_builder.gd": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+    "naval/shokaku_1941_08_23/weapons/type89.gd": "9b8417235e127355de6d6a9fc49876866be51dc7b75e97bdc7ed377bd3ad5dfc",
+    "naval/shokaku_1941_08_23/weapons/type96.gd": "9abcf0915684b9986f521805c19a2f3023e25cca81f4439fa8182ad543eeb0b4",
+    "naval/shokaku_1941_08_23/weapons/type89.tscn": "17c4c09243c19410cbe56222c3dbcffc5e65f86f3c5cd3747fe7a6af8f72acdd",
+    "naval/shokaku_1941_08_23/weapons/type96.tscn": "540ba97c3889cb6addc0734880060502bcd53f04c2a4fda38faec272efb8d893"
+  },
+  "reports": [
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T100552-7b78e6e2/report.json",
+    "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261111T100554-3cc28a03/report.json"
+  ],
+  "template_sha256": {
+    "web_nothreads_release.zip": "d3ee2f08cef0cf3cf6678a6355a92a8db48ccdd35cbd2e8bfd5f0e8a0b4032a0",
+    "web_nothreads_debug.zip": "08962aefef811b603541d7951ac67ef00413aad2d978855183c28adee98f626a"
+  },
+  "output_sha256": {
+    "index.apple-touch-icon.png": "01d4f63e525941e06ce74f5187dad030d20a8d52a07ce365ae4e94af97a3b1f5",
+    "index.wasm": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+    "index.icon.png": "ad3c35ad0facf487c618204bd98db543034fc95224eadc7f08c7a9ff38d5b3b5",
+    "index.html": "be64ee30b6773ede174c80192e81007f917193ed186ce343452491895513e474",
+    "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+    "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+    "index.js": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+    "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+    "index.pck": "e7adfb86152cea8adf18747be34f07d03ac6fac8e9d4083c4c964a7a811e2953"
+  }
+}

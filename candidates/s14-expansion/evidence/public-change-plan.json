@@ -1,0 +1,409 @@
+{
+  "candidate_only": true,
+  "not_applied": true,
+  "source_manifest": "candidates/s14-expansion/evidence/inputs-autonomous-b25-r8.json",
+  "source_manifest_sha256": "4dbcafef6ce361aab559ed0ef6529498b65ca4071d710969557619ec2f676942",
+  "public_baseline_files": 399,
+  "public_baseline_unchanged": true,
+  "ordinary_build_matches_previous_manifest": true,
+  "ordinary_build_checks": {
+    "index.apple-touch-icon.png": true,
+    "index.wasm": true,
+    "index.icon.png": true,
+    "index.html": true,
+    "index.png": true,
+    "index.audio.worklet.js": true,
+    "index.js": true,
+    "index.audio.position.worklet.js": true,
+    "index.pck": true
+  },
+  "runtime_admission_count": 500,
+  "new_whitelist_admissions": [
+    "aircraft/b25j/b25j.gd",
+    "aircraft/b25j/b25j.tscn",
+    "aircraft/b25j/data/interfaces.json",
+    "aircraft/b25j/geometry.gd",
+    "aircraft/d4y2/d4y2.gd",
+    "aircraft/d4y2/d4y2.tscn",
+    "aircraft/d4y2/data/interfaces.json",
+    "aircraft/d4y2/geometry.gd",
+    "aircraft/g4m1/data/interfaces.json",
+    "aircraft/g4m1/g4m1.gd",
+    "aircraft/g4m1/g4m1.tscn",
+    "aircraft/g4m1/geometry.gd",
+    "data/combat/s14_expansion.json",
+    "data/expansion/carrier_model_interfaces.json",
+    "data/expansion/fleet_profiles.json",
+    "data/map02/facility_instances.json",
+    "data/map02/facility_modules.json",
+    "data/map02/regions.json",
+    "data/maps/island_harbor_expanded.json",
+    "data/scenarios/s14_expansion_carrier_gunnery.json",
+    "data/scenarios/s14_expansion_carrier_pair.json",
+    "data/scenarios/s14_expansion_carrier_partial.json",
+    "data/scenarios/s14_expansion_carrier_single.json",
+    "data/scenarios/s14_expansion_harbor.json",
+    "data/scenarios/s14_expansion_inspect_b25j.json",
+    "data/scenarios/s14_expansion_inspect_d4y2.json",
+    "data/scenarios/s14_expansion_inspect_g4m1.json",
+    "data/units/jp_shokaku_1941_08_23.json",
+    "data/units/us_essex_cv9_1944_04_15.json",
+    "naval/essex_cv9_1944_04_15/data/assembly.json",
+    "naval/essex_cv9_1944_04_15/data/deck.json",
+    "naval/essex_cv9_1944_04_15/essex.gd",
+    "naval/essex_cv9_1944_04_15/essex.tscn",
+    "naval/essex_cv9_1944_04_15/geometry.gd",
+    "naval/essex_cv9_1944_04_15/measure32.gdshader",
+    "naval/essex_cv9_1944_04_15/modules/equipment.gd",
+    "naval/essex_cv9_1944_04_15/modules/equipment.tscn",
+    "naval/essex_cv9_1944_04_15/modules/flight_deck.gd",
+    "naval/essex_cv9_1944_04_15/modules/flight_deck.tscn",
+    "naval/essex_cv9_1944_04_15/modules/hangar.gd",
+    "naval/essex_cv9_1944_04_15/modules/hangar.tscn",
+    "naval/essex_cv9_1944_04_15/modules/hull.gd",
+    "naval/essex_cv9_1944_04_15/modules/hull.tscn",
+    "naval/essex_cv9_1944_04_15/modules/island.gd",
+    "naval/essex_cv9_1944_04_15/modules/island.tscn",
+    "naval/essex_cv9_1944_04_15/modules/platforms.gd",
+    "naval/essex_cv9_1944_04_15/modules/platforms.tscn",
+    "naval/essex_cv9_1944_04_15/weapons/five_inch.gd",
+    "naval/essex_cv9_1944_04_15/weapons/mk24.tscn",
+    "naval/essex_cv9_1944_04_15/weapons/mk32.tscn",
+    "naval/shokaku_1941_08_23/data/assembly.json",
+    "naval/shokaku_1941_08_23/data/deck.json",
+    "naval/shokaku_1941_08_23/data/unit_candidate.json",
+    "naval/shokaku_1941_08_23/geometry.gd",
+    "naval/shokaku_1941_08_23/modules/equipment.gd",
+    "naval/shokaku_1941_08_23/modules/equipment.tscn",
+    "naval/shokaku_1941_08_23/modules/flight_deck.gd",
+    "naval/shokaku_1941_08_23/modules/flight_deck.tscn",
+    "naval/shokaku_1941_08_23/modules/funnels.gd",
+    "naval/shokaku_1941_08_23/modules/funnels.tscn",
+    "naval/shokaku_1941_08_23/modules/hangar.gd",
+    "naval/shokaku_1941_08_23/modules/hangar.tscn",
+    "naval/shokaku_1941_08_23/modules/hull.gd",
+    "naval/shokaku_1941_08_23/modules/hull.tscn",
+    "naval/shokaku_1941_08_23/modules/island.gd",
+    "naval/shokaku_1941_08_23/modules/island.tscn",
+    "naval/shokaku_1941_08_23/modules/platforms.gd",
+    "naval/shokaku_1941_08_23/modules/platforms.tscn",
+    "naval/shokaku_1941_08_23/shokaku.gd",
+    "naval/shokaku_1941_08_23/shokaku.tscn",
+    "naval/shokaku_1941_08_23/weapons/type89.gd",
+    "naval/shokaku_1941_08_23/weapons/type89.tscn",
+    "naval/shokaku_1941_08_23/weapons/type96.gd",
+    "naval/shokaku_1941_08_23/weapons/type96.tscn",
+    "scenes/ships/jp_shokaku_1941_08_23.tscn",
+    "scenes/ships/us_essex_cv9_1944_04_15.tscn",
+    "scripts/air_operations/airframe_geometry.gd",
+    "scripts/air_operations/carrier_operations.gd",
+    "scripts/air_operations/carrier_operations.gd.uid",
+    "scripts/air_operations/configuration_attitude.gd",
+    "scripts/air_operations/deck_contact_support.gd",
+    "scripts/air_operations/deck_geometry.gd",
+    "scripts/air_operations/deck_geometry.gd.uid",
+    "scripts/air_operations/deck_motion.gd",
+    "scripts/air_operations/deck_motion.gd.uid",
+    "scripts/air_operations/flight_bridge.gd",
+    "scripts/air_operations/flight_bridge.gd.uid",
+    "scripts/air_operations/mission_delegate.gd",
+    "scripts/air_operations/model_contact_proxy.json",
+    "scripts/air_operations/parameters.json",
+    "scripts/air_operations/task_bridge.gd",
+    "scripts/air_operations/task_bridge.gd.uid",
+    "scripts/air_operations/wreck_settling.gd",
+    "scripts/aircraft_geometry/f6f5_carrier_geometry.gd",
+    "scripts/map02/expanded_map_data.gd",
+    "scripts/map02/expanded_map_view.gd",
+    "scripts/showcase/expansion/carrier_harbor.gd",
+    "scripts/showcase/expansion/carrier_ship_adapter.gd",
+    "scripts/showcase/expansion/carrier_tasks.gd",
+    "scripts/showcase/expansion/expansion_missions.gd",
+    "scripts/showcase/expansion/operations_installer.gd",
+    "scripts/showcase/expansion/operations_labels.gd",
+    "scripts/showcase/expansion/web_probe.gd",
+    "showcase/carrier_harbor.tscn"
+  ],
+  "candidate_patches": [
+    {
+      "path": "aircraft/models/f6f5.gd",
+      "before_sha256": "4adf827e37e5e032db3a783ca08bd44bd2da0375ab2316db5935920cbb03b5c7",
+      "candidate_sha256": "47fc414ee9a0d2805ca85023651d4925986a8b7301a67f1609f5d77190a4bdf3",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/aircraft/models/f6f5.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "aircraft/scripts/aircraft_builder.gd",
+      "before_sha256": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+      "candidate_sha256": "2f94ad775d3220bcab3483033373aa72bab92ac41751c22c3850848ee8c84a4e",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/aircraft/scripts/aircraft_builder.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "data/aircraft/performance.json",
+      "before_sha256": "58b024812d96856901a90c4a06c941f34349e45adea50e8f7feb36b75aed89cb",
+      "candidate_sha256": "64e7646758bbe3b05f8e85bfcb362b0721dff87c9a6f6fe13324f56dca035d42",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/aircraft/performance.json",
+      "operation": "replace"
+    },
+    {
+      "path": "data/combat/s14_expansion.json",
+      "before_sha256": null,
+      "candidate_sha256": "f8cd7583131cf0e1844b9f345b88f1bafa5bfca31e7ee435baf52a789a709f31",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/combat/s14_expansion.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/expansion/carrier_model_interfaces.json",
+      "before_sha256": null,
+      "candidate_sha256": "2c528a7c8bd395401fb87183e663a77d2aa0db4cf589634911c2b4549f42673b",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/expansion/carrier_model_interfaces.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/expansion/fleet_profiles.json",
+      "before_sha256": null,
+      "candidate_sha256": "50f0195a0ee0ff69555e93d52ce6f222da973cb07568e59f942058f03c1c49ac",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/expansion/fleet_profiles.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_expansion_carrier_gunnery.json",
+      "before_sha256": null,
+      "candidate_sha256": "91b49be150a6b47749910e8021e1f88959a5ae4ca408f004eec3180dd52aa112",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/scenarios/s14_expansion_carrier_gunnery.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_expansion_carrier_pair.json",
+      "before_sha256": null,
+      "candidate_sha256": "b1d0b6d40384ee9df64ff2de348e756ef1396a70056c8b50d32a5d59ee2943ee",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/scenarios/s14_expansion_carrier_pair.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_expansion_carrier_partial.json",
+      "before_sha256": null,
+      "candidate_sha256": "1c9b8c989ae34bf6456975bbf16ae30d1fafc6a0d65ad993756b04bf65b69aef",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/scenarios/s14_expansion_carrier_partial.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_expansion_carrier_single.json",
+      "before_sha256": null,
+      "candidate_sha256": "2c21cef1ca6b1b93462a8976a0d9f7c04c8618fdc288090e678beb48eedd9780",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/scenarios/s14_expansion_carrier_single.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_expansion_harbor.json",
+      "before_sha256": null,
+      "candidate_sha256": "e26e5ee22f96d42be956f99ac144f72a30c6f072ff10e53c0dadfa5f7c69bf96",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/scenarios/s14_expansion_harbor.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_expansion_inspect_b25j.json",
+      "before_sha256": null,
+      "candidate_sha256": "e229ab1e55687f041730d50e8923e909f343950b4661a997062bb5a2840e7ad4",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/scenarios/s14_expansion_inspect_b25j.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_expansion_inspect_d4y2.json",
+      "before_sha256": null,
+      "candidate_sha256": "9f33fe01b824d52e5a8149cebc92ce697d4a2d5448110b2f2350239d1b8d628a",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/scenarios/s14_expansion_inspect_d4y2.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/scenarios/s14_expansion_inspect_g4m1.json",
+      "before_sha256": null,
+      "candidate_sha256": "017df8908f6a9f89d160b3341ca2b04ef42c433307fb0bb9b6a0b1856b72f4df",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/scenarios/s14_expansion_inspect_g4m1.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/units/jp_shokaku_1941_08_23.json",
+      "before_sha256": null,
+      "candidate_sha256": "2e409682e4835710fa90798f8873b6deed80aab82463533afd4a95c17d450b66",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/units/jp_shokaku_1941_08_23.json",
+      "operation": "add"
+    },
+    {
+      "path": "data/units/us_essex_cv9_1944_04_15.json",
+      "before_sha256": null,
+      "candidate_sha256": "475ca314b9843073ecba24b06b694bdc3a98bef51ddbc08e92f401bda6b8b021",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/data/units/us_essex_cv9_1944_04_15.json",
+      "operation": "add"
+    },
+    {
+      "path": "scenes/ships/jp_shokaku_1941_08_23.tscn",
+      "before_sha256": null,
+      "candidate_sha256": "09d9bcc093cde8c5fbac8ec496e02354a1cbeefb8bd69b6eb78aed40590d8b63",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scenes/ships/jp_shokaku_1941_08_23.tscn",
+      "operation": "add"
+    },
+    {
+      "path": "scenes/ships/us_essex_cv9_1944_04_15.tscn",
+      "before_sha256": null,
+      "candidate_sha256": "e3bb56da1c4f438f3d52a60232ccc2eb34a1a583c94c86a92daf8f81c9d19b1f",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scenes/ships/us_essex_cv9_1944_04_15.tscn",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/air_operations/carrier_operations.gd",
+      "before_sha256": "94444c475053d1b665b46f77df9c133e911186b85f2850525e353b68e27dbf98",
+      "candidate_sha256": "60f9cd36319743e5ebd43adf3aad4a6b42cdb7bf59b6cfcca2e955dc5b4eb61a",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/air_operations/carrier_operations.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "scripts/aircraft_geometry/f6f5_carrier_geometry.gd",
+      "before_sha256": null,
+      "candidate_sha256": "223b1d51ae6829f89463ab2dbc0c71ab2fa1e3f144e4453b1ca55311e13e2913",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/aircraft_geometry/f6f5_carrier_geometry.gd",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/command/commander/fleet_planner.gd",
+      "before_sha256": "92fbd5129def083864d4b4a6fd55f8ef692bcf1d5de88f4d21213eb6325afdcb",
+      "candidate_sha256": "24ac08cda539254f56ed53355cd53730ee53f520d30e3c660a863e0e93bd6e77",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/command/commander/fleet_planner.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "scripts/game/first_playable.gd",
+      "before_sha256": "f5c1a514032bef125bfcfa03397b9961441586524969c5dd2566fdae274e38a7",
+      "candidate_sha256": "b1f0f119d5d4d32c45d4fb9cb82cb4a32fda32edcbad046a2c05d48c041f4650",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/game/first_playable.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "scripts/game/first_playable_session.gd",
+      "before_sha256": "ffbc58e6f7684c201bb2a1c7a4013021ad665a1b86446117c2d50e1d2a235cbf",
+      "candidate_sha256": "0e85a9a8b140c2042d395a50159a061034c9efb92d862120c5586a8670f89ce0",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/game/first_playable_session.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "scripts/presentation/models/aircraft_adapter.gd",
+      "before_sha256": "b2296abf3954029dd50ca087ff12e6fe91dee42541fe82fca00451b1f225e731",
+      "candidate_sha256": "5bdbdf3019f08f2967f2996b6d985dfcae3d1cc0001e518b8ef54bf85c03e09e",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/presentation/models/aircraft_adapter.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "scripts/showcase/all_units_showcase.gd",
+      "before_sha256": "dba1d67092e0fdd12eec0611fd12f31a4455fa9e2be6e7234a29efcc54c0448a",
+      "candidate_sha256": "23680eb37006530790b84820c11ba51eb9ca464dea7d54d729613db9633075ec",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/showcase/all_units_showcase.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "scripts/showcase/expansion/carrier_harbor.gd",
+      "before_sha256": null,
+      "candidate_sha256": "3212b0108a018258e655c2826271a205a4d33a132819642ecf9eddb9bdfe2ea1",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/showcase/expansion/carrier_harbor.gd",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/expansion/carrier_ship_adapter.gd",
+      "before_sha256": null,
+      "candidate_sha256": "f5a798f9983b77ac3ecdd793b169d675ca67e632dcaff4c2e02612c3180aac8d",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/showcase/expansion/carrier_ship_adapter.gd",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/expansion/carrier_tasks.gd",
+      "before_sha256": null,
+      "candidate_sha256": "2f13cf2bad22ac805108efed1be89d3eecf07d356c0977337d2633fdf688a7e6",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/showcase/expansion/carrier_tasks.gd",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/expansion/expansion_missions.gd",
+      "before_sha256": null,
+      "candidate_sha256": "c5114adb616b39676055d9ed8bd14eef482368b16ace56899f35def270a5604e",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/showcase/expansion/expansion_missions.gd",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/expansion/operations_installer.gd",
+      "before_sha256": null,
+      "candidate_sha256": "f0b04c121a56c218cf67f264dcf142511d6ffc76f17b44ca206ac4c779cbf123",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/showcase/expansion/operations_installer.gd",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/expansion/operations_labels.gd",
+      "before_sha256": null,
+      "candidate_sha256": "9e308b839e861a351cedf1c66f4497765c3c57d8c1e2d7899fbe6bd6d8053bdf",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/showcase/expansion/operations_labels.gd",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/expansion/web_probe.gd",
+      "before_sha256": null,
+      "candidate_sha256": "898379fe97bbbde513fe3a922c2038f1e6dd7154c12a1bbdd5883917e7b592a4",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/showcase/expansion/web_probe.gd",
+      "operation": "add"
+    },
+    {
+      "path": "scripts/showcase/showcase_guide.gd",
+      "before_sha256": "0705163a124c82ff539f42730322b6124d9830ec134a90ed7d827ae50e00aed3",
+      "candidate_sha256": "efb0223e3622d5e7fa0737fe0cb03cfdd3f450f8cf3418b8fcaea1f6f62cf2cc",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/showcase/showcase_guide.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "scripts/showcase/showcase_missions.gd",
+      "before_sha256": "88e8e506db9cbd751d5adc287b827aea0bd610b794eeb4aafe3973a1186956e6",
+      "candidate_sha256": "c75c4ae5f7ca3db3a9074aac9095b03bd7ef208761c920b21d538c39f4c38725",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/showcase/showcase_missions.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "scripts/simulation/simulation_world.gd",
+      "before_sha256": "5aa20ac066896ddab57e3dfbf6834b145316b98b6e69be3355604cc198706e58",
+      "candidate_sha256": "671889fa4d7b06b0cad1e5eb3cdd5ac66015e37d8b762e466e42268f8aeb6e67",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/scripts/simulation/simulation_world.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "showcase/carrier_harbor.tscn",
+      "before_sha256": null,
+      "candidate_sha256": "e5d8d370d45ac51fc13ada86d0d6167817ecb49087dc2f9b49a0d74dfcd68fff",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/showcase/carrier_harbor.tscn",
+      "operation": "add"
+    },
+    {
+      "path": "ui/observer_text.gd",
+      "before_sha256": "df4506d5dab6bc494380178eaa06f20970ffd750c399e3e658e7b041d85d0817",
+      "candidate_sha256": "ceb0ffbaae38fb1296fc9d2d1112f6bf448e1b4288dea642ff32b1271cb0b86f",
+      "candidate": "candidates/s14-expansion/evidence/inputs/autonomous-b25-r8/ui/observer_text.gd",
+      "operation": "replace"
+    },
+    {
+      "path": "tools/showcase_runtime.json",
+      "before_sha256": "b725815698dd9cfdab1e35cbac9a135c2b7360629f9d6d4d3a4411975bd7b7af",
+      "candidate_sha256": "730a8eaa026c6b415e85610dea6f38c4ddfa1d2e946b9e7ea5b36442e6596930",
+      "candidate": "candidates/s14-expansion/proposed/tools/showcase_runtime.json",
+      "operation": "replace",
+      "proposal_not_executed": true
+    },
+    {
+      "path": "tools/build_first_playable.py",
+      "before_sha256": "b535a951120a4e511e0343d6c030d2394a54e29f1787c68d40cf8c7a55510075",
+      "candidate_sha256": "064bb66c228ff60c995108dcf4d20f0eb3738f1e83516afd65ae53fd61875677",
+      "candidate": "candidates/s14-expansion/proposed/tools/build_first_playable.py",
+      "operation": "replace",
+      "proposal_not_executed": true
+    }
+  ],
+  "public_before_backup": "candidates/s14-expansion/evidence/public-before",
+  "root_project_settings_overwrite": false,
+  "root_export_presets_overwrite": false,
+  "root_run_helper_change_required": false,
+  "after_review_only": "Apply explicit paths, then build/test normal --scene expanded; BOMB remains separate."
+}

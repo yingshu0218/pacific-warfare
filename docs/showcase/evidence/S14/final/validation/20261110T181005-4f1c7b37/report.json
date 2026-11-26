@@ -1,0 +1,69 @@
+{
+  "run_id": "20261110T181005-4f1c7b37",
+  "owner": "S14-native-continuous",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 65140,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 65142,
+      "process_group": 65142,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.2312,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T181005-4f1c7b37/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--minimized",
+        "--resolution",
+        "1280x720",
+        "--script",
+        "res://tests/all_units_capture.gd",
+        "--",
+        "--continuous"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 65143,
+      "process_group": 65143,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 135.5362,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T181005-4f1c7b37/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S14-native-continuous",
+    "pid": 65140,
+    "process_identity": "Wed Nov 11 02:10:05 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S14-native-continuous --timeout 200 --lock-timeout 10 godot --render -- --minimized --resolution 1280x720 --script res://tests/all_units_capture.gd -- --continuous",
+    "token": "4b73b91c4dd145138ce7a13bbfccae11",
+    "acquired_utc": "2026-11-10T18:10:05.570122+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

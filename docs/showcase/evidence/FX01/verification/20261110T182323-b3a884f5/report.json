@@ -1,0 +1,40 @@
+{
+  "run_id": "20261110T182323-b3a884f5",
+  "owner": "FX01-video-final",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 66573,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "tools/fx01/encode.py"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 66575,
+      "process_group": 66575,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 1.468,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T182323-b3a884f5/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "FX01-video-final",
+    "pid": 66573,
+    "process_identity": "Wed Nov 11 02:23:23 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner FX01-video-final --timeout 90 --lock-timeout 60 exec -- python3 tools/fx01/encode.py",
+    "token": "9afbe3dbaa574656b120011345bee7d4",
+    "acquired_utc": "2026-11-10T18:23:23.129177+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

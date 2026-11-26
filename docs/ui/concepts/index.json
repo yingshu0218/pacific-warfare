@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "generated_on": "2026-11-10",
+  "tool": "image_gen.imagegen",
+  "status": "direction_selected_not_implemented",
+  "reference_authorization": "User explicitly permitted only 01-default.png and 05-cinema.png for three UI proposals; no code files or other screenshots were sent.",
+  "approved_references": [
+    {
+      "file": "docs/ui/evidence/current/01-default.png",
+      "sha256": "0f13a6efd26fcbac4175cad4c1975eb043c7aa18821f8bf08d063c7067d766a5"
+    },
+    {
+      "file": "docs/ui/evidence/current/05-cinema.png",
+      "sha256": "660e5025ee868132235abad6fb1c4b7157422e334c13ecb915f93f6b0e38f38e"
+    }
+  ],
+  "generated_by": "root after S12 visual turn failed with runtime Bad Request before generation",
+  "images": [
+    {
+      "display_order": 1,
+      "title": "外围轻 HUD",
+      "state": "default",
+      "file": "01-peripheral-hud.png",
+      "absolute_path": "/Users/infinity/Desktop/Dev/game-pacific/docs/ui/concepts/01-peripheral-hud.png",
+      "generated_original_path": "/Users/infinity/.codex/generated_images/01a1c0f7-997f-75c2-bc6a-957d80dc8d47/exec-b35776e9-0e0b-4931-b307-23b736013e1e.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2fc52b310fa41f5fe68539653d0df635087c900beafa1ea723a99470fa306753",
+      "prompt_file": "01-peripheral-hud.prompt.txt"
+    },
+    {
+      "display_order": 2,
+      "title": "底部战术栏",
+      "state": "default",
+      "file": "02-bottom-tactical-dock.png",
+      "absolute_path": "/Users/infinity/Desktop/Dev/game-pacific/docs/ui/concepts/02-bottom-tactical-dock.png",
+      "generated_original_path": "/Users/infinity/.codex/generated_images/01a1c0f7-997f-75c2-bc6a-957d80dc8d47/exec-684c5bcd-439a-41f0-a886-c15f2fb8a328.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "96c5827b6c2d8355f831bbe40268f2cff8f1832c6461f01601bc53fe73447972",
+      "prompt_file": "02-bottom-tactical-dock.prompt.txt"
+    },
+    {
+      "display_order": 3,
+      "title": "情境侧栏",
+      "state": "unit_details_open",
+      "file": "03-context-sidebar.png",
+      "absolute_path": "/Users/infinity/Desktop/Dev/game-pacific/docs/ui/concepts/03-context-sidebar.png",
+      "generated_original_path": "/Users/infinity/.codex/generated_images/01a1c0f7-997f-75c2-bc6a-957d80dc8d47/exec-3c869a27-3ef7-46a1-b2ef-f9826116d069.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "95aecca1fadf085f17ca4718bebbcfc16ed5dc6993e8966c290bab3873850b9e",
+      "prompt_file": "03-context-sidebar.prompt.txt"
+    }
+  ],
+  "selected_direction": 1,
+  "recommended_direction": 1,
+  "qa_scope": "All three images visually inspected in root; readable layout proposals, not runtime, contrast, input or performance validation.",
+  "known_differences": [
+    "Generated images are 1672x941 proposals, not pixel-accurate 1280x720 implementation evidence.",
+    "Direction 3 shows an expanded unit panel; directions 1 and 2 show default states.",
+    "Direction 3 top command text lacks the stable dark backing required by the written spec; use a readable backing in implementation.",
+    "World is an AI-edited reference frame and must not be used to validate model geometry or flight physics."
+  ],
+  "selection": {
+    "title": "外围轻 HUD",
+    "confirmed_on": "2026-11-10",
+    "source": "direct_user_answer",
+    "answer": "1｜外围轻 HUD（推荐）",
+    "reference_file": "01-peripheral-hud.png"
+  }
+}

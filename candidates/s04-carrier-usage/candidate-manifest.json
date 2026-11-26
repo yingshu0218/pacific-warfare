@@ -1,0 +1,134 @@
+{
+  "task": "S04-carrier-usage",
+  "geometry_id": "f6f5_carrier_usage_v2",
+  "frozen_utc": "2026-11-11T11:15:34.816774+00:00",
+  "stage": "r10",
+  "status": "private_candidate_frozen_root_native_review_passed_pending_root_hash_cleanup_signoff",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "renderer": "gl_compatibility",
+  "public_sources_replaced": false,
+  "public_baseline_sha256": {
+    "aircraft/scripts/aircraft_builder.gd": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+    "aircraft/models/f6f5.gd": "4adf827e37e5e032db3a783ca08bd44bd2da0375ab2316db5935920cbb03b5c7",
+    "scripts/presentation/models/aircraft_adapter.gd": "b2296abf3954029dd50ca087ff12e6fe91dee42541fe82fca00451b1f225e731"
+  },
+  "destinations": [
+    {
+      "destination": "aircraft/scripts/aircraft_builder.gd",
+      "candidate": "candidates/s04-carrier-usage/aircraft/scripts/aircraft_builder.gd",
+      "before_sha256": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+      "after_sha256": "2f94ad775d3220bcab3483033373aa72bab92ac41751c22c3850848ee8c84a4e",
+      "added_lines": 10,
+      "removed_lines": 2
+    },
+    {
+      "destination": "aircraft/models/f6f5.gd",
+      "candidate": "candidates/s04-carrier-usage/aircraft/models/f6f5.gd",
+      "before_sha256": "4adf827e37e5e032db3a783ca08bd44bd2da0375ab2316db5935920cbb03b5c7",
+      "after_sha256": "47fc414ee9a0d2805ca85023651d4925986a8b7301a67f1609f5d77190a4bdf3",
+      "added_lines": 155,
+      "removed_lines": 4
+    },
+    {
+      "destination": "scripts/presentation/models/aircraft_adapter.gd",
+      "candidate": "candidates/s04-carrier-usage/scripts/presentation/models/aircraft_adapter.gd",
+      "before_sha256": "b2296abf3954029dd50ca087ff12e6fe91dee42541fe82fca00451b1f225e731",
+      "after_sha256": "5bdbdf3019f08f2967f2996b6d985dfcae3d1cc0001e518b8ef54bf85c03e09e",
+      "added_lines": 20,
+      "removed_lines": 2
+    },
+    {
+      "destination": "scripts/aircraft_geometry/f6f5_carrier_geometry.gd",
+      "candidate": "candidates/s04-carrier-usage/scripts/aircraft_geometry/f6f5_carrier_geometry.gd",
+      "before_sha256": null,
+      "after_sha256": "223b1d51ae6829f89463ab2dbc0c71ab2fa1e3f144e4453b1ca55311e13e2913",
+      "added_lines": 62,
+      "removed_lines": 0
+    }
+  ],
+  "patch": {
+    "file": "candidates/s04-carrier-usage/carrier-usage.patch",
+    "sha256": "89e754ca6aead4603a1f25a9a3750f0753035b54a5b6e70a08940ddc6cd57d48",
+    "private_dry_run_and_apply_passed": true
+  },
+  "source_manifest": {
+    "file": "candidates/s04-carrier-usage/source-manifest.json",
+    "sha256": "c9b843a4f8793285f26c808e3bb94d2f34ee41bd806d7a30059daea57a69a453",
+    "payload_files": 25
+  },
+  "evidence_manifest": {
+    "file": "candidates/s04-carrier-usage/evidence-manifest.json",
+    "sha256": "3bcca0fea6568f1bd40008438457dad3d995e3956fa27cc698596ee0591e00a6",
+    "payload_files": 177
+  },
+  "stage_input": {
+    "file": "docs/showcase/evidence/S04-carrier-usage/r10/input-manifest.json",
+    "sha256": "2ad0826d39dc147393c5d169a81aba02336e0727de91bcb3898c6f34677cdd99",
+    "verified_files": 523
+  },
+  "checks": {
+    "airframe-preservation.json": {
+      "checks": 17,
+      "failures": 0
+    },
+    "model.json": {
+      "checks": 56,
+      "failures": 0
+    },
+    "deck.json": {
+      "checks": 31,
+      "failures": 0
+    },
+    "regressions/models.json": {
+      "checks": 41,
+      "failures": 0
+    },
+    "regressions/mechanisms.json": {
+      "checks": 90,
+      "failures": 0
+    }
+  },
+  "total_checks": 235,
+  "native_views_reviewed": 12,
+  "cpu_geometry": {
+    "file": "docs/showcase/evidence/S04-carrier-usage/r10/cpu-geometry.json",
+    "sha256": "836c25bda723921d91346f3349216289b76cebd1d17b0fca4d3a0dc6e9b8b6a6",
+    "authoritative_source": "scripts/aircraft_geometry/f6f5_carrier_geometry.gd",
+    "node_or_renderer_dependency": false
+  },
+  "contact_clearances_m": {
+    "swept_propeller_disc": 0.237295901622447,
+    "flap_35_deg_min": 0.255594635009766,
+    "flap_50_deg_min": 0.109420204162598
+  },
+  "cleanup": {
+    "audit": "docs/showcase/evidence/S04-carrier-usage/r10/cleanup-audit.json",
+    "audit_sha256": "1daf5ea3e2ef3efab648bd578cf3af92a2646908d65f903fece28fca54604611",
+    "audit_outer_report": "docs/showcase/evidence/S04-carrier-usage/validation-runs/20261111T111148-cfb90c9d/report.json",
+    "audit_outer_report_sha256": "4a8d8752ace1a16604d918afea3ad37c2f52a378cfec3c44f8633119e9514435",
+    "prior_completed_runs": 28,
+    "prior_child_groups_absent": 67,
+    "outer_audit_child_cleanup_ok": true,
+    "completed_owned_runs_in_index": 29,
+    "old_owned_processes_remaining": 0,
+    "chrome_tabs_created": 0,
+    "http_services_created": 0,
+    "temporary_patch_directory_removed": true,
+    "latest_lock_observation": {
+      "owner": "AV02",
+      "status": "released",
+      "scope": "Other owners may reuse the shared lock after S04 release."
+    }
+  },
+  "contract": "docs/air_operations/S04-carrier-usage-contract.md",
+  "delivery": "docs/showcase/deliveries/S04-carrier-usage.md",
+  "reference_brief": "docs/references/aircraft/f6f5_1944/carrier-usage/modeling-brief.md",
+  "remaining_scope": [
+    "Root lightweight hash/cleanup signoff",
+    "OPS dynamic support and actual hook consumption; old 4.4m hook and pitch=0 snapshots obsolete",
+    "OPS real takeoff/recovery 15fps sequences",
+    "Later S14/S08/Chrome integration"
+  ],
+  "browser_tested": false,
+  "actual_carrier_operations_completed": false
+}

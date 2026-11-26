@@ -1,0 +1,2065 @@
+[
+  {
+    "run_id": "20261110T183132-69193566",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T183132-69193566/report.json",
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-c",
+          "from pathlib import Path\nimport datetime, hashlib, json, shutil\nroot = Path.cwd()\ntag = datetime.datetime.now(datetime.timezone.utc).strftime(\"%Y%m%dT%H%M%SZ\")\nrestore = root / \".local\" / \"restores\" / \"SB2C-admission\" / tag\nrestore.mkdir(parents=True, exist_ok=False)\n(root / \".local\" / \".gdignore\").touch(exist_ok=True)\nevidence = root / \"docs/showcase/evidence/SB2C-admission\"\nevidence.mkdir(parents=True, exist_ok=True)\n(evidence / \".gdignore\").touch(exist_ok=True)\nfor name in (\"baseline\", \"final\", \"logs\"):\n    (evidence / name).mkdir(exist_ok=True)\nowned = [root/\"aircraft/sb2c4/sb2c4.gd\", root/\"aircraft/sb2c4/showcase.gd\", root/\"aircraft/sb2c4/sb2c4.tscn\", root/\"aircraft/sb2c4/showcase.tscn\", root/\"docs/deliveries/sb2c4-delivery.md\", root/\"docs/references/bombers/sb2c/README.md\", root/\"docs/references/bombers/sb2c/sources.json\", root/\"docs/references/bombers/sb2c/modeling-brief.md\"]\nmanifest = {\"captured_at_utc\": datetime.datetime.now(datetime.timezone.utc).isoformat(), \"restore\": str(restore), \"files\": {}}\nfor p in owned:\n    target = restore / p.relative_to(root)\n    target.parent.mkdir(parents=True, exist_ok=True)\n    shutil.copy2(p, target)\n    manifest[\"files\"][str(p.relative_to(root))] = hashlib.sha256(p.read_bytes()).hexdigest()\nfor p in (root/\"aircraft/scripts/aircraft_builder.gd\", root/\"project.godot\"):\n    manifest[\"files\"][str(p.relative_to(root))] = hashlib.sha256(p.read_bytes()).hexdigest()\n(restore/\"manifest.json\").write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+\"\\n\")\n(evidence/\"sources-before.json\").write_text(json.dumps(manifest, ensure_ascii=False, indent=2)+\"\\n\")\nprint(json.dumps({\"restore\": str(restore), \"evidence\": str(evidence), \"files\": len(manifest[\"files\"])}, ensure_ascii=False))"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0459,
+        "passed": true,
+        "process_group": 67302
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T183207-f478cf89",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T183207-f478cf89/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2508,
+        "passed": true,
+        "process_group": 67392
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "side",
+          "--mode",
+          "clean",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/baseline/side-clean.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 3.2163,
+        "passed": true,
+        "process_group": 67395
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T183211-469711fc",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T183211-469711fc/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1301,
+        "passed": true,
+        "process_group": 67427
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "front_port",
+          "--mode",
+          "clean",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/baseline/front-port-clean.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.4513,
+        "passed": true,
+        "process_group": 67431
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T183213-6db9a855",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T183213-6db9a855/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0217,
+        "passed": true,
+        "process_group": 67441
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "top",
+          "--mode",
+          "clean",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/baseline/top-clean.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.0994,
+        "passed": true,
+        "process_group": 67442
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T183320-5e52ea8f",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T183320-5e52ea8f/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1959,
+        "passed": true,
+        "process_group": 67503
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "cockpit_detail",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/baseline/cockpit-root.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.3319,
+        "passed": true,
+        "process_group": 67504
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T183322-2e8eb13a",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T183322-2e8eb13a/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0776,
+        "passed": true,
+        "process_group": 67511
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "tailwheel_detail",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/baseline/tailwheel.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.9032,
+        "passed": true,
+        "process_group": 67512
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T183324-cb351e04",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T183324-cb351e04/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0388,
+        "passed": true,
+        "process_group": 67518
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "bomb_bay",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/baseline/bomb-bay.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.8811,
+        "passed": true,
+        "process_group": 67519
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T183326-12956b25",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T183326-12956b25/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0238,
+        "passed": true,
+        "process_group": 67526
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "underside_quarter",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/baseline/stores-underside.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.0303,
+        "passed": true,
+        "process_group": 67527
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T184001-95ff790e",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T184001-95ff790e/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.3153,
+        "passed": true,
+        "process_group": 67874
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "underside",
+          "--mode",
+          "clean",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/baseline/underside-clean.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.8843,
+        "passed": true,
+        "process_group": 67875
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T184123-bc715597",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T184123-bc715597/report.json",
+    "checks": [
+      {
+        "command": [
+          "curl",
+          "--fail",
+          "--location",
+          "--max-time",
+          "20",
+          "--output",
+          "docs/references/bombers/sb2c/wright-state-sb2c4-side-preview.jpg",
+          "https://corescholar.libraries.wright.edu/special_ms223_photographs/1129/preview.jpg"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.7803,
+        "passed": true,
+        "process_group": 67974
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T184327-162140df",
+    "action": "exec",
+    "passed": false,
+    "exit_code": 1,
+    "error": "",
+    "report": "logs/20261110T184327-162140df/report.json",
+    "checks": [
+      {
+        "command": [
+          "curl",
+          "--fail",
+          "--location",
+          "--max-time",
+          "20",
+          "--output",
+          "docs/references/bombers/sb2c/usn-sb2c4-kaneohe-side.jpeg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4e/SB2C-4_NAS_Kaneohe_Rescue_Unit_in_flight.jpeg"
+        ],
+        "returncode": 28,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 20.0529,
+        "passed": false,
+        "process_group": 68089
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T184337-0277e346",
+    "action": "exec",
+    "passed": false,
+    "exit_code": 2,
+    "error": "lock_timeout",
+    "report": "logs/20261110T184337-0277e346/report.json",
+    "checks": []
+  },
+  {
+    "run_id": "20261110T184640-5f88d71d",
+    "action": "exec",
+    "passed": false,
+    "exit_code": 2,
+    "error": "lock_timeout",
+    "report": "logs/20261110T184640-5f88d71d/report.json",
+    "checks": []
+  },
+  {
+    "run_id": "20261110T184756-e3f1518b",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T184756-e3f1518b/report.json",
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-c",
+          "from pathlib import Path\np = Path(\"aircraft/sb2c4/showcase.gd\")\ns = p.read_text()\nassert 'flight_configuration' not in s\ns = s.replace('var clean_configuration: bool = false\\n', 'var clean_configuration: bool = false\\nvar flight_configuration: bool = false\\nvar inspection_pose: String = \"level\"\\n')\ns = s.replace('\\t\\t\\tclean_configuration = arguments[index + 1] == \"clean\"\\n', '\\t\\t\\tflight_configuration = arguments[index + 1] == \"flight\"\\n\\t\\t\\tclean_configuration = flight_configuration or arguments[index + 1] == \"clean\"\\n')\ns = s.replace('\\t\\telse:\\n\\t\\t\\tindex += 1\\n', '\\t\\telif arguments[index] == \"--pose\" and index + 1 < arguments.size():\\n\\t\\t\\tinspection_pose = arguments[index + 1]\\n\\t\\t\\tindex += 2\\n\\t\\telse:\\n\\t\\t\\tindex += 1\\n', 1)\ns = s.replace('\\tvar target: Vector3 = INSPECTION_TARGET\\n', '\\tvar target: Vector3 = INSPECTION_TARGET\\n\\tcamera.projection = Camera3D.PROJECTION_ORTHOGONAL\\n')\ns = s.replace('\\t\\t\"front\":\\n', '''\t\t\"reference_side\":\n\t\t\tcamera.size = 7.8\n\t\t\tcamera.position = Vector3(-25.0, 3.30, -2.5)\n\t\t\ttarget = Vector3(0.0, 2.30, 0.0)\n\t\t\"reference_front\":\n\t\t\tcamera.projection = Camera3D.PROJECTION_PERSPECTIVE\n\t\t\tcamera.fov = 24.0\n\t\t\tcamera.position = Vector3(-13.0, 13.0, -16.0)\n\t\t\"reference_rear\":\n\t\t\tcamera.projection = Camera3D.PROJECTION_PERSPECTIVE\n\t\t\tcamera.fov = 26.0\n\t\t\tcamera.position = Vector3(-13.0, 13.0, 16.0)\n\t\t\"front\":\n''', 1)\ns = s.replace('\\tcamera.look_at(target, up_axis)\\n', '\\tif flight_configuration:\\n\\t\\t$SB2C_4.landing_gear.visible = false\\n\\t\\t$SB2C_4.arrestor_hook.visible = false\\n\\t\\tground.visible = false\\n\\tcamera.look_at(target, up_axis)\\n')\ns = s[:s.index('func _capture_and_exit() -> void:')] + '''func _capture_and_exit() -> void:\n\tawait get_tree().create_timer(1.2).timeout\n\tvar screenshot: Image = get_viewport().get_texture().get_image()\n\tvar result: Error = screenshot.save_png(capture_path)\n\tvar model: Node3D = $SB2C_4\n\tvar metadata: Dictionary = {\n\t\t\"engine\": Engine.get_version_info()[\"string\"],\n\t\t\"renderer\": ProjectSettings.get_setting(\"rendering/renderer/rendering_method\"),\n\t\t\"view\": selected_view,\n\t\t\"mode\": \"flight\" if flight_configuration else (\"clean\" if clean_configuration else \"detail\"),\n\t\t\"pose\": inspection_pose,\n\t\t\"viewport_px\": [screenshot.get_width(), screenshot.get_height()],\n\t\t\"camera_projection\": \"perspective\" if camera.projection == Camera3D.PROJECTION_PERSPECTIVE else \"orthographic\",\n\t\t\"camera_position_m\": [camera.position.x, camera.position.y, camera.position.z],\n\t\t\"camera_rotation_rad\": [camera.rotation.x, camera.rotation.y, camera.rotation.z],\n\t\t\"camera_size_m\": camera.size,\n\t\t\"camera_fov_degrees\": camera.fov,\n\t\t\"model_position_m\": [model.position.x, model.position.y, model.position.z],\n\t\t\"model_rotation_rad\": [model.rotation.x, model.rotation.y, model.rotation.z],\n\t\t\"model_source_sha256\": FileAccess.get_sha256(\"res://aircraft/sb2c4/sb2c4.gd\"),\n\t\t\"showcase_source_sha256\": FileAccess.get_sha256(\"res://aircraft/sb2c4/showcase.gd\"),\n\t\t\"shared_builder_sha256\": FileAccess.get_sha256(\"res://aircraft/scripts/aircraft_builder.gd\"),\n\t}\n\tvar metadata_file: FileAccess = FileAccess.open(capture_path + \".json\", FileAccess.WRITE)\n\tif metadata_file == null:\n\t\tpush_error(\"SB2C capture metadata could not be saved.\")\n\t\tget_tree().quit(1)\n\t\treturn\n\tmetadata_file.store_string(JSON.stringify(metadata, \"\\\\t\") + \"\\\\n\")\n\tmetadata_file.close()\n\tprint(\"SB2C-4 capture %s: %s\" % [capture_path, error_string(result)])\n\tget_tree().quit(0 if result == OK else 1)\n'''\np.write_text(s)\nprint(\"Inspection camera and provenance added. Pure model source unchanged.\")\n"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0459,
+        "passed": true,
+        "process_group": 68408
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T184923-867072a6",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T184923-867072a6/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2056,
+        "passed": true,
+        "process_group": 68478
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "reference_side",
+          "--mode",
+          "flight",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/baseline/reference-side-flight.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.9774,
+        "passed": true,
+        "process_group": 68479
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T184926-8089abea",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T184926-8089abea/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.025,
+        "passed": true,
+        "process_group": 68493
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "reference_front",
+          "--mode",
+          "flight",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/baseline/reference-front-level.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.0662,
+        "passed": true,
+        "process_group": 68494
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T185303-861bceea",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T185303-861bceea/report.json",
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-c",
+          "from pathlib import Path\np = Path(\"aircraft/sb2c4/sb2c4.gd\")\ns = p.read_text()\ndef replace_func(name, content):\n    global s\n    start = s.index(\"func \" + name + \"(\")\n    end = s.find(\"\\n\\nfunc \", start + 5)\n    if end < 0:\n        end = len(s)\n    s = s[:start] + content.strip() + \"\\n\" + s[end:]\n\ns = s.replace('const GUNNER_OPENING_START_M: float = 1.24', 'const GUNNER_OPENING_START_M: float = 1.18')\ns = s.replace('const GUNNER_OPENING_END_M: float = 2.02\\n', '''const GUNNER_OPENING_END_M: float = 2.02\nconst MAIN_WHEEL_CENTER_M: Vector3 = Vector3(2.10, 0.82, -0.58)\nconst MAIN_WHEEL_RADIUS_M: float = 0.44\nconst TAIL_WHEEL_CENTER_M: Vector3 = Vector3(0.0, 1.20, 5.02)\nconst TAIL_WHEEL_RADIUS_M: float = 0.15\nconst FLIGHT_REFERENCE_M: Vector3 = Vector3(0.0, 2.38, 0.0)\n''')\ns = s.replace('\\tmaterials[\"dive_brake\"]', '\\tmaterials[\"glass\"] = _material(Color(\"566d7a\"), 0.02, 0.58)\\n\\tmaterials[\"dive_brake\"]', 1)\ns = s.replace('\\t_build_surface_details()\\n', '')\nstart = s.index('\\tfuselage_profile = [', s.index('func _build_airframe'))\nend = s.index('\\n\\tvar first_child:', start)\ns = s[:start] + '''\tfuselage_profile = [\n\t\tVector4(2.38, 0.045, 0.045, -5.15), Vector4(2.38, 0.62, 0.60, -5.02),\n\t\tVector4(2.38, 0.80, 0.78, -4.82), Vector4(2.38, 0.84, 0.82, -4.52),\n\t\tVector4(2.35, 0.82, 0.78, -3.82), Vector4(2.32, 0.75, 0.70, -3.40),\n\t\tVector4(2.26, 0.73, 0.71, -2.73), Vector4(2.20, 0.68, 0.70, -1.54),\n\t\tVector4(2.20, 0.65, 0.68, -0.28), Vector4(2.18, 0.60, 0.65, 0.98),\n\t\tVector4(2.16, 0.58, 0.63, 2.07), Vector4(2.12, 0.52, 0.59, 3.10),\n\t\tVector4(2.02, 0.40, 0.48, 4.08), Vector4(1.90, 0.27, 0.36, 4.94),\n\t\tVector4(1.90, 0.015, 0.018, 5.55)\n\t]''' + s[end:]\ns = s.replace('\\t_move_new_children(fuselage_module, first_child)\\n\\n\\tfor side', '\\t_move_new_children(fuselage_module, first_child)\\n\\t_add_marker(fuselage_module, \"AIRCRAFT_FLIGHT_REFERENCE\", FLIGHT_REFERENCE_M, \"fuselage_module\", \"presentation reference, not measured center of gravity\", 0.5)\\n\\n\\tfor side', 1)\n\nreplace_func(\"set_showcase_configuration\", '''func set_showcase_configuration(clean: bool) -> void:\n\tset_dive_brakes_deployed(not clean)\n\tset_external_stores_visible(not clean)\n\tset_bomb_bay_open(not clean)\n\tset_arrestor_hook_deployed(not clean)\n\n\nfunc set_dive_brakes_deployed(deployed: bool) -> void:\n\tfor surface: MeshInstance3D in deployed_wing_surfaces:\n\t\tsurface.visible = deployed\n\tfor surface: MeshInstance3D in folded_wing_surfaces:\n\t\tsurface.visible = not deployed\n\tif dive_brakes_module != null:\n\t\tdive_brakes_module.visible = deployed\n\n\nfunc set_external_stores_visible(show_stores: bool) -> void:\n\tif external_stores_module != null:\n\t\texternal_stores_module.visible = show_stores\n\n\nfunc set_bomb_bay_open(open: bool) -> void:\n\tif bay_open_group != null:\n\t\tbay_open_group.visible = open\n\tif bay_closed_group != null:\n\t\tbay_closed_group.visible = not open\n\n\nfunc set_landing_gear_deployed(deployed: bool) -> void:\n\tif landing_gear != null:\n\t\tlanding_gear.visible = deployed\n\n\nfunc set_arrestor_hook_deployed(deployed: bool) -> void:\n\tif arrestor_hook != null:\n\t\tarrestor_hook.visible = deployed\n\n\nfunc set_flight_configuration() -> void:\n\tset_showcase_configuration(true)\n\tset_landing_gear_deployed(false)\n\n\nfunc get_parked_transform() -> Transform3D:\n\t# Display-only three-point stance. The pure model origin never moves.\n\tvar delta_y: float = TAIL_WHEEL_CENTER_M.y - MAIN_WHEEL_CENTER_M.y\n\tvar delta_z: float = TAIL_WHEEL_CENTER_M.z - MAIN_WHEEL_CENTER_M.z\n\tvar radius_delta: float = MAIN_WHEEL_RADIUS_M - TAIL_WHEEL_RADIUS_M\n\tvar pitch: float = atan2(delta_y, delta_z) + asin(radius_delta / Vector2(delta_y, delta_z).length())\n\tvar parked_basis: Basis = Basis(Vector3.RIGHT, pitch)\n\tvar main_center: Vector3 = parked_basis * MAIN_WHEEL_CENTER_M\n\treturn Transform3D(parked_basis, Vector3(0.0, MAIN_WHEEL_RADIUS_M - main_center.y, 0.0))\n''')\n\nreplace_func(\"_build_engine\", '''func _build_engine() -> void:\n\t# The rounded engine envelope is part of the continuous fuselage skin.\n\tvar first_child: int = get_child_count()\n\t_add_propeller(4, 4.02, Vector3(0.0, 2.38, -5.12), materials[\"dark_steel\"])\n\t_move_new_children(powerplant_module, first_child)\n\tvar spinner: MeshInstance3D = propeller.get_node(\"Spinner\") as MeshInstance3D\n\tspinner.material_override = materials[\"top\"]\n''')\n\nreplace_func(\"_build_cockpit\", '''func _build_cockpit() -> void:\n\tvar main_greenhouse: Array[Vector4] = _get_main_greenhouse_profile()\n\tvar first_child: int = get_child_count()\n\t_add_canopy(main_greenhouse, \"Continuous pilot and observer greenhouse\", materials[\"frame\"], 1)\n\t_move_new_children(cockpit_module, first_child)\n\t_add_windscreen_closed_pane(main_greenhouse)\n\t_build_cockpit_sills(main_greenhouse)\n\tfor z: float in [-1.85, -0.35, 0.80]:\n\t\t_add_canopy_section_band(main_greenhouse, z)\n\t_add_box(cockpit_module, \"Aft gunner footwell pan\", Vector3(0.62, 0.05, 0.82), Vector3(0.0, 2.16, 1.63), materials[\"interior\"])\n\t_build_gunner_ring()\n\n\nfunc _add_canopy_section_band(stations: Array[Vector4], z: float) -> void:\n\tvar surface := SurfaceTool.new()\n\tsurface.begin(Mesh.PRIMITIVE_TRIANGLES)\n\tvar sections: int = 24\n\tfor longitudinal: int in range(2):\n\t\tvar band_z: float = z + (-0.009 if longitudinal == 0 else 0.009)\n\t\tvar section: Vector4 = _sample_station(stations, band_z)\n\t\tfor index: int in range(sections + 1):\n\t\t\tvar angle: float = PI_F * float(index) / float(sections)\n\t\t\tsurface.add_vertex(Vector3(cos(angle) * (section.y + 0.004), section.x + sin(angle) * (section.z + 0.004), band_z))\n\tfor index: int in range(sections):\n\t\tvar a: int = index\n\t\tvar b: int = sections + 1 + index\n\t\tsurface.add_index(a)\n\t\tsurface.add_index(a + 1)\n\t\tsurface.add_index(b + 1)\n\t\tsurface.add_index(a)\n\t\tsurface.add_index(b + 1)\n\t\tsurface.add_index(b)\n\tsurface.generate_normals()\n\t_part(cockpit_module, \"Flat canopy division %.2f\" % z, surface.commit(), materials[\"frame\"])\n''')\nreplace_func(\"_get_main_greenhouse_profile\", '''func _get_main_greenhouse_profile() -> Array[Vector4]:\n\treturn [\n\t\tVector4(2.96, 0.16, 0.20, -2.40), Vector4(2.92, 0.31, 0.39, -2.08),\n\t\tVector4(2.89, 0.43, 0.50, -1.78), Vector4(2.87, 0.45, 0.50, -1.23),\n\t\tVector4(2.84, 0.39, 0.44, -0.43), Vector4(2.84, 0.39, 0.43, -0.18),\n\t\tVector4(2.84, 0.40, 0.44, 0.08), Vector4(2.84, 0.41, 0.44, 0.53),\n\t\tVector4(2.84, 0.40, 0.44, 0.88), Vector4(2.82, 0.38, 0.41, 1.18)\n\t]\n''')\n# Keep the closed windscreen pane; omit the old raised perimeter cage.\nfstart = s.index('func _add_windscreen_closed_pane(')\nastart = s.index('\\tvar arch :=', fstart)\naend = s.index('\\n\\nfunc ', astart)\ns = s[:astart] + s[aend:]\n# Articulate the complete gun, not a bent barrel; its displayed elevation clears the fin.\nold = '''\t\tvar offset: Vector3 = Vector3(side * 0.115, 0.13, 0.14)\n\t\t_add_box(mount, \"M1919 receiver %s\" % (\"port\" if side < 0.0 else \"starboard\"), Vector3(0.095, 0.13, 0.36), offset + Vector3(0.0, 0.0, 0.10), materials[\"dark_steel\"])\n\t\t_add_beam(mount, \".30 in barrel %s\" % (\"port\" if side < 0.0 else \"starboard\"), offset + Vector3(0.0, 0.015, 0.24), offset + Vector3(0.0, 0.015, 0.92), 0.021, materials[\"steel\"], 0.018, 10)\n\t\t_add_cylinder(mount, \"Muzzle %s\" % (\"port\" if side < 0.0 else \"starboard\"), 0.027, 0.024, offset + Vector3(0.0, 0.015, 0.94), materials[\"black\"], \"z\", 12)'''\nnew = '''\t\tvar side_name: String = \"port\" if side < 0.0 else \"starboard\"\n\t\tvar gun: Node3D = _new_group(mount, \"M1919 flexible gun %s\" % side_name, Vector3(side * 0.115, 0.13, 0.14))\n\t\tgun.rotation.x = deg_to_rad(-24.0)\n\t\t_add_box(gun, \"M1919 receiver\", Vector3(0.095, 0.13, 0.36), Vector3(0.0, 0.0, 0.10), materials[\"dark_steel\"])\n\t\t_add_beam(gun, \".30 in barrel\", Vector3(0.0, 0.015, 0.24), Vector3(0.0, 0.015, 0.92), 0.021, materials[\"steel\"], 0.018, 10)\n\t\t_add_cylinder(gun, \"Muzzle\", 0.027, 0.024, Vector3(0.0, 0.015, 0.94), materials[\"black\"], \"z\", 12)\n\t\tvar muzzle: Marker3D = _add_marker(gun, \"MUZZLE_AFT_M1919_%s\" % side_name.to_upper(), Vector3(0.0, 0.015, 0.94), \"armament_module\", \"presentation muzzle; aft/up displayed pose, no fire-control logic\", 0.6)\n\t\tmuzzle.rotation.y = PI_F'''\nassert old in s\ns = s.replace(old, new)\nreplace_func(\"_build_gear_and_tail_hook\", '''func _build_gear_and_tail_hook() -> void:\n\tfor side: float in [-1.0, 1.0]:\n\t\tvar side_name: String = \"Port\" if side < 0.0 else \"Starboard\"\n\t\tvar root: Vector3 = Vector3(side * 1.92, 2.00, -0.84)\n\t\tvar wheel: Vector3 = Vector3(side * MAIN_WHEEL_CENTER_M.x, MAIN_WHEEL_CENTER_M.y, MAIN_WHEEL_CENTER_M.z)\n\t\tvar gear: Node3D = _new_group(landing_gear, \"%s main oleo and wheel\" % side_name, root)\n\t\t_add_beam(gear, \"Simple main strut\", Vector3.ZERO, wheel - root, 0.065, materials[\"steel\"], 0.065, 12)\n\t\t_add_cylinder(gear, \"Tyre\", MAIN_WHEEL_RADIUS_M, 0.16, wheel - root, materials[\"rubber\"], \"x\", 28)\n\t\t_add_cylinder(gear, \"Hub cap\", 0.18, 0.17, wheel - root, materials[\"steel\"], \"x\", 18)\n\t\tvar wheel_marker: Marker3D = _add_marker(landing_gear, \"GEAR_WHEEL_%s\" % side_name.to_upper(), wheel, \"landing_gear_module\", \"deployed wheel center; photo-based estimate\", 0.55)\n\t\twheel_marker.set_meta(\"wheel_radius_m\", MAIN_WHEEL_RADIUS_M)\n\t_add_sb2c_tailwheel(TAIL_WHEEL_CENTER_M)\n\tarrestor_hook = _new_group(small_equipment_module, \"Retractable arrestor hook\")\n\t_add_marker(small_equipment_module, \"ARRESTOR_HOOK_PIVOT\", Vector3(0.0, 1.72, 2.52), \"fuselage_module\", \"simplified hook root; photo-based estimate\", 0.55)\n\t_add_beam(arrestor_hook, \"Hook pivot lug\", Vector3(0.0, 1.72, 2.52), Vector3(0.0, 1.56, 2.83), 0.064, materials[\"dark_steel\"], 0.050, 10)\n\t_add_beam(arrestor_hook, \"Arrestor shank\", Vector3(0.0, 1.57, 2.82), Vector3(0.0, 1.25, 4.50), 0.048, materials[\"steel\"], 0.038, 10)\n\t_add_beam(arrestor_hook, \"Hook terminal\", Vector3(0.0, 1.25, 4.50), Vector3(0.0, 1.18, 4.72), 0.038, materials[\"steel\"], 0.030, 10)\n\t_add_beam(arrestor_hook, \"Hook beak\", Vector3(0.0, 1.18, 4.72), Vector3(0.0, 1.26, 4.82), 0.030, materials[\"dark_steel\"], 0.018, 8)\n\tvar hook_tip: Marker3D = _add_marker(small_equipment_module, \"ARRESTOR_HOOK_TIP_DEPLOYED\", Vector3(0.0, 1.18, 4.72), \"fuselage_module\", \"displayed deployed hook tip, not cable dynamics\", 0.55)\n\thook_tip.rotation.y = PI_F\n''')\nreplace_func(\"_add_sb2c_tailwheel\", '''func _add_sb2c_tailwheel(position: Vector3) -> void:\n\tvar tail_gear: Node3D = _new_group(landing_gear, \"Tail wheel assembly\", position)\n\tvar attachment: Vector3 = Vector3(0.0, 0.43, -0.25)\n\tvar fork_root: Vector3 = Vector3(0.0, 0.14, -0.05)\n\t_add_beam(tail_gear, \"Simple tailwheel strut\", attachment, fork_root, 0.047, materials[\"steel\"], 0.040, 10)\n\tfor side: float in [-1.0, 1.0]:\n\t\t_add_beam(tail_gear, \"Tailwheel fork cheek\", Vector3(side * 0.065, fork_root.y, fork_root.z), Vector3(side * 0.065, 0.02, 0.03), 0.025, materials[\"steel\"], 0.022, 8)\n\t_add_cylinder(tail_gear, \"Tail tyre\", TAIL_WHEEL_RADIUS_M, 0.11, Vector3.ZERO, materials[\"rubber\"], \"x\", 24)\n\t_add_cylinder(tail_gear, \"Tail hub\", 0.068, 0.115, Vector3.ZERO, materials[\"steel\"], \"x\", 16)\n\tvar marker: Marker3D = _add_marker(landing_gear, \"GEAR_WHEEL_TAIL\", position, \"landing_gear_module\", \"deployed wheel center; short support under aft shell\", 0.55)\n\tmarker.set_meta(\"wheel_radius_m\", TAIL_WHEEL_RADIUS_M)\n\t_add_marker(fuselage_module, \"GEAR_TAIL_ATTACHMENT\", position + attachment, \"fuselage_module\", \"tail gear root intersects aft belly\", 0.55)\n''')\n# Closed doors must compensate the real pivot height. A small edge overlap closes the loft-cell boundary.\ns = s.replace('lerpf(-0.22, 1.40, float(z_index) / float(longitudinal_sections))', 'lerpf(-0.25, 1.43, float(z_index) / float(longitudinal_sections))')\ns = s.replace('lerpf(0.0, side * 0.37, float(x_index) / float(transverse_sections))', 'lerpf(0.0, side * 0.40, float(x_index) / float(transverse_sections))')\ns = s.replace('y - 1.77, z)', 'y - 1.86, z)')\ns = s.replace('\\t_add_500lb_bomb(bay_open_group, Vector3(0.0, 1.93, 0.59))', '\\t_add_marker(fuselage_module, \"STORE_RELEASE_INTERNAL_BOMB\", Vector3(0.0, 1.93, 0.59), \"fuselage_module\", \"displayed store center; release motion owned by future bombing system\", 0.55)\\n\\t_add_500lb_bomb(bay_open_group, Vector3(0.0, 1.93, 0.59))')\ns = s.replace('\\t_add_flat_patch(gun, \"Spent case chute\"', '\\t_add_marker(gun, \"MUZZLE_CANNON_ANM2_%s\" % side_name.to_upper(), Vector3(0.0, 0.012, -0.62), \"wing_module\", \"presentation muzzle; fixed forward cannon\", 0.65)\\n\\t_add_flat_patch(gun, \"Spent case chute\"', 1)\ns = s.replace('_add_late_war_fuselage_insignia(side, 1.18, 2.33, 0.34)', '_add_late_war_fuselage_insignia(side, 2.42, 2.14, 0.34)')\nreplace_func(\"_add_late_war_fuselage_insignia\", '''func _add_late_war_fuselage_insignia(side: float, z: float, y: float, radius: float) -> void:\n\tvar circle := PackedVector2Array()\n\tfor index: int in range(32):\n\t\tvar angle: float = PI_F * 0.5 + TAU * float(index) / 32.0\n\t\tcircle.append(Vector2(cos(angle), sin(angle)) * radius)\n\t_add_fuselage_marking_patch(\"Fuselage insignia blue field\", side, z, y, circle, 0.008, materials[\"insignia_blue\"])\n\tvar star := PackedVector2Array()\n\tfor index: int in range(10):\n\t\tvar star_radius: float = radius * (0.78 if index % 2 == 0 else 0.34)\n\t\tvar angle: float = PI_F * 0.5 + TAU * float(index) / 10.0\n\t\tstar.append(Vector2(cos(angle), sin(angle)) * star_radius)\n\t_add_fuselage_marking_patch(\"Fuselage white star\", side, z, y, star, 0.014, materials[\"insignia_white\"])\n\tfor bar_side: float in [-1.0, 1.0]:\n\t\tvar outline := PackedVector2Array([\n\t\t\tVector2(-radius * 0.45, -radius * 0.18), Vector2(radius * 0.45, -radius * 0.18),\n\t\t\tVector2(radius * 0.45, radius * 0.18), Vector2(-radius * 0.45, radius * 0.18)\n\t\t])\n\t\t_add_fuselage_marking_patch(\"Fuselage white insignia bar\", side, z + bar_side * radius * 1.20, y, outline, 0.014, materials[\"insignia_white\"])\n\n\nfunc _add_fuselage_marking_patch(part_name: String, side: float, z: float, y: float, outline: PackedVector2Array, offset: float, material: Material) -> void:\n\tvar surface := SurfaceTool.new()\n\tsurface.begin(Mesh.PRIMITIVE_TRIANGLES)\n\tsurface.add_vertex(_fuselage_marking_point(side, z, y, offset))\n\tfor point: Vector2 in outline:\n\t\tsurface.add_vertex(_fuselage_marking_point(side, z + point.x, y + point.y, offset))\n\tfor index: int in range(outline.size()):\n\t\tvar next: int = (index + 1) % outline.size()\n\t\tsurface.add_index(0)\n\t\tsurface.add_index(index + 1 if side < 0.0 else next + 1)\n\t\tsurface.add_index(next + 1 if side < 0.0 else index + 1)\n\tsurface.generate_normals()\n\t_part(fuselage_module, part_name, surface.commit(), material)\n\n\nfunc _fuselage_marking_point(side: float, z: float, y: float, offset: float) -> Vector3:\n\tvar station: Vector4 = _sample_station(fuselage_profile, z)\n\tvar vertical: float = clampf((y - station.x) / station.z, -0.98, 0.98)\n\tvar x: float = station.y * sqrt(1.0 - vertical * vertical)\n\treturn Vector3(side * (x + offset), y, z)\n''')\np.write_text(s)\nprint(\"SB2C local form/assembly and binary presentation interfaces updated; shared builder and S14 untouched.\")\n"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0449,
+        "passed": true,
+        "process_group": 68740
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T185410-cf9259a9",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T185410-cf9259a9/report.json",
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-c",
+          "from pathlib import Path\np=Path(\"aircraft/sb2c4/showcase.gd\")\ns=p.read_text().replace('var clean_configuration: bool = false','var clean_configuration: bool = true').replace('var inspection_pose: String = \"level\"','var inspection_pose: String = \"parked\"')\ns=s.replace('ground.position.y = -0.055','ground.position.y = 0.0')\ns=s.replace('\\tground.visible = view_name != \"underside\"', '\\tground.visible = inspection_pose == \"parked\" and view_name != \"underside\"',1)\ns=s.replace('\\t\\t\"front\":\\n','''\t\t\"gunner_detail\":\n\t\t\tcamera.size = 2.3\n\t\t\tcamera.position = Vector3(-3.4, 3.4, 2.9)\n\t\t\ttarget = Vector3(0.0, 2.85, 1.70)\n\t\t\"stores_detail\":\n\t\t\tcamera.size = 3.8\n\t\t\tcamera.position = Vector3(8.5, 0.0, -5.5)\n\t\t\ttarget = Vector3(5.3, 2.2, -0.5)\n\t\t\"front\":\n''',1)\ns=s.replace('\\t$SB2C_4.set_showcase_configuration(clean_configuration)\\n\\t$SB2C_4.landing_gear.visible', '\\t$SB2C_4.transform = Transform3D.IDENTITY\\n\\tif inspection_pose == \"parked\":\\n\\t\\t$SB2C_4.transform = $SB2C_4.get_parked_transform()\\n\\t$SB2C_4.armament_module.visible = true\\n\\t$SB2C_4.set_showcase_configuration(clean_configuration)\\n\\t$SB2C_4.landing_gear.visible',1)\ns=s.replace('\\t\\t$SB2C_4.control_surfaces.visible = false\\n', '\\t\\t$SB2C_4.control_surfaces.visible = false\\n\\t\\t$SB2C_4.armament_module.visible = false\\n',1)\ns=s.replace('\\tif flight_configuration:\\n\\t\\t$SB2C_4.landing_gear.visible = false\\n\\t\\t$SB2C_4.arrestor_hook.visible = false\\n\\t\\tground.visible = false\\n\\tcamera.look_at(target, up_axis)', '\\tif view_name in [\"gunner_detail\", \"stores_detail\"]:\\n\\t\\tground.visible = false\\n\\t\\t$SB2C_4.landing_gear.visible = false\\n\\tif flight_configuration:\\n\\t\\t$SB2C_4.set_flight_configuration()\\n\\t\\tground.visible = false\\n\\ttarget = $SB2C_4.transform * target\\n\\tcamera.look_at(target, up_axis)')\np.write_text(s)\nprint(\"Added explicit level/parked inspection pose and flight configuration, no model-origin change.\")\n"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0477,
+        "passed": true,
+        "process_group": 68802
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T185436-08d316b4",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T185436-08d316b4/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2,
+        "passed": true,
+        "process_group": 68836
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "reference_side",
+          "--mode",
+          "flight",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/iterations/r1/side-flight.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.4938,
+        "passed": true,
+        "process_group": 68837
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T185436-36369a32",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T185436-36369a32/report.json",
+    "checks": [
+      {
+        "command": [
+          "mkdir",
+          "-p",
+          "docs/showcase/evidence/SB2C-admission/iterations/r1"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0033,
+        "passed": true,
+        "process_group": 68833
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T185439-d289dccd",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T185439-d289dccd/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1427,
+        "passed": true,
+        "process_group": 68849
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "reference_front",
+          "--mode",
+          "clean",
+          "--pose",
+          "parked",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/iterations/r1/reference-front.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.0892,
+        "passed": true,
+        "process_group": 68850
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T185441-4f4e34a2",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T185441-4f4e34a2/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0233,
+        "passed": true,
+        "process_group": 68858
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "reference_rear",
+          "--mode",
+          "clean",
+          "--pose",
+          "parked",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/iterations/r1/reference-rear.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.8929,
+        "passed": true,
+        "process_group": 68859
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T185731-df9351f7",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T185731-df9351f7/report.json",
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-c",
+          "from pathlib import Path\np=Path(\"aircraft/sb2c4/sb2c4.gd\")\ns=p.read_text()\nold='''\t\tVector4(5.25, 2.48, -1.31, 2.40), Vector4(6.45, 1.62, -0.80, 2.50),\n\t\tVector4(7.27, 0.70, -0.30, 2.60), Vector4(7.48, 0.38, -0.20, 2.64),\n\t\tVector4(7.582, 0.18, -0.12, 2.66)'''\nnew='''\t\tVector4(5.25, 2.48, -1.31, 2.40), Vector4(6.45, 1.62, -0.80, 2.50),\n\t\tVector4(6.90, 1.32, -0.58, 2.56), Vector4(7.20, 0.99, -0.40, 2.59),\n\t\tVector4(7.42, 0.65, -0.23, 2.63), Vector4(7.54, 0.34, -0.075, 2.65),\n\t\tVector4(7.582, 0.03, 0.08, 2.66)'''\nassert old in s\np.write_text(s.replace(old,new))\ntest=Path(\"aircraft/sb2c4/validation/test_sb2c4_admission.gd\")\ntest.parent.mkdir(exist_ok=True)\ntest.write_text(\"extends SceneTree\\n\\nconst MODEL: Script = preload(\\\"res://aircraft/sb2c4/sb2c4.gd\\\")\\nconst ADAPTER: Script = preload(\\\"res://scripts/showcase/sb2c_flight_adapter.gd\\\")\\nconst OUTPUT: String = \\\"res://docs/showcase/evidence/SB2C-admission/interfaces.json\\\"\\n\\nvar failures: PackedStringArray = []\\n\\n\\nfunc _initialize() -> void:\\n\\tcall_deferred(\\\"_run\\\")\\n\\n\\nfunc _run() -> void:\\n\\tvar model_a: PacificAircraftBuilder = MODEL.new() as PacificAircraftBuilder\\n\\tvar model_b: PacificAircraftBuilder = MODEL.new() as PacificAircraftBuilder\\n\\tmodel_a.name = \\\"AdmissionFlight\\\"\\n\\tmodel_b.name = \\\"AdmissionDisplay\\\"\\n\\troot.add_child(model_a)\\n\\troot.add_child(model_b)\\n\\tawait process_frame\\n\\t_require(model_a.position.is_equal_approx(Vector3.ZERO) and model_a.scale.is_equal_approx(Vector3.ONE), \\\"Pure-model origin/scale changed.\\\")\\n\\tmodel_a.call(\\\"set_flight_configuration\\\")\\n\\t_require(not model_a.landing_gear.visible, \\\"Flight gear still visible.\\\")\\n\\t_require(not (model_a.get(\\\"external_stores_module\\\") as Node3D).visible, \\\"Flight display rockets still visible.\\\")\\n\\t_require(not (model_a.get(\\\"bay_open_group\\\") as Node3D).visible, \\\"Flight bay open.\\\")\\n\\t_require((model_a.get(\\\"bay_closed_group\\\") as Node3D).visible, \\\"Flight closed bay missing.\\\")\\n\\t_require(not (model_a.get(\\\"dive_brakes_module\\\") as Node3D).visible, \\\"Flight dive brakes open.\\\")\\n\\t_require(not (model_a.get(\\\"arrestor_hook\\\") as Node3D).visible, \\\"Flight hook deployed.\\\")\\n\\t_require(model_b.landing_gear.visible and (model_b.get(\\\"external_stores_module\\\") as Node3D).visible, \\\"Instance states leaked.\\\")\\n\\n\\tmodel_a.call(\\\"set_bomb_bay_open\\\", true)\\n\\tmodel_b.call(\\\"set_showcase_configuration\\\", true)\\n\\t_require((model_a.get(\\\"bay_open_group\\\") as Node3D).visible, \\\"Bay state leaked between instances.\\\")\\n\\tmodel_a.call(\\\"set_flight_configuration\\\")\\n\\tmodel_b.call(\\\"set_showcase_configuration\\\", false)\\n\\t_require(model_a.animated_surfaces.size() == 5, \\\"Expected two ailerons, two elevators and one rudder.\\\")\\n\\tmodel_a.propeller.rotation.z = 0.7\\n\\tmodel_a.animated_surfaces[0].rotation.z = 0.1\\n\\t_require(is_zero_approx(model_b.propeller.rotation.z) and is_zero_approx(model_b.animated_surfaces[0].rotation.z), \\\"Motion state leaked between instances.\\\")\\n\\tmodel_a.propeller.rotation.z = 0.0\\n\\tmodel_a.animated_surfaces[0].rotation.z = 0.0\\n\\n\\tvar marker_records: Array[Dictionary] = []\\n\\tvar markers: Dictionary = {}\\n\\tfor node: Node in _descendants(model_b):\\n\\t\\tif node is Marker3D and node.has_meta(\\\"station_id\\\"):\\n\\t\\t\\tvar marker: Marker3D = node as Marker3D\\n\\t\\t\\tvar station_id: String = str(marker.get_meta(\\\"station_id\\\"))\\n\\t\\t\\t_require(not markers.has(station_id), \\\"Duplicate marker: \\\" + station_id)\\n\\t\\t\\tmarkers[station_id] = marker\\n\\t\\t\\tvar local_point: Vector3 = model_b.to_local(marker.global_position)\\n\\t\\t\\tvar direction: Vector3 = -marker.global_basis.z.normalized()\\n\\t\\t\\tmarker_records.append({\\n\\t\\t\\t\\t\\\"id\\\": station_id, \\\"path\\\": str(model_b.get_path_to(marker)), \\\"position_m\\\": _v(local_point),\\n\\t\\t\\t\\t\\\"forward\\\": _v(direction), \\\"host\\\": str(marker.get_meta(\\\"host_module_id\\\", \\\"\\\")),\\n\\t\\t\\t\\t\\\"source_status\\\": str(marker.get_meta(\\\"source_status\\\", \\\"\\\")),\\n\\t\\t\\t\\t\\\"confidence\\\": float(marker.get_meta(\\\"confidence\\\", 0.0)),\\n\\t\\t\\t\\t\\\"wheel_radius_m\\\": float(marker.get_meta(\\\"wheel_radius_m\\\", 0.0)),\\n\\t\\t\\t})\\n\\t_require(markers.has(\\\"AIRCRAFT_FLIGHT_REFERENCE\\\"), \\\"Flight reference missing.\\\")\\n\\tif markers.has(\\\"AIRCRAFT_FLIGHT_REFERENCE\\\"):\\n\\t\\t_require(model_b.to_local((markers[\\\"AIRCRAFT_FLIGHT_REFERENCE\\\"] as Marker3D).global_position).is_equal_approx(Vector3(0.0, 2.38, 0.0)), \\\"S14 flight reference moved.\\\")\\n\\tfor station_id: String in [\\\"MUZZLE_CANNON_ANM2_PORT\\\", \\\"MUZZLE_CANNON_ANM2_STARBOARD\\\"]:\\n\\t\\t_require(markers.has(station_id), \\\"Fixed muzzle missing: \\\" + station_id)\\n\\t\\tif markers.has(station_id):\\n\\t\\t\\t_require((-((markers[station_id] as Marker3D).global_basis.z)).dot(Vector3.FORWARD) > 0.99, \\\"Cannon muzzle points backward.\\\")\\n\\tfor station_id: String in [\\\"MUZZLE_AFT_M1919_PORT\\\", \\\"MUZZLE_AFT_M1919_STARBOARD\\\"]:\\n\\t\\t_require(markers.has(station_id), \\\"Aft muzzle missing: \\\" + station_id)\\n\\t\\tif markers.has(station_id):\\n\\t\\t\\tvar direction: Vector3 = -(markers[station_id] as Marker3D).global_basis.z\\n\\t\\t\\t_require(direction.z > 0.8 and direction.y > 0.25, \\\"Aft guns do not face aft/up.\\\")\\n\\n\\tvar parked: Transform3D = model_b.call(\\\"get_parked_transform\\\")\\n\\tvar contacts: Array[Dictionary] = []\\n\\tfor station_id: String in [\\\"GEAR_WHEEL_PORT\\\", \\\"GEAR_WHEEL_STARBOARD\\\", \\\"GEAR_WHEEL_TAIL\\\"]:\\n\\t\\t_require(markers.has(station_id), \\\"Wheel interface missing: \\\" + station_id)\\n\\t\\tif not markers.has(station_id):\\n\\t\\t\\tcontinue\\n\\t\\tvar marker: Marker3D = markers[station_id] as Marker3D\\n\\t\\tvar center: Vector3 = parked * model_b.to_local(marker.global_position)\\n\\t\\tvar radius: float = float(marker.get_meta(\\\"wheel_radius_m\\\"))\\n\\t\\tvar error_m: float = center.y - radius\\n\\t\\t_require(absf(error_m) < 0.001, \\\"Parked wheel does not touch ground: \\\" + station_id)\\n\\t\\tcontacts.append({\\\"id\\\": station_id, \\\"parked_center_m\\\": _v(center), \\\"radius_m\\\": radius, \\\"contact_error_m\\\": error_m})\\n\\tvar store_noses: Array[Dictionary] = []\\n\\tvar bomb_count: int = 0\\n\\tvar rocket_count: int = 0\\n\\tfor node: Node in _descendants(model_b):\\n\\t\\tif node is MeshInstance3D and (node.name == \\\"Bomb nose\\\" or node.name == \\\"HVAR warhead nose\\\"):\\n\\t\\t\\tvar instance: MeshInstance3D = node as MeshInstance3D\\n\\t\\t\\tvar cylinder: CylinderMesh = instance.mesh as CylinderMesh\\n\\t\\t\\t_require(cylinder != null, \\\"Unexpected store nose mesh.\\\")\\n\\t\\t\\tif cylinder == null:\\n\\t\\t\\t\\tcontinue\\n\\t\\t\\tvar tip_y: float = cylinder.height * (-0.5 if cylinder.bottom_radius < cylinder.top_radius else 0.5)\\n\\t\\t\\tvar tip: Vector3 = model_b.to_local(instance.to_global(Vector3(0.0, tip_y, 0.0)))\\n\\t\\t\\tvar root_point: Vector3 = model_b.to_local(instance.to_global(Vector3(0.0, -tip_y, 0.0)))\\n\\t\\t\\t_require(tip.z < root_point.z - 0.20, \\\"Store nose points aft.\\\")\\n\\t\\t\\tstore_noses.append({\\\"path\\\": str(model_b.get_path_to(instance)), \\\"tip_m\\\": _v(tip), \\\"root_m\\\": _v(root_point), \\\"forward\\\": _v((tip - root_point).normalized())})\\n\\t\\t\\tif node.name == \\\"Bomb nose\\\":\\n\\t\\t\\t\\tbomb_count += 1\\n\\t\\t\\telse:\\n\\t\\t\\t\\trocket_count += 1\\n\\t\\t_require(not str(node.name).contains(\\\"Tapered tailwheel keel\\\"), \\\"Oversized tailwheel fairing returned.\\\")\\n\\t_require(bomb_count == 1 and rocket_count == 8, \\\"Display-load count changed.\\\")\\n\\tvar flight_bounds: AABB = _bounds(model_a)\\n\\tvar span_error: float = absf(flight_bounds.size.x - float(model_a.spec[\\\"span_m\\\"]))\\n\\tvar length_error: float = absf(flight_bounds.size.z - float(model_a.spec[\\\"length_m\\\"]))\\n\\t_require(span_error < 0.16 and length_error < 0.17, \\\"Model span/length drift exceeds 1.5 percent.\\\")\\n\\n\\tvar adapter: Node3D = ADAPTER.new() as Node3D\\n\\tadapter.name = \\\"S14ReadOnlyAssembly\\\"\\n\\troot.add_child(adapter)\\n\\tawait process_frame\\n\\tadapter.call(\\\"apply_state\\\", {\\n\\t\\t\\\"position_m\\\": Vector3(20.0, 200.0, -30.0), \\\"rotation_rad\\\": Vector3(0.02, 0.1, -0.03),\\n\\t\\t\\\"active\\\": true, \\\"module_data\\\": {\\\"aircraft_motion\\\": {\\\"propeller_phase_rad\\\": 1.1, \\\"aileron_rad\\\": 0.12, \\\"elevator_rad\\\": -0.06}}\\n\\t})\\n\\tvar adapter_model: PacificAircraftBuilder = adapter.get(\\\"model_root\\\") as PacificAircraftBuilder\\n\\t_require(adapter_model != null, \\\"Current S14 adapter could not assemble model.\\\")\\n\\tif adapter_model != null:\\n\\t\\t_require(is_equal_approx(adapter_model.position.y, -2.38), \\\"Current S14 origin offset changed.\\\")\\n\\t\\t_require(not adapter_model.landing_gear.visible and is_equal_approx(adapter_model.propeller.rotation.z, 1.1), \\\"S14 gear/propeller interface failed.\\\")\\n\\t\\tfor control: Node3D in adapter_model.animated_surfaces:\\n\\t\\t\\tif \\\"aileron\\\" in str(control.name).to_lower():\\n\\t\\t\\t\\t_require(is_equal_approx(absf(control.rotation.z), 0.12), \\\"S14 aileron interface failed.\\\")\\n\\t\\t\\telif \\\"elevator\\\" in str(control.name).to_lower():\\n\\t\\t\\t\\t_require(is_equal_approx(control.rotation.x, -0.06), \\\"S14 elevator interface failed.\\\")\\n\\n\\tvar module_records: Array[Dictionary] = []\\n\\tfor node: Node in model_b.get_children():\\n\\t\\tif node.has_meta(\\\"module_id\\\"):\\n\\t\\t\\tmodule_records.append({\\\"id\\\": str(node.get_meta(\\\"module_id\\\")), \\\"path\\\": str(model_b.get_path_to(node))})\\n\\tvar controls: Array[String] = []\\n\\tfor control: Node3D in model_b.animated_surfaces:\\n\\t\\tcontrols.append(str(model_b.get_path_to(control)))\\n\\tvar result: Dictionary = {\\n\\t\\t\\\"status\\\": \\\"checks_passed_pending_coordinator_visual_acceptance\\\" if failures.is_empty() else \\\"failed\\\",\\n\\t\\t\\\"engine\\\": Engine.get_version_info()[\\\"string\\\"], \\\"renderer\\\": ProjectSettings.get_setting(\\\"rendering/renderer/rendering_method\\\"),\\n\\t\\t\\\"model_source_sha256\\\": FileAccess.get_sha256(\\\"res://aircraft/sb2c4/sb2c4.gd\\\"),\\n\\t\\t\\\"shared_builder_sha256\\\": FileAccess.get_sha256(\\\"res://aircraft/scripts/aircraft_builder.gd\\\"),\\n\\t\\t\\\"s14_adapter_sha256\\\": FileAccess.get_sha256(\\\"res://scripts/showcase/sb2c_flight_adapter.gd\\\"),\\n\\t\\t\\\"origin\\\": {\\\"source_m\\\": [0, 0, 0], \\\"flight_reference_m\\\": [0, 2.38, 0], \\\"s14_translation_m\\\": [0, -2.38, 0], \\\"scale\\\": [1, 1, 1], \\\"axes\\\": \\\"+X right, +Y up, -Z forward\\\"},\\n\\t\\t\\\"flight_bounds_m\\\": {\\\"position\\\": _v(flight_bounds.position), \\\"size\\\": _v(flight_bounds.size)},\\n\\t\\t\\\"nominal_dimensions_m\\\": {\\\"length\\\": model_a.spec[\\\"length_m\\\"], \\\"span\\\": model_a.spec[\\\"span_m\\\"], \\\"height_estimate\\\": model_a.spec[\\\"height_m\\\"]},\\n\\t\\t\\\"parked_transform\\\": {\\\"pitch_rad\\\": parked.basis.get_euler().x, \\\"position_m\\\": _v(parked.origin), \\\"wheel_contacts\\\": contacts},\\n\\t\\t\\\"modules\\\": module_records, \\\"markers\\\": marker_records, \\\"animated_surfaces\\\": controls,\\n\\t\\t\\\"propeller_path\\\": str(model_b.get_path_to(model_b.propeller)),\\n\\t\\t\\\"landing_gear_path\\\": str(model_b.get_path_to(model_b.landing_gear)),\\n\\t\\t\\\"arrestor_hook_path\\\": str(model_b.get_path_to(model_b.get(\\\"arrestor_hook\\\") as Node)),\\n\\t\\t\\\"store_noses\\\": store_noses, \\\"display_load\\\": {\\\"hvar\\\": rocket_count, \\\"internal_500lb\\\": bomb_count, \\\"not_a_verified_sortie_load\\\": true},\\n\\t\\t\\\"state_isolation\\\": true, \\\"s14_existing_adapter_smoke\\\": failures.is_empty(),\\n\\t\\t\\\"unimplemented\\\": [\\\"carrier takeoff/landing logic\\\", \\\"bomb release/fire control/ammunition\\\", \\\"aft gun traverse/fire control\\\", \\\"continuous gear/hook/brake animation\\\", \\\"SB2C pre-cut damage modules\\\"],\\n\\t\\t\\\"failures\\\": Array(failures),\\n\\t}\\n\\tvar output: FileAccess = FileAccess.open(OUTPUT, FileAccess.WRITE)\\n\\t_require(output != null, \\\"Could not write interface evidence.\\\")\\n\\tif output != null:\\n\\t\\toutput.store_string(JSON.stringify(result, \\\"\\\\t\\\") + \\\"\\\\n\\\")\\n\\t\\toutput.close()\\n\\tadapter.free()\\n\\tmodel_a.free()\\n\\tmodel_b.free()\\n\\tprint(\\\"SB2C_ADMISSION \\\" + JSON.stringify({\\\"failures\\\": Array(failures), \\\"flight_span_m\\\": flight_bounds.size.x, \\\"flight_length_m\\\": flight_bounds.size.z, \\\"marker_count\\\": marker_records.size()}))\\n\\tquit(0 if failures.is_empty() else 1)\\n\\n\\nfunc _descendants(node: Node) -> Array[Node]:\\n\\tvar result: Array[Node] = []\\n\\tfor child: Node in node.get_children():\\n\\t\\tresult.append(child)\\n\\t\\tresult.append_array(_descendants(child))\\n\\treturn result\\n\\n\\nfunc _bounds(model: Node3D) -> AABB:\\n\\tvar bounds: AABB = AABB()\\n\\tvar initialized: bool = false\\n\\tfor node: Node in _descendants(model):\\n\\t\\tif node is MeshInstance3D and (node as MeshInstance3D).is_visible_in_tree():\\n\\t\\t\\tvar mesh: MeshInstance3D = node as MeshInstance3D\\n\\t\\t\\tvar relative: Transform3D = model.global_transform.affine_inverse() * mesh.global_transform\\n\\t\\t\\tvar box: AABB = relative * mesh.get_aabb()\\n\\t\\t\\tbounds = bounds.merge(box) if initialized else box\\n\\t\\t\\tinitialized = true\\n\\treturn bounds\\n\\n\\nfunc _require(condition: bool, message: String) -> void:\\n\\tif not condition:\\n\\t\\tfailures.append(message)\\n\\t\\tpush_error(message)\\n\\n\\nfunc _v(value: Vector3) -> Array[float]:\\n\\treturn [value.x, value.y, value.z]\\n\")\nprint(\"Dedicated admission test and rounded outer-wing stations written.\")\n"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0416,
+        "passed": true,
+        "process_group": 69028
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T185745-11a9a3d4",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T185745-11a9a3d4/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2015,
+        "passed": true,
+        "process_group": 69041
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://aircraft/sb2c4/validation/test_sb2c4_admission.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.7019,
+        "passed": true,
+        "process_group": 69042
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T185825-d8cbd8c0",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T185825-d8cbd8c0/report.json",
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-c",
+          "from pathlib import Path\np=Path(\"aircraft/sb2c4/showcase.gd\")\ns=p.read_text()\nold='\\t\\t\"reference_side\":\\n'\nnew='''\t\t\"observer_follow\":\n\t\t\tcamera.projection = Camera3D.PROJECTION_PERSPECTIVE\n\t\t\tcamera.fov = 50.0\n\t\t\tcamera.position = Vector3(18.0, 8.0, -24.0)\n\t\t\"reference_side\":\n'''\nassert old in s\np.write_text(s.replace(old,new,1))\nprint(\"Added normal-distance observer capture view.\")\n"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0239,
+        "passed": true,
+        "process_group": 69078
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190053-419c68bb",
+    "action": "exec",
+    "passed": false,
+    "exit_code": 2,
+    "error": "lock_timeout",
+    "report": "logs/20261110T190053-419c68bb/report.json",
+    "checks": []
+  },
+  {
+    "run_id": "20261110T190221-ce4858a3",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190221-ce4858a3/report.json",
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-c",
+          "from pathlib import Path\np=Path(\"aircraft/sb2c4/sb2c4.gd\")\ns=p.read_text()\nreplacements={\n'Vector3(2.10, 0.82, -0.58)':'Vector3(2.10, 1.00, -0.58)',\n'Vector3(0.0, 1.20, 5.02)':'Vector3(0.0, 1.40, 3.90)',\n'Vector4(2.12, 0.52, 0.59, 3.10)':'Vector4(2.23, 0.47, 0.52, 3.10)',\n'Vector4(2.02, 0.40, 0.48, 4.08)':'Vector4(2.32, 0.34, 0.38, 4.08)',\n'Vector4(1.90, 0.27, 0.36, 4.94)':'Vector4(2.40, 0.18, 0.20, 4.94)',\n'Vector4(1.90, 0.015, 0.018, 5.55)':'Vector4(2.44, 0.015, 0.018, 5.55)',\n'Vector2(2.30, 2.48)':'Vector2(2.65, 2.60)',\n'Vector2(4.50, 2.48)':'Vector2(5.38, 2.44)',\n'Vector2(4.54, 2.86)':'Vector2(5.45, 2.82)',\n'Vector2(4.55, 3.34)':'Vector2(5.46, 3.28)',\n'Vector2(4.53, 3.78)':'Vector2(5.42, 3.68)',\n'Vector2(4.43, 4.10)':'Vector2(5.30, 3.98)',\n'Vector2(4.25, 4.34)':'Vector2(5.10, 4.23)',\n'Vector2(4.00, 4.46)':'Vector2(4.80, 4.42)',\n'Vector2(3.74, 4.45)':'Vector2(4.50, 4.46)',\n'Vector2(3.48, 4.31)':'Vector2(4.21, 4.35)',\n'Vector2(3.19, 4.05)':'Vector2(3.92, 4.12)',\n'Vector2(2.92, 3.69)':'Vector2(3.60, 3.80)',\n'Vector2(2.68, 3.27)':'Vector2(3.26, 3.36)',\n'Vector2(2.48, 2.83)':'Vector2(2.92, 2.93)',\n'Vector2(4.50, 2.53)':'Vector2(5.23, 2.53)',\n'Vector2(4.58, 2.53)':'Vector2(5.48, 2.53)',\n'Vector2(4.67, 2.80)':'Vector2(5.55, 2.82)',\n'Vector2(4.67, 3.42)':'Vector2(5.55, 3.34)',\n'Vector2(4.58, 3.72)':'Vector2(5.43, 3.68)',\n'Vector2(4.49, 3.84)':'Vector2(5.26, 3.95)',\n'rudder_outline, 4.50, 2.50':'rudder_outline, 5.23, 2.50',\n'Vector3(0.0, 2.50, 4.50), \"fuselage_module\", \"rudder hinge;':'Vector3(0.0, 2.50, 5.23), \"fuselage_module\", \"rudder hinge;',\n'var attachment: Vector3 = Vector3(0.0, 0.43, -0.25)':'var attachment: Vector3 = Vector3(0.0, 0.65, -0.12)',\n'var fork_root: Vector3 = Vector3(0.0, 0.14, -0.05)':'var fork_root: Vector3 = Vector3(0.0, 0.14, 0.03)',\n'Vector3(0.0, 1.25, 4.50)':'Vector3(0.0, 1.50, 4.50)',\n'Vector3(0.0, 1.18, 4.72)':'Vector3(0.0, 1.42, 4.72)',\n'Vector3(0.0, 1.26, 4.82)':'Vector3(0.0, 1.50, 4.82)',\n}\nfor a,b in replacements.items():\n    assert a in s,a\n    s=s.replace(a,b)\nold='''\t\tVector4(2.96, 0.16, 0.20, -2.40), Vector4(2.92, 0.31, 0.39, -2.08),\n\t\tVector4(2.89, 0.43, 0.50, -1.78), Vector4(2.87, 0.45, 0.50, -1.23),'''\nnew='''\t\tVector4(2.96, 0.22, 0.025, -2.55), Vector4(2.90, 0.37, 0.39, -2.18),\n\t\tVector4(2.89, 0.43, 0.50, -2.02), Vector4(2.88, 0.45, 0.50, -1.60),\n\t\tVector4(2.86, 0.44, 0.49, -1.00),'''\nassert old in s\np.write_text(s.replace(old,new))\nprint(\"Rising aft envelope, fin termination, short tailwheel station and raked windscreen committed locally.\")\n"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0791,
+        "passed": true,
+        "process_group": 69465
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190346-913fc604",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190346-913fc604/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1919,
+        "passed": true,
+        "process_group": 69547
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "reference_side",
+          "--mode",
+          "flight",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/iterations/r2/side-flight.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.3525,
+        "passed": true,
+        "process_group": 69548
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190346-fa997076",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190346-fa997076/report.json",
+    "checks": [
+      {
+        "command": [
+          "mkdir",
+          "-p",
+          "docs/showcase/evidence/SB2C-admission/iterations/r2"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0034,
+        "passed": true,
+        "process_group": 69544
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190349-30a85f75",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190349-30a85f75/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0789,
+        "passed": true,
+        "process_group": 69556
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "reference_front",
+          "--mode",
+          "clean",
+          "--pose",
+          "parked",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/iterations/r2/reference-front.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.9668,
+        "passed": true,
+        "process_group": 69557
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190504-1274af1e",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190504-1274af1e/report.json",
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-c",
+          "from pathlib import Path\np=Path(\"aircraft/sb2c4/showcase.gd\")\ns=p.read_text().replace('camera.fov = 24.0','camera.fov = 22.0').replace('camera.fov = 26.0','camera.fov = 22.0').replace('camera.position = Vector3(-13.0, 13.0, 16.0)','camera.position = Vector3(13.0, 13.0, 16.0)')\ns=s.replace('''\t\t\"tailwheel_detail\":\n\t\t\tcamera.size = 2.2\n\t\t\tcamera.position = Vector3(-3.2, 1.8, 6.2)\n\t\t\ttarget = Vector3(0.0, 1.05, 4.92)''','''\t\t\"tailwheel_detail\":\n\t\t\tcamera.size = 1.8\n\t\t\tcamera.position = Vector3(-3.2, 2.2, 5.1)\n\t\t\ttarget = Vector3(0.0, 1.83, 3.90)''')\np.write_text(s)\nprint(\"Final reference-camera orientation and tailwheel framing frozen.\")\n"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0462,
+        "passed": true,
+        "process_group": 69642
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190505-b40f5827",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190505-b40f5827/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.1927,
+        "passed": true,
+        "process_group": 69645
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://aircraft/sb2c4/validation/test_sb2c4_admission.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.7172,
+        "passed": true,
+        "process_group": 69646
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190526-6f3bc6e5",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190526-6f3bc6e5/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2471,
+        "passed": true,
+        "process_group": 69669
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "reference_side",
+          "--mode",
+          "flight",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/side-flight.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.2444,
+        "passed": true,
+        "process_group": 69670
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190528-35eb8848",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190528-35eb8848/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0227,
+        "passed": true,
+        "process_group": 69677
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "reference_front",
+          "--mode",
+          "clean",
+          "--pose",
+          "parked",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/reference-front-parked.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.8817,
+        "passed": true,
+        "process_group": 69678
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190530-a43a720f",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190530-a43a720f/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0219,
+        "passed": true,
+        "process_group": 69685
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "reference_rear",
+          "--mode",
+          "clean",
+          "--pose",
+          "parked",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/reference-rear-parked.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.922,
+        "passed": true,
+        "process_group": 69686
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190532-fd7d0e3f",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190532-fd7d0e3f/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0429,
+        "passed": true,
+        "process_group": 69692
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "top",
+          "--mode",
+          "flight",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/top-flight.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.7971,
+        "passed": true,
+        "process_group": 69693
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190534-a3e618e4",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190534-a3e618e4/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.024,
+        "passed": true,
+        "process_group": 69700
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "observer_follow",
+          "--mode",
+          "flight",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/observer-distance-flight.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.777,
+        "passed": true,
+        "process_group": 69701
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190608-3f3a71c0",
+    "action": "godot",
+    "passed": false,
+    "exit_code": 2,
+    "error": "lock_timeout",
+    "report": "logs/20261110T190608-3f3a71c0/report.json",
+    "checks": []
+  },
+  {
+    "run_id": "20261110T190804-5f639ff3",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190804-5f639ff3/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.2591,
+        "passed": true,
+        "process_group": 69863
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "cockpit_detail",
+          "--mode",
+          "clean",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/cockpit-root.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 2.332,
+        "passed": true,
+        "process_group": 69864
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190806-048fae23",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190806-048fae23/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0244,
+        "passed": true,
+        "process_group": 69870
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "gunner_detail",
+          "--mode",
+          "clean",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/gunner-support.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.9362,
+        "passed": true,
+        "process_group": 69871
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190808-5db4403b",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190808-5db4403b/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.021,
+        "passed": true,
+        "process_group": 69880
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "tailwheel_detail",
+          "--mode",
+          "clean",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/tailwheel-attachment.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.7822,
+        "passed": true,
+        "process_group": 69881
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190810-84732433",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190810-84732433/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0227,
+        "passed": true,
+        "process_group": 69886
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "bomb_bay",
+          "--mode",
+          "detail",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/bomb-nose-and-bay.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.7996,
+        "passed": true,
+        "process_group": 69887
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190812-f08c7bf3",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190812-f08c7bf3/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0218,
+        "passed": true,
+        "process_group": 69894
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "stores_detail",
+          "--mode",
+          "detail",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/hvar-direction-and-mount.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.8573,
+        "passed": true,
+        "process_group": 69895
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190814-7f1b5a97",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190814-7f1b5a97/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0215,
+        "passed": true,
+        "process_group": 69902
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "underside",
+          "--mode",
+          "flight",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/underside-flight-closed.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.8782,
+        "passed": true,
+        "process_group": 69903
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190816-431c7505",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190816-431c7505/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0226,
+        "passed": true,
+        "process_group": 69914
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "front",
+          "--mode",
+          "flight",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/front-flight.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.8393,
+        "passed": true,
+        "process_group": 69915
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190818-61fa50b7",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190818-61fa50b7/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0239,
+        "passed": true,
+        "process_group": 69923
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "side",
+          "--mode",
+          "clean",
+          "--pose",
+          "parked",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/side-parked.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.8913,
+        "passed": true,
+        "process_group": 69924
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T190820-75b523d6",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T190820-75b523d6/report.json",
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0248,
+        "passed": true,
+        "process_group": 69929
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/sb2c4/showcase.tscn",
+          "--",
+          "--view",
+          "underside_quarter",
+          "--mode",
+          "detail",
+          "--pose",
+          "level",
+          "--capture",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/SB2C-admission/final/display-load-assembly.png"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 1.823,
+        "passed": true,
+        "process_group": 69930
+      }
+    ]
+  },
+  {
+    "run_id": "20261110T191231-4b43adb0",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": "",
+    "report": "logs/20261110T191231-4b43adb0/report.json",
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-c",
+          "from pathlib import Path\np=Path(\"aircraft/sb2c4/validation/package_admission.py\")\np.write_text(\"#!/usr/bin/env python3\\n\\\"\\\"\\\"Freeze SB2C native evidence; run through tools/verify.py exec.\\\"\\\"\\\"\\nfrom pathlib import Path\\nimport datetime as dt\\nimport difflib\\nimport hashlib\\nimport json\\nimport os\\nimport shutil\\n\\nROOT = Path(__file__).resolve().parents[3]\\nEVIDENCE = ROOT / \\\"docs/showcase/evidence/SB2C-admission\\\"\\nLOCK = ROOT / \\\".local/validation/godot-render.lock\\\"\\n\\n\\ndef digest(path):\\n    return hashlib.sha256(path.read_bytes()).hexdigest()\\n\\n\\ndef main():\\n    lock = json.loads(LOCK.read_text())\\n    if lock.get(\\\"owner\\\") != \\\"SB2C-admission\\\" or lock.get(\\\"status\\\") != \\\"held\\\":\\n        raise SystemExit(\\\"Run through tools/verify.py --owner SB2C-admission exec.\\\")\\n    before = json.loads((EVIDENCE / \\\"sources-before.json\\\").read_text())\\n    interface = json.loads((EVIDENCE / \\\"interfaces.json\\\").read_text())\\n    paths = [\\n        \\\"aircraft/sb2c4/sb2c4.gd\\\", \\\"aircraft/sb2c4/showcase.gd\\\",\\n        \\\"aircraft/sb2c4/sb2c4.tscn\\\", \\\"aircraft/sb2c4/showcase.tscn\\\",\\n        \\\"aircraft/sb2c4/validation/test_sb2c4_admission.gd\\\",\\n        \\\"aircraft/sb2c4/validation/package_admission.py\\\",\\n        \\\"aircraft/scripts/aircraft_builder.gd\\\",\\n        \\\"scripts/showcase/sb2c_flight_adapter.gd\\\", \\\"project.godot\\\",\\n    ]\\n    hashes = {p: digest(ROOT / p) for p in paths}\\n    expected = {\\n        \\\"model_source_sha256\\\": hashes[\\\"aircraft/sb2c4/sb2c4.gd\\\"],\\n        \\\"showcase_source_sha256\\\": hashes[\\\"aircraft/sb2c4/showcase.gd\\\"],\\n        \\\"shared_builder_sha256\\\": hashes[\\\"aircraft/scripts/aircraft_builder.gd\\\"],\\n    }\\n    captures = []\\n    for path in sorted((EVIDENCE / \\\"final\\\").glob(\\\"*.png\\\")):\\n        metadata_path = Path(str(path) + \\\".json\\\")\\n        metadata = json.loads(metadata_path.read_text())\\n        for key, value in expected.items():\\n            if metadata[key] != value:\\n                raise SystemExit(f\\\"Stale capture: {path.name} {key}\\\")\\n        captures.append({\\\"file\\\": str(path.relative_to(EVIDENCE)), \\\"sha256\\\": digest(path),\\n                         \\\"metadata\\\": str(metadata_path.relative_to(EVIDENCE)),\\n                         \\\"metadata_sha256\\\": digest(metadata_path),\\n                         \\\"view\\\": metadata[\\\"view\\\"], \\\"mode\\\": metadata[\\\"mode\\\"], \\\"pose\\\": metadata[\\\"pose\\\"]})\\n    if len(captures) != 14 or interface[\\\"model_source_sha256\\\"] != expected[\\\"model_source_sha256\\\"] or interface[\\\"failures\\\"]:\\n        raise SystemExit(\\\"Final captures/test do not match the frozen model.\\\")\\n    if interface[\\\"shared_builder_sha256\\\"] != expected[\\\"shared_builder_sha256\\\"]:\\n        raise SystemExit(\\\"Shared dependency changed after the final contract check.\\\")\\n    side_before = json.loads((EVIDENCE / \\\"baseline/reference-side-flight.png.json\\\").read_text())\\n    side_after = json.loads((EVIDENCE / \\\"final/side-flight.png.json\\\").read_text())\\n    camera_keys = [\\\"camera_position_m\\\", \\\"camera_rotation_rad\\\", \\\"camera_projection\\\", \\\"camera_size_m\\\"]\\n    same_side_camera = all(side_before[k] == side_after[k] for k in camera_keys)\\n    if not same_side_camera:\\n        raise SystemExit(\\\"Before/after side camera drifted.\\\")\\n    index = []\\n    live_groups = []\\n    for report_path in sorted((ROOT / \\\".local/validation/runs\\\").glob(\\\"*/report.json\\\")):\\n        report = json.loads(report_path.read_text())\\n        if report.get(\\\"owner\\\") != \\\"SB2C-admission\\\" or report[\\\"run_id\\\"] < \\\"20261110T183132\\\":\\n            continue\\n        dest = EVIDENCE / \\\"logs\\\" / report[\\\"run_id\\\"]\\n        dest.mkdir(parents=True, exist_ok=True)\\n        shutil.copy2(report_path, dest / \\\"report.json\\\")\\n        for log in report_path.parent.glob(\\\"*.log\\\"):\\n            shutil.copy2(log, dest / log.name)\\n        checks = []\\n        for check in report.get(\\\"checks\\\", []):\\n            item = {k: check.get(k) for k in [\\\"command\\\", \\\"returncode\\\", \\\"timed_out\\\", \\\"diagnostic_error\\\", \\\"cleanup_ok\\\", \\\"duration_s\\\", \\\"passed\\\", \\\"process_group\\\"]}\\n            checks.append(item)\\n            pgid = check.get(\\\"process_group\\\")\\n            if pgid:\\n                try:\\n                    os.killpg(pgid, 0)\\n                except ProcessLookupError:\\n                    pass\\n                else:\\n                    live_groups.append({\\\"run_id\\\": report[\\\"run_id\\\"], \\\"process_group\\\": pgid})\\n        index.append({\\\"run_id\\\": report[\\\"run_id\\\"], \\\"action\\\": report[\\\"action\\\"], \\\"passed\\\": report[\\\"passed\\\"],\\n                      \\\"exit_code\\\": report[\\\"exit_code\\\"], \\\"error\\\": report.get(\\\"error\\\", \\\"\\\"),\\n                      \\\"report\\\": str((dest / \\\"report.json\\\").relative_to(EVIDENCE)), \\\"checks\\\": checks})\\n    if live_groups:\\n        raise SystemExit(\\\"An owned validation process group is still alive: \\\" + repr(live_groups))\\n    (EVIDENCE / \\\"verification-index.json\\\").write_text(json.dumps(index, ensure_ascii=False, indent=2) + \\\"\\\\n\\\")\\n    cleanup = {\\n        \\\"checked_utc\\\": dt.datetime.now(dt.timezone.utc).isoformat(), \\\"owned_child_process_groups_remaining\\\": live_groups,\\n        \\\"all_recorded_child_cleanup_ok\\\": all(c.get(\\\"cleanup_ok\\\") is not False for r in index for c in r[\\\"checks\\\"]),\\n        \\\"created_browser_tabs\\\": 0, \\\"created_http_services\\\": 0,\\n        \\\"scope\\\": \\\"SB2C-admission only; unrelated user/DM01 processes were not signalled\\\",\\n        \\\"lock\\\": \\\"held by this bounded packaging invocation; verify.py releases it on return\\\",\\n    }\\n    (EVIDENCE / \\\"cleanup.json\\\").write_text(json.dumps(cleanup, ensure_ascii=False, indent=2) + \\\"\\\\n\\\")\\n    restore = Path(before[\\\"restore\\\"])\\n    changes = []\\n    for name in [\\\"aircraft/sb2c4/sb2c4.gd\\\", \\\"aircraft/sb2c4/showcase.gd\\\"]:\\n        changes.extend(difflib.unified_diff((restore / name).read_text().splitlines(True),\\n                                          (ROOT / name).read_text().splitlines(True),\\n                                          fromfile=\\\"before/\\\" + name, tofile=\\\"after/\\\" + name))\\n    (EVIDENCE / \\\"source-changes.diff\\\").write_text(\\\"\\\".join(changes))\\n    original_refs = [\\\"extra_09.jpg\\\", \\\"extra_10.jpg\\\", \\\"05.jpg\\\", \\\"extra_11.jpg\\\",\\n                     \\\"wright-state-sb2c4-side-preview.jpg\\\", \\\"target/sb2c4-outer-form-candidate-v04.png\\\"]\\n    refs = {name: digest(ROOT / \\\"docs/references/bombers/sb2c\\\" / name) for name in original_refs}\\n    manifest = {\\n        \\\"date_cn\\\": \\\"2026-11-11\\\", \\\"generated_utc\\\": dt.datetime.now(dt.timezone.utc).isoformat(),\\n        \\\"status\\\": \\\"native_checks_complete_pending_coordinator_final_admission\\\",\\n        \\\"source_hashes\\\": hashes, \\\"reference_hashes\\\": refs, \\\"captures\\\": captures,\\n        \\\"same_before_after_side_camera\\\": same_side_camera,\\n        \\\"same_before_after_side_shared_builder\\\": side_before[\\\"shared_builder_sha256\\\"] == side_after[\\\"shared_builder_sha256\\\"],\\n        \\\"restore\\\": before[\\\"restore\\\"], \\\"baseline_manifest\\\": \\\"sources-before.json\\\",\\n        \\\"interface\\\": \\\"interfaces.json\\\", \\\"verification\\\": \\\"verification-index.json\\\", \\\"cleanup\\\": \\\"cleanup.json\\\",\\n    }\\n    (EVIDENCE / \\\"manifest.json\\\").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + \\\"\\\\n\\\")\\n    (EVIDENCE / \\\"comparison.md\\\").write_text(\\\"\\\"\\\"# SB2C 原始资料与同模型对照\\n\\n2026-11-11。原始照片、AI 风格图、Godot 画面分别保存。以下模型截图均来自本轮冻结源码；相机参数与哈希在各 PNG 的同名 .json 中。照片没有作形体修补或 AI 处理。\\n\\n## 飞行侧轮廓\\n\\n| 实机原始公开预览 R04 | Godot 最终飞行形态 |\\n| --- | --- |\\n| ![Wright State SB2C-4 原始预览](../../../references/bombers/sb2c/wright-state-sb2c4-side-preview.jpg) | ![最终侧视](final/side-flight.png) |\\n\\nR04 的馆藏身份为 SB2C-4、左侧飞行照，公开预览仅 400×327（机体有效宽约 277 px）。只能核大形、后腹收束、风挡位置与尾轮大致站位，不能据此声称精确厂图坐标；不将它当作历史涂装模板。最终模型为收轮飞行检查，原图尾轮可见，两者状态差异保留。\\n\\n## 同机位的修改前后\\n\\n| 本轮最初模型，同向飞行侧视 | 最终模型，同一相机与飞行姿态 |\\n| --- | --- |\\n| ![准入前](baseline/reference-side-flight.png) | ![冻结后](final/side-flight.png) |\\n\\n这一对相机位置、旋转、投影、尺寸相同；共享 builder 哈希也由打包脚本核对。机身长宽没有整体缩放。主要差异是连续圆鼻、加深中机身、向上收束的后腹、尾端与垂尾关系，以及后倾风挡。r1 只作中间反例留档，不作为最终交付。\\n\\n## 斜前与斜后完整对照\\n\\n| 原始成品模型照片 | Godot 简化模型，接近方向的停放视图 |\\n| --- | --- |\\n| ![R01 斜前](../../../references/bombers/sb2c/extra_09.jpg) | ![斜前](final/reference-front-parked.png) |\\n| ![R02 斜后](../../../references/bombers/sb2c/extra_10.jpg) | ![斜后](final/reference-rear-parked.png) |\\n\\nR01/R02 是同一作者的 1/48 成品相册，原照片有透视及打开的减速板。模型使用透视相机并采用简化停放姿态、闭合面板。方向和占幅已校，但摄影内参未知，不作逐像素测绘或历史独立来源的双重证明。\\n\\n## 安装与正常观察距离\\n\\n| 主要承载局部原图 R05 | Godot 必要支撑 |\\n| --- | --- |\\n| ![后座枪架原图](../../../references/bombers/sb2c/extra_11.jpg) | ![简化环轨支撑](final/gunner-support.png) |\\n\\n枪架只保留环轨、短支撑和双枪外形；原图能支持环轨/围框与枪座的关系，无法证明内部全机构。枪身整体静态上仰 24°，避免穿入垂尾，尚未接火控。小孔与内部机械不制作。\\n\\n![正常观战距离](final/observer-distance-flight.png)\\n\\n以上为真实 Godot 原生画面，非 AI 图。AI v04 仅作曲面/纯色/简化程度目标，见原参考目录，不能作为历史形状或本轮运行证据。\\n\\n正前和俯视截图只证明本模型的对称、比例和连接；本轮仍未取得可量取的同子型实机正前/严格正投影顶视原图。尾轮和支杆坐标、罩体截面与枪架精确尺寸仍属于照片估计。\\n\\\"\\\"\\\")\\n    print(json.dumps({\\\"captures\\\": len(captures), \\\"wrapper_runs\\\": len(index), \\\"model_sha256\\\": expected[\\\"model_source_sha256\\\"],\\n                      \\\"live_owned_groups\\\": live_groups, \\\"same_side_camera\\\": same_side_camera,\\n                      \\\"same_side_builder\\\": manifest[\\\"same_before_after_side_shared_builder\\\"]}, ensure_ascii=False))\\n\\n\\nif __name__ == \\\"__main__\\\":\\n    main()\\n\")\nprint(\"Admission evidence packager written.\")\n"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "duration_s": 0.0388,
+        "passed": true,
+        "process_group": 70201
+      }
+    ]
+  }
+]

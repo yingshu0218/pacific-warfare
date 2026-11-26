@@ -1,0 +1,2804 @@
+{
+	"aircraft_fixtures": [
+		{
+			"envelope_max_m": [
+				5.5,
+				3.50899982452393,
+				4.55999994277954
+			],
+			"envelope_min_m": [
+				-5.5,
+				-0.000000536441802978516,
+				-4.56999731063843
+			],
+			"envelope_size_m": [
+				11.0,
+				3.50900030136108,
+				9.12999725341797
+			],
+			"footprint_corners_ship_m": [
+				[
+					-6.5,
+					14.149998664856,
+					-83.5699996948242
+				],
+				[
+					-6.5,
+					14.149998664856,
+					-74.4400024414062
+				],
+				[
+					4.5,
+					14.149998664856,
+					-83.5699996948242
+				],
+				[
+					4.5,
+					14.149998664856,
+					-74.4400024414062
+				]
+			],
+			"id": "A6M_ForwardPark",
+			"kind": "actual_A6M5a_1944_static_cross_era_fit",
+			"nominal_dimensions_m": [
+				11.0,
+				3.509,
+				9.121
+			],
+			"note": "Measured current mesh envelope differs slightly from nominal equipment data; both reported, never rescaled",
+			"root_transform_unchanged": true,
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"station_m": [
+				-1.0,
+				14.1499996185303,
+				-79.0
+			],
+			"tyres": [
+				{
+					"local_contact_m": [
+						-1.51999950408936,
+						-0.000000536441802978516,
+						-0.389999389648438
+					],
+					"mesh_path": "Landing gear/Main gear left/Tyre",
+					"minimum_local_y_m": -0.000000536441802978516,
+					"ship_contact_m": [
+						-2.51999950408936,
+						14.149998664856,
+						-79.3899993896484
+					]
+				},
+				{
+					"local_contact_m": [
+						1.51999962329865,
+						-0.000000536441802978516,
+						-0.389999389648438
+					],
+					"mesh_path": "Landing gear/Main gear right/Tyre",
+					"minimum_local_y_m": -0.000000536441802978516,
+					"ship_contact_m": [
+						0.519999623298645,
+						14.149998664856,
+						-79.3899993896484
+					]
+				},
+				{
+					"local_contact_m": [
+						0.00000000788885046176802,
+						0.000000119209289550781,
+						3.62999725341797
+					],
+					"mesh_path": "Landing gear/Tail wheel assembly/Tail tyre",
+					"minimum_local_y_m": 0.000000119209289550781,
+					"ship_contact_m": [
+						-1.0,
+						14.1499996185303,
+						-75.370002746582
+					]
+				}
+			]
+		},
+		{
+			"envelope_max_m": [
+				5.5,
+				3.50899982452393,
+				4.55999994277954
+			],
+			"envelope_min_m": [
+				-5.5,
+				-0.000000536441802978516,
+				-4.57000112533569
+			],
+			"envelope_size_m": [
+				11.0,
+				3.50900030136108,
+				9.13000106811523
+			],
+			"footprint_corners_ship_m": [
+				[
+					-5.5,
+					14.149998664856,
+					-48.0699996948242
+				],
+				[
+					-5.5,
+					14.149998664856,
+					-38.939998626709
+				],
+				[
+					5.5,
+					14.149998664856,
+					-48.0699996948242
+				],
+				[
+					5.5,
+					14.149998664856,
+					-38.939998626709
+				]
+			],
+			"id": "A6M_ForwardElevator",
+			"kind": "actual_A6M5a_1944_static_cross_era_fit",
+			"nominal_dimensions_m": [
+				11.0,
+				3.509,
+				9.121
+			],
+			"note": "Measured current mesh envelope differs slightly from nominal equipment data; both reported, never rescaled",
+			"root_transform_unchanged": true,
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"station_m": [
+				0.0,
+				14.1499996185303,
+				-43.5
+			],
+			"tyres": [
+				{
+					"local_contact_m": [
+						-1.51999950408936,
+						-0.000000536441802978516,
+						-0.389999389648438
+					],
+					"mesh_path": "Landing gear/Main gear left/Tyre",
+					"minimum_local_y_m": -0.000000536441802978516,
+					"ship_contact_m": [
+						-1.51999950408936,
+						14.149998664856,
+						-43.8899993896484
+					]
+				},
+				{
+					"local_contact_m": [
+						1.51999962329865,
+						-0.000000536441802978516,
+						-0.389999389648438
+					],
+					"mesh_path": "Landing gear/Main gear right/Tyre",
+					"minimum_local_y_m": -0.000000536441802978516,
+					"ship_contact_m": [
+						1.51999962329865,
+						14.149998664856,
+						-43.8899993896484
+					]
+				},
+				{
+					"local_contact_m": [
+						0.00000000788885046176802,
+						0.000000119209289550781,
+						3.63000273704529
+					],
+					"mesh_path": "Landing gear/Tail wheel assembly/Tail tyre",
+					"minimum_local_y_m": 0.000000119209289550781,
+					"ship_contact_m": [
+						0.00000000788885046176802,
+						14.1499996185303,
+						-39.8699989318848
+					]
+				}
+			]
+		},
+		{
+			"envelope_max_m": [
+				5.5,
+				3.50899982452393,
+				4.55999994277954
+			],
+			"envelope_min_m": [
+				-5.5,
+				-0.000000536441802978516,
+				-4.56999731063843
+			],
+			"envelope_size_m": [
+				11.0,
+				3.50900030136108,
+				9.12999725341797
+			],
+			"footprint_corners_ship_m": [
+				[
+					-5.5,
+					14.149998664856,
+					79.9300003051758
+				],
+				[
+					-5.5,
+					14.149998664856,
+					89.0599975585938
+				],
+				[
+					5.5,
+					14.149998664856,
+					79.9300003051758
+				],
+				[
+					5.5,
+					14.149998664856,
+					89.0599975585938
+				]
+			],
+			"id": "A6M_AftElevator",
+			"kind": "actual_A6M5a_1944_static_cross_era_fit",
+			"nominal_dimensions_m": [
+				11.0,
+				3.509,
+				9.121
+			],
+			"note": "Measured current mesh envelope differs slightly from nominal equipment data; both reported, never rescaled",
+			"root_transform_unchanged": true,
+			"scale": [
+				1.0,
+				1.0,
+				1.0
+			],
+			"station_m": [
+				0.0,
+				14.1499996185303,
+				84.5
+			],
+			"tyres": [
+				{
+					"local_contact_m": [
+						-1.51999950408936,
+						-0.000000536441802978516,
+						-0.389999389648438
+					],
+					"mesh_path": "Landing gear/Main gear left/Tyre",
+					"minimum_local_y_m": -0.000000536441802978516,
+					"ship_contact_m": [
+						-1.51999950408936,
+						14.149998664856,
+						84.1100006103516
+					]
+				},
+				{
+					"local_contact_m": [
+						1.51999962329865,
+						-0.000000536441802978516,
+						-0.389999389648438
+					],
+					"mesh_path": "Landing gear/Main gear right/Tyre",
+					"minimum_local_y_m": -0.000000536441802978516,
+					"ship_contact_m": [
+						1.51999962329865,
+						14.149998664856,
+						84.1100006103516
+					]
+				},
+				{
+					"local_contact_m": [
+						0.00000000788885046176802,
+						0.000000119209289550781,
+						3.62999725341797
+					],
+					"mesh_path": "Landing gear/Tail wheel assembly/Tail tyre",
+					"minimum_local_y_m": 0.000000119209289550781,
+					"ship_contact_m": [
+						0.00000000788885046176802,
+						14.1499996185303,
+						88.129997253418
+					]
+				}
+			]
+		},
+		{
+			"envelope_size_m": [
+				11.5,
+				3.74,
+				10.22
+			],
+			"id": "D4Y2_DIMENSION_PROXY_NOT_ADMITTED",
+			"kind": "dimension_proxy_only",
+			"source_status": "USNTMJ A11 Table II SUISEI-12 nominal size (height 3.740m) for conservative clearance reservation; AV02 admission still required; not an aircraft model",
+			"station_m": [
+				0,
+				14.15,
+				29
+			]
+		}
+	],
+	"checks": [
+		{
+			"detail": null,
+			"id": "ship_1_to_1",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "seven_independent_modules",
+			"passed": true
+		},
+		{
+			"detail": {
+				"base_y": 7.98999977111816,
+				"hull_mesh_y": 7.99000549316406
+			},
+			"id": "real_hull_under_support_UnderdeckSupportBase_17",
+			"passed": true
+		},
+		{
+			"detail": {
+				"base_y": 7.98999977111816,
+				"hull_mesh_y": 7.98999786376953
+			},
+			"id": "real_hull_under_support_UnderdeckSupportBase_19",
+			"passed": true
+		},
+		{
+			"detail": {
+				"base_y": 7.7350001335144,
+				"hull_mesh_y": 7.73503875732422
+			},
+			"id": "real_hull_under_support_UnderdeckSupportBase_22",
+			"passed": true
+		},
+		{
+			"detail": {
+				"base_y": 7.7350001335144,
+				"hull_mesh_y": 7.73503875732422
+			},
+			"id": "real_hull_under_support_UnderdeckSupportBase_24",
+			"passed": true
+		},
+		{
+			"detail": {
+				"base_y": 6.13749980926514,
+				"hull_mesh_y": 6.13978576660156
+			},
+			"id": "real_hull_under_support_UnderdeckSupportBase_27",
+			"passed": true
+		},
+		{
+			"detail": {
+				"base_y": 6.13749980926514,
+				"hull_mesh_y": 6.13977813720703
+			},
+			"id": "real_hull_under_support_UnderdeckSupportBase_29",
+			"passed": true
+		},
+		{
+			"detail": {
+				"base_y": 5.67600011825562,
+				"hull_mesh_y": 5.67603302001953
+			},
+			"id": "real_hull_under_support_UnderdeckSupportBase_32",
+			"passed": true
+		},
+		{
+			"detail": {
+				"base_y": 5.67600011825562,
+				"hull_mesh_y": 5.67604064941406
+			},
+			"id": "real_hull_under_support_UnderdeckSupportBase_34",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "eight_real_end_supports",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_01_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_01_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_01_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_01_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_02_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_02_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_02_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_02_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "smoke_shields_right_aft_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_03_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_03_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_03_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_03_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "smoke_shields_right_aft_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_04_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_04_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_04_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_starboard_04_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_01_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_01_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_01_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_01_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_02_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_02_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_02_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_02_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_03_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_03_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_03_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_03_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_04_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_04_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_04_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_dp_port_04_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_01_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_01_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_01_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_01_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_02_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_02_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_02_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_02_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_03_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_03_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_03_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_03_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_04_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_04_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_04_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_port_04_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_starboard_05_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_starboard_05_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_starboard_05_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_starboard_05_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "barrel_count_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_host_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "host_station_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "foundation_end_contacts_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": {
+				"marker_y": 0.0,
+				"mesh_y": 0.0
+			},
+			"id": "actual_sponson_surface_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_starboard_06_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_starboard_06_1.5707963267949",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_starboard_06_3.14159265358979",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "ring_footprint_aa25_starboard_06_4.71238898038469",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "weapon_state_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "muzzle_tracks_axes_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "instance_isolation_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_mount_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "nonfinite_no_mutation_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": {
+				"open": 6,
+				"smoke": 2,
+				"twins": 8
+			},
+			"id": "eight_fixed_twins_two_smoke_six_open",
+			"passed": true
+		},
+		{
+			"detail": {
+				"game_triples": 6,
+				"historical_triples": 12
+			},
+			"id": "dedicated_aa_game_fit_separate",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "defensive_deck_definition",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "bow_visible_deck_supported",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_bounding_rectangle_outside_polygon",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "forward_deck_progressive_taper",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "forward_deck_widens_aft",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_query",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_height_from_actual_deck_reconstructed_wire_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_01_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_01_0.25",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_01_0.5",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_01_0.75",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_01_1.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_height_from_actual_deck_reconstructed_wire_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_02_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_02_0.25",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_02_0.5",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_02_0.75",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_02_1.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_height_from_actual_deck_reconstructed_wire_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_03_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_03_0.25",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_03_0.5",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_03_0.75",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_03_1.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_height_from_actual_deck_reconstructed_wire_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_04_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_04_0.25",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_04_0.5",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_04_0.75",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_04_1.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_height_from_actual_deck_reconstructed_wire_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_05_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_05_0.25",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_05_0.5",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_05_0.75",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_05_1.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_height_from_actual_deck_reconstructed_wire_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_06_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_06_0.25",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_06_0.5",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_06_0.75",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_06_1.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_height_from_actual_deck_reconstructed_wire_07",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_07_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_07_0.25",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_07_0.5",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_07_0.75",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_07_1.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_height_from_actual_deck_reconstructed_wire_08",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_08_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_08_0.25",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_08_0.5",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_08_0.75",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_08_1.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_height_from_actual_deck_reconstructed_wire_09",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_09_0.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_09_0.25",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_09_0.5",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_09_0.75",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "wire_clears_elevator_openings_reconstructed_wire_09_1.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_state_elevator_forward_14.15",
+			"passed": true
+		},
+		{
+			"detail": {
+				"mesh_y": 14.1500015258789,
+				"query_y": 14.1499996185303
+			},
+			"id": "real_hole_and_surface_elevator_forward_14.15",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_instance_isolation_elevator_forward_14.15",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_forward_14.15_-0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_forward_14.15_0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_state_elevator_forward_8.95",
+			"passed": true
+		},
+		{
+			"detail": {
+				"mesh_y": 8.94999694824219,
+				"query_y": 8.94999980926514
+			},
+			"id": "real_hole_and_surface_elevator_forward_8.95",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_instance_isolation_elevator_forward_8.95",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_forward_8.95_-0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_forward_8.95_0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_state_elevator_forward_4.0",
+			"passed": true
+		},
+		{
+			"detail": {
+				"mesh_y": 4.0,
+				"query_y": 4.0
+			},
+			"id": "real_hole_and_surface_elevator_forward_4.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_instance_isolation_elevator_forward_4.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_forward_4.0_-0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_forward_4.0_0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_lift_elevator_forward",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "clamp_lift_travel_elevator_forward",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_state_elevator_middle_14.15",
+			"passed": true
+		},
+		{
+			"detail": {
+				"mesh_y": 14.1500015258789,
+				"query_y": 14.1499996185303
+			},
+			"id": "real_hole_and_surface_elevator_middle_14.15",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_instance_isolation_elevator_middle_14.15",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_middle_14.15_-0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_middle_14.15_0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_state_elevator_middle_8.95",
+			"passed": true
+		},
+		{
+			"detail": {
+				"mesh_y": 8.94999694824219,
+				"query_y": 8.94999980926514
+			},
+			"id": "real_hole_and_surface_elevator_middle_8.95",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_instance_isolation_elevator_middle_8.95",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_middle_8.95_-0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_middle_8.95_0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_state_elevator_middle_4.0",
+			"passed": true
+		},
+		{
+			"detail": {
+				"mesh_y": 4.0,
+				"query_y": 4.0
+			},
+			"id": "real_hole_and_surface_elevator_middle_4.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_instance_isolation_elevator_middle_4.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_middle_4.0_-0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_middle_4.0_0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_lift_elevator_middle",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "clamp_lift_travel_elevator_middle",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_state_elevator_aft_14.15",
+			"passed": true
+		},
+		{
+			"detail": {
+				"mesh_y": 14.1500015258789,
+				"query_y": 14.1499996185303
+			},
+			"id": "real_hole_and_surface_elevator_aft_14.15",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_instance_isolation_elevator_aft_14.15",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_aft_14.15_-0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_aft_14.15_0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_state_elevator_aft_8.95",
+			"passed": true
+		},
+		{
+			"detail": {
+				"mesh_y": 8.94999694824219,
+				"query_y": 8.94999980926514
+			},
+			"id": "real_hole_and_surface_elevator_aft_8.95",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_instance_isolation_elevator_aft_8.95",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_aft_8.95_-0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_aft_8.95_0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_state_elevator_aft_4.0",
+			"passed": true
+		},
+		{
+			"detail": {
+				"mesh_y": 4.0,
+				"query_y": 4.0
+			},
+			"id": "real_hole_and_surface_elevator_aft_4.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_instance_isolation_elevator_aft_4.0",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_aft_4.0_-0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "lift_edge_mesh_query_elevator_aft_4.0_0.04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "reject_nonfinite_lift_elevator_aft",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "clamp_lift_travel_elevator_aft",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "unaltered_actual_aircraft_A6M_ForwardPark",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "measured_three_actual_tyres_A6M_ForwardPark",
+			"passed": true
+		},
+		{
+			"detail": {
+				"deck_y": 14.15,
+				"wheel_y": 14.149998664856
+			},
+			"id": "actual_tyre_on_surface_A6M_ForwardPark_Landing gear/Main gear left/Tyre",
+			"passed": true
+		},
+		{
+			"detail": {
+				"deck_y": 14.15,
+				"wheel_y": 14.149998664856
+			},
+			"id": "actual_tyre_on_surface_A6M_ForwardPark_Landing gear/Main gear right/Tyre",
+			"passed": true
+		},
+		{
+			"detail": {
+				"deck_y": 14.15,
+				"wheel_y": 14.1499996185303
+			},
+			"id": "actual_tyre_on_surface_A6M_ForwardPark_Landing gear/Tail wheel assembly/Tail tyre",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_ForwardPark_-6.5_-83.5699996948242",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_ForwardPark_-6.5_-74.4400024414062",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_ForwardPark_4.5_-83.5699996948242",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_ForwardPark_4.5_-74.4400024414062",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_island_fore_mast",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_starboard_exhaust_clearance",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_maximum_envelope_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_radio_mast_1",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_radio_mast_2",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardPark_radio_mast_3",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "unaltered_actual_aircraft_A6M_ForwardElevator",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "measured_three_actual_tyres_A6M_ForwardElevator",
+			"passed": true
+		},
+		{
+			"detail": {
+				"deck_y": 14.1499996185303,
+				"wheel_y": 14.149998664856
+			},
+			"id": "actual_tyre_on_surface_A6M_ForwardElevator_Landing gear/Main gear left/Tyre",
+			"passed": true
+		},
+		{
+			"detail": {
+				"deck_y": 14.1499996185303,
+				"wheel_y": 14.149998664856
+			},
+			"id": "actual_tyre_on_surface_A6M_ForwardElevator_Landing gear/Main gear right/Tyre",
+			"passed": true
+		},
+		{
+			"detail": {
+				"deck_y": 14.1499996185303,
+				"wheel_y": 14.1499996185303
+			},
+			"id": "actual_tyre_on_surface_A6M_ForwardElevator_Landing gear/Tail wheel assembly/Tail tyre",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_ForwardElevator_-5.5_-48.0699996948242",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_ForwardElevator_-5.5_-38.939998626709",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_ForwardElevator_5.5_-48.0699996948242",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_ForwardElevator_5.5_-38.939998626709",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_island_fore_mast",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_starboard_exhaust_clearance",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_maximum_envelope_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_radio_mast_1",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_radio_mast_2",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_ForwardElevator_radio_mast_3",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "unaltered_actual_aircraft_A6M_AftElevator",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "measured_three_actual_tyres_A6M_AftElevator",
+			"passed": true
+		},
+		{
+			"detail": {
+				"deck_y": 14.1499996185303,
+				"wheel_y": 14.149998664856
+			},
+			"id": "actual_tyre_on_surface_A6M_AftElevator_Landing gear/Main gear left/Tyre",
+			"passed": true
+		},
+		{
+			"detail": {
+				"deck_y": 14.1499996185303,
+				"wheel_y": 14.149998664856
+			},
+			"id": "actual_tyre_on_surface_A6M_AftElevator_Landing gear/Main gear right/Tyre",
+			"passed": true
+		},
+		{
+			"detail": {
+				"deck_y": 14.1499996185303,
+				"wheel_y": 14.1499996185303
+			},
+			"id": "actual_tyre_on_surface_A6M_AftElevator_Landing gear/Tail wheel assembly/Tail tyre",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_AftElevator_-5.5_79.9300003051758",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_AftElevator_-5.5_89.0599975585938",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_AftElevator_5.5_79.9300003051758",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "full_mesh_envelope_in_deck_A6M_AftElevator_5.5_89.0599975585938",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_island_fore_mast",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_starboard_exhaust_clearance",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_dp_starboard_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_dp_starboard_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_dp_starboard_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_dp_starboard_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_dp_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_dp_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_dp_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_dp_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_aa25_port_01",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_aa25_port_02",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_aa25_port_03",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_aa25_port_04",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_aa25_starboard_05",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_maximum_envelope_aa25_starboard_06",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_radio_mast_1",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_radio_mast_2",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "mesh_envelope_obstacle_clear_A6M_AftElevator_radio_mast_3",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_dimension_proxy_lift_clearance_-5.75_-5.1100001335144",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_dimension_proxy_lift_clearance_-5.75_5.1100001335144",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_dimension_proxy_lift_clearance_5.75_-5.1100001335144",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "explicit_dimension_proxy_lift_clearance_5.75_5.1100001335144",
+			"passed": true
+		},
+		{
+			"detail": null,
+			"id": "carrier_full_pose_inheritance",
+			"passed": true
+		}
+	],
+	"elevators": [
+		{
+			"id": "elevator_forward",
+			"intermediate": 8.95,
+			"lower": 4.0,
+			"mesh_and_query_checked": true,
+			"upper": 14.15
+		},
+		{
+			"id": "elevator_middle",
+			"intermediate": 8.95,
+			"lower": 4.0,
+			"mesh_and_query_checked": true,
+			"upper": 14.15
+		},
+		{
+			"id": "elevator_aft",
+			"intermediate": 8.95,
+			"lower": 4.0,
+			"mesh_and_query_checked": true,
+			"upper": 14.15
+		}
+	],
+	"failures": [],
+	"mounts": [
+		{
+			"barrels": 2,
+			"host": "sponson_dp_starboard_01",
+			"id": "dp_starboard_01",
+			"kind": "type89_open",
+			"seat_m": [
+				15.1499996185303,
+				10.5699996948242,
+				-76.5
+			],
+			"surface_m": [
+				15.1499996185303,
+				10.4499998092651,
+				-76.5
+			]
+		},
+		{
+			"barrels": 2,
+			"host": "sponson_dp_starboard_02",
+			"id": "dp_starboard_02",
+			"kind": "type89_open",
+			"seat_m": [
+				15.1499996185303,
+				10.5699996948242,
+				-58.0
+			],
+			"surface_m": [
+				15.1499996185303,
+				10.4499998092651,
+				-58.0
+			]
+		},
+		{
+			"barrels": 2,
+			"host": "sponson_dp_starboard_03",
+			"id": "dp_starboard_03",
+			"kind": "type89_smoke",
+			"seat_m": [
+				15.1499996185303,
+				10.9700002670288,
+				50.5
+			],
+			"surface_m": [
+				15.1499996185303,
+				10.8500003814697,
+				50.5
+			]
+		},
+		{
+			"barrels": 2,
+			"host": "sponson_dp_starboard_04",
+			"id": "dp_starboard_04",
+			"kind": "type89_smoke",
+			"seat_m": [
+				15.1499996185303,
+				10.9700002670288,
+				68.5
+			],
+			"surface_m": [
+				15.1499996185303,
+				10.8500003814697,
+				68.5
+			]
+		},
+		{
+			"barrels": 2,
+			"host": "sponson_dp_port_01",
+			"id": "dp_port_01",
+			"kind": "type89_open",
+			"seat_m": [
+				-15.1499996185303,
+				10.5699996948242,
+				-76.5
+			],
+			"surface_m": [
+				-15.1499996185303,
+				10.4499998092651,
+				-76.5
+			]
+		},
+		{
+			"barrels": 2,
+			"host": "sponson_dp_port_02",
+			"id": "dp_port_02",
+			"kind": "type89_open",
+			"seat_m": [
+				-15.1499996185303,
+				10.5699996948242,
+				-58.0
+			],
+			"surface_m": [
+				-15.1499996185303,
+				10.4499998092651,
+				-58.0
+			]
+		},
+		{
+			"barrels": 2,
+			"host": "sponson_dp_port_03",
+			"id": "dp_port_03",
+			"kind": "type89_open",
+			"seat_m": [
+				-15.1499996185303,
+				10.9700002670288,
+				50.5
+			],
+			"surface_m": [
+				-15.1499996185303,
+				10.8500003814697,
+				50.5
+			]
+		},
+		{
+			"barrels": 2,
+			"host": "sponson_dp_port_04",
+			"id": "dp_port_04",
+			"kind": "type89_open",
+			"seat_m": [
+				-15.1499996185303,
+				10.9700002670288,
+				68.5
+			],
+			"surface_m": [
+				-15.1499996185303,
+				10.8500003814697,
+				68.5
+			]
+		},
+		{
+			"barrels": 3,
+			"host": "gallery_aa25_port_01",
+			"id": "aa25_port_01",
+			"kind": "type96_open",
+			"seat_m": [
+				-15.4499998092651,
+				12.3299999237061,
+				5.0
+			],
+			"surface_m": [
+				-15.4499998092651,
+				12.25,
+				5.0
+			]
+		},
+		{
+			"barrels": 3,
+			"host": "gallery_aa25_port_02",
+			"id": "aa25_port_02",
+			"kind": "type96_open",
+			"seat_m": [
+				-15.4499998092651,
+				12.3299999237061,
+				18.0
+			],
+			"surface_m": [
+				-15.4499998092651,
+				12.25,
+				18.0
+			]
+		},
+		{
+			"barrels": 3,
+			"host": "gallery_aa25_port_03",
+			"id": "aa25_port_03",
+			"kind": "type96_open",
+			"seat_m": [
+				-15.4499998092651,
+				12.3299999237061,
+				31.0
+			],
+			"surface_m": [
+				-15.4499998092651,
+				12.25,
+				31.0
+			]
+		},
+		{
+			"barrels": 3,
+			"host": "gallery_aa25_port_04",
+			"id": "aa25_port_04",
+			"kind": "type96_open",
+			"seat_m": [
+				-15.4499998092651,
+				12.3299999237061,
+				44.0
+			],
+			"surface_m": [
+				-15.4499998092651,
+				12.25,
+				44.0
+			]
+		},
+		{
+			"barrels": 3,
+			"host": "gallery_aa25_starboard_05",
+			"id": "aa25_starboard_05",
+			"kind": "type96_smoke",
+			"seat_m": [
+				15.4499998092651,
+				12.3299999237061,
+				15.0
+			],
+			"surface_m": [
+				15.4499998092651,
+				12.25,
+				15.0
+			]
+		},
+		{
+			"barrels": 3,
+			"host": "gallery_aa25_starboard_06",
+			"id": "aa25_starboard_06",
+			"kind": "type96_smoke",
+			"seat_m": [
+				15.4499998092651,
+				12.3299999237061,
+				28.0
+			],
+			"surface_m": [
+				15.4499998092651,
+				12.25,
+				28.0
+			]
+		}
+	],
+	"passed": true,
+	"scope": "geometry, static bearing and pure adapter only; not takeoff, recovery, queue, combat or historical full acceptance",
+	"task": "CV02",
+	"underdeck_support_bases": [
+		[
+			-5.40000009536743,
+			7.98999977111816,
+			-113.0
+		],
+		[
+			5.40000009536743,
+			7.98999977111816,
+			-113.0
+		],
+		[
+			-7.69999980926514,
+			7.7350001335144,
+			-103.5
+		],
+		[
+			7.69999980926514,
+			7.7350001335144,
+			-103.5
+		],
+		[
+			-7.19999980926514,
+			6.13749980926514,
+			114.0
+		],
+		[
+			7.19999980926514,
+			6.13749980926514,
+			114.0
+		],
+		[
+			-5.19999980926514,
+			5.67600011825562,
+			122.199996948242
+		],
+		[
+			5.19999980926514,
+			5.67600011825562,
+			122.199996948242
+		]
+	]
+}

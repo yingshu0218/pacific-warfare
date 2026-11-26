@@ -1,0 +1,45 @@
+{
+  "scope": "Gear-cover ownership/geometry-only correction; all actual events and unit states unchanged across native inputs.",
+  "cases": [
+    {
+      "case": "a6m-breakup",
+      "events_identical": true,
+      "simulation_samples_identical": true
+    },
+    {
+      "case": "a6m-engine",
+      "events_identical": true,
+      "simulation_samples_identical": true
+    },
+    {
+      "case": "a6m-wing_left",
+      "events_identical": true,
+      "simulation_samples_identical": true
+    },
+    {
+      "case": "a6m-wing_right",
+      "events_identical": true,
+      "simulation_samples_identical": true
+    },
+    {
+      "case": "f6f-breakup",
+      "events_identical": true,
+      "simulation_samples_identical": true
+    },
+    {
+      "case": "f6f-engine",
+      "events_identical": true,
+      "simulation_samples_identical": true
+    },
+    {
+      "case": "f6f-wing_left",
+      "events_identical": true,
+      "simulation_samples_identical": true
+    },
+    {
+      "case": "f6f-wing_right",
+      "events_identical": true,
+      "simulation_samples_identical": true
+    }
+  ]
+}

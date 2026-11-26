@@ -1,0 +1,201 @@
+{
+  "seed": 707,
+  "tick_hz": 60,
+  "factions": [
+    "jp",
+    "us"
+  ],
+  "environment": {
+    "sea_level_m": 0,
+    "friendly_fire": false,
+    "solids": [],
+    "terrain_path": "res://data/maps/island_harbor_expanded.json",
+    "view_script": "res://scripts/map02/expanded_map_view.gd"
+  },
+  "fleet_profiles_path": "res://data/expansion/fleet_profiles.json",
+  "id": "s14_intercept_b25",
+  "spawns": [
+    {
+      "id": "bomber",
+      "unit_definition_id": "us_b25j_1944_07",
+      "faction_id": "us",
+      "position_m": [
+        0.0,
+        1800.0,
+        5500.0
+      ],
+      "velocity_mps": [
+        0.0,
+        0.0,
+        -95.0
+      ],
+      "rotation_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            0.0,
+            1300.0,
+            8000.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "wing",
+      "unit_definition_id": "us_b25j_1944_07",
+      "faction_id": "us",
+      "position_m": [
+        240.0,
+        1720.0,
+        5580.0
+      ],
+      "velocity_mps": [
+        0.0,
+        0.0,
+        -95.0
+      ],
+      "rotation_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            240.0,
+            1300.0,
+            8080.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "target",
+      "unit_definition_id": "jp_yukikaze_1942_06",
+      "faction_id": "jp",
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -10
+      ],
+      "rotation_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            0.0,
+            1300.0,
+            2500.0
+          ]
+        }
+      }
+    },
+    {
+      "id": "fighter",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        240.0,
+        1950.0,
+        7000.0
+      ],
+      "velocity_mps": [
+        0.0,
+        0.0,
+        -105.0
+      ],
+      "rotation_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            240.0,
+            1300.0,
+            8680.0
+          ]
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "strike",
+      "faction_id": "us",
+      "member_ids": [
+        "bomber",
+        "wing"
+      ]
+    }
+  ],
+  "ground_deployments": [],
+  "bombing_goals": [
+    {
+      "id": "strike",
+      "order_type": "bombing",
+      "faction_id": "us",
+      "unit_ids": [
+        "bomber",
+        "wing"
+      ],
+      "mode": "level",
+      "target_id": "target"
+    }
+  ],
+  "combat_overlay_path": "res://data/combat/s14_bombing.json",
+  "combat_profile_override_ids": [
+    "us_sb2c4_1944"
+  ],
+  "showcase": {
+    "mode": "intercept_b25"
+  },
+  "fleet_overrides": {
+    "commanders": {
+      "jp": {
+        "patrol_center_m": [
+          0,
+          0,
+          -5000
+        ],
+        "patrol_radius_m": 700
+      },
+      "us": {
+        "patrol_center_m": [
+          -5300,
+          0,
+          -3880
+        ],
+        "patrol_radius_m": 1200
+      }
+    }
+  },
+  "presentation": {
+    "title": "海空交锋 · 轰炸与截击",
+    "subtitle": "在空初态 · 真实移动/防空 · 有限载荷",
+    "names": {
+      "bomber": "B-25J 长机",
+      "wing": "B-25J 僚机",
+      "target": "雪风 · 机动防空",
+      "fighter": "零战截击机",
+      "strike": "B-25J轰炸编组"
+    },
+    "duration_s": 1200,
+    "minimum_duration_s": 900,
+    "disengaged_after_s": 120
+  },
+  "integration_scope": "Production motion, contacts, weapons and DM; Bomber goals only; FleetPlanner exclusively assigns fighters. No timed results or passive-target overrides."
+}

@@ -1,0 +1,758 @@
+{
+  "sealed_utc": "2026-11-10T14:55:37.795863+00:00",
+  "excluded": [
+    "evidence-hashes.json itself",
+    "Godot .import sidecars",
+    "ignored .local raw frames and caches"
+  ],
+  "files": {
+    "docs/showcase/evidence/S04-spatial/.gdignore": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "docs/showcase/evidence/S04-spatial/baseline-source-hashes.json": {
+      "sha256": "059b80ef1c26beec3a5d87077564ffc67dcff8b2849315cbafd5342a2b0253b6",
+      "bytes": 366
+    },
+    "docs/showcase/evidence/S04-spatial/cleanup.json": {
+      "sha256": "7ef56bbadb44ba9cb07e77ba9ef0cc4abb64969e4d43e285329296372c28d5de",
+      "bytes": 26200
+    },
+    "docs/showcase/evidence/S04-spatial/current-after.json": {
+      "sha256": "c61511d0b12db74f3af8c2c32cfcae8789880f8b26335ee79634e8b45323731e",
+      "bytes": 6731840
+    },
+    "docs/showcase/evidence/S04-spatial/current-after.png": {
+      "sha256": "ba44c6a980d2034ed17dba390d2c9c8b25cf528e6b67befbacf659e9a52ddc9b",
+      "bytes": 450433
+    },
+    "docs/showcase/evidence/S04-spatial/current-after.svg": {
+      "sha256": "bdf7771b4b7cc4cc8fb813b0dfefc9425e8c8f464bbc0c054215ab4a059fed62",
+      "bytes": 240431
+    },
+    "docs/showcase/evidence/S04-spatial/current-native-0060.png": {
+      "sha256": "ef8e3f74d125b71b122c5a9a7324bf4083e040bec9187668d33728b21244d7fc",
+      "bytes": 111351
+    },
+    "docs/showcase/evidence/S04-spatial/current-native-0180.png": {
+      "sha256": "a3102895538d40791ac63f57222ea6bb5e9eebcc36ab8ef11292ccf4ab0d361d",
+      "bytes": 156643
+    },
+    "docs/showcase/evidence/S04-spatial/current-native-0270.png": {
+      "sha256": "2cd67c6ec689a8a6aaa8762792183c16072967aee52693cbd6de227f0669b232",
+      "bytes": 183229
+    },
+    "docs/showcase/evidence/S04-spatial/current-native-samples.json": {
+      "sha256": "17e962fe5dde80fd08021764c5b406200f7f36fa336bad805563596b882e6d64",
+      "bytes": 45129
+    },
+    "docs/showcase/evidence/S04-spatial/current-native.mp4": {
+      "sha256": "53e5baa63b7f510f2174d345c31d1aa6225ef54f9e124d3c4eb85387680c607f",
+      "bytes": 2315922
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-calibration-notes.md": {
+      "sha256": "03e7849f7e705d4ed316cbc1e020027cd0651d590cba4fdac39168c8c33c34f4",
+      "bytes": 3088
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-coordination.json": {
+      "sha256": "bce061309782cad11f44b7c1aa0bd38fadc35ff8ea43b43575ccedcae9e1a46a",
+      "bytes": 120582
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-trajectory-audit.json": {
+      "sha256": "13ea13a50c6991dfb01873fbee7f8436bbb09a4f61f11f054925d357edd91966",
+      "bytes": 1502
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v2-v3-same-window.png": {
+      "sha256": "d9d7f9f6d56822be8e2830260541197438a6bf0b90f386615590b753c232f112",
+      "bytes": 215095
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v2-v3-same-window.svg": {
+      "sha256": "34197e41f962fe8158b8e3930b48ebcea25b45bc760f50617e1402d1c41e9593",
+      "bytes": 146846
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-current-native-0060.png": {
+      "sha256": "18d30785c0b82ffdb527ae543a665f79955a79b37c39bcbd3666ad825794129a",
+      "bytes": 85225
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-current-native-0180.png": {
+      "sha256": "2e695f187b5ff0bcf1a3de3066ac386d75a35be53b7cec5702d9b64b016461b6",
+      "bytes": 75676
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-current-native-0270.png": {
+      "sha256": "11cfeac8fca3f185a9d7648ffdd94715b38dd424ab5c81962df6edef4ac6aa88",
+      "bytes": 79123
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-current-native-samples.json": {
+      "sha256": "2013ee15da66917da0602054b665012e8a3fd2fa8000f31890d075c887c9c73e",
+      "bytes": 54210
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-current-native.mp4": {
+      "sha256": "70d444244b24d6488a1e6da93eb7439e4295db4303105c88905d8ba5d696903b",
+      "bytes": 997069
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-observer-native-0000.png": {
+      "sha256": "e269c8b76b60e2bebdbd01b4aa45415867596e129a2a12651731b80b0d79fc8e",
+      "bytes": 286202
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-observer-native-0090.png": {
+      "sha256": "66bfe16ad9a6431f6848fb6abf344260296f8ebda5ac09e039a247b6a9361bc3",
+      "bytes": 330752
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-observer-native-0180.png": {
+      "sha256": "103d7568da8d09fd52eab3c115fddd0f34124c5ecd3dcff87d6813af32b8f2cd",
+      "bytes": 336012
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-observer-native-0270.png": {
+      "sha256": "c429e61cdbd32de16c8c9631d02c4f0382bf19918abf79f925b2e79616766e9e",
+      "bytes": 308718
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-observer-native-0360.png": {
+      "sha256": "7f61203083a5e5ecbdc5c37c34d467093a1cd4f8296e13d0d15bc6133a323f79",
+      "bytes": 272501
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-observer-native-0435.png": {
+      "sha256": "ebb16f7c63cd435096bbaee2c9542ba6b89baa782e907eb5bf4e9f486f63bb9c",
+      "bytes": 322113
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-observer-native-samples.json": {
+      "sha256": "08985dcaf00618743dd571f3fd080dbcf9313371f635be713b12dad2f0710833",
+      "bytes": 72948
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-observer-native.mp4": {
+      "sha256": "7f5456a2887ebd9eba61ceb5ff7de830f7307b50ed9f82ffddc0ad1e5af7e790",
+      "bytes": 1765877
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-reversal-native-0000.png": {
+      "sha256": "0aaaa7be071137feb26648ab8ec89f839770041bceff290825df4182cb564215",
+      "bytes": 65433
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-reversal-native-0045.png": {
+      "sha256": "d89e1ab5d126ee8e227ba191017b76076073b2f7cb219bd299810b0d76c23e17",
+      "bytes": 73549
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-reversal-native-0090.png": {
+      "sha256": "e6544378d4912e8da9bbe96ad2bcc83fa5b2cb6eee8a72a751391e1395793f17",
+      "bytes": 66861
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-reversal-native-0135.png": {
+      "sha256": "ae1f7209f9d3aea8d047b12da3d992f96b3d5f730d79e7dd5a1af9574381f54a",
+      "bytes": 62549
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-reversal-native-0180.png": {
+      "sha256": "a4d740dd2e1e21ab40efdc71357b5bee1751abc51f658141b713684eea5d947f",
+      "bytes": 66354
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-reversal-native-0225.png": {
+      "sha256": "14bc6fd27895933d3c6bad1661c53232a73543d90ac1a244efce3f11246dc234",
+      "bytes": 69612
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-reversal-native-samples.json": {
+      "sha256": "9132cacfa9ceff6cd7c52c1e6f3e7fd2b904bf5ab22147d8a11286e0956c1c0e",
+      "bytes": 35743
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-reversal-native.mp4": {
+      "sha256": "8681ddc88a448d69a7658883a6f53a321e15f9efc2aacb756ea14380474c40a6",
+      "bytes": 632594
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-curves.png": {
+      "sha256": "73fe0fa5745af6f86bc723aa22f4d3ec53ef27642f16946cac8da1e2392a4423",
+      "bytes": 239394
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-curves.svg": {
+      "sha256": "bae59fcfacd35879f49f1927993b815c0b8689323ab1681aebd9e64af3e9eb1e",
+      "bytes": 148664
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-final-native-0000.png": {
+      "sha256": "9c8dbe626a56b9500d51c3153f454ab184859079c08f658086110910a07ca714",
+      "bytes": 63119
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-final-native-0060.png": {
+      "sha256": "15998d9138be7382bf86a543c24d0b9492febf574a23ba1f9fa39b7e1c63c2cc",
+      "bytes": 62741
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-final-native-0105.png": {
+      "sha256": "dab4c85869198883b49f9973067a0fe6a4d30f7b144e1db67af4e6b7bf1bb170",
+      "bytes": 64338
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-final-native-0150.png": {
+      "sha256": "40bc8fe7ba20e1625af35ea2c9f7c95b6c4861b151ebf17c3c5eccb617971cb3",
+      "bytes": 66879
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-final-native-0210.png": {
+      "sha256": "581af6370439c8855073774a73efe165052cd675049daea4383e906bfdfa818e",
+      "bytes": 61736
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-final-native-0255.png": {
+      "sha256": "f25c50383bdb1f0dde07dfd4add6bfe3fd2d747b241f76607e2cb8e9126c5b75",
+      "bytes": 63865
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-final-native-samples.json": {
+      "sha256": "1251fef4854231080c37ebfd816d70e6d29a92599c575292ecf2b017ba409078",
+      "bytes": 40718
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-final-native.mp4": {
+      "sha256": "62bc6fb1f2ae1da6e4ff5e9411c2aec9f32bf6b3b54193c6484aa6114b600199",
+      "bytes": 532208
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-native-0000.png": {
+      "sha256": "4dfc04e2297f054311c97fa7da6b48b11b03818aa6dd5d323991978dc109a1a2",
+      "bytes": 62755
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-native-0045.png": {
+      "sha256": "922e001358026a1a4d968c6a12b5b6dbb7b33020870afa1617d86f44295cb06c",
+      "bytes": 66733
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-native-0090.png": {
+      "sha256": "37c00e861d8cf513dfbaea3bd00a88e4c0e3acd65e67c644de2b759849837728",
+      "bytes": 66138
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-native-0135.png": {
+      "sha256": "4c097461aeeb048f0fbb1fb3a53f976e7c8e4bb6ef8515d69889fef0e1e46bf3",
+      "bytes": 63090
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-native-0180.png": {
+      "sha256": "7fc13192bffdfda336bd48ee47bed60d6d5659fa1ec7353d787950a2a642c244",
+      "bytes": 62640
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-native-0225.png": {
+      "sha256": "a5a275d173bf6b90a2e99339faf24fe71244077aec02e39fe046a0afb2a0a4b9",
+      "bytes": 63388
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-native-samples.json": {
+      "sha256": "d6c562732c6941b46581e7ccc87ca3d755ff26a36c57b97bf362a8c4d4f16ecb",
+      "bytes": 36307
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-native.mp4": {
+      "sha256": "2599b7263d2cbed3999c6da040f83d4d6b62be610a89b2e593ada1ea6f8838bf",
+      "bytes": 503670
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-trajectory.png": {
+      "sha256": "02a47e2a1fe20c39f24dd5118c2fd679012d8ac256741af10a316c6a6a150791",
+      "bytes": 157125
+    },
+    "docs/showcase/evidence/S04-spatial/f6f-v3-split-trajectory.svg": {
+      "sha256": "9ea3a3be993371b625e16dafced1ca8c345441dd7aaf3a1fb6a4e3de2d0f210f",
+      "bytes": 47041
+    },
+    "docs/showcase/evidence/S04-spatial/final-natural-consistency.json": {
+      "sha256": "ec3add7d5618a8d149bb4b60ffc2147b49bc0b0ba32b00af073be784faf3431f",
+      "bytes": 931
+    },
+    "docs/showcase/evidence/S04-spatial/four-after.json": {
+      "sha256": "a6a9b80293ba405711c814ec122d7b77fcd046f8ad59946108ca7f0ebe96788c",
+      "bytes": 4519946
+    },
+    "docs/showcase/evidence/S04-spatial/four-after.png": {
+      "sha256": "f3fc9a36fcff876a0d86b3d62aa5d391adc8666170feef0180cec5cebc1e1ace",
+      "bytes": 511431
+    },
+    "docs/showcase/evidence/S04-spatial/four-after.svg": {
+      "sha256": "421bb084e7871e39c42c56d042c1db20bf782edf87333d6fab850e4e21e4dbfa",
+      "bytes": 281977
+    },
+    "docs/showcase/evidence/S04-spatial/four-native-0000.png": {
+      "sha256": "f270feb5f6d11f13bb7f9b79617f10eb56cb5b9e1124adcbfdc60b4f50bd2128",
+      "bytes": 53730
+    },
+    "docs/showcase/evidence/S04-spatial/four-native-0120.png": {
+      "sha256": "cf3e6b25b9a01d7a50d8877a1475ea3a46af231c8a1d22328ecf3a81ed7a4dd5",
+      "bytes": 52664
+    },
+    "docs/showcase/evidence/S04-spatial/four-native-0300.png": {
+      "sha256": "0c07279759ca549bbe113a639cc635dbeeb8330e0327032bd6c328a82b63f874",
+      "bytes": 56454
+    },
+    "docs/showcase/evidence/S04-spatial/four-native-samples.json": {
+      "sha256": "0d24e27c9f1f61a159ac3d725344d397129756f3d77dd565f3eefd1a4b32898d",
+      "bytes": 45312
+    },
+    "docs/showcase/evidence/S04-spatial/four-native.mp4": {
+      "sha256": "d43f96297dd3b38f0cba8e7ab5953a877d543de8993612f490e473819f906536",
+      "bytes": 522464
+    },
+    "docs/showcase/evidence/S04-spatial/metrics.json": {
+      "sha256": "7e79a2eac88c67e65e5080c28f49002b5e5ef2b42a7557ede81db7cfe73b3e41",
+      "bytes": 46541
+    },
+    "docs/showcase/evidence/S04-spatial/motion.json": {
+      "sha256": "e99ef40e4f563aa2fa32b59cbcf739f9f1a97d2a6419dfc8d37755d61ca567ec",
+      "bytes": 140814
+    },
+    "docs/showcase/evidence/S04-spatial/native-captures-v3.json": {
+      "sha256": "7f101456898170f66a3cfaa3737251ed626fefa251e0fcaf669af5ffa0b6266d",
+      "bytes": 128150
+    },
+    "docs/showcase/evidence/S04-spatial/native-captures.json": {
+      "sha256": "609ade3a7d934a978df621ce3f1e938ce07abe7534bfb8647da7fecc82b17b80",
+      "bytes": 70737
+    },
+    "docs/showcase/evidence/S04-spatial/production-inputs.json": {
+      "sha256": "ba2f9817164af192d6883759805e3eebc6f432ce68c7f9d5bd04de3ae7f4deb6",
+      "bytes": 39094
+    },
+    "docs/showcase/evidence/S04-spatial/rejections-before-fix.json": {
+      "sha256": "ccc2872f7fb0e82a9486711a56a3a9d9843f36da8ca7716a0d58808701f07cba",
+      "bytes": 4425
+    },
+    "docs/showcase/evidence/S04-spatial/replay.json": {
+      "sha256": "a07fb96d4d288ffe35b0e54b4227dfb8fe5884e1221412382268dacd3e187875",
+      "bytes": 517
+    },
+    "docs/showcase/evidence/S04-spatial/retired-artifacts.json": {
+      "sha256": "f7a69d7fddb7c60f6decc8facaa76ac32bde903c056832e7fc4530f91c047a3e",
+      "bytes": 572
+    },
+    "docs/showcase/evidence/S04-spatial/source-hashes.json": {
+      "sha256": "cca8b8fcd87ed6760667d2b9a12feb779eac814200832bdf1320fac743a6afb9",
+      "bytes": 44920
+    },
+    "docs/showcase/evidence/S04-spatial/standard-after-120s.json": {
+      "sha256": "32aa7544fbcda74d068b4d82f01040a7630540ba8523184afbddb2eedb03511f",
+      "bytes": 3393159
+    },
+    "docs/showcase/evidence/S04-spatial/standard-after-120s.png": {
+      "sha256": "fdfa4781ad8f41b5f4a10ffd368433d3c650531cce3f9432ffb7dbfb073f57b5",
+      "bytes": 460852
+    },
+    "docs/showcase/evidence/S04-spatial/standard-after-120s.svg": {
+      "sha256": "0498d79bb02086287b83da3b58ec1369d90ca4aef1e7cf6fa8d59dccca11710b",
+      "bytes": 227681
+    },
+    "docs/showcase/evidence/S04-spatial/standard-after.json": {
+      "sha256": "b8bdca82e00a66ea5bba35c624de1c20dfb4387a3204218e8e91a7f8c6639d84",
+      "bytes": 6749432
+    },
+    "docs/showcase/evidence/S04-spatial/standard-after.png": {
+      "sha256": "1239195fe2570553df30a279662753a46c61bce82c4d6a2fe829d1f59aa8acf6",
+      "bytes": 452368
+    },
+    "docs/showcase/evidence/S04-spatial/standard-after.svg": {
+      "sha256": "143fac9fe8ce0af9afd6c1d2c518676a7edee560b4899d46b1c2088627749275",
+      "bytes": 238121
+    },
+    "docs/showcase/evidence/S04-spatial/standard-before.json": {
+      "sha256": "f766fef17c99d9783bbe0b2ceaf4a2f6772f0b36ac703bbfca0357fc2a69d135",
+      "bytes": 2334306
+    },
+    "docs/showcase/evidence/S04-spatial/standard-before.png": {
+      "sha256": "7cae1b8630b180228f4e5a9f78064b5a7ae69526f19ad6892c01c9a0f4fb8812",
+      "bytes": 393547
+    },
+    "docs/showcase/evidence/S04-spatial/standard-before.svg": {
+      "sha256": "bc1b78bded396cd552973eebb6fa90608acf18a39711f3da349f6af2b670cb9f",
+      "bytes": 199338
+    },
+    "docs/showcase/evidence/S04-spatial/terrain-safety.json": {
+      "sha256": "60f46949eca070176c4742ea6c19590df6b3259c80092bdf4c33040f071ffdd5",
+      "bytes": 49883
+    },
+    "docs/showcase/evidence/S04-spatial/two-after.json": {
+      "sha256": "6633aaf4c164c7cbe95eaa199646884a897100b7dda737c85e23aac184b84e4c",
+      "bytes": 2270137
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/.gdignore": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/baseline-source-hashes.json": {
+      "sha256": "059b80ef1c26beec3a5d87077564ffc67dcff8b2849315cbafd5342a2b0253b6",
+      "bytes": 366
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/current-after.json": {
+      "sha256": "325da0a8254f57f5c2e36b70725cdde60b518f2cbd5b522a65660946497a6b7c",
+      "bytes": 4889844
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/current-after.png": {
+      "sha256": "062ffc27e77476b1becfeaaa1362a45d6e4f9fe5c8bbf95f65abd066f87562b5",
+      "bytes": 495009
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/current-after.svg": {
+      "sha256": "0749aa5a5cd3165d35b276b06736d22250b3ef16e74b074874e8b12620433367",
+      "bytes": 241025
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/current-native-0060.png": {
+      "sha256": "ef8e3f74d125b71b122c5a9a7324bf4083e040bec9187668d33728b21244d7fc",
+      "bytes": 111351
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/current-native-0180.png": {
+      "sha256": "a3102895538d40791ac63f57222ea6bb5e9eebcc36ab8ef11292ccf4ab0d361d",
+      "bytes": 156643
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/current-native-0270.png": {
+      "sha256": "2cd67c6ec689a8a6aaa8762792183c16072967aee52693cbd6de227f0669b232",
+      "bytes": 183229
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/current-native-samples.json": {
+      "sha256": "17e962fe5dde80fd08021764c5b406200f7f36fa336bad805563596b882e6d64",
+      "bytes": 45129
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/current-native.mp4": {
+      "sha256": "53e5baa63b7f510f2174d345c31d1aa6225ef54f9e124d3c4eb85387680c607f",
+      "bytes": 2315922
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/four-after.json": {
+      "sha256": "823757e977e6ba1164a23cabfb523fa3390901b7afabd959e32fc4f906296718",
+      "bytes": 3432648
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/four-after.png": {
+      "sha256": "a85a4bcdf52305ae8f88877efa0c76f0109bfe4f9c688cedea1f1fab30410e43",
+      "bytes": 578213
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/four-after.svg": {
+      "sha256": "b8730c21a52313dfb388987b1df1a1d0603326663e3b33788c84aaeb007861eb",
+      "bytes": 275625
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/four-native-0000.png": {
+      "sha256": "f270feb5f6d11f13bb7f9b79617f10eb56cb5b9e1124adcbfdc60b4f50bd2128",
+      "bytes": 53730
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/four-native-0120.png": {
+      "sha256": "cf3e6b25b9a01d7a50d8877a1475ea3a46af231c8a1d22328ecf3a81ed7a4dd5",
+      "bytes": 52664
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/four-native-0300.png": {
+      "sha256": "0c07279759ca549bbe113a639cc635dbeeb8330e0327032bd6c328a82b63f874",
+      "bytes": 56454
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/four-native-samples.json": {
+      "sha256": "0d24e27c9f1f61a159ac3d725344d397129756f3d77dd565f3eefd1a4b32898d",
+      "bytes": 45312
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/four-native.mp4": {
+      "sha256": "d43f96297dd3b38f0cba8e7ab5953a877d543de8993612f490e473819f906536",
+      "bytes": 522464
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/motion.json": {
+      "sha256": "7369519375f16e4faeae874104b900cb6f54a4eda98f17ddbe715c39edd45922",
+      "bytes": 141657
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/native-captures.json": {
+      "sha256": "609ade3a7d934a978df621ce3f1e938ce07abe7534bfb8647da7fecc82b17b80",
+      "bytes": 70737
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/rejections-before-fix.json": {
+      "sha256": "ccc2872f7fb0e82a9486711a56a3a9d9843f36da8ca7716a0d58808701f07cba",
+      "bytes": 4425
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/replay.json": {
+      "sha256": "55dbd10d24d31a6a74623bac6761db8eb7dab2d55947299db86470be2d2104b6",
+      "bytes": 516
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/source/.gdignore": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/source/data/aircraft/performance.json": {
+      "sha256": "42635e3f4716049ee98d777fd0ae57f62f92d79a1921c3b1bd8e2733b17f120b",
+      "bytes": 3884
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/source/scripts/behaviors/aircraft/air_combat_tactics.gd": {
+      "sha256": "9d3fc7b6b15cb5c5837de2480cef3ecf56580aeac62281ebf54d0094556d4f8a",
+      "bytes": 8318
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/source/scripts/behaviors/aircraft/air_formations.gd": {
+      "sha256": "d6818882b5e905edf10e2a3db98e8e9bace1722f8b89f5f2f9573ccbde1e807c",
+      "bytes": 3406
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/source/scripts/behaviors/aircraft/aircraft_tasks.gd": {
+      "sha256": "3e3eafcde93653479ab074a2821132d3d1c4ee0446503ac6a9855736e89d8000",
+      "bytes": 21435
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/source/scripts/simulation/aircraft_motion/aircraft_flight_math.gd": {
+      "sha256": "2e5bd3d83f8d93f25411bb5cf79bd70e448acc3a05910dfce58270d3ba655c47",
+      "bytes": 1774
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/source/scripts/simulation/aircraft_motion/aircraft_motion.gd": {
+      "sha256": "fe2caa88696d4366a6d7de2e16b972ce6a83c780b2e90112ebbf0d0f84dbbeae",
+      "bytes": 14762
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/source/tests/aircraft_spatial_capture.gd": {
+      "sha256": "81c89a1d37bb086a63d324b7946836cf498257c9a0b9b9aaa59a8d385507f4a8",
+      "bytes": 6278
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/source/tests/fixtures/aircraft_spatial_recorder.gd": {
+      "sha256": "d0aa5a7309aaa626163fe268c127cfd1296934875450d9d9f9d7af42cff1a0dc",
+      "bytes": 6369
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/source-hashes.json": {
+      "sha256": "ccc63f9a4f3eea40ce117f45efa33fbcd08ec46ea8b726c696ebbfbb18a66907",
+      "bytes": 1068
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/standard-after-120s.json": {
+      "sha256": "fe118c5d63d87b1ccbdef84c04ea58afcbb664aaef792b18daf762fe1854bcb7",
+      "bytes": 2471821
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/standard-after-120s.png": {
+      "sha256": "0d6864bd49c1dc4b2cdd6a791d617884d673ffada46b52035b00cb7af541eca5",
+      "bytes": 501816
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/standard-after-120s.svg": {
+      "sha256": "d7e511ae6397e0f868370b8002a03d606527704fd6c5ffcd0e4d9e8d9205c18d",
+      "bytes": 236980
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/standard-after.json": {
+      "sha256": "be8d3798f7933280334cfd0aae9ea66b8e02feb49860c5f2aba0649893e38a39",
+      "bytes": 4779460
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/standard-after.png": {
+      "sha256": "8f1e5b8e500445ec289b7e366d77c9c513e46a57fc189966cfd8b2ddebc002b0",
+      "bytes": 469567
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/standard-after.svg": {
+      "sha256": "6008a0c63ad89abcfd3b5238dbf874f2992ca5ecee037516c0e6a02ef4782f2c",
+      "bytes": 233904
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/standard-before.json": {
+      "sha256": "f766fef17c99d9783bbe0b2ceaf4a2f6772f0b36ac703bbfca0357fc2a69d135",
+      "bytes": 2334306
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/standard-before.png": {
+      "sha256": "d4a9d0561d440c8634229499617aac772f8b74b75d9c740470a4bd686a3b40b0",
+      "bytes": 411882
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/standard-before.svg": {
+      "sha256": "fec86ba6619b93b9f8798caa909f45353675dcee1a14cb0c10cbce2000c4a0dc",
+      "bytes": 205049
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/terrain-safety.json": {
+      "sha256": "159fc28da4315587195e88507b9672af853a88c6848b52d7c05b932a8f2bfe9e",
+      "bytes": 49805
+    },
+    "docs/showcase/evidence/S04-spatial/v2-before-f6f-calibration/two-after.json": {
+      "sha256": "fea2d7fb36fcfc8b2c3b962ce1f262c75200748398e9a41ba3f19ba85b89bf56",
+      "bytes": 1763519
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261109T235720-60d89a44/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261109T235720-60d89a44/01-output.log": {
+      "sha256": "854cec2e172f18e91a97f6b0833f88c4ff3d1284d3a2ba96255fc4a9e30e2103",
+      "bytes": 175
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261109T235720-60d89a44/report.json": {
+      "sha256": "7c02c5d5b79a83d49c917f2e35c41b100275b82953cd0a22e5d752661b20381e",
+      "bytes": 2544
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/01-output.log": {
+      "sha256": "6823619f99ed302405c6c1319df93c691e7e1d3ee59aa688c469e856e4c39f07",
+      "bytes": 125
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/02-output.log": {
+      "sha256": "cad776fef813855fa85e37a8ced8f89eb9267d3756f344a20d2d6e6f585c966c",
+      "bytes": 126
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/03-output.log": {
+      "sha256": "8b67f54f2d2ae74097cdf4f1238ef88aa4e832804d99c09f4dd2c7b3ab5fec1b",
+      "bytes": 153
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/04-output.log": {
+      "sha256": "8efe2f89b103430b8a3a66803fba968bea7a839e07cbb5d554797ec4c50b8ae2",
+      "bytes": 413
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/05-output.log": {
+      "sha256": "cbe86e8d82bc497e9c68163d9f061218656b0abb0378a0af57d0d5f52809d2d3",
+      "bytes": 296
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/06-output.log": {
+      "sha256": "0aeb3c3ef3ff6e57da28defdff22c7125921fc263035dc8fa848563625969ac2",
+      "bytes": 166
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/07-output.log": {
+      "sha256": "0ff67def78c40543bb285f1bbffbd0bd52aa4eb2812a08b82cb466dcea78a684",
+      "bytes": 108
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T140606-447e1408/report.json": {
+      "sha256": "fba55d0d501101226377b73a52d623dcd97bfd6542f466dd00e3808907c1935a",
+      "bytes": 6833
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141238-8cd72f8a/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141238-8cd72f8a/01-output.log": {
+      "sha256": "79fa94072d06948946bfaaf92e0b55e31c4752a7faee0e90a7c8844ab66e7f35",
+      "bytes": 126
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141238-8cd72f8a/02-output.log": {
+      "sha256": "fd1e7a409c8b537383cce7db7921613350c4e81048c6d873561f87a1f1a7fbd7",
+      "bytes": 108
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141238-8cd72f8a/report.json": {
+      "sha256": "518fd36ecb5e26f5a108ac27004c3b30d38cdbfbe579a992bccab1e1ab7b1309",
+      "bytes": 3018
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141432-dd9192f6/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141432-dd9192f6/01-output.log": {
+      "sha256": "6fd5c0bf88aa3d26c95f5371e2991c6657ada62c1dba8baa405469afd761ece2",
+      "bytes": 193
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141432-dd9192f6/report.json": {
+      "sha256": "826e608044cae0b1d6f712bf4ae9ccf04e842a73c78b46a1e27c932a472e52ca",
+      "bytes": 2671
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141447-032c3afc/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141447-032c3afc/01-output.log": {
+      "sha256": "7efa651527cde7c8da25ee7cd3b69889ac511a252ed046f8dde12b1e5313a13d",
+      "bytes": 193
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141447-032c3afc/report.json": {
+      "sha256": "be75c5344eaf812233eeaa2ac8803ad4b7dfd5578790ce30c416f7584d56bce7",
+      "bytes": 2664
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141458-5fc144d7/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141458-5fc144d7/01-output.log": {
+      "sha256": "0bf1babd1eb04fd442012e8c22c4043a8de8470daaa1d29611183d07ed1a5d15",
+      "bytes": 193
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141458-5fc144d7/report.json": {
+      "sha256": "32d231c374ae0d02e5240657c0286c998133a8b88efd69a8ddcc9415ee3f45e6",
+      "bytes": 2678
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141541-6270ea5f/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141541-6270ea5f/01-output.log": {
+      "sha256": "dd22641e0417265cdd570aa7398b3e663c6f5f2155733e2e51b3bbfe42bbce63",
+      "bytes": 198
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T141541-6270ea5f/report.json": {
+      "sha256": "2a3b369ebec020fb74f727b99a9197e8f6e3eec24ed05ef53044b8154c2a51df",
+      "bytes": 2588
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142003-cdd75c6d/01-output.log": {
+      "sha256": "2a441688394123e1a99f2978a22471ac323cfd4b3df5a02e5f5a6f5a5d2f53f1",
+      "bytes": 300
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142003-cdd75c6d/report.json": {
+      "sha256": "7dff220bd64ed2027a9308ecd7aaf232d49f0e730be1225e171d9027a18a373e",
+      "bytes": 1567
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142139-f860c9a6/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142139-f860c9a6/01-output.log": {
+      "sha256": "0bf1f14b5d4e4a0fdc32fe1b86afe9b00ae871053b5cd4662e741be49344a9c4",
+      "bytes": 175
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142139-f860c9a6/report.json": {
+      "sha256": "70959496d85d4396cd05aca55b6e24c010ccd946c4395c18bcbb16cf24526889",
+      "bytes": 2560
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142211-263d6bad/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142211-263d6bad/01-output.log": {
+      "sha256": "5bcb04c8a6d61c4de948866bfc72af9cdda43151a1993ebe192593f9942388b4",
+      "bytes": 174
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142211-263d6bad/report.json": {
+      "sha256": "08bb924ce9f91331fa4df629b6b8518ab3e73c3b107a2debe56fabd1f1a1fc2b",
+      "bytes": 2510
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142433-57c8fe8c/01-output.log": {
+      "sha256": "c7c00f89468623e63c9d250322c62aa96da45c65feed5daffc982ddee157970f",
+      "bytes": 43
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142433-57c8fe8c/report.json": {
+      "sha256": "a0632e563d01c37dc64723d5bf4057faae51fbf760dd7ff704877cf1675bca80",
+      "bytes": 1411
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142439-9282d6a6/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142439-9282d6a6/01-output.log": {
+      "sha256": "6823619f99ed302405c6c1319df93c691e7e1d3ee59aa688c469e856e4c39f07",
+      "bytes": 125
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142439-9282d6a6/02-output.log": {
+      "sha256": "8588a73b8005f79dd9f0f044548b0b2e49653b82751b134c2c23213f368cefdc",
+      "bytes": 1036
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142439-9282d6a6/03-output.log": {
+      "sha256": "e91dbadcb0e748e149391544e8837f2af06a17bddb84c4dcccb828f99b09e1c5",
+      "bytes": 119
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142439-9282d6a6/report.json": {
+      "sha256": "ff93039231a28d929becfab98b397ebbbdc25372698c3540f8a7831fd1c2927c",
+      "bytes": 3813
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142914-ad8d10df/01-output.log": {
+      "sha256": "5fb3fefefd8736006523a5687684c14cf92d03cf33bfc07d794561fc0d0575a0",
+      "bytes": 355
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T142914-ad8d10df/report.json": {
+      "sha256": "186ab678c8e9af26ff85baa14071d1e7af7d6f77897ad959d4e10de9fbc4a0dd",
+      "bytes": 1425
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T143247-ef96f6c9/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T143247-ef96f6c9/01-output.log": {
+      "sha256": "6823619f99ed302405c6c1319df93c691e7e1d3ee59aa688c469e856e4c39f07",
+      "bytes": 125
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T143247-ef96f6c9/report.json": {
+      "sha256": "8288e1f0ec1d9f56c72b7a6741bb72b30bfa3753549c201a643b35699c3981b9",
+      "bytes": 2264
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T144027-09b2b950/01-output.log": {
+      "sha256": "90fb294b8f0e5f8dd4b1b5183851cb3fb72aa20c4f87c898d44bcf024899c092",
+      "bytes": 281
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T144027-09b2b950/report.json": {
+      "sha256": "4a326c9b75aa80cf9f7206e791a2bf594b41a76f62dc11d1f989a0c63b838b95",
+      "bytes": 1545
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T144853-a5a5e92e/00-version.log": {
+      "sha256": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "bytes": 32
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T144853-a5a5e92e/01-output.log": {
+      "sha256": "d57023bd9afacdd71feb8da2d80cd7cdb49dfe3388c32af1ce80f4127b60e6c8",
+      "bytes": 2339
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T144853-a5a5e92e/report.json": {
+      "sha256": "b0364dd189e10d56a14e3b092aaeeb5d1ad8455db739b84801fed0776801ae07",
+      "bytes": 2264
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T145429-dd549022/01-output.log": {
+      "sha256": "ec90e3dcb6fd48607bcaefd299f5eab1b0113e683cee72645d33343c320b320e",
+      "bytes": 51
+    },
+    "docs/showcase/evidence/S04-spatial/validation/20261110T145429-dd549022/report.json": {
+      "sha256": "5c63286b14f026769ee4d211efe36f54d6b9ec0904a88cea6a841789854bb034",
+      "bytes": 1439
+    },
+    "docs/showcase/evidence/S04-spatial/validation-runs.json": {
+      "sha256": "20ad6974987116032a69cdb3f71cec71c13f4e49b737b3d24b437539cc4249a2",
+      "bytes": 13684
+    },
+    "docs/showcase/deliveries/S04-spatial-combat.md": {
+      "sha256": "7c9dc90b90187b0eee2757aa234a883d379dddc5bb7edd01c54b2a47f1ed9324",
+      "bytes": 12785
+    },
+    "docs/aircraft-contracts.md": {
+      "sha256": "d65ad721ad18bad54e9375af22e73dc1c81e5ff31b4362f28889dddbcf37bcc4",
+      "bytes": 16982
+    }
+  }
+}

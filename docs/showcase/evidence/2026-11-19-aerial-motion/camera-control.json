@@ -1,0 +1,23 @@
+{
+  "scene": "harbor",
+  "seed": 707,
+  "duration_s": 76,
+  "compared_modes": [
+    "战斗机跟拍",
+    "默认自动电影"
+  ],
+  "sample_interval_s": 0.5,
+  "data_compared": "every unit id, position, velocity, rotation, active flag and assigned task",
+  "sampled_world_sha256": "7ecd8a338bc5b442b35a289597f58d4e0ddffc741883fb533595fbf28e72a515",
+  "matches": true,
+  "captured_fighters": [
+    "jp_air_4",
+    "us_air_3",
+    "us_air_4"
+  ],
+  "reports": {
+    "observed": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261119T120245-b574f1ef/report.json",
+    "film": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261119T120425-77b52269/report.json",
+    "auto": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261119T120534-43309cc9/report.json"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "stage": "r10",
+  "source_files": [
+    {
+      "destination": "aircraft/scripts/aircraft_builder.gd",
+      "candidate": "candidates/s04-carrier-usage/aircraft/scripts/aircraft_builder.gd",
+      "before_sha256": "c5642713db0ab0592fbff355413327905d4342fafa9097322281077e13feed3a",
+      "after_sha256": "2f94ad775d3220bcab3483033373aa72bab92ac41751c22c3850848ee8c84a4e",
+      "added_lines": 10,
+      "removed_lines": 2
+    },
+    {
+      "destination": "aircraft/models/f6f5.gd",
+      "candidate": "candidates/s04-carrier-usage/aircraft/models/f6f5.gd",
+      "before_sha256": "4adf827e37e5e032db3a783ca08bd44bd2da0375ab2316db5935920cbb03b5c7",
+      "after_sha256": "47fc414ee9a0d2805ca85023651d4925986a8b7301a67f1609f5d77190a4bdf3",
+      "added_lines": 155,
+      "removed_lines": 4
+    },
+    {
+      "destination": "scripts/presentation/models/aircraft_adapter.gd",
+      "candidate": "candidates/s04-carrier-usage/scripts/presentation/models/aircraft_adapter.gd",
+      "before_sha256": "b2296abf3954029dd50ca087ff12e6fe91dee42541fe82fca00451b1f225e731",
+      "after_sha256": "5bdbdf3019f08f2967f2996b6d985dfcae3d1cc0001e518b8ef54bf85c03e09e",
+      "added_lines": 20,
+      "removed_lines": 2
+    },
+    {
+      "destination": "scripts/aircraft_geometry/f6f5_carrier_geometry.gd",
+      "candidate": "candidates/s04-carrier-usage/scripts/aircraft_geometry/f6f5_carrier_geometry.gd",
+      "before_sha256": null,
+      "after_sha256": "223b1d51ae6829f89463ab2dbc0c71ab2fa1e3f144e4453b1ca55311e13e2913",
+      "added_lines": 62,
+      "removed_lines": 0
+    }
+  ],
+  "patch_sha256": "89e754ca6aead4603a1f25a9a3750f0753035b54a5b6e70a08940ddc6cd57d48",
+  "headless": {
+    "airframe-preservation.json": {
+      "checks": 17,
+      "failures": 0
+    },
+    "model.json": {
+      "checks": 56,
+      "failures": 0
+    },
+    "deck.json": {
+      "checks": 31,
+      "failures": 0
+    },
+    "regressions/models.json": {
+      "checks": 41,
+      "failures": 0
+    },
+    "regressions/mechanisms.json": {
+      "checks": 90,
+      "failures": 0
+    }
+  },
+  "total_checks": 235,
+  "public_baseline_unchanged": true
+}

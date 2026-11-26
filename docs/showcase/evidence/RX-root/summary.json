@@ -1,0 +1,130 @@
+{
+  "scope": "Focused ordinary package repair QA, actual Chrome, read-only probes and real canvas actions; not S08 full/long performance acceptance",
+  "checks": {
+    "ordinary_expanded_identity": true,
+    "M5_16GB_Chrome": true,
+    "W_moves": true,
+    "arrow_moves": true,
+    "shift_accelerates": true,
+    "paused_input_no_sim_tick": true,
+    "popup_no_camera_leak": true,
+    "full_horizontal_turn": true,
+    "follow_same_frame": true,
+    "actual_battle_240s": true,
+    "heavy_shell_capture": true,
+    "tracers_in_actual_frustum": true,
+    "flak_live_in_follow": true,
+    "console_clean": true,
+    "harness_cleanup": true
+  },
+  "check_count": 15,
+  "failed": 0,
+  "browser": "157.0.8103.39",
+  "hardware": {
+    "cpu": "Apple M5",
+    "memoryBytes": 17179869184,
+    "os": "25.6.0"
+  },
+  "identity": {
+    "url": "http://127.0.0.1:51496/index.html",
+    "title": "海空交锋 · 全单位 Showcase",
+    "canvas": [
+      1280,
+      720
+    ],
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "loading": false
+  },
+  "movement_m": {
+    "KeyW": 413.9806780816864,
+    "ArrowUp": 408.64685971342067,
+    "Shift+KeyW": 1634.5741745624882,
+    "popupArrow": 0
+  },
+  "turn_rad": -6.799999978724641,
+  "follow": {
+    "frames": 167,
+    "max_anchor_step_px": 6.1035156022626325e-05,
+    "max_focus_offset_error_m": 0.0
+  },
+  "battle": {
+    "final_sim_s": 241.4,
+    "report": {
+      "jp": {
+        "aircraft": 0,
+        "crashed": 0,
+        "disabled": 2,
+        "ditched": 0,
+        "fuel_used_kg": 47.4512373094692,
+        "ground": 0,
+        "ground_destroyed": 0,
+        "ground_disabled": 0,
+        "rounds_left": 120080,
+        "rounds_used": 820,
+        "ships": 0,
+        "sinking": 0,
+        "sunk": 0,
+        "withdrawn": 4
+      },
+      "us": {
+        "aircraft": 8,
+        "crashed": 0,
+        "disabled": 0,
+        "ditched": 0,
+        "fuel_used_kg": 296.44441978381,
+        "ground": 1,
+        "ground_destroyed": 0,
+        "ground_disabled": 2,
+        "rounds_left": 226294,
+        "rounds_used": 516,
+        "ships": 2,
+        "sinking": 0,
+        "sunk": 0,
+        "withdrawn": 0
+      }
+    },
+    "max_visible_tracers": 35,
+    "max_live_flak_bursts": 75
+  },
+  "raw_runs": {
+    "after-r1": {
+      "path": ".local/repairs/20261112_morning/qa/after-r1/run.json",
+      "sha256": "e9dde05fd2cc2bd415bd90f53ab517b9ad75d412f8189bde91990b5173d17478"
+    },
+    "after-r2": {
+      "path": ".local/repairs/20261112_morning/qa/after-r2/run.json",
+      "sha256": "bf59db050fed26e6c3cc83be4395f938128238687719ce4f468987359cd656c8"
+    },
+    "aa-view-r1": {
+      "path": ".local/repairs/20261112_morning/qa/aa-view-r1/run.json",
+      "sha256": "1ed06ce3fbf66255cfcf768d794157b619e00adec82abef1ce42d10290429e6d"
+    }
+  },
+  "images": {
+    "docs/showcase/evidence/RX-root/modular_ship_damage.png": {
+      "source": ".local/repairs/20261112_morning/qa/after-r1/modular_ship_damage.png",
+      "sha256": "59503d99e58f10f04db1481c93b9516ae4ca159eb4d333082dcc871c7487cf76"
+    },
+    "docs/showcase/evidence/RX-root/aircraft_follow_far_islands.png": {
+      "source": ".local/repairs/20261112_morning/qa/after-r1/aircraft_follow_far_islands.png",
+      "sha256": "a8281a6031bfe6e4ca681667f7f9c870961e168b60f2030df41c78fd10449cb3"
+    },
+    "docs/showcase/evidence/RX-root/aircraft_follow_moving.png": {
+      "source": ".local/repairs/20261112_morning/qa/after-r1/follow_17.png",
+      "sha256": "6f6fa2c385841e2ab1adc97d3a484302fabbc5df3f7b172292d0dcc0b6fd456b"
+    },
+    "docs/showcase/evidence/RX-root/actual_heavy_shell_flight.png": {
+      "source": ".local/repairs/20261112_morning/qa/after-r2/actual_main_shell_flight.png",
+      "sha256": "d4115c2c182d3225de5439d13934030a584f203ab4c115274d26baac3aece4de"
+    },
+    "docs/showcase/evidence/RX-root/actual_flak_17s.png": {
+      "source": ".local/repairs/20261112_morning/qa/aa-view-r1/aa_follow_09.png",
+      "sha256": "a73c4f7d2b8b14fd4267884cb8ab93a7a3c10e5d84510d1ce949a129c989039e"
+    },
+    "docs/showcase/evidence/RX-root/actual_flak_28s.png": {
+      "source": ".local/repairs/20261112_morning/qa/aa-view-r1/aa_follow_16.png",
+      "sha256": "972115ec2880b8ccf43278be146c83d55dcbfe9347ce78e341941b8d1c038851"
+    }
+  },
+  "capture_note": "R1 first shell included light main guns; R2 requires BB main-gun camera. Metrics sample and screenshot may straddle a camera cut, so R2 tracer PNG is not used as a close AA source-view proof. Flak screenshots manually reviewed in actual follow mode."
+}

@@ -1,0 +1,58 @@
+{
+  "task": "BOMB01",
+  "date": "2026-11-11",
+  "status": "primary ordnance pages inspected; flight/control and blast remain qualified approximations",
+  "primary_sources": [
+    {
+      "path": "docs/references/bomb01/OP-1667-V1.pdf",
+      "sha256": "b9c9a6ff24a588b01ac0d106b988496f1d87473ee8858280b28e67bb83532016",
+      "inspected": "Original page image actually opened in this task"
+    },
+    {
+      "path": "docs/references/bomb01/pages/OP1667-p051.png",
+      "sha256": "171b870c51452f0213117bd05c4f544579005c416bf96e7e31b6c50d5a561015",
+      "inspected": "Original page image actually opened in this task"
+    },
+    {
+      "path": "docs/references/bomb01/pages/OP1667-p053.png",
+      "sha256": "7981d37153cc19796056e3e4d265284e8baaa4bf586bc70f1d8fcdd099a5adc9",
+      "inspected": "Original page image actually opened in this task"
+    },
+    {
+      "path": "docs/references/bomb01/pages/OP1667-p054.png",
+      "sha256": "81690a00b63da1fd0a6c41ab645435b5c374bd4cf922f62e62927f11c3cb3fb9",
+      "inspected": "Original page image actually opened in this task"
+    },
+    {
+      "path": "docs/references/bomb01/pages/OP1667-p163.png",
+      "sha256": "41e6f5d23219da571f96e74a9990c16afe68d6911e8f945bdbca4ea3de69fe59",
+      "inspected": "Original page image actually opened in this task"
+    },
+    {
+      "path": "docs/references/aircraft/b25j_1944_07/manual-pages/tm9-p299.png",
+      "sha256": "fb2c62611d2c27d161573bbc38c54248e39a92b3ee27f2eeea6b6c1338ced124",
+      "inspected": "Original page image actually opened in this task"
+    },
+    {
+      "path": "docs/references/aircraft/d4y2_1944/original/P01-A11-table-II.png",
+      "sha256": "f4d367ed9bc3dc42f1fa199dd60ad53b975034e7fcc9a4076c34b18b045d929e",
+      "inspected": "Original page image actually opened in this task"
+    }
+  ],
+  "OP1667_url": "https://stephentaylorhistorian.com/wp-content/uploads/2020/09/op-1667-japanese-explosive-ordnance-volume-1.pdf",
+  "tm9_source_catalog": "docs/references/aircraft/b25j_1944_07/sources.json",
+  "flight_reference_catalogs": [
+    "docs/references/aircraft/d4y2_1944/modeling-brief.md",
+    "aircraft/g4m1/data/proposal.json",
+    "aircraft/b25j/data/proposal.json",
+    "candidates/bomb01/private_data/performance.json"
+  ],
+  "limits": [
+    "No digitised full flight polar or historical loaded dive envelope",
+    "Arming seconds/distance and atmospheric quadratic drag are engineering estimates; seven A3a vane turns do not establish seconds",
+    "AN-M64 1950 TNT engineering identity is not proof of1944 exact lot/fuze mass",
+    "Type98 filling not claimed exact TNT-equivalent despite common4184000J/kg game conversion",
+    "Blast radius, visual radius, structure conversion and conservative display-body source-clearance envelope are explicit approximations",
+    "No defensive gun firing qualification or bomber runway/carrier qualification"
+  ]
+}

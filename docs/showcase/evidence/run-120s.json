@@ -1,0 +1,2773 @@
+{
+	"acceptance": {
+		"A6M5a_01_moved": true,
+		"A6M5a_01_turned": true,
+		"A6M5a_02_moved": true,
+		"A6M5a_02_turned": true,
+		"F6F5_01_moved": true,
+		"F6F5_01_turned": true,
+		"F6F5_02_moved": true,
+		"F6F5_02_turned": true,
+		"a6m5_fired": true,
+		"aircraft_gun_hit": true,
+		"aircraft_shot_down": true,
+		"aircraft_sustained_flight": true,
+		"effect_limit_respected": true,
+		"f6f5_fired": true,
+		"main_fired": true,
+		"main_ground_hit": true,
+		"no_friendly_fire": true,
+		"projectile_limit_respected": true,
+		"repeated_reset_no_accumulation": true,
+		"secondary_fired": true,
+		"secondary_ground_hit": true,
+		"type89_fired": true,
+		"type92_air_hit": true,
+		"type92_fired": true,
+		"type96_air_hit": true,
+		"type96_fired": true
+	},
+	"active_effects_at_end": 15,
+	"active_projectiles_at_end": 4,
+	"air_defence_mount_count": 6,
+	"aircraft": [
+		{
+			"alive": true,
+			"crashed": false,
+			"damage_taken": 42.0,
+			"distance_flown_m": 15034.5,
+			"flight_seconds": 120.0,
+			"health": 58.0,
+			"id": "A6M5a_01",
+			"peak_altitude_m": 1082.0,
+			"position": [
+				-4240.31982421875,
+				1079.12243652344,
+				242.327163696289
+			],
+			"side": "JP",
+			"turn_degrees": 3868.6
+		},
+		{
+			"alive": true,
+			"crashed": false,
+			"damage_taken": 0.0,
+			"distance_flown_m": 17092.4,
+			"flight_seconds": 120.0,
+			"health": 100.0,
+			"id": "A6M5a_02",
+			"peak_altitude_m": 1113.9,
+			"position": [
+				-4266.154296875,
+				1093.24658203125,
+				125.123138427734
+			],
+			"side": "JP",
+			"turn_degrees": 3586.5
+		},
+		{
+			"alive": false,
+			"crashed": true,
+			"damage_taken": 126.0,
+			"distance_flown_m": 1819.4,
+			"flight_seconds": 12.0,
+			"health": 0.0,
+			"id": "F6F5_01",
+			"peak_altitude_m": 405.0,
+			"position": [
+				804.470703125,
+				-0.992000699043274,
+				-972.815063476562
+			],
+			"side": "US",
+			"turn_degrees": 185.8
+		},
+		{
+			"alive": true,
+			"crashed": true,
+			"damage_taken": 120.0,
+			"distance_flown_m": 17684.0,
+			"flight_seconds": 118.0,
+			"health": 0.0,
+			"id": "F6F5_02",
+			"peak_altitude_m": 1088.8,
+			"position": [
+				-4280.533203125,
+				1070.25366210938,
+				48.5667114257812
+			],
+			"side": "US",
+			"turn_degrees": 2597.0
+		}
+	],
+	"effect_pool_limit": 96,
+	"effect_pool_nodes": 27,
+	"engine": "4.7.2-stable (official)",
+	"events_tail": [
+		{
+			"event": "ground_target_disabled",
+			"impact": [
+				15.5826759338379,
+				5.87045907974243,
+				-736.665100097656
+			],
+			"t": 66.05,
+			"target": "range_target_03"
+		},
+		{
+			"aim_error_deg": 33.6472193987753,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-1009.60803222656,
+					562.495971679688,
+					-2154.61694335938
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-1058.39611816406,
+				472.401733398438,
+				-2098.48657226562
+			],
+			"range_m": 86.6349258422852,
+			"t": 66.733,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 58.0,
+			"position": [
+				-1030.33605957031,
+				469.278625488281,
+				-2135.1669921875
+			],
+			"projectile_target": "F6F5_02",
+			"t": 66.833,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 33.298070373688,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-1025.57531738281,
+					560.078369140625,
+					-2137.18676757812
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-1086.50207519531,
+				470.476867675781,
+				-2091.26879882812
+			],
+			"range_m": 86.2479248046875,
+			"t": 66.917,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 34.5893449570356,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-1045.78271484375,
+					557.776611328125,
+					-2127.30786132812
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-1121.49377441406,
+				468.726989746094,
+				-2115.2509765625
+			],
+			"range_m": 85.8174362182617,
+			"t": 67.083,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 34.6835708317305,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-1069.32824707031,
+					555.519958496094,
+					-2126.23901367188
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-1144.662109375,
+				466.977111816406,
+				-2134.63110351562
+			],
+			"range_m": 85.2708587646484,
+			"t": 67.25,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 57.0,
+			"position": [
+				-1092.94006347656,
+				475.550262451172,
+				-2127.52661132812
+			],
+			"projectile_target": "F6F5_02",
+			"t": 67.333,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 33.7357557258916,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-1091.69079589844,
+					553.380798339844,
+					-2124.11645507812
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-1164.01049804688,
+				465.227233886719,
+				-2103.83032226562
+			],
+			"range_m": 84.8097152709961,
+			"t": 67.417,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 56.0,
+			"position": [
+				-1119.62927246094,
+				460.258575439453,
+				-2115.49975585938
+			],
+			"projectile_target": "F6F5_02",
+			"t": 67.517,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 34.3878202255744,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-1109.55834960938,
+					551.17041015625,
+					-2113.97338867188
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-1156.92651367188,
+				463.477355957031,
+				-2056.40869140625
+			],
+			"range_m": 84.4122924804688,
+			"t": 67.583,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 39.719995231347,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-1120.27514648438,
+					548.030517578125,
+					-2107.4365234375
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-1122.54650878906,
+				461.027526855469,
+				-2171.21655273438
+			],
+			"range_m": 83.5647354125977,
+			"t": 67.817,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 39.9609711354542,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-1121.4287109375,
+					545.805786132812,
+					-2107.84594726562
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-1123.94519042969,
+				459.277648925781,
+				-2171.318359375
+			],
+			"range_m": 83.0969314575195,
+			"t": 67.983,
+			"target": "F6F5_02"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 4.9883541531033,
+			"muzzle_positions": [
+				[
+					1104.62145996094,
+					13.5929794311523,
+					3.86509704589844
+				],
+				[
+					1105.04370117188,
+					13.5929794311523,
+					3.23320579528809
+				]
+			],
+			"muzzles": 2,
+			"range_m": 3186.8232421875,
+			"t": 69.25,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 5.02675170898438,
+			"muzzle_positions": [
+				[
+					1104.60571289062,
+					13.5877618789673,
+					3.89233827590942
+				],
+				[
+					1105.0234375,
+					13.5877618789673,
+					3.25745844841003
+				]
+			],
+			"muzzles": 2,
+			"range_m": 3208.31665039062,
+			"t": 69.5,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"elevation_error_deg": 0.000000237141311022375,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.106719970703,
+					5.66193103790283,
+					-691.024108886719
+				],
+				[
+					-485.815521240234,
+					5.66193103790283,
+					-691.268249511719
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1676.67895507812,
+			"t": 69.85,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000111854105804277,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000141757904194336,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.1337890625,
+					5.65370035171509,
+					-690.997131347656
+				],
+				[
+					-485.848937988281,
+					5.65370035171509,
+					-691.248596191406
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1695.64855957031,
+			"t": 70.217,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000187506692946481,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000197267110452975,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.159515380859,
+					5.64548540115356,
+					-690.970275878906
+				],
+				[
+					-485.880950927734,
+					5.64548540115356,
+					-691.228698730469
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1715.861328125,
+			"t": 70.583,
+			"target": "F6F5_02",
+			"train_error_deg": 0.0000000659369442122935,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000225138153689183,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.183837890625,
+					5.63730955123901,
+					-690.943542480469
+				],
+				[
+					-485.911560058594,
+					5.63730955123901,
+					-691.208679199219
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1737.27404785156,
+			"t": 70.95,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000132015430741243,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000361798757826045,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.206848144531,
+					5.62919521331787,
+					-690.9169921875
+				],
+				[
+					-485.940856933594,
+					5.62919521331787,
+					-691.188354492188
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1759.84289550781,
+			"t": 71.317,
+			"target": "F6F5_02",
+			"train_error_deg": 0.0000032570064503972,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.0000000473301331869987,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.228271484375,
+					5.6235294342041,
+					-690.890258789062
+				],
+				[
+					-485.968505859375,
+					5.6235294342041,
+					-691.167602539062
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1783.53344726562,
+			"t": 71.683,
+			"target": "F6F5_02",
+			"train_error_deg": 0.000000945907827042042,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.00000015012186290961,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.242309570312,
+					5.64951610565186,
+					-690.859985351562
+				],
+				[
+					-485.988464355469,
+					5.64951610565186,
+					-691.142700195312
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1809.39428710938,
+			"t": 72.05,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000167087758346978,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.0000000707198003214621,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.258178710938,
+					5.65273284912109,
+					-690.835205078125
+				],
+				[
+					-486.009826660156,
+					5.65273284912109,
+					-691.122802734375
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1837.19897460938,
+			"t": 72.417,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000269341130845321,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000395372969751831,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.274017333984,
+					5.65153026580811,
+					-690.811340332031
+				],
+				[
+					-486.031219482422,
+					5.65153026580811,
+					-691.103698730469
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1865.93530273438,
+			"t": 72.783,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000101621454805342,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000338392089036531,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.288940429688,
+					5.65027189254761,
+					-690.787963867188
+				],
+				[
+					-486.051513671875,
+					5.65027189254761,
+					-691.084716796875
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1895.55090332031,
+			"t": 73.15,
+			"target": "F6F5_02",
+			"train_error_deg": 0.000000947845039287428,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000223428413124338,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.303009033203,
+					5.64896583557129,
+					-690.765197753906
+				],
+				[
+					-486.070892333984,
+					5.64896583557129,
+					-691.066101074219
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1926.00549316406,
+			"t": 73.517,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000233591932858939,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000301065781523855,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.316223144531,
+					5.64762210845947,
+					-690.742858886719
+				],
+				[
+					-486.089294433594,
+					5.64762210845947,
+					-691.047668457031
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1957.25952148438,
+			"t": 73.883,
+			"target": "F6F5_02",
+			"train_error_deg": 0.000000637404277048374,
+			"weapon": "Type96_NW"
+		},
+		{
+			"burst": [
+				-1857.41650390625,
+				405.088806152344,
+				-1976.47375488281
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 74.233,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-1857.83874511719,
+				405.088806152344,
+				-1975.84191894531
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 74.233,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"elevation_error_deg": 0.00000039351628278987,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.32861328125,
+					5.64624738693237,
+					-690.721130371094
+				],
+				[
+					-486.106811523438,
+					5.64624738693237,
+					-691.029724121094
+				]
+			],
+			"muzzles": 2,
+			"range_m": 1989.27429199219,
+			"t": 74.25,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000276789781264921,
+			"weapon": "Type96_NW"
+		},
+		{
+			"burst": [
+				-1891.88696289062,
+				401.895172119141,
+				-1968.7744140625
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 74.517,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-1892.3046875,
+				401.895172119141,
+				-1968.13952636719
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 74.517,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"elevation_error_deg": 0.000000072333694870981,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.340301513672,
+					5.64484882354736,
+					-690.699951171875
+				],
+				[
+					-486.123504638672,
+					5.64484882354736,
+					-691.011962890625
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2022.01513671875,
+			"t": 74.617,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000187703780470094,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000417281338071168,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.351318359375,
+					5.6434326171875,
+					-690.67919921875
+				],
+				[
+					-486.139343261719,
+					5.6434326171875,
+					-690.99462890625
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2055.44775390625,
+			"t": 74.983,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000236985419315217,
+			"weapon": "Type96_NW"
+		},
+		{
+			"damage": 16.0,
+			"event": "aircraft_damage",
+			"health_remaining": 40.0,
+			"position": [
+				-2090.16748046875,
+				480.981414794922,
+				-1974.61376953125
+			],
+			"projectile_target": "F6F5_02",
+			"t": 75.483,
+			"target": "F6F5_02",
+			"weapon": "Type96_NW"
+		},
+		{
+			"damage": 16.0,
+			"event": "aircraft_damage",
+			"health_remaining": 24.0,
+			"position": [
+				-2090.40478515625,
+				480.981414794922,
+				-1974.31701660156
+			],
+			"projectile_target": "F6F5_02",
+			"t": 75.483,
+			"target": "F6F5_02",
+			"weapon": "Type96_NW"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 5.86458129882813,
+			"muzzle_positions": [
+				[
+					1104.2392578125,
+					13.7314710617065,
+					4.88248300552368
+				],
+				[
+					1104.49475097656,
+					13.7314710617065,
+					4.16672325134277
+				]
+			],
+			"muzzles": 2,
+			"range_m": 3981.62963867188,
+			"t": 78.35,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 5.73077935112847,
+			"muzzle_positions": [
+				[
+					1104.21533203125,
+					13.7438793182373,
+					4.98825263977051
+				],
+				[
+					1104.453125,
+					13.7438793182373,
+					4.26642942428589
+				]
+			],
+			"muzzles": 2,
+			"range_m": 3988.70922851562,
+			"t": 78.6,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"elevation_error_deg": 3.60852943810405,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.37890625,
+					5.65488338470459,
+					-690.614562988281
+				],
+				[
+					-486.181762695312,
+					5.65488338470459,
+					-690.939392089844
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2196.21069335938,
+			"t": 80.433,
+			"target": "F6F5_02",
+			"train_error_deg": 8.8833116866059,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000542603204338073,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.431854248047,
+					5.75940227508545,
+					-690.3740234375
+				],
+				[
+					-486.289398193359,
+					5.75940227508545,
+					-690.726318359375
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2157.2138671875,
+			"t": 80.8,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000249031929198994,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000470966620261621,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.449005126953,
+					5.75790500640869,
+					-690.30322265625
+				],
+				[
+					-486.324066162109,
+					5.75790500640869,
+					-690.662109375
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2124.7919921875,
+			"t": 81.167,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000408404650405137,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.00000084458039288923,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.460083007812,
+					5.7547664642334,
+					-690.250427246094
+				],
+				[
+					-486.348327636719,
+					5.7547664642334,
+					-690.613586425781
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2101.07641601562,
+			"t": 81.533,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000415093188966968,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.0000000835532605375777,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.46826171875,
+					5.75007629394531,
+					-690.207763671875
+				],
+				[
+					-486.367248535156,
+					5.75007629394531,
+					-690.574096679688
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2087.83227539062,
+			"t": 81.9,
+			"target": "F6F5_02",
+			"train_error_deg": 0.000000635738684172785,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000252459488937575,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.4765625,
+					5.73728609085083,
+					-690.174682617188
+				],
+				[
+					-486.384094238281,
+					5.73728609085083,
+					-690.543212890625
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2085.58813476562,
+			"t": 82.267,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000370205287947675,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.0000000121167683366907,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.481292724609,
+					5.7270450592041,
+					-690.160400390625
+				],
+				[
+					-486.392547607422,
+					5.7270450592041,
+					-690.529907226562
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2096.1279296875,
+			"t": 82.633,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000425746606994711,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000805436027841476,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.484313964844,
+					5.71694421768188,
+					-690.160461425781
+				],
+				[
+					-486.395751953125,
+					5.71694421768188,
+					-690.529968261719
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2117.99609375,
+			"t": 83.0,
+			"target": "F6F5_02",
+			"train_error_deg": 0.0000000335574981109351,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000829012197931629,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.485504150391,
+					5.70774984359741,
+					-690.173522949219
+				],
+				[
+					-486.393829345703,
+					5.70774984359741,
+					-690.542297363281
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2149.85791015625,
+			"t": 83.367,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000445763804460176,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000476323307275587,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.484893798828,
+					5.70028877258301,
+					-690.195434570312
+				],
+				[
+					-486.387908935547,
+					5.70028877258301,
+					-690.562866210938
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2189.31518554688,
+			"t": 83.733,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000560835896257852,
+			"weapon": "Type96_NW"
+		},
+		{
+			"aim_error_deg": 17.3210096879574,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2439.95092773438,
+					518.001892089844,
+					-1340.984375
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2568.7958984375,
+				609.980346679688,
+				-1322.51123046875
+			],
+			"range_m": 106.959342956543,
+			"t": 83.817,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 23.0,
+			"position": [
+				-2518.83959960938,
+				604.317565917969,
+				-1322.048828125
+			],
+			"projectile_target": "F6F5_02",
+			"t": 83.933,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 17.775239465878,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2460.8662109375,
+					521.468383789062,
+					-1336.53662109375
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2584.759765625,
+				612.480346679688,
+				-1302.83532714844
+			],
+			"range_m": 105.220024108887,
+			"t": 83.983,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 22.0,
+			"position": [
+				-2538.9306640625,
+				608.578491210938,
+				-1318.73681640625
+			],
+			"projectile_target": "F6F5_02",
+			"t": 84.1,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 18.3817158679456,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2481.4267578125,
+					524.844604492188,
+					-1330.98071289062
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2596.94555664062,
+				614.980346679688,
+				-1283.65991210938
+			],
+			"range_m": 103.227966308594,
+			"t": 84.15,
+			"target": "F6F5_02"
+		},
+		{
+			"burst": [
+				-2809.125,
+				602.117614746094,
+				-1392.93432617188
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 84.2,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-2809.38061523438,
+				602.117614746094,
+				-1392.21850585938
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 84.2,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 21.0,
+			"position": [
+				-2557.1943359375,
+				612.7578125,
+				-1308.72290039062
+			],
+			"projectile_target": "F6F5_02",
+			"t": 84.267,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 18.9560835507248,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2501.86596679688,
+					528.151611328125,
+					-1324.60302734375
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2612.98266601562,
+				617.480346679688,
+				-1267.03686523438
+			],
+			"range_m": 102.561805725098,
+			"t": 84.317,
+			"target": "F6F5_02"
+		},
+		{
+			"burst": [
+				-2750.2646484375,
+				605.982788085938,
+				-1265.89709472656
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 84.317,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-2750.50244140625,
+				605.982788085938,
+				-1265.17529296875
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 84.317,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 20.0,
+			"position": [
+				-2575.86010742188,
+				616.181274414062,
+				-1297.48291015625
+			],
+			"projectile_target": "F6F5_02",
+			"t": 84.433,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 18.5286212841615,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2521.3427734375,
+					531.492614746094,
+					-1316.10095214844
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2625.7841796875,
+				619.980346679688,
+				-1246.97265625
+			],
+			"range_m": 101.967041015625,
+			"t": 84.483,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 19.0,
+			"position": [
+				-2582.5859375,
+				608.287353515625,
+				-1283.69348144531
+			],
+			"projectile_target": "F6F5_02",
+			"t": 84.583,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 19.4956172687371,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2540.16943359375,
+					534.662780761719,
+					-1305.65600585938
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2634.4609375,
+				622.480346679688,
+				-1229.24084472656
+			],
+			"range_m": 99.3919677734375,
+			"t": 84.65,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 18.0,
+			"position": [
+				-2597.24951171875,
+				612.809997558594,
+				-1269.8681640625
+			],
+			"projectile_target": "F6F5_02",
+			"t": 84.75,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 19.5268961200412,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2557.84692382812,
+					537.881225585938,
+					-1293.44140625
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2643.60180664062,
+				624.980346679688,
+				-1207.63684082031
+			],
+			"range_m": 98.6590881347656,
+			"t": 84.817,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 17.0,
+			"position": [
+				-2610.67163085938,
+				615.973083496094,
+				-1251.49865722656
+			],
+			"projectile_target": "F6F5_02",
+			"t": 84.917,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 20.2771480041374,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2574.34130859375,
+					540.973266601562,
+					-1279.32592773438
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2648.13671875,
+				627.480346679688,
+				-1188.65075683594
+			],
+			"range_m": 95.9613800048828,
+			"t": 84.983,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 16.0,
+			"position": [
+				-2623.83862304688,
+				619.960571289062,
+				-1235.48107910156
+			],
+			"projectile_target": "F6F5_02",
+			"t": 85.083,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 24.9710537848034,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2584.943359375,
+					583.520629882812,
+					-1016.34429931641
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2542.5107421875,
+				661.230346679688,
+				-922.728759765625
+			],
+			"range_m": 80.3270645141602,
+			"t": 87.233,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 15.0,
+			"position": [
+				-2561.11474609375,
+				655.803833007812,
+				-973.725769042969
+			],
+			"projectile_target": "F6F5_02",
+			"t": 87.317,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"elevation_error_deg": 0.0000000362438041365632,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.473510742188,
+					5.76690626144409,
+					-690.107971191406
+				],
+				[
+					-486.397216796875,
+					5.76690626144409,
+					-690.480285644531
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2190.67016601562,
+			"t": 87.417,
+			"target": "F6F5_02",
+			"train_error_deg": 3.15806119541587,
+			"weapon": "Type96_NW"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 4.76824306911892,
+			"muzzle_positions": [
+				[
+					1104.14660644531,
+					13.9704179763794,
+					5.9670729637146
+				],
+				[
+					1104.21875,
+					13.9704179763794,
+					5.21049690246582
+				]
+			],
+			"muzzles": 2,
+			"range_m": 3844.88916015625,
+			"t": 87.45,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 4.95700073242188,
+			"muzzle_positions": [
+				[
+					1104.14208984375,
+					13.9485960006714,
+					6.08749532699585
+				],
+				[
+					1104.19311523438,
+					13.9485960006714,
+					5.32921171188354
+				]
+			],
+			"muzzles": 2,
+			"range_m": 3827.67822265625,
+			"t": 87.7,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"elevation_error_deg": 0.000000426757555841878,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.453643798828,
+					5.80546188354492,
+					-689.82470703125
+				],
+				[
+					-486.449798583984,
+					5.80546188354492,
+					-690.204711914062
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2171.97192382812,
+			"t": 87.783,
+			"target": "F6F5_02",
+			"train_error_deg": 1.36740742034274,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000753307668514811,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.443054199219,
+					5.80585479736328,
+					-689.7529296875
+				],
+				[
+					-486.4580078125,
+					5.80585479736328,
+					-690.132690429688
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2159.56372070312,
+			"t": 88.15,
+			"target": "F6F5_02",
+			"train_error_deg": 0.000000665534781984109,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.0000000574642359713507,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.436370849609,
+					5.80677843093872,
+					-689.718505859375
+				],
+				[
+					-486.460418701172,
+					5.80677843093872,
+					-690.097778320312
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2150.28466796875,
+			"t": 88.517,
+			"target": "F6F5_02",
+			"train_error_deg": 0.000000487740299512926,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.000000117488137822578,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.429382324219,
+					5.80702495574951,
+					-689.685302734375
+				],
+				[
+					-486.462219238281,
+					5.80702495574951,
+					-690.063842773438
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2144.498046875,
+			"t": 88.883,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000522192189955839,
+			"weapon": "Type96_NW"
+		},
+		{
+			"burst": [
+				-2222.17358398438,
+				735.657836914062,
+				-311.621337890625
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 92.217,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-2222.24584960938,
+				735.657836914062,
+				-310.864776611328
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 92.217,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-2362.533203125,
+				738.299255371094,
+				-228.04231262207
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 92.65,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-2362.58422851562,
+				738.299255371094,
+				-227.284027099609
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 92.65,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"elevation_error_deg": 0.000000747691750391532,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.320373535156,
+					5.82016086578369,
+					-689.379760742188
+				],
+				[
+					-486.435791015625,
+					5.82016086578369,
+					-689.741821289062
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2181.98193359375,
+			"t": 92.7,
+			"target": "F6F5_02",
+			"train_error_deg": 0.000000609504960271325,
+			"weapon": "Type96_NW"
+		},
+		{
+			"elevation_error_deg": 0.00000080545500621126,
+			"event": "ground_aa_volley",
+			"muzzle_positions": [
+				[
+					-486.307922363281,
+					5.8199520111084,
+					-689.353759765625
+				],
+				[
+					-486.430480957031,
+					5.8199520111084,
+					-689.713500976562
+				]
+			],
+			"muzzles": 2,
+			"range_m": 2190.40234375,
+			"t": 93.067,
+			"target": "F6F5_02",
+			"train_error_deg": 0.00000075486966754387,
+			"weapon": "Type96_NW"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 5.48041585286458,
+			"muzzle_positions": [
+				[
+					1104.35705566406,
+					14.0122804641724,
+					7.30208921432495
+				],
+				[
+					1104.19348144531,
+					14.0122804641724,
+					6.55989599227905
+				]
+			],
+			"muzzles": 2,
+			"range_m": 3708.77099609375,
+			"t": 96.55,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 5.80900336371528,
+			"muzzle_positions": [
+				[
+					1104.31323242188,
+					13.9781713485718,
+					7.18605613708496
+				],
+				[
+					1104.17077636719,
+					13.9781713485718,
+					6.43953514099121
+				]
+			],
+			"muzzles": 2,
+			"range_m": 3724.9814453125,
+			"t": 96.8,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-2625.64233398438,
+				865.998352050781,
+				828.482238769531
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 102.017,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-2625.47875976562,
+				865.998352050781,
+				829.224426269531
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 102.017,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-2884.9580078125,
+				870.6640625,
+				767.910278320312
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 102.6,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-2884.8154296875,
+				870.6640625,
+				768.65673828125
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 102.6,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"aim_error_deg": 4.43636154517961,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2625.57299804688,
+					908.62841796875,
+					1025.32861328125
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2896.517578125,
+				919.730346679688,
+				1048.5009765625
+			],
+			"range_m": 202.616333007812,
+			"t": 104.467,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 4.34894408842673,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2649.11669921875,
+					910.20703125,
+					1025.73657226562
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2922.66821289062,
+				922.230346679688,
+				1053.623046875
+			],
+			"range_m": 202.74674987793,
+			"t": 104.633,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 2.35418862198497,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2672.49975585938,
+					911.633605957031,
+					1026.98852539062
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2948.95483398438,
+				924.730346679688,
+				1057.17590332031
+			],
+			"range_m": 203.974716186523,
+			"t": 104.8,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 14.0,
+			"position": [
+				-2881.67529296875,
+				918.511047363281,
+				1033.98364257812
+			],
+			"projectile_target": "F6F5_02",
+			"t": 104.867,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 1.82748135890379,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2695.91943359375,
+					912.931945800781,
+					1028.91955566406
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-2975.29418945312,
+				927.230346679688,
+				1059.23400878906
+			],
+			"range_m": 205.865249633789,
+			"t": 104.967,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 13.0,
+			"position": [
+				-2919.89428710938,
+				922.040161132812,
+				1046.09594726562
+			],
+			"projectile_target": "F6F5_02",
+			"t": 105.05,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 0.586230654150552,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2719.29174804688,
+					914.259216308594,
+					1030.96350097656
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-3001.60766601562,
+				929.730346679688,
+				1059.84643554688
+			],
+			"range_m": 208.1201171875,
+			"t": 105.133,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 12.0,
+			"position": [
+				-2943.07958984375,
+				924.3330078125,
+				1050.11291503906
+			],
+			"projectile_target": "F6F5_02",
+			"t": 105.217,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 0.239253442456334,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2742.685546875,
+					915.405456542969,
+					1033.33435058594
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-3027.82495117188,
+				932.230346679688,
+				1059.05676269531
+			],
+			"range_m": 210.539657592773,
+			"t": 105.3,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 11.0,
+			"position": [
+				-2965.97143554688,
+				927.947814941406,
+				1055.77990722656
+			],
+			"projectile_target": "F6F5_02",
+			"t": 105.383,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"aim_error_deg": 0.193020585655605,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-2766.09741210938,
+					916.488891601562,
+					1035.61560058594
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-3053.89624023438,
+				934.730346679688,
+				1056.92321777344
+			],
+			"range_m": 212.987106323242,
+			"t": 105.467,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 10.0,
+			"position": [
+				-2989.408203125,
+				930.19677734375,
+				1056.87927246094
+			],
+			"projectile_target": "F6F5_02",
+			"t": 105.55,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 7.28763359917535,
+			"muzzle_positions": [
+				[
+					1104.32873535156,
+					13.9624519348145,
+					7.25307464599609
+				],
+				[
+					1104.17443847656,
+					13.9624519348145,
+					6.50890588760376
+				]
+			],
+			"muzzles": 2,
+			"range_m": 4345.1787109375,
+			"t": 105.65,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 9.0,
+			"position": [
+				-3012.97631835938,
+				932.136047363281,
+				1056.68981933594
+			],
+			"projectile_target": "F6F5_02",
+			"t": 105.717,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_02"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 7.31053805881076,
+			"muzzle_positions": [
+				[
+					1104.3173828125,
+					13.9634437561035,
+					7.21369409561157
+				],
+				[
+					1104.17004394531,
+					13.9634437561035,
+					6.46810579299927
+				]
+			],
+			"muzzles": 2,
+			"range_m": 4382.20751953125,
+			"t": 105.9,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"aim_error_deg": 2.17773047133428,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3123.04443359375,
+					952.228332519531,
+					1039.27075195312
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-3293.06005859375,
+				959.480346679688,
+				1013.92633056641
+			],
+			"range_m": 101.486618041992,
+			"t": 107.117,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 8.0,
+			"position": [
+				-3244.35302734375,
+				954.903259277344,
+				1026.83129882812
+			],
+			"projectile_target": "F6F5_02",
+			"t": 107.233,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_01"
+		},
+		{
+			"aim_error_deg": 3.17473297103763,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3143.72338867188,
+					952.964599609375,
+					1036.99230957031
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-3316.53369140625,
+				961.980346679688,
+				1007.32104492188
+			],
+			"range_m": 104.69425201416,
+			"t": 107.283,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 7.0,
+			"position": [
+				-3264.93041992188,
+				955.974731445312,
+				1023.74230957031
+			],
+			"projectile_target": "F6F5_02",
+			"t": 107.4,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_01"
+		},
+		{
+			"aim_error_deg": 2.98714097170959,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3164.37158203125,
+					953.643127441406,
+					1034.39733886719
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-3339.69555664062,
+				964.480346679688,
+				1000.08325195312
+			],
+			"range_m": 108.01025390625,
+			"t": 107.45,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 6.0,
+			"position": [
+				-3285.15478515625,
+				958.432739257812,
+				1018.30944824219
+			],
+			"projectile_target": "F6F5_02",
+			"t": 107.567,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_01"
+		},
+		{
+			"aim_error_deg": 2.87735101688692,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3184.8955078125,
+					954.760437011719,
+					1031.21838378906
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-3362.6787109375,
+				966.980346679688,
+				991.816284179688
+			],
+			"range_m": 111.397521972656,
+			"t": 107.617,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 2.22443274355789,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3084.26513671875,
+					942.224365234375,
+					1032.17395019531
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-3378.42944335938,
+				968.730346679688,
+				985.2880859375
+			],
+			"range_m": 228.674407958984,
+			"t": 107.733,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 5.0,
+			"position": [
+				-3320.18774414062,
+				961.780944824219,
+				1009.77233886719
+			],
+			"projectile_target": "F6F5_02",
+			"t": 107.75,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_01"
+		},
+		{
+			"aim_error_deg": 2.54488536917762,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3205.29809570312,
+					956.076110839844,
+					1027.44445800781
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-3385.11352539062,
+				969.480346679688,
+				982.143371582031
+			],
+			"range_m": 114.828201293945,
+			"t": 107.783,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 3.1425632069337,
+			"aircraft": "A6M5a_02",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3107.46533203125,
+					944.475402832031,
+					1029.32104492188
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-3400.22412109375,
+				971.230346679688,
+				973.799926757812
+			],
+			"range_m": 229.046051025391,
+			"t": 107.9,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 4.0,
+			"position": [
+				-3339.70483398438,
+				964.774780273438,
+				1001.61999511719
+			],
+			"projectile_target": "F6F5_02",
+			"t": 107.917,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_01"
+		},
+		{
+			"aim_error_deg": 3.00299704242436,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3225.56469726562,
+					957.533020019531,
+					1023.09033203125
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-3406.26342773438,
+				971.980346679688,
+				969.292053222656
+			],
+			"range_m": 118.215530395508,
+			"t": 107.95,
+			"target": "F6F5_02"
+		},
+		{
+			"burst": [
+				-3891.763671875,
+				1014.31707763672,
+				1042.50756835938
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 112.933,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-3891.609375,
+				1014.31707763672,
+				1043.25158691406
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 112.933,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-3912.39331054688,
+				1017.37750244141,
+				997.567810058594
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 113.2,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"burst": [
+				-3912.24584960938,
+				1017.37750244141,
+				998.313415527344
+			],
+			"damaged_aircraft": [],
+			"event": "timed_airburst",
+			"t": 113.2,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"aim_error_deg": 9.26796137819211,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3936.75634765625,
+					1059.24938964844,
+					839.035034179688
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4069.69653320312,
+				1042.10766601562,
+				751.141540527344
+			],
+			"range_m": 88.672233581543,
+			"t": 114.567,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 7.18705545508852,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3955.45068359375,
+					1056.80871582031,
+					828.927368164062
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4084.90576171875,
+				1046.59924316406,
+				731.871276855469
+			],
+			"range_m": 91.0955505371094,
+			"t": 114.733,
+			"target": "F6F5_02"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 8.16899685329861,
+			"muzzle_positions": [
+				[
+					1104.17236328125,
+					13.9624757766724,
+					6.4909496307373
+				],
+				[
+					1104.15283203125,
+					13.9624757766724,
+					5.73119878768921
+				]
+			],
+			"muzzles": 2,
+			"range_m": 5302.11181640625,
+			"t": 114.75,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 3.0,
+			"position": [
+				-4046.7275390625,
+				1041.78869628906,
+				775.237060546875
+			],
+			"projectile_target": "F6F5_02",
+			"t": 114.833,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_01"
+		},
+		{
+			"aim_error_deg": 8.1414949906487,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3973.31811523438,
+					1054.62585449219,
+					817.728942871094
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4098.8623046875,
+				1051.56420898438,
+				712.158020019531
+			],
+			"range_m": 93.4419021606445,
+			"t": 114.9,
+			"target": "F6F5_02"
+		},
+		{
+			"event": "timed_flak_volley",
+			"fuse_s": 8.12715318467882,
+			"muzzle_positions": [
+				[
+					1104.17248535156,
+					13.983362197876,
+					6.44324493408203
+				],
+				[
+					1104.16137695312,
+					13.983362197876,
+					5.68332624435425
+				]
+			],
+			"muzzles": 2,
+			"range_m": 5323.46337890625,
+			"t": 115.0,
+			"target": "F6F5_02",
+			"weapon": "Yamato heavy_aa_01 · 12.7 cm Type 89"
+		},
+		{
+			"aim_error_deg": 6.67085878592292,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-3990.54125976562,
+					1052.99096679688,
+					805.542236328125
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4111.8076171875,
+				1054.06420898438,
+				691.807373046875
+			],
+			"range_m": 95.9010238647461,
+			"t": 115.067,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 6.43173002109937,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-4006.88354492188,
+					1052.49084472656,
+					792.314453125
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4123.6416015625,
+				1056.56420898438,
+				671.065002441406
+			],
+			"range_m": 98.4445724487305,
+			"t": 115.233,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 2.35681824481543,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-4153.7802734375,
+					1069.44604492188,
+					573.9375
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4224.7646484375,
+				1088.56420898438,
+				377.014465332031
+			],
+			"range_m": 139.075302124023,
+			"t": 117.367,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 2.30936230390559,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-4161.37841796875,
+					1071.43823242188,
+					554.776000976562
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4229.02490234375,
+				1091.06420898438,
+				353.024536132812
+			],
+			"range_m": 142.57080078125,
+			"t": 117.533,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 2.0,
+			"position": [
+				-4218.75439453125,
+				1084.892578125,
+				420.285064697266
+			],
+			"projectile_target": "F6F5_02",
+			"t": 117.533,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_01"
+		},
+		{
+			"aim_error_deg": 2.22560091934938,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-4168.5869140625,
+					1073.52856445312,
+					535.474609375
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4232.603515625,
+				1093.56420898438,
+				328.908813476562
+			],
+			"range_m": 146.067749023438,
+			"t": 117.7,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 1.0,
+			"position": [
+				-4222.70556640625,
+				1087.12524414062,
+				399.661926269531
+			],
+			"projectile_target": "F6F5_02",
+			"t": 117.7,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_01"
+		},
+		{
+			"aim_error_deg": 1.50431821540063,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-4175.45947265625,
+					1075.36535644531,
+					515.994079589844
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4235.10009765625,
+				1096.06420898438,
+				304.623046875
+			],
+			"range_m": 149.557067871094,
+			"t": 117.867,
+			"target": "F6F5_02"
+		},
+		{
+			"damage": 1.0,
+			"event": "aircraft_damage",
+			"health_remaining": 0.0,
+			"position": [
+				-4226.03076171875,
+				1089.44274902344,
+				378.90625
+			],
+			"projectile_target": "F6F5_02",
+			"t": 117.867,
+			"target": "F6F5_02",
+			"weapon": "A6M5a_01"
+		},
+		{
+			"aircraft": "F6F5_02",
+			"event": "aircraft_shot_down",
+			"flight_seconds": 117.866666666661,
+			"position": [
+				-4222.494140625,
+				1088.81420898438,
+				373.968719482422
+			],
+			"t": 117.867,
+			"weapon": "A6M5a_01"
+		},
+		{
+			"aim_error_deg": 2.46302982084324,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-4181.71240234375,
+					1077.23840332031,
+					496.354309082031
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4239.14013671875,
+				1089.90661621094,
+				280.654907226562
+			],
+			"range_m": 152.867172241211,
+			"t": 118.033,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 1.29084204027406,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-4187.638671875,
+					1078.5458984375,
+					476.459197998047
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4243.40771484375,
+				1089.19519042969,
+				256.728210449219
+			],
+			"range_m": 156.195114135742,
+			"t": 118.2,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 1.18103575703041,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-4193.31005859375,
+					1079.68957519531,
+					456.516387939453
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4247.67529296875,
+				1088.21154785156,
+				232.801498413086
+			],
+			"range_m": 159.548919677734,
+			"t": 118.367,
+			"target": "F6F5_02"
+		},
+		{
+			"aim_error_deg": 1.10879786209935,
+			"aircraft": "A6M5a_01",
+			"event": "aircraft_volley",
+			"muzzle_positions": [
+				[
+					-4198.740234375,
+					1080.80029296875,
+					436.4912109375
+				]
+			],
+			"muzzles": 1,
+			"predicted_intercept": [
+				-4251.94287109375,
+				1086.95556640625,
+				208.874801635742
+			],
+			"range_m": 162.923858642578,
+			"t": 118.533,
+			"target": "F6F5_02"
+		}
+	],
+	"fixed_step_seconds": 0.0166666666666667,
+	"hits": {
+		"a6m5": 76,
+		"f6f5": 42,
+		"main": 6,
+		"secondary": 12,
+		"type89_airburst": 0,
+		"type92": 5,
+		"type96": 10
+	},
+	"playback_rate": 8.0,
+	"practice_target_positions_m": [
+		{
+			"alive": false,
+			"health": 0.0,
+			"id": "range_target_01",
+			"neutral": true,
+			"position": [
+				-16.0,
+				5.59999990463257,
+				-740.0
+			]
+		},
+		{
+			"alive": false,
+			"health": 0.0,
+			"id": "range_target_02",
+			"neutral": true,
+			"position": [
+				0.0,
+				5.59999990463257,
+				-740.0
+			]
+		},
+		{
+			"alive": false,
+			"health": 0.0,
+			"id": "range_target_03",
+			"neutral": true,
+			"position": [
+				16.0,
+				5.59999990463257,
+				-740.0
+			]
+		}
+	],
+	"projectile_pool_limit": 512,
+	"projectile_pool_nodes": 70,
+	"renderer": "gl_compatibility",
+	"requested_seconds": 120.0,
+	"reset_count": 3,
+	"run": "Pacific equipment integration showcase",
+	"ship_position_m": [
+		1120.0,
+		0.0,
+		0.0
+	],
+	"shots": {
+		"a6m5": 148,
+		"f6f5": 72,
+		"main": 9,
+		"secondary": 15,
+		"type89": 52,
+		"type92": 30,
+		"type96": 218
+	},
+	"simulated_seconds": 120.13,
+	"statistics": {
+		"air_damage_events": 133,
+		"effect_cap_drops": 0,
+		"friendly_fire": 0,
+		"ground_damage": 19560.0,
+		"ground_hits": 18,
+		"hits": {
+			"a6m5": 76,
+			"f6f5": 42,
+			"main": 6,
+			"secondary": 12,
+			"type89_airburst": 0,
+			"type92": 5,
+			"type96": 10
+		},
+		"max_flight_distance_m": 5444.9658203125,
+		"peak_effects": 27,
+		"peak_projectiles": 70,
+		"projectile_cap_drops": 0,
+		"shots": {
+			"a6m5": 148,
+			"f6f5": 72,
+			"main": 9,
+			"secondary": 15,
+			"type89": 52,
+			"type92": 30,
+			"type96": 218
+		}
+	}
+}

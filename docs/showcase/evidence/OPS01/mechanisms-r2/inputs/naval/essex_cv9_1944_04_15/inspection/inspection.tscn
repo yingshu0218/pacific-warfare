@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://naval/essex_cv9_1944_04_15/inspection/inspection.gd" id="1"]
+
+[node name="CV01_Inspection" type="Node3D"]
+script = ExtResource("1")

@@ -1,0 +1,1121 @@
+{
+	"configuration": "Yamato April 1944 post-refit; book-based armament count",
+	"note": "S02 preserves all three triple 460mm and two centerline triple 155mm stations. AA history and reduced game configuration are separate. Absolute heights remain image-proportioned; no shipyard offsets claimed.",
+	"mounts": [
+		{
+			"id": "main_01",
+			"profile": "main",
+			"position": [
+				0.0,
+				7.2,
+				-50.254
+			],
+			"heading_degrees": 0.0,
+			"barrels": 3.0,
+			"placement_status": "x/z retained from dated 1944.2-6 plan; vertical tier corrected against Tamiya 78030 p14/p18 common structure, absolute elevations image-proportioned",
+			"reference": "Modelkasten printed p5 fig3 (1944.2-6 plan), Tamiya 78030 p14 assembly29 and p18 profile (late fit, shared structure only)",
+			"source_pixel": [
+				1510.0,
+				194.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.500100000000001,
+				"reference": "Modelkasten printed p5 fig3 (1944.2-6 plan), Tamiya 78030 p14 assembly29 and p18 profile (late fit, shared structure only)",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "main_02",
+			"profile": "main",
+			"position": [
+				0.0,
+				11.4,
+				-30.498
+			],
+			"heading_degrees": 0.0,
+			"barrels": 3.0,
+			"placement_status": "x/z retained from dated 1944.2-6 plan; vertical tier corrected against Tamiya 78030 p14/p18 common structure, absolute elevations image-proportioned",
+			"reference": "Modelkasten printed p5 fig3 (1944.2-6 plan), Tamiya 78030 p14 assembly29 and p18 profile (late fit, shared structure only)",
+			"source_pixel": [
+				1350.0,
+				194.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 7.8253,
+				"reference": "Modelkasten printed p5 fig3 (1944.2-6 plan), Tamiya 78030 p14 assembly29 and p18 profile (late fit, shared structure only)",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "main_03",
+			"profile": "main",
+			"position": [
+				0.0,
+				8.7,
+				64.577
+			],
+			"heading_degrees": 180.0,
+			"barrels": 3.0,
+			"placement_status": "x/z retained from dated 1944.2-6 plan; vertical tier corrected against Tamiya 78030 p14/p18 common structure, absolute elevations image-proportioned",
+			"reference": "Modelkasten printed p5 fig3 (1944.2-6 plan), Tamiya 78030 p14 assembly29 and p18 profile (late fit, shared structure only)",
+			"source_pixel": [
+				580.0,
+				194.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 8.3077,
+				"reference": "Modelkasten printed p5 fig3 (1944.2-6 plan), Tamiya 78030 p14 assembly29 and p18 profile (late fit, shared structure only)",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "secondary_01",
+			"profile": "secondary",
+			"position": [
+				0.0,
+				16.0,
+				-9.508
+			],
+			"heading_degrees": 0.0,
+			"barrels": 3.0,
+			"placement_status": "x/z retained from dated 1944.2-6 plan; vertical tier corrected against Tamiya 78030 p14/p18 common structure, absolute elevations image-proportioned",
+			"reference": "Modelkasten printed p5 fig3 (1944.2-6 plan), Tamiya 78030 p14 assembly29 and p18 profile (late fit, shared structure only)",
+			"source_pixel": [
+				1180.0,
+				194.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "fore_bridge_base_roof",
+				"surface_y": 13.3,
+				"reference": "Modelkasten printed p5 fig3 (1944.2-6 plan), Tamiya 78030 p14 assembly29 and p18 profile (late fit, shared structure only)",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "secondary_02",
+			"profile": "secondary",
+			"position": [
+				0.0,
+				13.6,
+				49.76
+			],
+			"heading_degrees": 180.0,
+			"barrels": 3.0,
+			"placement_status": "x/z retained from dated 1944.2-6 plan; vertical tier corrected against Tamiya 78030 p14/p18 common structure, absolute elevations image-proportioned",
+			"reference": "Modelkasten printed p5 fig3 (1944.2-6 plan), Tamiya 78030 p14 assembly29 and p18 profile (late fit, shared structure only)",
+			"source_pixel": [
+				700.0,
+				194.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "aft_shelter_deck_roof",
+				"surface_y": 11.5,
+				"reference": "Modelkasten printed p5 fig3 (1944.2-6 plan), Tamiya 78030 p14 assembly29 and p18 profile (late fit, shared structure only)",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "heavy_aa_01",
+			"profile": "heavy_aa",
+			"position": [
+				-11.5,
+				11.59,
+				6.0
+			],
+			"heading_degrees": 90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 11.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "enclosed",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "lower_type89_battery_deck",
+				"surface_y": 11.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "heavy_aa_02",
+			"profile": "heavy_aa",
+			"position": [
+				-11.5,
+				11.59,
+				18.0
+			],
+			"heading_degrees": 90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 11.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "enclosed",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "lower_type89_battery_deck",
+				"surface_y": 11.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "heavy_aa_03",
+			"profile": "heavy_aa",
+			"position": [
+				-11.5,
+				11.59,
+				28.0
+			],
+			"heading_degrees": 90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 11.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "enclosed",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "lower_type89_battery_deck",
+				"surface_y": 11.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "heavy_aa_04",
+			"profile": "heavy_aa",
+			"position": [
+				-7.8,
+				15.59,
+				12.0
+			],
+			"heading_degrees": 90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 15.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "upper_type89_battery_deck",
+				"surface_y": 15.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "heavy_aa_05",
+			"profile": "heavy_aa",
+			"position": [
+				-7.8,
+				15.59,
+				23.0
+			],
+			"heading_degrees": 90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 15.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "upper_type89_battery_deck",
+				"surface_y": 15.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "heavy_aa_06",
+			"profile": "heavy_aa",
+			"position": [
+				-7.8,
+				15.59,
+				32.5
+			],
+			"heading_degrees": 90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 15.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "upper_type89_battery_deck",
+				"surface_y": 15.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_01",
+			"profile": "light_aa",
+			"position": [
+				-8.273,
+				11.59,
+				37.413
+			],
+			"heading_degrees": 90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 11.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				800.0,
+				127.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "shelter_deck_roof",
+				"surface_y": 11.5,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_04",
+			"profile": "light_aa",
+			"position": [
+				-10.619,
+				11.59,
+				0.37
+			],
+			"heading_degrees": 90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 11.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				1100.0,
+				108.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "shelter_deck_roof",
+				"surface_y": 11.5,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_07",
+			"profile": "light_aa",
+			"position": [
+				-4.445,
+				14.79,
+				-1.852
+			],
+			"heading_degrees": 90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 14.7,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "enclosed",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				1118.0,
+				158.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "bridge_deck_level_14_5",
+				"surface_y": 14.7,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_08",
+			"profile": "light_aa",
+			"position": [
+				-2.346,
+				23.09,
+				42.352
+			],
+			"heading_degrees": 90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 23.0,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "enclosed",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				760.0,
+				175.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "aft_bridge_top_deck",
+				"surface_y": 23.0,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_09",
+			"profile": "light_aa",
+			"position": [
+				-15.311,
+				6.49,
+				102.854
+			],
+			"heading_degrees": 90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				270.0,
+				70.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_10",
+			"profile": "light_aa",
+			"position": [
+				-17.039,
+				6.49,
+				96.186
+			],
+			"heading_degrees": 90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				324.0,
+				56.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "single_aa_01",
+			"profile": "single_aa",
+			"position": [
+				-2.469,
+				6.49,
+				129.031
+			],
+			"heading_degrees": 90.0,
+			"barrels": 1.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"source_pixel": [
+				58.0,
+				174.0
+			],
+			"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			},
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			}
+		},
+		{
+			"id": "single_aa_02",
+			"profile": "single_aa",
+			"position": [
+				2.469,
+				6.49,
+				129.031
+			],
+			"heading_degrees": -90.0,
+			"barrels": 1.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"source_pixel": [
+				58.0,
+				214.0
+			],
+			"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			},
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			}
+		},
+		{
+			"id": "single_aa_03",
+			"profile": "single_aa",
+			"position": [
+				-3.581,
+				6.49,
+				124.462
+			],
+			"heading_degrees": 90.0,
+			"barrels": 1.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"source_pixel": [
+				95.0,
+				165.0
+			],
+			"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			},
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			}
+		},
+		{
+			"id": "single_aa_04",
+			"profile": "single_aa",
+			"position": [
+				3.581,
+				6.49,
+				124.462
+			],
+			"heading_degrees": -90.0,
+			"barrels": 1.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"source_pixel": [
+				95.0,
+				223.0
+			],
+			"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			},
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			}
+		},
+		{
+			"id": "single_aa_05",
+			"profile": "single_aa",
+			"position": [
+				-4.815,
+				6.49,
+				119.523
+			],
+			"heading_degrees": 90.0,
+			"barrels": 1.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"source_pixel": [
+				135.0,
+				155.0
+			],
+			"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			},
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			}
+		},
+		{
+			"id": "single_aa_06",
+			"profile": "single_aa",
+			"position": [
+				4.815,
+				6.49,
+				119.523
+			],
+			"heading_degrees": -90.0,
+			"barrels": 1.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"source_pixel": [
+				135.0,
+				233.0
+			],
+			"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			},
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			}
+		},
+		{
+			"id": "single_aa_07",
+			"profile": "single_aa",
+			"position": [
+				-4.939,
+				6.49,
+				107.423
+			],
+			"heading_degrees": 90.0,
+			"barrels": 1.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"source_pixel": [
+				233.0,
+				154.0
+			],
+			"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			},
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			}
+		},
+		{
+			"id": "single_aa_08",
+			"profile": "single_aa",
+			"position": [
+				4.939,
+				6.49,
+				107.423
+			],
+			"heading_degrees": -90.0,
+			"barrels": 1.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"source_pixel": [
+				233.0,
+				234.0
+			],
+			"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten 234313-.pdf printed p5 fig3",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			},
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			}
+		},
+		{
+			"id": "heavy_aa_07",
+			"profile": "heavy_aa",
+			"position": [
+				11.5,
+				11.59,
+				6.0
+			],
+			"heading_degrees": -90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 11.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "enclosed",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "lower_type89_battery_deck",
+				"surface_y": 11.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "heavy_aa_08",
+			"profile": "heavy_aa",
+			"position": [
+				11.5,
+				11.59,
+				18.0
+			],
+			"heading_degrees": -90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 11.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "enclosed",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "lower_type89_battery_deck",
+				"surface_y": 11.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "heavy_aa_09",
+			"profile": "heavy_aa",
+			"position": [
+				11.5,
+				11.59,
+				28.0
+			],
+			"heading_degrees": -90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 11.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "enclosed",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "lower_type89_battery_deck",
+				"surface_y": 11.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "heavy_aa_10",
+			"profile": "heavy_aa",
+			"position": [
+				7.8,
+				15.59,
+				12.0
+			],
+			"heading_degrees": -90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 15.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "upper_type89_battery_deck",
+				"surface_y": 15.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "heavy_aa_11",
+			"profile": "heavy_aa",
+			"position": [
+				7.8,
+				15.59,
+				23.0
+			],
+			"heading_degrees": -90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 15.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "upper_type89_battery_deck",
+				"surface_y": 15.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "heavy_aa_12",
+			"profile": "heavy_aa",
+			"position": [
+				7.8,
+				15.59,
+				32.5
+			],
+			"heading_degrees": -90.0,
+			"barrels": 2.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 2.5,
+				"floor_y": 15.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "upper_type89_battery_deck",
+				"surface_y": 15.5,
+				"reference": "Model Art sample p45 common 127mm platform positions; June-Nov44 image cross-check with Matsumoto refit plan; height estimated",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_17",
+			"profile": "light_aa",
+			"position": [
+				8.273,
+				11.59,
+				37.413
+			],
+			"heading_degrees": -90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 11.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				800.0,
+				261.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "shelter_deck_roof",
+				"surface_y": 11.5,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_20",
+			"profile": "light_aa",
+			"position": [
+				10.619,
+				11.59,
+				0.37
+			],
+			"heading_degrees": -90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 11.5,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				1100.0,
+				280.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "shelter_deck_roof",
+				"surface_y": 11.5,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_23",
+			"profile": "light_aa",
+			"position": [
+				4.445,
+				14.79,
+				-1.852
+			],
+			"heading_degrees": -90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 14.7,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "enclosed",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				1118.0,
+				230.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "bridge_deck_level_14_5",
+				"surface_y": 14.7,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_24",
+			"profile": "light_aa",
+			"position": [
+				2.346,
+				23.09,
+				42.352
+			],
+			"heading_degrees": -90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 23.0,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "enclosed",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				760.0,
+				213.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "aft_bridge_top_deck",
+				"surface_y": 23.0,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_25",
+			"profile": "light_aa",
+			"position": [
+				15.311,
+				6.49,
+				102.854
+			],
+			"heading_degrees": -90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				270.0,
+				318.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "light_aa_26",
+			"profile": "light_aa",
+			"position": [
+				17.039,
+				6.49,
+				96.186
+			],
+			"heading_degrees": -90.0,
+			"barrels": 3.0,
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 6.4,
+				"mounting": "deck_surface"
+			},
+			"shield_variant": "open",
+			"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+			"source_pixel": [
+				324.0,
+				332.0
+			],
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "main_deck",
+				"surface_y": 6.4,
+				"reference": "Modelkasten public sample 234313-.pdf printed p5 fig3 1944.2-1944.6",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "bridge_mg_01",
+			"profile": "bridge_mg",
+			"position": [
+				-4.8,
+				23.55,
+				2.0
+			],
+			"heading_degrees": 90.0,
+			"barrels": 2.0,
+			"shield_variant": "open",
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"reference": "Skulski printed p24 Type93 bridge twins; Matsumoto refit diagram caption corrects twin vs quadruple",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 23.5,
+				"mounting": "deck_surface"
+			},
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "bridge_deck_level_23_3",
+				"surface_y": 23.5,
+				"reference": "Skulski printed p24 Type93 bridge twins; Matsumoto refit diagram caption corrects twin vs quadruple",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		},
+		{
+			"id": "bridge_mg_02",
+			"profile": "bridge_mg",
+			"position": [
+				4.8,
+				23.55,
+				2.0
+			],
+			"heading_degrees": -90.0,
+			"barrels": 2.0,
+			"shield_variant": "open",
+			"placement_status": "game_aa_fit_on_declared_deck; plan group retained, not exact-date inventory",
+			"reference": "Skulski printed p24 Type93 bridge twins; Matsumoto refit diagram caption corrects twin vs quadruple",
+			"platform": {
+				"radius": 1.5,
+				"floor_y": 23.5,
+				"mounting": "deck_surface"
+			},
+			"attachment": {
+				"kind": "deck_surface",
+				"host": "bridge_deck_level_23_3",
+				"surface_y": 23.5,
+				"reference": "Skulski printed p24 Type93 bridge twins; Matsumoto refit diagram caption corrects twin vs quadruple",
+				"status": "source-matched host and tier; numeric height is image-proportioned"
+			}
+		}
+	],
+	"single_mount_audit": "25 positions read from fig3; one of 26 remains unmatched. Do not infer missing position by symmetry.",
+	"digitization": {
+		"reference_url": "https://gigaplus.makeshop.jp/modelkasten/book/234313-.pdf",
+		"pdf_page_one_based": 6.0,
+		"printed_page": 5.0,
+		"figure": 3.0,
+		"render_scale": 4.0,
+		"clip_pdf_points": [
+			25.0,
+			320.0,
+			575.0,
+			415.0
+		],
+		"stern_pixel_x": 38.0,
+		"bow_pixel_x": 2168.0,
+		"centerline_pixel_y": 194.0,
+		"length_m": 263.0,
+		"z_positive": "aft",
+		"x_positive": "lower side in source plan",
+		"coordinate_status": "diagram measurement, not shipyard station coordinates"
+	},
+	"historical_baseline": {
+		"date": "1944-04 post-refit",
+		"main_460mm_triple": 3.0,
+		"secondary_155mm_triple": 2.0,
+		"type89_127mm_twin": 12.0,
+		"type96_25mm_triple": 24.0,
+		"type96_25mm_single": 26.0,
+		"type93_13mm_twin": 2.0,
+		"reference": "Skulski/Draminski printed pp23-24; 13mm date and exact seat are less certain. Previous coordinates archived as provisional, not history."
+	},
+	"game_aa_configuration": {
+		"type89_127mm_twin": 12.0,
+		"type96_25mm_triple": 12.0,
+		"type96_25mm_single": 8.0,
+		"type93_13mm_twin": 2.0,
+		"reason": "retain the major 12.7cm battery silhouette; limit dedicated light AA to supported source-plan groups. Main/secondary inventory unchanged.",
+		"not_a_dated_inventory_claim": true
+	}
+}

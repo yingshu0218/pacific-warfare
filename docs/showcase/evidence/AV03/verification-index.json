@@ -1,0 +1,408 @@
+[
+  {
+    "run_id": "20261111T114710-2af80992",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": null,
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-c",
+          "from pathlib import Path; import fitz; root=Path(\"docs/references/aircraft/g4m1_1942\"); out=root/\"pages\";out.mkdir(exist_ok=True); pairs=[(\"tamiya_61049_manual.pdf\",[0,3,6,7,8,9]),(\"usAAF_1944_09.pdf\",[19,20])];[(fitz.open(root/\"documents\"/name)[i].get_pixmap(matrix=fitz.Matrix(1.7,1.7)).save(out/(name[:-4]+\"_p\"+str(i+1)+\".png\"))) for name,ids in pairs for i in ids];print(\"reference pages rendered\")"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 73573,
+        "duration_s": 0.9902,
+        "passed": true
+      }
+    ],
+    "log_hashes": {
+      "docs/showcase/evidence/AV03/validation/20261111T114710-2af80992/report.json": "a5dfa0252feb8fa94016cd271692ab8b85f94384cdb6e7a51e4d09eb56a0106f",
+      "docs/showcase/evidence/AV03/validation/20261111T114710-2af80992/01-output.log": "7c81e30dd910c279beb82c653c94b7de919af5bd02f16173c6704eaa9c7bdfaa"
+    }
+  },
+  {
+    "run_id": "20261111T115343-6dfe91d9",
+    "action": "exec",
+    "passed": true,
+    "exit_code": 0,
+    "error": null,
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "-c",
+          "import fitz;from pathlib import Path;p=Path(\"docs/references/aircraft/g4m1_1942\");d=fitz.open(p/\"documents/airforce_classics_2014.pdf\");d[0].get_pixmap(matrix=fitz.Matrix(2,2)).save(p/\"pages/airforce_classics_2014_p1.png\");print(d[0].get_text())"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 74703,
+        "duration_s": 0.2316,
+        "passed": true
+      }
+    ],
+    "log_hashes": {
+      "docs/showcase/evidence/AV03/validation/20261111T115343-6dfe91d9/report.json": "b375805f687e4b9bde39ee33521e59ab3332eb46354e15ba2cb086dc0a24f655",
+      "docs/showcase/evidence/AV03/validation/20261111T115343-6dfe91d9/01-output.log": "b312337e821ec312b73e49bc97f701c21c65e5499bafc52fac369edb8ef90c95"
+    }
+  },
+  {
+    "run_id": "20261111T120600-142f5146",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "error": null,
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 76142,
+        "duration_s": 0.1811,
+        "passed": true
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/av03/test_g4m1.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 76143,
+        "duration_s": 0.6149,
+        "passed": true
+      }
+    ],
+    "log_hashes": {
+      "docs/showcase/evidence/AV03/validation/20261111T120600-142f5146/report.json": "1a1f989ab1c403ced8b14dad2598295706296c06e4a70e6fd447c88c12ebaf11",
+      "docs/showcase/evidence/AV03/validation/20261111T120600-142f5146/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "docs/showcase/evidence/AV03/validation/20261111T120600-142f5146/01-output.log": "748156c9c50a356f08f2b8caf06a86f30c29078bbf58b65b39c84f6e6230338d"
+    }
+  },
+  {
+    "run_id": "20261111T120623-04d3d50f",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": null,
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 76164,
+        "duration_s": 0.1867,
+        "passed": true
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "1200",
+          "res://aircraft/g4m1/inspection.tscn",
+          "--",
+          "--batch",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/AV03/round1/batch.json"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 76165,
+        "duration_s": 2.111,
+        "passed": true
+      }
+    ],
+    "log_hashes": {
+      "docs/showcase/evidence/AV03/validation/20261111T120623-04d3d50f/report.json": "4331614c43e8f01d4ca70e5606f0377427d050b819a1f56341f9a884ec49698e",
+      "docs/showcase/evidence/AV03/validation/20261111T120623-04d3d50f/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "docs/showcase/evidence/AV03/validation/20261111T120623-04d3d50f/01-output.log": "3bd66d8c7c83f3ac07b7698be3c9068eb4ec1bf721eeb73ad615af6405fb6299"
+    }
+  },
+  {
+    "run_id": "20261111T121556-a49c1261",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": null,
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 77779,
+        "duration_s": 0.2465,
+        "passed": true
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "600",
+          "res://aircraft/g4m1/inspection.tscn",
+          "--",
+          "--batch",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/AV03/round2/batch.json"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 77780,
+        "duration_s": 2.3059,
+        "passed": true
+      }
+    ],
+    "log_hashes": {
+      "docs/showcase/evidence/AV03/validation/20261111T121556-a49c1261/report.json": "54009b980c682e3b9f0201dec7076c8d6d6a6b6413b3ed4170d2955236fb259b",
+      "docs/showcase/evidence/AV03/validation/20261111T121556-a49c1261/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "docs/showcase/evidence/AV03/validation/20261111T121556-a49c1261/01-output.log": "3be57b4a40013f64705345a903fd5794d23e9cd3039913dc1869d6c8e2dc0592"
+    }
+  },
+  {
+    "run_id": "20261111T121928-0bc8ee75",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "error": null,
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 78171,
+        "duration_s": 0.2017,
+        "passed": true
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/av03/test_g4m1.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 78172,
+        "duration_s": 0.6384,
+        "passed": true
+      }
+    ],
+    "log_hashes": {
+      "docs/showcase/evidence/AV03/validation/20261111T121928-0bc8ee75/report.json": "c15a21e4890ce4b809174b45a2459f2d70126490599523b08b4230c9fcfd7424",
+      "docs/showcase/evidence/AV03/validation/20261111T121928-0bc8ee75/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "docs/showcase/evidence/AV03/validation/20261111T121928-0bc8ee75/01-output.log": "c72b987af6114ddc218c775a2e33652a6a2c786981a07ef26210c0c0b7a778c0"
+    }
+  },
+  {
+    "run_id": "20261111T122151-439110af",
+    "action": "test",
+    "passed": true,
+    "exit_code": 0,
+    "error": null,
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 78536,
+        "duration_s": 0.2023,
+        "passed": true
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--headless",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--script",
+          "res://tests/av03/test_g4m1.gd"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 78538,
+        "duration_s": 0.6066,
+        "passed": true
+      }
+    ],
+    "log_hashes": {
+      "docs/showcase/evidence/AV03/validation/20261111T122151-439110af/report.json": "8ea9b44a7072e982078f01aef72d98d699c76bc37bbfda5e778c9c02e28b6c28",
+      "docs/showcase/evidence/AV03/validation/20261111T122151-439110af/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "docs/showcase/evidence/AV03/validation/20261111T122151-439110af/01-output.log": "2e924d189501f69b39219614d39d6d96a8290ff92c1f86201cc63d781c52e719"
+    }
+  },
+  {
+    "run_id": "20261111T122152-0f959d80",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": null,
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 78543,
+        "duration_s": 0.0242,
+        "passed": true
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "1600",
+          "res://aircraft/g4m1/inspection.tscn",
+          "--",
+          "--batch",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/AV03/final/model_batch.json"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 78544,
+        "duration_s": 3.0759,
+        "passed": true
+      }
+    ],
+    "log_hashes": {
+      "docs/showcase/evidence/AV03/validation/20261111T122152-0f959d80/report.json": "db547d6a4274b32f3416f76484952f8503a797a467e123a7b4bd8fc9f37a9fcc",
+      "docs/showcase/evidence/AV03/validation/20261111T122152-0f959d80/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "docs/showcase/evidence/AV03/validation/20261111T122152-0f959d80/01-output.log": "873cbbcd94ce1a001b1451814fcc0356be57d757755261e47287d52c5eec9e26"
+    }
+  },
+  {
+    "run_id": "20261111T122404-2bc87046",
+    "action": "godot",
+    "passed": true,
+    "exit_code": 0,
+    "error": null,
+    "checks": [
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--version"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 78772,
+        "duration_s": 0.1976,
+        "passed": true
+      },
+      {
+        "command": [
+          "/Applications/Godot.app/Contents/MacOS/Godot",
+          "--path",
+          "/Users/infinity/Desktop/Dev/game-pacific",
+          "--rendering-method",
+          "gl_compatibility",
+          "--audio-driver",
+          "Dummy",
+          "--resolution",
+          "1440x900",
+          "--position",
+          "5000,5000",
+          "--quit-after",
+          "1200",
+          "res://aircraft/g4m1/inspection.tscn",
+          "--",
+          "--batch",
+          "/Users/infinity/Desktop/Dev/game-pacific/docs/showcase/evidence/AV03/final/airport_batch.json"
+        ],
+        "returncode": 0,
+        "timed_out": false,
+        "diagnostic_error": false,
+        "cleanup_ok": true,
+        "process_group": 78773,
+        "duration_s": 5.4335,
+        "passed": true
+      }
+    ],
+    "log_hashes": {
+      "docs/showcase/evidence/AV03/validation/20261111T122404-2bc87046/report.json": "aa88a5f9f4904afa05c03965e338cae21b55ba95394f0ed748c19f6aaefaa210",
+      "docs/showcase/evidence/AV03/validation/20261111T122404-2bc87046/00-version.log": "edff16c1721dd4ae989cadf29a01f574ae8d51b118221f664725bd6980bbba5d",
+      "docs/showcase/evidence/AV03/validation/20261111T122404-2bc87046/01-output.log": "c27aaacd56614c15fcf108b3f21a5f24a5789e104d3b07dedd13319d4858fd45"
+    }
+  }
+]

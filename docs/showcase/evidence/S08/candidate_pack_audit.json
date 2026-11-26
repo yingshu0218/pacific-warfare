@@ -1,0 +1,2087 @@
+{
+  "pck_sha256": "36319f624271f8dda6e3594d19362625ab186cfd9c589db5c9269a286d486120",
+  "engine": [
+    4,
+    7,
+    2
+  ],
+  "entry_count": 341,
+  "payload_md5_match": true,
+  "missing_data": [],
+  "forbidden_paths": [],
+  "remaps_checked": 140,
+  "models": [
+    {
+      "definition": "us_f6f5_1944",
+      "scene": "scenes/units/aircraft/f6f5_flight.tscn"
+    },
+    {
+      "definition": "us_iowa_bb61_1944_12_28",
+      "scene": "scenes/ships/iowa_bb61_1944_12_28.tscn"
+    },
+    {
+      "definition": "jp_yamato_1944_04",
+      "scene": "scenes/ships/yamato_1944_04.tscn"
+    },
+    {
+      "definition": "us_fletcher_dd445_1942_07_18",
+      "scene": "scenes/ships/fletcher_dd445/fletcher_dd445.tscn"
+    },
+    {
+      "definition": "jp_a6m5a_1944",
+      "scene": "scenes/units/aircraft/a6m5a_flight.tscn"
+    },
+    {
+      "definition": "jp_yukikaze_1942_06",
+      "scene": "scenes/ships/yukikaze/yukikaze.tscn"
+    }
+  ],
+  "entries": [
+    {
+      "path": ".godot/exported/133200997/export-091d7451ed72ad38f70fadcf8a85f837-oerlikon_20mm_single.scn",
+      "bytes": 7390,
+      "offset": 14799760,
+      "md5": "27665519c28d0237bcb53759be3ce38c"
+    },
+    {
+      "path": ".godot/exported/133200997/export-0c55f616586504d06e3fad495a0c2a36-platforms.scn",
+      "bytes": 824,
+      "offset": 15290224,
+      "md5": "42cfcd56bfb3feb993fbc7357caf6ab4"
+    },
+    {
+      "path": ".godot/exported/133200997/export-0ee7f697094e3ef94c01973ac52a2024-equipment.scn",
+      "bytes": 791,
+      "offset": 15282976,
+      "md5": "69b54e250d55a1467a3e3bbc657e894d"
+    },
+    {
+      "path": ".godot/exported/133200997/export-0f30824ebfbadc8fe048a66439781dbe-showcase.scn",
+      "bytes": 814,
+      "offset": 66160,
+      "md5": "1e5547055ce914f8f28291dc52b5cc0e"
+    },
+    {
+      "path": ".godot/exported/133200997/export-0f3fcef03f859d597bf6db3de7acf1ba-preview.scn",
+      "bytes": 915,
+      "offset": 14982880,
+      "md5": "156273594b1597b393cc8b615546a790"
+    },
+    {
+      "path": ".godot/exported/133200997/export-0ffa190afddcd1e2a6b178379eb67c05-preview.scn",
+      "bytes": 903,
+      "offset": 14987600,
+      "md5": "26aa9a0ebb3678c5eba8270ace88cca1"
+    },
+    {
+      "path": ".godot/exported/133200997/export-1bc3894cf8c959761b58838f547a828b-first_playable.scn",
+      "bytes": 701,
+      "offset": 15629216,
+      "md5": "129282f1fcf97a0ec06747a9cbe266fe"
+    },
+    {
+      "path": ".godot/exported/133200997/export-1e1624e8cff072a0e455fd8de9ca9064-yukikaze.scn",
+      "bytes": 785,
+      "offset": 15291056,
+      "md5": "da33b310834ea8d2b3fc6cc394c1da5a"
+    },
+    {
+      "path": ".godot/exported/133200997/export-1f46d8477eb15614d5cfaf84be6a2398-fletcher_dd445.scn",
+      "bytes": 797,
+      "offset": 15283776,
+      "md5": "c0f46c99806f3c9fa4b12dc98ffbb810"
+    },
+    {
+      "path": ".godot/exported/133200997/export-28b678c271c44d45545fada932e22f43-turret_housing.scn",
+      "bytes": 727,
+      "offset": 14973536,
+      "md5": "8dfe2ace7eb25bb8164190df45c017c9"
+    },
+    {
+      "path": ".godot/exported/133200997/export-2b50cfb001223a859108c7a32ba81a42-platforms.scn",
+      "bytes": 830,
+      "offset": 15286192,
+      "md5": "f07e8296e419fa9a989a3a27f61e08e3"
+    },
+    {
+      "path": ".godot/exported/133200997/export-2f9166ce3f111ccd1eeba3bacecc85df-usn_bofors_40mm_quad_mk2_mod5.scn",
+      "bytes": 726,
+      "offset": 14979088,
+      "md5": "044b5431fd92df656050349e41e6048f"
+    },
+    {
+      "path": ".godot/exported/133200997/export-34da41db8253286e1e65e3a52d963d79-funnels.scn",
+      "bytes": 820,
+      "offset": 15288608,
+      "md5": "af5b7e39a0e0c55afcce57e8ab5b0a94"
+    },
+    {
+      "path": ".godot/exported/133200997/export-37750263806e3e588de4d162a019e593-a6m5a_flight.scn",
+      "bytes": 716,
+      "offset": 15293376,
+      "md5": "44d200696ba4f23fe7a906ad93d9494a"
+    },
+    {
+      "path": ".godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn",
+      "bytes": 684,
+      "offset": 15297024,
+      "md5": "a35a84fa3552e0b9892d23be2aa5a533"
+    },
+    {
+      "path": ".godot/exported/133200997/export-3b0df7c08d874e6f3c52d724d688c69a-bofors_40mm_quad.scn",
+      "bytes": 11929,
+      "offset": 14672384,
+      "md5": "53734a4950be6eb48e1b7e9335860c96"
+    },
+    {
+      "path": ".godot/exported/133200997/export-4c78af7c2a2af64608b5580541ca28c7-main_16in_three_gun.scn",
+      "bytes": 115425,
+      "offset": 14684320,
+      "md5": "c9ef5bc0a44920f50f37a5a6d3fbfa3b"
+    },
+    {
+      "path": ".godot/exported/133200997/export-52d0b1845161e851ccb3434e801279b1-jp_127mm_type_c.scn",
+      "bytes": 761,
+      "offset": 15278384,
+      "md5": "a2a8abae253dc759a8b0020eeed40bee"
+    },
+    {
+      "path": ".godot/exported/133200997/export-53b39ee2fd0c2275682f992e447ee683-iowa_bb61.scn",
+      "bytes": 724,
+      "offset": 14875792,
+      "md5": "8bac2f9338e1d147048d9103cbd42038"
+    },
+    {
+      "path": ".godot/exported/133200997/export-59feecffd694f12561fbbe8487e16925-japanese_92_model_f_tripod.scn",
+      "bytes": 730,
+      "offset": 15276928,
+      "md5": "22304ff8d582a3541bccecbaca015a41"
+    },
+    {
+      "path": ".godot/exported/133200997/export-5d70ade4c9f775c902161dedc47db367-hull.scn",
+      "bytes": 775,
+      "offset": 15289440,
+      "md5": "23f8b498fd9b9e88eed8bdc6dc1ac572"
+    },
+    {
+      "path": ".godot/exported/133200997/export-6241fa77514e9d3d57bd6248dc7660ab-hull.scn",
+      "bytes": 781,
+      "offset": 15285408,
+      "md5": "c3b84a962b18af856df4d86631eca7c0"
+    },
+    {
+      "path": ".godot/exported/133200997/export-71bcf0b13ced8bdbdda92df160e71301-secondary_5in38_twin.scn",
+      "bytes": 68636,
+      "offset": 14807152,
+      "md5": "5e6bfc4e9f0e9e0b86eb50eccbcec48b"
+    },
+    {
+      "path": ".godot/exported/133200997/export-81c77fe33f0421e994f8c193fd0247bb-type96_twin_25mm.scn",
+      "bytes": 714,
+      "offset": 15296304,
+      "md5": "fc552f3b1af9a3379429dbe0ea92717f"
+    },
+    {
+      "path": ".godot/exported/133200997/export-83ec71fca693fb049a11a7d61cead46a-yamato_1944_04.scn",
+      "bytes": 723,
+      "offset": 15292640,
+      "md5": "777af45ea0f793a60f4b1058d9e363f1"
+    },
+    {
+      "path": ".godot/exported/133200997/export-8438ea7a013f50a438a2376c5e3d835c-f6f5_flight.scn",
+      "bytes": 757,
+      "offset": 15294096,
+      "md5": "f970e5b6eb6677190dff4134f88c2171"
+    },
+    {
+      "path": ".godot/exported/133200997/export-86be5a082152f4defe3cec918f73f2f1-iowa_viewer.scn",
+      "bytes": 723,
+      "offset": 14876528,
+      "md5": "5292d9c2538ef106f562078dd63b8a58"
+    },
+    {
+      "path": ".godot/exported/133200997/export-8814399b2e2e784dcbf537ffd3eb1c60-preview.scn",
+      "bytes": 916,
+      "offset": 14978160,
+      "md5": "13aba499d5b961eec8817f5601301756"
+    },
+    {
+      "path": ".godot/exported/133200997/export-88fcaea3293560ecde5cbc504c8d394b-aircraft_crane_lattice.scn",
+      "bytes": 49607,
+      "offset": 14622768,
+      "md5": "8c7c6688bb58297f3cdbec95782d303f"
+    },
+    {
+      "path": ".godot/exported/133200997/export-8c240c12be4db9e6443bcec01fff8e40-jp_type96_twin.scn",
+      "bytes": 759,
+      "offset": 15279152,
+      "md5": "be864913a88dd1144f9cdcc0861ba24a"
+    },
+    {
+      "path": ".godot/exported/133200997/export-8f3f2448a0febb0b352ae94f8275883f-aircraft_catapult_turntable.scn",
+      "bytes": 38531,
+      "offset": 14584224,
+      "md5": "9671e02d673ed1135fdf605e2bfa8f2b"
+    },
+    {
+      "path": ".godot/exported/133200997/export-90fd61745b5af465704efbb9d005a00b-us_oerlikon_single.scn",
+      "bytes": 767,
+      "offset": 15281408,
+      "md5": "46bf0269a4dcafcda3561b0fbf839242"
+    },
+    {
+      "path": ".godot/exported/133200997/export-930e1109000b21af811e9f99afbc2202-type96_ship_twin_mount.scn",
+      "bytes": 717,
+      "offset": 15277664,
+      "md5": "21005a96a70b71eb9f01965c1c1ad999"
+    },
+    {
+      "path": ".godot/exported/133200997/export-980a814bd6b1284d1d475f5b695cac94-us_5in38_mk30.scn",
+      "bytes": 712,
+      "offset": 15279920,
+      "md5": "054a839eef71671f8ba8201e5d892a64"
+    },
+    {
+      "path": ".godot/exported/133200997/export-9d8f7357b369897daecbb14647f9dae1-navy_vickers_77mm.scn",
+      "bytes": 716,
+      "offset": 15294864,
+      "md5": "00c16b090919a68b9e29cc7e0dcd8f66"
+    },
+    {
+      "path": ".godot/exported/133200997/export-a8eff162bcce7c257c15c1efddaad7d5-us_11in_quad.scn",
+      "bytes": 755,
+      "offset": 15280640,
+      "md5": "73df59b1cf583ec995f53affa15e32c2"
+    },
+    {
+      "path": ".godot/exported/133200997/export-b081861bfe0fc250273f4da9a86f2013-bridge.scn",
+      "bytes": 788,
+      "offset": 15282176,
+      "md5": "81ac14e5bbb8165d86c5930bf210331d"
+    },
+    {
+      "path": ".godot/exported/133200997/export-b0f6661d6eb0ef6a043741d02a342b9c-sb2c4.scn",
+      "bytes": 697,
+      "offset": 58448,
+      "md5": "ed64dbdfe96c37f2c05167d06156d995"
+    },
+    {
+      "path": ".godot/exported/133200997/export-b4e535a05e267fa00db7512d291af3f8-a6m5_52ko.scn",
+      "bytes": 703,
+      "offset": 66976,
+      "md5": "82a8220ceaca06431f5a221b69d92711"
+    },
+    {
+      "path": ".godot/exported/133200997/export-ba8695e14a55653bd999bf52eebf4a71-turret_housing.scn",
+      "bytes": 815,
+      "offset": 14972720,
+      "md5": "1a89cb3e9323095722b39658be14cd0f"
+    },
+    {
+      "path": ".godot/exported/133200997/export-c933e6e4618c38e3b9d1e289c5796d4c-type96_25mm_single.scn",
+      "bytes": 716,
+      "offset": 15295584,
+      "md5": "62ad0027aaa8541f591775d828c5bcc2"
+    },
+    {
+      "path": ".godot/exported/133200997/export-caa5c3d5ae1adecaf0f0d5066c47025c-aircraft_viewer.scn",
+      "bytes": 707,
+      "offset": 67680,
+      "md5": "d03e6194b46752d2aafaff1d03353441"
+    },
+    {
+      "path": ".godot/exported/133200997/export-d992c46bc5d5e2457fe3c57fb6aee70a-bridge.scn",
+      "bytes": 782,
+      "offset": 15287024,
+      "md5": "65460a75e677812b6e2e54932cdad656"
+    },
+    {
+      "path": ".godot/exported/133200997/export-dddb0ed2b1e7a074deed006acebeadfa-us_browning_30cal_m1917a1.scn",
+      "bytes": 733,
+      "offset": 14983808,
+      "md5": "28257281c8b8227fae6404095666aa1b"
+    },
+    {
+      "path": ".godot/exported/133200997/export-e254a73d76bcf2609c90aa572b1084c9-us_browning_50cal_m2hb.scn",
+      "bytes": 721,
+      "offset": 14988512,
+      "md5": "44e15f5aa029b05352d70e95b0b939f3"
+    },
+    {
+      "path": ".godot/exported/133200997/export-e7ee1180adb75462cbb0d9ecca2a094b-capital_ship_capture.scn",
+      "bytes": 730,
+      "offset": 15276192,
+      "md5": "7f8a486d5b58cd8e7d086bae2f999a08"
+    },
+    {
+      "path": ".godot/exported/133200997/export-eb918502060e98c6f1f28d5ca9ea6d6a-iowa_bb61_1944_12_28.scn",
+      "bytes": 782,
+      "offset": 15291856,
+      "md5": "6bf96c64db17cfe48fdc4aef9b76e990"
+    },
+    {
+      "path": ".godot/exported/133200997/export-eeafec7d28523e095d4c9f80e681e8c7-equipment.scn",
+      "bytes": 785,
+      "offset": 15287808,
+      "md5": "a190c4fb4bf58fa7111a7ef31fe4cf5e"
+    },
+    {
+      "path": ".godot/exported/133200997/export-f1234cbfde00e2dc2a8cfe0c9917437e-f6f5.scn",
+      "bytes": 694,
+      "offset": 68400,
+      "md5": "3c162d9706a045ec5b5299ac251726e4"
+    },
+    {
+      "path": ".godot/exported/133200997/export-f976875b43aba2a3382d046eb92974bb-funnels.scn",
+      "bytes": 826,
+      "offset": 15284576,
+      "md5": "93d98dd04fd0c8a691d898f8cc74a7ab"
+    },
+    {
+      "path": ".godot/global_script_class_cache.cfg",
+      "bytes": 12278,
+      "offset": 15670096,
+      "md5": "4940ed49271de604b864be685546a874"
+    },
+    {
+      "path": ".godot/imported/NotoSansCJKsc-Regular.otf-234b66ec4f6090cf3cb4fe9bcf1a8765.fontdata",
+      "bytes": 14444313,
+      "offset": 121472,
+      "md5": "e9548187de7bbe38cda6fea8de88ebaa"
+    },
+    {
+      "path": ".godot/uid_cache.bin",
+      "bytes": 6027,
+      "offset": 15682384,
+      "md5": "deff0d56bc0111971c3642b023fd6704"
+    },
+    {
+      "path": "aircraft/models/a6m5_52ko.gd.remap",
+      "bytes": 52,
+      "offset": 15657584,
+      "md5": "35edbecd036508578bfba70a79803ec6"
+    },
+    {
+      "path": "aircraft/models/a6m5_52ko.gdc",
+      "bytes": 9531,
+      "offset": 112,
+      "md5": "485a3600bb072f216ab23682a24b7b0e"
+    },
+    {
+      "path": "aircraft/models/f6f5.gd.remap",
+      "bytes": 47,
+      "offset": 15657648,
+      "md5": "e99ba32cfd8afd3787d6f11c0b6beafc"
+    },
+    {
+      "path": "aircraft/models/f6f5.gdc",
+      "bytes": 10877,
+      "offset": 9648,
+      "md5": "faa54c438e7838f57cb369e64606921e"
+    },
+    {
+      "path": "aircraft/sb2c4/sb2c4.gd.remap",
+      "bytes": 47,
+      "offset": 15657696,
+      "md5": "12a80d8f7262831b8cb78c674958e8ac"
+    },
+    {
+      "path": "aircraft/sb2c4/sb2c4.gdc",
+      "bytes": 37916,
+      "offset": 20528,
+      "md5": "6894b51eafdfb856f1d502feb3acb5e7"
+    },
+    {
+      "path": "aircraft/sb2c4/sb2c4.tscn.remap",
+      "bytes": 98,
+      "offset": 15657744,
+      "md5": "35be0a3310bc817fa7c4712a8c2b18bb"
+    },
+    {
+      "path": "aircraft/sb2c4/showcase.gd.remap",
+      "bytes": 50,
+      "offset": 15657856,
+      "md5": "0bd4d1a83f8cceeacaa8ce7fdaf23fc7"
+    },
+    {
+      "path": "aircraft/sb2c4/showcase.gdc",
+      "bytes": 7003,
+      "offset": 59152,
+      "md5": "8f548cc689a56a7aaee013b4c1ccdef1"
+    },
+    {
+      "path": "aircraft/sb2c4/showcase.tscn.remap",
+      "bytes": 101,
+      "offset": 15657920,
+      "md5": "97a1a0246dedee6ee97ceef18a6040a2"
+    },
+    {
+      "path": "aircraft/scenes/a6m5_52ko.tscn.remap",
+      "bytes": 102,
+      "offset": 15658032,
+      "md5": "59f9879ef6c5416edc5425e0b1f5149a"
+    },
+    {
+      "path": "aircraft/scenes/aircraft_viewer.tscn.remap",
+      "bytes": 108,
+      "offset": 15658144,
+      "md5": "6e37e12ff3260ddf8ccd8188a3925d40"
+    },
+    {
+      "path": "aircraft/scenes/f6f5.tscn.remap",
+      "bytes": 97,
+      "offset": 15658256,
+      "md5": "40965929d9caf4160c4b67ab3ad4ce91"
+    },
+    {
+      "path": "aircraft/scripts/aircraft_builder.gd.remap",
+      "bytes": 60,
+      "offset": 15658368,
+      "md5": "6a6bb1f42b132bb0bd2f3ff7df3862c8"
+    },
+    {
+      "path": "aircraft/scripts/aircraft_builder.gdc",
+      "bytes": 36330,
+      "offset": 69104,
+      "md5": "ae8b02a0c483a3554ee20d550f0345f4"
+    },
+    {
+      "path": "aircraft/scripts/aircraft_viewer.gd.remap",
+      "bytes": 59,
+      "offset": 15658432,
+      "md5": "a5f83ce317e78e18a57624938cf9ebb2"
+    },
+    {
+      "path": "aircraft/scripts/aircraft_viewer.gdc",
+      "bytes": 16017,
+      "offset": 105440,
+      "md5": "6eedc9ed4a2612bd8b67a532d791bf97"
+    },
+    {
+      "path": "assets/deck.gdshader",
+      "bytes": 766,
+      "offset": 14989248,
+      "md5": "2c278535b5165f7f2772eec6d0f24fc9"
+    },
+    {
+      "path": "assets/fonts/LICENSE.txt",
+      "bytes": 4301,
+      "offset": 15653280,
+      "md5": "55719faa0112708e946b820b24b14097"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJKsc-Regular.otf.import",
+      "bytes": 178,
+      "offset": 14565792,
+      "md5": "21a040926a722acbb2152d1146719e3e"
+    },
+    {
+      "path": "assets/naval/hulls/yamato_simple_hull.gdshader",
+      "bytes": 351,
+      "offset": 14565984,
+      "md5": "d77c544444ea03c1238ec85ac260a8f7"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/data/december_1944.json",
+      "bytes": 13051,
+      "offset": 14566336,
+      "md5": "371efb0eb7e89cee6c84ee83da0a5e48"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/data/equipment_profiles.json",
+      "bytes": 2309,
+      "offset": 14579392,
+      "md5": "a589f4c8f5c034033c11e945b6456ca9"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/data/weapon_profiles.json",
+      "bytes": 2509,
+      "offset": 14581712,
+      "md5": "20e7b3b5ee18625af8f490fba0fedc3b"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scenes/equipment/aircraft_catapult_turntable.tscn.remap",
+      "bytes": 120,
+      "offset": 15658496,
+      "md5": "7bc5b05b5b730eb4307ccb26c5043f38"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scenes/equipment/aircraft_crane_lattice.tscn.remap",
+      "bytes": 115,
+      "offset": 15658624,
+      "md5": "741c57eba22cc4f7c7d6a4827ca757f3"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scenes/iowa_bb61.tscn.remap",
+      "bytes": 102,
+      "offset": 15659232,
+      "md5": "165bf5e1a5e89ea6f6910863af2a83f8"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scenes/iowa_viewer.tscn.remap",
+      "bytes": 104,
+      "offset": 15659344,
+      "md5": "002a0d1dbc58db470ce01c34af65151c"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scenes/weapons/bofors_40mm_quad.tscn.remap",
+      "bytes": 109,
+      "offset": 15658752,
+      "md5": "30f0e9678459c3476b2fb978f133e476"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scenes/weapons/main_16in_three_gun.tscn.remap",
+      "bytes": 112,
+      "offset": 15658864,
+      "md5": "e1ddc5f78c5eb08891a68090030500a5"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scenes/weapons/oerlikon_20mm_single.tscn.remap",
+      "bytes": 113,
+      "offset": 15658976,
+      "md5": "e3c866ea8d96874bb050d0fd8f6f5a39"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scenes/weapons/secondary_5in38_twin.tscn.remap",
+      "bytes": 113,
+      "offset": 15659104,
+      "md5": "86153b90e84d6676cc9e31c5e89bf5fb"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_camouflage_mask.gd.remap",
+      "bytes": 88,
+      "offset": 15659456,
+      "md5": "6a1ca2cb1146cf559d6133499e1c1701"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_camouflage_mask.gdc",
+      "bytes": 1462,
+      "offset": 14877264,
+      "md5": "0547a5bd18473585a075a47216f7e55f"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_equipment_module.gd.remap",
+      "bytes": 89,
+      "offset": 15659552,
+      "md5": "ff00cda90001a2bfaa079d15bba38384"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_equipment_module.gdc",
+      "bytes": 9953,
+      "offset": 14878736,
+      "md5": "aa9d974ae632e25ce0ea014aad79075e"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_geometry.gd.remap",
+      "bytes": 81,
+      "offset": 15659648,
+      "md5": "5e4d771d4044e88a64cae9b74688f605"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_geometry.gdc",
+      "bytes": 11521,
+      "offset": 14888704,
+      "md5": "72aa0d20313c23adccbaf6ce88072f24"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_mount_foundation.gd.remap",
+      "bytes": 89,
+      "offset": 15659744,
+      "md5": "3d4010dea265ac76f49027bd1aab52c7"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_mount_foundation.gdc",
+      "bytes": 2278,
+      "offset": 14900240,
+      "md5": "87f2ecf955359f701cc5222ce43cfdb8"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_ship.gd.remap",
+      "bytes": 77,
+      "offset": 15659840,
+      "md5": "cede3f2765d814e399f0a123eb47047c"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_ship.gdc",
+      "bytes": 32789,
+      "offset": 14902528,
+      "md5": "9b8f6020f8eb5f0f9792d56f40fb3f6e"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_simulation.gd.remap",
+      "bytes": 83,
+      "offset": 15659920,
+      "md5": "0567278d9fd146816482f2b19db62985"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_simulation.gdc",
+      "bytes": 967,
+      "offset": 14935328,
+      "md5": "c8376669780d2be19c80ce5748920ddc"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_viewer.gd.remap",
+      "bytes": 79,
+      "offset": 15660016,
+      "md5": "655846b68d22c849327e089ae33b0f30"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_viewer.gdc",
+      "bytes": 11165,
+      "offset": 14936304,
+      "md5": "1cf9991b69b5d7b582931b00a0d34338"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_weapon_mount.gd.remap",
+      "bytes": 85,
+      "offset": 15660096,
+      "md5": "2737473bd995fc3b807ca6d923faabe6"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/scripts/iowa_weapon_mount.gdc",
+      "bytes": 22779,
+      "offset": 14947472,
+      "md5": "570f6a4a97b0cb08909f4b1b222924f1"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/shaders/iowa_measure32_1b.gdshader",
+      "bytes": 1870,
+      "offset": 14970256,
+      "md5": "d5d9c132cc46e0436152519d85b12062"
+    },
+    {
+      "path": "assets/naval/models/us_iowa_1944/shaders/iowa_water.gdshader",
+      "bytes": 581,
+      "offset": 14972128,
+      "md5": "693a1048fb41a3369a3de0cba599ad1e"
+    },
+    {
+      "path": "assets/naval/weapons/jp_type3_155mm_triple/turret_housing.tscn.remap",
+      "bytes": 107,
+      "offset": 15660192,
+      "md5": "1da98731d937daa840836bd382b13aa8"
+    },
+    {
+      "path": "assets/naval/weapons/jp_type94_46cm_triple/turret_housing.tscn.remap",
+      "bytes": 107,
+      "offset": 15660304,
+      "md5": "2b388130e9bb53b6022d57c10c2df76c"
+    },
+    {
+      "path": "assets/naval/weapons/us_browning_30cal/m1917a1/preview/preview.gd.remap",
+      "bytes": 89,
+      "offset": 15660752,
+      "md5": "88ffaa0614cb7c4a18390f06d8a10d1f"
+    },
+    {
+      "path": "assets/naval/weapons/us_browning_30cal/m1917a1/preview/preview.gdc",
+      "bytes": 3054,
+      "offset": 14979824,
+      "md5": "0de9e1feb3b119f04396c2173f2eb00a"
+    },
+    {
+      "path": "assets/naval/weapons/us_browning_30cal/m1917a1/preview/preview.tscn.remap",
+      "bytes": 100,
+      "offset": 15660848,
+      "md5": "de603553e735ccb21e5010cc86e9b842"
+    },
+    {
+      "path": "assets/naval/weapons/us_browning_30cal/m1917a1/us_browning_30cal_m1917a1.tscn.remap",
+      "bytes": 118,
+      "offset": 15660960,
+      "md5": "069f7242fe6a189453d9773e041e7e75"
+    },
+    {
+      "path": "assets/naval/weapons/us_browning_50cal/m2hb/preview/preview.gd.remap",
+      "bytes": 86,
+      "offset": 15661088,
+      "md5": "25b5baf7c6d1fb23c220ec2dfa6a7a85"
+    },
+    {
+      "path": "assets/naval/weapons/us_browning_50cal/m2hb/preview/preview.gdc",
+      "bytes": 3055,
+      "offset": 14984544,
+      "md5": "36d129c8aabde98e79884dc7328f2779"
+    },
+    {
+      "path": "assets/naval/weapons/us_browning_50cal/m2hb/preview/preview.tscn.remap",
+      "bytes": 100,
+      "offset": 15661184,
+      "md5": "6c918b9ba81591657bc3a330ddfeb9c9"
+    },
+    {
+      "path": "assets/naval/weapons/us_browning_50cal/m2hb/us_browning_50cal_m2hb.tscn.remap",
+      "bytes": 115,
+      "offset": 15661296,
+      "md5": "1bcfd03595ef8a4d4fd0c47d5eb27f7b"
+    },
+    {
+      "path": "assets/naval/weapons/usn_bofors_40mm/mark2_mod5/preview/preview.gd.remap",
+      "bytes": 90,
+      "offset": 15660416,
+      "md5": "3297168d9f232dd5a9569de74ee02596"
+    },
+    {
+      "path": "assets/naval/weapons/usn_bofors_40mm/mark2_mod5/preview/preview.gdc",
+      "bytes": 3885,
+      "offset": 14974272,
+      "md5": "df1742d812a24bc12feafc320c18c2b8"
+    },
+    {
+      "path": "assets/naval/weapons/usn_bofors_40mm/mark2_mod5/preview/preview.tscn.remap",
+      "bytes": 100,
+      "offset": 15660512,
+      "md5": "e6fde7d11ce224e199ba235efd29ba7e"
+    },
+    {
+      "path": "assets/naval/weapons/usn_bofors_40mm/mark2_mod5/usn_bofors_40mm_quad_mk2_mod5.tscn.remap",
+      "bytes": 122,
+      "offset": 15660624,
+      "md5": "773f1a147fb553b6cc68c945763c1936"
+    },
+    {
+      "path": "assets/ocean.gdshader",
+      "bytes": 1188,
+      "offset": 14990016,
+      "md5": "7cd0aacaed06619ed05f8aa796a2f766"
+    },
+    {
+      "path": "data/aft_bridge_geometry.json",
+      "bytes": 1057,
+      "offset": 15229248,
+      "md5": "bb292b14a82de41cfcb8a5a282e9519d"
+    },
+    {
+      "path": "data/aircraft/performance.json",
+      "bytes": 2008,
+      "offset": 14991216,
+      "md5": "73678cab0a0511fb1635765da10c0159"
+    },
+    {
+      "path": "data/ammunition/jp_127mm_type89_shell.json",
+      "bytes": 510,
+      "offset": 14995216,
+      "md5": "4b669e2a070cef398ff5c96201215202"
+    },
+    {
+      "path": "data/ammunition/jp_13mm_type93_ball.json",
+      "bytes": 508,
+      "offset": 14993232,
+      "md5": "b243e07f2278b37887015dbb35fb0928"
+    },
+    {
+      "path": "data/ammunition/jp_155mm_shell.json",
+      "bytes": 423,
+      "offset": 14995728,
+      "md5": "e8a3d10321c5ce4752056ec993879a50"
+    },
+    {
+      "path": "data/ammunition/jp_20mm_type99_2_shell.json",
+      "bytes": 477,
+      "offset": 14993744,
+      "md5": "3db3e79c2ec998a0943e67edaa060fed"
+    },
+    {
+      "path": "data/ammunition/jp_25mm_type96_shell.json",
+      "bytes": 509,
+      "offset": 14994224,
+      "md5": "83e702474a5992cef5fb2a5ae5911eb6"
+    },
+    {
+      "path": "data/ammunition/jp_460mm_ap.json",
+      "bytes": 420,
+      "offset": 14996160,
+      "md5": "5eb996e212d33fbffb556d1f4a490816"
+    },
+    {
+      "path": "data/ammunition/jp_77mm_type97_ball.json",
+      "bytes": 477,
+      "offset": 14994736,
+      "md5": "1660c312f29c341f2805253840dda9d6"
+    },
+    {
+      "path": "data/ammunition/s03_jp_127mm_type1_common.json",
+      "bytes": 667,
+      "offset": 14997264,
+      "md5": "01a4270e009eb31419fca06d3164e9f6"
+    },
+    {
+      "path": "data/ammunition/s03_jp_25mm_type96_he.json",
+      "bytes": 662,
+      "offset": 14996592,
+      "md5": "c6a51053dc4703197c054e669c1d1341"
+    },
+    {
+      "path": "data/ammunition/s03_us_127mm_mk32_common.json",
+      "bytes": 666,
+      "offset": 14999280,
+      "md5": "8dbb4cde94147eb1ebcca406fb5d1573"
+    },
+    {
+      "path": "data/ammunition/s03_us_20mm_mk3_he.json",
+      "bytes": 659,
+      "offset": 14997936,
+      "md5": "c4148de183087befc44df3dfe6d02477"
+    },
+    {
+      "path": "data/ammunition/s03_us_28mm_mk1_he.json",
+      "bytes": 662,
+      "offset": 14998608,
+      "md5": "6c05b8c80e3fd7c8140e751d040f7953"
+    },
+    {
+      "path": "data/ammunition/us_127mm_5in38_shell.json",
+      "bytes": 509,
+      "offset": 15000976,
+      "md5": "868d0f4ed498ae51a39a41010fe69f4c"
+    },
+    {
+      "path": "data/ammunition/us_127mm_m2_ball.json",
+      "bytes": 424,
+      "offset": 15001488,
+      "md5": "8ffaec4aa416b5816a4e8421b5720441"
+    },
+    {
+      "path": "data/ammunition/us_20mm_oerlikon_shell.json",
+      "bytes": 511,
+      "offset": 14999952,
+      "md5": "54470e56d8452c928e8335fdd445b25c"
+    },
+    {
+      "path": "data/ammunition/us_406mm_mk8_ap.json",
+      "bytes": 508,
+      "offset": 15001920,
+      "md5": "a527030daf5e24416e15545ce4032578"
+    },
+    {
+      "path": "data/ammunition/us_40mm_bofors_shell.json",
+      "bytes": 507,
+      "offset": 15000464,
+      "md5": "e7ad3b5102deac5230dce94e649e44e7"
+    },
+    {
+      "path": "data/bridge_geometry.json",
+      "bytes": 2264,
+      "offset": 15230320,
+      "md5": "b78430f8063cc16655df03c383886d58"
+    },
+    {
+      "path": "data/combat/showcase.json",
+      "bytes": 51197,
+      "offset": 15002432,
+      "md5": "26429bacfa6d65df6f863041f03ae3ce"
+    },
+    {
+      "path": "data/fleet/showcase.json",
+      "bytes": 2204,
+      "offset": 15053632,
+      "md5": "16176a07c385956db46df5803e8d557b"
+    },
+    {
+      "path": "data/funnel_geometry.json",
+      "bytes": 627,
+      "offset": 15232592,
+      "md5": "4ffb224762240b008047b4dd6ca174bf"
+    },
+    {
+      "path": "data/hull_stations.json",
+      "bytes": 2158,
+      "offset": 15233232,
+      "md5": "b09abfb8476cbfb2072ecf7c3ef0d6d2"
+    },
+    {
+      "path": "data/naval/weapons/us_browning_30cal/m1917a1.json",
+      "bytes": 2287,
+      "offset": 15058320,
+      "md5": "2d58b85e152c6fd27e269187a1205963"
+    },
+    {
+      "path": "data/naval/weapons/us_browning_50cal/m2hb.json",
+      "bytes": 2065,
+      "offset": 15060608,
+      "md5": "789c20ed98d4b44156c2f73c03ef92b4"
+    },
+    {
+      "path": "data/naval/weapons/usn_bofors_40mm/mark2_mod5.json",
+      "bytes": 2471,
+      "offset": 15055840,
+      "md5": "571d00f2fdfccf132c2c5c418e319766"
+    },
+    {
+      "path": "data/naval_mount_profiles.json",
+      "bytes": 1118,
+      "offset": 15235392,
+      "md5": "247f17e85b7139f0654f1933781a639c"
+    },
+    {
+      "path": "data/naval_weapon_profiles.json",
+      "bytes": 1494,
+      "offset": 15236512,
+      "md5": "af38b3505fc49a2beb06f35de10e14d2"
+    },
+    {
+      "path": "data/scenarios/first_playable.json",
+      "bytes": 8036,
+      "offset": 15062688,
+      "md5": "548f73b8fa2f3f10c4e97275261db7a4"
+    },
+    {
+      "path": "data/shelter_deck.json",
+      "bytes": 764,
+      "offset": 15238016,
+      "md5": "60ab44d871d954048854a7e483c3a1ae"
+    },
+    {
+      "path": "data/ships/fletcher_dd445/assembly.json",
+      "bytes": 16074,
+      "offset": 15070736,
+      "md5": "3fbdeeb9886b7ad36878b320451d4c4f"
+    },
+    {
+      "path": "data/ships/yukikaze/assembly.json",
+      "bytes": 15332,
+      "offset": 15086816,
+      "md5": "b6b335c05d303b35c2f7573a50937d3c"
+    },
+    {
+      "path": "data/units/jp_a6m5a_1944.json",
+      "bytes": 4274,
+      "offset": 15103920,
+      "md5": "d96b9054a04e74ce874606381d8fd21f"
+    },
+    {
+      "path": "data/units/jp_yamato_1944_04.json",
+      "bytes": 39362,
+      "offset": 15108208,
+      "md5": "eb0cf97c9f7f380da48aa20a6774aa34"
+    },
+    {
+      "path": "data/units/jp_yukikaze_1942_06.json",
+      "bytes": 8667,
+      "offset": 15147584,
+      "md5": "0030d172eb4910ec4746e6bb6447b31e"
+    },
+    {
+      "path": "data/units/us_f6f5_1944.json",
+      "bytes": 6347,
+      "offset": 15156256,
+      "md5": "222960a7a1da02b56b6855730de3c771"
+    },
+    {
+      "path": "data/units/us_fletcher_dd445_1942_07_18.json",
+      "bytes": 13422,
+      "offset": 15162608,
+      "md5": "613438213e1949fad1dc1250281123f1"
+    },
+    {
+      "path": "data/units/us_iowa_bb61_1944_12_28.json",
+      "bytes": 53202,
+      "offset": 15176032,
+      "md5": "3222f81a2d0a3831c1e7866eb56d2d28"
+    },
+    {
+      "path": "data/units/weapons/jp_type97_77mm_single.json",
+      "bytes": 587,
+      "offset": 15102160,
+      "md5": "fca64cb8dad23289c6ba0557f6c6879e"
+    },
+    {
+      "path": "data/units/weapons/jp_type99_2_model4_20mm_single.json",
+      "bytes": 600,
+      "offset": 15102752,
+      "md5": "1325a70a90942db4c2c237736060f34a"
+    },
+    {
+      "path": "data/units/weapons/us_an_m2_127mm_single.json",
+      "bytes": 555,
+      "offset": 15103360,
+      "md5": "35b4c6b4750449fc4611b1c890b8402e"
+    },
+    {
+      "path": "data/weapon_profiles.json",
+      "bytes": 4305,
+      "offset": 15238784,
+      "md5": "35d9d7f81b72fd14e70d7b8217d5b865"
+    },
+    {
+      "path": "data/yamato_1944_mounts.json",
+      "bytes": 33075,
+      "offset": 15243104,
+      "md5": "c8c72647c65002cde31647b03ecb9251"
+    },
+    {
+      "path": "project.binary",
+      "bytes": 504,
+      "offset": 15688416,
+      "md5": "0a0dfb02a660912f3e56a9ed261b7440"
+    },
+    {
+      "path": "scenes/inspection/capital_ship_capture.tscn.remap",
+      "bytes": 113,
+      "offset": 15661424,
+      "md5": "a049143da172ce0bdc4cfa9734de309a"
+    },
+    {
+      "path": "scenes/main.tscn.remap",
+      "bytes": 97,
+      "offset": 15664512,
+      "md5": "0ab3b58be7f208f78c8c53387aea9d73"
+    },
+    {
+      "path": "scenes/mounts/japanese_92_model_f_tripod.tscn.remap",
+      "bytes": 119,
+      "offset": 15661552,
+      "md5": "1c3518f47559102356b3d467272d3259"
+    },
+    {
+      "path": "scenes/mounts/type96_ship_twin_mount.tscn.remap",
+      "bytes": 115,
+      "offset": 15661680,
+      "md5": "1cfa661aa3199a374eb2bf01459a6fae"
+    },
+    {
+      "path": "scenes/ships/destroyer_modules/jp_127mm_type_c.tscn.remap",
+      "bytes": 108,
+      "offset": 15661808,
+      "md5": "b57f39d434f21ff5f67251a28b2ab674"
+    },
+    {
+      "path": "scenes/ships/destroyer_modules/jp_type96_twin.tscn.remap",
+      "bytes": 107,
+      "offset": 15661920,
+      "md5": "e15079096518754486242f70041afe37"
+    },
+    {
+      "path": "scenes/ships/destroyer_modules/us_11in_quad.tscn.remap",
+      "bytes": 105,
+      "offset": 15662144,
+      "md5": "349055994dea64b91ee3f04e4bd1e677"
+    },
+    {
+      "path": "scenes/ships/destroyer_modules/us_5in38_mk30.tscn.remap",
+      "bytes": 106,
+      "offset": 15662032,
+      "md5": "15bc2f0ad920484fe341e81157a90bc5"
+    },
+    {
+      "path": "scenes/ships/destroyer_modules/us_oerlikon_single.tscn.remap",
+      "bytes": 111,
+      "offset": 15662256,
+      "md5": "0ee877cb32ef8622572b7acb866b550d"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/bridge.tscn.remap",
+      "bytes": 99,
+      "offset": 15662368,
+      "md5": "67be91044fd627b8de5cea5a3d2fb22c"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/equipment.tscn.remap",
+      "bytes": 102,
+      "offset": 15662480,
+      "md5": "1429b66df89f581e16606adf345141c1"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/fletcher_dd445.tscn.remap",
+      "bytes": 107,
+      "offset": 15662592,
+      "md5": "c680aaba1a00dcf5b0ba6d11d41bb077"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/funnels.tscn.remap",
+      "bytes": 100,
+      "offset": 15662704,
+      "md5": "3f9cc63414831061b10c51af0fcd5a82"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/hull.tscn.remap",
+      "bytes": 97,
+      "offset": 15662816,
+      "md5": "bd7e8195fa345e27c29c57a8cb7b2f5e"
+    },
+    {
+      "path": "scenes/ships/fletcher_dd445/platforms.tscn.remap",
+      "bytes": 102,
+      "offset": 15662928,
+      "md5": "c63d8f54137c260a674ae40ba3f3098c"
+    },
+    {
+      "path": "scenes/ships/iowa_bb61_1944_12_28.tscn.remap",
+      "bytes": 113,
+      "offset": 15663712,
+      "md5": "4726ece9c76af73cd4142bda313b3b8e"
+    },
+    {
+      "path": "scenes/ships/yamato_1944_04.tscn.remap",
+      "bytes": 107,
+      "offset": 15663840,
+      "md5": "14a18f2b36a907703c0ec2850629e6fd"
+    },
+    {
+      "path": "scenes/ships/yukikaze/bridge.tscn.remap",
+      "bytes": 99,
+      "offset": 15663040,
+      "md5": "60e2b4e3b6ed9788c09a4453c21b9694"
+    },
+    {
+      "path": "scenes/ships/yukikaze/equipment.tscn.remap",
+      "bytes": 102,
+      "offset": 15663152,
+      "md5": "510a24a7e7a36d93655aaf39e5ed5fa3"
+    },
+    {
+      "path": "scenes/ships/yukikaze/funnels.tscn.remap",
+      "bytes": 100,
+      "offset": 15663264,
+      "md5": "2a834ad56fa6c131cc6081633ccab159"
+    },
+    {
+      "path": "scenes/ships/yukikaze/hull.tscn.remap",
+      "bytes": 97,
+      "offset": 15663376,
+      "md5": "2c09d77ad72cb2bcf4e92de4294db551"
+    },
+    {
+      "path": "scenes/ships/yukikaze/platforms.tscn.remap",
+      "bytes": 102,
+      "offset": 15663488,
+      "md5": "a8f97ecc24f69d90fb0cea7e6e93faab"
+    },
+    {
+      "path": "scenes/ships/yukikaze/yukikaze.tscn.remap",
+      "bytes": 101,
+      "offset": 15663600,
+      "md5": "bcea8b88eb0df71e7aa047f631fd20f8"
+    },
+    {
+      "path": "scenes/units/aircraft/a6m5a_flight.tscn.remap",
+      "bytes": 105,
+      "offset": 15663952,
+      "md5": "a62ec288031d4c950dcd4ed2bab8d9d3"
+    },
+    {
+      "path": "scenes/units/aircraft/f6f5_flight.tscn.remap",
+      "bytes": 104,
+      "offset": 15664064,
+      "md5": "8d9318ca6645bbaff012ad9eb62e2baf"
+    },
+    {
+      "path": "scenes/weapons/navy_vickers_77mm.tscn.remap",
+      "bytes": 110,
+      "offset": 15664176,
+      "md5": "c3d796592f54da8bb5c32f063ef76f6d"
+    },
+    {
+      "path": "scenes/weapons/type96_25mm_single.tscn.remap",
+      "bytes": 111,
+      "offset": 15664288,
+      "md5": "b1e12257d4676b63a38db61761149058"
+    },
+    {
+      "path": "scenes/weapons/type96_twin_25mm.tscn.remap",
+      "bytes": 109,
+      "offset": 15664400,
+      "md5": "6f6957a244477c78eae107d65297f175"
+    },
+    {
+      "path": "scripts/behaviors/aircraft/air_formations.gd.remap",
+      "bytes": 68,
+      "offset": 15664784,
+      "md5": "36c0926ae682e4f9e155c8b5de69b707"
+    },
+    {
+      "path": "scripts/behaviors/aircraft/air_formations.gdc",
+      "bytes": 2163,
+      "offset": 15313328,
+      "md5": "09eba44a8857b8b2b039f0e3e25974c0"
+    },
+    {
+      "path": "scripts/behaviors/aircraft/aircraft_suite.gd.remap",
+      "bytes": 68,
+      "offset": 15664624,
+      "md5": "46ed22e11f773cf4aefa876aa4e2d623"
+    },
+    {
+      "path": "scripts/behaviors/aircraft/aircraft_suite.gdc",
+      "bytes": 583,
+      "offset": 15297712,
+      "md5": "1205d0d34a730512c1283d2caa7e4065"
+    },
+    {
+      "path": "scripts/behaviors/aircraft/aircraft_tasks.gd.remap",
+      "bytes": 68,
+      "offset": 15664704,
+      "md5": "d6b8100c4c2c2ccbd257f52b669a6b7b"
+    },
+    {
+      "path": "scripts/behaviors/aircraft/aircraft_tasks.gdc",
+      "bytes": 15014,
+      "offset": 15298304,
+      "md5": "33dbd344e41cf06976ad74934a3d134c"
+    },
+    {
+      "path": "scripts/behaviors/fleet_formations/fleet_formations.gd.remap",
+      "bytes": 78,
+      "offset": 15664864,
+      "md5": "9a8165feca17239482fffe008c0a4e78"
+    },
+    {
+      "path": "scripts/behaviors/fleet_formations/fleet_formations.gdc",
+      "bytes": 1504,
+      "offset": 15315504,
+      "md5": "96972605d7370b15c416cfab78d0a876"
+    },
+    {
+      "path": "scripts/behaviors/fleet_formations/fleet_suite.gd.remap",
+      "bytes": 73,
+      "offset": 15664944,
+      "md5": "c098c60bad25a165aadf360cb4cc31c4"
+    },
+    {
+      "path": "scripts/behaviors/fleet_formations/fleet_suite.gdc",
+      "bytes": 1866,
+      "offset": 15317008,
+      "md5": "8dfe3ad7924d9d64fd175e1072563f33"
+    },
+    {
+      "path": "scripts/behaviors/fleet_formations/fleet_tasks.gd.remap",
+      "bytes": 73,
+      "offset": 15665024,
+      "md5": "147eb6d1d86437092f71172c6505bec7"
+    },
+    {
+      "path": "scripts/behaviors/fleet_formations/fleet_tasks.gdc",
+      "bytes": 11104,
+      "offset": 15318880,
+      "md5": "bd350cc1eb61e245b1dee98c0fc5a58d"
+    },
+    {
+      "path": "scripts/command/air_defence/combat_targeting.gd.remap",
+      "bytes": 71,
+      "offset": 15665104,
+      "md5": "c5e1472fcbb79bf5a4cfc3db0f96ccc9"
+    },
+    {
+      "path": "scripts/command/air_defence/combat_targeting.gdc",
+      "bytes": 3287,
+      "offset": 15329984,
+      "md5": "e8786b9420074a365da07127ac941957"
+    },
+    {
+      "path": "scripts/command/commander/fleet_commander.gd.remap",
+      "bytes": 68,
+      "offset": 15665184,
+      "md5": "e9375e92902d932ea89e5904043e29ec"
+    },
+    {
+      "path": "scripts/command/commander/fleet_commander.gdc",
+      "bytes": 1460,
+      "offset": 15333280,
+      "md5": "7cd8eff1e44c4db1a871b8f31ee27d09"
+    },
+    {
+      "path": "scripts/command/commander/fleet_planner.gd.remap",
+      "bytes": 66,
+      "offset": 15665264,
+      "md5": "214a9915909e5df84290ab8caa805be3"
+    },
+    {
+      "path": "scripts/command/commander/fleet_planner.gdc",
+      "bytes": 8670,
+      "offset": 15334752,
+      "md5": "e6e90d7d6a894d55cdec9c7db2835876"
+    },
+    {
+      "path": "scripts/command/contacts/combat_contacts.gd.remap",
+      "bytes": 67,
+      "offset": 15665344,
+      "md5": "4e358412a94222329645e262cbb3177c"
+    },
+    {
+      "path": "scripts/command/contacts/combat_contacts.gdc",
+      "bytes": 3480,
+      "offset": 15343424,
+      "md5": "07cba92aaa872c12d137be87459c4ce1"
+    },
+    {
+      "path": "scripts/game/first_playable.gd.remap",
+      "bytes": 54,
+      "offset": 15665424,
+      "md5": "0fa53d44eccb6d2b174d0d61183e835c"
+    },
+    {
+      "path": "scripts/game/first_playable.gdc",
+      "bytes": 8058,
+      "offset": 15346912,
+      "md5": "36b47d1394944ccfe46ef8fcdb24c49a"
+    },
+    {
+      "path": "scripts/game/first_playable_session.gd.remap",
+      "bytes": 62,
+      "offset": 15665488,
+      "md5": "63c13f82f1c7563dca289502e07c8ed4"
+    },
+    {
+      "path": "scripts/game/first_playable_session.gdc",
+      "bytes": 7479,
+      "offset": 15354976,
+      "md5": "4df0e5f5060094ec6d990a8184d75351"
+    },
+    {
+      "path": "scripts/game/web_run_probe.gd.remap",
+      "bytes": 53,
+      "offset": 15665552,
+      "md5": "c1447aaadd615cb081ad6e0862f4c832"
+    },
+    {
+      "path": "scripts/game/web_run_probe.gdc",
+      "bytes": 3438,
+      "offset": 15362464,
+      "md5": "1e1eb419fd182637ffa9f782f1d03134"
+    },
+    {
+      "path": "scripts/main.gd.remap",
+      "bytes": 39,
+      "offset": 15669632,
+      "md5": "2b5c3955728b84207f9ad8272930fb6a"
+    },
+    {
+      "path": "scripts/main.gdc",
+      "bytes": 13651,
+      "offset": 15575696,
+      "md5": "92bdda4fe33c2604a8dd2cdce8c52245"
+    },
+    {
+      "path": "scripts/mounts/japanese_92_model_f_tripod.gd.remap",
+      "bytes": 68,
+      "offset": 15665616,
+      "md5": "1a3b85e9c20ddfeabcc36838acf7edbf"
+    },
+    {
+      "path": "scripts/mounts/japanese_92_model_f_tripod.gdc",
+      "bytes": 2087,
+      "offset": 15365904,
+      "md5": "6ffcaa5e5b92374db73694cf53c080e2"
+    },
+    {
+      "path": "scripts/mounts/type96_ship_twin_mount.gd.remap",
+      "bytes": 64,
+      "offset": 15665696,
+      "md5": "9e0ea5905be3afbeff8fe06abe0ebc68"
+    },
+    {
+      "path": "scripts/mounts/type96_ship_twin_mount.gdc",
+      "bytes": 3966,
+      "offset": 15368000,
+      "md5": "db9581698d6aebcf69fc2b632410c177"
+    },
+    {
+      "path": "scripts/naval/audit_usn_bofors_40mm_quad.gd.remap",
+      "bytes": 67,
+      "offset": 15666288,
+      "md5": "3fb79a43bccccfe20d1edd255dd106c6"
+    },
+    {
+      "path": "scripts/naval/audit_usn_bofors_40mm_quad.gdc",
+      "bytes": 2486,
+      "offset": 15405680,
+      "md5": "f5653eb4c94799f274fef245b959e236"
+    },
+    {
+      "path": "scripts/naval/destroyers/destroyer_adapter.gd.remap",
+      "bytes": 69,
+      "offset": 15665760,
+      "md5": "cc390f7f7f610333897c34616aa964f6"
+    },
+    {
+      "path": "scripts/naval/destroyers/destroyer_adapter.gdc",
+      "bytes": 5393,
+      "offset": 15371968,
+      "md5": "ab6d1f90922fdceca4c30170c5a654ab"
+    },
+    {
+      "path": "scripts/naval/destroyers/equipment_module.gd.remap",
+      "bytes": 68,
+      "offset": 15665840,
+      "md5": "6457179c0f049548c81a1f84bc7b172e"
+    },
+    {
+      "path": "scripts/naval/destroyers/equipment_module.gdc",
+      "bytes": 5074,
+      "offset": 15377376,
+      "md5": "99369006cea0c57da4df85f80bbf0415"
+    },
+    {
+      "path": "scripts/naval/destroyers/hull_module.gd.remap",
+      "bytes": 63,
+      "offset": 15665920,
+      "md5": "222ba6e82d7f27269faa7fa927ee4509"
+    },
+    {
+      "path": "scripts/naval/destroyers/hull_module.gdc",
+      "bytes": 2829,
+      "offset": 15382464,
+      "md5": "5761f23908f8882928acb83e1d6414c0"
+    },
+    {
+      "path": "scripts/naval/destroyers/measure12.gdshader",
+      "bytes": 792,
+      "offset": 15385296,
+      "md5": "b00121837320f055fc46b134bb872ed0"
+    },
+    {
+      "path": "scripts/naval/destroyers/mesh_tools.gd.remap",
+      "bytes": 62,
+      "offset": 15665984,
+      "md5": "f46c3ec11c9165a7d0a9b619f11a90dd"
+    },
+    {
+      "path": "scripts/naval/destroyers/mesh_tools.gdc",
+      "bytes": 5753,
+      "offset": 15386096,
+      "md5": "73b36d14eadcfb88536c4e15ba65de78"
+    },
+    {
+      "path": "scripts/naval/destroyers/structure_module.gd.remap",
+      "bytes": 68,
+      "offset": 15666048,
+      "md5": "7ff307f301d4d6700a222fa0bb19c302"
+    },
+    {
+      "path": "scripts/naval/destroyers/structure_module.gdc",
+      "bytes": 2333,
+      "offset": 15391856,
+      "md5": "a3b837f813d939784c2ebb23d6123969"
+    },
+    {
+      "path": "scripts/naval/destroyers/weapon_module.gd.remap",
+      "bytes": 65,
+      "offset": 15666128,
+      "md5": "0b6fd30b6f2b5ab48c5aac7a93990e71"
+    },
+    {
+      "path": "scripts/naval/destroyers/weapon_module.gdc",
+      "bytes": 5270,
+      "offset": 15394192,
+      "md5": "60429d06955bb92e5b12e7d77faf6dd4"
+    },
+    {
+      "path": "scripts/naval/naval_machine_gun_visual_base.gd.remap",
+      "bytes": 70,
+      "offset": 15666368,
+      "md5": "82313ae78aebb4cefa5f630e5f1dff60"
+    },
+    {
+      "path": "scripts/naval/naval_machine_gun_visual_base.gdc",
+      "bytes": 4066,
+      "offset": 15408176,
+      "md5": "7a6b2674855c7cf4ddf0b8b0989aca36"
+    },
+    {
+      "path": "scripts/naval/us_browning_30cal_m1917a1.gd.remap",
+      "bytes": 66,
+      "offset": 15666528,
+      "md5": "9752dbb9e2b053811339cb81fab4e37d"
+    },
+    {
+      "path": "scripts/naval/us_browning_30cal_m1917a1.gdc",
+      "bytes": 3909,
+      "offset": 15423456,
+      "md5": "28d4651f028a064be5a3a85799fab0ac"
+    },
+    {
+      "path": "scripts/naval/us_browning_50cal_m2hb.gd.remap",
+      "bytes": 63,
+      "offset": 15666608,
+      "md5": "2896b184e0d4a2e782dc6e0173960175"
+    },
+    {
+      "path": "scripts/naval/us_browning_50cal_m2hb.gdc",
+      "bytes": 3985,
+      "offset": 15427376,
+      "md5": "5870f50ff76574897e1d8bf4099f2d8f"
+    },
+    {
+      "path": "scripts/naval/usn_bofors_40mm_quad_mk2_mod5.gd.remap",
+      "bytes": 70,
+      "offset": 15666448,
+      "md5": "40118381c56a2e59271ccb01b88773fc"
+    },
+    {
+      "path": "scripts/naval/usn_bofors_40mm_quad_mk2_mod5.gdc",
+      "bytes": 11195,
+      "offset": 15412256,
+      "md5": "01b05d2d42b530c991d722a9c8da5e46"
+    },
+    {
+      "path": "scripts/naval/weapons/turret_housing_module.gd.remap",
+      "bytes": 70,
+      "offset": 15666208,
+      "md5": "9185aa11e2933f1a58916aede112dd29"
+    },
+    {
+      "path": "scripts/naval/weapons/turret_housing_module.gdc",
+      "bytes": 6202,
+      "offset": 15399472,
+      "md5": "8857d86193b719b6ecd044a58ec5fe2f"
+    },
+    {
+      "path": "scripts/naval_mount_study.gd.remap",
+      "bytes": 52,
+      "offset": 15669680,
+      "md5": "20f9e392a66a57951c57accdcf91a8c3"
+    },
+    {
+      "path": "scripts/naval_mount_study.gdc",
+      "bytes": 1395,
+      "offset": 15589360,
+      "md5": "e937d1d3b46bfe510df6ba6ef1c65a1d"
+    },
+    {
+      "path": "scripts/presentation/cameras/observer_camera.gd.remap",
+      "bytes": 71,
+      "offset": 15666672,
+      "md5": "0555d53381ec2641a184d996a696f4c9"
+    },
+    {
+      "path": "scripts/presentation/cameras/observer_camera.gdc",
+      "bytes": 9691,
+      "offset": 15431376,
+      "md5": "25fbbc83e0c87b10b4461c254408e0d8"
+    },
+    {
+      "path": "scripts/presentation/effects/combat_audio_bank.gd.remap",
+      "bytes": 73,
+      "offset": 15666752,
+      "md5": "bcb4b765574c8dd47609d30ae78712d8"
+    },
+    {
+      "path": "scripts/presentation/effects/combat_audio_bank.gdc",
+      "bytes": 1391,
+      "offset": 15441072,
+      "md5": "6496c4e568a547fb9fc38b1b3ea46d13"
+    },
+    {
+      "path": "scripts/presentation/effects/combat_effects.gd.remap",
+      "bytes": 70,
+      "offset": 15666832,
+      "md5": "0c8db6c8a9a1b549002e56980b8e17fd"
+    },
+    {
+      "path": "scripts/presentation/effects/combat_effects.gdc",
+      "bytes": 9524,
+      "offset": 15442464,
+      "md5": "bfc1cbffbb18b5f671e04d80e9d45e3f"
+    },
+    {
+      "path": "scripts/presentation/models/aircraft_adapter.gd.remap",
+      "bytes": 71,
+      "offset": 15666912,
+      "md5": "42c1af7e23f7b3393e5095810330dbc3"
+    },
+    {
+      "path": "scripts/presentation/models/aircraft_adapter.gdc",
+      "bytes": 2475,
+      "offset": 15452000,
+      "md5": "9522a3e05fbcecb3d162ef22476fc510"
+    },
+    {
+      "path": "scripts/presentation/models/capital_ship_adapter.gd.remap",
+      "bytes": 75,
+      "offset": 15666992,
+      "md5": "ab795e49a4faeeca975cf663db91bb1d"
+    },
+    {
+      "path": "scripts/presentation/models/capital_ship_adapter.gdc",
+      "bytes": 6154,
+      "offset": 15454480,
+      "md5": "2d682984262143f30a9bb58d21187148"
+    },
+    {
+      "path": "scripts/presentation/models/capital_ship_capture.gd.remap",
+      "bytes": 75,
+      "offset": 15667072,
+      "md5": "3242e41d3c60dced4926a6c03a5d3314"
+    },
+    {
+      "path": "scripts/presentation/models/capital_ship_capture.gdc",
+      "bytes": 4459,
+      "offset": 15460640,
+      "md5": "6bd5721525251aec273999bcca6965bc"
+    },
+    {
+      "path": "scripts/presentation/models/static_model_batch.gd.remap",
+      "bytes": 73,
+      "offset": 15667152,
+      "md5": "2a16441b928f2b7ef235786af0bcd738"
+    },
+    {
+      "path": "scripts/presentation/models/static_model_batch.gdc",
+      "bytes": 1958,
+      "offset": 15465104,
+      "md5": "4ea2912665a2284d533bca4db79b31d1"
+    },
+    {
+      "path": "scripts/presentation/models/visual_recoil.gd.remap",
+      "bytes": 68,
+      "offset": 15667232,
+      "md5": "9337a12d623c73a76f4a4bcae0ea7570"
+    },
+    {
+      "path": "scripts/presentation/models/visual_recoil.gdc",
+      "bytes": 2595,
+      "offset": 15467072,
+      "md5": "bf6c4fffb8264243091d699a2d0f0dce"
+    },
+    {
+      "path": "scripts/presentation/ocean.gdshader",
+      "bytes": 323,
+      "offset": 15469680,
+      "md5": "9cc4a6a1141fe47736fb8586d13ea80b"
+    },
+    {
+      "path": "scripts/presentation/wake.gdshader",
+      "bytes": 362,
+      "offset": 15470016,
+      "md5": "fbec1b49831c9f97167d46f0043e090a"
+    },
+    {
+      "path": "scripts/ship_geometry.gd.remap",
+      "bytes": 48,
+      "offset": 15669744,
+      "md5": "38ff1d1447a1c8c3d3870d7c53c4803f"
+    },
+    {
+      "path": "scripts/ship_geometry.gdc",
+      "bytes": 35952,
+      "offset": 15590768,
+      "md5": "d3a314ad38622712a4213341076989d3"
+    },
+    {
+      "path": "scripts/simulation/aircraft_motion/aircraft_motion.gd.remap",
+      "bytes": 77,
+      "offset": 15667312,
+      "md5": "daf696ff15fcb64f87f36434741ef661"
+    },
+    {
+      "path": "scripts/simulation/aircraft_motion/aircraft_motion.gdc",
+      "bytes": 5344,
+      "offset": 15470384,
+      "md5": "9b9fcd8babce610b7cf5a4ae138d8a77"
+    },
+    {
+      "path": "scripts/simulation/aircraft_motion/aircraft_performance.gd.remap",
+      "bytes": 82,
+      "offset": 15667392,
+      "md5": "0f39aa170859ee43e229480aede461c6"
+    },
+    {
+      "path": "scripts/simulation/aircraft_motion/aircraft_performance.gdc",
+      "bytes": 585,
+      "offset": 15475728,
+      "md5": "08b1794a9864ede00abc9b1b73d1fa51"
+    },
+    {
+      "path": "scripts/simulation/collision/combat_frame.gd.remap",
+      "bytes": 68,
+      "offset": 15667488,
+      "md5": "ef86241c85cc7e668e8b4d7eb65c78e3"
+    },
+    {
+      "path": "scripts/simulation/collision/combat_frame.gdc",
+      "bytes": 2603,
+      "offset": 15476320,
+      "md5": "b8e860fa3c01d79ffcbda7a00cac2e0f"
+    },
+    {
+      "path": "scripts/simulation/collision/combat_geometry.gd.remap",
+      "bytes": 71,
+      "offset": 15667568,
+      "md5": "8ec1127b73c2c40e6cbd7a603f770996"
+    },
+    {
+      "path": "scripts/simulation/collision/combat_geometry.gdc",
+      "bytes": 2551,
+      "offset": 15478928,
+      "md5": "a7e4b175f11f96be22b63f13be3a2afc"
+    },
+    {
+      "path": "scripts/simulation/collision/combat_presence.gd.remap",
+      "bytes": 71,
+      "offset": 15667648,
+      "md5": "ce8630cc69fe7922f66d56603c3e69e3"
+    },
+    {
+      "path": "scripts/simulation/collision/combat_presence.gdc",
+      "bytes": 440,
+      "offset": 15481488,
+      "md5": "59bd5beebfd9fb5441fff069091033bf"
+    },
+    {
+      "path": "scripts/simulation/damage/combat_damage.gd.remap",
+      "bytes": 66,
+      "offset": 15667728,
+      "md5": "bc7c375bc8159d86af393de2fcbbd35d"
+    },
+    {
+      "path": "scripts/simulation/damage/combat_damage.gdc",
+      "bytes": 8191,
+      "offset": 15481936,
+      "md5": "5dddf675f73f5a3dff79b8371c2a02d7"
+    },
+    {
+      "path": "scripts/simulation/fire_control/combat_fire_control.gd.remap",
+      "bytes": 78,
+      "offset": 15667808,
+      "md5": "8965a26b9a97efcf6fc5a8e00d8f5dc3"
+    },
+    {
+      "path": "scripts/simulation/fire_control/combat_fire_control.gdc",
+      "bytes": 2118,
+      "offset": 15490128,
+      "md5": "ab3b92c33a597052ee7f1b3df61f9a55"
+    },
+    {
+      "path": "scripts/simulation/projectiles/combat_projectiles.gd.remap",
+      "bytes": 76,
+      "offset": 15667888,
+      "md5": "59dbd3a6524e701753d147c4d347dd04"
+    },
+    {
+      "path": "scripts/simulation/projectiles/combat_projectiles.gdc",
+      "bytes": 8897,
+      "offset": 15492256,
+      "md5": "99ab9f0194a6d40a22653987e7e5d2bb"
+    },
+    {
+      "path": "scripts/simulation/ship_motion/fleet_config.gd.remap",
+      "bytes": 70,
+      "offset": 15667968,
+      "md5": "fa59fa4ceb272a7429ce23e4bc024278"
+    },
+    {
+      "path": "scripts/simulation/ship_motion/fleet_config.gdc",
+      "bytes": 2916,
+      "offset": 15501168,
+      "md5": "49ad73d4f75cfb9aa18d99d86ee85b69"
+    },
+    {
+      "path": "scripts/simulation/ship_motion/ship_motion.gd.remap",
+      "bytes": 69,
+      "offset": 15668048,
+      "md5": "26408bb770876812d4236df080b40437"
+    },
+    {
+      "path": "scripts/simulation/ship_motion/ship_motion.gdc",
+      "bytes": 7525,
+      "offset": 15504096,
+      "md5": "760b76e978dc0a6820a3fb992e3c3e4f"
+    },
+    {
+      "path": "scripts/simulation/ship_motion/ship_navigation.gd.remap",
+      "bytes": 73,
+      "offset": 15668128,
+      "md5": "545ddbaa0053fdff2d06712395219e1f"
+    },
+    {
+      "path": "scripts/simulation/ship_motion/ship_navigation.gdc",
+      "bytes": 2385,
+      "offset": 15511632,
+      "md5": "992fb9c203f3565d2f12d486efd4976b"
+    },
+    {
+      "path": "scripts/simulation/simulation_module.gd.remap",
+      "bytes": 63,
+      "offset": 15669312,
+      "md5": "2902ffa5b5e5b2d1fd36fefa3c3f1c84"
+    },
+    {
+      "path": "scripts/simulation/simulation_module.gdc",
+      "bytes": 858,
+      "offset": 15549200,
+      "md5": "9b2412925094855e3d8ed6d67e6102de"
+    },
+    {
+      "path": "scripts/simulation/simulation_world.gd.remap",
+      "bytes": 62,
+      "offset": 15669376,
+      "md5": "98476bec1a76aa2fa0903d7692c36c69"
+    },
+    {
+      "path": "scripts/simulation/simulation_world.gdc",
+      "bytes": 19865,
+      "offset": 15550064,
+      "md5": "b774c27a23b2bbec9eac8b880147e2d1"
+    },
+    {
+      "path": "scripts/simulation/state/ammo_definition.gd.remap",
+      "bytes": 67,
+      "offset": 15668208,
+      "md5": "3b785a3cd29ab5fab8d1b395a60a0136"
+    },
+    {
+      "path": "scripts/simulation/state/ammo_definition.gdc",
+      "bytes": 664,
+      "offset": 15514032,
+      "md5": "808bd773f5ad83662cd8a2bba3e0e4c9"
+    },
+    {
+      "path": "scripts/simulation/state/battle_command.gd.remap",
+      "bytes": 66,
+      "offset": 15668288,
+      "md5": "d6238a2b6b9cfc10d84280dabb9627b4"
+    },
+    {
+      "path": "scripts/simulation/state/battle_command.gdc",
+      "bytes": 1097,
+      "offset": 15514704,
+      "md5": "87a4386243c0b2b26aff609d32e5c052"
+    },
+    {
+      "path": "scripts/simulation/state/battle_event.gd.remap",
+      "bytes": 64,
+      "offset": 15668368,
+      "md5": "460f824b829986e9a0e457982d563938"
+    },
+    {
+      "path": "scripts/simulation/state/battle_event.gdc",
+      "bytes": 967,
+      "offset": 15515808,
+      "md5": "6ab97f2a53c30bf85309f0eab72f743c"
+    },
+    {
+      "path": "scripts/simulation/state/battle_order.gd.remap",
+      "bytes": 64,
+      "offset": 15668432,
+      "md5": "b296139c546a536a5b69f2f2514ce327"
+    },
+    {
+      "path": "scripts/simulation/state/battle_order.gdc",
+      "bytes": 2389,
+      "offset": 15516784,
+      "md5": "c2c58886ab96239a54b57540f513c9bf"
+    },
+    {
+      "path": "scripts/simulation/state/definition_catalog.gd.remap",
+      "bytes": 70,
+      "offset": 15668496,
+      "md5": "e4d87c530d534639a39177f9de39993a"
+    },
+    {
+      "path": "scripts/simulation/state/definition_catalog.gdc",
+      "bytes": 8603,
+      "offset": 15519184,
+      "md5": "c5f87858e9ee5cefd53c759d2b300c6b"
+    },
+    {
+      "path": "scripts/simulation/state/mount_socket.gd.remap",
+      "bytes": 64,
+      "offset": 15668576,
+      "md5": "cfed627090bf589c76a41697806bee7e"
+    },
+    {
+      "path": "scripts/simulation/state/mount_socket.gdc",
+      "bytes": 1147,
+      "offset": 15527792,
+      "md5": "2c80d017647fc11175920986917d52c5"
+    },
+    {
+      "path": "scripts/simulation/state/scenario_definition.gd.remap",
+      "bytes": 71,
+      "offset": 15668640,
+      "md5": "56327a28af109619164851c6a9c9d686"
+    },
+    {
+      "path": "scripts/simulation/state/scenario_definition.gdc",
+      "bytes": 810,
+      "offset": 15528944,
+      "md5": "461f7923fe0e8dfa056005c73bd87f47"
+    },
+    {
+      "path": "scripts/simulation/state/sim_data.gd.remap",
+      "bytes": 60,
+      "offset": 15668720,
+      "md5": "6909c353fd3c6a6728507b824d065cd7"
+    },
+    {
+      "path": "scripts/simulation/state/sim_data.gdc",
+      "bytes": 1156,
+      "offset": 15529760,
+      "md5": "7c3337787806e8424b13d8730b0d0e27"
+    },
+    {
+      "path": "scripts/simulation/state/unit_definition.gd.remap",
+      "bytes": 67,
+      "offset": 15668784,
+      "md5": "fe79db5e8986b1a89108a0a347c324eb"
+    },
+    {
+      "path": "scripts/simulation/state/unit_definition.gdc",
+      "bytes": 1066,
+      "offset": 15530928,
+      "md5": "f5b24743b7bb5e4a1b4bf1a55e7a83a0"
+    },
+    {
+      "path": "scripts/simulation/state/unit_state.gd.remap",
+      "bytes": 62,
+      "offset": 15668864,
+      "md5": "543c95579d756bcb4105a9ef6e885a2f"
+    },
+    {
+      "path": "scripts/simulation/state/unit_state.gdc",
+      "bytes": 1124,
+      "offset": 15532000,
+      "md5": "89b7db1438b98ef142e38714ec5da368"
+    },
+    {
+      "path": "scripts/simulation/state/weapon_definition.gd.remap",
+      "bytes": 69,
+      "offset": 15668928,
+      "md5": "4c37a5889f934b184aebfa8443d9e8a1"
+    },
+    {
+      "path": "scripts/simulation/state/weapon_definition.gdc",
+      "bytes": 905,
+      "offset": 15533136,
+      "md5": "1c5f6f68c225edd1f3d6fda192125f0f"
+    },
+    {
+      "path": "scripts/simulation/state/weapon_state.gd.remap",
+      "bytes": 64,
+      "offset": 15669008,
+      "md5": "c3ca780ea014a1d7aa2087094c44600c"
+    },
+    {
+      "path": "scripts/simulation/state/weapon_state.gdc",
+      "bytes": 1034,
+      "offset": 15534048,
+      "md5": "8241379faac9ae0a5b52ff7a51192536"
+    },
+    {
+      "path": "scripts/simulation/weapons/combat_config.gd.remap",
+      "bytes": 67,
+      "offset": 15669072,
+      "md5": "8670d652b30ffe24c28f9637a301852b"
+    },
+    {
+      "path": "scripts/simulation/weapons/combat_config.gdc",
+      "bytes": 5489,
+      "offset": 15535088,
+      "md5": "49df63d9eb6eb0dd6608f1146aab8abc"
+    },
+    {
+      "path": "scripts/simulation/weapons/combat_suite.gd.remap",
+      "bytes": 66,
+      "offset": 15669152,
+      "md5": "571cc9f695a4049b77d0563e133871b3"
+    },
+    {
+      "path": "scripts/simulation/weapons/combat_suite.gdc",
+      "bytes": 1311,
+      "offset": 15540592,
+      "md5": "e68ff1299c7e0f2519461c5fa753adf0"
+    },
+    {
+      "path": "scripts/simulation/weapons/combat_weapons.gd.remap",
+      "bytes": 68,
+      "offset": 15669232,
+      "md5": "567385e2d5448ae4288f5088ba893d25"
+    },
+    {
+      "path": "scripts/simulation/weapons/combat_weapons.gdc",
+      "bytes": 7296,
+      "offset": 15541904,
+      "md5": "24296e4bfb16fe11b1d331371f24285c"
+    },
+    {
+      "path": "scripts/weapon_mount.gd.remap",
+      "bytes": 47,
+      "offset": 15669792,
+      "md5": "21e5275313dd33262d58076ee5ce00c3"
+    },
+    {
+      "path": "scripts/weapon_mount.gdc",
+      "bytes": 2483,
+      "offset": 15626720,
+      "md5": "811e0b9489c23f4e2c0f609f9ffa2ace"
+    },
+    {
+      "path": "scripts/weapons/navy_vickers_77mm.gd.remap",
+      "bytes": 60,
+      "offset": 15669440,
+      "md5": "0f22033a49d54f26e676a735f2d2c686"
+    },
+    {
+      "path": "scripts/weapons/navy_vickers_77mm.gdc",
+      "bytes": 1982,
+      "offset": 15569936,
+      "md5": "6206d366270b0b2cb84753f8718e1b6a"
+    },
+    {
+      "path": "scripts/weapons/type96_25mm_single.gd.remap",
+      "bytes": 61,
+      "offset": 15669504,
+      "md5": "07c988c429c3632b9985d11776595a5d"
+    },
+    {
+      "path": "scripts/weapons/type96_25mm_single.gdc",
+      "bytes": 2899,
+      "offset": 15571920,
+      "md5": "20300c58cbeac1f08d84950a5eafa759"
+    },
+    {
+      "path": "scripts/weapons/type96_twin_25mm.gd.remap",
+      "bytes": 59,
+      "offset": 15669568,
+      "md5": "1f80225b9c472f80a3dfa6baba13c768"
+    },
+    {
+      "path": "scripts/weapons/type96_twin_25mm.gdc",
+      "bytes": 862,
+      "offset": 15574832,
+      "md5": "d087d131368fa68180d92eb41b877ade"
+    },
+    {
+      "path": "showcase/first_playable.tscn.remap",
+      "bytes": 107,
+      "offset": 15669840,
+      "md5": "802e04a0afa1c8b71f002cba49612ba9"
+    },
+    {
+      "path": "ui/observer_hud.gd.remap",
+      "bytes": 42,
+      "offset": 15669952,
+      "md5": "bd5855afa7070a76ed64e061eb353919"
+    },
+    {
+      "path": "ui/observer_hud.gdc",
+      "bytes": 13840,
+      "offset": 15629920,
+      "md5": "d36617d89b6ef78cbe34d392e9cb93fd"
+    },
+    {
+      "path": "ui/observer_map.gd.remap",
+      "bytes": 42,
+      "offset": 15670000,
+      "md5": "983cb0a2f235974835c32160db120751"
+    },
+    {
+      "path": "ui/observer_map.gdc",
+      "bytes": 2757,
+      "offset": 15643760,
+      "md5": "ba3f840f4da1fc400b146160655bb26e"
+    },
+    {
+      "path": "ui/observer_text.gd.remap",
+      "bytes": 43,
+      "offset": 15670048,
+      "md5": "c62ff511272f3ac6f830a9707b891e50"
+    },
+    {
+      "path": "ui/observer_text.gdc",
+      "bytes": 6752,
+      "offset": 15646528,
+      "md5": "59d0b78ffffc21bc7dcac1ea3ac6077e"
+    }
+  ]
+}

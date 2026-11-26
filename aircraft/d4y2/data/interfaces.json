@@ -1,0 +1,961 @@
+{
+	"axis": {
+		"forward": "-Z",
+		"origin": "fixed visual airframe datum (not surveyed CG)",
+		"right": "+X",
+		"units": "m, rad, s",
+		"up": "+Y"
+	},
+	"confidence": "nominal dimensions original A11; stations photographic estimates; NOT factory survey",
+	"damage_modules": [
+		{
+			"bbox_min_m": [
+				-0.550000011920929,
+				-0.680000007152557,
+				-2.40609359741211
+			],
+			"bbox_size_m": [
+				1.10000002384186,
+				2.36119747161865,
+				5.20609378814697
+			],
+			"collision_proxy": "suggested bounds only; must refine simulation hits by part, not applied collision bodies",
+			"id": "center",
+			"path": "Center",
+			"root_transform": "identity, world-airframe coordinates; reparent with transform retained"
+		},
+		{
+			"bbox_min_m": [
+				-1.3731404542923,
+				-0.834951996803284,
+				-5.10999965667725
+			],
+			"bbox_size_m": [
+				2.77128124237061,
+				2.43495178222656,
+				2.90999960899353
+			],
+			"collision_proxy": "suggested bounds only; must refine simulation hits by part, not applied collision bodies",
+			"id": "engine",
+			"path": "Engine",
+			"root_transform": "identity, world-airframe coordinates; reparent with transform retained"
+		},
+		{
+			"bbox_min_m": [
+				-5.75,
+				-1.59999990463257,
+				-2.11999988555908
+			],
+			"bbox_size_m": [
+				5.25,
+				1.74309992790222,
+				2.94689989089966
+			],
+			"collision_proxy": "suggested bounds only; must refine simulation hits by part, not applied collision bodies",
+			"id": "left_wing",
+			"path": "LeftWing",
+			"root_transform": "identity, world-airframe coordinates; reparent with transform retained"
+		},
+		{
+			"bbox_min_m": [
+				0.5,
+				-1.59999990463257,
+				-2.11999988555908
+			],
+			"bbox_size_m": [
+				5.25,
+				1.74309992790222,
+				2.94689989089966
+			],
+			"collision_proxy": "suggested bounds only; must refine simulation hits by part, not applied collision bodies",
+			"id": "right_wing",
+			"path": "RightWing",
+			"root_transform": "identity, world-airframe coordinates; reparent with transform retained"
+		},
+		{
+			"bbox_min_m": [
+				-2.25,
+				-0.46000000834465,
+				2.79999995231628
+			],
+			"bbox_size_m": [
+				4.5,
+				2.18999981880188,
+				2.30999970436096
+			],
+			"collision_proxy": "suggested bounds only; must refine simulation hits by part, not applied collision bodies",
+			"id": "tail",
+			"path": "Tail",
+			"root_transform": "identity, world-airframe coordinates; reparent with transform retained"
+		}
+	],
+	"default_state": {
+		"bay": 0.0,
+		"bomb_visible": true,
+		"brake": 0.0,
+		"crutch": 0.0,
+		"flap": 0.0,
+		"gear": 1.0,
+		"hook": 0.0,
+		"propeller_rad": 0.0,
+		"rear_gun": false
+	},
+	"geometry_budget": {
+		"all_states_mesh_nodes": 198,
+		"all_states_triangles": 50280,
+		"note": "native source model includes independently movable pieces; no production batching or fleet performance claim"
+	},
+	"markers": [
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Type97_Port",
+			"id": "MUZZLE_TYPE97_PORT",
+			"path": "Engine/Type97_Port/MUZZLE_TYPE97_PORT",
+			"position_m": [
+				-0.200000002980232,
+				0.469999998807907,
+				-3.94000005722046
+			],
+			"source_status": "2 fixed Type97 7.7mm; station photo-estimated, bore -Z"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Type97_Starboard",
+			"id": "MUZZLE_TYPE97_STARBOARD",
+			"path": "Engine/Type97_Starboard/MUZZLE_TYPE97_STARBOARD",
+			"position_m": [
+				0.200000002980232,
+				0.469999998807907,
+				-3.94000005722046
+			],
+			"source_status": "2 fixed Type97 7.7mm; station photo-estimated, bore -Z"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "FlapLeftWing",
+			"id": "HINGE_FLAP_LEFT_WING",
+			"path": "LeftWing/FlapLeftWing/HINGE_FLAP_LEFT_WING",
+			"position_m": [
+				-0.649999976158142,
+				-0.0875141695141792,
+				0.0949999988079071
+			],
+			"source_status": "simplified control hinge, local +X; photo-estimated"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "AileronLeftWing",
+			"id": "HINGE_AILERON_LEFT_WING",
+			"path": "LeftWing/AileronLeftWing/HINGE_AILERON_LEFT_WING",
+			"position_m": [
+				-3.45000004768372,
+				0.0317970886826515,
+				-0.234999999403954
+			],
+			"source_status": "simplified control hinge, local +X; photo-estimated"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "DiveBrake1",
+			"id": "HINGE_BRAKE_LEFT_WING_0",
+			"path": "LeftWing/DiveBrake1/HINGE_BRAKE_LEFT_WING_0",
+			"position_m": [
+				-0.850000023841858,
+				-0.324656069278717,
+				-0.302571415901184
+			],
+			"source_status": "R05 and 3 panels/wing text; reconstructed span and simplified chord"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "DiveBrake2",
+			"id": "HINGE_BRAKE_LEFT_WING_1",
+			"path": "LeftWing/DiveBrake2/HINGE_BRAKE_LEFT_WING_1",
+			"position_m": [
+				-1.69000005722046,
+				-0.254702270030975,
+				-0.388971418142319
+			],
+			"source_status": "R05 and 3 panels/wing text; reconstructed span and simplified chord"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "DiveBrake3",
+			"id": "HINGE_BRAKE_LEFT_WING_2",
+			"path": "LeftWing/DiveBrake3/HINGE_BRAKE_LEFT_WING_2",
+			"position_m": [
+				-2.52999997138977,
+				-0.186766535043716,
+				-0.467695236206055
+			],
+			"source_status": "R05 and 3 panels/wing text; reconstructed span and simplified chord"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "LeftWing",
+			"id": "DAMAGE_LEFT_WING_CUT",
+			"path": "LeftWing/DAMAGE_LEFT_WING_CUT",
+			"position_m": [
+				-0.5,
+				-0.239999994635582,
+				-0.800000011920929
+			],
+			"source_status": "precut wing root boundary"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "LeftWing",
+			"id": "STORE_WING_LEFT_WING",
+			"path": "LeftWing/STORE_WING_LEFT_WING",
+			"position_m": [
+				-2.84999990463257,
+				-0.180291280150414,
+				-0.981428563594818
+			],
+			"source_status": "optional underwing station; payload/type not validated; not registered"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "FlapRightWing",
+			"id": "HINGE_FLAP_RIGHT_WING",
+			"path": "RightWing/FlapRightWing/HINGE_FLAP_RIGHT_WING",
+			"position_m": [
+				0.649999976158142,
+				-0.0875141695141792,
+				0.0949999988079071
+			],
+			"source_status": "simplified control hinge, local +X; photo-estimated"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "AileronRightWing",
+			"id": "HINGE_AILERON_RIGHT_WING",
+			"path": "RightWing/AileronRightWing/HINGE_AILERON_RIGHT_WING",
+			"position_m": [
+				3.45000004768372,
+				0.0317970886826515,
+				-0.234999999403954
+			],
+			"source_status": "simplified control hinge, local +X; photo-estimated"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "DiveBrake1",
+			"id": "HINGE_BRAKE_RIGHT_WING_0",
+			"path": "RightWing/DiveBrake1/HINGE_BRAKE_RIGHT_WING_0",
+			"position_m": [
+				0.850000023841858,
+				-0.324656069278717,
+				-0.302571415901184
+			],
+			"source_status": "R05 and 3 panels/wing text; reconstructed span and simplified chord"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "DiveBrake2",
+			"id": "HINGE_BRAKE_RIGHT_WING_1",
+			"path": "RightWing/DiveBrake2/HINGE_BRAKE_RIGHT_WING_1",
+			"position_m": [
+				1.69000005722046,
+				-0.254702270030975,
+				-0.388971418142319
+			],
+			"source_status": "R05 and 3 panels/wing text; reconstructed span and simplified chord"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "DiveBrake3",
+			"id": "HINGE_BRAKE_RIGHT_WING_2",
+			"path": "RightWing/DiveBrake3/HINGE_BRAKE_RIGHT_WING_2",
+			"position_m": [
+				2.52999997138977,
+				-0.186766535043716,
+				-0.467695236206055
+			],
+			"source_status": "R05 and 3 panels/wing text; reconstructed span and simplified chord"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "RightWing",
+			"id": "DAMAGE_RIGHT_WING_CUT",
+			"path": "RightWing/DAMAGE_RIGHT_WING_CUT",
+			"position_m": [
+				0.5,
+				-0.239999994635582,
+				-0.800000011920929
+			],
+			"source_status": "precut wing root boundary"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "RightWing",
+			"id": "STORE_WING_RIGHT_WING",
+			"path": "RightWing/STORE_WING_RIGHT_WING",
+			"position_m": [
+				2.84999990463257,
+				-0.180291280150414,
+				-0.981428563594818
+			],
+			"source_status": "optional underwing station; payload/type not validated; not registered"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "ElevatorLeft",
+			"id": "HINGE_ELEVATOR_LEFT",
+			"path": "Tail/ElevatorLeft/HINGE_ELEVATOR_LEFT",
+			"position_m": [
+				-0.150000005960464,
+				0.197192311286926,
+				4.55775022506714
+			],
+			"source_status": "simplified control hinge, local +X; photo-estimated"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "ElevatorRight",
+			"id": "HINGE_ELEVATOR_RIGHT",
+			"path": "Tail/ElevatorRight/HINGE_ELEVATOR_RIGHT",
+			"position_m": [
+				0.150000005960464,
+				0.197192311286926,
+				4.55775022506714
+			],
+			"source_status": "simplified control hinge, local +X; photo-estimated"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Rudder",
+			"id": "HINGE_RUDDER",
+			"path": "Tail/Rudder/HINGE_RUDDER",
+			"position_m": [
+				0.0,
+				0.119999997317791,
+				4.42999982833862
+			],
+			"source_status": "local +Y; fin/rudder photos reconstructed"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Blade1",
+			"id": "PROP_TIP_0",
+			"path": "Engine/Propeller/Blade1/PROP_TIP_0",
+			"position_m": [
+				0.0,
+				1.60000002384186,
+				-4.71999979019165
+			],
+			"source_status": "photo-estimated radius; 3-blade assembly"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Blade2",
+			"id": "PROP_TIP_1",
+			"path": "Engine/Propeller/Blade2/PROP_TIP_1",
+			"position_m": [
+				-1.3856406211853,
+				-0.800000131130219,
+				-4.71999979019165
+			],
+			"source_status": "photo-estimated radius; 3-blade assembly"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Blade3",
+			"id": "PROP_TIP_2",
+			"path": "Engine/Propeller/Blade3/PROP_TIP_2",
+			"position_m": [
+				1.38564074039459,
+				-0.799999892711639,
+				-4.71999979019165
+			],
+			"source_status": "photo-estimated radius; 3-blade assembly"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Engine",
+			"id": "ENGINE_SMOKE",
+			"path": "Engine/ENGINE_SMOKE",
+			"position_m": [
+				0.0,
+				0.370000004768372,
+				-2.45000004768372
+			],
+			"source_status": "simulation-driven emission suggestion, no automatic smoke"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "MainGear",
+			"id": "WHEEL_PORT",
+			"path": "LeftWing/MainGear/WHEEL_PORT",
+			"position_m": [
+				-2.1800000667572,
+				-1.27999997138977,
+				-1.79999995231628
+			],
+			"source_status": "M03/M05/R04: wheel station/radius photo-estimated; center of actual cylinder"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "MainGear",
+			"id": "GEAR_PIVOT_PORT",
+			"path": "LeftWing/MainGear/GEAR_PIVOT_PORT",
+			"position_m": [
+				-2.0,
+				-0.200000002980232,
+				-1.5
+			],
+			"source_status": "simple inward rotation, no well linkage"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "MainGear",
+			"id": "WHEEL_STARBOARD",
+			"path": "RightWing/MainGear/WHEEL_STARBOARD",
+			"position_m": [
+				2.1800000667572,
+				-1.27999997138977,
+				-1.79999995231628
+			],
+			"source_status": "M03/M05/R04: wheel station/radius photo-estimated; center of actual cylinder"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "MainGear",
+			"id": "GEAR_PIVOT_STARBOARD",
+			"path": "RightWing/MainGear/GEAR_PIVOT_STARBOARD",
+			"position_m": [
+				2.0,
+				-0.200000002980232,
+				-1.5
+			],
+			"source_status": "simple inward rotation, no well linkage"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "TailGear",
+			"id": "WHEEL_TAIL",
+			"path": "Tail/TailGear/WHEEL_TAIL",
+			"position_m": [
+				0.0,
+				-0.340000003576279,
+				4.19999980926514
+			],
+			"source_status": "short tailwheel, not extended to force level parking"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Door-1_0",
+			"id": "BAY_HINGE_LEFT",
+			"path": "Center/BombBay/Door-1_0/BAY_HINGE_LEFT",
+			"position_m": [
+				0.316555947065353,
+				-0.515679657459259,
+				0.0
+			],
+			"source_status": "curved door matches real shell cut; simplified longitudinal hinge"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Door1_0",
+			"id": "BAY_HINGE_RIGHT",
+			"path": "Center/BombBay/Door1_0/BAY_HINGE_RIGHT",
+			"position_m": [
+				-0.316555947065353,
+				-0.515679657459259,
+				0.0
+			],
+			"source_status": "curved door matches real shell cut; simplified longitudinal hinge"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "SwingCrutch",
+			"id": "STORE_INTERNAL",
+			"path": "Center/BombBay/SwingCrutch/STORE_INTERNAL",
+			"position_m": [
+				0.0,
+				-0.570000052452087,
+				0.229999959468842
+			],
+			"source_status": "one250kg visual; actual suspension lug is +0.15m above store centre"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "SwingCrutch",
+			"id": "BOMB_RELEASE",
+			"path": "Center/BombBay/SwingCrutch/BOMB_RELEASE",
+			"position_m": [
+				0.0,
+				-0.570000052452087,
+				0.229999959468842
+			],
+			"source_status": "moving reference follows crutch; actual release is BOMB01 responsibility"
+		},
+		{
+			"forward": [
+				0.0,
+				0.5735764503479,
+				0.819152057170868
+			],
+			"host_id": "ElevationAxis",
+			"id": "MUZZLE_TYPE1_REAR",
+			"path": "Center/RearGunInstallation/TrainAxis/ElevationAxis/MUZZLE_TYPE1_REAR",
+			"position_m": [
+				0.0,
+				1.22785031795502,
+				1.0572634935379
+			],
+			"source_status": "single7.92mm Type1, photo-estimated mount; local +Z bore"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "TrainAxis",
+			"id": "REAR_TRAIN_AXIS",
+			"path": "Center/RearGunInstallation/TrainAxis/REAR_TRAIN_AXIS",
+			"position_m": [
+				0.0,
+				0.709999978542328,
+				0.370000004768372
+			],
+			"source_status": "presentation range only; true firing/self-occlusion is BOMB01"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "HookAxis",
+			"id": "HOOK_TIP",
+			"path": "Center/HookAxis/HOOK_TIP",
+			"position_m": [
+				0.0,
+				-0.270000010728836,
+				3.13000011444092
+			],
+			"source_status": "0.92m approximate hook; endpoint follows actual local +X axis"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "HookAxis",
+			"id": "HOOK_PIVOT",
+			"path": "Center/HookAxis/HOOK_PIVOT",
+			"position_m": [
+				0.0,
+				-0.270000010728836,
+				2.25
+			],
+			"source_status": "recess simplified; support attaches inside aft cockpit"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Center",
+			"id": "FLIGHT_DATUM",
+			"path": "Center/FLIGHT_DATUM",
+			"position_m": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"source_status": "presentation reference; NOT measured CG"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Engine",
+			"id": "DAMAGE_ENGINE_CUT",
+			"path": "Engine/DAMAGE_ENGINE_CUT",
+			"position_m": [
+				0.0,
+				0.0,
+				-2.20000004768372
+			],
+			"source_status": "precut module boundary"
+		},
+		{
+			"forward": [
+				0.0,
+				0.0,
+				-1.0
+			],
+			"host_id": "Tail",
+			"id": "DAMAGE_TAIL_CUT",
+			"path": "Tail/DAMAGE_TAIL_CUT",
+			"position_m": [
+				0.0,
+				0.0149999996647239,
+				2.79999995231628
+			],
+			"source_status": "precut module boundary"
+		}
+	],
+	"measurement": {
+		"clearances": {
+			"belly_skin_m": 0.249253213405609,
+			"brake_low_m": 0.843386769294739,
+			"chin_radiator_m": 1.13175678253174,
+			"flap_low_m": 0.46228563785553,
+			"fully_swung_bomb_parked_m": -0.499992728233337,
+			"hook_tip_m": 0.0517435073852539,
+			"propeller_disc_m": 0.552369022369385,
+			"propeller_swept_top_m": 3.69578084945679,
+			"{ \"bay\": 0.0, \"crutch\": 0.0, \"hook\": 1.0 }": -0.0000320672988891602,
+			"{ \"brake\": 0.0, \"bay\": 1.0, \"crutch\": 0.0 }": -0.0000320672988891602,
+			"{ \"flap\": 0.0, \"brake\": 1.0 }": -0.0000320672988891602,
+			"{ \"flap\": 1.0 }": -0.0000320672988891602
+		},
+		"contacts": [
+			{
+				"center_m": [
+					-2.1800000667572,
+					-1.27999997138977,
+					-1.79999995231628
+				],
+				"id": "WHEEL_PORT",
+				"lowest_mesh_y_m": -0.0000321269035339355,
+				"radius_m": 0.32
+			},
+			{
+				"center_m": [
+					2.1800000667572,
+					-1.27999997138977,
+					-1.79999995231628
+				],
+				"id": "WHEEL_STARBOARD",
+				"lowest_mesh_y_m": -0.0000321269035339355,
+				"radius_m": 0.32
+			},
+			{
+				"center_m": [
+					0.0,
+					-0.340000003576279,
+					4.19999980926514
+				],
+				"id": "WHEEL_TAIL",
+				"lowest_mesh_y_m": 0.000000461935997009277,
+				"radius_m": 0.12
+			}
+		],
+		"flight_envelope_m": {
+			"min": [
+				-5.75,
+				-0.834951996803284,
+				-5.10999965667725
+			],
+			"size": [
+				11.5,
+				2.56495189666748,
+				10.2199993133545
+			]
+		},
+		"marker_count": 39,
+		"parked_envelope_m": {
+			"min": [
+				-5.75,
+				-0.0000320672988891602,
+				-5.02019691467285
+			],
+			"size": [
+				11.5,
+				3.69815301895142,
+				10.1021566390991
+			]
+		},
+		"parked_pitch_deg": 10.791146497071,
+		"parked_translation_m": [
+			0.0,
+			1.24035167694092,
+			0.0
+		]
+	},
+	"model_id": "jp_d4y2_model12_1944_10",
+	"motion_axes": [
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "flap_left_wing",
+			"path": "LeftWing/FlapLeftWing",
+			"position_m": [
+				-0.649999976158142,
+				-0.0875141695141792,
+				0.0949999988079071
+			]
+		},
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "aileron_left_wing",
+			"path": "LeftWing/AileronLeftWing",
+			"position_m": [
+				-3.45000004768372,
+				0.0317970886826515,
+				-0.234999999403954
+			]
+		},
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "brake_left_wing_0",
+			"path": "LeftWing/DiveBrake1",
+			"position_m": [
+				-0.850000023841858,
+				-0.324656069278717,
+				-0.302571415901184
+			]
+		},
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "brake_left_wing_1",
+			"path": "LeftWing/DiveBrake2",
+			"position_m": [
+				-1.69000005722046,
+				-0.254702270030975,
+				-0.388971418142319
+			]
+		},
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "brake_left_wing_2",
+			"path": "LeftWing/DiveBrake3",
+			"position_m": [
+				-2.52999997138977,
+				-0.186766535043716,
+				-0.467695236206055
+			]
+		},
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "flap_right_wing",
+			"path": "RightWing/FlapRightWing",
+			"position_m": [
+				0.649999976158142,
+				-0.0875141695141792,
+				0.0949999988079071
+			]
+		},
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "aileron_right_wing",
+			"path": "RightWing/AileronRightWing",
+			"position_m": [
+				3.45000004768372,
+				0.0317970886826515,
+				-0.234999999403954
+			]
+		},
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "brake_right_wing_0",
+			"path": "RightWing/DiveBrake1",
+			"position_m": [
+				0.850000023841858,
+				-0.324656069278717,
+				-0.302571415901184
+			]
+		},
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "brake_right_wing_1",
+			"path": "RightWing/DiveBrake2",
+			"position_m": [
+				1.69000005722046,
+				-0.254702270030975,
+				-0.388971418142319
+			]
+		},
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "brake_right_wing_2",
+			"path": "RightWing/DiveBrake3",
+			"position_m": [
+				2.52999997138977,
+				-0.186766535043716,
+				-0.467695236206055
+			]
+		},
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "elevator_left",
+			"path": "Tail/ElevatorLeft",
+			"position_m": [
+				-0.150000005960464,
+				0.197192311286926,
+				4.55775022506714
+			]
+		},
+		{
+			"axis": "+X",
+			"hierarchy_in_damage_part": true,
+			"id": "elevator_right",
+			"path": "Tail/ElevatorRight",
+			"position_m": [
+				0.150000005960464,
+				0.197192311286926,
+				4.55775022506714
+			]
+		},
+		{
+			"axis": "+Y",
+			"hierarchy_in_damage_part": true,
+			"id": "rudder",
+			"path": "Tail/Rudder",
+			"position_m": [
+				0.0,
+				0.119999997317791,
+				4.42999982833862
+			]
+		}
+	],
+	"registered": false,
+	"schema_version": "av02-model-0.1"
+}

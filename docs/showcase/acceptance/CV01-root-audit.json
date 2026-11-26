@@ -1,0 +1,300 @@
+{
+  "checked_utc": "2026-11-10T20:37:34.979851+00:00",
+  "status": "scoped_carrier_model_and_static_deck_fit_accepted_operations_and_S14_not_included",
+  "hash_counts": {
+    "runtime_source_sha256": 35,
+    "owned_file_sha256": 63,
+    "evidence_sha256": 159
+  },
+  "frozen_web_sources": 35,
+  "web_output_files": 9,
+  "mismatches": [],
+  "verification_runs": [
+    {
+      "run_id": "20261110T194349-08606f50",
+      "passed": false,
+      "exit_code": 1,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T194434-d00b1b12",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T194537-f3eac16d",
+      "passed": false,
+      "exit_code": 1,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T194657-6b07f4d8",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T194838-053d2d09",
+      "passed": false,
+      "exit_code": 2,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T195306-401f9aed",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T195807-632b8707",
+      "passed": false,
+      "exit_code": 1,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T200009-bfcc7a71",
+      "passed": false,
+      "exit_code": 1,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T200150-79942d52",
+      "passed": false,
+      "exit_code": 1,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T200335-1d1909ed",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T200558-a31ff8b9",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T201258-19a3bf04",
+      "passed": false,
+      "exit_code": 1,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T201515-0eebb841",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T201552-bd3b6e56",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T201657-4343bb75",
+      "passed": false,
+      "exit_code": 1,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T201829-d7343583",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T201832-b60ce800",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T201958-30eb6657",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T202530-93888d34",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T202624-3b314574",
+      "passed": false,
+      "exit_code": 2,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T202801-304295ac",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T202913-8a9e292d",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T202915-3005e052",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T203015-f0d31b5a",
+      "passed": false,
+      "exit_code": 2,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T203255-47e5d172",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    },
+    {
+      "run_id": "20261110T203458-cb8b6ad6",
+      "passed": true,
+      "exit_code": 0,
+      "cleanup_ok": true
+    }
+  ],
+  "final_required_runs_passed": true,
+  "checked_process_groups": 43,
+  "process_group_ids": [
+    72409,
+    72410,
+    72457,
+    72458,
+    72515,
+    72516,
+    72589,
+    72590,
+    72953,
+    72954,
+    73278,
+    73279,
+    73404,
+    73405,
+    73530,
+    73531,
+    73616,
+    73617,
+    73744,
+    73746,
+    74152,
+    74153,
+    74291,
+    74292,
+    74335,
+    74336,
+    74415,
+    74416,
+    74511,
+    74512,
+    74521,
+    74522,
+    74620,
+    75087,
+    75088,
+    75316,
+    75318,
+    75419,
+    75420,
+    75428,
+    75429,
+    75974,
+    76101
+  ],
+  "checked_wrapper_pids": 26,
+  "wrapper_pids": [
+    72405,
+    72455,
+    72513,
+    72586,
+    72668,
+    72951,
+    73274,
+    73401,
+    73528,
+    73613,
+    73741,
+    74150,
+    74288,
+    74332,
+    74413,
+    74509,
+    74519,
+    74617,
+    75073,
+    75186,
+    75314,
+    75416,
+    75424,
+    75557,
+    75906,
+    76099
+  ],
+  "remaining_groups": [],
+  "remaining_wrappers": [],
+  "unknown_cleanup": [],
+  "chrome": {
+    "passed": true,
+    "checks": 34,
+    "all_checks_passed": true,
+    "views": 13,
+    "canvas": [
+      1440,
+      900,
+      1440,
+      900
+    ],
+    "hardware": {
+      "cpu": "Apple M5",
+      "memoryBytes": 17179869184,
+      "os": "25.6.0"
+    },
+    "cadence": {
+      "durationMs": 6002.5,
+      "frames": 725,
+      "meanMs": 8.274482758620689,
+      "p50Ms": 8.200000000000728,
+      "p95Ms": 11.299999999999272,
+      "p99Ms": 15.700000000000728,
+      "estimatedFps": 120.8534755792632,
+      "engineFrames": 1194,
+      "drawCalls": 478,
+      "primitives": 376755
+    },
+    "page_errors": [],
+    "cleanup": {
+      "chromeClosed": true,
+      "serverClosed": true,
+      "privateProfileRemoved": true
+    }
+  },
+  "mechanism_checks": 403,
+  "model_visual_observations": "CV01-native-root-observations.json",
+  "reference_observations": "CV01-reference-root-observations.json",
+  "final_chrome_views_actually_viewed": [
+    "port_side",
+    "aft_battery",
+    "sb2c_low_side",
+    "elevator_lowered"
+  ],
+  "limits": [
+    "One static model; no carrier operation/warship registry/combat acceptance.",
+    "Six-second cadence only; not a full battle performance claim.",
+    "Historical precision and CV17 1946 plan limitations retained in source card.",
+    "Inspection arrow glyph missing in Web font; left/right key behavior passed."
+  ],
+  "passed": true
+}

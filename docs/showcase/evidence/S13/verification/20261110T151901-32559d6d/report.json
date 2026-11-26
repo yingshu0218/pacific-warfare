@@ -1,0 +1,66 @@
+{
+  "run_id": "20261110T151901-32559d6d",
+  "owner": "S13-before",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 39848,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 39850,
+      "process_group": 39850,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.0205,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T151901-32559d6d/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/cloud_sea_capture.gd",
+        "--",
+        "--baseline"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 39851,
+      "process_group": 39851,
+      "returncode": -6,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.1327,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T151901-32559d6d/01-output.log",
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S13-before",
+    "pid": 39848,
+    "process_identity": "pid=39848 started_utc=2026-11-10T15:19:01.477362+00:00 argv=['tools/verify.py', '--owner', 'S13-before', '--timeout', '90', 'godot', '--render', '--', '--script', 'res://tests/cloud_sea_capture.gd', '--', '--baseline'] (ps unavailable)",
+    "token": "dd655e5d2fa64516905c5bbc52e562cb",
+    "acquired_utc": "2026-11-10T15:19:01.485426+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 1
+}

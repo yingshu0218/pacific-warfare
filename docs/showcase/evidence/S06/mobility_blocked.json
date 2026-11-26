@@ -1,0 +1,174 @@
+{
+	"checks": 10,
+	"failures": 0,
+	"fuel_exhausted": {
+		"blocked_reports": 1,
+		"order": {
+			"area": {
+				"center_m": [
+					-10000.0,
+					0.0,
+					6500.0
+				],
+				"radius_m": 700.0
+			},
+			"assigned_unit_ids": [
+				"ship"
+			],
+			"changed_tick": 2,
+			"execution": {
+				"ship": {
+					"changed_tick": 2,
+					"module_id": "fleet_tasks",
+					"progress": "blocked",
+					"reason": "fuel_exhausted",
+					"replacement_order_id": "",
+					"status": "executing"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 2
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 2
+				},
+				{
+					"progress": "forming",
+					"reason": "ship_task_received",
+					"status": "executing",
+					"tick": 2
+				}
+			],
+			"intent": "low_fuel",
+			"issued_tick": 2,
+			"issuer_id": "jp_commander",
+			"order_id": "fleet_ai:jp:0001",
+			"order_type": "retreat",
+			"progress": "forming",
+			"reason": "ship_task_received",
+			"received_tick": 2,
+			"recipient_ids": [
+				"ship"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "executing",
+			"target_id": "",
+			"waypoints_m": []
+		},
+		"position_m": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"task": {
+			"order_id": "fleet_ai:jp:0001",
+			"order_type": "retreat",
+			"ship": {
+				"distance_m": 11926.8603515625,
+				"goal_m": [
+					-10000.0,
+					0.0,
+					6500.0
+				],
+				"leader_id": "ship",
+				"order_id": "fleet_ai:jp:0001",
+				"phase": "blocked",
+				"reason": "fuel_exhausted",
+				"slot": -1
+			}
+		}
+	},
+	"propulsion_unavailable": {
+		"blocked_reports": 1,
+		"order": {
+			"area": {
+				"center_m": [
+					-10000.0,
+					0.0,
+					6500.0
+				],
+				"radius_m": 700.0
+			},
+			"assigned_unit_ids": [
+				"ship"
+			],
+			"changed_tick": 2,
+			"execution": {
+				"ship": {
+					"changed_tick": 2,
+					"module_id": "fleet_tasks",
+					"progress": "blocked",
+					"reason": "propulsion_unavailable",
+					"replacement_order_id": "",
+					"status": "executing"
+				}
+			},
+			"faction_id": "jp",
+			"history": [
+				{
+					"reason": "dispatched",
+					"status": "issued",
+					"tick": 2
+				},
+				{
+					"progress": "",
+					"reason": "domain_executors_accepted",
+					"status": "received",
+					"tick": 2
+				},
+				{
+					"progress": "forming",
+					"reason": "ship_task_received",
+					"status": "executing",
+					"tick": 2
+				}
+			],
+			"intent": "severe_damage",
+			"issued_tick": 2,
+			"issuer_id": "jp_commander",
+			"order_id": "fleet_ai:jp:0001",
+			"order_type": "retreat",
+			"progress": "forming",
+			"reason": "ship_task_received",
+			"received_tick": 2,
+			"recipient_ids": [
+				"ship"
+			],
+			"replacement_order_id": "",
+			"source": "ai",
+			"status": "executing",
+			"target_id": "",
+			"waypoints_m": []
+		},
+		"position_m": [
+			0.0,
+			0.0,
+			0.0
+		],
+		"task": {
+			"order_id": "fleet_ai:jp:0001",
+			"order_type": "retreat",
+			"ship": {
+				"distance_m": 11926.8603515625,
+				"goal_m": [
+					-10000.0,
+					0.0,
+					6500.0
+				],
+				"leader_id": "ship",
+				"order_id": "fleet_ai:jp:0001",
+				"phase": "blocked",
+				"reason": "propulsion_unavailable",
+				"slot": -1
+			}
+		}
+	}
+}

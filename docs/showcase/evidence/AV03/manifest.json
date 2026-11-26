@@ -1,0 +1,221 @@
+{
+  "date_cn": "2026-11-11",
+  "generated_utc": "2026-11-11T12:43:35.220193+00:00",
+  "status": "model_frozen_native_checks_complete_pending_coordinator_final_acceptance",
+  "geometry_r2_accepted_by_coordinator": true,
+  "source_hashes": {
+    "aircraft/g4m1/README.md": "f99f1001f3b52df9c8241bb7e2bfe04ef462a51532a340d07a954ce8f05f005f",
+    "aircraft/g4m1/data/interfaces.json": "f3b467e8b0e3d9a085c3bb2361c3c8e2bc7e3b5e3b7940fe4cc31361d1d1d443",
+    "aircraft/g4m1/data/proposal.json": "f66fea3f8573b91884c0d730377321cfa3e066e53ac8769eaef097164869e3cb",
+    "aircraft/g4m1/g4m1.gd": "4869bd74b9a3c5216ad3266bf8b68ab09751caa663284ad8fe2ebdb2ee1a5937",
+    "aircraft/g4m1/g4m1.tscn": "e5d8f20decb88bb1405d017af2fe06f359a854bb660a7426165d74a81335f724",
+    "aircraft/g4m1/geometry.gd": "fa6a4bef34a564278efe82fa398ccb29d7bc1778d1a98b6f4b6585592102e4a0",
+    "aircraft/g4m1/inspection.gd": "09853ad570d2b3caefd46dd815cb68e5842d2180619e836891d2be50d1d156cc",
+    "aircraft/g4m1/inspection.tscn": "162df747500449c2820b2030b87007898305e60620c8bed6372334a8524a9c0e",
+    "docs/deliveries/AV03.md": "6dcd4b6e68119bac1d1115231c5d538348e1173ea4297d3114cc9632209b8825",
+    "docs/showcase/deliveries/AV03.md": "66ee51f2ecc420cd2a2c86ddcb0fe2b123919bd3f87cc9e074e7bc9b61539082",
+    "tests/av03/test_g4m1.gd": "52ac1d7163a093a7da14b6206d9fa606fe41b7557e4af56a09928cba5f39aca8",
+    "tools/av03/finalize.py": "07e4b0ff4187c9ffb7a27d2678d9bccd5222c70725fa09cc0b0be46f8b2feec6"
+  },
+  "readonly_dependency_hashes": {
+    "data/map02/regions.json": "9001179a2e2c48774c4c62d8afecc2e10d131d5a717a045b42742d77056d5816",
+    "data/maps/island_harbor_expanded.json": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
+    "project.godot": "f4bdb81b6c2d593b42ccb5aa5803bd49e980c179e6681cea7bc39de7176eba95",
+    "scripts/map02/expanded_map_data.gd": "26addcec3d15a79f11936c0cb2fbaad6373466575b32e617b739a1bdad58433e",
+    "scripts/map02/expanded_map_view.gd": "32096520c098a56c81ec9d9f1a29189539fbad075e01a64d6e1354d2f45d9b25",
+    "scripts/presentation/maps/island_harbor_view.gd": "17387540be780b954a4bbed4529dbb4554fdc08b3ef45042b601ec282b7cc9f2",
+    "scripts/simulation/terrain/terrain_queries.gd": "c462a6fb6684751aa12859c7574a90cc529ba78391cee4db64192b6bb4bca868"
+  },
+  "readonly_dependencies_frozen_under_inputs": true,
+  "reference_hashes": {
+    "docs/references/aircraft/g4m1_1942/.gdignore": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "docs/references/aircraft/g4m1_1942/README.md": "0dc600f50e5cf0c45794608d09c52d4b56921467407ea1570994894ad0052d84",
+    "docs/references/aircraft/g4m1_1942/acquisition.json": "3d13bbf642d1c3e202ffe57d1b61149970f8d981e3d5f8aeb2f1eea0b81d38ce",
+    "docs/references/aircraft/g4m1_1942/documents/airforce_classics_2014.pdf": "da8257cab30cbb9ee7642be207f167cffab7d8bf2261cdf3fdd0040265550945",
+    "docs/references/aircraft/g4m1_1942/documents/tamiya_61049_manual.pdf": "2d8ebbde6eb61b3785bb4b5a37ffe46fd340515ee6bd1662e274d888c4a79dee",
+    "docs/references/aircraft/g4m1_1942/documents/usAAF_1944_09.pdf": "815bb0f11a2d7b87b5d132d3f2caae8a51814d281b0df1bd1b01bc6442f2a2fe",
+    "docs/references/aircraft/g4m1_1942/images/tamiya_01.jpg": "a436f544748903a121a0b25120ba385fa5d82c21d06ff2046ce24e045fef5364",
+    "docs/references/aircraft/g4m1_1942/images/tamiya_02.jpg": "a9932e97322e0b4438ea527fb340214be3ff4db59590d491dfb69cb17480d5dd",
+    "docs/references/aircraft/g4m1_1942/images/tamiya_03.jpg": "09cef099876fb9820d6ebeb9e5e436a114707eddfc909103a759db62b2dbc58c",
+    "docs/references/aircraft/g4m1_1942/images/tamiya_04.jpg": "688b535cdb7b20bc84d602263e11c86b808da4e9d5253eae55ff731ee8ee4b11",
+    "docs/references/aircraft/g4m1_1942/images/tamiya_05.jpg": "8ed962b87f1dc31a0c04e2334d5454521d4d7f178c74d9be35bd1ff35fc86d22",
+    "docs/references/aircraft/g4m1_1942/images/tamiya_06.jpg": "297df0ed239f41663b4531c553247cc8e7342aa255cc62ee94da08723754158a",
+    "docs/references/aircraft/g4m1_1942/images/tamiya_07.jpg": "f6251f1bea1f743241db3b13194c5a7b651fff4046df1ea3a4e6c32e8efccb98",
+    "docs/references/aircraft/g4m1_1942/images/tamiya_08.jpg": "e778d0821798d85b1e0bce4773c699b9da3023a0e2e81ac1ecceb380a1348dac",
+    "docs/references/aircraft/g4m1_1942/images/tamiya_09.jpg": "4bf7bb6fa3173651deca4ed00a0d64620324b3f30f6e9ac6bdc8d762664b351c",
+    "docs/references/aircraft/g4m1_1942/images/tamiya_10.jpg": "68899b32684631ef5e37e9eb3a8f0ec937e0c92de7a997efbef3dae7d00ccd67",
+    "docs/references/aircraft/g4m1_1942/images/tamiya_full_front.jpg": "013f5999af8844e78c74611baf7ab27d2d29c0fa059dfdf608195a8d2ac08927",
+    "docs/references/aircraft/g4m1_1942/modeling-brief.md": "2f876a0ca29c02b2f80ce7b79147f820b50dc1a101a3e0ddfb7fdeab66ae811e",
+    "docs/references/aircraft/g4m1_1942/pages/airforce_classics_2014_p1.png": "ed55f41ed0d3e2552060a30f07bf8dc0d441a2a1ebb1eaeb391cf80c40280be1",
+    "docs/references/aircraft/g4m1_1942/pages/tamiya_61049_manual_p1.png": "c7b86af44eeac2407e9436a404ed5af48c42cb53ff61cf1ae5a25c27b6d66f82",
+    "docs/references/aircraft/g4m1_1942/pages/tamiya_61049_manual_p10.png": "096266a467b4d606bded4e708b53d72440286cadd27b6d4156399511ba483333",
+    "docs/references/aircraft/g4m1_1942/pages/tamiya_61049_manual_p4.png": "ff70f64240d2ce7d2210ee895fb1e82b4b904202c63459c0a034f36ce1a7b4b4",
+    "docs/references/aircraft/g4m1_1942/pages/tamiya_61049_manual_p7.png": "bede9dd127893af19d2209d4fa9d835c5880f7f19d3a60fc5d74587d54b4573a",
+    "docs/references/aircraft/g4m1_1942/pages/tamiya_61049_manual_p8.png": "ada5e078b364cb2382c1db1ac8eb9022f9dcd0cfb43f837f99a688f1b1eb3d73",
+    "docs/references/aircraft/g4m1_1942/pages/tamiya_61049_manual_p9.png": "f4d2a8ff1620813498aa5049ad54676f9df072faca2055dd91c088bd41b089ea",
+    "docs/references/aircraft/g4m1_1942/pages/usAAF_1944_09_p20.png": "947168d80175fa3d9e0afa697aebf6e533f57df371c4e1ef56dd6efd69b72dc3",
+    "docs/references/aircraft/g4m1_1942/pages/usAAF_1944_09_p21.png": "827daa4b2fb871e61904722f629b8464824d43ea94d25b769a919657a7d4130c",
+    "docs/references/aircraft/g4m1_1942/sources.json": "a497d25c3b98085ffe30ef82b2a2bfc6b1c565738a1668bb30fb34f622171cfb"
+  },
+  "captures": [
+    {
+      "file": "docs/showcase/evidence/AV03/final/airport_parking.png",
+      "sha256": "17ae381d272dde88b86cdd34a113933aa0e993b5c342fa96a2cbb8f58bfdefdd",
+      "metadata": "docs/showcase/evidence/AV03/final/airport_parking.png.json",
+      "metadata_sha256": "a1f7b9d35f5bcf3bd84cd8a38f674a03485c12188da60f3b0a05718aca277672",
+      "view": "airport_parking"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/airport_runway.png",
+      "sha256": "8aaf5f5c69d89a0bfd0f918997e555af3001a0dc602b07e3ba54a8064c76b65f",
+      "metadata": "docs/showcase/evidence/AV03/final/airport_runway.png.json",
+      "metadata_sha256": "988e36fa80f6f57508409b74fe82c2fec9bccca4e2ea7b6ca7b9f306935f88e9",
+      "view": "airport_runway"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/bay.png",
+      "sha256": "2a66046598e9a93bdd8fa9f3a72b620fd6c0a49ad51c2d63b5ddd191ae660eb1",
+      "metadata": "docs/showcase/evidence/AV03/final/bay.png.json",
+      "metadata_sha256": "fc245474786f4d9535930c292dde888a77b2dc29d1d0b2ed4ed872390e6bce81",
+      "view": "bay"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/damage.png",
+      "sha256": "9411fad63bb241ce64d13e71735d4e439905b07985088c2904f21c82c1caac10",
+      "metadata": "docs/showcase/evidence/AV03/final/damage.png.json",
+      "metadata_sha256": "5b2135dddbbdb0b3bfbb7acf6e16c863e0e197d4251a5f6e98da4e45bc9eed00",
+      "view": "damage"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/dorsal_gun.png",
+      "sha256": "3b014f4ff5abc32fc4df8e6cdd30b327c9ad552a95b24541eee74e14face2642",
+      "metadata": "docs/showcase/evidence/AV03/final/dorsal_gun.png.json",
+      "metadata_sha256": "36db63a27f1df0826574db6e69d01a127f71d147e419977d5874403c4f22a078",
+      "view": "dorsal_gun"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/ferry.png",
+      "sha256": "9f81154779be8c156a8df0069f504fb6744c8559574e8d8039fcefbcddee0adc",
+      "metadata": "docs/showcase/evidence/AV03/final/ferry.png.json",
+      "metadata_sha256": "e4848dde9a17c38fd6e0f924f95a063564e32a844e3b8242d6923b7baac0bcf1",
+      "view": "ferry"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/front.png",
+      "sha256": "cb8da58bd261e4b4dc4d6457514648b26e97ef13565d13b6f5be5c547737995b",
+      "metadata": "docs/showcase/evidence/AV03/final/front.png.json",
+      "metadata_sha256": "743a51a03a39245990bb2242ed7a76ce12f24ff9a32948018d63f6ae54f889f2",
+      "view": "front"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/gear.png",
+      "sha256": "5e36543000f24fec60acf1a0ce030880bf8c41b429c8660fe8bd33c503f70b0b",
+      "metadata": "docs/showcase/evidence/AV03/final/gear.png.json",
+      "metadata_sha256": "2a614266bdf7c22fc07cec90923bcbb387a9a2a0392603ad7e3eeb730d458a05",
+      "view": "gear"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/high_rear.png",
+      "sha256": "2b99583c914129d812419bcbe881090473fbeb157e1ddc820b581f1e9526cce5",
+      "metadata": "docs/showcase/evidence/AV03/final/high_rear.png.json",
+      "metadata_sha256": "5308800ddc3dbdef20a78552991410778700055d9eee16d4f2bcd592c2ae5059",
+      "view": "high_rear"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/landing.png",
+      "sha256": "1cc881c3c7bee46881bccbf7e83f5a8f9d464c601800f8c5910d383ee238ea07",
+      "metadata": "docs/showcase/evidence/AV03/final/landing.png.json",
+      "metadata_sha256": "9f71917925b7002ceb0e57acf9ebe8bab6b6967d6bf3163340c5e21586b05acf",
+      "view": "landing"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/nose_gun.png",
+      "sha256": "be20cf8ae37c8404d5e39c8e9d9603d5fb9faf8cedfe6906b16fd3a1c2972b61",
+      "metadata": "docs/showcase/evidence/AV03/final/nose_gun.png.json",
+      "metadata_sha256": "561a8d3f75bb9f41322021023a26aa14da54a6284f9d6066f482ac6a4f0263df",
+      "view": "nose_gun"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/observer_flight.png",
+      "sha256": "75def83b53d849f12b9051de77cc6f1c9691d54d17b92be25d74662125da3508",
+      "metadata": "docs/showcase/evidence/AV03/final/observer_flight.png.json",
+      "metadata_sha256": "12f498d52a5e2c9f46cb0b987cd086c5702a53ac305ae5a4337f9c1ba5c26b72",
+      "view": "observer_flight"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/quarter.png",
+      "sha256": "9cb572a452ec19413baa34a37cb9b1dd150797b572e813630b0eabd3ccc62b78",
+      "metadata": "docs/showcase/evidence/AV03/final/quarter.png.json",
+      "metadata_sha256": "aeed96b2633ecd7767171fad4e353fdc2ba7f9d6da6b64a2d793e2578f694fa1",
+      "view": "quarter"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/side.png",
+      "sha256": "a253664e14e2255b022df93dc03425ea82f480e052f376376c0473f705788459",
+      "metadata": "docs/showcase/evidence/AV03/final/side.png.json",
+      "metadata_sha256": "953e1f0230c752f79c0413857eaf33e9f312518bc2f841e09efd6184a586c268",
+      "view": "side"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/tail_gun.png",
+      "sha256": "804cfd06621822114c9236d73c308844bd4a9a6e812d22363f3ed4e7d531607a",
+      "metadata": "docs/showcase/evidence/AV03/final/tail_gun.png.json",
+      "metadata_sha256": "8e3e9de4c84b5bb3955f1257cd4c10d5d0bcf45918a16af15913230139c28a15",
+      "view": "tail_gun"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/tailgear.png",
+      "sha256": "9a54d3a4e638447e8740df47012f831bcf3c95c9a7c29c54e7cd992cc4add814",
+      "metadata": "docs/showcase/evidence/AV03/final/tailgear.png.json",
+      "metadata_sha256": "c201ee3b7e8b8d6bef2864e7e0d48ff2f349ba16a0356975650883cb16f6f62b",
+      "view": "tailgear"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/top_flight.png",
+      "sha256": "98c8ca11a4548afdccfe1259d77921d993679d1bfff58407fdc09381feea6162",
+      "metadata": "docs/showcase/evidence/AV03/final/top_flight.png.json",
+      "metadata_sha256": "6bbd1e7f8dddd75ea0f1c22b6f72fbf380eec9d95b0cbff576bc74631f7d57c0",
+      "view": "top_flight"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/transition.png",
+      "sha256": "1944cc4f517e614aa50ff035f0009c7fa7831bb1342e0e0ff4e62f2b6d9b8250",
+      "metadata": "docs/showcase/evidence/AV03/final/transition.png.json",
+      "metadata_sha256": "ce2bb1f6933b3487d2b1b1a341665f675b626be759423f0653fb0a61d64bf104",
+      "view": "transition"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/underside_flight.png",
+      "sha256": "4426e3e23f2f4d15a4ae12cc473a8bdd74071c629c3059dd3d700cb30ccae604",
+      "metadata": "docs/showcase/evidence/AV03/final/underside_flight.png.json",
+      "metadata_sha256": "74345392ecad24514efb9847196db20858e754bc743f30edc6f205cb92f956b2",
+      "view": "underside_flight"
+    },
+    {
+      "file": "docs/showcase/evidence/AV03/final/waist_gun.png",
+      "sha256": "a6f84fa06a59b943a17da625929245ceb4a52cfa489bf7fb25b740ac21145680",
+      "metadata": "docs/showcase/evidence/AV03/final/waist_gun.png.json",
+      "metadata_sha256": "4f106864311dae833888ddaff7bdcf1b747887790d2508c03dd32808e4b2bd3f",
+      "view": "waist_gun"
+    }
+  ],
+  "other_evidence_hashes": {
+    "docs/showcase/evidence/AV03/contracts.json": "f3b467e8b0e3d9a085c3bb2361c3c8e2bc7e3b5e3b7940fe4cc31361d1d1d443",
+    "docs/showcase/evidence/AV03/comparison.md": "2c9a64bf32dfce1c4c170cf922d05b7adc972bb8ee7f46a20370ec35ca2488f6",
+    "docs/showcase/evidence/AV03/verification-index.json": "a11c2204bb8cd5f9b440f31229bd5ce80f943ed1c6550d18c918902ca1eeda87",
+    "docs/showcase/evidence/AV03/cleanup.json": "f8cfdafcbf526aef8df944c219ade60f30796b8bd4b4e69bf04d74710ddc02b1",
+    "docs/showcase/evidence/AV03/baseline-comparison.json": "c721b1072c49db5de56a41ed251cdf09102d8855dc66b4bec74f5edc035b5882"
+  },
+  "contract_checks": 167,
+  "marker_count": 60,
+  "stats": {
+    "mesh_nodes_after_fixed_merge": 104,
+    "raw_mesh_nodes": 208,
+    "triangles_all_configurations": 55884
+  },
+  "wrapper_runs": 9,
+  "recorded_groups": 16,
+  "browser_done": false,
+  "model_sha256": "4869bd74b9a3c5216ad3266bf8b68ab09751caa663284ad8fe2ebdb2ee1a5937",
+  "limits": "Static pure model and MAP02 installation only; no production registration/OPS/BOMB/DM/Chrome fleet claim"
+}

@@ -1,0 +1,715 @@
+{
+  "timestamp_utc": "2026-11-10T07:11:57.185192+00:00",
+  "owner": "S09",
+  "reports": 29,
+  "checks": [
+    {
+      "process_group": 8240,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 8241,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--editor",
+        "--import",
+        "--quit"
+      ]
+    },
+    {
+      "process_group": 8295,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 8296,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--editor",
+        "--import",
+        "--quit"
+      ]
+    },
+    {
+      "process_group": 8819,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 8820,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 9262,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 9263,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 9376,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 9377,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--editor",
+        "--import",
+        "--quit"
+      ]
+    },
+    {
+      "process_group": 9470,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 9471,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 9887,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 9888,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 9993,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 9994,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 11834,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 11835,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 11837,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_projectile_impact.gd"
+      ]
+    },
+    {
+      "process_group": 11841,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_contacts.gd"
+      ]
+    },
+    {
+      "process_group": 11842,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_unit_surface_contact.gd"
+      ]
+    },
+    {
+      "process_group": 11916,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 11919,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_navigation.gd"
+      ]
+    },
+    {
+      "process_group": 11928,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/island_harbor_run.gd"
+      ]
+    },
+    {
+      "process_group": 12041,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 12044,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/island_harbor_capture.gd"
+      ]
+    },
+    {
+      "process_group": 12545,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 12546,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 12663,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 12664,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 12720,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 12721,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 12722,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_navigation.gd"
+      ]
+    },
+    {
+      "process_group": 12885,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 12886,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/island_harbor_capture.gd"
+      ]
+    },
+    {
+      "process_group": 13286,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 13287,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/island_harbor_capture.gd"
+      ]
+    },
+    {
+      "process_group": 13582,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 13583,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/island_harbor_capture.gd"
+      ]
+    },
+    {
+      "process_group": 13888,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 13889,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 13890,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_navigation.gd"
+      ]
+    },
+    {
+      "process_group": 13894,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_observer.gd"
+      ]
+    },
+    {
+      "process_group": 13901,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_first_playable_ui.gd"
+      ]
+    },
+    {
+      "process_group": 14031,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 14032,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/island_harbor_capture.gd"
+      ]
+    },
+    {
+      "process_group": 14230,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 14231,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 14233,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_navigation.gd"
+      ]
+    },
+    {
+      "process_group": 14237,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_observer.gd"
+      ]
+    },
+    {
+      "process_group": 14240,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_ship_motion.gd"
+      ]
+    },
+    {
+      "process_group": 14243,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_fleet_mobility_blocked.gd"
+      ]
+    },
+    {
+      "process_group": 14245,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/island_harbor_run.gd"
+      ]
+    },
+    {
+      "process_group": 14480,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 14481,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 14488,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_observer.gd"
+      ]
+    },
+    {
+      "process_group": 14550,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 14551,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/island_harbor_capture.gd"
+      ]
+    },
+    {
+      "process_group": 14898,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 14899,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_queries.gd"
+      ]
+    },
+    {
+      "process_group": 14901,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/test_terrain_observer.gd"
+      ]
+    },
+    {
+      "process_group": 14907,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/island_harbor_run.gd"
+      ]
+    },
+    {
+      "process_group": 15064,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ]
+    },
+    {
+      "process_group": 15065,
+      "signal_zero": "absent",
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific",
+        "--script",
+        "res://tests/island_harbor_capture.gd"
+      ]
+    },
+    {
+      "process_group": 15297,
+      "signal_zero": "absent",
+      "command": [
+        "python3",
+        "/tmp/s09_compat.py"
+      ]
+    },
+    {
+      "process_group": 15379,
+      "signal_zero": "absent",
+      "command": [
+        "/opt/homebrew/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "warning",
+        "-y",
+        "-framerate",
+        "12",
+        "-start_number",
+        "0",
+        "-i",
+        "docs/showcase/evidence/S09/sequence/frame_%03d.png",
+        "-c:v",
+        "libx264",
+        "-crf",
+        "22",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "docs/showcase/evidence/S09/map_continuous.mp4"
+      ]
+    }
+  ],
+  "ps_returncode": 0,
+  "remaining_owned_processes": [],
+  "browser_tabs_created": 0,
+  "http_services_created": 0,
+  "lock_file_preserved": true,
+  "passed": true
+}

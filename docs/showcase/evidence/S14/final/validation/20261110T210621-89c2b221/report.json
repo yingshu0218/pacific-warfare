@@ -1,0 +1,40 @@
+{
+  "run_id": "20261110T210621-89c2b221",
+  "owner": "S14-final-encode",
+  "action": "exec",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 78601,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "tools/s14/encode_final.py"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific",
+      "pid": 78603,
+      "process_group": 78603,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 21.4345,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T210621-89c2b221/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S14-final-encode",
+    "pid": 78601,
+    "process_identity": "Wed Nov 11 05:06:21 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python tools/verify.py --owner S14-final-encode --timeout 200 --lock-timeout 60 exec -- python3 tools/s14/encode_final.py",
+    "token": "bdcd4ff9aea845f291ce4558bdf76278",
+    "acquired_utc": "2026-11-10T21:06:21.114236+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

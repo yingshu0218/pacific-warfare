@@ -1,0 +1,116 @@
+{
+  "final_check_count": 74,
+  "all_final_checks_passed": true,
+  "successful_control_checks_from_first_attempt": 15,
+  "first_attempt_as_a_whole_passed": false,
+  "hardware": {
+    "cpu": "Apple M5",
+    "memoryBytes": 17179869184,
+    "os": "25.6.0"
+  },
+  "browser": "157.0.8103.39",
+  "identity": {
+    "url": "http://127.0.0.1:50262/index.html",
+    "title": "S14 全单位 Showcase",
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "cssWidth": 1280,
+      "cssHeight": 720
+    },
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "webgl": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "dpr": 1
+  },
+  "normal_1x_short_sample": {
+    "frames": 327,
+    "p50_raf_ms": 15.199999999998909,
+    "p95_raf_ms": 26.399999999999636,
+    "p99_raf_ms": 46.399999999999636,
+    "all_visible_focused": true
+  },
+  "two_x_short_observation": {
+    "requested": 2,
+    "achieved": 1.8069424631478879,
+    "pending": 0.0132060606060614
+  },
+  "final_selection_frame_summary": {
+    "unit_selection": {
+      "frames": 510,
+      "p50Ms": 14.399999999999636,
+      "p95Ms": 33.10000000000218,
+      "p99Ms": 55.29999999999927,
+      "allVisibleFocused": true
+    },
+    "weapon_selection": {
+      "frames": 245,
+      "p50Ms": 9.200000000000728,
+      "p95Ms": 23.799999999999272,
+      "p99Ms": 46.5,
+      "allVisibleFocused": true
+    },
+    "training": {
+      "frames": 194,
+      "p50Ms": 16.400000000001455,
+      "p95Ms": 35.60000000000218,
+      "p99Ms": 164.60000000000218,
+      "allVisibleFocused": true
+    },
+    "train_us_axial_roll": {
+      "frames": 666,
+      "p50Ms": 16.599999999998545,
+      "p95Ms": 33.5,
+      "p99Ms": 50.39999999999782,
+      "allVisibleFocused": true
+    },
+    "train_us_split_s": {
+      "frames": 1198,
+      "p50Ms": 11.69999999999709,
+      "p95Ms": 25.700000000004366,
+      "p99Ms": 37.099999999998545,
+      "allVisibleFocused": true
+    },
+    "train_jp_axial_roll": {
+      "frames": 606,
+      "p50Ms": 16.700000000004366,
+      "p95Ms": 32.599999999998545,
+      "p99Ms": 53.5,
+      "allVisibleFocused": true
+    },
+    "train_jp_split_s": {
+      "frames": 1029,
+      "p50Ms": 9.80000000000291,
+      "p95Ms": 23.30000000000291,
+      "p99Ms": 33.59999999999127,
+      "allVisibleFocused": true
+    },
+    "cycle_views": {
+      "frames": 1004,
+      "p50Ms": 16.30000000000291,
+      "p95Ms": 35.60000000000582,
+      "p99Ms": 59.39999999999418,
+      "allVisibleFocused": true
+    }
+  },
+  "browser_plugin": "Browser plugin not available; existing Playwright controls real Google Chrome",
+  "viewports": [
+    "1280x720, DPR1, actual canvas1280x720; desktop-only Godot scene"
+  ],
+  "scope_exclusions": [
+    "S08 ordinary launcher",
+    "10-minute activity",
+    "three consecutive resets",
+    "4x effective speed/backlog acceptance",
+    "mobile",
+    "Safari"
+  ],
+  "visual_screenshots_opened": [
+    "chrome/train_us_axial_roll_completed.png",
+    "chrome/train_jp_split_s_completed.png",
+    "chrome/escort_sb2c_close.png",
+    "chrome/weapon_3.png",
+    "chrome/unit_us_bb.png",
+    "chrome-attempt1-same-selection/real_orders.png"
+  ]
+}

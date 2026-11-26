@@ -1,0 +1,13 @@
+--- S14_R8/scripts/command/commander/fleet_planner.gd
++++ combined/scripts/command/commander/fleet_planner.gd
+@@ -52,7 +52,9 @@
+ 				protectable.append(id)
+ 		# A parked OPS aircraft is inventory, not an airborne interceptor.
+ 		# Otherwise its rejected escort/intercept would reject a mixed flight.
+-		if bool(unit.module_data.get("carrier_ops",{}).get("on_deck",false)):
++		if bool(unit.module_data.get("carrier_ops",{}).get("on_deck",false)) or (not unit.module_data.get("carrier_ops",{}).is_empty() and str(unit.module_data.carrier_ops.phase) not in ["mission","lost","diverted"]):
++			continue
++		if str(unit.module_data.get("command_assignment",{}).get("phase","")) == "active":
+ 			continue
+ 		if not unit.active or human_owned.has(id) or withdrawn.has(id):
+ 			continue

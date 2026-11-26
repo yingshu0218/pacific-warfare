@@ -1,0 +1,67 @@
+{
+  "run_id": "20261110T202302-37d96d06",
+  "owner": "S14-integrate-train_us_split_s",
+  "action": "godot",
+  "project": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+  "lock": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/godot-render.lock",
+  "wrapper_pid": 74891,
+  "checks": [
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--version"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+      "pid": 74895,
+      "process_group": 74895,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 0.0246,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T202302-37d96d06/00-version.log",
+      "passed": true,
+      "expected_version": "4.7.2.stable.official.ed1daf0bf",
+      "version_matches": true
+    },
+    {
+      "command": [
+        "/Applications/Godot.app/Contents/MacOS/Godot",
+        "--headless",
+        "--path",
+        "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+        "--script",
+        "res://tests/s14_integration.gd",
+        "--",
+        "--mode=train_us_split_s"
+      ],
+      "cwd": "/Users/infinity/Desktop/Dev/game-pacific/.local/s14-final-dev-1",
+      "pid": 74896,
+      "process_group": 74896,
+      "returncode": 0,
+      "timed_out": false,
+      "interrupted": false,
+      "diagnostic_error": false,
+      "launch_error": "",
+      "cleanup_ok": true,
+      "cleanup_error": "",
+      "duration_s": 6.3161,
+      "output": "/Users/infinity/Desktop/Dev/game-pacific/.local/validation/runs/20261110T202302-37d96d06/01-output.log",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "lock_identity": {
+    "status": "held",
+    "owner": "S14-integrate-train_us_split_s",
+    "pid": 74891,
+    "process_identity": "Wed Nov 11 04:23:02 2026     /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/Resources/Python.app/Contents/MacOS/Python /Users/infinity/Desktop/Dev/game-pacific/tools/verify.py --owner S14-integrate-train_us_split_s --timeout 145 --lock-timeout 60 --project .local/s14-final-dev-1 godot -- --script res://tests/s14_integration.gd -- --mode=train_us_split_s",
+    "token": "63dcfbe6edbc48ad8392c5b30a457e49",
+    "acquired_utc": "2026-11-10T20:23:02.597262+00:00",
+    "project": "/Users/infinity/Desktop/Dev/game-pacific"
+  },
+  "exit_code": 0
+}

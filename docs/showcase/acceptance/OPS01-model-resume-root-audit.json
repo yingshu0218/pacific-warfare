@@ -1,0 +1,279 @@
+{
+  "reviewed_utc": "2026-11-11T12:56:52.669145+00:00",
+  "status": "passed",
+  "audit_sha256": "27e4b89cd1b7a0e2ae40e2f98b94b93521a08dc9d71d5a786a4810c81b4dde84",
+  "input_manifest_sha256": "5adf29bb535e63e9d4f5698bb7a7a0ee9ad7ebb886478dda2171f4d581052607",
+  "finalization_sha256": "58b73a345f011003353f6a77b1cda1bd4fc74a9d59af3175e5ae168fb7c1b576",
+  "hash_counts": {
+    "executed_stage": 476,
+    "frozen_stage": 476,
+    "current_handoff": 10,
+    "frozen_handoff": 10,
+    "evidence": 214,
+    "protected_public": 6,
+    "runtime_whitelist": 1,
+    "candidate_manifest": 1,
+    "movie": 4,
+    "encoded_movie": 4,
+    "raw_encoded_frame": 1170,
+    "selected_frame": 29,
+    "current_OPS_implementation": 17
+  },
+  "hash_mismatches": [],
+  "root_paths_differing_from_stage": [
+    "aircraft/models/f6f5.gd",
+    "aircraft/scripts/aircraft_builder.gd",
+    "docs/showcase/evidence/OPS01/.gdignore",
+    "scripts/presentation/models/aircraft_adapter.gd",
+    "tests/air_operations/freeze_model_resume.py"
+  ],
+  "root_path_difference_note": "Three existing public paths deliberately differ from private S04 replacements; fourth helper absent in public. Staged evidence .gdignore is empty and root contains newline (same ignore semantics). Current freeze tool differs from its earlier staged non-runtime copy and is separately frozen under handoff.",
+  "validation_runs_in_audit": 52,
+  "historical_failed_runs": [
+    "20261110T213107-ceaed9b7",
+    "20261110T213115-c15d5f90",
+    "20261110T213201-a55b58e6",
+    "20261110T213245-da4e19d9",
+    "20261110T213443-704d6da6",
+    "20261110T213817-1a7a3db6",
+    "20261110T221406-124563ef",
+    "20261111T113909-e639f4f8",
+    "20261111T115005-1bcab37a",
+    "20261111T120046-a329c726"
+  ],
+  "final_wrapper": {
+    "run_id": "20261111T125356-dac17458",
+    "sha256": "4b4001895b5ad91ebc2ee3a947fd8f120a7139e629a3bad8883ae9014607668c",
+    "passed": true
+  },
+  "root_probed_process_groups": [
+    71641,
+    71642,
+    71727,
+    71729,
+    72531,
+    72532,
+    72576,
+    72578,
+    72815,
+    72816,
+    72967,
+    72968,
+    73746,
+    73749,
+    74244,
+    74245,
+    74256,
+    74896,
+    74897,
+    75376,
+    75378,
+    75461,
+    75462,
+    75470,
+    75475,
+    75955,
+    75956,
+    76060,
+    76062,
+    76561,
+    76566,
+    76788,
+    76789,
+    76922,
+    76923,
+    77043,
+    77045,
+    77048,
+    77051,
+    77652,
+    77653,
+    77791,
+    77793,
+    77918,
+    77919,
+    77999,
+    78000,
+    79304,
+    79305,
+    79390,
+    79391,
+    79417,
+    79419,
+    79662,
+    79665,
+    79736,
+    79812,
+    80141,
+    80142,
+    80290,
+    80291,
+    80872,
+    80873,
+    80959,
+    80960,
+    81198,
+    81199,
+    81358,
+    81359,
+    81408,
+    81409,
+    81577,
+    81579,
+    81606,
+    81611,
+    81618,
+    81626,
+    81628,
+    81684,
+    81685,
+    81881,
+    81882,
+    81915,
+    81916,
+    81925,
+    82083,
+    82084,
+    82234,
+    82235,
+    82362,
+    82363,
+    82449,
+    82461,
+    82498,
+    82522,
+    82673,
+    84411,
+    84412,
+    84419,
+    84546,
+    84547,
+    84640,
+    84897
+  ],
+  "live_groups": [],
+  "unknown_groups": [],
+  "checks": {
+    "retained_mechanisms": 89,
+    "accepted_model_and_composition": 31,
+    "failures": 0,
+    "one_cycle_s": 550.316666666667
+  },
+  "captures": {
+    "launch": {
+      "input_stage": "r11",
+      "frames": 330,
+      "seconds": 22.0,
+      "max_frame_dt_error_s": 6.773748228994236e-14,
+      "model_CPU_error_m": {
+        "wheel_error_m": 0.000104150793049484,
+        "hook_error_m": 0.0
+      },
+      "movie_sha256": "56ba574267380dc0755d8b0401bbb139d51dd21828d3cb31533c5b7c60730381"
+    },
+    "recovery": {
+      "input_stage": "r11",
+      "frames": 360,
+      "seconds": 24.0,
+      "max_frame_dt_error_s": 6.859096624012295e-13,
+      "model_CPU_error_m": {
+        "wheel_error_m": 0.00100511615164578,
+        "hook_error_m": 0.000917011464480311
+      },
+      "movie_sha256": "4e01f1fcf3e36a1004b4a643caf28a6cfe5deafe763b2edb585e6bf7266d1548"
+    },
+    "waveoff": {
+      "input_stage": "r11",
+      "frames": 180,
+      "seconds": 12.0,
+      "max_frame_dt_error_s": 6.859096624012295e-13,
+      "model_CPU_error_m": {
+        "wheel_error_m": 0.00100356456823647,
+        "hook_error_m": 0.0
+      },
+      "movie_sha256": "fec7b9f0b235394f9a3102779e5c52a98833901291800b556e7480bfea64d0fc"
+    },
+    "hard_contact": {
+      "input_stage": "r11",
+      "frames": 300,
+      "seconds": 20.0,
+      "max_frame_dt_error_s": 6.859096624012295e-13,
+      "model_CPU_error_m": {
+        "wheel_error_m": 0.000996580231003463,
+        "hook_error_m": 0.0010420682374388
+      },
+      "movie_sha256": "aafe6fba21445552d8c43cb18a1b0121e8b51f35c721371ea53d8f91b0d4a03f"
+    }
+  },
+  "no_unrelated_AV_AU_stage_inputs": true,
+  "healthy_clean_roster_maximum_error": 0.0,
+  "wreck_settle": {
+    "diagnostics": {
+      "center_of_mass_local_m": [
+        -3.31699705123901,
+        16.601167678833,
+        124.153030395508
+      ],
+      "contact_count": 22,
+      "gravity_projection_xz_m": [
+        -3.31699705123901,
+        124.153030395508
+      ],
+      "minimum_mesh_clearance_m": -5.12599946489445e-07,
+      "pivot_m": [
+        -3.3052544593811,
+        15.8500003814697,
+        124.152641296387
+      ],
+      "projection_error_m": 0.0117490366101265,
+      "stable": true,
+      "support_polygon_xz_m": [
+        [
+          -3.42632913589478,
+          120.502098083496
+        ],
+        [
+          -3.30776453018188,
+          120.433097839355
+        ],
+        [
+          -2.01551532745361,
+          119.950210571289
+        ],
+        [
+          -1.99707531929016,
+          119.9462890625
+        ],
+        [
+          -1.99680030345917,
+          119.94800567627
+        ],
+        [
+          -3.27250337600708,
+          125.140121459961
+        ],
+        [
+          -3.42632913589478,
+          120.502098083496
+        ]
+      ],
+      "support_span_m": 5.34814071655273
+    },
+    "final_local_m": [
+      -3.29443740844727,
+      16.5612392425537,
+      124.73583984375
+    ],
+    "maximum_angular_rate_radps": 0.350000888109207,
+    "maximum_tick_step_m": 0.0537815093994141,
+    "minimum_clearance_during_settle_m": -1.52587890589473e-06,
+    "remaining_mesh_clearance_m": -5.72204589488479e-07,
+    "rotation_rad": [
+      0.0683592408895493,
+      0.0386923439800739,
+      0.373404026031494
+    ]
+  },
+  "scope": "Accepted private actual-F6F carrier operations and damage support; production S14/Chrome, JP operations, land-based and bombing remain separate.",
+  "finalization_links_and_container_metadata_verified": true
+}
