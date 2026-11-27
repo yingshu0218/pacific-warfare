@@ -28,7 +28,7 @@ func run() -> void:
 	var game := preload("res://showcase/carrier_harbor.tscn").instantiate()
 	root.add_child(game)
 	game.set_process(false)
-	check(game.running and game.exercise == "harbor" and game.session.units.size() == 27 and game.session.qingjia_mission == null, "default harbor remains a 27-unit non-mission scenario")
+	check(game.running and game.exercise == "harbor" and game.session.units.size() == 30 and game.session.qingjia_mission == null, "default harbor is a 30-unit non-mission scenario")
 	var selector: OptionButton = game.hud.selector
 	var harbor_subject: String = str(selector.get_item_metadata(selector.selected))
 	var menu: OptionButton = game.segment_menu
@@ -75,7 +75,7 @@ func run() -> void:
 	check("尚未结算" in game.hud.report_text.text and not game.hud.report_panel.visible and not game.session.world.paused, "restart clears the battle report and resumes")
 	check(selector.get_item_metadata(selector.selected) == "us_cv" and game.camera.followed_id == "us_cv", "restart restores the carrier selection")
 	menu.item_selected.emit(harbor_index)
-	check(game.exercise == "harbor" and game.session.units.size() == 27 and game.models.size() == 27 and game.session.qingjia_mission == null, "returning to harbor restores its original roster and report")
+	check(game.exercise == "harbor" and game.session.units.size() == 30 and game.models.size() == 30 and game.session.qingjia_mission == null, "returning to harbor restores its original roster and report")
 	check(selector.get_item_metadata(selector.selected) == harbor_subject, "normal harbor retains its original default selection")
 	menu.item_selected.emit(training_index)
 	check(game.exercise == "train_us_bank_turn" and game.session.qingjia_mission == null, "F6F training entry still loads")
