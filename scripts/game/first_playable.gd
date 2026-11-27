@@ -7,6 +7,12 @@ var session: FirstPlayableSession
 var camera: ObserverCamera
 var hud: ObserverHud
 var effects: CombatEffects
+const SALVO_OVERLAY: Script = preload("res://scripts/presentation/effects/observed_salvo_overlay.gd")
+var salvo_overlay: SALVO_OVERLAY
+var salvo_replay: bool = false
+var _salvo_timer_s: float = 0.
+var _salvo_rank: int = 0
+var _salvo_source: String = ""
 var models: Dictionary = {}
 var recoils: Dictionary = {}
 var metadata: Dictionary = {}
@@ -34,6 +40,8 @@ func _ready() -> void:
 	effects.sound_enabled = false
 	effects.effect_capacity = 384
 	add_child(effects)
+	salvo_overlay = SALVO_OVERLAY.new()
+	add_child(salvo_overlay)
 	hud = ObserverHud.new()
 	add_child(hud)
 	hud.action.connect(_action)
@@ -89,6 +97,11 @@ func _process(delta_s: float) -> void:
 	var presentation_us: int = Time.get_ticks_usec()
 	camera.update_view(delta_s, session.presentation_time_s, session.presentation_units, session.world.paused)
 	environment_view.update_observer(camera.position)
+	if salvo_replay:
+		_salvo_timer_s -= delta_s
+		if _salvo_timer_s <= 0.:
+			_salvo_timer_s = .10
+			_refresh_salvo_overlay()
 	var camera_us: int = Time.get_ticks_usec()
 	_ui_timer_s -= delta_s
 	if _ui_timer_s <= 0.0:
@@ -144,6 +157,17 @@ func apply_presentation(events: Array[BattleEvent]) -> void:
 	environment_view.advance(session.presentation_time_s)
 	if map_view != null: map_view.advance(session.presentation_time_s)
 
+func _refresh_salvo_overlay() -> void:
+	var source: String = hud.selected_unit_id()
+	if source != _salvo_source:
+		_salvo_source = source
+		_salvo_rank = 0
+	var count: int = salvo_overlay.show_salvo(session.observed_salvos(),source,session.presentation_time_s,_salvo_rank)
+	if count == 0 and _salvo_rank > 0:
+		_salvo_rank = 0
+		count = salvo_overlay.show_salvo(session.observed_salvos(),source,session.presentation_time_s)
+	hud.set_salvo_replay(salvo_replay,count,_salvo_rank)
+
 func _action(kind: String, value: Variant) -> void:
 	if not running: return
 	match kind:
@@ -160,6 +184,18 @@ func _action(kind: String, value: Variant) -> void:
 			_sound_enabled = not _sound_enabled
 			effects.sound_enabled = _sound_enabled
 			hud.sound_button.text = "关闭声音" if _sound_enabled else "启用声音"
+		"salvo_replay":
+			salvo_replay = not salvo_replay
+			if salvo_replay:
+				_salvo_rank = 0
+				_refresh_salvo_overlay()
+			else:
+				salvo_overlay.reset()
+				hud.set_salvo_replay(false,0)
+		"older_salvo":
+			if salvo_replay:
+				_salvo_rank += 1
+				_refresh_salvo_overlay()
 		"finish": session.finish()
 		"restart":
 			if session.restart(): _reset_presentation()
@@ -171,6 +207,9 @@ func _reset_presentation() -> void:
 	_last_time_s = 0.0
 	presentation_events.clear();_pending_presentation_events.clear();_presentation_event_sequence=0
 	_report_shown = false
+	salvo_replay = false
+	salvo_overlay.reset()
+	hud.set_salvo_replay(false,0)
 	effects.clear(session.world.generation)
 	for recoil: VisualRecoil in recoils.values(): recoil.reset(session.world.generation)
 	camera.reset_view(session.world.generation, metadata)
@@ -220,6 +259,7 @@ func _input(event: InputEvent) -> void:
 			KEY_TAB: hud.expanded = not hud.expanded; hud._layout()
 			KEY_H: hud.cinema = not hud.cinema; hud._layout()
 			KEY_R: _action("restart", null)
+			KEY_T: _action("older_salvo" if event.shift_pressed else "salvo_replay",null)
 			_: return
 		get_viewport().set_input_as_handled()
 	elif event is InputEventKey:

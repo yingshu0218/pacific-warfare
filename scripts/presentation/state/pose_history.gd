@@ -7,6 +7,8 @@ var previous_tick: int = 0
 var current_tick: int = 0
 var previous_bombs: Dictionary = {}
 var current_bombs: Dictionary = {}
+const SALVO_TAPE: Script = preload("res://scripts/presentation/state/observed_salvos.gd")
+var salvos: SALVO_TAPE = SALVO_TAPE.new()
 var _projectiles: CombatProjectiles
 
 func _init() -> void:
@@ -15,6 +17,7 @@ func _init() -> void:
 
 func reset(world_ref: RefCounted) -> void:
 	var world: SimulationWorld = world_ref as SimulationWorld
+	salvos.clear()
 	current = _sample(world)
 	previous = current
 	current_tick = world.tick
@@ -33,6 +36,12 @@ func fixed_update(world_ref: RefCounted, _dt: float) -> void:
 	current_tick = world.tick
 	previous_bombs = current_bombs
 	current_bombs = _sample_bombs(world)
+	if _projectiles != null:
+		var locations: Dictionary = {}
+		if world.tick % SALVO_TAPE.SAMPLE_STEP == 0:
+			for id: String in salvos.tracks:
+				if _projectiles.rounds.has(id): locations[id] = _projectiles.rounds[id].position_m
+		salvos.record(world.events_for_tick(world.tick),locations,world.tick,world.time_s())
 
 func interpolate(units: Dictionary, alpha: float) -> Dictionary:
 	var result: Dictionary = {}

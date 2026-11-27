@@ -25,6 +25,7 @@ var status: Label
 var shot: Label
 var camera_hint: Label
 var pause_button: Button
+var salvo_button: Button
 var sound_button: Button
 var cinema_button: Button
 var map_selector: OptionButton
@@ -152,6 +153,8 @@ func _ready() -> void:
 		_layout())
 	cinema_button = _button(tools, "收起信息", func() -> void: cinema = not cinema; _layout())
 	sound_button = _button(tools, "启用声音", func() -> void: action.emit("sound", null))
+	salvo_button = _button(tools, "齐射轨迹", func() -> void: action.emit("salvo_replay",null))
+	set_salvo_replay(false,0)
 	_button(tools, "战报", func() -> void: report_panel.visible = not report_panel.visible)
 	_button(tools, "结束", func() -> void: action.emit("finish", null))
 	_button(tools, "重开", func() -> void: action.emit("restart", null))
@@ -204,6 +207,13 @@ func set_terrain(data: Dictionary) -> void:
 		map_selector.add_item(point.label)
 		map_selector.set_item_metadata(map_selector.item_count-1,point.id)
 	map_selector.show()
+
+func selected_unit_id() -> String:
+	return str(_selected_unit)
+
+func set_salvo_replay(enabled: bool, count: int, rank: int = 0) -> void:
+	salvo_button.text = ("轨迹 %d" % count if rank == 0 else "早先齐射") if enabled and count > 0 else ("暂无齐射" if enabled else "齐射轨迹")
+	salvo_button.tooltip_text = "T：显示选中舰只最近一次主炮齐射的已飞轨迹；Shift+T 翻看前一次。蓝色为落海，橙色为命中，紫色为空爆。关闭时不显示。"
 
 func reset_hud(session: FirstPlayableSession) -> void:
 	names = session.scenario.presentation.names.duplicate(true)

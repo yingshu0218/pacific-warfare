@@ -130,7 +130,11 @@ func _fired(event: BattleEvent) -> void:
 	else:
 		_emit("flash",point,Vector3.ZERO,clampf(caliber*10,.12,4.),.09)
 	# Main-shell marks and tracers follow the fired round's actual ballistic path.
-	if main_shell or bool(event.data.tracer):
+	# Configured tracer flag already makes the streams sparse. Further thin
+	# the busiest air/AA streams deterministically without touching events.
+	var air_or_aa: bool = event.data.get("source_domain") == "aircraft" or event.data.get("mount_role") == "dedicated_aa"
+	var sparse_mark: bool = bool(event.data.tracer) and (not air_or_aa or event.sequence % 3 == 1)
+	if main_shell or sparse_mark:
 		var slot: Dictionary = _emit("shell" if main_shell else "tracer",point,event.data.velocity_mps,clampf(caliber*.7,.075,.32),float(event.data.get("lifetime_s",90.)))
 		if not slot.is_empty():
 			slot["projectile_id"] = event.data.projectile_id
@@ -284,7 +288,7 @@ func _emit(kind: String, point: Vector3, velocity: Vector3, size: float, life: f
 			color = Color(.78,.88,.91,.8)
 		"tracer", "shell":
 			mode = 3
-			color = Color(1,.48,.075,1) if kind=="tracer" else Color(1,.82,.42,1)
+			color = Color(1,.79,.55,.62) if kind=="tracer" else Color(1,.65,.25,.91)
 		"fire":
 			mode = 4
 			color = Color(1,.23,.025,.9)
@@ -340,7 +344,7 @@ func _draw_slot(slot: Dictionary) -> void:
 		var direction: Vector3 = point-previous
 		if direction.length_squared() > .001:
 			mesh.basis = Basis.looking_at(direction.normalized(),Vector3.RIGHT if absf(direction.normalized().y)>.99 else Vector3.UP)
-		var width: float = _observer_width(point,size,2.2 if slot.kind=="shell" else 1.3,6.0 if slot.kind=="shell" else 1.5)
+		var width: float = _observer_width(point,size,2.2 if slot.kind=="shell" else 1.05,6.0 if slot.kind=="shell" else 1.25)
 		mesh.scale = Vector3(width,width,maxf(.01,direction.length()))
 		fade = 1.
 	elif slot.kind == "water":

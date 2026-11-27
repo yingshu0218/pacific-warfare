@@ -218,6 +218,9 @@ func refresh_view(force_orders: bool = false, interpolate: bool = false) -> Dict
 	_refresh_presentation(interpolate)
 	return {"generation":generation, "tick":world.tick, "time_s":world.time_s(), "units":units}
 
+func observed_salvos() -> RefCounted:
+	return _pose_history.salvos
+
 func _refresh_presentation(interpolate: bool) -> void:
 	if _pose_history == null: return
 	# Pausing holds the already displayed sub-tick pose, without a forward snap.
