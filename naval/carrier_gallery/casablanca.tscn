@@ -1,6 +1,12 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/presentation/models/archive_finish_hook.gd" id="archive_finish"]
 
 [ext_resource type="Script" path="res://naval/carrier_gallery/casablanca.gd" id="1_model"]
 
 [node name="Casablanca" type="Node3D"]
 script = ExtResource("1_model")
+
+[node name="ArchiveFinish" type="Node" parent="."]
+script = ExtResource("archive_finish")
+domain = "ship"

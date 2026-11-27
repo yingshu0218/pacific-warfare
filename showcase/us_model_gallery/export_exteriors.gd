@@ -1,29 +1,40 @@
 extends SceneTree
 ## Export the rendered Godot meshes for an offline visual QA sheet, not for gameplay.
 const GALLERY := "res://showcase/us_model_gallery/viewer.tscn"
+const ARCHIVE_GALLERY := "res://showcase/archive_gallery/viewer.tscn"
 
 func _initialize() -> void:
 	call_deferred("_run")
 
 func _run() -> void:
 	var args: PackedStringArray = OS.get_cmdline_user_args()
-	if args.size() != 1 or not args[0].is_absolute_path():
-		printerr("Usage: -- <absolute-output-directory>")
+	if args.is_empty() or not args[0].is_absolute_path():
+		printerr("Usage: -- <absolute-output-directory> [archive] [original] [model ids...]")
 		quit(2)
 		return
 	var out: String = args[0]
 	if DirAccess.make_dir_recursive_absolute(out) != OK:
 		quit(2)
 		return
-	var gallery: Node3D = (load(GALLERY) as PackedScene).instantiate() as Node3D
+	var gallery_path: String = ARCHIVE_GALLERY if "archive" in args else GALLERY
+	var gallery: Node3D = (load(gallery_path) as PackedScene).instantiate() as Node3D
+	gallery.show_original = "original" in args
+	var requested: PackedStringArray = []
+	for index: int in range(1, args.size()):
+		if args[index] not in ["archive", "original"]:
+			requested.append(args[index])
 	root.add_child(gallery)
 	await process_frame
 	var failures: int = 0
+	var exported: int = 0
 	for index: int in range(gallery.catalog.size()):
 		var id: String = str(gallery.catalog[index]["id"])
+		if not requested.is_empty() and id not in requested:
+			continue
 		if not gallery.select_model(index):
 			failures += 1
 			continue
+		await process_frame
 		var mesh_root := Node3D.new()
 		mesh_root.name = "VisualMeshExport"
 		for child: Node in gallery.model.find_children("*", "MeshInstance3D", true, false):
@@ -46,6 +57,11 @@ func _run() -> void:
 		if status != OK:
 			failures += 1
 			printerr(id + " visual export failed: " + str(status))
+		else:
+			exported += 1
 		mesh_root.free()
+	if not requested.is_empty() and exported != requested.size():
+		failures += 1
+		printerr("Missing archive selection: expected %d, exported %d" % [requested.size(), exported])
 	gallery.free()
 	quit(0 if failures == 0 else 1)

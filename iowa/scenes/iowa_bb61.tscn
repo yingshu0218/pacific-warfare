@@ -1,7 +1,12 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/presentation/models/archive_finish_hook.gd" id="archive_finish"]
 
 [ext_resource type="Script" path="../scripts/iowa_ship.gd" id="1_ship"]
 
 [node name="USS_Iowa_BB61" type="Node3D"]
 script = ExtResource("1_ship")
 
+[node name="ArchiveFinish" type="Node" parent="."]
+script = ExtResource("archive_finish")
+domain = "ship"

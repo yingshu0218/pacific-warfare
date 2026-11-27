@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://showcase/us_model_gallery/viewer.tscn" id="1_shared"]
+
+[node name="ArchiveGallery" instance=ExtResource("1_shared")]
+catalog_path = "res://data/visual_catalogs/all_exteriors.json"
+full_archive = true

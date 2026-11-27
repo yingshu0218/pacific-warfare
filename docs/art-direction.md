@@ -84,3 +84,13 @@
 早期 [v01](references/bombers/sb2c/target/sb2c4-style-candidate-v01.png) 过于接近精修成品模型；v02 过度简化了辨识形状；[v03](references/bombers/sb2c/target/sb2c4-form-preserving-candidate-v03.png) 保留了过多座舱框架、发动机罩和起落架机械。它们仅保留为探索记录，不再作为当前复杂度目标。现有 Godot 截图可帮助判断材质和实现预算，但已知轮廓误差仍需回查原始资料，不能成为新模型必须照抄的形状。
 
 [大和号 v03](references/ships/yamato_1944_04/target/yamato-outer-form-preview-v03.png) 已生成，当前仅为风格草稿。舰桥外形、主副炮逐座位置和炮管数量辨读尚未验收，不作为已符合上述硬性要求的建模几何目标；详见[检查记录](references/ships/yamato_1944_04/target/yamato-outer-form-preview-v03-prompt.md)。
+
+## 舰机材质统一 · Archive Finish v1（2026-11-27）
+
+全名单 **24 舰、13 机** 的 Godot 模型启用同一套受控高光的半写实外观。旧版/新增资产共用规则，而非统一油漆色。各型号的涂装色、贴图、顶点色、轮廓、UV、安装点、节点运动和功能均保留。涂装表面以低反光哑光为主，飞机蒙皮比舰体漆保留一点柔和反光；金属仍与油漆可区分。透明材质、座舱玻璃、发光件与定制迷彩着色器保持原样；仅调整常规不透明材质的粗糙度、金属度及镜面反光。默认直接随场景加载，不是只换展示灯光。
+
+新资产可在模型根场景挂 `archive_finish_hook.gd`，并选择 ship 或 aircraft。造型继续按上文规则简化；本次不批量删减几何，也不将未接入的模型自动加入战场。
+
+- 全名单检视：`res://showcase/archive_gallery/viewer.tscn`。下拉选择舰机；PageUp/PageDown 逐一切换，V 切换视角，C 在原版材质和统一材质间对照。
+- Godot 回归：`godot --headless --path . --script res://tests/model_audit/test_archive_finish.gd`，验证各型号有实际使用统一材质的表面，并检查网格、原色与贴图保持不变、特殊材质原样、重复套用无副作用。
+- 视觉对照使用同一实际 Godot 模型导出的原版/新版几何与材质、相同摄影机及灯光。未以本次变更对 Web 性能或各单位战斗功能作新验收。

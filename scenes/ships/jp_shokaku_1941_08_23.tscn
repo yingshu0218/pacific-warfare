@@ -1,5 +1,11 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/presentation/models/archive_finish_hook.gd" id="archive_finish"]
 [ext_resource type="Script" path="res://scripts/showcase/expansion/carrier_ship_adapter.gd" id="1"]
 [node name="Carrier" type="Node3D"]
 script = ExtResource("1")
 model_scene = "res://naval/shokaku_1941_08_23/shokaku.tscn"
+
+[node name="ArchiveFinish" type="Node" parent="."]
+script = ExtResource("archive_finish")
+domain = "ship"

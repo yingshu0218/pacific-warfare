@@ -1,6 +1,7 @@
 extends "res://scripts/ship_geometry.gd"
 
 const NavalMountStudy = preload("res://scripts/naval_mount_study.gd")
+const ArchiveFinish = preload("res://scripts/presentation/models/archive_finish.gd")
 
 var elapsed: float = 0.0
 var interface_layer: CanvasLayer
@@ -38,6 +39,7 @@ var saved_background_color: Color = Color.BLACK
 
 func _ready() -> void:
 	ship = build_ship()
+	ArchiveFinish.apply(ship, "ship")
 	naval_study = NavalMountStudy.new()
 	naval_study.visible = false
 	add_child(naval_study)
