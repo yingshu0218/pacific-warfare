@@ -44,7 +44,7 @@ static func rod(parent: Node3D, id: String, a: Vector3, b: Vector3, radius: floa
 	return result
 
 static func triangle(st: SurfaceTool, a: Vector3, b: Vector3, c: Vector3, normal: Vector3, color: Color = Color.WHITE) -> void:
-	st.set_color(color)
+	st.set_color(color.srgb_to_linear())
 	if (b - a).cross(c - a).dot(normal) > 0.0:
 		st.add_vertex(a); st.add_vertex(c); st.add_vertex(b)
 	else:
@@ -170,7 +170,7 @@ static func meshes(node: Node3D, visible_only: bool = true) -> Array[MeshInstanc
 			result.append_array(meshes(child as Node3D, visible_only))
 	return result
 
-static func loft(profile: Array, start: float, end: float, top: Color, bottom: Color, cut: Vector4 = Vector4.ZERO, cap: bool = true) -> ArrayMesh:
+static func loft(profile: Array, start: float, end: float, top: Color, bottom: Color, cut: Vector4 = Vector4.ZERO, cap: bool = true, segments: int = 48) -> ArrayMesh:
 	# cut=[z0,z1,angle0,angle1]; actual bay openings, not painted black panels.
 	var st: SurfaceTool = SurfaceTool.new()
 	st.begin(Mesh.PRIMITIVE_TRIANGLES)
@@ -183,9 +183,9 @@ static func loft(profile: Array, start: float, end: float, top: Color, bottom: C
 	zs.append(end)
 	zs.sort()
 	for j: int in range(zs.size() - 1):
-		for i: int in range(48):
-			var a: float = TAU * float(i) / 48.0
-			var b: float = TAU * float(i + 1) / 48.0
+		for i: int in range(segments):
+			var a: float = TAU * float(i) / segments
+			var b: float = TAU * float(i + 1) / segments
 			if cut != Vector4.ZERO and zs[j] >= cut.x - 0.0001 and zs[j + 1] <= cut.y + 0.0001 and a >= cut.z - 0.0001 and b <= cut.w + 0.0001: continue
 			var normal: Vector3 = Vector3(sin((a + b) * 0.5), cos((a + b) * 0.5), 0.0)
 			quad(st, shell_point(profile, zs[j], a), shell_point(profile, zs[j + 1], a), shell_point(profile, zs[j + 1], b), shell_point(profile, zs[j], b), normal, top if normal.y > -0.30 else bottom)
@@ -193,7 +193,7 @@ static func loft(profile: Array, start: float, end: float, top: Color, bottom: C
 		st.set_smooth_group(-1)
 		for z: float in [start, end]:
 			var row: Array = sample(profile, z)
-			for i: int in range(48): triangle(st, Vector3(0.0, row[1], z), shell_point(profile, z, TAU * i / 48.0), shell_point(profile, z, TAU * (i + 1) / 48.0), Vector3.FORWARD if z == start else Vector3.BACK, top)
+			for i: int in range(segments): triangle(st, Vector3(0.0, row[1], z), shell_point(profile, z, TAU * i / segments), shell_point(profile, z, TAU * (i + 1) / segments), Vector3.FORWARD if z == start else Vector3.BACK, top)
 	return finish(st)
 
 static func arch(parent: Node3D, id: String, profile: Array, z: float, thickness: float, mat: Material, a0: float = 0.0, a1: float = TAU) -> void:

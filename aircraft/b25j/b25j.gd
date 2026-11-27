@@ -21,19 +21,27 @@ const BODY: Array = [
 	[5.65,0.10,0.49,0.62,0.54],[6.65,0.12,0.40,0.51,0.45],[7.30,0.13,0.35,0.44,0.39],
 	[7.85,0.13,0.29,0.32,0.30],[8.150225,0.13,0.14,0.16,0.16]]
 const NOSE: Array = [
-	[-8.150225,0.02,0.025,0.035,0.035],[-8.06,0.02,0.28,0.31,0.29],[-7.82,0.02,0.49,0.55,0.49],
-	[-7.45,0.01,0.66,0.73,0.64],[-6.90,0.0,0.78,0.88,0.79],[-6.22,0.0,0.85,0.99,0.91],[-5.65,0.0,0.88,1.03,0.94]]
+	[-8.150225,0.04,0.10,0.10,0.10],[-8.09,0.04,0.26,0.27,0.25],[-8.00,0.04,0.37,0.40,0.36],
+	[-7.85,0.04,0.47,0.53,0.46],[-7.64,0.04,0.55,0.62,0.55],[-7.39,0.036,0.62,0.71,0.63],
+	[-7.08,0.030,0.70,0.80,0.72],[-6.75,0.023,0.76,0.88,0.80],[-6.41,0.015,0.80,0.94,0.85],
+	[-6.06,0.007,0.84,0.99,0.90],[-5.65,0.0,0.88,1.03,0.94]]
 const WING: Array = [
 	[0,-2.60,4.45,0.12,0.16],[1.0,-2.59,4.42,0.14,0.16],[3.12,-2.40,4.00,0.40,0.14],
-	[4.10,-2.22,3.78,0.40,0.13],[7.20,-1.46,3.02,0.41,0.115],[9.10,-1.00,2.55,0.42,0.105],
-	[9.78,-0.76,2.16,0.42,0.10],[10.12,-0.51,1.64,0.42,0.10],[10.27,-0.22,1.02,0.42,0.10],[10.2997,0.04,0.50,0.42,0.10]]
+	[4.10,-2.22,3.77,0.37,0.13],[7.20,-1.48,3.00,0.25,0.115],[9.10,-1.04,2.57,0.19,0.105],
+	[9.63,-0.90,2.35,0.17,0.10],[9.88,-0.76,2.13,0.16,0.095],[10.07,-0.56,1.79,0.15,0.085],
+	[10.21,-0.32,1.36,0.15,0.07],[10.28,-0.10,0.91,0.15,0.052],[10.2997,0.14,0.43,0.15,0.048]]
 const H_TAIL: Array = [[0,5.70,2.12,0.50,0.10],[0.55,5.70,2.12,0.50,0.10],[3.30,5.85,1.90,0.53,0.09],[3.86,5.99,1.66,0.54,0.09],[4.03,6.19,1.23,0.54,0.09]]
 const NACELLE: Array = [
-	[-1.56,0.0,0.73,0.73,0.73],[-1.38,0.0,0.83,0.82,0.84],[-0.72,0.0,0.84,0.83,0.86],
-	[0.10,0.0,0.79,0.74,0.97],[1.20,0.04,0.73,0.54,1.03],[2.80,0.12,0.59,0.33,0.81],
-	[3.95,0.16,0.39,0.24,0.49],[4.82,0.19,0.17,0.15,0.22],[5.24,0.20,0.015,0.02,0.025]]
+	[-1.56,0.0,0.72,0.72,0.72],[-1.50,0.0,0.81,0.81,0.81],[-1.39,0.0,0.86,0.86,0.86],
+	[-1.24,0.0,0.88,0.88,0.88],[-0.98,0.0,0.89,0.88,0.89],[-0.68,0.0,0.87,0.84,0.91],
+	[-0.38,0.0,0.86,0.78,0.94],[0.10,0.01,0.81,0.74,0.97],[0.65,0.03,0.77,0.64,1.00],
+	[1.20,0.04,0.73,0.54,1.03],[2.30,0.09,0.64,0.40,0.92],[2.80,0.12,0.58,0.34,0.81],
+	[3.48,0.14,0.48,0.27,0.66],[3.95,0.16,0.39,0.22,0.49],[4.56,0.19,0.24,0.15,0.31],
+	[4.91,0.19,0.14,0.10,0.17],[5.24,0.20,0.025,0.025,0.035]]
 # Width/top/sill values for a stepped, flat-panel cockpit, not a bubble canopy.
-const COCKPIT: Array = [[-5.55,0.0,0.67,1.03,0.68],[-5.04,0.0,0.79,1.59,0.66],[-4.45,0.0,0.81,1.66,0.63],[-3.56,0.0,0.76,1.58,0.66],[-3.38,0.0,0.66,1.09,0.69]]
+const COCKPIT: Array = [[-5.55,0.0,0.72,1.045,0.69],[-5.25,0.0,0.77,1.38,0.69],
+	[-5.02,0.0,0.79,1.59,0.68],[-4.65,0.0,0.82,1.62,0.65],[-4.21,0.0,0.84,1.61,0.64],
+	[-3.76,0.0,0.81,1.55,0.66],[-3.51,0.0,0.75,1.36,0.68],[-3.38,0.0,0.69,1.15,0.70]]
 const TAIL_HOOD: Array = [[6.65,0.45,0.25,0.19,0],[7.06,0.45,0.37,0.59,0],[7.55,0.45,0.36,0.57,0],[8.00,0.35,0.26,0.19,0],[8.11,0.30,0.16,0.08,0]]
 const GUN_SPECS: Dictionary = {
 	"nose_flexible":{"at":Vector3(0,0.07,-7.91),"forward":Vector3.FORWARD,"limits":Vector4(-22,22,-25,25),"barrels":1,"length":0.59},
@@ -61,9 +69,16 @@ var raw_mesh_count: int = 0
 var state: Dictionary = {"gear":1.0,"flap":0.0,"bay_door":0.0,"payload_mode":"bombs_6x500","propeller_left_rad":0.0,"propeller_right_rad":0.0}
 
 func _ready() -> void:
-	for row: Array in [["top","414832"],["bottom","999e98"],["glass","344c59"],["frame","444d40"],["dark","222a2c"],["steel","8d9698"],["tyre","262a2b"],["yellow","d0ae43"],["bomb","5c6250"],["blue","263e51"],["white","deded2"]]:
+	for row: Array in [["top","4f5334"],["bottom","93968c"],["glass","31444c"],["frame","4a4f37"],["dark","222827"],["steel","8d9698"],["tyre","262a2b"],["yellow","d0ae43"],["bomb","5c6250"],["blue","263e51"],["white","deded2"]]:
 		materials[row[0]]=G.material(Color(row[1]),0.2 if row[0]=="steel" else 0.0)
 	materials.skin=G.material(Color.WHITE);materials.skin.vertex_color_use_as_albedo=true
+	var glazing: StandardMaterial3D=G.material(Color(0.36,0.49,0.52,0.26),0.0)
+	glazing.transparency=BaseMaterial3D.TRANSPARENCY_ALPHA;glazing.roughness=0.18
+	glazing.depth_draw_mode=BaseMaterial3D.DEPTH_DRAW_DISABLED
+	materials.clear=glazing
+	materials.glass.roughness=0.23
+	materials["seam"]=G.material(Color("3e4230"))
+	materials["cowl"]=G.material(Color("545744"),0.12)
 	for id: String in ["center","left_wing","right_wing","tail"]:damage_modules[id]=G.group(self,id.to_pascal_case())
 	for id: String in ["left","right"]:
 		damage_modules["engine_"+id]=G.group(damage_modules[id+"_wing"],"Engine"+id.to_pascal_case(),ENGINE_CENTER_M*Vector3(-1 if id=="left" else 1,1,1))
@@ -97,7 +112,16 @@ func _build_body() -> void:
 		var window: MeshInstance3D=G.box(skin,"WaistGlazing",Vector3(0.025,0.65,0.71),Vector3(side*(shell[2]-0.025),0.25,z),materials.glass)
 		window.rotation.z=-side*0.13
 		for dz: float in [-0.37,0.37]:G.rod(skin,"WaistFrame",Vector3(side*shell[2],-0.07,z+dz),Vector3(side*(shell[2]-0.06),0.59,z+dz),0.023,materials.frame)
-		# Omit optional fuselage paint rather than permit curved-surface clipping.
+		_fuselage_insignia(skin,side)
+		# Shell-conforming fine panels rather than parallel extruded decorations.
+		for section: float in [-3.55,-2.19,0.48,3.64,5.10]:
+			for portion: int in range(7):
+				var angle: float=lerpf(PI*0.18,PI*0.53,portion/7.0)*side
+				var next: float=lerpf(PI*0.18,PI*0.53,(portion+1)/7.0)*side
+				var a: Vector3=G.shell_point(BODY,section,angle)
+				var b: Vector3=G.shell_point(BODY,section,next)
+				var n: Vector3=Vector3(sin((angle+next)*0.5),cos((angle+next)*0.5),0)
+				G.box(skin,"SheetJoint",Vector3(0.014,0.014,a.distance_to(b)),(a+b)*0.5+n*0.007,materials.seam).basis=Basis.looking_at((b-a).normalized(),Vector3.RIGHT)
 
 func _build_wings() -> void:
 	for side: float in [-1.0,1.0]:
@@ -116,26 +140,50 @@ func _build_wings() -> void:
 		mark(host,"DAMAGE_WING_"+id.to_upper()+"_CUT",Vector3(side*0.65,0.14,-0.6),"whole wing carries its engine, propeller and main landing gear")
 		if side<0:_wing_insignia(skin,side,true)
 		else:_wing_insignia(skin,side,false)
+		_wing_skin_details(skin,side)
 
 func _build_tail() -> void:
 	var host: Node3D=damage_modules.tail;var skin: Node3D=fixed(host,"Empennage")
 	for side: float in [-1.0,1.0]:
 		var id: String="left" if side<0 else "right"
-		G.part(skin,"Stabilizer",G.wing(H_TAIL,side,0,4.03,0,0.70,Vector3.ZERO,materials.top.albedo_color,materials.bottom.albedo_color),materials.skin)
+		G.part(skin,"Stabilizer",G.wing(H_TAIL,side,0,3.85,0,0.70,Vector3.ZERO,materials.top.albedo_color,materials.bottom.albedo_color),materials.skin)
 		var pivot: Vector3=G.wing_point(H_TAIL,0.5,0.70,true);pivot.x*=side
 		var elevator: Node3D=G.group(host,"Elevator"+id.to_pascal_case(),pivot)
-		G.part(elevator,"Skin",G.wing(H_TAIL,side,0.5,4.03,0.70,1,pivot,materials.top.albedo_color,materials.bottom.albedo_color),materials.skin)
+		G.part(elevator,"Skin",G.wing(H_TAIL,side,0.5,3.85,0.70,1,pivot,materials.top.albedo_color,materials.bottom.albedo_color),materials.skin)
 		surfaces["elevator_"+id]=elevator
 		mark(elevator,"ELEVATOR_"+id.to_upper()+"_HINGE",Vector3.ZERO,"photo-estimated +X finite hinge")
 		var fin: Node3D=G.group(skin,"Fin"+id.to_pascal_case(),Vector3(side*3.82,0,0))
-		var outline: PackedVector2Array=PackedVector2Array([Vector2(-0.42,5.94),Vector2(-0.59,6.15),Vector2(-0.64,7.44),Vector2(2.70,7.44),Vector2(2.81,7.08),Vector2(2.81,6.67),Vector2(2.66,6.31),Vector2(2.35,6.08),Vector2(0.05,5.82)])
-		G.plate(fin,"FinSkin",outline,0.11,materials.top)
+		# Rounded leading edges and a smooth aft fin edge; the fixed airfoil and moving
+		# rudder use a common seam at z=7.44 and remain separate render meshes.
+		var outline: PackedVector2Array=PackedVector2Array([Vector2(-0.44,5.82),Vector2(-0.57,5.99),Vector2(-0.64,6.22),
+			Vector2(-0.65,7.22),Vector2(-0.61,7.44),Vector2(2.70,7.44),Vector2(2.78,7.25),Vector2(2.81,7.03),
+			Vector2(2.80,6.79),Vector2(2.72,6.51),Vector2(2.60,6.24),Vector2(2.43,6.09),Vector2(2.21,5.99),Vector2(0.05,5.70)])
+		G.part(fin,"FinSkin",_tapered_fin_shell(outline,0.135,Vector3.ZERO),materials.top)
 		var rudder_pivot: Vector3=Vector3(side*3.82,0.45,7.44)
 		var rudder: Node3D=G.group(host,"Rudder"+id.to_pascal_case(),rudder_pivot)
-		var rudder_shape: PackedVector2Array=PackedVector2Array([Vector2(-0.64,7.44),Vector2(-0.59,7.66),Vector2(-0.40,7.82),Vector2(2.45,7.82),Vector2(2.63,7.65),Vector2(2.70,7.44)])
-		G.plate(rudder,"RudderSkin",rudder_shape,0.10,materials.top,Vector3(0,0.45,7.44))
+		var rudder_shape: PackedVector2Array=PackedVector2Array([Vector2(-0.61,7.44),Vector2(-0.55,7.70),Vector2(-0.43,7.91),
+			Vector2(-0.23,8.00),Vector2(2.29,8.00),Vector2(2.45,7.91),Vector2(2.58,7.72),Vector2(2.70,7.44)])
+		G.part(rudder,"RudderSkin",_tapered_fin_shell(rudder_shape,0.085,Vector3(0,0.45,7.44)),materials.top)
 		surfaces["rudder_"+id]=rudder
 		mark(rudder,"RUDDER_"+id.to_upper()+"_HINGE",Vector3.ZERO,"photo-estimated local +Y hinge; no common centre fin")
+
+func _tapered_fin_shell(outline: PackedVector2Array, thickness: float, pivot: Vector3) -> ArrayMesh:
+	var st: SurfaceTool=SurfaceTool.new();st.begin(Mesh.PRIMITIVE_TRIANGLES);st.set_smooth_group(0)
+	var center: Vector2=Vector2.ZERO
+	for point: Vector2 in outline: center+=point
+	center/=outline.size()
+	for j: int in range(outline.size()):
+		var a: Vector2=outline[j];var b: Vector2=outline[(j+1)%outline.size()]
+		var pa: Vector3=Vector3(0,a.x,a.y)-pivot
+		var pb: Vector3=Vector3(0,b.x,b.y)-pivot
+		for side: float in [-1.0,1.0]:
+			var inner_a: Vector2=a.lerp(center,0.24)
+			var inner_b: Vector2=b.lerp(center,0.24)
+			var va: Vector3=Vector3(side*thickness*0.82,inner_a.x,inner_a.y)-pivot
+			var vb: Vector3=Vector3(side*thickness*0.82,inner_b.x,inner_b.y)-pivot
+			G.quad(st,pa,pb,vb,va,Vector3(side,0,0))
+			G.triangle(st,va,vb,Vector3(side*thickness,center.x,center.y)-pivot,Vector3(side,0,0))
+	return G.finish(st)
 
 func _cockpit_point(z: float,index: int) -> Vector3:
 	var s: Array=G.sample(COCKPIT,z)
@@ -146,27 +194,46 @@ func _cockpit_point(z: float,index: int) -> Vector3:
 		3:return Vector3(s[2]*0.72,s[3]-0.05,z)
 	return Vector3(s[2],s[4],z)
 
+func _nose_point(z: float,a: float) -> Vector3:
+	return G.shell_point(NOSE,z,a)
+
 func _build_glazing() -> void:
 	var skin: Node3D=fixed(damage_modules.center,"Glazing")
-	G.part(skin,"GlazedBombardierNose",G.loft(NOSE,-8.150225,-5.65,Color.WHITE,Color.WHITE,Vector4.ZERO,false),materials.glass)
-	# Painted lower keel remains continuous with the belly, glass itself is opaque stylization.
-	var keel: SurfaceTool=SurfaceTool.new();keel.begin(Mesh.PRIMITIVE_TRIANGLES)
-	for j: int in range(NOSE.size()-1):
-		for i: int in range(10):
-			var a: float=lerpf(PI*0.70,PI*1.30,i/10.0);var b: float=lerpf(PI*0.70,PI*1.30,(i+1)/10.0)
-			G.quad(keel,G.shell_point(NOSE,NOSE[j][0],a)*Vector3(1.004,1.004,1),G.shell_point(NOSE,NOSE[j+1][0],a)*Vector3(1.004,1.004,1),G.shell_point(NOSE,NOSE[j+1][0],b)*Vector3(1.004,1.004,1),G.shell_point(NOSE,NOSE[j][0],b)*Vector3(1.004,1.004,1),Vector3.DOWN)
-	G.part(skin,"NoseLowerKeel",G.finish(keel),materials.bottom)
-	for z: float in [-7.84,-7.37,-6.65,-5.68]:G.arch(skin,"NoseCrossFrame",NOSE,z,0.033,materials.frame)
-	for a: float in [0,PI*0.34,PI*0.66,PI*1.34,PI*1.66]:
-		for j: int in range(NOSE.size()-1):G.rod(skin,"NoseFrame",G.shell_point(NOSE,NOSE[j][0],a),G.shell_point(NOSE,NOSE[j+1][0],a),0.016,materials.frame)
-	var st: SurfaceTool=SurfaceTool.new();st.begin(Mesh.PRIMITIVE_TRIANGLES)
+	var roof: SurfaceTool=SurfaceTool.new();roof.begin(Mesh.PRIMITIVE_TRIANGLES);roof.set_smooth_group(0)
+	var glass: SurfaceTool=SurfaceTool.new();glass.begin(Mesh.PRIMITIVE_TRIANGLES);glass.set_smooth_group(0)
+	var split: Array[float]=[-8.150225,-8.09,-8.00,-7.85,-7.64,-7.39,-7.08,-6.75,-6.41,-6.06,-5.86,-5.65]
+	for j: int in range(split.size()-1):
+		for k: int in range(64):
+			var a: float=TAU*k/64.0;var b: float=TAU*(k+1)/64.0
+			var n: Vector3=Vector3(sin((a+b)*0.5),cos((a+b)*0.5),0)
+			var painted: bool=(j>=10) or (j>=3 and n.y<(-0.82 if j<7 else -0.47)) or (j>=8 and n.y>0.52)
+			G.quad(roof if painted else glass,_nose_point(split[j],a),_nose_point(split[j+1],a),_nose_point(split[j+1],b),_nose_point(split[j],b),n,materials.bottom.albedo_color if n.y<0.0 else materials.top.albedo_color)
+	G.part(skin,"PaintedNoseKeelAndShoulders",G.finish(roof),materials.skin)
+	G.part(skin,"BombardierGlazing",G.finish(glass),materials.clear)
+	# Tonal floor and bulkhead keep the glass legible without building an interior.
+	G.box(skin,"NoseFloorShadow",Vector3(0.84,0.06,1.39),Vector3(0,-0.37,-6.91),materials.dark)
+	_detail_ellipsoid(skin,"NoseTipSeal",Vector3(0.106,0.103,0.016),Vector3(0,0.04,-8.134225),materials.glass)
+	for z: float in [-8.01,-7.49,-6.91,-6.36,-5.88]:
+		var arc: float=PI*0.66 if z>-7.45 else PI*0.83
+		G.arch(skin,"NoseCrossFrame",NOSE,z,0.038,materials.frame,TAU-arc,TAU+arc)
+	for a: float in [0.0,PI*0.28,-PI*0.28,PI*0.58,-PI*0.58]:
+		for j: int in range(1,split.size()-1):
+			if j>=9 and absf(a)<PI*0.28: continue
+			G.rod(skin,"NoseLongitudinalFrame",_nose_point(split[j],a),_nose_point(split[j+1],a),0.018,materials.frame)
+	var top: SurfaceTool=SurfaceTool.new();top.begin(Mesh.PRIMITIVE_TRIANGLES)
+	var panes: SurfaceTool=SurfaceTool.new();panes.begin(Mesh.PRIMITIVE_TRIANGLES)
 	for j: int in range(COCKPIT.size()-1):
-		for i: int in range(4):G.quad(st,_cockpit_point(COCKPIT[j][0],i),_cockpit_point(COCKPIT[j+1][0],i),_cockpit_point(COCKPIT[j+1][0],i+1),_cockpit_point(COCKPIT[j][0],i+1),Vector3(0,1,0))
-	G.part(skin,"SteppedCockpit",G.finish(st),materials.glass)
-	for z: float in [-5.04,-4.41,-3.57]:
-		for i: int in range(4):G.rod(skin,"CockpitFrame",_cockpit_point(z,i),_cockpit_point(z,i+1),0.024,materials.frame)
+		for i: int in range(4):
+			var opaque: bool=j>=5 or (j>=2 and i in [1,2])
+			G.quad(top if opaque else panes,_cockpit_point(COCKPIT[j][0],i),_cockpit_point(COCKPIT[j+1][0],i),_cockpit_point(COCKPIT[j+1][0],i+1),_cockpit_point(COCKPIT[j][0],i+1),Vector3.UP)
+	G.part(skin,"CockpitCanopyRoof",G.finish(top),materials.top)
+	G.part(skin,"CockpitWindscreenAndSidePanes",G.finish(panes),materials.glass)
+	for z: float in [-5.02,-4.25,-3.76]:
+		for i: int in range(4):G.rod(skin,"CockpitFrame",_cockpit_point(z,i),_cockpit_point(z,i+1),0.020,materials.frame)
 	for i: int in [0,1,2,3,4]:
-		for j: int in range(COCKPIT.size()-1):G.rod(skin,"CockpitLongFrame",_cockpit_point(COCKPIT[j][0],i),_cockpit_point(COCKPIT[j+1][0],i),0.021,materials.frame)
+		for j: int in range(COCKPIT.size()-1):
+			if i==2 and j>1: continue
+			G.rod(skin,"CockpitLongFrame",_cockpit_point(COCKPIT[j][0],i),_cockpit_point(COCKPIT[j+1][0],i),0.020,materials.frame)
 	var tail: Node3D=fixed(damage_modules.tail,"TailGlass")
 	G.part(tail,"TailGunnerHood",G.loft(TAIL_HOOD,6.65,8.11,Color.WHITE,Color.WHITE,Vector4.ZERO,false),materials.glass)
 	for z: float in [7.07,7.55,7.99]:G.arch(tail,"TailHoodFrame",TAIL_HOOD,z,0.03,materials.frame,PI*1.5,PI*2.5)
@@ -175,10 +242,19 @@ func _build_glazing() -> void:
 func _build_engines() -> void:
 	for id: String in ["left","right"]:
 		var engine: Node3D=damage_modules["engine_"+id];var skin: Node3D=fixed(engine)
-		G.part(skin,"Nacelle",G.loft(NACELLE,-1.56,5.24,materials.top.albedo_color,materials.bottom.albedo_color),materials.skin)
-		G.sphere(skin,"DarkCowlFace",Vector3(0.68,0.68,0.03),Vector3(0,0,-1.58),materials.dark)
-		G.box(skin,"CarburetorIntake",Vector3(0.38,0.17,0.65),Vector3(0,0.77,-0.69),materials.top)
-		G.box(skin,"IntakeMouth",Vector3(0.26,0.085,0.018),Vector3(0,0.78,-1.02),materials.dark)
+		G.part(skin,"Nacelle",G.loft(NACELLE,-1.56,5.24,materials.top.albedo_color,materials.bottom.albedo_color,Vector4.ZERO,false),materials.skin)
+		var lip: Array=[[-1.56,0.0,0.72,0.72,0.72],[-1.57,0.0,0.66,0.66,0.66],[-1.53,0.0,0.61,0.61,0.61],[-1.24,0.0,0.60,0.60,0.60]]
+		# A recessed visual face behind a rounded lip reads as an opening, not a flat disc.
+		lip.reverse()
+		G.part(skin,"RoundedInletLip",_cowl_lip(lip),materials.cowl)
+		_detail_ellipsoid(skin,"RecessBehindLip",Vector3(0.64,0.64,0.04),Vector3(0,0,-1.24),materials.dark)
+		for k: int in range(14):
+			var a: float=TAU*k/14.0
+			var v: Vector3=Vector3(cos(a),sin(a),0)
+			G.box(skin,"RecessDetail",Vector3(0.324,0.084,0.062),v*0.401+Vector3(0,0,-1.284),materials.cowl).rotation.z=a
+		G.arch(skin,"CowlingJoint",NACELLE,-0.42,0.026,materials.seam)
+		_detail_ellipsoid(skin,"IntakeFairing",Vector3(0.18,0.115,0.35),Vector3(0,0.86,-0.83),materials.top)
+		_detail_ellipsoid(skin,"IntakeOpening",Vector3(0.118,0.046,0.022),Vector3(0,0.883,-1.09),materials.dark)
 		
 		var prop: Node3D=G.group(engine,"Propeller",Vector3(0,0,-1.64));propellers[id]=prop
 		G.sphere(prop,"Hub",Vector3(0.17,0.17,0.27),Vector3(0,0,-0.04),materials.steel)
@@ -191,11 +267,51 @@ func _build_engines() -> void:
 		mark(engine,"ENGINE_"+id.to_upper()+"_SMOKE",Vector3(0,0.35,0.2),"simulation requested smoke only")
 		mark(engine,"ENGINE_"+id.to_upper()+"_CUT",Vector3.ZERO,"engine subhost inherits entire corresponding wing")
 
+func _cowl_lip(rings: Array) -> ArrayMesh:
+	var st: SurfaceTool=SurfaceTool.new();st.begin(Mesh.PRIMITIVE_TRIANGLES);st.set_smooth_group(0)
+	for j: int in range(rings.size()-1):
+		for i: int in range(48):
+			var a: float=TAU*i/48.0;var b: float=TAU*(i+1)/48.0
+			var u: Array=rings[j];var v: Array=rings[j+1]
+			var radial: Vector3=Vector3(sin((a+b)*0.5),cos((a+b)*0.5),0)
+			var n: Vector3=-radial if j==0 else Vector3.FORWARD
+			G.quad(st,Vector3(u[2]*sin(a),u[2]*cos(a),u[0]),Vector3(v[2]*sin(a),v[2]*cos(a),v[0]),Vector3(v[2]*sin(b),v[2]*cos(b),v[0]),Vector3(u[2]*sin(b),u[2]*cos(b),u[0]),n)
+	return G.finish(st)
+
+func _wing_skin_details(host: Node3D,side: float) -> void:
+	# Trace selected sheet joins onto the actual curved surface.
+	for span: float in [4.38,6.31,8.83]:
+		for j: int in range(9):
+			var a: Vector3=G.wing_point(WING,span,0.10+0.61*j/9.0,true)
+			var b: Vector3=G.wing_point(WING,span,0.10+0.61*(j+1)/9.0,true)
+			a.x*=side;b.x*=side
+			G.box(host,"WingSheetJoint",Vector3(0.016,0.014,a.distance_to(b)),(a+b)*0.5+Vector3.UP*0.007,materials.seam).basis=Basis.looking_at((b-a).normalized(),Vector3.UP)
+	var tip: Vector3=G.wing_point(WING,10.14,0.58,true)
+	# Position lights inset just inboard of the measured span limit.
+	tip.x*=side
+	if not materials.has("nav_port"):
+		materials.nav_port=G.material(Color("7b302c"));materials.nav_starboard=G.material(Color("2b5b49"))
+	_detail_ellipsoid(host,"NavigationLight",Vector3(0.066,0.034,0.13),tip+Vector3.DOWN*0.012,materials.nav_port if side<0 else materials.nav_starboard)
+
+func _fuselage_insignia(host: Node3D,side: float) -> void:
+	var z: float=4.58
+	var paint: Node3D=_insignia(host,Vector3(side*0.595,0.10,z),Vector3(side,0,0),0.39)
+	paint.basis=Basis(Vector3(0,0,side),Vector3.UP,Vector3(-side,0,0))
+	_conform_paint(paint,false,side,true)
+
+func _detail_ellipsoid(host: Node3D,id: String,size: Vector3,at: Vector3,mat: Material) -> void:
+	var mesh: SphereMesh=SphereMesh.new()
+	mesh.radius=1.0;mesh.height=2.0;mesh.radial_segments=12;mesh.rings=5
+	G.part(host,id,mesh,mat,at).scale=size
+
 func _wheel(host: Node3D,id: String,at: Vector3,radius: float,width: float) -> void:
-	var mesh: CylinderMesh=CylinderMesh.new();mesh.top_radius=radius;mesh.bottom_radius=radius;mesh.height=width;mesh.radial_segments=48
-	var node: MeshInstance3D=G.part(host,id,mesh,materials.tyre,at);node.rotation.z=PI*0.5
+	var profile: Array=[[-width*0.5,0,radius*0.86,radius*0.86,radius*0.86],[-width*0.39,0,radius*0.96,radius*0.96,radius*0.96],[-width*0.19,0,radius,radius,radius],
+		[width*0.19,0,radius,radius,radius],[width*0.39,0,radius*0.96,radius*0.96,radius*0.96],[width*0.5,0,radius*0.86,radius*0.86,radius*0.86]]
+	var node: MeshInstance3D=G.part(host,id,G.loft(profile,-width*0.5,width*0.5,Color.WHITE,Color.WHITE,Vector4.ZERO,true,24),materials.tyre,at);node.rotation.y=PI*0.5
 	var hub: CylinderMesh=CylinderMesh.new();hub.top_radius=radius*0.48;hub.bottom_radius=radius*0.48;hub.height=width+0.018;hub.radial_segments=20
 	node=G.part(host,id+"Hub",hub,materials.steel,at);node.rotation.z=PI*0.5
+	for side: float in [-1,1]:
+		_detail_ellipsoid(host,"HubCap",Vector3(0.038,radius*0.25,radius*0.25),at+Vector3(side*(width*0.5+0.012),0,0),materials.cowl)
 
 func _build_gear() -> void:
 	for id: String in ["left","right","nose"]:

@@ -287,13 +287,13 @@
 		{
 			"bounds_body_m": {
 				"position": [
-					-4.03000020980835,
-					-0.639999985694885,
+					-3.95499992370605,
+					-0.649999976158142,
 					5.65000009536743
 				],
 				"size": [
-					8.0600004196167,
-					3.44999980926514,
+					7.90999984741211,
+					3.46000003814697,
 					3.31999921798706
 				]
 			},
@@ -357,8 +357,8 @@
 		"body_and_payload": 0.505085945129395,
 		"flap_inner_left": 1.6631406545639,
 		"flap_inner_right": 1.6631406545639,
-		"flap_outer_left": 2.00573396682739,
-		"flap_outer_right": 2.00573396682739,
+		"flap_outer_left": 1.93914127349854,
+		"flap_outer_right": 1.93914127349854,
 		"full_prop_disc_left": 0.378121913943627,
 		"full_prop_disc_right": 0.378121892512081,
 		"open_bay_door_left": 0.746262550354004,
@@ -576,8 +576,8 @@
 			"path": "LeftWing/FlapOuter/FLAP_OUTER_LEFT_HINGE",
 			"position_m": [
 				-3.83999991416931,
-				0.593122661113739,
-				0.534253060817719
+				0.570712149143219,
+				0.528889775276184
 			],
 			"radius_m": 0.0,
 			"source_status": "photo-estimated finite +X control hinge; no aerodynamic authority"
@@ -592,8 +592,8 @@
 			"path": "LeftWing/Aileron/AILERON_LEFT_HINGE",
 			"position_m": [
 				-5.90000009536743,
-				0.563261806964874,
-				0.658548414707184
+				0.45703250169754,
+				0.635396778583527
 			],
 			"radius_m": 0.0,
 			"source_status": "photo-estimated finite +X control hinge; no aerodynamic authority"
@@ -640,8 +640,8 @@
 			"path": "RightWing/FlapOuter/FLAP_OUTER_RIGHT_HINGE",
 			"position_m": [
 				3.83999991416931,
-				0.593122661113739,
-				0.534253060817719
+				0.570712149143219,
+				0.528889775276184
 			],
 			"radius_m": 0.0,
 			"source_status": "photo-estimated finite +X control hinge; no aerodynamic authority"
@@ -656,8 +656,8 @@
 			"path": "RightWing/Aileron/AILERON_RIGHT_HINGE",
 			"position_m": [
 				5.90000009536743,
-				0.563261806964874,
-				0.658548414707184
+				0.45703250169754,
+				0.635396778583527
 			],
 			"radius_m": 0.0,
 			"source_status": "photo-estimated finite +X control hinge; no aerodynamic authority"
@@ -1694,9 +1694,9 @@
 		1
 	],
 	"source_hashes": {
-		"aircraft/b25j/b25j.gd": "c44cd0cd2fd35ae7a56c803a824549612229701ee463c466525e0f12f76c627f",
+		"aircraft/b25j/b25j.gd": "656c213df3cfa5abc5063ad757966da5eb53931d68febedacaa2b16051536a65",
 		"aircraft/b25j/b25j.tscn": "7ca962678e2767188c5b029c98da318efee26847ed3dfdb93683737817dd4ed7",
-		"aircraft/b25j/geometry.gd": "8f391745185c8d0e07951352da6e808e06bc92222c0474cc67e61fdcdc309965",
+		"aircraft/b25j/geometry.gd": "ffe19fee735d6c60d215cc698186a5c21d9ad5b4cc0dcb164bd476352e567ba2",
 		"data/map02/regions.json": "9001179a2e2c48774c4c62d8afecc2e10d131d5a717a045b42742d77056d5816",
 		"data/maps/island_harbor_expanded.json": "1957cd45bcbc84d001cc47f22ab33237ea210f1d57a3a6808e306db27d0a0ed6",
 		"scripts/map02/expanded_map_data.gd": "26addcec3d15a79f11936c0cb2fbaad6373466575b32e617b739a1bdad58433e",
@@ -1706,9 +1706,9 @@
 		"tests/av04/test_b25j.gd": "ec703fef11e097d2ce4f422111b0bd88e01aeab1112a98c4cb0ad4961f745b75"
 	},
 	"stats": {
-		"mesh_nodes_after_fixed_merge": 125,
-		"raw_mesh_nodes": 225,
-		"triangles_all_configurations": 51108
+		"mesh_nodes_after_fixed_merge": 145,
+		"raw_mesh_nodes": 429,
+		"triangles_all_configurations": 60548
 	},
 	"status": "native_contract_passed_pending_coordinator",
 	"taxiway": {
