@@ -197,13 +197,13 @@ func _ready() -> void:
 	root.resized.connect(_layout)
 	_layout()
 
-func set_terrain(data: Dictionary) -> void:
+func set_terrain(data: Dictionary, view_points: Variant = null) -> void:
 	map_data = data
 	map.terrain = data
 	map_selector.clear()
 	map_selector.add_item("地图定位")
 	map_selector.set_item_metadata(0, "overview")
-	for point: Dictionary in data.source.viewpoints:
+	for point: Dictionary in (data.source.viewpoints if view_points == null else view_points):
 		map_selector.add_item(point.label)
 		map_selector.set_item_metadata(map_selector.item_count-1,point.id)
 	map_selector.show()

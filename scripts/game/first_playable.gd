@@ -63,7 +63,7 @@ func _ready() -> void:
 		add_child(map_view)
 		map_view.build(terrain)
 		camera.terrain = terrain
-		hud.set_terrain(terrain)
+		hud.set_terrain(terrain,map_view.presentation_viewpoints())
 	for id: String in session.world.unit_ids():
 		var definition: UnitDefinition = session.catalog.unit(session.units[id].definition_id)
 		var packed: PackedScene = load(definition.model_scene) as PackedScene
@@ -178,7 +178,7 @@ func _action(kind: String, value: Variant) -> void:
 		"follow": camera.follow(str(value))
 		"map_location":
 			if map_view != null:
-				for point: Dictionary in map_view.terrain.source.viewpoints:
+				for point: Dictionary in map_view.presentation_viewpoints():
 					if point.id == str(value): camera.locate_map(point)
 		"sound":
 			_sound_enabled = not _sound_enabled

@@ -2,7 +2,6 @@ extends Node3D
 
 const DATA: Script = preload("res://scripts/map02/expanded_map_data.gd")
 const VIEW: Script = preload("res://scripts/map02/expanded_map_view.gd")
-const BLOCKOUT: Script = preload("res://scripts/map02/harbor_town_blockout.gd")
 const VIEWS: Array[Dictionary] = [
 	{"label":"01  总览：内湾、船厂与西侧小镇","focus":Vector3(2810,30,-4390),"eye":Vector3(1010,1890,1460),"fov":54.0},
 	{"label":"02  海面：渡口与港镇的层次","focus":Vector3(2350,43,-4860),"eye":Vector3(-390,72,585),"fov":43.0},
@@ -26,10 +25,7 @@ func _ready() -> void:
 	map_view=VIEW.new()
 	add_child(map_view)
 	map_view.build(chart)
-	town=BLOCKOUT.new()
-	town.name="HarborTownMassing"
-	add_child(town)
-	town.build(chart)
+	town=map_view.get_node("HarborTown")
 	camera=Camera3D.new()
 	camera.current=true
 	camera.far=70000.0
@@ -67,7 +63,7 @@ func _menu() -> void:
 	theme_value.default_font_size=17
 	box.theme=theme_value
 	var title: Label=Label.new()
-	title.text="青岬港城 · 灰模检视"
+	title.text="青岬港城 · 场景检视"
 	title.add_theme_font_size_override("font_size",24)
 	col.add_child(title)
 	selector=OptionButton.new()

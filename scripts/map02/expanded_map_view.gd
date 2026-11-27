@@ -3,6 +3,12 @@ extends "res://scripts/presentation/maps/island_harbor_view.gd"
 
 const PORT_PAINT_ROADS: Array[String] = ["map02_port_link", "map02_naval_service"]
 const QUAY_GEOMETRY: Script = preload("res://scripts/map02/quay_geometry.gd")
+const TOWN: Script = preload("res://scripts/map02/harbor_town_blockout.gd")
+const TOWN_POINTS: Array[Dictionary] = [
+	{"id":"map02_town_ferry","label":"港镇 · 西侧渡口","focus_m":[2290,17,-4610],"distance_m":210,"yaw_rad":-.45,"pitch_rad":.30},
+	{"id":"map02_town_market","label":"港镇 · 市场与主街","focus_m":[2273,49,-4881],"distance_m":190,"yaw_rad":-1.12,"pitch_rad":.24},
+	{"id":"map02_town_hill","label":"港镇 · 坡地住区","focus_m":[2152,58,-5160],"distance_m":340,"yaw_rad":-2.43,"pitch_rad":.36}
+]
 const SUPPORT_PROPS: Script = preload("res://scripts/map02/harbor_support_props.gd")
 
 func build(data: Dictionary) -> void:
@@ -33,6 +39,20 @@ func build(data: Dictionary) -> void:
 	statistics.materials += 8
 	statistics.static_triangles += triangles
 	statistics["support_props"] = props.get_child_count()
+	var town: Node3D = TOWN.new()
+	town.name = "HarborTown"
+	add_child(town)
+	town.build(data)
+	statistics.nodes += town.get_child_count()+1
+	statistics.mesh_instances += town.get_child_count()
+	statistics.materials += town.get_child_count()
+	statistics.static_triangles += int(town.metrics.triangles)
+	statistics["harbor_town"] = town.metrics.duplicate()
+
+func presentation_viewpoints() -> Array:
+	var points: Array = super.presentation_viewpoints()
+	if has_node("HarborTown"): points.append_array(TOWN_POINTS)
+	return points
 
 func _road(road: Dictionary) -> void:
 	if str(terrain.source.id) == "island_harbor_expanded" and str(road.get("id","")) in PORT_PAINT_ROADS:

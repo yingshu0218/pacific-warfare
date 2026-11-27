@@ -8,6 +8,10 @@ var _surface: SurfaceTool
 var _triangles: int = 0
 var shore_material: ShaderMaterial
 
+func presentation_viewpoints() -> Array:
+	return terrain.get("source",{}).get("viewpoints",[]).duplicate()
+
+
 func build(data: Dictionary) -> void:
 	terrain = data
 	var material: StandardMaterial3D = StandardMaterial3D.new()

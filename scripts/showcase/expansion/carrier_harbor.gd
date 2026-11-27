@@ -127,7 +127,7 @@ func _reset_presentation() -> void:
 			map_view.free()
 			map_view = (load(str(session.scenario.environment.get("view_script","res://scripts/presentation/maps/island_harbor_view.gd"))) as Script).new() as IslandHarborView
 			add_child(map_view); map_view.build(terrain)
-		camera.terrain = terrain; hud.set_terrain(terrain)
+		camera.terrain = terrain; hud.set_terrain(terrain, map_view.presentation_viewpoints() if map_view != null else null)
 		if gallery != null:
 			gallery.free(); gallery = ShowcaseWeaponGallery.new(); add_child(gallery); gallery.build(terrain)
 	super._reset_presentation()

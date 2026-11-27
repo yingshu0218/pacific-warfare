@@ -25,7 +25,7 @@ func _ready() -> void:
 		terrain=DATA.compile()
 		map_view=VIEW.new();add_child(map_view);map_view.build(terrain)
 		camera.terrain=terrain
-		for p: Dictionary in terrain.source.viewpoints:points.append(p)
+		for p: Dictionary in map_view.presentation_viewpoints(): points.append(p)
 		if str(terrain.source.id) == "island_harbor_expanded":
 			points.append_array(SUPPORT_PROPS.INSPECTION_POINTS)
 	camera.mode="free"
