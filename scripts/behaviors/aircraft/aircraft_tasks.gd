@@ -383,7 +383,12 @@ func _combat(world: SimulationWorld, unit: UnitState, order: Dictionary, task: D
 	var relative_velocity: Vector3 = (contact.velocity_mps as Vector3) - unit.velocity_mps
 	var lookahead: float = minf(1.0, distance / maxf(1.0, relative_velocity.length()) * 0.4)
 	var steering_aim: Vector3 = (aim * distance + relative_velocity * lookahead).normalized()
-	var guidance: Dictionary = AirCombatTactics.decide(unit,p,task.spatial,contact,contacts,steering_aim,world.time_s())
+	var contact_floor_m: float = 0.0
+	if contact.get("role","") in ["level_bomber", "dive_bomber"]:
+		var terrain: Dictionary = world.shared_state.get("terrain",{})
+		contact_floor_m = maxf(TerrainQueries.height_data(terrain,point,true),
+			TerrainQueries.height_data(terrain,unit.position_m.lerp(point,0.5),true))
+	var guidance: Dictionary = AirCombatTactics.decide(unit,p,task.spatial,contact,contacts,steering_aim,world.time_s(),contact_floor_m)
 	var fighter_assignment: bool = p.get("role","") == "fighter" and order.order_type in ["intercept","engage"] and contact.get("role","") == "fighter"
 	if fighter_assignment and not guidance.has("attitude") and guidance.mode != "recover" and not unit.module_data.has("aircraft_avoidance"):
 		var terrain_top_m: float = world.shared_state.get("terrain",{}).get("max_height_m",0.0)

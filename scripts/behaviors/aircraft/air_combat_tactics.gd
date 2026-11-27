@@ -3,7 +3,11 @@ extends RefCounted
 
 ## Pure pilot decisions: only own state and copied, faction-visible contacts enter.
 ## No world/enemy lookup, random motion, model access, damage or projectile writer.
-static func decide(unit: UnitState, p: Dictionary, memory: Dictionary, contact: Dictionary, contacts: Array, aim: Vector3, now: float) -> Dictionary:
+# Game staging bands. They shape the silhouette of the encounter, not accuracy.
+const BOMBER_LAYER_M: float = 240.0
+const BOMBER_LAYER_READY_M: float = 140.0
+const BOMBER_SETUP_LIMIT_S: float = 8.0
+static func decide(unit: UnitState, p: Dictionary, memory: Dictionary, contact: Dictionary, contacts: Array, aim: Vector3, now: float, nearby_terrain_m: float = 0.0) -> Dictionary:
 	var forward: Vector3 = -Basis.from_euler(unit.rotation_rad).z
 	var point: Vector3 = contact.position_m + (contact.velocity_mps as Vector3)*maxf(0,now-float(contact.observed_time_s))
 	var offset: Vector3 = point-unit.position_m
@@ -22,8 +26,10 @@ static func decide(unit: UnitState, p: Dictionary, memory: Dictionary, contact: 
 	if str(memory.target_id) != str(contact.entity_id):
 		memory.mode = "track"
 		memory.target_id = contact.entity_id
+		memory.erase("bomber_height")
 	var attitude: Dictionary = AirCombatManeuvers.decide(unit,p,memory,contact,_tail_threat(unit,contacts,forward),now)
 	if not attitude.is_empty():
+		memory.erase("bomber_height")
 		attitude.merge({"relative_height_m":height_advantage,"closing_mps":closure,"energy_margin_m":kinetic_margin})
 		return attitude
 	var mode: String = memory.mode
@@ -67,13 +73,23 @@ static func decide(unit: UnitState, p: Dictionary, memory: Dictionary, contact: 
 		mode = "track"
 	var threat: Dictionary = _tail_threat(unit,contacts,forward)
 	var reason: String = "lead_solution"
-	if mode == "track" and now >= float(memory.cooldown_until_s) and not unsafe:
+	var bomber_profile: bool = p.get("role","") == "fighter" and contact.get("role","") in ["level_bomber", "dive_bomber"]
+	var height_plan: Dictionary = {}
+	if bomber_profile and not unsafe and threat.is_empty() and mode == "track":
+		height_plan = _bomber_height(unit,p,memory,point,height_advantage,distance,now,nearby_terrain_m)
+	else:
+		memory.erase("bomber_height")
+	if height_plan.is_empty() and mode == "track" and now >= float(memory.cooldown_until_s) and not unsafe:
 		var selected: String = "track"
 		if not threat.is_empty():
 			selected = "zoom_climb" if kinetic_margin > 220 and speed > float(p.cruise_mps)*0.95 else ("diving_break" if clearance > float(p.spatial.recovery_floor_m)+350 else "oblique_extend")
 			reason = "tail_contact_energy" if selected == "zoom_climb" else "tail_contact_clearance"
 		elif distance < 170 or (angle > 1.65 and distance < 650):
 			selected = "zoom_climb" if kinetic_margin > 200 else "oblique_extend"
+			if contact.get("role","") == "fighter" and clearance > float(p.spatial.recovery_floor_m)+430.0 \
+					and speed < float(p.sea_level_max_mps)*0.87 and posmod(int(memory.get("fighter_passes",0)) + unit.id.hash(),2) == 0:
+				selected = "diving_break"
+			memory["fighter_passes"] = int(memory.get("fighter_passes",0))+1
 			reason = "pass_separation"
 		elif pursuit and distance < 1100 and distance > 280 and closure > 35 and speed > target_speed+18 and kinetic_margin > 130:
 			selected = "high_yoyo"
@@ -135,10 +151,56 @@ static func decide(unit: UnitState, p: Dictionary, memory: Dictionary, contact: 
 		broad_phase = "extend"
 	elif mode != "track":
 		reason = str(memory.get("reason",reason))
+	if not height_plan.is_empty():
+		mode = str(height_plan.mode)
+		reason = str(height_plan.reason)
+		if height_plan.has("direction"):
+			desired = height_plan.direction
+			permit_fire = false
+			broad_phase = "approach"
 	return {"direction":desired,"speed_mps":p.combat_mps,"max_bank_rad":bank_limit,
 		"turn_side":side,"mode":mode,"reason":reason,"phase":broad_phase,"permit_fire":permit_fire,
 		"relative_height_m":height_advantage,"closing_mps":closure,"energy_margin_m":kinetic_margin,
 		"last_exit":memory.last_exit}
+
+# One stable band per pass. Selection follows observed relative height when
+# already separated; near-level NPCs distribute across bands by stable id.
+# A pass can leave the band to track the target, but it cannot oscillate between
+# bands as the contact moves. Existing terrain and separation controls still win.
+static func _bomber_height(unit: UnitState, p: Dictionary, memory: Dictionary, point: Vector3, relative_height: float, distance: float, now: float, terrain_m: float) -> Dictionary:
+	var state: Dictionary = memory.get("bomber_height", {})
+	var low_safe: bool = point.y - BOMBER_LAYER_M > terrain_m + float(p.spatial.recovery_floor_m) + 160.0
+	var high_safe: bool = point.y + BOMBER_LAYER_M < float(p.ceiling_m) - 120.0
+	if state.is_empty():
+		var side: float = signf(relative_height) if absf(relative_height) >= BOMBER_LAYER_READY_M else (-1.0 if posmod(unit.id.hash(),2) == 0 else 1.0)
+		if side < 0.0 and not low_safe: side = 1.0
+		if side > 0.0 and not high_safe and low_safe: side = -1.0
+		if (side > 0.0 and not high_safe) or (side < 0.0 and not low_safe): return {}
+		state = {"side":side,"ready":false,"fallback":false,"started_s":now}
+		memory["bomber_height"] = state
+	var side: float = float(state.side)
+	if (side < 0.0 and not low_safe) or (side > 0.0 and not high_safe):
+		memory.erase("bomber_height")
+		return {}
+	var label: String = "upper" if side > 0.0 else "lower"
+	if not bool(state.ready) and not bool(state.fallback):
+		if relative_height * side >= BOMBER_LAYER_READY_M:
+			state.ready = true
+		elif distance < 240.0 or now - float(state.started_s) >= BOMBER_SETUP_LIMIT_S:
+			state.fallback = true
+	if bool(state.fallback):
+		return {"mode":"track","reason":"bomber_layer_released"}
+	# A very distant contact is not an actual attack pass yet. Retain the band
+	# while closing, then let the original continuous aim/fire gate take over.
+	if bool(state.ready) and distance < 870.0:
+		return {"mode":"bomber_pass_"+label,"reason":"bomber_pass_"+label}
+	var horizontal: Vector3 = point - unit.position_m
+	horizontal.y = 0.0
+	var error_m: float = point.y + side * BOMBER_LAYER_M - unit.position_m.y
+	var elevation: float = atan2(error_m, maxf(410.0, horizontal.length() * 0.55))
+	var forward: Vector3 = -Basis.from_euler(unit.rotation_rad).z
+	return {"mode":"bomber_layer_"+label,"reason":"bomber_layer_"+label,
+		"direction":AircraftFlightMath.elevated(horizontal,clampf(elevation,-0.34,0.34),forward)}
 
 static func _tail_threat(unit: UnitState, contacts: Array, forward: Vector3) -> Dictionary:
 	for contact: Dictionary in contacts:

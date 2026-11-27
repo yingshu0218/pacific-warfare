@@ -198,6 +198,7 @@ G5 的正式主场景在流程稳定后才替换当前默认展示入口。已�
 | --- | --- | --- |
 | AIR02 | 两型战斗机根据当前飞行意图执行立体机动 | 已接入正式港湾，两个种子与定向回归通过。[实施](deliveries/AIR02.md) · [统筹验收](deliveries/2026-11-19-aerial-motion.md) |
 | CAM03 | 连续跟拍战斗机，辨识升降与滚转 | 已通过原生和 Ego Lite 功能验收，网页帧时间单列。[实施](deliveries/CAM03.md) · [实战录像](showcase/evidence/2026-11-19-aerial-motion/autonomous-air-combat.mp4) |
+| AIR03 | 轰炸机拦截的高低接敌层；战斗机分离高度变化 | 原生战局与游戏事件回归。[交付说明](deliveries/AIR03.md) |
 
 ## 4. 资产任务
 
