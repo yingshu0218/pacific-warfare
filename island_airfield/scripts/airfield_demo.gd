@@ -190,7 +190,7 @@ func _build_hud() -> void:
 	info_panel.add_child(column)
 	var title := _make_label("沃莱艾环礁 · 法拉拉普岛", 25, Color("f0eadb"))
 	column.add_child(title)
-	column.add_child(_make_label("日军机场展示  /  1944 年  /  海拔约 3.5 m", 15, Color("c7cfbf")))
+	column.add_child(_make_label("1944 年机场 · 概略布局  /  海拔约 3.5 m", 15, Color("c7cfbf")))
 	column.add_child(_make_label("跑道 1,000 × 100 m 清障带  ·  滑行道 625 m  ·  1:1 米制", 15, Color("c7cfbf")))
 	var divider := HSeparator.new()
 	column.add_child(divider)
@@ -298,12 +298,19 @@ func _update_camera(delta: float, snap: bool = false) -> void:
 			var ease: float = 1.0 - exp(-delta * 4.0)
 			camera.global_position = camera.global_position.lerp(desired_position, ease)
 		camera.look_at(aircraft_target + sortie.aircraft.global_basis.z * -28.0, Vector3.UP)
+		camera.near = 0.12
 		return
 
 	var direction := Vector3(sin(_camera_yaw) * cos(_camera_pitch), sin(_camera_pitch), cos(_camera_yaw) * cos(_camera_pitch))
 	var desired := _camera_target + direction * _camera_distance
 	camera.global_position = desired
 	camera.look_at(_camera_target, Vector3.UP)
+	# Compatibility depth is sensitive to a 12 cm near plane at island scale.
+	# Keep it for close views and zoom/pan near the ground; recover depth
+	# precision only when the overview/runway camera has vertical clearance.
+	camera.near = 0.12
+	if _camera_mode == "overview" or _camera_mode == "runway":
+		camera.near = clampf(minf(_camera_distance * 0.025, (desired.y - 60.0) * 0.25), 0.12, 40.0)
 
 
 func _on_telemetry_updated(phase_name: String, speed: float, altitude: float, elapsed: float) -> void:

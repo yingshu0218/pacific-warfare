@@ -1,6 +1,7 @@
 """Fetch only web template ZIP members from the official same-version TPZ."""
 import io, struct, urllib.request, zipfile, zlib
 from pathlib import Path
+from godot_paths import web_template_dir
 URL = 'https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_export_templates.tpz'
 
 def fetch(start, end):
@@ -20,7 +21,7 @@ central = fetch(central_offset, central_offset+central_size-1)
 eocd = bytearray(tail[pos:])
 struct.pack_into('<I', eocd, 16, 0)
 archive = zipfile.ZipFile(io.BytesIO(central+eocd))
-out = Path.home()/'Library/Application Support/Godot/export_templates/4.7.2.stable'
+out = web_template_dir('4.7.2.stable')
 out.mkdir(parents=True, exist_ok=True)
 for member in archive.infolist():
     name = Path(member.filename).name

@@ -5,6 +5,7 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
+from godot_paths import web_template_dir
 import re
 import shutil
 import subprocess
@@ -50,7 +51,7 @@ def main():
     project = re.sub(r'viewport_width=\d+', 'viewport_width=1280', project)
     project = re.sub(r'viewport_height=\d+', 'viewport_height=720', project)
     (STAGE / 'project.godot').write_text(project)
-    templates = Path.home() / 'Library/Application Support/Godot/export_templates/4.7.2.stable'
+    templates = web_template_dir('4.7.2.stable')
     if (templates / 'version.txt').read_text().strip() != '4.7.2.stable': raise RuntimeError('Template version mismatch')
     template_hashes = {}
     for name in ['web_nothreads_release.zip', 'web_nothreads_debug.zip']:

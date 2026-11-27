@@ -8,6 +8,9 @@ func _ready() -> void:
 	visual = BombingAircraftView.new(definition_id)
 	add_child(visual)
 	preload("res://scripts/showcase/bombing/live_model_batch.gd").apply(visual.model,"s14_bombing_live_"+definition_id)
+	# The shared models default to an inspection (gear-down) pose. A flight scene
+	# is also instantiated standalone by model viewers, without a world snapshot.
+	visual.apply(sample)
 
 func apply_state(state: Dictionary) -> void:
 	position = state.position_m

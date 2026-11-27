@@ -9,6 +9,20 @@ python3 tools/verify.py --owner S02 --timeout 60 test res://tests/test_weapon_mo
 python3 tools/verify.py --owner S02 --project iowa test res://tests/test_mount_assembly.gd
 ```
 
+macOS 优先使用可执行的 `/Applications/Godot.app/Contents/MacOS/Godot`；Linux 从 `PATH` 查找 `godot` 或 `godot4`。多版本并存或可执行文件未加入 `PATH` 时，使用 `--godot /path/to/godot`，放在子命令前。路径发现不会放宽下方的版本检查。
+
+Linux 云沙箱的用户目录不可写时，在同一个终端会话显式指定可写的 XDG 目录（不改 HOME；导出模板仍需另行按固定版本准备）：
+
+```sh
+GODOT_USER_DIR="$(mktemp -d)"
+export XDG_CONFIG_HOME="$GODOT_USER_DIR/config"
+export XDG_DATA_HOME="$GODOT_USER_DIR/data"
+export XDG_CACHE_HOME="$GODOT_USER_DIR/cache"
+mkdir -p "$XDG_CONFIG_HOME" "$XDG_DATA_HOME" "$XDG_CACHE_HOME"
+python3 tools/verify.py --owner cloud-baseline --timeout 180 import
+python3 tools/verify.py --owner cloud-baseline --timeout 120 test res://tests/qingjia/test_observer_menu.gd
+```
+
 每个 Godot 操作先检查完整版本字符串 `4.7.2.stable.official.ed1daf0bf`。默认 headless；包装器的 `import` 使用 headless editor 模式导入，不创建编辑器窗口。固定 Compatibility 的工程配置保持不动。
 
 锁位于 `.local/validation/godot-render.lock`，使用内核 `flock`；PID、所有者、调用身份、获取与释放时间可核验。沙箱禁止 `ps` 时保留 PID、调用参数、启动时间与随机 token，内核锁仍有效。锁文件保留，但进程退出后内核自动解锁，不按文件存在或 PID 文本阻塞。禁止删除锁文件或换路径绕过互斥。等待默认 15 秒，`--lock-timeout` 可调整；等待超时退出 2，不启动子进程。

@@ -158,6 +158,12 @@ func _is_flat_airfield_surface(x: float, z: float) -> bool:
 		return true
 	if absf(x + 273.0) < 150.0 and absf(z - 82.0) < 132.0:
 		return true
+	# Keep the connector and dispersal stands clear of adjacent terrain
+	# vertices too: the triangulated ground has 12.5–12.9 m spacing.
+	if absf(x + 397.75) < 34.0 and absf(z - 82.0) < 42.0:
+		return true
+	if absf(x - 175.0) < 51.0 and absf(absf(z) - 130.0) < 46.0:
+		return true
 	if absf(x + 430.0) < 35.0 and absf(z) < 220.0:
 		return true
 	if absf(x + 207.0) < 24.0 and absf(z + 182.0) < 24.0:
@@ -213,6 +219,8 @@ func _build_vegetation() -> void:
 
 
 func _inside_airfield_clearance(x: float, z: float) -> bool:
+	if absf(x - 175.0) < 44.0 and absf(absf(z) - 130.0) < 40.0:
+		return true
 	if absf(x) < 83.0 and absf(z) < 535.0:
 		return true
 	if absf(x + 103.0) < 38.0 and absf(z) < 355.0:
@@ -329,15 +337,22 @@ func _build_runway_and_taxiways() -> void:
 			threshold_bars.append(Transform3D(Basis.IDENTITY, Vector3(x, field_y + 0.255, z)))
 	_add_box_multimesh("Runway threshold bars", Vector3(2.8, 0.04, 27.0), _white_material, threshold_bars)
 
-	_add_box("Taxiway · 625 m cleared width envelope", Vector3(50.0, 0.12, 625.0), Vector3(-104.0, field_y + 0.12, 0.0), _sand_material)
-	_add_box("Taxiway surface", Vector3(16.0, 0.08, 625.0), Vector3(-104.0, field_y + 0.22, 0.0), _concrete_material)
-	_add_box("Taxiway connector north", Vector3(94.0, 0.12, 18.0), Vector3(-57.0, field_y + 0.12, -270.0), _sand_material)
-	_add_box("Taxiway connector north surface", Vector3(94.0, 0.08, 14.0), Vector3(-57.0, field_y + 0.22, -270.0), _concrete_material)
-	_add_box("Taxiway connector south", Vector3(94.0, 0.12, 18.0), Vector3(-57.0, field_y + 0.12, 260.0), _sand_material)
-	_add_box("Taxiway connector south surface", Vector3(94.0, 0.08, 14.0), Vector3(-57.0, field_y + 0.22, 260.0), _concrete_material)
+	_add_box("Taxiway · 625 m cleared length envelope", Vector3(50.0, 0.12, 625.0), Vector3(-104.0, field_y + 0.12, 0.0), _sand_material)
+	_add_box("Taxiway surface", Vector3(16.0, 0.14, 625.0), Vector3(-104.0, field_y + 0.15, 0.0), _concrete_material)
+	# Share the paved edges at x=-96 and x=-29 rather than drawing two
+	# overlapping tops. Keep the same usable footprint and y=3.72 grade.
+	var connector_width_m: float = 67.0
+	var connector_x_m: float = -62.5
+	# The shoulder starts at the outer taxiway-clearance edge (x=-79).
+	var shoulder_width_m: float = 50.0
+	var shoulder_x_m: float = -54.0
+	_add_box("Taxiway connector north", Vector3(shoulder_width_m, 0.12, 18.0), Vector3(shoulder_x_m, field_y + 0.12, -270.0), _sand_material)
+	_add_box("Taxiway connector north surface", Vector3(connector_width_m, 0.14, 14.0), Vector3(connector_x_m, field_y + 0.15, -270.0), _concrete_material)
+	_add_box("Taxiway connector south", Vector3(shoulder_width_m, 0.12, 18.0), Vector3(shoulder_x_m, field_y + 0.12, 260.0), _sand_material)
+	_add_box("Taxiway connector south surface", Vector3(connector_width_m, 0.14, 14.0), Vector3(connector_x_m, field_y + 0.15, 260.0), _concrete_material)
 	_add_box("Aircraft dispersal apron · coral", Vector3(270.0, 0.2, 235.0), Vector3(-273.0, field_y - 0.02, 82.0), _sand_material)
 	_add_box("Aircraft dispersal apron · central hardstand", Vector3(210.0, 0.12, 176.0), Vector3(-273.0, field_y + 0.14, 82.0), _concrete_material)
-	_add_box("Hangar apron connector", Vector3(115.0, 0.1, 55.0), Vector3(-360.0, field_y + 0.13, 82.0), _concrete_material)
+	_add_box("Hangar apron connector", Vector3(39.5, 0.12, 55.0), Vector3(-397.75, field_y + 0.14, 82.0), _concrete_material)
 
 	var stand_material := _material(Color("777667"), 0.92)
 	_add_box("North dispersal stand", Vector3(74.0, 0.12, 65.0), Vector3(175.0, field_y + 0.03, -130.0), stand_material)

@@ -11,6 +11,7 @@ import os
 from pathlib import Path
 import re
 import signal
+import shutil
 import subprocess
 import sys
 import time
@@ -19,10 +20,22 @@ import uuid
 ROOT = Path(__file__).resolve().parents[1]
 RUN_ROOT = ROOT / ".local" / "validation"
 LOCK_PATH = RUN_ROOT / "godot-render.lock"
-GODOT = Path("/Applications/Godot.app/Contents/MacOS/Godot")
+MACOS_GODOT = Path("/Applications/Godot.app/Contents/MacOS/Godot")
 VERSION = "4.7.2.stable.official.ed1daf0bf"
 WRAPPER_STARTED_UTC = dt.datetime.now(dt.timezone.utc).isoformat()
 DIAGNOSTIC = re.compile(r"(?:^|\n)\s*(?:SCRIPT ERROR|ERROR|USER ERROR|FATAL ERROR):", re.I)
+
+
+def default_godot() -> Path:
+    """Use the native Mac app when installed, otherwise use a Godot on PATH."""
+    if sys.platform == "darwin" and MACOS_GODOT.is_file() and os.access(MACOS_GODOT, os.X_OK):
+        return MACOS_GODOT
+    for name in ("godot", "godot4"):
+        installed = shutil.which(name)
+        if installed:
+            return Path(installed)
+    # Let the existing subprocess/reporting path surface the missing executable.
+    return Path("godot")
 
 
 class LockTimeout(Exception):
@@ -188,7 +201,8 @@ def main(argv=None) -> int:
     parser.add_argument("--timeout", type=positive_float, default=60.0, help="seconds per subprocess")
     parser.add_argument("--lock-timeout", type=positive_float, default=15.0)
     parser.add_argument("--project", type=Path, default=ROOT, help="explicit Godot project root")
-    parser.add_argument("--godot", type=Path, default=GODOT)
+    parser.add_argument("--godot", type=Path, default=default_godot(),
+                        help="Godot binary; defaults to the Mac app or godot/godot4 on PATH")
     sub = parser.add_subparsers(dest="action", required=True)
     sub.add_parser("version")
     sub.add_parser("import")

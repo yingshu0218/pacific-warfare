@@ -40,3 +40,9 @@
 11. [CINCPAC-CINCPOA Bulletin SS-45 (1945)：25 mm Automatic Cannon Model 96](https://www.bulletpicker.com/pdf/CINCPAC-CINCPOA-Bulletin-55-45.pdf) — 58.5 英寸炮管、箱式弹匣和液压弹簧复进系统。
 12. [Australian War Memorial：25 mm Type 96 Triple Mount Anti-Aircraft Gun](https://www.awm.gov.au/collection/C238576) — 保存实物照片与炮架细节，可对照炮管冷却环、炮手座椅和转台构造。
 
+
+## 1944 年调查复核与本轮修订
+
+[1944 年 JICPOA 沃莱艾调查原件](https://upload.wikimedia.org/wikipedia/commons/f/ff/NDL4009823_No._36-44%2C_10_March_1944%2C_supplement_to_above%2C_Woleai_target_survey._Report_No._11-b%288%29%2C_USSBS_Index_Section_6.pdf) 的 PDF 第 2–4 页包含平面示意、4 月空照拼图和文字。该版记录的**完工硬面**主跑道约 930 × 91 m，走向 048°/228°；东侧滑行道约 526 × 46 m，大致南北向，与主跑道不平行。另见东西向在建条带，不应画成第二条已完成硬面。北侧宽、南侧收尖的岸线也不同于现有椭圆示意。这里比较的是当期记录与游戏大形，不据此断言整个 1944 年布局相同。
+
+当前入口仍为**可运行的概略演示**，没有用新档案尺寸替换旧 1,000 × 58 m 主跑道或 625 × 16 m 滑行硬面，也未改岸线或路线。本轮修正确认存在的几何交叠与遮挡：两条联络道硬面边界贴合跑道和滑行道，硬面统一为 3.72 m；机坪联络道与中央机坪拼边，两处停机坪下的地形留出铺面余量。远景镜头按离地和缩放距离动态调整近裁面，改善 Compatibility 透视深度精度；近地和近景维持 0.12 m。图像表现仍需在有渲染器的窗口复查。脚本 `tests/test_surface_geometry.gd` 能复查实际网格、默认镜头深度预算，并等待原演示完整返场。

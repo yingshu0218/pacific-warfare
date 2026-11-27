@@ -1,6 +1,6 @@
 # 沃莱艾环礁机场场景
 
-独立 Godot 项目，主场景为 1944 年沃莱艾环礁法拉拉普岛日军机场。场景以米和秒组织，Compatibility 渲染器运行；不依赖根目录主场景或共享项目设置。
+独立 Godot 项目，主场景为 1944 年沃莱艾环礁法拉拉普岛日军机场的概略演示，并非按某一期档案逐点复原。场景以米和秒组织，Compatibility 渲染器运行；不依赖根目录主场景或共享项目设置。
 
 ## 启动
 
@@ -43,3 +43,12 @@ python3 -m http.server 8008 --directory island_airfield
 - `docs/historical_basis.md`：装备、尺度、资料来源和场景推定。
 - `screenshots/`：Godot Compatibility 渲染器实机截图。
 
+
+## 表面几何回归
+
+```sh
+godot --headless --path island_airfield --editor --import --quit
+godot --headless --path island_airfield --fixed-fps 60 --script res://tests/test_surface_geometry.gd
+```
+
+检查铺面拼边、地形遮挡、默认镜头的 24 位深度预算和完整返场信号，不代替实际截图验收。

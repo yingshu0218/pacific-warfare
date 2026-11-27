@@ -21,6 +21,8 @@ var hide_hud_on_capture: bool = false
 var view_name: String = "overview"
 var capture_path: String = ""
 var refresh_timer: float = 0.0
+var mount_summary: String = ""
+var mount_total: int = 0
 
 func _ready() -> void:
 	_build_environment()
@@ -29,6 +31,11 @@ func _ready() -> void:
 	ship.name = "USS_Iowa_BB61_1944_12_28"
 	add_child(ship)
 	ship_simulation = ship.simulation
+	var counts: Dictionary = ship.get_weapon_counts()
+	mount_summary = "%d × 16-inch turrets   ·   %d × twin 5-inch mounts\n%d × quad 40 mm   ·   %d × single 20 mm" % [
+		counts["main_16in"], counts["secondary_5in"], counts["bofors_40mm"], counts["oerlikon_20mm"]
+	]
+	mount_total = ship.get_weapon_mounts().size()
 	_build_camera()
 	_build_hud()
 	_parse_user_arguments()
@@ -320,7 +327,7 @@ func _update_hud() -> void:
 		selected_text = "%s   |   train %+.1f°   |   gun %d/%d %+.1f°" % [selected_mount.display_name, angles.x, selected_gun_index + 1, elevations.size(), gun_elevation]
 	var fps: int = int(roundf(Performance.get_monitor(Performance.TIME_FPS)))
 	var draw_calls: int = int(Performance.get_monitor(Performance.RENDER_TOTAL_DRAW_CALLS_IN_FRAME))
-	hud_label.text = "USS IOWA · BB-61\nConfiguration: 28 December 1944   |   View: %s\n\n270.4 m overall   ·   33.0 m beam   ·   11.3 m max draft\n3 × 16-inch turrets   ·   10 × twin 5-inch mounts\n19 × quad 40 mm   ·   52 × single 20 mm\n\nIndependent weapon mounts: %d\nSelected: %s\nRender: %d FPS · %d draw calls\nWeapon placement and display rates are estimates where noted in data and docs." % [heading_text, ship.get_weapon_mounts().size(), selected_text, fps, draw_calls]
+	hud_label.text = "USS IOWA · BB-61\nConfiguration: 28 December 1944   |   View: %s\n\n270.4 m overall   ·   33.0 m beam   ·   11.3 m max draft\nDigital model mounts:\n%s\n\nIndependent weapon mounts: %d\nSelected: %s\nRender: %d FPS · %d draw calls\nWeapon placement and display rates are estimates where noted in data and docs." % [heading_text, mount_summary, mount_total, selected_text, fps, draw_calls]
 	status_label.text = "Drag: orbit / pan   Wheel: zoom   Tab: select mount   Q/E: select gun\nA/D: train   W/S: elevate selected gun   Space: pause   1–9: views   H: hide HUD"
 
 func _capture_after_frame(path: String) -> void:
