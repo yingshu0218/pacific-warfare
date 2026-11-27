@@ -1,6 +1,26 @@
 extends "res://scripts/presentation/maps/island_harbor_view.gd"
 ## Extend appearance in a private path. Original S09 renderer/shaders are unchanged.
 
+const SUPPORT_PROPS: Script = preload("res://scripts/map02/harbor_support_props.gd")
+
+func build(data: Dictionary) -> void:
+	super.build(data)
+	if str(data.source.id) != "island_harbor_expanded": return
+	var props: Node3D = SUPPORT_PROPS.new()
+	props.name = "HarborSupportProps"
+	add_child(props)
+	props.build(data)
+	var triangles: int = 0
+	for part: MeshInstance3D in props.get_children():
+		var arrays: Array = part.mesh.surface_get_arrays(0)
+		triangles += int(arrays[Mesh.ARRAY_INDEX].size() / 3)
+	statistics.nodes += props.get_child_count()+1
+	statistics.mesh_instances += props.get_child_count()
+	# Each kind has one shared material across instances.
+	statistics.materials += 8
+	statistics.static_triangles += triangles
+	statistics["support_props"] = props.get_child_count()
+
 func _object(obj: Dictionary) -> void:
 	_surface.set_smooth_group(0xffffffff) # Hard industrial edges; terrain keeps its existing smooth normals.
 	if not obj.has("map02_shape"):

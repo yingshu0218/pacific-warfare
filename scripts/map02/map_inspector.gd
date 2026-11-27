@@ -2,6 +2,7 @@ extends Node3D
 ## Independent read-only map inspector. No shared Session, units, or combat systems.
 const DATA: Script=preload("res://scripts/map02/expanded_map_data.gd")
 const VIEW: Script=preload("res://scripts/map02/expanded_map_view.gd")
+const SUPPORT_PROPS: Script=preload("res://scripts/map02/harbor_support_props.gd")
 @export var gallery_mode: bool=false
 var terrain: Dictionary={}
 var regions: Dictionary={}
@@ -25,6 +26,8 @@ func _ready() -> void:
 		map_view=VIEW.new();add_child(map_view);map_view.build(terrain)
 		camera.terrain=terrain
 		for p: Dictionary in terrain.source.viewpoints:points.append(p)
+		if str(terrain.source.id) == "island_harbor_expanded":
+			points.append_array(SUPPORT_PROPS.INSPECTION_POINTS)
 	camera.mode="free"
 	_ui()
 	select_point(0)
