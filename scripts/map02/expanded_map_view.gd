@@ -1,11 +1,24 @@
 extends "res://scripts/presentation/maps/island_harbor_view.gd"
 ## Extend appearance in a private path. Original S09 renderer/shaders are unchanged.
 
+const PORT_PAINT_ROADS: Array[String] = ["map02_port_link", "map02_naval_service"]
+const QUAY_GEOMETRY: Script = preload("res://scripts/map02/quay_geometry.gd")
 const SUPPORT_PROPS: Script = preload("res://scripts/map02/harbor_support_props.gd")
 
 func build(data: Dictionary) -> void:
 	super.build(data)
 	if str(data.source.id) != "island_harbor_expanded": return
+	var builder: RefCounted = QUAY_GEOMETRY.new()
+	var refined: MeshInstance3D = builder.build(data,get_node("IslandTerrain"))
+	if refined != null:
+		add_child(refined)
+		var stats: Dictionary = refined.get_meta("port_mesh_stats")
+		statistics.nodes += 1
+		statistics.mesh_instances += 1
+		statistics.materials += 2
+		statistics.static_triangles += int(stats.triangles)
+		statistics["refined_quays"] = stats
+	_build_port_road_paint()
 	var props: Node3D = SUPPORT_PROPS.new()
 	props.name = "HarborSupportProps"
 	add_child(props)
@@ -21,7 +34,31 @@ func build(data: Dictionary) -> void:
 	statistics.static_triangles += triangles
 	statistics["support_props"] = props.get_child_count()
 
+func _road(road: Dictionary) -> void:
+	if str(terrain.source.id) == "island_harbor_expanded" and str(road.get("id","")) in PORT_PAINT_ROADS:
+		return
+	super._road(road)
+
+func _build_port_road_paint() -> void:
+	# A planar paint strip shouldn't self-shadow the adjacent dock. Keep the
+	# original alignment while moving just these port links into a non-caster.
+	_surface = SurfaceTool.new()
+	_surface.begin(Mesh.PRIMITIVE_TRIANGLES)
+	var before: int = _triangles
+	for road: Dictionary in terrain.source.roads:
+		if str(road.get("id","")) in PORT_PAINT_ROADS: super._road(road)
+	_surface.generate_normals()
+	var material: ShaderMaterial = ShaderMaterial.new()
+	material.shader = preload("res://scripts/map02/quay_road_paint.gdshader")
+	_add_mesh(_surface.commit(),material,"PortRoadPaint")
+	(get_node("PortRoadPaint") as MeshInstance3D).cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+	statistics.nodes += 1
+	statistics.mesh_instances += 1
+	statistics.materials += 1
+	statistics.static_triangles += _triangles - before
+
 func _object(obj: Dictionary) -> void:
+	if str(terrain.source.id) == "island_harbor_expanded" and QUAY_GEOMETRY.handled(obj): return
 	_surface.set_smooth_group(0xffffffff) # Hard industrial edges; terrain keeps its existing smooth normals.
 	if not obj.has("map02_shape"):
 		super._object(obj)

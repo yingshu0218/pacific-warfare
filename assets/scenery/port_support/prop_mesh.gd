@@ -14,6 +14,10 @@ const LINE := Color("d0c3a1")
 const RED := Color("ad644f")
 const BUOY_GREEN := Color("54877a")
 const RUBBER := Color("2a3030")
+const PORT_BULWARK := Color("566367")
+const WINDOW_TRIM := Color("a99877")
+const BRASS := Color("b79867")
+const STRAP := Color("9c8f6c")
 
 var _surface: SurfaceTool
 var _meshes: Dictionary = {}
@@ -104,25 +108,44 @@ func _hull_p(p: Vector2, height: float, inset: float) -> Vector3:
 func _tug() -> void:
 	var outline: PackedVector2Array = PackedVector2Array([Vector2(0,-13),Vector2(1.5,-11.9),Vector2(2.9,-9),Vector2(3.55,-5),Vector2(3.62,5.8),Vector2(3.1,9.8),Vector2(1.7,11.8),Vector2(-1.7,11.8),Vector2(-3.1,9.8),Vector2(-3.62,5.8),Vector2(-3.55,-5),Vector2(-2.9,-9),Vector2(-1.5,-11.9)])
 	_hull(outline,1.70)
+	# Raised bulwark around the foredeck, with a gap at the aft working deck.
+	for i: int in outline.size():
+		var a: Vector2 = outline[i]
+		var b: Vector2 = outline[(i+1)%outline.size()]
+		if maxf(a.y,b.y)>-4.5: continue
+		var p: Vector3 = Vector3(a.x*.962,1.69,a.y*.985)
+		var q: Vector3 = Vector3(b.x*.962,1.69,b.y*.985)
+		var n: Vector3 = Vector3(a.x+b.x,0,a.y+b.y).normalized()
+		_face([p,q,q+Vector3.UP*.45,p+Vector3.UP*.45],PORT_BULWARK,n)
+		_face([p-n*.10,q-n*.10,q-n*.10+Vector3.UP*.45,p-n*.10+Vector3.UP*.45],STEEL,-n)
+		_face([p+Vector3.UP*.45,q+Vector3.UP*.45,q+Vector3.UP*.45-n*.10,p+Vector3.UP*.45-n*.10],STEEL,Vector3.UP)
 	_box(Vector3(0,2.67,-1.12),Vector3(4.7,1.94,8.2),GREEN)
 	_box(Vector3(0,3.72,-1.12),Vector3(4.85,.22,8.45),STEEL)
 	_box(Vector3(0,4.70,-3.16),Vector3(4.15,1.74,4.2),CREAM)
 	_box(Vector3(0,5.61,-3.22),Vector3(4.48,.28,4.52),GREEN)
 	for x: float in [-1.30,0.0,1.30]:
-		_box(Vector3(x,4.95,-5.275),Vector3(.99,.60,.038),GLASS)
+		_box(Vector3(x,4.95,-5.273),Vector3(1.08,.70,.042),WINDOW_TRIM)
+		_box(Vector3(x,4.95,-5.303),Vector3(.97,.56,.032),GLASS)
 	for side: float in [-1.0,1.0]:
 		for z: float in [-4.45,-3.36,-2.23]:
-			_box(Vector3(side*2.083,4.95,z),Vector3(.038,.56,.81),GLASS)
+			_box(Vector3(side*2.082,4.95,z),Vector3(.035,.67,.91),WINDOW_TRIM)
+			_box(Vector3(side*2.110,4.95,z),Vector3(.028,.54,.77),GLASS)
 		for z: float in [-6.6,-2.7,1.5,5.7,8.8]:
 			_pipe(Vector3(side*3.12,1.68,z),Vector3(side*3.12,2.39,z),.064,.055,STEEL,6)
 		_pipe(Vector3(side*3.12,2.38,-6.6),Vector3(side*3.12,2.38,8.8),.051,.051,LINE,6)
 		for z: float in [-5.4,0.4,6.6]:
-			_pipe(Vector3(side*3.54,1.01,z),Vector3(side*3.72,1.01,z),.52,.48,RUBBER,12)
-			_pipe(Vector3(side*3.72,1.01,z),Vector3(side*3.75,1.01,z),.23,.21,STEEL,10)
+			_pipe(Vector3(side*3.54,1.11,z),Vector3(side*3.79,1.11,z),.54,.53,RUBBER,14)
+			_pipe(Vector3(side*3.55,1.69,z),Vector3(side*3.65,1.28,z),.043,.037,LINE,6)
+			_pipe(Vector3(side*3.79,1.11,z),Vector3(side*3.815,1.11,z),.27,.24,STEEL,10)
 	_pipe(Vector3(0,3.8,1.1),Vector3(0,6.95,1.1),.68,.46,BLACK,12)
 	_pipe(Vector3(0,5.35,1.1),Vector3(0,5.73,1.1),.58,.56,RED,12)
 	_pipe(Vector3(0,5.71,-2.1),Vector3(0,9.1,-2.1),.10,.066,CREAM,8)
 	_pipe(Vector3(-1.38,7.80,-2.1),Vector3(1.38,7.80,-2.1),.044,.044,STEEL,6)
+	_pipe(Vector3(0,9.09,-2.1),Vector3(0,9.32,-2.1),.11,.07,CREAM,8)
+	for x: float in [-1.85,1.85]:
+		_box(Vector3(x,5.63,-5.14),Vector3(.20,.30,.25),BRASS)
+	_box(Vector3(0,2.03,-10.05),Vector3(1.75,.63,.71),STEEL)
+	_pipe(Vector3(-.66,2.36,-10.05),Vector3(.66,2.36,-10.05),.28,.28,DECK,10)
 	_box(Vector3(0,1.98,5.97),Vector3(2.60,.55,2.0),STEEL)
 	_pipe(Vector3(-1.23,2.42,5.97),Vector3(1.23,2.42,5.97),.54,.54,DECK,12)
 	for z: float in [-10.0,9.25]:
@@ -153,7 +176,14 @@ func _barge() -> void:
 	_box(Vector3(.88,2.29,8.2),Vector3(4.0,1.96,8.20),GREEN)
 	_box(Vector3(.90,3.08,8.2),Vector3(4.16,.58,8.34),LIGHT_GREEN)
 	for z: float in [5.5,8.0,10.7]:
-		_box(Vector3(.90,3.39,z),Vector3(4.20,.065,.12),LINE)
+		_box(Vector3(.90,3.39,z),Vector3(4.20,.065,.12),STRAP)
+		for x: float in [-1.19,2.99]:
+			_pipe(Vector3(x,3.37,z),Vector3(x+(x-.90)*.12,1.34,z+.20),.035,.035,STRAP,6)
+	for side: float in [-1.0,1.0]:
+		for z: float in [-13.,-4.,5.,14.]:
+			_box(Vector3(side*5.94,.87,z),Vector3(.22,.62,2.35),BLACK)
+		for z: float in [-20.0,20.0]:
+			_box(Vector3(side*3.9,1.46,z),Vector3(1.30,.29,.82),STEEL)
 	_box(Vector3(0,1.70,-21),Vector3(2.35,.80,1.4),BLACK)
 	_pipe(Vector3(-1.12,2.28,-21),Vector3(1.12,2.28,-21),.48,.48,STEEL,12)
 
