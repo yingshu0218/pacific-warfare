@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/ships/visual_study/ship_exterior_viewer.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/ships/san_diego_cl53_1944/san_diego_visual.tscn" id="2"]
+
+[node name="SanDiegoViewer" type="Node3D"]
+script = ExtResource("1")
+title = "CL-53 SAN DIEGO  |  JANUARY 1944  |  EXTERIOR"
+frame_width = 190.0
+
+[node name="SanDiego" parent="." instance=ExtResource("2")]

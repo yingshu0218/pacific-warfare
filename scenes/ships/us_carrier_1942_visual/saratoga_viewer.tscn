@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/ships/visual_study/ship_exterior_viewer.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/ships/us_carrier_1942_visual/saratoga_visual.tscn" id="2"]
+
+[node name="CarrierExteriorViewer" type="Node3D"]
+script = ExtResource("1")
+title = "USS Saratoga CV-3 | 14 May 1942"
+frame_width = 315.0
+
+[node name="Model" parent="." instance=ExtResource("2")]

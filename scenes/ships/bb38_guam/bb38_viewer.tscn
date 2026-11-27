@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/ships/visual_study/ship_exterior_viewer.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/ships/bb38_guam/bb38_visual.tscn" id="2"]
+
+[node name="BB38Viewer" type="Node3D"]
+script = ExtResource("1")
+title = "PENNSYLVANIA  |  GUAM  |  21 JULY 1944"
+frame_width = 204.0
+
+[node name="BB38" parent="." instance=ExtResource("2")]

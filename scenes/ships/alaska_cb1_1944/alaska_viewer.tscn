@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/ships/visual_study/ship_exterior_viewer.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/ships/alaska_cb1_1944/alaska_visual.tscn" id="2"]
+
+[node name="AlaskaViewer" type="Node3D"]
+script = ExtResource("1")
+title = "CB-1 ALASKA  |  NOVEMBER 1944  |  EXTERIOR"
+frame_width = 277.0
+
+[node name="Alaska" parent="." instance=ExtResource("2")]

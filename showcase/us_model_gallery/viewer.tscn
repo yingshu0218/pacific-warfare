@@ -1,0 +1,55 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://showcase/us_model_gallery/viewer.gd" id="1_viewer"]
+
+[sub_resource type="Environment" id="Environment_gallery"]
+background_mode = 1
+background_color = Color(0.12, 0.17, 0.23, 1)
+ambient_light_source = 3
+ambient_light_color = Color(0.84, 0.9, 1, 1)
+ambient_light_energy = 0.68
+
+[sub_resource type="StandardMaterial3D" id="Material_water"]
+albedo_color = Color(0.085, 0.15, 0.19, 1)
+roughness = 0.74
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_water"]
+material = SubResource("Material_water")
+size = Vector2(2200, 2200)
+
+[sub_resource type="LabelSettings" id="LabelSettings_caption"]
+font_size = 21
+outline_size = 5
+outline_color = Color(0.05, 0.075, 0.1, 1)
+
+[node name="USModelGallery" type="Node3D"]
+script = ExtResource("1_viewer")
+
+[node name="Environment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_gallery")
+
+[node name="KeyLight" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-48, -28, 4)
+light_energy = 1.25
+shadow_enabled = true
+
+[node name="FillLight" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-26, 144, 0)
+light_energy = 0.37
+
+[node name="Water" type="MeshInstance3D" parent="."]
+mesh = SubResource("PlaneMesh_water")
+
+[node name="Camera" type="Camera3D" parent="."]
+projection = 1
+current = true
+near = 0.1
+far = 2200.0
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Caption" type="Label" parent="UI"]
+offset_left = 22.0
+offset_top = 18.0
+label_settings = SubResource("LabelSettings_caption")
+mouse_filter = 2
