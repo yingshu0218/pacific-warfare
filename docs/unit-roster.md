@@ -79,6 +79,25 @@ MAP02的港口、军港、小镇、机场和预留阵地已经独立验收；它
 
 ## 4. 首版后的内容库
 
+### 2026-11-27：第二批外观制作名单
+
+首版 8 舰、8 机保持不变。下列 **4 舰、2 机**从原内容库转入第二批制作队列，均未开工；交付后外观总数目标为 **12 舰、10 机**。外观、正式观战、玩法接入单独验收，不将新增名单算成已交付。
+
+| 顺序 | 外观制作队列 | 选择理由和参考入口 |
+| --- | --- | --- |
+| 1 | 巴尔的摩号（CA-68） | 与克利夫兰形成美方轻巡、重巡对比；优先评估 1944 年 10 月舰影，[美国海军同期照片](https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-91000/NH-91453.html)。 |
+| 2 | B-24D 解放者 | 四发、双垂尾，与 B-25J 形成清楚的轮廓与尺度差别；[美国空军国家博物馆](https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/196286/consolidated-b-24d-liberator/)的存机仅作该子型参考，馆藏机个体涂装不代表太平洋场景。 |
+| 3 | 阿贺野号 | 补日方轻巡，用体量和舰桥、烟囱轮廓与高雄区分；[美国海军名录](https://www.history.navy.mil/research/library/online-reading-room/title-list-alphabetically/u/us-navy-at-war-final-official-report.html)只用于身份和时间范围，须补同舰可用影像。 |
+| 4 | Ki-21 九七式重爆击机 | 补日军陆航外观，不沿用海航 G4M1；[史密森型号目录](https://airplanes-directory.si.edu/models/models-000021907/)与[澳大利亚战争纪念馆识别影片](https://collection.awm.gov.au/C189844)作资料入口，具体型别和构型待选定。 |
+| 5 | 南达科他号（BB-57） | 以较紧凑的舰体和上层建筑区别于衣阿华；[美国海军照片目录](https://www.history.navy.mil/our-collections/photography/us-navy-ships/battleships/south-dakota-bb-57.html)。 |
+| 6 | 金刚号 | 以现代化后的舰影区别于大和；[美国海军现代化后档案照片](https://www.history.navy.mil/content/history/nhhc/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-90000/NH-90512.html)，不将早期照片与太平洋时期混用。 |
+
+下一轮候补：卡萨布兰卡级与大鹰级护航航母，补小型飞行甲板和转换型舰体的外观。它们不计入上述目标，不扩展潜艇、水上飞机或地面单位。
+
+进入制作前先锁定代表舰、日期或飞机子型并复核多角度图片。每款整模完成、Godot 验证后，先发图再同步 GitHub。首版四款未正式接入的问题不因扩充名单而结项。
+
+### 原内容库与准入条件
+
 | 类别 | 保留候选 | 进入条件 |
 | --- | --- | --- |
 | 战列舰 | 南达科他、金刚 | 首版完成后，复用成熟舰炮、运动与损伤系统 |
