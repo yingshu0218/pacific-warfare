@@ -1694,7 +1694,7 @@
 		1
 	],
 	"source_hashes": {
-		"aircraft/b25j/b25j.gd": "656c213df3cfa5abc5063ad757966da5eb53931d68febedacaa2b16051536a65",
+		"aircraft/b25j/b25j.gd": "a4a01dd09a2dd583a08975bc47e47558da361de92877a871218056b0484c1052",
 		"aircraft/b25j/b25j.tscn": "7ca962678e2767188c5b029c98da318efee26847ed3dfdb93683737817dd4ed7",
 		"aircraft/b25j/geometry.gd": "ffe19fee735d6c60d215cc698186a5c21d9ad5b4cc0dcb164bd476352e567ba2",
 		"data/map02/regions.json": "9001179a2e2c48774c4c62d8afecc2e10d131d5a717a045b42742d77056d5816",
@@ -1706,9 +1706,9 @@
 		"tests/av04/test_b25j.gd": "ec703fef11e097d2ce4f422111b0bd88e01aeab1112a98c4cb0ad4961f745b75"
 	},
 	"stats": {
-		"mesh_nodes_after_fixed_merge": 145,
-		"raw_mesh_nodes": 429,
-		"triangles_all_configurations": 60548
+		"mesh_nodes_after_fixed_merge": 146,
+		"raw_mesh_nodes": 388,
+		"triangles_all_configurations": 54630
 	},
 	"status": "native_contract_passed_pending_coordinator",
 	"taxiway": {

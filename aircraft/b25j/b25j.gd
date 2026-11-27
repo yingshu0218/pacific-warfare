@@ -38,10 +38,18 @@ const NACELLE: Array = [
 	[1.20,0.04,0.73,0.54,1.03],[2.30,0.09,0.64,0.40,0.92],[2.80,0.12,0.58,0.34,0.81],
 	[3.48,0.14,0.48,0.27,0.66],[3.95,0.16,0.39,0.22,0.49],[4.56,0.19,0.24,0.15,0.31],
 	[4.91,0.19,0.14,0.10,0.17],[5.24,0.20,0.025,0.025,0.035]]
-# Width/top/sill values for a stepped, flat-panel cockpit, not a bubble canopy.
-const COCKPIT: Array = [[-5.55,0.0,0.72,1.045,0.69],[-5.25,0.0,0.77,1.38,0.69],
-	[-5.02,0.0,0.79,1.59,0.68],[-4.65,0.0,0.82,1.62,0.65],[-4.21,0.0,0.84,1.61,0.64],
-	[-3.76,0.0,0.81,1.55,0.66],[-3.51,0.0,0.75,1.36,0.68],[-3.38,0.0,0.69,1.15,0.70]]
+# Port and starboard share the same pane geometry. x/y/z per explicit corner,
+# independent of the lower bombardier compartment.
+const COCKPIT_FRONT_CENTER_LO := Vector3(0.0,1.041,-5.56)
+const COCKPIT_FRONT_CENTER_HI := Vector3(0.0,1.526,-5.06)
+const COCKPIT_WINDSHIELD_LO := Vector3(0.46,0.951,-5.48)
+const COCKPIT_WINDSHIELD_HI := Vector3(0.40,1.507,-5.00)
+const COCKPIT_CORNER_LO := Vector3(0.701,0.681,-5.28)
+const COCKPIT_CORNER_HI := Vector3(0.624,1.425,-4.84)
+const COCKPIT_SIDE_DIV_LO := Vector3(0.737,0.67,-4.56)
+const COCKPIT_SIDE_DIV_HI := Vector3(0.653,1.427,-4.49)
+const COCKPIT_SIDE_AFT_LO := Vector3(0.719,0.681,-3.89)
+const COCKPIT_SIDE_AFT_HI := Vector3(0.628,1.372,-3.93)
 const TAIL_HOOD: Array = [[6.65,0.45,0.25,0.19,0],[7.06,0.45,0.37,0.59,0],[7.55,0.45,0.36,0.57,0],[8.00,0.35,0.26,0.19,0],[8.11,0.30,0.16,0.08,0]]
 const GUN_SPECS: Dictionary = {
 	"nose_flexible":{"at":Vector3(0,0.07,-7.91),"forward":Vector3.FORWARD,"limits":Vector4(-22,22,-25,25),"barrels":1,"length":0.59},
@@ -185,14 +193,80 @@ func _tapered_fin_shell(outline: PackedVector2Array, thickness: float, pivot: Ve
 			G.triangle(st,va,vb,Vector3(side*thickness,center.x,center.y)-pivot,Vector3(side,0,0))
 	return G.finish(st)
 
-func _cockpit_point(z: float,index: int) -> Vector3:
-	var s: Array=G.sample(COCKPIT,z)
-	match index:
-		0:return Vector3(-s[2],s[4],z)
-		1:return Vector3(-s[2]*0.72,s[3]-0.05,z)
-		2:return Vector3(0,s[3],z)
-		3:return Vector3(s[2]*0.72,s[3]-0.05,z)
-	return Vector3(s[2],s[4],z)
+func _cockpit_side(corner: Vector3, side: float) -> Vector3:
+	return Vector3(corner.x*side,corner.y,corner.z)
+
+func _cockpit_rim(st: SurfaceTool, a: Vector3, b: Vector3, ref: Vector3, width: float) -> void:
+	var along: Vector3 = (b-a).normalized()
+	var across: Vector3 = ref.cross(along).normalized()*width*0.5
+	var rise: Vector3 = ref.normalized()*0.005
+	G.quad(st,a+across+rise,b+across+rise,b-across+rise,a-across+rise,ref)
+
+func _cockpit_shell_projection(point: Vector3) -> Vector3:
+	var section: Array = G.sample(BODY,point.z)
+	var ratio: float = point.x/float(section[2])
+	var y: float = float(section[1])+float(section[3])*sqrt(maxf(0.0,1.0-ratio*ratio))
+	return Vector3(point.x,minf(y-.024,point.y-.025),point.z)
+
+func _cockpit_sill(st: SurfaceTool, a: Vector3, b: Vector3, normal: Vector3) -> void:
+	# Follow the convex fuselage rather than bridging an unsupported straight lip.
+	for i: int in range(6):
+		var p: Vector3 = a.lerp(b,float(i)/6.0)
+		var q: Vector3 = a.lerp(b,float(i+1)/6.0)
+		G.quad(st,p,q,_cockpit_shell_projection(q),_cockpit_shell_projection(p),normal)
+
+func _build_flight_deck_canopy(host: Node3D) -> void:
+	var roof := SurfaceTool.new(); roof.begin(Mesh.PRIMITIVE_TRIANGLES); roof.set_smooth_group(0)
+	var glass := SurfaceTool.new(); glass.begin(Mesh.PRIMITIVE_TRIANGLES)
+	var frames := SurfaceTool.new(); frames.begin(Mesh.PRIMITIVE_TRIANGLES)
+	var win: StandardMaterial3D = G.material(Color("4b5d5f"),0.0)
+	win.roughness = 0.28
+	for side: float in [-1.0,1.0]:
+		var front_normal := Vector3(side*0.06,0.46,-0.89)
+		var quarter_normal := Vector3(side*0.61,0.31,-0.69)
+		var side_normal := Vector3(side,0.16,0)
+		var w0: Vector3 = _cockpit_side(COCKPIT_WINDSHIELD_LO,side)
+		var w1: Vector3 = _cockpit_side(COCKPIT_WINDSHIELD_HI,side)
+		var c0: Vector3 = _cockpit_side(COCKPIT_CORNER_LO,side)
+		var c1: Vector3 = _cockpit_side(COCKPIT_CORNER_HI,side)
+		var d0: Vector3 = _cockpit_side(COCKPIT_SIDE_DIV_LO,side)
+		var d1: Vector3 = _cockpit_side(COCKPIT_SIDE_DIV_HI,side)
+		var a0: Vector3 = _cockpit_side(COCKPIT_SIDE_AFT_LO,side)
+		var a1: Vector3 = _cockpit_side(COCKPIT_SIDE_AFT_HI,side)
+		G.quad(glass,COCKPIT_FRONT_CENTER_LO,w0,w1,COCKPIT_FRONT_CENTER_HI,front_normal)
+		G.quad(glass,w0,c0,c1,w1,quarter_normal)
+		G.quad(glass,c0,d0,d1,c1,side_normal)
+		G.quad(glass,d0,a0,a1,d1,side_normal)
+		_cockpit_sill(roof,COCKPIT_FRONT_CENTER_LO,w0,front_normal)
+		_cockpit_sill(roof,w0,c0,quarter_normal)
+		_cockpit_sill(roof,c0,d0,side_normal)
+		_cockpit_sill(roof,d0,a0,side_normal)
+		for row: Array in [[w0,w1,quarter_normal,.025],[c0,c1,side_normal,.040],
+			[d0,d1,side_normal,.025],[a0,a1,side_normal,.032],
+			[COCKPIT_FRONT_CENTER_LO,w0,front_normal,.040],[COCKPIT_FRONT_CENTER_HI,w1,front_normal,.036],
+			[w0,c0,quarter_normal,.032],[w1,c1,quarter_normal,.036],
+			[c0,d0,side_normal,.038],[d0,a0,side_normal,.038],
+			[c1,d1,side_normal,.034],[d1,a1,side_normal,.034]]:
+			_cockpit_rim(frames,row[0],row[1],row[2],row[3])
+		# High points run along the crown and turn into the existing fuselage.
+		var crown_mid := Vector3(0,1.524,-4.53)
+		var crown_aft := Vector3(0,1.467,-3.96)
+		var crown_taper := Vector3(0,1.235,-3.43)
+		var crown_join: Vector3 = G.shell_point(BODY,-3.03,0.0)
+		var shoulder_taper := Vector3(side*.562,1.118,-3.46)
+		var skin_join: Vector3 = G.shell_point(BODY,-3.03,side*.53)
+		G.triangle(roof,COCKPIT_FRONT_CENTER_HI,w1,c1,Vector3.UP)
+		G.quad(roof,COCKPIT_FRONT_CENTER_HI,c1,d1,crown_mid,Vector3.UP)
+		G.quad(roof,crown_mid,d1,a1,crown_aft,Vector3.UP)
+		G.quad(roof,crown_aft,a1,shoulder_taper,crown_taper,Vector3.UP)
+		G.quad(roof,crown_taper,shoulder_taper,skin_join,crown_join,Vector3.UP)
+		var side_join: Vector3 = G.shell_point(BODY,-3.44,side*.93)
+		G.quad(roof,a0,side_join,shoulder_taper,a1,side_normal)
+		G.triangle(roof,side_join,skin_join,shoulder_taper,side_normal)
+	_cockpit_rim(frames,COCKPIT_FRONT_CENTER_LO,COCKPIT_FRONT_CENTER_HI,Vector3(0,.46,-.89),.045)
+	G.part(host,"CockpitCrownAndDorsalBlend",G.finish(roof),materials.top)
+	G.part(host,"CockpitWindshieldAndSideWindows",G.finish(glass),win)
+	G.part(host,"CockpitFlushFrames",G.finish(frames),materials.frame)
 
 func _nose_point(z: float,a: float) -> Vector3:
 	return G.shell_point(NOSE,z,a)
@@ -220,20 +294,7 @@ func _build_glazing() -> void:
 		for j: int in range(1,split.size()-1):
 			if j>=9 and absf(a)<PI*0.28: continue
 			G.rod(skin,"NoseLongitudinalFrame",_nose_point(split[j],a),_nose_point(split[j+1],a),0.018,materials.frame)
-	var top: SurfaceTool=SurfaceTool.new();top.begin(Mesh.PRIMITIVE_TRIANGLES)
-	var panes: SurfaceTool=SurfaceTool.new();panes.begin(Mesh.PRIMITIVE_TRIANGLES)
-	for j: int in range(COCKPIT.size()-1):
-		for i: int in range(4):
-			var opaque: bool=j>=5 or (j>=2 and i in [1,2])
-			G.quad(top if opaque else panes,_cockpit_point(COCKPIT[j][0],i),_cockpit_point(COCKPIT[j+1][0],i),_cockpit_point(COCKPIT[j+1][0],i+1),_cockpit_point(COCKPIT[j][0],i+1),Vector3.UP)
-	G.part(skin,"CockpitCanopyRoof",G.finish(top),materials.top)
-	G.part(skin,"CockpitWindscreenAndSidePanes",G.finish(panes),materials.glass)
-	for z: float in [-5.02,-4.25,-3.76]:
-		for i: int in range(4):G.rod(skin,"CockpitFrame",_cockpit_point(z,i),_cockpit_point(z,i+1),0.020,materials.frame)
-	for i: int in [0,1,2,3,4]:
-		for j: int in range(COCKPIT.size()-1):
-			if i==2 and j>1: continue
-			G.rod(skin,"CockpitLongFrame",_cockpit_point(COCKPIT[j][0],i),_cockpit_point(COCKPIT[j+1][0],i),0.020,materials.frame)
+	_build_flight_deck_canopy(skin)
 	var tail: Node3D=fixed(damage_modules.tail,"TailGlass")
 	G.part(tail,"TailGunnerHood",G.loft(TAIL_HOOD,6.65,8.11,Color.WHITE,Color.WHITE,Vector4.ZERO,false),materials.glass)
 	for z: float in [7.07,7.55,7.99]:G.arch(tail,"TailHoodFrame",TAIL_HOOD,z,0.03,materials.frame,PI*1.5,PI*2.5)
