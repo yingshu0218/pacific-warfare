@@ -1,6 +1,9 @@
 extends Node3D
 ## Standalone inspection, no dependency on the showcase simulation.
 
+@export var title: String = "CL-55 CLEVELAND  |  MAY 1944  |  EXTERIOR"
+@export var frame_width: float = 206.0
+
 var _camera: Camera3D
 var _water: MeshInstance3D
 
@@ -30,7 +33,7 @@ func _ready() -> void:
 	_camera = Camera3D.new()
 	_camera.projection = Camera3D.PROJECTION_ORTHOGONAL
 	_camera.keep_aspect = Camera3D.KEEP_WIDTH
-	_camera.size = 206.0
+	_camera.size = frame_width
 	_camera.current = true
 	add_child(_camera)
 	var hud := CanvasLayer.new()
@@ -38,7 +41,7 @@ func _ready() -> void:
 	var label := Label.new()
 	label.position = Vector2(24, 18)
 	label.add_theme_font_size_override("font_size",24)
-	label.text = "CL-55 CLEVELAND  |  MAY 1944  |  EXTERIOR\n1 Quarter   2 Profile   3 Plan   4 Full hull"
+	label.text = title + "\n1 Quarter   2 Profile   3 Plan   4 Full hull"
 	hud.add_child(label)
 	_set_view(1)
 
