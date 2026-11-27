@@ -1,5 +1,7 @@
 extends Node3D
 
+@export var aircraft_label: String = "TBM-1C   |   Visual study · 1944"
+
 var _camera: Camera3D
 var _label: Label
 
@@ -51,4 +53,4 @@ func _set_view(view: int) -> void:
 			_camera.look_at_from_position(Vector3(0, 24, 0), Vector3.ZERO, Vector3.FORWARD)
 		_:
 			_camera.look_at_from_position(Vector3(12, 9, -17), Vector3.ZERO)
-	_label.text = "TBM-1C   |   Visual study · 1944\n1 Quarter    2 Side    3 Plan"
+	_label.text = aircraft_label + "\n1 Quarter    2 Side    3 Plan"

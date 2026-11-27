@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3]
 
-[ext_resource type="Script" path="res://aircraft/tbm1c/tbm1c_viewer.gd" id="1_view"]
+[ext_resource type="Script" path="res://aircraft/visual_study/airframe_viewer.gd" id="1_view"]
 [ext_resource type="PackedScene" path="res://aircraft/tbm1c/tbm1c_visual.tscn" id="2_model"]
 
 [node name="TBM1CViewer" type="Node3D"]
