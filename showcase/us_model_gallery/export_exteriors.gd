@@ -9,7 +9,7 @@ func _initialize() -> void:
 func _run() -> void:
 	var args: PackedStringArray = OS.get_cmdline_user_args()
 	if args.is_empty() or not args[0].is_absolute_path():
-		printerr("Usage: -- <absolute-output-directory> [archive] [original] [model ids...]")
+		printerr("Usage: -- <absolute-output-directory> [archive] [model ids...]")
 		quit(2)
 		return
 	var out: String = args[0]
@@ -18,10 +18,9 @@ func _run() -> void:
 		return
 	var gallery_path: String = ARCHIVE_GALLERY if "archive" in args else GALLERY
 	var gallery: Node3D = (load(gallery_path) as PackedScene).instantiate() as Node3D
-	gallery.show_original = "original" in args
 	var requested: PackedStringArray = []
 	for index: int in range(1, args.size()):
-		if args[index] not in ["archive", "original"]:
+		if args[index] != "archive":
 			requested.append(args[index])
 	root.add_child(gallery)
 	await process_frame

@@ -1,7 +1,6 @@
 extends Node3D
 ## Read-only inspection of the newly added standalone exterior models.
 const CATALOG := "res://data/visual_catalogs/us_expansion.json"
-const ORIGINAL_FINISH: StringName = &"pacific_archive_compare_original"
 
 @export_file("*.json") var catalog_path: String = CATALOG
 @export var full_archive: bool = false
@@ -21,7 +20,6 @@ var view: int = 0
 var bounds: AABB
 var visual_triangles: int = 0
 var picker: OptionButton
-var show_original: bool = false
 
 func _ready() -> void:
 	var entries: Variant = JSON.parse_string(FileAccess.get_file_as_string(catalog_path))
@@ -55,8 +53,6 @@ func select_model(index: int) -> bool:
 	if is_instance_valid(model):
 		model.free()
 	model = next_model
-	if show_original:
-		model.set_meta(ORIGINAL_FINISH, true)
 	add_child(model)
 	if picker != null:
 		picker.select(index)
@@ -106,9 +102,7 @@ func frame_model() -> void:
 	camera.size = maxf(extent.y / 0.72, extent.x / (0.9 * aspect))
 	caption.text = "%s  |  %s  |  %s" % [entry["label"], entry["date"], VIEW_LABELS[view]]
 	if full_archive:
-		caption.text += "\n%s  ·  C 原版/统一   V 视角   PageUp/PageDown 上一款/下一款" % (
-			"原版材质" if show_original else "统一材质"
-		)
+		caption.text += "\nV 视角   PageUp/PageDown 上一款/下一款"
 	else:
 		caption.text += "\n1–8 选择模型  /  V 切换视角  ·  静态外观"
 
@@ -117,9 +111,6 @@ func _unhandled_key_input(event: InputEvent) -> void:
 		return
 	if event.keycode >= KEY_1 and event.keycode <= KEY_8:
 		select_model(event.keycode - KEY_1)
-	elif full_archive and event.keycode == KEY_C:
-		show_original = not show_original
-		select_model(selected)
 	elif full_archive and event.keycode in [KEY_PAGEUP, KEY_PAGEDOWN]:
 		var offset: int = -1 if event.keycode == KEY_PAGEUP else 1
 		select_model(posmod(selected + offset, catalog.size()))

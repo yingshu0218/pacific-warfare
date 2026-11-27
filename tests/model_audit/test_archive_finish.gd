@@ -19,6 +19,7 @@ func _run() -> void:
 		seen[item.id] = true
 		await _audit(item)
 	_check(counts.ship == 24 and counts.aircraft == 13, "Expected all 37 models")
+	await _check_gallery_controls()
 	print("ARCHIVE_FINISH_RESULT ", counts, " failures=", errors)
 	quit(0 if errors == 0 else 1)
 
@@ -67,6 +68,27 @@ func _audit(item: Dictionary) -> void:
 	_check(FINISH.apply(model, str(item.kind)) == 0, str(item.id) + " non-idempotent archive finish")
 	print("ARCHIVE ", item.id, " styled=", styled, " special=", preserved)
 	model.free()
+
+func _check_gallery_controls() -> void:
+	var scene: PackedScene = load("res://showcase/archive_gallery/viewer.tscn") as PackedScene
+	var gallery: Node3D = scene.instantiate() as Node3D
+	root.add_child(gallery)
+	await process_frame
+	_check(gallery.picker.item_count == 37, "Full gallery selector missing entries")
+	var model: Node3D = gallery.model
+	var key := InputEventKey.new()
+	key.pressed = true
+	key.keycode = KEY_C
+	gallery._unhandled_key_input(key)
+	_check(gallery.model == model and not gallery.caption.text.contains("原版"), "Gallery must not offer a finish switch")
+	var current_view: int = gallery.view
+	key.keycode = KEY_V
+	gallery._unhandled_key_input(key)
+	_check(gallery.view != current_view, "Camera angle switch stopped working")
+	key.keycode = KEY_PAGEDOWN
+	gallery._unhandled_key_input(key)
+	_check(gallery.selected == 1, "Model selection shortcut stopped working")
+	gallery.free()
 
 func _check(ok: bool, message: String) -> void:
 	if not ok:

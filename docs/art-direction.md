@@ -91,6 +91,6 @@
 
 新资产可在模型根场景挂 `archive_finish_hook.gd`，并选择 ship 或 aircraft。造型继续按上文规则简化；本次不批量删减几何，也不将未接入的模型自动加入战场。
 
-- 全名单检视：`res://showcase/archive_gallery/viewer.tscn`。下拉选择舰机；PageUp/PageDown 逐一切换，V 切换视角，C 在原版材质和统一材质间对照。
+- 全名单检视：`res://showcase/archive_gallery/viewer.tscn`。下拉选择舰机；PageUp/PageDown 逐一切换，V 切换视角。只展示统一后的材质，不提供材质切换。
 - Godot 回归：`godot --headless --path . --script res://tests/model_audit/test_archive_finish.gd`，验证各型号有实际使用统一材质的表面，并检查网格、原色与贴图保持不变、特殊材质原样、重复套用无副作用。
-- 视觉对照使用同一实际 Godot 模型导出的原版/新版几何与材质、相同摄影机及灯光。未以本次变更对 Web 性能或各单位战斗功能作新验收。
+- 历史交付对照图使用相同摄影机与灯光制作，不作为运行时功能。未以本次变更对 Web 性能或各单位战斗功能作新验收。
