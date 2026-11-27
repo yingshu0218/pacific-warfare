@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/ships/visual_study/ship_exterior_viewer.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/ships/baltimore_ca68/baltimore_visual.tscn" id="2"]
+
+[node name="BaltimoreViewer" type="Node3D"]
+script = ExtResource("1")
+title = "CA-68 BALTIMORE  |  OCTOBER 1944  |  EXTERIOR"
+frame_width = 229.0
+
+[node name="Baltimore" parent="." instance=ExtResource("2")]

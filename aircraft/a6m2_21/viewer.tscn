@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://aircraft/a6m2_21/viewer.gd" id="1_view"]
+[ext_resource type="PackedScene" path="res://aircraft/a6m2_21/a6m2_21.tscn" id="2_model"]
+
+[node name="A6M2Model21Viewer" type="Node3D"]
+script = ExtResource("1_view")
+inspection_gear_down = true
+aircraft_label = "A6M2 Model 21 | Early gray-green livery"
+
+[node name="A6M2" parent="." instance=ExtResource("2_model")]

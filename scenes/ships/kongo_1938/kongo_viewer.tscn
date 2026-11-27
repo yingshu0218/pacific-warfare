@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/ships/visual_study/ship_exterior_viewer.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/ships/kongo_1938/kongo_visual.tscn" id="2"]
+
+[node name="KongoViewer" type="Node3D"]
+script = ExtResource("1")
+title = "KONGO  |  OCTOBER 1938  |  EXTERIOR"
+frame_width = 244.0
+
+[node name="Kongo" parent="." instance=ExtResource("2")]

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/ships/visual_study/ship_exterior_viewer.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/ships/south_dakota_bb57/bb57_visual.tscn" id="2"]
+
+[node name="SouthDakotaViewer" type="Node3D"]
+script = ExtResource("1")
+title = "BB-57 SOUTH DAKOTA  |  AUGUST 1944  |  EXTERIOR"
+frame_width = 237.0
+
+[node name="SouthDakota" parent="." instance=ExtResource("2")]
