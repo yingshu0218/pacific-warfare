@@ -15,6 +15,7 @@ func run_test() -> void:
 	_water_and_pool()
 	_burst_scales()
 	_batch_and_tracer_end()
+	_air_tracer_presentation()
 	_emitters_and_impact()
 	_trail_and_engine_audio()
 	_current_pose_attachment()
@@ -239,6 +240,45 @@ func _batch_and_tracer_end() -> void:
 	for slot: Dictionary in effects.slots:
 		if slot.active and slot.kind=="tracer":tracers+=1
 	expect(has_hit and tracers==0,"Real hit in same consumed batch ends the tracer immediately")
+	effects.free()
+
+func _air_tracer_presentation() -> void:
+	var a: Dictionary = FIX.arena([FIX.spawn("shooter","us",Vector3(500,100,0))])
+	for i: int in 12:
+		(a.launcher as FIX.Launcher).pending.append({"ammo":"us_127mm_m2_ball","position":Vector3(i,100,0),"direction":Vector3.FORWARD})
+	a.world.step_ticks(1)
+	var events: Array[BattleEvent] = a.world.drain_events()
+	var marked: Array[BattleEvent] = []
+	for event: BattleEvent in events:
+		if event.kind == "fired" and bool(event.data.tracer): marked.append(event)
+	var effects: CombatEffects = make_effects()
+	effects.consume(events,1)
+	effects.advance(.1)
+	var displayed: int = 0
+	var follows_ballistics: bool = true
+	for slot: Dictionary in effects.slots:
+		if not slot.active or slot.kind != "tracer": continue
+		displayed += 1
+		var mesh: MeshInstance3D = slot.mesh
+		var age: float = float(slot.age)
+		var back_age: float = age - CombatEffects.AIR_TRACER_TAIL_S
+		var velocity: Vector3 = slot.velocity
+		var gravity: Vector3 = Vector3.DOWN * float(slot.gravity)
+		var head: Vector3 = slot.position + velocity*age + gravity*.5*age*age
+		var tail: Vector3 = slot.position + velocity*back_age + gravity*.5*back_age*back_age
+		follows_ballistics = follows_ballistics and bool(slot.air_tracer) and bool((slot.material as ShaderMaterial).get_shader_parameter("air_tracer"))
+		follows_ballistics = follows_ballistics and mesh.position.distance_to(head)<.001 and (mesh.transform * Vector3.BACK).distance_to(tail)<.001
+	expect(marked.size() > 1 and displayed == marked.size(), "Aircraft effects retain all simulation-flagged tracers and never promote ordinary rounds")
+	expect(displayed > 0 and follows_ballistics, "Brightened tracer head and short trailing span still track the real projectile")
+	effects.clear(2)
+	var ship_round: BattleEvent = marked.front().copy()
+	ship_round.data["source_domain"] = "ship"
+	effects.consume([ship_round],2)
+	var reused_baseline: bool = false
+	for slot: Dictionary in effects.slots:
+		if slot.active and slot.kind == "tracer":
+			reused_baseline = not bool(slot.air_tracer) and not bool((slot.material as ShaderMaterial).get_shader_parameter("air_tracer"))
+	expect(reused_baseline, "Pooled material resets the aircraft tracer signature for other users")
 	effects.free()
 
 func _emitters_and_impact() -> void:

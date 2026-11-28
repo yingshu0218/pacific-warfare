@@ -3,6 +3,7 @@ render_mode unshaded, cull_disabled, depth_draw_never;
 
 // Original analytic masks. One material per reusable mesh slot; no TIME/random state.
 uniform int effect_mode = 0; // Legacy modes 0–5; muzzle 6, flak 7, impact smoke 8, flare 9, sparks 10
+uniform bool air_tracer = false; // Brighter aircraft-only branch of the crossed tracer ribbons.
 uniform vec4 tint : source_color = vec4(1.0);
 uniform float fade = 1.0;
 uniform float phase = 0.0;
@@ -75,9 +76,18 @@ void fragment() {
 		float ring = smoothstep(0.16,0.45,radius) * (1.0-smoothstep(0.72,1.0,radius));
 		mask = ring * smoothstep(0.24,0.64,grain) * 0.75;
 	} else if (effect_mode == 3) {
-		float core = pow(max(0.0,1.0-abs(p.x)),1.5);
-		mask = core * pow(max(0.0,1.0-UV.y),0.9);
-		color = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));
+		if (air_tracer) {
+			float core = 1.0-smoothstep(0.22,0.49,abs(p.x));
+			float halo = 1.0-smoothstep(0.28,1.0,abs(p.x));
+			float tail = 1.0-smoothstep(0.19,1.0,UV.y);
+			mask = max(core, halo*0.40)*tail;
+			color = mix(tint.rgb,vec3(1.0,0.90,0.55),core*tail);
+			EMISSION = vec3(0.46,0.24,0.06)*core*tail;
+		} else {
+			float core = pow(max(0.0,1.0-abs(p.x)),1.5);
+			mask = core * pow(max(0.0,1.0-UV.y),0.9);
+			color = mix(tint.rgb,vec3(1.0,0.96,0.7),core*(1.0-UV.y));
+		}
 	} else if (effect_mode == 4) {
 		mask = (1.0-smoothstep(0.12,1.0,radius+(grain-0.5)*0.5));
 		color = mix(tint.rgb,vec3(1.0,0.86,0.25),max(0.0,1.0-radius*2.0));

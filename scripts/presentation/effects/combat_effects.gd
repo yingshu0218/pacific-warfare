@@ -8,6 +8,10 @@ const HARBOR_WIND: Vector2 = CloudSeaEnvironment.WIND
 const EVENT_SMOKE: Array[String] = ["muzzle_smoke", "impact_smoke", "impact_dust", "burst", "self_destruct"]
 const DIRECTIONAL_FLASH: Array[String] = ["muzzle_flash", "blast_flash"]
 const SHELL_CALIBER_M: float = .075
+# Visual affordances only, sized for compressed spectator footage.
+const AIR_TRACER_TAIL_S: float = .033
+const AIR_TRACER_WIDTH_PX: float = 3.8
+const AIR_TRACER_MAX_WIDTH_M: float = 3.8
 enum BudgetGroup { SHARED, MUZZLE, SHELL, TRACER }
 const RESERVED_SHARE: Array[float] = [0., .18, .08, .12]
 @export var effect_capacity: int = 144
@@ -130,15 +134,21 @@ func _fired(event: BattleEvent) -> void:
 	else:
 		_emit("flash",point,Vector3.ZERO,clampf(caliber*10,.12,4.),.09)
 	# Main-shell marks and tracers follow the fired round's actual ballistic path.
-	# Configured tracer flag already makes the streams sparse. Further thin
-	# the busiest air/AA streams deterministically without touching events.
-	var air_or_aa: bool = event.data.get("source_domain") == "aircraft" or event.data.get("mount_role") == "dedicated_aa"
-	var sparse_mark: bool = bool(event.data.tracer) and (not air_or_aa or event.sequence % 3 == 1)
+	# The simulation already marks the tracer subset. A second event-sequence
+	# filter can erase entire aircraft bursts; only retain it for non-airborne AA.
+	var airborne: bool = event.data.get("source_domain") == "aircraft"
+	var ground_aa: bool = not airborne and event.data.get("mount_role") == "dedicated_aa"
+	var sparse_mark: bool = bool(event.data.tracer) and (not ground_aa or event.sequence % 3 == 1)
 	if main_shell or sparse_mark:
 		var slot: Dictionary = _emit("shell" if main_shell else "tracer",point,event.data.velocity_mps,clampf(caliber*.7,.075,.32),float(event.data.get("lifetime_s",90.)))
 		if not slot.is_empty():
 			slot["projectile_id"] = event.data.projectile_id
 			slot["gravity"] = float(event.data.gravity_mps2)
+			if airborne and not main_shell:
+				slot["air_tracer"] = true
+				var material: ShaderMaterial = slot.material
+				material.set_shader_parameter("air_tracer", true)
+				material.set_shader_parameter("tint", Color(1.0, .60, .20, .96))
 			_draw_slot(slot)
 	_play(point,"heavy" if caliber > .1 else "light",0.)
 
@@ -274,6 +284,7 @@ func _emit(kind: String, point: Vector3, velocity: Vector3, size: float, life: f
 			slots.append(slot)
 	active_by_group[group] += 1
 	slot.merge({"active":true,"kind":kind,"group":group,"position":point,"velocity":velocity,"size":maxf(size,.01),"age":maxf(0,elapsed_s-emission_time_s),"born_s":emission_time_s,"life":maxf(life,.01),"gravity":0.,"projectile_id":"","priority":_priority(kind),"jet":0,"seed":fposmod(emission_seed+component_index*.371,1.),"reason":"","emitter_id":"","part_id":"","owner_id":"","anchor_m":Vector3.ZERO},true)
+	slot["air_tracer"] = false
 	component_index += 1
 	var mesh: MeshInstance3D = slot.mesh
 	var geometry: String = "water" if kind=="water" else "foam" if kind=="foam" else "tracer" if kind in ["tracer", "shell"] else "cloud"
@@ -317,6 +328,7 @@ func _emit(kind: String, point: Vector3, velocity: Vector3, size: float, life: f
 	var material: ShaderMaterial = slot.material
 	material.render_priority = 2 if mode==9 else 1 if mode==10 else 0
 	material.set_shader_parameter("effect_mode",mode)
+	material.set_shader_parameter("air_tracer",false)
 	material.set_shader_parameter("tint",color)
 	material.set_shader_parameter("seed",slot.seed)
 	material.set_shader_parameter("trail_axis",Vector3.ZERO)
@@ -337,14 +349,16 @@ func _draw_slot(slot: Dictionary) -> void:
 	mesh.position = point
 	if slot.kind in ["tracer", "shell"]:
 		# Only the round's recent flight, ending at its true current position.
-		# With configured gravity the chord deviation is <2 mm for this span.
-		var span_s: float = minf(age,.035 if slot.kind=="shell" else .012)
+		# Air trails represent a short recent chord, never a full muzzle-to-hit line.
+		var enhanced: bool = bool(slot.air_tracer)
+		var span_s: float = minf(age,AIR_TRACER_TAIL_S if enhanced else (.035 if slot.kind=="shell" else .012))
 		var previous_age: float = age-span_s
 		var previous: Vector3 = slot.position+(slot.velocity as Vector3)*previous_age+Vector3.DOWN*float(slot.gravity)*.5*previous_age*previous_age
 		var direction: Vector3 = point-previous
 		if direction.length_squared() > .001:
 			mesh.basis = Basis.looking_at(direction.normalized(),Vector3.RIGHT if absf(direction.normalized().y)>.99 else Vector3.UP)
-		var width: float = _observer_width(point,size,2.2 if slot.kind=="shell" else 1.05,6.0 if slot.kind=="shell" else 1.25)
+		var width: float = _observer_width(point,size,AIR_TRACER_WIDTH_PX if enhanced else (2.2 if slot.kind=="shell" else 1.05),
+			AIR_TRACER_MAX_WIDTH_M if enhanced else (6.0 if slot.kind=="shell" else 1.25))
 		mesh.scale = Vector3(width,width,maxf(.01,direction.length()))
 		fade = 1.
 	elif slot.kind == "water":
