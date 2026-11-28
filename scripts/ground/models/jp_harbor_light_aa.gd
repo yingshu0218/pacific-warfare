@@ -17,12 +17,15 @@ static func build(root: Node3D, spec: Dictionary) -> Dictionary:
 	M.cylinder(foundation,"ShorePlinth",.48,.20,Vector3(0,.25,0),masonry,10,.41)
 	M.cylinder(foundation,"NavalPedestal",.38,.60,Vector3(0,.60,0),naval,12,.25)
 	M.cylinder(foundation,"MountCollar",.36,.08,Vector3(0,.85,0),naval,12)
-	for i: int in 8:
-		if i == 0 or i == 4: continue
-		var bank: Node3D = P.node(foundation,"Rim%d"%i)
-		bank.rotation.y = TAU*i/8.0
-		M.box(bank,"Masonry",Vector3(.83,.42,.19),Vector3(0,.30,1.83),masonry)
-		M.box(bank,"Cap",Vector3(.87,.055,.25),Vector3(0,.533,1.83),trim)
+	if triple:
+		_add_sandbag_ring(foundation)
+	else:
+		for i: int in 8:
+			if i == 0 or i == 4: continue
+			var bank: Node3D = P.node(foundation,"Rim%d"%i)
+			bank.rotation.y = TAU*i/8.0
+			M.box(bank,"Masonry",Vector3(.83,.42,.19),Vector3(0,.30,1.83),masonry)
+			M.box(bank,"Cap",Vector3(.87,.055,.25),Vector3(0,.533,1.83),trim)
 	for side: float in [-1.0,1.0]:
 		M.box(foundation,"SteelChest",Vector3(.57,.37,.49),Vector3(side*1.10,.37,1.08),naval)
 		M.box(foundation,"ChestLid",Vector3(.62,.065,.53),Vector3(side*1.10,.583,1.08),trim)
@@ -55,3 +58,49 @@ static func build(root: Node3D, spec: Dictionary) -> Dictionary:
 	seat.position=train.position
 	foundation.add_child(seat)
 	return {"train":train,"elevation":elevation,"recoil":recoil,"muzzle":muzzles[0],"muzzles":muzzles,"foundation":foundation,"contacts":[Vector3.ZERO],"seat":seat}
+
+
+## Static game scenery only; neither the bags nor the entrance add physics nodes.
+static func _add_sandbag_ring(host: Node3D) -> void:
+	var ring: Node3D = P.node(host,"SandbagRing")
+	var palette: Array[Material] = [
+		M.material(Color("a18b62")), M.material(Color("b09a74")), M.material(Color("94805a"))]
+	var cushion: ArrayMesh = _sandbag_mesh()
+	const SLOTS: int = 22
+	for row: int in 3:
+		var course: Node3D = P.node(ring,"Course%d"%row)
+		for index: int in range(2,SLOTS-1):
+			var stagger: float = 0.42 if row % 2 == 1 else 0.0
+			var angle: float = TAU * (float(index) + stagger) / SLOTS
+			var radius: float = 1.94 - .065 * row
+			var bag: MeshInstance3D = MeshInstance3D.new()
+			bag.name = "Hessian_%02d" % index
+			bag.mesh = cushion
+			bag.material_override = palette[(index + 2 * row) % palette.size()]
+			bag.position = Vector3(sin(angle)*radius,.23+.14*row + .009*sin(index*2.3+row),cos(angle)*radius)
+			bag.rotation.y = angle + .05 * sin(index*1.8+row*2.3)
+			bag.scale = Vector3(1.0+.055*sin(index*2.8+row),1.0,1.0)
+			course.add_child(bag)
+
+static func _sandbag_mesh() -> ArrayMesh:
+	# Round the shared box mesh into a soft cloth silhouette with flatter faces.
+	var box: BoxMesh = BoxMesh.new()
+	box.size = Vector3(.60,.20,.39)
+	box.subdivide_width = 4
+	box.subdivide_height = 3
+	box.subdivide_depth = 4
+	var arrays: Array = box.surface_get_arrays(0)
+	var vertices: PackedVector3Array = arrays[Mesh.ARRAY_VERTEX]
+	var normals: PackedVector3Array = arrays[Mesh.ARRAY_NORMAL]
+	var inner: Vector3 = box.size * .5 - Vector3.ONE*.076
+	for i: int in vertices.size():
+		var v: Vector3 = vertices[i]
+		var center: Vector3 = v.clamp(-inner, inner)
+		var normal: Vector3 = (v-center).normalized()
+		vertices[i] = center + normal*.076
+		normals[i] = normal
+	arrays[Mesh.ARRAY_VERTEX] = vertices
+	arrays[Mesh.ARRAY_NORMAL] = normals
+	var mesh: ArrayMesh = ArrayMesh.new()
+	mesh.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, arrays)
+	return mesh

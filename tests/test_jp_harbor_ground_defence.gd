@@ -37,6 +37,8 @@ func _scene() -> void:
 		_check(model.mount_sockets().size() == 1 and model.mount_sockets()[0].weapon_definition_id == weapon,"visual mount "+id)
 		_check((model.parts.foundation as Node3D).name == ("ArmyFieldEarthwork" if army else "HarborEmplacement"),"distinct scenery "+id)
 		_check((model.parts.recoil as Node3D).get_child_count() > 0,"renderable weapon "+id)
+		var ring: Node = (model.parts.foundation as Node3D).get_node_or_null("SandbagRing")
+		_check((ring != null and ring.get_child_count() == 3) if triple else ring == null,"sandbags only on the three-barrel harbor display")
 		if triple:
 			var socket: MountSocket = (game.session.world.unit_definition(expected) as UnitDefinition).mounts[0]
 			_check((model.mount_visuals.gun_01.muzzles as Array).size()==3,"each triple gun exposes a distinct visual muzzle")
