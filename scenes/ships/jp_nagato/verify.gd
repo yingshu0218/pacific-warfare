@@ -19,6 +19,13 @@ func _run() -> void:
 		if pivots == null:
 			problems.append(id + " no rigs")
 			continue
+		checks += 6
+		if ship.get_meta("exterior_revision",0) != 2: problems.append(id + " old exterior loaded")
+		for part: String in ["Shaped single funnel shell", "Recessed dark funnel opening",
+			"Restrained longitudinal plank seams", "Stern crane upright"]:
+			if ship.find_child(part,true,false) == null: problems.append(id + " missing " + part)
+		if ship.find_children("Shaped bridge balcony *","MeshInstance3D",true,false).size() != 8:
+			problems.append(id + " bridge levels missing")
 		var rigs := pivots.get_children()
 		if rigs.size() != 10:
 			problems.append(id + " wrong rig count")

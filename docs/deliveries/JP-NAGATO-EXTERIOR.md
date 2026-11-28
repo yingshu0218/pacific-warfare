@@ -1,15 +1,16 @@
-# Nagato · 1944 archive exhibit
+# Nagato · October 1944 archive exhibit
 
-Playable-world neutral Godot exterior asset. Open `scenes/ships/jp_nagato/nagato_visual.tscn`; this is not yet cataloged, assigned to a team, or embedded in a battle scene.
+The Godot archive gallery contains the revised static exterior. The standalone model entry remains `scenes/ships/jp_nagato/nagato_visual.tscn`. This is exhibition geometry and has not been assigned to a team or battle scene.
 
-## Visual verification
+## Revision 2
 
-- Primary: [Kure Maritime Museum photo of Nagato at Brunei, 21 October 1944](https://commons.wikimedia.org/wiki/File:Japanese_Battleship_Nagato_1944.jpg). Compared a matching low bow quarter: steep bow sheer, stacked forward pagoda, one oval funnel, lighter aft tripod and signal yards, paired fore/aft terraces, boat grouping and open handling deck aft.
-- Context: [NHHC NH 73090, Brunei October 1944](https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-73000/NH-73090.html), with Nagato on the right, supports the broad profile and asymmetry of the superstructures. [NHHC 80-G-343773, Yokosuka 1945](https://www.history.navy.mil/content/history/museums/nmusn/explore/photography/wwii/wwii-pacific/bombardment-japan/aerial-naval-gunfire-japanese-home-islands/80-g-343773.html) supplies an overhead check of the hull and long end decks, not a template for the 1944 fit.
-- Hull underside, materials, minor fittings and flank displays are artistic choices where these photographs do not support precise tracing. This is a silhouette-first art exhibit rather than an exact equipment inventory or scale construction plan.
+- Rebuilt the generic uniform bridge stack as separate faceted observation terraces, with varied reaches, recessed galleries, glazed cabin bands and a visible top lattice. Reworked the single funnel as a shaped shell and recessed opening; added definition to the aft tripod and changed the stern from two simple poles to one offset crane.
+- Sharpened the bow profile, added visually seated hawse relief and scuttles, clarified the aft deck step and made the foredeck and wood planking readable. Reworked the four large display housings with a crisp flat roof and closed tapered display profiles; existing decorative posing interfaces and placement remain compatible.
+- Dated reference: [Kure Maritime Museum's Nagato at Brunei, 21 October 1944](https://commons.wikimedia.org/wiki/File:Japanese_Battleship_Nagato_1944.jpg). The full archival photo was compared with the low-bow Godot view for the forward bridge mass, break between the bridge and funnel, aft mast and crane, and visible foredeck silhouettes. [NHHC NH 73090](https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-73000/NH-73090.html) gives period context. The shot has perspective and occlusion: color, fine fittings and the far side remain illustrative, not measured reproduction. The underbody was not historically verified.
+- This is an art-only revision. No new movement controls or gameplay wiring.
 
-## Engine checks
+## Verification
 
-Visual inspection of native Godot Compatibility captures: three-quarter, low bow quarter, side, deck, stern quarter, and a separate articulation pose. All four centerline and six smaller depicted display mounts are individually posed through the shared archive rig. The art has no aiming control, firing, ballistic, damage or other combat integration. Broadside shadowed openings are inert hull surface relief, not additional operable meshes.
-
-Run `godot --headless --path . --script scenes/ships/jp_nagato/verify.gd` for mount count, exterior mesh presence, per-mount display traverse and pitch, isolated neighbor transforms, stationary hull, and neutral reset. Current result: 143 checks, 0 failures.
+- Native Godot Compatibility captures: low bow quarter, broadside, aft quarter, overhead and bridge detail. Old and new low-bow screenshots share identical camera and lighting settings.
+- `scenes/ships/jp_nagato/verify.gd`: 149 checks, 0 failures, including separate enclosure motion, isolation from neighbors, reset, all eight bridge levels, distinct funnel shell and opening, and presence of deck seams and crane geometry.
+- `tests/model_audit/test_archive_finish.gd`: 38 ships and 18 aircraft; no failures. `tests/model_audit/test_archive_gun_rigs.gd`: 1,367 checks; no failures.
