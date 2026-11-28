@@ -117,7 +117,7 @@ func breakup_case(definition_id: String) -> void:
 	expect(of_kind(world.drain_events(),"unit_impact").is_empty(),"No repeated impact during sinking/removal")
 	evidence.append({"definition_id":definition_id,"case":"breakup_and_water","controlled":true,"maximum_pieces":maximum,"surface_contacts":contact_count,"impacts":impact_count,"impact":{} if impact == null else impact.snapshot()})
 	world.reset()
-	expect(target != world.get_unit("target") and world.get_unit("target").active and world.get_unit("target").module_data.damage.aircraft.detached_parts.is_empty() and a.frame.proxies.target.size() == 5, "Reset rebuilds health, guns, parts and collision proxies")
+	expect(target != world.get_unit("target") and world.get_unit("target").active and world.get_unit("target").module_data.damage.aircraft.detached_parts.is_empty() and a.frame.proxies.target.size() == 6, "Reset rebuilds health, guns, parts and collision proxies")
 
 func tail_and_control_case(definition_id: String) -> void:
 	var a: Dictionary = arena(definition_id)
@@ -125,7 +125,7 @@ func tail_and_control_case(definition_id: String) -> void:
 	shoot(a,"tail",6)
 	collect(a.world,events,8)
 	var target: UnitState = a.world.get_unit("target")
-	expect(of_kind(events,"hit","target").any(func(e: BattleEvent) -> bool:return e.data.part_id == "tail") and target.module_data.damage.parts.tail == 0 and target.module_data.damage.aircraft.detached_parts == ["tail"], "Real tail-region projectiles alone can detach the tail structure")
+	expect(of_kind(events,"hit","target").any(func(e: BattleEvent) -> bool:return e.data.part_id == "tail") and target.module_data.damage.parts.tail < 1.0 and target.module_data.damage.parts.tail > 0.0 and target.module_data.damage.aircraft.detached_parts.is_empty() and target.active, "A short burst damages control without separating the tail")
 	a = arena(definition_id)
 	target = a.world.get_unit("target")
 	var shots: Array[Dictionary] = []
@@ -137,6 +137,44 @@ func tail_and_control_case(definition_id: String) -> void:
 	expect(not of_kind(events,"airburst").is_empty() and target.module_data.damage.parts.control == 0 and not target.active, "Genuine close timed flak bursts can destroy functional control")
 	expect(target.module_data.damage.structure > 0 and target.module_data.damage.parts.tail == 1 and target.module_data.damage.aircraft.detached_parts.is_empty(), "Blast control loss never invents tail fracture or other detached modules")
 	evidence.append({"definition_id":definition_id,"case":"control_distinct_from_tail","controlled":true,"airbursts":of_kind(events,"airburst").size(),"tail_health_after_blast":target.module_data.damage.parts.tail,"control_health_after_blast":target.module_data.damage.parts.control,"structure_after_blast":target.module_data.damage.structure})
+
+func twin_and_cockpit_case(definition_id: String) -> void:
+	var a: Dictionary = arena(definition_id, 380.0)
+	var world: SimulationWorld = a.world
+	var target: UnitState = world.get_unit("target")
+	var events: Array[BattleEvent] = []
+	shoot(a,"tail",6)
+	collect(world,events,8)
+	expect(of_kind(events,"hit","target").size() == 6 and of_kind(events,"hit","target").all(func(e: BattleEvent) -> bool:return e.data.part_id == "tail"), definition_id+" six real swept impacts reach the tail proxy")
+	var damage: Dictionary = target.module_data.damage
+	expect(target.active and float(damage.parts.tail) > .5 and float(damage.parts.tail) < 1.0 and damage.aircraft.detached_parts.is_empty(), definition_id+" short tail burst leaves a damaged, intact and flyable bomber")
+	shoot(a,"engine_left",14)
+	collect(world,events,120)
+	expect(target.active and damage.parts.engine_left == 0.0 and damage.parts.engine_right == 1.0 and damage.propulsion_factor == .5, definition_id+" isolated engine hit keeps the other engine and reduced propulsion")
+	expect(damage.effect_emitters.any(func(e: Dictionary) -> bool:return e.id == "engine_left_smoke" and (e.anchor_m as Vector3).x < 0) and not damage.effect_emitters.any(func(e: Dictionary) -> bool:return e.id == "engine_right_smoke"), "Only the failed side emits engine smoke")
+	expect(float(target.module_data.aircraft_motion.propeller_left_speed_radps) < float(target.module_data.aircraft_motion.propeller_right_speed_radps), "Damaged propeller visibly coasts separately")
+	a = arena(definition_id, 380.0)
+	world = a.world
+	target = world.get_unit("target")
+	world.step_ticks(24)
+	world.drain_events()
+	shoot(a,"cockpit",8)
+	events.clear()
+	var max_step: float = 0.0
+	var last_pos: Vector3 = target.position_m
+	for i: int in 180:
+		world.step_ticks(1)
+		events.append_array(world.drain_events())
+		max_step = maxf(max_step,last_pos.distance_to(target.position_m))
+		last_pos = target.position_m
+	damage = target.module_data.damage
+	expect(of_kind(events,"hit","target").any(func(e: BattleEvent) -> bool:return e.data.part_id == "cockpit") and damage.phase == "crashing" and damage.disabled_reason == "cockpit", definition_id+" actual cockpit hits cause impaired then terminal control")
+	expect(damage.parts.engine_left == 1.0 and damage.parts.engine_right == 1.0 and damage.aircraft.detached_parts.is_empty() and max_step < 3.0 and target.position_m.z < -200.0, "Cockpit failure retains attached geometry and uninterrupted forward inertia")
+	collect(world,events,6600)
+	var impacts: Array[BattleEvent] = of_kind(events,"unit_impact","target")
+	expect(impacts.size() == 1 and impacts[0].data.surface == "sea" and absf(impacts[0].position_m.y) < 0.001 and ((impacts[0].data.velocity_mps as Vector3).y < 0.0), "Intact loss of control reaches the swept sea crossing exactly once")
+	var detachments: Array[BattleEvent] = of_kind(events,"aircraft_part_detached","target")
+	expect(detachments.size() == 3 and detachments.all(func(e: BattleEvent) -> bool:return e.data.reason == "surface_impact"), "No simulated air breakup from cockpit loss; debris only on the hard surface impact")
 
 func rotating_inheritance_case(definition_id: String) -> void:
 	var a: Dictionary = arena(definition_id,2500)
@@ -210,6 +248,8 @@ func run_test() -> void:
 		breakup_case(definition_id)
 		tail_and_control_case(definition_id)
 		rotating_inheritance_case(definition_id)
+	for definition_id: String in ["us_b25j_1944_07", "jp_g4m1_1942_07"]:
+		twin_and_cockpit_case(definition_id)
 	ground_wreck_case()
 	schedule_case()
 	var file: FileAccess = FileAccess.open(OUTPUT,FileAccess.WRITE)

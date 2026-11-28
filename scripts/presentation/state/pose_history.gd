@@ -164,7 +164,7 @@ static func _sample(world: SimulationWorld) -> Dictionary:
 			weapons[station] = Vector2(weapon.train_rad,weapon.elevation_rad)
 		var flight: Dictionary = {}
 		var motion: Dictionary = unit.module_data.get("aircraft_motion",{})
-		for field: String in ["propeller_phase_rad","aileron_rad","elevator_rad"]:
+		for field: String in ["propeller_phase_rad","propeller_left_phase_rad","propeller_right_phase_rad","aileron_rad","elevator_rad"]:
 			if motion.has(field): flight[field] = float(motion[field])
 		var fragments: Dictionary = {}
 		var damage: Dictionary = unit.module_data.get("damage",{})

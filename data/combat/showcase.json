@@ -1891,6 +1891,20 @@
       "loss_duration_s": 30.0,
       "boxes": [
         {
+          "part": "cockpit",
+          "center_m": [
+            0,
+            0.72,
+            -0.83
+          ],
+          "half_extents_m": [
+            0.42,
+            0.34,
+            0.76
+          ],
+          "armor_mm": 1
+        },
+        {
           "part": "engine",
           "center_m": [
             0,
@@ -1975,10 +1989,12 @@
       },
       "aircraft_damage": {
         "wing_durability": 30,
-        "tail_durability": 28,
+        "tail_durability": 105.0,
         "engine_structure_transfer": 0.3,
+        "cockpit_durability": 27.0,
+        "cockpit_structure_transfer": 0.2,
         "wing_structure_transfer": 0.35,
-        "tail_structure_transfer": 0.4,
+        "tail_structure_transfer": 0.15,
         "wreck_lifetime_s": 12.0,
         "anchors_m": {
           "wing_left": [
@@ -2013,6 +2029,20 @@
       "flood_loss_per_s": 0,
       "loss_duration_s": 30.0,
       "boxes": [
+        {
+          "part": "cockpit",
+          "center_m": [
+            0,
+            0.67,
+            -1.05
+          ],
+          "half_extents_m": [
+            0.36,
+            0.29,
+            0.85
+          ],
+          "armor_mm": 1
+        },
         {
           "part": "engine",
           "center_m": [
@@ -2098,10 +2128,12 @@
       },
       "aircraft_damage": {
         "wing_durability": 19,
-        "tail_durability": 18,
+        "tail_durability": 90.0,
         "engine_structure_transfer": 0.3,
+        "cockpit_durability": 24.0,
+        "cockpit_structure_transfer": 0.2,
         "wing_structure_transfer": 0.35,
-        "tail_structure_transfer": 0.4,
+        "tail_structure_transfer": 0.15,
         "wreck_lifetime_s": 12.0,
         "anchors_m": {
           "wing_left": [

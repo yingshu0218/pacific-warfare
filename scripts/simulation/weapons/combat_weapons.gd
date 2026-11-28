@@ -175,9 +175,16 @@ func _update_mount(world: SimulationWorld, unit: UnitState, mount: MountSocket, 
 		if world.shared_state.has("terrain") and not TerrainQueries.segment_hit(world,muzzle.origin,muzzle.origin+direction*400.0,false).is_empty():
 			runtime.mount_status[mount.id] = "terrain_masked"
 			continue
-		# Healthy historical gun dispersion stays unchanged. Damaged ship directors
-		# retain local aiming with bounded additional fire-control error.
-		var scattered: Vector3 = CombatFireControl.scatter(direction, float(p.dispersion_rad)*(1.+4.*(1.-director)), world.rng)
+		# Game-only air-to-air aim variation. Maneuvering adds to the base cone;
+		# all rounds still launch from the real muzzle and must intersect the mesh proxy.
+		# Ground fire, defensive turrets and ships keep their existing parameters.
+		var spread: float = float(p.dispersion_rad) * (1.0 + 4.0 * (1.0 - director))
+		if fixed and contact.domain == "aircraft":
+			var flight: Dictionary = unit.module_data.get("aircraft_motion", {})
+			var angular_rate: Vector3 = flight.get("body_angular_velocity_radps", Vector3.ZERO)
+			var aim_variation: float = 0.040 + minf(0.018, angular_rate.length() * 0.018)
+			spread = sqrt(spread * spread + aim_variation * aim_variation)
+		var scattered: Vector3 = CombatFireControl.scatter(direction, spread, world.rng)
 		# Dispersion cannot open a path through the host hull either.
 		if CombatGeometry.masked(local_muzzle, local_muzzle + transform.basis.inverse() * scattered * 400.0, frame.proxies[unit.id], exclusion):
 			runtime.mount_status[mount.id] = "masked"

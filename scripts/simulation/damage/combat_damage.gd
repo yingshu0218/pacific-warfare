@@ -28,7 +28,11 @@ func reset(world_ref: RefCounted) -> void:
 				"breach_hits":0, "last_hit_region":"", "last_hit_local_m":Vector3.ZERO,
 				"submerge_depth_m":_submerge_depth(frame.definitions[id],frame.proxies[id])}
 			unit.module_data.damage["fire_control_factor"] = 1.0
-		if p.has("aircraft_damage"): AircraftDamageMotion.initialize(unit)
+		if p.has("aircraft_damage"):
+			AircraftDamageMotion.initialize(unit)
+			for box: Dictionary in p.boxes:
+				if box.part in ["cockpit", "engine_left", "engine_right"]:
+					parts[box.part] = 1.0
 		elif (frame.definitions[id] as UnitDefinition).domain == "aircraft":
 			# Whole-airframe terminal state for admitted models without detachable groups.
 			# Do not invent wing cuts or run healthy flight after an actual loss.
@@ -88,10 +92,13 @@ func fixed_update(world_ref: RefCounted, delta_s: float) -> void:
 					# Failure follows this tick's healthy movement; do not integrate twice.
 					if int(damage.get("aircraft",damage.get("coarse_airframe",{})).get("terminal_born_tick",-1)) == world.tick: continue
 					var previous: Vector3 = unit.position_m
+					var incoming_velocity: Vector3 = unit.velocity_mps
 					var contact: Dictionary = AircraftDamageMotion.advance_terminal(world, unit, delta_s)
 					if contact.is_empty(): contact = _crash_surface(world, previous, unit.position_m)
 					if not contact.is_empty():
-						var event: BattleEvent = world.emit_event("unit_surface_contact",unit.id,"",contact.position_m,{"surface":contact.surface,"velocity_mps":unit.velocity_mps,"reason":"crash","normal":contact.get("normal",Vector3.UP)})
+						var fraction: float = clampf(previous.distance_to(contact.position_m) / maxf(0.000001, previous.distance_to(unit.position_m)), 0.0, 1.0)
+						var impact_velocity: Vector3 = incoming_velocity.lerp(unit.velocity_mps, fraction)
+						var event: BattleEvent = world.emit_event("unit_surface_contact",unit.id,"",contact.position_m,{"surface":contact.surface,"velocity_mps":impact_velocity,"reason":"crash","normal":contact.get("normal",Vector3.UP)})
 						_surface_contact(world,event)
 
 				# A fixed timer alone left tall superstructures visibly above water
@@ -200,7 +207,8 @@ func _apply(world: SimulationWorld, id: String, part: String, armor_mm: float, e
 				damage.ship.breach_hits += 1
 				damage.flooding = minf(1, float(damage.flooding) + amount / float(profile.structure) * 0.5)
 	elif damage.has("aircraft"):
-		if part == "engine": hull_transfer = float(profile.aircraft_damage.engine_structure_transfer)
+		if part in ["engine", "engine_left", "engine_right"]: hull_transfer = float(profile.aircraft_damage.engine_structure_transfer)
+		elif part == "cockpit": hull_transfer = float(profile.aircraft_damage.get("cockpit_structure_transfer", 0.2))
 		elif part in ["wing_left", "wing_right"]: hull_transfer = float(profile.aircraft_damage.wing_structure_transfer)
 		elif part == "tail": hull_transfer = float(profile.aircraft_damage.tail_structure_transfer)
 	damage.structure = maxf(0, float(damage.structure) - amount * hull_transfer)
@@ -209,6 +217,7 @@ func _apply(world: SimulationWorld, id: String, part: String, armor_mm: float, e
 		if damage.has("aircraft"):
 			if part in ["wing_left", "wing_right"]: durability = float(profile.aircraft_damage.wing_durability)
 			elif part == "tail": durability = float(profile.aircraft_damage.tail_durability)
+			elif part == "cockpit": durability = float(profile.aircraft_damage.get("cockpit_durability", 30.0))
 		if part.begins_with("weapon:"):
 			durability = float(profile.get("weapon_durability", 25.0))
 			var mount_id: String = part.trim_prefix("weapon:")
@@ -224,6 +233,8 @@ func _apply(world: SimulationWorld, id: String, part: String, armor_mm: float, e
 			damage.disabled_mounts.append(mount_id)
 	if ammo.kind == "he" and amount > 1.0:
 		damage.fire = minf(1, float(damage.fire) + amount * (hull_transfer if damage.has("aircraft") else 1.0) / float(profile.structure))
+	if damage.parts.has("engine_left") and damage.parts.has("engine_right"):
+		damage.parts.engine = 0.5 * (float(damage.parts.engine_left) + float(damage.parts.engine_right))
 	damage.propulsion_factor = maxf(0.0, float(damage.parts.engine))
 	if damage.has("ship"):
 		# Ship control proxies describe directors/bridge; steering has its own part.
@@ -232,7 +243,11 @@ func _apply(world: SimulationWorld, id: String, part: String, armor_mm: float, e
 		damage.control_factor = float(damage.parts.steering)
 	else:
 		damage.control_factor = minf(float(damage.parts.steering), float(damage.parts.control))
-	if damage.has("aircraft"): damage.control_factor = minf(float(damage.control_factor),float(damage.parts.tail))
+	if damage.has("aircraft"):
+		damage.control_factor = minf(float(damage.control_factor), minf(float(damage.parts.tail), float(damage.parts.get("cockpit", 1.0))))
+		if damage.phase == "crashing":
+			damage.control_factor = 0.0
+			damage.propulsion_factor = 0.0
 	var result: Dictionary = {"projectile_id": event.data.projectile_id, "ammo_id": event.data.ammo_id,
 		"part_id":part, "proxy_part_id":proxy_part, "amount":amount, "structure_amount":amount*hull_transfer,
 		"structure_transfer":hull_transfer, "structure":damage.structure,
@@ -244,13 +259,15 @@ func _apply(world: SimulationWorld, id: String, part: String, armor_mm: float, e
 	world.emit_event("damaged", event.entity_id, event.weapon_id, event.position_m, result, id)
 	if damage.has("aircraft"):
 		if float(damage.structure) <= 0:
-			AircraftDamageMotion.breakup(world, unit, profile, frame, "structure", str(event.data.projectile_id))
+			# Accumulated functional loss need not take the airframe apart in midair.
+			if amount * hull_transfer >= float(profile.structure) * 0.8:
+				AircraftDamageMotion.breakup(world, unit, profile, frame, "catastrophic_structure", str(event.data.projectile_id))
 			_disable(world, unit, "structure")
-		elif part in ["wing_left", "wing_right", "tail"] and float(damage.parts.get(part,1)) <= 0:
+		elif part in ["wing_left", "wing_right"] and float(damage.parts.get(part,1)) <= 0:
 			AircraftDamageMotion.detach(world, unit, part, profile, frame, "part_failure", str(event.data.projectile_id))
 			_disable(world, unit, part)
-		elif part == "control" and float(damage.parts.control) <= 0:
-			_disable(world, unit, "control")
+		elif part in ["cockpit", "control", "tail"] and float(damage.parts[part]) <= 0:
+			_disable(world, unit, part)
 		AircraftDamageMotion.update_emitters(unit, profile)
 
 ## Existing hull proxies also label above-water side plating as "engine"/"steering".
@@ -361,7 +378,6 @@ func _disable(world: SimulationWorld, unit: UnitState, reason: String) -> void:
 		unit.module_data.damage.coarse_airframe.terminal_born_tick = world.tick
 	if unit.module_data.damage.has("aircraft"):
 		AircraftDamageMotion.begin_terminal(unit)
-		if reason == "structure": AircraftDamageMotion.breakup(world, unit, config.unit_profile(unit.definition_id), frame, reason)
 		if unit.module_data.damage.phase == "crashing": return
 		unit.module_data.damage.aircraft["terminal_born_tick"] = world.tick
 	unit.active = false

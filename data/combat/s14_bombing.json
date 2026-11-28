@@ -408,14 +408,30 @@
           ]
         },
         "engine_structure_transfer": 0.3,
+        "cockpit_durability": 29.0,
+        "cockpit_structure_transfer": 0.2,
         "source_note": "DM01 coarse game damage thresholds and precut pivots; not historical fracture/penetration data.",
-        "tail_durability": 28.0,
-        "tail_structure_transfer": 0.4,
+        "tail_durability": 120.0,
+        "tail_structure_transfer": 0.15,
         "wing_durability": 30.0,
         "wing_structure_transfer": 0.35,
         "wreck_lifetime_s": 12.0
       },
       "boxes": [
+        {
+          "part": "cockpit",
+          "center_m": [
+            0,
+            0.72,
+            -0.85
+          ],
+          "half_extents_m": [
+            0.4,
+            0.28,
+            0.84
+          ],
+          "armor_mm": 1
+        },
         {
           "armor_mm": 0.0,
           "center_m": [
@@ -428,21 +444,7 @@
             0.6,
             3.5
           ],
-          "part": "control"
-        },
-        {
-          "armor_mm": 0.0,
-          "center_m": [
-            0,
-            0,
-            -3.4
-          ],
-          "half_extents_m": [
-            0.9,
-            0.9,
-            1.3
-          ],
-          "part": "engine"
+          "part": "structure"
         },
         {
           "armor_mm": 0.0,
@@ -545,14 +547,30 @@
           ]
         },
         "engine_structure_transfer": 0.3,
+        "cockpit_durability": 38.0,
+        "cockpit_structure_transfer": 0.2,
         "source_note": "DM01 coarse game damage thresholds and precut pivots; not historical fracture/penetration data.",
-        "tail_durability": 28.0,
-        "tail_structure_transfer": 0.4,
+        "tail_durability": 190.0,
+        "tail_structure_transfer": 0.15,
         "wing_durability": 30.0,
         "wing_structure_transfer": 0.35,
         "wreck_lifetime_s": 12.0
       },
       "boxes": [
+        {
+          "part": "cockpit",
+          "center_m": [
+            0,
+            1.48,
+            -5.35
+          ],
+          "half_extents_m": [
+            0.7,
+            0.48,
+            1.3
+          ],
+          "armor_mm": 1
+        },
         {
           "armor_mm": 0.0,
           "center_m": [
@@ -565,7 +583,7 @@
             1.0,
             7.8
           ],
-          "part": "control"
+          "part": "structure"
         },
         {
           "armor_mm": 0.0,
@@ -579,7 +597,7 @@
             0.9,
             1.3
           ],
-          "part": "engine"
+          "part": "engine_left"
         },
         {
           "armor_mm": 0.0,
@@ -593,7 +611,7 @@
             0.9,
             1.3
           ],
-          "part": "engine"
+          "part": "engine_right"
         },
         {
           "armor_mm": 0.0,
@@ -682,14 +700,30 @@
           ]
         },
         "engine_structure_transfer": 0.3,
+        "cockpit_durability": 38.0,
+        "cockpit_structure_transfer": 0.2,
         "source_note": "DM01 coarse game damage thresholds and precut pivots; not historical fracture/penetration data.",
-        "tail_durability": 28.0,
-        "tail_structure_transfer": 0.4,
+        "tail_durability": 190.0,
+        "tail_structure_transfer": 0.15,
         "wing_durability": 30.0,
         "wing_structure_transfer": 0.35,
         "wreck_lifetime_s": 12.0
       },
       "boxes": [
+        {
+          "part": "cockpit",
+          "center_m": [
+            0,
+            1.12,
+            -4.65
+          ],
+          "half_extents_m": [
+            0.62,
+            0.36,
+            0.76
+          ],
+          "armor_mm": 1
+        },
         {
           "armor_mm": 0.0,
           "center_m": [
@@ -716,7 +750,7 @@
             0.8,
             6.4
           ],
-          "part": "control"
+          "part": "structure"
         },
         {
           "armor_mm": 0.0,
@@ -730,7 +764,7 @@
             0.8,
             1.1
           ],
-          "part": "engine"
+          "part": "engine_left"
         },
         {
           "armor_mm": 0.0,
@@ -744,7 +778,7 @@
             0.8,
             1.1
           ],
-          "part": "engine"
+          "part": "engine_right"
         },
         {
           "armor_mm": 0.0,

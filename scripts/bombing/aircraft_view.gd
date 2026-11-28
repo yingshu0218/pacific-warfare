@@ -51,7 +51,7 @@ func apply(unit: UnitState) -> void:
 	elif definition_id=="jp_d4y2_model12_1944_10":
 		model.call("apply_visual_state",{"gear":0.,"hook":0.,"bay":rack.get("bay",0.),"crutch":rack.get("crutch",0.),"brake":rack.get("brake",0.),"bomb_visible":not mask.is_empty() and mask[0],"propeller_rad":phase,"aileron_left_rad":aileron,"aileron_right_rad":-aileron,"elevator_left_rad":elevator,"elevator_right_rad":elevator})
 	else:
-		var state: Dictionary={"gear":0.,"flap":0.,"bomb_visible":mask,"propeller_left_rad":phase,"propeller_right_rad":phase+0.4,"aileron_left_rad":aileron,"aileron_right_rad":-aileron,"elevator_left_rad":elevator,"elevator_right_rad":elevator}
+		var state: Dictionary={"gear":0.,"flap":0.,"bomb_visible":mask,"propeller_left_rad":flight.get("propeller_left_phase_rad",phase),"propeller_right_rad":flight.get("propeller_right_phase_rad",phase+0.4),"aileron_left_rad":aileron,"aileron_right_rad":-aileron,"elevator_left_rad":elevator,"elevator_right_rad":elevator}
 		if "b25j" in definition_id:state["bay_door"]=rack.get("bay",0.);state["payload_mode"]="bombs_6x500"
 		else:state["payload_mode"]="bombs_12x60"
 		model.call("apply_visual_state",state)

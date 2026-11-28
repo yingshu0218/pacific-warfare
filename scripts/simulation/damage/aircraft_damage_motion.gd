@@ -21,6 +21,8 @@ static func begin_terminal(unit: UnitState) -> void:
 	if bool(aircraft.terminal_started): return
 	aircraft.terminal_started = true
 	aircraft.angular_velocity_body_radps = inherited_angular_velocity(unit)
+	var flight: Dictionary = unit.module_data.get("aircraft_motion", {})
+	aircraft["transition_load_g"] = clampf(float(flight.get("load_factor", 1.0)), 0.0, 4.0)
 
 static func inherited_angular_velocity(unit: UnitState) -> Vector3:
 	var flight: Dictionary = unit.module_data.get("aircraft_motion", {})
@@ -37,6 +39,11 @@ static func detach(world: SimulationWorld, unit: UnitState, part_id: String, pro
 	var fragment: Dictionary = {"part_id": part_id, "position_m": pose * anchor, "rotation_rad": unit.rotation_rad,
 		"velocity_mps": velocity, "angular_velocity_body_radps": omega, "born_tick": world.tick,
 		"born_time_s": world.time_s(), "age_s": 0.0, "lifetime_s": FRAGMENT_LIFETIME_S, "surface": ""}
+	# The anchor may already be below the entry plane when the fuselage
+	# contacts sea. Such debris starts submerged instead of crossing a second time.
+	if aircraft.contact_surface == "sea" and (fragment.position_m as Vector3).y <= unit.position_m.y:
+		fragment.surface = "sea"
+		fragment.velocity_mps = Vector3(velocity.x, minf(-1.1, velocity.y), velocity.z) * 0.12
 	damage.parts[part_id] = 0.0
 	aircraft.detached_parts.append(part_id)
 	aircraft.fragments.append(fragment)
@@ -47,6 +54,7 @@ static func detach(world: SimulationWorld, unit: UnitState, part_id: String, pro
 			if mount_id not in damage.disabled_mounts: damage.disabled_mounts.append(mount_id)
 	var event_data: Dictionary = fragment.duplicate(true)
 	event_data.merge({"local_anchor_m": anchor, "reason": reason, "projectile_id": projectile_id})
+	event_data["velocity_mps"] = velocity
 	world.emit_event("aircraft_part_detached", unit.id, "", fragment.position_m, event_data)
 
 static func breakup(world: SimulationWorld, unit: UnitState, profile: Dictionary, frame: CombatFrame, reason: String, projectile_id: String = "") -> void:
@@ -66,7 +74,7 @@ static func advance_terminal(world: SimulationWorld, unit: UnitState, dt: float)
 	var direction: Vector3 = velocity / speed
 	var left: float = 0.0 if "wing_left" in aircraft.detached_parts else 1.0
 	var right: float = 0.0 if "wing_right" in aircraft.detached_parts else 1.0
-	var tail: float = 0.0 if "tail" in aircraft.detached_parts else 1.0
+	var tail: float = 0.0 if "tail" in aircraft.detached_parts else lerpf(0.28, 1.0, float(damage.parts.get("tail", 1.0)))
 	var asymmetry: float = right - left
 	var alignment: Vector3 = basis.inverse() * (-basis.z).cross(direction)
 	var omega: Vector3 = aircraft.angular_velocity_body_radps
@@ -75,7 +83,10 @@ static func advance_terminal(world: SimulationWorld, unit: UnitState, dt: float)
 	basis = _rotate(basis, omega, dt)
 	var lift_direction: Vector3 = (basis.y - direction * basis.y.dot(direction)).normalized()
 	var incidence: float = clampf((-basis.z).dot(direction), 0, 1)
-	var lift: Vector3 = lift_direction * G * minf(2.0, pow(speed/90.0, 2)) * (left+right)*0.5 * incidence*incidence
+	var passive_load: float = minf(2.0, pow(speed / 90.0, 2)) * incidence * incidence
+	var load: float = lerpf(float(aircraft.get("transition_load_g", passive_load)), passive_load,
+		clampf(float(damage.phase_time_s) / 0.65, 0.0, 1.0))
+	var lift: Vector3 = lift_direction * G * load * (left + right) * 0.5
 	var drag: Vector3 = -direction * speed*speed * (0.00013 + 0.00016 * (2.0-left-right) + 0.0003 * (1.0-incidence))
 	var acceleration: Vector3 = Vector3.DOWN * G + lift + drag
 	var previous: Vector3 = unit.position_m
@@ -85,7 +96,10 @@ static func advance_terminal(world: SimulationWorld, unit: UnitState, dt: float)
 	aircraft.angular_velocity_body_radps = omega
 	var flight: Dictionary = unit.module_data.get("aircraft_motion", {})
 	flight["speed_mps"] = unit.velocity_mps.length()
-	flight["forward_m"] = -basis.z
+	flight["forward_m"] = unit.velocity_mps.normalized()
+	flight["body_forward_m"] = -basis.z
+	flight["body_angular_velocity_radps"] = omega
+	flight["vertical_speed_mps"] = unit.velocity_mps.y
 	flight["lift_up_m"] = basis.y
 	flight["safety_state"] = "uncontrolled_damage"
 	flight["body_roll_rate_radps"] = -omega.z
@@ -104,7 +118,12 @@ static func advance_fragments(world: SimulationWorld, unit: UnitState, dt: float
 			fragments.remove_at(index)
 			continue
 		if str(piece.surface) != "":
-			if piece.surface == "sea": piece.position_m += Vector3.DOWN * dt * 1.1
+			if piece.surface == "sea":
+				var water_velocity: Vector3 = piece.velocity_mps
+				var sink_velocity: Vector3 = Vector3.DOWN * 1.1
+				var damped: Vector3 = sink_velocity + (water_velocity - sink_velocity) * exp(-12.0 * dt)
+				piece.position_m += (water_velocity + damped) * (0.5 * dt)
+				piece.velocity_mps = damped
 			continue
 		var velocity: Vector3 = piece.velocity_mps
 		var acceleration: Vector3 = Vector3.DOWN*G - velocity * velocity.length() * 0.0015
@@ -120,7 +139,9 @@ static func advance_fragments(world: SimulationWorld, unit: UnitState, dt: float
 		piece.position_m = next if contact.is_empty() else contact.position_m
 		if not contact.is_empty():
 			piece.surface = contact.surface
-			piece.velocity_mps = Vector3.ZERO
+			var fraction: float = clampf(previous.distance_to(piece.position_m) / maxf(0.000001, previous.distance_to(next)), 0.0, 1.0)
+			var at_contact: Vector3 = velocity + acceleration * (fraction * dt)
+			piece.velocity_mps = Vector3(at_contact.x, minf(-1.1, at_contact.y), at_contact.z) * 0.12 if contact.surface == "sea" else Vector3.ZERO
 
 static func _fragment_contact(world: SimulationWorld, a: Vector3, b: Vector3, environment: Dictionary) -> Dictionary:
 	if world.shared_state.has("terrain"): return TerrainQueries.segment_hit(world,a,b,true)
@@ -147,7 +168,17 @@ static func update_emitters(unit: UnitState, profile: Dictionary) -> void:
 	var engine_loss: float = 1.0-float(damage.parts.engine)
 	var fire: float = float(damage.fire)
 	var anchors: Dictionary = profile.damage_effects
-	if engine_loss > 0.02:
+	if damage.parts.has("engine_left"):
+		for box: Dictionary in profile.boxes:
+			var part_id: String = str(box.part)
+			if part_id not in ["engine_left", "engine_right"]: continue
+			var loss: float = 1.0 - float(damage.parts[part_id])
+			if loss <= 0.02: continue
+			var anchor: Vector3 = SimData.vec3(box.center_m) + Vector3.UP * 0.55
+			emitters.append({"id":part_id+"_smoke", "part_id":part_id, "kind":"smoke", "anchor_m":anchor, "intensity":clampf(loss*0.9+fire*0.2,0,1), "size_m":2.4, "enabled":true})
+			if fire > 0.02:
+				emitters.append({"id":part_id+"_fire", "part_id":part_id, "kind":"fire", "anchor_m":anchor, "intensity":fire, "size_m":1.3, "enabled":true})
+	elif engine_loss > 0.02:
 		emitters.append({"id":"engine_smoke", "part_id":"engine", "kind":"smoke", "anchor_m":SimData.vec3(anchors.smoke_anchor_m), "intensity":clampf(engine_loss*0.9+fire*0.2,0,1), "size_m":2.4, "enabled":true})
 		if fire > 0.02:
 			emitters.append({"id":"engine_fire", "part_id":"engine", "kind":"fire", "anchor_m":SimData.vec3(anchors.fire_anchor_m), "intensity":fire, "size_m":1.3, "enabled":true})

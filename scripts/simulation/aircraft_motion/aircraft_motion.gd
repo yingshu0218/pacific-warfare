@@ -161,7 +161,11 @@ func _fly(world: SimulationWorld, unit: UnitState, p: Dictionary, dt: float) -> 
 	var target_up: Vector3 = pilot.up
 	var roll_error: float = AircraftFlightMath.signed_roll(up,target_up,forward)
 	if absf(absf(roll_error)-PI) < 0.015: roll_error = absf(roll_error)*float(control.get("turn_side",1.0))
-	var wanted_roll_rate: float = clampf(roll_error*4.0,-roll_limit,roll_limit)
+	# A twin can still fly on one engine, but an uneven power pair adds a
+	# sustained bank tendency rather than snapping the attitude at the hit tick.
+	var parts: Dictionary = damage.get("parts", {})
+	var asymmetry: float = float(parts.get("engine_left", 1.0)) - float(parts.get("engine_right", 1.0))
+	var wanted_roll_rate: float = clampf(roll_error * 4.0 + asymmetry * 0.28, -roll_limit, roll_limit)
 	var roll_velocity: float = move_toward(float(flight.roll_velocity_radps),wanted_roll_rate,deg_to_rad(float(limits.roll_acceleration_degps2))*authority*dt)
 	var roll_change: float = roll_velocity*dt
 	up = up.rotated(forward,roll_change).normalized()
@@ -291,6 +295,15 @@ func _fly(world: SimulationWorld, unit: UnitState, p: Dictionary, dt: float) -> 
 		propeller_rate = move_toward(float(flight.get("propeller_speed_radps",propeller_rate)),propeller_rate+windmill,18.0*dt)
 	flight["propeller_speed_radps"] = propeller_rate
 	flight.propeller_phase_rad = fmod(float(flight.propeller_phase_rad)+dt*propeller_rate,TAU)
+	if parts.has("engine_left"):
+		for side: String in ["left", "right"]:
+			var health: float = float(parts["engine_" + side])
+			var rate_key: String = "propeller_%s_speed_radps" % side
+			var phase_key: String = "propeller_%s_phase_rad" % side
+			var requested_rate: float = 120.0 * maxf(throttle, 0.15) * health + clampf(next_speed * 0.12, 0.0, 24.0) * (1.0 - health)
+			var rate: float = requested_rate if health >= 0.999 else move_toward(float(flight.get(rate_key, propeller_rate)), requested_rate, 18.0 * dt)
+			flight[rate_key] = rate
+			flight[phase_key] = fmod(float(flight.get(phase_key, 0.4 if side == "right" else 0.0)) + rate * dt, TAU)
 	flight.aileron_rad = clampf(-roll_change/dt*0.12,-0.24,0.24)
 	# Back-stick remains back-stick while inverted or passing the vertical;
 	# differentiating world flight-path pitch would flip the visual elevator.
