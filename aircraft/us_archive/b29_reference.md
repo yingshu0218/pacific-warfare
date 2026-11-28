@@ -20,5 +20,18 @@ parked pose at scene load; no game controls or collision are attached.
   the markings of the photographed 42-24797.
 
 Godot 4.7.2 validation measured mesh bounds of 30.175 m long and 43.053 m wide;
-parked height is 8.459 m. Both static poses instantiated without errors; a
+parked height is 8.470 m. Both static poses instantiated without errors; a
 native orthographic review covered front three-quarter, side, and plan views.
+
+## Profile refinement
+
+The static front cap and pilot windshield were compared with the front and
+side images of restored Doc in [DVIDS photo 5526641](https://www.dvidshub.net/image/5526641/docs-wings-over-whiteman-2019),
+[photo 5526690](https://www.dvidshub.net/image/5526690/b-29-display-during-whiteman-air-force-base-air-space-show-2019),
+and the [Doc's Friends gallery](https://www.b29doc.com/gallery/). The revision
+wraps the nose glazing around the rounded leading cap, staggers crew windows
+across the same shell, and shades the circular metal skin continuously instead
+of adding a hard colour band. It also distinguishes the inboard and outboard
+cowling silhouettes, raises the visual nacelle rim, and softens the crown and
+root of the single tail fin. The images informed exterior geometry only, not
+markings, component construction or gameplay.

@@ -6,13 +6,14 @@ const LENGTH_M: float = 9.83
 const SPAN_M: float = 11.28
 # z, datum y, half breadth, crown height, lower depth.
 const BODY: Array = [
-	[-4.56,.02,.35,.42,.39],[-4.48,.03,.41,.48,.41],[-4.18,.05,.49,.56,.46],
-	[-3.73,.06,.52,.62,.49],[-3.20,.07,.54,.66,.51],[-2.66,.08,.55,.69,.53],
-	[-2.14,.09,.56,.70,.56],[-1.69,.085,.57,.71,.59],[-1.24,.075,.57,.68,.61],
-	[-.72,.07,.55,.65,.63],[-.15,.07,.52,.62,.625],[.47,.09,.47,.575,.59],
-	[1.02,.13,.40,.49,.51],[1.65,.17,.34,.40,.425],[2.28,.21,.28,.33,.34],
-	[2.91,.245,.22,.26,.25],[3.49,.275,.17,.21,.19],[4.05,.30,.13,.16,.13],
-	[4.48,.32,.083,.111,.084],[4.76,.33,.046,.080,.054],[4.92,.33,.025,.043,.025]]
+	[-4.56,-.005,.358,.32,.33],[-4.47,.012,.401,.390,.355],[-4.21,.047,.470,.482,.386],
+	[-3.88,.067,.524,.548,.406],[-3.50,.074,.546,.589,.422],[-3.08,.076,.554,.627,.448],
+	[-2.64,.078,.562,.661,.48],[-2.19,.079,.574,.691,.53],[-1.74,.08,.583,.674,.57],
+	[-1.30,.075,.577,.636,.598],[-.83,.062,.557,.595,.609],[-.32,.055,.525,.554,.608],
+	[.23,.061,.474,.505,.582],[.81,.078,.424,.451,.514],[1.39,.102,.364,.384,.444],
+	[1.98,.152,.312,.323,.366],[2.56,.198,.260,.263,.294],[3.13,.246,.213,.218,.23],
+	[3.68,.284,.168,.174,.169],[4.13,.306,.123,.137,.119],[4.49,.32,.080,.105,.079],
+	[4.76,.33,.046,.075,.052],[4.92,.33,.025,.043,.025]]
 const WING: Array = [
 	[.27,-1.88,2.87,-.28,.152],[.56,-1.76,2.82,-.34,.146],[.90,-1.60,2.66,-.396,.142],
 	[1.35,-1.46,2.53,-.36,.134],[2.50,-1.29,2.23,-.26,.12],[3.65,-1.12,1.95,-.16,.11],
@@ -23,22 +24,28 @@ const TAIL: Array = [
 	[1.55,3.64,.75,.451,.076],[1.88,3.80,.55,.471,.065],[2.00,3.94,.34,.476,.043],
 	[2.045,4.04,.17,.48,.032]]
 const SCREEN: Array = [
-	[-2.24,.774,.235,.018,.023],[-2.09,.773,.294,.157,.036],[-1.91,.760,.349,.35,.043],
-	[-1.74,.750,.375,.477,.065]]
+	[-2.22,.749,.246,.037,.036],[-2.10,.741,.290,.148,.038],[-1.98,.724,.328,.265,.047],
+	[-1.85,.710,.359,.390,.048],[-1.725,.704,.378,.501,.057]]
 const BUBBLE: Array = [
-	[-1.746,.749,.375,.47,.054],[-1.62,.748,.397,.527,.049],
-	[-1.37,.739,.423,.568,.051],[-1.13,.725,.42,.565,.046],
-	[-.83,.707,.398,.512,.044],[-.53,.681,.363,.417,.037],
-	[-.28,.660,.307,.284,.034],[-.06,.643,.244,.161,.032],[.12,.631,.17,.060,.027],
-	[.245,.611,.082,.018,.017]]
+	[-1.731,.704,.378,.501,.057],[-1.614,.693,.402,.565,.050],
+	[-1.45,.678,.426,.605,.051],[-1.23,.655,.430,.635,.046],
+	[-1.01,.636,.422,.634,.042],[-.80,.617,.397,.609,.040],
+	[-.59,.596,.365,.550,.040],[-.39,.579,.330,.457,.036],
+	[-.20,.567,.286,.334,.035],[-.032,.556,.231,.200,.031],
+	[.104,.548,.165,.092,.029],[.248,.532,.079,.023,.020]]
 const SCOOP: Array = [
-	[-.79,-.335,.37,.31,.328],[-.62,-.38,.44,.38,.41],[-.40,-.40,.47,.395,.486],
-	[-.11,-.45,.46,.409,.53],[.22,-.47,.425,.396,.477],[.63,-.46,.38,.39,.37],
-	[1.07,-.371,.311,.37,.34],[1.47,-.289,.232,.31,.29],
-	[1.79,-.215,.16,.245,.237],[2.06,-.143,.074,.147,.137]]
+	[-.704,-.650,.319,.182,.171],[-.622,-.652,.398,.245,.244],
+	[-.430,-.642,.451,.331,.333],[-.151,-.631,.467,.363,.380],
+	[.160,-.610,.456,.350,.399],[.48,-.579,.427,.323,.389],
+	[.80,-.551,.385,.298,.351],[1.11,-.513,.337,.272,.313],
+	[1.41,-.455,.279,.247,.275],[1.675,-.385,.208,.220,.228],
+	[1.90,-.315,.142,.180,.175],[2.08,-.267,.082,.142,.111]]
 const SCOOP_LIP: Array = [
-	[-.805,-.334,.334,.229,.290],[-.79,-.334,.362,.259,.324],
-	[-.737,-.345,.393,.30,.368],[-.67,-.364,.422,.34,.392]]
+	[-.748,-.654,.298,.159,.146],[-.733,-.654,.324,.183,.171],
+	[-.698,-.652,.350,.211,.195],[-.66,-.651,.375,.236,.221]]
+const SCOOP_INNER: Array = [
+	[-.748,-.654,.264,.117,.111],[-.700,-.654,.259,.113,.103],
+	[-.565,-.647,.263,.108,.100]]
 
 func _ready() -> void:
 	_set_batch_paint(Color("aeb9be"),Color("8d9da6"))
@@ -67,12 +74,13 @@ func _ready() -> void:
 	_star_bar(marks,"wing",WING,Vector2(-3.83,-.11),.414,1.0)
 	_star_bar(marks,"wing",WING,Vector2(3.83,-.12),.414,-1.0)
 	_fin(feathers,"DorsalFinAndRudder",[
-		[.42,2.05,4.94,.096],[.58,2.68,4.94,.094],[.84,3.18,4.928,.079],
-		[1.17,3.46,4.89,.065],[1.48,3.64,4.83,.053],[1.78,3.81,4.756,.042],
-		[1.98,3.95,4.682,.033],[2.07,4.08,4.613,.028],[2.104,4.275,4.511,.017]])
-	GEO.rod(feathers,"RudderHingeLine",Vector3(.021,.58,4.54),Vector3(.02,2.05,4.39),.009,paint.panel)
-	GEO.rod(feathers,"RudderHingeLine",Vector3(-.021,.58,4.54),Vector3(-.02,2.05,4.39),.009,paint.panel)
-	_four_blade_prop(GEO.group(self,"FourBladePropeller",Vector3(0,.028,-4.58)))
+		[.395,1.81,4.94,.084],[.49,2.32,4.938,.091],[.62,2.74,4.93,.088],
+		[.79,3.05,4.922,.079],[.97,3.27,4.916,.071],[1.21,3.405,4.882,.062],
+		[1.47,3.54,4.818,.057],[1.72,3.67,4.755,.048],[1.91,3.80,4.69,.042],
+		[2.045,3.94,4.625,.033],[2.105,4.105,4.550,.020],[2.106,4.232,4.439,.009]])
+	GEO.rod(feathers,"RudderHingeLine",Vector3(.024,.58,4.54),Vector3(.019,2.07,4.40),.009,paint.panel)
+	GEO.rod(feathers,"RudderHingeLine",Vector3(-.024,.58,4.54),Vector3(-.019,2.07,4.40),.009,paint.panel)
+	_four_blade_prop(GEO.group(self,"FourBladePropeller",Vector3(0,-.009,-4.58)))
 
 func _long_cowl(host: Node3D) -> void:
 	var paint_strip: SurfaceTool = SurfaceTool.new()
@@ -101,20 +109,33 @@ func _long_cowl(host: Node3D) -> void:
 	GEO.arch(host,"CowlingEndLine",BODY,-2.18,.014,paint.panel,-1.97,1.97)
 
 func _radiator(host: Node3D) -> void:
-	# Round inlet rim in front of a recessed, dark and non-functional mesh face.
-	var shell: ArrayMesh = GEO.loft(SCOOP,SCOOP[0][0],SCOOP[-1][0],paint.top.albedo_color,paint.bottom.albedo_color,Vector4.ZERO,false)
-	GEO.part(host,"FairingShell",shell,paint.skin)
+	# Visibly dipped belly, forward lip and shaded cavity; exterior geometry only.
+	GEO.part(host,"FairingShell",GEO.loft(SCOOP,SCOOP[0][0],SCOOP[-1][0],paint.top.albedo_color,paint.bottom.albedo_color,Vector4.ZERO,false),paint.skin)
 	GEO.part(host,"RoundedIntakeLip",GEO.loft(SCOOP_LIP,SCOOP_LIP[0][0],SCOOP_LIP[-1][0],Color.WHITE,Color.WHITE,Vector4.ZERO,false),paint.silver)
-	_ellipsoid(host,"RecessedRadiatorDark",Vector3(.318,.172,.056),Vector3(0,-.469,-.666),paint.mouth)
-	var door: MeshInstance3D = GEO.box(host,"RadiatorExitDoor",Vector3(.40,.040,.49),Vector3(0,-.538,1.38),paint.panel)
-	door.rotation.x=.18
+	var ring: SurfaceTool = SurfaceTool.new()
+	ring.begin(Mesh.PRIMITIVE_TRIANGLES)
+	for i: int in 48:
+		var a: float = TAU*float(i)/48.
+		var b: float = TAU*float(i+1)/48.
+		var outer_a: Vector3 = GEO.shell_point(SCOOP_LIP,-.748,a)
+		var outer_b: Vector3 = GEO.shell_point(SCOOP_LIP,-.748,b)
+		var inner_a: Vector3 = GEO.shell_point(SCOOP_INNER,-.748,a)
+		var inner_b: Vector3 = GEO.shell_point(SCOOP_INNER,-.748,b)
+		GEO.quad(ring,outer_a,outer_b,inner_b,inner_a,Vector3.FORWARD)
+	GEO.part(host,"IntakeOpeningRim",GEO.finish(ring),paint.silver)
+	GEO.part(host,"DarkIntakeWall",GEO.loft(SCOOP_INNER,-.748,-.565,Color.WHITE,Color.WHITE,Vector4.ZERO,false),paint.mouth)
+	_ellipsoid(host,"RecessedDarkFace",Vector3(.261,.110,.045),Vector3(0,-.646,-.562),paint.mouth)
+	# Small trailing seam in the same satin finish; no separate projecting box.
+	for side: float in [-1.,1.]:
+		GEO.rod(host,"RadiatorExitPanelSeam",Vector3(side*.160,-.692,1.44),
+			Vector3(side*.120,-.577,1.77),.011,paint.panel)
 
 func _body_glass(host: Node3D) -> void:
 	# One windscreen frame, then a clear silhouette without extra canopy ribs.
 	for pack: Array in [["WindscreenGlass",SCREEN],["SlidingBubbleGlass",BUBBLE]]:
 		var p: Array=pack[1]
 		GEO.part(host,pack[0],GEO.loft(p,p[0][0],p[-1][0],Color.WHITE,Color.WHITE),paint.glass)
-	GEO.arch(host,"WindscreenMainBow",BUBBLE,-1.726,.036,paint.frame,-PI*.57,PI*.57)
+	GEO.arch(host,"WindscreenMainBow",BUBBLE,-1.723,.031,paint.frame,-PI*.57,PI*.57)
 	for side: float in [-1.0,1.0]:
 		var s: Vector3=GEO.shell_point(SCREEN,-2.236,side*.83)
 		var t: Vector3=GEO.shell_point(SCREEN,-1.743,side*.54)
@@ -125,9 +146,9 @@ func _body_glass(host: Node3D) -> void:
 			GEO.rod(host,"CanopyLowerFrame",a,b,.020,paint.frame)
 
 func _four_blade_prop(host: Node3D) -> void:
-	var spinner: Array=[[-.33,.0,.025,.025,.025],[-.27,0,.108,.108,.108],[-.16,0,.203,.203,.203],
-		[-.05,0,.270,.270,.270],[.071,0,.315,.315,.315]]
-	GEO.part(host,"TaperedSpinner",GEO.loft(spinner,-.33,.071,Color.WHITE,Color.WHITE),paint.silver)
+	var spinner: Array=[[-.33,.0,.029,.029,.029],[-.30,0,.089,.089,.089],[-.23,0,.159,.159,.159],
+		[-.13,0,.223,.223,.223],[-.035,0,.279,.279,.279],[.026,0,.330,.325,.329]]
+	GEO.part(host,"TaperedSpinner",GEO.loft(spinner,-.33,.026,Color.WHITE,Color.WHITE),paint.silver)
 	for i: int in 4:
 		var blade: Node3D = GEO.group(host,"Blade%d"%i)
 		blade.rotation.z=.35+TAU*float(i)/4.0

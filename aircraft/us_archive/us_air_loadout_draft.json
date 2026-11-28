@@ -1,0 +1,22 @@
+{
+  "scope": "game_design_only",
+  "consumed_by_runtime": false,
+  "munition_policy": {
+    "machine_gun": "unlimited",
+    "autocannon": "finite",
+    "bomb": "finite",
+    "torpedo": "finite"
+  },
+  "game_bomb_slot_cost": {"light": 1, "medium": 2, "heavy": 4},
+  "default_bomb_tier": "medium",
+  "models": {
+    "f4u1a": {"gun_groups": {"fixed": "machine_gun"}, "options": {"default": {"bomb": 0, "torpedo": 0}}},
+    "p38j": {"gun_groups": {"fixed_mg": "machine_gun", "fixed_cannon": "autocannon"}, "autocannon_inventory": "to_be_tuned", "options": {"escort": {"bomb": 0, "torpedo": 0}, "strike": {"bomb": 2, "torpedo": 0}}},
+    "tbm1c": {"gun_groups": {"fixed": "machine_gun", "rear": "machine_gun"}, "options": {"torpedo": {"bomb": 0, "torpedo": 1}, "bomber": {"bomb": 4, "torpedo": 0}}},
+    "b24d": {"gun_groups": {"front": "machine_gun", "upper": "machine_gun", "side": "machine_gun", "tail": "machine_gun"}, "options": {"default": {"bomb": 8, "torpedo": 0}}},
+    "fm2": {"gun_groups": {"fixed": "machine_gun"}, "options": {"default": {"bomb": 0, "torpedo": 0}}},
+    "pby5a": {"gun_groups": {"patrol_defensive": "machine_gun"}, "options": {"rescue": {"bomb": 0, "torpedo": 0, "disabled_gun_groups": ["patrol_defensive"]}, "patrol": {"bomb": 0, "torpedo": 0}}},
+    "p51d": {"gun_groups": {"fixed": "machine_gun"}, "options": {"escort": {"bomb": 0, "torpedo": 0}, "strike": {"bomb": 2, "torpedo": 0}}},
+    "b29": {"gun_groups": {"airframe_defensive": "machine_gun", "tail_defensive": "machine_gun"}, "bomb_slot_budget": 24, "options": {"light": {"bomb": 24, "bomb_tier": "light", "torpedo": 0}, "medium": {"bomb": 12, "bomb_tier": "medium", "torpedo": 0}, "heavy": {"bomb": 6, "bomb_tier": "heavy", "torpedo": 0}}}
+  }
+}
