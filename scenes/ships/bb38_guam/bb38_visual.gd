@@ -1,4 +1,6 @@
 extends "res://scenes/ships/visual_study/ship_exterior_geometry.gd"
+
+const DISPLAY_GUN := preload("res://scripts/presentation/models/archive_gun_rig.gd")
 ## USS Pennsylvania, 1944-07-21 Guam visual exhibit; no moving equipment.
 const HALF_LENGTH := 92.6592
 const BEAM := 32.385
@@ -98,20 +100,28 @@ func _display_ornaments() -> void:
 		var p := Vector3(0,_deck_height(z),z)
 		var rise: float = [0.91,3.85,3.54,.84][i]
 		_pipe("Main inert envelope seat",p+Vector3.UP*(rise*.5-.09),rise,5.63,5.53,1.04,_steel)
+		var first: int = _group.get_child_count()
 		_octagon("Large closed exterior cover",p+Vector3.UP*(rise+1.75),11.82,3.54,11.20,1.46,_steel,.88)
 		var d: float = -1.0 if i<2 else 1.0
 		for x: float in [-2.55,0,2.55]:
 			var b := p+Vector3(x,rise+1.85,d*5.06)
 			_spar("Fixed dark frontal silhouette",b,b+Vector3(0,.48,d*9.16),.61,_dark)
+		var pieces: Array[Node] = _group.get_children().slice(first)
+		DISPLAY_GUN.attach(self,"main_%02d" % (i+1),"main",p+Vector3.UP*rise,p+Vector3(0,rise+1.85,d*5.06),Vector3(0,0,d),[pieces[0]],pieces.slice(1))
+	var secondary: int = 0
 	for side: float in [-1.0,1.0]:
 		for i: int in range(4):
 			var z: float = [-22.2,-12.1,-2.42,7.43][i]
 			var h: float = [1.58,2.18,1.94,1.15][i]
 			var p := Vector3(side*12.12,8.62+h,z)
+			var first: int = _group.get_child_count()
 			_octagon("Shallow side gallery cover",p,5.03,2.15,5.4,.69,_steel,.87)
 			_pipe("Side gallery seat",p-Vector3.UP*1.03,1.46,2.31,2.24,1.04,_upper)
 			for dz: float in [-.84,.84]:
 				_spar("Inert side silhouette",p+Vector3(side*2.2,.2,dz),p+Vector3(side*4.36,.39,dz),.19,_dark)
+			secondary += 1
+			var pieces: Array[Node] = _group.get_children().slice(first)
+			DISPLAY_GUN.attach(self,"secondary_%02d" % secondary,"secondary",p,p+Vector3(side*2.2,.2,0),Vector3(side,0,0),[pieces[0]],pieces.slice(2))
 		for z: float in [-34.6,-18.6,15.33,28.6]:
 			var y: float = 9.25 if z>-25 and z<18 else 7.88
 			var p := Vector3(side*11.6,y,z)

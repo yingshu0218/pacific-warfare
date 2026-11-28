@@ -16,6 +16,7 @@ const HULL: Array[Vector4] = [
 	Vector4(39,2.91,3.44,2.46),Vector4(43,2.15,3.46,1.60),
 	Vector4(45.4,1.36,3.48,.78),Vector4(46.6344,.56,3.50,.28)
 ]
+const LOCAL_GUN_RIG = preload("res://scripts/presentation/models/archive_gun_rig.gd")
 
 func _stations() -> Array[Vector4]: return HULL
 func _half_length() -> float: return HALF_LENGTH
@@ -89,8 +90,12 @@ func _ornaments() -> void:
 		var p := Vector3(0,_deck_height(z),z)
 		var d: float = -1.0 if i==0 else 1.0
 		_pipe("Static visual cover plinth",p+Vector3.UP*.35,.77,1.71,1.62,1.0,_steel)
+		var first := _group.get_child_count()
 		_octagon("Rounded single exterior cover",p+Vector3.UP*1.38,3.62,1.46,3.92,.64,_steel,.91)
 		_spar("Inert frontal silhouette",p+Vector3(0,1.46,1.74*d),p+Vector3(0,1.66,4.57*d),.19,_dark)
+		var parts := _group.get_children()
+		LOCAL_GUN_RIG.attach(self,"main_%02d" % (i+1),"main",p+Vector3.UP*0.75,p+Vector3.UP*1.46,Vector3(0,0,d),
+			parts.slice(first,first+1),parts.slice(first+1))
 	for z: float in [13.55,22.3]:
 		var p := Vector3(0,6.58 if z>20 else 6.82,z)
 		_pipe("Low deck screen geometry",p,.63,2.16,2.10,1.05,_steel)

@@ -1,5 +1,6 @@
 extends "res://scenes/ships/visual_study/archival_cruiser_art.gd"
 ## CL-53 exhibit, San Francisco, 1 January 1944. Static non-operational art.
+const LOCAL_GUN_RIG = preload("res://scripts/presentation/models/archive_gun_rig.gd")
 
 const HALF: float = 82.5246
 const PROFILE: Array[Vector4] = [
@@ -12,6 +13,7 @@ const PROFILE: Array[Vector4] = [
 	Vector4(74.4,4.63,5.21,3.87),Vector4(79.0,3.66,5.25,2.89),Vector4(81.1,2.59,5.29,1.83),
 	Vector4(HALF,1.24,5.32,0.76),
 ]
+var _main_index: int = 0
 var _pale: StandardMaterial3D
 
 
@@ -56,6 +58,25 @@ func _ready() -> void:
 	_furniture()
 	_group = _layer("Submerged silhouette")
 	_underbody_shapes(PackedVector3Array([Vector3(-2.46,-2.54,70.4),Vector3(2.46,-2.54,70.4)]),77.5,0.82)
+
+
+func _photo_case(z: float,x: float,y: float,w: float,l: float,h: float,raised: float,bars: int,direction: Vector3) -> void:
+	var start := _group.get_child_count()
+	super._photo_case(z,x,y,w,l,h,raised,bars,direction)
+	var parts := _group.get_children()
+	var first: int = start + (2 if raised > 2.1 else 1)
+	var role := "main"
+	var key := "main_%02d" % (_main_index+1)
+	if x != 0.0:
+		role = "dedicated_aa"
+		key = "aa_port" if x < 0 else "aa_starboard"
+	else:
+		_main_index += 1
+	var housing: Array = [parts[first]]
+	housing.append_array(parts.slice(first+1+bars))
+	var base := Vector3(x,y+raised,z)
+	LOCAL_GUN_RIG.attach(self,key,role,base,base+Vector3.UP*h*0.53,direction,
+		housing,parts.slice(first+1,first+1+bars))
 
 
 func _superstructure() -> void:

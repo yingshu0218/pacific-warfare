@@ -1,6 +1,7 @@
 extends "res://scenes/ships/visual_study/ship_exterior_geometry.gd"
 ## New game-art reconstruction, Mikasa Memorial Museum's October 1942 view.
 ## Every fitting is inert. Bow: negative Z. Design waterline: Y=0.
+const LOCAL_GUN_RIG = preload("res://scripts/presentation/models/archive_gun_rig.gd")
 
 const HALF_LENGTH: float = 87.05
 const DRAFT: float = 5.63
@@ -140,9 +141,13 @@ func _deck_layout() -> void:
 		if i == 1:
 			_octagon("Raised forward seat surround",Vector3(0,deck_y+0.47,z),6.14,0.98,7.31,1.08,_steel)
 		_pipe("Roofed shape seat",Vector3(0,deck_y+seat*0.5,z),seat,2.26,2.11,1.0,_steel)
+		var first := _group.get_child_count()
 		_octagon("Closed twin-silhouette casing",Vector3(0,y+1.12,z),5.57,2.29,5.83,0.75,_upper,0.85)
 		for lane: float in [-0.73,0.73]:
 			_spar("Inert display silhouette",Vector3(lane,y+1.12,z+face*2.51),Vector3(lane,y+1.30,z+face*6.13),0.17,_dark)
+		var parts := _group.get_children()
+		LOCAL_GUN_RIG.attach(self,"main_%02d" % (i+1),"main",Vector3(0,y,z),Vector3(0,y+1.12,z),Vector3(0,0,face),
+			parts.slice(first,first+1),parts.slice(first+1))
 	_octagon("After working platform",Vector3(0,7.12,27.4),10.03,1.07,25.20,1.47,_upper)
 	_octagon("Aircraft display floor",Vector3(0,7.71,29.2),7.89,0.22,15.02,1.05,_deck)
 	for side: float in [-1.0,1.0]:

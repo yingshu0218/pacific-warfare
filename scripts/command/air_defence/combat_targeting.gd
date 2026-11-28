@@ -103,7 +103,7 @@ func _assign_ship(world: SimulationWorld, unit: UnitState, definition: UnitDefin
 			var previous: String = previous_targets.get(mount.id, "")
 			var committed: bool = same_policy and now_s - float(changed.get(weapon.id, -INF)) < cooldown_s
 			var blocked: bool = statuses.get(mount.id, "") in BLOCKED_STATUSES
-			target = _choose_ship_target(unit.target_id, mount, local_contacts, assigned, posture, locked, previous, committed, blocked)
+			target = _choose_ship_target(unit.definition_id, unit.target_id, mount, local_contacts, assigned, posture, locked, previous, committed, blocked)
 			if not target.is_empty():
 				assigned[target] = int(assigned.get(target, 0)) + 1
 				if target == unit.target_id:
@@ -119,21 +119,22 @@ func _assign_ship(world: SimulationWorld, unit: UnitState, definition: UnitDefin
 		targets[mount.id] = target
 		reasons[mount.id] = reason
 
-func _choose_ship_target(task_id: String, mount: MountSocket, contacts: Dictionary, assigned: Dictionary, posture: String, locked: bool, previous: String, committed: bool, blocked: bool) -> String:
+func _choose_ship_target(unit_id: String, task_id: String, mount: MountSocket, contacts: Dictionary, assigned: Dictionary, posture: String, locked: bool, previous: String, committed: bool, blocked: bool) -> String:
 	var profile: Dictionary = config.data.weapon_profiles[mount.weapon_definition_id]
 	var gun: WeaponDefinition = frame.guns[mount.weapon_definition_id]
+	var envelope := config.mount_envelope(unit_id, mount.id, gun)
 	var dedicated: bool = mount.role == "dedicated_aa"
 	var dual: bool = bool(profile.get("dual_purpose", false))
 	var primary: bool = mount.role == "main"
 	if locked or (primary and not dual and posture != "offensive"):
-		return task_id if _ship_contact_score(contacts.get(task_id, {}), mount, gun, profile, dedicated, dual) > -INF else ""
+		return task_id if _ship_contact_score(contacts.get(task_id, {}), mount, envelope, profile, dedicated, dual) > -INF else ""
 	# Keep a viable assignment during traverse and reload. A new order or
 	# posture releases this commitment, as does an invalid candidate.
-	if committed and _ship_contact_score(contacts.get(previous, {}), mount, gun, profile, dedicated, dual) > -INF:
+	if committed and _ship_contact_score(contacts.get(previous, {}), mount, envelope, profile, dedicated, dual) > -INF:
 		return previous
 	var prefer_task: bool = primary and not (dual and posture == "conservative")
 	if prefer_task and not (previous == task_id and blocked):
-		if _ship_contact_score(contacts.get(task_id, {}), mount, gun, profile, dedicated, dual) > -INF:
+		if _ship_contact_score(contacts.get(task_id, {}), mount, envelope, profile, dedicated, dual) > -INF:
 			return task_id
 	var best: float = -INF
 	var target: String = ""
@@ -142,7 +143,7 @@ func _choose_ship_target(task_id: String, mount: MountSocket, contacts: Dictiona
 		var air: bool = candidate.domain == "aircraft"
 		if not air and target_id != task_id and (posture == "conservative" or (primary and posture != "offensive")):
 			continue
-		var score: float = _ship_contact_score(candidate, mount, gun, profile, dedicated, dual)
+		var score: float = _ship_contact_score(candidate, mount, envelope, profile, dedicated, dual)
 		if score == -INF:
 			continue
 		if target_id == task_id:
@@ -158,7 +159,7 @@ func _choose_ship_target(task_id: String, mount: MountSocket, contacts: Dictiona
 			target = target_id
 	return target
 
-func _ship_contact_score(contact: Dictionary, mount: MountSocket, gun: WeaponDefinition, profile: Dictionary, dedicated: bool, dual: bool) -> float:
+func _ship_contact_score(contact: Dictionary, mount: MountSocket, envelope: Dictionary, profile: Dictionary, dedicated: bool, dual: bool) -> float:
 	if contact.is_empty() or contact.domain not in profile.domains:
 		return -INF
 	var air: bool = contact.domain == "aircraft"
@@ -166,16 +167,16 @@ func _ship_contact_score(contact: Dictionary, mount: MountSocket, gun: WeaponDef
 		return -INF
 	var offset: Vector3 = (contact.point as Vector3) - mount.position_m
 	var distance_m: float = offset.length()
-	var range_m: float = float(profile.range_m)
+	var range_m: float = envelope.range_m
 	if distance_m > range_m or distance_m < 1.0:
 		return -INF
 	var yaw: float = wrapf(atan2(-offset.x, -offset.z) - mount.base_yaw_rad, -PI, PI)
-	if yaw < gun.train_limits_rad.x or yaw > gun.train_limits_rad.y:
+	if yaw < envelope.train_rad.x or yaw > envelope.train_rad.y:
 		return -INF
 	# This bearing check only screens candidates. The existing executor still
 	# computes lead and tests actual muzzle traversal, obstruction and release.
 	var elevation: float = atan2(offset.y, Vector2(offset.x, offset.z).length())
-	if elevation > gun.elevation_limits_rad.y:
+	if elevation > envelope.pitch_rad.y:
 		return -INF
 	var closing_bonus: float = clampf(float(contact.closing) / 200.0, 0.0, 0.6) if air else 0.0
 	return 1.0 - distance_m / range_m + closing_bonus

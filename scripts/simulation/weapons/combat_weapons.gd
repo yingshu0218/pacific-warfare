@@ -83,6 +83,7 @@ func _update_mount(world: SimulationWorld, unit: UnitState, mount: MountSocket, 
 	if status != "ready":
 		runtime.mount_status[mount.id] = status
 		return 0
+	var envelope := config.mount_envelope(unit.definition_id, mount.id, gun)
 	var age: float = world.time_s() - float(contact.observed_time_s)
 	var point: Vector3 = contact.position_m + (contact.velocity_mps as Vector3) * age
 	# Ship contact anchor is its waterline; aim at visible hull/upper belt.
@@ -106,7 +107,7 @@ func _update_mount(world: SimulationWorld, unit: UnitState, mount: MountSocket, 
 			var t: float=float(solution.time_s)
 			var offset: Vector3=point+((contact.velocity_mps as Vector3)-unit.velocity_mps)*t-origin+Vector3.UP*ammo.gravity_mps2*.5*t*t
 			solution={"direction":offset.normalized(),"time_s":t,"point_m":point+(contact.velocity_mps as Vector3)*t}
-	if origin.distance_to(point) > float(p.range_m) or solution.is_empty():
+	if origin.distance_to(point) > float(envelope.range_m) or solution.is_empty():
 		runtime.mount_status[mount.id] = "out_of_range"
 		return 0
 	var local: Vector3 = transform.basis.inverse() * (solution.direction as Vector3)
@@ -114,15 +115,15 @@ func _update_mount(world: SimulationWorld, unit: UnitState, mount: MountSocket, 
 	var desired_elevation: float = atan2(local.y, Vector2(local.x, local.z).length())
 	var fixed: bool = mount.role == "aircraft_fixed"
 	if not fixed:
-		var elevation_limits: Vector2 = gun.elevation_limits_rad
-		var train_limits: Vector2 = gun.train_limits_rad
+		var elevation_limits: Vector2 = envelope.pitch_rad
+		var train_limits: Vector2 = envelope.train_rad
 		var site: Dictionary = unit.module_data.get("ground_initial", {})
 		if not site.is_empty():
 			train_limits = Vector2(maxf(train_limits.x,deg_to_rad(float(site.train_limits_deg[0]))),minf(train_limits.y,deg_to_rad(float(site.train_limits_deg[1]))))
 			elevation_limits = Vector2(maxf(elevation_limits.x,deg_to_rad(float(site.elevation_limits_deg[0]))),minf(elevation_limits.y,deg_to_rad(float(site.elevation_limits_deg[1]))))
-		var mount_limits: Dictionary = config.data.unit_profiles[unit.definition_id].get("mount_limits", {}).get(mount.id, {})
-		if mount_limits.has("minimum_elevation_deg"):
-			elevation_limits.x = maxf(deg_to_rad(float(mount_limits.minimum_elevation_deg)), elevation_limits.x)
+		if train_limits.x > train_limits.y or elevation_limits.x > elevation_limits.y:
+			runtime.mount_status[mount.id] = "arc"
+			return 0
 		var train: float = clampf(desired_train, train_limits.x, train_limits.y)
 		var elevation: float = clampf(desired_elevation, elevation_limits.x, elevation_limits.y)
 		var rate: float = deg_to_rad(float(p.get("train_rate_degps", rad_to_deg(gun.train_rate_radps)))) * efficiency

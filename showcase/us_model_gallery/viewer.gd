@@ -1,5 +1,6 @@
 extends Node3D
 ## Read-only inspection of the newly added standalone exterior models.
+const GUN_CONTROLS := preload("res://scripts/presentation/models/archive_gun_controls.gd")
 const CATALOG := "res://data/visual_catalogs/us_expansion.json"
 
 @export_file("*.json") var catalog_path: String = CATALOG
@@ -20,6 +21,7 @@ var view: int = 0
 var bounds: AABB
 var visual_triangles: int = 0
 var picker: OptionButton
+var gun_controls: PanelContainer
 
 func _ready() -> void:
 	var entries: Variant = JSON.parse_string(FileAccess.get_file_as_string(catalog_path))
@@ -36,6 +38,8 @@ func _ready() -> void:
 			picker.add_item(str(entry["label"]))
 		picker.get_popup().max_size = Vector2i(0, 560)
 		picker.item_selected.connect(select_model)
+		gun_controls = GUN_CONTROLS.new()
+		$UI.add_child(gun_controls)
 	select_model(0)
 	get_viewport().size_changed.connect(frame_model)
 
@@ -73,6 +77,8 @@ func select_model(index: int) -> bool:
 			visual_triangles += 1
 	visual_triangles = int(float(visual_triangles) / 3.0)
 	water.visible = str(entry["kind"]) == "ship"
+	if gun_controls != null:
+		gun_controls.set_model(model, water.visible)
 	frame_model()
 	return visual_triangles > 0
 
@@ -102,7 +108,7 @@ func frame_model() -> void:
 	camera.size = maxf(extent.y / 0.72, extent.x / (0.9 * aspect))
 	caption.text = "%s  |  %s  |  %s" % [entry["label"], entry["date"], VIEW_LABELS[view]]
 	if full_archive:
-		caption.text += "\nV 视角   PageUp/PageDown 上一款/下一款"
+		caption.text += "\nV 视角   PageUp/PageDown 上一款/下一款  ·  G 炮位"
 	else:
 		caption.text += "\n1–8 选择模型  /  V 切换视角  ·  静态外观"
 
@@ -114,6 +120,8 @@ func _unhandled_key_input(event: InputEvent) -> void:
 	elif full_archive and event.keycode in [KEY_PAGEUP, KEY_PAGEDOWN]:
 		var offset: int = -1 if event.keycode == KEY_PAGEUP else 1
 		select_model(posmod(selected + offset, catalog.size()))
+	elif event.keycode == KEY_G and gun_controls != null and water.visible:
+		gun_controls.visible = not gun_controls.visible
 	elif event.keycode == KEY_V:
 		view = (view + 1) % VIEWS.size()
 		frame_model()

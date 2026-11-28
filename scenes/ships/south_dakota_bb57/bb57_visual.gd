@@ -1,4 +1,6 @@
 extends "res://scenes/ships/visual_study/ship_exterior_geometry.gd"
+
+const DISPLAY_GUN := preload("res://scripts/presentation/models/archive_gun_rig.gd")
 ## Standalone game exhibit. Above-water contours adapted from the 21 August
 ## 1944 yard photos; submerged surfaces and fittings are display approximations.
 const HALF: float = 103.632 # DANFS public 680 ft envelope, converted only
@@ -102,10 +104,13 @@ func _silhouettes() -> void:
 		var y:float = _deck_height(z)
 		var dir:float = -1 if i < 2 else 1
 		_pipe("Fixed primary deck housing base",Vector3(0,y+rise*.5-.06,z),rise,5.58,5.31,1.0,_steel)
+		var first: int = _group.get_child_count()
 		_octagon("Fixed octagonal exterior housing",Vector3(0,y+rise+1.81,z),11.9,3.74,12.1,1.92,_upper,.88)
 		_octagon("Faceted roof contour",Vector3(0,y+rise+3.74,z+dir*.52),9.68,.65,9.29,1.65,_steel,.88)
 		for x:float in [-1.52,0,1.52]:
 			_spar("Inert silhouette feature",Vector3(x,y+rise+1.94,z+dir*5.05),Vector3(x,y+rise+2.33,z+dir*11.4),.49,_dark)
+		var pieces: Array[Node] = _group.get_children().slice(first)
+		DISPLAY_GUN.attach(self,"main_%02d" % (i+1),"main",Vector3(0,y+rise,z),Vector3(0,y+rise+1.94,z+dir*5.05),Vector3(0,0,dir),pieces.slice(0,2),pieces.slice(2))
 	for s:float in [-1.0,1.0]:
 		for z:float in [-17.68,-3.6,11.32,25.8]:
 			_octagon("Fixed small side silhouette",Vector3(s*12.7,13.93,z),4.48,1.8,4.86,.67,_upper,.89)

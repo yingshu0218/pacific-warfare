@@ -1,4 +1,7 @@
 extends "res://scenes/ships/visual_study/ship_exterior_geometry.gd"
+const GUN_RIG := preload("res://scripts/presentation/models/archive_gun_rig.gd")
+var _main_rig_index: int = 0
+
 ## Two static display assets from archival silhouettes. Not naval simulation geometry.
 @export_enum("Sims 1942", "Sumner 1944") var variant: int = 0
 const SIMS: Array[Vector4] = [
@@ -141,11 +144,17 @@ func _display_housing(z: float, base: float, aft: bool, barrel_count: int) -> vo
 	var d: float = 3.39 if barrel_count == 1 else 4.12
 	var f: float = 1.0 if aft else -1.0
 	_round("Visible seating ring",Vector3(0,base+.18,z),w*.42,.34,1.0,_dark)
-	_octagon("Fixed faceted housing",Vector3(0,base+1.16,z),w,1.92,d,.45,_steel,.91)
+	var housing_start := _group.get_child_count()
+	_octagon("Faceted housing",Vector3(0,base+1.16,z),w,1.92,d,.45,_steel,.91)
 	_octagon("Shelter roof",Vector3(0,base+2.14,z),w*.91,.18,d*.91,.39,_upper)
+	var barrel_start := _group.get_child_count()
 	for x: float in ([0.] if barrel_count == 1 else [-.79,.79]):
 		_spar("Display barrel root",Vector3(x,base+1.38,z+f*d*.43),Vector3(x,base+1.44,z+f*(d*.5+.55)),.35,_dark)
 		_spar("Neutral barrel silhouette",Vector3(x,base+1.43,z+f*(d*.50+.43)),Vector3(x,base+1.73,z+f*(d*.5+3.04)),.20,_steel)
+	_main_rig_index += 1
+	GUN_RIG.attach(self, "main_%02d" % _main_rig_index, "main", Vector3(0,base+.18,z),
+		Vector3(0,base+1.38,z+f*d*.43), Vector3(0,0,f),
+		_group.get_children().slice(housing_start,barrel_start), _group.get_children().slice(barrel_start))
 
 func _stack(z: float, base: float, tip: float, radius: float, elongation: float, rake: float) -> void:
 	var p: Vector3 = Vector3(0,(base+tip)*.5,z+rake*.5)

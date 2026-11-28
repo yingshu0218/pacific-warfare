@@ -16,12 +16,9 @@ func _run() -> void:
 	var hi := Vector3(-INF, -INF, -INF)
 	var count: int = 0
 	var valid: bool = hull.get_child_count() == 4 and root.get_camera_3d() != null
-	var mounted_shapes: int = 0
 	var hull_edges: Dictionary = {}
-	var fittings := model.get_node("Static exterior silhouettes") as Node3D
-	for node: Node in fittings.get_children():
-		if str(node.name).begins_with("Large enclosed silhouette"):
-			mounted_shapes += 1
+	# Articulated housings remain the same meshes under their own pivots.
+	var mounted_shapes: int = model.find_children("Large enclosed silhouette*", "MeshInstance3D", true, false).size()
 	for item: Node in model.find_children("*","MeshInstance3D",true,false):
 		var node := item as MeshInstance3D
 		var faces: PackedVector3Array = node.mesh.get_faces()

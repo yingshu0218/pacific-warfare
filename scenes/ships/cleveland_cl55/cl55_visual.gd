@@ -1,4 +1,6 @@
 extends "res://scenes/ships/visual_study/ship_exterior_geometry.gd"
+
+const DISPLAY_GUN := preload("res://scripts/presentation/models/archive_gun_rig.gd")
 ## CL-55 detached exterior exhibit. y=0 is the waterline; bow is -Z.
 ## Equipment shapes are inert game props, not construction or simulation resources.
 
@@ -92,28 +94,42 @@ func _funnels_and_masts() -> void:
 
 
 func _fittings() -> void:
+	var main_index: int = 0
 	for z: float in [-66.0,-51.5,47.0,62.0]:
 		var raised: bool = z == -51.5 or z == 47.0
 		var y: float = _deck_height(z)
 		var mount_h: float = 3.4 if raised else 0.72
 		_pipe("Large silhouette seat",Vector3(0,y+mount_h*0.5-0.12,z),mount_h,3.05,2.92,1.0,_steel)
+		var first: int = _group.get_child_count()
 		_octagon("Large enclosed silhouette",Vector3(0,y+mount_h+1.22,z),6.8,2.60,7.7,1.05,_upper,0.90)
 		var sign_z: float = -1.0 if z < 0 else 1.0
 		for x: float in [-1.38,0.0,1.38]:
 			_spar("Inert silhouette spar",Vector3(x,y+mount_h+1.31,z+sign_z*3.34),Vector3(x,y+mount_h+1.67,z+sign_z*8.15),0.29,_dark)
+		main_index += 1
+		var pieces: Array[Node] = _group.get_children().slice(first)
+		DISPLAY_GUN.attach(self,"main_%02d" % main_index,"main",Vector3(0,y+mount_h,z),Vector3(0,y+mount_h+1.31,z+sign_z*3.34),Vector3(0,0,sign_z),[pieces[0]],pieces.slice(1))
+	var secondary: int = 0
 	for z: float in [-39.6,37.8]:
 		var y: float = 9.1 if z < 0 else 8.55
+		var first: int = _group.get_child_count()
 		_octagon("Centerline small enclosed silhouette",Vector3(0,y,z),4.5,2.2,4.8,0.70,_upper)
 		var sign_z: float = -1.0 if z < 0 else 1.0
 		for x: float in [-0.65,0.65]:
 			_spar("Small inert silhouette spar",Vector3(x,y,z+sign_z*2.16),Vector3(x,y+0.17,z+sign_z*4.85),0.22,_dark)
+		secondary += 1
+		var pieces: Array[Node] = _group.get_children().slice(first)
+		DISPLAY_GUN.attach(self,"secondary_%02d" % secondary,"secondary",Vector3(0,y,z),Vector3(0,y,z+sign_z*2.16),Vector3(0,0,sign_z),[pieces[0]],pieces.slice(1))
 	for side: float in [-1.0,1.0]:
 		for z: float in [-13.4,17.3]:
 			var x: float = side*7.23
 			_pipe("Deck platform",Vector3(x,6.95,z),1.10,2.03,1.97,1.0,_steel)
+			var first: int = _group.get_child_count()
 			_octagon("Outboard enclosed silhouette",Vector3(x,8.56,z),4.15,2.24,4.9,0.75,_upper)
 			for j: float in [-0.62,0.62]:
 				_spar("Outboard inert silhouette spar",Vector3(x+side*1.85,8.65,z+j),Vector3(x+side*4.17,8.92,z+j),0.22,_dark)
+			secondary += 1
+			var pieces: Array[Node] = _group.get_children().slice(first)
+			DISPLAY_GUN.attach(self,"secondary_%02d" % secondary,"secondary",Vector3(x,7.50,z),Vector3(x+side*1.85,8.65,z),Vector3(side,0,0),[pieces[0]],pieces.slice(1))
 
 
 func _details() -> void:

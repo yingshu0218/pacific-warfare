@@ -10,12 +10,12 @@ func _initialize() -> void:
 	call_deferred("_run")
 
 func _run() -> void:
-	_audit(VIEWS[0],"BB38","bb38",Vector3(32.385,8.79,185.3184),[40.12,-17.51],"Static deck silhouettes","Large closed exterior cover",4)
-	_audit(VIEWS[1],"DE413","de413",Vector3(11.1506,4.064,93.2688),[27.90,-7.04],"Inert exterior silhouette details","Rounded single exterior cover",2)
+	_audit(VIEWS[0],"BB38","bb38",Vector3(32.385,8.79,185.3184),[40.12,-17.51],"Large closed exterior cover",4)
+	_audit(VIEWS[1],"DE413","de413",Vector3(11.1506,4.064,93.2688),[27.90,-7.04],"Rounded single exterior cover",2)
 	quit(1 if failures else 0)
 
 func _audit(packed: PackedScene, id: String, file_id: String, target: Vector3, mast: Array,
-		props: String, prop_name: String, prop_count: int) -> void:
+		prop_name: String, prop_count: int) -> void:
 	var before: int = failures
 	var viewer: Node3D = packed.instantiate() as Node3D
 	root.add_child(viewer)
@@ -25,9 +25,8 @@ func _audit(packed: PackedScene, id: String, file_id: String, target: Vector3, m
 	var hi := -lo
 	var edges: Dictionary = {}
 	var tris: int = 0
-	var props_seen: int = 0
-	for node: Node in ship.get_node(props).get_children():
-		if str(node.name).begins_with(prop_name): props_seen += 1
+	# Do not require a fixed parent for an articulated housing.
+	var props_seen: int = ship.find_children(prop_name + "*", "MeshInstance3D", true, false).size()
 	_check(props_seen==prop_count,id+" historical separated exterior volume count")
 	for node: MeshInstance3D in ship.find_children("*","MeshInstance3D",true,false):
 		var pts: PackedVector3Array = node.mesh.get_faces()

@@ -52,6 +52,13 @@ func load_data(record: Dictionary) -> PackedStringArray:
 			for box: Dictionary in p.get("boxes", []):
 				if not _box_valid(box) or not box.get("part") is String:
 					errors.append("invalid_unit_box:" + id)
+			if p.has("mount_limits"):
+				if not p.mount_limits is Dictionary:
+					errors.append("invalid_mount_limits:" + id)
+				else:
+					for mount_id: Variant in p.mount_limits:
+						if not mount_id is String or not _mount_limit_valid(p.mount_limits[mount_id]):
+							errors.append("invalid_mount_limit:" + id + ":" + str(mount_id))
 			if p.has("damage_effects"):
 				for key: String in ["fire_anchor_m","smoke_anchor_m"]:
 					if not SimData.valid_vector(p.damage_effects.get(key)):
@@ -93,16 +100,54 @@ func validate_world(world: SimulationWorld) -> PackedStringArray:
 		var unit: UnitDefinition = world.unit_definition(world.get_unit(id).definition_id)
 		if not data.unit_profiles.has(unit.id):
 			errors.append("missing_combat_unit:" + unit.id)
+		var overrides: Dictionary = data.unit_profiles.get(unit.id, {}).get("mount_limits", {})
+		for mount_id: String in overrides:
+			if not unit.mounts.any(func(socket: MountSocket) -> bool: return socket.id == mount_id):
+				errors.append("unknown_mount_limit:" + unit.id + ":" + mount_id)
 		for mount: MountSocket in unit.mounts:
 			var gun: WeaponDefinition = world.weapon_definition(mount.weapon_definition_id)
 			if not data.weapon_profiles.has(gun.id):
 				errors.append("missing_combat_weapon:" + gun.id)
+			var envelope := mount_envelope(unit.id, mount.id, gun)
+			if envelope.train_rad.x > envelope.train_rad.y or envelope.pitch_rad.x > envelope.pitch_rad.y:
+				errors.append("empty_mount_envelope:" + unit.id + ":" + mount.id)
 			var ammo_id: String = str(data.weapon_profiles.get(gun.id, {}).get("ammo_id", gun.ammo_id))
 			if world.ammo_definition(ammo_id) == null or not data.ammo_profiles.has(ammo_id):
 				errors.append("missing_combat_ammo:" + ammo_id)
 			elif float(data.ammo_profiles[ammo_id].burst_radius_m) > 0.0 and effective_ammo(world, ammo_id).caliber_m < 0.075:
 				errors.append("light_ammo_cannot_have_timed_flak:" + ammo_id)
 	return errors
+
+## Optional per-station constraints only narrow the existing fictional weapon profile.
+func mount_envelope(unit_id: String, mount_id: String, gun: WeaponDefinition) -> Dictionary:
+	var profile: Dictionary = data.weapon_profiles.get(gun.id, {})
+	var limit: Dictionary = data.unit_profiles.get(unit_id, {}).get("mount_limits", {}).get(mount_id, {})
+	var train := gun.train_limits_rad
+	var pitch := gun.elevation_limits_rad
+	if limit.has("train_window_deg"):
+		train.x = maxf(train.x, deg_to_rad(float(limit.train_window_deg[0])))
+		train.y = minf(train.y, deg_to_rad(float(limit.train_window_deg[1])))
+	if limit.has("minimum_elevation_deg"):
+		pitch.x = maxf(pitch.x, deg_to_rad(float(limit.minimum_elevation_deg)))
+	if limit.has("maximum_elevation_deg"):
+		pitch.y = minf(pitch.y, deg_to_rad(float(limit.maximum_elevation_deg)))
+	return {"range_m": float(profile.get("range_m", 0.0))*float(limit.get("range_scale", 1.0)), "train_rad": train, "pitch_rad": pitch}
+
+static func _mount_limit_valid(entry: Variant) -> bool:
+	if not entry is Dictionary:
+		return false
+	if entry.has("range_scale") and (not SimData.finite_number(entry.range_scale) or float(entry.range_scale) <= 0.0 or float(entry.range_scale) > 1.0):
+		return false
+	if entry.has("train_window_deg"):
+		var window: Variant = entry.train_window_deg
+		if not window is Array or window.size() != 2:
+			return false
+		if not SimData.finite_number(window[0]) or not SimData.finite_number(window[1]) or float(window[0]) < -360.0 or float(window[1]) > 360.0 or float(window[0]) > float(window[1]):
+			return false
+	for key: String in ["minimum_elevation_deg", "maximum_elevation_deg"]:
+		if entry.has(key) and (not SimData.finite_number(entry[key]) or absf(float(entry[key])) > 90.0):
+			return false
+	return float(entry.get("minimum_elevation_deg", -90.0)) <= float(entry.get("maximum_elevation_deg", 90.0))
 
 func unit_profile(id: String) -> Dictionary:
 	return data.unit_profiles.get(id, {}).duplicate(true)

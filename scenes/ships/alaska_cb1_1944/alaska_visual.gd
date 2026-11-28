@@ -1,4 +1,6 @@
 extends "res://scenes/ships/visual_study/archival_cruiser_art.gd"
+
+const DISPLAY_GUN := preload("res://scripts/presentation/models/archive_gun_rig.gd")
 ## CB-1 visual study frozen to the November 1944 post-shakedown photos.
 
 const HALF: float = 123.2154
@@ -44,15 +46,18 @@ func _ready() -> void:
 	_bridge()
 	_group = _layer("Single broad funnel")
 	_stack_and_yards()
-	_group = _layer("Inert exterior silhouettes")
+	_group = _layer("Exhibit mount seats")
 	for i: int in range(3):
 		var z: float = [-71.0,-56.0,56.5][i]
-		_photo_case(z,0,_deck_height(z),11.55,10.5,4.02,3.62 if i == 1 else 0.77,3,Vector3.FORWARD if i<2 else Vector3.BACK)
+		_exhibit_case("main_%02d" % (i+1), "main", z,0,_deck_height(z),11.55,10.5,4.02,3.62 if i == 1 else 0.77,3,Vector3.FORWARD if i<2 else Vector3.BACK)
+	var secondary: int = 0
 	for z: float in [-44.85,43.72]:
-		_photo_case(z,0,_deck_height(z)+2.95,5.1,4.43,2.19,0.63,2,Vector3.FORWARD if z<0 else Vector3.BACK)
+		secondary += 1
+		_exhibit_case("secondary_%02d" % secondary, "secondary",z,0,_deck_height(z)+2.95,5.1,4.43,2.19,0.63,2,Vector3.FORWARD if z<0 else Vector3.BACK)
 	for side: float in [-1.0,1.0]:
 		for z: float in [-26.8,28.0]:
-			_photo_case(z,side*9.44,_deck_height(z)+2.29,5.02,4.32,2.25,0.60,2,Vector3(side,0,0))
+			secondary += 1
+			_exhibit_case("secondary_%02d" % secondary, "secondary",z,side*9.44,_deck_height(z)+2.29,5.02,4.32,2.25,0.60,2,Vector3(side,0,0))
 	_group = _layer("Working decks and fittings")
 	_deck_layout()
 	_group = _layer("Waterline and underbody detail")
@@ -170,3 +175,16 @@ func _disruptive_paint(node: MeshInstance3D) -> void:
 	var paint: StandardMaterial3D = _paint("ffffff")
 	paint.albedo_texture = ImageTexture.create_from_image(image)
 	node.material_override = paint
+
+
+
+func _exhibit_case(id: String, role: String, z: float, x: float, y: float, w: float, length: float, h: float, raised: float, strips: int, direction: Vector3) -> void:
+	var first: int = _group.get_child_count()
+	_photo_case(z,x,y,w,length,h,raised,strips,direction)
+	# Skip the fixed pedestal and optional static plinth.
+	var pieces: Array[Node] = _group.get_children().slice(first + (2 if raised > 2.1 else 1))
+	var train_parts: Array = [pieces[0]]
+	train_parts.append_array(pieces.slice(1 + strips))
+	var bearing := Vector3(x,y+raised,z)
+	var elev := bearing + Vector3.UP*h*0.53 + direction*length*0.40
+	DISPLAY_GUN.attach(self,id,role,bearing,elev,direction,train_parts,pieces.slice(1,1 + strips))

@@ -1,4 +1,7 @@
 extends "res://scenes/ships/visual_study/archival_cruiser_art.gd"
+const GUN_RIG := preload("res://scripts/presentation/models/archive_gun_rig.gd")
+var _main_rig_index: int = 0
+
 ## Shaded low-relief game exhibit parts shared by the two dated cruiser exteriors.
 var _cream: StandardMaterial3D
 var _plate_edge: StandardMaterial3D
@@ -143,3 +146,21 @@ func _small_halyards(z: float, foot: float, tip: float, yard: float) -> void:
 		for off: float in [-.61,0,.61]:
 			_spar("Fan of light halyards",Vector3(s*(yard+off),tip,z+.19),Vector3(s*1.95,foot,z-1.5+off),.028,_dark)
 		_spar("Light outer yard brace",Vector3(s*yard*.91,tip,z+.19),Vector3(0,tip+2.42,z+.29),.041,_steel)
+
+
+func _photo_case(z: float,x: float,y: float,w: float,l: float,h: float,raised: float,bars: int,direction: Vector3) -> void:
+	var start := _group.get_child_count()
+	super._photo_case(z,x,y,w,l,h,raised,bars,direction)
+	var housing: Array[Node3D] = []
+	var barrels: Array[Node3D] = []
+	for node: Node3D in _group.get_children().slice(start):
+		var label := str(node.name)
+		# Names receive Godot numeric disambiguation on repeated assemblies.
+		if label.begins_with("Inert exterior outline strip"):
+			barrels.append(node)
+		elif not label.begins_with("Display housing base") and not label.begins_with("Outer plinth"):
+			housing.append(node)
+	_main_rig_index += 1
+	var center := Vector3(x,y+raised,z)
+	GUN_RIG.attach(self, "main_%02d" % _main_rig_index, "main", center,
+		center+Vector3.UP*h*.53+direction*l*.40, direction, housing, barrels)

@@ -1,4 +1,6 @@
 extends "res://scenes/ships/visual_study/ship_exterior_geometry.gd"
+
+const DISPLAY_GUN := preload("res://scripts/presentation/models/archive_gun_rig.gd")
 ## Rebuilt standalone exterior, late 1930s. Nothing moves or functions.
 const HALF:float = 111.0
 const BEAM:float = 15.5
@@ -118,10 +120,13 @@ func _silhouettes()->void:
 		var y:float=_deck_height(z)
 		var dir:float=-1.0 if i<2 else 1.0
 		_pipe("Static housing riser",Vector3(0,y+rise*.5-.06,z),rise,4.91,4.57,1.0,_steel)
+		var first: int = _group.get_child_count()
 		_octagon("Static deck housing",Vector3(0,y+rise+1.28,z),9.86,2.63,11.28,1.24,_upper,.91)
 		_octagon("Sloped cover profile",Vector3(0,y+rise+2.64,z+dir*.28),9.45,.45,9.86,1.42,_steel,.83)
 		for x:float in [-1.12,1.12]:
 			_spar("Inert photo silhouette spar",Vector3(x,y+rise+1.52,z+dir*4.75),Vector3(x,y+rise+1.98,z+dir*10.4),.40,_dark)
+		var pieces: Array[Node] = _group.get_children().slice(first)
+		DISPLAY_GUN.attach(self,"main_%02d" % (i+1),"main",Vector3(0,y+rise,z),Vector3(0,y+rise+1.52,z+dir*4.75),Vector3(0,0,dir),pieces.slice(0,2),pieces.slice(2))
 	for s:float in [-1.0,1.0]:
 		for z:float in [-22.10,-9.65,2.61,13.1]:
 			var p:=Vector3(s*12.18,8.04,z)

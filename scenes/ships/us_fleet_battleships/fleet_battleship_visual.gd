@@ -1,4 +1,6 @@
 extends "res://scenes/ships/visual_study/ship_exterior_geometry.gd"
+const GUN_RIG := preload("res://scripts/presentation/models/archive_gun_rig.gd")
+
 ## Hand-authored wartime game silhouettes; no operational or internal geometry.
 @export_enum("North Carolina BB-55", "West Virginia BB-48") var exhibit: int = 0
 
@@ -303,20 +305,35 @@ func _battery() -> void:
 		var w: float = 13.43 if exhibit == 0 else 11.98
 		var l: float = 12.1 if exhibit == 0 else 10.3
 		_pipe("Visible deck seating",p+Vector3.UP*(rise*.5-.04),rise,w*.47,w*.46,.94,_steel)
-		_octagon("Fixed external turret cover",p+Vector3.UP*(rise+1.80),w,3.60,l,1.75,_gun_finish,.81)
+		var housing_start := _group.get_child_count()
+		_octagon("External turret cover",p+Vector3.UP*(rise+1.80),w,3.60,l,1.75,_gun_finish,.81)
 		_octagon("Upper plate on inert cover",p+Vector3(0,rise+3.64,-d*1.04),w*.44,.13,l*.42,.53,_steel)
+		if i == 0:
+			var plate_z: float = -49.5 if exhibit == 0 else -46.4
+			for face: float in [-1.0,1.0]:
+				_box("Turret-side inspection plate",Vector3(face*(6.1 if exhibit==0 else 5.39),_deck_height(plate_z)+2.36,plate_z-7.8),Vector3(.19,1.0,2.51),_steel)
+		var barrel_start := _group.get_child_count()
 		var tubes: Array = [-2.55,0,2.55] if exhibit == 0 else [-2.13,2.13]
 		for x: float in tubes:
 			var b: Vector3 = p+Vector3(x,rise+1.70,d*l*.385)
 			_inert_tube("Closed barrel silhouette",b,b+Vector3(0,1.06,d*(10.54 if exhibit == 0 else 9.22)),.42,.22)
+		GUN_RIG.attach(self, "main_%02d" % (i+1), "main", p+Vector3.UP*rise,
+			p+Vector3(0,rise+1.70,d*l*.385), Vector3(0,0,d),
+			_group.get_children().slice(housing_start,barrel_start), _group.get_children().slice(barrel_start))
 	for side: float in [-1.0,1.0]:
 		var side_rows: Array = [Vector3(11.0,9.13,-27.2),Vector3(11.31,12.14,-13.8),Vector3(12.0,9.22,-1.97),Vector3(11.09,12.10,10.16),Vector3(11.2,9.25,24.47)] if exhibit == 0 else [Vector3(12.41,10.6,-20.9),Vector3(10.53,13.2,-10.7),Vector3(10.71,13.17,1.92),Vector3(12.30,10.6,11.9)]
-		for row: Vector3 in side_rows:
+		for k: int in range(side_rows.size()):
+			var row: Vector3 = side_rows[k]
 			var p := Vector3(side*row.x,row.y,row.z)
 			_pipe("Fixed gallery mounting surround",p+Vector3.DOWN*.38,1.15,2.30,2.24,.99,_steel)
+			var housing_start := _group.get_child_count()
 			_octagon("Enclosed side-gallery shape",p+Vector3.UP*.84,4.36,2.19,4.82,.72,_gun_finish,.85)
+			var barrel_start := _group.get_child_count()
 			for dz: float in [-.69,.69]:
 				_inert_tube("Closed side-barrel silhouette",p+Vector3(side*1.76,.83,dz),p+Vector3(side*5.04,.98,dz),.155,.092)
+			GUN_RIG.attach(self, "secondary_%s_%02d" % ["port" if side<0 else "starboard", k+1], "secondary", p,
+				p+Vector3(side*1.76,.83,0), Vector3(side,0,0),
+				_group.get_children().slice(housing_start,barrel_start), _group.get_children().slice(barrel_start))
 		for z: float in ([-41.4,-17.1,32.8,49.7,77.0] if exhibit==0 else [-36.4,-24.6,26.6,57.7,66.70]):
 			var x: float = 11.3 if z < 55 else 8.1
 			var y: float = _deck_height(z)+.61
@@ -482,7 +499,6 @@ func _detail_pass() -> void:
 				var p: Vector3 = a.lerp(b,float(j)*.25)
 				_spar("Bridge balcony post",p,p-Vector3.UP*.84,.063,_steel)
 			_spar("Balcony support",Vector3(a.x*.78,a.y-1.72,z),Vector3(a.x*.99,a.y-.85,z),.12,_steel)
-		var z: float = -49.5 if exhibit==0 else -46.4
 		var chain_z: float = -_half_length()*.903
 		var chain_p := Vector3(side*1.38,_deck_height(chain_z)+.09,chain_z)
 		var end_p := Vector3(side*1.2,_deck_height(chain_z+11.)+.09,chain_z+11.)
@@ -490,4 +506,3 @@ func _detail_pass() -> void:
 		_pipe("Bow capstan",end_p+Vector3.UP*.31,.63,.42,.36,1.,_steel)
 		var boat_cradle_z: float = 28 if exhibit == 0 else 18
 		_spar("Boat handling outrigger",Vector3(side*9.5,_deck_height(boat_cradle_z)+1.1,boat_cradle_z),Vector3(side*13.22,_deck_height(boat_cradle_z)+4.49,boat_cradle_z+1.15),.19,_steel)
-		_box("Turret-side inspection plate",Vector3(side*(6.1 if exhibit==0 else 5.39),_deck_height(z)+2.36,z-7.8),Vector3(.19,1.0,2.51),_steel)

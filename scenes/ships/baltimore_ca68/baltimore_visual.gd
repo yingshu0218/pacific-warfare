@@ -1,4 +1,6 @@
 extends "res://scenes/ships/visual_study/ship_exterior_geometry.gd"
+
+const DISPLAY_GUN := preload("res://scripts/presentation/models/archive_gun_rig.gd")
 ## New visually reconstructed CA-68, Mare Island, October 1944.
 ## Bow -Z, y=0 design waterline. Inert game-exhibit shells only.
 
@@ -146,20 +148,28 @@ func _casings() -> void:
 		if i==1:
 			_octagon("Raised closed outer support",Vector3(0,y+0.66,z),9.60,1.40,9.51,1.27,_steel)
 		_pipe("Inert casing seat",Vector3(0,y+seat*0.5,z),seat,3.72,3.44,1.0,_steel)
+		var first: int = _group.get_child_count()
 		_octagon("Main exterior casing",Vector3(0,y+seat+1.69,z),8.86,3.40,8.81,1.63,_upper,0.79)
 		for x: float in [-1.37,0.0,1.37]:
 			_spar("Solid photo silhouette strip",Vector3(x,y+seat+1.31,z+face*3.54),Vector3(x,y+seat+1.87,z+face*8.87),0.267,_dark)
 		for side: float in [-1.0,1.0]:
 			_box("Raised casing side panel",Vector3(side*3.79,y+seat+1.42,z),Vector3(0.086,0.43,0.67),_steel)
+		var pieces: Array[Node] = _group.get_children().slice(first)
+		DISPLAY_GUN.attach(self,"main_%02d" % (i+1),"main",Vector3(0,y+seat,z),Vector3(0,y+seat+1.31,z+face*3.54),Vector3(0,0,face),[pieces[0],pieces[4],pieces[5]],pieces.slice(1,4))
+	var secondary: int = 0
 	for z: float in [-38.1,43.15]:
 		_octagon("Center small enclosed housing",Vector3(0,_deck_height(z)+2.02,z),4.70,2.49,4.31,0.78,_steel,0.86)
 	for side: float in [-1.0,1.0]:
 		for z: float in [-16.57,3.91,19.82]:
 			var p := Vector3(side*7.76,9.11,z)
 			_pipe("Fixed outboard support",p-Vector3.UP*0.86,1.76,1.81,1.61,1.06,_steel)
+			var first: int = _group.get_child_count()
 			_octagon("Outboard casing outer cover",p+Vector3.UP*0.95,3.81,2.07,4.40,0.71,_upper,0.89)
 			for offset: float in [-0.54,0.54]:
 				_spar("Short inert outboard silhouette strip",p+Vector3(side*1.44,0.95,offset),p+Vector3(side*3.85,1.04,offset),0.166,_dark)
+			secondary += 1
+			var pieces: Array[Node] = _group.get_children().slice(first)
+			DISPLAY_GUN.attach(self,"secondary_%02d" % secondary,"secondary",p,p+Vector3(side*1.44,.95,0),Vector3(side,0,0),[pieces[0]],pieces.slice(1))
 
 
 func _deck_furniture() -> void:

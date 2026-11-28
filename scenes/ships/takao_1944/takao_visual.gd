@@ -1,5 +1,6 @@
 extends "res://scenes/ships/visual_study/ship_exterior_geometry.gd"
 ## Dated static game exhibit, not a technical scan. Bow -Z and design waterline y=0.
+const LOCAL_GUN_RIG = preload("res://scripts/presentation/models/archive_gun_rig.gd")
 
 const HALF_LENGTH: float = 101.88
 const HALF_BEAM: float = 10.365
@@ -118,10 +119,14 @@ func _silhouettes() -> void:
 		var rise: float = [0.71,3.64,0.82,3.36,0.69][index]
 		var y: float = _deck_height(z)
 		_pipe("Main visual seat",Vector3(0,y+rise*0.5-0.09,z),rise,3.05,2.82,1.0,_steel)
+		var first := _group.get_child_count()
 		_octagon("Large enclosed silhouette",Vector3(0,y+rise+1.23,z),6.5,2.55,7.75,0.95,_upper,0.92)
 		var facing: float = -1.0 if index < 2 else 1.0
 		for lateral: float in [-0.88,0.88]:
 			_spar("Inert silhouette spar",Vector3(lateral,y+rise+1.35,z+facing*3.42),Vector3(lateral,y+rise+1.60,z+facing*(5.75 if index == 2 else 7.65)),0.27,_dark)
+		var parts := _group.get_children()
+		LOCAL_GUN_RIG.attach(self,"main_%02d" % (index+1),"main",Vector3(0,y+rise,z),Vector3(0,y+rise+1.35,z),Vector3(0,0,facing),
+			parts.slice(first,first+1),parts.slice(first+1))
 	for side: float in [-1.0,1.0]:
 		for z: float in [-11,12]:
 			var p := Vector3(side*7.38,9.46,z)
