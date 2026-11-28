@@ -153,7 +153,7 @@ func _build_waist() -> void:
 			var z: float = -19.0+11.15*i
 			_octagon("Splayed weatherdeck shoulder",Vector3(side*11.95,13.12,z),9.10,3.58,10.16,2.36,_steel,.87)
 			_spar("Girder supporting shoulder edge",Vector3(side*12.7,10.43,z-2.8),Vector3(side*15.8,13.9,z-2.8),.43,_steel)
-			_deck_rail(Vector3(side*15.43,14.45,z-2.30),Vector3(side*15.43,14.45,z+2.25),3)
+			_deck_rail(Vector3(side*15.43,14.45,z-4.10),Vector3(side*15.43,14.45,z-3.45),1)
 		for z: float in [-8.9,1.4,11.9]:
 			var a := Vector3(side*4.1,18.8,z+2.)
 			var b := Vector3(side*4.4,32.8,z+4.5)
@@ -219,13 +219,13 @@ func _build_exhibits() -> void:
 	# Put the forward exhibit on an independent deck terrace, not in the bridge block.
 	var forward_z: float = -43.8
 	var deck_y: float = _deck_height(forward_z)
-	var terrace: float = 3.78
+	var terrace: float = 4.51
 	_octagon("Independent forward secondary terrace",Vector3(0,deck_y+terrace*.5,forward_z),
 		9.67,terrace,10.33,1.74,_steel,.87)
 	_exhibit("SecondaryForward","secondary",Vector3(0,deck_y+terrace,forward_z),
 		Vector3(7.55,2.87,7.73),2.09,Vector3.FORWARD,3,false)
-	_octagon("Fixed aft secondary terrace",Vector3(0,11.16,47.60),9.8,2.39,10.8,1.68,_steel,.93)
-	_exhibit("SecondaryAft","secondary",Vector3(0,12.24,47.6),Vector3(7.55,2.87,7.73),1.38,Vector3.BACK,3,false)
+	_octagon("Fixed aft secondary terrace",Vector3(0,11.55,47.60),9.8,3.15,10.8,1.68,_steel,.93)
+	_exhibit("SecondaryAft","secondary",Vector3(0,13.01,47.6),Vector3(7.55,2.87,7.73),1.38,Vector3.BACK,3,false)
 	for side: float in [-1.,1.]:
 		var tag := "P" if side<0. else "S"
 		for i: int in range(6):
@@ -248,7 +248,8 @@ func _support_display_platform(p: Vector3,side: float,w: float,l: float) -> void
 				p+Vector3(side*w*.27,-.28,offset),.27,_steel)
 
 func _exhibit(id: String, role: String, p: Vector3, shape: Vector3, rise: float, front: Vector3,bars: int,open: bool) -> void:
-	_pipe("Static display collar",p+Vector3.UP*rise*.50,rise,shape.x*.43,shape.x*.42,1.,_dark)
+	var collar := _pipe("Static display collar",p+Vector3.UP*rise*.50,rise,shape.x*.43,shape.x*.42,1.,_dark)
+	collar.set_meta("exhibit_owner",id)
 	var c := GCase.new()
 	c.center=p+Vector3.UP*(rise+shape.y*.5)
 	c.width=shape.x
@@ -273,7 +274,12 @@ func _exhibit(id: String, role: String, p: Vector3, shape: Vector3, rise: float,
 		item.quaternion=Quaternion(Vector3.UP,d.normalized())
 		_disc("Closed outline end",b,shape.x*.040,.08,d,_dark)
 	var lines: Array = _group.get_children().slice(start)
-	POSE.attach(self,id,role,p+Vector3.UP*rise,pivot,front,faces,lines)
+	var rig: Node3D = POSE.attach(self,id,role,p+Vector3.UP*rise,pivot,front,faces,lines)
+	# Preview envelope limits are only for this dense artistic gallery arrangement.
+	if role in ["main","secondary"]:
+		var exhibit_yaw: float = float({"Main01":38.,"Main02":33.,"Main03":40.,
+			"SecondaryForward":43.,"SecondaryAft":43.}.get(id,32.))
+		rig.set_game_profile(rig.game_reach,exhibit_yaw,0.,rad_to_deg(rig.pitch_max_rad))
 
 func _dated_enclosure(c: GCase) -> void:
 	var body := SurfaceTool.new()
