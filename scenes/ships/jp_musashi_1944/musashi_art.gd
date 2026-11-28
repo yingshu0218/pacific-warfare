@@ -96,7 +96,7 @@ func _bow_and_anchors() -> void:
 
 func _build_bridge() -> void:
 	_group = _layer("Tall armored bridge and observation galleries")
-	_octagon("Armored continuous superstructure plinth",Vector3(0,11.98,-5.),27.4,4.77,72.4,4.8,_steel,.95)
+	_octagon("Armored continuous superstructure plinth",Vector3(0,11.98,-3.4),27.4,4.77,64.2,4.8,_steel,.95)
 	_octagon("Tall compact tower foot",Vector3(0,16.15,-24.),17.2,8.84,21.9,4.15,_steel,.82)
 	_octagon("Sloped enclosed command tower",Vector3(0,28.0,-25.8),12.1,22.0,15.8,3.0,_steel,.70)
 	_gallery("Rounded armored forward bridge",Vector3(0,23.45,-31.13),11.45,7.6,12.2,_steel)
@@ -106,10 +106,18 @@ func _build_bridge() -> void:
 	_octagon("Roof below viewing crosspiece",Vector3(0,38.18,-25.7),13.64,.80,11.84,2.31,_upper)
 	_gallery("Upper rounded optical head",Vector3(0,41.01,-26.1),7.18,4.64,7.23,_steel)
 	_gallery("Upper optical head cap",Vector3(0,43.62,-26.1),6.67,.66,6.84,_upper)
-	_disc("Long bridge optical crosspiece",Vector3(0,40.21,-26.90),.61,15.9,Vector3.RIGHT,_steel)
+	_disc("Long bridge optical crosspiece",Vector3(0,40.21,-26.90),.63,15.9,Vector3.RIGHT,_steel)
+	for side: float in [-1.,1.]:
+		_disc("Stepped viewing arm cap",Vector3(side*7.68,40.21,-26.90),.75,1.13,Vector3.RIGHT,_steel)
+		_disc("Dark end of decorative viewing arm",Vector3(side*8.27,40.21,-26.90),.40,.10,Vector3.RIGHT,glass)
 	_spar("Upper receiver pedestal",Vector3(0,42.8,-24.94),Vector3(0,47.4,-24.94),.43,_steel)
 	_lattice(Vector3(0,47.65,-24.97),5.53,2.63)
-	_windows_face(Vector3(0,30.58,-34.52),9,.86,.71,.62)
+	# Place the front window band on the curved face, not buried under it.
+	for i: int in range(9):
+		var x: float = (i-4)*.86
+		var front_z: float = -27.78-6.77*sqrt(1.-pow(x/7.775,2.))
+		var pane := _box("Curved forward bridge window",Vector3(x,30.58,front_z-.070),Vector3(.69,.58,.118),glass)
+		pane.rotation.y = atan2(-x*.115,1.)
 	_windows_face(Vector3(0,36.24,-31.12),6,.79,.64,.39)
 	for side: float in [-1.,1.]:
 		_octagon("Lower terrace wing",Vector3(side*9.18,22.87,-24.8),6.30,.57,12.2,1.25,_steel)
@@ -203,12 +211,19 @@ func _disc(label: String,p: Vector3,r: float,depth: float,axis: Vector3,mat: Mat
 
 func _build_exhibits() -> void:
 	_group = _layer("Independent closed display silhouettes")
-	var z: Array[float] = [-74.,-49.,65.]
+	var z: Array[float] = [-82.,-60.4,65.]
 	for i: int in range(z.size()):
 		var y: float = _deck_height(z[i])
 		_exhibit("Main%02d" % (i+1),"main",Vector3(0,y,z[i]),
-			Vector3(14.85,4.06,13.8),4.3 if i==1 else 1.55,Vector3.FORWARD if i<2 else Vector3.BACK,3,false)
-	_exhibit("SecondaryForward","secondary",Vector3(0,14.28,-33.5),Vector3(7.55,2.87,7.73),2.22,Vector3.FORWARD,3,false)
+			Vector3(14.85,4.06,13.8),4.10 if i==1 else 1.55,Vector3.FORWARD if i<2 else Vector3.BACK,3,false)
+	# Put the forward exhibit on an independent deck terrace, not in the bridge block.
+	var forward_z: float = -43.8
+	var deck_y: float = _deck_height(forward_z)
+	var terrace: float = 3.78
+	_octagon("Independent forward secondary terrace",Vector3(0,deck_y+terrace*.5,forward_z),
+		9.67,terrace,10.33,1.74,_steel,.87)
+	_exhibit("SecondaryForward","secondary",Vector3(0,deck_y+terrace,forward_z),
+		Vector3(7.55,2.87,7.73),2.09,Vector3.FORWARD,3,false)
 	_octagon("Fixed aft secondary terrace",Vector3(0,11.16,47.60),9.8,2.39,10.8,1.68,_steel,.93)
 	_exhibit("SecondaryAft","secondary",Vector3(0,12.24,47.6),Vector3(7.55,2.87,7.73),1.38,Vector3.BACK,3,false)
 	for side: float in [-1.,1.]:

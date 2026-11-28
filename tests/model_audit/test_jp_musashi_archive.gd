@@ -35,9 +35,48 @@ func _run() -> void:
 			_check(m.pose(0.,0.),"Neutral reset")
 		_check(by_role == {"main":3,"secondary":2,"dedicated_aa":20},"Wrong exhibit grouping")
 		_check(forward_main==2,"Forward and aft main enclosure split")
+		_check_display_clearance(ship,mounts)
 	print("JP_MUSASHI_ARCHIVE checks=",checks," failures=",errors)
 	ship.free()
 	quit(1 if errors else 0)
+
+func _check_display_clearance(ship: Node3D,mounts: Node) -> void:
+	# Deliberately conservative mesh bounds, not a physical collision model.
+	var fixed: Array[MeshInstance3D] = []
+	for node: Node in ship.find_children("*","MeshInstance3D",true,false):
+		if node.get_parent().name in ["Tall armored bridge and observation galleries",
+				"Aft observation tower and handling deck","Open shoulder terraces and funnel"]:
+			fixed.append(node as MeshInstance3D)
+	var closed: Array[Node3D] = []
+	for m: Node3D in mounts.get_children():
+		if m.role in ["main","secondary"]:
+			closed.append(m)
+	for m: Node3D in closed:
+		for yaw: float in [-m.yaw_limit_rad,-m.yaw_limit_rad*.5,0.,m.yaw_limit_rad*.5,m.yaw_limit_rad]:
+			for pitch: float in [m.pitch_min_rad,0.,m.pitch_max_rad*.5,m.pitch_max_rad]:
+				m.pose(yaw,pitch)
+				var hit := _first_overlap(_mesh_list(m.train),fixed)
+				_check(hit.is_empty(),"%s crosses fixed superstructure at %s: %s" % [m.name,Vector2(yaw,pitch),hit])
+		m.pose(0.,0.)
+	for i: int in range(closed.size()):
+		for j: int in range(i+1,closed.size()):
+			var hit := _first_overlap(_mesh_list(closed[i].train),_mesh_list(closed[j].train))
+			_check(hit.is_empty(),"Neutral models %s and %s overlap: %s" % [closed[i].name,closed[j].name,hit])
+
+func _mesh_list(parent: Node) -> Array[MeshInstance3D]:
+	var out: Array[MeshInstance3D] = []
+	for child: Node in parent.find_children("*","MeshInstance3D",true,false):
+		out.append(child as MeshInstance3D)
+	return out
+
+func _first_overlap(a: Array[MeshInstance3D],b: Array[MeshInstance3D]) -> String:
+	for p: MeshInstance3D in a:
+		var box: AABB = p.global_transform * p.mesh.get_aabb()
+		for q: MeshInstance3D in b:
+			var other: AABB = q.global_transform * q.mesh.get_aabb()
+			if box.intersects(other):
+				return "%s / %s" % [p.name,q.name]
+	return ""
 
 func _check(value: bool,label: String) -> void:
 	checks+=1
