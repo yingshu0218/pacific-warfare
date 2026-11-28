@@ -1,0 +1,309 @@
+{
+  "seed": 1844,
+  "tick_hz": 60,
+  "factions": [
+    "jp",
+    "us"
+  ],
+  "environment": {
+    "sea_level_m": 0,
+    "friendly_fire": false,
+    "solids": [],
+    "terrain_path": "res://data/maps/island_harbor_expanded.json",
+    "view_script": "res://scripts/map02/expanded_map_view.gd"
+  },
+  "fleet_profiles_path": "res://data/expansion/fleet_profiles.json",
+  "id": "s14_expansion_airfield_raid",
+  "spawns": [
+    {
+      "id": "us_b25_1",
+      "unit_definition_id": "us_b25j_1944_07",
+      "faction_id": "us",
+      "position_m": [
+        455,
+        1800,
+        -7320
+      ],
+      "velocity_mps": [
+        75,
+        0,
+        57
+      ],
+      "rotation_rad": [
+        0,
+        -2.220666776206844,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -5900,
+            1800,
+            -9300
+          ]
+        }
+      }
+    },
+    {
+      "id": "us_b25_2",
+      "unit_definition_id": "us_b25j_1944_07",
+      "faction_id": "us",
+      "position_m": [
+        610,
+        1800,
+        -7530
+      ],
+      "velocity_mps": [
+        75,
+        0,
+        57
+      ],
+      "rotation_rad": [
+        0,
+        -2.220666776206844,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -5900,
+            1800,
+            -9300
+          ]
+        }
+      }
+    },
+    {
+      "id": "us_escort_1",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        935,
+        1670,
+        -7115
+      ],
+      "velocity_mps": [
+        85,
+        0,
+        63
+      ],
+      "rotation_rad": [
+        0,
+        -2.20862641887835,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -5900,
+            1800,
+            -9300
+          ]
+        }
+      }
+    },
+    {
+      "id": "us_escort_2",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        1100,
+        1710,
+        -7335
+      ],
+      "velocity_mps": [
+        85,
+        0,
+        63
+      ],
+      "rotation_rad": [
+        0,
+        -2.20862641887835,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -5900,
+            1800,
+            -9300
+          ]
+        }
+      }
+    },
+    {
+      "id": "jp_intercept_1",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        8350,
+        1430,
+        -380
+      ],
+      "velocity_mps": [
+        -92,
+        0,
+        -74
+      ],
+      "rotation_rad": [
+        0,
+        0.8934098880974947,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            12400,
+            1600,
+            2100
+          ]
+        }
+      }
+    },
+    {
+      "id": "jp_intercept_2",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        8750,
+        1510,
+        40
+      ],
+      "velocity_mps": [
+        -92,
+        0,
+        -74
+      ],
+      "rotation_rad": [
+        0,
+        0.8934098880974947,
+        0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            12400,
+            1600,
+            2100
+          ]
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "us_strike",
+      "faction_id": "us",
+      "member_ids": [
+        "us_b25_1",
+        "us_b25_2"
+      ]
+    },
+    {
+      "id": "us_air",
+      "faction_id": "us",
+      "member_ids": [
+        "us_escort_1",
+        "us_escort_2"
+      ]
+    },
+    {
+      "id": "jp_air",
+      "faction_id": "jp",
+      "member_ids": [
+        "jp_intercept_1",
+        "jp_intercept_2"
+      ]
+    }
+  ],
+  "ground_deployments": [
+    {
+      "id": "jp_harbor_aa_service",
+      "site_id": "map02_naval_aa_01",
+      "unit_definition_id": "jp_harbor_light_aa",
+      "faction_id": "jp"
+    },
+    {
+      "id": "jp_harbor_aa_ridge",
+      "site_id": "map02_naval_ridge_aa",
+      "unit_definition_id": "jp_harbor_light_aa",
+      "faction_id": "jp"
+    },
+    {
+      "id": "jp_airfield_aa",
+      "site_id": "map02_airfield_aa_01",
+      "unit_definition_id": "jp_army_airfield_aa",
+      "faction_id": "jp"
+    }
+  ],
+  "bombing_goals": [
+    {
+      "id": "us_strike",
+      "order_type": "bombing",
+      "faction_id": "us",
+      "unit_ids": [
+        "us_b25_1",
+        "us_b25_2"
+      ],
+      "mode": "level",
+      "area_id": "qingjia_army_runway",
+      "area": {
+        "center_m": [
+          6920,
+          8.04,
+          -2390
+        ],
+        "radius_m": 180
+      }
+    }
+  ],
+  "combat_overlay_path": "res://data/combat/s14_bombing.json",
+  "combat_profile_override_ids": [
+    "us_sb2c4_1944"
+  ],
+  "showcase": {
+    "mode": "airfield_raid"
+  },
+  "fleet_overrides": {
+    "commanders": {
+      "jp": {
+        "patrol_center_m": [
+          6650,
+          1700,
+          -2450
+        ],
+        "patrol_radius_m": 2600
+      },
+      "us": {
+        "patrol_center_m": [
+          1700,
+          1800,
+          -6000
+        ],
+        "patrol_radius_m": 2500
+      }
+    }
+  },
+  "presentation": {
+    "title": "青岬空袭",
+    "subtitle": "B-25J · F6F 护航 · A6M 拦截 · 军港及陆军机场防空",
+    "names": {
+      "us_b25_1": "B-25J 1",
+      "us_b25_2": "B-25J 2",
+      "us_escort_1": "F6F-5 护航 1",
+      "us_escort_2": "F6F-5 护航 2",
+      "jp_intercept_1": "A6M5a 截击 1",
+      "jp_intercept_2": "A6M5a 截击 2",
+      "jp_harbor_aa_service": "日海军 · 军港勤务区防空",
+      "jp_harbor_aa_ridge": "日海军 · 军港高地防空",
+      "jp_airfield_aa": "日陆军 · 野战机场外围防空",
+      "us_strike": "B-25J 轰炸编队",
+      "us_air": "F6F 护航编队",
+      "jp_air": "零战拦截编队"
+    },
+    "duration_s": 360,
+    "minimum_duration_s": 230,
+    "disengaged_after_s": 60
+  },
+  "integration_scope": "Fictional gameplay exercise; normal production movement, orders and effects. Initial airborne formations; no scripted outcomes."
+}

@@ -1,4 +1,46 @@
 {
+  "jp_army_airfield_aa": {
+    "builder": "res://scripts/ground/models/jp_army_airfield_aa.gd",
+    "role": "light_aa",
+    "footprint_radius_m": 3.1,
+    "recoil_stroke_m": 0.0,
+    "train_limits_deg": [
+      -180,
+      180
+    ],
+    "elevation_limits_deg": [
+      -5,
+      85
+    ],
+    "mount": {
+      "id": "gun_01",
+      "host_id": "shore_emplacement",
+      "weapon_definition_id": "jp_type98_20mm_field_game",
+      "role": "dedicated_aa",
+      "position_m": [
+        0,
+        0.5,
+        0
+      ],
+      "base_yaw_deg": 0,
+      "elevation_pivot_m": [
+        0,
+        0.36,
+        0
+      ],
+      "muzzle_positions_m": [
+        [
+          0,
+          0,
+          -1.56
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "Visual socket and synthetic game profile; no measured weapon performance."
+      }
+    }
+  },
   "jp_harbor_light_aa": {
     "builder": "res://scripts/ground/models/jp_harbor_light_aa.gd",
     "role": "light_aa",

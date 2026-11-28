@@ -2275,6 +2275,21 @@
       "elevation_rate_degps": 12,
       "initial_rounds_per_barrel": 2000
     },
+    "jp_type98_20mm_field_game": {
+      "cycle_s": 0.5,
+      "range_m": 2500,
+      "dispersion_rad": 0.009,
+      "domains": [
+        "aircraft"
+      ],
+      "dual_purpose": false,
+      "aim_tolerance_rad": 0.0025,
+      "fuze_error_s": 0.18,
+      "reload_track_interval_s": 0.1,
+      "train_rate_degps": 18,
+      "elevation_rate_degps": 12,
+      "initial_rounds_per_barrel": 2000
+    },
     "jp_type96_25mm_single": {
       "cycle_s": 0.5,
       "range_m": 2500,

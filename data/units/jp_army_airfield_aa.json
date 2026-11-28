@@ -1,0 +1,61 @@
+{
+  "id": "jp_army_airfield_aa",
+  "display_name": "日陆军 · 九八式 20 毫米高射机关炮",
+  "country_id": "jp",
+  "domain": "ground",
+  "service_entry_year": 1944,
+  "configuration_date": "1944-06-01",
+  "dimensions_m": [
+    4.7,
+    2.2,
+    4.7
+  ],
+  "model_scene": "res://scenes/ground/jp_army_airfield_aa.tscn",
+  "mounts": [
+    {
+      "id": "gun_01",
+      "host_id": "shore_emplacement",
+      "weapon_definition_id": "jp_type98_20mm_field_game",
+      "role": "dedicated_aa",
+      "position_m": [
+        0,
+        0.5,
+        0
+      ],
+      "base_yaw_deg": 0,
+      "elevation_pivot_m": [
+        0,
+        0.36,
+        0
+      ],
+      "muzzle_positions_m": [
+        [
+          0,
+          0,
+          -1.56
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "Visual socket and synthetic game profile; no measured weapon performance."
+      }
+    }
+  ],
+  "weapon_definitions": [],
+  "historical_fixed_armament": [],
+  "dedicated_aa_game": [
+    {
+      "weapon_definition_id": "jp_type98_20mm_field_game",
+      "mount_count": 1,
+      "barrels_per_mount": 1
+    }
+  ],
+  "dedicated_aa_historical": [],
+  "source": {
+    "status": "provisional",
+    "basis": "Exterior cues only: Australian War Memorial RELAWM36955. Fictional ground emplacement and arcade-only shared 20 mm simulation abstraction.",
+    "paths": [
+      "https://collection.awm.gov.au/C153372"
+    ]
+  }
+}

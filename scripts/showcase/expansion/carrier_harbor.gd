@@ -7,8 +7,8 @@ const OPS_LABELS: Script = preload("res://scripts/showcase/expansion/operations_
 const QINGJIA_TEXT: Script = preload("res://scripts/showcase/qingjia/report_text.gd")
 const QINGJIA_SCENARIO: String = "res://data/scenarios/qj01_qingjia.json"
 const BOMB_MODES: Array[String] = ["attack_sb2c","attack_d4y","attack_g4m","attack_b25","intercept_g4m","intercept_b25"]
-const NEW_MODES: Array[String] = ["harbor","carrier_gunnery","carrier_single","carrier_pair","carrier_partial","inspect_d4y2","inspect_g4m1","inspect_b25j","attack_sb2c","attack_d4y","attack_g4m","attack_b25","intercept_g4m","intercept_b25","qingjia"]
-const NEW_TITLES: Array[String] = ["港湾实战观战","两航母航行与炮战","F6F 单机甲板作业","F6F 双机整波作业","单机出动限制示例","D4Y2 · 模型展示","G4M1 · 模型展示","B-25J · 模型展示","SB2C · 俯冲轰炸","D4Y2 · 俯冲轰炸","G4M1 · 水平轰炸","B-25J · 舰艇轰炸","F6F 截击 G4M1","零战截击 B-25J","青岬归航 · 双机回收"]
+const NEW_MODES: Array[String] = ["harbor","carrier_gunnery","carrier_single","carrier_pair","carrier_partial","inspect_d4y2","inspect_g4m1","inspect_b25j","attack_sb2c","attack_d4y","attack_g4m","attack_b25","intercept_g4m","intercept_b25","qingjia","airfield_raid"]
+const NEW_TITLES: Array[String] = ["港湾实战观战","两航母航行与炮战","F6F 单机甲板作业","F6F 双机整波作业","单机出动限制示例","D4Y2 · 模型展示","G4M1 · 模型展示","B-25J · 模型展示","SB2C · 俯冲轰炸","D4Y2 · 俯冲轰炸","G4M1 · 水平轰炸","B-25J · 舰艇轰炸","F6F 截击 G4M1","零战截击 B-25J","青岬归航 · 双机回收","青岬空袭 · B-25 护航轰炸"]
 var operation_text: Label
 var air_combat_button: Button
 var carrier_menu: OptionButton
@@ -58,7 +58,12 @@ func apply_presentation(events: Array[BattleEvent]) -> void:
 			last_aircraft_contact = {"time_s":event.time_s,"position_m":event.position_m,"surface":event.data.get("surface","")}
 
 func _install_missions() -> void:
-	if session.qingjia_mission != null:
+	if exercise == "airfield_raid":
+		missions = preload("res://scripts/showcase/expansion/airfield_raid_mission.gd").new(exercise)
+		var raid_receipt: Dictionary = session.world.register_module(missions)
+		if not raid_receipt.accepted: push_error("Airfield raid mission: "+str(raid_receipt))
+		session.refresh_view(true)
+	elif session.qingjia_mission != null:
 		missions = ShowcaseMissions.new(exercise)
 	elif session.scenario.has("carrier_operations"):
 		missions = DIRECTOR.new(exercise)
@@ -127,7 +132,17 @@ func _reset_presentation() -> void:
 			map_view.free()
 			map_view = (load(str(session.scenario.environment.get("view_script","res://scripts/presentation/maps/island_harbor_view.gd"))) as Script).new() as IslandHarborView
 			add_child(map_view); map_view.build(terrain)
-		camera.terrain = terrain; hud.set_terrain(terrain, map_view.presentation_viewpoints() if map_view != null else null)
+		camera.terrain = terrain
+		if map_view != null:
+			var points: Array = map_view.presentation_viewpoints().duplicate(true)
+			for point: Dictionary in points:
+				if point.id == "map02_airfield" and session.units.has("jp_airfield_aa"):
+					point.label = "日陆军 · 青岬野战机场"
+				elif point.id == "map02_ridge" and session.units.has("jp_harbor_aa_ridge"):
+					point.label = "日海军 · 军港高地防空"
+			hud.set_terrain(terrain, points)
+		else:
+			hud.set_terrain(terrain)
 		if gallery != null:
 			gallery.free(); gallery = ShowcaseWeaponGallery.new(); add_child(gallery); gallery.build(terrain)
 	super._reset_presentation()

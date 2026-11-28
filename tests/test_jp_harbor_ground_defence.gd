@@ -29,7 +29,13 @@ func _scene() -> void:
 		if unit==null or model==null: continue
 		ids[str(unit.module_data.ground_initial.site_id)] = true
 		_check(unit.faction_id=="jp" and unit.weapons.size()==1,"independent faction unit "+id)
-		_check(model.mount_sockets().size()==1,"visual mount "+id)
+		var army: bool = id == "jp_airfield_aa"
+		var expected: String = "jp_army_airfield_aa" if army else "jp_harbor_light_aa"
+		var weapon: String = "jp_type98_20mm_field_game" if army else "jp_type96_25mm_single"
+		_check(unit.definition_id == expected and model.model_id == expected,"service-specific model "+id)
+		_check(model.mount_sockets().size() == 1 and model.mount_sockets()[0].weapon_definition_id == weapon,"visual mount "+id)
+		_check((model.parts.foundation as Node3D).name == ("ArmyFieldEarthwork" if army else "HarborEmplacement"),"distinct scenery "+id)
+		_check((model.parts.recoil as Node3D).get_child_count() > 0,"renderable weapon "+id)
 		_check(absf(model.position.y-TerrainQueries.height_m(game.session.world,unit.position_m))<.05,"grounded "+id)
 	_check(ids.size()==3,"three separate sites")
 	_check(game.map_view.has_node("HarborTown"),"town still loaded")

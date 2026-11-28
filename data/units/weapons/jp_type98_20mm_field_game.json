@@ -1,0 +1,21 @@
+{
+  "id": "jp_type98_20mm_field_game",
+  "ammo_id": "jp_20mm_type99_2_shell",
+  "barrel_count": 1.0,
+  "cycle_s": 0.25,
+  "initial_rounds_per_barrel": 800.0,
+  "train_limits_deg": [
+    -180,
+    180
+  ],
+  "elevation_limits_deg": [
+    -10.0,
+    85.0
+  ],
+  "train_rate_degps": 20.0,
+  "elevation_rate_degps": 15.0,
+  "source": {
+    "status": "provisional",
+    "note": "Synthetic game-only compatibility values copied from the prior lightweight role. The common 20 mm game projectile is a placeholder, not historical ammunition."
+  }
+}

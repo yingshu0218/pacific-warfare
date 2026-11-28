@@ -769,9 +769,9 @@
     "title": "青岬港湾 · 海空实战",
     "subtitle": "舰队炮战 · 双发轰炸与截击 · 双机空战",
     "names": {
-      "jp_harbor_aa_service": "日方 · 军港勤务区防空",
-      "jp_harbor_aa_ridge": "日方 · 军港高地防空",
-      "jp_airfield_aa": "日方 · 野战机场外围防空",
+      "jp_harbor_aa_service": "日海军 · 军港勤务区防空",
+      "jp_harbor_aa_ridge": "日海军 · 军港高地防空",
+      "jp_airfield_aa": "日陆军 · 野战机场外围防空",
       "jp_bb": "大和",
       "jp_dd": "雪风",
       "us_bb": "衣阿华",
@@ -840,7 +840,7 @@
     {
       "id": "jp_airfield_aa",
       "site_id": "map02_airfield_aa_01",
-      "unit_definition_id": "jp_harbor_light_aa",
+      "unit_definition_id": "jp_army_airfield_aa",
       "faction_id": "jp"
     },
     {
