@@ -10,6 +10,10 @@ func _fly(world: SimulationWorld, unit: UnitState, p: Dictionary, dt: float) -> 
 		if bool(s.on_deck) or operations.terminal_owns(unit): return
 		var before: Basis = unit.world_transform().basis
 		var profile: Dictionary = p.duplicate(true)
+		# Keep the qualified deck chain intact. An airborne retask away
+		# from carrier launch/recovery uses the normal free-flight model.
+		profile["preserve_deck_envelope"] = s.phase in ["climb","return","holding","approach","go_around"] or (
+			s.phase == "mission" and not str(s.sortie_order_id).is_empty() and s.order_id == s.sortie_order_id)
 		if bool(s.flaps_down) or s.phase == "go_around":
 			profile.stall_mps = float(operations.parameters.flaps_stall_mps)
 		if s.phase in ["approach","go_around","climb"]:
@@ -26,6 +30,9 @@ func _fly(world: SimulationWorld, unit: UnitState, p: Dictionary, dt: float) -> 
 		# Super is still the sole translation/force integrator; healthy aircraft
 		# without carrier configuration take the unchanged branch below.
 		var flight: Dictionary = unit.module_data.aircraft_motion
+		if not bool(profile.preserve_deck_envelope):
+			super._fly(world,unit,profile,dt)
+			return
 		if not CarrierConfigurationAttitude.active(s):
 			# Once clean trim is recovered, roster membership imposes no body
 			# rate limit or extra frame reconstruction on combat/patrol flight.
@@ -39,6 +46,7 @@ func _fly(world: SimulationWorld, unit: UnitState, p: Dictionary, dt: float) -> 
 		var aerodynamic: Basis = unit.world_transform().basis
 		var body: Basis = CarrierConfigurationAttitude.airborne(unit,s,aerodynamic,operations.parameters,dt,before)
 		unit.rotation_rad = body.get_euler()
+		flight.body_forward_m = -body.z
 		flight.body_angular_velocity_radps = CarrierConfigurationAttitude.angular_velocity(before,body,dt)
 	else:
 		super._fly(world,unit,p,dt)

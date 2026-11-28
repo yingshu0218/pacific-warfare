@@ -1,8 +1,9 @@
 class_name AircraftMotion
 extends SimulationModule
 
-## Point mass with a transported lift frame: roll tilts lift, lift/gravity bend the
-## real velocity, and thrust/drag/gravity exchange speed and altitude. Zero sideslip.
+## Game flight integrator. The engine pushes along the body nose, not along
+## the path or the pilot's desired heading. Lift, drag and gravity update the
+## existing velocity; the transported lift frame and body pose are separate.
 const G: float = 9.80665
 var performance: AircraftPerformance = AircraftPerformance.new()
 var profiles: Dictionary = {}
@@ -27,7 +28,10 @@ func reset(world_ref: RefCounted) -> void:
 			"fuel_used_kg":0.0,"distance_m":0.0,"propeller_phase_rad":0.0,"exited":false,
 			"speed_mps":unit.velocity_mps.length(),"throttle":0.0,"turn_rate_radps":0.0,
 			"aileron_rad":0.0,"elevator_rad":0.0,"energy_height_m":unit.position_m.y+unit.velocity_mps.length_squared()/(2*G),
-			"forward_m":-basis.z,"lift_up_m":basis.y,"path_pitch_rad":AircraftFlightMath.pitch(-basis.z),
+			"forward_m":unit.velocity_mps.normalized() if unit.velocity_mps.length_squared() > .25 else -basis.z,
+			"lift_up_m":basis.y,"path_pitch_rad":AircraftFlightMath.pitch(unit.velocity_mps),
+			"body_forward_m":-basis.z,"body_pitch_rad":AircraftFlightMath.pitch(-basis.z),
+			"angle_of_attack_rad":0.0,"engine_accel_mps2":Vector3.ZERO,"aerodynamic_rotation_rad":unit.rotation_rad,
 			"height_agl_m":unit.position_m.y-_surface_height(world,unit.position_m),"bank_rad":0.0,"load_factor":1.0,"load_limit":1.0,"stall_margin":1.0,
 			"roll_velocity_radps":0.0,"body_angular_velocity_radps":Vector3.ZERO,"body_roll_rate_radps":0.0,"heading_rate_radps":0.0,"path_pitch_rate_radps":0.0,
 			"vertical_speed_mps":unit.velocity_mps.y,"safety_state":"normal","stalled":false,"path_turn_rate_radps":0.0}
@@ -148,7 +152,6 @@ func _fly(world: SimulationWorld, unit: UnitState, p: Dictionary, dt: float) -> 
 	elif safety == "glide":
 		desired = AircraftFlightMath.elevated(desired,minf(-0.11,AircraftFlightMath.pitch(desired)),forward)
 	var gravity: Vector3 = Vector3.DOWN*G
-	var gravity_normal: Vector3 = gravity-forward*gravity.dot(forward)
 	var pilot: Dictionary = AircraftFlightController.coordinated(forward,up,desired,speed,lift_cap,max_bank,p,flight)
 	if explicit_lift and (safety == "normal" or (safety == "low_altitude_recovery" and bool(control.get("pull_through",false)))):
 		var normal: Vector3 = control.lift_plane_normal
@@ -190,14 +193,49 @@ func _fly(world: SimulationWorld, unit: UnitState, p: Dictionary, dt: float) -> 
 		drag += float(stores.get("brake",0.0))*float(p.get("bomb_brake_drag_mps2",0.0))*pow(speed/100.0,2)
 		drag += (load_ratio-1.0)*parasite
 		thrust /= load_ratio
-	var next_speed: float = maxf(0.5,speed+(thrust-drag+gravity.dot(forward))*dt)
-	var acceleration: Vector3 = up*(load_g*G)+gravity_normal
-	var angle: float = acceleration.length()/maxf(1.0,(speed+next_speed)*0.5)*dt
-	var axis: Vector3 = forward.cross(acceleration).normalized()
-	var next_forward: Vector3 = forward.rotated(axis,angle).normalized() if axis.length_squared() > 0.5 else forward
-	var transported_up: Vector3 = up.rotated(axis,angle) if axis.length_squared() > 0.5 else up
-	var next_basis: Basis = AircraftFlightMath.frame(next_forward,transported_up)
-	var next_velocity: Vector3 = next_forward*next_speed
+	var preserve_deck: bool = bool(p.get("preserve_deck_envelope",false))
+	var engine_accel: Vector3 = Vector3.ZERO
+	var next_velocity: Vector3
+	var next_speed: float
+	var next_forward: Vector3
+	var angle: float
+	var axis: Vector3
+	var path_basis: Basis
+	var next_basis: Basis
+	if preserve_deck:
+		# Retain the accepted launch/return envelope. Upgrading the near-deck
+		# controller requires separate contact and wheel/load validation.
+		engine_accel = forward*thrust
+		next_speed = maxf(0.5,speed+(thrust-drag+gravity.dot(forward))*dt)
+		var perpendicular: Vector3 = up*(load_g*G)+(gravity-forward*gravity.dot(forward))
+		angle = perpendicular.length()/maxf(1.0,(speed+next_speed)*0.5)*dt
+		axis = forward.cross(perpendicular).normalized()
+		next_forward = forward.rotated(axis,angle).normalized() if axis.length_squared() > 0.5 else forward
+		var carried_up: Vector3 = up.rotated(axis,angle) if axis.length_squared() > 0.5 else up
+		path_basis = AircraftFlightMath.frame(next_forward,carried_up)
+		next_basis = path_basis
+		next_velocity = next_forward*next_speed
+	else:
+		engine_accel = -old_basis.z * thrust
+		var acceleration: Vector3 = engine_accel - forward*drag + up*(load_g*G) + gravity
+		next_velocity = unit.velocity_mps + acceleration*dt
+		# Near-zero motion is bounded only to protect the direction solver.
+		if next_velocity.length_squared() < .25:
+			next_velocity = (next_velocity.normalized() if next_velocity.length_squared() > 0.000001 else forward)*.5
+		next_speed = next_velocity.length()
+		next_forward = next_velocity/next_speed
+		angle = forward.angle_to(next_forward)
+		axis = forward.cross(next_forward).normalized()
+		var transported_up: Vector3 = up.rotated(axis,angle) if axis.length_squared() > 0.5 else up
+		path_basis = AircraftFlightMath.frame(next_forward,transported_up)
+		# Small, game-only trim cue: loaded turns can pitch the nose into the pull
+		# before the flight path catches up. This is not a calibrated airfoil polar.
+		var trim_goal: float = deg_to_rad(clampf((load_g-cos(gamma))*1.15,-2.2,3.8))
+		var old_trim: float = atan2((-old_basis.z).dot(basis.y),(-old_basis.z).dot(forward))
+		var trim: float = move_toward(old_trim,trim_goal,deg_to_rad(7.0)*dt)
+		var wanted_body: Basis = path_basis*Basis(Vector3.RIGHT,trim)
+		var pose_step: float = old_basis.get_rotation_quaternion().angle_to(wanted_body.get_rotation_quaternion())
+		next_basis = old_basis.slerp(wanted_body,minf(1.0,deg_to_rad(112.0)*dt/maxf(pose_step,0.000001))).orthonormalized()
 	var travel: Vector3 = (unit.velocity_mps+next_velocity)*(0.5*dt)
 	var previous_position: Vector3 = unit.position_m
 	unit.position_m += travel
@@ -217,9 +255,15 @@ func _fly(world: SimulationWorld, unit: UnitState, p: Dictionary, dt: float) -> 
 	flight.speed_mps = next_speed
 	flight.throttle = throttle
 	flight.forward_m = next_forward
-	flight.lift_up_m = next_basis.y
+	flight.lift_up_m = path_basis.y
+	flight["aerodynamic_rotation_rad"] = path_basis.get_euler()
+	flight["body_forward_m"] = -next_basis.z
+	flight["body_pitch_rad"] = AircraftFlightMath.pitch(-next_basis.z)
+	flight["angle_of_attack_rad"] = atan2((-next_basis.z).dot(path_basis.y),(-next_basis.z).dot(next_forward))
+	flight["engine_accel_mps2"] = engine_accel
+	flight["flight_integration"] = "carrier_precision" if preserve_deck else "body_thrust"
 	flight.path_pitch_rad = AircraftFlightMath.pitch(next_forward)
-	flight.bank_rad = AircraftFlightMath.signed_roll(AircraftFlightMath.level_up(next_forward,next_basis.y),next_basis.y,next_forward)
+	flight.bank_rad = AircraftFlightMath.signed_roll(AircraftFlightMath.level_up(next_forward,path_basis.y),path_basis.y,next_forward)
 	flight.roll_velocity_radps = roll_velocity
 	flight.body_roll_rate_radps = roll_change/dt
 	flight.heading_rate_radps = wrapf(AircraftFlightMath.heading(next_forward)-AircraftFlightMath.heading(forward),-PI,PI)/dt

@@ -26,7 +26,7 @@ func _initialize() -> void:
 		check(int(summary.air_fired) > 20,kind+" real fixed-gun bursts")
 		check(int(summary.air_enemy_hits) > 0,kind+" actual projectile collisions")
 		check(summary.air_fired == summary.inventory_used,kind+" actual ammunition matches fired events")
-		check(float(summary.max_pose_velocity_error_rad) < 0.001,kind+" authority pose and velocity agree")
+		check(float(summary.max_pose_velocity_error_rad) < deg_to_rad(7.0),kind+" authority body and flight path stay within the free-flight trim envelope")
 		check(float(summary.max_gun_forward_error_rad) < 0.035,kind+" bullets follow real 3D fixed-gun forward")
 		check(float(summary.min_friend_m) > 20,kind+" friend safety: "+str(summary.min_friend_m))
 		var up: Dictionary = {"jp":false,"us":false}

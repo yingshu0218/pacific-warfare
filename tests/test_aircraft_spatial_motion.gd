@@ -12,6 +12,7 @@ func check(ok: bool, reason: String) -> void:
 		assert(ok,reason)
 
 func _initialize() -> void:
+	_nose_axis_force()
 	for name: String in ["zoom","dive","oblique","stall","low","vertical","glide"]:
 		var initial: Dictionary = {"fuel_kg":0.0} if name == "glide" else {}
 		var height: float = 200.0 if name == "low" else 2200.0
@@ -39,6 +40,7 @@ func _initialize() -> void:
 		var minimum_speed: float = speed
 		var maximum_g: float = 0.0
 		var max_pose_error: float = 0.0
+		var previous_nose: Vector3 = -Basis.from_euler(unit.rotation_rad).z
 		var max_attitude_step: float = 0.0
 		var safety: Dictionary = {}
 		var previous: Quaternion = Basis.from_euler(unit.rotation_rad).get_rotation_quaternion()
@@ -48,6 +50,10 @@ func _initialize() -> void:
 			var f: Dictionary = unit.module_data.aircraft_motion
 			var basis: Basis = Basis.from_euler(unit.rotation_rad)
 			check(unit.position_m.is_finite() and unit.velocity_mps.is_finite() and basis.is_finite(),name+" finite")
+			var thrust: Vector3 = f.engine_accel_mps2
+			if thrust.length_squared() > 0.000001:
+				check(thrust.normalized().dot(previous_nose) > 0.99999,name+" engine follows nose at tick start")
+			previous_nose = -basis.z
 			var orientation: Quaternion = basis.get_rotation_quaternion()
 			max_attitude_step = maxf(max_attitude_step,previous.angle_to(orientation))
 			previous = orientation
@@ -61,7 +67,9 @@ func _initialize() -> void:
 			safety[str(f.safety_state)] = true
 			if tick%15 == 0:
 				states.append({"time_s":world.time_s(),"position_m":SimData.array3(unit.position_m),"velocity_mps":SimData.array3(unit.velocity_mps),"pitch_deg":pitch,"bank_deg":rad_to_deg(float(f.bank_rad)),"speed_mps":f.speed_mps,"energy_height_m":f.energy_height_m,"load_g":f.load_factor,"safety":f.safety_state})
-		check(max_pose_error < 0.001,name+" velocity/model same direction")
+		check(max_pose_error < deg_to_rad(7.0),name+" airframe stays close to the flight path without snapping onto it")
+		if name in ["oblique","zoom"]:
+			check(max_pose_error > deg_to_rad(.3),name+" banked pull can visibly separate nose and trajectory")
 		check(max_attitude_step < deg_to_rad(2.0),name+" finite orientation steps, including near vertical")
 		check(maximum_g <= 5.501,name+" operating load bound")
 		if name == "zoom":
@@ -85,3 +93,22 @@ func _initialize() -> void:
 	file.store_string(JSON.stringify(evidence,"\t"))
 	print("S04 spatial motion ","PASS" if failures == 0 else "FAIL"," checks=",checks," failures=",failures)
 	quit(0 if failures == 0 else 1)
+
+func _nose_axis_force() -> void:
+	# Same attitude, existing velocity and pilot input; only throttle differs.
+	# Subtraction isolates the engine's real contribution to the next velocity.
+	var results: Array[Vector3] = []
+	var nose: Vector3 = -(Basis(Vector3.RIGHT,deg_to_rad(6.0))).z
+	var expected: Vector3 = Vector3.ZERO
+	for throttle: float in [0.0,1.0]:
+		var row: Dictionary = AircraftFixture.spawn("pilot","jp",Vector3(0,2200,0))
+		row.rotation_rad = [deg_to_rad(6.0),0,0]
+		var world: SimulationWorld = AircraftFixture.world([row])
+		var unit: UnitState = world.get_unit("pilot")
+		unit.module_data["aircraft_control"] = {"flight_direction":Vector3.FORWARD,"throttle":throttle}
+		world.step_ticks(1)
+		results.append(unit.velocity_mps)
+		if throttle > 0: expected = (unit.module_data.aircraft_motion.engine_accel_mps2 as Vector3)*world.fixed_delta_s()
+	var engine_delta: Vector3 = results[1]-results[0]
+	check(engine_delta.distance_to(expected) < 0.00003,"engine force is included in the actual velocity integral")
+	check(engine_delta.y > 0.001 and engine_delta.normalized().dot(nose) > 0.99999,"misaligned engine contributes forward and upward velocity, not a snapped trajectory")
