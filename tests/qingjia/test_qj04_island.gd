@@ -24,7 +24,7 @@ func _run() -> void:
 			changed = true
 			for p: Array in road.points_m:
 				seen[SimData.vec3(p)] = true
-	expect(chart.islands.size()==4 and source.roads.size()==22 and remaining.is_empty(),"All 22 paths connect within the main island network")
+	expect(chart.islands.size()==4 and source.roads.size()==24 and remaining.is_empty(),"All 24 paths connect within the main island network")
 	var facades := {}
 	for obj: Dictionary in source.objects:
 		if not obj.has("frontage_m"): continue
@@ -40,6 +40,18 @@ func _run() -> void:
 			"upland_weather","upland_keeper","upland_water_house","upland_rest",
 			"east_reclamation","quay_extension_n","east_cargo_annex","hospital_main","fire_station","supply_store"]:
 		expect(chart.solids.any(func(v:Dictionary)->bool: return v.id==id),"Compiled chart contains "+id)
+	expect(map.island_view.statistics.canvas_tents == 8,"Eight individually shaped canvas tents")
+	expect(map.island_view.statistics.small_support == 3,"Three support cottages")
+	expect(map.island_view.statistics.traditional_halls == 3,"Three larger timber/tile halls")
+	for row: Dictionary in source.objects:
+		var style := str(row.get("style",""))
+		if style not in ["canvas_tent","camp_one","camp_two","wood_hall"]:
+			continue
+		var at := SimData.vec3(row.position_m)
+		expect(TerrainQueries.land_data(chart,at),"Campus scenery stands on main-island terrain: "+row.id)
+		expect(TerrainQueries.height_data(chart,at) <= at.y+.15, "Campus footing sits at terrain grade: "+row.id)
+		if style == "wood_hall":
+			expect(float(row.visual_size_m[0]) >= 21.0,"Traditional larger building is distinguishable")
 	var port := TerrainQueries.hit_data(chart,Vector3(1199,30,198),Vector3(1199,-5,198),true)
 	expect(str(port.get("target_id",""))=="east_reclamation" and float(port.position_m.y)>5.,"Concrete extension is a contiguous solid surface")
 	var props: Node3D = map.island_view.get_node("StaticCoastalScenery")

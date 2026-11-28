@@ -102,6 +102,32 @@ for street, gap, start in [
             row["frontage_m"]=[round(x,2),0,round(z,2)]
             chart["objects"].append(row);serial+=1
 
+# Preserve the original procedural town sequence: add authored scenery only after
+# the 84 street parcels are generated. These are not combat or support actors.
+chart["roads"] += [
+    dict(id="canvas_court_walk",width_m=5.5,style="local",points_m=[[x,0,z] for x,z in [(448,437),(443,412),(438,389),(429,365),(408,350),(385,350),(372,340),(353,332)]]),
+    dict(id="wood_court_walk",width_m=4.6,style="foot",points_m=[[x,0,z] for x,z in [(783,460),(808,464),(818,478),(829,492),(846,497),(882,495)]]),
+]
+chart["pads"] += [
+    dict(id="canvas_court_w",position_m=[351,25,327],radius_m=29,blend_m=29),
+    dict(id="canvas_court_e",position_m=[392,29,321],radius_m=28,blend_m=39),
+    dict(id="wood_hall_court",position_m=[856,11,491],radius_m=50,blend_m=31),
+]
+for i,(x,z,w,h,d,axis) in enumerate([
+    (332,316,9.4,3.15,6.8,.2),(347,319,8.6,3.0,6.9,.13),
+    (361,318,8.9,3.1,6.9,.08),(332,335,9.2,2.8,6.3,-.16),
+    (349,341,9.3,3.0,7.1,-.28),(373,329,10,3.3,7.2,.44),
+    (391,309,11,3.5,7.7,-.36),(407,318,9.3,3.0,6.5,.26)]):
+    chart["objects"].append(obj(f"canvas_tent_{i+1:02d}","house",x,z,w,h,d,
+                                ["aaa486","b7a988","8e9577","a39a79"][i%4],heading=axis,style="canvas_tent"))
+chart["objects"] += [
+    obj("camp_small_store","house",362,354,15,4.6,8.5,"bcb197",heading=.22,style="camp_one"),
+    obj("camp_small_lodge","house",404,337,15.2,6.3,9.5,"a49b84",heading=-.31,style="camp_two"),
+    obj("camp_small_laundry","house",415,357,10.8,4.2,7.9,"b8b49a",heading=.06,style="camp_one"),
+    obj("town_wood_main","house",855,472,35,8.2,18.5,"9d7856",heading=.03,style="wood_hall"),
+    obj("town_wood_east","house",885,516,24,6.1,13.6,"8c6d52",heading=-.52,style="wood_hall"),
+    obj("town_wood_west","house",837,517,21.3,5.6,13,"a48060",heading=.48,style="wood_hall"),
+]
 views = {v["id"]:v for v in chart["viewpoints"]}
 views["overview"].update(eye_m=[1715,1590,2540],focus_m=[260,21,75])
 views["harbor"].update(label="东港 · 混凝土扩建区",eye_m=[1550,155,334],focus_m=[1110,9,146])
@@ -110,7 +136,11 @@ views["public_street"].update(eye_m=[722,42,756],focus_m=[590,11,554])
 views["shrine"].update(label="山间神社 · 参道与院落",eye_m=[762,99,111],focus_m=[685,50,21])
 chart["viewpoints"] += [
     dict(id="upland",label="山路 · 气象站与远眺",eye_m=[703,177,-128],focus_m=[527,90,-209]),
-    dict(id="shrine_walk",label="神社参道 · 鸟居石阶",eye_m=[670,61,68],focus_m=[684,51,14])]
+    dict(id="shrine_walk",label="神社参道 · 鸟居石阶",eye_m=[670,61,68],focus_m=[684,51,14]),
+    dict(id="camp_court",label="帐篷驻扎场与小楼",eye_m=[439,72,392],focus_m=[374,28,330]),
+    dict(id="camp_canvas",label="驻扎场 · 帆布与木屋",eye_m=[360,34,345],focus_m=[347,27,322]),
+    dict(id="wood_court",label="岛镇 · 日式木构院落",eye_m=[932,57,569],focus_m=[855,14,495]),
+    dict(id="wood_gate",label="木构主厅 · 廊檐与瓦顶",eye_m=[859,22,542],focus_m=[855,16,476])]
 # Conservative rotated bounds feed the existing terrain / overlap test API, while
 # the exterior uses the uninflated authored footprint. The latter stays in the same chart.
 for row in chart["objects"]:
@@ -121,4 +151,4 @@ for row in chart["objects"]:
     row["visual_size_m"]=[w,h,d]
     row["size_m"]=[round(w*ca+d*sa,3),h,round(w*sa+d*ca,3)]
 (root/"data/maps/qj04_island.json").write_text(json.dumps(chart,ensure_ascii=False,separators=(",",":"))+"\n")
-print("QJ04 roads",len(roads),"civil frontage",sum(p["id"].startswith("civil_") for p in chart["objects"]))
+print("QJ04 roads",len(chart["roads"]),"civil frontage",sum(p["id"].startswith("civil_") for p in chart["objects"]))
