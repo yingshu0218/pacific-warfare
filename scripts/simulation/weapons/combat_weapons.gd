@@ -175,24 +175,19 @@ func _update_mount(world: SimulationWorld, unit: UnitState, mount: MountSocket, 
 		if world.shared_state.has("terrain") and not TerrainQueries.segment_hit(world,muzzle.origin,muzzle.origin+direction*400.0,false).is_empty():
 			runtime.mount_status[mount.id] = "terrain_masked"
 			continue
-		# Game-only air-to-air aim variation. Maneuvering adds to the base cone;
-		# all rounds still launch from the real muzzle and must intersect the mesh proxy.
-		# Ground fire, defensive turrets and ships keep their existing parameters.
-		var spread: float = float(p.dispersion_rad) * (1.0 + 4.0 * (1.0 - director))
-		if fixed and contact.domain == "aircraft":
-			var flight: Dictionary = unit.module_data.get("aircraft_motion", {})
-			var angular_rate: Vector3 = flight.get("body_angular_velocity_radps", Vector3.ZERO)
-			var aim_variation: float = 0.040 + minf(0.018, angular_rate.length() * 0.018)
-			spread = sqrt(spread * spread + aim_variation * aim_variation)
-		var scattered: Vector3 = CombatFireControl.scatter(direction, spread, world.rng)
-		# Dispersion cannot open a path through the host hull either.
-		if CombatGeometry.masked(local_muzzle, local_muzzle + transform.basis.inverse() * scattered * 400.0, frame.proxies[unit.id], exclusion):
-			runtime.mount_status[mount.id] = "masked"
-			continue
+		# A fixed aircraft mount only launches down its posed barrel. The
+		# intercept solution gates the shot; it must never steer the round.
+		var launch_direction: Vector3 = direction
+		if not fixed:
+			var spread: float = float(p.dispersion_rad) * (1.0 + 4.0 * (1.0 - director))
+			launch_direction = CombatFireControl.scatter(direction, spread, world.rng)
+			if CombatGeometry.masked(local_muzzle, local_muzzle + transform.basis.inverse() * launch_direction * 400.0, frame.proxies[unit.id], exclusion):
+				runtime.mount_status[mount.id] = "masked"
+				continue
 		var fuze: float = -1.0
 		if aa and float(config.data.ammo_profiles[ammo.id].burst_radius_m) > 0:
 			fuze = clampf(float(solution.time_s) + world.rng.randf_range(-float(p.get("fuze_error_s", 0.15)), float(p.get("fuze_error_s", 0.15))), 0.05, ammo.max_lifetime_s)
-		if projectiles.launch(world, unit, state, ammo, muzzle.origin, scattered, fuze, index, float(solution.time_s)):
+		if projectiles.launch(world, unit, state, ammo, muzzle.origin, launch_direction, fuze, index, float(solution.time_s)):
 			state.remaining_rounds[index] -= 1
 			count += 1
 	if count > 0:

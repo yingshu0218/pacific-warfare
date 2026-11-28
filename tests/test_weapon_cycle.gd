@@ -20,6 +20,36 @@ func gun_world() -> Dictionary:
 	unit.weapons.main_03.enabled=false
 	return a
 
+func fixed_axis_case() -> void:
+	var drift: Vector3 = Vector3(8,0,-95)
+	var a: Dictionary=FIX.arena([FIX.spawn("shooter","us",Vector3(0,100,0),"us_f6f5_1944",drift),
+		FIX.spawn("enemy","jp",Vector3(0,100,-560),"jp_a6m5a_1944",drift)])
+	var world: SimulationWorld=a.world
+	var shooter: UnitState=world.get_unit("shooter")
+	shooter.module_data.combat_intent={"fire":true,"burst_until_tick":60}
+	FIX.target(world,"shooter","enemy")
+	var sockets: Dictionary={}
+	for mount: MountSocket in (a.frame.definitions.shooter as UnitDefinition).mounts:
+		sockets[mount.id]=mount
+	world.step_ticks(16)
+	var observed: int=0
+	var exact: bool=true
+	for event: BattleEvent in world.drain_events():
+		if event.kind!="fired" or event.entity_id!="shooter":continue
+		observed+=1
+		var mount: MountSocket=sockets[event.weapon_id.get_slice("/",1)]
+		var axis: Vector3=-(shooter.world_transform()*mount.local_muzzle_transform(int(event.data.barrel_index),0,0)).basis.z.normalized()
+		var relative: Vector3=(event.data.velocity_mps as Vector3)-drift
+		exact=exact and axis.distance_to(event.data.muzzle_direction)<.00001 and axis.distance_to(relative.normalized())<.00001
+	expect(observed>1 and exact,"Fixed aircraft rounds leave each muzzle strictly along its barrel, before adding platform motion")
+	world.reset()
+	shooter=world.get_unit("shooter")
+	world.get_unit("enemy").position_m += Vector3(230,0,0)
+	shooter.module_data.combat_intent={"fire":true,"burst_until_tick":60}
+	FIX.target(world,"shooter","enemy")
+	world.step_ticks(16)
+	expect(not world.drain_events().any(func(event: BattleEvent)->bool: return event.kind=="fired" and event.entity_id=="shooter"),"Side target does not fire the fixed guns by itself")
+
 func run_test() -> void:
 	var a: Dictionary=gun_world()
 	var world: SimulationWorld=a.world
@@ -66,4 +96,5 @@ func run_test() -> void:
 	for weapon: WeaponState in limited.world.get_unit("shooter").weapons.values():
 		remaining+=weapon.remaining_rounds[0]
 	expect(total==1 and remaining==2399 and limited.projectiles.capacity_rejections>0,"Physical projectile capacity is observable; refused shots do not consume ammunition")
+	fixed_axis_case()
 	finish("weapon cycle")
