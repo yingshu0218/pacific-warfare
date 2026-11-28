@@ -41,6 +41,58 @@
       }
     }
   },
+  "jp_harbor_triple_aa": {
+    "builder": "res://scripts/ground/models/jp_harbor_light_aa.gd",
+    "role": "light_aa",
+    "footprint_radius_m": 3.1,
+    "recoil_stroke_m": 0.0,
+    "train_limits_deg": [
+      -180,
+      180
+    ],
+    "elevation_limits_deg": [
+      -5,
+      85
+    ],
+    "mount": {
+      "id": "gun_01",
+      "host_id": "shore_emplacement",
+      "weapon_definition_id": "jp_type96_25mm_triple",
+      "role": "dedicated_aa",
+      "position_m": [
+        0,
+        0.89,
+        0
+      ],
+      "base_yaw_deg": 0,
+      "elevation_pivot_m": [
+        0,
+        0.55,
+        0
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.33,
+          0,
+          -1.452
+        ],
+        [
+          0,
+          0,
+          -1.452
+        ],
+        [
+          0.33,
+          0,
+          -1.452
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "Game mount coordinates matched to the stylized three-barrel visual; not a historical dimension record."
+      }
+    }
+  },
   "jp_harbor_light_aa": {
     "builder": "res://scripts/ground/models/jp_harbor_light_aa.gd",
     "role": "light_aa",

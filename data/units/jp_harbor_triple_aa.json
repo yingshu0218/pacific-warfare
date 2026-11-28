@@ -1,0 +1,68 @@
+{
+  "id": "jp_harbor_triple_aa",
+  "display_name": "日海军 · 九六式 25 毫米三联装机关炮",
+  "country_id": "jp",
+  "domain": "ground",
+  "service_entry_year": 1944,
+  "configuration_date": "1944-06-01",
+  "dimensions_m": [
+    5.5,
+    3.2,
+    5.5
+  ],
+  "model_scene": "res://scenes/ground/jp_harbor_triple_aa.tscn",
+  "mounts": [
+    {
+      "id": "gun_01",
+      "host_id": "shore_emplacement",
+      "weapon_definition_id": "jp_type96_25mm_triple",
+      "role": "dedicated_aa",
+      "position_m": [
+        0,
+        0.89,
+        0
+      ],
+      "base_yaw_deg": 0,
+      "elevation_pivot_m": [
+        0,
+        0.55,
+        0
+      ],
+      "muzzle_positions_m": [
+        [
+          -0.33,
+          0,
+          -1.452
+        ],
+        [
+          0,
+          0,
+          -1.452
+        ],
+        [
+          0.33,
+          0,
+          -1.452
+        ]
+      ],
+      "source": {
+        "status": "provisional",
+        "basis": "Game mount coordinates matched to the stylized three-barrel visual; not a historical dimension record."
+      }
+    }
+  ],
+  "weapon_definitions": [],
+  "historical_fixed_armament": [],
+  "dedicated_aa_game": [
+    {
+      "weapon_definition_id": "jp_type96_25mm_triple",
+      "mount_count": 1,
+      "barrels_per_mount": 3
+    }
+  ],
+  "dedicated_aa_historical": [],
+  "source": {
+    "status": "provisional",
+    "basis": "Fictional harbor scenery; appearance reference AWM C238576, existing in-game triple mount profile."
+  }
+}

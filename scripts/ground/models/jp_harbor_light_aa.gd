@@ -6,6 +6,7 @@ const GUN: PackedScene = preload("res://scenes/weapons/type96_25mm_single.tscn")
 
 static func build(root: Node3D, spec: Dictionary) -> Dictionary:
 	var colors: Dictionary = P.palette()
+	var triple: bool = spec.mount.muzzle_positions_m.size() == 3
 	var foundation: Node3D = P.node(root,"HarborEmplacement")
 	var masonry: Material = M.material(Color("6b7171"))
 	var trim: Material = M.material(Color("8d8e83"))
@@ -26,18 +27,31 @@ static func build(root: Node3D, spec: Dictionary) -> Dictionary:
 		M.box(foundation,"SteelChest",Vector3(.57,.37,.49),Vector3(side*1.10,.37,1.08),naval)
 		M.box(foundation,"ChestLid",Vector3(.62,.065,.53),Vector3(side*1.10,.583,1.08),trim)
 	var train: Node3D = P.node(root,"TrainPivot",SimData.vec3(spec.mount.position_m))
-	M.box(train,"TurningFrame",Vector3(.84,.23,.68),Vector3(0,.12,.25),colors.paint)
+	M.box(train,"TurningFrame",Vector3(1.48 if triple else .84,.23,.81 if triple else .68),Vector3(0,.12,.25),colors.paint)
+	if triple:
+		M.cylinder(foundation,"TripleBaseRing",.76,.11,Vector3(0,.22,0),naval,16)
+		for side: float in [-1.0,1.0]:
+			M.box(train,"CrewFootplate",Vector3(.42,.08,.56),Vector3(side*.69,.0,.44),colors.steel)
+			M.box(train,"SideGuard",Vector3(.15,.47,.57),Vector3(side*.75,.34,.29),colors.paint)
 	for side: float in [-1.0,1.0]:
 		M.box(train,"Cheek",Vector3(.15,.48,.37),Vector3(side*.36,.36,0),colors.steel)
 	var elevation: Node3D=P.node(train,"ElevationPivot",SimData.vec3(spec.mount.elevation_pivot_m))
 	var recoil: Node3D=P.node(elevation,"RecoilBarrel")
-	recoil.add_child(GUN.instantiate())
-	var muzzle: Marker3D=Marker3D.new()
-	muzzle.name="Muzzle_0"
-	muzzle.position=SimData.vec3(spec.mount.muzzle_positions_m[0])
-	elevation.add_child(muzzle)
+	if triple:
+		M.box(recoil,"CommonCradle",Vector3(1.18,.16,.53),Vector3(0,-.14,.16),colors.steel)
+	var muzzles: Array[Marker3D] = []
+	for index: int in spec.mount.muzzle_positions_m.size():
+		var tip: Vector3 = SimData.vec3(spec.mount.muzzle_positions_m[index])
+		var gun: Node3D = GUN.instantiate() as Node3D
+		gun.position.x = tip.x
+		recoil.add_child(gun)
+		var muzzle: Marker3D = Marker3D.new()
+		muzzle.name = "Muzzle_%d" % index
+		muzzle.position = tip
+		elevation.add_child(muzzle)
+		muzzles.append(muzzle)
 	var seat: Marker3D=Marker3D.new()
 	seat.name="WeaponSeat"
 	seat.position=train.position
 	foundation.add_child(seat)
-	return {"train":train,"elevation":elevation,"recoil":recoil,"muzzle":muzzle,"foundation":foundation,"contacts":[Vector3.ZERO],"seat":seat}
+	return {"train":train,"elevation":elevation,"recoil":recoil,"muzzle":muzzles[0],"muzzles":muzzles,"foundation":foundation,"contacts":[Vector3.ZERO],"seat":seat}

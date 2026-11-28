@@ -770,7 +770,7 @@
     "subtitle": "舰队炮战 · 双发轰炸与截击 · 双机空战",
     "names": {
       "jp_harbor_aa_service": "日海军 · 军港勤务区防空",
-      "jp_harbor_aa_ridge": "日海军 · 军港高地防空",
+      "jp_harbor_aa_ridge": "日海军 · 军港高地九六式三联装",
       "jp_airfield_aa": "日陆军 · 野战机场外围防空",
       "jp_bb": "大和",
       "jp_dd": "雪风",
@@ -834,7 +834,7 @@
     {
       "id": "jp_harbor_aa_ridge",
       "site_id": "map02_naval_ridge_aa",
-      "unit_definition_id": "jp_harbor_light_aa",
+      "unit_definition_id": "jp_harbor_triple_aa",
       "faction_id": "jp"
     },
     {

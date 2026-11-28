@@ -139,7 +139,7 @@ func _reset_presentation() -> void:
 				if point.id == "map02_airfield" and session.units.has("jp_airfield_aa"):
 					point.label = "日陆军 · 青岬野战机场"
 				elif point.id == "map02_ridge" and session.units.has("jp_harbor_aa_ridge"):
-					point.label = "日海军 · 军港高地防空"
+					point.label = "日海军 · 军港高地三联装" if session.world.get_unit("jp_harbor_aa_ridge").definition_id == "jp_harbor_triple_aa" else "日海军 · 军港高地防空"
 			hud.set_terrain(terrain, points)
 		else:
 			hud.set_terrain(terrain)

@@ -13,7 +13,7 @@ func _ready() -> void:
 	parts = builder.build(self,spec)
 	var id: String = str(spec.mount.id)
 	mount_visuals[id] = {"station_id":id,"train_axis":parts.train,"elevation_axes":[parts.elevation],
-		"recoil_axes":[parts.recoil],"recoil_stroke_m":spec.recoil_stroke_m,"muzzles":[parts.muzzle]}
+		"recoil_axes":[parts.recoil],"recoil_stroke_m":spec.recoil_stroke_m,"muzzles":parts.get("muzzles",[parts.muzzle])}
 	StaticModelBatch.apply(self,model_id)
 
 func mount_sockets() -> Array[Dictionary]:
@@ -36,8 +36,10 @@ func apply_weapon_state(id: String, state: Dictionary) -> bool:
 	return true
 
 func muzzle_transform_local(id: String, barrel: int) -> Transform3D:
-	if id != str(spec.mount.id) or barrel != 0: return Transform3D.IDENTITY
-	return global_transform.affine_inverse() * (parts.muzzle as Marker3D).global_transform
+	if not mount_visuals.has(id): return Transform3D.IDENTITY
+	var muzzles: Array = mount_visuals[id].muzzles
+	if barrel < 0 or barrel >= muzzles.size(): return Transform3D.IDENTITY
+	return global_transform.affine_inverse() * (muzzles[barrel] as Marker3D).global_transform
 
 func muzzle_transform_global(id: String, barrel: int) -> Transform3D:
 	return global_transform * muzzle_transform_local(id,barrel)

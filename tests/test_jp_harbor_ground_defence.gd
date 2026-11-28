@@ -30,12 +30,22 @@ func _scene() -> void:
 		ids[str(unit.module_data.ground_initial.site_id)] = true
 		_check(unit.faction_id=="jp" and unit.weapons.size()==1,"independent faction unit "+id)
 		var army: bool = id == "jp_airfield_aa"
-		var expected: String = "jp_army_airfield_aa" if army else "jp_harbor_light_aa"
-		var weapon: String = "jp_type98_20mm_field_game" if army else "jp_type96_25mm_single"
+		var triple: bool = id == "jp_harbor_aa_ridge"
+		var expected: String = "jp_army_airfield_aa" if army else ("jp_harbor_triple_aa" if triple else "jp_harbor_light_aa")
+		var weapon: String = "jp_type98_20mm_field_game" if army else ("jp_type96_25mm_triple" if triple else "jp_type96_25mm_single")
 		_check(unit.definition_id == expected and model.model_id == expected,"service-specific model "+id)
 		_check(model.mount_sockets().size() == 1 and model.mount_sockets()[0].weapon_definition_id == weapon,"visual mount "+id)
 		_check((model.parts.foundation as Node3D).name == ("ArmyFieldEarthwork" if army else "HarborEmplacement"),"distinct scenery "+id)
 		_check((model.parts.recoil as Node3D).get_child_count() > 0,"renderable weapon "+id)
+		if triple:
+			var socket: MountSocket = (game.session.world.unit_definition(expected) as UnitDefinition).mounts[0]
+			_check((model.mount_visuals.gun_01.muzzles as Array).size()==3,"each triple gun exposes a distinct visual muzzle")
+			model.apply_weapon_state("gun_01",{"train_rad":0.24,"elevation_rad":0.35})
+			for idx: int in 3:
+				var visual: Transform3D = model.muzzle_transform_local("gun_01",idx)
+				var simulated: Transform3D = socket.local_muzzle_transform(idx,0.24,0.35)
+				_check(visual.origin.distance_to(simulated.origin)<.001 and visual.basis.z.distance_to(simulated.basis.z)<.001,"triple visual/simulation agree after train and elevation "+str(idx))
+			model.apply_weapon_state("gun_01",{"train_rad":0.0,"elevation_rad":0.0})
 		_check(absf(model.position.y-TerrainQueries.height_m(game.session.world,unit.position_m))<.05,"grounded "+id)
 	_check(ids.size()==3,"three separate sites")
 	_check(game.map_view.has_node("HarborTown"),"town still loaded")
@@ -70,15 +80,19 @@ func _probe(id: String) -> void:
 	_check(errors.is_empty(),id+" init "+str(errors))
 	if not errors.is_empty(): return
 	var fired: int=0
+	var used_barrels: Dictionary={}
 	var active_task: bool=false
 	for i: int in 25*60:
 		session.world.step_ticks(1)
 		var unit: UnitState=session.world.get_unit(id)
 		active_task=active_task or not unit.task.get("ground",{}).is_empty()
 		for event: BattleEvent in session.world.drain_events():
-			if event.entity_id==id and event.kind=="fired" and event.target_id=="qa_air": fired+=1
+			if event.entity_id==id and event.kind=="fired" and event.target_id=="qa_air":
+				fired+=1
+				used_barrels[int(event.data.barrel_index)]=true
 		if fired>0: break
 	_check(active_task and fired>0,id+" independent game fire")
+	if id=="jp_harbor_aa_ridge": _check(used_barrels.has(0) and used_barrels.has(1) and used_barrels.has(2),"all three physical muzzle slots fired")
 	print("PORT07 probe ",id," active=",active_task," fire=",fired)
 
 func _check(ok: bool,msg: String) -> void:
