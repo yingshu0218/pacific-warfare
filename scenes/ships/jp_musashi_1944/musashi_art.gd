@@ -8,8 +8,13 @@ var seam: StandardMaterial3D
 
 # Normalized artistic hull loft: along the ship, deck breadth, sheer, waterline breadth.
 const PROFILE := [
-	Vector4(-1.,.006,11.35,.004),Vector4(-.987,.069,11.04,.024),Vector4(-.960,.167,10.6,.085),
-	Vector4(-.916,.323,10.04,.216),Vector4(-.839,.51,9.31,.421),Vector4(-.745,.705,8.87,.64),
+	Vector4(-1.,.009,11.10,.003),Vector4(-.998,.045,11.088,.012),
+	Vector4(-.994,.080,11.057,.027),Vector4(-.987,.112,10.995,.047),
+	Vector4(-.975,.150,10.87,.074),Vector4(-.958,.197,10.67,.110),
+	Vector4(-.938,.243,10.43,.145),Vector4(-.916,.290,10.17,.185),
+	Vector4(-.886,.359,9.87,.252),Vector4(-.850,.445,9.55,.337),
+	Vector4(-.812,.536,9.26,.440),Vector4(-.777,.627,9.03,.550),
+	Vector4(-.745,.705,8.87,.64),
 	Vector4(-.636,.849,8.86,.79),Vector4(-.505,.934,9.09,.906),Vector4(-.32,.988,9.91,.979),
 	Vector4(-.16,1.,10.31,1.),Vector4(.07,1.,10.38,1.),Vector4(.27,.981,10.28,.971),
 	Vector4(.42,.936,10.13,.923),Vector4(.52,.882,9.68,.861),Vector4(.56,.858,7.28,.827),
@@ -25,7 +30,42 @@ func _stations() -> Array[Vector4]:
 			stations.append(Vector4(v.x*_half_length(),v.y*19.45,v.z,v.w*19.45))
 	return stations
 func _section(row: Vector4,side: float) -> PackedVector3Array:
-	return _draw_section(row,side,9.65,6.05)
+	var points := _draw_section(row,side,9.65,6.05)
+	# Only the visible forward skin is adjusted; no hydrodynamic or internal model.
+	var blend: float = 1.0-smoothstep(-129.0,-94.5,row.x)
+	var tip: float = 1.0-smoothstep(-131.5,-115.,row.x)
+	var water: Vector3 = points[3]
+	water.z += 2.11*tip
+	water.x *= 1.0-.17*blend
+	points[3]=water
+	var join: Vector3 = points[2]
+	join.z += 2.11*tip
+	join.x *= 1.0-.17*blend
+	points[2]=join
+	var shoulder: Vector3 = points[4]
+	shoulder.x=side*lerpf(absf(shoulder.x),lerpf(absf(water.x),row.y,.31),blend)
+	shoulder.z -= .39*tip
+	points[4]=shoulder
+	var lower: Vector3 = water.lerp(shoulder,.48)
+	var upper: Vector3 = shoulder.lerp(points[5],.55)
+	lower.x -= side*.36*blend*clampf(row.y/5.0,0.,1.)
+	lower.z += .47*tip
+	upper.x += side*.44*blend*clampf(row.y/5.0,0.,1.)
+	upper.z -= .39*tip
+	# Resample the exposed stem curve to avoid breaking the highlight at the rings.
+	var control := PackedVector3Array([water,lower,shoulder,upper,points[5]])
+	var skin := PackedVector3Array([points[0],points[1],points[2],water])
+	for i: int in range(control.size()-1):
+		var a: Vector3 = control[i]
+		var b: Vector3 = control[i+1]
+		var prev: Vector3 = control[i-1] if i>0 else a+(a-b)
+		var next: Vector3 = control[i+2] if i+2<control.size() else b+(b-a)
+		for j: int in range(1,5):
+			var t: float = float(j)*.25
+			var q: Vector3 = a.lerp(b,t).lerp(a.cubic_interpolate(b,prev,next,t),blend*.86)
+			q.z = maxf(row.x,q.z) if blend>0. else q.z
+			skin.append(q)
+	return skin
 
 func _ready() -> void:
 	_hull_side = _paint("5d656b")
@@ -47,7 +87,7 @@ func _ready() -> void:
 	_build_waist()
 	_build_aft()
 	_build_exhibits()
-	set_meta("visual_reference","NHHC NH 63473 / NH 73090, October 1944")
+	set_meta("visual_reference","NHHC NH 63473 and L42-08.06.01")
 	set_meta("art_only",true)
 
 func _draw_planks() -> void:
@@ -79,20 +119,75 @@ func _beam_at(z: float) -> float:
 	return rows[-1].y
 
 func _bow_and_anchors() -> void:
-	_hawse_relief(-115.,_beam_at(-115.)*.84,7.85,1.06)
+	var rows:=_stations()
 	for side: float in [-1.,1.]:
-		for i: int in range(17):
-			var z: float = -123.+i*2.13
-			var x: float = side*lerpf(.70,4.3,float(i)/16.)
-			_box("Stowed chain links",Vector3(x,_deck_height(z)+.09,z),Vector3(.27,.12,1.12),_dark)
-		for z: float in [-105.,-98.,-91.,-83.]:
-			var p := Vector3(side*minf(_beam_at(z)*.70,6.5),_deck_height(z)+.31,z)
-			_pipe("Fore mooring capstan",p,.62,.49,.43,1.,_steel)
-			_pipe("Capstan lip",p+Vector3.UP*.34,.15,.52,.49,1.,rim)
+		for i: int in range(1,3):
+			var a: Vector4 = rows[i]
+			var b: Vector4 = rows[i+1]
+			_deck_rail(Vector3(side*maxf(a.y-.21,.06),a.z,a.x),
+				Vector3(side*maxf(b.y-.21,.06),b.z,b.x),1)
+		_bow_hawse(side,-116.6)
+		_bow_chain(side)
+		for z: float in [-122.2,-113.4,-95.9]:
+			var p := Vector3(side*minf(_beam_at(z)*.67,5.4),_deck_height(z)+.23,z)
+			_octagon("Low mooring shoe",p-Vector3.UP*.10,1.20,.24,1.74,.32,_steel)
+			for pz: float in [-.37,.37]:
+				_pipe("Mooring head",p+Vector3(0,.20,pz),.46,.26,.24,1.,_steel)
 		for z: float in [-90.,-81.,-42.,-32.,46.,56.,82.,101.]:
 			var p := Vector3(side*_beam_at(z)*.72,_deck_height(z)+.22,z)
 			_octagon("Folded hatch rim",p,1.76,.44,2.13,.29,_steel)
-	_spar("Jackstaff",Vector3(0,11.27,-130.),Vector3(0,15.94,-130.),.14,_dark)
+		var lean := Vector3(side*.68,_deck_height(-128.7)+.05,-128.7)
+		_spar("Flagstaff foot stay",lean,Vector3(0,12.25,-130.0),.091,_steel)
+	var at := Vector3(0,_deck_height(-130.15),-130.15)
+	_pipe("Flagstaff mounting pad",at+Vector3.UP*.13,.28,.31,.22,1.,_steel)
+	_spar("Jackstaff",at,at+Vector3.UP*4.55,.128,_dark)
+
+func _bow_hawse(side: float,z: float) -> void:
+	# Shaded shallow exterior relief, fitted to the visible swept hull face.
+	var p: Vector3 = _bow_face_point(side,z,.31)
+	var before: Vector3 = _bow_face_point(side,z-.4,.31)
+	var after: Vector3 = _bow_face_point(side,z+.4,.31)
+	var up: Vector3 = _bow_face_point(side,z,.51)-p
+	var n: Vector3 = up.cross(after-before).normalized()*side
+	var d: float = .125
+	var rim_part := _pipe("Oval anchor recess rim",p+n*d,.21,1.13,1.06,.68,_steel)
+	rim_part.quaternion=Quaternion(Vector3.UP,n)
+	var dark_part := _pipe("Inset dark anchor recess",p+n*(d+.10),.048,.79,.78,.70,glass)
+	dark_part.quaternion=rim_part.quaternion
+	var below: Vector3 = p+n*.37-Vector3.UP*1.21
+	_spar("Flat stowed anchor shank",p+n*.35+Vector3.UP*.30,below,.23,_dark)
+	for t: float in [-1.,1.]:
+		_spar("Flat anchor fluke",below,below+Vector3(0,.43,t*.59),.166,_steel)
+
+func _bow_face_point(side: float,z: float,up: float) -> Vector3:
+	var rows:=_stations()
+	for i: int in range(1,rows.size()):
+		if z<=rows[i].x:
+			var a: PackedVector3Array = _section(rows[i-1],side)
+			var b: PackedVector3Array = _section(rows[i],side)
+			var f: float = inverse_lerp(rows[i-1].x,rows[i].x,z)
+			return a[11].lerp(a[15],up).lerp(b[11].lerp(b[15],up),f)
+	return Vector3.ZERO
+
+func _bow_chain(side: float) -> void:
+	var path := PackedVector2Array([Vector2(2.70,-122.7),Vector2(3.38,-119.4),Vector2(3.75,-114.8),
+		Vector2(3.73,-108.0),Vector2(3.64,-100.1),Vector2(3.65,-95.9)])
+	for i: int in range(path.size()-1):
+		var a: Vector2=path[i]
+		var b: Vector2=path[i+1]
+		var parts: int=ceili(a.distance_to(b)/.45)
+		for j: int in range(parts):
+			var q: Vector2=a.lerp(b,float(j)/parts)
+			var z: float=q.y
+			var piece := _box("Deck chain link relief",Vector3(side*q.x,_deck_height(z)+.087,z),
+				Vector3(.28 if j%2==0 else .15,.11,.42),_dark)
+			piece.rotation.y=atan2(side*(b.x-a.x),b.y-a.y)
+	var roller := Vector3(side*2.54,_deck_height(-123.0)+.16,-123.0)
+	_octagon("Low chain guide rim",roller,1.18,.33,1.39,.26,_steel)
+	_disc("Chain guide shadow",roller+Vector3.UP*.17,.43,.038,Vector3.UP,glass)
+	var p := Vector3(side*3.65,_deck_height(-95.9)+.23,-95.9)
+	_pipe("Paired chain capstan",p,.41,.72,.62,1.,_steel)
+	_pipe("Chain capstan top lip",p+Vector3.UP*.23,.17,.75,.67,1.,rim)
 
 func _build_bridge() -> void:
 	_group = _layer("Tall armored bridge and observation galleries")

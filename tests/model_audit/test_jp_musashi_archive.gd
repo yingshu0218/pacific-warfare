@@ -19,6 +19,7 @@ func _run() -> void:
 	for name_id: String in ["Canted single funnel shell","Sloped enclosed command tower",
 			"Aft recessed handling platform","Inset longitudinal planking cues","Crane tower"]:
 		_check(ship.find_child(name_id,true,false)!=null,"Missing distinct exterior: "+name_id)
+	_check_forecastle(ship)
 	var mounts := ship.get_node_or_null("ArchiveGunPivots")
 	_check(mounts!=null,"No decorative pose group")
 	if mounts != null:
@@ -39,6 +40,23 @@ func _run() -> void:
 	print("JP_MUSASHI_ARCHIVE checks=",checks," failures=",errors)
 	ship.free()
 	quit(1 if errors else 0)
+
+func _check_forecastle(ship: Node3D) -> void:
+	var rows: Array[Vector4] = ship._stations()
+	_check(rows[0].x < rows[1].x and rows[1].y > rows[0].y, "Nose rounds into the deck")
+	_check(rows[0].z > rows[8].z, "Forecastle swept sheer")
+	var mirrored: bool = true
+	var monotone: bool = true
+	for i: int in range(11):
+		var left: PackedVector3Array = ship._section(rows[i],-1.)
+		var right: PackedVector3Array = ship._section(rows[i],1.)
+		for j: int in range(3,right.size()):
+			mirrored = mirrored and (right[j]*Vector3(-1.,1.,1.)).is_equal_approx(left[j])
+			if j>3:
+				monotone = monotone and right[j].y >= right[j-1].y
+	_check(mirrored and monotone,"Continuous mirrored exposed skin")
+	_check(ship.find_children("Oval anchor recess rim*","MeshInstance3D",true,false).size()==2,"Separate anchors on both sides")
+	_check(ship.find_children("Paired chain capstan*","MeshInstance3D",true,false).size()==2,"Paired on-deck chain details")
 
 func _check_display_clearance(ship: Node3D,mounts: Node) -> void:
 	# Deliberately conservative mesh bounds, not a physical collision model.
