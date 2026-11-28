@@ -1,0 +1,954 @@
+{
+  "id": "qj02_geography",
+  "seed": 707,
+  "tick_hz": 60,
+  "factions": [
+    "jp",
+    "us"
+  ],
+  "spawns": [
+    {
+      "id": "jp_bb",
+      "unit_definition_id": "jp_yamato_1944_04",
+      "faction_id": "jp",
+      "position_m": [
+        -1900,
+        0,
+        -1800
+      ],
+      "rotation_rad": [
+        0,
+        -1.57,
+        0
+      ],
+      "velocity_mps": [
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "jp_dd",
+      "unit_definition_id": "jp_yukikaze_1942_06",
+      "faction_id": "jp",
+      "position_m": [
+        -1550,
+        0,
+        -1200
+      ],
+      "rotation_rad": [
+        0,
+        -1.57,
+        0
+      ],
+      "velocity_mps": [
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "us_bb",
+      "unit_definition_id": "us_iowa_bb61_1944_12_28",
+      "faction_id": "us",
+      "position_m": [
+        4000,
+        0,
+        0
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -10
+      ]
+    },
+    {
+      "id": "us_dd",
+      "unit_definition_id": "us_fletcher_dd445_1942_07_18",
+      "faction_id": "us",
+      "position_m": [
+        4000,
+        0,
+        700
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -10
+      ]
+    },
+    {
+      "id": "us_air_1",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        -5260,
+        1830,
+        3260
+      ],
+      "rotation_rad": [
+        0,
+        0.0,
+        0
+      ],
+      "velocity_mps": [
+        0.0,
+        0,
+        -115.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "jp_air_1",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        -9500,
+        1800,
+        16100
+      ],
+      "rotation_rad": [
+        0,
+        0.0,
+        0
+      ],
+      "velocity_mps": [
+        0.0,
+        0,
+        -127.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "us_air_2",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        -5075,
+        1910,
+        3470
+      ],
+      "rotation_rad": [
+        0,
+        0.0,
+        0
+      ],
+      "velocity_mps": [
+        0.0,
+        0,
+        -115.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "jp_air_2",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        -9270,
+        1870,
+        16360
+      ],
+      "rotation_rad": [
+        0,
+        0.0,
+        0
+      ],
+      "velocity_mps": [
+        0.0,
+        0,
+        -127.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "us_air_3",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        1140,
+        1890,
+        3580
+      ],
+      "rotation_rad": [
+        0,
+        1.0164888305933455,
+        0
+      ],
+      "velocity_mps": [
+        -102.882083,
+        0,
+        -63.688908
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "jp_air_3",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        -960,
+        1690,
+        2280
+      ],
+      "rotation_rad": [
+        0,
+        -2.125103822996448,
+        0
+      ],
+      "velocity_mps": [
+        100.331287,
+        0,
+        62.109845
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "us_air_4",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        1380,
+        2020,
+        3760
+      ],
+      "rotation_rad": [
+        0,
+        1.0164888305933455,
+        0
+      ],
+      "velocity_mps": [
+        -102.882083,
+        0,
+        -63.688908
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "jp_air_4",
+      "unit_definition_id": "jp_a6m5a_1944",
+      "faction_id": "jp",
+      "position_m": [
+        -1180,
+        1840,
+        2100
+      ],
+      "rotation_rad": [
+        0,
+        -2.125103822996448,
+        0
+      ],
+      "velocity_mps": [
+        100.331287,
+        0,
+        62.109845
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "us_pair_demo_1",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        -1500,
+        1600,
+        11500
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        -0.0,
+        0,
+        -100.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "us_sb2c_1",
+      "unit_definition_id": "us_sb2c4_1944",
+      "faction_id": "us",
+      "position_m": [
+        1300,
+        1100,
+        9700
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        -0.0,
+        0,
+        -80.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "us_pair_demo_2",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        -1430,
+        1650,
+        11610
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        -0.0,
+        0,
+        -100.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "us_sb2c_2",
+      "unit_definition_id": "us_sb2c4_1944",
+      "faction_id": "us",
+      "position_m": [
+        1390,
+        1220,
+        9880
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        -0.0,
+        0,
+        -80.0
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            10000,
+            1500,
+            8500
+          ],
+          "withdrawal_radius_m": 650
+        }
+      }
+    },
+    {
+      "id": "us_cv",
+      "unit_definition_id": "us_essex_cv9_1944_04_15",
+      "faction_id": "us",
+      "position_m": [
+        10500,
+        0,
+        9500
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -15
+      ]
+    },
+    {
+      "id": "jp_cv",
+      "unit_definition_id": "jp_shokaku_1941_08_23",
+      "faction_id": "jp",
+      "position_m": [
+        -9500,
+        0,
+        9500
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -15
+      ]
+    },
+    {
+      "id": "us_deck_1",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        10497,
+        17.05307743549347,
+        9575
+      ],
+      "rotation_rad": [
+        0.168342307209969,
+        0.0,
+        0.0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -15
+      ],
+      "module_data": {
+        "carrier_initial": {
+          "carrier_id": "us_cv"
+        }
+      }
+    },
+    {
+      "id": "us_deck_2",
+      "unit_definition_id": "us_f6f5_1944",
+      "faction_id": "us",
+      "position_m": [
+        10497,
+        17.05307743549347,
+        9605
+      ],
+      "rotation_rad": [
+        0.168342307209969,
+        0.0,
+        0.0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -15
+      ],
+      "module_data": {
+        "carrier_initial": {
+          "carrier_id": "us_cv"
+        }
+      }
+    },
+    {
+      "id": "jp_g4m_1",
+      "unit_definition_id": "jp_g4m1_1942_07",
+      "faction_id": "jp",
+      "position_m": [
+        -5300,
+        1800,
+        -400
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -87
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -5300,
+            1800,
+            6500
+          ]
+        }
+      }
+    },
+    {
+      "id": "jp_g4m_2",
+      "unit_definition_id": "jp_g4m1_1942_07",
+      "faction_id": "jp",
+      "position_m": [
+        -5080,
+        1800,
+        -320
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -87
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -5080,
+            1800,
+            6580
+          ]
+        }
+      }
+    },
+    {
+      "id": "us_b25_1",
+      "unit_definition_id": "us_b25j_1944_07",
+      "faction_id": "us",
+      "position_m": [
+        -9500,
+        1640,
+        15000
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -95
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -9500,
+            1800,
+            18100
+          ]
+        }
+      }
+    },
+    {
+      "id": "us_b25_2",
+      "unit_definition_id": "us_b25j_1944_07",
+      "faction_id": "us",
+      "position_m": [
+        -9260,
+        1800,
+        15080
+      ],
+      "rotation_rad": [
+        0,
+        0,
+        0
+      ],
+      "velocity_mps": [
+        0,
+        0,
+        -95
+      ],
+      "module_data": {
+        "aircraft_initial": {
+          "withdrawal_center_m": [
+            -9260,
+            1800,
+            18180
+          ]
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "jp_fleet",
+      "faction_id": "jp",
+      "member_ids": [
+        "jp_bb",
+        "jp_dd"
+      ]
+    },
+    {
+      "id": "jp_air",
+      "faction_id": "jp",
+      "member_ids": [
+        "jp_air_1",
+        "jp_air_2",
+        "jp_air_3",
+        "jp_air_4"
+      ]
+    },
+    {
+      "id": "us_fleet",
+      "faction_id": "us",
+      "member_ids": [
+        "us_bb",
+        "us_dd"
+      ]
+    },
+    {
+      "id": "us_air",
+      "faction_id": "us",
+      "member_ids": [
+        "us_air_1",
+        "us_air_2",
+        "us_air_3",
+        "us_air_4"
+      ]
+    },
+    {
+      "id": "jp_pair_1",
+      "faction_id": "jp",
+      "member_ids": [
+        "jp_air_1",
+        "jp_air_2"
+      ]
+    },
+    {
+      "id": "jp_pair_2",
+      "faction_id": "jp",
+      "member_ids": [
+        "jp_air_3",
+        "jp_air_4"
+      ]
+    },
+    {
+      "id": "us_pair_1",
+      "faction_id": "us",
+      "member_ids": [
+        "us_air_1",
+        "us_air_2"
+      ]
+    },
+    {
+      "id": "us_pair_2",
+      "faction_id": "us",
+      "member_ids": [
+        "us_air_3",
+        "us_air_4"
+      ]
+    },
+    {
+      "id": "us_garrison",
+      "faction_id": "us",
+      "member_ids": [
+        "us_coast_01",
+        "us_aa_01",
+        "us_aa_02"
+      ]
+    },
+    {
+      "id": "us_cruise_pair",
+      "faction_id": "us",
+      "member_ids": [
+        "us_pair_demo_1",
+        "us_pair_demo_2"
+      ]
+    },
+    {
+      "id": "us_strike",
+      "faction_id": "us",
+      "member_ids": [
+        "us_sb2c_1",
+        "us_sb2c_2"
+      ]
+    },
+    {
+      "id": "jp_level_strike",
+      "faction_id": "jp",
+      "member_ids": [
+        "jp_g4m_1",
+        "jp_g4m_2"
+      ]
+    },
+    {
+      "id": "us_level_strike",
+      "faction_id": "us",
+      "member_ids": [
+        "us_b25_1",
+        "us_b25_2"
+      ]
+    }
+  ],
+  "presentation": {
+    "title": "青岬群岛 · 海陆空试玩",
+    "subtitle": "虚构的太平洋群岛。军港藏在峡湾深处，东岬机场与沿岸居民小镇同图呈现。",
+    "names": {
+      "jp_harbor_aa_service": "日海军 · 军港勤务区防空",
+      "jp_harbor_aa_ridge": "日海军 · 军港高地九六式三联装",
+      "jp_airfield_aa": "日陆军 · 野战机场外围防空",
+      "jp_bb": "大和",
+      "jp_dd": "雪风",
+      "us_bb": "衣阿华",
+      "us_dd": "弗莱彻",
+      "jp_fleet": "日方舰队",
+      "us_fleet": "美方舰队",
+      "jp_air": "零战四机队",
+      "us_air": "地狱猫四机队",
+      "jp_air_1": "零战 1 号",
+      "jp_air_2": "零战 2 号",
+      "jp_air_3": "零战 3 号",
+      "jp_air_4": "零战 4 号",
+      "us_air_1": "地狱猫 1 号",
+      "us_air_2": "地狱猫 2 号",
+      "us_air_3": "地狱猫 3 号",
+      "us_air_4": "地狱猫 4 号",
+      "jp_pair_1": "零战第1双机组",
+      "jp_pair_2": "零战第2双机组",
+      "us_pair_1": "地狱猫第1双机组",
+      "us_pair_2": "地狱猫第2双机组",
+      "us_coast_01": "港口 Mk13 岸炮",
+      "us_aa_01": "港区 M1 防空一组",
+      "us_aa_02": "港区 M1 防空二组",
+      "us_garrison": "美方岸防驻军",
+      "us_pair_demo_1": "巡航双机 1",
+      "us_sb2c_1": "SB2C-4 1 号",
+      "us_pair_demo_2": "巡航双机 2",
+      "us_sb2c_2": "SB2C-4 2 号",
+      "us_cruise_pair": "巡航双机组",
+      "us_strike": "SB2C 俯冲轰炸队",
+      "us_cv": "埃塞克斯 CV-9 · 1944-04-15",
+      "jp_cv": "翔鹤 · 1941-08-23",
+      "us_deck_1": "甲板 F6F 1号",
+      "us_deck_2": "甲板 F6F 2号",
+      "jp_g4m_1": "G4M1 1 号",
+      "jp_g4m_2": "G4M1 2 号",
+      "jp_level_strike": "G4M1 双机轰炸队",
+      "us_b25_1": "B-25J 1 号",
+      "us_b25_2": "B-25J 2 号",
+      "us_level_strike": "B-25J 双机轰炸队"
+    },
+    "duration_s": 3600,
+    "disengaged_after_s": 120,
+    "minimum_duration_s": 3600
+  },
+  "environment": {
+    "sea_level_m": 0,
+    "friendly_fire": false,
+    "solids": [],
+    "terrain_path": "res://data/maps/qj02_geography.json",
+    "view_script": "res://scripts/qingjia/geography_view.gd"
+  },
+  "ground_deployments": [
+    {
+      "id": "jp_harbor_aa_service",
+      "site_id": "map02_naval_aa_01",
+      "unit_definition_id": "jp_harbor_light_aa",
+      "faction_id": "jp"
+    },
+    {
+      "id": "jp_harbor_aa_ridge",
+      "site_id": "map02_naval_ridge_aa",
+      "unit_definition_id": "jp_harbor_triple_aa",
+      "faction_id": "jp"
+    },
+    {
+      "id": "jp_airfield_aa",
+      "site_id": "map02_airfield_aa_01",
+      "unit_definition_id": "jp_army_airfield_aa",
+      "faction_id": "jp"
+    },
+    {
+      "id": "us_coast_01",
+      "site_id": "map02_civil_coast_01",
+      "unit_definition_id": "us_5in51_mk13mod4_1945",
+      "faction_id": "us"
+    },
+    {
+      "id": "us_aa_01",
+      "site_id": "map02_town_aa_01",
+      "unit_definition_id": "us_40mm_m1_m2a1_1944",
+      "faction_id": "us"
+    },
+    {
+      "id": "us_aa_02",
+      "site_id": "map02_main_ridge_aa",
+      "unit_definition_id": "us_40mm_m1_m2a1_1944",
+      "faction_id": "us"
+    }
+  ],
+  "fleet_overrides": {
+    "commanders": {
+      "jp": {
+        "postures": {
+          "fleet": "auto",
+          "air": "auto"
+        },
+        "patrol_center_m": [
+          -1800,
+          0,
+          -1700
+        ],
+        "patrol_radius_m": 550,
+        "carrier_station": {
+          "center_m": [
+            -9500,
+            0,
+            9200
+          ],
+          "radius_m": 700.0
+        }
+      },
+      "us": {
+        "postures": {
+          "fleet": "auto",
+          "air": "auto"
+        },
+        "patrol_center_m": [
+          1500,
+          0,
+          -1800
+        ],
+        "patrol_radius_m": 700,
+        "carrier_station": {
+          "center_m": [
+            10500,
+            0,
+            9200
+          ],
+          "radius_m": 700.0
+        }
+      }
+    }
+  },
+  "aircraft_tasks_script": "res://scripts/showcase/sb2c_showcase_tasks.gd",
+  "combat_overlay_path": "res://data/combat/s14_bombing.json",
+  "showcase": {
+    "mode": "harbor"
+  },
+  "carrier_operations": {
+    "carrier_id": "us_cv",
+    "stage": "zero_environment_wind_complete_f6f_wave_only"
+  },
+  "fleet_profiles_path": "res://data/expansion/fleet_profiles.json",
+  "bombing_goals": [
+    {
+      "id": "jp_level_strike",
+      "order_type": "bombing",
+      "faction_id": "jp",
+      "unit_ids": [
+        "jp_g4m_1",
+        "jp_g4m_2"
+      ],
+      "mode": "level",
+      "target_id": "us_aa_01"
+    },
+    {
+      "id": "us_level_strike",
+      "order_type": "bombing",
+      "faction_id": "us",
+      "unit_ids": [
+        "us_b25_1",
+        "us_b25_2"
+      ],
+      "mode": "level",
+      "target_id": "jp_cv"
+    },
+    {
+      "id": "us_strike",
+      "order_type": "bombing",
+      "faction_id": "us",
+      "unit_ids": [
+        "us_sb2c_1",
+        "us_sb2c_2"
+      ],
+      "mode": "dive",
+      "target_id": "jp_dd"
+    }
+  ]
+}
