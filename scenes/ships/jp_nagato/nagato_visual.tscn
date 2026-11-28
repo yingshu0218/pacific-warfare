@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scenes/ships/jp_nagato/nagato_art.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/presentation/models/archive_finish_hook.gd" id="2"]
+
+[node name="NagatoExterior" type="Node3D"]
+script = ExtResource("1")
+
+[node name="ArchiveFinish" type="Node" parent="."]
+script = ExtResource("2")
+domain = "ship"

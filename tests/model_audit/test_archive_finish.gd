@@ -18,7 +18,7 @@ func _run() -> void:
 		_check(not seen.has(item.id), "Duplicate model " + str(item.id))
 		seen[item.id] = true
 		await _audit(item)
-	_check(counts.ship == 37 and counts.aircraft == 17, "Expected 37 ships and 17 aircraft")
+	_check(counts.ship == 38 and counts.aircraft == 18, "Expected 38 ships and 18 aircraft")
 	await _check_gallery_controls()
 	print("ARCHIVE_FINISH_RESULT ", counts, " failures=", errors)
 	quit(0 if errors == 0 else 1)
@@ -74,7 +74,7 @@ func _check_gallery_controls() -> void:
 	var gallery: Node3D = scene.instantiate() as Node3D
 	root.add_child(gallery)
 	await process_frame
-	_check(gallery.picker.item_count == 54, "Full gallery selector missing entries")
+	_check(gallery.picker.item_count == 56, "Full gallery selector missing entries")
 	var model: Node3D = gallery.model
 	var key := InputEventKey.new()
 	key.pressed = true
