@@ -1,4 +1,4 @@
-extends "res://aircraft/us_archive/visual_parts.gd"
+extends "res://aircraft/us_archive/batch_airframe_finish.gd"
 ## Late-war FM-2 visual study. The wings are spread; no runtime aircraft or weapons.
 const LABEL: String = "FM-2 Wildcat / Pacific, 1944"
 const SPAN_M: float = 11.58
@@ -25,8 +25,7 @@ const CANOPY: Array = [
 @export var display_gear_down: bool = false
 
 func _ready() -> void:
-	_set_paint(Color("354d62"),Color("98a4a5"))
-	paint.glass.albedo_color = Color("51717e")
+	_set_batch_paint(Color("496276"),Color("8395a0"))
 	paint.rubber = GEO.material(Color("232a2b"))
 	var body: Node3D = GEO.group(self,"Fuselage")
 	var tail: Node3D = GEO.group(self,"TallEmpennage")
@@ -42,6 +41,8 @@ func _ready() -> void:
 		_wing(wings,"RoundedMainplane",WING,side)
 		_wing(tail,"Tailplane",TAIL,side)
 		_wing_seam(wings,WING,side,2.82)
+		_wing_hinge_line(wings,WING,side,2.88,5.37,.75,.011)
+		_wing_hinge_line(tail,TAIL,side,.49,1.86,.73,.009)
 		_star_bar(marks,"body",BODY,Vector2(.75,.29),.30,side)
 		var tip: Vector3 = GEO.wing_point(WING,5.71,.43,true)
 		tip.x *= side

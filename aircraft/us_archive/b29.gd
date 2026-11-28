@@ -1,4 +1,4 @@
-extends "res://aircraft/us_archive/visual_parts.gd"
+extends "res://aircraft/us_archive/batch_airframe_finish.gd"
 ## Representative standard 1945 B-29 exterior. Static art, not a simulation unit.
 const LABEL: String = "B-29 Superfortress / Marianas, 1945"
 const LENGTH_M: float = 30.1752
@@ -32,11 +32,7 @@ const NACELLE: Array = [
 @export var parked_gear: bool = false
 
 func _ready() -> void:
-	_set_paint(Color("aab0ac"),Color("8a9390"))
-	paint.skin.metallic = .14
-	paint.skin.roughness = .60
-	paint.metal.roughness = .60
-	paint.glass.albedo_color = Color("283d49")
+	_set_batch_paint(Color("afbac0"),Color("929fa7"))
 	var fuselage: Node3D = GEO.group(self,"PressurizedFuselage")
 	_body(fuselage,"AluminumShell",BODY)
 	_nose_windows(fuselage)
@@ -64,7 +60,7 @@ func _ready() -> void:
 		[3.6504,10.33,14.09,.171],[4.1698,10.76,13.91,.145],[4.6559,11.13,13.62,.111],
 		[5.0089,11.57,13.27,.081],[5.2353,11.98,12.86,.053],[5.2886,12.23,12.62,.025]])
 	for side: float in [-1.,1.]:
-		GEO.rod(tail,"RudderJoint",Vector3(side*.19,1.84,13.24),Vector3(side*.059,5.05,12.72),.022,paint.seam)
+		GEO.rod(tail,"RudderJoint",Vector3(side*.19,1.84,13.24),Vector3(side*.059,5.05,12.72),.016,paint.seam)
 	if parked_gear: _landing_display(GEO.group(self,"ParkedGearDisplay"))
 	else: _retracted_door_seams(fuselage)
 
@@ -101,9 +97,8 @@ func _nose_windows(host: Node3D) -> void:
 	_pane(host,14.42,14.82,-.53,.53,"TailObserverPane")
 
 func _detail_fuselage(host: Node3D) -> void:
-	var silver: StandardMaterial3D = GEO.material(Color("a1a7a4"),.20)
 	for z: float in [-10.40,-6.55,-2.76,2.16,6.45,9.69,12.20]:
-		GEO.arch(host,"SkinJoin",BODY,z,.029,silver)
+		GEO.arch(host,"SkinJoin",BODY,z,.019,paint.panel)
 	# Neutral low fairing forms identify the standard exterior in profile.
 	for z: float in [-8.15,4.73]:
 		var row: Array = GEO.sample(BODY,z)

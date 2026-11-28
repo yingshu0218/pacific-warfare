@@ -10,3 +10,7 @@
 FM-2 参考 [美国海军航空博物馆太平洋馆藏](https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/f/fm-2-wildcat--pacific-island-.html)、[美国海军档案照片 80-G-287594](https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nara-series/80-g/80-g-280000/80-G-287594.html) 和 [American Heritage Museum 展翼规格](https://www.americanheritagemuseum.org/aircrafts/grumman-fm-2-wildcat/)。PBY-5A 参考 [美国海军航空博物馆 5A 型](https://www.history.navy.mil/content/history/museums/nnam/explore/collections/aircraft/p/pby-5a-catalina.html) 和 [海军档案照片 80-G-K-15434](https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/80-G-K-15000/80-G-K-15434.html)。机号、面板分缝和局部尺寸不宣称精确复原；不属于工程或性能资料。
 
 Godot 4.7.2 独立加载和可见网格尺寸检查通过，前斜、侧面、俯视均进行了原生检查。不修改战局、导航、起飞、水面物理、碰撞、损伤、武器、单位表或关卡；也没有把已有的 F4U-1A、P-38J、TBM-1C、B-24D 重做或接入新场景。
+
+## 批次美术统一
+
+四款新模型共用同一套哑光蒙皮、舱窗蓝灰、五金与分缝材质。野马与 B-29 的自然金属外观通过色值区分，不切换到高反射材质；海军机仍保留蓝色涂装。野猫和卡特琳娜补了少量翼面分缝，B-29 的机身接缝降低对比和线宽。独立渲染对比使用同机位、灯光和裁切，复测尺寸未变。不改旧机型或战局。

@@ -41,6 +41,13 @@ func _verify() -> void:
 			_fail("Model measurable outline mismatch: "+slug+" "+str(bounds))
 		if not model.find_children("*","CollisionObject3D",true,false).is_empty():
 			_fail("Unexpected physics component in static model: "+slug)
+		var palette: Dictionary = model.get("paint")
+		var skin: StandardMaterial3D = palette.get("skin")
+		var glass: StandardMaterial3D = palette.get("glass")
+		if skin == null or not is_equal_approx(skin.roughness,.76) or not is_equal_approx(skin.metallic,.1):
+			_fail("Model did not adopt the batch satin skin: "+slug)
+		if glass == null or not is_equal_approx(glass.roughness,.29) or not glass.albedo_color.is_equal_approx(Color("355267")):
+			_fail("Model did not adopt the batch glazing: "+slug)
 		print(slug,": visible mesh count=",mesh_count," span_m=",snappedf(bounds.size.x,.01)," length_m=",snappedf(bounds.size.z,.01))
 		model.free()
 	quit(1 if failures > 0 else 0)

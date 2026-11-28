@@ -1,4 +1,4 @@
-extends "res://aircraft/us_archive/visual_parts.gd"
+extends "res://aircraft/us_archive/batch_airframe_finish.gd"
 ## Representative 1945 Pacific P-51D, static, clean airborne pose.
 ## Cosmetic geometry only. Source descriptions are in p51d.md.
 const LABEL: String = "P-51D Mustang / Pacific 1945"
@@ -41,16 +41,9 @@ const SCOOP_LIP: Array = [
 	[-.737,-.345,.393,.30,.368],[-.67,-.364,.422,.34,.392]]
 
 func _ready() -> void:
-	_set_paint(Color("a9b1b1"),Color("8b979b"))
-	paint.skin.metallic = .54
-	paint.skin.roughness = .58
-	paint.top.metallic = .54
-	paint.glass.albedo_color = Color("314e60")
-	paint.frame = GEO.material(Color("616e74"),.56)
-	paint.panel = GEO.material(Color("748184"),.48)
+	_set_batch_paint(Color("aeb9be"),Color("8d9da6"))
 	paint.olive = GEO.material(Color("4d5346"))
 	paint.mouth = GEO.material(Color("242b30"))
-	paint.silver = GEO.material(Color("a3afb6"),.58)
 	var hull: Node3D = GEO.group(self,"Fuselage")
 	_body(hull,"TaperedMetalShell",BODY)
 	_long_cowl(hull)

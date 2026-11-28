@@ -1,4 +1,4 @@
-extends "res://aircraft/us_archive/visual_parts.gd"
+extends "res://aircraft/us_archive/batch_airframe_finish.gd"
 ## Independent amphibian visual. Show retracted wheels with the wingtip floats down.
 const LABEL: String = "PBY-5A Catalina / Pacific, 1944"
 const SPAN_M: float = 31.699
@@ -32,8 +32,7 @@ const FLOAT: Array = [[-4.18,.02,.035,.05,.07],[-4.03,.05,.13,.105,.13],[-3.77,.
 @export var display_gear_down: bool = false
 
 func _ready() -> void:
-	_set_paint(Color("476278"),Color("b2b6ac"))
-	paint.glass.albedo_color = Color("587789")
+	_set_batch_paint(Color("577186"),Color("a3b0b3"))
 	paint.rubber = GEO.material(Color("252d31"))
 	var hull: Node3D = GEO.group(self,"SteppedAmphibianHull")
 	var wing: Node3D = GEO.group(self,"HighParasolWing")
@@ -51,12 +50,14 @@ func _ready() -> void:
 	for side: float in [-1.0,1.0]:
 		_wing(wing,"Mainplane",WING,side)
 		_wing(tail,"Stabilizer",TAIL,side)
+		_wing_hinge_line(wing,WING,side,8.64,14.85,.76,.023)
+		_wing_hinge_line(tail,TAIL,side,1.15,4.74,.72,.018)
 		_nacelle(wing,side)
 		_outrigger(wing,side)
 		_blister(hull,side)
 		_main_wheel(hull,side)
-		GEO.rod(wing,"ForwardWingBrace",Vector3(side*.97,.06,-4.59),Vector3(side*5.18,2.91,-4.23),.122,paint.bottom,.104)
-		GEO.rod(wing,"RearWingBrace",Vector3(side*1.03,.09,-3.18),Vector3(side*5.21,2.91,-2.28),.115,paint.bottom,.10)
+		GEO.rod(wing,"ForwardWingBrace",Vector3(side*.97,.06,-4.59),Vector3(side*5.18,2.91,-4.23),.122,paint.metal,.104)
+		GEO.rod(wing,"RearWingBrace",Vector3(side*1.03,.09,-3.18),Vector3(side*5.21,2.91,-2.28),.115,paint.metal,.10)
 		_star_bar(marks,"body",HULL,Vector2(5.45,.61),.44,side)
 	_star_bar(marks,"wing",WING,Vector2(-11.86,-2.90),.77,1.0)
 	_star_bar(marks,"wing",WING,Vector2(11.86,-2.73),.77,-1.0)
