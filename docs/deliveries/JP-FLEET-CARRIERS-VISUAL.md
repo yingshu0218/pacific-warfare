@@ -7,4 +7,9 @@
 | 加贺，改装后单层飞行甲板型 | 宽厚的改装舰体、较平直且宽的木甲板、偏前的右舷舰桥、后接突出并向外下翻的烟道外形、两端甲板下缘支架。 | [NH 73060，1934–36 改装结束后](https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-73000/NH-73060.html)；[NH 75483，约 1941 年 12 月](https://www.history.navy.mil/our-collections/photography/wars-and-events/world-war-ii/pearl-harbor-raid/japanese-forces-in-the-pearl-harbor-attack/miscellaneous-views-of-japanese-forces/NH-75483.html) |
 | 飞龙，1942 年代表状态 | 较窄且前后收尖的快舰轮廓、中段左舷叠层舰桥、对舷低置分段烟道外形、前后飞行甲板与船体轮廓分离。 | [NH 73063，1939-04-28 试航照](https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-73000/NH-73063.html)；[USAF 75712，1942-06-04 航拍](https://www.history.navy.mil/our-collections/photography/wars-and-events/world-war-ii/midway/USAF-75712.html) |
 
-加贺与飞龙的展品场景分别是 `scenes/ships/jp_fleet_carriers/kaga_visual.tscn`、`scenes/ships/jp_fleet_carriers/hiryu_visual.tscn`。每舰选做 12 处舷侧装饰展台；不是历史装备数量表。展台用游戏通用展示节点隔离转向块与俯仰块，不带可用组件、弹药、实战参数、战斗，也不宣称平台布置与档案的实舰精确一致。Godot 测试逐个摆动并回零全部 24 个展台，周围的展台及舰体不随之改变。原生截图检查了艏斜视、侧视、俯视及艉斜视。
+## 本轮分型修正
+
+- **加贺**：右舷前段舰岛增设后部信号室与下层观察窗；舷侧展品分为嵌于后段船壳的 10 个单管炮廓轮廓，以及较高平台上的 8 座双联轮廓和 6 座选做轻型装饰。低炮廓和高平台不是同一套造型。
+- **飞龙**：左舷舰岛增设舷外走道、后部斜肩及独立窗带。没有加贺式低位炮廓；独立做出 6 座较高的开放式双联轮廓及 6 座选做轻型展品。展厅把前者归入副炮展示分组，不表示实舰分类等同于加贺的低炮廓。
+- 档案比对补充：[历史配置对照，Ewa Plain Battlefield，表内 Hiryu 与 Kaga as reconstructed](https://dlnr.hawaii.gov/shpd/files/2015/05/HI_HonoluluCounty_Ewa-Plain-Battlefield.pdf)。旧照片用于确认可见的舰岛和舷侧关系；被遮挡的局部和轻型装备是简化表现，不承诺逐点测绘还原。只调整 Godot 展厅的造型和装饰检视，不接入战斗。
+- `tests/model_audit/test_jp_exhibit_refit.gd` 覆盖三舰的独立展品、左右舷、单管/双联分组、竖向错层和两艘航母的结构差别。整批用原生 Godot 渲染艏斜视、对舷艉斜视、侧近景和俯视后，统一跑展厅回归。

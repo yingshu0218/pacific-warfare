@@ -66,6 +66,7 @@ func _ready() -> void:
 	_foredeck()
 	_build_pagoda()
 	_build_waist()
+	_build_casemates()
 	_build_aft()
 	var major: Array[Vector3] = [Vector3(-65,0,1.15),Vector3(-45,0,4.03),Vector3(48,0,4.15),Vector3(70,0,1.20)]
 	for i: int in range(major.size()):
@@ -77,7 +78,7 @@ func _ready() -> void:
 			_display_mount("WaistGallery%s%d" % [("S" if sign>0 else "P"),j+1],"dedicated_aa",p,Vector3(2.4,.95,1.86),.3,Vector3(sign,0.,0.),2)
 	set_meta("visual_reference","Kure Maritime Museum / NHHC NH 73090")
 	set_meta("art_only",true)
-	set_meta("exterior_revision",2)
+	set_meta("exterior_revision",3)
 
 func _fixed_edges() -> void:
 	var rows := _stations()
@@ -170,6 +171,13 @@ func _build_pagoda() -> void:
 	for i: int in range(decks.size()):
 		var d: Vector4 = decks[i]
 		_bridge_level(d,i)
+	# Rounded bridge ends break away from the identical polygon floors.
+	_gallery("Lower forward navigation enclosure",Vector3(0,16.06,-29.05),10.38,1.57,6.92,_steel)
+	_gallery("Upper compact optical hood",Vector3(0,37.87,-24.55),7.8,1.44,5.24,_steel)
+	for sg: float in [-1.,1.]:
+		var p := Vector3(sg*5.5,27.62,-30.54)
+		_gallery("Offset shoulder lookout",p,3.38,1.09,2.78,_steel)
+		_gallery("Thin offset lookout roof",p+Vector3.UP*.62,3.63,.17,3.04,gray)
 	_octagon("Crowned director house",Vector3(0,42.08,-22.5),5.83,2.15,5.28,1.39,_steel,.86)
 	_gallery("Rounded top roof",Vector3(0,43.25,-22.34),5.28,.43,5.08,gray)
 	_spar("Peak aerial staff",Vector3(0,42.1,-21.5),Vector3(0,47.05,-21.5),.19,_steel)
@@ -284,11 +292,6 @@ func _build_waist() -> void:
 			_spar("Boat davit base",Vector3(side*7.9,10.61,z),Vector3(side*8.63,15.1,z),.13,_steel)
 			_spar("Boat davit bent arm",Vector3(side*8.63,15.1,z),Vector3(side*10.0,15.75,z),.118,gray)
 		_octagon("Side gallery landing",Vector3(side*12.3,10.93,-2.6),3.5,.45,8.8,.61,_steel)
-		for j: int in range(5):
-			var z := -28.4+float(j)*8.6
-			_octagon("Recessed broadside gallery",Vector3(side*12.94,8.15,z),3.25,2.62,4.4,.87,_steel)
-			_box("Shadowed gallery face",Vector3(side*14.59,8.01,z),Vector3(.065,1.21,2.62),glass)
-			_spar("Gallery lintel",Vector3(side*14.61,8.59,z-1.26),Vector3(side*14.61,8.59,z+1.26),.13,_upper)
 		for z: float in [-25.0,-15.6,-4.5,6.1,16.8,24.3]:
 			var p := Vector3(side*12.1,11.00,z)
 			_spar("Waist safety rail",p+Vector3(0,.87,-1.7),p+Vector3(0,.87,1.5),.09,gray)
@@ -298,6 +301,28 @@ func _build_waist() -> void:
 			var p := Vector3(side*11.6,10.67,z)
 			_octagon("Deck service drum",p+Vector3.UP*.29,1.52,.66,1.23,.31,gray)
 			_spar("Side footway rim",p+Vector3(side*.4,.62,-1.3),p+Vector3(side*.4,.62,1.3),.105,edge)
+
+func _build_casemates() -> void:
+	# Closed silhouette-only miniatures; no mechanics or firing.
+	_group = _layer("Broadside casemate exhibit row")
+	for side: float in [-1.,1.]:
+		for i: int in range(8):
+			var z: float = -33.6 + float(i)*8.78
+			var p := Vector3(side*12.82,_deck_height(z)+1.02,z)
+			var front := Vector3(side,0,0)
+			_octagon("Fixed casemate surround",p,3.12,2.40,3.82,.74,_hull_side)
+			_box("Recessed casemate aperture",p+front*1.42,Vector3(.15,1.55,2.48),glass)
+			_spar("Casemate brow",p+Vector3(side*1.54,.88,-1.23),p+Vector3(side*1.54,.88,1.23),.18,_steel)
+			_box("Embedded gallery shelf",p+Vector3(side*.70,-.89,0),Vector3(1.76,.39,3.35),_steel)
+			var pivot: Vector3 = p+front*1.40
+			var start: int = _group.get_child_count()
+			_disc("Inset curved decorative shield",pivot,.64,.39,front,gray)
+			var moving: Array = _group.get_children().slice(start)
+			start = _group.get_child_count()
+			_disc("Closed broadside silhouette",pivot+front*1.53,.14,3.16,front,_steel)
+			var outline: Array = _group.get_children().slice(start)
+			GUN.attach(self,"Casemate%s%02d" % ["S" if side>0 else "P",i+1],
+				"secondary",pivot,pivot,front,moving,outline)
 
 func _funnel() -> void:
 	var shell := SurfaceTool.new()
@@ -424,9 +449,9 @@ func _showcase_main_case(c: GCase) -> void:
 		surface.begin(Mesh.PRIMITIVE_TRIANGLES)
 		surface.set_smooth_group(-1)
 	var lower := PackedVector2Array([Vector2(-.38,-.52),Vector2(.38,-.52),Vector2(.50,-.37),
-		Vector2(.50,.36),Vector2(.34,.51),Vector2(-.34,.51),Vector2(-.50,.36),Vector2(-.50,-.37)])
+		Vector2(.50,.32),Vector2(.37,.52),Vector2(-.37,.52),Vector2(-.50,.32),Vector2(-.50,-.37)])
 	var upper := PackedVector2Array([Vector2(-.35,-.49),Vector2(.35,-.49),Vector2(.43,-.34),
-		Vector2(.43,.22),Vector2(.31,.30),Vector2(-.31,.30),Vector2(-.43,.22),Vector2(-.43,-.34)])
+		Vector2(.45,.09),Vector2(.32,.26),Vector2(-.32,.26),Vector2(-.45,.09),Vector2(-.43,-.34)])
 	for i: int in range(lower.size()):
 		var j: int = (i+1)%lower.size()
 		var a: Vector3 = c.center+side*lower[i].x*c.width+c.front*lower[i].y*c.length-Vector3.UP*c.height*.50
@@ -437,7 +462,13 @@ func _showcase_main_case(c: GCase) -> void:
 		_tri(top,c.center+Vector3.UP*c.height*.5,d,e,Vector3.UP)
 		_tri(shell,c.center-Vector3.UP*c.height*.5,a,b,Vector3.DOWN)
 	_commit("Faceted major display enclosure",shell,_steel)
-	_commit("Flat major display roof",top,_upper)
+	_commit("Flat major display roof",top,_steel)
+	for sign_dir: float in [-1.,1.]:
+		var p: Vector3 = c.center+side*sign_dir*c.width*.447+Vector3.UP*c.height*.22
+		_box("Low side sight recess",p-c.front*c.length*.10,Vector3(.12,.25,.82),glass)
+		_box("Side sight rain rim",p-c.front*c.length*.10+Vector3.UP*.19,Vector3(.17,.13,.96),_upper)
+		_spar("Casing lower edge",p-Vector3.UP*c.height*.61+c.front*c.length*.23,
+			p-Vector3.UP*c.height*.61-c.front*c.length*.36,.14,gray)
 
 func _deck_seams() -> void:
 	var seams := SurfaceTool.new()

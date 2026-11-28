@@ -46,7 +46,10 @@ func _ready() -> void:
 	_exhaust_art()
 	_hull_details()
 	_group = _layer("MuseumDisplayStations")
-	_display_stations()
+	if kaga:
+		_kaga_exhibit()
+	else:
+		_hiryu_exhibit()
 
 func _hangar_art() -> void:
 	var step := 9.0
@@ -129,11 +132,18 @@ func _bridge_art() -> void:
 	_octagon("Bridge eyebrow roof",p+Vector3(0,4.97,-1.12),wid+.62,.52,len*.91,.59,_steel)
 	if kaga:
 		_octagon("Compact forward viewing cupola",p+Vector3(0,5.91,-3.0),wid*.66,1.56,5.05,.55,_upper)
+		_octagon("Kaga stepped rear signal office",p+Vector3(0,3.08,4.72),4.28,2.82,4.68,.65,_steel)
+		_box("Kaga island lower forward glazing",p+Vector3(0,2.81,-6.41),Vector3(3.26,.43,.095),_glass)
 		_box("Short navigation shadow inset",p+Vector3(0,5.84,-5.55),Vector3(wid*.48,.56,.09),_glass)
 	else:
 		_octagon("Boxed upper bridge on port island",p+Vector3(-.11,6.10,-1.81),wid*.77,1.77,6.15,.52,_steel)
 		_box("Upper bridge windows",p+Vector3(-.1,6.30,-4.90),Vector3(wid*.53,.46,.075),_glass)
 		_box("Raised glasshouse cap",p+Vector3(-.11,7.16,-1.81),Vector3(wid*.83,.45,6.26),_upper)
+		_octagon("Hiryu angular aft island shoulder",p+Vector3(-.08,2.77,3.95),4.39,3.92,4.91,.72,_steel,.87)
+		_octagon("Hiryu forward outboard catwalk",p+Vector3(-wid*.56,3.35,-3.6),1.23,.23,5.83,.38,_steel)
+		_rail(p+Vector3(-wid*.66,3.47,-6.11),p+Vector3(-wid*.66,3.47,-.91),4)
+		for z: float in [-4.26,-3.45,-2.64,-1.83]:
+			_box("Hiryu island port upper window",p+Vector3(-wid*.39,6.24,z),Vector3(.095,.42,.48),_glass)
 	var m := p+Vector3(0,5.1,2.8)
 	var mast_top := 12.8 if kaga else 13.9
 	_spar("Slender mast spine",m,m+Vector3(0,mast_top-4.1,1.53),.42,_steel)
@@ -166,42 +176,78 @@ func _hull_details() -> void:
 			for dy: float in [0.0,.85]:
 				var keel_edge := _side_at(z,5.55+dy)
 				_box("Sunk shadow at bowside service panel",Vector3(side*(keel_edge+.025),5.55+dy,z),Vector3(.09,.31,.61),_dark)
-		if kaga:
-			for z: float in [40.,46.,52.,58.,64.,70.,76.,82.]:
-				var keel_edge := _side_at(z,5.72)
-				_box("Recessed lower stern weather aperture",Vector3(side*(keel_edge+.014),5.72,z),Vector3(.09,.71,1.26),_dark)
 		var m := Vector3(side*(_deck_half(stern)-1.0),flight_y-2.14,stern-2.9)
 		var q := m+Vector3(side*.16,5.8 if kaga else 7.6,1.8)
 		_spar("Aft thin signal mast",m,q,.23,_steel)
 		_spar("Aft signal crosspiece",q+Vector3(-1.5,-1.17,-.18),q+Vector3(1.5,-1.17,-.18),.11,_steel)
 
-func _display_stations() -> void:
+func _kaga_exhibit() -> void:
+	# Broadside low galleries and separate raised twin exhibits; closed art only.
 	for side: float in [-1.,1.]:
-		var suffix := "Port" if side < 0.0 else "Starboard"
-		var regular: Array = [-67.,-48.,67.] if kaga else [-68.,-49.,67.]
-		var small: Array = [-26.,47.,85.] if kaga else [-29.,48.,84.]
-		for j: int in regular.size():
-			_display_station("%s_Display%d" % [suffix,j+1],side,regular[j],false)
-		for j: int in small.size():
-			_display_station("%s_Detail%d" % [suffix,j+1],side,small[j],true)
+		var name_side := "Port" if side < 0.0 else "Starboard"
+		var front := Vector3(side,0,0)
+		for i: int in range(5):
+			var z: float = 50. + float(i)*8.2
+			var y: float = _deck_height(z)-1.18
+			var p := Vector3(side*(_side_at(z,y)+.08),y,z)
+			_octagon("Kaga inset hull casemate",p-front*.48,1.32,2.19,3.49,.48,_hull_side)
+			_box("Kaga dark casemate face",p+front*.21,Vector3(.12,1.49,2.29),_glass)
+			var pivot: Vector3 = p+front*.28
+			var start: int = _group.get_child_count()
+			var shield := _pipe("Kaga round casemate insert",pivot,.34,.61,.61,1.0,_steel)
+			shield.rotation.z = -side*PI*.5
+			var body: Array = _group.get_children().slice(start)
+			var spar := _pipe("Kaga closed single outline",pivot+front*1.59,3.29,.18,.13,1.,_steel)
+			spar.rotation.z = -side*PI*.5
+			GUN_RIG.attach(self,"Kaga_%s_Casemate_%02d" % [name_side,i+1],
+				"secondary",pivot,pivot,front,body,[spar])
+		var heavy: Array[float] = [-74.,-59.,59.,73.]
+		for i: int in range(heavy.size()):
+			var z: float = heavy[i]
+			_carrier_gallery_piece("Kaga_%s_Twin_%02d" % [name_side,i+1],side,z,
+				flight_y-(2.64 if i<2 else 3.38),1.0,"dedicated_aa",true,2)
+		for i: int in range(3):
+			var z: float = [-41.0,39.5,87.2][i]
+			_carrier_gallery_piece("Kaga_%s_Light_%02d" % [name_side,i+1],side,z,
+				flight_y-2.19,.57,"dedicated_aa",false,2)
 
-func _display_station(id: String, side: float, z: float, light: bool) -> void:
-	var scale_art := .60 if light else 1.0
-	var y := flight_y-(2.72 if light else 3.36)
-	var edge_x := _deck_half(z)
-	var p := Vector3(side*(edge_x+1.10*scale_art),y,z)
-	_octagon("Fixed gallery footing",p+Vector3(-side*.42,-.39,0),5.6*scale_art,.78,6.2*scale_art,.58*scale_art,_steel)
+func _carrier_gallery_piece(id: String,side: float,z: float,y: float,scale_art: float,role: String,shielded: bool,bars: int) -> void:
+	var edge_x: float = _deck_half(z)
+	var p := Vector3(side*(edge_x+1.06*scale_art),y,z)
+	var front := Vector3(side,0,0)
+	_octagon("Fixed side platform",p-front*.43-Vector3.UP*.28,5.2*scale_art,.51,5.9*scale_art,.79*scale_art,_steel)
 	for d: float in [-1.,1.]:
-		_spar("Gallery diagonal support",Vector3(side*(edge_x-2.1),y-2.25*scale_art,z+d*2.25*scale_art),p+Vector3(side*.78*scale_art,-.44,d*2.25*scale_art),.29*scale_art,_steel)
-	_pipe("Fixed display pedestal",p+Vector3.UP*.27,.54,.85*scale_art,.77*scale_art,1.0,_edge)
-	var before := _group.get_child_count()
-	_octagon("Moving stage housing",p+Vector3.UP*(.66*scale_art+.23),2.7*scale_art,1.27*scale_art,2.9*scale_art,.41*scale_art,_steel)
-	_box("Moving observation rim",p+Vector3(0,1.33*scale_art+.20,-.12),Vector3(1.76,.13,1.32)*scale_art,_upper)
-	var train_parts := _group.get_children().slice(before)
-	var pitch_parts: Array = []
-	var elevated := p+Vector3(0,.91*scale_art+.20,0)
-	for dz: float in [-.55,.55]:
-		var tube := _pipe("Inert rounded silhouette",elevated+Vector3(side*1.43*scale_art,0,dz*scale_art),2.88*scale_art,.154*scale_art,.104*scale_art,1.0,_dark)
-		tube.rotation.z = -side*PI*.5
-		pitch_parts.append(tube)
-	GUN_RIG.attach(self,id,"dedicated_aa" if light else "secondary",p,elevated,Vector3(side,0,0),train_parts,pitch_parts)
+		_spar("Visible platform bracket",Vector3(side*(edge_x-1.6),y-1.95*scale_art,z+d*1.40),
+			p+Vector3(side*.66*scale_art,-.37,d*1.40),.24*scale_art,_steel)
+	_pipe("Permanent circular plinth",p+Vector3.UP*.23,.42,.75*scale_art,.70*scale_art,1.,_edge)
+	var start: int = _group.get_child_count()
+	if shielded:
+		_octagon("Enclosed slanted display hood",p+Vector3.UP*(.24+.63*scale_art),
+			2.63*scale_art,1.11*scale_art,2.61*scale_art,.43*scale_art,_steel,.85)
+	else:
+		_pipe("Open tub deck insert",p+Vector3.UP*.39,.27,.94*scale_art,.92*scale_art,1.,_steel)
+		_box("Visible open mounting bracket",p+Vector3.UP*(.44+.52*scale_art),Vector3(.79,.71,1.25)*scale_art,_upper)
+	var body: Array = _group.get_children().slice(start)
+	var parts: Array = []
+	var pivot := p+Vector3.UP*(.44+.50*scale_art)
+	for n: int in range(bars):
+		var dz: float = (float(n)-(float(bars)-1.)*.5)*.87*scale_art
+		var item := _pipe("Closed decorative twin outline",pivot+front*1.34*scale_art+Vector3(0,0,dz),
+			2.81*scale_art,.15*scale_art,.10*scale_art,1.,_steel)
+		item.rotation.z = -side*PI*.5
+		parts.append(item)
+	GUN_RIG.attach(self,id,role,p,pivot,front,body,parts)
+
+func _hiryu_exhibit() -> void:
+	# Raised optical silhouettes only; no Kaga-style lower hull casemates.
+	for side: float in [-1.,1.]:
+		var name_side := "Port" if side < 0.0 else "Starboard"
+		var positions: Array = [-57.,-41.,68.] if side < 0. else [-59.,-43.,65.]
+		for i: int in range(positions.size()):
+			var z: float = positions[i]
+			_carrier_gallery_piece("Hiryu_%s_DualPurpose_%02d" % [name_side,i+1],side,z,
+				flight_y-(1.84 if i<2 else 2.43),.87,"secondary",false,2)
+		var light: Array[float] = [-72.,45.,84.]
+		for i: int in range(light.size()):
+			_carrier_gallery_piece("Hiryu_%s_Light_%02d" % [name_side,i+1],side,light[i],
+				flight_y-2.65,.48,"dedicated_aa",false,3)

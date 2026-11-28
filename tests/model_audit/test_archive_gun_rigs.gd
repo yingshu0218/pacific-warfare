@@ -52,7 +52,7 @@ func _run() -> void:
 		_check(rows[1].pose == Vector2.ZERO and first_pose.length() > .001, "Gallery edit changes one selection")
 		panel._select(0)
 		_check((rows[0].pose as Vector2).is_equal_approx(first_pose) and is_equal_approx(deg_to_rad(panel.pitch.value),first_pose.y), "Gallery recalls the previous station pose")
-	_check(ready_ships == 27 and archive_guns == 155, "All existing gun-bearing models are represented")
+	_check(ready_ships == 27 and archive_guns == 183, "All existing gun-bearing models are represented")
 	print("ARCHIVE_GUN_RIG checks=",checks," failures=",errors," ships=",ready_ships," newly_rigged_stations=",archive_guns)
 	gallery.free()
 	await process_frame

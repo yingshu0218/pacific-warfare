@@ -20,17 +20,23 @@ func _run() -> void:
 			problems.append(id + " no rigs")
 			continue
 		checks += 6
-		if ship.get_meta("exterior_revision",0) != 2: problems.append(id + " old exterior loaded")
+		if ship.get_meta("exterior_revision",0) != 3: problems.append(id + " old exterior loaded")
 		for part: String in ["Shaped single funnel shell", "Recessed dark funnel opening",
 			"Restrained longitudinal plank seams", "Stern crane upright"]:
 			if ship.find_child(part,true,false) == null: problems.append(id + " missing " + part)
 		if ship.find_children("Shaped bridge balcony *","MeshInstance3D",true,false).size() != 8:
 			problems.append(id + " bridge levels missing")
 		var rigs := pivots.get_children()
-		if rigs.size() != 10:
+		if rigs.size() != 26:
 			problems.append(id + " wrong rig count")
 		if ship.find_children("*","MeshInstance3D",true,false).size() < 200:
 			problems.append(id + " exterior missing")
+		var by_role := {"main":0,"secondary":0,"dedicated_aa":0}
+		for rig: Node3D in rigs:
+			by_role[rig.role] += 1
+		checks += 1
+		if by_role != {"main":4,"secondary":16,"dedicated_aa":6}:
+			problems.append("Wrong exhibit role split: " + str(by_role))
 		for rig: Node3D in rigs:
 			var housing: Node3D = rig.train.get_children().filter(func(n: Node) -> bool: return n != rig.pitch)[0]
 			var spar: Node3D = rig.pitch.get_child(0)
