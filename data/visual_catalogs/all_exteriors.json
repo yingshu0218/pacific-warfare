@@ -32,6 +32,10 @@
   {"id":"usfleet_honolulu","label":"火奴鲁鲁号 CL-48","date":"1942-10-26","kind":"ship","scene":"res://scenes/ships/us_fleet_cruisers/honolulu_visual.tscn","expected_length_m":185.42},
   {"id":"usfleet_sims","label":"西姆斯号 DD-409","date":"1942 初期代表状态","kind":"ship","scene":"res://scenes/ships/us_fleet_destroyers/sims_visual.tscn","expected_length_m":106.12},
   {"id":"usfleet_sumner","label":"艾伦·M·萨姆纳号 DD-692","date":"1944-03-26","kind":"ship","scene":"res://scenes/ships/us_fleet_destroyers/sumner_visual.tscn","expected_length_m":114.76},
+  {"id":"jpnew_kaga","label":"加贺号","date":"1942 · 中途岛时期","kind":"ship","scene":"res://scenes/ships/jp_fleet_carriers/kaga_visual.tscn","expected_length_m":248.96},
+  {"id":"jpnew_hiryu","label":"飞龙号","date":"1942 · 中途岛时期","kind":"ship","scene":"res://scenes/ships/jp_fleet_carriers/hiryu_visual.tscn","expected_length_m":227.3},
+  {"id":"jpnew_tone","label":"利根号","date":"1942 代表外观","kind":"ship","scene":"res://scenes/ships/jp_fleet_escort/tone_visual.tscn","expected_length_m":201.6},
+  {"id":"jpnew_akizuki","label":"秋月号","date":"1942 · 试航时期","kind":"ship","scene":"res://scenes/ships/jp_fleet_escort/akizuki_visual.tscn","expected_length_m":134.2},
   {"id":"jp_a6m5a_1944","label":"A6M5a 零战五二型甲","date":"1944-02 Model 52 Ko subtype; no individual airframe fixed","kind":"aircraft","scene":"res://scenes/units/aircraft/a6m5a_flight.tscn"},
   {"id":"jp_d4y2_model12_1944_10","label":"D4Y2 彗星","date":"1944-10","kind":"aircraft","scene":"res://scenes/units/aircraft/jp_d4y2_model12_1944_10.tscn"},
   {"id":"jp_g4m1_1942_07","label":"G4M1 一式陆攻","date":"1942-07","kind":"aircraft","scene":"res://scenes/units/aircraft/jp_g4m1_1942_07.tscn"},
@@ -44,5 +48,9 @@
   {"id":"b24d","label":"B-24D 解放者","date":"B-24D","kind":"aircraft","scene":"res://aircraft/b24d/b24d_visual.tscn"},
   {"id":"ki21","label":"Ki-21-IIa 九七重爆","date":"Ki-21-IIa","kind":"aircraft","scene":"res://aircraft/ki21_iia/ki21_visual.tscn"},
   {"id":"f4u1a","label":"F4U-1A 海盗","date":"1944-02 · VF-17","kind":"aircraft","scene":"res://aircraft/us_archive/f4u1a.tscn","expected_length_m":10.24,"expected_width_m":12.497},
-  {"id":"p38j","label":"P-38J 闪电","date":"西南太平洋代表涂装","kind":"aircraft","scene":"res://aircraft/us_archive/p38j.tscn","expected_length_m":11.7,"expected_width_m":15.8}
+  {"id":"p38j","label":"P-38J 闪电","date":"西南太平洋代表涂装","kind":"aircraft","scene":"res://aircraft/us_archive/p38j.tscn","expected_length_m":11.7,"expected_width_m":15.8},
+  {"id":"jpnew_ki43_ii","label":"Ki-43-II 隼","date":"1943 · 代表外观","kind":"aircraft","scene":"res://aircraft/jp_land_archive/ki43_ii.tscn","expected_length_m":8.92,"expected_width_m":10.84},
+  {"id":"jpnew_ki61_i","label":"Ki-61-I 飞燕","date":"早期一型代表外观","kind":"aircraft","scene":"res://aircraft/jp_land_archive/ki61_i.tscn","expected_length_m":8.74,"expected_width_m":12.0},
+  {"id":"jpnew_d3a1","label":"D3A1 九九舰爆","date":"1942 · 代表外观","kind":"aircraft","scene":"res://aircraft/jp_naval_archive/d3a1.tscn","expected_length_m":10.2,"expected_width_m":14.37},
+  {"id":"jpnew_b5n2","label":"B5N2 九七舰攻","date":"1942 · 代表外观","kind":"aircraft","scene":"res://aircraft/jp_naval_archive/b5n2.tscn","expected_length_m":10.3,"expected_width_m":15.52}
 ]
