@@ -49,7 +49,7 @@ Godot 实际可加载正式定义里的 **6 舰、6 机**，另有 2 类正式�
 
 独立外观新增 Ki-43-II 隼、Ki-61-I 飞燕、D3A1 九九舰爆、B5N2 九七舰攻；加贺、飞龙、利根、秋月。新舰已做独立的展厅炮位动作，未接入对局。见[四舰四机外观验收](deliveries/JP-PACIFIC-FIRST-EXTERIORS.md)。
 
-日军后续展厅追加：[长门号（1944 年外观）](deliveries/JP-NAGATO-EXTERIOR.md)，[Ki-84-Ia 疾风](deliveries/JP-KI84-ARCHIVE.md)。不接现有战局。
+日军后续展厅追加：[武藏号（1944 年 10 月外观）](deliveries/JP-MUSASHI-EXTERIOR.md)，[长门号（1944 年外观）](deliveries/JP-NAGATO-EXTERIOR.md)，[Ki-84-Ia 疾风](deliveries/JP-KI84-ARCHIVE.md)。不接现有战局。
 
 ## 1. 首版军舰
 
